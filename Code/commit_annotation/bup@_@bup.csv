@@ -1,0 +1,620 @@
+sha,message,date,result
+208bac0841a4ebead286eee7880c84dcbb6dba24,Add a README,2009-10-03 22:56:06-04:00,False
+2adae65e3968f0c1623874dba67995f29e164dbc,Add a README for v0.01.,2010-01-03 23:39:52-05:00,False
+db8aa7cc260711aadc6e9892d3653cfdc0360a86,Update the README to reflect recent changes.,2010-01-11 15:41:01-05:00,False
+24fb7867ac67fa7ee45fff12621db3be6c627fec,"Minor README format changes to make it markdown-compliant.
+
+That way it looks prettier on github.",2010-01-23 21:13:39-05:00,True
+5f0b1cf36d8001eabaf920aa55da4b5eb1d22f26,"Update README.md to reflect recent developments.
+
+- Remove the version number since I never remember to update it
+- We now work with earlier versions of python and MacOS
+- There's now a mailing list
+- 'bup fsck' allows us to remove one of the things from the ""stupid"" list.",2010-01-31 16:54:00-05:00,True
+ab6dfa597c32a0a9e8424da7350303eebb36dd7b,"README: bup now has more reasons it's cool and fewer not to use it.
+
+Clearly we're making some progress.  I look forward to a world in which
+we can finally delete the ""reasons bup is stupid"" section.",2010-02-09 17:30:56-05:00,False
+323d88a0f8adf681ea2c2aa6ddadc775ab37efc0,README: fix some capitalization and whitespace errors.,2010-04-06 22:53:15-04:00,True
+627ef35849fb22e415a9466c72f994c4cd8bd6fb,"README: add some suggestions from the LWN article.
+
+The article itself was here:
+https://lwn.net/Articles/380983/",2010-04-06 22:53:42-04:00,True
+42f8667f2ea063168d9a886dac1539665583b816,"README improvement.
+
+Be more specific about how to update the remote PATH.",2010-07-07 13:50:57-04:00,True
+4c173bc38b0bd7965c33eb125639146ca6e48ec7,"README: one less reason that we suck.
+
+bup fuse and bup ftp can rejoin large files nowadays, so remove that
+limitation from the README.
+
+Reported by koo5 @ github.
+
+Signed-off-by: Avery Pennarun <apenwarr@gmail.com>",2010-07-07 14:10:28-04:00,False
+f59e8c0068cc4edf36dc89b2399e5d41d64a3414,"README: typo.
+
+Noticed by Zoran Zaric.
+
+Signed-off-by: Avery Pennarun <apenwarr@gmail.com>",2010-08-01 23:24:33-04:00,False
+bab7b16b760ba1fd686f6f5b274fc8ba2ad360e2,"cmd/restore: embarrassingly slow implementation of 'bup restore'
+
+Well, that was easy, since vfs.py already existed and is doing most of the
+hard work.  Only 103 lines including all the log message handling and
+whatnot.
+
+Only one catch: the restoring code is definitely not optimized.  Among other
+things (like the probably-excessive-for-our-restoring-needs layering in
+vfs.py), we're still calling into 'git cat-file --stdin' to retrieve our
+objects.  This involves lots and lots of context switches, plus it can't use
+midx files for its lookups.  The result is that restoring takes much more
+CPU time and memory than it really should.  But oh well, we have to start
+somewhere.
+
+Signed-off-by: Avery Pennarun <apenwarr@gmail.com>",2010-09-08 03:20:38-07:00,False
+df8f681a18e029e491fe128904ccd5da5a11abe2,"README.md: give a suggestion for how to get more documentation.
+
+Based on a request on the mailing list that pointed out there was no obvious
+route from the README to the docs.
+
+Signed-off-by: Avery Pennarun <apenwarr@gmail.com>",2010-12-01 01:30:59-08:00,False
+2b25cc321b98c08ed67a3a4139a94b526892bf57,README.md: suggest using apt-get build-dep.,2010-12-17 23:14:15-08:00,True
+7599cd1b4016b54bccdd6aaab75dfb1b5867864f,"Add some notes on how to install bup on FreeBSD
+
+I've given bup a go on FreeBSD 8.1 and everything seemed to be
+functional.
+
+Some package names are not really obvious, and the default 'make'
+command doesn't like bup's GNU Make-ish Makefile. Add some notes in the
+README so that people can have some pointers on what to do to get bup
+fully functional under FreeBSD.
+
+Signed-off-by: Gabriel Filion <lelutin@gmail.com>",2011-01-09 18:02:14-08:00,True
+8e3764b0d962a112f463655a731bdbb3b9203ea8,"Henning Mueller reports that bup works on Solaris now.
+
+Signed-off-by: Avery Pennarun <apenwarr@gmail.com>",2011-01-25 19:11:35-08:00,False
+96a717d1968766efa7f399cec3277c1947272de4,"Add python-pyxattr as a dependency to the README
+
+Signed-off-by: Zoran Zaric <zz@zoranzaric.de>
+Signed-off-by: Avery Pennarun <apenwarr@gmail.com>",2011-03-10 18:40:54+00:00,True
+4227151e10b322a626e74d608bbf167478ae4527,"README: rework the title hierarchy
+
+In Markdown, a line underlining another one with '=' characters
+represents a first level title, while a line underlining another one
+with '-' characters represents a second level title.
+
+Rework the title levels to gain visibility on the different sections and
+to allow to split ""Getting started"" more easily (see my next commit for
+additions to this section).
+
+Signed-off-by: Gabriel Filion <lelutin@gmail.com>",2011-05-29 19:47:20-04:00,True
+081ca808cd950ff6d1249b5fe27d958b4bf9d559,"README: add a list of binary packages
+
+Debian/Ubuntu are known to have bup packages in their archives, thanks
+to Jon Dowland.
+
+Also, a NetBSD package is currently being built, as was shared by Thomas
+Klausner. However, it is still not found in the official NetBSD packages
+search engine.
+
+Signed-off-by: Gabriel Filion <lelutin@gmail.com>",2011-05-29 19:47:20-04:00,True
+dbdece1c32e33ffd976bf747e0f438214efd5b20,"Extend README for NetBSD.
+
+Add NetBSD to the list of systems on which bup is known to work.  Give
+hints for bup usage on NetBSD, including the location of the fuse
+bindings and the pkgsrc entry.  Caution about incorrect cycle
+detection on fuse mounts.  Add pkgsrc URLs.
+
+Signed-off-by: Greg Troxel <gdt@lexort.com>
+Reviewed-by: Gabriel Filion <lelutin@gmail.com>
+Reviewed-by: Rob Browning <rlb@defaultvalue.org>",2012-08-17 13:42:57-05:00,True
+8d3bda730545fc49d680752a273173e5f05ceeac,"Mention DESIGN in the README.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2012-08-17 13:42:58-05:00,False
+54dc58c23ff86dc7a09b30643d56319faa762851,"Update README regarding metadata support.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>
+Reviewed-by: Zoran Zaric <zz@zoranzaric.de>",2012-12-22 13:52:00-06:00,False
+4d060cff5d60ba982d18ee6a312564ebf8283a4a,"Add instructions for CentOS 6 to README.md.
+
+Thanks to Paul Schulz <pschulz01@gmail.com> for the information.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2013-01-09 20:21:54-06:00,True
+56b31156128142731f370d52393a3ad64552526c,"Add missing ""install"" argument to yum command in README.md.
+
+Thanks to Paul Schulz <pschulz01@gmail.com> for pointing it out.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2013-01-09 21:10:12-06:00,False
+fb3c9dbeddbc55eb1f9b2ca91f9f4ccc11c52607,"Note additional repositories that may be needed for CentOS builds.
+
+Thanks to Paul Schulz <pschulz01@gmail.com> for the report.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2013-01-12 13:59:57-06:00,True
+48c75f0f3f4c7b64b34c0c60d7e216a94424e65d,"Explain current installation process in README.md (i.e. ""make install"").
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2013-01-13 11:28:37-06:00,True
+82f3694685ad308609a50299a66d295df6c43202,"Note linux-libc-dev build dependency (for ext2_fs.h).
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2013-01-21 19:32:55-06:00,False
+a996c1fc377c567830db8f139ac9fadb0f144e84,"Add ./HACKING and refer to it from README.md.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2013-01-24 23:22:14-06:00,False
+6af2a745a8bd6d773460ec9701faff77e338862b,"Try to create a HACKING link in README.md.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2013-01-24 23:44:33-06:00,False
+07b5ccbf47a8d1084da3ffba4e876d85de847799,"Try again to create a HACKING link in README.md.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2013-01-24 23:47:48-06:00,False
+473ca23dfc0acaec3b7a91340d03981e4a1dc7b0,"Fix path to git repository in ./README.md.
+
+The repository at http://github.com/apenwarr/bup says to go here.
+
+Signed-off-by: Henrik Holmboe <henrik@holmboe.se>
+Reviewed-by: Gabriel Filion <lelutin@gmail.com>
+Reviewed-by: Zoran Zaric <zz@zoranzaric.de>",2013-01-25 21:46:29-06:00,False
+637bf18323c031f97883bd83fbdb9c8a8228f65d,"Move tree comparison to t/compare-trees; compare content by default.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>
+Reviewed-by: Zoran Zaric <zz@zoranzaric.de>",2013-01-27 16:29:33-06:00,False
+01b78348ca0f591aec84b31e3d7783bb4a4ae2e2,"Attempt to fix HACKING link in README.md.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2013-02-18 18:43:24-06:00,False
+014cdaff5d18ef054b57e4f0f540b6c75d35c0f1,"Officially drop support for Python 2.4.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>
+Tested-by: Alexander Barton <alex@barton.de>",2013-02-28 19:44:18-06:00,True
+85d324023ce70cce5762c096f1394c0a616afb85,"README.md: describe mmap problems with limited address spaces.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2013-05-25 16:24:58-05:00,False
+b574486fc69a8a7c13e50ff0070a30286bfe5f03,"t/compare-trees: don't check ACLs on Cygwin (no support).
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2013-05-27 12:28:51-05:00,True
+fc87ec3d1421032825ab509f56b0b24f58ae1ac5,"README.md: add Cygwin dependencies.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2013-05-27 12:28:51-05:00,True
+c02a2355857ea879d1b4817e2239903a8cc28fff,"t/test.sh: skip two ""tree SHA1 didn't change"" tests on Cygwin for now.
+
+Apparently Cygwin has some unusual behaviors with respect to access
+times, so disable these two tests for now.
+
+Possibly related: http://cygwin.com/ml/cygwin/2007-06/msg00436.html
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2013-05-27 12:28:51-05:00,True
+cdf77000f6f5c50aef378078465cadf1a783e968,"Completely disable ACL support on OS X for now.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2013-07-04 15:32:07-05:00,True
+abec0b53f642667e4e8453d043079c7e5c2ddbc5,"README.md: add a ""bup init"" step to ""Using bup"" since we killed auto-init.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2013-08-17 15:37:46-05:00,True
+9120a6b651bb05ad45464840dda38c0651df3bea,"README.md: fix typo; cited article is about 'git'.
+
+Signed-off-by: Phil Hord <hordp@cisco.com>
+[rlb@defaultvalue.org: adjust commit message.]
+Reviewed-by: Rob Browning <rlb@defaultvalue.org>",2013-11-01 16:48:46-05:00,False
+c40f86c1e1bbf1187b3890d6e4e46031f3cd7783,"README.md: change python-dev to python-devel for CentOS.
+
+Thanks to Gao Yongwei <itxx00@gmail.com> for the report.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2013-11-11 13:05:58-06:00,False
+985b17f45707fe3759ca13f005625934f5f63b4c,"Don't check ACLs in t/compare-trees on FreeBSD.
+
+Treat FreeBSD like Cygwin and Darwin (OS X) in t/compare-trees.  This
+should finish the process of disabling POSIX ACL support on FreeBSD
+that was started here: 349ff15c7db09883abc20bdf3e8a4df6bff12cd3.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2013-11-24 12:44:38-06:00,True
+04ccc00b30104e829385d0a337174b043129dfd5,"Revert ""Don't check ACLs in t/compare-trees on FreeBSD.""
+
+This reverts commit 985b17f45707fe3759ca13f005625934f5f63b4c.
+
+That should have been *NetBSD*.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2013-11-25 14:28:06-06:00,True
+55b24dc3ce7334d7a6f7e5978a2573298866e324,"Don't check ACLs in t/compare-trees on NetBSD.
+
+Treat NetBSD like Cygwin and Darwin (OS X) in t/compare-trees.  This
+should finish the process of disabling POSIX ACL support on NetBSD
+that was started here: 349ff15c7db09883abc20bdf3e8a4df6bff12cd3.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2013-11-25 14:31:28-06:00,True
+5a7fd007e89bb343ab2024d9a87d54bbee997bbf,"Update README.md for 0.25.
+
+Among other things, shift emphasis to index/save/restore over
+split/join.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2013-12-09 19:30:45-06:00,True
+aa653fc56bcad1fc5173451e334664f542e57ae4,"Remove ancient lib/tornado in favor of an external dependency.
+
+Our lib/tornado dates from over three years ago -- drop it in favor of
+an external dependency, and update the install instructions
+accordingly.
+
+Anyone trying to run ""bup web"" without tornado installed will see
+this:
+
+  error: cannot find the python ""tornado"" module; please install it
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2013-12-28 13:18:49-06:00,True
+94d8b31274a8fd63653f4bba12998d1d567fde98,"Mention par2 as one of the reasons you might want to avoid bup.
+
+(i.e. add it to the informal list of requirements)
+
+Thanks to James Lott <james@lottspot.com> for the suggestion.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2014-01-17 14:00:13-06:00,True
+684dd59989e3b2bbc505d29de61b03aec20bffa9,"Add acl and attr to Debian/Ubuntu build deps and default to python-2.7.
+
+This fixes a ""make test"" failure on Ubuntu 12.04.
+
+Signed-off-by: Dmitry Polushkin <dmitry.polushkin@gmail.com>
+[rlb@defaultvalue.org: adjust commit message; fix trailing whitespace.]",2014-02-17 11:45:56-06:00,True
+396199600a07987e1bcf2746cdd8add21a13b527,"Update README.md
+
+Make a backup to a remote server instead of Make a backup ON a remote server.
+
+Was very missleading.",2014-07-09 14:50:08+02:00,True
+646f4409fe52a5a6601b26ea73bea470caff04ff,"Correct claim about number of packs per backup
+
+The current sentence implies that there is only one pack file per backup
+run, which is not necessarily correct.
+
+Because of the ""constants"" max_pack_size and max_pack_objects that are
+used as limits to pack sizes, we may end up with more than one pack per
+backup if there is a lot of data that needs to be stored.
+
+Signed-off-by: Gabriel Filion <gabster@lelutin.ca>
+[rlb@defaultvalue.org: adjust commit summary]
+Reviewed-by: Rob Browning <rlb@defaultvalue.org>",2014-11-17 12:13:45-06:00,False
+623059602c4625e0207972177c860a31c2404288,add Arch Linux to list of known OSs with binary packages,2015-01-06 19:49:15-02:00,True
+ea80387c098944bcfe17f63ea156b31cea27dce8,"README.md: mention workaround for pwd test issue
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2015-04-25 10:30:30-05:00,True
+f64a1a3c8fa93e04f4849735656a1c833960a2eb,"README.md: consistently refer to ""make test""
+
+Thanks to Patrick Rouleau for reporting the inconsistency.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2015-04-26 12:03:28-05:00,True
+dd5a15fbaefe675afe22859e8d2cabd362402b6e,"README: prefer ""init -r""  to ""ssh ... bup init""
+
+Recommend 'bup init -r SERVERNAME:PATH' instead of 'ssh SERVENAME bup
+init'.
+
+Update the example of making a backup to a remote server in README.md.
+Replace 'ssh SERVENAME bup init' with 'bup init -r SERVERNAME'. The
+latter doesn't only initialize the remote repository, but also the local
+one (if it doesn't exist).  Augment 'bup {init,save} -r SERVERNAME'
+commands with the path specifier to show the ability to specify the
+remote path.
+
+Signed-off-by: Tadej Janež <tadej.j@nez.si>
+Reviewed-by: Gabriel Filion <gabster@lelutin.ca>
+[rlb@defaultvalue.org: shorten/adjust commit summary; adjust and change
+ tense of commit message.]
+Reviewed-by: Rob Browning <rlb@defaultvalue.org>",2015-05-09 12:49:53-05:00,True
+7e0fcaa5b28eb1aa022a59e5056679e7854070b9,"Configure python, use it, and embed during install
+
+Search for a ""reasonable"" python in ./configure (or respect PYTHON), and
+use that to create a source tree cmd/python-cmd.sh that all of the
+relevant invocations in the source tree respect.
+
+During install, rewrite all of the relevant #! lines to refer to the
+./configure selected Python.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>
+Tested-by: Rob Browning <rlb@defaultvalue.org>",2015-12-12 13:31:07-06:00,True
+cad619e5eaace4b576ed6c9dc21d76cdb6bfec13,"README: add info about Fedora package
+
+Signed-off-by: Tadej Janež <tadej.j@nez.si>
+Reviewed-by: Rob Browning <rlb@defaultvalue.org>",2016-01-04 21:22:14-06:00,True
+3872c5c79d60ff7a5b4a48dac055447dc8c257aa,"rm/gc: update README and mention testing in bup-gc(1)
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2016-04-03 12:15:47-05:00,False
+52a06ec40c1c56d39292abffce5ee6133365852b,"README: update deps, platforms, related projects
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2016-04-03 12:57:10-05:00,True
+cad3c11dc6f6a9e6c2037ee15e60091649626719,"Add note/0.28-from-0.27.md and mention in README
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2016-04-03 13:18:03-05:00,False
+6bb5a4f864c6d21cc8151e4c0917755637be8bf9,"Add note/0.27.1-from-0.27.md and mention in README
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2016-05-19 21:38:04-05:00,False
+017af24d11d45541dd20d48568588650cc5ed598,"Update HACKING and README for 0.28
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2016-05-24 18:13:56-05:00,False
+d926749abdfe849117bf95c721d6f1858fef1d12,"Add note/0.28-from-0.28.1.md and mention in README
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2016-06-12 11:19:26-05:00,False
+72edce24b4082e164e3a2fe046b168659eb057f6,"README: git clone with https
+
+Clone via https:// rather than git:// since it's more widely accessible.
+
+[rlb@defaultvalue.org: augment commit message]
+Reviewed-by: Rob Browning <rlb@defaultvalue.org>
+Tested-by: Rob Browning <rlb@defaultvalue.org>",2016-07-02 12:58:30-05:00,False
+262cb310220bd689d2e26eeb0d9188f692fa6d51,"Require Python 2.6 or newer
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2016-09-10 10:58:56-05:00,True
+db580dd7b402f31a2b18e1e1ee261fedc57b0d4a,"Fix default PREFIX in README file
+
+Signed-off-by: Julien Sanchez <julien.sanchez@gmail.com>
+Reviewed-by: Rob Browning <rlb@defaultvalue.org>",2016-11-23 10:59:07-06:00,True
+bb359bb5d4fa8138dcc8b80a3047b98707aa9bf6,"Add note/0.29-from-0.28.1.md and mention in README
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2016-12-26 12:50:31-06:00,False
+1ac1aa05017832ee731461aa382d89d0847c582c,"Add note/0.29.1-from-0.29.md and mention in README
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2017-03-26 17:24:25-05:00,False
+fbe7649964c30ef12a7622cfad63dedbde9ec85a,"pwd may not be in /bin, so change /bin/pwd to pwd
+
+For example, pwd is not in /bin in NixOS.
+
+Thanks to Ben Kelly for reporting the issue.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>
+Tested-by: Rob Browning <rlb@defaultvalue.org>",2017-04-01 13:17:00-05:00,False
+e5694a4dd6289d29d40e59ba3ca69bbb0cd2449d,"Add restore from remote: ""bup restore -r host:path ...""
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>
+Tested-by: Rob Browning <rlb@defaultvalue.org>",2017-10-08 12:26:54-05:00,True
+e55fed0f6a965a1c625f5282e164f82bb888c78b,"Support remote listings: bup ls -r ...
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2017-12-17 18:59:12-06:00,True
+f45f03ce65b7d9ca1c9801ffa6f14468d80a1f72,"Ignore mincore when it returns ENOSYS
+
+Observed on WSL.  Thanks to Levent Dane <leventdane@gmail.com> for
+reporting the problem and helping test the fix.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2018-01-15 14:04:54-06:00,True
+f9f52d51c510257f07bea9ef90dfb677b2aa9073,"README.md: recommend the stable release when building from source
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2018-03-12 20:09:48-05:00,True
+34bdf9acc4bd85643159b79c600ed2ef26d5b47b,"README: update minimum git version to 1.5.6
+
+Given the changes in db8a2b95e2cc44f7070ae6ac0bbc086e51696c72
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2018-07-29 13:39:43-05:00,False
+2ad655132f31ad33beda90211cbc29c7725b1e36,"README: fix outdated comments about LWN and about reliability
+
+Thanks to matkoniecz for bringing them up.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2018-07-29 13:44:44-05:00,False
+f6c8fc1320dddeb10b4dd6d5c27e3af8b6a00b60,"README: replace du code example's tab prefix with spaces
+
+The command wasn't rendered as code before this change.
+
+Signed-off-by: Mateusz Konieczny <matkoniecz@gmail.com>
+[rlb@defaultvalue.org: adjust commit message]
+Reviewed-by: Rob Browning <rlb@defaultvalue.org>",2018-08-11 15:32:11-05:00,True
+9ab8ad0b239de1cb788a069ff00c2ec94dd05490,"README: mention BUP_DIR config more clearly
+
+Thanks to Mateusz Konieczny for the suggestion.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2018-08-18 15:12:13-05:00,True
+571ba6ebc82c366992e3b33c2cc4a5fadbb4dae3,"Update HACKING, README, and note/ for 0.29.2
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2018-10-28 13:25:37-05:00,False
+2e4e894f4544bc16cda9511b84155b3d5643d5a8,"Add bup get; see the documentation for further information
+
+WARNING: this is a new EXPERIMENTAL command that can (intentionally)
+modify your data in destructive ways.  Treat with caution.
+
+Thanks to Karl Kiniger <karl.kiniger@med.ge.com> for helping track
+down various bugs in earlier versions, and for noting that we might
+want --verbose to be a little more effusive.  And thanks to Patryck
+Rouleau <prouleau72@gmail.com> for suggesting improvements to the
+documentation.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>
+Tested-by: Rob Browning <rlb@defaultvalue.org>",2019-03-03 17:44:19-06:00,True
+5650910803b9d342054e27da888f3343c1c56087,"Add cirrus.yml to enable testing on cirrus-ci.com
+
+Start with Debian, FreeBSD, and macOS.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>
+Tested-by: Rob Browning <rlb@defaultvalue.org>",2019-08-23 20:56:11-05:00,False
+3956354abb777620d4a48588a34d328f2e869578,"README: move test statuses to table listing all active branches
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2019-08-25 12:02:09-05:00,False
+323867ce9fe07dd9bc2b15733170d88e153649a2,"Update HACKING, README, and note/ for 0.29.3
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>
+(cherry picked from commit 3359ed35580a43d85f08d3ff233628d4c3601707)",2019-09-28 12:38:20-05:00,False
+2d31b9d8defbacb19934bcfc5388e1d9815e67d2,"Update HACKING and README for 0.30
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2019-09-28 12:39:20-05:00,False
+8b928466c85044fba33e05c34c9905811aade38a,"README: fix typo (missing 'e')
+
+[rlb@defaultvalue.org: adjust commit summary]
+Reviewed-by: Rob Browning <rlb@defaultvalue.org>",2019-11-29 15:23:28-06:00,True
+cb23ba7502f3d9b8c266d3e214b34ae1fc3372ba,"Add syntax highlighting to readme
+
+Signed-off-by: Zev Eisenberg <zev@zeveisenberg.com>",2019-12-22 13:12:13-06:00,True
+03c98e4660d8ae2a817eec191b1dfd5df53b7503,"Update HACKING and README for 0.30.1
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2020-06-19 14:39:10-05:00,False
+093752b42c5548028c6f84c67f7741b2321c512f,"README: add 0.30.x to CI status table
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2020-06-19 14:39:42-05:00,False
+9277b335d0be832b19f95f5f77f0c3bd29362a5b,"Wrap readline oursleves to avoid py3's interference
+
+We don't want Python to ""help"" us by guessing and insisting on the
+encoding before we can even look at the incoming data, so wrap
+readline ourselves, with a bytes-oriented (and more direct) API.  This
+will allows us to preserve the status quo for now (and maintain parity
+between Python 2 and 3) when using Python 3 as we remove our LC_CTYPE
+override.
+
+At least on Linux, readline --cflags currently defines _DEFAULT_SOURCE
+and defines _XOPEN_SOURCE to 600, and the latter conflicts with a
+setting of 700 via Python.h in some installations, so for now, just
+defer to Python as long as it doesn't choose an older version.
+
+Thanks to Johannes Berg for fixes for allocation issues, etc. in an
+earler version, and help figuring out the #define arrangement.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>
+Signed-off-by: Johannes Berg <johannes@sipsolutions.net>
+Tested-by: Rob Browning <rlb@defaultvalue.org>",2020-06-21 11:20:58-05:00,True
+938537c3a9bb76cfa7d62f931ffee0ff3359aa55,"Stop forcing LC_CTYPE=ISO-8859-1
+
+Now that we've made adjustments to work around all the Python 3
+problems with non-Unicode data (argv, env vars, readline, acls, users,
+groups, hostname, etc.), and added randomized binary path and argv
+testing, stop overriding the LC_CTYPE since that should no longer be
+necessary.
+
+Thanks to Johannes Berg for nudging me to consider whether we might
+now be in a position to do this (with a bit more work), and for quite
+a bit of help getting all the precursors in place once we thought it
+was feasible.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>
+Tested-by: Rob Browning <rlb@defaultvalue.org>",2020-07-05 11:16:22-05:00,False
+4d61a6859cf2c1c4385fd8ffd3cf3cac43ea525c,"metadata: port ACL support to C
+
+Use some own C code instead of the posix1e python bindings, as those
+don't have correct 'bytes' support (at least right now), which means
+that we cannot use them with arbitrary file, user and group names.
+Our own wrappers just use 'bytes' throughout.
+
+Signed-off-by: Johannes Berg <johannes@sipsolutions.net>
+[rlb@defaultvalue.org: adjust to rely on pkg-config]
+Reviewed-by: Rob Browning <rlb@defaultvalue.org>
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>
+Tested-by: Rob Browning <rlb@defaultvalue.org>",2020-07-05 11:16:22-05:00,True
+dfbe000058ead210a06aed3447554301ef247e85,"Use pkg-config opportunistically
+
+Use pkg-config's --cflags and --libs when they're available for
+libreadline or libacl, but don't require pkg-config.  When it's not
+found, just check for the libraries with a test compile.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2020-07-05 11:16:23-05:00,True
+2b58b394402bdf17760b01673db155deea6a0736,"Update HACKING and README for 0.31
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2020-08-22 12:10:47-05:00,False
+88f7fbebef60f0d8e5ebae8579cd249be6331ea3,"tests: move all tests to test/
+
+Instead of having some testing code interleaved with bup's
+real code in lib/bup/test/ and lib/bup/t/ move everything
+related to testing into test/, which is also renamed from
+just t/.
+
+This aligns with pytest for future changes, and, almost more
+importantly, cleans up the lib/ directory to only have the
+operational code.
+
+The latter is necessary to properly 'libify' bup in order to
+be able to use tox properly to test with different versions
+of python in venv later.
+
+Signed-off-by: Johannes Berg <johannes@sipsolutions.net>
+Reviewed-by: Rob Browning <rlb@defaultvalue.org>
+
+[rlb@defaultvalue.org: also move utilities like compare-trees to dev/;
+ make test/lib a test-specific module tree and have wvtest.py include
+ it; use test/ext/ and test/int/ (external and internal) as the test
+ dir names.]
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>
+Tested-by: Rob Browning <rlb@defaultvalue.org>",2020-11-26 15:53:09-06:00,True
+fe6ea219ba2f8f9ce18e0399581ff7f4602a8760,"Move ext/test.sh to ext/test-misc to match test-* pattern
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2020-11-26 15:53:09-06:00,True
+63c1a8c02851b74309676588123d49710e1ecb29,"Autodetect xdist and translate make -j to xdist -n
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2020-11-26 15:53:09-06:00,True
+8ab02ae782a1bc6e28cd0719d66c8ae51920ade0,"README: reflect report that WSL works fine
+
+Thanks to William Stein for the update.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2020-12-19 16:31:55-06:00,True
+efbaea5c098900d624b175460eec150be32638a0,"Mention homebrew installation
+
+Signed-off-by: Gustavo Nunes Goretkin <gustavo.goretkin@gmail.com>",2020-12-19 16:32:04-06:00,True
+ec26ee2a6b6427e929b7fee2318320c495a2a0aa,"README: update build requirements for Centos
+
+Some package names have changed, so building bup was problematic.
+
+Signed-off-by: Daniel Pawlik <dpawlik@redhat.com>
+[rlb@defaultvalue.org: adjust commit message]",2020-12-19 18:48:45-06:00,True
+8b7129a1147ad50a3df5c069e86a1d2f06add8a8,"Prefer python 3, and mention intent to drop python 2 support
+
+For now, set the minimum supported 3 version at 3.7 since I just
+tested that on a debian/buster system, and update the installation
+instructions after seeing what was required to run the tests from
+scratch there.  Continue to search for 3.6 and 2.6 for now, since no
+one's complained, and we can always lower the requirement later if it
+seems appropriate.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>
+Tested-by: Rob Browning <rlb@defaultvalue.org>",2020-12-23 19:09:28-06:00,True
+95662d62794c45b34eae35fe886a68e0e3d641ee,"README: add markdown mode indicator
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2021-01-05 19:38:01-06:00,False
+fce6e1018da3837c2fc6d0dc7143c2fbadc6794c,"Update README, HACKING, and release notes for 0.32
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2021-01-09 16:09:35-06:00,True
+4d9dd65141326b0f3ffa1658a0535348940ed017,"Convert top level executables to binaries and clean up clean
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2021-03-27 14:44:02-05:00,True
+7a71d57b7913b29b4afd600690fad709f86caf10,"README: mention #bup
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2021-05-28 12:36:47-05:00,False
+4e476fd0d35e0a13a09830d8e3f068c871fc4016,README: fix IRC links and add a list mailto,2021-05-28 13:57:19-05:00,False
+696ab149f143b3bc76576d00ec34dd93c9b1762d,"README: fix irc web interface link typo
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2021-05-28 14:11:40-05:00,False
+77a814bbb8f2a2d967375248b66729f0f9c7c66b,"README: use normal markdown link for ircs
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2021-05-28 14:13:50-05:00,False
+9e5dd98e548d0d83c5a4a8b5f8718e21f1715d7e,"README: don't use a markdown link for irc at all
+
+...since it's currently rendered in a way that hides all the useful
+information.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2021-05-28 14:18:52-05:00,False
+51e0158c85a3519be1b3bc5ac4f1349f5010923c,"README: fix and simplify cirrus badges
+
+Fix broken links (given the recent task name changes), and stop
+reporting per-platform status since each one may have multiple tasks.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>
+Tested-by: Rob Browning <rlb@defaultvalue.org>",2021-09-12 15:36:46-05:00,False
+c8af075fbf5fe45ceaf411dc01f7016290e8d794,"Drop support for python 2
+
+Don't make broad, disruptive changes for now, but disallow python 2 in
+./configure, adjust the docs, and remove code where it's unlikely to
+cause conflicts with other pending changes.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>
+Tested-by: Rob Browning <rlb@defaultvalue.org>",2022-01-16 14:21:20-06:00,True
+571e384c8e0e0e434fc6b8c1db1ede2c419094ab,"Respect/prefer/remember user specified CPPFLAGS/CFLAGS/LDFLAGS
+
+While we remembered a configure-time CC, we didn't do the same for
+other common user specified build variables, i.e. CPPFLAGS, CFLAGS,
+and LDFLAGS.  Fix that, and arrange for the user's values to come
+last so that they can override the configuration values.
+
+This matches expectations established by other tools, in particular
+autoconf/automake, and avoids having to remember to specify overrides
+to every invocation of make.
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>
+Tested-by: Rob Browning <rlb@defaultvalue.org>",2022-06-25 13:26:11-05:00,True
+20e422f71dac6c978dd0d06bf14554d621ae7f9e,"README: describe fuse module requirements
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2022-07-01 14:16:51-05:00,True
+98f07d3a4e762295089235da2c0afe08d3953e58,"Update README, HACKING, and release notes for 0.33
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2022-10-16 15:49:13-05:00,True
+1bd7a2778b85578b5f854b1fb942b512a3ada33c,"README: update Cygwin instructions
+
+Also, add a note that the git version must support checking out
+symlinks.
+
+Signed-off-by: Moritz Lell <mlell08@gmail.com>
+Reviewed-by: Rob Browning <rlb@defaultvalue.org>
+[rlb@defaultvalue.org: adjust commit message and instructions a bit]
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2022-12-30 15:22:24-06:00,True
+212ffab13304085d8514b0942503ec9d47832fc7,"README: move platform specific build instructions to new section
+
+Signed-off-by: Rob Browning <rlb@defaultvalue.org>",2022-12-30 15:58:10-06:00,True

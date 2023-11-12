@@ -1,0 +1,64 @@
+sha,message,date,result
+ffae96de9dcc3ac7335d1909779515d43eced33a,Add README and LICENSE,2020-07-28 12:31:50+08:00,TRUE
+ad6eeb0fa69635386a436ae732e33b1a0ee50b1b,[mysql][postgres] Rename MySqlBinlogSource and PostgreSqlChangelogSource to MySQLSource and PostgreSQLSource,2020-07-31 22:18:07+08:00,FALSE
+bc0ef84861f33d2b0b36e4b1f2d4b6ca099d207a,Update README.md,2020-08-04 20:20:11+08:00,TRUE
+2ea391b19d0377cf604317452399cda098be3a6b,Update README,2020-08-16 23:51:04+08:00,FALSE
+a2dea76d96b4938cab0d3fcb834e375e691330de,Update README.md,2020-09-08 11:25:36+08:00,FALSE
+2dfb59f3c783d8bc56b25a72517aa5589451cb85,[build] Bump up Flink version to 1.12.1 (#95),2021-02-24 15:20:16+08:00,TRUE
+116cea690db4fc78814792c2383814f7e237e114,[mysql] Minor code improvement,2021-02-27 23:21:24+08:00,TRUE
+e9e78f10d6dce21b3707f083a61ec1311ef15f77,"[mysql] Refactor class names to use ""MySql"" prefix instead of ""MySQL""",2021-07-21 10:22:10+08:00,FALSE
+8162dc7ae3c401bc155bd7516efd2095677d0c2f,[build] Rename group.id and packge name from 'com.alibaba.ververica' to 'com.ververica' (#287),2021-08-05 13:08:21+08:00,TRUE
+98835f3b89680ed0548cc83881ab9c600f53d8e4,[doc] Add documents for flink-cdc,2021-08-06 15:46:56+08:00,TRUE
+fa774c86d24e4fede1f429423bb49bb94ece12a6,[doc] Add readme and support markdown list,2021-08-06 21:00:11+08:00,TRUE
+db4215292ba987ba6a748c26dccc5f3c761803db,[doc] update the supported connector version and link,2021-08-11 14:45:28+08:00,TRUE
+7da7dbdcb22fa7c143467ca60da9f123e6810a7c,[docs] Update DingTalk group picture size in README.md,2021-08-11 22:36:14+08:00,FALSE
+047706ea6a7d41adacf02d93155fe2ad6fcb3d8a,[docs] Fix the broken link in readme,2021-08-30 16:35:24+08:00,FALSE
+40a037d9fc06b83f675da93e64b7c3cc7bf1fcb3,[mongodb] Support MongoDB CDC connector (#225),2021-09-10 18:21:46+08:00,TRUE
+bbd2870b08630c0912a2b6bc826868f81617d37e,[docs] Correct DataStream API usage in document examples,2021-09-22 18:39:02+08:00,FALSE
+890ac423dca61d88e8c47458b159f6dc0e784907,[docs] Update the dependency version to 2.1.0,2021-09-23 21:31:19+08:00,TRUE
+5beaeaf07c8affc1fec5d81722d355912ce1151a,[docs] Use more generic term 'transaction logs' in README,2021-10-09 16:42:26+08:00,FALSE
+9cf48a371480ecc7edf2ce035bc3b3136ffca842,[docs] Use SNAPSHOT version dependency in master documentation (#497),2021-10-13 15:30:30+08:00,TRUE
+5ce7adb619c3476b3101951c45508cfaea7da701,"[mysql] Expose MySqlSource API that supports incremental snapshot (#495)
+
+Co-authored-by: Jark Wu <jark@apache.org>",2021-10-13 22:31:42+08:00,FALSE
+98ab02fed246a3294fbd10a87126b3b3e82a3010,"[docs] Use new MySqlSource API in documentation
+
+Co-authored-by: Leonard Xu <xbjtdcq@gmail.com>",2021-10-15 12:35:12+08:00,FALSE
+e79ac93f28cb8026873de4cec438aa2ef0faed3c,[docs] Add Oracle support in README,2021-10-27 00:17:50+08:00,TRUE
+6174c7e690e875eb6a105a82520cfd2225e52f8a,[build] Bump version to 2.2-SNAPSHOT,2021-11-15 14:47:23+08:00,TRUE
+38ba603c1aea099dfb6346d37fe9d2f0c3a102dd,"[docs][sql-server] Add sqlserver-cdc connector tutorial (#687)
+This closes #687.",2022-02-21 17:39:16+08:00,TRUE
+35f0a787daf0f29ad491eab1082536173a062b0d,[hotfix][docs][mongodb] Update supported mongodb versions in README.md,2022-02-21 17:39:17+08:00,TRUE
+0cba7c2a57e0c08ae85191651757d135b3d7db8a,"[docs] Update DingTalk QR code to English version (#950)
+
+This closes #950.",2022-03-15 18:05:22+08:00,FALSE
+5ab71318fda37eb4b8b71d62a712631cca47e696,[docs] List  supported databases in docs (#954),2022-03-16 20:23:30+08:00,TRUE
+b7534ee48d835457ab6bb2f9b53b0d54c8d9afa7,[docs][oceanbase] Add docs for OceanBase CDC connector,2022-03-23 11:32:00+08:00,TRUE
+7ad375643ca0b6aea5a8110bb4d29e9ae16c091d,"[docs][tidb] Add tidb cdc connector document
+
+This closes #959.",2022-03-23 13:50:57+08:00,TRUE
+996c44631703182420d1b9bbd200e562146bfc82,[docs] Organize the connector docs in alphabetical order,2022-03-23 15:45:09+08:00,TRUE
+2f724f3b5f037af7d9f8de7b33702acdc3da3ad8,[docs][mysql] Correct the jdbc driver version in documentation,2022-03-23 15:47:19+08:00,TRUE
+b2ddad7316a0cbe67e6b01ea3a89bf47d8e52c47,[docs] Adopt the full name 'Apache Flink' with its trademark notice (#988),2022-03-23 17:31:43+08:00,TRUE
+60d15fb56672a9b3f409f744d2c49abf76db6d59,clarify ownership to comply with ASF trademark policies (#1000),2022-03-24 17:03:48+01:00,TRUE
+39b41f935aa8be8c93950fa8aa03573c821ad8c7,[hotfix][docs] Fix markdown title due to typo in readme,2022-03-25 01:38:07+08:00,TRUE
+3ef4f2fa3114748424949063b92dc3b901bddc61,[cdc-base] Improve the Incremental Snapshot Interfaces,2022-03-27 13:30:55+08:00,FALSE
+2b71309582f0e38ee048cb9dd64fdcde4c684f4e,[cdc-base] Add MySQL Incremental Source to validate the Incremental Snapshot Framework,2022-03-27 13:30:55+08:00,FALSE
+6a8543f8ddb18d93edcf79e057558b6999b0ace1,[docs] Update the supported database vendors and improve the notes.,2022-03-27 15:24:36+08:00,TRUE
+1d7fdac24e417499a67413e8d3dbe22292058fc3,[build] Bump version to 2.3-SNAPSHOT,2022-03-27 15:40:08+08:00,TRUE
+eccd748287e81fcfab4b76d1a4da998995824aa6,[sqlserver] Add more supported(tested) SqlServer versions (#1050),2022-04-06 16:44:26+08:00,TRUE
+b89c80d6673cf3405a999745848aa5f96ab9dd21,[tidb] Test TiDB 6.0.0 and add it to supported list (#1057),2022-04-08 18:24:31+08:00,FALSE
+59b310a24c20907ff906a8aa0ae8debd41a079f0,[common] Bump debezium version to 1.6.4.Final,2022-04-15 20:31:55+08:00,TRUE
+be4249156ee35672edaaa8c7b664fba51ca45a02,"[oceanbase] Introduce more config options of log proxy and improve the oceanbase connector(#1234)
+
+This PR closes #1202 and #1287.
+
+1.Add logproxy.client.id, config-url and working-mode params for libobcdc
+2.Fix timezone config for change events reading.
+3.Sort class fields in order of [common properties -> snapshot properties -> change events properties]
+4.Use official docker image in tests.
+5.update logproxy-client to 1.0.5",2022-07-01 21:59:11+08:00,TRUE
+15392e8f84e4ca2668351ade78fbd6a8f3ab199d,[docs][db2] Add db2 to README.md (#1699),2022-11-05 15:49:10+08:00,TRUE
+a7f1970e1f1b7296bbc73baed205f53d05d79402,[build] Bump version to 2.4-SNAPSHOT,2022-11-07 13:48:10+08:00,TRUE
+2e3f086553310cf2ddf01bd349bb3122a6f19719,[postgresql] Upgrade postgresql driver from 42.2.26 to 42.2.27 to avoid CVE-2022-41946 (#1773),2022-12-05 21:54:44+08:00,TRUE
+a5b195cce9cf853d253863eb6548dddc5d62f95c,[docs] Update the outdated DingTalk QR code,2023-04-20 15:54:06+08:00,FALSE

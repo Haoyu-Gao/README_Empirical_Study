@@ -1,0 +1,25 @@
+sha,message,date,result
+c9a13d7a5962f84ea73e05908fb61b6f382abc04,initial commit,2014-11-26 23:39:22+01:00,False
+5eaa34fc0fb8e31d5c6acbf64d7dcdc3cb4e9e33,bugfixes,2015-10-06 21:49:11+02:00,False
+d93c859aae746d87734052e6e1ab09830d047c00,change version,2016-02-20 17:28:59+01:00,False
+61688388c14c1f189b1e58ba09b70b16b2453c86,add travis badge to Readme.md,2018-09-10 01:30:33+02:00,False
+695d03eb232ba5197550cecdaf7c5876327c9103,small improvements,2019-10-30 18:44:18+01:00,False
+ee828ce3ecd68e5b5789b342cf14aae0da09d92f,require Java 11,2019-12-13 12:44:47+01:00,False
+eabfc11fd38d7d08c43540dbe9d03357108f26a5,cl build instruction in README.md,2020-04-04 12:35:15+02:00,True
+6925f07e623480e3b66f700bdb8a6c08ba9a2201,separate Developing.md file,2020-04-25 20:04:20+02:00,True
+dd2ed6e230e281770a68b928a88d1c691ce32e8c,small improvements,2020-10-01 12:51:44+02:00,False
+734ef8c6b17fe5e54f1a8a49254265f850b0cca2,small improvements,2020-10-26 08:10:30+01:00,False
+8d73e483fcd4f0545232de3cf5e13d30254dd327,small improvements,2020-11-11 20:35:37+01:00,False
+4f99bda72ae97bc95ce06a3f5c72f2ccc34c3028,fix compilation and markdown,2020-11-11 21:30:09+01:00,False
+484179a28f19d1009d41959608cda13bfe84b5bc,reorganized md files,2020-11-21 20:46:08+01:00,True
+0d3390243e637feed6617d751fe52ca8f528ddb4,link to the latest beta release,2021-03-25 02:02:21+01:00,False
+fdccb146015314e4560118d2256c6b3d20a4be7e,last changes before v4.2.4-beta3,2021-03-25 02:09:51+01:00,False
+8b70bbf8ab707d0388a2e7b9fa9a1808bbbe4a0b,require Java 16,2021-04-08 03:44:44+02:00,True
+2b03360635250881091338398d9b91cd7c39a42d,small improvements,2021-04-13 02:42:26+02:00,False
+f5fd649277884440ec7e7b58460756b1f2c0ff8c,link good first issues from Readme.md,2021-05-28 01:19:50+02:00,False
+f0d831933af07b04520fe95fd77dabfba8e52e3b,small improvements,2021-07-15 21:29:56+02:00,False
+8bc9bf07b750f1694ad4cecf68ee9e3bbd5e03c9,remove travis ci,2021-10-01 16:20:11+02:00,False
+63cf4990111694a6c0d310824b5731e82b8ce6a3,Require Java 17,2021-10-23 01:14:12+02:00,True
+3fc8bce180b238995b97e9fb6bc3b29603a53513,Discord invite in README.md,2022-05-02 15:57:49+02:00,False
+b408c272f5511a6048b5567f9ccfa18144f39211,refactorings,2022-08-23 23:02:44+02:00,False
+71bfa79674e7b8d4c7d7d52d5cb302f1f1992704,added CONTRIBUTING.md,2023-04-10 00:25:48+02:00,False

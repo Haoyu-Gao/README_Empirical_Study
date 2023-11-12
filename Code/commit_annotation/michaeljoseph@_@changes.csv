@@ -1,0 +1,84 @@
+sha,message,date,result
+78f5348dbcbbc9c8af2680f03a6884e71ab4dd2a,Initial commit,2013-08-14 07:14:35-07:00,FALSE
+a878c4c8bfcb589f141fd3ca2094e284be501609,"Update docs
+
+readme driven development….",2013-08-21 10:00:53+02:00,FALSE
+e639bf6a000973e91db1648c07bf92eb2e909051,Update readme,2013-08-21 16:08:55+02:00,FALSE
+5e52d94ea837a3998598b95e54ecdfdec0ba60b4,Add cli usage,2013-08-23 12:29:54+02:00,FALSE
+de1f016f147c40dea6a88bb301cf854473f99097,Add flair,2013-08-23 12:37:55+02:00,FALSE
+f4a3b66cce3c6951cd512b4ea5d4222128f6da38,Right app name,2013-08-23 12:54:02+02:00,FALSE
+8ac08ee132b72dc756738cc06980b23d3584d69d,Add __url__ requirement to readme,2013-08-31 17:03:39+02:00,FALSE
+c33f7381f049c57c423d70b4013588f290d28c1c,Documentation update,2013-09-03 13:30:37+02:00,FALSE
+95e1f5dceb879689a0ecee17b885dd882b560729,Document and implement the default workflow,2013-09-03 15:15:22+02:00,FALSE
+b9cbce8b066fe2124a81841c5de3107a2658604c,Add example output to readme,2013-09-03 15:46:22+02:00,FALSE
+1ce40744eb69fafc06856edcb8700c972345e240,Passing `--commit-changelog` to `release` now commits your curated changelog,2013-09-03 15:52:42+02:00,FALSE
+3c1e8c84a5b9a5cdddefe37d07fd9c0835547e0c,Actually commit the changelog,2013-09-03 16:15:06+02:00,FALSE
+0aba00c8e0f8025f9b66a96b517f6e5e9a703151,Replace `--commit-changelog` with `--skip-changelog` for a single automated release,2013-09-03 17:00:43+02:00,FALSE
+432659105e6954abdc084311efc7c12622ff3156,Add release command output,2013-09-04 11:30:28+02:00,FALSE
+0debebb0a7dc6d5386a58c54fab9c933a0b63ee3,Update README to mention `nosetests` or `tox` requirement,2013-09-07 21:56:35+02:00,FALSE
+4aab63efc540182374bfddcb71e91f76f39af596,Update cli in readme,2013-09-08 00:30:26+02:00,FALSE
+090f4c738268b518aa5d982ccd457e0774683015,Update README with current workflow example,2013-09-08 00:55:57+02:00,FALSE
+31d4a14319767ad12e09e3b6ed96320ed293b93d,readme improvements,2013-09-08 03:18:53+02:00,FALSE
+9f10a34132c4cd63ef238fdf112814c90f101461,Check for `changes` requirements and bail if they're not met,2013-09-22 19:32:02+02:00,FALSE
+67fe6358966c8083c98a008ba63d8074722f0855,Fix markup,2013-10-16 12:42:08+02:00,FALSE
+4c9b7f59314861630cda12807dc8f46de37ddf1c,Cleanup and linting,2013-10-16 14:37:00+02:00,FALSE
+192232bc7de25521dbc07a245c572bcdb98cb897,Fix non-ascii characters in README,2013-10-17 12:58:42+02:00,FALSE
+50df640969d6e9842588300fe0f2cf8540a6c646,Correct docopt command name too,2013-10-17 23:22:36+02:00,FALSE
+2d32c57092c6c25e3dafcf1f8c64e85ccb2b4770,Add optional version prefix option,2013-10-17 23:58:05+02:00,FALSE
+de1741dd6ca875fd5306d3fa9543153a13f46b51,Renamed run_tests command,2013-10-18 15:35:54+02:00,FALSE
+0e0505b18fceef14fa8285350d3be4f6cb8ade44,Use subshell to avoid changing directories,2013-10-23 09:21:59+02:00,FALSE
+d9e4b3c205dd2fd1561cabf293b6a78ea2a97255,Update noinput option description,2013-10-25 13:16:13+02:00,FALSE
+3970e4bfd12b8ed3b617b340f0bdfc87579f5455,Document package=module expectation,2013-11-15 18:01:22+02:00,FALSE
+c4333dcde1c9dc69e00dbe677ebaac4128175e51,Update readme,2013-11-15 20:26:11+02:00,FALSE
+085e02b56fb179964fb14cdcac5a7e17a0a8df89,Update upload command docs to include wheels,2013-12-11 12:56:17+02:00,FALSE
+a1ea5850c2fd90cf17a5d37c96989ffebecf0e7e,Spurious,2014-06-17 02:14:44+02:00,FALSE
+a5c39229094ad17f213a17121320cb06b213e0ba,Add scrutinizer-ci badge,2014-08-05 23:00:05+02:00,FALSE
+7c8d9bce7b3482ec3d136f48bb193a88ef41ba50,Improve README,2014-08-17 21:45:09+02:00,FALSE
+07c9c07de1ffcd66048d56c19a2b429cd18cb74c,Bring back config,2014-09-21 15:19:51+02:00,FALSE
+7b752e065f48bfbccffe72f2f30508c5cac4ac41,Added Gitter badge,2014-10-15 14:41:58+00:00,FALSE
+b003f7d8719b61f8e71d62b1fae775cc9d65d0d4,Add landscape.io health badge,2014-10-24 16:23:49+02:00,FALSE
+f7952a75eef3a0278d2586bfe1a1477f84d20b73,Add codecov badge,2014-11-08 11:48:27+02:00,FALSE
+2a4afbdee83dea5e337bb90691256af2eabc80f3,Fixes for pull-request to support other README markups,2015-08-19 15:12:13+02:00,FALSE
+ceadb275207297d6416132efd7af9116a309a380,Add circleci badge,2015-08-29 12:32:37+02:00,FALSE
+6709e4e3ba8b066c8cf4ddba551818cf6511ddeb,Move to shields.io badges,2015-08-29 12:36:20+02:00,FALSE
+285ffeeeff17418f4eefb4c3406bfb21443f74e5,Reorganise,2015-08-29 12:36:28+02:00,FALSE
+67ea7a159e9e60e2a1cfb6d89abacb5b09378724,Fix links,2015-08-29 12:36:36+02:00,FALSE
+2de40677de71d3b0fe080db3ee995c8b398ffb28,"Fix typographical error(s)
+
+Changed conjuction to conjunction in README.",2015-10-07 14:48:07-04:00,FALSE
+7e8d9425b712c8fcd788f438564c9b605bfc6734,Update CI badges to reflect master,2016-04-14 14:52:59+02:00,FALSE
+f115b631f1770f8f09d06dfccd33133c1bc8b1dd,Fix broken link,2016-05-23 16:09:17-06:00,FALSE
+d299dd855ed58610fe8c0b6bdf0dc740e764b0dc,Rm coveralls,2016-07-20 22:49:13+02:00,FALSE
+1362149413fffa16afbb79a3265c40f38af96202,Add appveyor badge,2016-07-20 22:53:04+02:00,FALSE
+58779dbdb30ebebfbd964b0c450e4d103f6ac12f,Fix typo in CLI option descriptions,2016-10-05 22:27:36-07:00,FALSE
+6e126634ec75a8c0bbc3db7583b13416c442854e,Urlencode gitter badge,2018-10-21 12:54:35+02:00,FALSE
+b5a644d17088260cf661a6d09973f217185cc771,Separate test environments and describe them,2021-06-05 19:24:43+02:00,FALSE
+4bb8e27bef39df5ca3c149485c4124424384bf1c,Update installation and help,2021-06-05 19:24:43+02:00,FALSE
+d486c66cd51f29a68e8e9b656428a66507b21913,Mkdocumentation,2021-06-05 19:24:43+02:00,FALSE
+f302fe046a95596b68a5e4274d321c94a758830a,Update README and use as doc site index,2021-06-05 19:24:43+02:00,TRUE
+a307a9be0d802427500df06c51508517e0ec94fb,Use mkdocs-click for cli reference docs,2021-06-05 23:53:20+02:00,FALSE
+019b848a477851159fb51e35e5fd54b653077fa7,Move images to the root directory,2021-06-05 23:53:20+02:00,FALSE
+81dfa6b44041d124c3c6195bb8dce926138242bf,"Update continuous integration service configuration (#278)
+
+* Update CI services
+
+travis => github actions
+pyup => dependabot
+
+* circleci 2.1
+
+* Cleanup Makefile targets
+
+* Only build pushes to main and tags
+
+* Build and publish docs to gh-pages
+
+* Store test report artifacts to include in docs site
+
+* Add CodeQL analysis
+
+* Deploy pull request previews to Surge
+
+* Improve workflow and job names as verbs
+
+* Deploy to surge on main builds",2021-06-15 23:51:28+02:00,TRUE

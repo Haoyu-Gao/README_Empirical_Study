@@ -1,0 +1,63 @@
+sha,message,date,result
+ac2501070c72e3d1dd5e99a4023f3cecd8de4fae,changes in README file,2017-08-28 19:02:18+02:00,True
+096497284a47a515b133bbc7d6a4ff863217ee26,minor changes in README.md file,2017-08-28 19:45:00+02:00,True
+d524488610b341703fe169a5ab96cf1811310b24,* upgrading README.md with redis information,2017-08-29 17:24:35+02:00,True
+1823a4fd637df181fa1a122a9c3ecf69b9d8b955,minor change in README file,2017-08-29 17:27:46+02:00,True
+5f74fb88881a8ce64a37a35f0ad5eb9869b6c3c5,"* minor change in readme file
+* adding hotkey to list
+* adding changelog",2017-09-06 12:44:06+02:00,False
+c1b4e47633b8cdfacf760607ce51db7bf4dc9b06,minor change in README.md file,2017-09-06 13:17:37+02:00,True
+18f32f2326084c3b6a6a8bcba9f3459a097e09fa,minor changes in README file,2017-09-06 13:24:08+02:00,True
+66dd80d75acf755f9b6cdd6bfd9af09c9b3480ae,"* fix README file
+* debug by default",2017-09-12 00:27:15+02:00,True
+1d1bd6871eed0b4a10c0fe7b35298fd502f70ad6,* fix README file,2017-09-12 00:37:54+02:00,True
+249db47ba63af6fd2b7dbfe658270607cf92e9ec,adding mode DEBUG by default and minor changes in README file,2017-09-13 23:06:40+02:00,True
+0df5834f9cccf953effd640449e2eb17ff8a0cdb,create first readme file,2017-09-15 13:49:21+02:00,False
+c37950924bc348811e6e4043f0c865542cb8095a,README data,2017-10-17 09:05:31-03:00,False
+af15e3b7272df792c00c9b3b2048772386a4a790,"update README.md upgrading link repo
+
+adding new link to new repository in github",2017-10-17 16:19:41+02:00,True
+bd45c7c11711de88126483c550c7a035c55ff442,minor change in README.md,2017-10-17 16:22:51+02:00,False
+5360ded3db703eb8676d83dff2871d574fc99a45,adding https cloning,2017-10-18 14:21:21+02:00,True
+09b4d0d70ef152aada4d796895cc203d6a1df1bf,minor change,2017-10-18 14:28:16+02:00,False
+86bfcf19a3d34185f6871afaa1a2a80350073eb8,adding python development libraries,2017-10-18 15:06:00+02:00,True
+9c3f445a111ab668029fe1a8498a5158c199a12d,"fixing bugs
+
+fixing bugs in the python libraries and PG installation",2017-10-19 00:56:33+02:00,True
+c6a72aa11fc6f9d8e8b6ad4924352d7f695f8e6e,minor change,2017-10-19 00:57:34+02:00,False
+002783aa69c1178b069797c78c7d4db16a462832,"adding Docker-compose configurations.
+and changes in the REAME file for docker instruction.",2017-11-10 14:22:38+01:00,True
+3b57f6981e05908b323a3b3ba183f761a9db57e6,"fixing issue with registering/checking modules, new command check_external_modules is added
+
+ python manage.py check_external_modules",2017-11-10 19:03:27+01:00,True
+f9aa34efd78f86d06375fc6d670c7f2e3b5d0eea,Last minutes changes. README file updated. CHANGELOG updated before release. ManaTI version updated,2017-11-10 19:38:34+01:00,False
+7ad21df281f8e905b807b5f892c29dda20700fa6,"last commit to push hotfix 0.8.1.551a.
+Updating version and readme file.",2017-11-23 15:45:17+01:00,True
+8157378555c0525802f52aee53befaf4ea97e482,minor change in README file,2017-11-28 10:07:15+01:00,False
+42bd776ee3d8f3cc9b6801727ebbe3861779b8ee,adding new files structure. Now manati respects the structure proposed by cookiecutter-django and the book 'Two Scoops of Django 1.11',2018-01-28 22:51:24+01:00,True
+4635b166dd5d86494b34c8ced76f97ebea9168d8,removing old fielkeys folder and add changes in the README file,2018-01-28 22:59:18+01:00,True
+d0a74f306b1df7c0640a836e4f2fb53af41f2468,minor change in README file,2018-01-28 23:57:53+01:00,True
+5db5fefaa44c7743a26a872622c962e038f3d04e,last minute changes. Changelog was updated and version number,2018-01-29 00:13:17+01:00,False
+2dd37b3ee121fd1e91257ac909ef484a12aef2ba,"removing .env and .env-docker from repository. To create them, it is necessary to rename the files .env.example and .env-docker.example. This is the main action to run ManaTI. Updating README reflecting this changes",2018-01-29 23:08:19+01:00,True
+5d1ed65d9eda413c42c6d69eef328310edd18da9,adding .env env variables for docker-compose settings,2018-01-29 23:14:10+01:00,True
+87701c33b1c27eab469fa508bc3060b791606e9d,update license,2018-01-30 17:18:39+01:00,False
+6bf369c1d1fa83fbe956e943ba5bbf690a282420,adding build status images,2018-02-10 23:43:29+01:00,False
+654fe9db13d9f19a2a526b97a212ff59096680df,adding screenshot in README.md,2018-02-11 00:02:18+01:00,False
+97871dc136b9b53ba70ad941d49625d80446a293,adding badges,2018-02-17 13:36:49+01:00,False
+85d74348ae8a60fa5f2fdbbc91845530875f49d5,changing readme file,2018-02-17 15:38:31+01:00,False
+c41f08be2267f5ed0fb3098478d4154cfd8e0467,adding ManaTI webpage to readme,2018-03-02 19:09:32+01:00,False
+578d00e47bed3dd84dd178c7422b3084dcdf0143,"adding link to Stratosphere laboratory webpage 
+
+adding link to Stratosphere laboratory webpage in the copyright",2018-03-02 19:11:08+01:00,False
+b2a86a7bc010c55489ba38136d48a08f90099fad,adding information in the README file about docker image,2018-03-03 17:45:40+01:00,True
+74189bbd9804e7f251141556d4f34fff6ee9de83,minor change on README file,2018-03-10 15:59:42+01:00,True
+39d2823f745f7c91036dac9e3bb353e86b4cd745,"* removing unused libraries
+* minor change on readme file
+* ignoring .pytest_cache",2018-08-12 16:16:13+02:00,False
+0bf85594998cf7243c3994c24599fefb0b1176d8,adding version and changelog,2018-08-12 16:25:39+02:00,False
+d59d3b5a8420c2b44a4751abb572acef7509122f,"fixing 2 bugs #17 #16:
+        * Saving user profile details redirects to non existent page
+        * Filters not working",2018-08-31 17:39:59+02:00,True
+0210d94dc213fd879a555ff17c6c495dfc19f011,"updating CHANGELOG version
+updating README file
+updating version of the system",2018-09-03 12:26:58+02:00,False

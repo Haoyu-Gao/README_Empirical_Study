@@ -1,0 +1,107 @@
+sha,message,date,result
+9c1020e9024ed70c9e95e2dc44ade989d7f03817,test coverage,2019-10-17 15:11:22+01:00,FALSE
+b7ec3ec5171c9c8aa03b148114010c1b4bf8817e,add travis link,2019-10-30 16:09:55+00:00,FALSE
+88c50835711ec743a4e4ec858e426d1d723ffcb5,[Doc] Adding some details in Readme.md,2019-12-23 15:30:07+00:00,FALSE
+1d22a750088408104600452dd2088ee19d899e34,Update License to meet pypi requirement,2020-01-16 15:26:55+00:00,FALSE
+07995ca8ea4b414d23593a679be514a46f6eb1b9,update readme,2020-01-22 14:08:18+00:00,FALSE
+19a3957d941d7b5c86192816b064fcb46db624a2,"Version 0.0.4 (#38)
+
+* Try fixing requirement for readthedoc
+
+* Fix setting for readthedoc
+
+* Fix settings
+
+* Fix settings for readthedoc
+
+* Bump to version 0.0.4
+
+* update readme",2020-01-22 14:12:01+00:00,FALSE
+71094d27d0a26f2e602127f03bd662d832e5507a,move to default readme name,2020-01-28 13:24:03+00:00,FALSE
+9c5c7416480cbb2339a1b7223bd9991f4d9bdf00,Adding contributing.md,2020-01-30 12:09:31+00:00,FALSE
+dc176d3e7a38451ee05399b66f7df5c26c519b73,Update README.md with Report Issues,2020-02-01 16:13:38+01:00,FALSE
+7fb8cd282df8039c229ea2ea8ccf7bce2112b442,Update README.md,2020-02-02 15:21:31+01:00,FALSE
+88fa9ef045be9b2866323e1f79ff124d4e568258,change travis-cli url,2020-02-05 17:19:23+00:00,FALSE
+d117f1064ad8492959fa3f13126f6c9092a657f6,Update install instruction,2020-02-29 11:30:16+00:00,TRUE
+7de99892661cab5df8f01c302cfba7c526f77186,Adding instruction for installing woqldataframe with zsh,2020-04-18 00:36:16+01:00,TRUE
+c66f033145cdc44ad65733cfebdab3e117c95cb3,added version and update message,2020-06-12 15:18:06+01:00,FALSE
+1207aa274066e4a8688e8df67f322f673544737b,"README: update readme for new release and naming
+
+[skip ci]",2020-06-12 21:32:01+02:00,TRUE
+bf978cb9ba203f856bb9b287ad89651b7d91e619,README: fix wrong pypi name,2020-06-12 21:33:23+02:00,TRUE
+673079c1d718ff3916612073861203208178520a,fix README,2020-06-12 20:35:13+01:00,TRUE
+e545f73895dcf1b59e0ec1f1fc8efb165841c1b2,more fix to readme,2020-06-12 20:40:36+01:00,TRUE
+45ca8b30f8a24fffbd2db2bd09d97f3271570253,fix all paths to terminusdb,2020-06-12 20:48:01+01:00,TRUE
+911650b073c43690c5efae6646eb32ed617048d2,updating docs badge,2020-06-16 00:39:58+01:00,FALSE
+2ed8c7265c5f1d6a32ca28b8766a1d104167494c,Fix broken doc links in README,2020-06-17 11:04:42+01:00,FALSE
+0636aaeed60f006e70502ca9bb4f644c6d862b73,Added presious version matching,2020-07-17 14:09:22+01:00,TRUE
+0db9c11fc3ad025af5761093cfe874b97ce3be77,tidy up and specify which TerminusDB version is suported,2020-07-17 14:12:17+01:00,TRUE
+9b71a8929278b36fa0a01989dc430a83b1b32d60,Adding generating local docs instructions to README,2020-07-24 01:29:04+01:00,FALSE
+0c429a3a03d5364fae11ba0f75d224e0a40bb06c,Fix tutorial link in README,2020-07-25 11:02:12+01:00,FALSE
+9cd5f79d0bc1a6b27b72faba14d9521caad43eff,Fix some typos in README,2020-07-25 11:16:56+01:00,TRUE
+e2fa3b80296814a58e8d22aa5993118dbd8ec661,Add link to RELEASE_NOTES in README,2020-07-25 11:28:14+01:00,FALSE
+6407c0699d42d12ef02f493998f8cfa3c9ff242c,Fix some typos in README,2020-07-25 11:34:07+01:00,TRUE
+8abb2f3932bc7a7e8922b485802ba30812f0ac9f,Update README.md,2020-07-28 10:31:50-04:00,TRUE
+b85fd8c3ccbd56b6f989dd9a0eb56ab2f6c32266,Update README.md,2020-07-29 10:37:56-04:00,TRUE
+84f228725e96e935fec7f1be4f9a7346f33d6e37,Update README.md,2020-07-29 10:44:11-04:00,TRUE
+b970feb7ec028e648dd53c3fd4ff14fd3e349753,update TerminusDB compatability,2020-09-03 16:11:08+01:00,TRUE
+2fdcc24012572d52bc4560196ce67533781d42bd,Adding version info,2020-10-02 16:08:07+01:00,TRUE
+a0bf607e82e5d0ea8a5d68fa6ca2993c478965dc,Adding one basic usage of WOQLClient and one basic usage of WOQLQuery in README,2020-10-04 10:25:32+00:00,FALSE
+f09bef9f30b26f89b306b5b0cc32b8df3c3ba2a9,updated README with proper block,2020-10-04 11:22:45+00:00,FALSE
+2e6fbca176f5cb23481281e73e67ae9eefe34dbe,added step to show data at once,2020-10-04 14:31:09+00:00,FALSE
+3b3c2395b04643201ff1f6a4ba4f003b2daf6a29,prepare for release,2020-10-24 21:40:55+01:00,TRUE
+c7c8fc997645dffe9ece4fae9ac2c870d7d4b1de,update readme,2020-12-06 22:57:06+00:00,TRUE
+90b34e60cd26634328c6e5c91ed953bf1cfb243c,Update README.md,2021-01-08 16:27:45+00:00,FALSE
+ab3b759f3d794e6cbc9dd1c9bd6592e6dd4390b1,Adding badge for codecov,2021-03-09 00:30:40+00:00,FALSE
+a1f596ebce37507e96e98b356bafedf9cf9d7851,Adding badges on README,2021-03-09 00:52:51+00:00,FALSE
+fc89a145c6f2f5195d97d0b870fff3cf5b2b68c2,Make README pretty,2021-03-09 01:05:48+00:00,FALSE
+5d7a91fb28791217e934faeef07ad19615e9bcf9,Edit info and fix links,2021-03-09 01:17:39+00:00,TRUE
+ec7b0f2fa1d446c628d23c545fe4b57294620456,Update README.md,2021-03-10 20:25:01+00:00,FALSE
+b38cd38f4ef6b31efd1abae63f9265873400e552,Update README.md,2021-03-10 20:27:02+00:00,FALSE
+8cd1033225fac325f576ff20368e302b7496df57,Update README.md,2021-03-10 22:22:24+00:00,FALSE
+5151cde00c5b3dcafa5ce52cb6a78a4e276ef27f,Update README.md,2021-03-10 22:27:37+00:00,FALSE
+aa8d8e786cbfb971279c349f3173d9803828f055,Update README.md,2021-03-10 22:30:43+00:00,FALSE
+8938d195b411f4bbc07ee823e9536a7107ec6e50,Update README.md,2021-03-11 01:18:08+00:00,FALSE
+5a7fbec000a1da3e872974fa2a2f76a34793d76e,fix README in setup.py,2021-03-18 14:23:34+00:00,FALSE
+8646d50d1b9806f309e4dd514a8784b6d5326ee2,update redme.md,2021-03-26 09:49:43+00:00,FALSE
+2eabf7897d4b05792f3825bef79258d8d529fbe0,update readme.md,2021-03-26 11:43:35+00:00,FALSE
+07a8b7f2e2857ad6b2abb9c61a05e81a1519566a,"fixing readme, fixing key probelm in scripts",2021-09-10 16:26:42+01:00,TRUE
+7ea35f165c80bbd7206fde7f47d0fd3d0f0c036a,update release note and readme,2021-09-13 10:58:32+01:00,FALSE
+feb33e305f184e2799051f81973a712ede5d086e,Adding demo back to README,2021-09-13 15:27:34+01:00,FALSE
+f2c43de33af6e89c30db4319bd657ba44ad3a30b,"Update README header image, intro text [skip-ci]",2022-01-28 11:43:57+02:00,TRUE
+e324df545cc1f8b12ea0411a03ec8db3f1180bad,"Update README header image, intro text [skip-ci]",2022-01-28 11:45:30+02:00,TRUE
+2e8801335cb30273bacb47d051cf9b13766bdfc7,"Migrate to poetry (#294)
+
+* use poetry as dependency manager
+
+* update makefile
+
+* remove pipfile
+
+* update makefile
+
+* update README
+
+* update click version",2022-03-24 09:02:39+00:00,FALSE
+f2817a4c734b4c47bcd1dbddf7644adac2367af9,Update CLI tool name,2022-06-21 13:50:24+01:00,FALSE
+79371515faae6295224d5a303fee6c67e0b88eb5,"Renaming client (#263)
+
+* Renaming client
+
+Co-authored-by: Gavin Mendel-Gleason <gavin@terminusdb.com>",2022-08-15 13:02:56+02:00,TRUE
+cef312c95b5c04b10f88209f28c88ea897d247da,"Change mentions of master to main (#328)
+
+* Change mentions of master to main
+
+* change pull request template to main
+
+* Do all the necessary things for migrating woql naming",2022-08-17 10:49:08+02:00,FALSE
+1c4e0f04da9747d65e65af0485a9e94937632e59,"TerminusX Update
+
+Removed TerminusX in beta message",2022-08-25 17:12:53+01:00,FALSE
+eda31ca175f25dc871d950ccf6b09d3cfeadcc6f,"Form to Reddit
+
+Updated form links to subreddit",2022-12-02 11:03:55+00:00,FALSE
+1660b9e3614da488fc868f7c11ac7efffd6ce98f,"Change Docs Links
+
+Updated documentation links and TerminusCMS details.",2023-05-02 22:12:05+01:00,FALSE

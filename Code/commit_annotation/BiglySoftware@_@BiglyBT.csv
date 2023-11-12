@@ -1,0 +1,31 @@
+sha,message,date,result
+a7b14ab147b277733f1bd7f7482b9b62f2b8efe0,Create README.md,2017-07-20 23:59:09-07:00,True
+9eac8a734cb12ca393e41e8d4676cc715ee89beb,Feature Voting Page,2017-08-13 22:40:15-07:00,False
+22d22840efba7e1c34181228211975441b74335a,Add Donation address,2017-11-01 11:52:09-07:00,True
+0a380eea3a4a534dd14f47d05a6ab292001d9042,Update README.md,2018-01-16 11:20:45+00:00,True
+36bbc8c86c2193cea99f3583c28892b3c02c7a1d,Update README.md,2018-01-16 11:21:19+00:00,True
+44ffddda808f952b21fa02311d5f6210212c80a1,Update README.md,2018-01-16 11:32:37+00:00,True
+5e92b01a526ed45bf2536b228bb0e0c2e1394155,Mention install4j,2018-10-18 12:58:58-07:00,True
+893c261ce3d7a76d88cd592acbcc8984eb749d6d,"I10n single line properties - complete (#926)
+
+* * Optimized loading of Locale list from resource bundles.
+* JUnit5 test framework setup with some tests.
+* Improved POM profiles to include the appropriate ""org.eclipse.swt"" for the local OS.
+
+* Single line property values in i10n property files / resource bundles.
++ removed duplicate newlines in arabic and hebrew i10n files
++ regression tests
++ tests that demonstrates how to read bi-directional / RTL text",2019-03-17 14:46:27-07:00,True
+6b059ce954cba3f4717ca540bfee1d142d49b966,Documented some aspects on android compatibility on API usage [#940],2019-03-22 11:49:45-07:00,True
+2d98cfb6cd95867d6766c57e7098e0a4ba485b72,"Improved language in README.md
+
+Made the text easier to read. I believe.",2019-04-13 10:27:45-07:00,False
+e606ee3a2e81ab2b6597b2568fb4fdb67e99107f,"README.md: It's never spelled ""andriod"" (#1008)
+
+Spell it like that, you'll make Goolge mad!",2019-04-16 15:20:13+01:00,False
+c917c0bbe0196e6c05e20b56f3d3657b77d4c3d9,Remove Log4J. It's been more trouble than it has ever been worth.,2019-04-18 11:19:24-07:00,True
+dc65402f4c11c99c5ae3b821c4755e338f4466be,"Move Coding Guidelines to dedicated file, + more general info to README",2019-04-20 01:37:56-07:00,False
+1960e539005ef8da66551d1ba206b13d62b98624,doc external annotations,2019-04-27 12:19:52-07:00,True
+58bd8258ac18368cac3d3493ee3c3905e7989ae7,Address Cease and Desist demands,2021-11-08 15:05:09-08:00,False
+29c8d1080cd3235ecc25d5ada0e41654da11f67b,Update README.md,2022-06-01 10:03:54+02:00,False
+d2258e0a09819c41a1d9acd1e5dca70273727a90,Recreate aereg with minimal changes in Visual Studio 2022 (#2935),2023-04-13 17:55:36+01:00,True

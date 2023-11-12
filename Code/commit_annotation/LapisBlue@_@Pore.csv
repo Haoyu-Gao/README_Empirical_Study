@@ -1,0 +1,37 @@
+sha,message,date,result
+4b88309ead653d159895bc20381f2da920d7eb28,Create basic project framework,2014-09-07 14:36:39-04:00,True
+3f9f634fd4c2e2ce9883263d44c79e5da1e1a7da,Switch to GPLv3 before Big Bad Wesley comes along,2014-09-07 16:19:30-04:00,True
+4c6ad181190ade046ba0399b7f4199abf701e6fa,Switch back to MIT license because apparently that's allowed,2014-09-07 20:47:02-04:00,True
+59a35493742643a642c819129556df788aa4cfa6,add travis badge to readme,2014-09-27 19:45:53-07:00,True
+3fca0d144c1363e4ef9ba83ddf7096eef8e22d39,Fix build instructions in README.,2014-09-28 19:29:04+02:00,True
+975c27d8253e732c02bb65310a0fd3852f650632,Update README to remove initializing submodule,2014-12-01 16:45:33-05:00,True
+21611543ebbf55c858ec12acc75403bf6801fba1,Add note about gradlew on windows,2014-12-01 16:54:01-05:00,True
+0a8652abb7ae91dd45ae5eeb3b49f72f83a714be,"Revert ""Upgrade to SpongeAPI 1.1-SNAPSHOT and use their Maven repository""
+
+This reverts commit 91042860ed64a18435f4b5d35abc334f087e638a.
+
+Revert ""Add note about gradlew on windows""
+
+This reverts commit 21611543ebbf55c858ec12acc75403bf6801fba1.
+
+Revert ""Update README to remove initializing submodule""
+
+This reverts commit 975c27d8253e732c02bb65310a0fd3852f650632.
+
+Revert ""Delete old SpongeAPI submodule""
+
+This reverts commit a93e50d9eac7ad932c24902fb839543c9affa80b.",2014-12-03 18:46:09+01:00,True
+2e043c953af19242ce29ed003e478229878d2859,"Add README changes from #3, thanks to @Aaron1011",2014-12-03 19:07:08+01:00,True
+27e15519d168737293e582a68e3b045451c5152b,Update README.md,2015-01-31 19:33:57+01:00,True
+fec09065df82e64cd755fda25133e10ddffe07b5,Improve the README,2015-02-11 16:10:53-05:00,True
+e817064c89bcaa95568526aa30a5566d0aec60f1,Update README to include `cd` in compilation steps (just in case),2015-03-09 14:33:41-04:00,True
+8fa938dc27bf479eb41974dab999b0b445e56e99,Add native poredev script for Windows,2015-03-09 17:34:24-04:00,True
+3bdcf07c6d6c2597b3d63dc3ed51a6531681ee9f,Improve project summary in README,2015-03-26 14:30:58-04:00,False
+cd9348d1c7e3afe55b611cd567d4592109d73629,"Add ""Running"" section to README",2015-05-18 23:19:13+02:00,True
+935ff93e231892d083406ebe86c1f70ec7b3989e,Replace poredev with gitpatcher,2015-05-31 12:34:44-04:00,True
+2f315dc60adf3ab2a599cf53b6dd5b79006e6865,Update README.MD/Running,2015-06-14 16:37:50-04:00,True
+21fe70c659dd55bc757d22c79bb1dc7481b02c59,Dynamic event registration. Closes #19.,2015-07-11 15:24:20-04:00,True
+4c49ca8ca3d18293a21f70e6921619029354c912,README formatting fix,2015-07-11 15:29:10-04:00,False
+a5ab5f1bba4d7e19f7eea23fca1c8eea801e255c,Fix SpongeDocs link in README/Running,2015-11-30 15:54:19-05:00,True
+7b6e647ef17162a832d4b4650fdd9c68c5fdc19e,Add documentation to make it easier for first time users to get started.,2016-02-16 09:31:53-05:00,True
+7e6e2f3756b47d4127ae9fb62e680c9d62f676d0,Add note to README regarding discontinuation,2016-04-19 19:07:13-04:00,False

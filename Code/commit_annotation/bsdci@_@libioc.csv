@@ -1,0 +1,51 @@
+sha,message,date,result
+e64bb1d2253c5fab5a6df63e4ea46ff9d443c925,fork https://github.com/gronke/iocage/tree/libiocage,2017-08-19 17:50:31+02:00,True
+db694869cd28c5dd711bcdc271ec7ad69fffa1bc,minimal readme,2017-08-20 13:07:41+02:00,True
+8ed71a3648dbb501713f17d9540c6cfc136f5501,Fix typos,2017-08-20 14:37:38-05:00,False
+3baa6a40a320ef6a2aee1c0feba58324db8ff154,iocage was never bash.,2017-08-20 14:38:07-05:00,False
+19d47fde26db56dac154c487c79a0a0ed44e45a2,Clarify support,2017-08-20 14:42:17-05:00,False
+c32c32b995a357bd9d0bfd417852b908bed5435b,"chore(build): install cython3 & libucl
+
+as long as we depend on a source-distribution of py-libzfs that doens't
+bring redistribute a pre-built libzfs.c, we'll have to install cython,
+before attempting to install py-libzfs.c
+
+also, we still depend on ucl, until that dependency is removed, we'll
+need to install libucl",2017-08-21 23:18:01+00:00,True
+43b8381e2368a73f1c9e890bbe52342e331d0841,"run markdownlint against our md files
+
+consistently style headers and codeblocks",2017-09-02 13:48:24+00:00,True
+578a7208313d46b813f38f648d6de8f9a75ef9b0,mention testing in readme,2017-09-07 18:14:51+00:00,False
+8b0e564f700c1f626e85608489e1814b91764dd3,rename libiocage to iocage,2017-09-17 12:11:49+02:00,False
+bbe7658fc9fbbc4cb811bad7a9669d923b11c479,document new pip source in readme,2017-09-17 13:14:03+02:00,True
+16ef1719034998af64ef3b335528f34cf200b6c3,"Document installation process from pkg & pip
+
+we only all the necessities from `pkg`, so we don't have to *compile*
+dependencies with Cython.",2017-09-17 12:54:24+00:00,True
+ef99a8f160d82a4830f976ff7fc6582a5a2af741,update how to install dev dependencies in readme,2017-09-25 18:22:27+02:00,True
+078ae42f687012d2eabcc7e426afe80b8f9160b1,create and maintain release from /usr/src,2017-09-26 00:37:46+02:00,False
+e128741b0125b056eae05c03a9ab460179caffea,mention project status in readme,2017-11-15 00:03:21+01:00,True
+25e01e56d94be25b58c7bb86a4ee054d984620c1,document how to run tests,2018-03-23 15:28:49+00:00,False
+522a47c4b5eef9dd4b62abfb5cf976facd5db801,document multi-pool usage,2018-04-02 22:26:49+00:00,True
+bd41ed73b323f8d3609390c92f2ec96ecebee25b,update readme examples to create jails without -n flag,2018-07-06 13:35:02+02:00,False
+96ff0a73b5d8400451296e52439564e598a1e489,remove -b flag from example in readme,2018-07-09 17:22:47+02:00,False
+31c5c041ca48caea6f9ca5615df1246b926af811,readme update: news,2018-08-07 12:56:15+02:00,False
+798079b356e2ce681971fe4670969947a0908b53,readme update: update outdated install section,2018-08-07 12:56:15+02:00,True
+6d7f84f9c44d6eba400cfa1335e27335c8383574,readme update: usgae info,2018-08-07 12:56:15+02:00,False
+cec2a49cc86cf324a7e7bf0380a7cf03971f0565,readme update: mention latest news update date and visually separate news archive,2018-08-07 12:56:15+02:00,False
+2c05d71cf4ac8b72f498eb2451a4fb973394a38b,spell iXsystems correctly in readme,2018-08-07 12:56:15+02:00,False
+08beb3073c897d2cf231e50e0db64573aa78636c,readme update: link to API reference,2018-08-13 07:03:35+02:00,False
+14bdb24701c15532d7ba38570a33c642f54364fb,readme update: improve static code analysis documentation,2018-08-13 07:03:35+02:00,True
+14e62fb50848a65b83e551080e6288285365737f,mention the iocage handbook in the readme,2018-09-27 06:51:31+03:00,False
+85295d71520efb33dd35fbab37e90b8dbabb7d6d,"break sentences to separate lines in README
+
+addresses https://github.com/iocage/libiocage/pull/518#discussion_r219675093",2018-09-27 06:51:31+03:00,True
+3f6fbb7ee6a2d6a19abb90e2ca79389311706749,update URLs in readme to iocage.io,2018-09-27 06:51:31+03:00,False
+a7e23603ea682200717a701f531526cb918e1655,fork python module name iocage to ioc,2019-01-04 15:00:15+01:00,False
+11e0577c32fee34d4e12829b622251e78643875e,further update readme to ioc namespace,2019-01-04 15:00:15+01:00,True
+1b9d875214b008af0c562ade942ef51ede91d7f6,rename Python module ioc to libioc,2019-01-12 09:53:44+01:00,False
+38c1748ea591bd784d94620f0975ebcc92fc93d5,document ioc_legacy_support in readme,2019-02-24 02:56:19+01:00,True
+565f78af35a96b2e9ccecaff6f0fe7a2ad48aada,correct repository path in readme,2019-02-24 19:38:22+01:00,True
+929837867af0f9ad5e36e8dac6b7bded60fae735,link to gitter chat in readme,2019-02-24 19:38:22+01:00,False
+74146efbadcd33d10c80a97c71b85965b6e4ea06,describe how to install libioc from Makefile for other Python versions,2020-03-21 15:24:26+00:00,True
+9b0ebcc2884ae459f9d5fb33dd9344dacd6fe9e8,Rename Iocage Handbook to Ioc Handbook in README,2020-03-21 15:24:55+00:00,False

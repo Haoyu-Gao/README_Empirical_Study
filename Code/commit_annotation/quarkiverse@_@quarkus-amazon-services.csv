@@ -1,0 +1,24 @@
+sha,message,date,result
+e27bccd48a532b1a35c2348308cb6dd6d393219b,Convert to Quarkiverse extensions,2021-12-07 13:33:04+01:00,False
+1a840051ff3522e8648c1a167e6101937ad12461,docs: update README.md [skip ci],2021-12-07 15:39:04+00:00,False
+8ec67c7568e05d4e7f99dc228e2635268deeac8f,docs: update README.md [skip ci],2021-12-07 15:39:45+00:00,False
+8539d9c0b21aa0437cf7d034ba0b0a6e76868a82,docs: update README.md [skip ci],2021-12-07 15:41:44+00:00,False
+44a1a6b5bf46f8887fa8cf9e8bc6b4fef23a1591,docs: update README.md [skip ci],2021-12-07 15:42:31+00:00,False
+b5dd4a294452631d68652efb6eb3fcfe3c9fa858,docs: update README.md [skip ci],2021-12-07 15:43:02+00:00,False
+c3dbcbf936e051aa638c0f12597302909292868a,docs: update README.md [skip ci],2021-12-07 15:43:27+00:00,False
+2adaa06c2e2f5fdbc9545e84b6dafd0db1fc6f64,docs: update README.md [skip ci],2021-12-07 15:43:57+00:00,False
+d2fa1cccc367d34a82693bfab5d7a0e961e89cda,docs: update README.md [skip ci],2022-01-04 19:45:29+00:00,False
+9902120a642deb04a8c2b6ddf60a5c2c4b3d3df6,docs: add cognito-user-pools to README,2022-04-07 22:31:23+03:00,False
+10255b13d024aa9e5c7dd91db1cb1fc38c94d1f1,docs: update README.md [skip ci],2022-04-07 20:43:43+00:00,False
+f729a7eaec3e045bb611b74b4122d462fe830ae3,update README.md [skip ci],2022-09-26 12:02:33+00:00,False
+3a4f11a18cf4cc2e0f6739004aedb8c3e6358794,update README.md [skip ci],2022-09-26 12:03:35+00:00,False
+07f75e2cc218663ba3e4c6a3767f0235e5c500a9,update README.md [skip ci],2022-09-26 12:05:55+00:00,False
+c3cdef4621e210a59469e6870106f575fc43ce68,docs: update README.md [skip ci],2022-12-21 14:41:37+00:00,False
+b3054d50fa8503f7cafe5524aec47e7a7100462a,docs: update README.md [skip ci],2023-01-04 16:52:18+00:00,False
+c2f11b54fb9291a24c16bb3766a9287be0b8fee0,Add compatibility note in the README,2023-02-14 17:41:54+01:00,True
+d80d371153a82f26405134ba9904161e4198b183,docs: update README.md [skip ci],2023-02-14 16:53:06+00:00,False
+e6d85726041047aa03b61bd3259e03322cbc7046,Fix guide in extension metadata,2023-04-08 00:21:49+02:00,False
+9c04a3cbdce9e6c36b1c017bcc025cf067e8565f,docs: update README.md [skip ci],2023-04-13 08:45:09+00:00,False
+89292cd99e53d180dd564094b6b4562e8d6e9baa,docs: update README.md [skip ci],2023-04-13 08:46:28+00:00,False
+ae8a9a2e5dd782d32ae843a46eb9abaa4eca4a04,docs: update README.md [skip ci],2023-04-13 08:47:03+00:00,False
+edfb934594d55e440dc434475e5929d22e089fc1,docs: update README.md [skip ci],2023-04-13 09:00:08+00:00,False

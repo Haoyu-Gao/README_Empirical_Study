@@ -1,0 +1,32 @@
+sha,message,date,result
+cb289164a0f9cb9e0dcac0f2f5931bb19923280f,Create README.md,2013-06-28 12:34:32+05:18,FALSE
+d7f722305b9a886886712361119799b930957937,Update README.md,2013-07-29 11:12:10+05:18,FALSE
+18e6b80e7efddc0feb6dcaeebc70f21b8f69e6d1,Mujir | #1149 | Added 'All Sections' menu item for Validation. This should display all items to be validated across all test sections.,2013-07-29 12:32:41+05:18,FALSE
+26906cbbd71076af636d0271d7058b5f6705f387,"Gurpreet, Balaji| #1965| Updated readme to mention ant vagrant-deploy command.",2014-03-18 19:00:03+05:18,TRUE
+1ea2d1e91736029df3ed0477a6afe4f171bc7cf1,"Gurpreet, Balaji| #1965| Updated readme to mention ant vagrant-deploy command.",2014-03-18 19:18:36+05:18,TRUE
+e223caa7841a23c6585e95085409fbe07f4ea4e0,"Gurpeet, Balaji| #1965 | Added -x option to scripts to print the commands. Removed tomcat scripts, since we don't need tomcat restart for ELIS.",2014-03-20 13:47:29+05:18,TRUE
+81219b74341e0df79659b5f0e56d1dc6bfc2ab81,Gurpreet| Travis Build Image,2014-03-23 19:34:50+05:18,FALSE
+aa3fd122cbfb59aacb177d2952e0789da9db4498,Gurpreet| Added email notification on Travis Builds. And updated Readme with full ant command for creating DB and running tests,2014-03-23 19:53:40+05:18,TRUE
+b3da85a21330560a79defb596dddbfb67ec91c2a,binduak | Added Transifex config file,2016-06-21 11:58:02+05:18,FALSE
+6b6e2f20cb5aa3254175a37198a090e71109248f,binduak | Added Transifex Configuration in README.md,2016-06-21 17:37:23+05:18,FALSE
+3a4dcb4babba163c1dab4ca22f8a3127fbdda2e6,bindu | changed README.md file for the Transifex Configuration,2016-08-31 09:02:39+05:18,FALSE
+34244a0685a2caae14c6016750bf4db9ae716c62,"Suman | BAH-414 | Display new field section names on dashboard (#10)
+
+* Suman | BAH-414 | Fix older failed tests
+
+* Suman | BAH-414 | Display new field section names on dashboard
+
+* Suman | BAH-414 | Fix width for notes column
+
+* Suman | BAH-414 | Change the width of Accession number, Pending Tests, Pending Validation columns on dashboard",2018-05-16 10:45:44+05:18,TRUE
+29cae0468775fe09d44aac26ee88c7ea2455d8e7,BAH-925: Add build requirements to README (#23),2020-08-28 12:41:13+02:00,TRUE
+5bb11c86a370d28ce51d8e401df8c497b61b7ce3,BDI-6|Mohan|Add| Status Badge in README,2021-09-28 10:05:28+05:18,FALSE
+c3fe3427d0535440272d9d6f5f7198b1640f4a8f,BDI-6|Mohan|Add| Actions page URL to status badge,2021-09-28 10:07:14+05:18,FALSE
+138403e96b1460c94f4ab7e325fcc01257aee84b,BAH-1251|Mohan|Refactor| Remove Travis CI build badge from README,2021-09-28 16:48:43+05:18,FALSE
+a34abbcfab3786b1df39582c8a47cef28276255b,"BAH-1414 | added. docs for docker image builds
+
+Co-authored-by: Abinaya U <abinaya.u@thoughtworks.com>
+Co-authored-by: Arjun G <arjun.g@thoughtworks.com>
+Co-authored-by: Kavitha S <kavitha.s@thoughtworks.com>
+Co-authored-by: Soorya Kumaran C <sooryakumaran.c@thoughtworks.com>
+Co-authored-by: Umair Fayaz <omayrfayaz@gmail.com>",2022-02-28 16:11:49+05:18,FALSE

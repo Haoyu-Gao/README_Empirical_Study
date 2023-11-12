@@ -1,0 +1,10 @@
+sha,message,date,result
+ff57d2b1895907028cbdec2768ccf229a48fbe4b,Additional variable and config refactoring,2016-12-17 15:08:51-07:00,True
+687f6e7e84fafe1cdff9203396bc20f939d1ad07,note about containers,2016-12-17 15:18:22-07:00,False
+8ceed2c5d9da035acb45e3f934ea62b84b38bb30,"[capitolwords] removed old version of capwords project, cleaned up requirements",2017-11-02 11:37:40-04:00,True
+57eaca018d01ec6fa63a773f47d573f780245dae,"[cwapi] updated readme, added docstrings, renamed parser class",2017-11-21 18:34:28-05:00,True
+77e9251af79a61a63f714265919152069fbd391b,[cwapi] readme fixes,2017-11-21 18:34:28-05:00,False
+47992c2d3c95e56485add52c7b3683764b8503eb,"[capitolweb] api overhaul, added tests",2017-12-14 17:12:21-05:00,True
+ab3f5775fcd800bac83e967f8d59882d93bf8282,[capitolweb] fixed readme formatting,2017-12-14 17:15:16-05:00,False
+7d11f84359b346c25d0869fc9b53aa59b08c5a77,Fix requirements and readme,2018-08-22 07:43:22-07:00,True
+9242e47cd5c52e1991d88333d8534e0064d3e7d8,Update README to mark repo as archived,2022-05-02 15:16:32-07:00,False

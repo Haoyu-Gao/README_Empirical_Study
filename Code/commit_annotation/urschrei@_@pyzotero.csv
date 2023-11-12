@@ -1,0 +1,202 @@
+sha,message,date,result
+593c571cc65986b209536d8463bf5c290841c539,Adding readme and some initial attempts to retrieve Zotero library data,2011-02-28 22:29:27+00:00,FALSE
+d90736c2689a1eed53dd4ee2b5a6bb7a80312f7d,retrieve_data now returns a parsed atom feed as a dict,2011-03-01 16:07:54+00:00,FALSE
+ac619802fddcfea7e34d7b958794df575e401429,"Tidying example usage (somewhat), comments, and readme",2011-03-01 16:24:32+00:00,FALSE
+6e5057fcf6e8f85d60a7daab00a79c8f831c0579,Fix spelling,2011-03-01 16:26:23+00:00,FALSE
+92478975c1db28741a9240792b4ce3d38f05fbe7,Implemented and documented useful_data() function,2011-03-01 23:48:14+00:00,FALSE
+48345e273dab85843cf5510cce63c31de700ccca,The items returned by useful_data() now contain the 'title' property,2011-03-02 10:52:17+00:00,FALSE
+79e59dcd0e5414dbef4a45b02c7219c13ceaacaf,Adding to readme,2011-03-02 16:15:16+00:00,FALSE
+41e674bcda83fec7def2bde2bf4429f08ae8208e,Adding some parens,2011-03-02 16:16:39+00:00,FALSE
+9f3e0e14499b28b497563c785ba07cd30d5d56cc,Editing readme,2011-03-02 17:58:10+00:00,FALSE
+ecfb6d0272c6f29d1c9c9e5dc8b2ddd7c1abb33d,The useful_item_data() function now includes the item ID in each returned dict,2011-03-02 18:18:21+00:00,FALSE
+7cbccf4738b561b79c861f814df9662e65d6093e,Fixing readme,2011-03-02 18:20:56+00:00,FALSE
+152e1a0ad6814405b3b94c4e3c90bf30fce7b1fe,More readme editing,2011-03-02 18:44:54+00:00,FALSE
+a72b099b7bd7af418e39b46ed8893cbae3590c0a,"Request parameters (e.g. item or group ID) are now passed in a dict
+
+Also implemented some basic error handling in case a parameter required by an API call is not passed",2011-03-02 21:42:10+00:00,FALSE
+a525e0957387b06624c391bc1c11af491995aa80,Making the usage of additional request parameters a little clearer,2011-03-02 21:52:24+00:00,FALSE
+a8b228516c854c13e62ae6aaf57069c7a0dfbc73,Fixing empty URL param example,2011-03-02 21:54:46+00:00,FALSE
+4490cdcb3acd23120ae833ae10cc72ae86e669f2,Editing readme,2011-03-02 21:55:38+00:00,FALSE
+dce904be03f6525386a1f6320a9b37900178b998,Documenting currently available API calls,2011-03-02 22:17:22+00:00,FALSE
+6ed5541de5a738b04704243a22d0ac7ade2f7687,Adding API call to retrieve all groups to which a user has access,2011-03-03 00:39:51+00:00,FALSE
+233e602fa9f273fbe707d4a8d7c3777971652a3c,"Implementing a collections_data() function
+
+Returns a list containing one dict for each top-level collection for a given user. Dicts contain collection ID and collection title",2011-03-03 13:34:25+00:00,FALSE
+2b318a3a358ee69ebd2dc2db72f6c56185abae51,collections_data() is plural,2011-03-03 13:36:04+00:00,FALSE
+07514c65906f3ba7f3e09b32f1ca0a7369b4ecd5,Cleaning up the usual incomprehensible mess of variable names,2011-03-03 15:15:31+00:00,FALSE
+719ff2d4a306953187392ae98212977eaea129c9,Adding API call to retrieve a subcollection for a specific collection,2011-03-03 17:19:15+00:00,FALSE
+34f72002254c2a7384862ecd13dbd862d5a4d281,Updating readme,2011-03-03 21:40:04+00:00,FALSE
+1e0a7931853019868ed08c10fdde934f6e4868c7,Adding all remaining API calls,2011-03-03 22:00:36+00:00,FALSE
+34c6c437a3f505c22e8ab77b067f55ab73741b54,Adding documentation for all remaining API calls,2011-03-03 22:53:15+00:00,FALSE
+4c197e94a0ebb543a1ec2ad779a7630b011933d8,Adding a missing quote,2011-03-03 22:54:35+00:00,FALSE
+8fb51f524164f5eb9d902483144f309d361d616b,More readme editing,2011-03-03 22:59:33+00:00,FALSE
+05edb2e233f3f5e7a4c26f301c2def856b1e6cf0,Adding some error handling,2011-03-04 00:54:17+00:00,FALSE
+ec218aa92c6e2ea4abf8211636adf3a83c8c1450,Tidying up readme,2011-03-04 12:04:33+00:00,FALSE
+4f69e68a659337ab3b66cd09e5bb08c4ea68d997,Readme editing,2011-03-04 12:16:19+00:00,FALSE
+19d3798abe0593c2f269b755a0dbc07b6ca70238,Updating readme,2011-03-04 13:41:48+00:00,FALSE
+2fa98fd9651e8e7e77360d947017cd5b24d9825b,Still writing documentation,2011-03-04 14:01:45+00:00,FALSE
+50527a2eb126e0919c8abf2491b0ecb32adadeda,Adding detail to 'limit' key documentation,2011-03-04 14:38:15+00:00,FALSE
+a38980c31b45065b9c8790f9ba64cc05180e87a4,"Don't mess about with blank dicts, pass a named argument instead.",2011-03-04 14:55:44+00:00,FALSE
+4d867cf60ae82cf8a610494a5d0b33fa2213680a,Let people know that the feedparser module is required,2011-03-04 16:19:13+00:00,FALSE
+fb62b3ce4f0fffa8e2651c8588771ece40b49eb1,Documenting the Zotero.bib_items() method,2011-03-04 17:37:03+00:00,FALSE
+8f8073d3eb1181d430fe1ff9b9981072bae7f2d0,Defining where to specify the 'style' key,2011-03-04 17:38:39+00:00,FALSE
+8186d84edaf80a3219522dd4325cf2d06bfdd248,Making 400 status code error somewhat more informative,2011-03-04 18:13:25+00:00,FALSE
+ba80243121f76e2d4e1f4283357fb661c639f45e,Detailing installation methods,2011-03-05 00:09:30+00:00,FALSE
+752730c78fa8d1aba0f75c927735ff81f665d85c,Minor readme cleanup,2011-03-05 00:40:16+00:00,FALSE
+a6b0e176f47df7ff235181d816a5742d4a27fd00,Adding detail to the installation section,2011-03-05 16:32:23+00:00,FALSE
+b803c4fb5102f5868c404965174466d634a6dc9f,"Adding a tags_data() method, which returns a list of tags",2011-03-05 18:21:33+00:00,FALSE
+3819eac4eedafeba7104b788627ca9fdca90ae5a,Adding pip-install-from-git instructions,2011-03-05 19:28:10+00:00,FALSE
+01b63d019a290dcf3be46a0250439ef38b9421dc,"Categorising API calls by return type: Item, Collection, Group, Tag",2011-03-05 20:06:03+00:00,FALSE
+337e89535cb397e42f08f10b8a58992506e338e1,Readme edit,2011-03-05 20:26:44+00:00,FALSE
+ed544b5673e1c8d28f0a0d8bfac5c0e18c2b7307,Correcting parameter requirement for 'group_collection_item' API call,2011-03-05 20:36:39+00:00,FALSE
+fff8550a6659b81248ec282a07b4ef8c6a16df3c,Fixing typo,2011-03-05 20:39:43+00:00,FALSE
+95b9700977d28402f26d4c451ad6af7712c77238,Ensure that API documentation is consistent,2011-03-06 21:20:29+00:00,FALSE
+a1c2da3229f876331d295f01d6456c43d0786e56,Rename 'specific_item' API call to simply 'item',2011-03-07 21:29:30+00:00,FALSE
+9c34318376a94d9274fccad83720841c161e0fad,"Implementing collection_items() call, updating readme, version bump",2011-03-08 21:48:01+00:00,FALSE
+85ac2b58dbc626efc517f27050df745e4c38b645,Typo fix,2011-03-08 21:56:39+00:00,FALSE
+c4d226bfc8d801664426e49e15aca7ccb8d2648d,Adding all remaining API calls which return items,2011-03-10 00:09:36+00:00,FALSE
+f08c97d09e7310c1af2b6fcd24039ae78bf40857,Adding documentation for 'collections' methods,2011-03-10 12:00:54+00:00,FALSE
+4318cf5cb27ee1ec631f805810bb87a1b7e67805,Adding all 'tags' API calls,2011-03-10 12:42:31+00:00,FALSE
+5a31ef774f9694118070604cbf3ac3620edf3cad,Adding examples of returned data,2011-03-10 13:14:34+00:00,FALSE
+c89b3c9a42e2d17e959a83b16594383249184861,children() method requires Item ID,2011-03-10 15:40:30+00:00,FALSE
+a7160a2d84762e13477c5ad3957257005173f4b4,Faffing with readme markup,2011-03-10 15:57:48+00:00,FALSE
+97b10e39f75ab3906082e0d4989721d9a74d140e,Adding and documenting 'content' and 'style' API parameters,2011-03-10 16:55:50+00:00,FALSE
+b254aa7ea93a38c7f7ba8e4a43b43a9ceb1be86a,Removing extraneous comma,2011-03-10 16:58:03+00:00,FALSE
+c80fa1f21290a461d78d9071e83716fd2e7edc64,Fixing up readme,2011-03-10 18:18:32+00:00,FALSE
+44d2f69ca7caf1a024375af1c28d8d7c1beecaf7,Slight rewording of what the 'bib' parameter returns,2011-03-10 20:36:54+00:00,FALSE
+5f2bdb38dd5afe5f21954b396195f31b74d80300,"Item methods now return lists of dicts, consistent with group and collection methods",2011-03-10 22:38:39+00:00,FALSE
+ae36601c41ea6629d1f5619f8d3c1e57100de3f1,Adding some details about testing,2011-03-11 16:36:43+00:00,FALSE
+ed3b29ba7ef1f70689ed85b83d930242cc552c8c,Output is now safe on ASCII-encoded Python installations,2011-03-12 15:57:43+00:00,FALSE
+dee3bd3e8eb960f3490a660e19bdf1fb395a0df9,Adding more detail about testing encodings,2011-03-12 17:38:50+00:00,FALSE
+709c410ded8a66e45547ae19ecd5886bf5feef7d,Readme tidying,2011-03-12 18:43:03+00:00,FALSE
+ebb06747e024226cb7e5ccf4d66412378be05425,Adding elementtree >= 1.2.7 to requirements,2011-03-12 22:06:59+00:00,FALSE
+0cc05208c5892a957df14834dbeb265551bfd0e8,Adding link to ElementTree,2011-03-12 22:11:04+00:00,FALSE
+cd92d5cffc52c4ee051ac8c17ba15c500a355410,Specifying required module versions,2011-03-13 00:25:35+00:00,FALSE
+0126d1d825dfe3617efd50f4878da991c4ce9649,"Removing main(), and adding a sample script",2011-03-14 10:25:17+00:00,FALSE
+02e3bd3326bbf2161dd18395fd71bf62784d8f54,Removing print statement,2011-03-14 18:15:16+00:00,FALSE
+86b06417c9de9ad4e6acbc0af29fb9cfb5e84748,Minor readme update,2011-04-19 21:49:51+01:00,FALSE
+d489536ec6110f7d37686f2753a83ec2e71024ea,More readme faffery,2011-04-20 11:24:36+01:00,FALSE
+9d2ce58fc990dd9bde4b42d130d8d00ddf737e1a,Added missing line break,2011-04-20 11:32:44+01:00,FALSE
+59c00d6885809b20ec3bbd0782feeb09d8149779,Updating readme to reflect changes to missing key handling,2011-06-08 01:23:59+01:00,FALSE
+42b562aa40cc234fb0f045f889b42c18987474e8,Updating readme with better item data example,2011-06-10 11:07:52+01:00,FALSE
+fbf475fdf988527d4ac22c1e7169e7d38e798f99,Updating readme with Write API methods,2011-06-10 13:03:09+01:00,FALSE
+403fd176588965951a64bc6e6a512a0da77d769a,"Removing defaultdict functionality, updating readme",2011-06-10 14:56:48+01:00,FALSE
+0696d9df4f093fd32730fea38ed1b4fa8afdd43b,Fixing readme,2011-06-10 14:59:42+01:00,FALSE
+1b8f673d776210b3707cab59700a305d8325ed81,Adding GPL v3 license,2011-06-26 15:12:09+01:00,FALSE
+fa6cebf07de1a44d2c52949a019cb54762f4565f,"Adding create_item() method, to create Zotero library items using the Write API",2011-06-27 19:22:01+01:00,FALSE
+52c4340ffaaee5933690a0096850e95cbae69e43,"Removing mention of Elementtree from Readme, since it's no longer required or installed.",2011-06-27 19:29:41+01:00,FALSE
+66708c0a5e9bf2ba9a529069ea85fe11c86617dd,Correcting typo in Readme,2011-06-27 19:32:59+01:00,FALSE
+fb38b01e475a1041b574ec23ed414ebc4fe41af5,Updating create_item() documentation,2011-06-27 19:37:34+01:00,FALSE
+38003f5bb4b7f4e494b3c0a2e8ee58d7cb644282,Adding update_item() method,2011-06-28 15:25:35+01:00,FALSE
+a3218f0b65d7a1eb93799c1438847ee321ff908d,Fixing Readme typo,2011-06-28 15:26:15+01:00,FALSE
+e135e99f67c2c19ea2486d2f447a679e2c9a9b8a,More Readme typo fixing,2011-06-28 15:28:35+01:00,FALSE
+7b6de0705593ad3b15e9468f8a67393a86fee416,Adding delete_item() method,2011-06-28 16:37:02+01:00,FALSE
+de989d6de0be25292ec5b4e843700b46d26d6928,Removing reference to sample.py,2011-06-28 17:00:17+01:00,FALSE
+c2c23b51862884ec0818d2cbfa36c190a731865e,Minor Readme edits,2011-06-28 17:34:55+01:00,FALSE
+8083dc73047867a0c76d4e4af3b7ffb6788cbee6,Adding an additional delete_item() example,2011-06-28 20:42:13+01:00,FALSE
+05d6df8c5bcadf176281dd1b1f1c5e16072cdfe5,Adding addto_collection() method and documentation,2011-06-29 15:42:40+01:00,FALSE
+5477d3be7c9ddf11ef661152f316d5b5ff040aa3,Fixing Readme typos,2011-06-29 16:05:11+01:00,FALSE
+f0c5bfce4d300ad90220ac34a3669d7339502ba9,Added deletefrom_collection() method and documentation,2011-06-29 17:08:09+01:00,FALSE
+1e51ccdc95e25d82c2667db03840e3e4a59e2868,Adding create_collection() method and documentation,2011-06-29 17:48:06+01:00,FALSE
+5ca5ed81f0401314f18b3f137879de1321d97357,Adding update_collection() method and documentation,2011-06-29 18:35:19+01:00,FALSE
+9280bb43faa53cb5fa4f5e18d78ab5026c47e52e,Readme editing,2011-06-29 18:52:28+01:00,FALSE
+59504f01c3fdd308241925bca40508071a4c6c29,More Readme editing,2011-06-29 18:58:44+01:00,FALSE
+f6ff263778ae604342b157257a78d36c9e7c864a,Adding delete_collection() method and documentation,2011-06-29 20:55:14+01:00,FALSE
+2b5c2a49dadd83135010935fb18a9684b0ed52df,Readme editing,2011-06-29 21:01:11+01:00,FALSE
+548d6a6349b6a3366b15d24ade6ddeb07afd36bc,Edits to installation instructions,2011-06-30 12:12:21+01:00,FALSE
+868dac988333b8da5fb86bdbdb8a7d9280060f10,Some more edits to installation instructions,2011-06-30 12:15:08+01:00,FALSE
+12a7d5679e9c9f4ab8ddf37d2fb9d66ef01331e4,Yet more installation instruction edits,2011-06-30 12:17:04+01:00,FALSE
+094f0c2319edbdee8460f89b17910b71fa716624,Cleaning up Readme,2011-06-30 23:32:22+01:00,FALSE
+9e9dc2abc8c5ac40460baf75d421037f142150fc,"Added get_subset() method and documentation
+
+get_subset() allows retrieval of an arbitrary subset of items.
+It accepts a single argument: a list of Item IDs",2011-07-02 22:46:27+01:00,FALSE
+f33c20384e8e033352b22789f7c894d2c38e8784,Fixing typo in item creation code example,2011-07-02 23:58:17+01:00,FALSE
+7b0a702e2fdce8590b89265b7f5727f5bfa0ad54,Readme typo fixes and Sphinx doc creation,2011-07-05 12:32:54+01:00,FALSE
+093ea13a982c54233d5ace248dd7c47ca9695e69,"Removed duplicate docs, since they're available from RTD and PyPI",2011-07-09 18:04:39+01:00,FALSE
+57e8b751dffc344ede1ae33195c36ae3e0aae1e7,Readme update,2011-07-09 18:58:06+01:00,FALSE
+3bebe4f12be394496cbcc88afa1e09b8088b885f,Fix typo,2011-07-09 19:01:19+01:00,FALSE
+89a42f6ff8a954a467648101c0657953c8220a57,Adding license details to Readme,2011-07-16 12:09:04+01:00,FALSE
+630c46161097f0362121105d74fc0641e6b6b9eb,Adding note about pytz dependency,2011-08-02 13:10:43+01:00,FALSE
+a7b81dbfe7d52aa05425568c2d64eab202f9acb1,Adding a note on pull requests,2011-12-06 11:39:44+00:00,FALSE
+4c60c2ae419a375a427fe4365e83d2832a84f6af,Readme update,2012-03-14 20:04:01+00:00,FALSE
+a59d5a43850859c14b8dbd0017312425f087eeda,Add example to beginning of readme,2012-03-23 23:31:25+00:00,FALSE
+05582ba2810cf41202e49f701727f9d2ccf968cc,Correcting hello world,2012-03-23 23:34:09+00:00,FALSE
+2fc28ce1cf9642ef7a7a3d4dd927df8a3f4d6c96,Updating readme,2012-04-06 13:06:24+01:00,FALSE
+2b1d6820f7ac36c06fb030dbb1a5b0691239e11d,Removing some spaces from docs,2013-01-18 16:23:09+00:00,FALSE
+d7b61b3edb78de417560a34ef6fd2715b6e53101,Adding contribution guidelines,2013-02-28 01:27:28+00:00,FALSE
+f14b86d107ab735a4d54b478a5ba13280484eaef,Fixing typo,2013-02-28 01:29:12+00:00,FALSE
+f9cb639825c54979b202fd95008faa3b768b8faf,Updating README,2013-03-17 00:10:22+00:00,FALSE
+54f89ae8e47dffa17392cdcb184d910014e0d1d5,Update README,2013-05-10 21:03:58+01:00,FALSE
+9585c810640b7818174b72d6b22f556f4c41366a,Removing references to Github downloads from docs,2013-05-13 01:00:06+01:00,FALSE
+486aedd3f041355dffcf7cb0b0eb7666d86f7115,Removing references to Github downloads from docs,2013-05-19 22:30:59+01:00,FALSE
+de1cdda641787e276356f5dc8c3ab256823762fb,Adding Travis build status image,2013-05-19 23:15:37+01:00,FALSE
+308646a83b32def3bdeee88b9d9e81eb17a02c35,Replace print statements with functions in README and docs,2013-06-08 17:29:53+01:00,FALSE
+b65bfd4301e68800a9ac7bad188649e779dd6bae,Add Python 3 section to README,2013-06-26 15:36:07+01:00,FALSE
+6369402447c4760fc99a101a7d7c6f1c0e23be4f,Python 3 support is now in dev,2013-06-28 14:45:33+01:00,FALSE
+7dce0ea97093341ab7963be83b06bedd14913a0c,README update,2014-03-10 17:07:07+00:00,FALSE
+3343b54272acc3ead1b0d9096457ba659697bc47,Updating Python 3 version to 3.4,2014-08-03 01:02:16+01:00,FALSE
+6e93d1ee743e108770313bb2691ae48dc4f87b08,Updating README and documentation,2014-08-06 16:29:33+01:00,FALSE
+0a6a7e4fff5800541a65e41c03f7918a2b47ff62,Alter version to Semver-compatible v1.0.0,2014-10-13 11:03:43+01:00,FALSE
+85467f41c31bd38d581e6bff268ce5cd6a745bdb,Still in development as of October 2014,2014-10-13 11:06:10+01:00,FALSE
+fd43438b16adc224bca3f3c89b6c9bbea247be2c,Adding some status shields,2014-10-14 10:22:34+01:00,FALSE
+5d2e1b6b169bce72b8dbe20c8c4d2f8a291f027f,Note availablity of wheel,2014-10-14 12:38:11+01:00,FALSE
+3f64f6301f104bde288d6fb8e4bf2e990bc56d21,Fix name of test file and link to location,2014-10-14 20:33:50+01:00,FALSE
+d01a46d962fc9f59a37d7e3495ea4e3120824231,Minor README overhaul,2015-02-17 14:25:19+00:00,FALSE
+c780c7abbe2ceb9990bec6eee7382552b9eac74f,"Clearer quickstart
+
+A better explanation of where personal and group library IDs are
+located, and a more comprehensive step-by-step",2015-02-17 14:25:33+00:00,FALSE
+bcd48b27b508762972b533f729cced3f3d09274e,"More doc updates
+
+RTD docs Quickstart now reflects Github README
+README is a bit clearer",2015-02-17 15:30:41+00:00,FALSE
+226951038311314f9befb56876b18f73f89bf258,Removing superfluous description,2015-02-17 15:35:11+00:00,FALSE
+cdfeaba08829cb06914d805e36ac0d494f6c1151,Pyzotero is still being maintained,2015-02-19 16:49:54+00:00,FALSE
+07b2301d6bfb701c8006f769949a095ff432eeb0,Flat badges,2015-02-19 17:42:54+00:00,FALSE
+5db612fd1bb2eead8f0803ccd00a963064f6d73c,Fix badges,2015-02-19 17:44:40+00:00,FALSE
+afe9d4d896ead60fc853759145cdeb723289e3b5,Updating license to MIT,2015-05-26 20:31:44+01:00,FALSE
+3ab3650390307c4a868a42478570d4b73faa571c,Remove some periods for clarity,2015-06-09 13:26:20+01:00,FALSE
+c0be15df0a21ccc5eaf85bf0163e826ed0b6a432,Fix badges,2015-09-16 01:36:26+01:00,FALSE
+9f92d73e6657e29a2d0ccabc94c209807c7a821d,Desultory README faffing,2015-09-16 17:46:35+01:00,FALSE
+150d52854294a8d038bcf76aa4e01c737e3ba5f7,Add some badges,2016-02-01 16:47:58+00:00,FALSE
+ae2cffaa1a8f2044f17ce4d619e093138c776dfe,Add coveralls badge,2016-03-13 13:28:16+00:00,FALSE
+fad75996aac544e78921598ec0186e8f1581a0b7,Add coveralls badge,2016-03-13 13:31:13+00:00,FALSE
+c65c817f8df1b50809f5856c648e78c35e9ff8f4,Add Python 3.6 support,2017-01-07 15:14:02+00:00,FALSE
+d0a8d15878ac3389d7e9d427c9b0bcd7d8dfec1c,Fix Py versions shield,2017-01-07 15:18:18+00:00,FALSE
+2cacb120c694de57fefd8e0267fe463e3e468169,"README update
+
+[ci skip]",2017-09-16 16:12:00+01:00,FALSE
+b5fc88f7df5a97d9581697209fb32aafaabc6cbc,"Doc update
+
+[ci skip]",2018-01-29 14:13:34+00:00,FALSE
+20dc884f0c8c7d2fe33585aeb0acb2b8fada1b79,Update Travis badge,2018-10-20 16:31:23+01:00,FALSE
+a679500f294007ca4aef8e400b74bc969d6a726d,"Doc update
+
+[ci skip]",2018-10-26 16:17:02+01:00,FALSE
+d7ac804aa3c51a073f8c0a59d621909ae2f57c03,"Update with latest Py versions
+
+[ci skip]",2018-11-02 15:19:17+00:00,FALSE
+b6f19993f2888269cae093beffa7b6a83cf33c47,Switch to Nose2,2018-12-31 13:12:22+00:00,FALSE
+8dca633dfab07cd4dfe3f5649d538ebbb857c0b5,We no longer support 3.4,2019-01-01 14:11:24+00:00,FALSE
+bd4c1e2b073a8c29147d7299f269a415d929f707,"Markdown edit
+
+[ci skip]",2019-01-02 21:31:39+00:00,FALSE
+bf5fcde7ea708056cdbfa01122f8ece56570507e,Use README for long_description,2019-01-20 13:18:46+00:00,FALSE
+795087bcc4a3916068df2fd29b0135e3eb98eaf0,Rename README,2019-01-20 13:25:25+00:00,FALSE
+947fa180f4abd779fb173af3859fbee2011b996e,Update README.md,2019-02-05 10:52:44+00:00,TRUE
+436c58b01f2422ae4f017df5fe07f2038d001a88,Add conda install instructions,2019-04-26 14:55:48+01:00,TRUE
+eb0cc648c68b86fc9681799a4e63c5c6170aba58,Add citation details,2019-05-18 12:59:25+01:00,FALSE
+7472594859837794f80263333a96194c949caec3,Doc update,2019-09-29 12:20:55+01:00,TRUE
+8df389d33248bac2b95b859c7a07245d9dccd5e5,Test on 3.8,2019-11-25 09:59:09+00:00,TRUE
+f83a26010a098f849b6deb8838eac01cf520f410,Remove Travis,2021-03-20 15:11:00+00:00,FALSE
+86366ccc117614a3a4ead22cb298a72e71382b55,Hmm,2021-03-20 15:31:10+00:00,FALSE
+dfd313e25c0a29b77971a0d0e204372f2c135b15,Remove fake heading,2021-03-20 15:50:22+00:00,FALSE
+b71d65ba5e2d16cf719af390b9e5a1a98748236e,Switch to CFF format for citation,2021-07-29 13:25:18+01:00,FALSE
+6cd2efba69469e90ca129ec8ec13fc6bdac50c6f,Use environment markers to use Feedparser 6 in Python 3.6+,2021-10-11 16:23:02+01:00,TRUE
+ef28e972c8d59dfdf52595d048c846a746f092ae,Update test instructions,2021-10-11 17:03:50+01:00,TRUE
+1b1b209d4f39ab160af9770ff77adbd28dc56450,Add downloads badge,2021-11-25 13:03:54+00:00,FALSE
+b803bfc29738e5556cf7b440b80ac784cec4ea7c,Update README,2021-12-12 12:55:26+00:00,TRUE
+3a3030e1e30e0df16df6a2186f96ac9f4a718a81,We use pytest now,2021-12-12 12:57:45+00:00,TRUE
+4e9297c19294527227c0e048d689130cada8b48b,Update badges,2022-02-16 13:15:53+00:00,FALSE
+19c0d891d366a495706cb3c28d0c02dec14dc7f6,Python 3.6 is EOL,2022-09-01 17:13:31+01:00,TRUE

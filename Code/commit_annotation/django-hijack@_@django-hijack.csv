@@ -1,0 +1,144 @@
+sha,message,date,result
+07a473403ed336e4444a93bdb1db771c6a9f74c6,"Changed README style, added more info, history, signals, …",2013-11-22 00:57:54+01:00,True
+69b47b825f658723f967bfd26e73f1c608520cb0,"Readme, todos, etc.",2013-11-22 01:15:38+01:00,True
+7b8b0bed9d501b3d7c18967b0676cd5ed9f84ec1,typo,2013-11-22 01:30:49+01:00,False
+cc2017e997ff82a22f6f98f317a484d9dda3c3dd,Visual notification for superuser when working with a hijacked user.,2013-11-22 11:20:24+01:00,False
+0524c7226d33174d4e280133ed486d611c6f6660,wording in readme,2013-11-22 11:22:26+01:00,False
+3b7c3267d2c483ea03b22e4593cee70745d96298,Add new use case to TODOs in READM,2013-11-22 11:24:47+01:00,False
+ff064405b46b5d3fcaf6db950f81dc6c695ed6e0,Described SHOW_HIJACKUSER_IN_ADMIN settings.,2014-02-05 15:59:54+01:00,False
+66eaaa2409d7de1640fd3002fa6da2aec28beae6,"Corrected terms, admin backend to admin site.",2014-06-04 11:29:50+02:00,False
+2df81d01aa1b8f4b2c1499319127d50c5621a665,"Added ""FAQ, troubleshooting and hints"" section 
+
+to the README. Explaining what to do if the button not showing up in the admin site.",2014-06-04 12:19:24+02:00,False
+4d0c7a224e7724049056285795082f2619d681a1,Added feature request (Custom user model),2014-07-26 16:52:39+02:00,False
+849c3453021a741a3c54d8b52b2c24bf5372715e,Added option to allow staff to hijack Users,2014-09-03 11:04:46+02:00,False
+fd754f68bd5b92a1ef45c5c914ef538ce1c31b96,Added option to allow staff members to hijack other users,2014-09-03 11:08:58+02:00,False
+cb3ff8edb1384ea4797dc94f5fbd7d87eb8fdd45,no message,2014-10-02 13:05:32+02:00,False
+c93c0bfdcfbedb42dc90688cfc56dd1fcbe45bc8,"Added ""Similar projects""",2014-10-02 15:46:19+02:00,False
+ad8107f7eb59b7876a0182af007d82158e5baecf,"Added django-su to the list of ""Similar projects""",2014-10-05 00:50:22+02:00,False
+205229fc81bc5f8580ec9a742965db046fce2d79,Added support for custom user models,2014-11-18 15:21:02+00:00,False
+c610736ac226dab8530bec92db219a4d7351aa15,"reverse hijack functionality
+
+.login_user saves the id of the hijacker
+.reverseHijack reverses the last hijack with the id saved in the session
+named url ""reverseHijack"" calls .reverseHijack:
+ -> reverses the last hijack(redirect to login_redirect_url or reverse_hijack_login_redirect_url) or 404 if no hijacker
+added reverseHijack link and close button to notifications template
+update readme",2014-11-27 13:31:00+01:00,False
+6757e3ccf418c998002eb5e5fae667bd49bf2f8b,Clean-up and minor fixes after PR #8,2014-11-27 15:55:07+01:00,False
+7bc66a61161419817d763e46aa99b3818771030b,"Updated README
+
+* FAQ
+* TODOs",2014-11-27 16:03:20+01:00,False
+c31e8bce8c234d923f4dc317f50c077795c34e94,"Update README.md
+
+Fixed a typo",2014-11-30 19:01:12-05:00,False
+a6e3e8b7d69593d33ff6165fbcd1040bfb3af4ca,"update readme
+
+support for custom user models",2014-12-01 10:20:47+01:00,False
+d762e9d3b8d85c11d460408dc1e72d41e204bd89,"readme
+
+compatibility for django 1.4 - 1.7",2014-12-01 11:41:59+01:00,False
+50e358442ed4738d8571b55535f48a2650553345,"Links, formatting, minor ..",2014-12-01 14:31:55+01:00,False
+31410a1f0c57f30d63943c7776ad7070d22d2086,Added link to djangopackages for two grids.,2014-12-04 23:10:04+01:00,False
+ea2432c65dbf565f96f6f5ca04371482a5390f4c,Modified description,2014-12-04 23:31:02+01:00,False
+6cf4e83ef22346a7614d63c117933d5900b08f2a,added screenshot,2014-12-04 23:50:51+01:00,False
+0b1471a6df946c588f4a87581d1b3f607ed5cbc1,"adapt the hijack and releace processes
+
+If set, redirect to the ""next"" request.GET attribute
+or the django-hijack specific settings attribute or
+the LOGIN_REDIRECT_URL.",2015-01-19 14:45:23+01:00,True
+a63368f44638094677246df7c25dafd63a3a56a7,Added build status into README,2015-02-16 13:44:45+01:00,False
+98deef87a88062e6f73cf84a93271cd13e2d9937,update readme & setup.py,2015-02-16 15:12:47+01:00,False
+fca3c70ce613eaaea32469bacf487ad2f61344d1,add Table of contents to readme,2015-02-19 10:40:26+01:00,False
+4283efa177708644ff795ae72e5e39c16befdb64,add settings to readme,2015-02-19 15:12:07+01:00,False
+6368284f3763da282aae3a3807fcce7b2372d7bb,Fixed an error in the TOC,2015-02-19 15:27:48+01:00,False
+53ff27c385322eeac275f9ea69c7bf7f6bcddeaa,Fix typo in readme,2015-02-19 15:58:05-05:00,False
+052416afaa71e79ba74396d2af96aa25407ad004,"More typos fixed 
+
+[ci skip]",2015-02-19 22:10:28+01:00,False
+61cb71a3ba7427fdd842c75289e90655af585534,"More typos fixed 
+
+[ci skip]",2015-02-19 22:11:57+01:00,False
+5178eaf0866ed8bc4f8165235d8e0d5e8bcb0f90,Add setting to choose which user attributes can be used for hijacking a user,2015-03-07 19:17:31+02:00,False
+241e4ac4ae5847bc0eebe068a7e52fc2c9d8870f,add explanation: staff hijacking superusers,2015-03-11 09:54:46+01:00,False
+b4a886af17ba9f5bef6a70057abb6bc7ea76fc64,typo,2015-03-11 10:00:09+01:00,False
+0c15e4bf02e1f4742ddce4ee55be4e7d3ac08216,update table of contents,2015-03-11 14:31:47+01:00,False
+974cadd3ef1346240ac031b49045e1ec57b79e2c,Fixed typo ``user_id``,2015-03-24 22:04:09+01:00,False
+777627d32c63131a3d7aab84f68425aad13030a3,"Added ALLOW_STAFF_TO_HIJACK_STAFF_USER setting, added tests and created separate function for permission test",2015-03-28 13:10:49+01:00,False
+3fd90029680bdc91cc16d4a2626c085ab65d1b02,"RemoteUserMiddleware does not work, see #72",2015-05-20 16:28:55+02:00,False
+3991974b760d1ad972495fc1a916bc1efd326875,Update README.md,2015-05-20 16:29:40+02:00,False
+55e15adc5f51a33a93e9fbf5d93f56eef74091d5,"Updated README with instruction how to work with middleware. Removed issue from TODOs, issues and planned features",2015-05-26 11:46:38+03:00,True
+a6af50d233c7efa16b9f6bdfcf431319b1c1d3fd,add waffle.io badge,2015-05-29 05:09:12-06:00,False
+188a5dd07e4c5ec35880016e27310ba80101601f,Moved waffle.io badge,2015-05-29 13:11:54+02:00,False
+2ffb72f588ab7a72334a598fd64ee60f30820cd6,CUSTOM_HIJACK_HANDLER: Update README.md,2015-06-01 10:51:16+02:00,False
+3c88a9ae389ad15f687ed78021786e8b1066672c,README.md: update TOC,2015-06-01 10:55:12+02:00,False
+2d5223195bc0e194fd55f1442acdc9b5a0b7ba81,fix backtick,2015-06-08 13:27:19+02:00,False
+6f28a472b20eb5a2f19d1e26c91c7e217f8a1aa5,Update README.md,2015-06-09 09:32:55+02:00,False
+8cac3ad5fc016ce0541fbcb22097fe0addfc51d9,Use coveralls,2015-11-10 09:53:55+01:00,False
+b0c7b4f86c56fa8f0acc8584b01f6c8c51afccbe,"Drop official support for Django 1.4, 1.6",2015-11-10 10:55:53+01:00,False
+897e5a0424d19f3161fcbca97fd71b412a0ca7ab,Django 1.9 compatibility,2015-11-12 10:18:28+01:00,False
+a7794584c6a33e0e356c41da8401c5961854a98f,Update screenshot to 1.9 admin interface,2015-11-12 16:07:54+01:00,False
+4ab4683ca3a5f849a5751192cc4e448c2a1a1db7,Add screenshot of bootstrap warning to README,2015-11-13 09:56:52+01:00,False
+736fd1efc3e56bcaec5a952e7a1ffa2cf5a927dc,Update README,2015-11-16 09:35:28+01:00,True
+e8cdc574e5c266cd00c5a614ef75078a75e7260a,Move README to docs directory,2015-11-16 12:54:17+01:00,True
+a99db65b16ef11a2eee09c888b08ea7885b975c1,"Revert ""Move README to docs directory""
+
+This reverts commit e8cdc574e5c266cd00c5a614ef75078a75e7260a.",2015-11-16 13:03:42+01:00,False
+0a10d69f5ce3815d57fa15206241f3d5e868c97f,"Move documentation to ""docs"" directory",2015-11-16 13:17:04+01:00,True
+bae431606a096e935e438b8ed1260370dc0438c2,Update README.md,2015-11-16 13:19:42+01:00,False
+4d3cc95d2f047cfd60b4e90171c371a602e4a431,Add testimonials to README. Closes #78,2015-11-16 13:47:01+01:00,False
+a51e71ef6d30f153bd0b44a405145ce7e18d1137,Update README.md,2015-11-16 14:24:51+01:00,False
+fd8f1139fdbc9d6b13698bb5f7ddb7f5ad844d8a,Remove unicode characters from README to fix setup.py uncode error; bump version 2.0.7,2016-03-02 15:20:26+01:00,False
+d7917acd57091c96e1d025cd00c93569d8e6e84c,Remove django admin integration (will be moved to separate package),2016-04-12 10:50:32+02:00,False
+7e4f5663aee1f3a3b192ae330f336a09672cac9e,Add testimonial to README. Closes #122,2016-11-29 13:49:07+01:00,False
+ae74d61932ede02ee33c434b293fdf03d64ff32b,"Add link and badge to PyPI
+
+This is useful to be able to quickly check these things:
+
+- Whether this package has been released on PyPI or not
+- Which version number is the latest on PyPI
+- Once you click on the link, you can verify what the PyPI package name is, for use with `pip`",2017-03-01 09:23:54+01:00,False
+2f38c9ba93f32cbcb6dcccc6fb26369356509608,Update README.md,2017-08-22 23:58:06+02:00,False
+d9b3dc24623a8d65e8b7e76f1b31c4b79ce10036,fixes #133,2017-08-23 00:01:57+02:00,False
+70ebdbe7ee6e9bdf10012a7d03924067a7ed15e5,Update README.md,2020-08-18 09:45:43+02:00,False
+613003229c8b2a1f0c0cf56c06742e4bbdf858c2,"Readme small improvements (#214)
+
+* Readme small improvements
+Removing broken badges, add image availability from pypi",2021-01-28 00:14:43+03:00,False
+67b977c185e928f060187d0aa610753db7456cf3,"Complete rewrite with a focus on security
+
+The old design was based on a lot of untested behavior that has
+since been included in Django itself, including proper testing
+and security oversight.
+
+This refactoring uses those new tools and aims to greatly simplify
+the overall design. This simplification should keep potential
+exposior to a minimum.
+
+As a result almost all settings have been dropped, infavor
+of a simple permission callback and a notification template.
+Both can be overriden in a users application to customize
+behavior as need.
+
+The documenation is completly rewritten too. It may server
+as a good starting point to understand this change.
+
+Changes in a nutshell:
+
+* Add Material style snackback notification
+* Use permission callbacks instead of settings
+* Provide permission callback for convenience
+* Render and inject notification via middleware
+* Use Django class based views and mixins for permission handling
+* Update the documentation to reflect new design
+* Compile gettext messages during release
+* Switch to SCSS and compile during release
+* Add msgcheck linter for translations
+* Add styleling as a SCSS linter
+* Update translations
+
+Co-Authored-By: Pavel Torbeev <p.torbeev@gmail.com>",2021-03-19 21:26:48+01:00,False
+e110db4ccfd680c4d98da389cf287c0e31ec2e26,Update README.md with information on docs for 3.x (#318),2021-08-08 02:35:37+03:00,False
+a8dba01a84b7933981bd4b6a4af5545e052d94ce,Move funding links GitHub sponsorships,2022-01-31 17:53:04+01:00,False
+a2554c7c8c95ab7d81972997e2fa9f2c84f39760,docs: update documentation link and version info,2022-09-29 23:05:44+02:00,False

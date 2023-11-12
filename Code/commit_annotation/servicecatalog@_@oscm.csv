@@ -1,0 +1,99 @@
+sha,message,date,result
+5c242fa7350f1514f9b30af674d50a796e195598,Initial commit,2015-10-02 09:20:22+02:00,False
+535304fc65ef7585cd2cabe08a1c8d6cc49ebe64,Initial commit,2015-10-08 07:57:52+02:00,True
+b19ea0fff99d94362dee2a1084f984f3a45d4668,"Update README.md
+
+Modified url.",2015-10-08 14:46:46+02:00,False
+97c5459dd8004b536cf785ca9e1b928b6da0ce0b,Update README.md,2015-10-09 13:13:07+02:00,True
+66c4f28ede7af5a31dec82478b45e6458fcd9666,Update README.md,2015-10-09 13:41:32+02:00,True
+b452f51084a96dd31ef593f1ddacb0a99ebc1801,Update README.md,2015-10-09 14:17:22+02:00,True
+c1897bff8a1cb24e422be1fbf068e597601fa437,Update README.md,2015-10-15 15:44:13+02:00,True
+d3d5108dca2827c0d8a260880232766491cb68b9,Renamed artifact.,2015-10-21 11:03:26+02:00,True
+02738ad19dd898a4863e0cd3e549795ef5c975eb,Added the Contributions section,2015-10-22 17:57:30+02:00,False
+45a9077b8efe8834b3b1752ec97ea3942cf7de2d,Added links to the CLA files,2015-10-22 18:15:26+02:00,False
+4e98ece7d048453ac5ecfc9f6ca589892568c02f,Corrected CCLA link,2015-10-22 18:17:29+02:00,False
+133f80d135d79fe7e2cc0e85d9f80379609ef1bd,Update README.md,2015-10-23 10:04:46+02:00,False
+a24b4d6ebc116e31c37f4534dee62cae51dcbca1,Corrected abbreviation in readme.md,2015-10-23 16:35:48+02:00,False
+c7abe6a9f95305fdfc74f0643543cfc82568885a,"Updated REAME 
+
+Updated PostgreSQL link and version. PostgreSQL version 9.3 is used in OSCM docker image.",2015-10-28 15:38:13+01:00,True
+3f549cc2eabede78e3941ac8a8ea6b89f36a0ca8,corrected the email address to send the CLAs to.,2016-04-04 09:12:29+02:00,False
+58960993dba830ba4420015765a0186c97f7a411,Update README.md,2016-04-07 13:35:53+02:00,False
+c34d1db753c726889baaec99c62fecb7b896356b,Update README.md,2016-04-24 20:41:23+02:00,True
+f76a0802770fc1af1a15f2cda7d4ed656047a66a,Update README.md,2016-04-24 20:48:18+02:00,True
+442de9aae21b975b6f35df4d7880f9dbeb0a3f89,Added travis badge.,2016-04-24 21:09:10+02:00,False
+dab89321eaa3a56cd8aa89bf65239ef4a231465a,Added travis badge.,2016-04-29 11:17:34+02:00,False
+05e32c1d1761dfe126bbd0a61edf687682477532,Merge branch 'master' into fb_omit_payment,2016-05-12 10:34:19+02:00,False
+ea55408efd24b647edce15273817e66a5754bb65,#84 add some note to README.md,2016-06-08 17:03:03+09:00,True
+27afbb8c13848775a77638629c020cc34124df6a,Fix grammer and change -Xmx sentence,2016-06-21 11:06:52+09:00,True
+2a2c14b1fde61344f44e4c3a9c5f1299e97c1ff8,Fixex #22. Merged master branch,2016-06-22 09:57:48+02:00,True
+6a00e8abed0f51dd8b709dad95fb3dc6d4bcf603,#84 add some note to README.md,2016-06-28 13:31:27+02:00,True
+461163592a014f82778793cb19ded9b27f06db35,Fix grammer and change -Xmx sentence,2016-06-28 13:32:28+02:00,True
+d9ad0e85c8e46e8c4ece25eddb4e2182541c141a,add description and readme for code style in eclipse,2016-09-09 10:20:10+02:00,True
+01cb08c39ae795207e6e6d5696aaa9a6ed448387,add description for non-java file formatting,2016-09-09 10:46:04+02:00,True
+52fd0085b53fcdc78aa78c9657c605ad1c653ff6,Updated chapter prerequesites. JDK 7u45 is minimum required.,2016-10-25 21:12:45+02:00,True
+fe937c33f3f17b56805213876add1cb716ae4ae5,Update for Glassfish 4.1.1 and JDK 8u121,2017-04-28 18:01:33+02:00,True
+802e347fd555fc4f8718afe5cc6cc52ac025aedb,Update README.md,2017-05-09 18:27:09+02:00,False
+08658f2f0234f8d5ad7a5f45e6aac97af569ce2b,Update README.md,2017-05-09 18:37:02+02:00,False
+2dbc275cd7831870034d44ffcfa9f15f9615cace,Corrected download link for birt runtime.,2017-05-09 18:45:06+02:00,True
+c7d9ad08b52c5eb65dcb0e40793c87b2233073bb,Updated for Glassfish 4.1.2.,2017-05-11 19:59:32+02:00,True
+bec7754ed077911742b78b5a084156e982a6a218,Update README.md,2017-09-06 09:08:42+02:00,True
+f70cdeda2abbcebfbf217304a4362e8d733fc39f,Update README.md,2017-09-06 09:10:26+02:00,True
+c4f97b54593137da2ff761fd7302e33c9d90f1a5,"Update README.md
+
+Language review",2017-09-18 11:12:22+02:00,True
+3af6a108c6f1b18254986ad4652c8731a92c079c,What's cool?,2017-09-22 12:40:34+02:00,False
+564e66593c9d272b8e04804410b633bc089aa203,Update README.md,2017-10-09 17:59:35+02:00,False
+8a4e2a9f824fa628e73fdd7ee750d384b75bc839,Update Readme.,2017-12-05 15:08:23+01:00,True
+8c1150dd5c0d2eee8e75ee4f889b80a26c246645,Update README.md,2017-12-05 16:54:40+01:00,True
+240c4103cae58be533c515bf62346486bafa2bb6,Update README.md,2018-07-11 12:59:20+02:00,True
+7ea46c84247f051bea7fe63622e0ad10558aa3ff,Update README.md,2018-10-29 13:52:08+01:00,True
+9649de68c48d5b697825382b7b34c10307a1eb80,Updated readme instructions.,2018-11-05 13:55:13+01:00,True
+6917ae2dc66957fd2238535d4e666ea432f4a0a1,Update README.md,2018-11-05 14:18:53+01:00,True
+becc3e0a423c5f1fcb372e9a1636a02ceac7340d,Update README.md,2018-11-05 14:22:02+01:00,True
+68484e99d928d933c98c4fa0cd035b82a27eec32,Update README.md,2018-11-05 15:08:34+01:00,True
+ea09c92096f47754621c8c9a4f472071d8926077,Update README.md,2018-11-05 16:45:19+01:00,True
+80e0f74c9509e9167841fa1d1c8998c02eb675ad,Update README.md,2018-11-05 16:48:22+01:00,True
+bec41b5097535c16577e14c3d8112b9ef4c50942,Update README.md,2018-11-06 10:32:04+01:00,True
+8cdfec3e20852a076ad3400ad6937efcbde57743,Update README.md,2018-11-06 10:34:05+01:00,True
+10fe13d41cf690a1f542e6faca4b1611f39e697c,"APP leftovers cleanup (#330)
+
+* Updated README file
+
+* Removed app related ant targets
+
+* Removed aws related libs
+
+* Removed openstack related libs
+
+* Removed vmware related lib
+
+* Removed azure related lib
+
+* Removed some other unnecessary libs
+
+* Removed unused dependencies
+
+* Remove api versioning project and its unused dependencies",2019-06-05 16:25:36+02:00,True
+8c2c67c73fcdad7ef3a06ca9592a49e293b91763,readme update (#761),2020-04-06 09:21:34+02:00,False
+e2a38deb52f5e645c5d2cb4f685a88f7e692e33c,"Add ant steps for remove, create, compile and compress mp.scss file (#1086)
+
+* Add ant steps for remove, create, compile and compress mp.scss file
+
+* Build sass in one stage
+
+* Remove custom css folder
+
+* Add to gitignore customBootstrap css
+
+* Implement change requests
+
+* fixup! Implement change requests
+
+* Add sass also to travis",2020-10-16 18:27:06+02:00,True
+0e5a167b0a434f41a6a44ef6fa2d2930eba88452,Update README.md (#1239),2021-04-19 13:30:12+02:00,False
+93f146338ac88ab4943d53ce69a7383caf299dcf,add workflow badge,2021-08-12 15:06:06+02:00,False
+6e5692c268de2094120734134c25b9d81898d1d1,Fix github actions link in readme badge (#1273),2021-12-10 11:14:41+01:00,False
+a124a988e404b78f427c12c169864f5a03d165b8,Update README.md (#1281),2021-12-22 14:15:18+01:00,True
+bffe21fade4b99d8574640e7914fac10778ac279,Link to oscm-dockerbuild readme.,2021-12-22 14:18:11+01:00,True
+a9d8db82635f2cfe3b3403c89a136468bff318d0,Update README.md,2021-12-22 23:08:19+01:00,False

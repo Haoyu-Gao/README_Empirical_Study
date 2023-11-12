@@ -1,0 +1,57 @@
+sha,message,date,result
+d46ec12f47e75ab7a34410d37d63906c99fe3b8f,Initial commit,2014-09-03 10:38:00+02:00,FALSE
+1b026d986c227544b8d058d45bd4c193a21c94a9,Add and fix readmes,2014-09-29 22:49:27+02:00,FALSE
+74cf89c004f15ece368b1abbe1e3394a1a76cc66,update readme,2015-04-10 10:09:14+02:00,FALSE
+536b222f4a8a61440419b5d6f39e9433a5213484,imporve readme,2015-04-15 17:25:15+02:00,TRUE
+72f19e4b68361f6761cda75e5712f26a00f6982e,update readme to better communicate the WIP status.,2015-04-21 09:11:03+02:00,FALSE
+6903623ca3c470464820fe647895ed09738cb0a3,"Getting flexx.ui to work, step 1",2015-04-29 23:22:45+02:00,FALSE
+1681021b400a8a7e3a676afc1dec5a2fe5ede6ac,update docs: we do have one dependency.,2015-05-03 23:31:05+02:00,FALSE
+ae2df219ca0d5faf9afea1cf4e4a36e353635558,improving widget and hbox/vbox,2015-05-14 23:04:43+02:00,FALSE
+3eacd0b73b67f1b1811b7503843b37c84d2b4f5e,update readme,2015-05-14 23:13:03+02:00,TRUE
+4a3d029fd6589fc221db4e5fdada9975ea53e1c2,Make export work and refactor clientcode.py,2015-05-19 11:46:25+02:00,FALSE
+177158d4d16f162806014b2cf94486f3937d515c,update readme,2015-08-26 15:18:06+02:00,TRUE
+7a079e30f9a43979510858c2af76f730c94b1d22,docs,2015-08-26 23:37:34+02:00,FALSE
+345b6441060d51ffa427fdec0d69135755354ca6,mention demo server in readme,2015-08-27 01:03:14+02:00,FALSE
+68f0bbb3c0843897c50347026a170ca9780075b6,docs and such,2015-08-27 01:47:03+02:00,FALSE
+a338d05c57e943ea2f191d44db1f8c0af2f07ea8,Fix readme doc link,2015-08-28 22:31:53-05:00,FALSE
+6a932b452f802fbc7c1f3e30c28bed43beee440a,Improve syntax highlighting of README example,2015-08-30 10:04:07+10:00,FALSE
+7f79092c9cf7784ed05d02a3e5a0529888d9be51,allow pip instal to also install Tornadio. Fixes #31,2015-09-09 10:34:00+02:00,TRUE
+8ccec6e32bad3a1e088ac7fb022abf2a77d7deae,Travis badge and rtd badge!,2015-10-19 12:22:10+02:00,FALSE
+8fbdb118d20d982bcf452b7a2bbbdc78fb286f24,docs,2015-10-30 11:12:07+01:00,TRUE
+0e7aa7be3511050dfb5bfbbb41f6fc5fd3ce3e9b,Update README.md,2015-11-13 17:53:41+01:00,FALSE
+3dfb8d675d40b30a6e3c3314d9115d4d4f2d91da,update some references to Python 2.7,2016-02-11 14:51:51+01:00,TRUE
+c8681c67a0d817554c07b3ea2261da5af483bf24,Improve docs and reduce places that define summary.,2016-07-03 01:58:49+02:00,TRUE
+d86504af2aedd6113f283d09a1d60255a0052e7c,Update README.md,2016-07-03 03:14:47+02:00,FALSE
+b824bf9f9ab7d441b492d42484bb88877cd4af93,Update README.md,2016-07-03 03:16:10+02:00,FALSE
+857e606be238131c9157261ad9b60d05588b508f,Update README.md,2016-07-03 10:26:21+02:00,FALSE
+d696656e9545d46d0e086c223fccfd381f8d8e0b,Mention demo server,2016-07-07 17:20:46+02:00,FALSE
+e62099372232657aee933ff3814ad36e831ee814,tweak to docs,2016-07-07 22:25:26+02:00,FALSE
+3feb8c640c048fbff40cb667051486feb4336b38,readthedocs.org -> readthedocs.io,2016-07-07 22:29:12+02:00,FALSE
+f86c0c707abd86cccbb623fe12074625d27548e7,fix readme for pypi,2016-07-10 22:13:04+02:00,FALSE
+10c308d739b312d48b8a3ea085c92486e402f1eb,mention 2nd demo server,2017-01-03 17:06:01+01:00,FALSE
+6577995941ce9f2a25b568350b702f2810bc9210,Add Gitter badge (#368),2017-03-18 22:11:53+01:00,FALSE
+840a213152c0d2dae6e62a5245bbd2c119ed3102,Update README.md,2017-03-18 22:12:51+01:00,FALSE
+5304acd774924aed7940f3764c937877a66996ff,"Fix image link location
+
+Dropbox changed something in its sharing url scheme.",2017-05-08 23:54:16+02:00,FALSE
+639055bd0785ef906f75edfd2565764a183df7b4,add status text to readme (#388),2017-07-17 13:25:26+02:00,FALSE
+076d06b579f00aba730365b06547280966dc3a95,Add notice about current status to readme,2017-12-11 12:14:30+01:00,FALSE
+a25cfa361cc3fe5b359920aec95f702a80f146f4,update github uris,2018-01-11 00:35:38+01:00,FALSE
+1e5d293c95c6af8e45f5f668713dd3052c298509,Update README.md,2018-02-06 14:27:46+01:00,FALSE
+9956a5c90234552af727e8c3c07f6736163c03f8,Update install instructions and Python 3.5 dependency,2018-02-09 12:24:58+01:00,TRUE
+fffaa31bb5e8275ceaeb985b971ac09f0d484ffd,Add new url to demo servers (one is running again),2018-02-17 00:32:59+01:00,FALSE
+3eefa1f27020017adff956999888461f678609bc,some more updates and cleanup,2018-03-13 23:49:59+01:00,TRUE
+f50aafd8eacf1ec5b4a313f1ae09c042f5a3bb0c,"fixes to CI, readme and a test, and try py37",2018-03-20 13:48:31+01:00,TRUE
+55f2e2f5617b9f9c6362ee219807d153b27edc0a,Rework docs,2018-03-21 23:08:38+01:00,FALSE
+9da61136aac906aaec84b0e403d24444039b62bc,flexx.live -> flexx.app,2018-07-03 14:39:28+02:00,FALSE
+03429be6ce1c69fbc42f32530e8707e73dd7000b,Update README.md,2018-08-03 15:37:52+02:00,FALSE
+305c37ff73c836b0aff761414c3c26746c7048cc,document browser support,2018-09-05 15:17:15+02:00,TRUE
+6def2b64618cee76483dda5de068b4100857c195,update docs about status of Flexx,2018-09-12 15:56:02+02:00,FALSE
+112511b6de2a8de67cd522cf31153c78eef856d3,poshing docs,2018-09-13 11:43:12+02:00,TRUE
+f646ff82fd3320e1bfa45dbc224f5aecfd4752ae,Update README.md,2020-01-14 10:00:53+01:00,FALSE
+57443b4a8f16c52e7ec5986455d26cf48de88607,sigh pypi rst conformance,2020-09-07 15:32:02+02:00,FALSE
+7139a02fd45a5dcb1cd9f33543f7d8d767ecfa69,Update README.md,2021-03-01 11:48:16+01:00,TRUE
+ea11ca8ca0f2cd589e180d35e5ef7f4b8aad37da,Update README.md,2021-08-30 23:23:28+02:00,FALSE
+b9b810bc70e49aaf5c3a822e1a05da945d2d390b,release notes and some minor tweaks for py39,2021-08-30 23:33:00+02:00,FALSE
+dcdce624f1cffb97f77445af7d37724b95a4e7cc,Fix link of CI badge,2021-08-31 11:22:25+02:00,FALSE
+66e347bdb9efeb2c39124dc0a8529483eda495e5,Remove link to demo server,2021-09-02 09:38:35+02:00,FALSE

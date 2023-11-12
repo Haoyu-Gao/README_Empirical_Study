@@ -1,0 +1,170 @@
+sha,message,date,result
+a3aa63b433c82c48a4446c93997dbb5904e12345,Initial README.md commit,2021-01-27 13:55:58-08:00,FALSE
+dd6c14686bf7766e68c4a6229fe3ce553ea92b8f,Initial import,2021-01-29 07:44:48-07:00,FALSE
+a4f45321f76ef70064472b00cc4510278611e0d4,"Minor cleanup, added functions profile",2021-01-29 08:08:37-07:00,FALSE
+5510f35b8006504f80eb624ff7b44a48f276faba,Fixes issue #1 - Remove 'Deploy an NGINX Ingress Controller using Helm 2' example,2021-02-05 06:47:30-07:00,FALSE
+f19c8654dfab4fef75ec19b6c4fe5cd3d0848c0e,Fixes issue #6 - Add a Spring Boot client-side mutual TLS example,2021-02-08 09:27:25-07:00,FALSE
+ed2b573e839c18d59ba50d0c4adacda445d228fd,Fixes issue #7 - Add a Spring Boot server-side mutual TLS example,2021-02-08 10:52:22-07:00,FALSE
+daca10d33e87c79f50f336a7ad9376e845c83802,Fixes issue #8 - Add create a self-signed certificate example,2021-02-08 12:13:13-07:00,FALSE
+c2d64e34d54a2af3ec788938fa785258f691e17e,Fixes issue #4 - Add a Spring Boot server-side SSL/TLS certificate example,2021-02-08 15:43:56-07:00,FALSE
+6a79f258b169431d2576eab8b03d2727df68e1aa,Fixes issue #4 - Add a Spring Boot server-side SSL/TLS certificate example,2021-02-08 15:49:42-07:00,FALSE
+97763404c616073f327fe7297be3f30f0dcefdc2,Fixes issue #11 - Remove Deploy Tiller using Helm 2 example,2021-02-09 07:03:13-07:00,FALSE
+b4a25d2a9f4d1d2b8a7c575c0ae1b0944298f771,Fixes issue #20 - Add workflow status and link for Resource Group examples,2021-02-12 16:50:29-07:00,FALSE
+d71a60af806ed8cdf3a9749c6595cf40a2ad7fd7,Fixes issue #20 - Add workflow status and link for Resource Group examples,2021-02-12 16:56:44-07:00,FALSE
+e45ae36fd57fa681aee92a8641a6390c6ef99b8a,Fixes issue #21 - Add workflow status and link for Azure Container Registry examples,2021-02-12 17:07:25-07:00,FALSE
+1c408ae07606a5b5a39a3d847f4dd8b63b1f62e0,Fixes issue #21 - Add workflow status and link for Azure Container Registry examples,2021-02-12 17:08:06-07:00,FALSE
+e2d41a1cc46abc55c1c31491ec5079cf5155a07c,Fixes issue #21 - Add workflow status and link for Azure Container Registry examples,2021-02-12 17:27:20-07:00,FALSE
+fafdb9ccf4e23c8293dfe32c56a26f90e1bfc0ce,Fixes issue #21 - Add workflow status and link for Azure Container Registry examples,2021-02-12 17:27:43-07:00,FALSE
+9902c23cd0519a3f5192749f3831b2db70a8ee18,Fixes issue #21 - Add workflow status and link for Azure Container Registry examples,2021-02-12 17:33:44-07:00,FALSE
+6bec9807de706df08a1ee5ba2ac56646c81cd3ce,Fixes issue ##21 - Add workflow status and link for Azure Container Registry examples,2021-02-17 12:18:09-07:00,FALSE
+e2268c1b787242173e783f2ebace5c5ec48c34a5,Fixes issue #21 - Add workflow status and link for Azure Container Registry examples,2021-02-17 12:26:55-07:00,FALSE
+d4e75ae50ac94c3f649c3de0c313a09da67bf2d8,Fixes issue #21 - Add workflow status and link for Azure Container Registry examples,2021-02-18 07:03:59-07:00,FALSE
+907260e8f7235a0615157294bd5df12bac642c53,Fixes issue #21 - Add workflow status and link for Azure Container Registry examples,2021-02-18 07:08:19-07:00,FALSE
+c36444e9233fe1748bcb8262308f1eecdd2e29e8,Fixes issue #21 - Add workflow status and link for Azure Container Registry examples,2021-02-18 07:21:59-07:00,FALSE
+cda1decf2212d8f8f1cb027a2fd21962d77e634e,Fixes issue #21 - Add workflow status and link for Azure Container Registry examples,2021-02-18 07:29:24-07:00,FALSE
+028feac55b1c23afe1887037447c548e61851c8c,Fixes issue #22 - Add workflow status and link for Azure App Service examples,2021-02-18 07:38:05-07:00,FALSE
+5fa7689251418c7b66bd6e84efaf9f974cac3309,Fixes issue #22 - Add workflow status and link for Azure App Service examples,2021-02-18 07:54:30-07:00,FALSE
+27de4d17339da5e4d10b1da1ad9dff4d320a6628,Fixes issue #22 - Add workflow status and link for Azure App Service examples,2021-02-18 08:26:55-07:00,FALSE
+19e1ca0b89c5520f2b51ea9f045f25d5b86af39e,Fixes issue #22 - Add workflow status and link for Azure App Service examples,2021-02-18 12:23:33-07:00,FALSE
+42ff8308de206c13f2147ef5d1b5f9a17f266afd,Fixes issue #22 - Add workflow status and link for Azure App Service examples,2021-02-18 13:20:14-07:00,FALSE
+b154cc5ad211a9dc17cf2a55add9009b9b83734f,Fixes issue #22 - Add workflow status and link for Azure App Service examples,2021-02-18 13:28:39-07:00,FALSE
+d381a45ce6719ed37207e2bbad1acded9b1e1c62,Fixes issue #22 - Add workflow status and link for Azure App Service examples,2021-02-19 08:23:22-07:00,FALSE
+637e370072f7dddd09dca715528a7e616c05be3d,Fixes issue #22 - Add workflow status and link for Azure App Service examples,2021-02-19 12:47:28-07:00,FALSE
+f2f8b84fc7512e4775e6dcba0bb4b37f7f27fe58,Fixes issue #22 - Add workflow status and link for Azure App Service examples,2021-02-24 09:33:14-07:00,FALSE
+7d7bd53afffb65347b95da1c3d444a3846d967c5,Fixes issue #22 - Add workflow status and link for Azure App Service examples,2021-02-24 09:37:55-07:00,FALSE
+dabe862bd8be46a00c89b8287b4ad95897f7dd54,Fixes issue #22 - Add workflow status and link for Azure App Service examples,2021-02-24 09:47:09-07:00,FALSE
+77714f921b9a4bf0cc698fc4fb3dc344c95b4c77,Fixes issue #22 - Add workflow status and link for Azure App Service examples,2021-02-24 09:54:40-07:00,FALSE
+9c41728d764653704531eec51334d82a145d0552,Fixes issue #22 - Add workflow status and link for Azure App Service examples,2021-02-24 09:56:34-07:00,FALSE
+87f3b8ac076601a2f9876738bb5d09df00ec5d51,Fixes issue #22 - Add workflow status and link for Azure App Service examples,2021-02-24 10:01:52-07:00,FALSE
+68b996436d4e442bb7547469a4a2755d66720d8a,Fixes issue #22 - Add workflow status and link for Azure App Service examples,2021-02-24 10:06:36-07:00,FALSE
+d1f489d33b4a55f1a4757d298f7cb6d1f7a9821e,Fixes issue #22 - Add workflow status and link for Azure App Service examples,2021-02-24 10:20:23-07:00,FALSE
+eed23f58b73b30d5795d57b03203d607827e836d,Fixes issue #22 - Add workflow status and link for Azure App Service examples,2021-02-24 10:54:26-07:00,FALSE
+e7284fca99125764806aa7dff8d015c0ef3afe7f,Fixes issue #22 - Add workflow status and link for Azure App Service examples,2021-02-24 11:13:29-07:00,FALSE
+c1b918a6ca3784f4f26e6d4386002905b080ad4f,Fixes issue #32 - Add workflow status and link for Azure Container Instances examples,2021-03-04 14:39:49-07:00,FALSE
+411e7cab03e69a3ebc27bbc6f5f5d8fcfa5bce0e,Fixes issue #32 - Add workflow status and link for Azure Container Instances examples,2021-03-04 14:52:49-07:00,FALSE
+47a2a74286513e32f69bebceffd1b0338e677de0,Fixes issue #32 - Add workflow status and link for Azure Container Instances examples,2021-03-05 06:48:27-07:00,FALSE
+1fbeb9d88df391ab1b9bc935f5acca7861f8600d,Fixes issue #33 - Add workflow status and link for Azure Cosmos DB examples,2021-03-05 08:14:21-07:00,FALSE
+1fb2d5a07c3b21231a3e6f75ea91019e85f536be,Fixes issue #34 - Add workflow status and link for Azure Database for MySQL examples,2021-03-05 12:50:34-07:00,FALSE
+d5e80f2544ccc536daa2d031436d4dda54f13aec,Fixes issue #34 - Add workflow status and link for Azure Database for MySQL examples,2021-03-05 12:51:52-07:00,FALSE
+3080252667ef70bb495fd4eea5c306629fa6713b,Fixes issue #34 - Add workflow status and link for Azure Database for MySQL examples,2021-03-05 12:52:24-07:00,FALSE
+90e1978db21e47bd4ac2348ba13f0190f2629181,Fixes issue #34 - Add workflow status and link for Azure Database for MySQL examples,2021-03-05 13:18:44-07:00,FALSE
+1debd29ee51b51bb6edb387719e9a52fb18ef731,Fixes issue #34 - Add workflow status and link for Azure Database for MySQL examples,2021-03-05 14:07:29-07:00,FALSE
+633d8c7138d18a6902e1e5556ade774e2bb36194,Fixes issue #38 - Add workflow status and link for Azure Functions examples,2021-03-09 15:37:17-07:00,FALSE
+74da3adeed8814cee3b623d25019616ad7f4a41d,Fixes issue #38 - Add workflow status and link for Azure Functions examples,2021-03-10 07:57:26-07:00,FALSE
+a1a387b32ddc7d2f49f733e2d5231fe41141842e,Fixes issue #38 - Add workflow status and link for Azure Functions examples,2021-03-10 08:05:40-07:00,FALSE
+ce503b9837e2aa8ae89c78d50d685642eaded16d,Fixes issue #42 - Add workflow status and link for Azure Kubernetes Service examples,2021-03-10 08:27:46-07:00,FALSE
+569982e78b321585ced9be694b4fdba0d7d9eb9c,Fixes issue #42 - Add workflow status and link for Azure Kubernetes Service examples,2021-03-10 09:26:50-07:00,FALSE
+9fe3f075af659507cd98c24d566bd8c19a54af23,Fixes issue #44 - Fix 'Use your Azure Container Registry with your AKS cluster' example workflow,2021-03-10 12:45:53-07:00,FALSE
+af0d9e8e65d5c9fac0d76791aa10b2369b832e52,Fixes issue #42 - Add workflow status and link for Azure Kubernetes Service examples,2021-03-10 14:57:46-07:00,FALSE
+2cfd7a833f19c44641fd4814481605230972c096,Fixes issue #42 - Add workflow status and link for Azure Kubernetes Service examples,2021-03-10 15:03:56-07:00,FALSE
+76c3cd05196f07b5f6c412692e5ba99d441d718c,Fixes issue #42 - Add workflow status and link for Azure Kubernetes Service examples,2021-03-10 15:59:30-07:00,FALSE
+165892c5f8ce143afdbb0b681178ecefca4c936b,Fixes issue #48 - Add workflow status and link for Azure Spring Cloud examples,2021-03-11 07:59:00-07:00,FALSE
+19018efaa71398ff3c29711df07673f53777a28f,Fixes issue #48 - Add workflow status and link for Azure Spring Cloud examples,2021-03-11 08:08:26-07:00,FALSE
+02dbe731a994ad0481e5f2aa7090369637db7015,Fixes issue #48 - Add workflow status and link for Azure Spring Cloud examples,2021-03-11 08:26:15-07:00,FALSE
+2d4c62c33792d505629b242dd22418a4982439f9,Fixes issue #16 - Add PostgreSQL example,2021-03-16 14:33:04-06:00,FALSE
+2f304bc63378eb19820e1889e4bdd72cb09a7569,Fixes issue #53 - Add 'Open PostgreSQL server firewall to your local IP address' example,2021-03-16 15:23:13-06:00,FALSE
+bde22ff321b31fb33ab0dc7fc5970fe88e43e0ac,Fixes issue #54 - Add 'Load your PostgreSQL database with data' example,2021-03-16 15:40:39-06:00,FALSE
+57e4ef22ac0ec9713ce1ef738cbafe69e8e96cfd,Fixes issue #55 - Validate automated PostgreSQL workflows,2021-03-17 09:51:34-06:00,FALSE
+fd8233526e78e392fc81163e8da0b7e227f6b8f8,Fixes issue #57 - Add a Java PostgreSQL client example,2021-03-19 14:48:34-06:00,FALSE
+351d83c1b8b4525421360b4a369ad6562e3d9b47,Fixes issue #61 - Update top level README,2021-03-25 15:15:15-06:00,FALSE
+1ec26a686405d949580d7592588cd888a1411b1e,"Fixes issue #56 - Add a 'Azure Cache for Redis"" example",2021-03-29 16:14:58-06:00,FALSE
+1bbecbabb2e04aac6fe72be839ea0528591842c1,Fixes issue #64 - Add workflow for 'Enable static website hosting' example,2021-04-02 15:32:13-06:00,FALSE
+4ce084a8ae803e163994ff41950cb51ee1f02ca6,Fixes issue #65 - Add workflow for 'Upload files to static website' example,2021-04-02 15:50:23-06:00,FALSE
+a6bbb70005ced4b4936a4db207b1f9b0b4e6ba63,Fixes issue #67 - Add workflow status to Azure Storage examples,2021-04-08 08:38:43-06:00,FALSE
+986d2b0eaa0a625657bea60df6b12f3749025387,Fixes issue #69 - Add workflows for Azure Service Bus examples,2021-04-09 09:42:40-06:00,FALSE
+92a4b40e38e9939dcd44daba8a3f11a947be4709,Fixes issue #69 - Add workflows for Azure Service Bus examples,2021-04-09 12:40:07-06:00,FALSE
+5c71ffd35ef8a13c3dae5a2e6bea1ab970fcccc2,Fixes issue #69 - Add workflows for Azure Service Bus examples,2021-04-09 13:07:13-06:00,FALSE
+80876e3ee6e3d5c98253ce56d26e6c8b8a9e7f6e,Fixes issue #69 - Add workflows for Azure Service Bus examples,2021-04-09 13:10:57-06:00,FALSE
+3390e5434c8d58acc975a045a7250e82b00eeea6,Fixes issue #69 - Add workflows for Azure Service Bus examples,2021-04-09 13:15:46-06:00,FALSE
+b72717bc44510d5c6262530be8979f9752045fa4,Fixes issue #69 - Add workflows for Azure Service Bus examples,2021-04-09 13:18:17-06:00,FALSE
+f8350005e3ec4f045234996c6b22564e9ed84aeb,Fixes issue #72 - Add 'Create an Azure Event Hubs namespace' example,2021-07-09 09:42:20-06:00,FALSE
+d964e777e5a1a041e1a0569ee5783fc86e263d6a,Fixes issue #82 - Add 'Create an event hub' example,2021-07-09 09:56:17-06:00,FALSE
+6b9253770e61c32ef9016073f3d7bd4b496177a3,Fixes issue #73 - Add 'Send an event to an eventhub' example,2021-07-09 10:59:04-06:00,FALSE
+3d1de55ed2ec0bc22fda3a0dcbfb207df2e9b033,Fixes issue #84 - Minor cleanup,2021-07-13 10:47:32-06:00,FALSE
+97b845c7156c5fb5f037d56d440a36a5e2188ac0,Fixes issue #75 - Add workflows for EventHubs examples,2021-07-13 12:42:27-06:00,FALSE
+c8ce1f2f9dac5877bc30ebc532ff1d532126ecb4,Fixes issue #86 - Add 'Create database' example,2021-07-14 12:46:56-06:00,FALSE
+4dbacfa87d232f6f40389674879682de594fa10f,Fixes issue #86 - Add 'Create database' example,2021-07-14 12:48:23-06:00,FALSE
+cc5388d7d0770a3fd8c1b77bf61095085090a307,"Fixes issue #87 - Add ""Create a CosmosDB SQL container"" example",2021-07-14 13:28:42-06:00,FALSE
+21ecedc2ec87faf0d90a11476808544224bd08e6,Fixes issue #88 - Add 'Insert item into SQL container' example,2021-07-15 10:09:05-06:00,FALSE
+ece336bcd2108f235ee27fc22b5019d847855f6c,Fixes issue #90 - Add console change feed example,2021-07-15 14:17:09-06:00,FALSE
+4cc7fccaf23c21cb92b38d1df0691dce9ce359c1,Fixes issue #91 - Add 'Create an Azure Data Explorer cluster' example,2021-07-15 16:23:34-06:00,FALSE
+38d71965b052d696e73a7b10b25753501ad7f45b,Fixes issue #92 - Add 'Create an ADX database' example,2021-07-15 16:40:59-06:00,FALSE
+ca4e2ac3a21227ea24be1d6b82cb7f4d9e26e2b1,Fixes issue #93 - Add 'Create an ADX table' example,2021-07-15 16:48:45-06:00,FALSE
+14f3bc71511aa61374739446a4e1719ac28dfe91,Fixes issue #97 - Add 'Ingest Client' to main README,2021-07-16 14:53:05-06:00,FALSE
+4f22ed9d7115b2e71d2f1fd0fdd33b95fb9aab0e,Fixing table,2021-07-19 11:08:43+02:00,FALSE
+89cb7c33d1c251419d9760c7910416a5ae14dd7a,Fixes issue #120 - Fix typo on 'Upload files to static website' README,2021-11-10 08:52:00-07:00,FALSE
+2d5c834fe87a5476badd72d48c183d5fa9ada0b4,Fixes issue #113 - Create a workflow for the 'Create an Azure Key Vault' example,2021-11-11 13:20:10-07:00,FALSE
+d3724bbf0d26de1036d9f98b51f1a8619d3d17d3,Fixes issue #113 - Create a workflow for the 'Create an Azure Key Vault' example,2021-11-11 13:20:49-07:00,FALSE
+56011db1b313801591725900b4a0e38b6e6472bd,Fixes issue #124 - Fix 'Deploy a managed JavaSE Quarkus application' workflow,2021-11-29 09:24:05-07:00,FALSE
+2edf26d3c0e358b3acb3488f57ef98e15b3bbe72,Fixes issue #133 - Fix 'Add a secret' workflow,2021-12-13 12:39:03-07:00,FALSE
+713213f317755c43c5d4755c03e64fdf4ba124d5,Adding the refresh parameter to the list of subscriptions,2021-12-30 13:49:28+01:00,FALSE
+163248ae494a6e0834da12473bda5cc153ba39be,Adding the refresh parameter to the existing command,2022-01-05 08:51:01+01:00,FALSE
+9d4be7e00921da0443aa2e4efd7d4445f60c87b3,Adding categoty sub directories,2022-01-05 13:37:04+01:00,FALSE
+0b2213eb744e18f4b253545aeaf889fe4461204d,Fix main README links,2022-01-05 15:03:19+01:00,FALSE
+36c816a970c228eb880ef54e4fa5c3ec3c121709,Fix resource group README links,2022-01-05 15:13:07+01:00,FALSE
+9f6c16199b79fe73e221022da856c3a76038e053,Fix remaining resource group README links,2022-01-05 15:29:29+01:00,FALSE
+4a806b99a6185a274cdc6086564927fd932a8814,Fix workflows,2022-01-05 16:43:27+01:00,FALSE
+81340e512de3ac1769f459fe8d8c682cfac28f21,Fix workflow link,2022-01-05 16:48:30+01:00,FALSE
+99587fc8ff519525715ed83efee6aa5b2b84542b,Analyrics,2022-01-06 15:34:17+01:00,FALSE
+44a0012106839d8602c19e2796b4d133958f6c7e,Compute,2022-01-06 15:48:08+01:00,FALSE
+f9ab464ef0cae04f7bca37c5b331f7809c294407,Fix compute,2022-01-06 15:51:17+01:00,FALSE
+22b66541c73c439752fdbed472d3560e22000e66,Containers,2022-01-06 15:59:41+01:00,FALSE
+17ff4b3e6365cccc6749776fc126f8a5d2017190,Databases,2022-01-06 16:09:03+01:00,FALSE
+a7592430097df79611ae8511208c3597558442d8,integration,2022-01-06 16:13:38+01:00,FALSE
+f9d373cf7f726e1a7d243ed3617e19cebd76ac15,Storage,2022-01-06 16:17:34+01:00,FALSE
+5a1e00cfb7d50c922c24cc6dc0ebddaaf28735ab,Fix child readmes,2022-01-06 16:54:03+01:00,FALSE
+3e0b9d5b0c21caf9ef138235a03302b321da6be3,Fixes issue #189 - Enable automated workflow for 'Deploy a Hello World Spring Boot application to Azure Spring Cloud',2022-01-25 16:52:17-07:00,FALSE
+4ffb56a2c9ddd28a6f7ae6d7c34223a53ca3fc0c,Fixes issue #189 - Enable automated workflow for 'Deploy a Hello World Spring Boot application to Azure Spring Cloud',2022-01-25 16:53:37-07:00,FALSE
+abec197a3e2e9931e82cec1f664cff61a27c8b3a,Update README.md,2022-01-26 11:06:05-08:00,FALSE
+b75873f7ba7c6869d1179ae20ee0d90e31b6ee19,Fixes issue #190 - Enable automated workflow for 'Create an Azure Kubernetes Cluster',2022-01-27 10:47:45-07:00,FALSE
+6fdbcd6b63a2ef25dc4ee743f7bea480214f844e,Fixes issue #192 - Enable automated workflow for 'Update your AKS cluster to use your Azure Container Registry',2022-01-31 09:20:52-07:00,FALSE
+c4b358126ae39ac8a3950809312a1ebc59f4f3b7,Fixes issue #132 - Add link to CONTRIBUTING,2022-02-01 09:44:45-07:00,FALSE
+45580aa94c7e09db2113d2574d00199bacc140ce,Fixes issue #201 - Fix 'Push a Payara Docker image' workflow,2022-02-07 12:16:46-07:00,FALSE
+324f00ae2d64763565118e5798be97542611ae44,Fixes issue #206 - Add ' Deploy a GraalVM application' example,2022-02-11 07:49:11-07:00,FALSE
+383320a7db82864e1a140e1bd168a32ff291ed86,Fixes issue #111 - Add create private VNet example,2022-02-18 08:54:44-07:00,FALSE
+afa92d80d2a3d954b09b6ac882bf23e7fa65e5e4,Adding Log Analytics,2022-05-09 11:07:00+02:00,FALSE
+5a6e32bd02b019b6eec06d4d1ddf5ff660433d8d,Fix README path,2022-05-09 11:10:58+02:00,FALSE
+895619dd13dd9e4800c2d13e79c0b3732bd0ac21,Fixes issue #121 - Add 'Create an environment' example,2022-05-23 15:44:30-05:00,FALSE
+76cea1a0920cf9c8fbd01923111362be0ae8cde3,Fixes issue #123 - Add 'Deploy WildFly' example,2022-05-24 08:39:13-05:00,FALSE
+83335d1f9b2605a4e5148daa10506a1c154e30cc,Added ACA - Deploy Tomcat example,2022-05-25 09:28:45-05:00,FALSE
+e3e993b594283fd0f88a03906354c7db4f09cd49,Cleanup,2022-05-25 10:12:26-05:00,FALSE
+53efa52f4138e5a87cb3b344a3e358f4b035c202,Cleanup,2022-05-25 13:01:43-05:00,FALSE
+8092a3516bfca6cf25b963f9c33b34bd48cf18e2,Cleanup,2022-05-25 13:14:55-05:00,FALSE
+6f304d12c132abfa0cc086663f5299a09000e554,Cleanup,2022-05-26 09:56:31-05:00,FALSE
+98838e1b16c2e39065adef0c813d2b2d2dee2397,Added cron for 'Create an Azure Database for MySQL' example,2022-05-26 10:28:53-05:00,FALSE
+816eeb6eede9c2c1b8b0833699192a7416db063b,Cleanup,2022-05-26 12:25:23-05:00,FALSE
+42eacafd9d9147b47ec82167c348cf873e9875cd,Added ACA - Deploy a Dropwizard application,2022-05-26 15:22:23-05:00,FALSE
+4612fa7d7620c71c227f502e9e4d143726d2aeac,Cleanup,2022-05-27 08:30:32-05:00,FALSE
+cf504d7e38d1733abca5f18a77b4e2760a1a73c6,Added cron for MySQL - Load your MySQL database with data,2022-05-27 12:02:27-05:00,FALSE
+dbae566d831abb0295c983c21b4a63e0c03bf233,Added cron for MySQL - JDBC command line client,2022-05-27 12:39:20-05:00,FALSE
+f577eee2898fdeb9b0f713917451c406b0537b34,Cleanup,2022-05-27 12:39:51-05:00,FALSE
+92e63fe92a7c34bb7a947c300455958866af4d13,Cleanup,2022-05-31 09:26:50-05:00,FALSE
+f70117c02e2b9ef5824b3e58ec941b12efc5153e,Cleanup,2022-05-31 09:27:51-05:00,FALSE
+24972a89fbffe49a10b4c14ebd72cf4e08bb7781,Simplify Azure Storage directory structure,2022-06-23 13:55:22-05:00,FALSE
+9c55d1eb4db7ae823f8d16a3314155f509c314fc,Simplify Azure Storage directory structure,2022-06-23 13:57:11-05:00,FALSE
+68e78fc45de57c58303a417117e2288f78b074ea,Moving Azure Storage examples to own landing zone,2022-06-28 12:20:44-05:00,FALSE
+79076b4a57e84222ccc03c1fae9e797b9620c3a7,Moving Azure Key Vault examples to its own landing zone,2022-06-28 13:46:14-05:00,FALSE
+3a2f9270de3fb9c55b4008d19d9d3f622d62d647,Moving Azure Networking examples to its own landing zone,2022-06-28 14:23:40-05:00,FALSE
+f2bdda1c2d9ea184ec2dce08ed586834693f9911,Moving Azure Monitor examples to its own landing zone,2022-06-28 15:20:24-05:00,FALSE
+124c2767c5b43f81d67fa9e31227122500e63175,Moving Azure Service Bus examples to its own landing zone,2022-06-28 17:05:44-05:00,FALSE
+b8375afe9c83613ba611f4044c3a9cce2138adb8,Moving Azure Resource Group examples to its own landing zone,2022-06-29 09:48:49-05:00,FALSE
+602a3f1b9f279b895caf90e6d492263cf459b749,Moving Azure Cache for Redis examples to its own landing zone,2022-06-29 10:01:28-05:00,FALSE
+823c7d3ac507d61abc4db4978b620e4fe08aabf4,Moving Azure Database for PostgreSQL examples to its own landing zone,2022-06-29 10:33:27-05:00,FALSE
+75cd442d5881bc6cc95152b0f975cb682b57328e,Moving Azure Database for MySQL examples to its own landing zone,2022-06-29 10:50:00-05:00,FALSE
+9c336aea211858da2650a33a849d46d6edff46f8,Moving Azure SQL Database examples to its own landing zone,2022-06-29 11:07:12-05:00,FALSE
+08f796a035a98411293d5c24d40a0735865725ec,Moving Azure Cosmos DB examples to its own landing zone,2022-06-29 11:33:43-05:00,FALSE
+e9d2da923a3f0ea95fea63c462af8bd09a895c6a,Moving Azure Red Hat OpenShift examples to its own landing zone,2022-06-29 11:58:58-05:00,FALSE
+75a1c6dd0fa845209c0a4c62ca409071f2bf001d,Moving Azure Red Hat OpenShift examples to its own landing zone,2022-06-29 12:04:48-05:00,FALSE
+1d918dea0cbb954da3e502ed099e6468b0f52360,Moving Azure Kubernetes Service examples to its own landing zone,2022-06-29 12:48:44-05:00,FALSE
+f9271d9bbf9a19b8c1717d12d177300a382dc86e,Moving Azure Container Registry examples to its own landing zone,2022-06-29 13:47:36-05:00,FALSE
+48d56120082fbba442114df554eaa40a556a54bf,Moving Azure Container Instances examples to its own landing zone,2022-06-29 14:01:07-05:00,FALSE
+a991b8e1607a345421381cbacd1f49f6c243ae12,Moving Azure Container Apps examples to its own landing zone,2022-06-29 14:32:11-05:00,FALSE
+576fff13304476a968d5fa176a5d3c8f3f0541d9,Moving Azure Spring Apps examples to its own landing zone,2022-06-29 14:55:17-05:00,FALSE
+fade98bb4ec344148300d8d40f93b973c292e265,Moving Azure Functions examples into its own landing zone,2022-06-29 15:20:31-05:00,FALSE
+5d5d009accc78ffec0e805fb5939b74c4ba2d478,Moving Azure App Service examples to its own landing zone,2022-06-29 16:47:07-05:00,FALSE
+1d1580c24d289391c9e9ace9f00190d4324d61e4,Moving Azure Event Hubs examples to its own landing zone,2022-06-29 16:58:54-05:00,FALSE
+407e84fc3c4fb24ff1eb8d43654b2f62293ce71e,Moving Azure Data Explorer examples to its own landing zone,2022-06-29 17:24:46-05:00,FALSE
+63d30761ee7e2d046c752063913c28bc82e103b7,Fix 'Deploy a Spring Boot application on managed JavaSE' workflow,2022-07-01 12:45:16-05:00,FALSE
+c94f588154863f08ce3b5b647dc02b5c8dc9bcab,Add App Config sample to readme,2023-02-02 16:13:01+01:00,FALSE
+307ef08fff2ba58888f57dceea674cdaf54f8ef8,Fixes issue #241 - Update ACR Glassfish example (#242),2023-05-12 15:00:52-05:00,FALSE
+60d1c54c30f821fd537d16f3333975baedc90d57,Fixes issue #256 - Add 'Create an Azure Front Door Profile' example (#257),2023-05-19 07:07:14-05:00,FALSE

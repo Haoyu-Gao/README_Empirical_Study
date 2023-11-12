@@ -1,0 +1,19 @@
+sha,message,date,result
+33e24cd778486a7a0a232c3ee3cb84a0f2982472,"MB-48202 Update README
+
+Change-Id: Iefe04701317e6c4f03cf36d55568c38dd169c657
+Reviewed-on: http://review.couchbase.org/c/couchbase-cli/+/161476
+Tested-by: Build Bot <build@couchbase.com>
+Reviewed-by: Patrick Varley <patrick@couchbase.com>",2021-09-16 09:43:04+00:00,True
+28c41307c25e59ce96047a25d5015f0048257fcb,"MB-50948 Update 'analytics-link-setup' for multi-CA
+
+Enable specifying multiple cluster certificates for remote
+links utilizing multi-CA, by specifying one --certificate
+parameter set for each configured certificate.
+
+Change-Id: I6c885500f81ae7c67ee28e66152ec8b1382cdfcf
+Reviewed-on: https://review.couchbase.org/c/couchbase-cli/+/170628
+Tested-by: Build Bot <build@couchbase.com>
+Reviewed-by: Murtadha Hubail <Murtadha.hubail@couchbase.com>
+Reviewed-by: Michael Blow <michael.blow@couchbase.com>
+Reviewed-by: James Lee <james.lee@couchbase.com>",2022-02-14 19:10:40+00:00,False

@@ -1,0 +1,65 @@
+sha,message,date,result
+650ef6c7f69bed02be1bf7cb89637dc108fcb3a9,Initial commit,2020-03-30 11:12:34+02:00,False
+433b2a21d6932f68a6265b7269d2e6c939ad269c,update readme,2020-03-31 16:20:06+02:00,True
+0f26f961b17fd54fdbcd25bcae5cc1ca27c9545d,update readme,2020-03-31 16:24:13+02:00,False
+c0e6ad50be0b5e2d57ea6de6889884eec02230aa,update readme,2020-03-31 17:57:22+02:00,False
+4b35f292c98ed1b33e54e462b329337033a8bf51,update readme,2020-03-31 18:38:58+02:00,False
+238a1521236768f303b8cb24a8a7c57455aa2b03,update read me codecov badge,2020-04-01 10:38:29+02:00,False
+12c6b4dd68afc2093e619ba1ad0f61c811f464e8,Add Codacy badge,2020-04-01 08:59:41+00:00,False
+4b1093af72c47706c668d826eea0411137167eb2,update read me code quality badge,2020-04-01 11:00:52+02:00,False
+d043efde8b99ffaaef31b0a5586f3c4f4a8edc12,add python3.8 badge,2020-04-01 15:08:48+02:00,False
+2b9cf0261624e363af45125db21fdc618ee9842e,update reademe,2020-04-01 17:48:44+02:00,False
+c8dc6170e111189e4f8714693a09f41ce7342ab4,update readme,2020-04-01 18:55:15+02:00,False
+0b6e792a850e54098b81a7f1561b5d4dad54d60d,update readme,2020-04-02 14:59:58+02:00,False
+95505b6488bd2c3af6461350bedebc6c82b65c17,update readme wip,2020-04-03 15:40:17+02:00,True
+4f09358c7e52dbd54e8e6641147d0edcf7485752,docs badge,2020-04-03 17:27:35+02:00,False
+c63ff541a3e194f55d052d1aab8a89cefdb82710,update usage,2020-04-04 11:44:29+02:00,False
+cf73b428ffb14c4688044770bc8fc3c10c34255e,update usage,2020-04-04 11:49:11+02:00,True
+662ad3961891ba3556bbf71f8e3b608996de8a42,"cspy as column generation arg, default True",2020-04-04 18:36:04+02:00,False
+e4fb1573dd0cb150281a8b86d9d0e118d3fb026f,docs badge branch master vs latest,2020-04-06 12:06:17+02:00,False
+eac5aaa149ae7672c44389852a1dd8ab4fcfeff7,VRPSolver class becomes VehicleRoutingProblem,2020-04-06 12:11:52+02:00,False
+7860f42a994e913463813437ce1c170f63eac196,update usage,2020-04-06 15:11:25+02:00,False
+6169f57aceae3a5250d1ab8834272960b33edb80,update usage,2020-04-26 10:02:24+02:00,False
+94affdac0fc91a94a0afa16f156c48644ff12373,Update testing instruction README,2020-05-05 18:16:52+02:00,False
+0893f94f5c9e3286b45f3e63bc21d6ccda59d85e,update usage and codacy fix,2020-05-07 18:24:37+02:00,False
+9ad40ceb47b082548e0a522adbae7b562b990d6a,update readme,2020-05-13 11:55:00+02:00,True
+61c965d72e8aad666582a3a74997ad0b5909a8ab,update readme,2020-05-13 11:58:36+02:00,False
+084d90cb3ba43e115c60bf4eff57afe4cf3a094e,update readme,2020-05-13 12:03:55+02:00,False
+bd6b882db0fe99f6a78570d94312fe6277293061,update readme,2020-05-13 12:07:34+02:00,True
+07eb19b990a8077b63118142d10a4bb8dab793a8,update readme,2020-05-13 12:20:34+02:00,False
+128c33aa1c2337a047289658f99403b5718bdcc6,codacy fix,2020-05-14 09:25:25+02:00,False
+02b28e9206f63a278d7c2f0cc7b3c7e4b7903849,codacy fix,2020-05-14 09:33:37+02:00,False
+9eb8e61df3f2deb78e3a8eec456136c215ca2dd3,codacy fix,2020-05-14 09:43:03+02:00,False
+d32a10738a0e184af6289bb51bfb9cbfb230f443,small fixes,2020-05-14 12:53:42+02:00,True
+982c98ce70b8f7eaff26916fe239aa25eb520a68,update usage,2020-05-18 13:26:28+02:00,False
+7b02418f353a74d8bbc6f3bac04a2e851ab8bf6d,update readme,2020-05-20 18:19:20+02:00,False
+317cd76f4bd7118b8b2c9a58f10058fee7453cdb,installation command,2020-05-24 16:16:29+02:00,True
+16f39c9e86db59328f8790eea4532396c29c3bbc,update description,2020-05-30 16:55:57+02:00,False
+ecebb42a67e4945780f48866d76dbffb980e2fcf,codacy fix,2020-06-07 09:54:37+02:00,False
+682fbcde5c0e143f027a2c759729883dfe783933,contributing guidelines #44,2020-07-01 08:34:12+02:00,False
+8aaa9828995fe18dcf05fe03e4f6a66fabff6b1e,pandas is required for benchmarks #42,2020-07-01 09:05:00+02:00,False
+33fa3462cd8668103e5e82834f539899d1e50b5d,"Restructure and rework of benchmarks (#42)
+
+- csv table writer
+- benchmark runner
+- deleted .solve methods from benchmarks, too much hassle for
+consistency
+- moved examples/benchmarks/ -> benchmarks/
+- moved tests/benchmarks/ -> benchmarks/tests/",2020-07-09 22:32:23+02:00,False
+1f2edfb62001a9d980824e8f15d2199ba8dc64ec,"Joss (#55)
+
+* paper edits #44
+
+* paper edits #44
+
+* paper edits, small typos #44
+
+* paper edits, small typos #44
+
+* paper edits, small typos #44
+
+Co-authored-by: Romain MONTAGNÉ <romain.montagne@fr.eurodecision.com>",2020-07-09 22:44:56+02:00,False
+516ae97e33652d12acbba7085386be5e638188f6,Update running script,2020-07-10 19:32:03+02:00,False
+7f2bd89aecfc44e9b7d1366109a7f300ade39fe7,link to CONTRIBUTING.md,2020-09-14 17:34:51+02:00,False
+bf712d5954bb6bc82fe8e8e2096f2330cea42448,license file,2020-09-14 17:57:14+02:00,False
+cd3b77f9642a0a20d6774cd449981b20abffd7f8,update license,2020-09-14 18:29:50+02:00,False

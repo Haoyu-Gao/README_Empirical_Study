@@ -1,0 +1,11 @@
+sha,message,date,result
+09856b1bb317b79a2590c8ecb267f60027208be4,Basic markdown templating,2016-11-10 14:12:06-08:00,False
+02c2e0608bc791b1bfd62c9f4e1a3bf3d217f959,Added small link icon to headers,2017-03-06 11:34:04-05:00,True
+234e929962100801abd3994b7292b49d1fef0782,Closed the tag in the readme,2017-03-06 11:35:43-05:00,False
+2505c47be514a997d3b92c4cf28f3288982db54c,Update readme,2017-06-06 13:30:47-07:00,True
+926930ea323bdc81fb91b143ea938a1e45f8b915,Update readme,2017-06-06 13:39:54-07:00,True
+49efbe2882494bc4e5dc01db292f1a19ace62ef2,Update readme for branch deployment,2017-06-06 13:51:09-07:00,True
+30d0b170764252cf477aabf2d563c6cc47665c6d,housekeeping,2017-06-27 16:09:17-07:00,True
+cc666c6c036f87fe5d6ba204c1f6384471ce67de,add build gotchas to readme,2018-10-19 14:49:44-07:00,True
+ec9f2898c4658f1a69e5f9b55a7d74e8e2353d5f,CSS >:(,2021-03-04 17:47:03-05:00,True
+5073a7fa6cc7098b9a27ab6ebd0f6812b41ec37c,update readme for mkdocs,2021-08-19 10:11:42-04:00,True

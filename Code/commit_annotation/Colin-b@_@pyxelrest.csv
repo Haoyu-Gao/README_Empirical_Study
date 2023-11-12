@@ -1,0 +1,301 @@
+sha,message,date,result
+329fa3c3c1ec11ad44340de776602360db80832e,Refactor structure to follow python recommendation,2016-12-08 16:49:11+01:00,True
+ca39ce1b859041af3445e4a35bdeffed80d24d14,Try to call post install script at end of pip install,2016-12-08 17:25:35+01:00,True
+e5e478a28b736d9c9f18dfc467d2a421c5fa239d,Warn that Excel must be closed,2016-12-12 14:15:28+01:00,True
+35576b213634da3b62fe2d02c1da2803cd32c95e,Allow to install pixelrest as a pip module (draft),2016-12-12 17:15:30+01:00,True
+0b6162e6ca8fad7782ae3dbd7233889609f51e20,"PyxelRest can now be installed without having to download sources, only by running command lines",2016-12-12 17:26:32+01:00,True
+f79377dcfa510536cf6195f61e37485fc72d3ed5,Add README.md as rst if not displayed by bitbucket even if it should,2016-12-12 17:39:14+01:00,True
+b59e4e24ee66b5b80c26ae3f5334448952621108,Add information on the fact that pip install should be executed from elevated command prompt in order to set environment variable,2016-12-12 17:55:00+01:00,True
+50dd1b80a090f9e3749d3765fdbf931291cc539b,"Auto Load PyxelRest add-in now handle the fact that environment variable may not be set at the expected level
+Add in now log actions and errors to ease investigation
+Add section about logging in README files",2016-12-13 11:45:11+01:00,False
+338cf670db607bcc5617e1b447678cbefdf2bfd7,"Also auto load UDFs on Excel start if this is a blank document
+Increment to 0.10",2016-12-14 11:09:15+01:00,True
+c9dcb20535e2c1e2aee25b54898621279961ef84,"All files are now stored in APPDATA/pyxelrest folder
+Installer now works without using egg option that is close to be deprecated and prevent execution of specific setup behavior in dependencies
+Installer now package excel add in on package creation instead of relying on another archive
+Increment to 0.11",2016-12-14 19:11:30+01:00,True
+43ccf4b51e26a0b6b399d8c999edf630c2f63a1c,Add some information on how to upgrade,2016-12-14 19:30:26+01:00,True
+5ec45edddf355ca5114bc729f30b935a2213bd5b,Explain how to uninstall,2016-12-14 19:40:43+01:00,False
+bcb9c949f6cd530d2cf89ed46cdaa4aa38cee2fa,Link OpenAPI,2016-12-14 19:43:09+01:00,False
+3b50e1fbbce80ae0ca5c7e646d29c59f6e378489,"Explain why Excel AddIn should be uninstalled on upgrade
+Increment to 0.13",2016-12-15 13:52:27+01:00,False
+ffd50f297983becc8a683786bc9a7f523cab2105,Add some more documentation,2016-12-15 14:44:09+01:00,False
+8e757d2abe1539bea23634630b641824cbe7702b,Add developer installation steps,2016-12-15 14:55:25+01:00,True
+42263cf5a8a2b32ec81a11421eb9ff678acc6eac,"Rename pyxelrest logs from pixelrest to pyxelrest
+Remove useless installation details
+Increment to 0.14",2016-12-15 16:58:02+01:00,True
+5774a6f4d224332d72da4e85a7d729bdf1c1cea6,Document the fact that the addin solution should be build prior to last developer install step,2016-12-15 17:00:23+01:00,True
+5afb598a2b9ade78dc015a3404235ad94961062d,Rename pyxelrest_config to configuration as pyxelrest is already the name of the folder,2016-12-15 17:31:54+01:00,False
+119a371f3d4226e2b0c822ea72ce23add1606604,"Add explicit support for Python 3.5 (tested on Naim computer)
+Increment to 0.15",2016-12-16 14:25:47+01:00,False
+940b70f383b783cfee99a45aaf489abda2f3cc0c,Known issue is not that critical anymore,2016-12-16 15:03:21+01:00,False
+f4d0b69de294e66f95ccaae3e01537a5ee0b04e1,Addin deactivated issue is now fixed,2017-01-04 12:24:05+01:00,False
+ad77c9b9c102dad5596ca8bd9c7555531e0e4106,"Introduce PyxelRest VB addin, with installer and uninstallation procedure",2017-01-05 12:08:17+01:00,True
+9f16e793060de9f4c3969446a4202c4c65a4cf84,Keep enhancement list up to date now that UDFs are defined at application level instead of per book,2017-01-05 12:10:18+01:00,False
+e34caaa740c98663483ce5fdd681e5212ccedc72,"Add the ability to update service settings within PyxelRest addin in a user friendly way. Also reloading UDFs on update of settings.
+Avoid erasing configuration on pyxelrest update so that user can update pyxelrest and keep previous settings",2017-01-06 16:14:45+01:00,False
+d14d75c7400eb316be108ab4d084f82fd2fbcbdc,"Clean up documentation now that pyxelrest is a bit more user friendly
+Increment to version 0.20",2017-01-06 16:44:19+01:00,True
+fcde2da24d524b69be25033b5c839793f4553b37,Add information on sining step to perform in order to build the addin,2017-01-09 10:57:01+01:00,True
+0aafb98d8ee4f3cd445f083340c0c4db4ff03c3e,"Update screenshots of application to last version
+Increment to 0.23",2017-01-09 14:06:26+01:00,False
+211cee5af6cda0e1f8095b6de5fbe10e4323c8b5,Add a script to execute for developers,2017-01-09 14:19:12+01:00,True
+e375772196004a00cf92a7baa02e2df3687ff944,Keep logging documentation up to date,2017-01-13 17:27:21+01:00,False
+d797a98c653ff912ee5ffab08116d784801e342a,Remove Engie specifics from pyxelrest (it is available in the Wiki),2017-01-16 18:02:19+01:00,True
+25d639f94aea35c48a3da501a0e13bd2b06eba37,Increment to 0.30,2017-01-16 19:49:10+01:00,False
+4adf5e91de8bea30543c637f0c9eaf5243b36920,Put more logs in debug,2017-01-24 14:32:45+01:00,False
+464b66a25da4bba12dc18ec15d60670ebdbdb3b4,Keep PyxelRest documentation up to date,2017-01-26 11:33:49+01:00,True
+3ea6aa278ad106acb88aec09a55bf6b3fc50ee0d,Add documentation on Services manual configuration,2017-01-26 12:03:28+01:00,False
+2e8b51df7bbf06ed088a5ed49b4309b12ccca8a9,Properly indent table in doc,2017-01-26 12:06:00+01:00,False
+b2a3ee2d62e42aae380fc4d86603c32d2f1ba983,Add documentation on section name,2017-01-26 12:09:04+01:00,False
+2d0746383568b8fd29b6ee62775b95939652c8ec,Add information on the fact that configuration can be done @ Excel level,2017-01-26 12:11:31+01:00,False
+6a35fabd4a16dbc5d142cb8075ca658531b26eac,Add more documentation on how to use PyxelRest,2017-01-26 12:21:26+01:00,True
+e223366f3d7d6a51bf24fdec07329e1a66e7092a,Move known issues to CHANGELOG instead of README file,2017-02-02 11:32:47+01:00,False
+4bfc845de8142cde57741d112677b2d6458c4d03,Add information on README on how to add support for pandas msgpack,2017-02-02 13:45:36+01:00,True
+dea4cb221a18d07759ab2a44f3aa384f1aaf672e,Try to add a proper table of content and reorganize documentation,2017-02-03 18:30:40+01:00,True
+8f369886057976acb15c08011ad6ad326bade7e4,"Add information on the ""Open User Folder"" button",2017-02-22 18:17:17+01:00,False
+d49e91827f0ef455b5ec1071f41c021e84de43d8,"Add information on the ""Update Functions"" button",2017-02-22 18:21:09+01:00,False
+5299ff5462f9a232e6d884fbdda6e4b028cfaa70,Remove pypiwin32 from the list of dependencies to manually retrieve as it is now explicitly listed as a pyxelrest dependency,2017-02-22 18:24:20+01:00,True
+5cb703be0629e8459ce31b094bc1b7502b103fb2,Document tags filtering feature,2017-02-23 17:56:33+01:00,False
+6ea352cae299c4f0d14085b20e1ac0f366f501aa,Allow to specify tags in Excel Addin configurator,2017-02-23 18:12:25+01:00,False
+bb81c148eace33bfbbd5606dedc27c7bcc1c62a0,Add a screenshot when documentation refers to the Excel addin,2017-02-24 11:12:43+01:00,False
+a7a34394befa77ed45b6708bf7d05b989d623c3f,Clear logs on update and write logs in a specific logs folder,2017-02-24 16:51:36+01:00,False
+51ff3ffe111109d394fa4588f2e89ec8adf9e0e0,Configuration files are now located in a configuration folder,2017-02-24 17:14:40+01:00,False
+d596ba85c26c3cb9a2b8d001ccd71a4c2e2e12b4,Clean up documentation a bit,2017-02-27 14:02:56+01:00,True
+5051798eca7466eb3800eba7937b8c514d55b764,Microsoft Excel Auto-Load add-in configuration can now be overridden,2017-03-01 18:30:19+01:00,False
+e9a08aaf5b31b7039bf2e52c11c848245fb8079b,Logging configuration for add-in is now loaded from user specific config,2017-03-01 19:57:21+01:00,False
+67d2bbd90eaf5891824539c1b16b3e7ddc604020,Open User Folder was renamed into Open Logs but documentation was not up to date,2017-03-01 20:08:07+01:00,False
+e7ea80edc99234ee17b695926462366fd179a03f,Detail application settings available,2017-03-01 20:20:56+01:00,False
+785df8b78d713aeeea9f5d505a11bf930d60b594,"Now that update is performed automatically there is no sense in describing it in documentation, especially because there is nothing specific. everything is pip handled.
+PIP is not the only way of installing a python module so specify it.
+Explain pre requisites (Microsoft Excel, Python and Microsoft .NET Framework 4.5.2) and link to installer",2017-03-06 18:31:29+01:00,True
+28e2cb5f5f4e42d03d20663019a8c755d8592e15,Configuration parameters are now in bold and table header in italic to differentiate from text,2017-03-06 18:50:42+01:00,False
+80922497e948d966ac9d28b5c06966b28182a159,"Connection timeout can now be specified per service (1 second by default)
+Read timeout can now be specified per service (no timeout by default)",2017-03-09 19:02:35+01:00,False
+a8ada114361e2752e3d37ab7127b81814408b382,"Add FAQ section with details on ""no parameter in wizard"" issue",2017-03-24 11:55:42+01:00,False
+b0cbdc606e073c8435d35a577a59abbb4ffe0252,Use jinja2 templating for custom configuration files,2017-03-24 13:58:43+01:00,False
+97146ff51c5b3159b1c841fd8b6b42b934e863c6,Add details on authentication support,2017-04-03 15:06:15+02:00,False
+0c9a0f0ad80a0f57f39f73be955ddb129e8387d1,Add security_details property,2017-04-25 14:37:55+02:00,False
+ac25e5c1847ba0988da0ec6528d22bbe59fb44b9,Security details property can now contains a timeout for authentication if the default 20s is not enough (also default timeout moved from 10s to 20s),2017-05-03 17:24:11+02:00,False
+3175107f5800c21ac638c32910c9ee84f2580588,Add documentation on security_details possible values,2017-05-03 17:34:23+02:00,False
+b022dfe2a374e56c6803ac0a1eb4ffe718c21d20,It is now possible to switch between efficient flattenizer and a flattenizer ensuring that field order will corresponds to definitions,2017-05-09 18:45:29+02:00,False
+3797b02af9e71bf833f252dfd250ae66d2602571,ujson is now an optional dependency,2017-05-10 12:46:50+02:00,True
+382ee140d03e055d233bffa06748d987d83f41de,Handle API Key (untested yet),2017-05-31 19:43:12+02:00,False
+8255508bb9329fee7e90ab55607f56de597b7b76,Basic security definition support. You should specify your username and password thanks to username and password keywords in security_details property.,2017-06-02 14:55:52+02:00,False
+363370917d5586db8a06d2a951d9783e7857165f,Add ability to provide static swagger file,2017-06-02 18:11:54+02:00,False
+d90cee094d41aaad2b52c44b78f8b38b57b123b4,Services requiring NTLM authentication are now accessible thanks to auth=ntlm within security_details property.,2017-06-02 20:38:24+02:00,True
+43a8d1c439f3329665bfe0e2680014609d47ecc2,"Oauth2 authentication response display time can be tweaked thanks to success_display_time and failure_display_time keys within security_details property.
+Success page is only displayed for 1ms before being closed (for user to come back to Microsoft Excel as fast as possible)",2017-06-16 18:48:05+02:00,False
+ac4a469b1505688214a213e40bee05f55ca5d963,Credentials are not mandatory anymore for NTLM,2017-06-16 19:14:25+02:00,True
+32fdf36de711bb2e7421bbf4e4210eb611c996c7,response_type can be provided in security_details property in case it is not provided in authorization_url and it is not default value (token).,2017-06-20 17:04:46+02:00,False
+235e5c21a9a62f34e2b60d62e6cabde3dcb94ea1,Increase from 100 to 1000 and explain a bit why this number of retry might be reached,2017-06-21 18:27:15+02:00,False
+92e07eda67a2d9e790b58911fa32d6b8d2a005eb,Add documentation on the new caching feature,2017-06-22 13:42:44+02:00,False
+2771b1730a7b1e198a08be2ab3d0bf12419b79f2,Depends on xlwings 0.10.4.2 (fork version of xlwings 0.10.4) to fix the RETRYLATER COM issue,2017-06-22 19:06:59+02:00,False
+3f71935b3f40bc30b07e9e8577a7c322d89ab685,Add some information on how to use pyxelrest as a python module,2017-06-23 13:40:30+02:00,False
+e3356b0c5b45319733120f09676fc93eb6ac7417,"Any OAuth2 authorization parameter can be added or overriden by using oauth2. prefix in security_details
+Handle security_details as a dictionary (easier to read and use)
+In case expected token cannot be found in response, log the content of the response to ease investigation (usually it will highlight a configuration issue)
+Log a warning in case a syntax error is found in security_details
+Custom response type test case now requires the user to provide the custom response type in configuration (test the fact that custom response type can be provided, also test the fact that oauth2. prefixed properties are handled)",2017-06-23 15:52:24+02:00,False
+d0a621e1c17d14973bedbc392f0b20d617fceff3,Add link to OAuth 2 documentation,2017-06-23 16:07:59+02:00,False
+0f0a903eb2756d2e32ce4735f1749fbe7693c0b6,Security details can now contains environment variables,2017-06-23 16:28:34+02:00,False
+55a3b910560e9b633dc3085b93323b1d0e131ae3,"Introduce advanced_configuration property
+rely_on_definitions is now loaded from advanced_configuration property
+Provide the ability to set UDFs as synchronous (requires to specify the result array)",2017-06-26 19:27:29+02:00,False
+207d8b734032fef1e352544439f714a4f9627817,Update documentation to contains details on newly supported HTTP methods,2017-06-27 18:14:29+02:00,True
+f177fb966184cd3a78ac9db07907061c645731ea,Add pyxelrest. prefix to code sample in README,2017-07-04 18:34:27+02:00,False
+95aa6bf0d2519498fd34d60f40b2740d790fb5e1,"Introduce new max_retries key for advanced_configuration property. Refer to documentation for more details. Previous behavior was ""never retry"", it will now retry 5 times by default.",2017-07-10 19:14:04+02:00,False
+57e6950b190ff159fb06e2b5faaf70f3da9d5c80,It is now possible to specify custom headers in advanced_configuration property. Refer to documentation for more details.,2017-07-10 19:40:01+02:00,False
+c7f34bd218cbaedcd133eb333fbe80fb25a45b93,Link to requests documentation on connect and read timeout,2017-07-11 13:58:41+02:00,False
+52fc5c03728cacb84212213d3824bf2f2ca5e2b8,connect_timeout and read_timeout properties do not exists anymore. Instead they are now available as keys within advanced_configuration property.,2017-07-11 14:40:03+02:00,False
+c629d247abd21420c6d4101c54998d206f50c40e,"methods property now have a default value, meaning that by default all standards HTTP methods will be retrieved.
+Rename proxy into proxies to match the variable name on requests",2017-07-11 15:05:52+02:00,False
+8d0f931a7af66e3ec314c8f5082dc688ca2b87b0,Link requests proxies documentation,2017-07-11 15:19:00+02:00,False
+104d04deafceef4b29acc4ea1560b350106570ad,"It is now possible to specify more than one proxy per service (in case both http and https schemes are required). It is also possible to specify a no_proxy url as well.
+Cleanup token loading code and logging
+Auto-Load addin now select all HTTP methods by default",2017-07-11 16:11:47+02:00,False
+fb21fe358f2efbfbd52c66d337d812e159d7bd00,"Add information on how to fix No command specified in the configuration, cannot autostart server",2017-07-12 11:28:28+02:00,False
+a0cf73e2e25adef49ce4ed31bca814b160c3bf85,Default OAuth2 authentication timeout was increased from 20 seconds to 1 minute. (See requests_auth 0.3.0),2017-07-31 12:47:14+02:00,False
+bed6f25a37682ceeedba3f8cde07ceecdf10b616,Cleanup the Release notes section for upcoming 0.63 version. Release notes should only contains critical information for the end user,2017-08-01 18:36:11+02:00,True
+ac97d5dff9e508c99bfcf2a910dff753e12c27e9,Document the fact that Microsoft Excel add-in is also compatible with Microsoft Excel 2010,2017-08-02 17:58:27+02:00,True
+7b94d0fae8d0355398c1a4e1a9cd2f7c1b3ba54c,Services configuration can now be auto-updated as part of the auto-update process.,2017-08-04 11:17:16+02:00,False
+f1554dfe1b67ffb850e0374c7aa82a99b8c46041,"Updater now display the new version of PyxelRest and is faster to detect update.
+PathToPIP add-in property is not used anymore.",2017-09-14 19:54:13+02:00,False
+6fe78192da663cf889825b3c7c5183be590006e2,Add more information to troubleshoot Add in installation issues.,2017-11-20 11:15:40+01:00,True
+cfb2f508aa7bf4cbc3353e51fc41ce10c97d4711,Handle,2017-12-20 16:55:36+01:00,False
+63ce87831cd75638f01b4346f6fadff4ebea887a,Add a sample of python usage,2017-12-20 19:12:59+01:00,False
+b1d2231f9d1f1207c37c5eafc4641a19f9368303,Handle date and date time after year 3000.,2018-02-08 19:43:37+01:00,False
+f88c37a5c34513bed6094a10891c5ce1997d165d,Expect tags property within adavanced_configuration instead of a basic property (it really is advanced configuration as most of the time you do not want to tweak it),2018-03-19 17:16:05+01:00,False
+aa9fb42dc8ac75db0f8342a6732e936b294c7359,Allow to prevent generation of user defined functions at Microsoft Excel startup.,2018-03-19 18:00:23+01:00,False
+9600151b1047bf0b871f3f3afb17eee93d6062d0,Maintain documentation up to date,2018-03-19 18:20:27+01:00,False
+a28321cc5ba6b9fc0aeed6e115d9e01e7e355b22,Link swagger tags specifications,2018-03-24 14:03:16+01:00,False
+b3652603a212c7519572936848ecdbff364b3931,Add ability to generate both sync and async UDFs,2018-03-24 15:49:49+01:00,False
+dfced1b78054e11c09572bf5f303a01f73a4cd72,Document the add-in installation script,2018-03-27 14:15:15+02:00,True
+3430c126d22932356f980e6dc974ca11fff1bb56,"Now that the installation script is documented, the path to configuration property can be documented as set upon installation",2018-03-27 14:18:45+02:00,False
+044981429b65ffbca571ea280ce9a3ac12f10c11,Document the pyxelrest service feature,2018-03-27 14:32:56+02:00,False
+fb380288190ed21ba3a3a9580b9e329da08d2b01,Ensure that screenshots are up to date,2018-03-27 14:48:57+02:00,False
+97adea688c0ddd0df92ab0a8d27971c154d9a3e0,Ensure that python doc is up to date,2018-03-27 14:56:44+02:00,False
+9defcf6e842594d8f0c875c7ad599aa4c97dad4c,Keep documentation up to date,2018-03-27 15:07:00+02:00,True
+fce2ed2226f9a100ac4f4369e7623373e4bcc41c,Document auto update,2018-03-27 15:50:26+02:00,False
+5239d94f4581bf01d75fb1492ae02bedfa720f84,Explain how to get rid of the addin installation failure,2018-03-29 19:14:36+02:00,True
+e1bfb0060a40dec38a392ab16a5e9f90e916581e,add-in installation script no longer have mandatory parameters.,2018-03-29 19:40:46+02:00,True
+3ee40b5998792b87df250225fd06a350da9b09f9,Keep documentation up to date,2018-04-03 14:57:20+02:00,False
+92e2e2535f5b2da2fec2f9ef81f46f0472f4fad7,Convert ini to yml at post installation to ensure previous clients will use the new file format,2018-04-03 15:58:23+02:00,False
+5377986bc2dbd27404c9cae13892b04a3cf9f8a4,"Get rid of swagger references, uses open api instead",2018-04-06 01:23:44+02:00,False
+bada2591138da3dfc573eadbf8a5f8540dbc2b1f,Document the new description field,2018-04-06 16:44:07+02:00,False
+0a2f046f0c4fa43ef1ce2ccc66aeba7ce9e7e054,Add OpenAPI section,2018-04-07 01:48:09+02:00,False
+d9679e93c04324d8ad5e4cc839aeb4eb2599bd52,Allow to skip update for some fields,2018-04-07 16:22:30+02:00,False
+86c7f28f31caeb3191a893cd6703755bb7902c38,Prepare for excluded_tags property by renaming current tags property into selected_tags,2018-04-07 16:48:42+02:00,False
+297ca80a8ca7b5884cfd0061178e8bd7fff38804,Allow to exclude OpenAPI tags,2018-04-08 12:08:02+02:00,False
+2c401ce24f9f6bae263e20102be4f63760630bdc,Allow to include or exclude OpenAPI operation_ids.,2018-04-08 13:20:46+02:00,False
+9df7a29b741f16fb589cec9749b66e6923712e9d,Rename return types to better values (asynchronous and synchronous were lying in some way),2018-04-10 10:58:18+02:00,False
+f942be48fdbf9fb14166a2993ceaf4076b7561ce,Prepare for experimental Asynchronous support,2018-04-10 11:30:43+02:00,False
+14a15f8b87015a8a1122a05832f4971de8cd72d7,Keep documentation screenshots up to date,2018-04-12 13:07:45+02:00,False
+294da2d442aacf00b01e1629d01fe8677979fbea,Keep path to logging configuration up to date,2018-04-12 13:11:13+02:00,False
+1360333b3f4e3bd50cb8ad8e41b489acab8eab2c,Allow to shift results by one column,2018-04-17 18:44:53+02:00,False
+a060da9e40548f62d012ee76f63f789a69107cc9,Default service configuration shift results and provide asynchronous auto expanded results,2018-04-24 11:20:00+02:00,False
+bf987d1533b315b038ca837bdfee0de586f06dd1,Additional dependencies can be installed via extra_requires.,2018-05-05 09:08:23+02:00,True
+4e4e3e9c7fdc0de55d3fc73519dc76e73474b97b,Allow to restrict parameters,2018-05-05 09:32:03+02:00,False
+b224f6d24d836cb44e6b26f086df98b7179eb24f,Help user overcome Microsoft Excel parameters length limitation,2018-05-05 09:37:05+02:00,False
+f444d492a275bbc493c4bcd70413252c1858aa93,Help user understand the issue of excel not displaying parameters by providing the reason,2018-05-05 11:05:35+02:00,False
+ac277d284769aa870f0ba5aed440f23fdf8f8492,Add a screenshot of the wizard limitation,2018-05-05 11:18:27+02:00,False
+f68ac2784677c6ec2c7d09445db3f1dbc8441612,Explain that log files should be checked in case an unknown error occurred,2018-05-07 15:08:08+02:00,False
+caada7e10e9781009758849b07354b2f55f61ef2,Allow to provide extra python modules in configuration,2018-05-16 17:53:32+02:00,False
+32f4b71a07bdd2eaba7ab99d9df8dcc2e291a529,Explain why some functions might not be listed in Microsoft Excel Wizard,2018-07-31 16:46:24+02:00,False
+e6a15c5848c63cfc7df440314b514963687d0859,Draft to allow authentication for OpenAPI definition retrieval,2018-08-01 19:35:46+02:00,False
+d96a5a6face6a61c01fe270910352435c86ae081,"- Handle . (dot) in parameter name.
+- Allow to specify header name and header value for the non-standard OAuth2 services.",2018-10-16 18:46:11+02:00,False
+6ea0dde8b848db5e32eb3300de2bbd50a3421f5c,Add caching feature in the python module,2018-10-26 18:25:42+02:00,False
+6f7d8a0f0a438fa9591edcc1e1540a6c39af8f75,Update documentation on disabled add-in,2018-10-30 18:21:38+01:00,False
+c8caf511bb27ca265cae132551574121de9df9b9,Start support of latest deps,2018-11-13 19:52:53+01:00,False
+41a7fea7c9b9a7cbfd662a0b4cb80a29a9c199e8,Ease usage of pyxelrest as python module,2018-11-25 20:42:08+01:00,False
+dfdb5718f916456f4e842e7cd1ffb219491aa98d,Allow to avoid udf name prefix,2018-11-26 13:05:09+01:00,False
+146869433687a3438cdf6de8a20c92362d2dd1d6,Allow to use a custom prefix,2018-11-26 13:20:18+01:00,False
+17961a49f38de42d115f63fbfe04d6b30786737d,Use f-string,2020-01-08 18:15:10+01:00,True
+38fa811812dea63b78da48117375906f5bf8a894,Unify readme with other projects,2020-01-08 19:24:05+01:00,True
+bf877dc9324df62012695c9e34b90adfb3892b3d,Document that it works with Office 365,2020-01-08 19:29:16+01:00,True
+19cb9ce25c5a9b60213335349f89334ac530087f,Drop application/msgpackpandas content type support,2020-02-03 14:08:15+01:00,True
+fac6c73896e0e1e2f6393675aa9cb95a4b79f692,"Drop support for ujson
+
+Update to latest xlwings
+Switch to travis-ci.com",2020-03-03 18:08:56+01:00,True
+a21a52d8709e8a6253092d100f38fc71595cc648,"Reload user defined functions to ensure that regeneration is taken into account
+Move test utils into test folder",2020-03-04 11:10:19+01:00,False
+41c1beabdcaa5c7dd6fb1c1983da588188d88077,Keep the number of test cases and coverage up to date,2020-03-04 15:26:26+01:00,False
+7cda83cad63fe5f0ca06fccbeab3348d2a6abd8b,Document that office tools are required,2020-03-04 18:24:38+01:00,True
+2c54018d3fcfbfac3132e37f1d0c0117796064b0,Switch to GitHub actions as Travis CI does not allow to build python package on windows for now,2020-03-04 18:33:50+01:00,False
+df54c87b8e0cf17d26c6c361ee4089d4b5468eff,Coverage is 87%,2020-03-04 18:54:37+01:00,False
+baafbf0cfe1b213aefd7706b990ed683198b1fb3,Add a release workflow pushing to pypi,2020-03-04 19:25:54+01:00,False
+07eca7aa6064668bbce5389b35dffacd144d0a4c,Do not check for pre-releases by default.,2020-03-05 15:29:33+01:00,False
+37d5142995325da3839dad92fde00c2e91ee7915,Clarify that pip and tkinter are required for auto update only,2020-03-09 17:10:30+01:00,True
+5037226a7f893ae3a9d656d88d84f5a5ad2ebfea,6 useless test cases have been removed,2020-03-10 11:57:58+01:00,False
+26ad70acae60742651f89da8fbf3c4aec6c576ca,Add scheme test,2020-03-10 12:19:50+01:00,False
+79c658937bf5826bfe01697ffe549b51d00f672a,Drop support for python 3.6 (due to module reloading issues),2020-03-11 12:21:34+01:00,True
+d70e82d671138f2bf08463307db8cc8a2ca0e350,Hide internal stuff,2020-03-11 13:30:15+01:00,False
+d6a27e94ff4af3694d61a78f6be13c277d8bfc15,Document the fact that a script is now available,2020-03-11 15:01:00+01:00,True
+75b028aef8ff16cd6e52acf083c5be9ddbc44a8f,Ensure images are always displayed in README,2020-03-11 16:36:57+01:00,False
+80fef7d153925bb6266563ef5a9dc0dd8ea23905,Link to petstore to explain the functions,2020-03-11 16:42:27+01:00,False
+50d59154f8bd12e0d15a2d6c6e4fb7d9eb6e9564,Remove ability to specify path to update script,2020-03-17 14:44:14+01:00,False
+809eafecf01736bc179b0e0e8e56bcacd0cc1ec8,Install add-in does not need an option to specify script directory anymore,2020-03-17 14:50:49+01:00,False
+0656253b04ce0bf995aab0670c58e756c78c5dbe,Update coverage now that almost all scripts are included in coverage,2020-03-17 15:38:46+01:00,False
+bc80adc3060d789768f970c3d7cd0f33940ed633,Allow to generate async dynamic formulas,2020-03-18 18:37:43+01:00,False
+308f46ee422f83e25a31d304f45882583294067e,Handle formulas in add-in configuration,2020-03-19 09:24:39+01:00,False
+7dfa7159ecea0f44b7fbb5d53b165b8fb6bf230a,Remove shift result ability,2020-03-19 17:18:03+01:00,False
+0e9f679b5da7aaf48b8d9788fd97d8c497387705,Add more information in the table of content,2020-03-19 17:27:48+01:00,False
+4e6edacb409a32a203a404408eec12e0535f34a6,Update all dependencies to the latest major release.,2020-03-19 19:01:18+01:00,False
+ce8f78f4f12c9daa872077154e46494f5b3dc007,Document that a COM add-in is provided,2020-03-20 12:46:47+01:00,True
+da7d278ecfb2e9183dc3b450bab36eba8590f8ae,Cleanup style,2020-03-20 12:52:53+01:00,False
+8c9d1bfd939b5979c0b8eecbf70dbdea37bcf36c,Link FAQ,2020-03-20 12:53:59+01:00,False
+af590758b2801fe78a1dcb98a8f2e53f79dd7ba5,Use animated images to demonstrate what pyxelrest can do,2020-03-20 14:52:16+01:00,False
+856fc09e19d2f993483a382bdaaa6012b36d23a2,Cleanup style,2020-03-20 15:19:56+01:00,False
+27027ea8d8862bd7fd94724399079bea66901488,Cleanup style,2020-03-20 15:29:03+01:00,False
+28450b52de9d26c2b0277f6357d10fa832bb5865,Cleanup FAQ,2020-03-20 15:31:54+01:00,False
+9ac8ab811aa2780d1beab046fa6ef1ce8535a523,Use python dict as JSON result now that it is ordered (since python 3.6),2020-03-20 16:35:09+01:00,False
+9cd1dd92868aa6561057e45da60a3cc4f64708c4,Explain that the sample is python code,2020-03-20 17:03:07+01:00,True
+cec9154b312e433130b8612061171f2a8f4206c4,Add a bit more information on how to use as a python module,2020-03-20 17:22:57+01:00,True
+1172e7c0d9fab411a62954e5d3be769df5efea13,Focus on user documentation,2020-03-20 18:11:39+01:00,True
+d45e2066d01ee2e6388fb2c2c042006e0152e607,Use markdown arrays,2020-03-23 14:04:50+01:00,False
+b6f3100b3dece7860282ea63b7e71379cadec772,Reduce duplicated code,2020-03-23 14:13:06+01:00,True
+f14dd0e3bfc80644abc128b59c4f648180cfdaf5,Add links,2020-03-23 14:17:10+01:00,False
+f9c00021d121baf22da04b9e6a9ea9101dd66a25,Use github markdown flavor,2020-03-23 14:30:19+01:00,True
+e104c84cc9284aed5e1604b98ec3bc77af7de4cd,Ensure requests documentation is up to date,2020-03-23 14:36:54+01:00,False
+0582f30b992f19e53cfb996268a3a90431d20cf9,Add informations on extra dependencies in related sections,2020-03-23 14:54:18+01:00,True
+4262f92526a082ca7a236c1fecdbc9c73c74ee28,Add information on extra dependencies compatibility,2020-03-23 14:57:40+01:00,False
+dbf1caf6e1482201b4ca3a820309454dafed964a,Link pip and tkinter documentation,2020-03-23 15:07:33+01:00,True
+9ce394885f02dd0504f6310323305c77160c7f4d,Explain that Microsoft .NET fmk is certainly installed,2020-03-23 15:11:52+01:00,True
+5b531c6744649c4b2a9c96055094ac7f45f14146,Link dynamic array formulas,2020-03-23 15:24:56+01:00,False
+a0709b183dc6c7b9e57a307e300b031fa1f16072,Link to array formulas documentation,2020-03-23 15:29:52+01:00,False
+1443112ed47ec2597fb028cac233a021ace746c3,Keep project description understandable by anyone,2020-03-23 15:31:10+01:00,False
+b928b81353d067b8b4aac164da4e49033155bc46,Use shorter sentences,2020-03-23 15:34:27+01:00,False
+e5465db4938a8c0dc093964470a723587dabcf12,Link usage as a python module in add-in installation section,2020-03-23 15:38:03+01:00,True
+b585fd1386d885c2d71e6f7d7780a8256d121694,Clarify that add-in installation is optional,2020-03-23 15:38:58+01:00,True
+5fa5c2811f86ce2c280c211f976d78f2c4cf2f0b,Use shorter sentences,2020-03-23 15:39:48+01:00,False
+2a4e4391b4d6521f090f49f66be36c50a7e1692c,Document the default behavior of formulas,2020-03-23 15:49:20+01:00,False
+d869e40640c5c889604016cfac2ddb81956e9378,Avoid waiting indefinitely by default,2020-09-07 13:35:17+02:00,False
+3d54d748e50cc1ddaf1bc6b73b4bc67fc18283e6,Move network related settings to a new network subsection,2020-09-07 17:28:44+02:00,False
+8b3dc93baf42eb7d3012e2bee0bdc73695e8c89b,Verify now default to true (but can be changed in conf),2020-09-07 17:49:17+02:00,False
+2d7c97e27265489e3a949ed3696d8cd88fb9c8ea,Load authentication settings from auth section,2020-09-07 19:39:39+02:00,False
+24f00cd24e7b819b5fcf81991d8d9b22e294eb51,"Rename add-in
+Only support Python >= 3.8
+Run tests against python 3.9",2020-10-13 18:05:41+02:00,True
+6a479f4734aa6e9d99e9e8b3c45aee786c1f6d96,Do not try to read xlwings configuration. Rely on pyxelrest configuration only,2020-10-23 16:40:08+02:00,True
+0b9bfb6abfeb4c63606bb0e7f2ba8a64655ff93f,Keep the number of test cases and coverage up to date,2020-10-23 16:54:33+02:00,False
+11d6e1c0085921fe4eb13422772f68986632104a,Document how to install extra,2020-10-29 20:47:44+01:00,False
+d792bcdbc3f549efdd5a73f48dde548bfe29bdb8,Increase coverage to 70%,2020-10-30 20:20:23+01:00,False
+d687e7a57fb46c8a9691c1ed4ba1cc42c5442179,Increase test coverage to 71%,2020-10-30 20:41:38+01:00,False
+97acbefe8e7e2ab91fd421c9e2253ee84befbfd8,Allow to provide a custom bas file path,2020-10-31 00:17:48+01:00,False
+80dbb4db97f53816b0c4ca3a19b8786b940763fe,Remove default configuration,2020-10-31 11:58:26+01:00,False
+4ccfc139a1bbc374da34bf351a2caceed66ac643,Use the appropriate name for the required Visual Studio dependency,2020-10-31 19:33:21+01:00,True
+30ab1cbf19237942808c58a40aa07b254a66b825,Avoid using intermediate file for addin config,2020-11-02 18:16:38+01:00,False
+5225b37bba540b6dd98d834b8af44f1868d26fd0,Ensure add-in install script and README are aligned,2020-11-05 17:26:08+01:00,True
+d914f55bf76588db23f6212276eb5553fca726ec,Store xlwings related config in excel_addin folder,2020-11-05 18:03:46+01:00,True
+4657b571a1aaad4d628821fd38bed751ff92fa88,Ensure add-in can be installed anywhere,2020-11-05 19:43:11+01:00,True
+ba64b481cc2c77273d10cc07e1a8ecb12f5d9d64,"Update script and Add-in are now extracting path to up to date confs from registry
+add-in install is now setting this path to registry
+auto update is not updating services configuration anymore",2020-11-06 15:40:47+01:00,False
+4b31bff6bcafa530e06570e44d12681fddab390f,Allow to install pyxelrest anywhere,2020-11-06 18:03:52+01:00,False
+64da9ad5c4941bd97c4def9bb4f9f7068a2b88ef,Keep the number of test cases up to date,2020-11-06 22:38:09+01:00,False
+aad06029ea49c5ca4e7187c46e77391e39aee6f0,Let build pass for now with a lower coverage. It will be higher before release,2020-11-20 20:11:12+01:00,False
+2ded5d6b14f165699301831494369a3a2cf9132a,methods is now open_api.selected_methods,2020-11-24 12:09:39+01:00,False
+afc19433bafcc11594780b96b62bc12c81c674d3,"Remove python_modules feature
+Auto install required python modules",2020-11-24 15:09:53+01:00,False
+a2fb4430d1e97e21a9c639e2ca5a28b6f01e98a7,Headers are now loaded from network section,2020-11-24 16:15:14+01:00,False
+9f04231bdf9653292411522a2ff7e1e316f2630c,OpenAPI definition can now be provided in the configuration,2020-11-24 19:49:51+01:00,False
+eb5a99dbfc778f2092414838475844454b76ee47,split documentation in sub files,2020-11-24 20:40:49+01:00,True
+7092757ac055f0afa10a9f143b25ebec38f5e84a,include changelog in documentation,2020-11-24 20:43:50+01:00,False
+9e787c88c314a2461d3e9bdb4c6a533ad0e7263d,Do not advertise complex steps,2020-11-24 20:57:10+01:00,False
+676e7216c1364e8106c128808e60f9b34cfcd771,Split REST API and pyxelrest service configuration,2020-11-25 18:19:18+01:00,False
+5d7cf3501a185624afd1f9335aa70b3b3dd8cb9c,Do not expose advanced configuration in README,2020-11-25 18:31:50+01:00,False
+f0f09e607f1231c9fcc8639f4607b8ba401c058d,Keep the documentation as light as possible,2020-11-25 19:29:30+01:00,False
+a17539233c4ad6e436243feedf91b5b0a153a255,Draft for use cases,2020-11-27 11:21:42+01:00,False
+fd123139b07db2196b120d667cfbf2bfd6064075,Draft for REST API configuration options,2020-11-27 17:44:39+01:00,False
+a752af88fb648023976a09475151880dc90355f0,Keep coverage up to date,2020-11-28 13:29:59+01:00,False
+4fc32c7456a30cb36c88228fca5ec72da0d40c59,Keep the number of test cases up to date and decrease coverage accordingly to the removal of feature,2020-12-04 23:25:01+01:00,False
+69c6eb5aefb13d364b018c9adfaf5b22b727bdb8,Keep test coverage up to date,2020-12-14 18:52:46+01:00,False
+8898af9da14e9af5ab03c7e4c595a08723a619f6,Keep coverage up to date,2020-12-17 20:45:02+01:00,False
+caf790f528c38401d375cb795c8f953359a7bdcb,Ensure configuration is loaded from registry if available,2021-01-06 14:29:30+01:00,False
+55063c96b0f8dec1f31a9a38fcf9e833f7e640bc,Keep test coverage up to date,2021-01-06 18:43:40+01:00,False
+7e1a78e03cb77374d95b0b83ae04619ac7ce2048,Add test cases for dict parameter validation,2021-01-07 14:02:31+01:00,False
+3b9171e996a895c6e87b7b3b3925dc0c4836fd86,Remove dead code (None values are not sent to converters),2021-01-07 16:09:11+01:00,False
+9fdc17ba68c8c56a2abcd4ddc651d10f1f664461,Ensure xlwings doc content for array of files,2021-01-07 17:45:09+01:00,False
+d429846ea3f0d9fa5ba187122f4d75fde9aa4c05,Keep the number of test cases up to date,2021-01-07 17:49:28+01:00,False
+233046e26466931a11bd4c7da548826175289b69,Bump coverage to 91%,2021-01-07 19:32:37+01:00,False
+318063bc41f0ff42c0aac0709434a23f767004f4,Ensure duplicated parameters issue is understandable by client,2021-01-08 15:35:14+01:00,False
+087d4784e6a21359228c423ca69a758c50d48503,Cleanup pyxelrest service code,2021-01-08 17:36:36+01:00,False
+cf0d405a099b87ddf1b2db8e57d44e08fb38633c,Keep coverage up to date,2021-01-08 17:40:30+01:00,False
+a59cccedffe4901c94b0006949854d4240e89ec5,Keep coverage up to date,2021-01-08 18:01:48+01:00,False
+b1e8b61d73f1df96b6c95061a96802f68c32869d,Ensure coverage will not be decreased,2021-01-08 18:20:59+01:00,False
+3e1493eb2067fc486de2b6d4016ad4e65aaa85c3,Keep the number of test cases up to date,2021-01-08 18:47:48+01:00,False
+0027b391acd07683b6c2001fa5e0a2018f05ffed,Bump coverage to 94%,2021-01-11 19:28:29+01:00,False
+9a2530e23df2af2dda25de07b480a867c00a2c3f,Warn in case provided definition auth for OAuth2 is invalid,2021-01-12 16:13:27+01:00,False
+fd9929f1ca706d08be47fa60b9b11cdcb44c29fc,Bump coverage to 96%,2021-01-12 16:18:44+01:00,False
+5fdcd0a17cedad2c7bd4c4de7ab98a30cfbf7910,Bump coverage to 97%,2021-01-12 16:35:52+01:00,False
+3f14fc0b61fc15460061aaf36ac6062250393418,Bump number of test cases to 355,2021-01-12 17:16:05+01:00,False
+453a273fab2dfca5be81340644f3ef05cf6e5fb9,Keep number of test cases up to date,2021-01-12 17:51:19+01:00,False
+a19bd38477d6bc6b7910e635ffa94060e409d150,Bump coverage to 98%,2021-01-14 14:28:09+01:00,False
+b58ce7ceda34b45602e2ca6aae5216a2d145ccc4,Keep the number of test cases up to date,2021-01-14 18:12:16+01:00,False
+12877649862f1e1aba32faaef068221afbcc88ee,Consider current coverage as less critical,2021-01-14 18:13:31+01:00,False
+b1d3ee4f438f7aa0073a851c769ae20d9701beb0,Bump coverage to 99%,2021-01-14 18:37:31+01:00,False
+df785ce42e84190dccab0de7f85c4508fd68693f,Keep the number of test cases up to date,2021-11-07 21:24:10+01:00,False
+8040c496621a57cecb3d2416a3e7e291c82ee9ad,Reach full python coverage,2021-11-08 03:03:17+01:00,False

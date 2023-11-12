@@ -1,0 +1,941 @@
+sha,message,date,result
+761c49ea29cb41d7b35e0fc8109be8ee03e7f7be,Create README.md,2019-03-04 16:28:09+01:00,FALSE
+bdaa079a7ef500a7b8feeba627d3859a2332d5c0,"README update
+
+Added a short description, linked to the ArXiv version, added an example gif, added dependencies, added future work, added citations (check the licensing part).",2019-03-14 14:54:34+01:00,TRUE
+123a3a95f70bf68347ea0cba7fcc1ae1f403fb96,Update README.md,2019-03-14 15:43:32+01:00,FALSE
+2c37a4a199a91979654ad3ef49cb84a975dd17d6,Update README,2019-03-16 12:57:01+01:00,FALSE
+1c14d8db6b488c8577a4f5b4e6b6638eabd684f7,Update README.md,2019-03-17 10:09:34+01:00,FALSE
+f4ba1564f11680d68f5a6f1cd2b0e8ba7f5d79e5,Update README.md,2019-03-17 10:22:19+01:00,FALSE
+1de3306ecb8da1d6172a00478df97c079b0b324d,"Update README
+
+changed the file paths for the figures and videos, they were not showing because they had been moved to another folder",2019-03-17 10:32:01+01:00,FALSE
+316c54a423f74eea1475b3cbbf0e4cb85d29fb9c,"Develop (#17)
+
+* Made it so that the image_parameters in get_image_parameters hold on to the functions instead of the function's return values.
+
+In the get_image_generator() function there is now a single assignment of get_image_parameters into a dictionary of lambda functions that are used to update the image parameters each iteration.
+
+* Update deeptrack.py
+
+-Track non-square videos
+-Fixed x,y in plot_tracked_scanning_boxes
+-added option for elliptical particles in training
+-fixed the resizing of the boxes in track_video (track_frame)
+-added an option for preprocessing the images before tracking (normalise and enhance)
+
+* Video files working in vlc
+
+It seems that the issue with running the files in vlc was that the frame rate was too low. I increased the frame rate to 5 fps for all videos and tested in vls.
+
+* Edit example notebooks
+
+Edit example jupyter notebooks according to the changes made in deeptrack.py
+
+* deeptrack.py updated again
+
+in track_video and show_tracked_frames I took out the limit of showing maximum 10 frames since it interferes with the calculation of centroids of particles.
+
+* All files updated
+
+The updated files before resubmission in Optica.
+
+* All the updated videos
+
+The video updates for resubmission for Optica
+
+* Update didn't save
+
+This one didn't save before
+
+* Not in the resubmission
+
+* Not in the resubmission
+
+* Updated under different name
+
+This video has been added again as DeepTrack - Example 3 - Brownian Particles.mp4
+
+* Not in the resubmission
+
+Now there are two different trainings for example 4, one for bacteria and one for particles.
+
+* no message
+
+* Delete DeepTrack - Example 2 - Tracking single particle-checkpoint.ipynb
+
+* Video name updated (#15)
+
+* Gif test in README
+
+I want to put a gif to the README file
+
+* README update
+
+Added a short description, linked to the ArXiv version, added an example gif, added dependencies, added future work, added citations (check the licensing part).
+
+* Add files via upload
+
+* Add files via upload
+
+* Update README.md
+
+* Delete ex2_24.png
+
+* Delete ex2_5.png
+
+* Delete ex2_7.png
+
+* Add files via upload
+
+* Add files via upload
+
+* Add files via upload
+
+* Update README
+
+* Delete Fig1 copy.pdf
+
+* Update README.md
+
+* Delete README.rtf
+
+* Create tmp
+
+* Delete tmp
+
+* Create TBE.txt
+
+* Changes to the directory structure to simplify it
+
+* Update README.md
+
+* Update README
+
+changed the file paths for the figures and videos, they were not showing because they had been moved to another folder",2019-03-17 10:34:59+01:00,FALSE
+cbd6685861bcc3e3f8b55e383867efb6f643ccad,"Update README.md
+
+Adding a paragraph about funding.",2019-03-25 20:26:57+01:00,FALSE
+2f3c21de9807e54dee7a9b2ceb765b8c17f43b32,Update README.md,2019-06-18 14:43:53+02:00,FALSE
+634e4bf09593444b0e03b5f5b1806a44edd610b3,Update README.md,2019-06-18 14:45:15+02:00,FALSE
+0ba2233fb22ffb8c050867b2b9006afeb9ccbe6d,Reset of master branch pending review,2019-10-17 15:03:53+02:00,FALSE
+147aca2f8bf34ead1cac7301e498d9b6ea6bd60e,Stripped down version for review,2019-10-17 16:20:37+02:00,FALSE
+42efa310d129678727ad6c4231c493cfb232f408,Create README.md,2020-02-11 18:32:55+01:00,TRUE
+a53cf912cde87e4f2b88c4441d867ae48ab40a90,Delete README.md,2020-02-11 18:34:19+01:00,FALSE
+1ae6cf25724ae7b98d883ed4f357434e5bc6a2e4,"Create README.md (#71)
+
+* Create README.md
+
+* Update README.md
+
+* Update README.md
+
+Co-authored-by: Giovanni Volpe <46021832+giovannivolpe@users.noreply.github.com>",2020-02-12 10:22:44+01:00,TRUE
+ad46a9e07c8ac5010d34d371490c8ada1b06f06f,Update README.md,2020-02-12 10:23:43+01:00,TRUE
+749d264cf9320361169c0ebc855fe71a598e9d61,Update README.md,2020-02-12 10:27:42+01:00,TRUE
+05ea33f33bce98ce0f4e0f1d2022c5f9dcd578ea,Update README.md,2020-02-12 10:29:44+01:00,TRUE
+74bc7345d09c3e678112b46b8999b705ffcaab49,"Update README.md
+
+Fixed broken links",2020-02-15 09:25:10+01:00,TRUE
+24044ee025d773c23684b83add012b91495455ba,Update README.md,2020-02-15 09:26:45+01:00,TRUE
+055a08b09fc013e11e9209686b830d3f61da44a2,rtd update and fixes,2020-04-24 21:16:59+02:00,TRUE
+051b0907afacfd695617e1c20129c6fb1ed8d428,Update README.md,2020-04-27 06:43:36+02:00,FALSE
+a9f7f3beaf467afd9bc110cd3c397798230fe0d7,Update README.md,2020-04-27 06:44:03+02:00,FALSE
+f255a7f0b186e6171802a04c6dee4d7ce47a4f37,Update README.md,2020-04-27 06:45:23+02:00,TRUE
+fb88e879c622c523fe5c6da2a85878b4a7d84d73,Update README.md,2020-04-27 06:46:57+02:00,TRUE
+ea8b85d6253dfc38bffe4a7dc43a2054fc0f459c,Update README.md,2020-04-27 06:49:36+02:00,FALSE
+9dcaaaf88c5652afae69cc8c54b61737334ca806,Update README.md,2020-04-27 07:06:08+02:00,TRUE
+c256837b5cbdcf22705ad23a65853f2c552c8f16,Update README.md,2020-04-29 06:15:10+02:00,TRUE
+3f70bf52f653cd9769ffe750bdc2adcc2e8a0e7e,Update README.md,2020-08-18 16:56:49+02:00,TRUE
+b7071d5997871f00f299c76e48a70e0bfba450f7,Update README.md,2020-08-18 17:04:04+02:00,TRUE
+b084f792e8453d0688d50c3cd218d004f099c47f,finalization,2020-09-16 13:29:44+02:00,TRUE
+09dfc4d717f4ccb2c84fd3658fe424c4fb34dcaf,Update README.md,2020-09-17 01:48:37+02:00,TRUE
+d9858dc81f6f66351b4928b731ad6a9f3999d102,Update README.md,2020-09-17 01:51:31+02:00,TRUE
+3a87ef11e3cd98bd209a921e4e64ed4594d47f4e,overhaul,2020-09-21 18:46:33+02:00,TRUE
+b185184b3da3872960d4e85948b1c743481d6bef,Update README.md,2020-09-25 16:06:33+02:00,FALSE
+017d79657cbeab4b20428591ac804ac8716272de,Update README.md,2020-09-25 16:09:30+02:00,FALSE
+a03dc3301c4ca05bab4cff2bcfa6c0750b2c983f,Update README.md,2020-10-03 15:31:14+02:00,TRUE
+9479efd382d90cf2a8729ba3729cca727b5b8713,Update README.md,2020-10-03 15:33:39+02:00,TRUE
+9894e1b7bbe71a032a6ad66c2e5611111466cc40,Update README.md,2020-10-05 00:14:13+02:00,TRUE
+e34ac92d92b9bdc2d7e33f88395660a34b900aa8,Update README.md,2020-10-05 00:18:15+02:00,TRUE
+fb2980b2c20abd96416544d91807542fe995d2cc,Update README.md,2020-10-05 14:29:31+02:00,TRUE
+9421787e41b7407de6713c17e56e40b623bc8521,"Update README.md
+
+State dependency",2020-10-07 11:11:55+02:00,TRUE
+6617a80620feef2bec1b455e2501e7e7ed1d7774,Update README.md,2020-10-07 15:58:43+02:00,TRUE
+9491f4a5865ff1e20fe28c5e9255feda61b86b27,Change paper-example links to colab,2020-10-07 16:12:43+02:00,TRUE
+ff2e2679a96eee7322c288d735af0abdd3f719d8,Add link names,2020-10-07 16:15:02+02:00,TRUE
+80b0109186578469312e3a4cc97e024b93c3b7a7,Move icon to left,2020-10-07 16:16:37+02:00,TRUE
+f4bc2ee8d8003fa5b880b3b422c17d06db5838ac,Update README.md,2020-10-19 14:38:12+02:00,TRUE
+32f9aa1c9424e6b4fa69d5354e5a5c4fc07f9d81,update readme,2020-10-22 12:19:59+02:00,TRUE
+e503bc7e9cdfe72e5b919ff86b1e855648829e8c,Update README.md,2020-10-22 18:59:40+02:00,TRUE
+af28a917e83e08a2c42d0d2a90a17d557865763f,Update README.md,2020-10-22 19:28:28+02:00,TRUE
+0fe1e04dbf1b9da3fbabb90669178d09caeb5527,Update README.md,2020-10-22 19:29:23+02:00,TRUE
+8308d64057621504b2090c5961f002cd7a2c0fca,"Video link added
+
+Video link added trial",2020-11-09 17:50:51+01:00,TRUE
+679a0816ce97008cc1400d5412430b23250968dd,"Video link update
+
+Some more video tutorial links added",2020-11-09 17:53:16+01:00,TRUE
+fb317f5d29bb7a3a56f10e0896cd8b5b597a7df7,Update README.md,2020-11-09 17:54:24+01:00,TRUE
+2a3d889725745f0d9f8d882e532dd91cb0481a0e,Video links update,2020-11-09 17:57:43+01:00,TRUE
+9eae63748222747eb71e5f88cd037d8c31887458,Update README.md,2020-11-09 18:00:28+01:00,FALSE
+48e089a60667f86e4199b769c2619ade2a708d2c,Update README.md,2020-11-09 18:03:29+01:00,FALSE
+ccf8b5299c29ed247cc11baa7c543f049b419d27,Update README.md,2020-11-09 18:06:02+01:00,TRUE
+cb4440ab58e44d93ef3432097a35707dd03e3723,Update README.md,2020-11-09 18:08:28+01:00,TRUE
+afc09821e9755d5d711bbac794e5e564b4f90795,Update README.md,2020-11-09 18:10:38+01:00,TRUE
+d3b1a4fe15293466164716a6d63692690e95d80b,Update README.md,2020-11-09 18:14:03+01:00,TRUE
+8c725762dbf48d51b015f301229c715aac6cee76,Update README.md,2020-11-09 18:15:36+01:00,TRUE
+9f015a2a1cb9bda5d0b784cbe9ad3db0f11149f3,Update README.md,2020-11-09 18:16:55+01:00,TRUE
+2245cbd003f2a1646166720695e5140367b62b50,Update README.md,2020-11-09 18:17:52+01:00,TRUE
+e31cc65385da9c7d1c15504125c1c364b482d1a0,Update README.md,2020-11-09 18:19:47+01:00,TRUE
+ddb29ea884376722e34367c82038e236a72e5eee,Video links added,2020-11-09 18:21:12+01:00,TRUE
+ef10571d959ae03840c92e7fca659959dae1d0ca,Update README.md,2021-01-14 20:00:18+01:00,TRUE
+3cce2fd81cb196b5c134250c4695161914e6f3f3,Update README.md,2021-01-14 23:10:30+01:00,TRUE
+4895dc7ef6e9b1789f5743434fae2f47ce3d2639,Update README.md,2021-02-16 12:29:08+01:00,TRUE
+59f75fe7011839eb0914f0fad2862084350d9b98,Update README.md,2021-02-16 12:32:53+01:00,TRUE
+1b14af98ef7b8815ff4cc28b83f39c0db9294aee,Update README.md,2021-02-16 12:36:03+01:00,TRUE
+8f0d53ff1f48e8b3ff28663ce70b988cd17bcfb5,Set up readmap,2021-04-05 23:26:09+02:00,TRUE
+6ff555308e169776eae0923ae6dc9804e4fdc7d2,Add to roadmap,2021-04-06 20:13:27+02:00,FALSE
+215f6106a7b1f117bd3bb9c54ccc160b5b4f3b77,Fix minor typo in README.md,2021-04-23 14:31:09+02:00,TRUE
+a5df1810417bfa788665f1dc629add5a434accff,Update README.md,2021-06-04 19:33:12+02:00,FALSE
+24c6c185a2d52d3b3536aca2040a75a157f438bb,Update README.md,2021-06-04 19:42:02+02:00,TRUE
+759e61337442d23c4105278bf78c578b7fc768cb,Update README.md,2021-06-04 19:42:55+02:00,FALSE
+25916f61f1f76dfaf39fb27b4b1bf189ba79aa4c,Update README.md,2021-06-04 19:43:41+02:00,FALSE
+fc9bc0e08a3ade249a0990929b67573a14052f44,Update README.md,2021-06-04 19:49:59+02:00,TRUE
+b2ed1a4427b982df4010a45b0eeef2c29c0c48b4,Update README.md,2021-06-04 20:07:08+02:00,TRUE
+b24688682dfc7584d9c025f84b5bb5fcc298c8e3,Update README.md,2021-06-04 20:07:34+02:00,FALSE
+751f78d1e27fb975dd357fea7e853b9eabb19671,Update README.md,2021-07-21 00:52:54+02:00,FALSE
+fd9791cea03b4c54a2e9298f2022b8d7bf68f794,Update README.md,2022-02-15 22:00:03+01:00,TRUE
+e53f0a057dc05c05a34f68a6a98d1df41d5d41a3,Update README.md,2022-02-24 16:06:54+01:00,TRUE
+bb3ab1a1fc161245f14e5fa42fcaa50bd4477c4e,Update README.md,2022-02-28 13:42:16+01:00,TRUE
+21e7dc892f6c130030d5e4925fa3a82960042c4f,Update README.md,2022-02-28 13:42:58+01:00,TRUE
+33e9483b2d0805b6dc8dae4714c936e1e744357c,Update README.md,2022-02-28 14:32:13+01:00,FALSE
+e099c7d3069a8c33d3631224c217bfd59d0d60fb,Update README.md,2022-02-28 14:38:09+01:00,TRUE
+2ad47f5a9c019dc5b25d462f33f097e317af269e,Update README.md,2022-03-04 07:47:04+01:00,TRUE
+5983f5224b75aef4ce3932662bd15723f13841a0,Fix typo,2022-03-25 15:44:32+01:00,TRUE
+087f0811465983e556deab9de160dce54470aea7,Update README.md,2022-03-30 15:54:20+02:00,TRUE
+8403146404f0c33d49f7133a49e50cbcc52b05a7,Update README.md,2022-03-30 16:12:30+02:00,FALSE
+9d13b7261052992aab30ff9a26ecbe1c8dd651aa,Update README.md,2022-03-30 16:22:40+02:00,FALSE
+bd9fc876267a05569c03d077d9777f37bdf2af20,chore: autopublish 2022-03-30T14:42:41Z,2022-03-30 14:42:41+00:00,FALSE
+7a68e44941864925f6fea2bc67358e6fa0ecb364,Update README.md,2022-03-30 16:45:33+02:00,FALSE
+a13ccac69bdd3f8393edb4bf597044ec89fbf8bb,Update README.md,2022-03-30 16:51:33+02:00,FALSE
+27a308ad295cae8ded475b6c3169716a41c3145e,Update README.md,2022-03-30 17:02:43+02:00,FALSE
+6fac3cdba5033d4884bab2acf03103e604e83a9a,Update README.md,2022-03-30 17:02:55+02:00,FALSE
+e6778712e31273dfd19b51aede3240428e760f55,Update README.md,2022-03-30 17:03:11+02:00,FALSE
+c24c997cd103ae535ef3dd85cf9850cdd27ac6dd,Update README.md,2022-03-30 20:21:31+02:00,FALSE
+d7f8637d1b95765f8bc9e24fe867776906b4b88c,Update README.md,2022-03-31 14:30:47+02:00,FALSE
+ee8b2e64a78022995a7777db92c80f2c2b1b592a,Update README.md,2022-03-31 15:03:40+02:00,FALSE
+c013457d738401388ad37dd34130d8540c5589e9,Update README.md,2022-03-31 15:18:43+02:00,FALSE
+5d7e49f3c3223a9a70b2a0c312f43d358092473a,Update README.md,2022-03-31 15:42:27+02:00,FALSE
+bd4feabce31b2b9889303b769d170d62e5b9ebd0,Update README.md,2022-03-31 16:51:01+02:00,FALSE
+0e85719e9912c14f42429562ddbf6ddb5de240d8,Update README.md,2022-03-31 16:51:57+02:00,FALSE
+5107425899444918cc87744cf1b0b5ea8c010cf1,Update README.md,2022-03-31 17:00:05+02:00,FALSE
+a737e19e0a90c619baeff542ee8012d41e05bedc,Update README.md,2022-03-31 17:03:41+02:00,FALSE
+e4859eb890be03ad041b552805ccc037096a022f,Update README.md,2022-03-31 18:17:01+02:00,FALSE
+4f97cfe037c30a74b5fe9cc7f4e231dfcccb815f,Update README.md,2022-03-31 18:20:25+02:00,FALSE
+adf778fb3644b7da4812f1d8127558ead0fb3876,Update README.md,2022-04-01 15:34:20+02:00,FALSE
+e533854eade6300d8e9ac845faac587c2f5e8f0f,Update README.md,2022-04-06 19:52:49+02:00,FALSE
+7d8567d21a17ca2d6bbbf62d2b2f689604327086,Correct image sizes,2022-05-23 17:39:39+02:00,FALSE
+48068359eeef56634137fb09b493049c294d8b06,Update README.md,2022-09-22 06:38:46+02:00,FALSE
+137d55bd3b06cf28993c1b08f707c52261bc05f6,"DeepTrack2 1.4.0 (#138)
+
+* chore: autopublish 2022-07-26T13:54:44Z
+
+* Remove create-badges job
+
+* Delete test.py
+
+* Add multi-head masked attention
+
+* Update multi-head gated attention to match parent layer
+
+* Update documentation
+
+* Test multi-head masked attention
+
+* allow gated attention layers to use bias
+
+* test bias in gated attention layers
+
+* set return_attention_weights to False to avoid multi-outputs
+
+Use MultiHeadSelfAttention and MultiHeadGatedSelfAttention if want to return the attention weights
+
+* reformat gnns/layers.py
+
+This commit adds new message-passing graph layers (MPN) and graph convolutional layers to dt, including vanilla MPN, GRUMPN, Masked-attention FGNN, and GraphTransformer.
+
+* Update layers.py
+
+* Update test_layers.py
+
+* Update models.py
+
+* Update test_models.py
+
+* Update test_models.py
+
+* Fix indexing problems related to tf.gather
+
+* Allow multi-inputs in ContinuousGenerator
+
+* Fix bad conversion to integer
+
+* version bump
+
+* Fix phase correction at focus and offset calculation
+
+* Fix phase correction in propagation
+
+* Fix mie phase out of foucs
+
+* Fix mie phase out of foucs
+
+* Update README.md
+
+* Bm/version 1.4.0 (#137)
+
+* Update layers.py
+
+* Update convolutional.py
+
+Transformer-based models can now be reused and expanded quickly and easily
+
+* Update documentation
+
+* Update Transformer-based models
+
+* Delete classifying_MNIST_vit_tutorial.ipynb
+
+* Create classifying_MNIST_vit_tutorial.ipynb
+
+* Update datasets.py
+
+* Allows kwargs as inputs in single_layer_call
+
+* Update embeddings.py
+
+* masked transformers
+
+* reformat transformer models
+
+* Create trajectory_analysis_tutorial.ipynb
+
+* Add Variational autoencoders
+
+* Add variational autoencoders
+
+* Update vae.py
+
+* Create MNIST_VAE_tutorial.ipynb
+
+* Update MNIST_VAE_tutorial.ipynb
+
+* Create folder for course examples
+
+* Update README.md
+
+* Update README.md
+
+* Update examples
+
+* Update README.md
+
+* Update README.md
+
+* Update MNIST VAE examples
+
+* Added MLP regression example
+
+* Update README.md
+
+* Create image_segmentation_Unet.ipynb
+
+* Update README.md
+
+* Documented and tested cell_counting_tutorial.ipynb
+
+* improve dnn example
+
+* Shift variant mie
+
+* Position mie scatterer correctly
+
+* implement set z
+
+* implement mnist v1
+
+* implement z dependence
+
+* remove logging
+
+* Implement flattening methods
+
+* Implement pooling and resizing
+
+* Implement TensorflowDataset
+
+* Finalize MNIST
+
+* Implement Malaria classification
+
+* alpha0 release
+
+* fix batchsize in fit
+
+* implement dataset.take
+
+* Implement datasets
+
+* fix phase in mie
+
+* Fix mie positioning and focusing
+
+* Commit to new branch
+
+* add tensorflow datasets dependence
+
+* remove test
+
+Co-authored-by: Jesús Pineda <jesus.pineda@physics.gu.se>
+Co-authored-by: Jesús Pineda <36273229+JesusPinedaC@users.noreply.github.com>
+Co-authored-by: Benjamin Midtvedt <benmid@student.chalmers.se>
+Co-authored-by: Ccx55 <ccx555@gmail.com>
+
+Co-authored-by: BenjaminMidtvedt <41636530+BenjaminMidtvedt@users.noreply.github.com>
+Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+Co-authored-by: Jesús Pineda <jesus.pineda@physics.gu.se>
+Co-authored-by: Benjamin Midtvedt <benmid@student.chalmers.se>
+Co-authored-by: Jesús Pineda <36273229+JesusPinedaC@users.noreply.github.com>
+Co-authored-by: Ccx55 <ccx555@gmail.com>",2022-10-04 20:15:15+02:00,FALSE
+227db5fc1d943c9120a210d0e54ae5424efd444b,Update docs link,2022-12-12 13:55:16+01:00,FALSE
+393e0e7f2aa808e99ca4af88938e2ce7a5ac086b,Update README.md,2022-12-12 13:55:51+01:00,FALSE
+5d6c5a8081ef622ae9cc8ddb03d3cf6186faddd7,Update README.md,2022-12-13 13:47:13+01:00,FALSE
+cd5f06b6b1a522f595af2ae62e11aee18a4b4d9d,"Release 1.5.2 (#164)
+
+* chore: autopublish 2022-07-26T13:54:44Z
+
+* Remove create-badges job
+
+* Delete test.py
+
+* Add multi-head masked attention
+
+* Update multi-head gated attention to match parent layer
+
+* Update documentation
+
+* Test multi-head masked attention
+
+* allow gated attention layers to use bias
+
+* test bias in gated attention layers
+
+* set return_attention_weights to False to avoid multi-outputs
+
+Use MultiHeadSelfAttention and MultiHeadGatedSelfAttention if want to return the attention weights
+
+* reformat gnns/layers.py
+
+This commit adds new message-passing graph layers (MPN) and graph convolutional layers to dt, including vanilla MPN, GRUMPN, Masked-attention FGNN, and GraphTransformer.
+
+* Update layers.py
+
+* Update test_layers.py
+
+* Update models.py
+
+* Update test_models.py
+
+* Update test_models.py
+
+* Fix indexing problems related to tf.gather
+
+* Allow multi-inputs in ContinuousGenerator
+
+* Fix bad conversion to integer
+
+* version bump
+
+* Fix phase correction at focus and offset calculation
+
+* Fix phase correction in propagation
+
+* Fix mie phase out of foucs
+
+* Fix mie phase out of foucs
+
+* Update README.md
+
+* Bm/version 1.4.0 (#137)
+
+* Update layers.py
+
+* Update convolutional.py
+
+Transformer-based models can now be reused and expanded quickly and easily
+
+* Update documentation
+
+* Update Transformer-based models
+
+* Delete classifying_MNIST_vit_tutorial.ipynb
+
+* Create classifying_MNIST_vit_tutorial.ipynb
+
+* Update datasets.py
+
+* Allows kwargs as inputs in single_layer_call
+
+* Update embeddings.py
+
+* masked transformers
+
+* reformat transformer models
+
+* Create trajectory_analysis_tutorial.ipynb
+
+* Add Variational autoencoders
+
+* Add variational autoencoders
+
+* Update vae.py
+
+* Create MNIST_VAE_tutorial.ipynb
+
+* Update MNIST_VAE_tutorial.ipynb
+
+* Create folder for course examples
+
+* Update README.md
+
+* Update README.md
+
+* Update examples
+
+* Update README.md
+
+* Update README.md
+
+* Update MNIST VAE examples
+
+* Added MLP regression example
+
+* Update README.md
+
+* Create image_segmentation_Unet.ipynb
+
+* Update README.md
+
+* Documented and tested cell_counting_tutorial.ipynb
+
+* improve dnn example
+
+* Shift variant mie
+
+* Position mie scatterer correctly
+
+* implement set z
+
+* implement mnist v1
+
+* implement z dependence
+
+* remove logging
+
+* Implement flattening methods
+
+* Implement pooling and resizing
+
+* Implement TensorflowDataset
+
+* Finalize MNIST
+
+* Implement Malaria classification
+
+* alpha0 release
+
+* fix batchsize in fit
+
+* implement dataset.take
+
+* Implement datasets
+
+* fix phase in mie
+
+* Fix mie positioning and focusing
+
+* Commit to new branch
+
+* add tensorflow datasets dependence
+
+* remove test
+
+Co-authored-by: Jesús Pineda <jesus.pineda@physics.gu.se>
+Co-authored-by: Jesús Pineda <36273229+JesusPinedaC@users.noreply.github.com>
+Co-authored-by: Benjamin Midtvedt <benmid@student.chalmers.se>
+Co-authored-by: Ccx55 <ccx555@gmail.com>
+
+* Add tensorflow datasets to the list of dependencies.
+
+* Read requirements.txt into setup.py
+
+* remove sphinx from build
+
+* remove create badges
+
+* Create CITATION.cff
+
+* Create .zenodo.json
+
+* Update transformer models
+
+* Update pint_definition.py
+
+* Update requirements.txt
+
+* create TimeDistributed CNN
+
+* small fixes to lodestar
+
+* Update layers.py
+
+* Update test_layers.py
+
+* remove direct getter of properties
+
+* Update scatterers.py
+
+Coherence length fix for MieScatterer
+
+* Update scatterers.py
+
+Added coherence length to the conversion table
+
+* mie phase fix
+
+* removed pydeepimagej from deps
+
+* Change loss input order of CGAN and PCGAN
+
+* Create dmdataset (dataset for graph-level regression tasks)
+
+* Update gnns/__init__.py
+
+* Add detection_linking_hela dataset
+
+* Update dmdataset.py
+
+* Create the regression_diffusion_landscape
+
+* Update scatterers.py
+
+CuPy fix for coherence length
+
+* Update test_scatterers.py
+
+Added a new method for testing MieSphere when coherence length parameter is provided.
+
+* Update augmentations.py
+
+* Update test_scatterers.py
+
+* Update test_scatterers.py
+
+* Create endothelial_vs dataset
+
+* Update layers.py
+
+* Update utils.py
+
+* Update docs link
+
+* Update README.md
+
+* version bump
+
+* version bump
+
+* Update README.md
+
+Co-authored-by: BenjaminMidtvedt <41636530+BenjaminMidtvedt@users.noreply.github.com>
+Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+Co-authored-by: Jesús Pineda <jesus.pineda@physics.gu.se>
+Co-authored-by: Benjamin Midtvedt <benmid@student.chalmers.se>
+Co-authored-by: Jesús Pineda <36273229+JesusPinedaC@users.noreply.github.com>
+Co-authored-by: Ccx55 <ccx555@gmail.com>
+Co-authored-by: Harshith Bachimanchi <62615092+HarshithBachimanchi@users.noreply.github.com>
+Co-authored-by: gideon <gideon.jagenstedt@gmail.com>
+Co-authored-by: Benjamin Midtvedt <benjamin.midtvedt@physics.gu.se>",2022-12-13 14:07:49+01:00,FALSE
+566c9b19b2f1ad638766ac14d2f64db5c607b1d8,Update README.md,2022-12-16 16:41:40+01:00,FALSE
+8e4f34860ad9cc8ad72759103acc715f24c1f00d,"Release 1.5.5 (#173)
+
+* chore: autopublish 2022-07-26T13:54:44Z
+
+* Remove create-badges job
+
+* Delete test.py
+
+* Add multi-head masked attention
+
+* Update multi-head gated attention to match parent layer
+
+* Update documentation
+
+* Test multi-head masked attention
+
+* allow gated attention layers to use bias
+
+* test bias in gated attention layers
+
+* set return_attention_weights to False to avoid multi-outputs
+
+Use MultiHeadSelfAttention and MultiHeadGatedSelfAttention if want to return the attention weights
+
+* reformat gnns/layers.py
+
+This commit adds new message-passing graph layers (MPN) and graph convolutional layers to dt, including vanilla MPN, GRUMPN, Masked-attention FGNN, and GraphTransformer.
+
+* Update layers.py
+
+* Update test_layers.py
+
+* Update models.py
+
+* Update test_models.py
+
+* Update test_models.py
+
+* Fix indexing problems related to tf.gather
+
+* Allow multi-inputs in ContinuousGenerator
+
+* Fix bad conversion to integer
+
+* version bump
+
+* Fix phase correction at focus and offset calculation
+
+* Fix phase correction in propagation
+
+* Fix mie phase out of foucs
+
+* Fix mie phase out of foucs
+
+* Update README.md
+
+* Bm/version 1.4.0 (#137)
+
+* Update layers.py
+
+* Update convolutional.py
+
+Transformer-based models can now be reused and expanded quickly and easily
+
+* Update documentation
+
+* Update Transformer-based models
+
+* Delete classifying_MNIST_vit_tutorial.ipynb
+
+* Create classifying_MNIST_vit_tutorial.ipynb
+
+* Update datasets.py
+
+* Allows kwargs as inputs in single_layer_call
+
+* Update embeddings.py
+
+* masked transformers
+
+* reformat transformer models
+
+* Create trajectory_analysis_tutorial.ipynb
+
+* Add Variational autoencoders
+
+* Add variational autoencoders
+
+* Update vae.py
+
+* Create MNIST_VAE_tutorial.ipynb
+
+* Update MNIST_VAE_tutorial.ipynb
+
+* Create folder for course examples
+
+* Update README.md
+
+* Update README.md
+
+* Update examples
+
+* Update README.md
+
+* Update README.md
+
+* Update MNIST VAE examples
+
+* Added MLP regression example
+
+* Update README.md
+
+* Create image_segmentation_Unet.ipynb
+
+* Update README.md
+
+* Documented and tested cell_counting_tutorial.ipynb
+
+* improve dnn example
+
+* Shift variant mie
+
+* Position mie scatterer correctly
+
+* implement set z
+
+* implement mnist v1
+
+* implement z dependence
+
+* remove logging
+
+* Implement flattening methods
+
+* Implement pooling and resizing
+
+* Implement TensorflowDataset
+
+* Finalize MNIST
+
+* Implement Malaria classification
+
+* alpha0 release
+
+* fix batchsize in fit
+
+* implement dataset.take
+
+* Implement datasets
+
+* fix phase in mie
+
+* Fix mie positioning and focusing
+
+* Commit to new branch
+
+* add tensorflow datasets dependence
+
+* remove test
+
+Co-authored-by: Jesús Pineda <jesus.pineda@physics.gu.se>
+Co-authored-by: Jesús Pineda <36273229+JesusPinedaC@users.noreply.github.com>
+Co-authored-by: Benjamin Midtvedt <benmid@student.chalmers.se>
+Co-authored-by: Ccx55 <ccx555@gmail.com>
+
+* Add tensorflow datasets to the list of dependencies.
+
+* Read requirements.txt into setup.py
+
+* remove sphinx from build
+
+* remove create badges
+
+* Create CITATION.cff
+
+* Create .zenodo.json
+
+* Update transformer models
+
+* Update pint_definition.py
+
+* Update requirements.txt
+
+* create TimeDistributed CNN
+
+* small fixes to lodestar
+
+* Update layers.py
+
+* Update test_layers.py
+
+* remove direct getter of properties
+
+* Update scatterers.py
+
+Coherence length fix for MieScatterer
+
+* Update scatterers.py
+
+Added coherence length to the conversion table
+
+* mie phase fix
+
+* removed pydeepimagej from deps
+
+* Change loss input order of CGAN and PCGAN
+
+* Create dmdataset (dataset for graph-level regression tasks)
+
+* Update gnns/__init__.py
+
+* Add detection_linking_hela dataset
+
+* Update dmdataset.py
+
+* Create the regression_diffusion_landscape
+
+* Update scatterers.py
+
+CuPy fix for coherence length
+
+* Update test_scatterers.py
+
+Added a new method for testing MieSphere when coherence length parameter is provided.
+
+* Update augmentations.py
+
+* Update test_scatterers.py
+
+* Update test_scatterers.py
+
+* Create endothelial_vs dataset
+
+* Update layers.py
+
+* Update utils.py
+
+* Update docs link
+
+* Update README.md
+
+* version bump
+
+* version bump
+
+* Update README.md
+
+* Update README.md
+
+* Update graphs.py
+
+* Update test_generators.py
+
+* Update generators.py
+
+* fix test
+
+* Update vae.py
+
+---------
+
+Co-authored-by: BenjaminMidtvedt <41636530+BenjaminMidtvedt@users.noreply.github.com>
+Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+Co-authored-by: Jesús Pineda <jesus.pineda@physics.gu.se>
+Co-authored-by: Benjamin Midtvedt <benmid@student.chalmers.se>
+Co-authored-by: Jesús Pineda <36273229+JesusPinedaC@users.noreply.github.com>
+Co-authored-by: Ccx55 <ccx555@gmail.com>
+Co-authored-by: Harshith Bachimanchi <62615092+HarshithBachimanchi@users.noreply.github.com>
+Co-authored-by: gideon <gideon.jagenstedt@gmail.com>
+Co-authored-by: Benjamin Midtvedt <benjamin.midtvedt@physics.gu.se>",2023-03-07 15:16:44+01:00,FALSE

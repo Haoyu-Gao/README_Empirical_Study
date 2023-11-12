@@ -1,0 +1,217 @@
+sha,message,date,result
+bd42d54da22f69966b2f534be3565817efc6b0ec,Initial commit,2018-10-11 09:40:20-07:00,False
+60347197fe3e2bf47de8a03893e9e9ce8b6a3296,Updating initial README.md from template,2018-10-11 09:40:24-07:00,False
+5c73d2aa74fd32c3c61c8b7ab83f344736c10c8e,Imported and edited README.md,2018-10-11 10:16:26-07:00,True
+fa5621883ce099354b98328be2a7acbf39593784,Fixed readme post rebase,2018-10-11 10:18:17-07:00,False
+2c35f081d308533fdd3290cd3d2c9078bfc62a29,Henson's feedback,2018-10-11 10:47:43-07:00,False
+31d1269a78b7a0acfde3f97ea52dbeacfab84354,"Improved JUnit detection/use, fixed windows tests (#4)
+
+* Improved JUnit detection
+
+* Tests now pass on windows
+
+* Removed erroneous ENABLE_SANITIZERS doc
+
+* Removed redundant cmake (...) contents",2018-10-15 17:10:24-07:00,False
+f8d0097da3f89c5176f9356b8b2ddcc46f61d493,"Re-wrote README (#32)
+
+* Re-wrote README to use maven and include the real build steps
+
+* Removed credentials folder
+
+* Updated README to match newer build steps
+
+* added installation instructions
+
+* PR Feedback",2019-01-22 11:02:33-08:00,True
+c46f36307828383c6e6d9d1bfcefd4b0c09e9302,"Cmake dependency build (#37)
+
+* Added javadocs to java classes, README for credentials
+
+* added more docs to setVerifyPeer
+
+* Brought aws-common-runtime folder over from aws-crt-cpp, updated maven and CMakeLists.txt, removed build-deps scripts
+
+* Removed manual building of deps from README
+
+* Removed manual deps building from codebuild
+
+* Fixed cmake module path by fixing CMAKE_INSTALL_LIBDIR
+
+* added 32-bit cmake flags to maven
+
+* Fixes for 32-bit build, mostly added setarch to CI script
+
+* attempting to fix 32-bit c flags
+
+* swapped i386 for x86 in pom.xml
+
+* removed debugging commands for linux x86
+
+* debugging find_vs_cmake_generator
+
+* removed depedency on vswhere, it's not always right, use vcvarsall instead
+
+* Added AWS_CMAKE_GENERATOR env var to force generator in CI
+
+* use env instead of set for env vars on windows
+
+* in which I learn how spaces work
+
+* Dependencies should not be built shared no matter what
+
+* PosixFilePermissions don't work on windows, replaced them with File API
+
+* GNUInstallDirs was messing up the deps install/prefix path
+
+* always use maven batch mode in CI",2019-01-25 10:52:04-08:00,True
+dc2bd6c8425fcfe5d3642c9cd62162477502c1b6,"Convert CD pipeline to work on release tags (#58)
+
+* Removed ninja as a dependency
+
+* Use any version tag, not just annotated ones",2019-06-06 14:04:50-07:00,True
+79e1b81008262d3af369ac5d6d8a561a9dcf7f20,"Updated building docs, fixed default version (#93)
+
+* Updated building docs, fixed default version
+
+* Add assumption about credentials for mqtt",2019-09-24 14:58:15-07:00,True
+25be785967df50105830267b2fa4be19a808e0cf,"check return codes in tls_context_options.c (#143)
+
+A customer had typed their cert path in wrong, and we didn't detect it until way later when TLS negotiation failed. Turns out there were a lot of return codes we were never checking in this .c file.
+
+There are lots of other native/*.c files that could use an error-handling pass like this.",2019-12-31 10:08:21-08:00,False
+c2a60f16514ca0b4ae6bfa6ed0a1f591a5e9fc77,"Converted to submodules, updated all aws-c* libs (#156)
+
+* updated deps to get cmake fixes
+
+* Removed old OSX CI
+
+* Fix libcrypto bs
+
+* Remove the need for cmake to find a Java compiler
+
+* Removed crazy cmake detection, run this from a VS command prompt like everyone else
+
+* Updated README regarding VS command prompt
+
+* Disable S2N PQ ASM
+
+* Updated aws-c-mqtt to v0.4.26
+
+* Updated to v0.4.1 (latest version)",2020-02-14 17:32:37-08:00,True
+e2b0fe85050ec9b7957393e0a99de4e07a141d12,"Fix for documentation on how to build (#179)
+
+* Fix for documentation on how to build",2020-04-01 15:25:31-07:00,True
+43d662b0ea8d9b98fc8266d847bd4b48330a42df,"Documentation additions for developers (#192)
+
+* Added debugging instructions to README
+
+* Added additional maven/IDE docs",2020-05-08 13:16:49-07:00,False
+4e5c98dc6ca94ed365321d86deff7acbd4313e04,"Fixed docs headers, copyright, added script to generate docs (#194)",2020-05-08 16:13:41-07:00,False
+050c78b0045cc44774c88b82a6a155a910937362,Adding Mac-only TLS ReadMe change (#212),2020-07-23 09:56:22-04:00,False
+9de688abeee7640dc9cd810dc86c8fba5274fdf4,TLS ReadMe Fix (#214),2020-07-24 18:20:37-04:00,False
+a8dca2cf5b14c2750a9bb110a39c854ebfdca89f,"Update README.md (#353)
+
+Added instructions to update submodules where missing and changed formatting where it was already present to conform with other documentation.",2021-07-09 15:51:51-07:00,True
+82a0be0d9b1418ca0e44c81984f771521d4168e0,"Adjust README formatting and add command to get submodules recursively (#466)
+
+Minor adjustments to README to improve formatting.
+
+* Adjust README formatting and add command to get submodules recursively
+* Additional formatting
+* Removed recurse from git clone in README",2022-04-11 13:25:37-04:00,True
+b2cf2029756d61c4b7cd0994315c9eeba0711d2d,Fix brew install command for cmake.  OSX: 'brew install cmake' installs cmake 3.1+ (#497),2022-07-20 09:59:08-07:00,True
+35813b754a79944943cd6221b3bc0e2e043dd4cc,"Custom TLS Key operation support (#513)
+
+Exposes custom TLS private key operation support to Java, so users can add their own custom key operations.
+
+Commit log:
+* Enable custom TLS key operations
+* remove file that shouldn't be in source control
+* attempts to diagnose crash
+* go Debug for now
+* force CRT logging
+* remove hard-coded log settings
+* cast to jni types
+* Fix crash. Class reference was getting garbage-collected. Now it's not.
+* Minor changes needed to make branch work with the latest version of main
+* Refactored code to have TlsContextCustomKeyOperationsOptions be a CRT resource for better memory management and easier clean up
+* Move creation of aws_tls_ctx_custom_key_operation_options to custom_key_op_handler struct so all the custom key operation data from Java is in one place
+* Only hold a reference to TlsContextCustomKeyOperationsOptions java class instead of interface. Get the interface from the Java class directly
+* Perform custom key operations through TlsContextCustomKeyOperationOptions calling interface. This allows the catching of exceptions to avoid freezing if a custom key operation throws
+* Initial implementation of using a C-class for the custom key operations
+* Removed commented out code
+* Remove userdata and instead use the impl variable in aws_custom_key_op_handler
+* General code cleanup and refactor
+* Refactored custom key operations to be a pure java class with a memory managed native class in C that is linked to it. Made TlsKeyOperationHolder a normal Java class again and added additional functionality to TlsKeyOperationHandler
+* Added callback that is invoked right before the TlsKeyOperationHandler is destroyed in native
+* Added documentation to Java classes
+* Custom key operation changes: Removed ctx_destroy, adjusted to work with lean base struct, and use api to access vtable functions
+* Fix memory management by properly increase and decrease reference count, make destroy v-table function be called and abstract away making the reference count
+* Documentation pass
+* Removed some TODOs that are no longer needed and made TlsKeyOperation a CRT resource
+* Add note to documentation that close is not needed to be called in TlsKeyOperation
+* Commit change preventing double custom key operations from breaking things in C layer
+* Added custom key operations sample to CRT for easier testing without needing the SDK
+* Remove PubSub part of CRT sample
+* Added test cases for testing custom key operations
+* Clang format fixes and update to use CI passing aws-c-io changes
+* Further clang format fixes
+* Fix typo in codebuild script
+* Fix for pointer cast error in CI
+* Fix error on passing long of different size in arm by casting to intptr_t
+* Update aws-c-io to use latest main
+* Temporarily disable shutdown test
+* Disable shutdown test a different way to see if that is causing CI to fail
+* Check to see if system property is set in private key operation test
+* Add back shutdown test and document classes to pass doc check
+* Added further documentation
+* Add PKCS8 key alongside the normal private key in testing
+* Remove parallel from pom file to allow Codebuild to pass again
+* Fix the build.gradle.kts file and removed unnecessary comments in test
+* Use latest aws-c-io changes, set enums to have unknown as negative one, added note on TLS 1.3 use for custom key operations
+* Refactored based on code review in aws-c-io
+* Code changes based on code review and removing get_certificate vtable function
+* Updated to work with code refactor changes - getting rid of get_certificate function
+* Remove unncessary destroy vtable function for custom key op handlers - each already points it to the destroy function when they setup the ref count
+* Make TlsKeyOperationHandler an interface and not a class, check for exceptions in C, remove cleanup function
+* clang-format fixes
+* Remove cleanupCalled from test now that we no longer track that
+* Fix issue where exceptions were not finishing the CrtResource correctly
+* Replace C++ comments with C comments
+* Code review changes:
+* Code review changes:
+* Convert custom_key_op_handler to just expose the C class and not the JNI one, simplifying the API and reducing the header
+* Code review changes:
+* Fix clang-format issues and clean up code in custom_key_op_handler
+* Super minor clang-format thing I missed
+* Fix tests failing due to close no longer being callable
+* Fix comments in TlsContextCustomKeyOperationOptions and TlsKeyOperation referring to MQTT rather than mutual TLS
+* Code review changes:
+* Final pass: Added some missing documentation, trimmed sample down a bit, and updated to use aws-c-io release
+
+Co-authored-by: Michael Graeb <graebm@amazon.com>",2022-08-01 10:36:39-04:00,False
+5390cb9981d176f21e7d4c4960627e72cd91c599,"Added unit test to setup Mqtt Connect through EC-based certificate and key (#545)
+
+* adding ecc key unit test
+
+* revert test api changes, keep the original api unchanged
+
+* fix ecc private key variable name
+
+* update README with ecc related test parameters
+
+* update c-io
+
+* update c-common
+
+* update java test arguments
+
+* rename parameter to make it clear
+
+* rename test context",2022-11-10 10:56:11-08:00,False
+dad3837984c3bfe4e260dedd4196a95dc9b88d17,"split the artifact to be platform specific (#569)
+
+-   Add classifier to the maven build
+-   Change code pipeline to publish platform specific jar",2022-12-27 09:11:56-08:00,True
+d64b6873ba6dbcdde96e6fa5db359f5e1ef75908,remove experiment for `Platform-Specific JARs` (#596),2023-03-17 16:13:08-07:00,True

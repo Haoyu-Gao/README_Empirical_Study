@@ -1,0 +1,221 @@
+sha,message,date,result
+f5117c723b6d30b6186bed29328e274013ef5fbe,Initial commit,2019-07-11 13:12:46+02:00,FALSE
+baa4648da0823b65868a97b076836108dc5bde0f,Update README.md,2019-07-22 17:01:38+02:00,TRUE
+9ee0d642a4fc80c5579f5e4e110fd5782d97ece1,first working peak calling,2019-07-26 09:55:30+02:00,FALSE
+4dfbb7978710d6518c5145550390017733758735,minor README update,2019-07-26 09:56:40+02:00,TRUE
+4b38b12fbcdf861a91b0ddecfa1502058c6b91c1,Update README.md,2019-08-08 11:54:28+02:00,FALSE
+676aa983c967c50072a8abba626f200c0b608ef2,Update README.md,2019-08-12 13:50:52+02:00,FALSE
+aaf03b01896f2f2d05f1fd62fb5b7b7568b98371,Update README.md,2019-08-21 12:24:40+02:00,FALSE
+4fd8bd9a3a37b8f23cca85751937f7701026dd1f,Update README.md,2019-08-21 13:47:13+02:00,FALSE
+bc5c7b18185760e06cbb2f70250eec226b61f4dd,Update README.md,2019-08-26 10:18:40+02:00,FALSE
+9d62da7b0245804fb397410116230123983dad69,"dsa (#138)
+
+* test
+
+* dasd",2019-09-02 17:10:46+02:00,FALSE
+6ddfe2195b415ca949e6cacb06eebb1cc904046f,"Revert ""dsa (#138)"" (#139)
+
+This reverts commit 9d62da7b0245804fb397410116230123983dad69.",2019-09-02 17:11:21+02:00,FALSE
+17e71562975e2e247d0d86327c152f336213688b,"Jenkins (#143)
+
+* proper naming in envs (#137)
+
+* proper naming in envs
+
+* small fix
+
+* Fix i.a. #80 (#140)
+
+* move from travis -> Jenkins
+
+* update build status token
+
+* see stdout for debugging
+
+* all I needed to do was samples?
+
+* no more quiet
+
+* retry pip",2019-09-05 21:04:47+02:00,FALSE
+15f9a63596d77e4b68ffcc7b4587e8fa7cdfff7f,"Jenkins (#145)
+
+* lock resource",2019-09-06 11:40:40+02:00,FALSE
+9db5dc521dd0a84f23dad28ce6ed5e7400a98bb3,Develop -> merge (#146),2019-09-06 15:58:13+02:00,FALSE
+5c7a186c7d190d5048465315e1b6a645848021b9,"Rna seq (#167)
+
+Added an rna-seq pipeline
+
+* Added gene count matix generation
+
+* Added differential expression analysis to the rna-seq workflow
+
+* Improved STAR-alignment
+
+* Implemented conversion for salmon output to gene counts matrix using tximeta. Only works with Ensembl genomes currently.
+
+* added Jenkins tests for the RNA-seq workflow
+
+* added bam to bigwig generation.
+
+still to do: support of assembly hubs",2019-09-19 22:42:56+02:00,FALSE
+0a75c854ab5ee1681826a58febfa98311365e64a,"Rna seq (#176)
+
+* bugfix star aligner
+
+* Develop -> merge (#146)
+
+* Added an rna-seq pipeline
+
+Added gene count matix generation
+
+Added differential expression analysis to the rna-seq workflow
+
+Improved STAR-alignment
+
+* minor tweak
+
+* Develop (#155)
+
+updating branch
+
+* added schemas, added README, minor improvements
+
+* example config. with temp names
+
+* Implemented conversion for salmon output to gene counts matrix using tximeta. Only works with Ensembl genomes currently.
+
+* added Jenkins tests for the RNA-seq workflow
+
+* Create samples.tsv
+
+default samples for testing
+
+* Updated Jenkins. Will only run test for which we have proper test samples
+
+* fixed bwa running twice in test
+
+* added bam to bigwig generation.
+bams are split by strandedness if strandedness is given in samples.tsv.
+also switched all instances of sample-assembly to assembly-sample for improved file sorting.
+added wildcard constraints to all paths with multiple wildcards in a row, such as {{assembly}}-{{sample}}.
+
+* typos & minor fixes
+
+* replaced individual wildcard constraints with global ones for both assembly and sample.
+
+undid indexing outputting files rather than folders
+
+* removed wildcard constraint for assembly in runs without assemblies
+
+* typo
+
+* jenkins was not really checking all aligners
+
+* LEEROY!
+
+* JENKINS!
+
+* missed an assembly-sample switch
+
+* missed more assembly-sample switches
+
+* removed superflous ./ in tests
+
+* missed another sample-assembly
+
+* snakemake lied. Those ./ were not superfluous.
+
+* fix for #171 and minor bug in bam to bigwig
+
+* minor tweaks
+
+* snakefile cleanup
+
+* updated trackhub.smk
+
+* update trackhub.smk
+
+* update atac-seq snakefile & schemas
+
+* update schemas
+
+* added minimal assembly hub support
+
+minor bugfixes & cleanups
+
+* added DAG & updated rna-seq readme
+
+* updated assembly hub.smk
+
+* Update README.md",2019-09-25 11:38:15+02:00,FALSE
+a3606e13fa8b66cc59f9abde67d38eb53fcd2368,"Prettier badge (#252)
+
+* link to pretty test pipeline (Blue Ocean) instead of vanilla Jenkins
+
+Co-authored-by: siebrenf <48289046+siebrenf@users.noreply.github.com>",2020-02-20 11:52:53+01:00,FALSE
+9842c82c8c75b28ad618126d3c59dacd07143071,add CHiP seq to readme,2020-03-20 19:58:07+01:00,FALSE
+4e74590304c7cff965888b3084ac5210ebd4f581,Update README.md,2020-05-11 13:18:38+02:00,FALSE
+7c7a34aa5426e9d91a4d8fe93cb608a24377aea2,"Update README.md
+
+replaced badges with a more stable version",2020-05-11 14:04:16+02:00,FALSE
+4a29cf1279ade9b6b610d1236cd9c8267726f2a8,star badge pointing to stargazers,2020-05-12 15:05:55+02:00,FALSE
+6129cfef1d527c144cc3cb05774a6ae118c39551,"gimme dem new badges (#331)
+
+* Update README.md
+
+replaced badges with a more stable version
+
+* star badge pointing to stargazers
+
+Co-authored-by: siebrenf <48289046+siebrenf@users.noreply.github.com>",2020-05-12 15:31:40+02:00,FALSE
+1586ae5aea03adaea9aa41df31db3a90e357328b,"seq2science docs (#337)
+
+* start on auto-docs
+
+* build docs
+
+* some more wip
+
+* small changes to docs
+
+* update auto docs for config
+
+* Update docs.yml
+
+* Update docs.yml
+
+* Update fillingout.md
+
+* Update workflows.md
+
+* Add files via upload
+
+* refactoring docs
+
+* fixes
+
+* docs final(ish) layout
+
+* small stub for downloading failure
+
+* add logo!
+
+* does this show logo?
+
+* add image
+
+* more wip on docs
+
+* auto docs for rules
+
+Co-authored-by: Jos Smits <J.Smits@science.ru.nl>",2020-05-29 14:02:01+02:00,TRUE
+d5ab8432c9578aff7c2a4af3f44fb2b07df6bf9a,start on refactoring,2020-06-02 10:39:12+02:00,TRUE
+d420927a2143bff511ca3d3ef9cb6c7e9faee148,more docs improvements,2020-06-02 12:43:00+02:00,FALSE
+bf54a5bcecf15f693ec4c037eb643f86c8462e22,Update docs.yml (#384),2020-06-16 10:42:14+02:00,FALSE
+cb50ee5dbc756ddc9402d6c46b5d9c42f1ddf7bd,Update README.md,2020-06-17 16:13:10+02:00,FALSE
+68fbc2b39b0f73d82259f7787ac4e85e8beeb6aa,Build button renamed to test button,2020-06-23 10:20:25+02:00,FALSE
+4d61e8b8e1c8f86956c7c47d4383f4a6fdacb191,add zenodo DOI,2020-06-29 14:06:41+02:00,FALSE
+b7c37609186e3eb5104eba89879f7b5ef2803f8d,Update README.md,2020-08-04 19:17:14+02:00,FALSE
+8846384e0c5cb7b7dccc7a599f2b7b6269dad29a,user quality of life improvements  (#583),2020-11-23 12:03:03+01:00,FALSE
+0f8756454a0eac088146ec6e3b7efb581724c963,build docs for scRNA,2020-12-11 10:41:06+01:00,FALSE
+1387a2930e9687843b94c7912cb8407e78ea42d2,Update README.md,2021-12-14 15:28:45+01:00,FALSE

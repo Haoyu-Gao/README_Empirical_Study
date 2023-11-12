@@ -1,0 +1,121 @@
+sha,message,date,result
+58d78a5b8074d137be3c6b92da68a19a0e481162,Initial commit,2018-09-25 14:47:29-07:00,TRUE
+755bcefbfa9e4028b29767e16a78a4b922b753b2,"Fixed broker markdown links
+
+These links originally pointed to 404 files.",2018-09-25 14:50:26-07:00,FALSE
+62267cbca5e94743520c76326a0c8583130eda1b,"Update README.md
+
+Fixed GitHub URL",2018-09-26 12:13:16-07:00,TRUE
+a917aef7b20dbfb29ee827d6fe6dcdc1e5edae06,Fix typo,2018-09-28 07:36:34+02:00,TRUE
+ccf45815f9197a02f193ecbbc55232f2ab3f6b8c,"Add custom ScanUrl regexes
+
+These changes make it possible for users to define custom URL parsing regexes on a per-file basis. It also removes JavaScript files from ScanUrl parsing in the default configuration and refactors the “javascript_file” rule.",2018-09-28 15:42:02-07:00,TRUE
+ba86de0adf2b79d515514774a4b87078ffa692df,added Slack Invite page,2018-10-01 15:04:53-05:00,FALSE
+da4d513edb174f0fc5c20838dd53261b38f4d835,"Add option to deobfuscate JavaScript
+
+This PR adds an option to deobfuscate JavaScript files. Enabling this option should improve the JavaScript parsing — by default, it will be enabled.",2018-10-03 11:26:02-07:00,TRUE
+ebe933639d3deaf00b33b5bf5dfcfdf8e5e39498,"Add ScanStrings
+
+Adds ScanStrings scanner, this can be used to collect strings (similar to Unix “strings” utility) from file data",2018-10-05 09:15:59-07:00,FALSE
+b363488317612208c312cfac0c3bb85b9d04e403,Bumped CHANGELOG and updated README scanner list,2018-10-16 10:54:35-07:00,FALSE
+c2f217b86a11714e412232adf219ee734454ae79,Ready for push request. Cleanup.,2018-11-26 14:19:43-05:00,FALSE
+d409ab0c1ed7a8ef4b5832099126f6f27e3343a4,Fixed typo,2018-11-26 14:21:51-05:00,FALSE
+675f917ddb7a35292fc623ae7216833299a869f0,"dirstream polling and multi-directory support
+
+This commit makes one significant change and one addition to the dirstream client.
+
+The change is that the client now uses directory polling instead of inotify to monitor the file directory. This adds a delay to the time taken for a file to get to the Strelka cluster, but fixes the race condition which resulted in incomplete files being sent to the cluster. It also decreases the complexity of the client, including avoiding performance issues caused by inotify (i.e. queue overflow). The delay incurred by this change is a minimal impact to high-volume production environments.
+
+The change adds the ability to monitor multiple directories from one client.",2018-12-10 09:47:46-08:00,TRUE
+81be74f72a8a650295e68f350a12e832858a68e1,"Fixed documentation
+
+This commit adds the mistakenly removed documentation for the DirWorker class.",2018-12-10 10:13:54-08:00,TRUE
+48816724841edce1a3f4560429eee1babdfb3a2a,"Add ZeroMQ reconnection options
+
+This commit makes two changes:
+
+Ports have been redefined to “socket” ports. This results in no change in functionality, it’s simply a name change that should improve clarity in the configuration options.
+
+Added options for setting ZeroMQ TCP reconnections on the task socket. This can help reduce network noise from the workers when the connection between them and the broker is disrupted.",2018-12-12 09:19:04-08:00,TRUE
+65955318d3447802032bf2d97fbac571c7515daa,Changed ingest behavior for YARA taste signatures - default behavior is now to scan a directory instead of a single YARA file.,2019-01-02 10:54:00-05:00,TRUE
+896be0634946a114e36331a89d1b8180b99c9df7,made requested changes,2019-01-16 11:44:44-07:00,TRUE
+ec025efa2f0bb796401c187dfdfb55c3d2c11050,Expanded ScanZip functionality to unzip password-protected archives.,2019-02-01 10:44:12-05:00,FALSE
+86df548e62c949b9cb95318c9093ca8dc8e214bf,set recursive to False by default. Updated `README.md`,2019-02-07 14:28:36-07:00,TRUE
+e5542de1c23a8b2e47008030ea589410642adde0,formatting in readme,2019-02-07 14:31:28-07:00,TRUE
+811c8e046e9377ce40328737e22ad8e9ba1db02f,Removing bulk to README,2019-02-14 17:30:58-06:00,TRUE
+8ca793271038e864bc07e1f0d93b9ea437db7611,Update README.md,2019-02-15 12:34:26-06:00,FALSE
+dbb0073b458eaa9fd68a8ae666f82a96b733482a,modified legacy files,2019-05-16 12:24:37-07:00,FALSE
+bd18620ee4ead4bb4693c7e9b3c2242d5b850e3c,Updated description (#84),2019-07-09 19:42:46-07:00,FALSE
+d0fdc8c5d074cb375d858a8a28e2e9606a3662ac,Updating Slack Link,2020-05-07 08:10:01-04:00,FALSE
+b8d17be478bb8e150054402e40dfa6d3164ecb91,Updating Community - Slack - Badges,2020-05-07 08:29:02-04:00,FALSE
+49a37d5682b0616dcf844e99046769f378160103,Fixing Community - Slack - Invite,2020-05-07 09:35:31-04:00,FALSE
+bdd9bd9764411c2eea8a164a9c140dd82a70f122,Adding Build Badge,2021-02-24 09:31:16-05:00,FALSE
+3caa3d8d1cd0be0bfd1eda9fd9f9bfb9df8885b5,Updating build status,2021-02-24 09:32:32-05:00,FALSE
+fc642baeb1268d10fb2efe70364909a0f539c043,Update README.md,2021-02-25 08:22:33-05:00,FALSE
+e6c0d3c5eb7dfcf429349914211f24c1124952e2,Update README.md,2021-02-26 09:35:22-05:00,FALSE
+81a3771765262017651f45d77643039457fd11c3,Update README.md,2021-03-01 21:06:19-05:00,FALSE
+b0445e6a1e5c269babb3692a5e899dbfe7bc59ee,Update README.md,2021-03-01 21:35:42-05:00,FALSE
+994cf1c1f03f9042ae7503fa1d4b9784af852f99,Update README.md,2021-03-02 07:46:09-05:00,FALSE
+c6be1a602aec56b9f6f657ef33bcc2ad7efe5346,Update README.md,2021-03-02 07:46:33-05:00,FALSE
+c7eec1bf26b9d748efb49b2805efb1953b42e760,Update README.md,2021-03-02 07:50:08-05:00,FALSE
+db7d8327afa124e389539ff040b34276d203c607,Update README.md,2021-03-02 07:51:21-05:00,FALSE
+13ad908ae9b6b5de007bced4e4089e8890eebe17,Update README.md,2021-03-02 07:52:15-05:00,FALSE
+09b71c428f4d69a576306234bcecdef57a83a1d1,Update README.md,2021-03-02 07:52:27-05:00,FALSE
+326cd2cc3f65c1c5816256387e79a606b8d95ac0,Update README.md,2021-03-02 07:52:45-05:00,FALSE
+c53ad5fd927eb1ba140a7ff4a9b9b15d28c08849,Update README.md,2021-03-02 07:53:43-05:00,FALSE
+4dd23c86b07bed41408f109009c4ec963f01fc86,Update README.md,2021-03-02 07:53:57-05:00,FALSE
+2ad5e05d0410bb6cb1231a2884f2ead9bb5002bf,Update README.md,2021-03-02 07:54:19-05:00,FALSE
+73ae930547ce7eecdc1e953d0edabbf2e58e6f21,Update README.md,2021-03-02 07:59:50-05:00,FALSE
+e34927a92a79fb3e31902307162702a185f2df7b,Update README.md,2021-03-02 08:17:42-05:00,TRUE
+bb2d10e913e1842d8a045ec92983c168cf03646a,Update README.md,2021-03-02 09:06:13-05:00,FALSE
+fcfc263da53ed6c8d508f5d7409aa01d226f110e,Update README.md,2021-03-02 09:06:37-05:00,TRUE
+fe5260eafd7a3ecde3ca9a40bab88a55c431af86,Update README.md,2021-03-02 09:07:07-05:00,TRUE
+0bf40eb578a824cca6bf9d1c4f4fc115bee3b8e9,Update README.md,2021-03-02 09:07:27-05:00,FALSE
+420762fc564ae84ed1ded6d6539d495352a12498,Update README.md,2021-03-02 09:20:49-05:00,FALSE
+7ed767f8d4029cdca1207c5bd09f7f03a21cb511,Update README.md,2021-03-02 09:35:32-05:00,FALSE
+6074afaecae4e0c5e1a086fd7adf74aa149cf363,Update README.md,2021-03-02 13:48:19-05:00,FALSE
+6c9a9ff08e72ba0961e0c24c265748e984ee176d,Adding Banner Footer,2021-03-02 16:30:09-05:00,FALSE
+d59e52d4072b63a825609f20dd2576fd141fce86,Update README.md,2021-03-02 16:30:57-05:00,FALSE
+e20284a87b3a102e3a29c2b2e58616380c65fffb,Update README.md,2021-03-02 21:02:34-05:00,TRUE
+30209cacfc8a04faa13e61f543f377f5d5ccbc04,Update README.md,2021-03-02 21:04:22-05:00,TRUE
+84e648b66083dcbba6a3302df91dc9380d0b589d,Update README.md,2021-03-02 21:06:22-05:00,FALSE
+85e281aa9140c3271e1eadec786f2263ea56aadb,Adding Use Cases,2021-03-02 21:16:07-05:00,FALSE
+e59a75beaf530a08d4205d726e7cad614c8214b3,Fixing links to Main,2021-08-06 10:32:21-04:00,FALSE
+d3f64fcdbaff2e4669bf09dc85fe9a161955477d,Adding Known Issues,2021-12-09 10:01:05-05:00,FALSE
+bad28230ba42f9dbf30767a73459c01b3d8befae,Updating docs,2022-01-31 09:38:13-05:00,TRUE
+138224f002d5f443b130a120aeeae97ee1eee4ca,Updating the link to Assemblyline,2022-06-17 14:55:04+00:00,FALSE
+58d27d41e069d2a1c05dfc702c99c90782c92372,"Drops resolved known issue from README
+
+#188 resolved the known issue, so perhaps it can be removed.
+
+I've added a link to the bugs as a fallback.",2022-08-15 12:43:21-04:00,FALSE
+b02ea52fd690876852c4bf59ad452960ad12fb72,Link reference fix,2022-08-18 07:52:01-04:00,FALSE
+e460d1acae3352c0d45923fc5e5464144136bf6f,Fixing Actions CI Badge,2022-12-23 15:27:18-05:00,FALSE
+0924a65d74ce63d91ce0261858078c5a3e84226a,First pass at updated Quickstart,2022-12-27 21:49:08-06:00,TRUE
+fb63db6694b049bdf8ec3a6a85137e3457ac10f4,Quickstart improvements,2022-12-27 22:17:20-06:00,TRUE
+b4c5a7ddb581feb02ab3b41868cc07095fdbfdd5,Quickstart improvements,2022-12-27 22:21:25-06:00,TRUE
+ce96a574d7b668b300a7bbf0a00e8e6a6ad49f2a,Quickstart What's next,2022-12-27 22:30:48-06:00,TRUE
+44248c01a82e37811c5d196e99fb1cbf652bde62,Quickstart What's next,2022-12-27 22:33:05-06:00,TRUE
+3247f25309bceb207d6dda79fd32c805c6eabdf7,Quickstart improvements,2022-12-27 22:35:21-06:00,TRUE
+52876e8b383947a71a440f957bb5756308eb1dca,Quickstart improvements,2022-12-27 22:42:53-06:00,TRUE
+862a12899497b42dc9a5e366a2119a66a85de2ec,Quickstart improvements,2022-12-27 22:45:43-06:00,TRUE
+24e1960e1d1086ad5412364efa69de5b9aa8e3d8,Quickstart improvements,2022-12-27 22:50:39-06:00,TRUE
+f2c541857ec3767a2c0ffb28d75fcd30f14b9feb,Quickstart improvements,2022-12-27 22:52:33-06:00,TRUE
+a4aad3355fd88f4b598b8c4279b706e8876a6928,Update oneshot build/execution,2022-12-28 11:47:07-06:00,TRUE
+ba1e77089ff55c511512155cdcc40d0bb96af532,Remove default rules file in README.md,2022-12-28 11:52:16-06:00,TRUE
+feed5eda9764f56f9153e149777ae6413f2ac037,Update with docker user in README.md,2022-12-28 12:12:42-06:00,TRUE
+c1d81c929f36b2c8946fbc9104ba14acd2a6fdbb,Swap rm for rules.yara in README.md,2022-12-28 12:31:49-06:00,TRUE
+99d3763f74e82a5795765132fc99de4986ffa7a6,Remove rm for rules.yara in README.md,2022-12-28 12:34:47-06:00,TRUE
+4ed483aba0a25233db8ec8372b96fb126714eec7,Re-add rm for rules.yara in README.md,2022-12-28 12:46:42-06:00,TRUE
+a9ffc4dc88d0b2598671b647a3016626cfddb5d6,Fix oneshot command in README.md,2022-12-28 13:04:58-06:00,TRUE
+7d0e2d5f0bf42670e6ef523bd9fb795c62440a08,Fix yara rule clone in README.md,2022-12-28 13:20:02-06:00,TRUE
+a6446a07e9e209335ab8ce4490f80655bcf56479,Update install commands README.md,2022-12-28 13:28:50-06:00,TRUE
+81d69916cd46a28ec4e2cb696d299e7d3c078ac0,Remove duplicate group add in README.md,2022-12-28 13:59:20-06:00,TRUE
+dca7ae9d0be61b782b6e9c6bc7614be7037ff34c,"Python 3.9 is needed due to a recent commit
+
+Commit https://github.com/target/strelka/commit/0097cacc491fb990d4337006c8827d1722838a9d uses the syntax `list[dict]` which is only supported after Python 3.9.",2023-01-25 15:10:27-05:00,FALSE
+54f4542039f57129d1ac2a92bab996695eae2f60,Add UI doc to main README.md,2023-02-13 21:08:52-06:00,FALSE
+8c358ec28df21b546cdeff3eafaaa553ec9b594e,Add UI doc to main README.md,2023-02-18 21:30:54-06:00,FALSE
+a2ffbfd4515b3ab11f6a21126abe8b157afdc674,Updating docs and,2023-03-24 09:58:58-04:00,TRUE
+ffaa60dd5c8579553f28d61f680cf8318feaa416,Use a single go.mod in src/go,2023-04-17 18:42:18-07:00,TRUE
+b5c8ef13b2084f9c6a367c2f561a3b6bec01f158,Use even simpler go.mod in repo root,2023-04-17 18:45:27-07:00,TRUE

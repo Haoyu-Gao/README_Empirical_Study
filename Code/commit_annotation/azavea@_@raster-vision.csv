@@ -1,0 +1,157 @@
+sha,message,date,result
+4657ccc02a2b70b2fa1f68d57add5c913dfe340f,First commit,2017-02-02 09:46:31-05:00,FALSE
+40ce713b05e9ba5e65f7616d3f6c5660dd5c6b2e,"Add basic infrastructure
+ * Adds code to create the VM and Docker images with Keras and Tensorflow
+ * Adds code to spin up AWS EC2 to run programs on GPUs
+ * This was copied from https://github.com/OpenTreeMap/open-tree-id",2017-02-02 11:31:37-05:00,TRUE
+7f8c6cf4ee21463c57523194b0d9b0faa6ef4d94,Update README.md files,2017-02-12 15:28:57-05:00,FALSE
+c2fc5a51008b921bf3151f23e1371e913f856fbb,Fix README files,2017-02-16 09:38:36-05:00,FALSE
+e057377c3c50a76268edf7626d20b4c0e2d39597,"Update README files
+
+* Get rid of scripts/download since all data gets stored on S3 from which it can be downloaded via the UI.
+* Add a simple experiment file to test that things work",2017-02-28 19:04:22-05:00,TRUE
+abb4a5db40f4e953fd43962847399f5f76cf6819,Update READMEs,2017-03-08 10:51:20-05:00,FALSE
+d8d98ef44135bcdaf7831c1aac607de4487d11fb,Update README.md,2017-03-24 19:29:55-04:00,TRUE
+6d0a98bc8ecc57225ff66c2a87d519b710fcac79,Add write-up on initial results,2017-03-28 13:14:15-04:00,FALSE
+cd4ce234636c0aab925bd3f73b16424156f25780,Update REAMDE.md,2017-04-20 10:58:11-04:00,TRUE
+40aa83ec20c0fa4c154a4cddf9f4e05b66248273,"Rebrand project as raster-vision
+
+* Change references to open-tree-id and keras-semantic-segmentation to raster-vision
+* Inject the data_dir and s3_bucket as environment variables to make it easier for
+other people to run the project
+* Move ISPRS data to its own subdirectory
+* Update deployment to run off the new R&D AWS account
+* Update readme to describe new, broader focus of the project and to use the raster-vision name",2017-05-09 16:01:23-04:00,TRUE
+9808a57fe95a758b812c2c7800ee70a9f6b1de9f,Update README.md,2017-05-10 15:03:12-04:00,TRUE
+cb2060bdf2c6bc37eaeee5253a5c6b86ca5d8b9c,Update README.md re: tagging,2017-05-19 11:09:09-04:00,FALSE
+049555b58e76a6bac01f749e5dd573053a00d4de,Reduce repetition of RASTER_VISION_DATA_DIR in README.md,2017-05-23 10:48:21-04:00,TRUE
+902bdcf1a41d6b20e38e409749213f5f4e2f1e91,Update README.md with Batch instructions,2017-05-30 17:31:07-04:00,TRUE
+4836468858e29fd6441041007106cae8918e518b,"Make submit_jobs script handle dependencies between jobs
+
+The script now sequences the jobs according to their dependencies and informs
+AWS Batch about these dependencies. Since the script is more complex now, it
+has been re-written in Python.",2017-06-06 17:37:29-04:00,TRUE
+71d92062d63acbcf81602ab68e216d7e0bf8b318,"Add attempts as argument to submit_jobs script
+
+By default, the job will be attempted five times in order to deal with spot instances that
+get outbid. However, if running a job to see if it might fail, you should set the attempts to one.",2017-06-20 09:06:57-04:00,TRUE
+d65150a135b179d0a77a764dd7e43443ca2d6d9d,Updated readme with jupyter instructions,2017-06-28 16:19:11-04:00,TRUE
+d86dfe9873bed04759c792f1f981d14f76a575d3,Update to README,2017-08-02 13:57:18-04:00,FALSE
+7eb1c49fdf0e75dcbf909caa0704f45f36fcd552,Build Batch GPU worker AMIs with Packer,2017-08-06 09:52:51-04:00,FALSE
+058c133ac00695302525f97c949073ebfb31e4b5,"Remove semseg and tagging stuff
+
+Also, pass AWS credentials to Docker container, and make it so the
+batch_submit script can be run from inside the container.",2017-10-26 18:09:01-04:00,TRUE
+e46d22dc4ef5918344bf3644cbabc8a1872f8f5a,Update README,2018-01-10 15:10:34-05:00,FALSE
+4eb7ae522b884b7dd37dc91c1e716cbe66377660,Add object detection tutorial,2018-03-14 11:26:56-04:00,FALSE
+92189822123fecb62e11fd0b8fe307348689906a,Update README,2018-03-14 11:58:27-04:00,TRUE
+165f5cefdc07975109ee1b3ec61fe19606d898c6,Add contact and support links,2018-03-20 13:38:58-04:00,FALSE
+7df4005bc8e57485c225a955a335e1ff56964f75,Added gitter badge to README,2018-03-21 09:58:33-04:00,FALSE
+b393b408527dca27a30a76c7fbf2730bb449cd1a,Add old object detection tag to README,2018-03-29 13:06:07-04:00,FALSE
+646d2a4cb8c3c9682fa46606c6f3ea9f34a4ddd9,Added CLAs,2018-04-18 18:49:44-04:00,FALSE
+0bcbe84313a9c104c0fde3727b0f636b238c7d4c,Update docs for running stuff outside Vagrant,2018-05-08 12:56:48-04:00,FALSE
+a2163288d443cef0eadd7d5755bfd300832d24b7,"Add travis scripts.
+
+Builds and publishes containers to quay.io via Travis.",2018-05-23 21:59:26-04:00,TRUE
+e6f08616299eb80817e32a5aba0daf3fd90c97f2,"Fixes based on PR review.
+
+- Remove unused variable from jupyter script.
+- Check environment variables for each case of publish in .travis.yml
+- Specify that travis publishes quay.io containers for each merge of a PR instead of each commit to deploy.",2018-05-23 22:00:16-04:00,TRUE
+33b901464163afaa2476bdb04aca76931156b3f2,Pre-release modifications to README,2018-09-17 20:52:21-04:00,FALSE
+6bc9029f645fb53b03c556f49c62950086ac2d87,Removed Vagrant and AWS related files.,2018-10-01 00:38:12-04:00,FALSE
+87ff6c5b4e69d27a8a2e2051a7c0937fb7935f3e,Add Badge,2018-10-01 14:16:01-04:00,FALSE
+1f4837354907dc900c71953a0e5e34df1d6749f8,Modified README,2018-10-04 15:50:44-04:00,FALSE
+3327f5d8bf5d13a46f0cf1ec07b1aa4576b37149,Update readme with travis and codecov,2018-10-04 22:11:26-04:00,FALSE
+b2ed25561ba6f2f70fe8005de68c14a32c1e83df,First pass at doc outline.,2018-10-07 14:41:03-04:00,FALSE
+c63476839c7a941c10e9429e60bc1be7df23ae09,Fixes and updates to README,2018-10-10 04:58:19-04:00,FALSE
+51d3738360edce53e119c21f5d58803ab2420560,Update README,2018-10-10 10:10:13-04:00,TRUE
+a97dc8a34aa585aacb0dba5d8e3bef4784cf7860,Remove release notice banner in README,2018-10-10 13:59:38-04:00,FALSE
+942c697fceb6a9ccbc3658cb26effd9b583c3e27,Fix CLA links in README,2018-11-01 23:14:30-04:00,FALSE
+476e7e50b0c33fe018f0417df267d31e69076c11,Replace Tiny SpaceNet in Three Places [skip ci],2018-11-29 11:33:24-05:00,FALSE
+2e13887dd76a28fd469d1533ffd515409db87b0e,Address Review Comments [skip ci],2018-12-03 06:21:42-05:00,FALSE
+4139d02acbcd1e3db8238e35481df68e41dc1a71,Review Comments [skip ci],2018-12-04 16:58:04-05:00,FALSE
+3e025e5f54814e1c8c782f7ef31826b7ff170811,More Comments [skip ci],2018-12-06 11:37:06-05:00,FALSE
+2cc4e130cb2f20dca6f12295274a9be0523714d0,Update README.md,2019-03-26 13:21:56-04:00,TRUE
+72bbabf7393144acf4f18780fe903c8f6f59bb4a,Update Quickstart,2019-04-05 12:54:42-04:00,FALSE
+d9436c7379920d8b53a9fd0deb53137c62e8c2ab,Put setup into readme,2019-04-05 12:54:42-04:00,TRUE
+b5d9b43f78110d60632b64c1b03bb8dbd46267b7,Add docs badge to readme,2019-04-11 15:00:34-04:00,FALSE
+f88255b063714c67e9e4079edc569e023acc8480,Switch docs badge to latest,2019-04-11 17:39:20-04:00,FALSE
+7158cb00a485604614d17591bdff0b01b94f5e73,Increment version to 0.9.0rc1,2019-04-12 16:26:33-04:00,TRUE
+adcd05a0119e8668e05496e5cf35d1a2efc7eed6,"Remove refs to QGIS plugin
+
+It was difficult to maintain and we weren't getting a lot of value out of it",2019-08-28 10:22:33-04:00,FALSE
+7c2db9201ea27f3e00d02542adfec9cd6d364ad6,Update docs for 0.10,2019-09-06 14:01:44-04:00,TRUE
+79e951e2390bec32dbc33caff00e06e4cd108392,Version 0.10,2019-10-02 12:27:31-04:00,TRUE
+3122866746efb029157aee56e020d240a78c20ed,Update for v0.11,2020-06-19 13:52:14-04:00,TRUE
+caabac49479d4aeceeecd6f260501be112a09c10,Add new diagrams and move images to img/,2020-06-29 22:13:46-04:00,FALSE
+c5556dea0a9848841a0f93dc613b0e75b29c79f0,Update readme for 0.12,2020-07-02 22:16:49-04:00,TRUE
+60794897fdc5847ce81c440a73948090f7ef5f69,update tiny_spacenet references,2021-03-02 20:45:50+05:00,FALSE
+fa13f9bd800a246510a38ff996be24f076b185a5,update version number where appropriate,2021-03-02 20:45:50+05:00,TRUE
+4eaa709ea4beeddded048fcbf670306d42262d9d,"Migrate from Travis to GitHub Actions (#1218)
+
+* Rename build and publish scripts to STRTA conventions
+
+* Create CI workflow
+
+* Remove Travis env file sourcing from cibuild
+
+* Move CI tests into cibuild script
+
+* Move codecov into cibuild
+
+* Stop running test containers with interactive TTY
+
+* Create test script
+
+* Add help documentation to cibuild
+
+* Enable pseudo TTY for Docker commands
+
+* Fix coverage configuration
+
+An upgrade for the coverage package was necessary, along with fixing
+some path references and volume mounts in the unit test container.
+
+* Use Codecov Action instead of script
+
+* Create release workflow to run cipublish
+
+* Remove check for pytorch image type, interpolate IMAGE_TYPE
+
+* Use Raster Vision Quay credentials for release
+
+* Remove Travis config
+
+* Run test script commands in Docker containers when on CI
+
+* Remove obsolete release instructions
+
+* Restrict Quay.io credentials to cipublish steps
+
+* Add help documentation to cipublish
+
+* Determine how to tag image in cipublish script
+
+* Use double quotes consistently for shell conditional clauses",2021-08-17 10:59:11-04:00,FALSE
+213d7e26a6c9c45d11939f806cb28c637069a587,"Switch from Gitter to Github Discussions
+
+* Update various references to Gitter
+* Remove some issue templates and direct to forum",2022-08-29 13:54:07-04:00,FALSE
+227334fa151a6385573ef81d16cc4019e9e54996,"update usages of vector sources
+
+- Replace all instances of non-None default_class_id with ClassInferenceTransformer.
+- Also add ""class_id"" property in all features in cc-label-full.json because it is used as a label store in one of the unit tests and it doesn't make sense to do class inference on a label store.",2022-08-30 14:31:12+05:00,FALSE
+0c129448e1ce62f6428b2d8edd610f4ccbf56ab6,bump version to 0.20-dev,2022-11-10 22:32:46+05:00,TRUE
+a1cff16249be6aecb4d4d62849b8956f432d6595,update CV-tasks image [skip ci],2022-12-07 11:43:16+05:00,FALSE
+ff2e4a5ecc82931fdd81f7935d9b968e9bc5bb5a,"remove broken quay badge
+
+fixes #1587",2022-12-07 11:44:51+05:00,FALSE
+16ca2d8e4bfbb0f51861c4780045e607e9d0a1fe,rearrange badges,2022-12-07 11:44:58+05:00,FALSE
+61140dff7bc8d18000d73206156a2dcfe6337cfe,update installation instructions,2022-12-07 12:29:23+05:00,TRUE
+9035ace922c04a783e4aa382a779d3c285fcabcb,refactor intro,2022-12-07 12:29:23+05:00,FALSE
+738954d25cbf0e8f1acba0d3f23575736973722e,update example section,2022-12-07 12:29:23+05:00,TRUE
+1ab51ce2452674b05d0d3c87ebb6cf6b8e31167f,update contact and contributing sections [skip ci],2022-12-07 12:29:23+05:00,FALSE
+926ff9b6f68686066a00ea66611e7c16a66b9190,fix broken links [skip ci],2022-12-16 19:16:21+05:00,FALSE
+1929b9c6a77cbc207620fdde10c381cbe8d3624f,make the cv tasks image smaller [skip ci],2022-12-19 18:31:15+05:00,FALSE
+fe7d7ad4ca4d41322379090ceafc7a5ba4dbb89b,fix typo [skip ci],2023-01-25 18:24:25+05:00,FALSE

@@ -1,0 +1,60 @@
+sha,message,date,result
+2d6f1aa9d4f492d0aa9cdf27ef5d28150863d5de,Initial commit,2015-03-26 05:27:06-05:00,FALSE
+76924197e933bd44359567167b273b1343833b42,added build status to readme,2015-05-19 07:29:00-05:00,FALSE
+694061eb4cf18367e54a1e685d1362f19aefe16a,readme formatting,2015-05-19 07:30:15-05:00,FALSE
+20d4d0d9b67fbfd42a6d026d08e46b00a751bd80,"010 compat functions are now stubbed out, debugger is almost complete",2015-06-06 22:44:22-05:00,FALSE
+a55c0e91e0cd7e866b42dac63c9b824c180a3003,force tests to rerun,2015-06-13 14:56:03-05:00,FALSE
+704691a698db4c06ff42ede3c0c93e223333c672,"slight README update, need to work on the real docs later and push to github pages",2015-06-28 22:58:40-05:00,FALSE
+33a3bd570f97749c73cb48def25571e6e425dcf5,adding docs build tag,2015-07-29 20:45:43-05:00,FALSE
+2cfc016085f580952f04cef0631c9939bdb91f35,adding link to read the docs,2015-07-29 20:51:06-05:00,FALSE
+cfef20437be7133dadf6bd107d7ec51809b626a8,added brief install info to the readme,2015-08-09 16:53:51-05:00,TRUE
+321482c92ef192b9ae1abfac89c73319ce70bbde,added --upgrade to readme install instructions,2015-08-26 08:37:21-05:00,FALSE
+5eeef2f1d5557377a4e9a7efaec4995744d375a1,Added better badging. [ci skip],2019-09-20 07:26:49-07:00,FALSE
+4709844435503a09d221caf081bdd2269fee2a1a,removed stray markup. [ci skip],2019-09-20 07:28:04-07:00,FALSE
+b63fa98d4d7f581a2c4884d6feb8e4f3adea6896,"Added issue templates, CONTRIBUTING.md",2020-01-01 21:17:34-08:00,FALSE
+38015f4258e9a897d6b140c1f34e0a35b7490b24,"Fixed problem comparing enums to enums.
+
+Fixes #113",2020-01-07 20:37:28-08:00,FALSE
+df058f7db8297303a3ee7482050478ff1b59eb0a,Added --show-offsets CLI flag,2020-01-25 21:58:56-08:00,TRUE
+c83c38cecf3b56e7b856cbfa4744c3c35bc0f804,social button,2020-01-26 06:29:39-08:00,FALSE
+8387491981cd1aebf3b40934bdc0eba50e7d2eb4,Create C++ generator,2020-05-13 09:10:55-03:00,TRUE
+49d679aa9b9e64dba2fd21cc194f91432457000c,Update README,2020-05-13 09:20:26-03:00,FALSE
+6c7c52a37083ad6ae51ce6952090780585a1522f,Make PNG great,2020-05-15 15:12:53-03:00,TRUE
+401d27fed8ad7c5205d397b39f7b3e5de94ea10a,Make AFL great,2020-05-20 16:04:29-03:00,TRUE
+d257145ca1bd6db23f1621ed18b8e72a14057f37,Update code for release,2020-09-04 16:42:43+02:00,TRUE
+ef9a8d31d7ea1a57c570284ddb41ff4a816766bc,Started adding own instructions (and TODOs) as a end user,2020-09-06 14:30:31+02:00,TRUE
+c74d51ba91917fc8e540f26915023ebb8f6f15c7,More TODOs and ideas,2020-09-06 15:29:25+02:00,TRUE
+7e7a9e9d8a6439492a8a65c9ea2087fdafc1caed,Updated README,2020-09-06 16:49:31+02:00,TRUE
+d2696720a3380e482fc14964b2f916eeba9182fe,More TODOs,2020-09-06 17:04:59+02:00,TRUE
+4212f3ba684bbb7642a9068c265bc061cea76a2b,More TODOs,2020-09-06 17:08:13+02:00,FALSE
+e2a05a34c301097b11cd5a4b3030a62f065a1063,Make sure people use GNU make,2020-09-06 17:42:54+02:00,TRUE
+31a3034cc6ac28a125230c985b1c6329f02f248a,More TODOs,2020-09-06 17:56:56+02:00,TRUE
+bad2d82fd7abe1d8307ed93d3e2b5e6e165b4019,Intermediate version,2020-09-07 08:15:31+02:00,FALSE
+cd1abb7f380d56a901bf0379d08cf73d36d0a580,Updated README with new interface and decision files,2020-09-07 11:47:43+02:00,TRUE
+01db9d377e127a0a763086b3a7935c27bb849e4d,Minor fixes,2020-09-07 11:49:13+02:00,TRUE
+a9446f8cb6de0adc045f95b25e61b574adae2f6b,Moved `create.py' to `ffcompile',2020-09-07 11:55:42+02:00,TRUE
+51f157e073bb4f06fdb80e5a98ac7e12c192ee20,Minor fixes,2020-09-07 13:32:49+02:00,TRUE
+e40f983332ae297eae7138eef82380fac91d9d98,Minor fixes,2020-09-07 15:59:40+02:00,TRUE
+bac87c8623d61b5bdd73237f5364ef162c4ef8d4,Doc fix,2020-09-07 16:38:49+02:00,TRUE
+3bde0889d59504077727c3ed84df74c0f684b63d,Minor fixes,2020-09-07 16:42:11+02:00,TRUE
+d2bfc627e6076b104edde83da7090048c448fc05,Updated licenses,2020-09-07 18:32:06+02:00,TRUE
+aaabf442cb90a34a062efbefaed374c8571d6005,Doc fix,2020-09-07 18:52:22+02:00,TRUE
+96695625873b3fb4eef4986a0b07ddd9addf268b,"Added ""Authors"" section",2020-09-07 19:00:33+02:00,FALSE
+b1df58d19408ce91dce9102e8a836e5d64a0caa9,Fix: bad mail brackets,2020-09-07 19:01:35+02:00,FALSE
+b8a7749eb125c9273e5b71a8c98c4c6c539da346,Doc fix,2020-09-07 19:56:57+02:00,TRUE
+8e3cd60364c7381324d389328daa0aea20cd6172,Doc update,2020-09-07 20:14:37+02:00,FALSE
+d7373bb176d9d5e71bc4c9199c35a37a5497e398,"Fix: After git clone, configure may seem out of date",2020-09-08 09:53:11+02:00,TRUE
+8263b3e975be8e98e9e13753ed31fc9e00ac1e05,Add all linux packages,2020-09-08 10:08:16+02:00,TRUE
+97bb9cef887af23febbab08d6c9a577b3da293a6,Update README,2020-09-08 12:41:31+02:00,FALSE
+0b5ae764f4bda29f6f03b0ed8e772705f8eff30a,Fix filename fuzzer.o in README.md,2020-09-11 13:13:26+02:00,TRUE
+33b5b272a0cb6383d71390dc0a027019f0a7663e,Small bug fixes,2020-09-18 16:14:12+02:00,TRUE
+600461c494c25c65e12e1219b3ac7d089e039ca7,Autoconf,2021-06-25 12:57:42+02:00,FALSE
+82b4130b2fa8135d106c67ffd1b2fecbedc041e4,Add AFL++ integration,2021-09-21 16:40:16+02:00,TRUE
+de82777b2fcb053fd1920a30ba7967282184f386,Updated intro text,2021-09-23 14:03:43+02:00,FALSE
+7a7fac7d0e9e52fa92b7eec2406c28354d088c37,No ELF yet,2021-09-23 15:15:24+02:00,FALSE
+f38b55734aaef62348ead6f69435bba4bd205f3c,Updated OS-specific instructions,2021-09-23 16:48:16+02:00,TRUE
+1a54ebf9bbced76e35adc5608faf8845e0b9a17e,Doc update,2021-09-24 11:32:02+02:00,FALSE
+95a7c622ea718fffe8ecf254988f3dada025b607,Added release download instructions,2021-10-28 19:22:08+02:00,TRUE
+bd8f4be700a126210c0c20668f4633777e5206ec,Add support for CRC16 checksum using boost library,2021-10-29 19:00:29+02:00,TRUE
+094e879aa6d2a0b546076629f5798d20ce6595ea,Moved page to /docs,2021-11-03 11:45:20+01:00,FALSE
+d0a4df35ac2abc7473a2fb409c768a12e05e83cf,New: have a separare README for the splash page,2021-11-04 14:17:55+01:00,FALSE

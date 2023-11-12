@@ -1,0 +1,55 @@
+sha,message,date,result
+ad79517c5f56e1516444ffb15142e7269602bada,Initial commit,2015-01-09 08:12:21+00:00,FALSE
+4cbeaab3b3185f53ffb01c8d703ba8c3c252d696,"First commit of the dummy module that will clean, compile and run user/CK programs ...",2015-01-28 08:51:20+01:00,FALSE
+e5643123bc24eaed6e6f792349aa9c5ab3b96fae,clean up,2015-02-05 17:40:07+01:00,FALSE
+2dffe190522bcf77b8e3bbcd9c6012842bc64c4d,status,2015-02-20 11:07:52+01:00,FALSE
+e80a432886b52003eb00944369a5fdd1d54a5ba3,"major update to support ck-env repo (env, soft, package) ...",2015-03-18 09:40:24+01:00,TRUE
+8b38ac0fff78ba75daafc3f92755c815abce3085,adding statistical repetitions for auto-tuning,2015-03-20 17:08:20+01:00,TRUE
+6b3ab63369fd2c1f3b85b0514da0d4aa62f7605d,fixing info about repo,2015-04-03 11:29:41+02:00,FALSE
+87202f84a907d18f72944819fec9775b3e51d97c,fixing a few bugs,2015-04-09 14:18:26+02:00,FALSE
+593eaed7f2aa13529dcfa08ba180d3600685add0,working on new universal autotuning pipeline,2015-04-17 12:11:43+02:00,FALSE
+d5b154bdb2ae3ec866bad1242137d695816fe8e1,fixing autotuning repo description,2015-05-31 16:26:52+02:00,TRUE
+082221d15f33236f10f9f343be022b2d28535c7d,improving description,2015-08-03 10:52:03+02:00,TRUE
+da1cf93975a60f49e597d2ef31b9defdde8dc795,small fixes,2015-08-06 16:09:13+02:00,FALSE
+5b430c2fd6b013c7da6febff1d0d947661441946,adding CK link,2015-09-12 16:34:44+02:00,TRUE
+ede1bf8fe0b743a4199337bfdadd00538340708e,fixing openme.h for Windows,2015-09-26 18:37:48+02:00,TRUE
+42545cf38883680907c3e6366f41964094ab14c6,improving README,2015-12-28 16:14:47+01:00,TRUE
+7c18a8e078a4afdab473c2d039c1d1e95eac18e8,fixing readme,2015-12-28 16:32:14+01:00,FALSE
+44a8fb7a2d5dc8b408686f58d0ab4f240fb64398,fixing link,2016-03-09 09:47:12+01:00,FALSE
+341bb4f789ec65df66fae50d4f997e750b6df963,"major update to packages and environment to automate detection of already installed software (for Windows, Linux and partially Android).",2016-04-28 11:04:24+02:00,TRUE
+b3d7eb2d7439c70a809599b408fec2c59f5618d1,updating docs,2016-09-30 11:56:37+02:00,FALSE
+bfb11d5feef0d06c12c5dcd397fbdfc51cf9ef8a,docs clean up,2016-09-30 12:08:49+02:00,FALSE
+b837d9c16f32cbb3e300ce80fc7c7f14f8447c5b,clean up,2016-09-30 12:09:45+02:00,FALSE
+9c5558d8720bc0a9d490df602347f36cc9c67692,fixing URL,2016-09-30 12:10:41+02:00,FALSE
+b167384750758a80a172015cfc5a2d4da87ce130,added sudo to program module when using GPGPU,2016-11-28 17:17:09+00:00,FALSE
+e0638dff610baab4260142daade41c128636ea9b,added llvm 3.8.1 package for Linux (with download),2016-12-10 18:18:36+01:00,TRUE
+60e25f902ef693e8a12a044c0ab61d3548676d2a,clean up,2017-03-07 16:08:26+01:00,FALSE
+10d0bcde47a37a551927d226a44e55017335984f,clean up,2017-03-07 16:17:09+01:00,TRUE
+fd5a132b05a89aed9f4acd771bab9843661e2366,update,2017-03-07 16:35:28+01:00,FALSE
+62fd4fd80cf292adfa330dfd099356eba6b0f3fb,clean up,2017-03-07 16:38:03+01:00,FALSE
+6cd77c2583e7282addca1fee5e9ba154737646a5,update readme,2017-03-07 17:46:14+01:00,FALSE
+b293f5ab0babe273d03236f315914b24f734d296,update readme,2017-03-07 17:48:16+01:00,FALSE
+015b975986e49179c6bee1729a588981f3852ec1,update readme,2017-03-07 17:49:23+01:00,FALSE
+8216e62722b9d876d246052b263ab72e8a381a13,adding link to compiler per-requisities,2017-03-18 23:18:18+01:00,TRUE
+e7df3e8c7d5bfee11484497cf90406f28b52a5d5,fixing typo,2017-03-18 23:18:45+01:00,FALSE
+536f2766dca76c2e976784bddd99a5d274b33fc1,moved many generic packages to ck-env repo,2017-04-15 11:25:34+02:00,FALSE
+e324ee379d54541ea2f0a8e71cb7529611590f1c,fixing url,2017-09-24 18:44:38+02:00,FALSE
+f71d91040b4fcb9c18a6d70aeb8ba55d3f6c44cb,fixed minor issue with CT_REPEAT_MAIN (env is not updated in some cases),2017-12-14 16:29:01+01:00,FALSE
+6348aa8047918a4f385eaa22e6474b08cffdada2,first iteration of Travis tests,2018-08-15 11:08:32+01:00,FALSE
+d5db3d3842746547df7718007179d0df49775f32,tests: experimental support for Appveyor,2018-08-15 15:23:49+01:00,FALSE
+c397f20824592e8966529e4c85eca8455fdf17c7,fixing links to our Android apps,2018-08-30 16:00:11+02:00,FALSE
+c5bc72e68992efb74cbb460d91c1e9f11eba2e75,updated logos,2018-10-16 18:02:45+02:00,FALSE
+a6afa489b3287674691db566b4fa1e8e99a6b533,added DOI,2018-12-20 22:32:52+01:00,FALSE
+b7a3381288f8be2559968153040ce93b7be9be09,maintainers,2019-04-07 20:52:23+02:00,FALSE
+d2b9da3646bd6a3407762edbda71e1e17f1cbcc4,trying to fix travis,2020-02-18 19:24:37+01:00,TRUE
+4b686e8f7f3152ac4f95ddbe1a70138e0556e4c6,clean up,2020-03-11 15:42:34+01:00,FALSE
+8fc4b0404b1115b24a2f9d7b800744521afd85e2,clean up,2020-03-11 15:43:59+01:00,FALSE
+dc83acf0aecf4852162723daf3110fe70f7e8277,clean up,2020-03-11 15:44:51+01:00,FALSE
+62d58313e61392dc945a4292ccc250c68760e518,clean up,2020-03-11 15:45:49+01:00,FALSE
+2e676f2076c1a5d39f66ce05fe28bb74f502efdd,clean up,2020-04-14 10:23:02+02:00,TRUE
+d291db0fffbf620d3f2037a55f8c2dd1fa512d82,clean up,2020-04-14 10:51:21+02:00,FALSE
+68f55518633af7f303da2e2d5c9fe9db5f5fad8e,Update README.md,2020-09-03 10:07:18+02:00,FALSE
+9beccf8910c83848bb50e747c6f6ab287ff7ef97,Update README.md,2020-09-03 10:07:35+02:00,FALSE
+8375739665d8d8073dece3846ad1002814d3e862,added info about AI repo,2020-11-15 20:43:12+00:00,FALSE
+ba2f3f77e8c5a0aff7de7fb186d6cfc20dcf8cd4,clean up,2021-02-06 10:06:02+01:00,FALSE
+b8b23f6c5524bc927cf95598528eb1a99d8c51a6,"fixed ref to ""ck-mlops"" repo",2021-07-10 14:16:05+02:00,FALSE

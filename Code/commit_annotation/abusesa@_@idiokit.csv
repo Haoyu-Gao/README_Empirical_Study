@@ -1,0 +1,11 @@
+sha,message,date,result
+203c6f1f8022888e51db7e22351f2786baed8b9b,Added README and LICENSE files.,2012-02-23 16:34:50+02:00,False
+46efdb84aa8eb74bfd3af37c689332a66552e172,Mark Codenomicon Ltd. as the copyright holder,2015-04-26 14:45:26+03:00,False
+20a19f4f27ec7cc4ba33c2e36056e090946dc77f,Rename README to README.md.,2015-10-05 17:42:13+03:00,False
+bcbe67dbcb3be4243f77133e74d3db01ced23a55,README.md edited online with Bitbucket,2015-10-05 14:42:44+00:00,False
+5235ff6fc42abaf23489f54bcca5e32da501c4c3,README.md: Add a Travis CI badge,2015-11-19 02:42:48+02:00,False
+834211ccd371f281454e7678cb0ecc20d89e98ec,"Remove .travis.yml, add circle.yml and update build badge in README.md.",2015-11-27 14:26:32+02:00,False
+268afcb7e031b7327b764960bfc07ef901322468,Update README.md,2016-01-06 16:21:58+02:00,False
+c82821b91fb2ea9d8e6170c632bcdcbda8525597,Update README.md,2016-03-04 13:37:51+02:00,False
+d0c7c1c6da2dd16162491aff49074a5eb6e6bff2,Update README.md,2016-03-04 13:39:19+02:00,False
+a598de259157874062f33b7231c632a58ef68f1f,docs: Link to docs in the main README.md,2016-05-09 17:28:08+03:00,False

@@ -1,0 +1,98 @@
+sha,message,date,result
+1bce75cf82e1a8d26388817cf8251fff0e1ef079,Initial commit,2022-01-09 05:44:26+03:00,False
+444fc8909439588aa8b38467f8eda9d54f5e5487,Close connection on entry unload.,2022-01-11 06:57:06+03:00,False
+4c5ff8568e3e929994982d2569bcc698d6099abe,Create base entity class.,2022-01-13 14:10:04+03:00,False
+399b241067cdec761824bb225fe514bfbac878eb,Update readme.,2022-01-21 20:39:29+03:00,True
+e604ae767fec911ff88afe3bb04860fbd580f0a9,Update readme.,2022-02-24 12:40:47+03:00,True
+76b49ee6bca67b7f49b89bd4e71995f2ee943caf,Add flame intensity to the supported sensors.,2022-05-12 01:22:06+03:00,False
+221c956299da87a95480358b24c6e91af5b8cb05,"Add initial support for HACS.
+
+For now only as custom repository.",2022-05-14 14:57:57+03:00,True
+da55ac021cbc2a449e29402ae926b953823ec200,Update readme.,2022-05-14 15:45:42+03:00,True
+c409ef80609fd7977ebdbf37dbdfd0deb4d3889f,Rename entities.,2022-05-15 01:22:00+03:00,False
+bbec13dc577c412c672f06f8768d73ca92f83ff3,Update readme.,2022-05-15 12:11:15+03:00,True
+dcf7bd3ff0f4d140c498481e23328d00e1f8d149,Update repository url.,2022-05-15 14:55:35+03:00,True
+2db98e908ec6cda42513914dc27d1ff0f475fca0,Add ci badges.,2022-05-16 02:03:48+03:00,False
+051aaee21fa703ef73d4dc340672a8793cdffbfa,Update readme.,2022-05-17 01:47:33+03:00,False
+1f25b8fd4d72a5f67ae2a60ba784402b540304be,Improve readme.,2022-05-19 03:10:55+03:00,False
+7a8446c5c58e91ec889069cc5ae66c28dc73fcc1,Update readme.,2022-06-04 02:42:58+03:00,True
+5cfbcc52f2c1688c4b8dfaefc2beb4dbf7b5f873,Update screenshots.,2022-07-11 03:31:24+03:00,False
+be9020ba8d6bc2073754f983a2e0ae39002436c0,Update info.md.,2022-07-11 04:17:51+03:00,False
+7b5b6ff4016b5bc9d269a1b2381aebf6822020a5,"Add ecomax meter entity and services.
+
+This entity is currently being used to track total burned fuel. It's value preserved across restarts.",2022-07-15 02:03:11+03:00,False
+21a7a420a2a4f9048b2a1e7773c2f80f4b7d96d0,Update readme.,2022-07-16 04:57:35+03:00,False
+e4dd5b7cc8981108f5412885a9da733b9256484b,Update readme and images.,2022-07-17 12:42:55+03:00,False
+17ea0a82ebd6af3f278a87223dd3dcf8f2f0bdc3,Add My button for configuration.,2022-08-06 01:57:11+03:00,False
+b1eb918548ccaf375e99ebabeccbc5051447bd7e,"Preliminary support for EM i-series.
+
+- Re-implemented device-specific sensors using product type information from PyPlumIO. ""0"" is for the p-series, ""1"" for the i-series.
+- Upgrade entry schema to version 3. Product type is now stored in config entry data.",2022-11-24 18:19:52+03:00,False
+5afec7bc93b2d8a1adf9d13bdba8b366f4ff15f3,Remove mention of boiler.,2022-11-24 18:21:29+03:00,False
+f874a2e18829a40fe2b15a0aa93a5361e20a2f7a,Update readme.,2022-12-17 03:58:46+03:00,False
+5af8e510f2df9069506354b285623f9793821d10,"Add note about EN300 device.
+
+Closes #9.",2023-01-18 04:24:30+03:00,False
+e643259d6fe57d25fc22c69d4c0c2cd70b449eec,"Improve integration setup.
+
+- Remove capabilities set.
+- Remove button platform.
+- Improve log messages.
+- Improve sub-device support.",2023-01-21 04:23:44+03:00,False
+176a11ff64551f533a36e975beb799115312eccf,Update readme.,2023-01-23 05:34:22+03:00,False
+e2baa5445f29365bc35fadb1de0930eb7dd7f064,Fix set_parameter service.,2023-01-23 11:20:07+03:00,False
+831e9d8d9db983f1d8e409b0567acbe960e784ed,"Upper/lower buffer temp for all EMs.
+
+Upper/lower buffer temperature should be added regardless of presence of module B.
+
+Related to https://github.com/denpamusic/PyPlumIO/issues/12#issuecomment-1400936948",2023-01-24 13:08:35+03:00,False
+3d5ce6fff87da49bd3b1321cdeba3d2fbeaf34b4,"Add support for oxygen level.
+
+ecoLAMBDA module is required.",2023-01-24 13:21:33+03:00,False
+886acb75dcd513119c19bea90b96c8ea15352072,Add support for exhaust fan state.,2023-01-24 13:22:08+03:00,False
+11d8c87f961e05777d7fc24269f39368c601d6a1,Add section about connection.,2023-01-26 00:40:05+03:00,False
+0742bbd3f7e1574288e7f8120a31d03ca7509208,Use translation_key for states.,2023-01-26 02:41:06+03:00,False
+6ea777fed9682a389a1969be30b02b059c80c16a,Fix typo.,2023-01-26 03:34:44+03:00,False
+6ae91229c6e5c653b5da03fe20eff3040ddf4a29,"Revert custom water heater modes.
+
+Apparently custom operation modes are still not allowed by base component. See: https://developers.home-assistant.io/docs/core/entity/water-heater/#states",2023-01-27 04:47:45+03:00,False
+550eca8dbb75b4e7b9826725ea75de896a5e1587,Add switches for mixers.,2023-01-28 01:56:39+03:00,False
+5a422322d9076022ddca9afe26d192b8e3a920dd,[skip ci] Remove unit column.,2023-01-28 01:56:40+03:00,False
+66534f7e2768edadf3dac01c08ccc09f28b26ddd,"Change display name for mixers.
+
+- In ecoMAX installation controllers (i-series), mixers should be called circuits. Related to #7.
+- Fix incorrect key for circuit switch.
+- Add summer_work switch for mixers/circuits.",2023-01-28 01:56:40+03:00,False
+d155801d13c5a05ff53206943ad99d91d1c0d18c,[skip ci] Fix mixer target temp name.,2023-01-28 03:08:54+03:00,False
+d687cb3c253509935f358a62687055a602b1ba93,[skip ci] Fix temperature names.,2023-01-28 03:08:55+03:00,False
+dab4349d5709f27750af8d7e13ba105c47fe9ef5,[skip ci] Remove mention of pellets.,2023-01-29 02:52:02+03:00,True
+0fb7f6a47d98e7cea82865f967692e51657e222b,Rename switch for consistency.,2023-01-29 02:52:40+03:00,False
+0d77d56ab65537cf544f867be128dc762e5d4b54,[skip ci] Add return temperature.,2023-02-06 05:55:59+03:00,False
+1cf021d3a0812dc4aa9cd3afa9a044e9d7b5c53c,"Added connection status sensor.
+
+Indicates if ecoMAX is connected to HASS or not.",2023-02-06 14:18:37+03:00,False
+4711647536d2481a931ddb307a691c03eb3d55c9,[skip ci] Add thermostats section.,2023-02-07 14:53:47+03:00,False
+a584eddd413344fc8e4fc1277220953998f672ad,"[skip ci] Remove step.
+
+Reload of the config entry is now handled automatically by the button handler.",2023-02-07 14:56:18+03:00,False
+409ace4468a216896d8b9ea52ed4fa6718ed1eae,[skip ci] Add note about async_setup_platforms().,2023-02-09 02:35:04+03:00,False
+7cb72237ff7210894390ca5b0caf922b2072bc0e,"[skip ci] Update readme.
+
+Include My button to install the integration from the Default hacs repository.",2023-02-19 19:49:09+03:00,True
+09360393ac58f04ba376dbbc9e0c4dfd130849db,[skip ci] Fix link.,2023-02-19 19:50:31+03:00,False
+1994d0861ad8a08e916c3fbd3b654497f4416f35,"[skip ci]  Add section.
+
+Add readme section for device-specific sensors.",2023-02-21 20:38:16+03:00,False
+0c1631ff481fb83cbd729441c144ba4d8859a33e,Improve config flow.,2023-02-27 04:25:42+03:00,False
+c2ce6ef3e5b10f9e0e0ed5867835a43db8d8f2bf,[skip ci] Fix typo.,2023-02-27 06:04:56+03:00,False
+eb686ae254c7ede41ca14a6a2d864db335936f97,[skip ci] Update readme.,2023-02-27 07:11:55+03:00,False
+57d1d58914cf5e6eccdd4ae0ee5d0378b8f0f98a,[skip ci] Add events section.,2023-02-28 00:37:25+03:00,False
+456827e7711b4f2add8fb4f983bb1cf45161029c,[skip ci] Remove extra spaces.,2023-02-28 01:33:00+03:00,False
+b222f647eeebba2a3d8e53b3a2a1e423903408db,[skip ci] Update badges.,2023-02-28 05:29:56+03:00,False
+78fa5a41b5aa540fd3b6188a3d3a08f80f77ab6c,[skip ci] Remove warning.,2023-03-09 15:20:32+03:00,False
+e7728674d74a539ccb364ff3afe40e85410f30f5,[skip ci] Fix grammar.,2023-03-15 01:12:52+03:00,False
+f9abb533b01f6de71cf8db484cba92ddf760e0e2,"[skip ci] Add warning.
+
+Related to #22.",2023-03-15 01:52:22+03:00,False
+2b46ef231cd62aa35d9141201c7febf899524c0b,[skip ci] Update readme.,2023-04-15 03:03:40+03:00,False
+089ad45ff2776769c59427c8e75b1700c16d6afa,[skip ci] Bump stability to pre-release.,2023-05-24 12:59:35+03:00,False

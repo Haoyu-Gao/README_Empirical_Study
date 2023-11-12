@@ -1,0 +1,53 @@
+sha,message,date,result,,,
+d346261bd31e2ef80c4cbc1d8706856fee3b32b8,Into the Wild!,2019-12-04 21:50:16+02:00,TRUE,,,
+99aa6bd7bfbfd50e5ea61ba027e3acd46fbce549,fixing typos in README.md,2019-12-04 22:07:41+02:00,FALSE,,,
+7424005eb2c9d2cbfc1004e57cefe835cb22def2,fixing README.md installation guide,2019-12-04 22:55:29+02:00,TRUE,,,
+da1e30ec5cc76867f446a6b5c975bce42eb18985,Feature/build whl v2,2019-12-09 15:19:12+00:00,FALSE,,,
+085b8b2b6a910f907a3bf695f6a48840b0586773,removing version from README.md,2020-01-07 11:17:55+02:00,TRUE,,,
+03204de7f64b0f959d5a1269c5fd0fac90080c49,"linking build links to databand-ai/dbnd at gitlab, fixing license info",2020-01-10 12:20:56+02:00,FALSE,,,
+e1d01d61a282741a40705e34475b660703afe617,fixing README imports,2020-01-12 10:37:45+02:00,FALSE,,,
+99c29fcf11cca09d6abfd3aa382116fa498991fe,Added readme and dag examples,2020-02-03 10:56:48+00:00,FALSE,,,
+65b94d022f5abafdfff239dbe3865681955bb592,readme update,2020-02-05 19:18:06+02:00,TRUE,,,
+65fb8e4409e7da17704ae51a163f781bb748bd15,fixing documentation link,2020-02-09 10:55:44+02:00,TRUE,,,
+b9e4bc1872db71e7b4e8b51e4b143242f875cfec,documentation typo fix,2020-02-09 11:19:34+02:00,TRUE,,,
+35800c047842265651f680735a3cf3fc40785f72,lint + precommit,2020-03-11 10:04:59+02:00,FALSE,,,
+dfe6fd537601bcd9c60db9cc46dd1c4b28bc7da6,style: use prettier for files formatting,2020-09-02 12:30:06+03:00,FALSE,,,
+cd239a882740a8fdf2ac7d1bc0b41997a2d302a9,left padding for all content on the table page,2020-09-14 15:54:07+07:00,TRUE,,,
+a9e411da1d8857514be01fc3085cd0f9e3fc2e55,build: manage deployment with python script,2020-09-14 12:50:56+03:00,TRUE,,,
+7d3750566511a0187c4c6c0400f6ee2be7124396,typo fix + changed default value,2020-09-14 13:03:48+03:00,FALSE,,,
+8813a923137e14a47f7bea51c94a192dc6ff3894,favorite metric with a value of 0 is now displayed with a background,2020-09-22 13:23:57+07:00,FALSE,,,
+22cdd44e8d8cb43ce1d32063b5d0c23e90fed255,Merge commit 'b5220a92ae9e275cf9af9890b59774545d9726a9' into feature/cache_ttl,2020-09-24 14:00:10+03:00,FALSE,,,
+03a86096392f9082c0e2830ee78a35682508ec11,Added sorting by columns on the schedule page,2020-10-02 11:28:51+07:00,FALSE,,, 
+0ec5c674e9c21c850736ad61ebe56b93cc213515,"[wip] support task removal in syncer
+
+TaskRunState.removed added
+AirflowServerInfo.active_dags added
+
+[wip] added _update_active_dags code
+
+Added test+migration+logic fix
+
+removed unneeded TaskRunState.removed
+
+Added is_remove to /tasks web api
+
+fixed is_removed
+
+rebase/migration fixed
+
+fixed import
+
+fixed migrations
+
+removed unneeded else
+
+disabled ""integration"" part",2020-10-04 11:26:05+03:00,FALSE,,,
+67d916800dbbe5cf2aeaccdcf5b9e1d285df5cbc,added a menu to the schedule icon and switch to the schedule,2020-10-04 16:14:50+07:00,FALSE,,,
+5a938dbdf0aec0100a9f8c39ad7deebff17187ca,fix: handle errors for collecting stats,2020-10-04 18:23:42+03:00,FALSE,,,
+08e794fa8c63729ce45e78fcdad5a5b2ea906b0e,chore: expose yarn:start to localhost only,2020-10-04 18:45:36+03:00,FALSE,,,
+5bf6984762f1804f32a1363f3bbaaa137ecf6ce6,fix: get metrics table visible back,2020-10-04 19:22:46+03:00,FALSE,,,
+36eb7a9e90305220188e503c7999e757974554c6,feat: add wildcard search support for alerts endpoint,2020-10-04 21:04:11+03:00,FALSE,,,
+e561e850d055cfedfd09356911752c7acd4c38f0,Added mechanism for selective loading of plugins when running within spark,2020-10-05 09:41:00+00:00,FALSE,,,
+7bf618ff98bc348421f61e0e6cd4aee473874940,Feature/johnny/k8s e2e tests,2020-10-08 10:41:46+00:00,FALSE,,,
+b2f5ffad024a997853ae63a7b97572c13728684e,Fix to run on release branch,2021-01-27 10:55:10+02:00,FALSE,,,
+38413d9d8bc0f5b83a02125451c8e7446a698ce6,Update documentation link,2022-01-26 10:19:39+00:00,TRUE,,,

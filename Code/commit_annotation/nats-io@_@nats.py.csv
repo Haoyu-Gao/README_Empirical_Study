@@ -1,0 +1,172 @@
+sha,message,date,result
+73614cd4a9c3ad2dabd1957ebb9e4bc7ed81a7df,first commit,2015-12-25 11:35:20-08:00,False
+2c64f1bae67945cec5473ea520e0bc84bc687032,Add readme and match examples,2015-12-28 23:44:41-08:00,False
+76bf9ca217af9be78ae058f604c35e63d200e525,Update examples,2016-01-04 09:49:11-08:00,False
+37690b29ed8684f7a36c8e50ea7a1f2b4760459a,Add travis-ci and test fixes,2016-01-04 18:56:34-08:00,False
+ef62d1e52988ecbe862aa3cb12b7267660e7d290,Update readme mentioning Python 3.5.1 support,2016-01-06 00:58:49-08:00,False
+89a47f99f1b00f9416f9729e7f5abcbf70225b3e,Bump version,2016-02-02 09:52:48-08:00,False
+5745ff44908f19dfc8e6dc2e15e7e99ff7e1b534,"Update benchmark scripts
+
+Port of some of the bench scripts from Ruby client",2016-03-19 19:50:12-07:00,False
+9308941a0a71d50fa496f65e64e5afae6b06979d,Update readme,2016-03-21 02:46:43-07:00,False
+70ffd5acf11919d321dd2d1beaa38c47a0632475,"Add async/await syntax example, update readme",2016-05-09 23:00:33-07:00,False
+16cd7301d8d7122e9ac22a5d7a91ff7793fc6722,Update readme,2016-05-10 11:34:17-07:00,False
+162b9965b98b66ece3724d15448c08e0c8616db4,Readme updates,2016-05-10 13:40:33-07:00,False
+34f281204cafb6e4c4b9e232bbeacdc5e884a682,Bump to v0.3.2,2016-08-31 08:45:31-07:00,False
+a4031daa08728928e9e0c2c8c0fe11e1c7b95d9c,Update readme,2017-03-28 08:58:21-07:00,False
+5e911495187d3ea33eadc97fb304876ed2d13876,add tls,2017-05-04 08:27:20-05:00,False
+6cf16cacb13f42a36a639792e00db7adf794272a,Bump version to v0.5.0,2017-05-09 00:06:03-07:00,False
+da3c108f32c160c1094209b9b403cd474ef19f4a,Readme updates,2017-07-11 12:37:06-07:00,False
+c687c74974deaa2470cb039a922ac490122fe3a3,Bump version to v0.5.2,2017-08-31 18:10:51-07:00,False
+65d4a154b5a3f07d34f2341b5dbfeb849924a947,Update readme,2017-09-15 11:51:30-07:00,False
+e1103c40b80487fb248325f3b05d2e1ac26d9aeb,Bump version to v0.6.2,2017-11-19 19:29:07-08:00,False
+f273ff583d3d68811200fc22c6806d0e01fc318d,Update badges in README,2017-11-24 19:09:53-08:00,False
+0df259b21c9d22be80ac9e11f97307e68544101d,cncf: Update License in readme,2018-03-26 13:44:26-07:00,False
+a628fe0cdc253678c2aa159dc49763372fe8bf80,Update readme usage to adopt new request/response,2018-04-04 15:43:27-07:00,False
+7cb7d9c49963945bb2c318f60d986452dc6cccce,"Change examples to explicitly connect to a server
+
+Signed-off-by: Waldemar Quevedo <wally@synadia.com>",2018-06-13 10:51:58-07:00,False
+b5962dcf8f4b8d6d2b00bf19fe99f42bfb699426,"Update readme TLS examples
+
+Signed-off-by: Waldemar Quevedo <wally@synadia.com>",2018-08-15 09:11:37-07:00,False
+e1996e7c4ae30daa63c49af20700d42fad1bd2f2,"Update examples to use async/await syntax
+
+Signed-off-by: Waldemar Quevedo <wally@synadia.com>",2018-08-24 11:46:08-07:00,False
+30ee5152bf641e30de6d50b61328ad6ce9acb4e3,Update readme.md,2018-08-24 11:56:25-07:00,False
+db8b7f0c3e6c85fd56cf9f4a8fb738d6da392e79,"Updated readme TLS instructions
+
+Signed-off-by: Waldemar Quevedo <wally@synadia.com>",2018-09-16 18:30:52-07:00,False
+c8820a95802662bede81fa7d6c951814e5811df0,"Rename to nats.py
+
+Signed-off-by: Waldemar Quevedo <wally@synadia.com>",2019-05-11 01:59:07-07:00,False
+380c8194e0b6a0d3c8e9b6f3c3d6562b5ead0f31,Update readme.md,2019-05-12 08:41:22-07:00,False
+54e29a431f37ec27271777d982c508356bdb634a,"Update readme
+
+Signed-off-by: Waldemar Quevedo <wally@synadia.com>",2019-05-14 12:08:18-07:00,False
+e1218aa913fd151fb2f224ca39fa8538466995a3,Update readme.md,2019-06-13 19:23:19-07:00,False
+247334999a91274ae9bc24be163b8922d98f9ef7,"Skip nkeys tests unless deps are installed
+
+Signed-off-by: Waldemar Quevedo <wally@synadia.com>",2020-01-31 16:36:16-08:00,False
+ee10d5821a8ef1396f2727ba2f9750c2020b5ab9,allow to specify tls_hostname,2020-05-31 21:36:04+02:00,False
+ca948843d362dcecf2ecbc99a2ac1ded0c44fa1b,"Version updates
+
+Signed-off-by: Waldemar Quevedo <wally@synadia.com>",2020-09-09 14:09:28-07:00,False
+f6700a8361b4fd2330d304357764958c1147a6ac,"make api more consistent with other clients
+
+This commit is an attempt to make the api of this client more closely
+match the api of nats clients in other languages. Below is a non
+exhaustive list of the changes made.
+
+- Return subscriptions from `subscribe()` instead of a subscription id
+- Allow iterating over messages in subscription with `async for`. To use, don't specify a callback when subscribing
+- Move `unsubscribe()` and `drain(sid=sid)` to the subscription class
+- Remove `publish_request()`, `publish()` now has a `reply` kwarg
+- Remove `auto_unsubscribe()`, `subscribe()` already had a kwarg for this
+- Remove support for executing synchronous callbacks
+  - Remove `subscribe_async()`
+  - Remove `is_async` kwarg from `subscribe()`
+- Remove support for executing callbacks as tasks
+- Remove multiple response functionality from `request()`
+- Remove `timed_request()`, name is very misleading as all requests are timed. This was really old style requests, moved to a kwarg of `request()` called `old_style`
+- Made connection context manager async
+- Various internal code reoganizations
+- Various doc cleanups
+- Cleaned up example code",2020-09-22 13:31:05-05:00,False
+b43686c15d61d57cc44abac3609878b44d1bb3f4,"Update readme examples
+
+Signed-off-by: Waldemar Quevedo <wally@synadia.com>",2020-09-24 07:27:52-07:00,False
+3f28819722278e693ebdb9d17ee053a68f26026c,"Use wait_closed asyncio API to prevent op errors
+
+Signed-off-by: Waldemar Quevedo <wally@synadia.com>",2021-07-13 23:07:50-07:00,False
+d6f0e0b49421775e2b1fdb6bd5f2c292681092af,"js: update readme, add example
+
+Signed-off-by: Waldemar Quevedo <wally@synadia.com>",2021-11-03 17:37:51-07:00,False
+92529b4850e08a8aa5bf1d0c8c8b217131c10766,"Change ErrNoResponders to NoRespondersError
+
+Try to follow PEP style from now...
+
+Signed-off-by: Waldemar Quevedo <wally@synadia.com>",2021-11-03 23:11:39-07:00,False
+081326be35cdf7769c5cd05e9b17665b3c49ee3f,Update readme.md,2021-11-04 01:00:33-07:00,False
+09b937d0cee3865cdb86cad64651ad1ab59dfd6f,"Lowercase protocol errors, like Go client
+
+- Fix usage of asyncio.get_running_loop in tests",2021-11-09 19:51:12-08:00,False
+60c17c1d18c70a01c2585e715bfba2f8a426bcfe,"readme updates
+
+Signed-off-by: Waldemar Quevedo <wally@synadia.com>",2021-11-19 22:43:33-08:00,False
+90295d47e25d250975b3f82bea28ed1bc55dba4f,"Doc updates and version bump
+
+Signed-off-by: Waldemar Quevedo <wally@synadia.com>",2021-11-22 15:58:48-08:00,False
+d2408450c37aa344e26d67b0ff8aad3667a85717,"Improve type annotations (#252)
+
+* Improve development guide in readme
+
+* drop unused imports in nats/js
+
+* drop unused variables in nats/js
+
+* drop unused imports in nats/aio
+
+* add None return type where is applicable
+
+* add simple scalar return type where is applicable
+
+* annotate some simple arguments
+
+* autoformat code with yapf
+
+* autoformat code with autopep8 and then yapf again
+
+* manually fix some type errors",2022-01-11 08:15:49-08:00,False
+6db0d8058851940fbd38c421c7203a96c153539a,allow waiting forever,2022-01-28 23:49:56-08:00,False
+dff5ed55f7ebeb70fd1a05d792b569ff76834bab,Fix travis badge url,2022-01-29 01:34:23-08:00,False
+638c0963ea2ee257af30b26d7c11203b095ee4e9,"Modernizes the way we package and distribute nats.py by using PEP621 (#341)
+
+* Modernizes the way nats.py is packaged with PEP-621 [1]
+
+Modern Python packages can contain a pyproject.toml file, first
+introduced in PEP 518 and later expanded in PEP 517, PEP 621 and PEP 660 [2].
+
+Starting with PEP 621, the Python community selected pyproject.toml as a
+standard way of specifying project metadata [3]. Setuptools has adopted this
+standard [4] and will use the information contained in this file as an input
+in the build process.
+
+This patch propose o adopt this standard into the nats project to modernize
+the way this library is packaged and distributed.
+
+This changes propose to move stored data from setup.py to the
+pyproject.toml file by respecting supported keys and sections.
+
+These changes propose to use setuptools as backend to create
+distribution packages, because it is a well know backend with a long
+story and well maintained and it is the one I'm used to use and so
+that's the one I know the well.
+
+Also you should notice that these changes propose to rename our readme
+file. All-uppercase letters stand out and make the file easily visible which
+makes sense because it is probably the first thing a new user would want
+to look at. The file's name is generally written in uppercase [5]. Lowercase
+filenames are more common files. Also it will standardize the naming
+conventions with others files like `LICENSE`, `CODE_OF_CONDUCT`, etc.
+
+These changes can be tested by using the following commands:
+```
+$ python -m pip install --upgrade build
+$ python -m build
+```
+
+[1] https://peps.python.org/pep-0621/
+[2] https://packaging.python.org/en/latest/tutorials/packaging-projects/
+[3] https://pip.pypa.io/en/stable/reference/build-system/pyproject-toml/
+[4] https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
+[5] https://en.wikipedia.org/wiki/README
+
+Also:
+
+* Adds some gitignore rules
+
+* Pluralizes folder name
+
+This folder contains more than one script so these changes proposes
+to pluralize its name to better reflect this aspect.",2022-09-01 07:27:00-07:00,False
+9489f89543d6f1e04658626b312ddef2c8c4de86,Add ack in jetstream pull subscriber sample,2022-10-06 09:45:20+02:00,False

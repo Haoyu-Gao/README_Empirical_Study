@@ -1,0 +1,120 @@
+sha,message,date,result
+8f4252091ede49fdb098edeb4446c1cb2fe6de64,converted README to markdown,2021-02-24 13:00:07-08:00,True
+ffb0659f1f0db8da24c05a9c42e49bb3bd8a411f,begin migration to using pipenv,2021-02-24 15:04:32-08:00,True
+23c7fdf6a6894b9c927d04c4803d4b847ddf650d,"Fix tooling, move configs, maintain previous settings
+
+- Add previously omitted tooling, maintain previous settings to Pipfile
+- Move configs (pyproject.toml + .flake8 instead of pyproject.toml +
+  setup.cfg) for better compatability with
+  https://opensource.creativecommons.org/contributing-code/python-guidelines/
+- Revert to previous tooling settings to minimize delta",2021-02-25 09:37:58-08:00,False
+420ec59fc55183c7498364c24b2725c6aa65640c,added missing modules,2021-02-25 10:46:37-08:00,True
+8c50548ed6597caf8f50f2b07ef2fa7f86b53316,updated pre-commit to use pipenv and improved check behavior,2021-02-25 11:37:22-08:00,False
+afefba3074dcd45669cdc2097cf69d84acb8490a,reorganize dev info and replace manual check with pre-commit install,2021-02-25 14:53:23-08:00,True
+8e3d5c4c092be925af61a46d655f9d50fc26d6f7,add Error building tree troubleshooting,2021-02-26 08:19:35-08:00,True
+8fda705c5897022480c304cc4e3cf85908d284f5,"Update code, settings, and docs for main default branch
+
+- Update to reflect main is now configured as default branch (here and
+  in cc-licenses-data
+- licenses/tests/test_git_utils.py
+  - Also update variable names and comments to increase clarity",2021-03-04 14:37:05-08:00,False
+18905294a75695b24c177e87548e7f315f129d2e,"Added step by step instructions to set up project developement environemnt on linux based systems
+So it becoms easier for new contributors to start working on the project",2021-03-05 12:58:50+05:18,True
+3e00c2427283eefa91434049f3652d6dfd970d01,"Modified the documentation on the README.md file, for better clarity on setting up the
+project developement environment on linux based systems",2021-03-08 10:29:16+05:18,True
+c1f2ed80af733ef89b70e3c7525ca0e1b2dec00b,improve `TRANSLATION_REPOSITORY_DEPLOY_KEY` related documentation,2021-04-02 12:59:27-07:00,False
+a571a5c9459d8201c447be659df025e0384489bb,add link to development server,2021-04-06 09:18:52-07:00,False
+bca74a601ea6931b36fd524c51d51b239f6679f2,update documentation to reflect new legacy data location (cc-licenses-data/blob/main/legacy),2021-04-21 08:31:41-07:00,False
+89bdacf7baf2577fe729ed72f1b0a54af3dc6a66,improve heading organization,2021-04-21 08:32:11-07:00,False
+639ce0ca0fb8f71b4e2dffe772d0969a9373f47b,Instructions for using Docker compose,2021-04-22 00:59:28+03:00,True
+289bf8741231d4cbc9a461c5b3e15df562a9d5c6,Simplify migration command,2021-04-22 21:25:11+03:00,True
+14069b38119cbd795917abe932ef6d5349d6c8b3,Extend docker documentation and add static docker setup,2021-04-29 09:32:47-07:00,True
+0c986d5276b4a7079ddc9eef50bdd9490086b9a7,rename primary docker container to app and improve docs,2021-05-06 13:54:42-07:00,True
+c7472cdc5cec69befa3949e7c2e1a46cfd654b07,fix formatting,2021-05-06 14:05:47-07:00,False
+c416bb5482e948adb0d22d2d5529c16559b4e33c,clean-up repodata links,2021-05-06 14:07:41-07:00,True
+20aff2649cd90e4f5b9f96ea6314ac41aa3466da,rename TRANSLATION_REPOSITORY_DIRECTORY to DATA_REPOSITORY_DIR,2021-05-07 10:10:18-07:00,False
+5bc8448667123850cbaa795183278cdf24688438,update load_html_files command with default input_directory and add error if the input_directory does not exist (or is not a directory),2021-05-07 11:36:29-07:00,True
+4a8dfc39fd9a7da2dc90b92a3675e4034c59c812,namespace update: use unit instead of license_code. reset django migrations,2021-05-27 11:29:31-07:00,False
+51da54dade9128eb68f10ff9fd00aa247f31cd77,"Increase ""Legal Code"" clarity
+
+Previously the codebase used three different terms to refer to the same
+thing:
+1. ""legal code""
+2. ""legalcode""
+3. ""license""
+
+With this update, ""legal code"" is used nearly exclusively. The only exceptions
+are established paths.",2021-07-06 12:30:44-07:00,False
+a6a9f1a503a27493c494c66c544b3e8439a1dbb0,update and clarify README,2021-07-15 12:04:01-07:00,True
+fbfc280c20499b9cf11cea513d5c70dfa3e8137c,better highlight URL path,2021-07-15 12:06:45-07:00,False
+5ace84ad13d8042da125756638689ef8a2627cec,improve Data section,2021-07-15 12:11:16-07:00,False
+a06825edaf7160606844c4cbd46b8028ccfd8220,improve Data section,2021-07-15 12:13:41-07:00,False
+daa1920f519b6074c9ffa71bee47d7685d01a53e,correct dir name,2021-07-15 12:14:33-07:00,False
+a69c4a5bfc09c4622ef6af763dab5595c0b663e3,add dependency documentation and correct formatting,2021-07-21 08:43:02-07:00,True
+da6d24561cc9c28099a2caa84ead206f2f202efa,improve translation organization and add doc references,2021-07-21 08:50:28-07:00,True
+14996d67363199c7402a2e042ac2938c07c77575,update url for Transifex CC public page,2021-07-21 08:54:59-07:00,False
+f166f25773df2225557cc1a87210affd906aa363,fix heading level,2021-07-21 08:55:50-07:00,False
+645d743c3e899b754a6fbb28121daaab4220c88c,clarify django translation domain / transifex resource. clean-up and reorganization,2021-07-21 11:16:50-07:00,False
+6769ff19a21e7753d06b216a041e93b9151f0930,replace bad partially duplicated info with reference,2021-07-21 11:19:45-07:00,False
+45726a2b24a04641f69723f86a627b705a198f8a,add Requests doc link,2021-07-22 10:12:20-07:00,True
+dcfbf14fb25cfaca86aa6c5f69f17d0250d6f750,fix variable name,2021-07-22 10:16:38-07:00,False
+8431d7c0314dd0b42109a3a17a98087abf3db99d,"improve translation documentation and use docker-compose exec
+
+- use `docker-compose exec` instead of `docker-compose run` (there is no
+  need to spawn a new container which then requires cleanup)
+- add language codes documentation per #157
+- clarify django translation domain per #163 and #164",2021-08-02 08:57:13-07:00,True
+463fdd8e7aea399aa6d6dd41b3f7c9b3a20c6c6e,update syntax for clarity,2021-08-03 14:40:49-07:00,True
+d5d1fadcab1d23db3b29b747386ccb8e96812001,minor formatting update,2021-08-06 08:06:43-07:00,True
+c5ffa8cb29b6ef59fc322bf65d76b646e87fda3f,add additional clarity to language codes,2021-08-06 08:44:17-07:00,False
+ca10e87518b1a708cd7bbc15ed42cc2f76f8cdc6,"update readme
+
+- add Licenses and Public Domain Declarations section
+- reorganize sections at top to prioritize key information before
+  development information
+- add references to custom domains and language code subdirectories
+- correct spelling errors",2021-10-07 09:05:15-07:00,True
+0ce9e27685c9d500bbd3c17823d8c541fbf8be5b,fix issue links,2021-10-07 09:10:45-07:00,True
+feb0d8d36da7c0e0368320d0fc1b445e888ee513,increase clarity & consistency of translation file description,2021-10-07 09:17:32-07:00,False
+52cb060564d33fd8c6c09af9d2dfa849646133d6,formatting correction,2021-10-07 09:18:18-07:00,False
+7e4fea56451a893e5873671de8bac6c649fec322,add redirect details,2021-10-07 09:22:17-07:00,False
+362c69c04259c682f1963d0eb914824312bed9ce,add docker tooling references,2021-10-07 10:15:37-07:00,False
+4dd2991af042866cdaead1325022f26b72383351,revert incomplete change,2021-10-08 08:26:26-07:00,True
+5db6cfed9578ec2aaceca35e72dd9a2fe4e70a74,translation details were moved to data repo,2021-10-14 15:58:29-07:00,False
+8baa93805afdbe4b43f2f8c42612be4ce78f1066,update to reference API 3.0,2021-10-19 12:27:59-07:00,False
+98f0682baf7ba1481f6e1cf94a10ff264f1ffaa0,add Helper Scripts section to README,2021-10-22 09:30:37-07:00,False
+cc7abfdae64cb9ffdcf72e709b59ff6437ecab6e,add translation management help scripts,2021-10-22 12:48:21-07:00,False
+d9a0fd16607928dbaf03e151b813c0ed0f5b0ae6,update help script descriptions,2021-10-25 14:44:06-07:00,False
+0308d7382c997495a9849cb09072415e0b472daf,add instructions to install Docker Compose,2021-11-11 12:18:04-08:00,True
+a8eb2e7f5ae7134538862deabef9abe2295e0bb1,use title case for entire label,2021-11-18 13:04:43-08:00,False
+6a3283112e3d525c476b50a9022cb45557be3e8e,repository renames and application renames. includes database migration reset,2021-11-19 09:43:38-08:00,False
+9186880393c644694e284ff59edbac59395ded8e,model rename and remove misconception,2021-11-19 11:07:19-08:00,True
+29bbe991033d4b37e2e8e0b0951c6c00d38151b0,fix string replacement error,2021-11-22 08:01:16-08:00,False
+21586f8c92fd44dcab18dcd2a70dab8126a4727a,use SQLite instead of PostgreSQL,2021-12-09 08:11:21-08:00,True
+db23d2b7543dee31bc6268fcd9ad8b318be445ea,update to Python 3.9 and run coverage in parallel,2021-12-15 09:56:47-08:00,True
+e1b763df9539176df131dc7064594f810d9910f4,remove specific versions where links to latest,2021-12-21 18:34:15-08:00,True
+f399324474159ef79de3c29b3e2c3b2432729905,update ports so they no longer conflict with creativecommons/project_creativecommons.org docker services,2022-02-16 10:50:53-08:00,True
+b56133f9e3936151611ec46f88c8863add49a96f,docker compose is now part of docker,2022-02-18 14:07:09-08:00,True
+8836b4de15076af1eddb0e5baf9c146b92d4c958,document Frontend Dependencies,2022-03-03 14:58:17-08:00,True
+bfcd14ecdb0d1b0849e744332ecc540e8c29cb1b,fix syntax,2022-03-03 15:19:19-08:00,True
+b26cb5d0765394b6e9b3b2433483175d950673bd,"use ""dedication"" instead of ""declaration"" for cc0 and public domain tools, in general",2022-08-16 09:31:54-07:00,False
+f0cc54e6ebebadfa20aaf5d8e182ca1eb039b4c6,use less specific terms when a variety of tools are referenced,2022-08-16 15:06:09-07:00,False
+8dd07b0014bbd033b8a0a24a0993abbaad4eecd4,Re-arrange README.md file,2022-09-12 23:03:53+01:00,True
+cc99144ed9466022aca598bfb5d52785a3c7c24c,minor wording and syntax changes,2022-09-13 13:27:56-07:00,True
+e5edaacebad17f65c2a50f766cc7045d7ed50d1a,minor clarity,2022-10-10 20:35:30+01:00,True
+369d590c7f45d7ee560da24ff2ab4f02f79d039a,Readme requested changes,2022-10-17 21:49:40+01:00,True
+0701dee37cb612f0efaca64066b049f1c9bd81b3,Add windows specific notes,2022-10-18 09:10:37+01:00,True
+cd9ed1cf285e86b829a69278d3359ccfbd2d356b,Add windows specific notes checks validate,2022-10-18 09:42:47+01:00,True
+7517b530f51a9ce6163661b755af1023a259b355,Add windows specific notes checks validate,2022-10-18 09:47:58+01:00,True
+e8df9131e05a3a9ce973913722d229fc39ea4e70,Add windows specific notes changes made,2022-10-18 21:03:15+01:00,True
+de6e17759355ca6bad239c2163c3a63ae92d0c36,remove trailing spaces,2022-10-18 22:59:47+01:00,True
+f8d64ace4e4d7cc5fd335ac4b010323a29cfa19d,requested changes made,2022-10-19 19:16:35+01:00,True
+34570e4a052fe0c3c04daccb956b57697a762536,fix #docker-compose-setup anchors,2022-12-09 08:43:04-08:00,False
+870d9f42d88c2371137ad763eda45fed87584770,"Grammatical Mistakes Fixed in Readme
+
+Fixed typos and Grammatical mistakes in the Readme file.",2023-03-06 22:02:34+05:18,True
+1df73e5705e143414d1b682f4fb93705cf932fbe,update and clarify documentation and licensing,2023-03-23 08:28:30-07:00,True
+eabd84b8e29d3400241eba0bd252f51fd03376f8,format path,2023-03-23 08:30:22-07:00,True
+68c4395f9b3da31a7e840e7bea4ce405ebfdf471,update formatting of notice and warning,2023-03-23 10:41:45-07:00,True
+e2801561c2085f34c9fcabe5280e2813b00c2098,remove unnecessary commentary on running app as a service,2023-03-23 10:45:25-07:00,False
+cb6c8addf8bc3b8e1e46ed64b43e218a0838e75c,correct static file generation description,2023-05-19 12:32:33-07:00,False

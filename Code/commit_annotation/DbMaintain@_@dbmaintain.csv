@@ -1,0 +1,20 @@
+sha,message,date,result
+1c3b2957c6a73d7b7ac7e881741f9233615848c7,+Readme,2015-02-06 12:32:30+01:00,False
+87a89ec2eb0b22cf1e4f71425da49b02074f79bf,+Build status,2015-02-09 09:02:34+01:00,False
+c69c42ded8445f79e5e059f7add1731d3ade7a82,Updated travis CI link.,2015-02-19 08:07:37+01:00,False
+5e9e47d4498612a7b903d35e234ab5409a2f83d9,Added codeship link.,2015-06-12 08:55:45+02:00,False
+90af7ae85ec7e3fc4ffbf9d7ca9a379c589200e5,Removed travis link,2015-06-12 09:04:25+02:00,False
+a8f880db5ccda862bc7ed50074accd545201a97b,Removed travis link.,2015-06-22 19:30:35+02:00,False
+2a86ef27cfd1654e2ee33c4273b6c78fc93e09ec,Updated docs.,2015-06-22 20:00:54+02:00,False
+08f71b989c3a20b464124bf17329502dc94a369c,Added versioneye link.,2015-08-14 10:19:39+02:00,False
+a7ec5172a3d35d0ab7a055e9eb472c049f466812,add docu,2016-02-25 10:52:55+01:00,True
+60f2aec07783badc2fc966c957937ff060c3123d,Tes commit for travis ci.,2016-03-01 15:55:25+01:00,True
+bb00528fb10952c0e612570e990e552eb57714ff,Test Travis CI,2016-03-01 21:58:52+01:00,False
+b05a83e5ec85626cae233c1fd228d30a6486d26e,new feature checkout from subversion and extended Readme,2016-03-24 15:47:22+01:00,True
+76d02d3ae11765684ae069846671821839c1491b,fix Readme,2016-03-24 15:52:18+01:00,True
+bca97f770cc29cc0abd34ab7d9367c9689c302b7,Added travis link.,2016-03-30 07:54:09+02:00,False
+56615d82697b1f28cc866edb32671c674dafe966,Remove versioneye badget as versioneye shuts down,2018-03-19 09:37:52+01:00,False
+880aa942aabb8bd7c6b98b08a5c5f8a2b57a006e,Add shields.io maven-central badget,2018-06-05 18:51:39+00:00,False
+8a9ba562ee9b81319a48c12e390a92294eb7cd54,Add codeclimate badge,2018-06-22 15:50:50+00:00,False
+e36fee3085f54007c1bcabd45675f4730ea95a34,Moved all documentation to separate project.,2019-01-14 07:43:37+01:00,True
+4070fd88d7a7ccb8a2525d909f901c2d734b99cb,Added special link to docker docs for dockerhub.,2019-01-14 07:56:16+01:00,False

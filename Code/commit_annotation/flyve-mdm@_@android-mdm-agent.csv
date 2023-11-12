@@ -1,0 +1,45 @@
+sha,message,date,result
+e705e827191fc40ae7fb536259f31e5bf95a3693,feat(pre-release): relase for early adopter stage,2017-06-01 20:05:55+02:00,False
+865e2ab0c2f6d3b2f00e7b65320d9a6b59243969,feat(rc): add sonar qube and automation scripts,2017-06-01 20:26:58+02:00,False
+463d4a461a43709b2e52a9717026103649921db2,"doc(readme): add banner (#46)
+
+New banner",2017-06-08 18:10:56+02:00,False
+f29992419bb3a5aa49a657d5fadb327863900158,docs(readme): improve full readme,2017-09-15 17:39:37+02:00,True
+e5073fd8b1be33bf7d1d7d6bcbe008fa9c4b7f09,docs(readme): remove Maven badge,2017-09-15 17:39:37+02:00,False
+cd40eae0b3bccc7eab7ce38174422c8c548d5466,docs(readme): update content,2017-10-26 11:08:53+02:00,True
+3a814b0b8a5e0acdafd611c2b8d689d96cb743b2,docs(readme): add Greenkeeper badge,2017-11-07 15:19:11+01:00,False
+b1b5e05fbc652fa86db3e332bca9d1b682a9ceb3,docs(readme): move greenkeeper badge to proper place,2017-11-07 15:19:11+01:00,False
+16965c61d993fafe7fa7144c9b3991234773f365,docs(github): change links in project documentation,2017-11-23 22:23:00+01:00,True
+28c3909948ddc9bfbdca2e17dd126b4b91fef18b,"docs(readme): modify installation and badges
+
+add how to install as system app
+add telegram and IRC badges
+
+Signed-off-by: Naylin <nmedina@teclib.com>",2018-03-28 15:52:48-04:00,True
+31ec2ae563087e740cc6ce9c730f20da44af3fd0,"docs(readme): add compatibility matrix
+
+Signed-off-by: Naylin <nmedina@teclib.com>",2018-04-26 00:38:28+02:00,True
+fe5fea1cbf1c5756b67f7c74800ae69350990783,"docs(readme): remove badge of telegram group
+
+remove link to deleted telegram group
+add links to documentation section
+
+Signed-off-by: Naylin Medina <nmedina@teclib.com>",2018-05-14 20:11:44+02:00,False
+3dc345dd11d85328070d69e319b8ecb5017d7466,"docs(readme): add professional services
+
+Signed-off-by: Naylin Medina <nmedina@teclib.com>",2018-05-14 22:06:33+02:00,False
+3a552da243dda3720d62961d6271c955c40b9e7e,"docs(readme): add beta testing app link
+
+Signed-off-by: Naylin Medina <nmedina@teclib.com>",2018-05-30 14:58:25-04:00,True
+d44db6d3171ecc3fe03ff352a15d70eb8c991ae9,"docs(readme): add compatibility matrix
+
+add compatibility matrix for agent and android version
+
+Signed-off-by: Naylin Medina <nmedina@teclib.com>",2018-07-16 23:31:28+02:00,True
+9d189dc3d5c1eebf0803c64460d47734a032851b,"docs(readme): update compatibility matrix
+
+remove legacy dashboard
+remove dev suffix
+
+Signed-off-by: Naylin Medina <nmedina@teclib.com>",2018-09-21 18:46:40-04:00,True
+941286f0c17719312c0a1f539dcf8fbf870a86b0,docs(readme): puts the good link to F-Droid (#675),2019-01-28 16:45:44+01:00,True

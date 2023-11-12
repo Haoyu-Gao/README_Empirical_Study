@@ -1,0 +1,492 @@
+sha,message,date,result
+3e576250b1bfe1c62c556f2fa0425103b0ede1f9,First commit,2019-10-15 15:06:09-07:00,False
+2597a18d95d01109d2250487b7550a501edaf77b,readme update,2019-10-15 15:32:23-07:00,False
+e83170b7ec7ed2123bfde69be263b6034c7afa53,readme update,2019-10-15 16:28:42-07:00,False
+021b6924e24e1cf0f971246244b174cd3181c0a6,documentation updates,2019-10-17 12:15:27-07:00,False
+ed320cf0f4bb11cee1e69e9dc9176ba109df1b86,change netstat pid field to integer,2019-10-17 13:04:34-07:00,False
+8073d15fe11546a17cacd81409e255bb8aecd602,readme update,2019-10-17 15:03:32-07:00,True
+756c2bc9acd60111281b76085a40778e51ca06cc,add acknowledgments,2019-10-18 09:57:10-07:00,False
+367ab54f94bf7f456377ec9d20f8daf99dbdc1ed,formatting,2019-10-18 13:34:28-07:00,False
+4d93b38fe47329e3175025878e87f7c963061f98,add route documentation,2019-10-18 14:18:34-07:00,False
+d54d906c571b4683f01cab2eca63ae5f0725a87b,update readme,2019-10-18 19:03:11-07:00,False
+be81b5e1ed93eb65e5dbed4f52905439cde86f62,readme update,2019-10-21 13:47:22-07:00,False
+1d110be6cb25d169ae0dde6532cbcdf05d93d42f,update doco,2019-10-21 14:13:31-07:00,False
+fab80bb3b4a1897da29d818e98e9b80ce45443dd,readme update,2019-10-21 17:20:12-07:00,False
+30080c01659cf611666876b7b063b7b329822352,reorder parsers,2019-10-21 17:26:00-07:00,False
+8e71b8e3522b9b1af4d869a0854223eb5c300b63,fix jq example,2019-10-21 18:11:51-07:00,False
+b5ea08e55bfd22c9da5ba73c124791012df119a0,fix transport protocol,2019-10-21 18:22:51-07:00,False
+e3750b49628794fd4d563013b1f3a7471c27ce68,documentation enhancements,2019-10-22 07:40:42-07:00,False
+a023001cd350e320ce30f47af214ed7a9bb43185,"add df, env, and free parsers",2019-10-22 11:10:11-07:00,False
+36bc55a3109278d663b675a09829200f5474c3d8,fix df,2019-10-22 11:11:41-07:00,False
+c2c189f3e6e900e5f3d35df9a9b9d033448baff6,readme update,2019-10-22 11:14:19-07:00,False
+73a0d70c9294ad392792e690a7bfbcc4f51b0a5b,readme update,2019-10-22 11:15:44-07:00,False
+753d5fd9fe5a8e4b67b1a0ec018a9f811e27f8bf,readme update,2019-10-22 11:17:21-07:00,False
+b15227e7ba5377e5fb6799d1b9e4ed5a11c6d92f,add lsblk parser,2019-10-22 11:55:11-07:00,False
+a3e55d97c0fd4397b42e9146afb0ba9558274fdb,add mount parser,2019-10-22 12:54:41-07:00,False
+9ac57469967443b195be09d580beaa76ce0e1095,add uname parser,2019-10-22 13:28:15-07:00,False
+f3087b8a8ede88834285bb5d0655fc96341c174c,update readme and formatting,2019-10-22 16:40:27-07:00,False
+306d539b6bbfb272c7b955e4847adc3a6b4afa5f,readme update,2019-10-22 16:50:01-07:00,False
+976fd7d9bd49190a8b28ea5acf5af8979cdec537,readme update,2019-10-22 17:24:56-07:00,False
+649c0aa7c157f87691cc8eeac64c747e81f63594,add documentation,2019-10-23 14:10:10-07:00,False
+29c47c03a64f9c6b0f44d34be5449396654849b5,documentation update,2019-10-23 17:37:25-07:00,False
+58ae976db0165730a75dd7450c698d2727a354ca,documentation update,2019-10-23 18:30:55-07:00,False
+fa7466022bb8947c1bbf9f7b01aa4d92300a8992,fix env parser,2019-10-24 15:54:31-07:00,False
+f101d881a16e662e883818749d48e96858fba853,add w parser,2019-10-24 16:06:55-07:00,False
+41cd489c34502c42602bf64086670ba3b2b8e14b,add history and uptime parsers,2019-10-24 17:09:32-07:00,False
+85bfb688862e78d5879df6973b88ba8023fa6086,history parser fixes,2019-10-24 17:33:42-07:00,False
+6d047486d9f577bc04d79af839f5eef9657a9d43,doc fix,2019-10-24 17:53:56-07:00,False
+c8c5564b29588094721949b96bff1e623437835d,change buff/cache key to buff_cache,2019-10-25 09:46:03-07:00,False
+b3996cb4dfed908d71b292dc0b0136c6675351e6,change MAJ:MIN key to MAJ_MIN,2019-10-25 09:54:42-07:00,False
+a07d9a0e4bb76d369b4a9bf0d77c7590dc3c2861,change SIZE/OFF key to SIZE_OFF,2019-10-25 10:04:29-07:00,False
+57d0ab2ed7f444862546da17cbbe8f8ce67bca8c,change LOGIN@ to LOGIN_AT,2019-10-25 10:22:10-07:00,False
+25b90546c652cafa9409f02bae1654cb523add88,change 'Use%' to 'Use_percent',2019-10-25 10:39:05-07:00,False
+5f1ec6734874651bee595961edf1fafaf5acf001,lower() headers,2019-10-25 14:58:15-07:00,False
+7ca2a4bdb939293e8d7364f8901ad1fd6d3ee808,remove integer values,2019-10-25 15:39:48-07:00,False
+1a4fc204e21f1555ae67c3147322c8d73fab630b,Documentation update,2019-10-25 16:09:31-07:00,False
+d7913070315e5e0c89006942250aaf37e9e3e18e,documentation update,2019-10-25 16:12:45-07:00,False
+de647bba4aff84f7b513cf7f6fec8d3933b0d9da,documentation update,2019-10-25 16:14:32-07:00,True
+fb1e03637514b5ab02fd4c5df1db8b3cbacdd531,formatting,2019-10-25 20:27:03-07:00,False
+db29c7c186601fd4596d3eb121b37100601af907,documentation fixes,2019-10-26 18:49:13-07:00,False
+cb46ca5c2776a13c673a44d3e0fbd0661b32af9f,readme update,2019-10-29 10:27:42-07:00,True
+d58a6e1d1dc93155255922b65b0af1325439b033,readme update,2019-10-29 14:19:04-07:00,False
+cf8d13030bf67261a986c0f80fa20ec0e37a743a,add arp,2019-10-30 13:22:12-07:00,False
+087a60bc2adf64bfcedc1f264fef328f993b530c,documentation updates,2019-10-30 13:52:31-07:00,False
+41a2a9adac7d3c29dfa11292f08b0877c69b1a5d,remove unnecessary if statement,2019-10-31 07:27:12-07:00,False
+4b7d7840d37be47c1c98c38a6d712e7090e5b68c,add -r option,2019-11-04 12:50:37-08:00,False
+cb5729a070925a7fa29f762bd4b074532f5cba55,add options to docs,2019-11-12 07:18:27-08:00,False
+338e0ff15c7fac84475c1ed107e6a23e7a009b1f,add schema note,2019-11-12 11:38:50-08:00,False
+ee30180376b7acec46314bbc483866bff41c362a,fix note,2019-11-12 11:39:33-08:00,False
+4b02700414660b90518311485761870402368625,update simple examples,2019-11-12 11:46:52-08:00,False
+f330ff0eff00586f46d18497f2441e94b6430e91,wrap example text,2019-11-12 11:49:14-08:00,False
+ce0bb5b816eed0c75542ead474c3dcb8401be2d7,formatting fix,2019-11-12 11:52:16-08:00,False
+91b9373f380e06f91888811edbfb21747ff08810,new examples,2019-11-12 13:05:19-08:00,False
+c5834a57db8957723a1425b9db46c433e28a3af1,add todo section,2019-11-12 13:35:32-08:00,False
+37738a2ea2f15af847e4b8383aba911e2020a3e8,update contributions,2019-11-12 14:10:26-08:00,False
+b6f65c93c462856f26201df0cbfe804b29a65169,ps doc update,2019-11-12 15:05:21-08:00,False
+46774daf9d3e0612df8f79d4b6b724e612ceb725,doc update,2019-11-12 18:51:21-08:00,False
+af82f2c991ac0668485e75ae78a26b9553ec8b13,update raw format note,2019-11-12 18:56:42-08:00,False
+f783e44e5c0cd05733da5d24573f06d05760f993,doc fix,2019-11-12 18:58:58-08:00,False
+a4cdd3378e6a031f16dd371ed5cd60ff018feb32,add compatibility info,2019-11-13 08:17:41-08:00,False
+a0e2732152dc3005914b9a3e4f03e937a113c67f,add ss example,2019-11-14 09:46:10-08:00,False
+d2c7316e00b9aaf19231c05351821041458baf98,update command options info,2019-11-14 13:43:07-08:00,False
+e5b4987acb70e854d9996350235c5535b4a46b69,doc update,2019-11-14 14:00:06-08:00,False
+a407f5b67833cc5f8dda9fe8265cd34e62f28d14,minor update,2019-11-14 14:01:04-08:00,False
+c2a67e1b70f33044aecabd8b46018117cb38cb9c,add stat parser,2019-11-14 16:31:52-08:00,False
+8bfa41dbf485cb06c928bc00a68727d2ceac21fa,change values to null if -,2019-11-14 17:36:29-08:00,False
+c858adfd12144569d0b990a217c5bcd75bd23828,remove stat from todo,2019-11-14 21:11:05-08:00,False
+1cb49d60c84054b0446f299f6b4bab7d102101c1,remove sar and sadf,2019-11-14 21:21:15-08:00,False
+ad913b141721655a72a7b2a6ad60037e5acd5f9a,add hosts docs,2019-11-14 21:59:06-08:00,False
+3f1d3ff6d85422536e0adfb6433fd3ec0399ebe1,add examples,2019-11-15 09:29:54-08:00,False
+ce43c782f601fc12267fa22279e8e0142ecc3a7f,fstab update,2019-11-15 09:32:12-08:00,False
+230e921c2e8d931ea8a6abdf81215dbfc968b41c,remove fstab from TODO,2019-11-15 10:36:58-08:00,False
+59ae31f3f342c9337037aac4630310c9b9eb8287,add systemctl parser,2019-11-15 11:58:17-08:00,False
+b6727d68bab66164a3834b240ae868062aad9371,add systemctl parsers,2019-11-15 19:18:31-08:00,False
+94bdb11fdf0e16d89769046d317643334ef1acdd,remove systemctl from TODO,2019-11-15 19:24:32-08:00,False
+2fcda6f2480ae6bd5428a0147c19f9af527391b8,add motivation to readme,2019-11-25 18:34:21-08:00,False
+7d54137140e6d0515bc23c131a097af5c70c3379,link update,2019-11-28 11:51:54-08:00,False
+fea8ace8446b64abe9e61a028951bc4e6df9f9c9,add OSX compatibility,2019-12-06 10:27:11-08:00,False
+5f4c10ffd5a9cbe4e5e3d2b9adc34f36492eaf46,doc update,2019-12-06 10:39:11-08:00,True
+23975c9c9e1dd9d3e9fd7c05d231a86d646be048,fixup osx subnet mask and convert state to an array,2019-12-06 11:44:57-08:00,False
+68eeec19a812b735627763bb7d7e2a58b72f7504,doc update,2019-12-11 16:39:30-08:00,False
+8f01ef79532743573632d716ceea41d5ea752c88,add -a option info,2019-12-14 23:27:56-08:00,False
+9eaac7f3af0e0851c2d091d94c9920faa8a0fdfc,add du,2019-12-16 14:30:06-08:00,False
+687759f75d0e80e81746a84f051e55cfdc870447,alphabetize du entry,2019-12-16 14:31:21-08:00,False
+c4fee1b658c91afa2abdd746af6c1b4697c44b35,add crontab parser,2019-12-16 17:50:52-08:00,False
+86ebe2cf9c6b336eacf217393c3c3c324ee29ec0,initial add of pip list parser,2019-12-16 18:36:13-08:00,False
+202bc8201e31fd453c682265347b4e2ac2d41718,doc update,2019-12-16 18:54:19-08:00,False
+efbf3549606fc77f8c16587ff04a0c316dfe5c00,doc update for pip show,2019-12-17 09:24:08-08:00,False
+37afc7dc8ae30342d01f3f72e73646fa60bb5294,updte todo and compatibility,2019-12-17 09:35:27-08:00,True
+093c0df8978ace842af5258f9aff72c63c6f843d,schema info,2019-12-17 09:38:50-08:00,False
+cbb92c1a9517234806f1c54398a69645b6f43669,add ini and yaml,2020-02-03 21:38:08-08:00,False
+b5ebf8b76afcd0e0190994048fe1f5b53f654451,add ruamel.yaml ack,2020-02-03 21:41:53-08:00,False
+547c6d3d5956984d3c4fb5c2a1b76a595752b467,add xml parser,2020-02-03 22:13:06-08:00,False
+019c480bcce7fe3821b75906fc673ce7bb1ffadc,update acknowledgments,2020-02-03 22:17:13-08:00,False
+47d2f8968a8a9b68fc9fff45985f5e69f1a5cc40,doc update,2020-02-03 22:21:40-08:00,False
+c84ec0361fc4c877c698378b28ff9e8b502793b0,xml example update,2020-02-03 22:25:30-08:00,False
+395a99037b4816eb800b289f90372a9b8d7d36cc,crontab-u and history doc updates,2020-02-04 14:36:03-08:00,False
+3b36022e5a1056a28a83494b1ab8fab209399c2d,add id parser,2020-02-04 21:09:42-08:00,False
+831a42f66096f5efbbf0f6882970c328120f9c9a,id formatting,2020-02-04 21:12:32-08:00,False
+d618a7f583629bb7a7fc0854e7349cab07e3e003,doc update,2020-02-04 21:17:03-08:00,False
+657b722f947b6a0aa7e52a786e4c84f177e9a5c7,ini to INI,2020-02-04 21:44:10-08:00,False
+ab06989a18faf5378f1e73c7016ea02e1218ff9c,description updates,2020-02-04 21:46:52-08:00,False
+eb67c484ff2a9530b434cd6a90c160f6936e1de7,add crontab-u to parsers list,2020-02-05 10:58:26-08:00,False
+7f47b533701e60449351d5da03cd5960e0dec9ad,add alternate magic syntax,2020-02-13 17:20:00-08:00,False
+474eb0f3fdeaa612e189d745b12a5ed9c6e0a31b,doc updates,2020-02-13 17:24:10-08:00,False
+18fb69e36e303a3f9530dcb80354b25bfdbb931d,docs/parsers link,2020-02-13 17:29:45-08:00,False
+6ba64f1128373843b068226424a3af545ac9d22c,usage update,2020-02-13 18:19:19-08:00,False
+f0e3846c038ec5507cd4a19980d83ee0fb969ef5,formatting,2020-02-13 18:20:22-08:00,False
+1aa2c9925996f2358b6272547db755ec3098a8a7,removed history from magic syntax,2020-02-13 22:10:22-08:00,False
+4ef0434f536c6658ddc2b48a3db113df2fd26000,formatting update,2020-02-14 09:43:02-08:00,False
+d7de122e36e0698e00f321fbac8dc0b543cf9e8a,prettify link,2020-02-14 09:44:24-08:00,False
+873771d05ab0b77163c95d2c37e11edf38451832,formatting,2020-02-17 09:16:32-08:00,True
+00d53858e820f00ba015bc25629100c8e5495221,add note about aliases not being supported,2020-02-17 22:57:15-08:00,False
+2ad316743460bb6620e7ede251e1dc2739b073fa,update doc url,2020-02-19 07:12:43-08:00,False
+72a0016bd833699c3819baa899f335f75b8c1943,use link to anchor for Parsers,2020-02-20 15:38:45-08:00,False
+c8dac32df8102c2b782e87d55bb95ca2d9490185,readme update,2020-02-24 13:05:35-08:00,False
+6ae50054e2e8c7ca730013b43062eedc230c0ad4,readme update,2020-02-24 20:30:44-08:00,False
+873b5ba8acf599d083d6031b818d5fca83cbca9e,move examples to bottom,2020-02-27 09:36:57-08:00,True
+c02b6b5d827d26b43db0a3457124714aa2dbbc98,doc updates,2020-02-27 21:21:19-08:00,False
+6f2466a1319eaa4256ae7a2a0f23b3ff37882d37,update readme with /etc/passwd and /etc/shadow file parsers,2020-02-29 11:56:12-08:00,False
+afe55b6af07b74816d33d9555ffaa1c1921dd27a,add who parser,2020-03-01 17:07:28-08:00,False
+f0b32db4333477e22cc40de62cf026a6a7aa2eb6,who doc update,2020-03-01 17:39:02-08:00,False
+d9de11ef1d846a9625dad0adb962b864404c90c1,add another who example,2020-03-01 21:16:57-08:00,False
+cc88fdd9ee3951d7ef2aa881cc12f0b7f96aef86,update example,2020-03-01 21:17:50-08:00,False
+391a3884765780497dc34e0e9938ff5032c81291,doc update,2020-03-02 14:07:29-08:00,False
+b4c3714ced9ee5cc6a7ef0c59a43cf85e1cb9824,removed [OPTIONS] PARSER syntax. still works but prefer the PARSER [OPTIONS] syntax for better performance,2020-03-02 14:10:15-08:00,False
+d3679082a8c5cff76eb7de67c33fe716a1402182,add group and gshadow parsers,2020-03-03 09:36:16-08:00,False
+6770892acd49aced225dbccf39290f33522c9001,add release notes link,2020-03-03 11:37:59-08:00,False
+d96b3a65a98bc135d21d4feafc0a43317b5a11fa,formatting,2020-03-04 08:30:52-08:00,False
+b24d0c3a475b88d9ccf1a8fe29715ee60972fcad,ntpq docs,2020-03-10 18:00:26-07:00,False
+99804ea06e0c70e3a82ddc7f9c7a42343374d700,added timedatectl status parser,2020-03-10 18:37:55-07:00,False
+391d06f68d1f45d33590d5407d3a5e4f723af717,change selection_state to state,2020-03-10 20:16:41-07:00,False
+52494321fcfe0dc7ee71d8d78210b3c10372a237,fixes and docs for airport parser issue #46,2020-03-10 20:55:07-07:00,False
+12a370deed03ba42d7b7ebb410195ce5f32bb9c2,add airport -s parser for issue #46,2020-03-10 21:51:02-07:00,False
+64d78956eb33ca0a2564fded3d12729ee036a915,update acknowledgment,2020-03-10 22:18:26-07:00,False
+dfc96181159748d019419a2cba7aa9cb3b7a2a2c,add file parser for issue #41,2020-03-11 12:20:58-07:00,False
+fc8ab27361df3359b706125531b2643612d6996a,bugfix for misaligned columns and additional test for ntpq #31,2020-03-11 13:24:55-07:00,False
+c29e7cfe5cc4b2151912c6f618137d1b6c39c7be,version bump to 1.9.1,2020-03-12 08:17:28-07:00,False
+6b925a16c87cf75bb30edfda38511e8f84a4f6d6,add tests badge,2020-04-02 10:55:32-07:00,False
+a43e2e19916662d509883457c160d7f95f97ae12,add -m option info,2020-04-02 17:40:06-07:00,False
+01100788070b82b4b827ef356972fa9b8f737eeb,update badge,2020-04-03 14:47:08-07:00,False
+9665f4ee84680f3a8154b8a43ea668af2907782c,add pypi badge,2020-04-07 08:44:15-07:00,False
+3d6a76024de0f9dcf91a4ab49cabe461074114fb,update with JC_COLORS info,2020-04-12 13:10:57-07:00,False
+7454b53e395e9122c00d4cf06b1c2af109913d7a,formatting,2020-04-12 13:13:28-07:00,False
+c87b722aec6e6964c516bbb8e80667ad7d9c6bc7,spelling,2020-04-12 13:23:58-07:00,False
+79b28417644e00b933f531374d2f7fe8051e61be,add new binary package install info,2020-04-15 21:22:43-07:00,True
+560c7f7e6d1f8a69ab026ddbff753d232ca1d00b,formatting,2020-04-15 21:23:55-07:00,True
+bb3acb1182f4d509f9ddc7dfcffa4578e0a2bd5e,formatting,2020-04-15 21:25:06-07:00,True
+967b9db7f90a3c3a0352edde7f4455c5f5d45b18,spelling,2020-04-15 21:27:22-07:00,True
+cf9720b749e7fc8caed0d2f1f2b1727a22a156b6,update install info,2020-04-16 14:03:31-07:00,True
+72020b8da999ddca6f9ba82da235c9f42e4f4273,move packages info to jc-packages github page,2020-04-17 10:20:25-07:00,True
+649c646ea25ac7f89900cffa8919df01671bd32d,add brew install option,2020-04-22 16:08:34-07:00,True
+06d73c88767a5b4d6003231c897c447ee5e1faa5,formatting,2020-04-23 07:06:44-07:00,True
+8cf00a208eb8493300331e7361b72e4f9e3f140e,change text to strings,2020-04-29 15:57:55-07:00,False
+ab0c10e791283affb227d0d5306701ba7fd29d13,remove execute permissions,2020-05-11 10:27:16-07:00,False
+2d39a58f902e6af77f8f96ffcd1d68b7cbadd56c,doc update,2020-05-20 16:14:03-07:00,True
+931b3d2b836b251590497f4cfa65f106762086c1,formatting,2020-05-20 19:56:28-07:00,False
+e0c1c87f549eee000b93b5f5a3e8d0b052eb7d32,formatting,2020-05-21 09:07:01-07:00,False
+6cba7d429898d331c674c778f8bd85ba75a8dca9,remove linux from description,2020-05-21 11:10:00-07:00,False
+0a879681be68fe2e6e5c013ab0fe18de99b04f7e,add netstat -r to docs,2020-05-22 12:56:27-07:00,False
+04f92cd1330759e4bad1c0304b9e1c28e8d32d59,add linux support for netstat -i,2020-05-22 14:04:11-07:00,False
+7fd6fecbf5a08b1f13aa7e906e94be9bc126780a,formatting,2020-05-23 21:09:49-07:00,False
+3f9164ea77ec41e1b0671d0a642900d8e36faf9b,bold formatting,2020-05-23 21:11:17-07:00,False
+90c34b1f4ee2d9ec8125346bb90b227f76ada2ba,fix dmidecode example,2020-05-26 17:31:56-07:00,False
+bfb876a1e394ff63c6773965ba0b65da4e109c1b,formatting,2020-05-27 09:52:13-07:00,False
+658f8a3842273cea049689b3aea15d89a7294b24,add zypper and ports info,2020-05-27 14:58:16-07:00,True
+c4a0a50f3a3ac5833ab5d2f8a0cb3f18da335812,add nix-env,2020-05-27 17:08:54-07:00,True
+2f6f640317da5af894f34f187c4243ef0c599d07,spelling,2020-05-27 17:11:20-07:00,True
+96df396eaf4e030113005a95e525d644c394dfe1,formatting,2020-05-29 07:35:25-07:00,True
+c4da8e4f78e6b4aaa4aff76ae042be9aaec832a7,add nixos and freebsd to tested. update new arp fields,2020-05-30 17:05:41-07:00,True
+aa31628970b12295a41dff20e829fcce9f8a4d07,update docs,2020-05-30 20:33:00-07:00,False
+9f2279d5867eb89d4b4b7b4ffca290166ec97c48,Load custom parsers from <user_data_dir>/jc/jcparsers,2020-06-06 14:42:27-04:00,False
+b72727dec995de1ca5f68ee17a710b086c87d612,update custom parsers info,2020-06-07 12:13:40-07:00,False
+7f5c649a95a871c3cd8d48731a6d26dcba6f725b,update acknowledgments,2020-06-07 12:23:28-07:00,False
+808ff6cf0e784cf0c2d523ff2e01197cb6e88c82,more acknowledgments updates,2020-06-07 12:29:10-07:00,False
+8377d4311611c242e16eaebe66dafac9529150d4,formatting,2020-06-07 13:26:03-07:00,False
+60050e3c0fe34980f7db5b8bd46430f953f0c3a3,fix linux/unix directory and add note about the XDG specification followed,2020-06-08 10:42:45-07:00,False
+b1e94f0df7041bcae97455508f423178aef9d61d,heading formatting,2020-06-08 10:44:09-07:00,False
+aeb48edf727f23cc4f8fd9b760cfb69f03098278,use $LOCALAPPDATA variable for windows,2020-06-08 10:48:58-07:00,False
+811a0b0495819925199d70db266066197cc6824e,add info regarding the local parser plugin files,2020-06-08 10:54:42-07:00,False
+12a80e7db0f6c7d536674ad8d34e26bba9a1f1f9,add fedora package info,2020-06-09 15:13:53-07:00,True
+a8837e12447c52dbe438b19c07777b9b4a22081c,remove --upgrade from pip install,2020-06-12 07:57:40-07:00,True
+de3b91a36cfcaf565b26b1da42f1e87835da4dc3,add -dd option,2020-06-25 07:38:39-07:00,False
+be6864b778ab721bcba5fc3221576153be7b2ed3,add syntax highlighting tags,2020-06-25 12:28:23-07:00,True
+6a4f737a0f1c322bebccf69809d9816fc770c5ef,update json syntax highlighting,2020-06-25 12:56:06-07:00,False
+efb6761033319644bf9cdae6288ff5609f6482ea,formatting,2020-06-25 12:59:56-07:00,False
+51331b6dc01eee00847fa4be549ffde365373a01,formatting,2020-06-25 13:01:10-07:00,False
+9f4cf9dd5efe94adfff0961fdb73097ca27c5463,formatting,2020-06-25 21:11:21-07:00,False
+63c6a5edc0e9001b143595fd8b96f1b4a1377a3a,formatting,2020-06-25 21:12:30-07:00,False
+ad6f2ba03a293a7f55e456fa5f5b55ee3cbcd4ec,formatting,2020-06-25 21:16:52-07:00,False
+b9697516887c61f08d8d7b1dc9130350e5bdba9c,add other references,2020-06-26 09:53:57-07:00,False
+847e346602789bf58e3515319e9d080dfb897fc9,add guix package info,2020-06-27 13:01:56+03:00,True
+fde0bc853415418e01616861ace5048770bd97f8,improve package install info,2020-06-27 18:53:19-07:00,True
+5a238e4b4204f0552327534ef798c28d3ad4f578,remove updates-testing from fedora command,2020-07-01 09:11:32-07:00,True
+fbf47d408501dadda4671fb530f5e11859e85d53,add arch linux,2020-07-01 13:28:58-07:00,True
+47aaf20549ea238443427e69d5841d6996b7afab,add sysctl command parser,2020-07-10 10:50:51-07:00,False
+8f4243fbd8d70ca9fd019e984c564e37c81e07db,formatting,2020-07-10 10:54:34-07:00,False
+1ad89c90d890039b817f65b2635db1b5e849a9e7,add pacman,2020-07-10 15:58:02-07:00,True
+c39b1a3356881a11a8f6fe9432897e6d67162f07,"add ping, traceroute and update ini description",2020-07-24 16:17:51-07:00,False
+38d10c97814ec69586c3b447c182f339772d6e22,add ping and traceroute examples,2020-07-27 09:29:30-07:00,False
+ebd8ee49a9f43063850e30c745c8cae46ee13de1,add key/value info to ini example,2020-07-27 10:28:15-07:00,False
+0314ca8c4831d24c169a0e4948421ecd638fd699,add trparse acknowledgement,2020-07-27 10:33:15-07:00,False
+f52f3163bcaf8d7e784f02505e81456e8240295b,add tracepath example,2020-07-27 13:57:58-07:00,False
+45bb5ae389a00ed6a132a65c69ce76c7e5976858,spelling,2020-07-28 11:03:41-07:00,False
+dce318f4fd44b9c4013211bf233020e84566ddb7,remove examples to reduce file size,2020-07-29 11:40:47-07:00,False
+95b3c11203d3dd0627c5eeca39fe1d145bf2d733,remove more examples,2020-07-29 11:43:22-07:00,False
+ed38a18d236cdb991779f4f148e42359c139e61c,remove more examples,2020-07-29 11:49:00-07:00,False
+4e6d283b9eddf7759b4dd37bd643394ff73febd4,shorten netstat example,2020-07-29 14:27:13-07:00,False
+dda517a937323b9888e081aea1032a9d63c4a6bf,shorten more examples,2020-07-29 14:36:20-07:00,False
+2205034e0906b333c259648f7a0e5392945f12ef,add kv parser,2020-07-30 16:20:51-07:00,False
+88b9d5068c5bac0691fedb543114300d6afc7131,finish date parser,2020-08-03 09:26:37-07:00,False
+549780c23220bca3bcab58d7329ba8d44d1be55d,add debian/apt-get info,2020-08-05 11:04:07-07:00,True
+592a3804104628c790997747a778b3b39d076dfe,add Ansible note,2020-08-20 10:35:49-07:00,False
+ed9e52af241b609ee7f5d1b835c9f6c5306cd3c5,spelling,2020-08-20 10:37:15-07:00,False
+7515deb5669ef04623e9cbf58653b30c99a96430,add ansible install command,2020-08-20 10:39:34-07:00,True
+e8467e2af5b0c3f14832a9e6d4a96f219c27f3f2,remove extra space,2020-08-20 10:57:13-07:00,False
+a0a35454bd2831c116cb598c686150b883412f94,add link to the web demo,2020-08-26 14:39:40-07:00,False
+8c554604a42a3ea7ca9131b65c64fd3ceb95f906,formatting,2020-08-26 14:41:01-07:00,False
+70fe3dcb4d5b97aba1d6c6dcd5088fecb27af181,formatting,2020-08-26 15:21:45-07:00,False
+b14e0725f86853f0113116b1c06f54aaa563f365,add ansible plugin blog post link,2020-08-30 11:57:55-07:00,False
+c9180b005c0547c8cbfe4809e66894f1123b0809,formatting,2020-08-30 11:58:42-07:00,False
+439871ea9f6b055a407e1faaf47e4f56d1829501,add ubuntu,2020-11-19 07:07:30-08:00,True
+276160125e01553c75eaad68530177bcf4f9004d,add new commands to README,2020-12-30 14:04:49-08:00,False
+5e6bfa681aff03fbd683f81a9f4daa56b49d1344,add vdir info,2020-12-31 13:18:53-08:00,False
+e4bac3a493705b09e301ddc90dd1b0cee7467c3f,add wc parser,2020-12-31 14:10:37-08:00,False
+5986ce03db6fcd1aa0f7b064eaa96c2120c06d2d,add printenv info,2020-12-31 16:36:27-08:00,False
+2b7405c5e21db2488fc48b58f6c65cff947ca95d,doc updates,2021-01-05 13:58:38-08:00,False
+661b3ef311ad26678030c70c11f2f955667311a4,doc updates,2021-01-05 22:04:44-08:00,False
+5885b960f9b33a95ecec9f4a33233c2f8682fbc4,doc updates,2021-01-05 22:12:13-08:00,False
+58246e33b71bae0ca4a42ad5bdf31134948b1014,update compatibility info and changelog date,2021-01-06 14:33:38-08:00,True
+ef856c6ba5774cd8ec23acd71496846e794e3872,clarify -q option,2021-01-07 12:09:41-08:00,False
+042aaa61b96fc8472a8a460c49bde4cbbc359094,minor updates,2021-01-08 08:23:29-08:00,False
+c672d1c174a42ce44544dfaec0ebcf3c30fd7acf,initial working hciconfig parser,2021-02-09 16:03:00-08:00,False
+258f1433b36a7ee117ac43953edb4fe964603e7b,add locale info to readme,2021-02-11 11:27:01-08:00,False
+fb5654d3c4549e84940e2518f2d214debdd42d51,formatting,2021-02-11 11:27:54-08:00,False
+ad645636d07d0423253f19068a22b2a28251b05f,update uptime docs,2021-03-25 11:43:30-07:00,False
+a364a6a9faeb6aa290b790f3dec74e92b8670534,add note regarding calculated timestamps,2021-03-25 15:08:23-07:00,False
+2772c5ae436ea437d833003372d53a3d3f955ea0,formatting,2021-03-25 15:10:07-07:00,False
+912877f25ad562ed4cafe7b2d7446bd48b477ea2,additional timezone info,2021-03-25 15:34:54-07:00,False
+f07620afc7dc0d0d605eb483ef36c5979b33cdfd,"move version to jc.__init__.py
+add -h option for help instead of always showing on error
+use jc.utils.error_message for the following errors: missing/incorrect arguments, parser not found, missing piped data",2021-03-26 09:28:03-07:00,False
+a0db7754e384a0c95f2099bf894f3a22bd33c002,add nixos install info,2021-03-26 09:32:49-07:00,True
+1c16d25b17a7282a62a5ebd9755df5569c57435f,add version option (-v) and copyright information. add 'ensure_ascii=False' to json dumps to properly show UTF-8 copyright character,2021-03-29 09:41:15-07:00,False
+1560dcddcf82f55fffce22d1b46d372b25a9d0fd,"add acpi, upower parsers and -v version option",2021-03-30 16:43:02-07:00,False
+656eaa150861948091ef9d6323805c2698039bc6,formatting,2021-03-30 16:43:53-07:00,False
+4c9761231af897658c3a2c0abcc476aa8b43d1b3,add when_epoch and when_epoch_utc fields,2021-03-30 20:41:10-07:00,False
+884c36ff42df4f580c8e2b4705def8e4c1182e39,add /usr/bin/time parser,2021-03-31 20:19:46-07:00,False
+cf3cc636badcf4ae6db1e5ee5e57ca0331ee5b0f,add dpkg-l parser info,2021-04-01 20:25:56-07:00,False
+283433578dfc3f132ef35727ce5bafb3e390896c,add dir parser,2021-04-02 12:01:23-07:00,False
+017228f80d9a65ad7715f31c539d9fca1615296f,add tested on Windows 10,2021-04-02 12:14:26-07:00,True
+f238fac0eb0c8e5133c6c9abf9ca709f5df7a925,add contributing guidelines,2021-04-02 13:19:47-07:00,False
+4ff9952938d0654376efc94ca7d8a12f6df171af,change OSX to macOS,2021-04-04 15:57:44-07:00,True
+25410d33168ee7142bd8f8c739ef22a62a47eb6c,create readmegen.py script. move jinja2 templates to templates folder,2021-04-04 20:28:54-07:00,False
+f88c8343f9dec5e0190df94a5109e6c749bda286,update iw-scan description for documentation,2021-04-04 20:30:53-07:00,False
+6201fb346a66ba762651624cdaf03f08e08579a1,test backticks in description,2021-04-04 20:31:58-07:00,False
+e4781d60ce251f6d47f19bbe042e97f8aa9e2f18,update parser descriptions with backticks surrounding command names,2021-04-04 20:52:34-07:00,False
+02f4d606d0a446c7cc74aedac6035ee79805950d,add documentation links to README.md,2021-04-05 11:49:30-07:00,False
+2f1011dd85ec9b3550138ac4a4e1729fa5b4fe17,readme update,2021-04-05 12:03:35-07:00,False
+6fe175344fc61d4996a9ea20f6c5d429efb1fac7,change examples link to github.io,2021-04-05 13:38:09-07:00,False
+fd1ca82d86649adeb84968142665e5e4fae3fa0f,add finger parser,2021-04-05 17:09:22-07:00,False
+e0d430c26c38db8de5a32741e05df412cffe45b7,update -r raw option info,2021-04-06 11:00:46-07:00,False
+0548263e898bf14f93d2fa423c0f0a9d9f2ff567,add rpm -qai parser,2021-04-06 14:39:39-07:00,False
+293ad39f4bcf326186dd917d8bc58d3964e5e4d6,typo fix,2021-04-06 16:48:31-07:00,False
+abee226591ed4ae37351efc995017d28b27827d9,rename rpm_qia to rpm_qi,2021-04-06 18:32:47-07:00,False
+5285e699c30fdeaf56068f5a03ef1d1d33fa673c,fix rpm-qi parser name,2021-04-07 08:07:50-07:00,False
+9b39917c798ed0310c9b82d87172cbf6d24ba111,update docstrings for new help functionality,2021-04-08 11:24:02-07:00,False
+89f52b95f7055da9d7b5fa8dce0923d4c3435bd2,"update systeminfo parser with updated timestamps, normalized blank fields, and new doc style",2021-04-14 20:20:46-07:00,False
+c6aa4d083550d25bcb621cad524047cfd6a08217,update docs with new dig parser examples,2021-04-16 16:19:20-07:00,False
+7ecdf819fa37c38ae6159ad8e7bc973ee4f34559,"remove dig example from readme,",2021-04-16 16:29:27-07:00,False
+23635def8b654097178f73ed1b57fc50965142d5,add ufw to docs,2021-04-21 07:51:32-07:00,True
+ff3c2d809ec3ea6e556c302909a228ee670578c9,add ufw-appinfo to docs,2021-04-23 09:57:41-07:00,False
+eca785450d1c72687817d09259fa7cd33376fafc,add caveats to readme and manpage,2021-04-25 21:06:47-07:00,False
+8d2d3db3fa969456342181a226bf54a3f1613542,formatting,2021-04-25 21:10:21-07:00,False
+92e2252bee00482bb0eeae3074b107d4c8553e4c,fix typo,2021-04-26 12:18:21-07:00,False
+56e041aa260b2daf2f5662fae98645a93137adb5,add Practical JSON at the Command Line blog link,2021-04-28 11:34:51-07:00,False
+934941332f91d9e2cc4e691b154bb5427166ed30,minor link updates,2021-04-28 11:50:10-07:00,False
+bd428a9fd75327710dce96f3c95f74ab9d1beaad,fix link,2021-04-28 11:52:24-07:00,False
+d24f9a885d3954035a98a488671486408f509dca,fix contributing link,2021-04-28 15:26:52-07:00,False
+6150aae0aeabafba26d9f119406b0660d9221cb6,clarify packaged binaries,2021-04-30 10:31:02-07:00,True
+5ee88e7b679bc163a1916d560be6ff29f51699e8,add use cases section,2021-05-05 09:18:45-07:00,False
+4e6ae66bacc014e49c4a9229d10dcc8e95de436c,formatting,2021-05-05 09:20:47-07:00,False
+efb1d3e6b2db920423511a9dcf4c5e5fd9d6af43,add blog title and minor formatting,2021-05-05 09:23:21-07:00,False
+21a15225ebff645439b12d6249dc3e28d7bc09ed,add exit codes section,2021-05-11 10:59:26-07:00,False
+8d8c58742e5106c3387a627cd1b1323a76cc9623,formatting,2021-05-11 11:32:08-07:00,False
+773b7f4b1f23e04c90e602aab05bc1a7e5aae37b,add space before exit code table,2021-05-17 08:38:09-07:00,False
+473a6431425fc24a4cc83939ff592e0d49535b9c,add windows msi info,2021-05-21 10:16:08-07:00,True
+5db71b05cb28691bbbaa5d668bcd4a4ac7e68b85,add en_US.UTF-8 to LANG info,2021-05-25 09:47:24-07:00,False
+3ddc1c665990e1e732314330db214a81ab810fe9,add jello,2021-06-11 11:39:38-07:00,False
+c521ca5bc9e2b035cfef6ff65f6b303b3ec44296,change possible to available,2021-06-11 11:41:16-07:00,False
+db47f35783e46a8299533c22146d851509f6ceb2,add working sfdisk parser,2021-06-30 12:38:36-07:00,False
+2bef4ed6038201f54339e750a833260dc1998591,package updates,2021-07-21 08:47:16-07:00,True
+2689697b4c21758903e5f74ec069e89be585aba2,formatting,2021-07-22 17:03:00-07:00,True
+528aac7ad87feae2093aba563c83a29ebf75e5f9,use subprocess in python example,2021-09-08 07:00:50-07:00,False
+94551d75dd926c7f558e5cab47ba9483a20c6b3c,doc update,2021-09-10 14:27:50-07:00,False
+af615c7f4b3f589ffc1b37cf9834062a04c013cb,add line buffer output option,2021-09-13 21:14:38-07:00,False
+b48d05a4313b27cf5e69d3e4259542e0b131b60f,change from line buffer output to unbuffer output,2021-09-16 20:41:56-07:00,False
+64f5357d69fe88b45d710d38948969699e1ca12f,add streaming parsers section,2021-09-16 21:31:45-07:00,False
+cc38c27f44d3f088609b878304cab8eed75fc8f2,formatting,2021-09-16 21:33:57-07:00,False
+df8387a1a99df69eac5005662aaf56d506fa0efd,streaming parsers cannot be used with the magic syntax,2021-09-16 21:37:54-07:00,False
+5288eb22aadbbc1005b16428b94d2b07e9a75e3c,add info about streaming parser performance characteristics,2021-09-16 21:43:36-07:00,False
+4642c20179d4643e0cf1970b264da7d9d91628de,formatting,2021-09-16 21:55:40-07:00,False
+90d1a30696b2cbfbb06a55cc0cf920cf8ecd89aa,formatting,2021-09-17 08:05:23-07:00,False
+4efe5344e069ed921f208bcbbd097705be2d3b4f,add links to HN and Reddit,2021-09-17 10:20:22-07:00,False
+448c56aa46b72438e4a4c83b10a7eb889e3f50e7,formatting,2021-09-20 13:04:14-07:00,False
+6b7430329cbe1bfb95b47bcfe031906641c127e1,doc update,2021-09-22 14:38:13-07:00,False
+e676f0e20fb6e96a536c4d182b0d287cdc1ad0f7,add streaming parser info for python module use,2021-09-23 08:53:14-07:00,False
+31b62030156f9c826fe5c7d127e9dd0ace582dd0,formatting,2021-09-23 08:54:15-07:00,False
+92363be2dd633bdd3c2dd07c72ebd281d2cb4565,fix streaming python module example,2021-09-23 08:56:14-07:00,False
+df9835a3e62bb2b3b6ec8b55f06a25a00a799d92,formatting,2021-09-23 08:57:14-07:00,False
+f9be5651daa891e06ad0acd8980ffc0fe51fd29d,add language hints,2021-09-23 08:59:26-07:00,False
+9c6c6c4330fc68115be012de254161f36e3a8328,add next() info,2021-09-23 09:04:37-07:00,False
+98a7686db46fbd3ed98382867976249f307d0015,use -qq to ignore streaming exceptions,2021-09-23 11:48:39-07:00,False
+dc1fd3ef1be41aee349b159059f1febff76f6caf,fix -qq docs,2021-09-23 11:54:58-07:00,False
+abd20dfe3662f65373ac582c70aa740e53b52f68,formatting,2021-09-23 12:58:24-07:00,False
+a349fb0bdabaf74503831f22c4efbd02254f809d,change _meta to _jc_meta,2021-09-23 13:08:31-07:00,False
+37223f086cabc8db5962415bd161fed151dafb9d,formatting,2021-09-23 21:13:21-07:00,False
+b4e75da7e3f23502723ce8b2a7261b376f296864,formatting,2021-09-23 21:14:47-07:00,False
+8c3e764516e1c28961b09380b638a57ce98b1261,add streaming parser to contrib guidelines,2021-09-23 21:17:17-07:00,False
+0140688750be61dd752059ee66734ab1c7a8f30e,link updates,2021-09-26 16:24:18-07:00,False
+8f94f8acc6bb53bbb19ba150551c7df2183a8863,add tests and update docs,2021-10-23 11:56:12-07:00,False
+218b9aec8ac397e26e6cd4ff407f3d10ef88ea9b,doc update for streaming CSV parser,2021-10-24 13:10:47-07:00,False
+fc0ce6c95923ab124961e695a26c0b68dd0f359f,add streaming parser to custom parsers info,2021-11-22 09:45:14-08:00,False
+43d34461e27e3e4ac5f985786831c170b348c7c5,update docs,2021-12-01 16:12:51-08:00,False
+a26a298f1a3c141171e7d7ce459a27a297cec031,doc update,2021-12-02 11:42:56-08:00,False
+ac7c13fcc013d386f34db51d634298fa3e97eccd,add -C option to docs,2021-12-08 08:22:28-08:00,False
+34df643f60712ae25645cb7cddff80e43c12262b,add disable colors section,2021-12-08 08:35:09-08:00,False
+88b960eff6cb3739d0d243c8d8b3e8ad5b8eb97c,doc update,2021-12-21 12:14:20-08:00,False
+f7331001d4ab976e311458a16b6e5337da2e3aab,use github releases instead of packaging site,2021-12-23 11:35:39-08:00,True
+32972d8fdbdc71923978fd5c2a87fd6cfa4b7f8e,doc update,2022-01-02 11:00:52-08:00,False
+bc7973af36e13006230b5faa9e201e300d468912,update copyright,2022-01-02 11:07:15-08:00,False
+8d19e4cb7b45e3b6cb8c404c959949b7593c9386,doc update,2022-01-06 11:00:53-08:00,False
+9dd553192fbca3037b3afe5df6bae88f7a8a9365,doc update,2022-01-18 13:40:09-08:00,False
+35b54d235d73b2ce658223be3d6095906f142d89,add python package doc info,2022-01-19 21:53:13-08:00,False
+49c556857708307f617b2b516f2d281398681b5b,module doc update,2022-01-20 07:49:45-08:00,False
+6f04707dc63936efd0e533ae36e1b39ead10c466,add python package doc info to top of page,2022-01-21 15:33:43-08:00,False
+0a187d4ed08173ec360a006ae2367bb1f2f96c52,add console interview links,2022-01-23 10:04:19-08:00,False
+a896dcdf3b31b60582ebb1b3bca5d1103f998dd6,formatting,2022-01-23 13:14:00-08:00,True
+f285539526998a5097943c71dcecb2979036b2b0,conform to 80 columns,2022-01-23 13:36:22-08:00,True
+b3896650c230b4acc73704a50c93ee74e4034eef,revert column formatting,2022-01-23 13:40:50-08:00,True
+75cd84ce8a86b3357c6cf5fe4fbc62d0f298a29a,try new markdown conversion,2022-01-25 17:07:47-08:00,False
+74d5f60d14fc42cfd5768c7ffd6efc890a65d442,update console interview description,2022-01-26 17:17:40-08:00,False
+f7ac41db95c16fd21d83fbce678c5dec28ab40f0,final doc update,2022-01-27 13:27:50-08:00,False
+63e43a7cabb51c624c962cdcc92a1199f18c77e5,doc updates,2022-02-01 17:57:12-08:00,True
+aceeb8450796ae748a4d4abf75643f309d0a42e5,doc update,2022-02-02 15:58:29-08:00,False
+4723db8e3cc4946b14c83b25d6e8c6d2309aa72e,doc updates,2022-02-14 09:14:46-08:00,False
+f75b06abe4af152be094f8bc1ba5ce66b25e35e2,doc update,2022-02-24 20:43:20-08:00,False
+cb2dfeac8d44b733ad9d364e8c6d233a381bfae1,change name to JSON Convert,2022-03-04 13:27:39-08:00,False
+0c1be7cc11ec75a5738483d68d053e702eb34fc1,reduce dig example size,2022-03-04 16:29:36-08:00,False
+648ef4d8a9c33a36d4bb2c135fe59b031de8f24c,update badge links,2022-03-08 13:19:20-08:00,False
+ac61e9ad2c9c4e864db02db04cbf907fb0efd99b,add pypi link,2022-03-08 13:21:05-08:00,True
+bbd4afa73542ba6596aed77426bb494fbcf23196,add pidstat to docs,2022-03-09 14:09:58-08:00,False
+d3727ea0906d6167aa48c340519242b010469d98,doc update,2022-03-09 16:09:35-08:00,False
+d7efd25d88a8f489564ce48223845a16e4ab1cc7,add mpstat to docs,2022-03-11 14:54:06-08:00,False
+c693c868cacbcd81f44fd383719723dd7a137c87,add mpstat streaming parser,2022-03-11 15:59:38-08:00,False
+b204c423c1b947c17cb251a5dd3c444cd71dd2c0,doc update,2022-03-22 07:05:14-07:00,False
+f23f19da453a0f7bcf70e417a10f87e27571aa43,doc update,2022-03-22 12:25:59-07:00,False
+4ee8a69337b24e199983fe657643abcb0a56a8e6,"Update README
+
+Specify the Arch package is in the AUR and NOT in the standard Archlinux repositories.",2022-04-12 20:53:39+03:00,True
+291ab79e22a59cb31814e7a5af9dbc9f2ec863e2,fix arch linux command,2022-04-12 11:07:34-07:00,True
+6cb7e25974b11afe57d7d0e8550b3b1a56b14c67,add docs,2022-04-19 13:17:24-04:00,False
+4825b16f07474771162b6b183d90ab3e13d40c3c,doc update,2022-04-22 15:23:11-07:00,False
+abbfc92da0b68670c6e03e2944ca83bb185effa8,clarify plugin filename requirements,2022-04-22 17:05:22-07:00,False
+148f2fb6dba660bd5211f946ca9321e0e3ac874a,Add Gentoo Linux install command,2022-04-26 10:38:15+02:00,True
+78d2b239c853236c082a9cddc4027ade5ba49de5,doc update,2022-04-26 17:51:30-07:00,False
+fdeb994121654ccc748f0862db30ab4dfe06b1b0,try using a table for parser list,2022-04-28 10:49:35-07:00,False
+60c330b342855b4679c69a6022bb2be511aa4f7d,move gentoo up,2022-04-28 10:59:12-07:00,True
+6eaa4ae17621f9d0d7855b15b3bd6bab5f9ff9bf,try arrow link,2022-04-28 11:05:43-07:00,False
+aa48b46f48c133fa4eeaed375dd46a5e11b738f6,try page character,2022-04-28 11:09:19-07:00,False
+a824ccaff37a7a25537ee73f7f184b15775e3fd5,add git-log-s parser,2022-04-28 16:23:56-07:00,False
+0d5bf11f0dae50ef57462ad2bc51577a3607bc82,change iterator to iterable,2022-04-29 06:42:11-07:00,False
+22acef37653befe9ec9a2aef8a22f68a3cdcbb27,generator to iterable object,2022-04-29 06:47:10-07:00,False
+1f236dc02aff63e7575df7b67ed0824d6d7f5eb3,Update README.md,2022-05-06 16:20:33+02:00,True
+f2dd7b8815edc92e0b7c06367b2de11616938980,doc update,2022-05-09 16:16:29-07:00,True
+6eb595d2ca68e42c5379630a4edab3c8d58ded83,add chage parser,2022-05-11 16:12:29-07:00,False
+416c262f029c325aad4351ec7e6990eb5bd01bbb,remove top parsers,2022-05-13 13:17:16-07:00,False
+dc0947b87ed07843aae97f01ff6fb992221708e3,add other shell info. clean up parser table,2022-05-19 10:52:18-07:00,False
+557e68225cc196edbaa0f727ec7d9cc5da5f1712,add filtering capabilities for other shells,2022-05-19 11:16:25-07:00,False
+8a122cd9e1d3238536bcea69cde96199dd39926d,fix wiki language,2022-05-20 07:58:19-07:00,False
+722eab83b16a51bb15228076b92e125f02567442,add Other Shell section,2022-05-21 07:00:43-07:00,False
+c21c334b73da129a83521d3fd10e1888fce00da5,version bump,2022-05-23 13:43:57-07:00,False
+6869133f532bda10138aa0e101fb742c0517a06b,working top parser and doc update,2022-05-25 10:31:41-07:00,False
+08fbde0e8f4d2e741b3a7af3faa615e9989594e0,fix stdin stder quoting,2022-05-26 16:03:30-07:00,False
+5df1c1702bc203cbd727d25b3398dcba89efe641,add top-s parser,2022-05-27 13:34:07-07:00,False
+fec74cf30542665d7d8b7a7a11f52fa4d4fcd59c,doc formatting,2022-05-28 13:13:07-07:00,False
+da6c98826bba3c5c0fbbc41bc0e319f85b1d66cf,doc update,2022-06-05 17:40:05-07:00,False
+15b58e3a6b307d858e228ad67153371fe6a70baf,add long-options,2022-06-05 17:52:14-07:00,False
+f17b3fbd322ea48a443f16406afc419201838660,add non-breaking hyphens,2022-06-05 17:54:34-07:00,False
+020093fd67cee841291e8115881a8e6418417582,revert non-breaking hyphens,2022-06-05 18:04:35-07:00,False
+901763fc39f5342839d112876b843264cf866df8,fix hyphens,2022-06-05 18:06:38-07:00,False
+79add35fc14f2c2e9fa4bfaa7292dd35c34e226e,split long and short options,2022-06-05 18:09:44-07:00,False
+b9a5eda18736231997668e370850e64e4ee95847,formatting,2022-06-06 10:52:40-07:00,False
+1675aa7a59429bab9f8a8865b36ee5ecb5c6a6a3,add shell completion wiki link,2022-06-15 16:08:31-07:00,False
+9911b3fc9d33d4256f5500b702703eafdb9d69db,formatting,2022-06-15 16:11:22-07:00,False
+edef264f17027e24f099bf96beebe06238b2a377,formatting,2022-06-15 20:04:39-07:00,False
+6adfa15742b6069d344833f84240b9efaecea06a,formatting,2022-06-15 20:10:55-07:00,False
+95189e37ba26e427306a4ca549d7dbc37edcb9f8,add streaming parsers link,2022-06-16 07:48:44-07:00,False
+c8a4890fc74954583c49d1c0b4b6120db90c0cfd,fix anchor link,2022-06-16 07:50:37-07:00,False
+229bef5f8274cbb9958a4c725249160e878b8d7f,update anchor link,2022-06-16 07:52:58-07:00,False
+992120b8613ba9d0e7709073d52a4bb4a87b694a,spelling,2022-06-16 17:48:07-07:00,False
+9b710b0b6fb4019828717203addc67e687b37a4c,formatting,2022-06-16 17:51:20-07:00,False
+6f89745a58f74f9e28b5eab39bc9c6c3d8848fb3,formatting,2022-06-16 17:51:59-07:00,False
+43ac3d951cf749189f843b44f1fe362ae6f10c9d,doc update,2022-06-29 18:36:06-07:00,False
+ec713cfa1b0567425ee1df62039f89feb8a09f30,doc update,2022-07-05 13:33:57-07:00,False
+ad2b9ab76cd56129abd191ec3b74b62e40653e0a,doc update,2022-07-05 15:07:10-07:00,False
+d6ed5a0eba548f55eaa2b9743fce370f433608a1,doc update,2022-07-16 20:52:19-07:00,False
+790103fb4841e2275e9c50baa17fbb5db4955cc1,doc update,2022-07-19 13:02:09-07:00,False
+c30d44ea13ebbd0033a6d49b59c6e7cf00a8d83b,doc update,2022-07-19 15:24:38-07:00,False
+c4fc5409e394f714eb15c3df2d7a6774d08d252b,doc update,2022-07-20 17:09:09-07:00,False
+73ab7da66564de4824f12b16506493ea74fa3dff,add timestamp parser,2022-07-23 12:43:17-07:00,False
+726bcc83d2657bd253c01a9a7fed46a39c3e3fb6,add docs,2022-07-27 17:21:04-07:00,False
+c8c3d5dc3d86adc2af5b4161745d909f5e3d421b,formatting,2022-07-28 09:03:49-07:00,False
+bf93d60bf12780ddd838fbbd6bd051b1fc43b9a6,doc update,2022-07-31 10:52:00-07:00,False
+108e1b730e43f7b2ffe87473e9359f2fb90e7bb4,add plist parser,2022-07-31 16:14:04-07:00,False
+0bfb5f8a3c6e09b37d7ab6ccc0a98a966d626668,add FortiSOAR,2022-07-31 17:19:04-07:00,False
+02f7d73fcab3b1053852ec610d723fbcca52d154,add fortisoar,2022-07-31 17:21:50-07:00,True
+3166600ac69ddbb4ebabf5f9fd9c117e2e4809c7,doc update,2022-08-04 11:43:49-07:00,False
+5f280c3e245dd5c2c08c73c638c8935a1cdeaf8f,doc update,2022-08-12 10:16:15-07:00,False
+3daf90c5fe95611521305344aa2ac1f6a0018fd9,doc formatting,2022-08-15 13:51:48-07:00,False
+80b4f7d0376b6de8f933b02d9708baa8d65fffbc,add streamin syslog parsers,2022-08-16 16:33:50-07:00,False
+23e81bc3fe129808f12ca9e6df4f178ba38f7cfe,add cef streaming parser. doc updates,2022-08-20 13:30:39-07:00,False
+4f21c7b7b4b0f815fc340cfa1404a4b249cfc684,change --time-out to --meta-out. add more meta fields,2022-08-21 12:38:55-07:00,False
+9699a184d188dc99f554118fec97eedd99d55041,add exit code with --meta-out to readme,2022-08-24 09:07:34-07:00,False
+6c38a3bbaac87bbaa7155f85c386a9aade99a543,add echo $? to show exit code,2022-08-24 09:11:06-07:00,False
+a764642a8595fa6d8453b5682acefe553f329cf6,"fixup help, man, readme, about docs",2022-09-06 10:07:19-07:00,False
+c4c159f0560ed7c81fd4e2d031dee4f905d0421b,clean up examples,2022-09-07 13:56:16-07:00,False
+03f0984e1d48a2eb3d302a72b6fd482d16af1202,doc update,2022-09-09 17:13:43-07:00,False
+8da203648bf0b7dc1bcb08ac2926e90ad9338486,update ini examples,2022-09-22 14:28:03-07:00,False
+d51df73f3718014e96a599ffa146a3d4b978f29f,pid -H vs -h doc fix,2022-09-22 14:35:53-07:00,False
+7c0e43b2e147b9a0cfa3c737f91fcccde28f45f0,pidstat doc update,2022-09-22 14:41:40-07:00,False
+25e202a09e26f7614351a7a6dd34f2a2edfd9ed9,doc update,2022-10-08 09:04:21-07:00,False
+3947e424e7ad1d7e31e955869cbcfce086a1b923,rename iso-datetime parser to datetime-iso,2022-10-09 11:00:02-07:00,False
+6247975ee6b1f3d1d959a027e4b9dbb1f8cf53ca,update jc-web link to render,2022-10-23 13:20:50-07:00,False
+dc4620eeb21ac80c3f6e01c4e7aa470fb1b0e79d,doc update,2022-10-31 09:22:39-07:00,False
+01f92ced813fa72ad3c8f497cfd55886227a0387,add docs and tests for findmnt,2022-11-01 13:15:31-07:00,False
+73c280de3a1aaa04caefedc7f4dcb1ab807326a6,use plain Pacman on Arch,2022-11-03 11:29:06+02:00,True
+17fe6c76910c8a9906c21f987bda77443e05d574,semver tests and doc update,2022-11-04 16:03:39-07:00,False
+fd22c7dc3a12efa7428835ba6d20683ffde22170,add git-ls-remote parser,2022-11-07 13:02:55-08:00,False
+2a530712cfd5ce8990da107bd9cca18078636ff1,add os-prober parser,2022-11-07 13:23:55-08:00,False
+39555a48b5416747541adecbe8cb621ba949677f,"Fix typos
+
+Found via `codespell -S ./tests/fixtures -L
+chage,ro,ist,ans,unx,respons,technik`",2022-11-16 10:01:58+08:00,False
+1e7e22330f08818676780a14557113a50ca2cc53,doc update,2022-11-20 20:45:22-08:00,False
+60f1e79b2fd274042bc382601a031923111b0ec3,fix clf request string parsing and add tests,2022-11-21 11:00:58-08:00,False
+9f4327f51776718b51da5b6dd47ebbd4a210155e,add clf-s streaming parser,2022-11-21 16:54:13-08:00,False
+be85d78f55bf3ff78455fe59b0a776f896548d6e,doc update,2022-12-05 14:54:23-08:00,False
+7f4a9510655f81b70ad2565290665ecb5cbca4c3,Add parser to table in readme,2022-12-12 15:18:39+01:00,False
+2879c084e54d656f08ccafe58c6cbc5126af2ef3,doc update,2022-12-13 09:01:13-08:00,False
+6e1a4a103c6ed2278d670abe6f79129751801f3e,formatting and typing fixes,2022-12-13 12:13:27-08:00,False
+491fce7052093b8360c6e2326ab5a769e4f609f8,add openvpn-status.log file parser,2022-12-13 17:31:05-08:00,False
+0dc76621bc43e2f335ac7c2ce95ae53be70e5197,doc update,2022-12-16 12:54:07-08:00,False
+33c40874fa9d9bbe0c3455277bd6ceda978dd7b7,version bump and add iwconfig parser,2022-12-23 09:12:09-08:00,False
+481c6a8de205f5a68d23bc6d3c8f176c4fb68ebe,doc update,2022-12-27 14:01:03-08:00,False
+bb65ec380b428d805fc191c53462cebeaf3e4599,separate kv and ini parsers. add fake top-level section in ini files that are missing it.,2023-01-03 12:11:05-08:00,False
+d83b10e2d54c6a00dd872873883246acb8bef3f0,doc update,2023-01-05 11:27:49-08:00,False
+32521ac91a7f3dba359d57f05fba74f52bb8b20b,doc update,2023-01-08 10:55:48-08:00,False
+029b5abcac1f2253773d9eaf52eb2d23f035d7de,add ini-dup parser,2023-01-08 19:46:13-08:00,False
+4c6eebaa333028c06eb9d64bc9c595bbbe7895b5,doc update,2023-01-22 10:37:27-08:00,False
+13ffe8a84d27f8c630c590f8d6ce019d7e4153da,doc update,2023-01-22 12:44:16-08:00,False
+8e86a04448598882c722ec644d0d1dfb85a7fd75,add slicing info,2023-01-26 16:18:54-08:00,False
+61b8e9f7b50e35b5d57c9429d9456a4c0c276c38,doc update,2023-01-26 16:24:32-08:00,False
+81447ec9e6dfb86041b97b4f4c5e649f3dbb3bc6,formatting,2023-01-26 16:44:26-08:00,False
+976fea4eb254dfa5888b5de3fe28454f3a6adf38,Formatting,2023-01-26 16:46:54-08:00,False
+e758aa41ef0606b9b07a8a3614267a6e1d9ba24d,formatting,2023-01-26 16:49:27-08:00,False
+79305a50d0f1b7058bb6c36d33e65a1d0b4a337c,formatting,2023-01-26 16:59:15-08:00,False
+d6c665f74b69bd93c144b4d0f4ece28fc3f83310,add both negative slice description,2023-01-26 17:06:07-08:00,False
+21ee3c0e78818fcb312d2ea5e089ec8d4dec1205,clarify slice usage,2023-01-27 08:01:32-08:00,False
+aef0fdb4352cb07c80c385a6814e355aeb34bbc5,formatting,2023-01-27 08:02:07-08:00,False
+dc997821f4eaba6d4352516f27104aba85214bed,ad jc-api demo link,2023-01-27 08:12:07-08:00,False
+118f98222a1e82654f490b014c4ce7ee187ec9b8,change restapi link,2023-01-27 08:15:53-08:00,False
+9370b336d84d31a4df57947bccce1beac98768e2,add slice to man page,2023-01-27 11:31:16-08:00,False
+df7aee9e4b08fe1584a8e810d53f1abb4c5cb5b8,doc update,2023-01-27 14:47:08-08:00,False
+0679951d4a3c355b6f89499ef971e25d15039b88,add <nobr> tag,2023-01-27 15:17:41-08:00,False
+1c76caf59b68f0ac6797bc9227371d2a3283e849,formatting,2023-01-27 15:22:36-08:00,False
+bc4738e9006743324c46227c2e34c20cbf751917,don't quote spaces in command arguments,2023-01-27 15:58:01-08:00,False
+9d41f0a93884a1f5b23fc27e83f6fa4bc37e86fe,doc update,2023-01-31 17:00:42-08:00,False
+c46fe9816c8b6542c4c9e4870a93068b7dafe221,doc update,2023-02-05 09:49:32-08:00,False
+22ef4897951fdf6b6d2f4b961aa65886a40d621c,fix typo,2023-03-18 11:07:15+01:00,False
+c60d899f31f59310838e3d16fbfd940d059919d5,ignore non-parser-plugin python files in plugin directory,2023-03-23 16:40:13-07:00,False
+3db9774ac6d54a14a1dbdde71995ce9427364a3a,doc update,2023-04-16 11:46:21-07:00,False
+5e6d2562f9edc977447d4af4ced7d939dfd0f7bb,add certbot command parser,2023-04-29 16:34:23-07:00,False

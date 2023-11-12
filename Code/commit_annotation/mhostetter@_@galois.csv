@@ -1,0 +1,133 @@
+sha,message,date,result
+d52f4b94b0c7ef9187b07a99c81b91e65ddffb79,Add simple README,2020-11-15 11:22:36-05:00,False
+df9b92894fae8daa62606edab44642298b7379bd,Add basic pip installation instructions to README,2020-11-15 20:07:48-05:00,True
+6cf9c8f8b39550bb029aed68f62f45c8d0de489c,Add badges to README,2020-11-15 20:13:45-05:00,False
+008b88fd26f039aa4e85130ed5586d82ef5e81ba,Add testing coverage report with codecov,2021-03-03 23:13:12-05:00,False
+74e968a650672577b1d014dceb4b4d115e43c6e4,Fix mardownlint errors,2021-03-04 10:06:42-05:00,True
+2635f86510a6badcac15b2ab22c8024efd454f21,"Update README to point to stable docs, not latest",2021-03-04 20:09:52-05:00,True
+23433d430d82c1009427349a6b3105dc1b62f67a,Add python supported versions to README,2021-03-04 20:16:36-05:00,False
+15441ff239eac488c3c233af356342e63d667388,Add performance metrics to README,2021-03-05 15:59:39-05:00,True
+00ef00a72c38f3161a07981aa0dd4f7bcd95c8f6,Add some basic usage examples to documentation,2021-03-06 22:58:08-05:00,True
+7b2ed094b985b6e8bedcccf58e43bb3d377bb846,Fix typos in README,2021-03-07 10:04:40-05:00,False
+ba585f2bf97803cd2be2413cd455988b90b540cc,Refactor sphinx documentation,2021-03-24 19:55:06-04:00,False
+2c04b2f90aa28f76898bb16ee798af60a7dfb5b1,Rename Poly.NonZero() to Poly.Degrees(),2021-03-28 08:59:58-04:00,False
+d18b7e368794073e9f514e0bcc1dbd00ccbac301,Make display() method a context manager,2021-03-28 22:03:30-04:00,False
+2bdde9b6129e6cbd8aafaf0491bfd620118c2bb1,Add more detail to README,2021-04-01 19:53:51-04:00,True
+a42fdc73bc0f7b53647969747baf271092d02d2b,Use single argument order for GF_factory(),2021-04-06 12:34:20-04:00,False
+8d2deb75573b8eaf958deda2177150eab550ca95,Make GF array class string mimic np.ndarray,2021-04-06 12:34:20-04:00,False
+c589f8b4c773c9b533eb51b63f4f16c59c4d4792,Add versioning info to README,2021-04-09 17:17:19-04:00,True
+16a8674496af595e816a7b88a97d7aa8b9d1993d,Rename GF_factory() to GF(),2021-04-09 17:17:19-04:00,False
+d070b367959bc8b35f2f6a926cece351c8e3d6b8,Use metaclasses to refactor Galois field arrays,2021-04-17 01:09:31-04:00,False
+c516d79dfd97abf5c7f2c5711806a0692d1ec6f1,Update performance section in README,2021-04-23 11:44:12-04:00,False
+53b0d6ca48bf0114f42e0c769d61f41560080925,Update basic usage documentation,2021-04-23 11:44:12-04:00,True
+f1dd0ec9ffa9ad9260528fff62e0a8aa06812e2f,Add power representation display mode to README,2021-04-26 10:17:59-04:00,False
+5461c176b926b6aa32f74e9bc0d729daad2473d5,Rename Eye() to Identity(),2021-05-04 14:12:20-04:00,False
+b0404d3948656d42138d4d18f80d127d0977485a,Add future roadmap to README,2021-05-07 14:48:24-04:00,False
+e89b839f8af1bb0d62abd3694f07ba699deba945,Add linear algebra performance to docs,2021-05-08 13:25:10-04:00,False
+f3bf3fea460fd31e4510ffcb09ba9f8371d878ad,Update performance examples in docs,2021-05-08 13:25:10-04:00,False
+656671f1d12c47ab23df120dc4c26edb08ce9b6e,Minor README updates,2021-05-09 15:26:37-04:00,False
+7baa72b8efa96a61359ae975120fd436f60fe7e0,Rename GFArray/GFMeta to FieldArray/FieldMeta,2021-05-16 13:55:42-04:00,False
+5a9107e30bab86955b992b156f073f1e0e9a3801,Add release notes to docs,2021-05-16 13:55:42-04:00,False
+5f1a0574ed8cc760772f95b1ac23a4222898d70a,Add `vdot` linear algebra function,2021-05-19 10:12:15-04:00,False
+555f69657ddac98ce076440912403fc057d6d75a,Add `poly_factors` functions,2021-05-19 10:12:15-04:00,False
+d9f0ba28a961256adfa4a64eb7f20ba8c1b1456c,Add `Poly.String` constructor,2021-05-19 10:12:15-04:00,False
+96211b4f6dd6c10a91d9d43a81ed2733a10c298f,Fix broken hyperlinks in README,2021-05-19 15:39:05-04:00,False
+5504b711ca0e8c2a603fec5d475067da9d65a0ef,Fix typos in README,2021-05-30 16:57:03-04:00,False
+59bc0cc4acf952be74e873f35b92b4cd8ef7302c,"Fix bug in ""power"" representation display mode",2021-05-30 16:57:03-04:00,False
+a5f9f1691819f2e160b7df32b541e1b1b9dce0e3,Rename `FieldMeta` to `FieldClass`,2021-06-15 16:03:44-04:00,False
+8d463469065637ce698bafbcd132945ab6447344,Remove `target` keyword until there is better support,2021-06-15 16:03:44-04:00,False
+8c65c4d13c633a039f9df9f3d2500c30f2423ad2,Update README with FEC basic usage,2021-06-19 10:41:42-04:00,True
+6de731daac0a5c20860f1f5e667c0b5131a61ba8,Fix hyperlinks in README,2021-07-30 12:07:16-04:00,True
+cc6fd295fd6601f0c09e53dd8b8b8c9f69b1db4a,Remove cryptographic ciphers from roadmap,2021-07-30 12:07:16-04:00,False
+fd6b05649054f3f788bae2006e116e6b1582b1c4,Add hyperlinks to API reference in features section of README,2021-08-04 20:21:52-04:00,False
+6237b1981952a751a6430afc125c8108a62a1a32,Add downloads badge to README,2021-08-07 21:02:00-04:00,True
+a9cd379b53ce88739436138c7ab8f9b5ab08ef3e,Add first version of project logo,2021-08-07 21:02:00-04:00,True
+69a2b4d69109a28451745a75b76629a981afe925,Update basic usage examples,2021-08-07 21:02:00-04:00,False
+489244a18e36c568dc6c50a65198c0d1ad60ea49,Make TOC in README have only one level,2021-08-07 21:02:00-04:00,False
+960fb028f0a3819f89fb1205d47e14d190512a8b,Add citation style,2021-08-07 21:02:00-04:00,False
+731e3a4e3583d9559ed30df3be1a432c8c9e4825,Add acknowledgements section to docs,2021-08-07 21:02:00-04:00,False
+d764b4b1f69f5acc7d85a3ae1c7cc2aea726da0f,Use latest docs badge in README,2021-08-09 16:49:50-04:00,False
+3ce5fd90f442a998bb0e57acb9ed1332c776d2c5,Fix display of logo on PyPI's website,2021-08-13 14:16:16-04:00,True
+41d67846a8454b9d3531acbcbac6ea63b75e5762,Add `<meta>` HTML tag to README,2021-08-17 15:36:01-04:00,False
+575354e6adc84679d781a37359ae52153a44022e,Remove lint badge from README,2021-08-24 19:24:30-04:00,False
+16645b5f882837bf297b4936e1c95128d4af36e1,Remove known mirrors from PyPI downloads badge,2021-08-24 19:24:30-04:00,False
+e3c8ff26b068346e2f3fed7b6e1b5546604edc1c,Add Twitter badge,2021-08-24 19:24:30-04:00,False
+60f83fdd40c47e1516188d40acc49e89cdc11566,Add CITATION file,2021-08-24 19:24:30-04:00,False
+354f221c501b4c501136bd90d1c638706b6cb45d,Fix display of logo on PyPI's website,2021-08-31 18:24:21-04:00,True
+ded3e3a556609aa6cd884427dd75b4a91a7d58f3,Update Twitter badge style in README,2021-08-31 18:24:21-04:00,False
+eff2ce73e18261753a5eba1747201d49ca1ab904,Fix `FieldClass` and `FieldArray` class docstrings,2021-08-31 18:24:21-04:00,False
+c294e5ce4192abf351b1d3c92a5ab307deb6b35d,Add initial implementation of the NTT and INTT,2021-10-13 19:27:25-04:00,False
+eb427c398e626fbf7f3e8ded8a112605b8f3d852,Delete table of contents in README,2021-12-03 17:01:07-05:00,False
+87043548c51e7a5294927555e8ec59e4ee127457,Fix display of logo in README on PyPI,2021-12-06 13:31:47-05:00,True
+f78cb64e9aaa6c55c13722e36807eb04d0ce4255,"Add non constant-time disclaimer to README
+
+Fixes #224",2022-01-16 11:40:40-05:00,False
+eaad6da238ef749a747292cb64a9bbedd5061532,Support `np.sqrt()` on Galois field arrays,2022-01-26 13:13:24-05:00,False
+991feb7044fd32ad1ecd131681e76099e9cb3009,Refactor `lup_decompose()` into `plu_decompose()`,2022-02-10 14:29:44-05:00,False
+7c595ccb75b410408656c069c8f4e1b363de1a87,Add `FieldArray.row_space()` method,2022-02-12 16:08:24-05:00,False
+3c8ced9cc3a493b0e460ccfdd0c8327682f15370,Add `FieldArray.column_space()` method,2022-02-12 16:08:24-05:00,False
+0a103f6165b11c5be66e7d9ef1f78c5302687ef0,Add `FieldArray.left_null_space()` method,2022-02-12 16:08:24-05:00,False
+71dd31c11424f223eb05542605e10ff1662405f7,Add `FieldArray.null_space()` method,2022-02-12 16:08:24-05:00,False
+4083e895e67c4bda8528540bc760492c0f26385c,Add `()` to functions/methods in README,2022-02-12 16:08:24-05:00,False
+6872b7a956aaaa34b44b5db7559c41e6be225562,Initial docs port to `sphinx-immaterial`,2022-02-22 16:35:21-05:00,True
+603c03d7f157ab3801ed279be6236f59efac90d6,Update Getting Started guide with new array `repr()`,2022-03-02 18:02:16-05:00,True
+337ef93bd2ceec09b16ffd67889df07b851b775c,Update BibTeX citation,2022-03-16 16:07:23-04:00,False
+3ec09d3bc694567a53fe95e236660c6b5bb0bb41,Separate `LFSR` into `FLFSR` and `GLFSR`,2022-03-21 10:55:54-04:00,False
+5b5c65cccf86f2ce6c3485c1742ea65117631ca1,"Replace `FieldClass.properties` with `FieldClass.__str__()`
+
+See #289",2022-03-21 10:55:54-04:00,True
+c2e3defa55f84b3a933d47e09a3e372f55bcee3a,Update feature list,2022-03-21 17:11:28-04:00,False
+58693733859c8d91baf2380d5066595b9bc2fc9a,Fix BibTeX label,2022-03-23 21:11:25-04:00,False
+1c99193e0a8e3638e2e3a73e6c8352cfde7ebaf2,Fix typo in Getting Started guide,2022-03-24 14:56:28-04:00,True
+895053a7701ba3200b4a5708cbff05fe33d2ef07,Add release notes for v0.0.26,2022-03-30 18:09:29-04:00,True
+5d8d29e5cdce234f6eae89a2e65022df3123dcd7,Update docs to add info about the FFT,2022-04-08 11:29:02-04:00,False
+de87b1f3abc47c5af23f60efc5edd9edc7ef8b16,Rename `FieldClass` to `FieldArrayClass`,2022-04-15 13:59:10-04:00,True
+d036af6c35c5e5c344c2e3e82222b721935a1b65,Remove metaclasses from API,2022-04-22 15:19:02-04:00,True
+98c2272219db3a5f4bd6c5e5a8ad023c51c8477c,Update README,2022-04-22 15:19:02-04:00,True
+db5c3122d8beac60e345b89a9cd89bce11454b7a,Add release notes for v0.0.27,2022-04-22 15:19:02-04:00,True
+aee74b70b78565d3db1994d1f5bd4d4c6f53e080,"Clean up class `str()` and `repr()`
+
+Add back `properties` class property",2022-04-27 11:21:43-04:00,True
+ab0163f8cf62a6aa4d2f696e6b9d716b055aa8e1,Add release notes for v0.0.28,2022-05-11 13:49:31-04:00,True
+810bca8693ae53991c4ff3f81167e5291af6b8d2,Add release notes for v0.0.29,2022-05-18 09:28:55-04:00,True
+501a3230619853810d7561cfab1ffabb2cf6339b,"Use mathjax in GitHub-flavored markdown
+
+[skip ci]",2022-06-05 16:54:49-04:00,True
+740f88880f7f395dfe5bcecd51c4c8ab9a691c0e,Add release notes for v0.0.30,2022-07-12 13:49:45-04:00,True
+cb25b40b98bbf1e058dc2eb34b50c39f4df9048f,"Update hyperlinks to use the new `dirhtml` style
+
+Fixes #378",2022-07-24 09:21:06-04:00,True
+5a3b484da83a2eed54cd9e75c4a4cb207a3fd3a7,Add release notes for v0.0.31,2022-07-24 10:12:43-04:00,True
+80f1e794e81de11be491bdf2bdd57122b85ac1b8,"Minor README edit (to test `--ff-only` merge)
+
+[skip ci]",2022-07-26 10:45:24-04:00,False
+ce1e4cfcc38893890512f4cefcbf1fde74146e96,Revert minor README edit,2022-07-26 11:26:38-04:00,False
+cc89ff183cce064c74c5844c6c43033e1338e603,Add release notes for v0.0.32,2022-07-28 15:14:47-04:00,True
+fe309c08ba2dc1e6251a69cd0687b13b5e00ab86,Add and center GitHub Actions badges to README,2022-08-24 22:35:56-04:00,False
+7faa30a59cdf7a1cc0a5b65031e1a8c5a3179a17,Rename `.yml` files to `.yaml`,2022-08-26 01:50:58-04:00,False
+750cce9bc410cfd8cb2fafb5a92c727113bfde1b,Add release notes for v0.0.33,2022-08-26 17:33:06-04:00,True
+58e00784a0b0ab4fcd8c775b06f650548a68e1d8,Add release notes for v0.1.0,2022-08-27 11:47:15-04:00,True
+875e069bee789bd61a47963effe49743c8714d41,Modify warning section in README,2022-08-27 14:35:49-04:00,False
+e1fa463a307a208f1411afa71c12ec778551fd10,Update README links to point to GitHub pages deployment,2022-08-30 08:18:14-04:00,True
+1b87674ca84e17582545cbe4c1b827877a3ca5d6,Add release notes for v0.1.1,2022-09-02 13:26:39-04:00,True
+e07461b4e5fd5c9895efe5bf1aaf60bc07b216a2,Add release notes for v0.1.2,2022-11-09 20:08:23-05:00,True
+61f1849a48f6e88dd2f1e008a9d2c878e7a1eb1f,Fix console syntax highlighting in README,2022-11-10 16:12:52-05:00,True
+b933732b7d898425076e2ab855e82238cc8087c9,"Rename `display` to `repr` and `display_mode` to `element_repr`
+
+Fixes #293",2022-11-15 10:01:33-05:00,True
+a1827638d40224e41824d04b2e2680f0705bdd33,Add release notes for v0.2.0,2022-11-17 19:19:18-05:00,True
+648aa062c8867ca7e4fc026bda838190ce6c832e,Add release notes for v0.3.0,2022-12-09 09:23:31-05:00,True
+253ce898aeeef02260e36528cc1c9a7963fbd236,"Add GitHub star suggestion
+
+Gotta respect the hustle...",2022-12-10 14:04:36-05:00,False
+638f0aaa447f2a68506ba1c7532deca0204c9781,Add release notes for v0.3.1,2022-12-12 08:06:15-05:00,True
+3eb1cb61d0c10695b9c9e7c5c1cb958e4fbe755f,Add the Cunningham Book to the acknowledgements,2022-12-18 19:27:43-05:00,False
+2a006d14c26f2bf669e23cc0d7f33315c3c27148,Add release notes for v0.3.2,2022-12-18 19:27:43-05:00,True
+f14901b578930fe49ef81887254904f008f9ec68,Add hyperlinks in README,2023-02-01 10:27:04-05:00,False
+db0fde5c6a6fc140c753528eb6b62c67313e0b86,Add release notes for v0.3.3,2023-02-01 10:27:04-05:00,True
+2a27ccd20e32073688542d73eae665cd01688e73,"Fix the Twitter badge
+
+Fetching follower counts is no longer supported in the new Twitter API",2023-05-02 16:23:00-04:00,False
+1edbb193b4816b1ee637cb8860d004d2576b68e9,Change Twitter badge color to blue,2023-05-02 16:23:00-04:00,False
+a2fa1ac9b34cb94314b34475cc131eb6d6c77d7e,Add release notes for v0.3.4,2023-05-02 16:23:00-04:00,True
+a140a468fa1f7619f94ad2551f9c14e684ee3a34,Add release notes for v0.3.5,2023-05-09 18:37:26-04:00,True

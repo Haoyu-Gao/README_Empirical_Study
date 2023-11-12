@@ -1,0 +1,182 @@
+sha,message,date,result
+bd368741951c643f9eb1958072c316e493c15b96,Initial commit,2015-12-01 10:08:19+01:00,True
+a91def952a97a4303edc1473661128eaca3051d4,Print statement killing spree,2015-12-03 10:26:23+01:00,False
+cbce69281ba4a47ea6d909080378152937870c7a,"Simplify first time setup of Rally
+
+With this commit we add:
+
+* First time setup of the configuration in ~/.rally/rally.ini
+* Easier installation (now as a proper Python package)
+* Updated installation instructions",2015-12-03 16:27:13+01:00,True
+9e5ad062da14fe29b51c5e84f8c6d86be3ea27f3,"Improve command line args parsing
+
+With this commit we remove the half-backed dry-run support and add
+two more options:
+
+* --update-sources to force an update of the local checkout for the
+  nightly benchmarks
+* --skip-build to assume that the ES ZIP distribution file is
+  already present. Mainly intended for local development",2015-12-03 17:51:05+01:00,False
+cb025c7c1268af51b37e5b5948c4c09a485b82fb,Add initial support to download benchmark data from S3,2015-12-04 10:00:13+01:00,True
+3840f7411bf40daf58140f297703d39b50fa55be,"Add country track; rename Series -> Track, Track -> TrackSetup",2015-12-04 14:28:48+01:00,False
+ca70cb0f243fa1c17be834b30625cdfc860cfaee,Remove s3cmd from prerequisisites,2015-12-04 15:53:56+01:00,True
+94371d97d8c0d96d9aede6e2eec677969b847147,Correct various bits based on early test feedback from Mike,2015-12-07 10:27:56+01:00,True
+b50c5862ea9b644269f49d2b2599b57d684a4c38,Document installation without sudo,2015-12-08 08:43:51+01:00,True
+292775169c64019063cc87d2f1a0fc70ff3ccaaa,Clarify current and future state of reporting in docs,2015-12-08 09:18:37+01:00,True
+96780e5fff7c8d1a15ce8cc10946657f7a021b60,Enable simpler benchmark specification,2015-12-08 17:02:44+01:00,False
+0991e98d55153f3d30246693a2589a00de828617,Remove caveat hint in README as we have a command line reporter now,2015-12-09 11:38:43+01:00,True
+d31d7e55ab64ce03db1155d8c3e88bf08e1b78a9,Minor doc changes,2015-12-09 14:12:27+01:00,True
+f274d0de23d701477f5cb1b013bd94e79e51d276,Correct minor typo in README,2015-12-09 15:27:08+01:00,False
+a65b09f498981eaf31e4b02b3e1c3abf16952d36,"Add subcommands to Rally
+
+With this commit we allow the user to influence which stages of the
+benchmark are run by introducing subcommands. The previous behavior
+is preserved however (i.e. on first invocation, Rally will write
+the configuration, afterwards it will run the 'all' stage by
+default).
+
+Closes #13.",2015-12-11 21:08:58+01:00,True
+58314082536116cf27ff4529fb3338a82ca248a5,Align license text with the Elasticsearch license text,2015-12-12 13:39:37+01:00,False
+20b6ab60cbc3fafa95798d756974af450c42c606,"Add Java Flight Recorder as profiler
+
+With this commit we add JFR as a pluggable profiler.
+
+This is still a very early proof of concept but it allows users
+already to gain more insights than with just the summary metrics.
+
+Closes #19, #20.",2015-12-12 13:52:40+01:00,False
+b4482bc825dbc46407b29e2748abce6825cb9ca4,Use ES as metrics data store,2016-01-11 21:15:05+01:00,True
+0a22bc4feb4ff2ae6d35f1e59e8225acb7f1b9dc,Add contribution guidelines,2016-01-11 21:25:39+01:00,False
+bde912085f9b92c0f327ac8116e259898e1daca6,Minor cleanups,2016-01-13 11:04:11+01:00,True
+9a53a96322b7dad5ff535cd73f53d0dea854e910,Document some useful combinations of command line flags in README,2016-01-20 11:10:54+01:00,False
+000d05220c219f8d6c109e6ffeb786db6d67c76c,"Add pipeline support
+
+With this commit we add pipeline support to Rally. We also allow
+listing available pipelines via `esrally list pipelines` on the
+command line and add similar support for tracks and telemetry.
+
+Closes #61",2016-02-11 13:03:08+01:00,False
+945748eb2d47b41bd11c5155449c7d72c498191f,Fix a typo in README,2016-02-12 15:41:48+01:00,False
+927f3be2e96a6404194a3f349dab5d1f686f78a9,Start benchmark cluster on a non-standard ES port,2016-02-15 09:41:03+01:00,True
+718f1079f81e19448f4c76c02eff8b0beb0e01b6,Minor corrections in readme and contributors guide,2016-02-15 17:24:32+01:00,True
+8ecde2d79877daca743506a13407dc4353ae5559,Add user docs (WIP),2016-03-11 15:52:07+01:00,True
+2c10ee20dd27403bd108c0f2ef4efdc0030af40d,"Provide initial set of docs
+
+With this commit we add user documentation for Rally.
+
+Relates #32",2016-03-22 12:53:42+01:00,True
+7a078a606c3f184f86b40ce4bf062e869032f46d,Clarify role of environment name for dashboard in README,2016-03-22 17:01:49+01:00,True
+0a2bdfac32ff1d18df595828baffb81be1faef8c,"Allow to benchmark a binary distribution
+
+With this commit we add a new pipeline 'from-distribution' and a
+new command line parameter 'distribution-version' which allow
+users to benchmark an official binary distribution of
+Elasticsearch.
+
+This is intended for end users which are more likely to be
+interested in performance characteristics of releases in
+contrast to core developers which also want to know performance
+characteristics of development versions.
+
+Closes #63",2016-03-27 10:47:12+02:00,True
+dad9a4802df5a40988ec197a6f092b01773d039b,Correct formatting of inline literals in README,2016-03-31 09:28:50+02:00,True
+33e9c8c72b2714faffd601b46caed0a823fb78b8,Minor formatting correction in README,2016-03-31 09:33:47+02:00,True
+da435a95a9bd7bb5244c4351eec784e1bfce5f1b,Minor formatting correction in README,2016-04-01 09:02:13+02:00,True
+b2fb6e047fcf8ed5aa059facfba3f632731234e0,Minor formatting changes in docs,2016-04-02 12:07:19+02:00,True
+7c2d8cb8d1c12041fcab00f83bb1ad718537567c,Move dev installation do dev guide and show pip installation in README,2016-04-19 08:09:10+02:00,True
+c5740db1694f73ee9baa327e0a50713fcd8b4241,Fix formatting in README,2016-04-19 08:10:25+02:00,True
+bbe25034f88b1e86bada1c23bb76f214a1cddf7d,Improve documentation on how to run benchmarks,2016-04-19 09:46:38+02:00,True
+353ef0c382fd3cf3a7b4a5bb445a752e6a42a561,Fix minor formatting issue in README,2016-04-19 12:50:28+02:00,True
+588fa1d468ac6f45578349ca1fcef8f4b0fbcd97,Add installation hint for ES developers,2016-04-19 13:38:44+02:00,True
+46272f5108325ab54a0cd6edcc73790b52537161,"Clearly state that Rally does not support Windows
+
+Closes #89",2016-04-28 07:46:44+02:00,True
+eda17529b76b30e8917058b47e991a351ee88902,Update readthedocs domain name in README,2016-04-30 11:06:22+02:00,True
+79cbec7fcc3c78a54a7f217e81d3b1cfb03b6138,Minor corrections in docs,2016-05-05 20:24:30+02:00,True
+7a4bfedce76de999ce56fce7ee973c2fdbc98fdb,Get rid of external 'unzip' dependency,2016-05-18 23:25:14+02:00,True
+3ba84d1060ce3604aaf43ad43b6b9fe52051094f,Release 0.3.0,2016-06-09 13:35:18+02:00,True
+1d3d8f1c0defd6ba03f26d8e7e5c37f383ddc223,Improve help on errors,2016-07-15 07:32:31+02:00,True
+b7276d107fe1f3c339ea0ec2bbf495607ab29bf4,Change user forum to Rally's own Discuss forum,2016-08-31 07:35:56+02:00,True
+412f3c753015a70c12a65fe42a40cd44f1bc5dd2,Improve docs a bit,2016-10-20 08:43:17+02:00,True
+222b7186afacad197be7bf1afc775fe613c36138,Formatting fix in README,2016-10-20 08:44:03+02:00,True
+77f1f49f3dcd5daf253540fbe9a4c26f276f16a2,Formatting fix in README,2016-10-20 08:44:51+02:00,True
+35e9fdcaaaf21240cc4ec0cb1a13d10d58ae9a60,Minor formatting fixes,2016-10-20 10:09:31+02:00,True
+b4cbe66a6a4664df4795a2baaedc78297beecaca,Remove all references to Elasticsearch 5.0 prerelease versions,2016-10-27 09:50:46+02:00,True
+c8833453f302e5bfa28e04b59dd6e533625ed68c,Tidy up README,2016-11-03 13:25:37+01:00,True
+19788ccceeccf0e9f717dc46bb70b460a916a381,Update copyright year in README,2017-01-02 09:17:47+01:00,True
+346b749e963f4f27d56cd6652ae28157c964afd7,Correct Rally Discuss forum URL,2017-01-10 08:47:23+01:00,True
+afcd4db735ec47effe4a63fb1834846c8e3d1d70,"Make task and operation available to reporting
+
+With this commit, we store task and operation in the metrics store and
+consistenly use the task for reporting. As the operation is also stored
+in the metrics store, advanced users that create reports in Kibana have
+the flexibility to use either.
+
+Closes #351",2017-11-14 10:28:23+01:00,True
+e931e8b4b1dcf48c29acd53e3c75a8507b341001,Update copyright year,2018-01-02 15:15:49+01:00,True
+c62f378a7e5cb70bd11b1c06b26e1fc8f954b55b,Update README,2018-06-22 08:59:01+02:00,True
+332fe32b2134ae96e0a6c30e529ed730368e0502,"State clearly that only Unix is supported
+
+Relates #532 
+Relates #533",2018-07-11 08:54:49+02:00,True
+9788246e5a12837b992df5459f38db84e98ebf3c,"Minor typo (#621)
+
+* fixed typo of totally to total in various places",2019-01-04 16:56:22+10:00,True
+792f990eee4d651dbdda47b6bb1dd9dfd7f89967,Update copyright year in README,2019-01-22 13:58:33+01:00,True
+ffb971cd88d7861c4ff234e6753a60c44fd1a543,"Drop support for Python 3.4
+
+Python 3.4 has reached [end of
+life](https://www.python.org/dev/peps/pep-0429/#release-schedule).
+Conseequently, we're dropping support in Rally as well and raise the
+minimum supported version to Python 3.5.
+
+Relates #709",2019-06-11 07:54:29+02:00,True
+3bf51038b8bde64654b5919154ac51ed35a1ffe3,"Bump minimum Python version to 3.8 (#934)
+
+With this commit we require at least Python 3.8 for Rally. This is done
+as a preparation for Rally's new load generator which requires certain
+Python 3.8 features (contextvars, madvise) and uses asyncio internally
+which has been improved in more recent versions of Python.",2020-03-23 15:46:02+01:00,True
+2813960744894ae33afbde06b2d0af3e38af6a05,"Correct Rally forum URL (#1037)
+
+After a recent reorganization of the Discuss forum structure the Rally
+forum URL is not valid anymore. With this commit we update all forum
+URLs to the new one.
+
+Closes #1036",2020-07-28 09:49:42+02:00,True
+f30214c54799c50581c9485af498ae9a25d15544,"Create default configuration automatically (#1139)
+
+With this commit we remove the `configure` subcommand. Previously users
+had to invoke this subcommand to configure Rally. Instead we recommend
+now that users edit `rally.ini` themselves if needed and create a
+default configuration implicitly in case it is not present.",2020-12-21 09:29:12+01:00,True
+921d2df60e08ebe54001e5a5ebb89337d54f8698,Update year in README,2021-01-12 10:56:12+01:00,True
+e5696237880e1f037b51742b107b2a2e63473f1a,"Deprecate invoking Rally without a subcommand (#1155)
+
+With this commit we deprecate running Rally without a subcommand. This
+makes the user's intention explicit and avoids any leniency in Rally
+around subcommand handling. Once a subcommand is required, command line
+help can also be improved by only showing command line flags relevant to
+a specific subcommand.
+
+Relates #1142",2021-01-19 11:29:43+01:00,True
+b8592a6071e549be99ac5538f960fe3026e513fb,"Always require a subcommand (#1175)
+
+With this commit we remove leniency in subcommand handling and always
+require a subcommand. This makes it obvious what command Rally is
+executing and as a nice side-effect makes the command line help more
+useful as well.
+
+Closes #1142",2021-02-09 15:31:07+01:00,True
+a140a6ae72964e6a313970d8f663111b1dc42e80,"Drop support for Elasticsearch 5.x (#1237)
+
+Elasticsearch 5.x is end of life since 2019-03-11. According to our
+version policy in Rally we drop support two years after the end of life
+date.
+
+Relates #1107",2021-04-19 08:39:32+02:00,True
+ec160e002750c0d29d29c7a1e997be98e3871bb0,Improve docs in various ways (#1332),2021-09-21 16:15:49+04:00,True
+0cc2f729e8fac3f1f32f86116180b54e62f04bc7,Use main branch of Elasticsearch for source builds (#1532),2022-06-29 19:40:00+04:00,True
+0072371b2e188d73ac581888c0f30c2d1ccef845,"Use new logo on GitHub, PyPI and Read the Docs (#1535)",2022-07-04 09:17:28+04:00,True
+818bc4c8bdbabf434496c4f5f40453501ebfa915,Fix GitHub logo URL (#1536),2022-07-04 09:30:27+04:00,False
+e115eda8702b05e1c28fe287f8d07ae6cb14751f,Fix broken links on README.md (#1552),2022-08-01 12:31:52-04:00,True

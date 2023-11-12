@@ -1,0 +1,73 @@
+sha,message,date,result
+ef8b6839f432cf8bd203f9cccfa2360d34726814,git init,2020-08-06 00:25:32-07:00,FALSE
+018213e919f0ab3144f33480557c22a8f0170e5d,"basic Django + PostgreSQL environment
+
+remote containers setup for development",2020-08-07 17:03:48+00:00,TRUE
+74e155f7bef464546c39c198139e12502e056625,vscode debug setup,2020-08-07 12:07:39-07:00,TRUE
+f541b491189ddedb1632d611f619975f09ecdff9,"simplify Django setup, include sample data",2020-08-10 16:19:35-07:00,TRUE
+a3059e1b31ada5d0cbed7a2551b8db67448761d0,don't assume bash,2020-08-10 23:37:50+00:00,TRUE
+088fc1f6066de8ed005f4d8b79fcabe7b0dbac1c,simple Flask API for mock server,2020-08-11 01:39:18+00:00,TRUE
+a29aef97413120ba796aaca08161f11b6078732b,"server can read Bearer tokens from request
+
+fix container internal vs. external server reference",2020-08-11 17:43:22+00:00,TRUE
+54b520d40a695adf9520f44132229feac75a908b,setup simplifcation and idempotence,2020-08-12 23:43:23+00:00,TRUE
+2361f35694222d5622f9b7d4b637ad0b09843d95,adding rebuild and reopen locally,2020-08-17 23:29:31+00:00,TRUE
+f7212a66a4680bfa986f9aa67afe2115f4c4af5a,elevate section heading,2020-08-17 23:36:21+00:00,TRUE
+4ae51d59492e1e6f7020e180aac997a9523a6d15,move sample data out of apps,2020-08-18 02:02:20+00:00,TRUE
+64f8c60928db1f52e4f47dcc59c0b0b1af0d0a7a,Use sqlite for simple app config db (#1),2020-11-04 18:50:00-08:00,TRUE
+34c8b8d7b0d88acd509b0e1eef4dc9c40dd163d2,fix typos,2020-11-05 03:21:01+00:00,TRUE
+4a4d0a6575367bc0da9b2e7ba72bc9cc30b3babe,"Sign and encrypt verification request tokens (#3)
+
+Implements JWT signing and encryption for the Eligibility Verification API requests and responses. 
+
+* JWK, JWE, JWS functionality provided via [jwcrypto](https://github.com/latchset/jwcrypto)
+* Cryptographic primitives provided by [cryptography](https://github.com/pyca/cryptography)
+* Signing and encryption parameters and keys stored with Django models
+* Sample keys for local testing
+
+# High-level algorithm
+
+1. Create JWT with claims from user form submission
+2. Sign JWT with agency's private key to create JWS
+3. Create JWE using JWS as plaintext input
+4. Encrypt JWE with Eligibility Verification server's public key
+
+The reverse steps are applied to decrypt response tokens with the agency's private key, and then verify the server's signature.",2020-12-03 20:57:56-08:00,FALSE
+da4eb8cb9b21598533fde57021dde61936d20b68,"rename the project (#8)
+
+simpler, leaner, code-cleaner 🧹",2021-01-15 15:47:53-08:00,TRUE
+e9e05d62775c8ad6bdd66f1d3bf3a322c74c2141,"Deployment configuration (#10)
+
+* optionally enable admin and debug modules based on env
+* use smaller Slim-based image, clean up build
+* create non-root user for final image
+* install and configure gunicorn and nginx
+* init Django config data from env
+* basic ECS task definition template
+* stub GitHub actions workflow to deploy to ECS
+* update Python packages",2021-02-26 07:36:24-08:00,TRUE
+e872bd1244931f563a18adea000192f4a23ef03d,"Linting and formatting with pre-commit (#17)
+
+* locally + GH action against main
+* run hooks on existing files",2021-03-08 07:29:22-08:00,TRUE
+3a21387e2e6fee5d794d72f8bba9287b2dc132ba,"Read config data from S3 (#21)
+
+add an aws-cli container to task definition, used to download config data from S3
+
+config data stored in volume, mounted into Django app container",2021-03-15 12:06:41-07:00,TRUE
+fa469720030ab409fb12755c210c1c3a7237236e,Remove outdated configuration doc (#23),2021-03-15 12:16:08-07:00,TRUE
+97cdcd7c9a9176fa1608d28f95a53b805d67ef0a,"feat: pre-commit improvements, enforce conventional commits (#69)",2021-06-07 16:36:11-07:00,FALSE
+536cc0ba1b5959797ac8ed6b4a3917ade7ffdd90,"refactor: organize local artifacts into dir
+
+code and data related to running and testing the app locally",2021-06-10 17:09:31+00:00,TRUE
+37fb18bcf62168bb4e08142a0104e7a39b9bd7b6,"refactor(docker): move compose file into localhost
+
+docker compose is only used for local dev",2021-06-11 00:04:37+00:00,FALSE
+11815ee231de647a6e6fd998d01d2dbda8f33fd6,docs: move local run steps into docs site,2021-06-17 22:32:04+00:00,TRUE
+c20e152359e5bf3219fad6fb1239c0fba9f6ccf4,docs: move development steps to docs site,2021-06-17 22:32:05+00:00,TRUE
+33a03ca89de8cdff7acf7d28f65739c6a5ce96ac,docs: move deployment info to docs site,2021-06-17 22:53:00+00:00,TRUE
+07131e9c8c52ca24e5b5b02048c6c6d237ac6485,docs: token signing and encryption to docs site,2021-06-17 23:07:13+00:00,FALSE
+c42ff348732ad08cf59a6e3834a9944e8df69e82,docs: link to license,2021-06-17 23:15:40+00:00,FALSE
+927fb2fc17f20d692ee748c51a8c4f5487efe02f,"docs: improve readme description
+
+for anyone landing on the repo",2022-06-16 09:26:27-07:00,FALSE

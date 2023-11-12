@@ -1,0 +1,50 @@
+sha,message,date,result
+b331acb6dc033f0901448354ea853f65a016c179,Initial commit,2014-04-21 14:44:24-07:00,False
+8392d8b55b6c51f6d4f999027e11dcdfdfaef860,Adds getting started information to readme,2014-05-16 14:04:35-07:00,True
+503737160b78a633b5bac1e1b118dbe2ecf63da9,Adds requirements,2014-05-16 14:07:31-07:00,True
+54b88de493a4c8998d790d8a936dace6c65b467b,honor github redirects with curl -L,2014-07-12 00:59:12+02:00,False
+b26b49713a7913aac963e3d969ecdc24dd424b30,Updates readme,2014-10-27 15:53:20-07:00,True
+4eabd6dc4100b5ea67d7dc6f2f99d5788fcdddcc,Updates links in documentation,2014-11-06 05:34:27-08:00,False
+4fa2e30de96ec6d4356f914e32d946c3440d89af,Adds wiki link,2014-11-06 05:38:05-08:00,False
+0f69689cae5121e2cc634ef2ca7c917b6821386c,Markdown formatting,2014-11-06 05:44:39-08:00,False
+3536c29dd6bbc005b6ac0d0f3d78f5224442a4fa,Markdown formatting,2014-11-06 05:45:36-08:00,False
+e3a489fa674a7d3a702acd497e2885e43dd61225,Corrects path for running graph,2014-11-13 09:53:51-08:00,False
+668b0e9a31e252de46c82a2347dcec356ccd5994,Adds Your Kit thank you message,2014-11-24 10:10:00-08:00,True
+840e62f43939cbc1a8d51a49dadb645ddf1174c0,Adds build status to read,2014-11-24 12:01:50-08:00,False
+414c33b3b6011445ec141047135c48933ad556d7,Formatting,2014-11-24 12:49:51-08:00,False
+a8a297dd74eed45ecc18cc96d7b06be481203234,Update README.md,2014-12-17 17:42:43-08:00,False
+26bcf9de10ac19cb435a41b688c248dfe600db3d,Adds OpenRefine to readme,2015-01-05 16:23:11-08:00,False
+43bad9cb5a6391996fae0769658c2d6d44c24ad8,Adds coveralls,2015-02-02 11:43:54-08:00,False
+3db468eb3b528865c6e1fb4153e515f0ef325db8,Fixes README examples,2015-02-13 16:34:50-08:00,False
+50dca39ba5062903eb1415c990c18597abea2de8,Corrects mvm line in wiki,2015-02-17 16:36:26-08:00,False
+e0722e646b4455ecaff104b189a1b496b4488d75,Corrects owlapi link,2015-02-20 14:48:45-08:00,False
+05599e498925123416a9614423f41d5c6ebb883b,Adds dynamic resource to example configuration,2015-03-02 10:36:21-08:00,True
+cd35bfe687cb720f495047c213c7b4c3cf06f4b9,Documentation updates,2015-03-02 10:43:40-08:00,True
+0e907970e54995d65803fc0c948e1c565bc69c43,Moves index access inside transaction,2015-04-03 16:53:46-07:00,True
+6e5c38490a9921eb996454ee9bcd4472ce43e960,Updates docs for #97,2015-04-03 16:57:09-07:00,True
+4d84d1716d88e668a9061b1d3bbb74a3c9145d81,Updates vagrant documentation,2015-04-06 10:07:50-07:00,True
+eb6aa6bdb55797e07edc7d44f3e7a4c4d74ea1cc,Adds note about Java 8,2015-04-06 11:21:25-07:00,True
+4d9126645f14b1598eb5d2762737b45cd137aca1,Adds note about vagrant for #97,2015-04-06 14:40:15-07:00,True
+148a6fcd70d53faac1846d8c1210f8f9ee8fe138,Adds CURIEs to the pizza example,2015-04-15 13:57:49-07:00,True
+0442aaabc1153397b88becc11b08e12a747ce4b8,"Broadening scope of README
+
+SG is not just for ontologies (although it can be used that way). Also for ontology-oriented associations. But could be used for any kind of graph data",2015-04-16 13:56:58-07:00,False
+0ade2e80bdaa4c6c3bac6f64b886ac7cf98d77e0,Updates travis and coveralls links,2015-04-20 16:39:03-07:00,False
+01b35ccbd4e67bd33436b64a9dac6ddaeee67e30,Fixes CI links,2015-04-20 16:59:37-07:00,False
+047d717f7bbb711b6106667fae27b6ad9a167572,Update README.md,2015-04-22 13:21:01-07:00,False
+265221adfc01efb142456be436f912f62f56acf5,adds waffle,2015-04-27 11:28:06-07:00,False
+25443121986d36d044351f86d0a8f987e5194c55,Minor doc fixes and addition of CINERGI to users,2015-04-28 11:16:42-07:00,True
+04892fe46c130ae72d792478866f36d0747077af,Corrects repo location,2015-05-05 10:07:47-07:00,False
+a0ac0d26f29add07e74fcbdc6a00af2586b0a928,Corrects monarch URL,2015-07-13 15:47:10-07:00,False
+b2daf58b4da13d829c43280ed0793a7ebad50b8c,Complete io.scigraph rename,2015-08-10 13:41:26-07:00,False
+ed52ced3863fcd322de684b93ebca6eaf0b316d6,fixed examples and README,2015-08-10 14:34:04-07:00,True
+8cb116eea286fa006d659f6cc685958101c8caf7,link to slides,2015-08-10 14:45:29-07:00,False
+4b0c969346ab547e089fff868e54b8421651ce9a,Removes java 7 copy from readme #98,2015-08-11 13:53:23-07:00,True
+369db2970a9f59104c361c64c5f4eb262e6d2a38,updated link,2015-12-09 16:47:20-08:00,False
+36ef597e1f19073c8fb5d07f04d6fd247e812f48,fixed a link typo,2016-04-08 12:01:46-07:00,False
+fd4ea6941ccec5dca297690f5636bd28c3018349,Fixed link,2016-04-08 12:16:55-07:00,False
+a27a91bdc892971092aad02cf95f2bb3406e3fe4,added the HBP in the applications,2016-06-22 11:39:46-07:00,False
+291178d3afe10d76a9e3e69e19f363a9aeeb6065,Fixed URL for wiki,2016-07-19 11:12:25-07:00,False
+f6a647a80b1e8452ff0c2a4ab8a527b9e87aa1d3,[#201] first draft of the service,2017-03-28 19:47:00-07:00,False
+5e326b2c623834001e91b2f4a80a0fc6f35ac3d1,Add dockerfile and readme,2019-02-25 19:36:23-08:00,True
+65bf6f1cee9e9ec9b2d3054372b30a9e0ee872e0,fix path in readme,2019-02-28 13:04:46-08:00,True

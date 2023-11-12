@@ -1,0 +1,82 @@
+sha,message,date,result
+ed98a435bb78b5258162745be10d17b0f9d3222b,Initial commit,2020-08-07 23:07:28-04:00,False
+10a319514b42b3c83dbc56b02b598e1269f58425,add header for in development,2020-08-07 23:10:06-04:00,False
+f91cc8c17a17d85cafa4e2aceaca2e2094b2b2bd,in place readme,2020-08-07 23:25:47-04:00,True
+bb911887916da83eb3fe91b6ef346740fc670bf2,update doc with a considerations and variable layout,2020-08-13 17:31:38-04:00,True
+c49ad68e9c0b9833fd9a9fb56ac6263dbcddbbc1,update documentation with installation instructions,2020-08-16 18:24:11-04:00,True
+81a3842b452a547c6305b867faf100d3206ada8a,isolate name when checked out directly from repo,2020-08-16 18:25:34-04:00,True
+cee6c9f6cd8ab1fb58c1ed55f0d8ac8700d18589,update main doc with key services vars from section 2 implementation,2020-08-16 19:40:06-04:00,True
+c5077f74fb70079a0b512d078693b9f70e4e00da,modification to important variables header,2020-08-16 19:43:22-04:00,False
+173b64dabbc657556121203fffb050b8f5c13087,documentation update for ipv6 service,2020-08-19 17:06:58-04:00,False
+1bdaf380ba8bc68478058c7e88543d3068a77280,"remove variable files of section 4 , 5. 6",2020-08-19 18:54:21-04:00,False
+5e80ab0d6759cc247e08037fe8a3860b0f67b4dd,instruction around wireless being disabled,2020-08-20 19:29:40-04:00,False
+83061b763ea8a7ea6b8dc29580de7ab6c349ca05,document router variable,2020-08-21 12:00:50-04:00,False
+f97309cda72e0ce2e7cf1ad907846bfb6449e0fc,add vars for firewall and timesynchronization to documentation,2020-08-23 18:38:18-04:00,False
+71f9c1856becd723001d5bceda11c30c88708c05,"update doc with ufw profile vars for git, http and https",2020-08-24 19:14:47-04:00,False
+4f6ee70d955dfe6c6ca65d79c33faa0ab499b3e6,doc updated with vars related to default deny of ufw,2020-08-25 14:41:45-04:00,False
+73b0f790525f1f7e241455efffa98d86bf01658b,add var and instruction for nftables default deny policy,2020-08-30 19:12:29-04:00,False
+862a3d825a7c9359082b1121cbfc89af59c7b3ae,update documentation with steps for iptables ipv4 default deny rules,2020-08-31 14:23:28-04:00,False
+9e5913ee776890e244b1a08fb0737b278d719434,documentation updated with steps for iptables ipv6 default deny policies override,2020-08-31 15:50:22-04:00,False
+b96351cfce0d119011a355ed82c367ccdde05ed8,document updated with hyperlink for section 4 defaults vars,2020-08-31 18:00:38-04:00,False
+cbea3d00e20373791fb3d9e087f1e909c9f035a7,documentation updated with instructions on auditd backlog limit,2020-08-31 18:36:52-04:00,False
+99a5eea3d095fb123b97559967ea9293733783c6,documentation update for auditd max log file size,2020-08-31 18:44:37-04:00,False
+8361967f13228aca5c35fe9ceecef34a2debe702,doc updated with instructions around ubuntu_2004_cis_auditd_maxlogfileaction,2020-09-01 13:04:10-04:00,False
+6389259649e1a5e50fb8c678c9afe831f231b8e0,instructions for auditd conf changes,2020-09-01 13:54:03-04:00,False
+a43577ecaa6967cdbc6e0c570acac8cfb95b713d,update doc with exception for 4.2.1.5,2020-09-03 12:11:34-04:00,False
+7bd78d6e0a6f2c7a604c25eb7e24a8c613dbb610,update doc with exception for 4.2.1.6,2020-09-03 12:13:29-04:00,False
+5d51cfbd08ed7d28f4f2a5cc8889662af7c3d914,update doc with exception for 4.3,2020-09-03 14:09:08-04:00,False
+75894ae6009ea60ce20e4cd261812470acd121e3,reflect new rolename in readme,2020-09-06 20:04:22-04:00,True
+b8056f64da31b250c7638441c4733e7aed58e1cc,update doc with cron and at allowed users and refactor important variables,2020-09-06 21:25:27-04:00,False
+707d4cc185d8832147889faa3883ad8bd96ca49e,update doc with var for ssh server,2020-09-06 21:44:05-04:00,False
+ff743796846ed18de48c3890c3911e2f05a1a92e,update doc with a hyperlink to important variables,2020-09-06 21:51:17-04:00,False
+863b14ee5253a3c1ccf87d70a5d43a777eb54093,add documentation for ubuntu_2004_cis_require_ssh_ciphers,2020-09-07 18:50:24-04:00,False
+1160568663f29cf0be5ae70674853deec117e82b,add documentation for ubuntu_2004_cis_require_ssh_macs,2020-09-07 19:13:39-04:00,False
+05b76133276a65b6f1532ade8a580e1cf9b64288,add documentation for ubuntu_2004_cis_require_ssh_kexalgorithms,2020-09-07 19:21:01-04:00,False
+e9b8079b4005308a22380eb307dcea48cbee42ea,documentation updated with ubuntu_2004_cis_require_ssh_clientaliveinterval and ubuntu_2004_cis_require_ssh_clientalivecountmax,2020-09-07 19:31:52-04:00,False
+4989f51518054684fc5c5119d4b16ac2152786cb,documentation updated with ubuntu_2004_cis_require_ssh_logingracetime,2020-09-08 15:29:55-04:00,False
+b9e2840513852ae231e0afdc3d52f533706ae969,documentation updated with allow/deny user/groups for ssh,2020-09-08 16:49:38-04:00,False
+40c8a17382e8a553b54eec4d51ad31d6b8259c48,documentation updated with changed allow/deny users/groups,2020-09-09 12:27:07-04:00,False
+d18cb71eefea2cbdfb91bc2342638509aa7c0c58,documentation updated with ubuntu_2004_cis_require_pam_pwquality,2020-09-09 13:23:24-04:00,False
+a63d3ba5653da8817f8d65604c9e0cce3ae52af3,documentation updated with ubuntu_2004_cis_require_passmaxdays,2020-09-09 14:07:48-04:00,False
+c1ab32341a2c9b3cc0ffe446cb9526021597adbd,documentation updated with ubuntu_2004_cis_require_passmindays,2020-09-09 14:13:56-04:00,False
+f792de90794f9b244a010ea569dc8d0865d0d8ad,documentation updated with ubuntu_2004_cis_require_passwarnage,2020-09-09 14:21:07-04:00,False
+390010964c183d644c57467a3cc976caca01bcd7,documentation updated with ubuntu_2004_cis_require_passwarnage,2020-09-09 14:28:16-04:00,False
+09075aff8fc734fbf50c61f67d8286bbb5eb21a7,documentation updated with ubuntu_2004_cis_require_shell_timeout,2020-09-12 14:48:37-04:00,False
+de99be1e298052e8308f9a26153c03a544f82ae0,documentation updated with ubuntu_2004_cis_require_su_group,2020-09-12 15:32:06-04:00,False
+59426faa6ed9a21c062b1be3e3568a6bcb9741f4,documentation updated for ubuntu_2004_cis_require_audit_system_file_permissions_logfile,2020-09-12 17:37:40-04:00,False
+7e2862ca414f635fbefc737b22d8492029f785c2,documentation update with reference to section 5 variables,2020-09-14 19:22:00-04:00,False
+de1af19dba892b6f67e798124847ec14d1f6eb1a,documentation update with reference to section 6 variables,2020-09-14 19:22:26-04:00,False
+dedf8e9433b831797e432cb42ed7bfb02d052ca6,brief documentation on versioning of the role,2020-09-14 19:36:30-04:00,False
+4118c6c37ff80c55419a8bb90b2465a70cfc17e7,refactor versioning table,2020-09-14 19:42:30-04:00,False
+4e9bc12e87d77b01b114d9f5ee61e88a6df2c63e,example playbooks doc inclusion,2020-09-17 18:19:06-04:00,False
+bb3e6e929523fa1a166dd301fbc2dd060ca5684d,contributing instructions,2020-09-17 18:25:52-04:00,False
+0c1b1801ae408575fed64eff04dad00f080c6ad4,add local development instructions using molecule.,2020-09-17 19:01:38-04:00,True
+009a0720474123dece3c0c10c86a81b577fe2251,add instructions to run within a playbook,2020-09-17 19:03:16-04:00,True
+f41c6dfed62259ac37340c947ed952ec36549415,minor comment change in local development,2020-09-17 19:03:36-04:00,True
+c3833985d89de68b333a10995ce64088cfdcbd27,update PR instructions in the local dev and CI/CD section,2020-09-17 19:08:37-04:00,False
+c26a1c99a1427d1cfe0985b7443a27f0d99ce918,update instructions around pip modules,2020-09-17 19:12:07-04:00,True
+15cc6c6b737c8a77a4d40494c1b167fa8dae34af,update badges for cis_ubuntu_2004 role,2020-09-17 19:14:28-04:00,True
+26c8ca1f975fe0be76fb12652d94ece4deddf060,remove docker pip module as not required,2020-09-17 19:20:40-04:00,True
+2962e7f10724c15e3814562f5da1161b62f9a2cf,update to doc for minor changes in local dev section,2020-09-17 19:38:01-04:00,False
+e6f7de8752b7513e9f49e59043765a03853a3f68,instructions for recommended playbook use,2020-09-18 22:55:31-04:00,False
+063bc01aee3024e9d0813200ff69e8169e70da09,molecule instructions minor change around molecule test,2020-09-18 22:58:01-04:00,False
+164824b6758b5e5054c6ea5ec2c28b002e79bf71,update instructions for applying with examples,2020-09-18 23:18:16-04:00,False
+cb3289f8ee08f83296c51a141057295da78750ea,rephrase instructions around custom playbook with certain ufw rules set to false,2020-09-18 23:20:08-04:00,False
+4bd1004170ab97d18a60eae0c8c218ca119b2f6f,example for applying using tags,2020-09-18 23:21:11-04:00,False
+588eaac1fcf9507d33096403569ec1f309bb7244,inspiration header added,2020-09-18 23:51:36-04:00,False
+d5c112148d1442c23af9c0e7411e5412058e6154,fix up doc headers,2020-09-21 10:17:02-04:00,False
+5e835136e152242e294718a532dd8867edbc3f6a,configure ansible galaxy role ID in badges,2020-09-21 12:40:11-04:00,False
+c6110310c05085e3f9e0e3d2e1274f21bb032f9e,minor workaround for 6.2.2 and update readme version table,2020-09-28 14:53:25-04:00,False
+e529d828e798eb9f5553ebc36f69b3e8a28222b7,bump up galaxy and repo versions to 1.0.2,2020-10-29 21:48:07-04:00,False
+1f53384e7ec16371781ca99452e7d902a0de8c2b,doc | switch out testinfra to pytest-testinfra as it has been renamed,2021-05-06 15:52:24-04:00,True
+3af34f89297f68d570428e56b1b11fc3a9e0d557,versioning table update for cis v1.1.0,2021-07-02 23:20:43-04:00,False
+9b297a39528aad9e89a579a22eff9fce878485ad,update instructions when installed without a requirements file,2021-07-02 23:25:44-04:00,True
+59ccec9ff54235d32d2a676da9c0c8bad07975cb,update instructions when installed with a requirements file,2021-07-02 23:26:16-04:00,False
+33688e192d22722447d889299eb3bdcf42e09fb5,state versions of cis supported,2021-07-02 23:44:25-04:00,False
+92d7723f69e90a4366d979882a346899a1d0e2ee,"update release table in docs for role v2.0.1, with fixes for CIS v1.1.0, Control 3.5.3.2.3",2021-09-21 15:38:55-04:00,False
+2f7f34efae31c5073f51dabff631f12147c69ab6,update to version table in docs,2021-09-26 12:34:20-04:00,True
+74c35bbb09baafa09fd08dba492e137dfbbe0e7a,"fix and doc update around postfix config for #14, discussed with @gitbock",2022-01-03 20:05:40-05:00,False
+06419dcaaaaac9392fbe23452bef4990eaef8343,doc and changelog update for v3.0.0,2022-01-03 20:31:03-05:00,False
+57e74fc1e4925c42eeaca5464e46d81a3431659e,minor tweak to doc around versioning,2022-01-03 20:32:17-05:00,True
+1a7a4e9adf18eb81c01607edf5e995b11b9c1481,update doc to address 3.1.0 release and tweaks,2022-02-23 13:40:13-05:00,True
+5fc0321613d9d34195263ba7029fdf16ed34b2d7,updated changelog and versions table in doc,2022-10-17 12:19:25-04:00,True

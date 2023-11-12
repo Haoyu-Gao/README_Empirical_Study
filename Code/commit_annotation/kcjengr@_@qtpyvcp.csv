@@ -1,0 +1,50 @@
+sha,message,date,result
+2fbd9522fa1524b797f14bf07472a1a925aea615,"Initial commit
+
+Initial QtPyVCP commit",2018-06-13 19:21:34-04:00,True
+dc213a0dee515ff788606679336f748533d79fa2,Add demo.png to README.md,2018-06-13 23:41:39+00:00,False
+80c422e7ea0d49e8dd2d73b5744db2ab558ce460,fix formatting,2018-06-14 00:29:01+00:00,True
+6f15161c620b7223138d620e9127c160697f3ab5,Add `pyqt5-dev-tools` dep for making resources to README,2018-07-19 11:47:27-04:00,True
+525974c80c1756ed964e64e900796e42201a80e0,docs: update README,2018-08-03 13:28:59-04:00,True
+99baaa8f0f8f11b668404fbf34b5d5efe60791e2,docs: add camera deps to README,2018-08-04 13:13:36-04:00,True
+dbd626b8637f13305092739634c1f73643e41baf,docs: fix typos in README,2018-08-04 19:18:42-04:00,True
+dee9c844048695f8685f6ec39642de5a6ab60e9a,docs: add more deps to REDME,2018-08-04 19:34:59-04:00,True
+f68a910e7b616814b5eaa826168bd92d6d475397,Updated readme to reflect additional dependencies/startup command,2018-08-14 21:24:40-04:00,True
+705b975b51859879e99d13397221cb0d737cf827,docs: add FileSystem deps to README,2018-09-08 17:11:40-04:00,True
+635e9b93eff4c8db77c3d3d59578c0afe44e707a,doc: update camera deps,2018-10-01 17:47:50-04:00,True
+8799a505b91952cbfc3d0ffe2042f13a9e5ac36f,doc: update README with setup.py install instructions,2018-10-01 21:09:05-04:00,True
+e664e3ef952d611b03fc6c4cc0e3ff5e0f387cbf,dec: fix errors in README and add more info on setup.py,2018-10-01 23:48:07-04:00,True
+2cf822f7b59d981b00ed042141c5bdda398aedf0,docs: add basic usage,2018-10-05 12:39:06-04:00,True
+c563d8fc720c73c87110cdf4cd923bf78393906b,docs: update README,2018-10-05 13:08:56-04:00,True
+618a5a7b892a3ad48cfd8f65a046482d8acb42f8,DOC: update README and doc descriptions,2018-10-17 00:03:44-04:00,True
+c5f8b4b10fc24bf7c49d9d382106d95988cecf83,DOC: add TurBoLogo to readme,2018-11-17 23:39:46-05:00,False
+5e90fbed8cbc2e0a8f34b1a38b77946b84a854a9,add matrix badge,2018-11-18 05:59:52+01:00,False
+d9102bba3068064c82be633e6d647c837dfdcfb1,add gitter badge too,2018-11-18 06:09:44+01:00,False
+3d71ab51c6b95d730ecfeee777c60f7ad2a8c2ba,add more live support resources,2018-11-19 22:14:37+01:00,False
+073f5f4ccda3b1af097ced543eb63b09830f56a4,DOC: update README travis build badge,2019-01-08 18:48:22-05:00,False
+33c9bc2c6a1b86452b0b8b1caa045df826f5eab1,DOC: don't want logo alt-text to show on PyPi,2019-01-08 19:05:36-05:00,False
+be0e779084e013cbfc35b6941c7e20a20556fc71,DOC: add PyPi badge to README,2019-01-10 21:14:46-05:00,False
+660807bf67481bc9458a5bf411aa041204a68158,DOC: update README gitter badge and move badges under title,2019-04-08 17:39:52-04:00,False
+bafc856a853f81da31a4c36c3d7f9bbd890ff6c5,specify that x64 is required on the readme,2019-06-16 05:26:33+02:00,True
+2f1377f5afec60859a309b23aee5bd05ad63b208,Add discord chat room,2019-06-16 05:26:55+02:00,False
+3a82cab2580c93671713ecacf127211cacde1b0a,gitter room was moved,2019-09-20 21:18:46+02:00,False
+7c0b9d6cc847477c50e66d601548ca6c51687970,DOC: Add LinuxCNC forum section to README,2020-03-15 17:15:24-04:00,False
+342d9a7b6b808cc29fadad86c45330bfe6e7fdb7,add note on discord,2020-09-30 07:26:49+02:00,False
+43879ac5c103d8f7a87d30091449c04ce2bf44e6,DOC: Add debiand 10 to the supported distros,2021-01-07 20:35:10+01:00,True
+5ebbc6d5f6dd9877837892aecd2b361a006b64f4,README: update linuxcnc versions,2021-01-07 21:47:39+01:00,True
+84f6296aa8974c6cda37b735680db9a1992d3f29,test dummy commit,2021-05-11 01:55:14+02:00,False
+5296c60830ca1bc16d2b5318bdc34ecb6826abbe,notice irc and gitter issues,2021-05-11 07:46:20+02:00,False
+7e4d385988b2e80652f3c6665a3e75b447352c2e,dummy change to trigger the build,2021-05-11 16:02:33+02:00,False
+d598e8cf8580ed434c77a22d9165a18a010f563d,dummy change to trigger the build again,2021-05-12 03:15:47+02:00,False
+31ec9ba375c42ed89463d0ff1876740fd9c8c60a,update live support channels,2021-06-05 19:06:55+02:00,True
+54949eaa2749f698d19380a00d18ea1604f1e3e9,add libera.chat web client,2021-06-05 19:17:48+02:00,False
+3830b325fcbf767e4104d7402acac1a7f82c1929,update readme python 3,2021-08-14 07:09:02+02:00,True
+215e558f287be803f38d93855cecb3defa9076f7,add warning about python3,2021-09-10 02:26:47+02:00,True
+f3c2b90d05bffa4ddbd0ce51a1d89b0dde4cd550,fix readme,2021-09-10 02:32:48+02:00,False
+d0eabfe86e3c96880c1869c4fb53a006a55b4938,update readme python 3,2021-09-14 03:57:46+02:00,True
+ab66902c7797bc43b9d958cee8d6a69c3735fb85,add warning about python3,2021-09-14 03:57:46+02:00,False
+6243af7020bc9264e776838588fb7b84647d02a8,fix readme,2021-09-14 03:57:46+02:00,True
+498d46db282f19372dc9cac135fd80068eb385e4,add notes about python2,2021-10-20 07:17:39+02:00,True
+8b295f3d87365d8d5e585a1ebc363f652df63062,add debian 11 notice,2021-11-05 20:41:24+01:00,True
+0f99161a0cee5b2ead0bdb1e2b2b2175e2a1d65b,add python2.7 details to readme,2021-12-05 23:13:13+01:00,True
+e7a0510def0196f59c7dea12bc68b18b6af3f595,add www to docs link,2022-12-29 00:07:00+01:00,True

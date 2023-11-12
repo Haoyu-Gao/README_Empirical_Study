@@ -1,0 +1,36 @@
+sha,message,date,result
+f5db90a8101c49f4a3bccd72be33aef54f6a221e,Initial commit,2019-12-12 13:46:39-07:00,True
+96db07ae08d2961f150fdfffdc13db5ede07e293,add guide for creating plugins,2019-12-13 14:32:49+01:00,True
+6b6e23d03730883bbfdd32544eca8786c7fa026b,add licensing steps,2019-12-13 21:00:24+01:00,False
+39dc635c65224a5ab93150b3562abeaec1454544,remove follow building guide step,2019-12-15 15:48:12+01:00,False
+79e21c05fa0297aed97504fac00851b982fe48ee,readme: update build guide,2020-01-13 22:51:58+01:00,True
+4585f7a432fcab46d8ea0856025bf0e7e7add20b,"package,readme: support dependency verification though gradle nightlies
+
+The only other options I could find to do this don't work on gradle 5+,
+which is what travis ships with. It also has some open bugs about not
+actually verifying transitive dependencies, so I would rather use a
+nightly gradle than that.",2020-01-20 06:12:05-07:00,True
+d888c3dc841c88bda921e9731bbc96b28e20eb44,readme: add instructions for bumping version (#71),2020-01-22 02:51:09-07:00,True
+831dd8e0d34d21a49817008ce70d687509360452,package/readme/templateplugin: Update to gradle 6.2 release,2020-02-18 18:16:08-07:00,True
+65fb757e198066b0166c5957b7f6eea66854ea57,package: add a default support url,2021-01-25 20:24:56-07:00,False
+56b96510ac171b415ebcdb087066abb26b3b9a02,readme: add all runelite groups to trusted artifacts,2021-02-13 15:20:18-07:00,True
+531a9a8554fb5bba2103b12b0cf67b35450ced32,"package: use a central verification-metadata file
+
+This lets us have better control over which dependencies are verified,
+as changes to runelite-client's dependencies cause all Hub plugins with
+pinned deps to fail, as the new transitive deps aren't pinned. Moving
+this file into this repo not only lets us update it in these situations,
+but also means individual plugin authors don't need to touch Gradle's
+verification and all of it's associated pains. This also allows plugins
+to pull a dependency that another plugin pulls already with no extra
+work.",2021-02-26 10:23:08-07:00,True
+e35f88e7f57f8b2a94c982e276c431ee96586e43,Add note regarding -ea being required for plugin tests,2021-09-07 14:31:33-04:00,False
+b9a6f4f5091657559ceb3339cb587aa5f9a7482c,Update README with Java version information,2022-04-14 22:02:33-04:00,True
+dd088c5ee430b0b9276062d81f48badd2af03da4,"Add note regarding resources
+
+[ci skip]",2022-05-29 15:48:38-04:00,False
+7ce76005169ba3622646ea23253e3d9233bf41e1,Update instructions for creating LICENSE file (#2883),2022-06-24 03:17:21+00:00,False
+de56da440031f7b812aae1776087724e36f36562,"readme: add enable assertions instructions to ""using the script"" (#2908)",2022-07-02 01:09:27-04:00,True
+4158e46652f8f780b6b04e0688fad596569bc319,readme: remove runeliteVersion step,2022-08-03 14:46:29-04:00,True
+96a5196b059102632d2b5c0b310ff4bf4a262f67,Fix grammar in readme (#3251),2022-08-26 20:34:52+00:00,True
+614ab250e4fa95978c9311f2697734465a3e7bb1,Update README link to Jagex's rules on 3rd party clients (#3525),2022-11-04 16:15:36+00:00,False

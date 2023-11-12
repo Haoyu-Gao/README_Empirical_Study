@@ -1,0 +1,232 @@
+sha,message,date,result
+03944b6c02e77f6d693e837e2e1959e88f20e822,Initial commit,2020-12-29 14:05:57-06:00,FALSE
+48de4e1e1f2efcf65ca146e3bdeee77f94696a77,Initial (incomplete) README,2020-12-29 14:11:29-06:00,FALSE
+4dff189da2527772034d81583fde0b965b605170,Add more to README,2020-12-29 16:34:20-06:00,FALSE
+b9e93dd7ff64310b2ccfc567d17846c6040a0ccd,Remove samples from main README,2020-12-29 16:48:16-06:00,FALSE
+e8f08cb961e52dd105584ad3a33976e12b30e4e9,Add group info to README,2020-12-30 11:50:20-06:00,FALSE
+b2a845875cc99e21214788de53b6d5f8dac35e95,Add make-based installation steps,2020-12-30 13:57:21-06:00,TRUE
+0a1d77b27f2d3b39af9c1b3a069ff9319148e107,Add YAML file format,2020-12-30 21:31:33-06:00,FALSE
+eb1f0392a96267ea8485fd4776ce05cc930b3006,"Add ""Optional but often needed/wanted"" section",2020-12-30 21:33:04-06:00,FALSE
+691f45fe71cdc93d3ac46a72e299a794abea13b7,missing colon,2020-12-30 21:33:25-06:00,FALSE
+2657dac0a27a5dae466496c1a0dbec0224fd3d6e,Add usage examples,2020-12-30 21:36:51-06:00,FALSE
+7f39d84e4aefe1bb6e0c3b1bd5b4f0c0cd4c673f,add basic performance info feature,2020-12-31 17:26:44-05:00,FALSE
+e0a9bbfd013a22111749827e71cb94768c1965d6,change loc of global services dir,2021-01-01 12:18:34-05:00,FALSE
+55ebf1ba54e7b7c1a7c9f0ba0dbac2d83ca18be9,"Add performance attributes to readme, misc fixup",2021-01-01 13:28:49-06:00,FALSE
+08206dbacec949c6a2836aac84afacf14f49f1d3,Tweak install steps,2021-01-01 15:21:29-06:00,TRUE
+537f366bebd87f41c71a2057bbb0f58eee3d4dee,document PTF requirements for performance info,2021-01-02 19:32:25-05:00,TRUE
+13b6d4e3df0a781b868eea69dbea7771c0a1b99a,"add cmdline args for perf sampling time, batch output, colors",2021-01-04 15:05:44-05:00,FALSE
+670b5660ad6dfbc4e37b8f2c1520ecbd1c804ca3,shorten command line opts,2021-01-08 18:20:14-05:00,FALSE
+75e15afab96e3c3bc41b0705ec2223354042c69b,Various README updates,2021-03-03 16:21:09-06:00,TRUE
+d68985bf83d7688cf76cf1f29698c14ab12d2b46,Fixup wording related to log files and loginfo op,2021-03-03 16:22:51-06:00,FALSE
+bf50784d79998887b7640fe19ac8e1fffb3e0e38,Add info about automatically restarting a service,2021-03-03 22:15:29-06:00,FALSE
+e273806ed6547a44afb43d84d6a60d2a80b6383d,Add binary distribution info,2021-03-03 23:05:34-06:00,TRUE
+9181d3747dee75d15819a34df5cbc3bb1047cb1f,Improve auto-restart logic,2021-03-04 07:52:25-06:00,FALSE
+c1e6474c1e1d744a369f59507c05121ae8c8600f,Added testimonial,2021-03-05 21:30:40-06:00,FALSE
+c02f95f416f4c0e7cdb0ceaf14240b13c3ed1519,README tweaks,2021-03-05 21:54:05-06:00,FALSE
+6a6397be3c60ba04a5ec543652bfef05d34fd06e,Slide up binary distribution info,2021-03-05 21:56:52-06:00,TRUE
+7b298ae852772286421d1e2d5519bfda7f07331d,README tweak,2021-03-08 12:44:18-06:00,FALSE
+8db79bb787d47561bcddc639d63502dddc74a6c5,Add demo video,2021-03-12 12:46:54-06:00,FALSE
+6f938edcfaac8b18977569f75e87999b28d37e69,Add man page and bump version,2021-03-15 16:36:50-05:00,TRUE
+df18ada20a4f23b803be3f37d94b05969c7b1eed,"add new ""jobinfo"" operation",2021-03-16 15:38:59-04:00,FALSE
+dd0994801e43d8a160f3cfedc3a5f6f33db2425c,"Update doc with new features (#31)
+
+* Update README 
+* update built man page
+* Bump version to 0.1.0",2021-03-17 11:33:12-05:00,TRUE
+3c3c0ee3b3f150ceaaa979fab64e9473acd3b5e8,Fix binary install URL,2021-03-17 11:41:41-05:00,TRUE
+eeb3515a105c435bc92c5d6723df0a28f30c8999,README tweak with port check example,2021-03-17 11:43:05-05:00,FALSE
+ec3b00616ee42b4705ea0b4ddd82d335c530c89a,STRTCPSVR support,2021-03-18 17:15:07-05:00,FALSE
+1b3ae413cc83eb560368787b18ef9522cbd2ef1f,README tweak,2021-03-30 12:09:53-05:00,TRUE
+1a8755042f444c9cdcf2063cc121174467cd93ea,README tweak,2021-03-31 11:07:18-04:00,TRUE
+117012675017bafac78bf48702ae2c5fae2f9896,Update notes about AUTOSTART(*YES),2021-03-31 15:13:53-05:00,FALSE
+75b4d6a26396d416931651530c15ceef3ca3b499,Add dock about env vars for setting options,2021-03-31 15:17:43-05:00,TRUE
+a04d3fa21eed840e5e37804926cb07d423a6cf9c,Bump binary distribution to v0.2.0,2021-04-15 23:02:34-05:00,TRUE
+6f6afa65f5b44112a76f4e7c7a770e3f3a8a9f14,update changelog for v0.2.1,2021-04-15 23:25:15-05:00,TRUE
+4c52e4c73949c56f6748e89ebce0b5a3b9258b34,Some more notes about AUTOSTART(*YES),2021-04-15 23:51:55-05:00,FALSE
+e61148efe2b46f2a998411da12b7779b86985ced,version bump to 0.2.2,2021-05-13 16:04:56-05:00,TRUE
+d2fe8589a467d171ee06b67ef2640d24fced255e,bump version to 0.2.3,2021-05-14 10:06:58-05:00,TRUE
+850ab10a79948ee863a77f7621a96046f8103bf8,"version bump, add scinit to README",2021-05-14 16:18:45-05:00,TRUE
+f8170430367f460b62e114f88bcac63b64e629db,Add scinit example,2021-05-14 16:18:45-05:00,FALSE
+f8140f48912a35421550c36cee203bf71ef475dc,v0.3.1,2021-05-15 19:14:51-04:00,TRUE
+b0ff2664248cc3ec09cb578fdd9f22a3864df54c,v0.3.2: post-install scriptlet to fix permissions,2021-05-15 19:54:29-04:00,TRUE
+e20e7b087a03316eaf316fc5d77eb3bb5b823d8f,Update README with RPM install instructions sans Internet access,2021-05-15 19:17:28-05:00,TRUE
+b12b4c45eebf2a696b58407993e87e77e35b7b2d,Add issues/contribution notes to main README,2021-05-15 19:29:50-05:00,FALSE
+21f951aeec4d2aea06ef2c32687fed0a7d006b01,Add link to releases page,2021-05-15 19:41:57-05:00,TRUE
+5da453271917664efb36182f24b4fc626bf2efec,Update README.md,2021-05-15 19:49:07-05:00,FALSE
+6096177e3599c7d00e6d78e8d305a3a63dbb75f9,Fix markdown issues with readthedocs theme,2021-05-15 19:55:46-05:00,TRUE
+a2171cd122f5f5de69cf379fc7d7b5f147f028a0,Tweak display on GitHub pages (readthedocs theme),2021-05-15 20:00:25-05:00,TRUE
+85c7bdba9e2315fffd180402374018f90fbf497d,Use blockquote for testimonial,2021-05-15 20:09:02-05:00,FALSE
+fd3d59a336005066698c3e17eb4093f4f18015b1,Fix link to samples for GitHub pages,2021-05-15 20:12:10-05:00,FALSE
+bc9a2654b8f36f5b2ab42240a1cc2e34c6574525,Use plaintext for basic usage code snippet,2021-05-15 20:14:56-05:00,FALSE
+93c38774909bff1fa3458d6fcff508ffcbabfd78,version bump,2021-05-19 12:46:19-04:00,TRUE
+ccdcc2af6c95f4145b35aaf453269ac04e86dcbc,Add link to Hands-on exercise,2021-05-19 15:57:58-05:00,FALSE
+3a0e22859ce1be11bb7de9e8c838427052a0674c,Reorder README and reduce number of top-levell headings,2021-05-19 17:00:56-05:00,TRUE
+67fc513140fcb7fc81fc9bec2d0db73b7e1c3eaf,Update README.md,2021-05-19 17:04:55-05:00,TRUE
+8ff797faac05a8d67e1de4dbb2b736f466800d4a,add OSS databases to readme,2021-06-30 11:00:13-05:00,FALSE
+de3f0d3ffbc4427b660de273426b98bf3a459cd1,add cron daemon to readme,2021-06-30 11:03:25-05:00,FALSE
+45cea1122c4d28c236c3d09ad1c30f0ca7ba27ec,typo fix,2021-08-24 09:24:02-05:00,FALSE
+bb722529bc3e6efa52f07d8767ede30a14f148fc,README version bump to 0.3.4,2021-08-24 22:00:13-05:00,TRUE
+98dc6df993741e87c44cdeb57ab563d02d3e3eb9,Bump version to 0.4.0,2021-08-30 23:20:36-05:00,TRUE
+5a02e2fd7c132bf763a39e644a477dbaafd06d94,"Typo fix
+
+doees -> does",2021-08-31 00:52:59-05:00,FALSE
+9b96402e0612bae2e8385a8e988c986db11a636c,bump to v0.4.1,2021-09-02 09:16:25-05:00,TRUE
+d2c4794d4a580a31fa7a0658125221830b9c95e8,"Don't install runtime dependencies during install
+
+Instead make a separate target which does the previous install behavior
+and and tell users to use that.",2021-09-24 11:31:27-05:00,TRUE
+f0cde39280aa1aebd0a8937be7680c727ae7fa94,Update install steps for IBM delivery,2021-09-24 13:07:28-05:00,TRUE
+a9ae6dae4f4a16f0789ae3829a7bab650e7258d9,Build TCP server to current release by default,2021-12-20 18:22:25-06:00,FALSE
+555de1465e3c981dfdca1c6536cbfb1e1dfd44d4,Add 'scopenports' to README,2021-12-22 10:15:09-06:00,FALSE
+629eaf522942c8eb0cd61c2cd92420e69022d1fe,Add filename support in v0.7.0,2021-12-22 10:15:09-06:00,FALSE
+508f8d078cd33aa553bfaf1b9c4ea5383d36fe5c,Add clarification about `scopenports`,2021-12-29 13:27:01-06:00,FALSE
+d6eadf7cc46a2279630d8abe377d1b3f464264af,README updates for v1.x,2022-01-04 10:38:00-06:00,FALSE
+b0e18300ddc1065b2b70a0cec1cb217c4fdbfe9a,Add newlines around bulleted lists and code blocks,2022-01-04 12:31:30-06:00,FALSE
+db0e59ad9da501a5b2292c909c4f0a44fdfac9a6,newlines around lists and code blocks,2022-01-04 12:35:35-06:00,FALSE
+13acf1d660aaafd268d4782cd8cdfa4d8f4f221f,updated asciinema video (#32),2022-01-04 14:25:09-05:00,FALSE
+025b9b453c20d06978742d9bca75f1f2e0e58916,Reorder configuration guidance (put YAML last),2022-01-04 13:58:12-06:00,FALSE
+64bdb96e33a151e223d73d5c69bded8812c13c86,ADDJOBSCDE mention (#45),2022-01-04 14:07:32-06:00,FALSE
+9d515e063131668d0b00c958d9ce83ea1c4cd9cb,Add logo to readme,2022-01-04 14:09:10-06:00,FALSE
+c9c4830eeec3c79666f478d9885bc0c114d3eee1,Minor README typo,2022-01-14 11:18:28-06:00,FALSE
+7ccf77c501e8cc9b38f0cd85f70e0de572a2d5d7,Fix lock situation in STRTCPSVR,2022-02-18 12:21:11-06:00,FALSE
+c33e887a6965f09162275446e8810f7f27d8689f,feature: new '-q' option to suppress warnings (#121),2022-02-18 14:11:39-06:00,FALSE
+13f1aa1117ba184823b093995c4cc1d3bd7f2ab4,added description for the group listing feature to README,2022-03-10 14:20:02-06:00,FALSE
+c37b0f904662a7c8bffaf2dc80e93c8ce3c6ea91,Experimental: Cluster mode (major) (#122),2022-03-14 10:35:30-05:00,FALSE
+3ad4c46ac6b4daf40019d56deb90d7ae3ad6ed0a,feature: 'sc_install_defaults' cleans up previous configs,2022-03-17 23:32:24-04:00,FALSE
+91a0ab6d781a55def2006b4741fa02dcb53cb7ef,"Allow 'PGM-___' for job name (#133)
+
+* Allow 'PGM-___' for job name
+
+* Add new '-PGM' support to README",2022-03-19 18:41:26-05:00,FALSE
+9196248adc5514a76d92c1211a69da1081e93274,"STRTCPSVR autostart (#135)
+
+* STRTCPSVR support now AUTOSTART(*YES)
+
+* Change README with TCP autostart changes
+
+* Fix `CHGTCPSVR` autostart command",2022-03-23 08:51:51-05:00,FALSE
+98c70c8f3fe2bf66687e415b41d65e64fe98f3a4,"Improve the README (#137)
+
+* Add index to README
+
+* Fix MD025 - Multiple top-level headings in the same document
+
+* Fix MD037 - Spaces inside emphasis markers
+
+* Fix MD022 - Headings should be surrounded by blank lines
+
+* Fix MD009 - Trailing spaces
+
+* Fix MD007 - Unordered list indentation
+
+* Fix MD012 - Multiple consecutive blank lines
+
+* Fix MD040 - Fenced code blocks should have a language specified
+
+* Fix MD031 - Fenced code blocks should be surrounded by blank lines
+
+* Fix MD032 - Lists should be surrounded by blank lines
+
+* Fix MD036 - Emphasis used instead of a heading
+
+* Fix small typos and wordings
+
+* Fix link in index
+
+* Fix TCP servers and deprecated check_alive_criteria
+
+* Add description of the scedit tool
+
+* Fix wording and example of scinit tool
+
+* Add another testimonial to README
+
+* Remove confusing text about mvn compile and running sc
+
+* Fix wording in sc_install_defaults section
+
+* Escape # to prohibit GitHub changing it to an issue/PR ref
+
+* Remove hashtags that GitHub insists are references
+
+Co-authored-by: Christian Jorgensen <cj@dk.nmp.eu>
+Co-authored-by: Jesse Gorzinski <17914061+ThePrez@users.noreply.github.com>",2022-03-23 09:23:08-05:00,TRUE
+3d802e8a661bdd2d5317a357c5c4ae1b155499bc,add 'only_if_executable' config option to doc,2022-03-23 10:13:00-05:00,FALSE
+cdc136871feabfb10e9d22fe31f843462db11d7a,"Reorder README section - issue #138 (#139)
+
+* Add index to README
+
+* Fix MD025 - Multiple top-level headings in the same document
+
+* Fix MD037 - Spaces inside emphasis markers
+
+* Fix MD022 - Headings should be surrounded by blank lines
+
+* Fix MD009 - Trailing spaces
+
+* Fix MD007 - Unordered list indentation
+
+* Fix MD012 - Multiple consecutive blank lines
+
+* Fix MD040 - Fenced code blocks should have a language specified
+
+* Fix MD031 - Fenced code blocks should be surrounded by blank lines
+
+* Fix MD032 - Lists should be surrounded by blank lines
+
+* Fix MD036 - Emphasis used instead of a heading
+
+* Fix small typos and wordings
+
+* Fix link in index
+
+* Fix TCP servers and deprecated check_alive_criteria
+
+* Add description of the scedit tool
+
+* Fix wording and example of scinit tool
+
+* Add another testimonial to README
+
+* Remove confusing text about mvn compile and running sc
+
+* Fix wording in sc_install_defaults section
+
+* Escape # to prohibit GitHub changing it to an issue/PR ref
+
+* Remove hashtags that GitHub insists are references
+
+* Reorder README content
+
+* Reorder the index to match new ordering of sections
+
+* fix merge issues (?)
+
+* re-level STRTCPSVR to be under advanced (fixup merge issues)
+
+Co-authored-by: Christian Jorgensen <cj@dk.nmp.eu>
+Co-authored-by: Jesse Gorzinski <17914061+ThePrez@users.noreply.github.com>",2022-03-23 10:34:23-05:00,TRUE
+a138e5bea5ee4ef28d6cddedb58563772ff6acca,Add contributors badge (#163),2022-04-08 17:57:04-05:00,FALSE
+f99a8a2e64581e163b7798743912d571533d13f7,2 features: `log_dir` YAML option and new `env` operation,2022-04-09 16:47:49-05:00,FALSE
+181611ab20a17b5e9d7f8530cd517a01d705585d,tweak cluster.conf doc,2022-04-11 12:12:22-05:00,FALSE
+f08b0f9b9e92595bb8dda3876ae525c8fda412db,fixup my tweak,2022-04-11 13:27:46-05:00,FALSE
+301e3ff316b61e1ce63a634b184234ce04f38f9f,add `kill` operation,2022-04-28 12:36:30-05:00,FALSE
+1b8c4de09a263fc5e37917b30266636549fc19a2,"Ignore system group on STRTCPSVR/ENDTCPSVR instance *ALL (#175)
+
+* Don't use option '-a' on STRTCPSVR and ENDTCPSVR when instance is *ALL
+
+The services in group 'system' are being started and ended by their own exit program,
+so no need for SC to do this as well.
+
+* Remove redundant info about STRTCPSVR special groups
+
+* Document the use of system group in STRTCPSVR integration
+
+Co-authored-by: Christian Jorgensen <cj@dk.nmp.eu>",2022-06-13 11:21:03-05:00,FALSE
+5bc6251cd31a7432f083cc15e8c55af839397e22,Document installation from RPM release file on GitHub,2022-06-14 14:49:51-05:00,TRUE
+acd1d688e8073929641749be5e226b00f47ff509,"Fix some typos, formatting and missing links",2022-06-14 14:49:51-05:00,TRUE
+6d1159717db2a06173ea9237aaf9d46f35034416,Remove comment on STRTCPSVR integration as experimental,2022-06-14 14:49:51-05:00,FALSE
+ebda33b79d25e8bb58a409e71982beb0371b2d58,Update README.md,2022-11-28 16:24:08-06:00,FALSE
+ed86acb82613dbecffb1d07e443254d7dd153afd,update man pages,2022-11-28 16:24:08-06:00,FALSE
+574a7242517c40e43853750dc709c9c8e6b75909,Add reason why db2util and OpenJDK are required,2023-03-20 13:40:46-05:00,TRUE
+62c1c3ef8e4f61ec996cb2884470fbffdabe1af7,Add another testimonial,2023-05-19 01:10:48+02:00,FALSE

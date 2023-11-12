@@ -1,0 +1,6 @@
+sha,message,date,result
+e2f19be0b9c448e1d694930ec25322f60bcf78b4,first commit,2018-09-25 17:47:25-03:00,False
+f290a58b4f27bc254bf15d1942ed103cda8063cd,update README with pypi installation,2018-12-22 11:10:57-03:00,True
+47a958097e8e2d05f6fc6b2fbcdb30294b56618a,updated README,2019-01-31 15:40:13-03:00,False
+8e40b01ecb738c408ff66fc08ea0062ac0dc0ec1,link to wiki in README,2019-05-22 11:20:59-03:00,False
+694178e75366b58a5388b1b5da96c0698e290361,added readme note,2023-03-08 14:43:25-03:00,False

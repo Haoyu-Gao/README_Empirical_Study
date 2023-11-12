@@ -1,0 +1,24 @@
+sha,message,date,result
+4f095b7cda336d4ad74bd5e50d6948bb6dc5183d,Pruned commit history.,2020-02-12 14:43:47+02:00,True
+791996f10312e691b4796e26d4eac10c7dcfe5e3,Updated repository location in docs and README.,2020-02-12 15:21:47+02:00,True
+1ecb7736496115721ecc44eb668b05862433f05b,Missing whitespaces.,2020-02-12 15:26:47+02:00,True
+5fae29ff12923281ba14475d16ab5e3253a19a5f,Updated DOI badge,2020-02-13 10:08:10+02:00,False
+21d166caa5ec50b7c88bb137bc7df975416603a5,"Update readme to use currently active python rather than pip3
+
+This changes the install invocation for both methods to make sure it uses the currently activate Python. Calling pip3 directly sometimes points to a system pip3, rather than for instance the anaconda installed. At least on my system with conda installed and a virtual environment, pip3 points to system pip, while this invocation will use the currently active one.",2020-03-09 21:29:06-07:00,True
+361d73df29e5815765f3230dcd5f35d6dd7a9ba0,Change build status badge,2020-05-04 22:03:37+03:00,False
+5619cbb0cfcac10ca9e6a12063579f0a536d80d9,Add JOSS badge,2020-06-08 15:05:56+03:00,False
+87d19898317bb12a0e66d869c72f0eea8a166326,Update Cloudnet website,2020-06-27 12:19:05+03:00,False
+2035e975235f2a5d796a6a19e4dfea729f872418,Update README.md,2020-08-27 17:05:13+03:00,False
+54ecb9fc7cc0b1ca678b8e5b5a66c8113c238dcf,Add citing info,2020-09-07 15:12:08+03:00,False
+4b79b26c44ab02fac14b2bcf5f5edf4ab6be8f16,Add License info to README,2020-12-15 14:43:53+02:00,False
+297c92082395a02801e5fb7891e6cf71786d9108,"Use absolute image URL in README.md
+
+This should show the image also in pypi.",2022-01-31 15:25:02+02:00,False
+155a94801b8b6f14c11517593289d72e1b1a2af4,Reformat code according to black,2022-03-28 17:03:34+03:00,False
+c05d5a98b2a22b6cba6e6346cf9231957072dccc,Update README,2022-05-12 11:50:16+03:00,True
+ea7f75b45db0c9d62d4d8bfed15399905027c49f,Update badge,2022-05-19 16:00:09+03:00,False
+458623df6af9bd84451f291b2dff256120d2c265,Update README,2022-11-20 12:23:55+02:00,True
+33bf8efb617b0e72127e18fe73a060cf7eef3885,Fix default branch name,2023-03-01 13:01:35+02:00,False
+f22b4d54f2518b41796564f2cb2b75023da1f409,Add Prettier to pre-commit,2023-04-27 15:31:10+03:00,False
+81ad01f26422e79e090eb7c9d5247d13bbc9e474,Revise README.md,2023-05-04 17:48:02+03:00,True

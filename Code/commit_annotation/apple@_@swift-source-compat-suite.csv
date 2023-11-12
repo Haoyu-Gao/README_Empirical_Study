@@ -1,0 +1,31 @@
+sha,message,date,result
+7964ac4891fa8d51dc28ed57fbd0171438f14f2c,Initial commit,2017-04-24 14:28:43-07:00,True
+1861b15430b9f479604dd58e440ae5cef8ccc030,"Added ""platforms"" to readme examples",2017-04-25 00:40:33+02:00,True
+ad36f082774b4666de0384deba6085478f4fb669,Move maintainer field to be under branch,2017-04-24 16:27:59-07:00,True
+5384e86d52f9277467c83039f7e4669de7ababd9,Link to Swift.org for project list,2017-04-25 17:23:32-07:00,False
+edf3ed01eb42b9c9f20380988860946abc28f9fe,Add note about platforms field,2017-04-25 23:42:09-07:00,True
+97bc9eef8b040c777f4da70a63b6d055eca70a1a,Use proper markdown code blocks,2017-04-25 23:50:42-07:00,False
+0e64d8359434a1205d531d93e908e26c78663251,"Rename check to project_precommit_check.
+
+This makes it clearer that the purpose of this script is a precommit check that a project/updated project is ready for submission to the source compat suite.",2017-10-12 11:42:14-07:00,True
+aacf06e88831b86ae1f5b7403effa0a934d4f988,Update README describing project compatibility format changes,2017-12-14 14:09:01-08:00,True
+1d9724b3e16ac7faa99a3415de7d0a0528cb2f34,Update README for check script changes,2017-12-14 16:49:34-08:00,True
+bbd9f2a6ecb4a39de55fbfd56512fc156c9b668d,README: Add XFAILing instructions,2018-03-01 17:44:50-08:00,False
+10151896ec512d7b7609f7112a9450704e13e8bc,Update README to use 4.2 Swift version,2019-05-28 16:31:47-07:00,True
+ecc13b83e618425932c9678c3f1ea53ddb5d2091,"Add support for xfailing based on build configuration (release vs debug)
+
+We have a project failing only in release configuration at the moment with no
+existing way to xfail only release.
+
+This change also reworks how xfail matching works to be more expressive, since
+it could previously only match either branches or platforms for a specific
+compatibility version, not both. See the README.md changes for details.
+
+Migrated projects.json to the new structure (projects-incremental.json has no
+xfails currently) and updated the starscream xfail to be release-only, but
+left support for the old structure to allow time to update the json in
+downstream repos.",2019-10-17 10:03:27-07:00,False
+6ffcced77665d622b4e6c45ceb4d0a80e6fd013a,Update the scripts to use main branch,2020-09-24 09:53:46-07:00,True
+d05ee8970b162f392107b40b544d40de6c036a43,Add README entry how to only XFail the Source Comapat CI job,2021-10-04 15:03:38+02:00,True
+92f95bcc37d47365d5bd54e0b29c2b4dc6d90d50,Update the issues to GitHub urls,2022-06-01 11:44:06-07:00,False
+6f6598fa6656203e4a43aaf2f69333371a63fce7,drop a note on the readme about python 3.8 support from #681,2022-08-05 09:55:02-07:00,True

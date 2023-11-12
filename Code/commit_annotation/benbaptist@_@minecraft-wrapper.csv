@@ -1,0 +1,194 @@
+sha,message,date,result
+53dba811d65cbc2f8161166fe589c387fbd49f1c,first commit,2013-09-01 19:11:25-04:00,False
+22e7d9552c39da181dd7aae86fff212e9e62764f,Version 0.4.0 - see CHANGELOG for details,2013-12-14 16:10:47-05:00,False
+f472b6fb6fff8872951abcec4cc02c6c5e69e770,Version 0.4.1 - minor bug fixes,2013-12-18 15:51:24-05:00,False
+c0df0496f142cb502502c036124cec3943903cc7,"version 0.5.0 - major overhaul, way better",2014-02-26 18:29:26-05:00,False
+076bf87cb02e328d0a24c61462313ac7bfc52968,"version 0.6.0 - big update: plugins API, minor fixes",2014-05-08 19:01:13-04:00,False
+02494df9869253193b90ce78fe329b242c10a090,"version 0.6.0 - big update: plugins API, minor fixes",2014-05-08 19:13:58-04:00,False
+d116e7d0302679ec0e28843a1d5abe5d7d68acba,"version 0.6.0 - big update: plugins API, minor fixes",2014-05-08 20:06:42-04:00,False
+6538d06396bf9b616545e4e74b4aff0fad5a01e3,getting close to release - new web UI and more proxy mode improvements,2014-08-20 14:49:55-04:00,False
+d84d4a5459735fa473cdb97d54e878ac1d41398b,readme.md improvements to make installation cleaer,2014-08-20 14:55:08-04:00,False
+8e45805dcb3b3bebf526e95378e68c7764ef1f3a,readme.md improvements to make installation cleaer,2014-08-20 14:57:50-04:00,False
+4965d9b155f336dd979c906e4c099db4f8391d98,readme.md improvements to make installation cleaer,2014-08-20 14:58:21-04:00,False
+6a207dd61106343bfb13d3f9762cd64a7e58a8e8,readme.md improvements to make installation cleaer,2014-08-20 14:59:06-04:00,False
+b506cca70a74bef37605802bd3e3c6d72a1b5734,"minor fixes to color codes - underlined should work now, hopefully.",2014-08-20 16:58:12-04:00,False
+7f35346da8be907e4c463f0edbb7583452526e73,"Build: #12 | Made some small changes, nearing completion of 0.7",2014-09-21 18:17:38-04:00,False
+c2fb02b13319d7523a91df1ef1e5931be992c099,"Build 26 | Renamed plugins to example-plugins, and",2014-10-07 18:48:30-04:00,False
+5abdf20ddf91de2b98648c8dadc979256c601661,"Build dev 28 | Checking off more things on the to-do list. Adding more finishing touches, should be ready for primetime. I also added a new scripting system and auto-reboot thing.",2014-10-09 18:49:10-04:00,False
+3556041a354e6348f1bd0635fc9b76f618759ae8,Build dev 29 | Fixed,2014-10-10 11:54:09-04:00,False
+d32039645fa4c7e3c6dc596352e2dcf699cc4feb,Build dev 30 | Experimental,2014-10-10 23:22:53-04:00,False
+0e67c4832e04ddb17fd54d8ce5454b0bb62e8d04,Build dev 30 | Experimental server-jumping code and other minor bug fixes,2014-10-10 23:24:55-04:00,False
+2ac56f5e24f91504e7fa8b31f19928cc4e8041ad,Build stable 37 | Stable 0.7.2 Release,2014-10-17 18:58:33-04:00,False
+ae5bb1b216f700ba068fd6c8d6e16c56325db014,"Build dev 38 | Total rewrite of server.py, same coming for irc.py soon. Also, this build is super buggy, so be careful.",2014-10-17 23:11:13-04:00,False
+72906aac90ff68ce556c75aa53b7a68b9feeaada,Build dev 41 | More fixes. Pretty awesome.,2014-10-24 02:54:29-04:00,False
+887170fbb85ee88a0b39ee6ee7f01757415f2403,"Build dev 59 | 0.7.4 first build, bunch of minor improvements",2014-11-23 19:10:53-05:00,False
+0f6024725ae42a44ec7b5197d401cd8d34478845,"Build dev 60 | Fixed arrow key support with patch #46, handling tar not being installed per #44, other things",2014-12-03 15:04:42-05:00,False
+bc42490f48bb36fb6c03170441d23bf96c01abb9,"Build dev 62 | 0.7.4 RC1 - Fixed not being able to type after Wrapper.py shuts down in console, various fixes and new features, preparing for 0.7.4 release",2014-12-09 20:27:42-05:00,False
+8b7b409b7e2ce0f1af54b6c2e7b4b1abd5bd9383,Build dev 68 | 0.7.5 RC2,2014-12-30 22:08:18-05:00,False
+57593bdbd705e4ee8084f94ff24ed388de0b1acf,"Update README.md
+
+Updated the installation instructions to separate Linux from windows and add more detail to the Windows installation process and it's dependencies.",2015-01-12 14:16:41-05:00,False
+5da343903dd8f912dd146e41c2a2d610ff5bf6a1,Update README.md,2015-01-12 14:18:27-05:00,False
+ffb8ebcf09699a2aa55beaafae1639a7b033d531,"Build dev 76 | Improved /help command with #83 and #87, fixed #81",2015-01-21 19:48:43-05:00,False
+b77d2ca8e11609f1a6306c7aff43d7347abbdc84,"Build dev 79 | Fixes for #111, #106, #109, and #93",2015-01-30 23:21:58-05:00,False
+5c8f2b633b6e6ac906bd0aacbde08ef5b6de95b6,"Build dev 93 | Fixed #139, #80 should actually work now as a result, fixed web mode chat not showing joins/parts, and also now filters <>'s, more",2015-02-20 18:13:54-05:00,False
+7c975e53c12d70e5342cc4abda9e68d16fa351f8,"Build dev 102 | Added log rotation (#147), fixed 1.7.10 support (partially fixing #186), new permission methods in API (#199), added timer.tick (#164)",2015-06-23 22:01:19-04:00,False
+7905d83f49512ddf48e3d54b5473d7b03692a5fb,"Corrected pip command to be uninstall, not remove",2015-08-10 18:47:32-05:00,False
+3e6496382571bbf6cc45283a1100c1996ad6f464,Build dev 108 | Quick fix to disable slots in 0x30 until a better fix can be had,2015-08-15 03:29:07-04:00,False
+f327348955461726f0aa8df1dbb5ef88a2fffd36,Update wrapper to support 1.9 minecraft (initial commit 16w04a),2016-02-03 16:22:05-05:00,False
+ebceb41f2cf211b1fa6604c12e46bc369a3b0c6d,change link for api reference to the Ben's wiki,2016-04-12 18:13:23-04:00,False
+f0d7efcdb0a557d5ecbb24cf0ce0eba3b893c925,Update README.md,2016-04-12 18:21:02-04:00,False
+5b3dbbf047bc5b1fca2c400763181359395b99bf,Update README.md,2016-04-12 18:21:29-04:00,False
+26987e6eeef7972eab0c2c0c3a04967e3b704d08,Update README.md,2016-04-12 20:50:20-04:00,False
+e67aa5e220be609d61ad011bd432ee996a0b3485,Update README.md,2016-04-12 20:52:36-04:00,False
+140161c0986f37f9ec7b75d9d692eb372a06fd4d,Update README.md,2016-04-12 20:53:06-04:00,False
+dc9b25137e24f29ba418320be72b6a1d5ae5c5ad,Update README.md,2016-04-12 20:54:21-04:00,False
+9013653cae1214ddb1d2684bf6c32f6882559bd0,"Update README.md
+
+Just a edit of typo in readme",2016-04-18 21:41:43-04:00,False
+a548d9bec5917194c28ca904e5d95d48ae60042e,remove erroneous references to pycrypto (not used by wrapper at all). Clean up import in encryption.py,2016-05-09 21:17:19-04:00,False
+d3ae01e4e4d4b7ee5d8463569c34f48c5fb27987,"Revert ""remove erroneous references to pycrypto (not used by wrapper at all). Clean up import in encryption.py""
+
+This reverts commit a548d9bec5917194c28ca904e5d95d48ae60042e.",2016-05-09 21:26:42-04:00,False
+d62db94c91aa5f7666d91b48cd089e62fa6fda70,removed alias 'self.events.callevent'. Add Server/Cleint18/19 usages in player.py. modify EULA code and README.md (regarding eula).,2016-05-16 11:46:00-04:00,False
+cd56cd0698b4a8809bf970284a1ba3e78db05f2d,#127,2016-05-19 20:09:09-04:00,False
+b3d6fab420d0b531e2cff90661a786e52b5a9e6c,Update README.md,2016-05-24 00:51:37-04:00,False
+c341ba62bd1a5a3d54998814f8b1849ffdcfc799,restore 'exactness' of dev and experimental,2016-05-25 11:18:57-04:00,False
+ad05c9df658de511237bea27a1f1b1882df4f910,Update readme,2016-05-25 13:25:29-04:00,False
+032d9aad0738d3d939f761e769e3017f4f67193f,master #230 (already done mostly),2016-05-25 15:46:53-04:00,False
+c3ddeed9bb941f19c3b55b485cc3f0c10e43412c,Update README.md,2016-05-25 16:08:38-04:00,False
+27393a9625efde68d1f3a4ffb7f512e369d527e3,Update README.md,2016-05-25 16:10:05-04:00,False
+92106781fce419563406512bf2842565ef607f6e,Update README.md,2016-05-31 20:35:35-04:00,False
+50f5328075fc7b716832d7fc0dccd763bd9e27bc,Update README.md,2016-05-31 20:55:08-04:00,False
+6a5c1ab90dc35c5d1b6edc5b80e31b671a891496,Update README.md,2016-05-31 20:57:12-04:00,False
+fd9e45acd8904d84b9a99f419bab11f27fc8bd7a,Update README.md,2016-05-31 20:59:50-04:00,False
+4ef1e44ee75c0a6a5fa852f229d86843d1dc06ff,Update README.md,2016-10-22 18:20:29-04:00,False
+0818a2376fdce61b0900625d44e9c210ad25d8fa,Update README.md,2016-10-22 18:27:41-04:00,False
+110f9016d41de6634c57246e9ce522a612b91cf6,Update README.md,2016-10-22 18:28:39-04:00,False
+d58a7d1a6b87c4b117b65e26d434342731659b2e,Update README.md,2016-10-22 18:31:51-04:00,False
+869baa6aaad3be72ef18dfa40bb47cf3952c1a8d,Update README.md,2016-10-22 18:38:39-04:00,False
+4f91c618eef3913e952145440119992b7206b5c2,Update README.md,2016-10-22 18:39:29-04:00,False
+e52e7890bf659beab5bd49705be386cc2f282423,Update README.md,2016-10-22 18:42:17-04:00,False
+76d167a8db3c1b4179785f6b05b42e8be144bc23,Update README.md,2016-10-22 18:43:12-04:00,False
+e026d75ae14ba3acaf05b1a0177792eca14dc4f9,Update README.md,2016-10-22 18:46:02-04:00,False
+d6c5f4cda29af71c85071a65c13746ab3463540e,Update README.md,2016-10-22 18:50:22-04:00,False
+95133c4e1c3ed5feba2396bd5c099c0e7504960d,Update README.md,2016-10-22 18:50:47-04:00,False
+e9cf60ad3f217690c50026ea2fe930b27285c35b,Update README.md,2016-10-22 18:52:26-04:00,False
+abbe2e029e8c01fa3d0b29160382b9c2f47a1617,Update README.md,2016-10-22 18:55:37-04:00,False
+08ed27a9fde74b425bcfca42e31a03ca4cd1b55d,Update README.md,2016-10-22 18:59:26-04:00,False
+7cb9e0ff59f38dac09d4d23fb190673fd9d9f1a5,Update README.md,2016-10-22 18:59:51-04:00,False
+3fe006efe7cde9eaaf9bba03b038d8392e26d860,Update README.md,2016-10-22 19:17:28-04:00,False
+c98660743225bf70e212c63eb830e066bd41baf2,Update README.md,2016-10-23 13:21:54-04:00,False
+81f8d0cacf7e4bd529caa6fff1e994428ed7212f,"Update README.md
+
+removed references to 'stable-formc1.9-1.10' , as the current development version now performs better than that version now.",2016-12-04 01:58:07-05:00,False
+66f15a3fbed044d95beda249775a0ba12f092594,Update README.md,2016-12-04 19:29:55-05:00,False
+141f61be19da353774ab59d6947b2c0c1bfaacb0,Update README.md,2016-12-04 19:44:52-05:00,False
+64d0ee4fb2a8c2d7830d7a97096e55a8e7c4e488,Update README.md,2016-12-04 19:50:05-05:00,False
+53beb6e3a09a569afacc1c87554059bc22cd1e36,Update README.md,2016-12-04 19:51:47-05:00,False
+e44042bddf3ae6ae7ff1b883d2ef2b854f0d33d1,Update README.md,2016-12-05 22:19:37-05:00,False
+33d03d398a883e388312e8f5a66a4bbe7edf0142,Update README.md,2016-12-05 22:20:59-05:00,False
+4a31d647099153d2c82822290b178f273305d4f4,fix #365,2016-12-09 23:33:11-05:00,False
+3792883db111001920f7e8e57d8586e45f8028cc,readme updates,2016-12-24 19:00:51-05:00,False
+ac3462aaaaff18edcb3cfe975d7900d9cc239e93,documentation and readme updates.,2016-12-24 19:15:03-05:00,False
+85a5cf8f709e372ab56e350419b6091b4b7f44c7,correct index file type for documentation,2016-12-24 19:19:39-05:00,False
+2e4ffec8dfeaf9bdb27e73bed7896bd4e608dc0d,correct a typo in index documentation,2016-12-24 19:22:39-05:00,False
+497da701590bc496d382dfed14085bcd920a75e7,Final build for version 0.9.6,2016-12-24 19:31:37-05:00,False
+528f56e9aef741b9cfef77efce5e5383e613e4a7,update readme,2017-01-01 14:01:38-05:00,True
+c2a29f8fba679f6cf71e6b17ff0cb4d9a3cefc2b,update readme,2017-01-01 14:19:15-05:00,True
+3e3303798c620d862ddbfa504769aa611b9d74c4,update readme,2017-01-01 14:21:20-05:00,True
+6665bc9a20a18a3c1fef8d4472a40fa844ad8145,Update README.md,2017-02-20 18:25:14-05:00,True
+95400b1b9b616b17c9d61fea796a7db97d2698f5,"Update master branch to current development
+This is very overdue as the master branch has been out of date since minecraft 1.9.  The original master is now located in the ""Original"" branch.",2017-11-20 21:32:27-05:00,True
+f638c67ce6aa00f3320fe27cfafede0a5ef0f0dc,Stable build readme update,2017-11-20 22:23:42-05:00,True
+b389db85f91ae1c93c3c169a74247142bc8fb940,Start ubil 234.  debug PlayerPosLook (SB),2017-11-26 11:19:58-05:00,True
+fb046e462cb1816200f8fa843353adae93c8763c,change documentation index to readme.md,2017-12-11 14:25:59-05:00,False
+f42422d59a4af45fa6fefc527c9389165697dade,push changes to readme.  Need to edit README.md online,2017-12-26 14:44:52-05:00,True
+4feb71d9a9a1cf9cf1d62d50f165506820a9fca6,Update README.md,2017-12-26 14:46:28-05:00,False
+179ac4d9ccecfec8809e1cbf245ab69abbd6ee40,Update README.md,2017-12-26 14:55:33-05:00,True
+1854cfd27396e106a71d91de44464a200f977f6e,push changes to readme.  Need to edit README.md online,2017-12-26 15:11:32-05:00,True
+852ead2c875221ad7c023d731419e920e76969de,push changes to readme.,2017-12-26 15:35:44-05:00,True
+c46434873f0f82177be4a16b1c7752980cea0ed1,"Non-build commit staging new wrapper password handlers
+- fix error in core/wrapper.py that causes spamming of ""Disabling proxy
+ mode because ..."" to the console.
+- added text to the vanilla message to tell console user not only the
+ port of the minecraft server, but the proxy too (if proxy is enabled).
+- added module `wrapper/utils/crypt.py` with full featured password encryption schemas:
+    - `make_hash(password_string, encoding='utf-8')` - hash a password
+    - `check_pw(password_string, hashed_pw_str, encoding='utf-8')` check password against hash
+    - `phrase_to_url_safebytes(pass_phrase)` - create bytes for Fernet encryption from wrapper pass phrase
+    - `encrypt(passphrase, data)` - do a Fernet encrypt of data from bytes pass phrase
+    - `decrypt(passphrase, encrypted_str_data)` - Fernet decryption of data
+- implement a wrapper password to be used internally by wrapper to
+ store sensitive data (email passwords) that wrapper's features may use.
+- implement encryption hashing of other stored passwords to disk
+ (web, IRC, so forth.. ).",2017-12-27 13:22:12-05:00,True
+324833540c302a7111b49eb10dda32e85c3b397b,"Build 246 [0.14.1] Dev
+- fix error in core/wrapper.py that causes spamming of ""Disabling proxy
+ mode because ..."" to the console.
+- added text to the vanilla message to tell console user not only the
+ port of the minecraft server, but the proxy too (if proxy is enabled).
+- added module `wrapper/utils/crypt.py` with full featured password encryption schemas:
+    - `make_hash(password_string, encoding='utf-8')` - hash a password
+    - `check_pw(password_string, hashed_pw_str, encoding='utf-8')` check password against hash
+    - `phrase_to_url_safebytes(pass_phrase)` - create bytes for Fernet encryption from wrapper pass phrase
+    - `encrypt(passphrase, data)` - do a Fernet encrypt of data from bytes pass phrase
+    - `decrypt(passphrase, encrypted_str_data)` - Fernet decryption of data
+- implement a wrapper password to be used internally by wrapper to
+ store sensitive data (email passwords) that wrapper's features may use.
+- implement encryption hashing of other stored passwords to disk
+ (web, IRC, so forth.. ).
+- corrected Web/dashboard and IRC password references to use hashed
+ passwords.
+- Added /password command to wrapper to allow setting of encrypted
+ passwords in the wrapper.config.json file.
+** important note ** I may consider uniting make_hash/encrypt so that a single schema is used in the next build",2017-12-27 20:12:25-05:00,True
+7b801ca6118e4fe39a9a3e81a374163de36c3f02,correct a couple typos in readme.md,2018-01-04 12:01:58-05:00,True
+247888c89e331fca576586a98163dd17ee6c74c8,"Build 265 [0.16.1]
+- remove PyCrypto dependency!  PyCrypto is no longer maintained.
+ PyCrypto was not pip installing properly anymore on recent Python3
+ systems.  This was the straw that broke the camel's back.  It has
+ fork that is being maintained (pycryptodome), but we already have a good
+ crypto package requirement in use for wrapper encryption (cryptography),
+ so I chose to leverage that instead to minimize the number of
+ package dependencies:
+- wrapper dependencies are only `requests`, `cryptography` and `bcrypt`*[]:
+ `package_resources` is part of normal setuptools on any recent pip version these days.
+- added file ""requirements.txt"" to be useful for `pip install -r requirements.txt`",2018-02-04 17:23:46-05:00,True
+f3fa34498468cf18df8ca98a8216b57f4844071e,more doc tests),2018-02-18 10:37:42-05:00,True
+c1bcc5b8e1c35378263a1af0e08d60bb0de9eaf5,Update README.md,2018-02-18 10:44:04-05:00,True
+9773630bf4b1d494b9f1a5a2b696ed6ab5ca5089,Update README.md,2018-02-18 10:44:54-05:00,True
+fc77c84439fb5b46fcd13d15382ac1c278aa63d6,"new readme,md",2018-02-18 11:09:56-05:00,True
+41a555ffc551f9293ec843ca835fd1041051760b,correct typos,2018-02-18 11:30:36-05:00,True
+8ed7600dd33ba722ee3490ee50ba2ab86c38f61b,correct typos2,2018-02-18 11:32:22-05:00,True
+d663b42bec5bfc1eb909a5a6f6bac928cc16f926,"Build 2 [1.0.0 beta] - ""1.0b2""
+- Ensure server auto-restarts don't happen during a backup cycle.
+- added some API.backups functions to test backup status.
+- Fix [#521](https://github.com/benbaptist/minecraft-wrapper/issues/521)
+   using a config item in Misc: ""trap-ctrl-z""
+- removed option to disable wrapper passphrase.
+- fixed player.message broken with regards to '&' usages.  Also works for
+  all json again, including ""translate"".
+- Player.message takes second argument for position of message (0,1,2)",2018-02-18 19:10:23-05:00,True
+64fd26cce3b42c55dec0c2eba24bba6b74c95f41,Bugfix in-game  command,2018-02-19 08:07:46-05:00,True
+e1929fecb0f164a2b9dfc4b7d257375781afce53,update readme,2018-03-20 14:50:00-04:00,True
+7918825d7b9bfbc6738c66f37d48b97cfabc6502,first cut,2018-03-20 18:38:12-04:00,True
+f294fca7d64bca9093ac7b6602c886f827be4fe0,undo tracer merging,2018-03-21 17:00:43-04:00,False
+d23f480386066e1eaebb7c27c7ffade32e8269d5,recommit tracer,2018-03-21 17:29:25-04:00,False
+147ce8fd8f7578d6b0dd2f92e7005c1f36dbb1a7,build 34 - undo mis-merging of tracer to development,2018-03-22 15:24:50-04:00,False
+41e4a4727d281b6c5b4fe1849dd9bc81351ca625,test of new doc readme.md,2018-03-25 09:08:16-04:00,False
+b9ef92ee763c3fa1dceed9ffc1af6a7b6a9be2ed,README.md changes,2018-03-25 12:33:43-04:00,True
+2a41b95fb5dcc83ad1fa400da7c96fd148e34a7f,README.md changes,2018-03-25 12:37:17-04:00,True
+446d9e544e2f2af98e64553cf378b3099ae35493,README.md changes,2018-03-25 12:40:36-04:00,True
+33d2c83b123f02d031ebd261ab5e6036c3f68ade,README.md changes,2018-03-25 12:43:45-04:00,False
+072128001a23c1c6dca939a0a2840573cc15e45b,more README.md changes,2018-03-25 12:58:23-04:00,True
+4efee6c38cb9b1188c1b10299fe7a4e84620eaf3,more README.md changes,2018-03-25 13:02:17-04:00,True
+2ee62d63ab76b82d2fe3a6ba7d7f6aa8515e9241,more README.md changes,2018-03-25 13:10:29-04:00,True
+9dc3c672a2fbee37b334a05e36785379603f8687,final README.md changes,2018-03-25 13:16:45-04:00,True
+feb21f9c04abfa32c2855367a3814ac92157a94a,final README.md changes,2018-03-25 13:18:01-04:00,True
+0d7f2ec7aac8f13c99aa914ca69a56b5a6d490ce,Update README.md,2018-03-25 13:27:09-04:00,False
+416aa2a16dfecd104d35d2bd562b685f8f2e109d,Correct small footnote typo,2018-03-25 14:58:06-04:00,False
+64b704f042648499af5c7cd63dcb7a4f3cbed4b9,build 1 of RC,2018-03-25 19:26:26-04:00,False
+b357b25e2b67a06ea999c0abf2bebc74f26ed8c2,Update README.md,2019-09-03 13:15:50-04:00,False
+101dd30b141d7f015801d5964f8331713d4ee7ed,New repository link in README,2020-04-01 14:42:44-04:00,False
+3b740947deb2246594e1bc18aae760425acedc2f,Update README.md,2020-04-01 14:44:03-04:00,False

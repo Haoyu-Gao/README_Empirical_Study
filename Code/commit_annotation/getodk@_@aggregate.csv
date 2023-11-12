@@ -1,0 +1,75 @@
+sha,message,date,result
+83942e92dcbe34ce88b269387159a66a81bc3601,Create README.md,2015-08-06 14:55:11-07:00,TRUE
+7d36051ade5509e399eee41bf08445e213cf69aa,"Update README.md
+
+Add note about license",2016-01-14 12:07:01-08:00,FALSE
+40bf17c3a670f25fe64a2a08a7d39afd5881f3de,Add license references,2016-01-14 12:12:09-08:00,TRUE
+d5485ff504d6be7a8223da1447590aba67bf3551,Update to work with selenium 3.4.0 (java8 it environment). Use javarosa community build.,2017-06-23 17:21:17-07:00,FALSE
+67c30c1443216753f9563d543a56be40b6d445d3,"Updated: ODK Forum & Slack Links
+
+Fixed: https://github.com/opendatakit/opendatakit/issues/1294",2017-07-10 09:13:10+02:00,FALSE
+2649ae45fd2ea1ab7ecae5bab201287dc9857635,"Fix #1296 - upgrade information link broken
+
+Updated the upgrade information link to point to the wiki page as a fix
+for: https://github.com/opendatakit/opendatakit/issues/1296",2017-07-11 14:16:56+02:00,FALSE
+4584d67fcfd49d695b2a08df6c232907c4d1e86b,Project migrated to a Gradle multi-project,2017-10-14 14:46:19+02:00,FALSE
+e6aede0b3e992c391ace7643f13e49c22763506f,Improving docs,2017-10-26 19:21:18+02:00,TRUE
+adab04f37783e627959e9f1ced6083bcdbd53d5e,Fix docs links,2017-10-28 10:29:58+02:00,TRUE
+8f8cf6a73c3955003904232f606efae3cbb64ce2,Add a new doc with installer generation instructions,2017-10-28 10:29:58+02:00,TRUE
+2a2f2b2b8e8041cf6c54c702c4651e0ef051bb6d,Delete deprecated doc file now that this project has no submodules,2017-10-29 10:34:09+01:00,TRUE
+d05c330ed48d1dbcbec7815e58e010d7d5bd2deb,Add a link to the last git commit with the old Eclipse based project,2017-11-01 22:40:40+01:00,FALSE
+4e787082b03e34fc1c89af20e4d4db235e33339a,"Issue 132 gretty integration (#133)
+
+* Add Gretty plugin and configure it to run Aggregate
+
+* Adapt IntelliJ setup docs
+
+* Improve IntelliJ setup instructions for running and debugging Aggregate for development purposes
+
+* Add explicit host configuration for Gretty Gradle plugin.
+Add instructions for running/debugging Aggregate on a different host/ip address",2017-11-13 15:25:10-08:00,TRUE
+29fa467078188cab63321e9cf69410dc3304f6dc,Improve readme (#138),2017-11-14 10:06:55-08:00,TRUE
+b1876ae9b7fee17f66df34163cda11152bcc4316,Switch from snake_case to kebab-case any URL-able resource name,2017-11-20 12:56:18-08:00,TRUE
+7031555ded4b16bc315cb3b298a26fb7333858d3,"New Gradle tasks to upload Aggregate to AppEngine (#143)
+
+Fixes #142",2017-11-20 13:33:06-08:00,TRUE
+7e5a33ba5727f75fd93895e08a233bb4e4c7a014,Added some extra information in README (#144),2017-11-20 17:23:17-08:00,TRUE
+5cc4f6478828c50064a1d30297b8de56ca77f1a5,Update README.md,2017-11-20 17:27:57-08:00,TRUE
+d37f701257c16c38380b0168a4bb0f689741c1f7,Add a new section with configuration instructions (#152),2017-11-22 14:33:23-08:00,FALSE
+3cb9471cca321f81d77d9e2c95623fa7dfe242c6,Update README.md,2017-12-11 12:02:56-08:00,FALSE
+e749cb4c2cc6dbf481bfab73e2b3d0af6a1b7b5b,Add Git LFS and reclone tip,2017-12-11 19:35:51-08:00,TRUE
+4bbee28cf94323a9ccf85060ef9ecca661746cc5,"Add docker compose yml file and a Dockerfile that inits the Aggregate database as per README.md instructions
+Add Gradle tasks to interact with Docker Compose",2017-12-16 10:55:37+01:00,TRUE
+222a9e738a3f6d00c513a86ea4cecb6dc09f3f0a,Fix typos in the README file,2018-01-12 16:05:29+01:00,TRUE
+fdb17b9b6660e87feaab97a1ccad6f96a8e7478e,Change title of section in the README file,2018-01-12 16:10:21+01:00,TRUE
+642190b8839188b65b63a0ad93aaea590d3f562e,Add Java 9 config,2018-01-22 16:58:56-08:00,TRUE
+80d0ed35a125e5b45e69137284661e759619d363,"Add new docker-compose definition for a MySQL 5.7 database
+Add gradle task to launch new MySQL docker image
+Add section on testing on README.md",2018-01-29 11:31:25+01:00,TRUE
+2a4caad14f2bcbb474c9a423da933f04f985a898,"Fix db init scripts in the docs to use secure passwords
+- We were using UNENCRYPTED PASSWORD, which is insecure and won't be supported from PostgreSQL 10 onwards.",2018-07-05 18:12:23+02:00,TRUE
+f57fa3e63653d1ebc4ad72c534beceb234f8ac9a,Add section on main README with links to doc files in /docs,2018-07-13 11:26:48+02:00,FALSE
+333db2b94593a3b8160837c2862a04c5c304cbf3,"Tidy up
+- Normalize titles of all docs
+- Reorder entries",2018-07-13 11:35:32+02:00,FALSE
+fe577b563749d45b6a668da3927cff12050d5125,Removing app name because it is clear from context,2018-07-23 14:01:53-07:00,TRUE
+ecd6a326a81992aaafe8ce9d05f9b4f1efadb1e0,Remove GAE info from doc files,2018-12-19 09:32:43+01:00,TRUE
+f5792dac5eb9d54bd03cdab363b2f3e5d44b02a2,Improve markdown docs,2019-01-29 16:43:25+01:00,TRUE
+bfcaeaf28fda0e463888807e02ed6c57272592d9,Consolidate DB creation across project (#399),2019-02-01 07:43:42+01:00,TRUE
+3ca816365faf01b88449abc080f46957434d8ac2,Add the SQL sentence to set the schema's ownership to the aggregate user (#418),2019-02-12 19:47:57+01:00,TRUE
+5de53a8eac0fc7d7a6b55f3fc983068024dd688c,"Docker config improvements (#439)
+
+* warn on missing config file instead of throwing an exception
+* rename .example files when building docker image
+* don't warn on docker build if the files are missing - they get overwritten anyway
+* update the docs to point out that the Docker build scripts copy default config
+* edit docker image readme for clarity",2019-03-11 15:57:38+01:00,TRUE
+5190be602af2100b41fd558d3203ee29ad8ce6df,update docs,2019-03-12 21:20:24-06:00,TRUE
+eeea7961ffc55ddee124ff84cd735ab434158c61,fix link,2019-03-12 21:25:51-06:00,TRUE
+6bc65a3eb4addba2eeaf1f59eb31e3c046b1ed2a,Fix build,2020-04-22 15:24:45-07:00,FALSE
+f5d1f5c0ec37a115d8701296abcfc8c7abac21ec,Update slug,2020-05-23 01:16:27+03:00,FALSE
+4e4a09e88bffa123265b8a260fff2dce13854dcd,Update slug,2020-05-25 11:24:15-07:00,FALSE
+d48a88f4f1d7ef8e50ac29458d018457c41b382b,"Skip slow unattended-upgrades install, ensure postgres can chdir",2020-07-10 11:06:25-07:00,TRUE
+784fc4d0c241c5fb8f35c8e4ea5c17c34923ffbb,Update README to indicate status,2020-07-24 16:48:20-07:00,FALSE
+5444e536f941ebea65055edba1013f0910c3ba8c,"Move maintenance status up top, link to Github repo",2020-08-02 17:03:34-07:00,TRUE
+0eb781cc47cc879c43ea2cdd39b2a1d7e277bda7,Update README.md,2021-04-29 09:40:18-07:00,TRUE

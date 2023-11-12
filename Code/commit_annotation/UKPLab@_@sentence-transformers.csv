@@ -1,0 +1,105 @@
+sha,message,date,result
+239fc1b7676179fc675ca366b0235f73cbbe7b84,Initial commit,2019-07-25 09:43:15+02:00,TRUE
+4b4af5f90113cd829e33ceb5201cfb598d6612fa,Performance update,2019-07-25 16:47:09+02:00,FALSE
+f13b95c6fec37a04e2ae0987dc8f9eb15fc3c4f5,Update scores,2019-07-26 10:20:18+02:00,FALSE
+7a9e824356af945fbd020f581462a91f2bcebdab,Rename files,2019-07-26 13:00:47+02:00,FALSE
+24b69783420a22108382a2b29706c7f6f612d809,New dataset & pre-trained model on wikipedia sections,2019-07-26 13:46:35+02:00,FALSE
+40dcf6f3ab5102b0d5655953b0cd5e5cb13e2b3c,Update readme,2019-07-26 13:48:15+02:00,FALSE
+304642540bd4ce70db9e1333539d8fbd9eaa52f4,Fix #1,2019-07-26 13:49:37+02:00,FALSE
+c4d858d92d08b50f875d3a63b58f86fdd7505876,Scores update,2019-07-26 13:56:32+02:00,FALSE
+3cf6fb015ca39472d33febdd3e51d1478180cb30,Update README.md,2019-07-29 10:07:58+08:00,FALSE
+bf482cd8a1a06c091c7889f7acf688dcf3267017,Update README.md,2019-08-02 08:52:27+08:00,FALSE
+2ad367924f5beb17ddef80247ee7535c5633f02d,Version 0.2.0 commit. Major refactoring of framework to make it modular,2019-08-14 15:37:09+02:00,TRUE
+83019e15a66a318a6f080fa8e1321d911591445a,Readme update,2019-08-14 16:03:33+02:00,FALSE
+14da090b48025c6278d5d632d2c6888727a2c9ea,"New models added: BoW, WordWeights",2019-08-15 15:46:02+02:00,TRUE
+b49665f00cd2a6d5af6533e5473cf113c2d884ce,Added new examples + auto download of word embeddings,2019-08-15 16:36:31+02:00,FALSE
+cc603bdde324453dcddc6dc8836efd2737d31b90,Add CNN + LSTM layers & examples,2019-08-16 09:51:16+02:00,FALSE
+7e8afee29ad4e05ed3d29ae9fafbba05a3b1ace5,Init commit vor v0.2.1,2019-08-16 10:28:38+02:00,TRUE
+444e4d69a1724f0ca358d1eb55386a83c38361d9,Update for v0.2.1,2019-08-16 23:00:13+02:00,TRUE
+e7172d47bbeca4515259ac823e1d7fe82bf99307,Update readme,2019-08-19 16:17:56+02:00,FALSE
+2a0de8846b3e7b50644463e0d17f106b1b0672c3,Update README.md,2019-08-19 16:43:51+02:00,TRUE
+71fb9894bce90efc5656d3b1f9a666b18b116ada,Bugfix Windows with tensor.type and progress bar can be disabled for evaluator,2019-08-20 19:12:46+02:00,FALSE
+5cacadb058234af54d701f072c17559abb6918ac,Prepare v0.2.3 version,2019-08-20 19:14:33+02:00,FALSE
+af00df38c199079ba1cea7a5a3659b17973bc928,Update README.md,2019-08-28 14:04:25+02:00,FALSE
+a420f7d8485d79bb77fde06792bab50760cf97a5,"Update README.md
+
+Fix wrong used method
+
+word_embedding_dimension() -> get_word_embedding_dimension()",2019-09-04 11:54:02+07:00,FALSE
+40f994e5e3ce3e2819833773117d788dfa0c7e7f,Update Readme.MD,2019-09-17 14:58:51+02:00,FALSE
+9392d4f093ccafbe7ea660b6ba85722d5b2279a6,Fix README.md typos,2019-10-19 14:20:29-03:00,FALSE
+68beaf67462d2519a138b72c97aa4fbb9434fb07,fixed typos and broken links while refactoring,2019-11-07 11:23:55+09:00,FALSE
+24cdbe9ced949effb3a41292ab8b1f480587fbef,Update pytorch-transformers version 1 to transformers==2.2.0,2019-12-05 14:33:40+01:00,FALSE
+0ba6828a9bbf8abaa4b39945b913c5bc48beb443,Added RoBERTa models,2019-12-05 14:48:07+01:00,FALSE
+2893d976b6ae352c1e73f79657abc6f81f75ad6c,Documentation,2019-12-06 13:24:32+01:00,FALSE
+8d0ad23d28bd1dafd2adef52a1a2ec813a293575,DistilBERT pretrained models added,2019-12-06 14:58:39+01:00,FALSE
+12d0d9ccdb0db7aa913bdb09434885c2e3cfe669,Update readme,2019-12-06 15:04:37+01:00,TRUE
+9c46f02fcae2b32f5cca68123577f9fa8d0e95c1,Update readme,2019-12-06 15:08:24+01:00,FALSE
+90e37638c3900ca0da4cca09d8f0cb5e2ff97611,"Update to v0.2.5- Update transformers dependency, add T5 and XLMRoBERTa wrapper",2020-01-09 14:00:58+01:00,TRUE
+b912fcf26c1119cce7e0c2ccc42abda91c734d17,Update readme and examples,2020-01-10 10:17:51+01:00,FALSE
+201ef1a35dcec4481c464e053af49408f334955f,Added pre-trained multilingual model,2020-01-23 11:51:45+01:00,FALSE
+4bcec796bdcd1ca06a177f14bb45471869b63f90,Update multi-lingual test results,2020-01-24 10:38:43+01:00,FALSE
+c5213e22fb053ec56efee26657f8b6a8a92ef483,Make readme links absolute,2020-01-29 13:26:01+01:00,TRUE
+c23959ae889a9ae0256abf3bd080560ea065b3fd,Fix readme links,2020-01-29 15:32:16+01:00,TRUE
+02ce921968e9e745245e7b1a3fdea27199174cf0,Update README.md,2020-03-13 09:46:34+01:00,FALSE
+7fa3f0df28b3ae2a1d7353602de4e020e5f9e8d0,Update README.md,2020-04-01 08:57:23+02:00,FALSE
+24fbe5071b7789c85a9f9296dba56e4eae1c0380,Init commit for version 0.2.6,2020-04-10 21:34:33+02:00,FALSE
+691486a315e3a7d812e07737b8fe7c0b934d8a22,update readme,2020-04-11 22:14:20+02:00,TRUE
+2b4ad3c47e5d82c5f0faec85790372217f0ea58c,Added Weighted Layer Pooling and WKPooling,2020-04-11 22:41:25+02:00,TRUE
+7d6fed72f71c240b34563d5d1802a66ed89de99e,Update readme,2020-04-11 22:46:55+02:00,FALSE
+482b25b5d85b2b21674b574591b47bfb1c0e9886,Working further on examples,2020-04-14 10:28:28+02:00,FALSE
+eb39d0199508149b9d32c1677ee9953a84757ae4,Update readme,2020-04-16 15:58:33+02:00,FALSE
+d588949d7f5b2bdf3227a3795ce81bf050ff7554,Documentation for multilingual training,2020-04-22 15:39:42+02:00,FALSE
+384d572f0dcb8592a02f7252c943eb81237faaa2,Fix typo,2020-04-29 08:37:41+02:00,FALSE
+951a1f97a001058a439e12402debf4a354b5cbd9,Update README.md,2020-05-15 16:14:56+02:00,FALSE
+36276be74d63e0b0f742ad4f392811ee1d893a48,Update README.md,2020-07-09 17:12:03+02:00,TRUE
+5634c8a8b0caf22890fc455f2a2591fd25cbefb3,Update README.md,2020-07-10 11:32:26+02:00,TRUE
+e81b0dc83c87442dbdc796d6938f479c3619ecd0,Update readme,2020-07-22 11:29:29+02:00,FALSE
+3a56aee320eb3da0d82ac5a7299c58d2757b73aa,Update readme,2020-07-22 11:43:05+02:00,FALSE
+d365d14e6eb3a79b7589c6404020833d5bda7322,"Clarifying where the 'models' class is coming from
+
+It took me embarrassingly long to figure it out. I figured this may help others!",2020-08-06 09:28:54-04:00,FALSE
+d37cd76b77a78fa15de283eec48ef8a0066b8ec6,Update readme to new evaluator structure,2020-08-06 20:42:04+02:00,TRUE
+55cdd1a3abfc5e0bd0f35fbd6d3a635a4bce9bed,Update README.md,2020-08-13 20:02:01+02:00,FALSE
+65c76441314123be2d36b62539e87e9ddb1f77be,Update README.md,2020-08-17 21:14:39+02:00,FALSE
+4123f51f40dc2f738a918c2f36befbdcc3271d71,Update README.md,2020-08-17 21:15:55+02:00,FALSE
+f207cf39e41d6cc1328d0e94bb08dae748a92914,Update README.md,2020-08-17 21:25:44+02:00,FALSE
+2d09e6cb9920b292e4bb473868766b9ad358515c,Update docs,2020-08-24 17:54:48+02:00,TRUE
+e6759fa760b1b6ae8f9e0d1d48ac99f0c343b62c,update readme,2020-08-24 18:14:56+02:00,FALSE
+07db1ab9ce37913cfc2a4e48b3a4452f3775aec2,fix minor typo in readme,2020-09-02 10:16:34+02:00,TRUE
+8853512cbc80f63e34071f68922aef97d3d73af4,Update documentation,2020-09-11 10:00:53+02:00,TRUE
+e3e2064c3ac068cfb984a480ae460a9d9c3f51ac,Update semantic search example,2020-10-01 20:34:10+02:00,FALSE
+8d7471fbff513ea191c8646ad9f703806e58dd49,update example output,2020-10-08 00:10:36+02:00,FALSE
+e73b8a84ceab7f7c05d6e03100cf5bf2b2ff2c12,update docs,2020-10-19 14:50:49+02:00,FALSE
+3d12b0c612b3373f9a6e633585084b7e84bc972c,update readmes,2020-10-19 16:11:31+02:00,FALSE
+6b292ed8851ec284cfdb33bddd1b2e2260d53c57,Update README.md,2020-11-04 09:03:48+01:00,TRUE
+32c9269ebf012ea0ed13fcfad7061e545441766c,Update README.md,2020-11-04 09:04:01+01:00,TRUE
+2d4425e020f77c93a2217fecb7f1d0211b7cee72,Update README.md,2020-11-04 09:04:22+01:00,TRUE
+0030f6bb4776a022126b22948ef3a80fff971a1e,update readme,2020-11-10 21:56:34+01:00,TRUE
+d3185dd2965f0eaf137ca8ee2de72008e85bcb49,update readme,2020-11-11 19:18:16+01:00,TRUE
+5002ab493bed53147e31bcbd3f3f6d3e61c8afaa,Update links,2020-11-11 21:50:41+01:00,FALSE
+27bef63dd35fe2193031362794b04bdb71f3d0ba,new naming for models,2020-12-21 22:20:29+01:00,TRUE
+63d39fdf13d92b2b570b3a9edaad910a174cd939,update model names,2021-01-11 11:26:21+01:00,FALSE
+c4d4a323843bb243c67286991eae1af900d10260,update readme,2021-01-13 14:33:27+01:00,FALSE
+93a6571d1f527f129f95d5a2b63dee88eaf87592,update docs,2021-02-12 21:46:26+01:00,FALSE
+82c0987956c619a5055939b57fb31f27b8bb605a,update readme and version number,2021-03-19 22:40:25+01:00,FALSE
+a166eb0cf36141089b9844436719539b4d695ba0,update publications,2021-04-20 14:28:58+02:00,FALSE
+df43fe2f39205f34b8c30f79ef30cd6385d88386,update publications,2021-04-20 14:30:00+02:00,FALSE
+ddabbedc1df867b9d67febf48966f4b660128fed,update docs,2021-04-27 22:33:18+02:00,FALSE
+7d7c756bc33f45524b899fbddeb038558e0ead55,update docs,2021-04-27 22:36:14+02:00,TRUE
+f865e699d1bf2c8c8e8a18a3ab027e2cd78d0bf6,update docs,2021-04-27 22:37:10+02:00,TRUE
+b8352211115d8b2bdcd6869c573995c6d1a86f67,update nli v2 models,2021-04-30 22:35:50+02:00,FALSE
+6992f4c9b7e600ce89f69d6bc0b495ec177b0312,update nli v2 models,2021-04-30 23:59:24+02:00,FALSE
+0909e37f37a90ce73eb45e346a75565ed401d540,Update README.md,2021-05-25 10:02:54+02:00,FALSE
+ad724fef3cfcd6af82c90938f5417be1936cd1f2,update model name in docs,2021-05-31 14:41:46+02:00,TRUE
+776176b7a8ff0b13d9caf6e88e02977ebb160906,Update README.md,2021-06-07 07:00:08+02:00,TRUE
+c64ca0401802d4c3d85855bc937f9bff41e37ade,Update README.md,2021-06-17 20:35:19+02:00,TRUE
+7aacc02ad6eb0322ccd25d80f451986cba764f0d,update pre-trained model,2021-09-07 14:40:32+02:00,TRUE
+995ec5d2ba7b09b99bf6bb25f3ecd56d99361081,minor typo fix,2021-09-20 12:30:18+05:18,FALSE
+04b9c450409f833c6b51305f00958b996f8d22a5,"added badges and updated installation
+
+Updates to readme:
+- badges: version info from pypi and conda
+- added conda installation (since I am a maintainer now) option
+- formatting/linting changes: markdown",2021-12-01 18:20:48-06:00,TRUE
+42fd779248d9c26434312ad6108677d8417fb78c,removed downloads badge,2021-12-01 18:49:06-06:00,FALSE

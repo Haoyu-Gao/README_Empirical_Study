@@ -1,0 +1,458 @@
+sha,message,date,result
+aed7e0052cdfe32a0f3e5a8b5167c831286f1e96,Initial commit,2019-02-27 23:04:05+02:00,FALSE
+880036a546fbe951ded11797133517999cab1520,Update README.md,2019-02-27 23:06:32+02:00,FALSE
+c22f76fb646bb06bf38d7f17271de8543ac93c1f,hIIII,2019-02-27 23:08:49+02:00,FALSE
+f2341ff9eecdcc63e39d5f407a42f8ae1ac96f99,done with games now to work,2019-02-27 23:09:20+02:00,FALSE
+14e6eae07b99ffece1499948613e897913edc7e9,Update README.md,2019-02-27 23:22:58+02:00,FALSE
+a8a40a65bf10fd32cd254575bbbc0341872823a1,Update README.md,2019-03-23 19:04:32+00:00,FALSE
+c7b2459c6c44fa75940ed2bd1682f8c54f74d6a5,Update README.md,2019-03-29 10:42:14+00:00,FALSE
+f0bd6fcb9865e8b98f07926f7a22ef25e8227290,added read me and requirements.txt,2019-08-13 23:43:50+03:00,TRUE
+3f8f0dabbf7d8a585a52f515c2a729f07438014f,Update README.md,2019-08-13 20:46:23+00:00,TRUE
+8439df54aec9e2f0a416b3958bcace6b533ac5d6,Update README.md,2019-08-13 20:47:07+00:00,TRUE
+771958fb71c68b13f15784fde95d1b5aba818958,Update README.md,2019-08-15 05:18:20+00:00,TRUE
+5bea7f8d5c6e24cdb2ce835062e26a80ef5f5f99,removed unnecessary loop from main file,2019-08-16 15:00:28+03:00,FALSE
+2cebee43c4d83d01fc7f4c08c7eb3886386c69fd,updated readme,2019-08-16 18:10:49+03:00,TRUE
+2317924b8b1c4f0b24b4479e3ef53173196065b5,Update README.md,2019-08-16 15:28:40+00:00,TRUE
+b88964d31e51a2fef12a8b091c6f056ac0f150ea,updated readme,2019-08-28 21:08:51+03:00,TRUE
+2291a1e1953f2dd9746b22a128c94d1931505a0d,updated readme,2019-08-29 00:01:40+03:00,TRUE
+760f62dd93bbadcc45e494a13e74b30201c415ed,updated readme,2019-09-18 17:18:31+03:00,FALSE
+088c32f5737156c8c3da0ff75a1a915951733c4d,Update README.md,2019-09-24 19:14:52+00:00,TRUE
+5eec368f79584db36e1502beb7834ffb017faec6,Update README.md with software installation instructions,2019-09-25 14:49:46+00:00,TRUE
+15758f3e20f2ebaf68633d0a1811d63a03c67e5c,Update README.md,2019-11-20 08:53:11+02:00,FALSE
+48da9f5dfd8484d24705c1b2249988d164c3364e,"Too many changes to list
+
+running in to bug in CameraStreamer with native exceptions",2019-11-21 05:32:19-05:00,FALSE
+39a6f161663017fb11f33031e2d2ea7feb214967,Update README.md,2019-11-27 23:52:10-05:00,FALSE
+f54beb6d5578f945d2cf8be0cdbbfbb07602ee7a,"Updated Readme.md
+
+Mainly Development Setup",2019-12-02 01:37:53+02:00,TRUE
+64d6bd093e31ee65e22caa2ed86d5b6ef3bdc401,"Update readme
+
+small changes",2019-12-02 01:38:50+02:00,FALSE
+bfc323bdcbb605379c00bad30ad995388a432c6b,"updated readme.md
+
+Authors credit update",2019-12-02 01:42:10+02:00,FALSE
+b5fe39e26dc99903f2422e4ca7180733096d865b,"updated readme.md 
+
+added usb camera to hardware",2019-12-02 01:46:31+02:00,FALSE
+97a6e1419d159262c37eec6463e79417d19af692,"V2.1 (#37)
+
+* Toggle mode
+
+* RangeSlider able to be disabled
+
+* Added another window from the press of the button
+
+* removed warning
+
+* Major changes to colorpicker page
+
+* Major changes to threshold tab
+
+* fix for BGR not RGB
+
+* Reverted changes of colorpicker.vue
+
+* Updated Readme.md
+
+Mainly Development Setup
+
+* Update readme
+
+small changes
+
+* updated readme.md
+
+Authors credit update
+
+* updated readme.md 
+
+added usb camera to hardware
+
+* Updated UI readme
+
+added nodejs installation and explanation
+
+* Unit test vision (and implement networktable sending)
+
+* finished color picker in the ui
+
+* bugfix for correct tab
+
+* cleanup and commenting
+
+* Reveted changes to range slider
+
+* bug fix for color picker
+
+* Pipeline mat copy fix
+
+* Added crosshair pipe
+
+* compilation fix
+
+* removed unsued comment
+
+* moved calibration stuff to static class under 2d pipeline settings
+
+* Added debug print commented
+
+* Reverted subclass ""Calibration""
+Fixed bug where single point calibration causes crash when no target is found
+
+* disable dual point crosshair for now
+
+* Proper no target found fix, and snackbar error now showing
+
+* Removed java fix for crash bug
+
+* fixed problem with clear points in single point calibration
+
+* change compatator to sqared values to make caluclation faster (no need for sqare root function)
+
+* fixed roated camera too heigh for the UI
+
+* Revert ""fixed roated camera too heigh for the UI""
+
+This reverts commit 50c8ecd34560ac0171b8d7497bec2e2d1d93d43f.
+
+* fixed rotated camera too heigh for UI and corrected scalling
+
+* updated pom to fix the camera buffer issue
+
+* added pom variables
+
+* Created new CaptureStaticProperties when rotating cam
+
+* File stucture change, moved Pipeline implementation and their settings to /impl folder, refracted imports
+
+* ignore auto created iml file
+
+* ignore auto created iml file
+
+* Fix lack of access problems after moving pipleline impl out of the same package
+
+* Removed commented lines
+
+* Fixed bug when selecting the same 90 deg rotation twice causes crosshair to move
+
+* cleaned up single point calibration and bug fixed isBinary in driverMode
+
+* Enum fix for the UI
+
+* typo
+
+* fixed Stream divisor problems see issue 19 in github issues
+
+* fixed compilation error for test class
+
+* Fixed problem when rotating camera with stream divisor
+
+* Spelling + button style change
+
+* Add speed limit to UI Updates
+
+* Added runtime arg to fix settings permissions, and on-first-init
+
+* Added FileHelper class to manage setting permissions for all files.
+
+* Removed unnecessary argument
+
+* NT can set pipeline to out on bound indexes
+
+* bugfix in platform check
+
+* added pipeline popup
+
+* Round steam divisor resolution
+
+* added regex test for camera name and pipe name
+
+* Fix for Renaming pipeline leaves old config file #14
+
+* Version change
+
+* adde ( ) - and . to regex
+
+* Replace NT timestamp with latency
+
+* added back NT flush
+
+* Add solvePNP, 3d tab on the UI, and some other misc bug fixes (#35)
+
+* Rebase solvePNP on master
+
+* added 3D tab minimap and csv reader
+
+* More solvePNP
+
+* Create draw pipe for pnp data
+
+* SolvePNP piping work
+
+* Move sorting into solvepnppipe
+
+* Create calibration pipeline
+
+* Update CalibrateSolvePNPPipeline.java
+
+* add camera tilt angle
+
+* Add calibration slider and snapshot button to 3D view
+
+* Mirror updates in the socket handler
+
+* add 3d calibration mode to the pipeline manager
+
+* created calibration functions in ui and backend
+
+* Start plumbing calibration
+
+* Add snapshot and other handling to the RequestHandler
+
+* added select resolution before starting calibration
+
+* Rename solvePNPPipe to bounding box solve pnp pipe
+
+* Update BoundingBoxSolvePNPPipe.java
+
+* Add Mat serializer and CameraCalibrationConfig
+
+* Begun calibration saving, fixed UI/Backend snapshot count mismatch
+
+* Add (unplumbed) option to set checkerboard size
+
+This will allow users to change the units their calibration is in
+
+* Create chessboard.png
+
+* Fix calibration NPE
+
+* changed string serialization to a json send
+
+* bug fixed cancellation button
+
+* Fix spelling of snapshot in 3d.vue
+
+* Plumb resolution change
+
+* Set resolution during config, start on config serialization
+
+* Update .gitignore
+
+* Config fixes
+
+* Start transition away from cvpipeline3d
+
+* fix NPE on uncalibrated cameras
+
+* clear list on fail
+
+* Fix video mode index error
+
+* ignore getters in camera calibration config
+
+* Create json constructor for jsonmat
+
+* get solvePNP mostly returning sane values
+
+* Fix solvePNP bug and add unit test
+
+* FIx calibration mat truncation
+
+* added capture amount model upload and minimap data
+
+* Standardize on meters in calibration and bounding box
+
+* fix json out of bounds and handle null calibration more gracefully
+
+* don't put text on calibrate image, go back to inches
+
+* convert distance to meters
+
+this means calibration will need to be in inches
+
+* Actually save raw contor
+
+* Update GroupContoursPipe.java
+
+* Add all calibration return to camera capture
+
+* hard code 2019 target
+
+* bugfixed draw2d added fail calib popup, merge end and cancel
+
+added the res index to the calib start
+
+* Clarify error message and draw more fancy rectangles
+
+* Cleanup memory in solvepnp
+
+* re did minimap component
+
+* fix npe if left/right is null
+
+* remove references to 2d
+
+* try-catch running the current pipeline
+
+* Add method to find corners using the harris corner detector
+
+* Possibly fix left/right missmatch
+
+* Fix 3D Tab error
+
+* FIx file permissions, mat serializer adjustments
+
+* fixed mini map for field coordinates
+
+* mini map changes fov
+
+* Update SolvePNPPipe.java
+
+* get rid of target corners
+
+* some memory leak fixes
+
+* fixed mini map location
+
+* added position under minimap
+
+* changed player fov look
+
+* put all targets in the web send
+
+* re did target send to ui added target tables, bugfix calibration
+
+* fixed y position
+
+* Add tilt angle to capture properties
+
+* maybe fix y axis in minimap
+
+* Add square size to onCalibrationEnding
+
+* Possibly add square size to UI
+
+* fix NPE with pitch
+
+* Fix bug with sending multiple targets
+
+* Only instantiate 3d stuff if we are in 3d mode
+
+* Fix array list exceptions
+
+* Fix bug in sort contors
+
+list was truncated too early
+
+* added download chess, tilt setting and ordinal tilt,
+
+* added square size connection
+
+* removed unused code
+
+* Update pom version to 2.1-RELEASE
+
+* Send camera calibrations to UI
+
+* Stream pose list to a LIst
+
+* Only stream necessary parts of the aux list entry
+
+* Make broadcastMessage synchronized to prevent ConcurrentModificationExceptions
+
+* added fps counter changed squaresize steps bug fixes in tables
+
+* bugfix camera settings cam wont change
+
+Authored-by: oriagranat9 <oriagranat9@gmail.com>
+
+* disable pose print
+
+* standardize on calibration in inches and add square size as a divisor
+
+This should do the same thing as calibrating in the correct units but it doesnt like meeeeee
+
+* updated pom for release, 3d calibration change, cosmetic changes
+
+* WIP: 3D res filter
+
+* bug fix in index parsing
+
+* add good features to track point finder
+
+* offset found corners by old tl position
+
+* Add method to find most extreme per-quadrant points for solvePNP
+
+* re did pipeline duplication
+
+* Add release method to standard cv pipeline
+
+* remove contor from tracked target
+
+* Explicitly release all the intermediate results
+
+* avoid creating new mats in group contors pipe
+
+* removed mat release
+
+* updated pom
+
+* Actually cache the last target
+
+We were trying to but i never hooked this part up
+
+* Fix memory leak in sort contros pipe
+
+* Fix memory leak in sort contors pipe
+
+* Help more with memory usage in speckle reject and draw pipes
+
+* minor bugfixes to the ui
+
+* Start moving stream into vision process
+
+Should probs move into a pipe to be idimatic
+
+* justify bug fix
+
+* Fix sort left/right bug
+
+* Fix target grouping bug
+
+* Avoid allocating a new mat in solvePNP, perf. increases in group contors pipe
+
+* Event scripts (#36)
+
+* Begin scripting work
+
+* More scripting work
+
+* Finalize scripting system
+
+* Begin implementing script events
+
+* Finalize script system
+
+Co-authored-by: Banks T <btrout.dhrs@gmail.com>
+
+Co-authored-by: OmerZ7 <zipory.omer@gmail.com>
+Co-authored-by: Matt <matthew.morley.ca@gmail.com>
+Co-authored-by: Banks T <btrout.dhrs@gmail.com>",2020-01-04 11:53:18-08:00,TRUE
+c48b8c95907ec3a5339b85aadc5f87f60b5ddc36,updated readme with circle ci public links,2020-01-13 23:15:22+02:00,FALSE
+a0b89168b4f8f51015589acad3aa0b505c2d3edb,"2.2 (#52)
+
+## features
+-- added pi cam support (from wpilib v2020.2.2)
+-- added gain slider for ps3 eye
+-- added custom pnp model upload
+-- network tables will try to reconnect if no connection
+-- re did network tables key and added new values 
+
+
+## bug fixes
+-- fixed solve pnp not detection
+-- lowered minimum fps for some camera
+-- fixed vision hang bug",2020-01-22 21:53:11+02:00,FALSE

@@ -1,0 +1,51 @@
+sha,message,date,result
+ccfbaca3778c91973c1077579800709ec8a7c3b4,Add initial README.,2017-03-03 18:53:22+01:00,False
+970d9e7297de75ce76ee1f01fbe1c0bc9c4c31de,Add brief instructions on how to buld and run audiveris-ng.,2017-03-04 11:01:00+01:00,True
+72c8cba59c74b67e6512de755c4b26176925c026,Warn users in the README that we only support 64-bit JVMs.,2017-03-06 03:11:18+01:00,True
+8f2f2cff33602f7a49ec27186c4b72393ec39026,"Update README.md
+
+Updated for new repository name",2017-03-06 12:44:46+01:00,True
+a7b548db9f46901fa076320c45a60118f71d6999,Added section on Main Features,2017-03-06 15:39:49+01:00,False
+8e01621790212f9020c1825b5f5ae9fa5f10d1e4,Remove the caution about the code base transition from README.,2017-04-06 23:12:45+02:00,False
+ab8be5e7a7ffb96ec33244bea5b25fd24e665161,Minor corrections,2017-07-04 09:47:50+02:00,True
+315cd5836156bf89bfe48821ebabb3dfdfe5b27c,README: a tiny correction.,2017-11-30 18:39:16+01:00,False
+743f229a9cff28ebdecb26312e62f6413f772e1d,"Update README with JDK version instructions
+
+Audiveris won't build if you're using JDK version 9. The dependency Lombok throws a NullPointerException appears to not support JDK9 yet: https://github.com/rzwitserloot/lombok/issues/985",2017-12-21 15:26:22+01:00,True
+eb6f05a941ab5738be9a849df928432ca7368d0d,Update README.md.,2018-06-26 13:41:18+02:00,True
+9374f22be48986c7e19a419992578c88ba91fb5d,Clarify Gradle wrapper usage in README.,2018-06-26 13:41:18+02:00,True
+4bfdf6f5c0b33ad6ae8d45f5bd43c1bf650df01d,More accurate README.md file for 5.1,2018-08-11 17:07:18+02:00,True
+61279c3430ab7086386d7f85e4da95c8f9c4f4aa,"Added installation instructions for Arch Linux
+
+https://aur.archlinux.org/packages/audiveris
+https://aur.archlinux.org/packages/audiveris-git",2018-08-15 13:58:50+00:00,True
+ec29281ee5753276d2c353e1573497916322a23f,Update README.md,2018-08-16 06:10:21+00:00,True
+37cfe9c9298ea92c63ad3653449c183b5097924e,Installation sections moved to handbook,2018-11-03 16:38:11+01:00,True
+8e2b0fd550c37bab5527dd254fe29e86966507bc,Update README.md with master modifications,2018-12-13 16:04:31+01:00,True
+78dfce31fecb90defc830ed4c420012ce83e9295,"Update README.md
+
+Added note about coming 5.2 release",2020-10-02 10:30:54+02:00,False
+44a9387e51db7e32c55dd579b3899ef00746cea8,Update README.md with master modifications,2021-06-04 10:40:41+02:00,True
+b39a9d935b147bc51d543827093f63b53c3a9f29,Selection of correct logo image in README file,2021-06-04 13:30:01+02:00,False
+a721c5338038f6eda1952b33e9580c6766e68aef,Completion of main README file,2021-06-04 16:48:43+02:00,True
+bcfc55ebf5303d1f93e965f29eca57610289ffad,Update precise release date,2021-06-04 17:54:24+02:00,False
+eec7c2770c5b2fb171033422191e85af862abf48,README to reference 5.2.2 as latest release,2021-07-09 18:05:14+02:00,False
+ec28cbfa0462650b4318bab1e56131ffc00d0040,Fixed typo on release date,2021-07-09 18:15:21+02:00,False
+e8f43e518d35dfba36a13c2506da6d8175fcbece,Better version upgrade machanism,2021-08-05 10:44:08+02:00,False
+bc495e2048a2473047fa26a9bc30fe0167c50a7a,"First snapshot about schemas and documentations about .omr format.
+- A Gradle 'schemas' sub-project handles the automatic building of
+annotated XSD schemas and HTML documentations.
+- JAXB is used to generate raw schemas from Java code
+- jaxb2-maven-plugin is used to inject JavaDoc as schemas annotations
+- xs3p + xsltproc are used to build HTML from annotated XSD files",2021-11-08 22:17:06+01:00,True
+b48bae4d0c5bea0e8f449d973a64b7a19e865f61,Temporary change for JPodRenderer,2022-01-01 18:41:26+01:00,False
+09bbb8236eefb1d7f20ae4433f2d748dd94c22ae,Added temporary warning at beginning of README.md about JPodRenderer 5.6,2022-01-01 18:47:34+01:00,False
+9a8948a6986f5258e65cd3d8b25752faa2a97828,Bugfix on dummy-rests and brace insertion,2022-01-18 11:49:02+01:00,True
+e1a8a141295072fe9537acfcfc4556cef7f5f69e,Update of README.md,2022-01-21 13:54:10+01:00,True
+40eedd2129c9ea73a70bd5fa13f1853544759642,Update of README.md,2022-01-21 17:40:12+01:00,True
+042c435675c194478240e0cc2c67723ab4728f71,"Update README.md
+
+Warning about JPodRenderer is no longer needed",2022-01-27 09:49:34+01:00,False
+d467e3e43a9ef7ef1bcca6b3f21ae21626c9f7c9,README.md: removed now obsolete info about JPodRenderer,2022-09-27 10:29:50+02:00,False
+476ccf3e2721ed741eef97743ea21925c0d6eeb2,Update warning about the need to download 4.x/5.x Tesseract language files,2023-05-09 18:02:17+02:00,False
+798c4081a63f7e893df5b3ba47baf6de1da39990,Update README.md about development branch and tesseract version,2023-05-09 20:46:45+02:00,True

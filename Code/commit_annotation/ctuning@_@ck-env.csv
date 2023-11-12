@@ -1,0 +1,48 @@
+sha,message,date,result
+e2fcf0791e67c6ec7e1606cfe5f82dc878405934,Initial commit,2015-03-03 15:20:15+01:00,False
+4084750cfe6df925fa072bfb9db60c4717794a85,first commit for environment support,2015-03-03 15:26:30+01:00,False
+f1098acc10d6cc3ff188d09a06ec259f4e5c92a5,major update working with environments and packages (easy co-existance and configuration of tools with multiple versions),2015-03-07 00:21:41+01:00,True
+e53aee22f536339647e58b4d63c85039ee84168d,fixing small bugs,2015-03-09 22:14:22+01:00,True
+97d4013a72612a70096caac1b5ccfbaa41c166fa,improving description,2015-03-13 17:25:26+01:00,True
+a486167a047c57f3664e418cd61a9bfbaa958ed3,improving description,2015-03-13 17:29:26+01:00,True
+25036d2101c70eb93c767a1f5823fc1fc8281099,moving info to wiki,2015-03-13 17:33:05+01:00,True
+b73e8983a6a0cf94539e47250e62e45c5376d1a6,improving description,2015-08-03 11:08:44+02:00,True
+f1e69bec5f34960f39fd5c71cab714d2e6bcb021,adding CK link,2015-09-12 16:39:53+02:00,True
+0977479e627143c09832da553c9a395d67ad5c30,changing platform.accelerator -> platform.gpu,2016-02-17 10:53:10+01:00,False
+62f2fd3206e05233c05d38a33542cbe779c0dd98,clean up doc,2016-09-30 11:59:31+02:00,True
+aea65dfb889ad848d49cd85258f0519320d7f30e,clean up,2017-03-06 12:11:41+01:00,True
+709f8947d9c4394368293fb77cd5b8ca137b2402,clean up,2017-03-06 12:14:37+01:00,False
+c75d47928ef8f595be06a4db13bafa38aa64a9e4,update,2017-03-07 15:21:18+01:00,False
+6b65cc85e404ff22cb61229780eb0197a5972c64,update,2017-03-07 16:10:32+01:00,False
+e120c2413702e8d16c95035a991eb5e5399ace68,updating readme,2017-03-07 18:00:58+01:00,False
+498226fecc4c0c59d887fa345dfee8049d686895,update acks,2017-03-27 11:48:35+02:00,False
+791520480564e32af97c7bdee91c1ef215abbe9a,update readme,2017-04-04 16:56:29+02:00,False
+bcbf876c4855705a3964f788f0d077ad687b4822,updating readme,2017-04-04 16:58:28+02:00,False
+7865acf1a32bafda281fdd412d2ac03395ecfdc6,update readme,2017-04-04 16:59:07+02:00,False
+ff188ced26ab8165c2ff1b2940537018b04127c9,update readme,2017-04-04 17:00:10+02:00,False
+4146886e9247ef4a9b5c52af293e6fefaca0490c,fixing broken link to ARM TechCon'16 talk,2017-09-07 15:19:40+02:00,False
+17b2e41e622e8c1ff23c94cf454d658f5bd6f421,updated installation procedures,2018-05-14 16:23:53+02:00,True
+7f13ab3243f46328d70cdaac9a0b8b45a12816e3,clean up,2018-05-16 15:26:01+02:00,True
+b343d9b2ab93d688fcf5349947cac4d3d593d409,cleaned up ReadME,2018-07-11 10:00:04+01:00,False
+607a0fd013dbe1156648a911e3d50d9ae9cfd003,clean up,2018-07-11 10:02:49+01:00,False
+03118db29de732da4d54bf95beebc4ca573c31f8,clean up,2018-07-11 10:03:54+01:00,False
+9f6bc383a09e8d6fd22b4ea05f6d799bf117016b,clean up,2018-07-11 10:05:33+01:00,False
+a610cf6f6db02d87b3aafde6d4d28002a02fb10c,fixing link,2018-07-17 11:02:26+03:00,False
+ed4de805304494c17ab4a288f9c9bb24184e178e,added the Travis shield (build status image),2018-08-15 10:32:48+01:00,False
+5a9fbd097ed05c4545a189e81ded3e3468fdf2d7,added the Appveyor shield (build status image),2018-08-15 11:55:18+01:00,False
+d43e9527406cc08f7ec050256455b12e57024c09,minor update,2018-10-01 00:13:07+02:00,False
+80c9b999ec321c06768c29fcd1d245a8ffed1678,fixing badge,2018-10-01 00:33:36+02:00,False
+7543ac5832a12836b65a0b7f171b9fe20ecaecbe,clean up,2018-10-01 00:34:42+02:00,False
+3673b6be41906b0c0d0a6ed3c53dc36971e25031,changing link to CK badge,2018-10-01 10:11:28+02:00,False
+aa3690f3e279f9d34bdf6cd6e077905edf174537,updated logos,2018-10-16 18:12:21+02:00,False
+f7b0908ca18e5dbc769c277efd7cf59105a59938,added DOI,2018-12-20 22:40:01+01:00,False
+3c5a7b1efadbd2dbe2e75460062243379cdf0d0f,maintainers,2019-04-07 20:59:59+02:00,False
+18ffbd2caa1a0e51b7c3bd86bb17c8ab54ed43a5,added module:log to abstract logs,2020-02-16 13:51:36+01:00,True
+cc8de093dee5e2168663eb7b83d0c176d44f8476,clean up,2020-02-16 13:53:31+01:00,True
+e7a66f13cb30524368253df8bee7b266b408cca6,trying to fix MacOS travis,2020-02-18 19:09:12+01:00,False
+6b980903a902d25fcf12752360d4c21ae3066c60,added a list of CK modules and actions,2020-03-11 15:49:39+01:00,False
+bdac65c6a6bf0c5298ba8dca3ecdc59201987375,added module:ck-action and ck-repo to share info about actions and repositories at cKnowledge.io,2020-04-13 14:19:34+02:00,False
+5a616da210e95f1280cdd5fdee7277ac19cb0e7a,Update README.md,2020-09-03 10:06:15+02:00,False
+87f34b1afc9a050f4f77a6988021390ac58d1c75,added info about AI repo,2020-11-15 20:44:20+00:00,False
+1c5862637fe3ac5a7b1cf6b5dd4ec4234d7b2f2f,fixed links,2021-07-10 14:25:17+02:00,False
+16d6d4228fa6a2de202cb27ddf85487589f91ae4,Update README.md,2022-09-23 16:41:34+02:00,False

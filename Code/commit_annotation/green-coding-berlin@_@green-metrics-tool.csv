@@ -1,0 +1,242 @@
+sha,message,date,result
+5932faf33831002920407d940477bb872db3d952,First Commit,2022-03-22 17:26:52+01:00,True
+22665dde2866c84b3bb81e85dd8cf10b236858d0,Update README.md,2022-04-19 10:11:02+02:00,False
+84e923a5a94e0b519428ffcd92363148c8dbafab,HTML Link was broken,2022-04-19 10:12:09+02:00,False
+75e6185404a85f74a35ace3a8e3d35ff001156ef,Timeout and flock added to README,2022-04-21 19:55:16+02:00,False
+17d851c4696e65e10a17e4cfd33e0de1a39cf0fb,"export statements only inline with command, not in head of crontab; PATH must be inline as variable is not accessible in crontab header",2022-04-23 23:20:47+02:00,False
+3f817ce226aa857fe2faffec00bba36f70c93ce9,Update README.md,2022-05-03 16:14:06+02:00,True
+fdf6922e307b77e7726f3041650b412dcaa71306,Update README.md,2022-05-04 11:59:28+02:00,True
+3c5f79c5ac1c9a472e709d01d4d7de663cf5f2c1,Update README.md,2022-05-04 12:01:18+02:00,True
+2a0ab920e0125d107502faca6bdf0f241029f8ec,Update README.md,2022-05-04 13:25:47+02:00,True
+6b76b7aa8bb7c8409fc264bdea6a67622312ea72,Update README.md,2022-05-04 13:42:40+02:00,True
+fc200a3dec62eee3d8649f19428e3d0ab0f29983,Update README.md,2022-05-23 21:29:46+02:00,True
+17f0c014441d8cad135e6dd81a5ecae215402df6,Update README.md,2022-05-23 22:29:29+02:00,True
+e35c653484a39c83e82fe7680fd03b31240c5f66,Update README.md,2022-05-26 14:48:19+02:00,True
+530ac5501b651886f38a9b7c0be46a3cc2e15a4d,Update README.md,2022-05-26 14:57:03+02:00,True
+160fd8fd19f9a2b49db1de4ea7c72200acf5da98,Added needed packages to installation,2022-05-27 19:27:44+02:00,True
+9923a440d449ca38aa40e88c6847891eae0f64cf,Restructured Readme,2022-05-27 19:39:10+02:00,True
+dbf9c3ec0626ea4dd3a87e1186fcd7798c669762,Renamed cron to tools; Made more notes on usage,2022-05-27 20:03:55+02:00,False
+8b55cf59418127066f928c769faf09deb3bc8718,"Styling, typos and small corrections",2022-05-27 20:11:49+02:00,True
+58b09d8df9c9939341bd6ed621aefb57d3ef9f21,Added images to Readme.md,2022-05-28 15:47:24+02:00,False
+3a68bc9d19212113c26450909855c1f99e8f60e3,Change of URL,2022-05-30 17:31:25+02:00,False
+a90b6887fb131295bdcb2842983c24c9ee58e37a,Update README.md,2022-05-31 15:02:51+02:00,False
+a80ae73da7d5928521a569d3d31ceac9965da95f,Update README.md,2022-05-31 15:04:00+02:00,False
+2453b3dc9cca29e8d061ff8e0aef09d16409f8c1,Removed fixed link from README. Is now accessible via overview page listing,2022-06-04 20:35:18+02:00,False
+d16891407cc4c85749b3e300febb2ed3df72c2b5,URLs changed to green-coding.local; API now on api. and not on 8080 anymore; Dockerfiles reworked to allow local directory binding; API reworked to deliver projects overview page; Website now switches given on hostname to local / live URL,2022-06-05 10:40:16+02:00,False
+2b4e3faab50eae9b60a7773af4229820a370bfa0,Update README.md,2022-06-23 10:18:05+02:00,True
+6dcd52b2eece683bc54271b3116c3ec84d624725,Updated README to link to documentation,2022-07-01 11:26:46+02:00,True
+c09ecdd1f54ae575d3cb98868cdbe45ea5b77c01,Updated README,2022-07-01 11:32:57+02:00,False
+c10dfdc5024f2855e25e7b4b329388a6b768598d,Update README.md,2022-08-02 15:26:22+02:00,False
+28a5c652aa397d7c35389736fe944c0fbb99969e,"Integration tests initial (#44)
+
+* Added scripts for test environment setup, starting, running, and stopping; Initial commit of runner e2e test; Added utils module for generic helper functions
+
+* updated test setup and run scripts to run in automated pipeline
+
+* updated global_config.py to be able to take accept a different config file
+
+* updated test-runner to assert on std.out output and std.err output
+
+* updated tests.yml to use new test runner scripts
+
+* updated python dependencies in tests.yml
+
+* added filechecks in run-tests.sh
+
+* Update tests.yml
+
+- added numpy to testing dependencies
+
+* updated .gitignore with generated test files
+
+* better string formatting in global_config
+
+* better piping of subprocesses into /dev/null
+
+* removed test-compose.yml from repository, as this should be genereated via scripts
+
+* updated test scripts to overlay test-config into test-containers
+
+* added ability to pass in pw variable to install/test setup scripts, so they can be used within the CI
+
+* updated tests.yml
+
+* remvoed :ro flags from volume overlays, as this was causing the file overlay (config.yml) to not work. Review to see if thisis safe
+
+* build the stress container that we're testing
+
+* turn off runner.py test for now
+
+* added badge
+
+* use correct repository name for badge
+
+* rename tests action
+
+* update badge to use workflow name, not file
+
+* change badge to not be on push
+
+* added example-applicaiton stress to test folder
+
+* renamed workflow; disabled workflow until we have a dedicated runner; use manual line instead of script for docker compose down for consistency with previous step
+
+* renamed test containers to be more grepable; use config.yml instead of config.yml.example for test setup
+
+* turned off some asserts as don't currently work with new terminal coloring; added e2e test for wordpress starter example; updated simple runner e2e test to use local stress example instead of pulling from examples repo
+
+* added :ro back to volume copy
+
+* update wordpress test to use wordpress-data, instead of wordpress-starter
+
+* add step to turn off config.yml providers which do not work in VM
+
+* merge from dev
+
+* tests workflow to run on daily scheduale during work, if there was a new commit in the last 24 hours
+
+* turned tests back on for sat/sun, as we check last 24 hours only
+
+* accidentally reverted changes from dev - fixed
+
+* add script to turn off specific metric providers
+
+* edited tests.yml to use script instead of hardcoded steps for disabling metric providers
+
+* - removed todo comments; -disable metric providers script edits config.yml, not test-config.yml
+
+* disable providers script now also disables the resolution/xgboost parms lines
+
+* updated checkout to v3; fix typo in script name
+
+* renamed example application in test folder; turn off stress runner test for now as it doesn't work in CI pipeline, but wordpress does
+
+Co-authored-by: Dan M <dan@green-coding.org>",2022-11-25 13:23:29+01:00,False
+d4b6a25729fac2da5d35e387faaababc2793b0e3,"Test pipeline improvements (#88)
+
+* -added branch name in run list; -added missisng dependency
+
+* add name to manual run workflow
+
+* refacted test setup script to parse as yaml, and programatically rename all services/volumes instead of specific SED commands
+
+* edit etc/hosts script to match name in setup script
+
+* update readme
+
+* check commits uses new, more robust curl way of checking latest commits
+
+* update badge to point to schedulaed vm workflow
+
+* moved test setup, execution, teardown into own action; -updated a workflow to use new action and see if it works
+
+* turn on workflow for on push to test
+
+* turn on push to see if it works
+
+* remove branch checkout to make sure actions work
+
+* removed empty default string from action.yml, as that does not appear to compile
+
+* added back default, as that wasn't the issue; removed empty output as I believe thta was causing the issue
+
+* indenting error
+
+* explcitly specify shell in actions
+
+* fixed input context call
+
+* use new python setup script in gmt-pytest action
+
+* added renaming for the services/depends_on: key
+
+* updated all workflows to use gmt-pytest action
+
+* fix indenting error
+
+* turn off conditional if just to confirm this is working as intended
+
+* turned off debugging settings for vm workflow
+
+* indenting error
+
+* turn bare metal into vm for check step for debugging purposes
+
+* turn on push for debug purproses
+
+* removed workflow debug code
+
+* Typos; Var renamings; __main__ py3 standard enforced; Using only keys to iterate over as pytonic alternative
+
+* Copy before accessing keys, because we get the updated values in that case
+
+* --remove-orphans added to stop the GMT containers if they are seen as identical and are still running
+
+Co-authored-by: Dan M <dan@green-coding.org>
+Co-authored-by: Arne Tarara <arne@datafuse.de>",2022-12-22 16:10:40+01:00,False
+c51cfff2df34ec0d386528d20343483132c15565,"Tests minor cleanups (#119)
+
+* start-test-containers script now takes -d flag to start in detached mode; updated tests readme; workflow now calls start/stop test containers script
+
+* added parameter to test action for gmt root directory
+
+* added test-directory and test-command parameters to gmt-test action
+
+* fixed reference to input variable
+
+* moved commit checking code into its own action, tests-vm workflow file now references this action
+
+* commit checking action now used in bare metal workflow as well
+
+* changed reference to dev
+
+* split schedulaed workflows into seperate ones for dev branch and main branch
+
+* split badge into two badges - for main and dev branch
+
+* removed activity checker action from this branch, it now lives in its own repo; updated references of this action to new repo
+
+Co-authored-by: Dan M <dan@green-coding.org>",2023-01-12 10:53:43+01:00,False
+104d89aab8f1c76c0d1b9c4cd85314a222ff6055,"- update README test badges
+
+- update test badges to link to the workflow run list",2023-01-12 12:45:42+01:00,False
+1752a1baff67c9349ebb380487ae4efc3f426e7c,"126 - Domain and port changes (#131)
+
+* Changed port number to 9142 and domain to .berlin
+
+* Updated port number in compose.yml.example
+
+* Changed references from .org to .berlin wherever left
+
+Co-authored-by: Arne Tarara <arne@datafuse.de>",2023-01-17 09:18:56+01:00,False
+8d582f769dd0dd62141990448afae708b54e66b7,Update README.md,2023-02-22 16:10:07+01:00,False
+f3eb1744f59904649f39fca99c81c5917aab2be6,"Bump pylint from 2.15.10 to 2.17.1 (#225)
+
+* Updated submodule
+
+* Removed demo user - added Green Metrics Tool
+
+* Update README.md
+
+* Bump pylint from 2.15.10 to 2.17.1
+
+Bumps [pylint](https://github.com/PyCQA/pylint) from 2.15.10 to 2.17.1.
+- [Release notes](https://github.com/PyCQA/pylint/releases)
+- [Commits](https://github.com/PyCQA/pylint/compare/v2.15.10...v2.17.1)
+
+---
+updated-dependencies:
+- dependency-name: pylint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+---------
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: Arne Tarara <arne@datafuse.de>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",2023-04-03 16:59:35+02:00,False
+1700e40c89887aafcdc897f492e483ce2125ffe6,Updated badge to reflect correct workflow ID,2023-04-05 13:52:16+02:00,False
+4092d8191aaa81db3cdeed251c809ebb37a37f0d,Picolog removed,2023-05-10 14:57:15+02:00,False

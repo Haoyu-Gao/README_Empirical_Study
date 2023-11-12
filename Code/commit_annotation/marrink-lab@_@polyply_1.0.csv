@@ -1,0 +1,59 @@
+sha,message,date,result
+03f72e1d1719fcace468717b8a76689215a7c016,fully working initial draft for single molecule,2020-03-21 13:43:36+01:00,True
+25b010aa33488ca2eb440c0952c3b47a18f751d2,final commit before pushing to GH,2020-04-05 16:21:07+02:00,False
+a693d82080e3e41e35e5c1be77b419fa5089ddef,initial README,2020-05-12 15:44:48+02:00,True
+d42731bd624db754c52fbef3d19ae40dd07d863d,Update README.md,2020-05-12 18:59:12+02:00,True
+f4546d8e0ad1285c26f164fe3fb2c566305a2cf9,Update README.md,2020-05-12 18:59:46+02:00,False
+df684a41754447626627cdbb697d51a3e31eb122,fix issues in readme,2020-05-19 12:50:08+02:00,True
+a665348571804057e71fd029c85962c85e834e53,updateminimal README,2020-06-12 17:31:20+02:00,True
+f2590cc81e8656ebc3d08fb1617d858b280986b0,Update README.md,2020-06-12 17:36:01+02:00,False
+d3f2b778f2aee8142c5c03983b098c3c2bdee72c,Update README.md,2020-06-12 17:39:18+02:00,False
+e3ab67683d3c24ebbc80600206ab46f00c023a8b,Typo and small addition,2020-06-15 11:36:37+02:00,True
+aca4bd3498b9c6c75b7ca6111a3cc267d71fbd6c,Fix few typos in README.md,2020-07-30 12:56:10+02:00,False
+cef2e23ae44676ee61efc017a5ba644f8b70596a,"Update Readme for first release
+
+Installation changes with the release and the system generation also needs one more required argument",2020-12-07 16:18:47+01:00,True
+decf7b1a17fafe1dc7c4622c3fd681b9a3c446d9,"Update README.md
+
+Co-authored-by: Peter C Kroon <pckroon@users.noreply.github.com>",2020-12-07 16:24:57+01:00,True
+f7d46670a4e67aa4c35db85fea1f72a58d1dba55,address comment,2020-12-07 16:26:06+01:00,False
+add87ab77ad9ee97aec8c9406959af3f9506069c,Small fixes to the main README file,2021-02-08 16:08:03-06:00,False
+8821fbdfdd6a8ada4415893b5b7498a646c38984,"Make the readme more streamline
+
+This new version of the Readme draws more attention to the wiki and migrates all essential information there. This keeps the front page more clean and allows us to fix simple problems in the tutorial/installation instructions without having to edit the Readme every time.",2021-05-25 13:01:11+02:00,True
+a33c99dca2cdb9dd18e90bfccc5d5b1045bbc694,"Address comments
+
+Address comments and add citation to Archive paper.",2021-05-26 10:30:08+02:00,False
+21d88c14d11f4d3bd3f08067e97a346015afeb10,"Add badges
+
+Adding badges for the project.",2021-05-26 10:49:11+02:00,False
+8f929d36ac102b33b77fbe4b0394edf4c54c77c7,"Update README.md
+
+Add batch for test status",2022-01-07 15:40:38+01:00,False
+03f69f07743c57cce95eced6368498024b766297,update README,2022-01-09 20:42:18+01:00,False
+4156362c3679e876568c0c33d45d26e314134485,"Update README.md
+
+remove dangling /",2022-01-09 21:01:20+01:00,False
+8b0e72b6965a7b2b9a3fd5ba64b11f9d1fa55ee0,update polyply citations,2022-01-10 12:24:19+01:00,False
+5f0ea0c08793c5521e565ef5c870e1e13f396d2c,"Update README.md
+
+remove downloads badge because can produce invalid as status",2022-01-10 12:40:01+01:00,False
+6cc66c82c9cf843860d8868165bd15866eb29a83,fix year in polyply citation,2022-01-10 12:50:47+01:00,False
+5db4bbb08b0738d6c1fe9b43ae241abc9b7a5541,"Add News section
+
+Polyply is now a featured article so I decided we can add a news section with recent publication and other stuff regarding polyply. Not sure anyone reads this but could be cool.",2022-02-09 21:30:28+01:00,False
+cd5fa04ab7600f3ab827ca0ac583be31f59e5abc,change # as polyply is already taken,2022-02-13 04:58:14+01:00,False
+f9ef30505bdbd3b6e68de1f27b13e7ef0cfcf78b,"Update README.md
+
+add news item to readme",2022-07-04 18:07:41+02:00,False
+14e3da16ed42f9c653ce8503743605a7b1d4c1ce,Add link to LIBRARY.md in main README.md,2022-10-20 09:20:03-05:00,False
+7ce4d2ec64585b970ea6631992f155807e189bdb,"Update README.md
+
+Fix badge for build status",2022-12-22 12:47:53+01:00,False
+43269abdf84d1865cccf42d4d114e4fc9b6dda6f,Add Whole Cell to polyply,2023-01-27 11:06:20+01:00,False
+d71b87c8822001b38b1fca21cf58a412ad3ce9d7,"Update README.md
+
+add link to ssDNA tutorial",2023-01-27 11:08:16+01:00,False
+f5f5b935cc5e36ce02cefaf60eaa4270bf9b6057,"Update README.md
+
+Co-authored-by: Jan Stevens <49684318+jan-stevens@users.noreply.github.com>",2023-01-29 15:39:14+01:00,False

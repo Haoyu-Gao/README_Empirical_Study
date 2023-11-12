@@ -1,0 +1,35 @@
+sha,message,date,result
+4a3aada320b24f4f688b39bcb7d10cfc46b97af0,Initial commit,2013-05-23 07:20:06-07:00,False
+1c147c69f4546190a9fa97bd7dc8ce1f6ef4e5f4,adding build status to readme,2016-10-29 17:44:36-04:00,False
+1c06a03d4d18de93b2bdd97e06b019970058cf31,adding codecov,2016-10-29 18:04:39-04:00,False
+d1b09d5ec319b79b4636484eeb20951f74af4773,updating README with new name,2016-11-13 22:15:21-05:00,False
+5ba0d3afbf07c685a7cab419f4bbfa661e297441,updating links to travis and codecov in README,2016-11-13 23:01:25-05:00,False
+6a3b62695ac99e65efe7d7b85ad8912ed7c90750,adding pypi version badge,2016-11-13 23:25:16-05:00,False
+72a3cf1f3aea5ad6fba6b0e8fd6753a8bdd05a8f,badge for python version,2016-11-13 23:42:14-05:00,False
+60a5490d2d4c7318127f6f3433a57858689af02d,adding installation instructions,2016-11-13 23:45:04-05:00,True
+fb78522c7ff38bd5fc37dbe6f19523d417d2166b,description in README,2016-11-14 22:15:57-05:00,True
+b6beacc2e6f4032252a4f10d9667f95be22320fe,README introduction,2016-11-14 23:55:40-05:00,False
+ed856041cd340d18800c5be36b05c5d047a5f326,fuller introduction,2016-11-15 19:28:07-05:00,False
+730c250ac370b34ec7dd7e0149c0454d06c107f0,clarification to the rules,2016-11-15 19:30:11-05:00,False
+c980b9e1c7c80ff2265094823a2d7e4f123a7054,usage example in readme,2016-11-15 19:38:00-05:00,True
+7c60b1170134fded6c6d5c9bb0229848ed7f795e,CLI example,2016-11-15 19:45:20-05:00,False
+0edd47a68b82395fe0b8c617a171b95b17ea7d41,minor modification to package description,2016-11-15 19:50:41-05:00,True
+aa4947e2da897e248eb63ecd0260cf9b7828cc6e,link to documentation from README,2016-11-15 22:35:11-05:00,False
+74f79c6ff9fe6b97c00f0f229f5da3364dc2f3c4,adding documentation badge,2016-11-15 22:40:45-05:00,False
+ddd83eddfae9fd1e544606c2a05d40992e66da66,more specific link to game rules,2016-11-15 22:42:54-05:00,False
+44392db1d6a35580a410815c0fd6a6d70b726b28,links to issues and pull requests pages,2016-11-15 22:43:58-05:00,False
+37bf39e971a22f00069e84e7ff62be5b951e21e7,initialization of Games via a @classmethod,2016-11-27 16:39:32-05:00,False
+3f5a6a4e2abe661c70d324d1958e0e71b1da04f1,"valid_moves as an attribute of Game, instead of a method",2016-11-27 21:45:25-05:00,False
+cbd161a5ed6003856663c3457853fc718cf63b6c,updating docs to show new Game.moves attribute,2016-12-10 14:24:12-05:00,False
+8b9e09f55df7a5322e29b57f19948e6019547427,updating README to show new capabilities of CLI,2016-12-18 15:19:01-05:00,False
+533e620d6bf4b00c235ad911be2584c89b0adaf7,python 3.6,2016-12-26 19:37:56-04:00,False
+1902cd47c3174df2247cb3e06011a45e91944333,updating description,2016-12-27 10:39:38-04:00,True
+64f6217c664810e12aa1bc5d439d9be518b95f4b,updating introduction on README and index.rst,2016-12-27 11:32:10-04:00,False
+450fa65ff18c84539a5942e6460db7997bc3c6ea,"updating player documentation, and including it in README",2016-12-27 12:03:46-04:00,False
+20cc22746ce1d8a3443cd8b704bbfa23ca122861,adding link to full documentation from AI players section of README,2016-12-27 14:32:18-04:00,False
+b172f860575e4e1529405f186c34a98788e0e45d,proper formatting of __call__ in README,2016-12-27 14:34:28-04:00,False
+449cb70e75424688ca95e019c7e80c536e3edfc6,__call__ formatting syntax to match what sphinx uses,2016-12-27 14:39:00-04:00,False
+944e8242c6487af1f54c99ce3cbeec25944a178e,consistent code style syntax,2016-12-27 14:50:27-04:00,False
+6af4ef710814c16b6f8da5d2249d6d151f6aa1f7,changing semantics of Result.points to more clearly indicate winning team,2016-12-28 11:17:21-04:00,False
+26eb1140755bde3864be7dca315101cd494b709f,updating documentation,2017-01-12 22:26:31-05:00,False
+cf54cf497faa5838b25a7cc738eb045cd27cd661,adding support for python 3.7,2018-10-26 16:03:34-04:00,False

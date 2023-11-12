@@ -1,0 +1,38 @@
+sha,message,date,result
+363b7d03b32a97ebc1cbd737fe97077cd21aabc7,Initial commit,2015-06-27 23:35:54+02:00,False
+c9fedae2c054b4812ba116f00f8bf93c2a178768,Create README.md,2015-07-02 20:05:55+02:00,True
+c45306591c29ee056870ead1d17a0ee07f223ae8,Fixed mission <-> micro managers bug; Improved performance.,2015-07-12 17:22:21+02:00,False
+96f092ae250be24ff007a7fc865c5ad7aa2adb22,"Update README.md
+
+Updated readme",2016-01-31 14:07:37+01:00,True
+e21cfcbbbfd044bf32b425f19a325459d035a0d3,Update README.md,2016-01-31 14:22:27+01:00,True
+18b0c251d9a0c087ef2d2acf911884498c2cce2e,Update README.md,2016-01-31 15:42:27+01:00,False
+14e5d8cc711bc09f8b7d1fca112881dffe036d4b,"Renamed ""AtlantisTide"" to ""Main"" as it's more intuitive; Updated javadoc of Atlantis class which is the one extending JNIBWAPI, this it's the most basic one, just after the main",2016-02-01 17:08:41+01:00,False
+c109395b497570ee01ef77bd1e9880f794adb0f5,"Major bug fixes and improvements, mostly to the Terran race; Greatly improved running behavior and combat evaluator",2016-02-05 18:37:16+01:00,False
+cc810977a70cc4f99262d66ec653edbc351363fa,Updated the slightly confusing README.md,2016-02-19 20:35:59+10:00,True
+c48737a5205d8bce61b86fc940721503f72591b0,Update README.md,2016-03-20 16:18:02+01:00,False
+dc57ea9eca648f6fb3d89c4b4fdbd24a30232cd7,Update README.md,2016-03-21 10:36:55+01:00,True
+d8123738fccbc24059efa6d48dc272e4455669fb,Cleaning entire branch,2016-03-26 13:56:04+01:00,True
+8f12b3d78388cf91000383fa3243bed219348eea,Added BWMirror code into Atlantis for better code control,2016-03-26 13:58:20+01:00,True
+89fe47619edf026500c1db491679bd4fd3b8d7f7,Update README.md,2016-03-31 19:31:50+02:00,True
+9be04dbf7cc100da6eea12df8411dfbe53ce5678,Update README.md,2016-03-31 19:52:09+02:00,True
+4d91175a42efbb41a06c01c6c060d3ea2577c9f7,Update README.md,2016-04-12 19:40:08+02:00,True
+c5fa8f54e5c82e5bc8908896b7f0d78017173845,Update README.md,2016-04-22 15:03:01+02:00,False
+157409e38dbea416a454a07c5faa97ddb1b930fb,Updated readme,2017-02-22 17:09:32+01:00,False
+f55c2748eed20e93b8e8acc53f517974db04686d,Updated readme; Renamed few classes,2017-02-22 17:13:34+01:00,False
+179bc267dd470397bf9d0be70cc50b1928b1105d,"Update README.md
+
+Updated readme",2017-02-25 14:10:23+01:00,True
+f3ac76ee4cccf3be23ec4700cfb152d17ff85155,"Update README.md
+
+Yet another readme update",2017-02-25 14:15:33+01:00,False
+c08c2644b1511de25f9a0fc12ebd47e993a63818,Update README.md,2017-03-01 22:20:50+01:00,False
+ae703ec8c91ce092f54cadcb2551fe8831e37c7d,Update README.md,2017-03-01 22:30:01+01:00,True
+9ba3030c21db455cde7a46633ea2ce98bbbb48f9,"Now always targetting the most wounded enemy of the desired type to attack, within shoot range",2017-03-02 11:32:33+01:00,False
+c3d6d4c7f778e102c070ba36d0bcc28778feb90b,Significantly improved unit running and improved its performance,2017-03-02 13:13:11+01:00,False
+3e7cf64c2867b9ba44258215f51116c6412dca85,Updated logo,2021-09-28 12:47:55+02:00,False
+8177affa97b0bbe2ec79093b4aa38a0a953025e1,Update README.md,2021-09-28 12:49:08+02:00,False
+d3e9e0d358a52b1588e3a28e5f59a2f324984de3,Renaming & minor fixes,2021-10-15 12:46:10+02:00,False
+ca39f0bb9bac16976edeb5bb79a8a2eeae6cd41e,Updated readme,2021-12-23 19:48:26+01:00,True
+0c89b08bba30796f542448fa4e83fc034c65ff41,Added link to Atlantis wiki,2022-01-16 11:27:58+01:00,True
+846fee935513cc2b3cd244a263ea2300a9a63d9e,"Fixed combat eval, fixed tests, had to tweak fake & fogged units",2022-02-10 18:14:13+01:00,False

@@ -1,0 +1,76 @@
+sha,message,date,result
+f76fc5df3a4dfdd2854b1a88ce58b98948c4a23b,Initial commit,2013-11-29 10:15:40-08:00,FALSE
+ea44b3ca093d6a5b524f833afc765c2cb26d22a8,Update README.md,2014-04-19 08:29:14+02:00,FALSE
+a80b62e579cbb38d678b5ee3c7082d22f84ca142,Made PneumaticCraft open source!:D Have fun!,2014-08-30 12:40:20+02:00,FALSE
+717f3c2c4bf5c27838c1f91948953361c5b7869a,"Added dev instructions, and added API package to be generated.",2014-08-30 14:11:55+02:00,TRUE
+4ecc9da16c56323e3c8da338aa5b249e955a8ed3,Hidden the fact that I copied BluePower's API gradle task :P,2014-08-30 14:22:19+02:00,FALSE
+c31d80ba085b54a9ba87162275deb0b2e9580be4,"Refactored Omnidirectional Hopper, fixes #178 , Omnidirectional Hopper eating items from JABBA barrels",2014-08-30 16:41:10+02:00,FALSE
+164cc5219cf1ff0dade63340f497c578d088f57e,Added some info on how to get forge running,2014-12-07 18:27:43+01:00,FALSE
+25191600d493150e64352855699f2e1c2f7aceac,Different link formatting - is this better?,2014-12-07 18:31:18+01:00,FALSE
+4b47e7259c3219666795dee21c9cb33e8888e143,"small change to the links, again",2014-12-07 18:33:54+01:00,FALSE
+42f136139528e2391e38d7c1ca203a79dc85be45,#NAME?,2014-12-16 12:05:44+01:00,FALSE
+264e170dabb8057e1106ce80ccbfca0a097919e9,Add Download Link to readme.md,2015-08-19 15:17:34+02:00,TRUE
+2e79999b5c8b8ce3e7f0e33a5164700df6fe719a,big changeover for MC1.12 - now maintained by desht,2017-09-23 09:15:02+01:00,TRUE
+2931934af73975c5910e79fbf37d32fe3324499d,Aphorism tiles work now,2017-09-25 11:49:49+01:00,FALSE
+62b09cd87b677379ce271e444436ea03fda9d7ea,readme update,2017-09-25 14:48:16+01:00,FALSE
+f307e343fe7d67f9daa9e046a658d8f84c2152ce,readme update,2017-09-25 17:46:40+01:00,FALSE
+1db394a477bd481e84a5e9a453013c778a5bf5eb,Some pneumatic door tweaks.,2017-09-26 10:10:34+01:00,FALSE
+55189d7dc863d448618b4dff04edf88b9d0181d0,"Big tube module commit!
+- Tube modules now rendering properly.  Went back to simple models in
+  code with TESR instead of trying to render .obj models
+- To fix:  little glitchiness remains with hitbox detection in some
+  cases - ray tracing is off somewhere.",2017-09-30 12:32:02+01:00,FALSE
+1d305f42785b3c46c710ac6206b3c6d8d91f6f4a,"Semiblock placement now works.  Heat frame tested & working well.
+- can now also use pneumatic wrench to remove semiblock frames",2017-10-01 00:53:02+01:00,FALSE
+347fe217074bd426f7a46663cddfc06dc68d5652,"Assembly controller now renders
+- using JSON model for base & connectors, TESR for rotating screen",2017-10-02 11:18:40+01:00,FALSE
+4e1dd5132d83cdb9da0e38d3e3b03f531c059b92,"Fixed logistics drone crash
+- logistics drone are basically working now, but not well tested",2017-10-02 17:42:58+01:00,FALSE
+890e3e7e7089a1074e4f3aa43de78dd46097d0a6,readme update,2017-10-08 00:23:03+01:00,FALSE
+e5f649d1210588ab33e321993306f86af1c89667,"Flux compressor is a thing again
+Just a simple textured cube for now, I lack the modelling skillz sadly",2017-10-08 17:39:00+01:00,FALSE
+5b1467c357437bd647fd05bd38130e9164b9faef,Universal sensor now works (both rendering and functionality),2017-10-10 11:13:26+01:00,FALSE
+2d984f9fc3705d28e9c453dd5415fa7dea718e7d,Update README.md,2017-10-12 14:21:35+01:00,FALSE
+0c86a639e1d6ca6bab0ac6f8ba620f9757c5eb6f,"Heat sinks now tint properly according to temperature
+Redid the heat sink model with JSON so tintindex works",2017-10-13 00:05:31+01:00,FALSE
+11b346305f4c5b434ca6e202b57a5ece1482ab8f,"CoFH integration
+- PneumaticCraft fuels now work in the Compression Dynamo
+- Gasoline is equivalent to CoFH Refined Fuel
+- CoFH crude oil now works in the Refinery",2017-10-13 09:52:12+01:00,FALSE
+784d315e759e8c08ff27bb6238a5d39dcf19ab84,Update README.md,2017-10-17 11:52:43+01:00,FALSE
+7b93c101bffff2ab98bdacb6b98c260f4b2944a0,Update README.md,2017-10-17 12:04:53+01:00,FALSE
+0898857b8c3bc870a638d11c7b0bbfa76cae85fe,Update README.md,2017-10-20 14:05:47+01:00,FALSE
+40862ae27831aeb12f2607d8b1c0a66901ef4490,README update,2017-10-23 08:31:34+01:00,FALSE
+b1c68fc6ffe2f955c6f250d16a60ce1fe6c187ca,"Fix a small typo in README.md.
+
+Also rearrange the dep section in the Gradle build file.
+
+Signed-off-by: Kamran Mackey <kamranm1200@gmail.com>",2017-10-31 03:13:52-06:00,FALSE
+544bdf4b15165930799837bee81f4672f2b2a2b2,Update README.md,2017-11-03 14:49:53+00:00,TRUE
+76f9267ab8b840e7213b77ea1fd468c29dafe5bc,Added a little licensing info to README,2017-11-07 08:09:35+00:00,FALSE
+f643a914255596728f6d002ccac1731f13649424,Update README.md,2017-11-08 15:59:00+00:00,FALSE
+33ac1d995551c727fe67c763a766bc64e676ded3,README update,2017-11-15 09:36:40+00:00,FALSE
+88fce6893a824aaacf77c89058f67b7a9a26dd47,"Build changes:
+- Build number is now included in artifacts JAR names
+  (build number is 'CUSTOM' if built by hand)
+- Fix API class files not being included in main JAR",2017-11-16 11:01:12+00:00,FALSE
+63afb39fbdf994b13cf77ab85923f8e29560b043,README update,2017-11-16 15:50:55+00:00,FALSE
+76cf6fcb8bb7e0e293cc02d518baef07669da246,"Readme update
+[ci skip]",2017-11-18 12:03:44+00:00,FALSE
+be96a943ffefed037ea9980253f990aa3035cc28,"Readme update
+[ci skip]",2017-11-19 09:50:23+00:00,FALSE
+9886946ba2468b2e8d3fc14cbe7b5de4de3d69a8,README update,2017-11-22 13:40:20+00:00,TRUE
+5bf786edcac7eaf7da0f8e8ed4160cb8d6f3b8e9,README update,2018-01-06 12:12:07+00:00,FALSE
+789ef119c606ee2e294372c1095629cabf6a299d,README update [ci skip],2018-01-06 12:15:14+00:00,FALSE
+66b8a988c558dabfe2a8877196ac6aa4ba3fa54d,README update [ci skip],2018-01-07 14:37:20+00:00,FALSE
+6774c553294534f4b2988b40f4128f5c0b7d9c54,Version => 0.4.0,2018-02-01 11:49:13+00:00,FALSE
+3b67aeb3bb00653dfff1ff4561c199cb4f6241e9,0.8.4 release,2018-11-25 16:20:58+00:00,FALSE
+b0874c3813aa9e19434f69898d606c83c4bb9981,Add Jenkins badge to README,2019-03-14 13:24:29+00:00,TRUE
+33ef8a87f4d4db88b5893cd2cab38a9d0addfba8,Semiblocks are now entities!,2020-01-21 11:20:20+00:00,TRUE
+74195312c3397b3acacba87762fc1e46087eaf56,"Fixed Logistic module not rendering
+#461",2020-05-06 00:48:34+01:00,TRUE
+c5ce31ba3e0f1d140ebc2e9bbe6439e6995dda94,1.1.2 release,2020-05-11 11:06:41+01:00,TRUE
+2294395bbf9a0706b5eedcc1b15ac1198581d234,README update,2020-08-21 09:13:41+01:00,TRUE
+76a789eaa153bd9e9880a23bf7386dcc4bec3270,small readme update,2020-12-11 12:51:08+00:00,TRUE
+3fcd7153686fbdfeeab25163d3296f6ff5bdbd0b,README update including API relicense under LGPLv3,2021-03-20 08:56:42+00:00,TRUE
+239eff7c8cb32b54558585919791ef1c68bb2e4d,"readme update, 3.1.1 release",2022-03-17 10:37:13+00:00,TRUE

@@ -1,0 +1,347 @@
+sha,message,date,result
+15176042a0f9ed74da8970901f419e6584a62d55,added scripts Rudy in cookiecutter template,2020-02-03 15:03:54+01:00,True
+b32c3f7aca1b5929508add3e04802f417e6e3171,"added checks for time/layer selection, made more robust",2020-02-10 10:27:07+01:00,True
+ef80db28ed0030efd88006fd6a886785f31d31a3,"improved his reading and dimension handling, updated testscript examples to work again",2020-02-10 11:17:52+01:00,True
+6d98379a0508139dabb125d1a92027dee9ffa656,edits README,2020-02-10 11:22:59+01:00,True
+ae79eb6bc57c772fde11404cc02fa2fd71c86524,edits README,2020-02-10 11:27:33+01:00,True
+d421f9af712ebd5d187627ea0b0ae1173bbf6aec,edits README,2020-02-10 11:28:03+01:00,True
+a85018a3be8a45b1153d8fd217b2ab2112bbb9d1,edits README,2020-02-10 11:29:13+01:00,True
+41260a60578f8bf02cec001ada59538dc7a26caf,edits README,2020-02-10 11:30:09+01:00,True
+49f88b3750b1c98c42081507a03e306900f77997,edits README,2020-02-10 11:31:17+01:00,True
+62f9ae3ad83a8432041c94f82185e7dec131e2b0,edits README,2020-02-10 11:34:42+01:00,True
+c8024dc9fa7088eda9c0f450cd53b0a678c625c3,edits README,2020-02-10 11:37:34+01:00,True
+b678642226c2b355c8ee341ec9c09653caaa3e26,edits README,2020-02-10 11:38:40+01:00,True
+c4a538171f20aa99d65dabcc0a693b86ba854d0d,edits README,2020-02-10 11:44:30+01:00,True
+e5062f9b3372bd9cd1dfc2969cba9a0c493453bb,edits README,2020-02-10 11:52:46+01:00,True
+af42fda6a356955c4758d20eb4b7b8675012b155,edits test,2020-02-10 13:51:35+01:00,True
+25c0213df5ef26b2094ba808c8579679723939b6,"made domain check more robust, all test cases work again",2020-02-10 16:16:18+01:00,True
+22f89033e2022cd962c41fa2fb37bdc79bf6e54c,"worked on his support, not finished yet",2020-02-10 17:22:37+01:00,True
+ff958877af3b4611c7755d75cb07271ff5b76b19,added retrieval by datetime,2020-02-10 23:05:50+01:00,True
+5e443b884f725e6083b57752faf80b89b5b78db0,edit todolist in readme,2020-02-10 23:07:30+01:00,True
+fc8548a8058f8e2ea1b0bc60270c0b35b8db1494,checked functions with output Lora,2020-02-11 00:00:31+01:00,True
+f764738d07bc4810599774f46c19a0dcb611a28a,small updates,2020-02-11 09:37:21+01:00,True
+93d682faf04961fd48c1828057df0e837aa2e208,update README,2020-02-11 12:00:50+01:00,True
+404a86ad555f29240a3124c584a4d4bb36a694bc,changed setup.py,2020-02-11 14:03:26+01:00,True
+0c7d7f156fffc41c0d2298e837c58f8bfe32744a,first version of intersect function,2020-02-11 17:23:13+01:00,True
+bd72a4c3297552e86f53e1e1cb63c95834f3e4b5,finalized intersect/sliced function,2020-02-12 02:43:06+01:00,True
+8e7c50c394232582747f6df39d9af20f45994067,readme edits,2020-02-12 11:31:28+01:00,True
+a7095bf4f6dcbfe0bff3861fa267e15218ab4dea,readme edits,2020-02-12 11:32:35+01:00,True
+8b0b4e87c59007f90da238613e5ad794a63db5f7,improved hisfile reading and made netfile reading more robust,2020-02-12 12:15:03+01:00,True
+6e88d84592ee594d9511ade79ea0db9ce275ae9f,readme edits,2020-02-12 12:33:22+01:00,True
+2e8253ce677cd14a2414236018fd64b71b94c8c8,edits readme,2020-02-12 15:30:22+01:00,True
+9c25e5f61544b78741f284cf369846f2d413c851,added station selection from hisfile,2020-02-12 17:28:39+01:00,True
+17ede2b6cdd096e0d58c90626ca762a06841ad2e,edits readme,2020-02-12 17:36:43+01:00,True
+2b85de2eb450e1f7763ff9d3560a362d12a33c9a,edits readme,2020-02-12 18:07:47+01:00,True
+b2d74eac08f8b7a8f08c5b5ad4e49ffe1ea1c401,improved distance calculation in get_modeldata_onintersection function,2020-02-12 22:38:51+01:00,True
+5fccb2c4b10b73981cef276edaffde44f2b6e0d5,"improved distance calculation with intersection, all testcases now valid again",2020-02-12 23:08:35+01:00,True
+96682444af2cd933fe3f03771cc6cc617f158bb6,work jelmer,2020-02-13 11:31:27+01:00,True
+80edb35b94b6e7ded763f8713054b441d7f56644,"optimized intersect performance, added mercator if latlon",2020-02-13 17:48:38+01:00,True
+84e6959d616cbd44a3a026d06ebc836bd162847b,readme edits,2020-02-13 17:50:19+01:00,True
+67322f909bf3c37098f8bd4ef424355176d6f3bd,readme edits,2020-02-13 18:31:24+01:00,True
+a915869d5d63ce087258db85970e27e5e7c86ad5,readme edits,2020-02-13 18:41:35+01:00,True
+4122946cd955b3405dede999ca09578e464e4c96,readme edits,2020-02-13 18:44:30+01:00,True
+1c56a07ea6c332fd840bf48bc717126321e81a45,tests for RMM crossect,2020-02-13 20:47:31+01:00,True
+d7bf69f334e208a308946c65763ca4581c7f5e30,"made intersect function more robust with exception cases, also added possibility to make 2D cross section",2020-02-13 22:04:52+01:00,True
+a041d33d7a794eb17a2fcf37a1fa67fbf9d29f69,readme edits,2020-02-13 22:09:37+01:00,True
+187cf72b9f299f589f9d48db1f8e85994cd262a3,readme edits,2020-02-13 22:13:07+01:00,True
+730b346b4efc2a7e7effe7582e3a3969d8fd5b19,updated tests,2020-02-13 22:33:06+01:00,True
+75d5a2fdb79bc09873305f645766233c9d93d4b3,improve test bank,2020-02-14 02:47:19+01:00,True
+0794d5ca16db5f87662fb7e09e071b262afe70f0,readme edits,2020-02-14 03:04:32+01:00,True
+465fd6d12e420eafe7c2ae089e2a12538f092434,readme edits,2020-02-14 03:19:42+01:00,True
+c1da32e63e13b63172fa0f71accd8dfd7b453d15,readme edits,2020-02-14 03:39:03+01:00,True
+6ea695677d3adc83bcff4b02fc602422f41d27fe,readme edits,2020-02-14 04:01:56+01:00,True
+8b9fba110b6568c443cbefbaffa9f3923a132381,"proper package set up of package, untested",2020-02-14 12:34:58+01:00,True
+825c439e50679f477069d672bfd20aebdd99395a,credits in readme edited,2020-02-14 12:41:18+01:00,True
+40ec1237729a2d46953cb7f99603d32ef2ce3c8a,"restructured scripts and functions, step 2",2020-02-14 13:10:36+01:00,True
+8002897001840990f66989623f4ca43e6caccd64,"restructured scripts and functions, step 3",2020-02-14 13:32:24+01:00,True
+c460d9e86290c5808b15584cf223b78c6fcb136d,"restructured scripts and functions, step 4",2020-02-14 13:45:51+01:00,True
+6790085a2c49054983422f40d8b53b90a61c1227,readme edits,2020-02-14 13:48:40+01:00,True
+30a29239466ec78f7de168ce4cf947a415cf9750,"restructured scripts and functions, finalized",2020-02-14 15:20:54+01:00,True
+1eb05e4cb5549d1062b72a80790df438f2409777,updated documentation,2020-02-14 16:27:53+01:00,True
+8f058713d1c3d759ec8eec56c30c55945f470554,updated documentation,2020-02-14 16:31:47+01:00,True
+c75e67836f957f2661e6e6620131ce802110665d,updated documentation,2020-02-14 17:16:11+01:00,True
+7aa47fe1c6e7a92243fda78ca2e088a9cb6fde68,"temp_optimizeintersect added, first step to optimizing intersect function",2020-02-16 14:39:19+01:00,True
+447a2bf0dc94a26d8e84e7eb28ff29832ff9ad97,work for polygon around line,2020-02-16 17:08:42+01:00,True
+729578af49b7fce7d4d6f88cecf05fe51e012c87,edits,2020-02-17 13:31:00+01:00,True
+783af81d7921b96bebf3761ab4f16f4e044b265a,readme edits,2020-02-17 13:36:23+01:00,True
+7ffe4b9609be6f74c5e1b45987c7281e42f31ae3,readme edits,2020-02-17 13:39:35+01:00,True
+9adf9faa1e7ba3101ec51eb87390cda8bc3b428d,readme edits,2020-02-17 13:47:10+01:00,True
+2815c6aa1102294d1bfa74750138361055588c44,readme and history edits,2020-02-17 15:57:18+01:00,True
+b8cc79ac2249698ae125a4fe288b607dcc173851,readme edits,2020-02-18 16:29:37+01:00,True
+2a03fdb0348b4e5401943778210a639a9ce0e6f7,"edits readme, new install method",2020-02-18 16:45:36+01:00,True
+5a1e2e1b4c05d56f600f5e0f8a67f6cbddb9ee5e,added explanation to get_nc_helper.py,2020-02-18 17:12:30+01:00,True
+926b24a22e8076e3e4941bd3be90032b05aa0ad7,readme edits and added temp_optimizeintersect.py again,2020-02-18 17:16:15+01:00,True
+62a5a9f5db6430599ca01c812cdd33f6008f20ba,readme edits,2020-02-18 17:20:23+01:00,True
+9987d252b3bb103f52dfd268f64ca6dabde37587,edit readme,2020-02-18 17:29:50+01:00,True
+959125189c5c2fe9bc6cd1ff34e524355397f275,edit readme,2020-02-18 17:30:29+01:00,True
+53d5675a67536fc36548d83d57ece45106e08d0b,edits readme,2020-02-19 09:22:59+01:00,True
+7173c21d304181ff35ef374ba91dc5734c5b7684,edit readme,2020-02-19 10:00:53+01:00,True
+40affd079dac361e143464fdea48e9178f8e83d7,edit readme,2020-02-19 10:10:08+01:00,True
+351313c8ef3239718e707b103c104de0964deb6c,moved temp_optimizeintersect.py,2020-02-19 19:08:46+01:00,True
+0ce3884b1710bbbfd4bad81fcfcea5a5c0ae1293,readme edits,2020-02-20 14:35:24+01:00,True
+935b048225ad1677c512eb2f8ca0bf65555f722d,"updated get_nc, untested",2020-02-21 13:20:57+01:00,True
+5d59b1f0853473f7f7e60584dd2847b57f27fc1f,edits readme,2020-02-21 15:39:30+01:00,True
+49bca9de66573e64f3a076623cc2d02abd918766,get_hisstationlist more limits,2020-02-24 09:48:23+01:00,True
+37eb435d76650ddb7d7636f97c5b7c385c63a595,update readme,2020-03-06 10:38:45+01:00,True
+b2b616f325a416dbb517620198adc8c7755af1ad,update readme,2020-03-06 10:53:42+01:00,True
+18c058e297eb983c3bfab401d668a933718f40b5,added example for zt-plot,2020-03-11 12:27:27+01:00,True
+06144a5a2295c753eb44cf017b8423324784ac7c,added example for zt-plot,2020-03-11 13:06:23+01:00,True
+976eacc2463b23bcb517e58f0051b8e37520f7e3,added example for zt-plot,2020-03-11 15:04:18+01:00,True
+3fe6a34b3e18ae5374d27becfe49d20ce7a1ec63,updated testcase and readme,2020-03-15 11:21:00+01:00,True
+47634cd4d1a50da1dc3be2af1e2aff87a12f095c,dflowutil changes,2020-03-16 11:47:52+01:00,True
+34a3e55630169827db777ac023ede95516d2d512,first step for hirlam netcdf,2020-03-16 14:39:47+01:00,True
+35cefe56baf42fc63083386c92efb64c70e967fb,added tekal reading to polygon function,2020-03-19 12:40:49+01:00,True
+0bc5194d583fab989a884d6c6a8a24dee39f5284,added sobek read possibility,2020-03-19 16:09:36+01:00,True
+3adcdc8fecdfb3f1615bb202c72624466ad59def,added sobek read possibility,2020-03-19 16:14:06+01:00,True
+9f161f1cd8c3591a883ffd6681493d8cc00e33f4,added sfincs read option in workinprogress script,2020-03-20 01:54:34+01:00,True
+abe3e042839dc0f6a76f7788d8c326b169d285d3,edits readme,2020-03-20 02:32:45+01:00,True
+549f8373cf865d9ef241566cab426cf6e097e618,edits readme,2020-03-20 02:48:57+01:00,True
+34da841ca086a616c82c90db6349fc49ef34521a,edits readme,2020-03-20 02:55:28+01:00,True
+5c9f3daef0d136c9f913e40c11b3049dcc9bf609,"readme edits, simplified user installation",2020-03-20 08:36:47+01:00,True
+68aef4401f361996944e1d97628c30d0919a2ba4,"readme edits, simplified user installation",2020-03-20 08:46:55+01:00,True
+59674a692899d5a920be30d1a78de9cb4df784f4,"readme edits, simplified user installation",2020-03-20 08:49:58+01:00,True
+9f9580ebfc5c0631599bc4a6c906c758b7f6713d,readme edits,2020-03-20 09:48:17+01:00,True
+f069baff505f04f34bb6337e92c5577ace36f8e7,repaired testbank,2020-03-20 10:50:01+01:00,True
+23506019277ddb4e2ff31d969d01e142a08c1fe9,repaired testbank,2020-03-20 11:12:04+01:00,True
+2215868c18a23b4f7a2fb15c9c6da95c077baa77,added morphology to testank,2020-03-20 16:40:58+01:00,True
+a517829770567bb439245b16065cd4dee849cc7c,?,2020-03-20 21:34:43+01:00,True
+43d9a4ca9a4daaff22a63392b3ea9076789941c8,edits readme,2020-03-20 21:40:08+01:00,True
+5f0ccfbc1b2f95631f381be9f0e6382f82496cd1,removed unnecessary textfiles,2020-03-21 12:32:38+01:00,True
+245a0557359ac7b4969fb60f6b5b9d17e96e3365,added license to scripts,2020-03-22 10:20:25+01:00,True
+d3000308296ffe88ba959a73e798776cbc148fbf,added figures to morphology testcase,2020-03-25 16:13:15+01:00,True
+204f126c2a26139796ebc5ba91fab3dc94342522,updated readme,2020-03-26 22:05:51+01:00,True
+c05191da6e4c1a63663e4b08d00bf208406f02c5,updated readme,2020-03-26 22:36:31+01:00,True
+e92045f896012d3fab68215df650d543546bc9e0,edits readme,2020-03-27 09:44:23+01:00,True
+b54f170cd363d8dc996935fe5477d241bf9f1d36,edits readme,2020-03-27 10:28:52+01:00,True
+14080ee9389dddb7213ff4ceaceeb22081d5927f,edits readme,2020-03-27 18:37:33+01:00,True
+4633954eeb683f547432191590321dcbb68dc72c,readme edits,2020-03-30 14:38:29+02:00,True
+f61ee30e9c4176a6b95676d0c84ffd61b83ae9e9,added delft3d/waqua netcdf reading workingprogress,2020-04-02 18:20:56+02:00,True
+599690a260d1f62dad24e3dfeae9495e4495043b,updated readme,2020-04-02 22:19:20+02:00,True
+27e8b140f89ae6a234c3b63c542b76193c8a7541,updated readme,2020-04-02 22:30:07+02:00,True
+8928ced5bf1819a9387c75ba426af643d49e2803,updated readme,2020-04-03 09:56:24+02:00,True
+2da3b3cb049a22ea22754ab03923f349727b160e,updated readme,2020-04-03 12:22:19+02:00,True
+15cfeeb22315a22490e2c39fe594f294fc7d50bc,updated readme,2020-04-03 13:02:18+02:00,True
+29eeff9321183b3c01749b7eed6a3b2227fe816f,updated readme,2020-04-03 15:28:32+02:00,True
+8c4834598e1ebcf7e12e8e4c01dedcadc91a41f8,readme edits,2020-04-04 00:49:59+02:00,True
+bfc6b6750623b77a6ced0ff6a2c96f76424a145c,readme edits,2020-04-04 01:14:00+02:00,True
+9f887143ceb29404639246b23324d0d3e8d21a60,check io polygon,2020-04-04 01:18:39+02:00,True
+b27e0fc520e93e3120d76db5a43d71569344e677,readme edits,2020-04-04 09:56:37+02:00,True
+43f1c640f1b13eb260385f46021bd814f0591e49,readme edits,2020-04-04 09:58:11+02:00,True
+94409bea6a3d3709b881a42e5ee3a0f2cf8ae41d,readme edits,2020-04-04 10:07:02+02:00,True
+4b09a0eadff4c70320c4966b0f7de1dc07f98510,readme edits,2020-04-04 10:33:25+02:00,True
+19b1f37244364ed94ce275a8ea36a0c492ec28d5,readme edits,2020-04-04 10:37:46+02:00,True
+1e259c4c9422ba61f57c3159e3d12929a92accee,readme edits,2020-04-04 10:40:24+02:00,True
+29d95b698f7060c49ec5a925c6d87edba96743aa,readme edits,2020-04-04 10:42:11+02:00,True
+14bd4481c230edb1a5ab075c256aacee78aa6229,readme edits,2020-04-04 11:04:18+02:00,True
+1fd55ca76b900bc0874d72b46fea9b2c14002c6a,readme edits,2020-04-04 11:05:20+02:00,True
+966a9509d68427157d6b49a31a978f46c4cb5a8d,readme edits,2020-04-04 11:06:25+02:00,True
+80c1b13e729312d58df75de801a4a5681b5d480e,readme edits,2020-04-04 11:07:24+02:00,True
+87b6cd819cec73c0f2c8be0a299f8aec7f958bdc,readme edits,2020-04-04 11:10:08+02:00,True
+ce4fa8a7e7c2366cb785cb5e10af7594f8fc3959,readme edits,2020-04-04 11:11:08+02:00,True
+b3dd63d399638497d49d6b82f4121e0a2532df94,readme edits,2020-04-04 11:12:04+02:00,True
+d5b5da549d65430d5f1054643be0dd2e60368226,readme edits,2020-04-04 11:12:35+02:00,True
+417c0ad84db4aa97d570a38b3dddd2944a16d777,readme edits,2020-04-04 11:15:15+02:00,True
+cbb8a76b6fe4685f0cefd8ce6e22b69917217af2,readme edits,2020-04-04 11:25:46+02:00,True
+a16e2f740e1c6ccd8b8238b230685ee2cf52124c,readme edits,2020-04-04 11:29:31+02:00,True
+d76b62a2157dbe92f2b0b4451384938b1a18cfc3,readme edits,2020-04-04 12:02:37+02:00,False
+23987b9664f6647ae58651240382d2d25deb73c0,readme edits,2020-04-04 12:03:28+02:00,False
+471bffd9f8e57f06b5eb130778d910eb4470a2df,readme edits,2020-04-04 12:05:03+02:00,False
+2949828d27b7e2c9dab707f62e17dd5dc79eb631,readme edits,2020-04-04 12:06:28+02:00,True
+500df225117dc7506ac13074ce5dac82705fe1ff,readme edits,2020-04-04 12:50:56+02:00,True
+cf2abeefd156d6e554bcb466414b81c00b9f183e,cartopy satellite background images and coastlines,2020-04-04 18:47:41+02:00,True
+0c42645136b020088ac110d972b0adabfd155634,cartopy satellite background images and coastlines,2020-04-04 22:39:50+02:00,False
+1356c7946ac33e38ef4325e59aa8e6a972419e5d,readme edits,2020-04-04 22:43:34+02:00,False
+50f858ef4a4b5c7befcdcb37b1c2b778969aec1b,changed minimal shapely back to 1.7.0 to avoid errors,2020-04-04 22:52:38+02:00,True
+799473581f5142e0443dcd6f9b8cfbdea401cd14,readme edits,2020-04-04 22:55:03+02:00,True
+379688d237e4c874687bb86d5fa9a68501c56390,readme edits,2020-04-04 23:15:55+02:00,False
+e5afcd9eac517cdb4a41448cad802099c6037d61,readme edits,2020-04-05 00:42:35+02:00,True
+ebf776f8b60f1118c6c64a8cd378957a6a5bc918,readme edits,2020-04-05 01:22:04+02:00,True
+31ed9feec2a57bc9cc20093168438083c6330b5e,readme edits,2020-04-05 01:38:41+02:00,False
+e7c4fa5541a1cba1578d42c9be049b29338354ff,edits readme,2020-04-05 02:42:25+02:00,False
+e6909af76c5a6f13abbbf82ba983540ac37a4dd0,edits readme,2020-04-05 13:34:52+02:00,True
+b73344adf3d02e0e4052d75f33a8a50388d80861,edits readme,2020-04-05 13:48:37+02:00,False
+62df20e528c6d324b92473bd3745e8859152e1e6,improved stationlist retrieval and cartopy,2020-04-06 09:50:05+02:00,True
+92f55bd26fbeab27d8ced738552204560317dab9,edits readme,2020-04-06 10:31:45+02:00,True
+77145a1642bbb9a07b738d34227018e2f7bad583,edits readme,2020-04-06 11:17:38+02:00,True
+e18d756dca99208fe5be061a33bc58904b236eb7,edits readme,2020-04-06 13:26:24+02:00,True
+f694930bde297e5c85f486f71516ec546235db47,edits readme,2020-04-06 13:27:58+02:00,True
+e3bba8d0380555ceab65fa388f191e7dbc831c99,edits readme,2020-04-06 14:34:25+02:00,True
+6c20ccf16e9430c48d8cb91a0036ba6e1e3660e3,added readme example usage as testcase and updated readme,2020-04-06 14:48:52+02:00,False
+97a2235be570f6c45c462077df1edd135e4051b2,edits readme,2020-04-06 14:50:30+02:00,False
+0a4bca1c3b49e5355523af4c44a7395ed8c05479,edits readme,2020-04-06 15:00:03+02:00,False
+0c898514035245c5f13e040b8e38a01020ad9c05,edits readme,2020-04-06 15:30:39+02:00,True
+78c75354ba0d25247b44e3512417771964e78b27,edits readme,2020-04-06 16:19:24+02:00,True
+b798b697b8c6b340b1dcfc2ffca412f663b6d060,edits readme,2020-04-06 16:23:42+02:00,True
+7ac5d8a363ccb6ef3ee24d79fb2f2ea260d88651,edits readme,2020-04-06 16:30:05+02:00,True
+a085caa8658cb5541f3b320461df1be2a972f188,edits readme,2020-04-06 16:32:07+02:00,False
+2d2528de1df6832f23a3e8a39fb516e0217653f5,edits readme,2020-04-06 16:38:56+02:00,True
+f1eeec6dc1616cc698510a0fd0e4e15f3ef7dd26,edits readme,2020-04-06 16:39:26+02:00,False
+abe7ef91b3ebfe402488d4d04caddafc6fdc3f86,edits readme,2020-04-06 16:43:47+02:00,False
+a06763620f966c24f7cdd941edf2180feb38cd66,edits readme,2020-04-06 16:46:28+02:00,True
+25995ede6822763a0f0f3f053a47ee37cd34cf36,improved usage example,2020-04-06 17:46:34+02:00,False
+ff67135f0c0e0a3bbea554280b38ecac94b8b597,improved usage example,2020-04-07 09:23:26+02:00,True
+dfd518f6593baeab65d9cf11f8efdb22e63b7f92,removed warning line and edits readme,2020-04-07 12:06:22+02:00,False
+ceb115e0305e7cd5e41d540e3c7fcd5f13218892,edits readme,2020-04-07 12:10:45+02:00,False
+4dc6dd2dce26af2c54910eaea9eb6f99af23bcf3,edits readme,2020-04-07 16:33:37+02:00,True
+c404f0cbf60ad66a869f8ba705c8c8e00cc5bc4d,edits readme,2020-04-07 16:50:19+02:00,False
+03696f4321f050613f6eaa39abb1d8f3a1f676aa,added faulty contour plot of grevelingen,2020-04-07 23:50:26+02:00,False
+3c7604b24e621a4149eb07134a08089d4e924f05,edits readme,2020-04-07 23:51:35+02:00,False
+16658114e73484536776784ea60a384daa1ebbb1,added __init__ to io folder,2020-04-08 09:23:10+02:00,True
+10847aee0eca10122ec684efd83142bae954a682,added __init__ to io folder,2020-04-08 10:26:44+02:00,True
+9e2e4022ab168f8031d0def484f4439767c1ab4a,readme edits,2020-04-08 11:16:24+02:00,False
+dd6ccd2a6e72392327ca60a781b476825f21cf2d,readme edits,2020-04-08 11:58:05+02:00,True
+a662eb157e33c1155c872cf15f5897b913720ba1,added documentation to get_nc.get_ncmodeldata(),2020-04-08 12:37:25+02:00,False
+57695c1da96954eda6a223651daf169a151c48c0,readme edits,2020-04-08 13:19:57+02:00,False
+091985fafa7b88b2cdf23890e756d27c2206bf82,retrieve linked grid info (not yet data),2020-04-08 15:12:47+02:00,False
+b11f2053bd54b755258d9a9a9f93f75d00683aae,made varname optional and included example in readme,2020-04-09 08:18:15+02:00,False
+fcb71bc9833afb233d50f1c1e9400d1dc5405b82,edits readme,2020-04-09 15:15:57+02:00,False
+1d16dc44581b0cc65bbaaaf4d32e46cb828c1661,edits readme,2020-04-09 16:02:56+02:00,False
+184b84623a192f1cef7f36f8e2e27e46036117a3,edits readme,2020-04-09 16:05:50+02:00,True
+b277751b0741cb1ab3567dc7e533b21b5b62bd45,edits readme,2020-04-09 16:08:13+02:00,True
+68440fc3a19e8958b0cbb310406f4507fc1dbbba,edits readme,2020-04-09 16:32:13+02:00,False
+c3e0fcbbba650dc0cfb6c75314582166794c69ed,added ttide_py,2020-04-09 18:16:34+02:00,False
+e9be42fd1923ef513c077ca03cc358ce7ccada46,updated readme,2020-04-10 22:39:17+02:00,False
+c3bacb7ee4ee79fa74b7411235eaff1b2a4fd87f,updated readme,2020-04-10 22:42:08+02:00,False
+912e7c2672f4a46d47996ae62a3e5bd147333e50,updated readme,2020-04-11 13:35:38+02:00,True
+f36d859a593dbd0f0de1b899571f94ebffcc4e52,updated readme,2020-04-11 13:37:49+02:00,False
+5a63360fd05dda036f33b7c191bd6c046d552918,"raise warning upon time retrieval, fixed unique ids and made more slender code",2020-04-13 13:34:45+02:00,False
+bb07beeddd3e4afd8f0ad8b2366d90a852232073,readme edits,2020-04-13 13:37:13+02:00,False
+175c4a12b5b23c5e2848a35c6e80679bf8facb16,added precise plotting testcase,2020-04-15 17:13:59+02:00,False
+4e2a40e47647df61c5dacbbe14566921dd1a75d3,toadd.py small fixes,2020-04-20 14:44:10+02:00,False
+d425abe5ee464dd8de977d057991ff99ec1e6437,improved noos,2020-04-20 21:08:24+02:00,False
+7ca3ece098f139534b12345b4f14e7a7bed20b91,edits readme,2020-04-20 21:09:50+02:00,False
+326e74e2bde2cc72ebdef8ac85921968bc3f9195,removed still iffy coordinate conversion script,2020-04-21 14:13:59+02:00,False
+3a41bfe3ac8900911f0a137a52fd89d3070dc994,conversion to original timezone added,2020-04-22 13:56:18+02:00,False
+8ae847f2d8f4f344a81848f80dfca52e9b10af3c,added support for varname from long_name and standard_name,2020-04-24 22:31:15+02:00,False
+6bd1a5a27148cdd8780c5f6c517194f88ba0f535,added shapefile example,2020-04-24 23:27:42+02:00,True
+8e4d3ee2bd7049f932574e7e937db78b6941c95d,added shapefile example,2020-04-24 23:28:41+02:00,False
+090d68da9b614cd4d77094b76f817ca8d2ebdb3b,edits readme,2020-04-24 23:46:12+02:00,False
+7823c47fe5a9fbee39c0d606428cac419d036997,replaced with var_ncvarobject,2020-04-28 07:29:05+02:00,False
+9ce0c71746309fca4acaf659d44edca1902ba69a,"different shapely testing, removed from requirements",2020-04-28 07:46:04+02:00,True
+a23ecd8548f1bca92e4a18f7cee436633665235c,readme edits,2020-04-28 08:00:02+02:00,False
+0960997726ce9d1dab5f96a24f7e1a7c64844fd7,added get_bottomtoplayerfromarray() definition,2020-04-29 09:48:23+02:00,False
+0d752a9cf89772d0177b8216504f89bbb66ed71c,added improved retrieval of top/bottom layer,2020-04-29 13:04:32+02:00,False
+0936d6da6634b4bac8c250cf5ca4e229a874b192,readme edits,2020-04-30 10:14:41+02:00,False
+d41dd19ec9706cf6c7ba7198a3d28de49d80c853,readme edits,2020-04-30 10:41:13+02:00,False
+468e3fe1c74fc3dd974804daa2bfa3c95c9e5ffa,readme edits,2020-04-30 11:05:55+02:00,False
+d2ddb038514e70f4ee488dbec046ad3ded93f243,readme edits,2020-05-01 14:52:43+02:00,False
+c749a6b478604947a8b83e995eb7cff06d620db3,updates readme,2020-05-04 14:01:05+02:00,True
+69b519c87093a82516732ed9e7fe6d833047f754,readme edits,2020-05-04 15:11:09+02:00,True
+5236678ecd34495c633f604574786dba02b0b528,edits readme,2020-05-12 13:56:38+02:00,True
+fdca1a73db5faa9dbad401500e286a633478c4e0,edits readme,2020-05-12 17:48:58+02:00,True
+55ad759de7a4f9a48ee88939711f590a1e94e161,edits readme,2020-05-12 18:07:46+02:00,True
+36fc28f3398ce3d09fb032d2b189486676141537,edits readme,2020-05-12 21:04:49+02:00,False
+2d824ac78686cd4e7d85ab09aee31abb5a1652a7,edits readme,2020-05-13 15:31:33+02:00,False
+afed990cf36960adea3cab6d314bbb55b2faff47,edits readme,2020-05-14 15:34:55+02:00,True
+b7af6674c7463a955d12af1f6c352e72fd455b2f,edits readme,2020-08-21 18:48:05+02:00,False
+ae217a073b6151377f41e333625a6625c7abc36c,"added contextily basemap to testbank, more efficient than cartopy basemap",2021-01-13 11:39:36+01:00,True
+bbfcf964a1f2f52dc66276307f484011125cffc3,"updated geopandas testcase, updated environment.yml and README.md with developer info",2021-01-13 14:17:28+01:00,False
+75f69c190e790b6f77ed3e34a23572d06774af89,updated pytest commands in readme,2021-01-13 14:32:23+01:00,False
+3350c151262d30fb1b90ff7ca156b9f154bed3dd,added pyepsg library to test_dfm_tools.py and to readme,2021-01-28 11:55:28+01:00,True
+ae8ee076f86a41a87777bd59731001e5c09e8b4e,added extra Qt exception,2021-05-31 13:13:50+02:00,True
+bbe9e3cd6c8110ac7a777afb447d146c46880deb,"reverted pyqt5 edit in readme, removed pyqt5 from environment.yml",2021-05-31 13:41:44+02:00,True
+28beb4fb0d333f7545aa4d72083f9e56a7e30b0d,updated readme,2021-06-10 12:04:55+02:00,True
+c7a68c9a5647fa29cc9d6fdf8ba9b40843ffd4d9,added pd.RangeIndex to listtype_range and updated readme with hatyan,2021-10-04 12:40:30+02:00,False
+4392ac36b9f5e11cfc2052b32542755c97f7274d,moved part of acceptance tests to example python scripts,2021-10-27 15:10:18+02:00,False
+879a612cfc950c7cc8115c2dbc8ebae25c5b90d6,moved part of acceptance tests to example python scripts,2021-10-27 15:12:13+02:00,False
+d90deec1820448283ff02e3cc4e224c1147f0bf1,moved part of acceptance tests to example python scripts,2021-10-27 15:13:12+02:00,False
+45ff493325f6eeb2bc11544c93902e9ee5a8534a,Update README.md,2021-10-27 22:51:22+02:00,False
+ad172b2fa98140df3d9ec2864c8409ace2121b0a,updated documentation and replaced to docs folder,2021-10-27 23:17:05+02:00,False
+d09e7ee763b9f71ef3e8ff89198dd28d7c7c4a9c,updated documentation and replaced to docs folder,2021-10-27 23:17:27+02:00,False
+4ed540d24f244065839af95bdb8d94c445be4f4b,implemented netcdf file closure in dfm_tools and updated example scripts,2021-10-28 13:22:24+02:00,False
+fdc4502ea2fd6ddac1b3b163271c6bb8c41be92f,updated readme,2021-10-28 14:37:45+02:00,True
+2032dd664a36e5e64d9ef024c5d29c3a855c0aca,"improved structure of get_xzcoords_onintersection() definition, bugfix for sigmalayers percentages",2021-10-29 03:03:16+02:00,False
+72059476271b81ae2c58da6ab609cd3e2041d16e,"improved structure of get_xzcoords_onintersection() definition, bugfix for sigmalayers percentages",2021-10-29 03:04:44+02:00,False
+b078260caaff95fd5425ade5d5c8bbc62170f8df,increased speed of get_nc.get_netdata() function,2021-10-29 09:57:29+02:00,False
+7836d05abc63b37cd8bce30db0e59e373eed201d,now possible to retrieve crs_plotdata with get_xzcoords_onintersection(),2021-10-29 10:38:19+02:00,False
+baee670a78a90c9b19e3dff3cc535fa6bacbbbc4,"merged some example scripts, still untested",2021-11-02 14:21:24+01:00,True
+1db695bfa9edc332dba7897b2624518318654317,Update README.md,2022-08-02 15:34:58+02:00,True
+e991e71f4963715ca67ff907f2e622b4a709beab,Update README.md,2022-08-02 15:37:18+02:00,True
+28c4eebc9cb507c5b9dccd2df01e9bb8e5a7a776,Update README.md,2022-08-02 15:38:05+02:00,True
+28170a02396394ca95d12514f83cd94b4579bbce,updated readme.md and enviroment.yml,2022-08-16 10:45:53+02:00,True
+70f5e90b88d9bc767fd8de85de9684a17495a4b6,bugfix in plot_ztdata() for gethismodeldata.py example script,2022-08-16 13:00:28+02:00,False
+cba01a651fbbb12c001a35f815f443e202903e24,updated readme with xarray,2022-08-18 16:43:05+02:00,True
+28345d2e6d65070c31e7d0207cf1f4c743783650,added CMEMS interpolation functionalities,2022-08-19 01:19:29+02:00,True
+6044c8e67d02ce23f04c52f08d124f2bfb33a66c,"added CMEMS interpolation functionalities, added FES2014 first setup",2022-08-19 02:50:01+02:00,True
+eb9ae8a69fc80f84278dd49675c3cf9f57ec977e,interp updated comments,2022-08-22 14:58:27+02:00,True
+364be91f8a4ecc018372f6b284642004e1c8e7fc,updated installation in readme,2022-08-29 11:24:13+02:00,True
+163f5c935a58f7b428c04f64490fce758a5fb6aa,updated installation method and moved dev info to CONTRIBUTING.mdd,2022-09-07 10:36:35+02:00,True
+7a5529ee320e4c082cb22341476db6dcd39868e5,updated readme,2022-09-07 10:44:16+02:00,True
+984a771210f945373d36e0bfcb34a0b5b138c9f2,removed station argument from get_ncmodeldata() and updated most example scripts,2022-09-12 21:42:34+02:00,False
+24522810611f70890374f6526722852f2a86e266,"removed txt extension for writing noosfiles, added to_numpy() timer for interpolate_nc_to_bc()",2022-09-14 10:48:50+02:00,True
+cba1c27295772ae921d90274d048f7f5f57f2a64,updated readme and some small changes,2022-10-10 15:10:42+02:00,True
+f400dd32cfc1f476422a97b75c45e38e16957a31,updated readme and some small changes,2022-10-10 15:11:26+02:00,False
+3a17af1183beaebc3ef348ce92edcb52e6391e5b,updated readme and contributing,2022-10-14 19:45:37+02:00,True
+3de0edddd28b696df09eaa4eb4515df31f31f484,updated dependencies,2022-10-18 16:53:36+02:00,True
+e1966e2e872a3f1726f7190c635be1c7996ceed6,uxuy improvements in reading/writing/converting and updated readme,2022-10-21 14:40:30+02:00,True
+ae458f2c5a96b4d4f4947b9215b29b80235c5123,updated readme,2022-10-22 10:12:17+02:00,False
+f3cb6537151c82a098eee9e5953d954ab2cedfff,updated readme example script,2022-10-22 10:47:04+02:00,False
+32735260364e94d027d9fbf6b9303c16bff80a42,updated readme,2022-10-25 16:40:26+02:00,True
+21d560a32162b532809703d0805333c838cc1c33,Update README.md,2022-10-29 00:26:23+02:00,False
+db5d623fa495e3d3bed55c7e55fe157fd08f74e3,removed hardcoded dict from preprocess_hisnc(),2022-10-31 10:05:40+01:00,True
+3a71b8f5f7c7fde03ea07fb0d636c8e20e366c84,updated example script in readme,2022-11-04 15:18:06+01:00,True
+3ea8866c0b5441eeb3367731ad88950dbfdfb0e6,simplified example usage in readme,2022-11-05 23:48:57+01:00,False
+2e36443869f942e756b9fe7e1bb7f312c61c40a7,fixed cmems download script and function,2022-11-10 11:34:43+01:00,True
+24ff91a34738121e8504bcf7b26913ea5a4b7b1f,updated readme,2022-11-14 15:45:16+01:00,False
+673de2c1eeaf2b3f76df2fef5cf6c2efaac4b1c9,updated readme,2022-11-14 15:46:56+01:00,False
+817b986fe328c119b8effc15db5c85faf848c1d8,updated readme,2022-11-14 15:49:11+01:00,False
+37a044f5458de9de16d48448972d2a5398d0d47c,updated readme,2022-11-14 15:49:49+01:00,False
+e1fdcc0b961160144b021f73f02bb1243eadebf4,updated readme,2022-11-14 16:31:40+01:00,False
+0ebc858d92a3630af7a230379f7a5bf19ca07ec6,updated readme,2022-11-14 16:38:28+01:00,False
+e9122a71b6bb2e2e7e50c0a918adaf663482d85b,updated readme,2022-11-14 16:43:34+01:00,False
+62752047eb3df39306b22ec1696cc70d915ceda4,updated readme,2022-11-14 16:44:00+01:00,False
+70088d8c767b9898a33e765f51f6da28ff37d7ab,updated readme,2022-11-14 16:45:54+01:00,False
+9d3d9fb79c377ee375bb46b7b450f53083b2ac44,updated readme,2022-11-14 17:00:36+01:00,False
+c274a9a5b4a3844a7642c1d87b3fefe16920d0f3,updated most important example files with simpler imports and test,2022-11-15 08:57:14+01:00,False
+367e2f5ec89c526bd540a0b2de85b8002ab344ef,updated readme,2022-11-15 11:13:14+01:00,False
+06a95c6a22822a11c8d6870de26e82696ef7532f,updated readme,2022-11-15 11:14:52+01:00,False
+5a64b4d8b2b2867af63b2faf333f094062afd863,updated readme example with opendap ncfile,2022-11-15 12:28:56+01:00,False
+4fbdb2369365212dff16828eeecec536e699549f,added notebook,2022-11-15 16:10:22+01:00,True
+a778bb895466e231a8966e065cfb464913b912c9,updated readme,2022-11-15 16:19:02+01:00,True
+abf2e426e256d640bd6748fc745e015d553528a0,updated readme,2022-11-15 16:48:26+01:00,True
+912b9de9ce6f0a8874bb506ad78987464af4105d,updated readme,2022-11-15 17:07:03+01:00,True
+e7f1f578718f289844a82f279663ad0d212eee79,updated readme,2022-11-15 17:11:25+01:00,False
+d2b11a7bc29ab837cf2226140f6e47eb52c32ade,updated readme,2022-11-15 17:12:29+01:00,False
+b53cc45262aa6f026fc5058f5322ea771040e28e,updated readme,2022-11-15 17:15:49+01:00,False
+ea3ba762e73536bc4155da405bb0ee53d3b212b2,updated readme,2022-11-15 17:16:44+01:00,False
+fc5750b0e17f78d5121700200b772adfb4cf2a9c,fix in installation manual,2022-11-15 19:57:29+01:00,True
+24fe78138dfb0330aa30e5c1aa61fd5107664254,updated notebook for binder,2022-11-16 12:04:16+01:00,False
+5f6e8d8b76ef516c3334894591badbb8a915a1c9,updated readme,2022-11-16 12:19:45+01:00,False
+f4fd48704beb4e9ee65c64fd2bcad349059fb390,updated readme,2022-11-16 12:25:29+01:00,False
+f575379bd72d23e8a31920184b5d959b4437585c,updated readme,2022-11-16 13:10:25+01:00,False
+10d922df8401c26071325e1d9dbc44792c8476c2,updated readme,2022-11-16 13:11:47+01:00,False
+050f1eec61a2f93a146f38bc0b1faf1666043c40,updated readme,2022-11-16 13:12:53+01:00,False
+e1eb2e8ff418f01249c5e1c83c4ead5a23164b78,updated readme,2022-11-16 13:15:23+01:00,False
+508654f41313a11033e8adb06d47c8c9ab0c980d,updated notebooks and support filelists by dfmt.get_xyzcoordsonintersection,2022-11-17 11:02:56+01:00,False
+733a6ef429babe2bdee81e09c5a6134e17e059e8,added xugrid to readme,2022-11-21 00:00:23+01:00,True
+f5a7d7835b890fb80bcbf839b4ebc086b1dde5ca,updated readme,2022-11-21 10:05:17+01:00,True
+284df8f503b3bef5e7beb43b6bd804a6365327ac,updated readme,2022-11-21 10:19:30+01:00,False
+7102cce6cbfde44ae223db3d2f115c71d21dbffd,updated readme,2022-11-21 10:21:16+01:00,False
+52d8fde1db2ca40833bc11ec7f1ae3df82b5ca0c,updated readme and contrib to branch rename,2022-11-21 12:14:06+01:00,False
+6ddc213774b137bdad9459c41a78b4964c36b506,added proper hisfile layer warning to preprocess_hisnc,2022-12-12 16:44:59+01:00,False
+931073e4e650446b02c1bb8e9eee0a151937795e,updated readme,2022-12-13 21:08:06+01:00,True
+f08b1fcd528ed2117da078cfe7466f016d278c10,added OpenSSL error solutions to readme,2023-02-03 13:58:04+01:00,True
+61598ba429dcbf2a5df91fb8347a054819ce1b1d,added OpenSSL error solutions to readme,2023-02-03 13:59:08+01:00,True
+0530c2855cd38c73bc0e65a308e697ec4be9632f,added OpenSSL error solutions to readme,2023-02-03 14:03:25+01:00,True
+c5029373390662d2a74ef90337400a8e181cde78,added OpenSSL error solutions to readme,2023-02-03 14:04:42+01:00,True
+597f8fc7fceeefd844fcbd0268cf8d3225740a5c,Update README.md,2023-02-14 17:22:24+01:00,True
+0d89357aaa85fc307b53c34c6b9783991762effd,Update README.md,2023-03-15 09:02:59+01:00,False
+1ace00778c469a545b5ad57da668dd9e93a5c98c,Update README.md,2023-03-15 09:22:15+01:00,False
+f9d22927707b71a30a30af1619c4eed539d3a2bc,Update README.md,2023-03-15 12:15:52+01:00,False
+9f5be1b733f7275f0cbb5d6bafd08fe5ae466d9d,Update README.md,2023-03-30 15:50:03+02:00,False
+d33c7ac11730088f6486ac92222ac4d196b1696e,Update README.md,2023-04-22 01:15:54+02:00,False
+8bcc196cde66c6e288cf99b539734cdcaf55ea12,updated codecov link in readme,2023-04-23 22:39:14+02:00,False
+9377684ce8a92832e510e994a58e8cb8641deee3,added pytest yml files for other py versions,2023-04-23 23:06:57+02:00,False
+bfb7ed62e08ddceb424bece9d0a9a83b6cbc34a0,removed pytest-py311.yml since py1.11 seems is not supported by github actions yet,2023-04-23 23:14:26+02:00,False
+dcb12891e9b7777762320abbe2c6c5337d0f8e4b,updated readme,2023-04-24 00:28:44+02:00,True
+7491043cfbb3979d03621f58178ea4909b7504be,added pypi link to readme,2023-04-24 00:57:02+02:00,False
+20cfaaf7b9daa5a9efdc4daf723def9d42073972,Update README.md,2023-04-24 12:33:06+02:00,True
+19a4aa9954578aa639e25e8fbde054a3bd794931,Update README.md,2023-04-26 18:38:46+02:00,False
+dae4baed67229efeb49b3c6a58c9c685a538b6ce,Update README.md,2023-04-26 18:41:44+02:00,False
+d0a085cbae09fa982ed64a920988741060d5793c,Update README.md,2023-04-26 18:53:42+02:00,False
+eccdf549a7d136ef852844fba8760c67f9ca42bf,updated readme,2023-04-27 00:26:28+02:00,True
+0d631f2bf147c5a80143b3a713a3141de05e2d6a,mkdocs-material and minor changes,2023-04-27 08:53:24+02:00,False
+b81639273f126aa62cf920aabe4848ec15400592,extended documentation and cleaned api reference,2023-04-27 22:05:42+02:00,True
+209b9e047251ae103669bcb31f4443e565ef272a,updated readme,2023-04-27 22:07:59+02:00,False
+a39621eeeca1331fc1e742528abac24e1df61989,updated readme links,2023-04-28 09:56:31+02:00,False
+f2315e640e54e8b3953bdc7ee5e2a0123a30d5ca,updated readme,2023-04-28 10:51:56+02:00,False

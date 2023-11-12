@@ -1,0 +1,32 @@
+sha,message,date,result
+4473c195c2e9dd3aa763cf2f28fb2d6dcf3e6898,Initial commit,2015-03-27 11:02:56+01:00,False
+33b3fa88ccda55e40b81ea32d069d81ca6d0796a,Edit readme with setup instructions,2015-03-27 11:44:16+01:00,True
+809907cd71c3fc5bdbd9733fd248832bc0a64626,rename backoffice_operateurs to APITaxi,2015-04-22 18:45:43+02:00,True
+489d39318dd82679046756a313e41073558ee319,Rename env variable,2015-04-23 09:29:18+02:00,True
+3a84f461480aa2d97be5bd278ffee2e613797878,cosmetic lifting pre-hackaton,2015-04-27 01:25:46+02:00,True
+930fc599ba033ce129d22d66b5e860d052177558,WIP,2015-07-15 18:32:27+02:00,True
+38a18002b514d7c43ee230f36c6b7f705300f44e,Update README.md,2015-08-24 10:07:10+02:00,True
+219e365e38d21dbbcf0c30896eb5836fb8b4eeb8,add storage command line,2015-08-24 10:11:03+02:00,True
+421f594849aa660b84a80612c1d4eb4dc9186ff2,Add services daemons,2015-08-24 12:06:37+02:00,True
+6f01fea8d0e5ef4828af9296ff6979bb008ee6b7,Rewrite README,2020-10-15 10:54:39+02:00,True
+3d57d2cf985aea6765f070fb2866544b80049efb,Improve README,2020-11-13 12:08:29+01:00,False
+7dc60802621d0f5f6aafb1fcf7fb74ddf677274a,Fix README,2020-11-24 16:40:29+01:00,True
+4869fe43c73e3ccb57af91d7dfca8c355074e546,Update README,2020-11-30 15:41:10+01:00,True
+07608dad62cb35941f0186f2f05a64a82a4d6428,README: salvage migration instructions,2021-03-30 10:04:31+02:00,False
+80d666c305bc7a9a45295d43c595743b29960866,Update README to explain how to deploy to prod,2022-06-01 12:19:07+02:00,True
+38889619ce0f683add63f3367e359633943a45c1,"prepapre switch to the new stats backend
+
+A bit rough but I'm behind schedule.",2022-06-09 10:31:05+02:00,True
+ddc51405dddf48947eb41ecf3db90f8d2d088411,vehicles: official pmr field!,2023-02-08 14:23:13+01:00,False
+5bfe7b2132e1c57e6e204bc0ccdbfca9a3324be1,"big dependency upgrade!
+
+- Flask 2.3
+- Flask-SqlAlchemy 3.0.3
+- Flask-Security replaced by Flask-Security-Too (but Flask-HTTPAuth used
+  until I figure out their token thing)
+- Werkzeug 2.3
+
+I tried to follow the latest recommendations and patterns, but some duct
+tape and wire coat hanger were used to make tests pass.
+
+The only upgrade left is SQLALchemy 2.",2023-05-24 14:16:52+02:00,True

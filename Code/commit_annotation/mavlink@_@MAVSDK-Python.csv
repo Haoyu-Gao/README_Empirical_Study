@@ -1,0 +1,56 @@
+sha,message,date,result
+f6fb610ad127c44209d4575a47fb6ead4484b6e5,Restructured python package,2018-05-14 19:32:43+02:00,FALSE
+45e201af8a0e736ca2269bc26893f7d7f4e67ec4,Fixed Readme,2018-05-14 19:35:40+02:00,TRUE
+cc2602b0c5750afe42d7b6c9830a326ad21c5927,Readme now fixed.,2018-05-14 19:37:23+02:00,TRUE
+c5f065991b446038104cfdc72066737413b97b27,Updated readme,2018-05-15 08:21:28+02:00,TRUE
+80f0aa73ec2f3332ed05e61231b14de25c3770ee,Updated readme,2018-06-04 10:33:26+02:00,TRUE
+8e529c3d75bf5325bb175f129b37ee20c2b51a20,renaming part1,2018-08-20 21:16:06+02:00,TRUE
+d20e1be3b26594a81668df5e769a727cc1a1d293,Make point to Dronecode/DronecodeSDK-Python,2018-08-27 11:01:40+10:00,TRUE
+8b3f5e8a559ee1f73876e8531664d4ded65e4ced,"README: update instructions
+
+The instructions now reflect what is needed to get the Python wrappers
+running.",2018-11-08 17:24:36+08:00,TRUE
+2a4b8c457d6cfbeaf4f85f99750b0c00d138107f,"README: move from .rst to .md
+
+Let's have markdown docs everywhere for the Dronecode SDK.",2018-11-08 10:32:48+01:00,TRUE
+46680fe45ab87f28f1f87e45da5c5e3f2446589f,readme: update with the new way of building the backend,2019-06-03 09:00:31+02:00,TRUE
+684da83f7367dbd56c02a8695571eb8fa20deff9,rename to mavsdk,2019-06-18 00:23:24+02:00,TRUE
+16f37dea0b930c42bb44848c4ba2d63b63f947d7,Update README to include pip instructions,2019-06-25 22:13:10+02:00,TRUE
+74d5a75622427a400e7adb1927ccd11eac74ee60,update docs link,2019-06-25 22:28:13+02:00,TRUE
+e8aa1711b1156c8812eac85bb74ee15b7125051b,"READMEs: always use python3 and pip3
+
+This should avoid some confusion.",2019-07-23 15:51:41+02:00,TRUE
+b46865210eefc907450de9e7169842cb06b27f15,"Update Readme.md
+
+I'm suggesting we attach the article written by @JonasVautherin so beginners have somewhere to start if they don't know.",2019-11-14 15:18:57+08:00,FALSE
+a2ec0fbf380970439c0f11b9e93d406ab65bae43,Readme: add travis-ci badge,2019-12-09 13:38:07+01:00,FALSE
+f5d011217793fc7ab59a1575dca6471e06792900,Update readme,2019-12-18 14:31:22+01:00,TRUE
+ff165b42314694e18f7250d9a38e984263c5858d,README: add missing build step,2020-05-11 16:00:21+02:00,TRUE
+5015feb58772c686ea8716c828d0adfcb52475ba,Update README,2020-05-13 16:21:22+02:00,TRUE
+2ffa1f057278356223129f8fbcd4a4518cab6d4d,README: pip install step comes later anyway,2020-05-30 11:07:52+02:00,FALSE
+8544840771ec6ef0ff226160238c4fee52bc025c,README: explain how to create doc,2020-05-30 11:38:30+02:00,FALSE
+642c0f0b407e5167115c0b69362d96449e112941,README: small improvement,2020-05-30 15:11:32+02:00,FALSE
+364e039a464d189ece986a4649d8826e7f69175f,README: add link to reference docs,2020-05-30 16:26:13+02:00,FALSE
+b6636485af0e980f02323b312097c0c511ab088c,README: move doc generation down,2020-06-02 08:04:35+02:00,FALSE
+2b3fe5fa10dd065b6e4894431e192742d4089328,README: clarify release process,2020-06-02 08:04:49+02:00,FALSE
+52dfd412d20a4e17fa871cf8afccb77ee1e84867,README: clarify release process,2020-06-02 08:33:26+02:00,FALSE
+61714c75ce0e26884238cdcc7b5013e1cf6d2c74,README: move to GitHub workflows,2020-10-21 16:04:32+02:00,FALSE
+9681846a6da2df382469e374572b2080549a2dfd,README: fix badge,2020-10-21 16:11:16+02:00,FALSE
+f4a7cf4d44c924e774a3cc270f0d1c1d07252d7d,Upload docs in CI again,2020-11-04 12:05:42+01:00,FALSE
+357ce5ef0932e5b4d3918d9c4bf2de742921e073,README: switch to main branch,2020-11-24 09:07:09+01:00,FALSE
+a1ab16b9b1d00a64bd8db81509ca07a135fe5027,README: add release step for proto check,2021-02-11 13:10:17+01:00,FALSE
+0ab9076c883b73a782b0ea2212a12c03b7395615,Update README.md,2021-05-04 09:41:10+02:00,FALSE
+accd67ee6cfe5f54d272e6f12ae7f7cd3cc51221,"Update README.md
+
+Supported architectures: `armv6l`, `armv7l` and `aarch64`. For example for Raspberry Pi it is `armv7`, or `aarch64` (if a 64 bit distribution is used).
+
+Co-authored-by: Julian Oes <julian@oes.ch>",2021-05-04 11:34:35+02:00,FALSE
+9f89c39ebc65e74703caefde048f17b37392d5bc,Update README.md,2021-05-24 12:53:36+02:00,FALSE
+2471536ce55c7ee5152e9b1e966d9a0e9b1e53ae,README: fix spelling,2021-11-03 16:36:51-05:00,FALSE
+e8c3d80feaaa8a2da5ea4f3290b3fd9c919b10c0,readme: clarify on editable installation,2022-12-21 08:57:54+01:00,FALSE
+f6798f54c3986edd70b6de2c7192b7b94c31203e,"Bump Python required version to 3.7
+
+3.6 is no longer supported and we want to switch to asyncio.run which
+has been added in Python 3.7
+
+Signed-off-by: Julian Oes <julian@oes.ch>",2023-01-14 09:12:58+13:00,TRUE

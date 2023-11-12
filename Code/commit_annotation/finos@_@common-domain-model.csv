@@ -1,0 +1,73 @@
+sha,message,date,result
+21e19ad99bf8ca7dfce71c41b1e3e9a8beda75e9,first commit,2018-02-08 13:55:17+00:00,FALSE
+1955676c7509f2109aaedfcdcd9c5039b721f78d,Update and rename README.md to README.rst,2019-08-07 21:12:39+01:00,FALSE
+d1480dd5dd8a2eda80ed7bbbaed5e423f43d341d,"Finos Readme Proposal (#1757)
+
+* Finos Readme Proposal",2022-12-13 09:14:52+00:00,TRUE
+f0c89873a8dbd0d29e65ac93386d3fb0dcda560a,"Remove references to ISDA (#1862)
+
+Co-authored-by: minesh-s-patel <minesh-s-patel@users.noreply.github.com>",2022-12-20 14:14:49+00:00,FALSE
+4b2fc51bcbd1a63ea959b5647f618dd451b6c9e4,"Readme updates - comply with FINOS project blueprint (#1946)
+
+* updated readme after finos code transfer
+* added files to comply with finos project blueprint
+* move CONTRIBUTING.md file under .github folder
+* minor styling changes to readme
+* fixed GOVERNANCE and README md files",2023-02-15 10:30:50+00:00,TRUE
+c4e3a69b806df299bd824862c2b90b2f053f7d71,"Added Codefresh build badge to readme file (#1951)
+
+* Added Codefresh build badge to readme file
+* Fixed build issues
+* Update codefresh.yml",2023-02-15 15:40:49+00:00,FALSE
+16f8feae1818a37d2e1f288ad62ede4426596653,Update README.md (#2026),2023-03-10 08:58:38+00:00,FALSE
+1374bc1e75a1a569ce9c0e65dcc9d89cad527809,"Update README.md
+
+Fixed link",2023-03-16 14:20:01+00:00,FALSE
+50f058c6b184ab41fbb1def658be52e0a03fdf55,"Added ics files and updated Readme.md (#2052)
+
+* Create working group meeting ics files
+
+* Add files via upload
+
+* Delete working group meeting ics files
+
+* Create working group ics files
+
+* Rename meeting-99036410403 (1).ics to new/folder/..working group ics files
+
+* Rename meeting-96436091087 (3).ics to new/folder/working group ics files 2
+
+* Rename meeting-96084284579 (2).ics to new/folder/working group ics files 3
+
+* Rename meeting-92136087343.ics to new/folder/working group ics files 4
+
+* Rename meeting-91534818345 (5).ics to new/folder/working group ics files 5
+
+* Delete working group ics files
+
+* Update README.md
+
+* added file 1
+
+* renamed new directory
+
+* moved working group ics files up a directory
+
+* renamed working group ics file names
+
+* Update README.md
+
+* Update README.md
+
+* Create default.md
+
+Add-in a pull request template
+
+* Update Governance.md
+
+* Update Code of conduct
+
+* Fixed typo in CODE_OF_CONDUCT.md
+
+* Update default.md",2023-03-23 08:59:28+00:00,FALSE
+2aef9903a54d0285f983cfcb3ccd822576fa3dd3,Foix vscode broken link (#2079),2023-03-29 14:54:28+01:00,FALSE

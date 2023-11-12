@@ -1,0 +1,167 @@
+sha,message,date,result
+59f063e936d4ebf1a403cd7923faafffda2a438d,Initial commit,2021-08-30 19:40:20+01:00,FALSE
+d7dcb4f932788e60b5eb1f76ee423781ac03b456,Update README,2021-09-15 09:51:11+01:00,TRUE
+a5a1ec53b02e227bbcbb889f2cecd9f222ae7f43,Update README.md,2021-09-16 14:57:31+01:00,FALSE
+bf61fe2bbc13a9e5b7d856d1aa198f8dfa996cb3,Update links in the README.md,2021-09-16 15:07:35+01:00,TRUE
+009bb5f77b19d8a380d7819785f9c4b78295deff,Add automation example for the node online/offline state,2021-09-16 17:07:48+01:00,FALSE
+ae97a01b506d6b555c78a508bbf6be9aba645e44,"Update README.md
+
+Updated images, entities and services",2021-09-16 20:02:43+01:00,FALSE
+4072bace675bdb40972c4d8f44cbf1ec3989587e,Update README and images,2021-09-17 15:56:53+01:00,FALSE
+b89404d852da3dd2c8b09d87dc3be54c1ed5f660,"Update README with new YAML view
+
+This new view has the updated switches in and also solves a refresh issue by moving the config-template-card higher up.",2021-09-17 16:52:40+01:00,FALSE
+dabd0f7a8cd5a732c2ed4574290a9d8bde54e26b,"Update README with new YAML view
+
+This new view has the updated switch panel in, some updated colours (so they're less harsh) and the status panel",2021-09-17 22:14:09+01:00,FALSE
+b33068cc0702c5bedfaedd5b5359c6eb5f9ae194,"Enforce the primary node being used for setup
+
+Config flow text changed accordingly
+README and image updated accordingly
+Bump version for pyvelop",2021-09-19 15:06:09+01:00,TRUE
+fecbe423a28f405bef94ff07a146471690a6c0c8,"Update README.md
+
+Updates to stop template errors occurring on HASS restart.",2021-09-19 15:33:30+01:00,FALSE
+64bb6933b72157c8de868c8b855c20c3c04be3c9,Fix Speedtest conversion in the view YAML,2021-10-06 15:03:19+01:00,FALSE
+92d725fb5398eaafa597bd3987b9091818385755,"Update the README to reflect recent changes
+
+YAML view updated to: -
+
+- show the type of connection for connected devices
+- show an icon when updates are available for a node",2021-10-07 23:00:46+01:00,FALSE
+8c143fbbc20161af7d9fc45e4b3c3ea32fc53654,"Update YAML view in README to fix blank icon
+
+Fixed #21",2021-10-10 10:54:49+01:00,FALSE
+be814cf72c0aa4c8e0021b381495e7f69157a2ae,Update YAML view in README,2021-10-19 16:56:27+01:00,FALSE
+9210d1613a48f7d4428f5dc8bebc0d8fa6ee0716,"Update README
+
+- Add details for troubleshooting
+- Add clarification around password to use
+- Format image links as relative",2022-01-28 18:58:59+00:00,TRUE
+096ab8c4e3143e32acd8a588931506ada5f590f3,Fix up YAML view code to reflect updates to check for updates entities,2022-02-02 16:42:35+00:00,FALSE
+1c98c9e13bccd5a782669e2e27aa120a4a9b0ccf,Update README to reflect entity changes,2022-02-02 17:20:46+00:00,FALSE
+f3b4aad6e98b7388d539af027234d63efc7927fc,Update view YAML and images,2022-02-06 14:48:44+00:00,FALSE
+c75ff308ab3cb89510cf0b28c61ba979a33a7687,Update README to reflect new sensor,2022-02-17 19:43:49+00:00,FALSE
+4be6e1daa105f0c9891bcac9b810374933d2ee51,Update README to reflect initial sensor state,2022-02-17 21:07:00+00:00,FALSE
+8d6abd89a2cdbfa6a2c5cfe8872f2a2d3a0e87f8,Update YAML view and images to include storage,2022-02-18 15:40:47+00:00,FALSE
+a3d7f0216a71d3327ee94c0864052fc35d6f7a64,Tweaks to YAML view,2022-02-20 14:21:41+00:00,FALSE
+ac39d8f0357ac9e411bac41ee7331f915dca5aff,Stop sorting nodes in reverse order in YAML view,2022-02-20 14:24:48+00:00,FALSE
+ac68cc5a61d24831c7dffcf7aba4c955483c1335,Split the YAML view into the individual cards,2022-02-21 15:23:51+00:00,FALSE
+94934d280ed64d216b1130dc120888be1da87252,Reduce the file size of the README by moving the example diagnostics output to a separate file,2022-02-21 15:34:32+00:00,FALSE
+0da1d51c88f2ca584cf7a8d2fd78f7eaf0bf5988,Add details about the backhaul attributes,2022-02-21 17:46:11+00:00,FALSE
+433bce5de53b06713dcae52824e2b2b463ab6119,Fix Guest Wi-Fi button in the view,2022-02-22 14:00:29+00:00,TRUE
+224f1d625205e8387d51cf75c92cba812709133c,"Refactor the Mesh online devices' sensor attributes
+
+README updated to reflect the new attribute format
+YAML view updated to reflect the new attribute format",2022-02-22 15:12:39+00:00,TRUE
+569a1e51964baff2722b07ff0dd41e2e1579ba3a,Update the card YAML to add an icon representing guest network status,2022-02-22 15:35:56+00:00,TRUE
+21c8b1d1cd6d445e5353be0a4c85c711deec4d17,"Update README
+
+Include all the details available in the entities",2022-02-28 10:11:52+00:00,FALSE
+7838811e79376ca5c1083c1a2fd71721fc941988,Update README.md,2022-02-28 10:14:02+00:00,FALSE
+3f4b05bcabd26fe50c414b58bfa10c0e62834707,Update README to reflect new device on mesh event,2022-03-09 21:31:14+00:00,FALSE
+1fe44bef448210dfffacb25f5ab7c95a71a7c0cf,Update README to reflect changes,2022-03-10 09:11:25+00:00,FALSE
+aefd007c9bc9adea617b0132f89f39b516a3bc27,Add additional properties to the new device event data,2022-03-10 13:17:05+00:00,FALSE
+c42ab82edd389018ef547cf84780b22589dd7477,Quick update to clarify the properties in the event data,2022-03-10 13:25:15+00:00,FALSE
+b85168238c16f01d57d51d0e842469f61c700d77,Update the README to reflect the new select entity,2022-03-10 18:33:26+00:00,TRUE
+a05e21900a55d80040cf7e4a3f2e1f777b3de23d,Update to README for select entity example,2022-03-23 13:35:01+00:00,TRUE
+dc7322c49354eedd8087533d1bb4ded1a40c947e,Update README to reflect new payload,2022-03-27 14:46:45+01:00,FALSE
+bc383aba756a4553e2ec9a102d1379d20df8551e,Update example automation for new device event,2022-03-27 14:55:09+01:00,FALSE
+3516213c32567bebd3f25c3e06e320822298efb1,Update README with tweaked lovelace YAML,2022-03-28 21:49:11+01:00,TRUE
+7b185d068a0678a828e9620e7f712e54478bc913,reflect entity changes due to `update` entity availability,2022-03-30 22:26:31+01:00,FALSE
+462df9c2cae7018325dd634627035d2ee2b1144d,"update card 3 YAML
+
+reflect HASS `2022.4.0` changes",2022-04-06 21:50:04+01:00,TRUE
+11bec62cdeb2bfb5235f2589cef2070d769de65a,"update readme
+
+adjust heading levels
+add information about the Advanced Options",2022-04-09 09:31:26+01:00,TRUE
+9975b497ec6ad796a7f8f1653631513c8a951ed3,Update README,2022-04-12 17:19:51+01:00,FALSE
+26e7a747f8e5aff460aaf0c5134c4591ccdd16d3,Update README,2022-04-12 19:24:34+01:00,FALSE
+efedfb0723112c8a63766bf43d472d3ecddf82c1,update README,2022-04-13 13:41:17+01:00,FALSE
+e40afbdea89e8321078314376e87cd4b7706a10b,update README,2022-04-14 13:18:13+01:00,FALSE
+c2fa56c2499dacd4f947f6657c030678038c634e,update README,2022-04-14 14:14:03+01:00,FALSE
+7824fcadbb6335a3100d20622a51aba416e17293,update README,2022-04-14 14:19:09+01:00,FALSE
+30b0b4a63751835395210549420cc3e63306e90c,update README,2022-04-14 15:57:24+01:00,FALSE
+10b04a483361669cb5c88015c0844a03a76f6177,update new device on mesh automation,2022-04-14 16:02:54+01:00,FALSE
+7dec12903dfd875fb3e142092058a76e5b6c407d,add new example automation for event notification,2022-04-17 15:45:43+01:00,FALSE
+d2c1feeb8629322769d7c2a72d45c833c2891b51,update card 3 in readme,2022-05-03 10:47:21+01:00,TRUE
+f7bfc318d022905f9ac5ffb0968272186a2cb580,add sensor for guest network devices,2022-05-03 15:27:01+01:00,FALSE
+ae7a0aba18f798768b1f8e2aa18d44754f512046,adjust the mesh card to reflect change to offline devices sensor,2022-05-28 16:25:08+01:00,TRUE
+c2939c0ae9518f00e89b9281d6ff682afa803a5a,update sensor descriptions,2022-05-28 16:27:01+01:00,FALSE
+0bb5e1f189146e72e036f6cfa0374a1a12bc1b61,update README,2022-06-14 09:53:45+01:00,FALSE
+6c49a05f3da8081a19f40ae1135da8656e611ef9,better manage unknown speedtest results,2022-06-21 20:18:17+01:00,TRUE
+1c4067469fb342f793c79c7141f26e2e0a56e621,update action buttons in card 3,2022-06-21 20:30:17+01:00,TRUE
+6f1d1d01bc1076e0af71209345ce920d3c33fa77,Tweaks to card3,2022-06-24 16:17:59+01:00,TRUE
+ef94fb5e6850e33f2caa67ff7903f72c3a6428fa,reflect sensor changes,2022-07-29 18:05:09+01:00,TRUE
+c1b5964bece62c4c701820e9f7d6a2e447ebf2ee,fix card3 to use new sensor,2022-07-29 18:18:37+01:00,TRUE
+dda5888d59983a6debf1398c135fc04b8c7202b8,update card3,2022-08-01 14:52:07+01:00,TRUE
+a6fe76a8b19b2daa79f1a4a85b81c4fa08e73862,update card for select entity,2022-08-01 20:17:44+01:00,TRUE
+83decdf059fb64ecd33b7dd7c40fd8ef84a11813,update cards 2 and 3 to reflect naming changes,2022-08-03 16:53:55+01:00,TRUE
+23a70ced73262ab97e8c292db95cc7de5e47fc5a,update select entity example ui,2022-08-03 17:49:31+01:00,TRUE
+91b8618acded04e182232709261a2763f6a6697b,fix template errors for disconnected devices,2022-08-04 09:34:15+01:00,TRUE
+e9a1455c4b72bc7fdd57c60c2135ba4f58382adf,update image and pre-reqs for select entity card,2022-08-04 15:40:47+01:00,TRUE
+25e8aeea94704d83f57e31d62edcec0909ff6ee0,guard against missing properties in card 2,2022-08-07 16:27:31+01:00,TRUE
+a7e298000c3945e3c1a73f42e093526ca5a72767,update card 2 YAML,2022-08-08 14:23:44+01:00,TRUE
+fe33dd9d4aa5be24906932972add7259d271a9c2,fix formatting for offline devices in card 2,2022-08-09 17:27:14+01:00,TRUE
+951f854eb865574480ba6eb5dd7b7cc63603d4a0,add table of contents,2022-08-24 15:39:25+01:00,FALSE
+d2988ba74a4649257af7a27fc9978fec5de0ec5a,clarify node_image location,2022-08-24 15:40:57+01:00,FALSE
+7abd64151a6b175677317c8477bc3bfe615cad86,further clarify node_images,2022-08-24 15:42:56+01:00,FALSE
+b852fede79e2d52fbb74b73692ccda1b03486b61,diagnostics updates,2022-08-27 15:30:16+01:00,FALSE
+232cd53b48c8bccb06b4a8e8ea975317dfcb0311,add `logging_serial` to advanced options,2022-09-02 18:18:15+01:00,FALSE
+b50b07d3a86835238c061e10566d807666724381,update README,2022-09-03 10:26:28+01:00,FALSE
+234a485889462872cf7647e07b6c927abf9f6d14,Add logging configuration to TOC,2022-09-03 10:30:12+01:00,FALSE
+efc65d39009246442c96338b36178c4afd47bea7,update readme,2022-09-03 17:19:28+01:00,FALSE
+2812a57ccda4075e9f90197f112153e18b4bc7db,update readme,2022-09-03 17:43:42+01:00,FALSE
+d8c0136f3be4d27a5a0b1fc1269fc3a76e67e655,update readme,2022-09-03 17:47:50+01:00,FALSE
+bb4d79369efe29b179bb3da6cd77c578ea774b9a,update readme,2022-09-04 12:14:02+01:00,FALSE
+a68b86a0330c425e1ccaf4ac7faa8b73691f1158,readme linting,2022-09-04 12:42:45+01:00,FALSE
+2dccc0447d2d15e9f44eb7e67121f1c161e2432c,add installation details to readme,2022-09-12 21:13:34+01:00,FALSE
+ac6935dd57c96e0a8e4f0ddd2408fe4eb65b4458,update readme,2022-09-18 14:33:57+01:00,FALSE
+77c0ef9480648519388680279d7730586de77732,update readme,2022-09-18 14:36:31+01:00,FALSE
+ec1184f23893f602a2d8c8bfd6da49865145e957,update readme,2022-09-18 14:50:07+01:00,FALSE
+0a964b0587220ca08dd07dc74dd39e0f66a5dd24,update readme,2022-09-18 15:06:36+01:00,FALSE
+9fede17beeb839e1d19784e043c48a1e52524899,update readme,2022-09-18 15:09:27+01:00,FALSE
+38953a2cdeeba20f7e5cfea0e90c34d92016c28d,update readme,2022-09-18 16:06:49+01:00,FALSE
+caeade3893e2aa93d4e6ccc5de61fcd5b71c184c,update the select entity yaml,2022-09-18 17:35:32+01:00,TRUE
+28ecbc3d55ea349fcce1f85c6429d07d2878cac1,update readme,2022-10-05 15:17:49+01:00,FALSE
+9b823ef98e6205cba393978101ada39275cd2f21,update readme,2022-10-05 20:05:07+01:00,FALSE
+a6e324d80002a3e1ac1ec48529eb4b131b7df2c7,fix up device triggers,2022-10-05 20:09:12+01:00,FALSE
+84edcb453bf19ec8d2ece82f3fa40c9d724aa038,update README,2022-10-06 12:54:09+01:00,FALSE
+8d8cfe85c4a22ae3ca0de93251385ae2f8e320f3,update README,2022-10-15 19:31:19+01:00,FALSE
+8672ec127bb2263e14bae6e60e30ff2fde021a3b,update readme,2022-10-16 16:49:13+01:00,FALSE
+9e4bc591273cd3cf2bb2d4fe7f329a84f6d47be5,update README,2022-10-27 20:23:10+01:00,FALSE
+b93032f497c9a50e181eb448fa98135561883177,update cards to remove border in HASS 2022.11.x,2022-11-03 09:44:54+00:00,TRUE
+a8902638ba14fedcd7f95913d591102dede2ce31,fix reboot action in card 3,2022-11-17 11:28:58+00:00,TRUE
+e9154ee8c7ed93685428954f0482ddb8f53efd17,update readme,2022-11-24 12:33:58+00:00,FALSE
+6df649cc788b4a2b82589a1a0073eaedcf26ae5b,add dhcp sensor,2022-12-10 23:33:45+00:00,FALSE
+c9fcb37d8f5738dcee2b9e522b3dd3052598af5e,split dhcp reservations into own sensor,2022-12-11 21:04:05+00:00,FALSE
+56b484536ace541087446867ee000251480c13b9,update readme,2022-12-13 13:59:29+00:00,FALSE
+dc09f9245886514b9864b9237ce4e2025480f14a,update readme,2022-12-13 14:09:12+00:00,FALSE
+f08ac60a4448143895fdef0b38e8188312c01509,update readme,2022-12-13 14:17:14+00:00,FALSE
+e09db0e78c662c7ce2cfc27378842d5939020798,split backhaul connection type out from attributes,2022-12-29 15:21:33+00:00,FALSE
+cca60050b3d7e35bb0773f7940268658e0165c6d,split backhaul speed from sensor attributes,2022-12-29 15:39:42+00:00,FALSE
+32463b839fe6110f78bb2b4e543a33139fcbb616,split last_checked from backhaul attributes,2022-12-29 15:52:22+00:00,FALSE
+3285a5c5f48c4baddce8048440c92ba1ac048bc4,rename and cleanup old backhaul sensor,2022-12-29 16:16:46+00:00,FALSE
+baa3f3f79db7e993e845a616919ba1757d6d6e96,update readme,2022-12-29 17:15:36+00:00,FALSE
+dacd6d48407fec092eff91595eed5c69d3fd2840,move node_images to config flow,2022-12-30 09:34:07+00:00,FALSE
+6f5061ba4a84383b6fe2e0fa492248884f3cb7a6,update readme,2022-12-30 09:41:13+00:00,FALSE
+56f176744c0722b3b5ce4d720c2d922955b5d7df,update readme,2022-12-30 12:06:21+00:00,FALSE
+a41b2b935b5cc8cdeda54669c1d088774bde5885,update readme,2022-12-30 19:29:21+00:00,FALSE
+d652a3cf984e0201e10a0369b90844b7420f23cb,remove example ui,2023-01-09 13:59:39+00:00,FALSE
+79ed3f8a8adea5d85e411fabf5a7aa989b195b44,update readme,2023-03-02 15:59:53+00:00,FALSE
+3530f147c9403e13d1ac51ec9f236a8b35e7db06,update readme,2023-03-06 20:35:39+00:00,FALSE
+bfe0ca841a6a1aaa2a3648a187156624ee312fbd,update readme,2023-03-06 20:50:06+00:00,FALSE
+ab49e869be2b85de0f0a41caac23ac77429ea7bc,update readme,2023-03-10 19:35:01+00:00,FALSE
+ab335c9201ffbb657646edfa2de4c5d15f978b0a,update readme,2023-03-17 14:42:12+00:00,FALSE
+966f10981de1db1a066b6defd61b651f9ba18e49,update readme,2023-03-18 11:17:04+00:00,FALSE
+063a02920a2d33d52f3c71c7d3dd16300d8ff3b9,update readme,2023-03-18 12:09:51+00:00,FALSE
+0182b7f0a2d996d9704d4117e7a4aba19cd35eb8,update readme,2023-03-20 15:34:34+00:00,FALSE
+f6a5069bd0086bfa8f0042477d330bd7f0237903,update readme,2023-03-20 16:46:35+00:00,FALSE
+d23615f43b2d42760bec0988310259da7fe8dade,update readme,2023-03-20 19:17:15+00:00,FALSE
+8603d99f4261d8d99a4402822958825d7ce8bc23,update readme,2023-03-20 19:30:40+00:00,FALSE
+d580a15ddc99668b5758d65ce48169dc654929de,update readme,2023-03-22 22:03:38+00:00,FALSE
+9e76bcb4dd6d9b528bf0af27c27c1b1d7d66e13e,update readme,2023-03-23 18:22:09+00:00,FALSE
+a815db43f9c02c8d5ecdc7ed66783a6674ce8957,update readme,2023-03-24 14:01:04+00:00,FALSE
+d07945b0662031b524ba69820ae437d2e8dc92ba,update readme,2023-04-06 15:03:18+01:00,FALSE
+921b42151d5effe226b501ce0b46f0e39477bb54,update readme,2023-05-22 21:47:34+01:00,FALSE

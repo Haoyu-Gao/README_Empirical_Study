@@ -1,0 +1,60 @@
+sha,message,date,result
+333bee040884f9329ee4ab944040d24a58b50be3,Initial commit,2021-04-27 10:47:12+02:00,False
+8426075e69ae559801a13629d50cf30116581a42,Update README.md,2021-04-27 12:51:50+02:00,False
+91dbcf8d5a11a7aaada14a0a93c71e0c5761309e,"Change API Again (Change IMistake to IMistakeType, Add IRatingGroup)
+Add Functionality for Config getting and implement parsing JSON File.",2021-06-01 13:30:34+02:00,False
+a251b9ce8942e64e6f76503451ad9064f8d7520c,Update README.,2021-06-01 13:35:54+02:00,False
+0ce4c37ce9b4f8e76c6ba8c28e25271e12e79fe3,Write Readme a little,2021-07-27 07:31:17+02:00,False
+0e173033ab5b3ff29b9b76d7caa3d0ea9b5e5d50,Update README.md,2021-07-28 10:49:43+02:00,False
+a75c3a5cbd026bfc8cc5a960f88a3cba78950380,Address Issue #92 (Code Review removal of configname feature),2021-08-16 10:21:55+02:00,False
+ed233750054c6257d645facbe32720d28adfbd9b,Contribute to #97.,2021-08-31 09:06:51+02:00,True
+1e42adac4d82110d3d902049f3109acba03fcba6,Update readme + automat. Add relative config logic in backend (untested),2021-08-31 11:52:06+02:00,False
+7e323570b79ef6c8d83cea342f54cbc921b93d24,Update README: Add Arch doc (#97),2021-08-31 12:41:31+02:00,False
+5a471fef2ad480aff3c44e80e61839570900b2de,work on #97,2021-08-31 12:50:07+02:00,False
+e885965c3e745e0f5c768a024ad7ded4ffa49eb3,Improve README (#97),2021-09-01 10:55:23+02:00,False
+90eee32baa484e99e811e258bcc47f9c871b67ec,Add Authros and further development sections. (#97),2021-09-01 11:02:21+02:00,False
+7479f6bf7868028ab20f9c11f25db3703c496782,added GUI content to ReadMe,2021-09-20 16:28:21+02:00,False
+19a48b4d1fb2ec8f8b5168341687b061ab8747b7,Update README.md,2021-11-05 13:27:12+01:00,False
+c45c2ec1a89ca2499cda676c9cc2f9843d7270f4,Update README.md,2021-11-07 18:27:24+01:00,False
+09ab7d897a3b2051d313f2e16c1e6fca8041e2ba,Update README.md,2021-11-07 18:39:15+01:00,False
+84186f7fd8617cb39605760328379929a20fd50f,Added development dependencies to the update site. To make development more easy,2021-12-20 14:07:06+01:00,False
+2ce94dbcde2d24be2e1c2afda43125df8aa166e7,"[Feature] Student Edition of Artemis Eclipse (#168)
+
+This PR introduces a student edition of Artemis Eclipse to work on programming tasks:
+* Handling of exams and normal Java Programming tasks.
+* Show test results as live feedback
+* Handle multiple programming tasks in one workspace (only student edition)
+* Show assessments of tutors that used the artemis grading plugin
+
+Besides that it introduces ..
+
+* A new layout of projects as the modules where spitted according to their purpose
+* Increase compile time by building the actual eclipse products in their own profile
+* Add a spotless formatter
+
+
+
+Co-authored-by: Dominik Fuchß <dominik.fuchss@kit.edu>
+Co-authored-by: Shirkanesi <shirkanesi@shirkanesi.com>",2022-03-25 17:01:21+01:00,False
+640eb4278701dcd10e80e77a40f87496a2ebf7b8,"Bump to 2.1.0
+
+Also added description how to update the versions",2022-05-10 10:41:41+03:00,False
+71a121de9712ddcfb39cbb31cd08911b4e849816,Update README.md,2022-05-17 14:11:08+03:00,False
+43e46c2565cb7b52f726cebe91b4bf38add034ad,Bump to 2.7.0,2022-11-15 12:39:09+00:00,False
+965856c6d391a483fee05f9677677382d739a1c3,"Revert ""Bump to 2.7.0""
+
+This reverts commit 43e46c2565cb7b52f726cebe91b4bf38add034ad.",2022-11-22 13:39:30+01:00,False
+d1d259b48040520acd0236cdd47a224c1eb46ee8,Bump to 2.6.1,2022-11-22 14:55:59+01:00,False
+ab0137020f15a63c33e675aa134a0e7e2403b7b9,"Removal of Student Feature (#291)
+
+* Delete Student feature
+
+* Github Actions
+
+* Readme
+
+* Rework documentation
+
+* Bump to 4.0.0",2023-03-03 15:08:28+01:00,False
+67b54159213f014b632bb153505c2bf6255e2bb7,Update README.md,2023-03-31 00:04:05+02:00,False
+e30b56da0908d2755d8b1599bc58746f5b8c9b6b,Update Links,2023-03-31 10:06:55+02:00,False

@@ -1,0 +1,14 @@
+sha,message,date,result
+b70a6c29f016b3a54b01ef11f333a464f83f08c0,Create README.md,2018-07-19 11:16:30-04:00,True
+cd346b8689547f684d827c5df6a0426c41f2dd18,Update README.md,2018-07-19 11:17:02-04:00,False
+a7a411e3f1497e543d78661ca7d4b0bc84d47edb,Update README.md,2018-07-19 11:19:55-04:00,True
+bf98d53c13dd5b9427a9da7a60f4e0fb8c1508e6,Update README.md,2018-07-19 11:20:37-04:00,False
+cf7be2ac2f2c129749c2cd407f09d822456b506b,Update README.md,2019-05-03 14:53:26-04:00,False
+ff5396b6c10c332803a476e6acc951575b4d28e7,Update README.md,2019-05-03 14:57:48-04:00,True
+30796331684bce9e646a964b760f6e7a8f569905,added travis badge,2019-05-22 16:01:32-04:00,False
+187def58eb074a0d4a19a76321fdb54b1f0701c9,added official travis badge,2019-05-24 14:07:17-04:00,False
+2d06f14e08961739acb460d277846762b8ee2b63,updated README.md with official travis badge,2019-05-27 17:04:18-04:00,False
+e44e7bdb561456692dd027b5ac7d87000c3cc73e,Update README.md,2019-05-31 12:45:46-04:00,False
+6fe7f6d5d682572ee9af08170ff66e7fbdc84643,"Using nosetests and make to test code, also added coverage badge",2019-05-31 13:39:07-04:00,False
+28deb04b27d3ce297c60cd18eb489c552dfd0c7b,Included setting the `AUTOTST` variable in the README,2019-06-03 14:14:07-04:00,True
+6b4f6da93e1302e16531ec97b2b40e3ad35d9bcb,Updated README,2019-10-22 14:03:53-04:00,True

@@ -1,0 +1,102 @@
+sha,message,date,result
+596c9de2adf8218aa48cf384dd4c1f2d978bd6ba,"First commit, converted to a truely maven project and switching over to my own repository for better management.",2013-12-05 18:22:15-06:00,False
+ab0c236711b788391820f949bda9d963d9be202c,Add a language file and system.,2013-12-23 14:31:27-06:00,False
+a9d58e85e730f629f8bf3b60d57ebaf02c9d0d27,Update the readme.md,2013-12-24 22:52:10-06:00,False
+a72f6c273bfcaf601788a29d7e856604b5a59a64,"Work on the actual jailing of the player.
+
+Lots of work done here, untested.",2013-12-25 21:56:01-06:00,False
+aaa286fbddd560f514a9b8664097d4358c4e667d,"Save their previous GameMode if it is enabled in the config.
+
+Need to update the wiki with the new config option.",2013-12-25 22:57:09-06:00,False
+c35b3b04f0c26ab4ab5abddf88205c65af37561e,"Add a config value to set their gamemode to. Also, eject them.",2013-12-25 23:20:52-06:00,False
+e4f74e5e91c3e954621dc5bfe7be144e937cf37d,"Lots of progress was made towards jailing the player.
+
+We now handle the jailing of the players and even store their inventory.
+Unjailing hasn't been tested at all yet, so that's still to do.",2013-12-27 18:19:47-06:00,False
+04d65088e35605deb0df12a3f95edf5e948c97be,First attempt at unjailing a prisoner.,2013-12-28 15:08:24-06:00,False
+506ab26858ebf5b94daf2af351dec7f0e3e78eae,Send the unjail message and also execute the commands on releasing,2013-12-31 13:25:06-06:00,False
+9b534b2abcf5346431b11804db73c47c53131789,"Add handcuffing, next commit will be handcuff listeners.",2014-01-01 16:19:04-06:00,False
+906348dc69134670995706df7ec3429032389344,"The time reduction works, just use bukkit if you want it to work.
+
+The other way is to only be used if you have low tps.",2014-01-03 20:54:43-06:00,False
+d734d99e8882e3d1470a2fbd8a778b6deb3c34f8,"Protect against block breaking and block placing in jails
+
+Unless the player has admin permission. This does not include the
+penalties as those will be done in a future commit. This also has a
+little better performance on the block placing and breaking events, if
+these checks are disabled.",2014-01-08 15:02:24-06:00,False
+f41ee770921a4cdeb6f92996f3b98216126fa4c1,Enable checking the whitelist of breaking and placing.,2014-01-19 15:53:42-06:00,False
+392b1d94cc5c722e20836bd0c5b34f0cc182daaf,"Prevent commands from being executed, except those whitelisted",2014-01-20 14:40:03-06:00,False
+1cfd64164c5648e485da17254727f00e6dd32608,"Change the priorities of the event listeners, this way the protections
+and the penalties get applied before the other listener cancels it.",2014-01-21 20:52:19-06:00,False
+743270028bef67a9fdd39fac18b71e73a0fb6712,Edit the readme to include changes for beta 1.,2014-03-06 12:23:42-06:00,False
+932ae654170ed1029beec7ed6af9118597e0d4e1,Add links to the issues in the readme.,2014-03-06 12:25:25-06:00,False
+2ec69c56505e6e7ad97c047632d4747c5008f220,"Finish adding the jailrecord command, this closes #12.",2014-03-06 18:10:53-06:00,False
+274f3a03abee3186ecc833f6ef496afd4ef910f2,Start work on Jail Sticks.,2014-03-08 22:53:31-06:00,False
+11d6995cc3b4faf1851bcf33619944712ae41df1,"Fix default Jail Stick not loading correctly, closes #21",2014-03-12 22:41:10-05:00,False
+ec1e91cda2c2ec5c3a39557537b1ce719abdbf90,"Implement the usage of Scoreboards, make the language configurable.
+
+Closes #15",2014-03-13 12:59:47-05:00,False
+060bb125a48d5cec430b84feb40a5dacb6f17b1b,"First work on converting the old global config file to the new one.
+
+For #23",2014-03-14 15:15:30-05:00,False
+3e3f2d432e12f9f13e2b6ff72c3e7e8178f509d7,"Convert the old data to our new data and move the old files.
+
+Closes #24 but it probably has a few bugs or prisoners who were in cells
+are not any more, but I will only fix that if someone pursades me to.",2014-03-14 17:40:44-05:00,False
+4ade1bcf38a2c7a9baaa6ba985b31fdfb102ba48,"Implement Jail Pay, this closes #11",2014-03-20 15:33:42-05:00,False
+f1dadaaae010a772ed03d47a7b57fbe134c91446,Lookup the records by username and get the UUID ourself.,2014-04-30 13:18:56-05:00,False
+623c6442d8ff32db7b1f1a75061b115e36164b45,Update the readme about changes in beta 2.,2014-04-30 13:19:26-05:00,False
+7e3956dee56157598abd7a9cb70dbec5ccf8038d,Update the readme.,2014-05-01 17:32:00-05:00,False
+d535b758d40a056adc231115a58c4b16258e80cb,Add .gitattributes,2014-06-12 10:50:53-05:00,False
+b6ffb8a272102d79297c1de7bf0151dac1c97743,Add reference to the cache in the readme.,2014-06-12 11:03:04-05:00,False
+34ebc5bc082d35c6ba2964db9dd63e4aae449f6b,Update readme and convert the old positions.,2014-07-14 17:01:34-05:00,False
+3912dbfabc9837a06061a52a607a0cb72bd9d146,"Only save the prisoners if they were changed, add that flag.",2014-07-14 18:23:29-05:00,False
+1c92f90ccc2b2b696d56ce2b5445810089e4fe3f,"Update notifications! For dev, stable-dev, and bukkit channels! :)",2014-07-21 18:17:30-05:00,False
+b63773c7a9e1ee4f726b7c4a301afec89296fe9f,"Move the timer to be async if we're using bukkit's timer.
+
+This should improve the performance of the plugin even more, because it
+won't do any database calls while inside the loop which is what was
+usually the hang up time.
+
+This is completely untested and possibly could throw tons of errors.",2014-07-21 19:11:12-05:00,False
+bf59a57ea7279c8d696a27e8183e408bd8b8b3f3,Update the readme.,2014-07-23 16:44:22-05:00,False
+18981216437d8ba8c0ce88da430c803394066cc5,"Simplify the language system and the language calls, also fix the
+language system not copying over the new values when new values were
+added.",2014-07-24 21:16:57-05:00,False
+cac81f04204df2f65be7cd33e4a9eb06ac084b6d,"Move clearforce into clear and use -f (-force) to forcefully do it.
+
+It does still require the permission `jail.command.jailclearforce` and
+if it isn't provided then it will fall back to regular clearing.",2014-07-24 23:29:53-05:00,False
+c7ea8e44e5e09f29527e16fb36ea00ed2bde434e,Just some edits to the readme,2014-07-24 23:31:56-05:00,False
+34acf4bbaab25faa159e3f2a08cf11013be0fc3f,"Work on the commands help and usage, sync with the wiki pages.",2014-07-25 00:10:26-05:00,False
+68584639bac3e228585e0dad79f8ace22eefc1eb,Add support for sqlite storage.,2014-08-19 16:54:14-05:00,False
+1cfca8bc873b2e492b76f366112c83a90d86813f,Update the readme file.,2015-02-13 17:11:02-06:00,True
+f69dfe22dc37576c72aaa1fcabd53db31e79fedb,Move maven command in the readme down a line.,2015-02-13 17:11:33-06:00,True
+7e2df93adda8a0b2858b19c1d1650c5975d2effc,Fix the issue links in the readme.,2015-02-13 17:12:23-06:00,False
+6376f0d505e9ac93f49deb6eb6fc2ac00167a9d6,Update the readme,2015-02-21 23:31:40-06:00,False
+550c7d53688a6f9b235eb5f22ca0577bba9eb58b,"Pass the jail name and cell name to the broadcast messages, fixes #53",2015-02-25 10:13:32-06:00,False
+25835a170270c5be7aa032479a5a668d2c1dcabb,"Clear inventory only when storing, fixes #57
+
+We shouldn't be clearing a prisoner's inventory on getting released from
+jail if we aren't supposed to be storing it.
+
+And update the readme file",2015-05-26 16:16:30-05:00,False
+9b638d6360e102ea943cfcbc48aa04dcf25469a1,"Only load lines for signs configured, fixes #61
+
+Don't try to load line 4 when it isn't configured in the configuration,
+fixes the onload IndexOutOfBoundsException.",2015-05-26 16:25:02-05:00,False
+c9696b86714fea86fe54bc6936311dc74f38b529,Update the readme,2015-06-30 16:08:47-05:00,False
+07938209bb5618da7328f37a1f13f95a8e1ffcb0,Forgot to save the readme....whoops.,2015-06-30 16:11:48-05:00,False
+44ce2c7cfe0d27060236ea9dfbd7b8c3307a47d1,Fix the spacing/line ending on the readme I accidently did.,2015-06-30 16:13:33-05:00,False
+9ec7f389db184914c7b4038f445e8622873c1edb,"Load/Disable the move protection listener #88
+
+We now load or disable the move protection listener based upon the
+config when the plugin is reloaded.",2015-07-23 14:53:30-05:00,False
+5dd226409f85035130a1d5f16f885ec082e06554,Update translation info,2015-12-29 14:01:01-06:00,False
+95b159c69d4472fae9c03e77621b1f65c697b332,First update to 1.9. Sadly makes it not work w/ 1.8,2016-03-21 16:57:29-05:00,True
+fa1e935f5aa8d18f88f78b5084d0930c69256a39,Add the codacy badge,2016-05-31 11:46:39-05:00,False
+b2f0c3142108d39163e8c49a31712f18bcfeccb1,Get it to build again and update to java 1.8 in the pom.xml,2017-01-04 10:31:59-02:00,False
+9d5d56c19291c9088d0ef66921e62bce19d8592f,Add information about the one fix applied to beta 6 so far,2017-01-04 10:34:47-02:00,False
+97877612c52cd598e51c1bb31979894a274a9214,Add the code coverage badge from codacy,2017-01-04 11:54:45-02:00,False
+820842932a8452560a5060cc7b343d6be643d820,Update the build status icon,2020-10-13 10:38:44-05:00,False

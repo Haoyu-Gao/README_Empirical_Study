@@ -1,0 +1,107 @@
+sha,message,date,result
+c2d8de43a65b7e1cc9ec3242a4183ce0922aab47,Initial commit,2015-07-21 12:59:53+02:00,FALSE
+62eda01cad0eb095da7b54dbb71af7f82ac9822d,README.md: added some useful content,2015-08-06 12:17:15+02:00,TRUE
+94aa1f6cf718f3cf37c1558100de2836fa4baf72,app logo added,2015-08-24 14:21:04+02:00,FALSE
+741997d965bf926e1d641b09a946918b665663a6,screenshot added to README.md,2015-08-25 13:48:47+02:00,FALSE
+ef947fabffd12ad4ee6fb1f46b4def7019850ae9,README.md fixed,2015-08-25 14:13:40+02:00,FALSE
+04e2e94829279375caa1a18e5eb55d6ac4002bbe,README.md: added direct download link to relased ZIP,2015-08-25 14:26:28+02:00,TRUE
+db49ddb8f1f177bcb6d76cb3322a06dca0bb9d82,fixed typo in README.md,2015-08-27 09:10:07+02:00,FALSE
+1094363ea4cfcf9089c1c709b6677324b89a5e3d,updated version to 0.2,2016-02-12 18:44:21+01:00,TRUE
+156f20f93230a8faabbf67b5e0f1274de6693b54,Renamed to Scrivendor.,2016-10-18 18:25:10-07:00,TRUE
+dfa7e5fa131f70c09d99b3260d48b9d9bac2e61e,Added build script for logos. Updated screenshot with new name.,2016-10-18 18:56:25-07:00,FALSE
+1b19e46f30cf67b0c11fdc6d04d79a2b38eb25be,Separated credits.,2016-10-18 19:04:57-07:00,TRUE
+1ba082892b4cd1a183902718d5772b2495546afa,Renamed to Scrivenvar.,2016-11-22 15:00:19-08:00,TRUE
+2eff5eccbc8c0b85be5d4082e25195bc47603f6e,Updated remaining unchanged references to old application name. Added VariableTreeItem for common behaviours. Created test for speedy renaming of variable definitions is large texts.,2016-11-25 21:43:21-08:00,TRUE
+fd95319f7a335a3782c75c1c43ab2a294593df42,Added hyperlink model for inserting hyperlinks and selecting hyperlinks in text. Replaced commonmark with flexmark to get markdown AST nodes with relative offsets.,2016-12-03 21:51:03-08:00,TRUE
+6d9e3c96e30f4b026796f21b6636fc7455b8765d,Removed redundant license information. Added injectable caret position marker to assist scrolling the preview pane. Removed inaccurate scrolling by pixel calculations.,2016-12-07 23:57:18-08:00,FALSE
+c3b20103efc9aa8d3c072b3124a1a11169dfb567,Updated screenshot.,2016-12-08 22:10:53-08:00,FALSE
+eaf59c3413d766f89103398f5c0b23cc1ecdfe14,Removed all Markdown options.,2016-12-09 20:54:28-08:00,FALSE
+64bbaed87a9b18eccd9512c85bd26548435ee651,Removed options. Started migration towards unified persistence.,2016-12-10 14:52:02-08:00,FALSE
+693b1c401dab986f71598732e003705066f1b35f,Upgraded to Apache Commons Configuration 2.1. Fixed bug with settings. Load YAML files. Removed IDE-gone-mad imports.,2016-12-14 22:38:06-08:00,TRUE
+ee49231269f3453ad41ca987d126267e18333ae7,Automatic reloading of external XSL template file.,2016-12-19 10:28:25-08:00,FALSE
+434dd7fb42b6f173bd3bc10f3defe204e6848317,"Local file storage for preferences, to side-step issues with using a registry.",2016-12-22 22:57:56-08:00,FALSE
+8bf9cbcc7787b9e0837576fb0e1a85d38eeaf3e8,Revised feature list.,2017-01-22 21:23:35-08:00,TRUE
+ebdc5c92650f09b090fec1024f72e520bc4fca28,Updated documentation to simplify usage instructions.,2017-01-22 21:54:35-08:00,TRUE
+ef77cb26f8c1447fdfcbece7cdeaded88775daf9,Example showing R integration. Added default identity parser for unknown file types. Added Save As functionality. Removed System.out calls.,2017-01-23 22:37:56-08:00,FALSE
+c6daa64e77544947aee7bdda80c92e152e32aa5f,Updated readme with new application screenshot.,2017-01-23 23:16:06-08:00,TRUE
+0ca55bd9ec9d6645c9ebf6a6590b6d3fa8da14c6,Updated build instructions.,2018-11-07 18:13:02-08:00,TRUE
+01e29751bb446e94ea19675a053c64880af89cf7,Updated source code comments.,2018-11-07 21:09:49-08:00,TRUE
+6cdfc065c77d84e01712e70d10444047b4c995e8,Updated requirements,2019-06-25 18:54:14-07:00,TRUE
+fcc2d56d51b8bf95cb019dafb9ae0cba833afdcf,Updated requirements,2019-06-25 18:54:56-07:00,TRUE
+3ede69f5bb94a24688e82444ab7e9c6dd999cdbb,Added note about JavaFX removal,2019-06-27 13:20:01-07:00,TRUE
+6c5ea17e09ebf5dece0ebe4f7d848ab43e465c68,Update documentation and start migration to Java 14,2020-05-15 12:28:10-07:00,TRUE
+23afe9c20f1af71d3cc1ed02f37ab314f53721af,"Address IDE warnings, code formatting, bug fixes",2020-05-16 14:32:10-07:00,FALSE
+758c28b83325fc49bee806d234d155741ba88513,"Address build warnings, add help for R usage, update build instructions",2020-05-16 18:47:13-07:00,TRUE
+3c1acdd07e5b5f126870e620bd8cd9b8bd9757a5,Update README to point to example usages,2020-05-18 09:05:24-07:00,FALSE
+6b94d5e71293f41dd3676758506b232d008e6593,Typo,2020-05-18 09:05:49-07:00,FALSE
+05def79812cde0a4859a218e6e413f8f5a57f724,Clarify interpolation,2020-05-18 09:07:21-07:00,FALSE
+760033fe289bb9602dbb7b9a57b99b4d323e8f92,Fix scrolling-to-the-top bug,2020-06-20 20:06:04-07:00,FALSE
+bfbf73dc7bceadb6ba7ed830a134ee9746e26747,Update README to point to executables,2020-07-02 18:31:00-07:00,TRUE
+39cae907cf41d97c89a49a53d24a740612c15ce1,Update instructions for other OSes,2020-07-02 18:33:25-07:00,TRUE
+edaf5918175f358bb168b660631bf34af21c00ac,Remove spellcheck from TODO,2020-07-05 00:42:49-07:00,FALSE
+ca9f9142f3046255d2555fac0b30dc66bed03022,Add Markdown-aware spellcheck,2020-07-07 19:22:21-07:00,FALSE
+3202c66fc46445ce408017c7393a8ddae63ee6fa,"Reorganize docs, update building instructions",2020-07-12 09:57:22-07:00,FALSE
+75e1ca0a53de424c809811e921f4bef07400fa1e,Fix documentation references,2020-07-12 10:01:10-07:00,FALSE
+3753e02cc69e5eee4bfa911382a854962726ba93,"Move documentation images, start key casting integration",2020-07-14 20:51:04-07:00,FALSE
+6f3678fd186a8085bd5ce7cfc41671e7403dfcb1,Reference Markdown Writer FX in README,2020-08-14 00:07:42-07:00,FALSE
+acd1235a13c53b1ad90d777fe186aa0e2f98786d,Add Windows upgrade instructions,2020-08-23 12:48:34-07:00,TRUE
+215a07ca744aec8c5973d6735b5c8a9a6a9ade41,Nobody gets the joke,2020-08-23 12:48:54-07:00,TRUE
+c407c8ae88c029131d5d7bcac7a112f4b38816c0,Align logo and heading,2020-08-23 12:49:32-07:00,TRUE
+bb55509f75c966f48bd926f5b2ccdf59f1836f16,"Switch Markdown/TeX processing order, add screenshot",2020-09-10 22:55:41-07:00,FALSE
+5e4723fc59127926578d068492d39a2c00b1229e,Fix screenshot,2020-09-10 22:56:45-07:00,FALSE
+c32a5e6ade17cbd599193f530488d35d4d5060b4,Move future features into issue tracker,2020-09-13 21:12:00-07:00,FALSE
+0203198cf7dbc5c78dc84763e9b226e6bf32230a,Rename application,2020-09-18 00:28:57-07:00,TRUE
+bcbeeae1ff06aa2de23602cab6067f1cecb75e70,Update logo,2020-09-18 00:34:55-07:00,TRUE
+9f80fbb5f92c5dea96c78288d1858a2215d04e45,Add app title image for docs,2020-09-18 00:39:14-07:00,TRUE
+d7aace568202a66dc2cc67e3cdea601bc0923064,Remove meta screenshot,2020-09-19 11:25:21-07:00,FALSE
+e6b8829fb26efcde20d2f80a44faf7af19edd02a,Change url to direct to download section,2020-09-19 12:04:43-07:00,TRUE
+913fe5fd580462617570929857f3935d3cbcdf06,Start Chinese README file,2020-12-19 18:15:50-08:00,TRUE
+c085b6f31b8139cd1d778b5a60c2f37a08459004,One step closer to the Source Code of Theseus,2020-12-20 13:43:33-08:00,FALSE
+ea61854ecdc35655180dd41d12757366ec27c9fa,Simplify documentation,2020-12-20 13:45:50-08:00,TRUE
+7db79a5a7b186097d096a18641cf9084d8a23757,Maintain insertion order when saving/loading files,2020-12-25 11:58:44-08:00,TRUE
+81a43e92f72f6f761d7c14ce75f1815dff2bbbad,Eliminate backtick parsing variable reference,2020-12-30 13:11:38-08:00,FALSE
+eb02dd4527c546a9587c775f1d20d135d51b4826,Update documentation with new screenshots,2020-12-31 14:04:46-08:00,FALSE
+a0d33397ebc464190bc82e60f687c497e1221352,Adjust minor phrasing,2020-12-31 14:05:42-08:00,FALSE
+984121fd263dd773d8dcb9f39b38dc1852b3c20b,Remove duplicate kroki references,2020-12-31 14:08:09-08:00,FALSE
+56c1069620a4e089e143e677a6d197806b5bcd31,"English hard, grammar fixes",2020-12-31 14:22:28-08:00,FALSE
+4933599e3289cc710dc9a74cfe16fb16940b0fd5,Change order of operations,2020-12-31 14:41:59-08:00,TRUE
+8a776063d6d023d149eba467b077e586278d6187,Add documentation for themes,2021-01-17 15:05:29-08:00,FALSE
+2051d8797f86d1004b9b40ac7759deb36b429e9f,Update features documentation,2021-01-17 15:42:41-08:00,FALSE
+3040f831ffa121e9d71b5966aae7b334d24198ec,Documentation typo,2021-01-18 13:32:39-08:00,FALSE
+4101e1869bbd526e3bebea88ce0d8ae4b46d5d06,Add screenshot for outline,2021-01-31 00:56:46-08:00,FALSE
+376c3286435d9b5ede5c22f6f6be118d13898e8b,Add badges to documentation header,2021-02-11 21:02:50-08:00,FALSE
+879c0256a6c9a1c2ae7090a3834e9d56efd4a7a2,Update badge colours and order,2021-02-11 21:08:41-08:00,FALSE
+fb02b9597b4dbd695d4b9c8b7b186c9f15e1c695,Change release date colour,2021-02-11 21:10:55-08:00,FALSE
+88f6e95f02ecf718830da9d3baab7173977ae409,Change badge style,2021-02-13 14:19:18-08:00,FALSE
+c73e2d5764468049ebdbb2346341ca6fa6147caf,Change badge colour,2021-02-13 14:19:44-08:00,FALSE
+5bf1e93553ed5527b5177375971b5111ec3d4d65,Change badge labels,2021-02-13 14:21:02-08:00,FALSE
+d36abcd2a7298510075349fc7a7b144ef3cb3b2b,Add family tree screenshot,2021-02-15 12:33:54-08:00,FALSE
+6cf42d99b437c995e380f82bf3915be57593d2aa,Add I18N documentation,2021-02-21 14:50:29-08:00,FALSE
+251bf426a736637995a821146dba7111ed8076c4,Clarify feature list,2021-02-21 17:11:21-08:00,FALSE
+793899cf032f40d7d3fdd70a8c9fe2bffb68888b,"Replace file icons, add R/Rxml/Rmd vectors, update recent directory",2021-02-27 13:11:38-08:00,FALSE
+4fe10416c5774147aa670bba9151e160935faca7,Update feature list to include fenced div,2021-03-03 21:34:16-08:00,FALSE
+1a14cfd934ca404495aab98c251f979cd4fae6ca,Rename theme to skin,2021-03-31 22:43:47-07:00,FALSE
+7bf45bfc501cb884ee1443adc351a6e507b86d3e,Update Java version hyperlink,2021-04-12 00:13:50-07:00,TRUE
+825b2532a3ad80c9c9256dfa31a0e67728adb69a,Clarify run parameters,2021-05-09 17:39:23-07:00,TRUE
+d83e711567438511f5fa76b843c4457505e16da6,Add screenshot showing PDFs,2021-05-09 20:40:09-07:00,FALSE
+19e0b178db6799eeb94d514c5c621aaeca792e9f,Add PDF feature to documentation,2021-05-09 22:42:31-07:00,FALSE
+2d3c499944597b5b768cf60d5dd7cfee69017b9a,Update Java requirements section for JRE/JDK issue,2021-05-11 21:33:46-07:00,TRUE
+c696142cd3fffee96943b5f59de008620e6e3b68,"Remove XML/XSL/SAXON, fix image scaling",2021-05-24 20:03:02-07:00,FALSE
+78550aa49307ccba507edc0d3170a8c7c2206da1,Move XML-awareness into typographer for curling straight quotes,2021-07-02 23:35:24-07:00,FALSE
+b862d7956bb846cbdaef7e95ae787735fa25c0d4,Migrate to JDK 17,2021-10-02 11:19:16-07:00,TRUE
+8574de138544c204514d65e7939dfc009841b353,Revert to JDK 16,2021-10-02 20:23:47-07:00,TRUE
+ca516768ef416d938cdd96d7b7a96dd62b0e60e7,Add custom ControlsFX for JDK 17,2021-10-03 13:50:52-07:00,TRUE
+04b0fc6b08d4d10f8795766750caef6a4b4cd244,Add instructions to run using shell script,2021-11-09 21:40:11-08:00,TRUE
+fccf92327ea07767a315c1de506a3160ec3fa3dd,Update link to Markdown-Writer-FX,2021-11-30 17:46:01-08:00,FALSE
+75d2017d5966ae3450a0ff5ef7c0d76f2e2c3b05,Use GitHub's latest release link,2022-04-25 19:42:42-07:00,TRUE
+4045cfe9104111802ba52af91f2c506986bfc7eb,Add links to Chinese documentation,2022-06-19 21:43:37-07:00,FALSE
+0a3cc017542af6753c51628598b0e8791afc3b3d,Update documented JDK version,2022-08-09 23:09:50-07:00,TRUE
+d2b5427c129772caedfdddb98ad76a3b3cc5cab2,Update version number,2022-08-09 23:11:19-07:00,TRUE
+2a4444a5639a900dbd61b925902eab6c5e5b2a4f,Update build instructions for JDK 19,2022-10-28 20:15:45-07:00,TRUE
+6fa925d27bbec807fc4419454aa81941524f889f,Update instructions for Mac/other OS,2022-12-03 09:35:41-08:00,TRUE
+911d85bdbc20884f7c30b885e67fa0082c1adcde,Add MacOS note,2022-12-03 09:47:28-08:00,TRUE
+53e3cac192ad9315b0f710e8a10845dec2231384,Change description,2022-12-21 11:11:22-08:00,FALSE
+ec8738c00c380c7752517aa65697f7eb4c50a4f0,Remove resolved Windows upgrade instructions,2022-12-31 10:05:01-08:00,TRUE
+2bb49693fc9c27e8f24f6e7ff49729fe592639be,Adds font customizations to scripts,2023-01-01 21:04:02-08:00,FALSE
+7ab493dfc9e1900ebc564cb3fafe2dacd22519c4,Fixes relative image paths for non-containerized builds,2023-01-03 01:05:30-08:00,FALSE
+c6219fdd6fa7330e3068d5495b3b77ce85d87c6e,Update JDK version in requirements,2023-05-03 22:39:06-07:00,TRUE

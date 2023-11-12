@@ -1,0 +1,9570 @@
+sha,message,date,result
+5b5233ed89c08185adc8bedec1d5eb11611c68c0,work in progress alternate readme,2020-09-29 16:50:39+02:00,False
+683ffc5c41e8ae920af8bedd62679217e015cb49,"added visualizer to getting started, addressed some feedback",2020-09-30 15:02:57+02:00,False
+c1705ada5deba60004b3a628954043d22a1cbeaf,"more work on the readme, added howtos and model zoo files",2020-10-02 16:52:00+02:00,False
+47765b797ff1e810621cb87e2c589314b4c585af,readme improvements,2020-10-05 20:48:30+02:00,False
+01b0eec129459a46467ff819317d4be696f8177b,add link to dataset howto,2020-10-06 16:45:49+02:00,False
+adb5ab7bbab9cce2cff2589fe85cb10091cd0be3,Update scores and links,2020-10-08 18:31:30+05:18,False
+72967ee1a3334c65840963cd6f36f36d2cf36c74,Update links,2020-10-09 18:27:26+05:18,False
+5146ef12a66c2dd2836f05a09d1ee09cfdfc49f1,Update links,2020-10-09 18:36:48+05:18,False
+6616a4b180b0bc6014b93328af8fa41fcba34026,update model zoo,2020-10-09 09:23:20-04:00,False
+31f9765143a33e5d23a3d4525db7944d2ff7ea19,delete semantic3d from model zoo,2020-10-09 09:25:07-04:00,False
+59a893d82672690f169a09d622c85504077764cb,Update links,2020-10-09 19:01:55+05:18,False
+0100abc5f2986a72081be4224afdeec9cf81554a,Rename README_draft.md to README.md,2020-10-09 10:28:52-04:00,False
+27b632e5348c31c5417fff4de159c51d34677ca6,Link weights to scores,2020-10-12 12:57:40+05:18,False
+a30d7ee4db9fe7c966cbce2bb2f1cb3035d2ecfa,Add model_weights.txt,2020-10-12 17:02:50+05:18,False
+c6f691239198efe3366da1c473653303fcbf07ed,"draft model zoo readme (#97)
+
+* model_zoo.md
+
+* readme",2020-10-12 20:49:15+05:18,False
+b3097117bf79a5b511200041d13bd08d394f9665,minor doc improvements,2020-10-13 15:49:31+02:00,False
+11289c24823033b378acdc8e4cdf89ab9bfc89f0,highlight tf and torch support in readme,2020-10-13 21:01:40+02:00,False
+8efd4d32ae4e7777ad7280e50a831d31d9a14e03,"draft docs and examples for visualizing predictions (#102)
+
+* visualize example tutorial
+
+* fix links
+
+* change gif
+
+* add imports in howtos.md",2020-10-14 08:15:41-07:00,False
+32cd56206147f132341464df6d39a70eecb78397,"add more docstrings and update readme (#105)
+
+* docstrning for kpconv
+
+* Add script usage in readme
+
+* Update heading",2020-10-14 14:41:00-05:00,True
+f2511366de156aedf884f7f6f2a80d446de5f720,metrics (#110),2020-10-14 23:23:08-04:00,False
+11ab93f5a40aff5f631026248ac8dd29463f1cf6,updated readme with instructions for installing deps,2020-10-16 14:29:31+02:00,True
+6043e6aef4dde5dfb5c5e102607ae795dbfef5b6,"Update README.md (#120)
+
+minor update to the readme head",2020-10-16 09:41:58-07:00,False
+2fb5e6ec4a8b9282d50b42da45a3ae60a0ea7f0f,Update README.md,2020-10-16 13:00:48-04:00,True
+ed4283440c9ee129ce2cabb5988de250646ffa96,Fix missing argument,2020-10-17 16:40:16+05:18,True
+e6d6fc10a767e89084b9970db672c69e1c6fb7c8,"add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script",2020-10-20 11:44:41-05:00,True
+a7c6fc5853a2b60292646a0e3285a3d349f16c42,Update README.md,2020-10-20 11:45:30-05:00,True
+46147334df1dfab3117dcf11e5a143cb9c889e2a,"Add Kitti object detection dataset (#128)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* address reviews
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>",2020-10-21 21:29:24+05:18,True
+e688381105209be98ba091e82ca1d4593fbaade7,"Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>",2020-10-21 21:30:15+02:00,True
+8abb32e53389f4fe268f68df0941447e062440f2,"create sampler class for sampling point cloud idx and points idx (#135)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* sampler
+
+* sampler class
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* spatially regular
+
+* kpconv sampler
+
+* kpconv paris lille
+
+* delete debug information
+
+* valid
+
+* vlida
+
+* default sampler
+
+* confusion matrix
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>",2020-11-12 07:29:56-08:00,True
+aeadb4a2881b863730d8ab83e5c6cf24009a974e,Update README.md,2020-11-21 13:34:54+01:00,False
+e1c3a31c0c1fc1c2f618d175706da521952debe6,Update README.md,2020-11-21 13:35:30+01:00,False
+5549444280ca02f3881cdf06f15c1ed06efb7389,"Update download link
+
+Fix download link typo.",2020-11-30 18:40:46+05:18,False
+4862fb78a44a7a92eb193906b6d70c21bf6b0c8f,"link to kpconv parislille3d models in readme (#160)
+
+* readme for parislille3d kpconv models",2020-12-03 10:00:00-05:00,False
+68f810e2d7f6e2b15013a61f7de58ce98b7ffd80,"Yiling/readme randlanet semantic3d (#167)
+
+* readme for randlanet semantic3d models
+
+* readme change",2020-12-12 00:19:51-05:00,False
+1c4a48e3e8c7d862a0e0434d11114081b4d49917,update model zoo (#175),2020-12-15 11:03:56-05:00,False
+5efb7c04c6759749412b775d0c047294eea0e246,"update readme and config files for parislille3d; align points for parislille3d (#180)
+
+* randlanet parislille
+
+* config
+
+* merge
+
+* model path
+
+* minor changes
+
+* trans normalize
+
+* trans norm",2020-12-18 18:00:22+05:18,False
+045ae28a623b23d495fdbd056cfa937f2d63d3e6,"Abhishek/documentation (#185)
+
+* Editing documentation for TF and Torch dataloaders.
+
+* Updating datasets documentation
+
+* Updates after fixing style issues
+
+* Updating semantic segmentation
+
+* Updating dataset.py to fix semantic issues
+
+* Updating semantic segmentation
+
+* Updating base_dataset.py to fix semantic issues
+
+* Updating custom_dataset.py to fix semantic issues
+
+* Updating dataset.py to fix semantic issues
+
+* Updating visualizer documentation
+
+Updating files for visualizer documentation
+
+* Update customdataset.py
+
+* Fixing PR comment
+
+Fixing indentation issue
+
+* fix indent
+
+* Updating customdataset comments
+
+Updating customdataset to fix indentation issue.
+
+* Adding Jupyter tutorials
+
+Adding jupyter tutorials for: Training SS using PyTorch and Traing SS using TF
+
+* Update customdataset.py
+
+Fixing indentation issue.
+
+* Updates to readme
+
+Added object detection updates to the readme.md in Open3D ML and Open3D ML\Script for the new release.
+
+* Update __init__.py
+
+* Fixing style errors
+
+Fixing style errors.
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>",2020-12-21 10:33:19+01:00,True
+d8f90fd35768716ba19fa4e5de111f56539d32c7,"Abhishek/documentation (#188)
+
+* Editing documentation for TF and Torch dataloaders.
+
+* Updating datasets documentation
+
+* Updates after fixing style issues
+
+* Updating semantic segmentation
+
+* Updating dataset.py to fix semantic issues
+
+* Updating semantic segmentation
+
+* Updating base_dataset.py to fix semantic issues
+
+* Updating custom_dataset.py to fix semantic issues
+
+* Updating dataset.py to fix semantic issues
+
+* Updating visualizer documentation
+
+Updating files for visualizer documentation
+
+* Update customdataset.py
+
+* Fixing PR comment
+
+Fixing indentation issue
+
+* fix indent
+
+* Updating customdataset comments
+
+Updating customdataset to fix indentation issue.
+
+* Adding Jupyter tutorials
+
+Adding jupyter tutorials for: Training SS using PyTorch and Traing SS using TF
+
+* Update customdataset.py
+
+Fixing indentation issue.
+
+* Updates to readme
+
+Added object detection updates to the readme.md in Open3D ML and Open3D ML\Script for the new release.
+
+* Update __init__.py
+
+* Fixing style errors
+
+Fixing style errors.
+
+* Updating Readme
+
+Updating readme to include image for visualization.
+
+* Replacing bounding_boxes image.
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>",2020-12-22 12:37:27+01:00,True
+81b66ee9c5bd666c04b0b5f83da2a0347fe509b8,"Prantl/pointpillars readme (#193)
+
+* updated pointpillar metrics
+
+* updated weights",2020-12-22 21:04:35+01:00,False
+18427b64e60e1b9a124dc0221d2a9243d34fa586,upload link (#195),2020-12-23 10:40:22-07:00,False
+44d925cef48f2c6912e81beb9344f34aa4ba33b2,"Dev (#197)
+
+* version update for next release
+
+* Add Kitti object detection dataset (#128)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* address reviews
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* Add Waymo Dataset (#136)
+
+* add waymo preprocess
+
+* add waymo class
+
+* added argparse
+
+* apply style
+
+* add docstring
+
+* remove cv2
+
+* Add NuScenes dataset (#137)
+
+* add preprocess nuscenes
+
+* bug fix
+
+* add argparse
+
+* add nuscenes class
+
+* apply style
+
+* added label
+
+* Fix ignore class
+
+* add docstring
+
+* style
+
+* create sampler class for sampling point cloud idx and points idx (#135)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* sampler
+
+* sampler class
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* spatially regular
+
+* kpconv sampler
+
+* kpconv paris lille
+
+* delete debug information
+
+* valid
+
+* vlida
+
+* default sampler
+
+* confusion matrix
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+
+* Add Lyft Dataset (#138)
+
+* bug fix
+
+* Added preprocess lyft
+
+* bug
+
+* add dataset_class for lyft
+
+* style
+
+* bug fix
+
+Co-authored-by: germanros1987 <38517452+germanros1987@users.noreply.github.com>
+
+* apply-style
+
+* Download scripts (#145)
+
+* add kitti download script
+
+* fix semantickitti
+
+* added lyft download script
+
+* Add bounding boxes to visualizer (#140)
+
+* Add bounding boxes to visualizer
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* Create LICENSE
+
+* Change Bounding box class. (#149)
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* address review
+
+* Update README.md
+
+* Added Agroverse 3D Dataset (#155)
+
+* added argoverse
+
+* style
+
+* change classes
+
+* use open3d for reading pcd
+
+* link to kpconv parislille3d models in readme (#160)
+
+* readme for parislille3d kpconv models
+
+* PointPillars inference pipeline (#153)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* using our checkpoint format
+
+* fix ci
+
+* apply style
+
+* apply style
+
+* changed list to tuple
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* add comments for visualize predictions (#151)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* Import os (#148)
+
+I am getting also another error later about 
+
+NameError                                 Traceback (most recent call last)
+<ipython-input-5-bed5d0e06c9a> in <module>
+     22 pipeline_k.load_ckpt(model.cfg.ckpt_path)
+     23 
+---> 24 data_path = os.path.dirname(os.path.realpath(__file__)) + ""/demo_data""
+     25 pc_names = [""000700"", ""000750""]
+     26 
+
+NameError: name '__file__' is not defined
+
+
+for this
+
+data_path = os.path.dirname(os.path.realpath(__file__)) + ""/demo_data""
+
+* Create LICENSE
+
+* add comments
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: Albhox <albertotono3@gmail.com>
+Co-authored-by: germanros1987 <38517452+germanros1987@users.noreply.github.com>
+
+* Fix broken link to torch RandLA-Net Toronto 3d model (#163)
+
+* Updating documentation (#154)
+
+* Editing documentation for TF and Torch dataloaders.
+
+* Updating datasets documentation
+
+* Updates after fixing style issues
+
+* Updating semantic segmentation
+
+* Updating dataset.py to fix semantic issues
+
+* Updating semantic segmentation
+
+* Updating base_dataset.py to fix semantic issues
+
+* Updating custom_dataset.py to fix semantic issues
+
+* Updating dataset.py to fix semantic issues
+
+* Updating visualizer documentation
+
+Updating files for visualizer documentation
+
+* Update customdataset.py
+
+* Fixing PR comment
+
+Fixing indentation issue
+
+* fix indent
+
+* Updating customdataset comments
+
+Updating customdataset to fix indentation issue.
+
+* Adding Jupyter tutorials
+
+Adding jupyter tutorials for: Training SS using PyTorch and Traing SS using TF
+
+* Update customdataset.py
+
+Fixing indentation issue.
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+
+* Add Tensorflow model and inference pipeline. (#159)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* added tf voxel class
+
+* added PFNlayer
+
+* add pillar feature net
+
+* added pointpillar scatter class
+
+* add class SECOND
+
+* added SECONDFPN layer
+
+* fix ragged tensor
+
+* implemented tf bbox generator, improved some torch helpers of pointpillars
+
+* batch support for box generation
+
+* add call method
+
+* fix name conflicts
+
+* fix bugs
+
+* added tf objdet pipeline
+
+* fix scatter tf
+
+* fix conv2d channels last
+
+* apply style
+
+* added crossentropy
+
+* add focal loss
+
+* added smooth L1 loss
+
+* apply style
+
+* fix batchnorm
+
+* add load/save ckpt
+
+* apply style
+
+* simplify inference torch
+
+* simplify inference tf
+
+* fix bug
+
+* fix ci
+
+* fix ci tf
+
+* apply style
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: Lukas Prantl <lukas_prantl@hotmail.de>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* Fixes for changes from TensorList to Tesor for t.geometry objects (#161)
+
+* Yiling/readme randlanet semantic3d (#167)
+
+* readme for randlanet semantic3d models
+
+* readme change
+
+* Prantl/point pillars train (#170)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* added tf voxel class
+
+* added PFNlayer
+
+* add pillar feature net
+
+* added pointpillar scatter class
+
+* add class SECOND
+
+* added SECONDFPN layer
+
+* fix ragged tensor
+
+* implemented tf bbox generator, improved some torch helpers of pointpillars
+
+* batch support for box generation
+
+* add call method
+
+* fix name conflicts
+
+* fix bugs
+
+* added tf objdet pipeline
+
+* fix scatter tf
+
+* fix conv2d channels last
+
+* apply style
+
+* added crossentropy
+
+* add focal loss
+
+* added smooth L1 loss
+
+* apply style
+
+* using our checkpoint format
+
+* fix batchnorm
+
+* add load/save ckpt
+
+* apply style
+
+* simplify inference torch
+
+* simplify inference tf
+
+* fix bug
+
+* fix ci
+
+* fix ci tf
+
+* apply style
+
+* implemented loss calculation of pointpillars, not yet tested
+
+* training working, evaluation and augmentation missing
+
+* fixed batched inference
+
+* style
+
+* new bev bounding box class
+
+* validation added
+
+* small fixes
+
+* small fix
+
+* reset yaw transformation in kitti bbox
+
+* fixed bug in loss calculation, fixed bug in save logs
+
+* removed debugging bug
+
+* fixed cls loss bug
+
+* style
+
+* Update kitti.py
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* Prantl/point pillars train tf (#171)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* added tf voxel class
+
+* added PFNlayer
+
+* add pillar feature net
+
+* added pointpillar scatter class
+
+* add class SECOND
+
+* added SECONDFPN layer
+
+* fix ragged tensor
+
+* implemented tf bbox generator, improved some torch helpers of pointpillars
+
+* batch support for box generation
+
+* add call method
+
+* fix name conflicts
+
+* fix bugs
+
+* added tf objdet pipeline
+
+* fix scatter tf
+
+* fix conv2d channels last
+
+* apply style
+
+* added crossentropy
+
+* add focal loss
+
+* added smooth L1 loss
+
+* apply style
+
+* using our checkpoint format
+
+* fix batchnorm
+
+* add load/save ckpt
+
+* apply style
+
+* simplify inference torch
+
+* simplify inference tf
+
+* fix bug
+
+* fix ci
+
+* fix ci tf
+
+* apply style
+
+* implemented loss calculation of pointpillars, not yet tested
+
+* training working, evaluation and augmentation missing
+
+* fixed batched inference
+
+* style
+
+* new bev bounding box class
+
+* validation added
+
+* small fixes
+
+* small fix
+
+* reset yaw transformation in kitti bbox
+
+* fixed bug in loss calculation, fixed bug in save logs
+
+* removed debugging bug
+
+* fixed cls loss bug
+
+* trainings pipeline for tensorflow
+
+* style
+
+* style
+
+* Update kitti.py
+
+* style
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* new validation for torch (#169)
+
+* infer
+
+* test and infer
+
+* testing
+
+* test inference
+
+* modify
+
+* before merge
+
+* inference dummy
+
+* add back save results
+
+* update model zoo (#175)
+
+* added weight initialization (#174)
+
+* Added ShapeNet dataset (#157)
+
+* Added ShapeNet dataset
+
+* Applied style
+
+* Added dummy part segmentation labels
+
+This is a hack as there aren't any official part labels (as far as I know).
+
+Co-authored-by: Matthias Humt <matthias.humt@dlr.de>
+Co-authored-by: germanros1987 <38517452+germanros1987@users.noreply.github.com>
+
+* Fix for changes in t::geometry (#173)
+
+* Add wide lines (#176)
+
+* Prantl/point pillars metrics (#172)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* setup
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* added temporary metric test + numba operators
+
+* added tf voxel class
+
+* added PFNlayer
+
+* add pillar feature net
+
+* added pointpillar scatter class
+
+* add class SECOND
+
+* added SECONDFPN layer
+
+* fix ragged tensor
+
+* add mAP metric
+
+* implemented tf bbox generator, improved some torch helpers of pointpillars
+
+* batch support for box generation
+
+* add call method
+
+* fix name conflicts
+
+* fix bugs
+
+* added tf objdet pipeline
+
+* fix scatter tf
+
+* fix conv2d channels last
+
+* apply style
+
+* added crossentropy
+
+* add focal loss
+
+* added smooth L1 loss
+
+* apply style
+
+* using our checkpoint format
+
+* fix batchnorm
+
+* add load/save ckpt
+
+* apply style
+
+* simplify inference torch
+
+* simplify inference tf
+
+* fix bug
+
+* fix ci
+
+* fix ci tf
+
+* fix ci
+
+* apply style
+
+* apply style
+
+* apply style
+
+* implemented loss calculation of pointpillars, not yet tested
+
+* changed list to tuple
+
+* training working, evaluation and augmentation missing
+
+* fixed batched inference
+
+* style
+
+* using same mAP technique as mmdet, 1 percent off
+
+* new bev bounding box class
+
+* validation added
+
+* small fixes
+
+* small fix
+
+* reset yaw transformation in kitti bbox
+
+* fixed bug in loss calculation, fixed bug in save logs
+
+* removed debugging bug
+
+* undone removing debug code for test run
+
+* old loader
+
+* some small fixes
+
+* cls loss fixed
+
+* undone changes in demo script
+
+* fixed cls loss bug
+
+* small bug fix in mAP calculation
+
+* metric bug fixes, o3d iou intergrated
+
+* trainings pipeline for tensorflow
+
+* fixed cumulative prediction calculation of mAP, no more deviation in mAP calculation, removed debugging code
+
+* mAP validation added to tf model
+
+* fixed convertion to eval data
+
+* small fixes
+
+* fixed infinite epoch
+
+* style
+
+* style
+
+* iou gpu/cpu depending on o3d build
+
+* Update kitti.py
+
+* replaced adamW with adam in tf training pipeline
+
+* removed legacy setup
+
+* style
+
+* fixed bug in loss computation of tf model, fixed bug in scatter operation of pointpillars tf
+
+* renamed tensorboard writer
+
+* tf summary writer
+
+* tf summary fix
+
+* mAP in tensorboard
+
+* fixed tf writer
+
+* fixed some merge artifacts
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* Filter kitti point cloud (#177)
+
+* reduce kitti pc
+
+* apply style
+
+* PointPillars bug fixes (#179)
+
+* fixed resuming from checkpoint
+
+* fixed offset in reassume
+
+* fixed missing device definition in pointpillars
+
+* Update object_detection.py
+
+removed debug log
+
+* Data Augmentation (#178)
+
+* shuffle
+
+* object range filter
+
+* add sample objects
+
+* added collect bbox
+
+* add box points in preprocessing
+
+* add object sample
+
+* add augment in config
+
+* bug fixes
+
+* apply style
+
+* remove duplicate
+
+* filter by min points
+
+* apply style
+
+* improve speed
+
+* fix tf
+
+* apply style
+
+* optional out_path
+
+* vectorization of points in shape, small bug fixes, removed pickle path
+
+Co-authored-by: praluk <lukas_prantl@hotmail.de>
+
+* fixed absolute path bug (#182)
+
+* Disable data augmentation while testing. (#181)
+
+* disable test augment
+
+* - validation without augmentation
+- transform returns bbox_obj
+- labels and bboxes single elements instead of list
+- fixed ignored min_points
+
+Co-authored-by: Lukas Prantl <lukas_prantl@hotmail.de>
+
+* update readme and config files for parislille3d; align points for parislille3d (#180)
+
+* randlanet parislille
+
+* config
+
+* merge
+
+* model path
+
+* minor changes
+
+* trans normalize
+
+* trans norm
+
+* fixed infinte dataset iteration (#184)
+
+* fixed infinte dataset iteration
+
+* - fixed obj det demo
+- preprocess full points
+
+* style
+
+* fix collision (#183)
+
+* Abhishek/documentation (#185)
+
+* Editing documentation for TF and Torch dataloaders.
+
+* Updating datasets documentation
+
+* Updates after fixing style issues
+
+* Updating semantic segmentation
+
+* Updating dataset.py to fix semantic issues
+
+* Updating semantic segmentation
+
+* Updating base_dataset.py to fix semantic issues
+
+* Updating custom_dataset.py to fix semantic issues
+
+* Updating dataset.py to fix semantic issues
+
+* Updating visualizer documentation
+
+Updating files for visualizer documentation
+
+* Update customdataset.py
+
+* Fixing PR comment
+
+Fixing indentation issue
+
+* fix indent
+
+* Updating customdataset comments
+
+Updating customdataset to fix indentation issue.
+
+* Adding Jupyter tutorials
+
+Adding jupyter tutorials for: Training SS using PyTorch and Traing SS using TF
+
+* Update customdataset.py
+
+Fixing indentation issue.
+
+* Updates to readme
+
+Added object detection updates to the readme.md in Open3D ML and Open3D ML\Script for the new release.
+
+* Update __init__.py
+
+* Fixing style errors
+
+Fixing style errors.
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+
+* In dataset mode, only bounding boxes from visible names are visible. Also update set_background_color() -> set_background() (#186)
+
+* Fix absolute path. (#187)
+
+* fix abs path
+
+* fix order of paths
+
+* fix skewed argoverse
+
+* Abhishek/documentation (#188)
+
+* Editing documentation for TF and Torch dataloaders.
+
+* Updating datasets documentation
+
+* Updates after fixing style issues
+
+* Updating semantic segmentation
+
+* Updating dataset.py to fix semantic issues
+
+* Updating semantic segmentation
+
+* Updating base_dataset.py to fix semantic issues
+
+* Updating custom_dataset.py to fix semantic issues
+
+* Updating dataset.py to fix semantic issues
+
+* Updating visualizer documentation
+
+Updating files for visualizer documentation
+
+* Update customdataset.py
+
+* Fixing PR comment
+
+Fixing indentation issue
+
+* fix indent
+
+* Updating customdataset comments
+
+Updating customdataset to fix indentation issue.
+
+* Adding Jupyter tutorials
+
+Adding jupyter tutorials for: Training SS using PyTorch and Traing SS using TF
+
+* Update customdataset.py
+
+Fixing indentation issue.
+
+* Updates to readme
+
+Added object detection updates to the readme.md in Open3D ML and Open3D ML\Script for the new release.
+
+* Update __init__.py
+
+* Fixing style errors
+
+Fixing style errors.
+
+* Updating Readme
+
+Updating readme to include image for visualization.
+
+* Replacing bounding_boxes image.
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+
+* Prantl/dataset fixes (#189)
+
+* - Object3D of datasets inherit from BEVBox, calib unified, output path of preprocessing scripts optional, label names instead of numbers
+
+* dataset configs
+
+* small bugfixes
+
+* fixes for Lyft training
+
+* added missing file
+
+* small bugfixes
+
+* added sample split
+
+* style
+
+* Update .gitignore
+
+* Fix Label LUT and Waymo (#190)
+
+* fix lut
+
+* fix waymo
+
+* address review
+
+* fixed style for mAP log in tf (#191)
+
+* Change the line width factor now that line widths are working (#192)
+
+* Prantl/pointpillars readme (#193)
+
+* updated pointpillar metrics
+
+* updated weights
+
+* object sampler fix (#194)
+
+* upload link (#195)
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: Prantl <lukas_prantl@hotmail.de>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+Co-authored-by: KENTO Yamamoto <31678561+kento-Y@users.noreply.github.com>
+Co-authored-by: Albhox <albertotono3@gmail.com>
+Co-authored-by: amirshal <35299570+amirshal@users.noreply.github.com>
+Co-authored-by: AbhishekS <65679171+ClarytyLLC@users.noreply.github.com>
+Co-authored-by: Matthias Humt <22399283+hummat@users.noreply.github.com>
+Co-authored-by: Matthias Humt <matthias.humt@dlr.de>",2020-12-23 23:30:36+01:00,True
+2638375c7a326a2f76b973ca0e11cb6696808284,fix link; (#209),2021-01-25 16:07:11-08:00,False
+d20476d831d8ff81aa7582505f5f1e589e776e18,"Abhishek/documentation (#206)
+
+* Editing documentation for TF and Torch dataloaders.
+
+* Updating datasets documentation
+
+* Updates after fixing style issues
+
+* Updating semantic segmentation
+
+* Updating dataset.py to fix semantic issues
+
+* Updating semantic segmentation
+
+* Updating base_dataset.py to fix semantic issues
+
+* Updating custom_dataset.py to fix semantic issues
+
+* Updating dataset.py to fix semantic issues
+
+* Updating visualizer documentation
+
+Updating files for visualizer documentation
+
+* Update customdataset.py
+
+* Fixing PR comment
+
+Fixing indentation issue
+
+* fix indent
+
+* Updating customdataset comments
+
+Updating customdataset to fix indentation issue.
+
+* Adding Jupyter tutorials
+
+Adding jupyter tutorials for: Training SS using PyTorch and Traing SS using TF
+
+* Update customdataset.py
+
+Fixing indentation issue.
+
+* Updates to readme
+
+Added object detection updates to the readme.md in Open3D ML and Open3D ML\Script for the new release.
+
+* Update __init__.py
+
+* Fixing style errors
+
+Fixing style errors.
+
+* Updating Readme
+
+Updating readme to include image for visualization.
+
+* Replacing bounding_boxes image.
+
+* Updating file to fix doc issues
+
+Updated the readme file and dataset files to fix issues.
+
+* Fixing Images
+
+Fixing image link
+
+* Updating datasets documentation
+
+Updating the documentation in the datasets python classes.
+
+* Update doc
+
+Added a new tutorial for adding a custom dataset.
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>",2021-02-01 15:30:25-08:00,False
+676a4912f122c078fc47f61113f7499e1b9e807c,Fixed broken link. (#263),2021-04-28 11:06:56-07:00,False
+fedc030fccd39c096e3b7c2738e926bd5e5cd4a1,"Docs formatting fix and style checker (#265)
+
+* Initial WIP
+
+* Docs formatting / style.
+
+* Add pydocstyle to style check CI.
+
+* fix docstring
+
+* enforce docstring check
+
+* Patrick review.
+
+* Style fix
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>",2021-05-06 07:06:01-07:00,True
+8e8e6b0a3a44f6a661789579a197fc5b4175507a,"Update Documentation (#266)
+
+* Update PointRCNN in Readme
+
+* Update SCN weight links
+
+* fix weights link
+
+* Update weights link",2021-05-07 17:13:17+05:18,False
+46e0e7bda67391df28e1ad77cf0981137c93f95c,Update README.md (#272),2021-05-11 08:17:58-07:00,True
+f4d969da40d7fc5f23aafa3018dcf386ee8ce2ac,"Update README.md
+
+Forum link update",2021-05-12 18:16:16-07:00,False
+200bee315a55772a9b40f1304d9165242f896786,"merge-open3d-ml-0.13.0 (#287)
+
+* version update for next release
+
+* Add Kitti object detection dataset (#128)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* address reviews
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* Add Waymo Dataset (#136)
+
+* add waymo preprocess
+
+* add waymo class
+
+* added argparse
+
+* apply style
+
+* add docstring
+
+* remove cv2
+
+* Add NuScenes dataset (#137)
+
+* add preprocess nuscenes
+
+* bug fix
+
+* add argparse
+
+* add nuscenes class
+
+* apply style
+
+* added label
+
+* Fix ignore class
+
+* add docstring
+
+* style
+
+* create sampler class for sampling point cloud idx and points idx (#135)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* sampler
+
+* sampler class
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* spatially regular
+
+* kpconv sampler
+
+* kpconv paris lille
+
+* delete debug information
+
+* valid
+
+* vlida
+
+* default sampler
+
+* confusion matrix
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+
+* Add Lyft Dataset (#138)
+
+* bug fix
+
+* Added preprocess lyft
+
+* bug
+
+* add dataset_class for lyft
+
+* style
+
+* bug fix
+
+Co-authored-by: germanros1987 <38517452+germanros1987@users.noreply.github.com>
+
+* apply-style
+
+* Download scripts (#145)
+
+* add kitti download script
+
+* fix semantickitti
+
+* added lyft download script
+
+* Add bounding boxes to visualizer (#140)
+
+* Add bounding boxes to visualizer
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* Create LICENSE
+
+* Change Bounding box class. (#149)
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* address review
+
+* Update README.md
+
+* Added Agroverse 3D Dataset (#155)
+
+* added argoverse
+
+* style
+
+* change classes
+
+* use open3d for reading pcd
+
+* link to kpconv parislille3d models in readme (#160)
+
+* readme for parislille3d kpconv models
+
+* PointPillars inference pipeline (#153)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* using our checkpoint format
+
+* fix ci
+
+* apply style
+
+* apply style
+
+* changed list to tuple
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* add comments for visualize predictions (#151)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* Import os (#148)
+
+I am getting also another error later about 
+
+NameError                                 Traceback (most recent call last)
+<ipython-input-5-bed5d0e06c9a> in <module>
+     22 pipeline_k.load_ckpt(model.cfg.ckpt_path)
+     23 
+---> 24 data_path = os.path.dirname(os.path.realpath(__file__)) + ""/demo_data""
+     25 pc_names = [""000700"", ""000750""]
+     26 
+
+NameError: name '__file__' is not defined
+
+
+for this
+
+data_path = os.path.dirname(os.path.realpath(__file__)) + ""/demo_data""
+
+* Create LICENSE
+
+* add comments
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: Albhox <albertotono3@gmail.com>
+Co-authored-by: germanros1987 <38517452+germanros1987@users.noreply.github.com>
+
+* Fix broken link to torch RandLA-Net Toronto 3d model (#163)
+
+* Updating documentation (#154)
+
+* Editing documentation for TF and Torch dataloaders.
+
+* Updating datasets documentation
+
+* Updates after fixing style issues
+
+* Updating semantic segmentation
+
+* Updating dataset.py to fix semantic issues
+
+* Updating semantic segmentation
+
+* Updating base_dataset.py to fix semantic issues
+
+* Updating custom_dataset.py to fix semantic issues
+
+* Updating dataset.py to fix semantic issues
+
+* Updating visualizer documentation
+
+Updating files for visualizer documentation
+
+* Update customdataset.py
+
+* Fixing PR comment
+
+Fixing indentation issue
+
+* fix indent
+
+* Updating customdataset comments
+
+Updating customdataset to fix indentation issue.
+
+* Adding Jupyter tutorials
+
+Adding jupyter tutorials for: Training SS using PyTorch and Traing SS using TF
+
+* Update customdataset.py
+
+Fixing indentation issue.
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+
+* Add Tensorflow model and inference pipeline. (#159)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* added tf voxel class
+
+* added PFNlayer
+
+* add pillar feature net
+
+* added pointpillar scatter class
+
+* add class SECOND
+
+* added SECONDFPN layer
+
+* fix ragged tensor
+
+* implemented tf bbox generator, improved some torch helpers of pointpillars
+
+* batch support for box generation
+
+* add call method
+
+* fix name conflicts
+
+* fix bugs
+
+* added tf objdet pipeline
+
+* fix scatter tf
+
+* fix conv2d channels last
+
+* apply style
+
+* added crossentropy
+
+* add focal loss
+
+* added smooth L1 loss
+
+* apply style
+
+* fix batchnorm
+
+* add load/save ckpt
+
+* apply style
+
+* simplify inference torch
+
+* simplify inference tf
+
+* fix bug
+
+* fix ci
+
+* fix ci tf
+
+* apply style
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: Lukas Prantl <lukas_prantl@hotmail.de>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* Fixes for changes from TensorList to Tesor for t.geometry objects (#161)
+
+* Yiling/readme randlanet semantic3d (#167)
+
+* readme for randlanet semantic3d models
+
+* readme change
+
+* Prantl/point pillars train (#170)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* added tf voxel class
+
+* added PFNlayer
+
+* add pillar feature net
+
+* added pointpillar scatter class
+
+* add class SECOND
+
+* added SECONDFPN layer
+
+* fix ragged tensor
+
+* implemented tf bbox generator, improved some torch helpers of pointpillars
+
+* batch support for box generation
+
+* add call method
+
+* fix name conflicts
+
+* fix bugs
+
+* added tf objdet pipeline
+
+* fix scatter tf
+
+* fix conv2d channels last
+
+* apply style
+
+* added crossentropy
+
+* add focal loss
+
+* added smooth L1 loss
+
+* apply style
+
+* using our checkpoint format
+
+* fix batchnorm
+
+* add load/save ckpt
+
+* apply style
+
+* simplify inference torch
+
+* simplify inference tf
+
+* fix bug
+
+* fix ci
+
+* fix ci tf
+
+* apply style
+
+* implemented loss calculation of pointpillars, not yet tested
+
+* training working, evaluation and augmentation missing
+
+* fixed batched inference
+
+* style
+
+* new bev bounding box class
+
+* validation added
+
+* small fixes
+
+* small fix
+
+* reset yaw transformation in kitti bbox
+
+* fixed bug in loss calculation, fixed bug in save logs
+
+* removed debugging bug
+
+* fixed cls loss bug
+
+* style
+
+* Update kitti.py
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* Prantl/point pillars train tf (#171)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* added tf voxel class
+
+* added PFNlayer
+
+* add pillar feature net
+
+* added pointpillar scatter class
+
+* add class SECOND
+
+* added SECONDFPN layer
+
+* fix ragged tensor
+
+* implemented tf bbox generator, improved some torch helpers of pointpillars
+
+* batch support for box generation
+
+* add call method
+
+* fix name conflicts
+
+* fix bugs
+
+* added tf objdet pipeline
+
+* fix scatter tf
+
+* fix conv2d channels last
+
+* apply style
+
+* added crossentropy
+
+* add focal loss
+
+* added smooth L1 loss
+
+* apply style
+
+* using our checkpoint format
+
+* fix batchnorm
+
+* add load/save ckpt
+
+* apply style
+
+* simplify inference torch
+
+* simplify inference tf
+
+* fix bug
+
+* fix ci
+
+* fix ci tf
+
+* apply style
+
+* implemented loss calculation of pointpillars, not yet tested
+
+* training working, evaluation and augmentation missing
+
+* fixed batched inference
+
+* style
+
+* new bev bounding box class
+
+* validation added
+
+* small fixes
+
+* small fix
+
+* reset yaw transformation in kitti bbox
+
+* fixed bug in loss calculation, fixed bug in save logs
+
+* removed debugging bug
+
+* fixed cls loss bug
+
+* trainings pipeline for tensorflow
+
+* style
+
+* style
+
+* Update kitti.py
+
+* style
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* new validation for torch (#169)
+
+* infer
+
+* test and infer
+
+* testing
+
+* test inference
+
+* modify
+
+* before merge
+
+* inference dummy
+
+* add back save results
+
+* update model zoo (#175)
+
+* added weight initialization (#174)
+
+* Added ShapeNet dataset (#157)
+
+* Added ShapeNet dataset
+
+* Applied style
+
+* Added dummy part segmentation labels
+
+This is a hack as there aren't any official part labels (as far as I know).
+
+Co-authored-by: Matthias Humt <matthias.humt@dlr.de>
+Co-authored-by: germanros1987 <38517452+germanros1987@users.noreply.github.com>
+
+* Fix for changes in t::geometry (#173)
+
+* Add wide lines (#176)
+
+* Prantl/point pillars metrics (#172)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* setup
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* added temporary metric test + numba operators
+
+* added tf voxel class
+
+* added PFNlayer
+
+* add pillar feature net
+
+* added pointpillar scatter class
+
+* add class SECOND
+
+* added SECONDFPN layer
+
+* fix ragged tensor
+
+* add mAP metric
+
+* implemented tf bbox generator, improved some torch helpers of pointpillars
+
+* batch support for box generation
+
+* add call method
+
+* fix name conflicts
+
+* fix bugs
+
+* added tf objdet pipeline
+
+* fix scatter tf
+
+* fix conv2d channels last
+
+* apply style
+
+* added crossentropy
+
+* add focal loss
+
+* added smooth L1 loss
+
+* apply style
+
+* using our checkpoint format
+
+* fix batchnorm
+
+* add load/save ckpt
+
+* apply style
+
+* simplify inference torch
+
+* simplify inference tf
+
+* fix bug
+
+* fix ci
+
+* fix ci tf
+
+* fix ci
+
+* apply style
+
+* apply style
+
+* apply style
+
+* implemented loss calculation of pointpillars, not yet tested
+
+* changed list to tuple
+
+* training working, evaluation and augmentation missing
+
+* fixed batched inference
+
+* style
+
+* using same mAP technique as mmdet, 1 percent off
+
+* new bev bounding box class
+
+* validation added
+
+* small fixes
+
+* small fix
+
+* reset yaw transformation in kitti bbox
+
+* fixed bug in loss calculation, fixed bug in save logs
+
+* removed debugging bug
+
+* undone removing debug code for test run
+
+* old loader
+
+* some small fixes
+
+* cls loss fixed
+
+* undone changes in demo script
+
+* fixed cls loss bug
+
+* small bug fix in mAP calculation
+
+* metric bug fixes, o3d iou intergrated
+
+* trainings pipeline for tensorflow
+
+* fixed cumulative prediction calculation of mAP, no more deviation in mAP calculation, removed debugging code
+
+* mAP validation added to tf model
+
+* fixed convertion to eval data
+
+* small fixes
+
+* fixed infinite epoch
+
+* style
+
+* style
+
+* iou gpu/cpu depending on o3d build
+
+* Update kitti.py
+
+* replaced adamW with adam in tf training pipeline
+
+* removed legacy setup
+
+* style
+
+* fixed bug in loss computation of tf model, fixed bug in scatter operation of pointpillars tf
+
+* renamed tensorboard writer
+
+* tf summary writer
+
+* tf summary fix
+
+* mAP in tensorboard
+
+* fixed tf writer
+
+* fixed some merge artifacts
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* Filter kitti point cloud (#177)
+
+* reduce kitti pc
+
+* apply style
+
+* PointPillars bug fixes (#179)
+
+* fixed resuming from checkpoint
+
+* fixed offset in reassume
+
+* fixed missing device definition in pointpillars
+
+* Update object_detection.py
+
+removed debug log
+
+* Data Augmentation (#178)
+
+* shuffle
+
+* object range filter
+
+* add sample objects
+
+* added collect bbox
+
+* add box points in preprocessing
+
+* add object sample
+
+* add augment in config
+
+* bug fixes
+
+* apply style
+
+* remove duplicate
+
+* filter by min points
+
+* apply style
+
+* improve speed
+
+* fix tf
+
+* apply style
+
+* optional out_path
+
+* vectorization of points in shape, small bug fixes, removed pickle path
+
+Co-authored-by: praluk <lukas_prantl@hotmail.de>
+
+* fixed absolute path bug (#182)
+
+* Disable data augmentation while testing. (#181)
+
+* disable test augment
+
+* - validation without augmentation
+- transform returns bbox_obj
+- labels and bboxes single elements instead of list
+- fixed ignored min_points
+
+Co-authored-by: Lukas Prantl <lukas_prantl@hotmail.de>
+
+* update readme and config files for parislille3d; align points for parislille3d (#180)
+
+* randlanet parislille
+
+* config
+
+* merge
+
+* model path
+
+* minor changes
+
+* trans normalize
+
+* trans norm
+
+* fixed infinte dataset iteration (#184)
+
+* fixed infinte dataset iteration
+
+* - fixed obj det demo
+- preprocess full points
+
+* style
+
+* fix collision (#183)
+
+* Abhishek/documentation (#185)
+
+* Editing documentation for TF and Torch dataloaders.
+
+* Updating datasets documentation
+
+* Updates after fixing style issues
+
+* Updating semantic segmentation
+
+* Updating dataset.py to fix semantic issues
+
+* Updating semantic segmentation
+
+* Updating base_dataset.py to fix semantic issues
+
+* Updating custom_dataset.py to fix semantic issues
+
+* Updating dataset.py to fix semantic issues
+
+* Updating visualizer documentation
+
+Updating files for visualizer documentation
+
+* Update customdataset.py
+
+* Fixing PR comment
+
+Fixing indentation issue
+
+* fix indent
+
+* Updating customdataset comments
+
+Updating customdataset to fix indentation issue.
+
+* Adding Jupyter tutorials
+
+Adding jupyter tutorials for: Training SS using PyTorch and Traing SS using TF
+
+* Update customdataset.py
+
+Fixing indentation issue.
+
+* Updates to readme
+
+Added object detection updates to the readme.md in Open3D ML and Open3D ML\Script for the new release.
+
+* Update __init__.py
+
+* Fixing style errors
+
+Fixing style errors.
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+
+* In dataset mode, only bounding boxes from visible names are visible. Also update set_background_color() -> set_background() (#186)
+
+* Fix absolute path. (#187)
+
+* fix abs path
+
+* fix order of paths
+
+* fix skewed argoverse
+
+* Abhishek/documentation (#188)
+
+* Editing documentation for TF and Torch dataloaders.
+
+* Updating datasets documentation
+
+* Updates after fixing style issues
+
+* Updating semantic segmentation
+
+* Updating dataset.py to fix semantic issues
+
+* Updating semantic segmentation
+
+* Updating base_dataset.py to fix semantic issues
+
+* Updating custom_dataset.py to fix semantic issues
+
+* Updating dataset.py to fix semantic issues
+
+* Updating visualizer documentation
+
+Updating files for visualizer documentation
+
+* Update customdataset.py
+
+* Fixing PR comment
+
+Fixing indentation issue
+
+* fix indent
+
+* Updating customdataset comments
+
+Updating customdataset to fix indentation issue.
+
+* Adding Jupyter tutorials
+
+Adding jupyter tutorials for: Training SS using PyTorch and Traing SS using TF
+
+* Update customdataset.py
+
+Fixing indentation issue.
+
+* Updates to readme
+
+Added object detection updates to the readme.md in Open3D ML and Open3D ML\Script for the new release.
+
+* Update __init__.py
+
+* Fixing style errors
+
+Fixing style errors.
+
+* Updating Readme
+
+Updating readme to include image for visualization.
+
+* Replacing bounding_boxes image.
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+
+* Prantl/dataset fixes (#189)
+
+* - Object3D of datasets inherit from BEVBox, calib unified, output path of preprocessing scripts optional, label names instead of numbers
+
+* dataset configs
+
+* small bugfixes
+
+* fixes for Lyft training
+
+* added missing file
+
+* small bugfixes
+
+* added sample split
+
+* style
+
+* Update .gitignore
+
+* Fix Label LUT and Waymo (#190)
+
+* fix lut
+
+* fix waymo
+
+* address review
+
+* fixed style for mAP log in tf (#191)
+
+* Change the line width factor now that line widths are working (#192)
+
+* Prantl/pointpillars readme (#193)
+
+* updated pointpillar metrics
+
+* updated weights
+
+* object sampler fix (#194)
+
+* upload link (#195)
+
+* Added CI tests for Object detection (#208)
+
+* Dev (#197)
+
+* version update for next release
+
+* Add Kitti object detection dataset (#128)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* address reviews
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* Add Waymo Dataset (#136)
+
+* add waymo preprocess
+
+* add waymo class
+
+* added argparse
+
+* apply style
+
+* add docstring
+
+* remove cv2
+
+* Add NuScenes dataset (#137)
+
+* add preprocess nuscenes
+
+* bug fix
+
+* add argparse
+
+* add nuscenes class
+
+* apply style
+
+* added label
+
+* Fix ignore class
+
+* add docstring
+
+* style
+
+* create sampler class for sampling point cloud idx and points idx (#135)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* sampler
+
+* sampler class
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* spatially regular
+
+* kpconv sampler
+
+* kpconv paris lille
+
+* delete debug information
+
+* valid
+
+* vlida
+
+* default sampler
+
+* confusion matrix
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+
+* Add Lyft Dataset (#138)
+
+* bug fix
+
+* Added preprocess lyft
+
+* bug
+
+* add dataset_class for lyft
+
+* style
+
+* bug fix
+
+Co-authored-by: germanros1987 <38517452+germanros1987@users.noreply.github.com>
+
+* apply-style
+
+* Download scripts (#145)
+
+* add kitti download script
+
+* fix semantickitti
+
+* added lyft download script
+
+* Add bounding boxes to visualizer (#140)
+
+* Add bounding boxes to visualizer
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* Create LICENSE
+
+* Change Bounding box class. (#149)
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* address review
+
+* Update README.md
+
+* Added Agroverse 3D Dataset (#155)
+
+* added argoverse
+
+* style
+
+* change classes
+
+* use open3d for reading pcd
+
+* link to kpconv parislille3d models in readme (#160)
+
+* readme for parislille3d kpconv models
+
+* PointPillars inference pipeline (#153)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* using our checkpoint format
+
+* fix ci
+
+* apply style
+
+* apply style
+
+* changed list to tuple
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* add comments for visualize predictions (#151)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* Import os (#148)
+
+I am getting also another error later about 
+
+NameError                                 Traceback (most recent call last)
+<ipython-input-5-bed5d0e06c9a> in <module>
+     22 pipeline_k.load_ckpt(model.cfg.ckpt_path)
+     23 
+---> 24 data_path = os.path.dirname(os.path.realpath(__file__)) + ""/demo_data""
+     25 pc_names = [""000700"", ""000750""]
+     26 
+
+NameError: name '__file__' is not defined
+
+
+for this
+
+data_path = os.path.dirname(os.path.realpath(__file__)) + ""/demo_data""
+
+* Create LICENSE
+
+* add comments
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: Albhox <albertotono3@gmail.com>
+Co-authored-by: germanros1987 <38517452+germanros1987@users.noreply.github.com>
+
+* Fix broken link to torch RandLA-Net Toronto 3d model (#163)
+
+* Updating documentation (#154)
+
+* Editing documentation for TF and Torch dataloaders.
+
+* Updating datasets documentation
+
+* Updates after fixing style issues
+
+* Updating semantic segmentation
+
+* Updating dataset.py to fix semantic issues
+
+* Updating semantic segmentation
+
+* Updating base_dataset.py to fix semantic issues
+
+* Updating custom_dataset.py to fix semantic issues
+
+* Updating dataset.py to fix semantic issues
+
+* Updating visualizer documentation
+
+Updating files for visualizer documentation
+
+* Update customdataset.py
+
+* Fixing PR comment
+
+Fixing indentation issue
+
+* fix indent
+
+* Updating customdataset comments
+
+Updating customdataset to fix indentation issue.
+
+* Adding Jupyter tutorials
+
+Adding jupyter tutorials for: Training SS using PyTorch and Traing SS using TF
+
+* Update customdataset.py
+
+Fixing indentation issue.
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+
+* Add Tensorflow model and inference pipeline. (#159)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* added tf voxel class
+
+* added PFNlayer
+
+* add pillar feature net
+
+* added pointpillar scatter class
+
+* add class SECOND
+
+* added SECONDFPN layer
+
+* fix ragged tensor
+
+* implemented tf bbox generator, improved some torch helpers of pointpillars
+
+* batch support for box generation
+
+* add call method
+
+* fix name conflicts
+
+* fix bugs
+
+* added tf objdet pipeline
+
+* fix scatter tf
+
+* fix conv2d channels last
+
+* apply style
+
+* added crossentropy
+
+* add focal loss
+
+* added smooth L1 loss
+
+* apply style
+
+* fix batchnorm
+
+* add load/save ckpt
+
+* apply style
+
+* simplify inference torch
+
+* simplify inference tf
+
+* fix bug
+
+* fix ci
+
+* fix ci tf
+
+* apply style
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: Lukas Prantl <lukas_prantl@hotmail.de>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* Fixes for changes from TensorList to Tesor for t.geometry objects (#161)
+
+* Yiling/readme randlanet semantic3d (#167)
+
+* readme for randlanet semantic3d models
+
+* readme change
+
+* Prantl/point pillars train (#170)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* added tf voxel class
+
+* added PFNlayer
+
+* add pillar feature net
+
+* added pointpillar scatter class
+
+* add class SECOND
+
+* added SECONDFPN layer
+
+* fix ragged tensor
+
+* implemented tf bbox generator, improved some torch helpers of pointpillars
+
+* batch support for box generation
+
+* add call method
+
+* fix name conflicts
+
+* fix bugs
+
+* added tf objdet pipeline
+
+* fix scatter tf
+
+* fix conv2d channels last
+
+* apply style
+
+* added crossentropy
+
+* add focal loss
+
+* added smooth L1 loss
+
+* apply style
+
+* using our checkpoint format
+
+* fix batchnorm
+
+* add load/save ckpt
+
+* apply style
+
+* simplify inference torch
+
+* simplify inference tf
+
+* fix bug
+
+* fix ci
+
+* fix ci tf
+
+* apply style
+
+* implemented loss calculation of pointpillars, not yet tested
+
+* training working, evaluation and augmentation missing
+
+* fixed batched inference
+
+* style
+
+* new bev bounding box class
+
+* validation added
+
+* small fixes
+
+* small fix
+
+* reset yaw transformation in kitti bbox
+
+* fixed bug in loss calculation, fixed bug in save logs
+
+* removed debugging bug
+
+* fixed cls loss bug
+
+* style
+
+* Update kitti.py
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* Prantl/point pillars train tf (#171)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* added tf voxel class
+
+* added PFNlayer
+
+* add pillar feature net
+
+* added pointpillar scatter class
+
+* add class SECOND
+
+* added SECONDFPN layer
+
+* fix ragged tensor
+
+* implemented tf bbox generator, improved some torch helpers of pointpillars
+
+* batch support for box generation
+
+* add call method
+
+* fix name conflicts
+
+* fix bugs
+
+* added tf objdet pipeline
+
+* fix scatter tf
+
+* fix conv2d channels last
+
+* apply style
+
+* added crossentropy
+
+* add focal loss
+
+* added smooth L1 loss
+
+* apply style
+
+* using our checkpoint format
+
+* fix batchnorm
+
+* add load/save ckpt
+
+* apply style
+
+* simplify inference torch
+
+* simplify inference tf
+
+* fix bug
+
+* fix ci
+
+* fix ci tf
+
+* apply style
+
+* implemented loss calculation of pointpillars, not yet tested
+
+* training working, evaluation and augmentation missing
+
+* fixed batched inference
+
+* style
+
+* new bev bounding box class
+
+* validation added
+
+* small fixes
+
+* small fix
+
+* reset yaw transformation in kitti bbox
+
+* fixed bug in loss calculation, fixed bug in save logs
+
+* removed debugging bug
+
+* fixed cls loss bug
+
+* trainings pipeline for tensorflow
+
+* style
+
+* style
+
+* Update kitti.py
+
+* style
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* new validation for torch (#169)
+
+* infer
+
+* test and infer
+
+* testing
+
+* test inference
+
+* modify
+
+* before merge
+
+* inference dummy
+
+* add back save results
+
+* update model zoo (#175)
+
+* added weight initialization (#174)
+
+* Added ShapeNet dataset (#157)
+
+* Added ShapeNet dataset
+
+* Applied style
+
+* Added dummy part segmentation labels
+
+This is a hack as there aren't any official part labels (as far as I know).
+
+Co-authored-by: Matthias Humt <matthias.humt@dlr.de>
+Co-authored-by: germanros1987 <38517452+germanros1987@users.noreply.github.com>
+
+* Fix for changes in t::geometry (#173)
+
+* Add wide lines (#176)
+
+* Prantl/point pillars metrics (#172)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* setup
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* added temporary metric test + numba operators
+
+* added tf voxel class
+
+* added PFNlayer
+
+* add pillar feature net
+
+* added pointpillar scatter class
+
+* add class SECOND
+
+* added SECONDFPN layer
+
+* fix ragged tensor
+
+* add mAP metric
+
+* implemented tf bbox generator, improved some torch helpers of pointpillars
+
+* batch support for box generation
+
+* add call method
+
+* fix name conflicts
+
+* fix bugs
+
+* added tf objdet pipeline
+
+* fix scatter tf
+
+* fix conv2d channels last
+
+* apply style
+
+* added crossentropy
+
+* add focal loss
+
+* added smooth L1 loss
+
+* apply style
+
+* using our checkpoint format
+
+* fix batchnorm
+
+* add load/save ckpt
+
+* apply style
+
+* simplify inference torch
+
+* simplify inference tf
+
+* fix bug
+
+* fix ci
+
+* fix ci tf
+
+* fix ci
+
+* apply style
+
+* apply style
+
+* apply style
+
+* implemented loss calculation of pointpillars, not yet tested
+
+* changed list to tuple
+
+* training working, evaluation and augmentation missing
+
+* fixed batched inference
+
+* style
+
+* using same mAP technique as mmdet, 1 percent off
+
+* new bev bounding box class
+
+* validation added
+
+* small fixes
+
+* small fix
+
+* reset yaw transformation in kitti bbox
+
+* fixed bug in loss calculation, fixed bug in save logs
+
+* removed debugging bug
+
+* undone removing debug code for test run
+
+* old loader
+
+* some small fixes
+
+* cls loss fixed
+
+* undone changes in demo script
+
+* fixed cls loss bug
+
+* small bug fix in mAP calculation
+
+* metric bug fixes, o3d iou intergrated
+
+* trainings pipeline for tensorflow
+
+* fixed cumulative prediction calculation of mAP, no more deviation in mAP calculation, removed debugging code
+
+* mAP validation added to tf model
+
+* fixed convertion to eval data
+
+* small fixes
+
+* fixed infinite epoch
+
+* style
+
+* style
+
+* iou gpu/cpu depending on o3d build
+
+* Update kitti.py
+
+* replaced adamW with adam in tf training pipeline
+
+* removed legacy setup
+
+* style
+
+* fixed bug in loss computation of tf model, fixed bug in scatter operation of pointpillars tf
+
+* renamed tensorboard writer
+
+* tf summary writer
+
+* tf summary fix
+
+* mAP in tensorboard
+
+* fixed tf writer
+
+* fixed some merge artifacts
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* Filter kitti point cloud (#177)
+
+* reduce kitti pc
+
+* apply style
+
+* PointPillars bug fixes (#179)
+
+* fixed resuming from checkpoint
+
+* fixed offset in reassume
+
+* fixed missing device definition in pointpillars
+
+* Update object_detection.py
+
+removed debug log
+
+* Data Augmentation (#178)
+
+* shuffle
+
+* object range filter
+
+* add sample objects
+
+* added collect bbox
+
+* add box points in preprocessing
+
+* add object sample
+
+* add augment in config
+
+* bug fixes
+
+* apply style
+
+* remove duplicate
+
+* filter by min points
+
+* apply style
+
+* improve speed
+
+* fix tf
+
+* apply style
+
+* optional out_path
+
+* vectorization of points in shape, small bug fixes, removed pickle path
+
+Co-authored-by: praluk <lukas_prantl@hotmail.de>
+
+* fixed absolute path bug (#182)
+
+* Disable data augmentation while testing. (#181)
+
+* disable test augment
+
+* - validation without augmentation
+- transform returns bbox_obj
+- labels and bboxes single elements instead of list
+- fixed ignored min_points
+
+Co-authored-by: Lukas Prantl <lukas_prantl@hotmail.de>
+
+* update readme and config files for parislille3d; align points for parislille3d (#180)
+
+* randlanet parislille
+
+* config
+
+* merge
+
+* model path
+
+* minor changes
+
+* trans normalize
+
+* trans norm
+
+* fixed infinte dataset iteration (#184)
+
+* fixed infinte dataset iteration
+
+* - fixed obj det demo
+- preprocess full points
+
+* style
+
+* fix collision (#183)
+
+* Abhishek/documentation (#185)
+
+* Editing documentation for TF and Torch dataloaders.
+
+* Updating datasets documentation
+
+* Updates after fixing style issues
+
+* Updating semantic segmentation
+
+* Updating dataset.py to fix semantic issues
+
+* Updating semantic segmentation
+
+* Updating base_dataset.py to fix semantic issues
+
+* Updating custom_dataset.py to fix semantic issues
+
+* Updating dataset.py to fix semantic issues
+
+* Updating visualizer documentation
+
+Updating files for visualizer documentation
+
+* Update customdataset.py
+
+* Fixing PR comment
+
+Fixing indentation issue
+
+* fix indent
+
+* Updating customdataset comments
+
+Updating customdataset to fix indentation issue.
+
+* Adding Jupyter tutorials
+
+Adding jupyter tutorials for: Training SS using PyTorch and Traing SS using TF
+
+* Update customdataset.py
+
+Fixing indentation issue.
+
+* Updates to readme
+
+Added object detection updates to the readme.md in Open3D ML and Open3D ML\Script for the new release.
+
+* Update __init__.py
+
+* Fixing style errors
+
+Fixing style errors.
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+
+* In dataset mode, only bounding boxes from visible names are visible. Also update set_background_color() -> set_background() (#186)
+
+* Fix absolute path. (#187)
+
+* fix abs path
+
+* fix order of paths
+
+* fix skewed argoverse
+
+* Abhishek/documentation (#188)
+
+* Editing documentation for TF and Torch dataloaders.
+
+* Updating datasets documentation
+
+* Updates after fixing style issues
+
+* Updating semantic segmentation
+
+* Updating dataset.py to fix semantic issues
+
+* Updating semantic segmentation
+
+* Updating base_dataset.py to fix semantic issues
+
+* Updating custom_dataset.py to fix semantic issues
+
+* Updating dataset.py to fix semantic issues
+
+* Updating visualizer documentation
+
+Updating files for visualizer documentation
+
+* Update customdataset.py
+
+* Fixing PR comment
+
+Fixing indentation issue
+
+* fix indent
+
+* Updating customdataset comments
+
+Updating customdataset to fix indentation issue.
+
+* Adding Jupyter tutorials
+
+Adding jupyter tutorials for: Training SS using PyTorch and Traing SS using TF
+
+* Update customdataset.py
+
+Fixing indentation issue.
+
+* Updates to readme
+
+Added object detection updates to the readme.md in Open3D ML and Open3D ML\Script for the new release.
+
+* Update __init__.py
+
+* Fixing style errors
+
+Fixing style errors.
+
+* Updating Readme
+
+Updating readme to include image for visualization.
+
+* Replacing bounding_boxes image.
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+
+* Prantl/dataset fixes (#189)
+
+* - Object3D of datasets inherit from BEVBox, calib unified, output path of preprocessing scripts optional, label names instead of numbers
+
+* dataset configs
+
+* small bugfixes
+
+* fixes for Lyft training
+
+* added missing file
+
+* small bugfixes
+
+* added sample split
+
+* style
+
+* Update .gitignore
+
+* Fix Label LUT and Waymo (#190)
+
+* fix lut
+
+* fix waymo
+
+* address review
+
+* fixed style for mAP log in tf (#191)
+
+* Change the line width factor now that line widths are working (#192)
+
+* Prantl/pointpillars readme (#193)
+
+* updated pointpillar metrics
+
+* updated weights
+
+* object sampler fix (#194)
+
+* upload link (#195)
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: Prantl <lukas_prantl@hotmail.de>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+Co-authored-by: KENTO Yamamoto <31678561+kento-Y@users.noreply.github.com>
+Co-authored-by: Albhox <albertotono3@gmail.com>
+Co-authored-by: amirshal <35299570+amirshal@users.noreply.github.com>
+Co-authored-by: AbhishekS <65679171+ClarytyLLC@users.noreply.github.com>
+Co-authored-by: Matthias Humt <22399283+hummat@users.noreply.github.com>
+Co-authored-by: Matthias Humt <matthias.humt@dlr.de>
+
+* do not import CUDA functions when CUDA device is not available (#198)
+
+* Do not import CUDA functions when CUDA device is not available
+
+* update name
+
+* update wording
+
+* Use scikit-learn instead of sklearn (#200)
+
+* torch test
+
+* tf objdet test
+
+* apply style
+
+Co-authored-by: germanros1987 <38517452+germanros1987@users.noreply.github.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: Prantl <lukas_prantl@hotmail.de>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+Co-authored-by: KENTO Yamamoto <31678561+kento-Y@users.noreply.github.com>
+Co-authored-by: Albhox <albertotono3@gmail.com>
+Co-authored-by: amirshal <35299570+amirshal@users.noreply.github.com>
+Co-authored-by: AbhishekS <65679171+ClarytyLLC@users.noreply.github.com>
+Co-authored-by: Matthias Humt <22399283+hummat@users.noreply.github.com>
+Co-authored-by: Matthias Humt <matthias.humt@dlr.de>
+Co-authored-by: Yixing Lao <yixing.lao@gmail.com>
+
+* Added Scannet dataset (#212)
+
+* add scannet resources
+
+* added preprocess scannet
+
+* change init
+
+* add class mapping resource
+
+* add scannet class
+
+* apply style
+
+* Add Bounding boxes in S3DIS (#210)
+
+* modify s3dis
+
+* find min bbox
+
+* add bev box
+
+* apply style
+
+* Add SunRGBD Dataset (#215)
+
+* sunrgbd download script
+
+* added preprocess sunrgbd
+
+* add data class for sunrgbd
+
+* modify download script
+
+* apply style
+
+* remove folder
+
+* Abhishek/documentation (#206)
+
+* Editing documentation for TF and Torch dataloaders.
+
+* Updating datasets documentation
+
+* Updates after fixing style issues
+
+* Updating semantic segmentation
+
+* Updating dataset.py to fix semantic issues
+
+* Updating semantic segmentation
+
+* Updating base_dataset.py to fix semantic issues
+
+* Updating custom_dataset.py to fix semantic issues
+
+* Updating dataset.py to fix semantic issues
+
+* Updating visualizer documentation
+
+Updating files for visualizer documentation
+
+* Update customdataset.py
+
+* Fixing PR comment
+
+Fixing indentation issue
+
+* fix indent
+
+* Updating customdataset comments
+
+Updating customdataset to fix indentation issue.
+
+* Adding Jupyter tutorials
+
+Adding jupyter tutorials for: Training SS using PyTorch and Traing SS using TF
+
+* Update customdataset.py
+
+Fixing indentation issue.
+
+* Updates to readme
+
+Added object detection updates to the readme.md in Open3D ML and Open3D ML\Script for the new release.
+
+* Update __init__.py
+
+* Fixing style errors
+
+Fixing style errors.
+
+* Updating Readme
+
+Updating readme to include image for visualization.
+
+* Replacing bounding_boxes image.
+
+* Updating file to fix doc issues
+
+Updated the readme file and dataset files to fix issues.
+
+* Fixing Images
+
+Fixing image link
+
+* Updating datasets documentation
+
+Updating the documentation in the datasets python classes.
+
+* Update doc
+
+Added a new tutorial for adding a custom dataset.
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+
+* Updated visualizer.py (#217)
+
+* Updated visualizer.py
+
+Updated Visualizer.py to fixed docstring errors.
+
+* Fixed doc string errors in visualizer.py
+
+Fixed doc string error in visualizer.py
+
+* Update visualizer.py
+
+* PointRCNN inference pipeline (#218)
+
+* rcnn and rpn setup
+
+* ported most of pointrcnn to o3d, missing custom operators, not tested
+
+* pointrcnn inference
+
+* removed debug code
+
+* removed debug code
+
+* added missing temporary operators
+
+* moved ops to o3d
+
+* Add SparseConv Unet for torch (#223)
+
+* add sparseconv
+
+* modify semseg inference
+
+* apply-style
+
+* fix device
+
+* fix semantic labels
+
+* add I/O layer with voxelization
+
+* style
+
+* pointrcnn ops gpu only
+
+* add scale
+
+* style
+
+Co-authored-by: Lukas Prantl <lukas_prantl@hotmail.de>
+
+* Remove plyfile dependency (#226)
+
+* remove plyfile
+
+* fix sampler issue
+
+* update requirements.txt
+
+* fix kernel plyfile
+
+* fix ci
+
+* Add SparseConv Unet for tf (#228)
+
+* added tf sparseconvnet
+
+* apply style
+
+* add 2d unique
+
+* Fix for high severity vulnerabilities reported by Snyk in Pillow (#235)
+
+Heap-based Buffer Overflow
+    Vulnerable module: pillow
+    Introduced through: matplotlib@3.3.2
+    Exploit maturity: No known exploit
+    Fixed in: 8.1.1
+
+Denial of Service (DoS) 
+    Vulnerable module: pillow
+    Introduced through: matplotlib@3.3.2
+    Exploit maturity: No known exploit
+    Fixed in: 8.1.1
+Detailed paths and remediation
+    Introduced through: Open3D-ML@0.0.0 › matplotlib@3.3.2 › pillow@7.2.0
+    Remediation: Pin pillow to version 8.1.1
+
+Insufficient Validation
+    Vulnerable module: pillow
+    Introduced through: matplotlib@3.3.2
+    Exploit maturity: No known exploit
+    Fixed in: 8.1.1
+Detailed paths and remediation
+    Introduced through: Open3D-ML@0.0.0 › matplotlib@3.3.2 › pillow@7.2.0
+    Remediation: Pin pillow to version 8.1.1
+
+Out-of-bounds Read
+    Vulnerable module: pillow
+    Introduced through: matplotlib@3.3.2
+    Exploit maturity: No known exploit
+    Fixed in: 8.1.1
+Detailed paths and remediation
+    Introduced through: Open3D-ML@0.0.0 › matplotlib@3.3.2 › pillow@7.2.0
+    Remediation: Pin pillow to version 8.1.1
+
+Regular Expression Denial of Service (ReDoS)
+    Vulnerable module: pillow
+    Introduced through: matplotlib@3.3.2
+    Exploit maturity: No known exploit
+    Fixed in: 8.1.1
+Detailed paths and remediation
+    Introduced through: Open3D-ML@0.0.0 › matplotlib@3.3.2 › pillow@7.2.0
+    Remediation: Pin pillow to version 8.1.1
+
+Buffer Overflow
+    Vulnerable module: pillow
+    Introduced through: matplotlib@3.3.2
+    Exploit maturity: No known exploit
+    Fixed in: 8.1.0
+Detailed paths and remediation
+    Introduced through: Open3D-ML@0.0.0 › matplotlib@3.3.2 › pillow@7.2.0
+    Remediation: Pin pillow to version 8.1.0
+
+* Add prefetching and memory pinning (#236)
+
+* add prefetch and memory pinning
+
+* add batcher
+
+* fix ci
+
+* batcher for point pillars (#238)
+
+* added batch support to models, batcher not working
+
+* batch support tf
+
+* torch batcher
+
+* unpack fixed
+
+* object sampler fix
+
+* object sample correction
+
+* add prefetch and memory pinning
+
+* add batcher
+
+* pytest fixed, added docstring, renamed cnts
+
+* style
+
+* fix cuda error
+
+* fixed no label exception
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+
+* fix pin_memory (#242)
+
+* fix negative predict_scores (#202) (#244)
+
+* fix negative predict_scores (#202)
+
+* change description in setup.py
+
+* Point RCNN training pipeline torch (#237)
+
+* rpn training
+
+* rcnn training
+
+* testet rpn and rcnn training
+
+* style
+
+* fixed valid
+
+* fixed batcher
+
+* PointRCNN Tensorflow pipeline (#246)
+
+* rpn training
+
+* rcnn training
+
+* testet rpn and rcnn training
+
+* style
+
+* fixed valid
+
+* pointrcnn tf pipeline port
+
+* fixed some tf port bugs
+
+* batcher support
+
+* fixed batcher
+
+* more fixes, tensorflow training and inference running without exception
+
+* fixed batcher
+
+* fixed out of memory, training and inference working
+
+* fixed pytorch batching
+
+* replaced custom gather functions with build in gather
+
+* added comments
+
+* pointnet ops gpu only
+
+* added comments to bbox, fixed exception with empty target box list
+
+* fixed small issues
+
+* fixed small issues
+
+* fixed test
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+
+* Add worker_init_fn in torch dataloader (#254)
+
+* add worker init fn
+
+* added torch seed
+
+* type cast
+
+* skip data with no bounding box
+
+* fix unit test
+
+* CUDA 11.0 (#224)
+
+* CUDA 11.0
+
+TF 2.3.1 -> 2.4.1
+Pytorch 1.6.0 -> 1.7.1
+Torch requirements.txt allow any Pytorch version 1.7.x where x>=1.
+
+* Update TF, PyTorch versions in CI
+
+* CPU torch version
+
+* Use Open3D PyTorch in requirments.txt
+
+* Fix required by Open3D #3298 (#262)
+
+* Fix of the undefined 'diff' and broadcast errors (#267)
+
+* Update semseg_random.py
+
+* Update semseg_spatially_regular.py
+
+* Docs formatting fix and style checker (#265)
+
+* Initial WIP
+
+* Docs formatting / style.
+
+* Add pydocstyle to style check CI.
+
+* fix docstring
+
+* enforce docstring check
+
+* Patrick review.
+
+* Style fix
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+
+* Update Documentation (#266)
+
+* Update PointRCNN in Readme
+
+* Update SCN weight links
+
+* fix weights link
+
+* Update weights link
+
+* Training pipelines for Sparseconvunet (#233)
+
+* added tf sparseconvnet
+
+* apply style
+
+* add 2d unique
+
+* add scn training
+
+* style
+
+* add config
+
+* add concat batcher
+
+* add augment
+
+* fix transform
+
+* add tf training pipeline
+
+* apply style
+
+* fix tf inference
+
+* tf graph
+
+* fix cuda errors
+
+* fix pin_memory
+
+* added augment clas
+
+* style
+
+* added residual blocks
+
+* add reps and optimize iou
+
+* simplify iou/acc calculation
+;
+
+* use new augmentation class
+
+* fix rotation
+
+* added tf modules
+
+* simplify tf metric;
+
+* proper batchnorm
+
+* add class wts
+
+* Modify tf batchnorm
+
+* Address LGTM aletrs
+
+* address reviews
+
+* fix sampler
+
+* address reviews
+
+* fix docstring check
+
+* Fix PointRCNN (torch and tf) (#264)
+
+* add objectsample augmentation
+
+* fix RPN preprocessing
+
+* handle empty bbox
+
+* save kitti results
+
+* Fix tf point_rcnn
+
+* fix tf batch issue
+
+* add tf cycle scheduler
+
+* address reviews
+
+* fix docstring
+
+* add comment for loss
+
+* Update README.md (#272)
+
+* Update README.md
+
+Forum link update
+
+* fix visualizer (#276)
+
+* update pillow version (#280)
+
+* Minor fixes (#279)
+
+* minor fixes
+
+* fix tf loader
+
+* fic batch size
+
+* Fix `run_inference` (#285)
+
+* fix run_inference
+
+* fix kpconv batch
+
+* Add style to semantic_segmentation.py
+
+* Fix style on toronto3d.py
+
+* fix merge
+
+* address lgtm
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: Prantl <lukas_prantl@hotmail.de>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+Co-authored-by: KENTO Yamamoto <31678561+kento-Y@users.noreply.github.com>
+Co-authored-by: Albhox <albertotono3@gmail.com>
+Co-authored-by: amirshal <35299570+amirshal@users.noreply.github.com>
+Co-authored-by: AbhishekS <65679171+ClarytyLLC@users.noreply.github.com>
+Co-authored-by: Matthias Humt <22399283+hummat@users.noreply.github.com>
+Co-authored-by: Matthias Humt <matthias.humt@dlr.de>
+Co-authored-by: Yixing Lao <yixing.lao@gmail.com>
+Co-authored-by: eiiijiiiy <68719911+eiiijiiiy@users.noreply.github.com>",2021-05-28 05:57:17-07:00,True
+58264dbb333e7314ebfda8a63815556eff271baf,"Update download link (#288)
+
+Fixed RandLANet mIoU issue on S3DIS dataset and tensorflow. Updated weights link.",2021-06-01 15:27:34-07:00,False
+43ecd8eeb987dbaff5b18a608b07b58fa813a733,"Fix wrong link (#313)
+
+🙅‍♂️ `pointpillars_kitti_202012171738utc.pth`
+🙆‍♂️ `pointpillars_kitti_202012221652utc.pth`",2021-07-15 14:13:07-07:00,True
+412746326836f7e1e153485ed1d4939046355c94,change intel-isl -> isl-org (#325),2021-07-29 08:05:59-07:00,True
+c404acef584bd0db52b4cedfd8a3cd1c8d7f669c,update org name (#328),2021-07-30 10:32:21-07:00,True
+6e73e7eeadaad19ae57b65908f8620de84cf042d,Fixed broken link,2021-10-22 17:47:50+05:18,False
+0300cfa209d4db4bacbba8cfbddfc014327d0079,"Merge master to dev (#400)
+
+* merge-open3d-ml-0.13.0 (#287)
+
+* version update for next release
+
+* Add Kitti object detection dataset (#128)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* address reviews
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* Add Waymo Dataset (#136)
+
+* add waymo preprocess
+
+* add waymo class
+
+* added argparse
+
+* apply style
+
+* add docstring
+
+* remove cv2
+
+* Add NuScenes dataset (#137)
+
+* add preprocess nuscenes
+
+* bug fix
+
+* add argparse
+
+* add nuscenes class
+
+* apply style
+
+* added label
+
+* Fix ignore class
+
+* add docstring
+
+* style
+
+* create sampler class for sampling point cloud idx and points idx (#135)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* sampler
+
+* sampler class
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* spatially regular
+
+* kpconv sampler
+
+* kpconv paris lille
+
+* delete debug information
+
+* valid
+
+* vlida
+
+* default sampler
+
+* confusion matrix
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+
+* Add Lyft Dataset (#138)
+
+* bug fix
+
+* Added preprocess lyft
+
+* bug
+
+* add dataset_class for lyft
+
+* style
+
+* bug fix
+
+Co-authored-by: germanros1987 <38517452+germanros1987@users.noreply.github.com>
+
+* apply-style
+
+* Download scripts (#145)
+
+* add kitti download script
+
+* fix semantickitti
+
+* added lyft download script
+
+* Add bounding boxes to visualizer (#140)
+
+* Add bounding boxes to visualizer
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* Create LICENSE
+
+* Change Bounding box class. (#149)
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* address review
+
+* Update README.md
+
+* Added Agroverse 3D Dataset (#155)
+
+* added argoverse
+
+* style
+
+* change classes
+
+* use open3d for reading pcd
+
+* link to kpconv parislille3d models in readme (#160)
+
+* readme for parislille3d kpconv models
+
+* PointPillars inference pipeline (#153)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* using our checkpoint format
+
+* fix ci
+
+* apply style
+
+* apply style
+
+* changed list to tuple
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* add comments for visualize predictions (#151)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* Import os (#148)
+
+I am getting also another error later about 
+
+NameError                                 Traceback (most recent call last)
+<ipython-input-5-bed5d0e06c9a> in <module>
+     22 pipeline_k.load_ckpt(model.cfg.ckpt_path)
+     23 
+---> 24 data_path = os.path.dirname(os.path.realpath(__file__)) + ""/demo_data""
+     25 pc_names = [""000700"", ""000750""]
+     26 
+
+NameError: name '__file__' is not defined
+
+
+for this
+
+data_path = os.path.dirname(os.path.realpath(__file__)) + ""/demo_data""
+
+* Create LICENSE
+
+* add comments
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: Albhox <albertotono3@gmail.com>
+Co-authored-by: germanros1987 <38517452+germanros1987@users.noreply.github.com>
+
+* Fix broken link to torch RandLA-Net Toronto 3d model (#163)
+
+* Updating documentation (#154)
+
+* Editing documentation for TF and Torch dataloaders.
+
+* Updating datasets documentation
+
+* Updates after fixing style issues
+
+* Updating semantic segmentation
+
+* Updating dataset.py to fix semantic issues
+
+* Updating semantic segmentation
+
+* Updating base_dataset.py to fix semantic issues
+
+* Updating custom_dataset.py to fix semantic issues
+
+* Updating dataset.py to fix semantic issues
+
+* Updating visualizer documentation
+
+Updating files for visualizer documentation
+
+* Update customdataset.py
+
+* Fixing PR comment
+
+Fixing indentation issue
+
+* fix indent
+
+* Updating customdataset comments
+
+Updating customdataset to fix indentation issue.
+
+* Adding Jupyter tutorials
+
+Adding jupyter tutorials for: Training SS using PyTorch and Traing SS using TF
+
+* Update customdataset.py
+
+Fixing indentation issue.
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+
+* Add Tensorflow model and inference pipeline. (#159)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* added tf voxel class
+
+* added PFNlayer
+
+* add pillar feature net
+
+* added pointpillar scatter class
+
+* add class SECOND
+
+* added SECONDFPN layer
+
+* fix ragged tensor
+
+* implemented tf bbox generator, improved some torch helpers of pointpillars
+
+* batch support for box generation
+
+* add call method
+
+* fix name conflicts
+
+* fix bugs
+
+* added tf objdet pipeline
+
+* fix scatter tf
+
+* fix conv2d channels last
+
+* apply style
+
+* added crossentropy
+
+* add focal loss
+
+* added smooth L1 loss
+
+* apply style
+
+* fix batchnorm
+
+* add load/save ckpt
+
+* apply style
+
+* simplify inference torch
+
+* simplify inference tf
+
+* fix bug
+
+* fix ci
+
+* fix ci tf
+
+* apply style
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: Lukas Prantl <lukas_prantl@hotmail.de>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* Fixes for changes from TensorList to Tesor for t.geometry objects (#161)
+
+* Yiling/readme randlanet semantic3d (#167)
+
+* readme for randlanet semantic3d models
+
+* readme change
+
+* Prantl/point pillars train (#170)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* added tf voxel class
+
+* added PFNlayer
+
+* add pillar feature net
+
+* added pointpillar scatter class
+
+* add class SECOND
+
+* added SECONDFPN layer
+
+* fix ragged tensor
+
+* implemented tf bbox generator, improved some torch helpers of pointpillars
+
+* batch support for box generation
+
+* add call method
+
+* fix name conflicts
+
+* fix bugs
+
+* added tf objdet pipeline
+
+* fix scatter tf
+
+* fix conv2d channels last
+
+* apply style
+
+* added crossentropy
+
+* add focal loss
+
+* added smooth L1 loss
+
+* apply style
+
+* using our checkpoint format
+
+* fix batchnorm
+
+* add load/save ckpt
+
+* apply style
+
+* simplify inference torch
+
+* simplify inference tf
+
+* fix bug
+
+* fix ci
+
+* fix ci tf
+
+* apply style
+
+* implemented loss calculation of pointpillars, not yet tested
+
+* training working, evaluation and augmentation missing
+
+* fixed batched inference
+
+* style
+
+* new bev bounding box class
+
+* validation added
+
+* small fixes
+
+* small fix
+
+* reset yaw transformation in kitti bbox
+
+* fixed bug in loss calculation, fixed bug in save logs
+
+* removed debugging bug
+
+* fixed cls loss bug
+
+* style
+
+* Update kitti.py
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* Prantl/point pillars train tf (#171)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* added tf voxel class
+
+* added PFNlayer
+
+* add pillar feature net
+
+* added pointpillar scatter class
+
+* add class SECOND
+
+* added SECONDFPN layer
+
+* fix ragged tensor
+
+* implemented tf bbox generator, improved some torch helpers of pointpillars
+
+* batch support for box generation
+
+* add call method
+
+* fix name conflicts
+
+* fix bugs
+
+* added tf objdet pipeline
+
+* fix scatter tf
+
+* fix conv2d channels last
+
+* apply style
+
+* added crossentropy
+
+* add focal loss
+
+* added smooth L1 loss
+
+* apply style
+
+* using our checkpoint format
+
+* fix batchnorm
+
+* add load/save ckpt
+
+* apply style
+
+* simplify inference torch
+
+* simplify inference tf
+
+* fix bug
+
+* fix ci
+
+* fix ci tf
+
+* apply style
+
+* implemented loss calculation of pointpillars, not yet tested
+
+* training working, evaluation and augmentation missing
+
+* fixed batched inference
+
+* style
+
+* new bev bounding box class
+
+* validation added
+
+* small fixes
+
+* small fix
+
+* reset yaw transformation in kitti bbox
+
+* fixed bug in loss calculation, fixed bug in save logs
+
+* removed debugging bug
+
+* fixed cls loss bug
+
+* trainings pipeline for tensorflow
+
+* style
+
+* style
+
+* Update kitti.py
+
+* style
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* new validation for torch (#169)
+
+* infer
+
+* test and infer
+
+* testing
+
+* test inference
+
+* modify
+
+* before merge
+
+* inference dummy
+
+* add back save results
+
+* update model zoo (#175)
+
+* added weight initialization (#174)
+
+* Added ShapeNet dataset (#157)
+
+* Added ShapeNet dataset
+
+* Applied style
+
+* Added dummy part segmentation labels
+
+This is a hack as there aren't any official part labels (as far as I know).
+
+Co-authored-by: Matthias Humt <matthias.humt@dlr.de>
+Co-authored-by: germanros1987 <38517452+germanros1987@users.noreply.github.com>
+
+* Fix for changes in t::geometry (#173)
+
+* Add wide lines (#176)
+
+* Prantl/point pillars metrics (#172)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* setup
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* added temporary metric test + numba operators
+
+* added tf voxel class
+
+* added PFNlayer
+
+* add pillar feature net
+
+* added pointpillar scatter class
+
+* add class SECOND
+
+* added SECONDFPN layer
+
+* fix ragged tensor
+
+* add mAP metric
+
+* implemented tf bbox generator, improved some torch helpers of pointpillars
+
+* batch support for box generation
+
+* add call method
+
+* fix name conflicts
+
+* fix bugs
+
+* added tf objdet pipeline
+
+* fix scatter tf
+
+* fix conv2d channels last
+
+* apply style
+
+* added crossentropy
+
+* add focal loss
+
+* added smooth L1 loss
+
+* apply style
+
+* using our checkpoint format
+
+* fix batchnorm
+
+* add load/save ckpt
+
+* apply style
+
+* simplify inference torch
+
+* simplify inference tf
+
+* fix bug
+
+* fix ci
+
+* fix ci tf
+
+* fix ci
+
+* apply style
+
+* apply style
+
+* apply style
+
+* implemented loss calculation of pointpillars, not yet tested
+
+* changed list to tuple
+
+* training working, evaluation and augmentation missing
+
+* fixed batched inference
+
+* style
+
+* using same mAP technique as mmdet, 1 percent off
+
+* new bev bounding box class
+
+* validation added
+
+* small fixes
+
+* small fix
+
+* reset yaw transformation in kitti bbox
+
+* fixed bug in loss calculation, fixed bug in save logs
+
+* removed debugging bug
+
+* undone removing debug code for test run
+
+* old loader
+
+* some small fixes
+
+* cls loss fixed
+
+* undone changes in demo script
+
+* fixed cls loss bug
+
+* small bug fix in mAP calculation
+
+* metric bug fixes, o3d iou intergrated
+
+* trainings pipeline for tensorflow
+
+* fixed cumulative prediction calculation of mAP, no more deviation in mAP calculation, removed debugging code
+
+* mAP validation added to tf model
+
+* fixed convertion to eval data
+
+* small fixes
+
+* fixed infinite epoch
+
+* style
+
+* style
+
+* iou gpu/cpu depending on o3d build
+
+* Update kitti.py
+
+* replaced adamW with adam in tf training pipeline
+
+* removed legacy setup
+
+* style
+
+* fixed bug in loss computation of tf model, fixed bug in scatter operation of pointpillars tf
+
+* renamed tensorboard writer
+
+* tf summary writer
+
+* tf summary fix
+
+* mAP in tensorboard
+
+* fixed tf writer
+
+* fixed some merge artifacts
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* Filter kitti point cloud (#177)
+
+* reduce kitti pc
+
+* apply style
+
+* PointPillars bug fixes (#179)
+
+* fixed resuming from checkpoint
+
+* fixed offset in reassume
+
+* fixed missing device definition in pointpillars
+
+* Update object_detection.py
+
+removed debug log
+
+* Data Augmentation (#178)
+
+* shuffle
+
+* object range filter
+
+* add sample objects
+
+* added collect bbox
+
+* add box points in preprocessing
+
+* add object sample
+
+* add augment in config
+
+* bug fixes
+
+* apply style
+
+* remove duplicate
+
+* filter by min points
+
+* apply style
+
+* improve speed
+
+* fix tf
+
+* apply style
+
+* optional out_path
+
+* vectorization of points in shape, small bug fixes, removed pickle path
+
+Co-authored-by: praluk <lukas_prantl@hotmail.de>
+
+* fixed absolute path bug (#182)
+
+* Disable data augmentation while testing. (#181)
+
+* disable test augment
+
+* - validation without augmentation
+- transform returns bbox_obj
+- labels and bboxes single elements instead of list
+- fixed ignored min_points
+
+Co-authored-by: Lukas Prantl <lukas_prantl@hotmail.de>
+
+* update readme and config files for parislille3d; align points for parislille3d (#180)
+
+* randlanet parislille
+
+* config
+
+* merge
+
+* model path
+
+* minor changes
+
+* trans normalize
+
+* trans norm
+
+* fixed infinte dataset iteration (#184)
+
+* fixed infinte dataset iteration
+
+* - fixed obj det demo
+- preprocess full points
+
+* style
+
+* fix collision (#183)
+
+* Abhishek/documentation (#185)
+
+* Editing documentation for TF and Torch dataloaders.
+
+* Updating datasets documentation
+
+* Updates after fixing style issues
+
+* Updating semantic segmentation
+
+* Updating dataset.py to fix semantic issues
+
+* Updating semantic segmentation
+
+* Updating base_dataset.py to fix semantic issues
+
+* Updating custom_dataset.py to fix semantic issues
+
+* Updating dataset.py to fix semantic issues
+
+* Updating visualizer documentation
+
+Updating files for visualizer documentation
+
+* Update customdataset.py
+
+* Fixing PR comment
+
+Fixing indentation issue
+
+* fix indent
+
+* Updating customdataset comments
+
+Updating customdataset to fix indentation issue.
+
+* Adding Jupyter tutorials
+
+Adding jupyter tutorials for: Training SS using PyTorch and Traing SS using TF
+
+* Update customdataset.py
+
+Fixing indentation issue.
+
+* Updates to readme
+
+Added object detection updates to the readme.md in Open3D ML and Open3D ML\Script for the new release.
+
+* Update __init__.py
+
+* Fixing style errors
+
+Fixing style errors.
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+
+* In dataset mode, only bounding boxes from visible names are visible. Also update set_background_color() -> set_background() (#186)
+
+* Fix absolute path. (#187)
+
+* fix abs path
+
+* fix order of paths
+
+* fix skewed argoverse
+
+* Abhishek/documentation (#188)
+
+* Editing documentation for TF and Torch dataloaders.
+
+* Updating datasets documentation
+
+* Updates after fixing style issues
+
+* Updating semantic segmentation
+
+* Updating dataset.py to fix semantic issues
+
+* Updating semantic segmentation
+
+* Updating base_dataset.py to fix semantic issues
+
+* Updating custom_dataset.py to fix semantic issues
+
+* Updating dataset.py to fix semantic issues
+
+* Updating visualizer documentation
+
+Updating files for visualizer documentation
+
+* Update customdataset.py
+
+* Fixing PR comment
+
+Fixing indentation issue
+
+* fix indent
+
+* Updating customdataset comments
+
+Updating customdataset to fix indentation issue.
+
+* Adding Jupyter tutorials
+
+Adding jupyter tutorials for: Training SS using PyTorch and Traing SS using TF
+
+* Update customdataset.py
+
+Fixing indentation issue.
+
+* Updates to readme
+
+Added object detection updates to the readme.md in Open3D ML and Open3D ML\Script for the new release.
+
+* Update __init__.py
+
+* Fixing style errors
+
+Fixing style errors.
+
+* Updating Readme
+
+Updating readme to include image for visualization.
+
+* Replacing bounding_boxes image.
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+
+* Prantl/dataset fixes (#189)
+
+* - Object3D of datasets inherit from BEVBox, calib unified, output path of preprocessing scripts optional, label names instead of numbers
+
+* dataset configs
+
+* small bugfixes
+
+* fixes for Lyft training
+
+* added missing file
+
+* small bugfixes
+
+* added sample split
+
+* style
+
+* Update .gitignore
+
+* Fix Label LUT and Waymo (#190)
+
+* fix lut
+
+* fix waymo
+
+* address review
+
+* fixed style for mAP log in tf (#191)
+
+* Change the line width factor now that line widths are working (#192)
+
+* Prantl/pointpillars readme (#193)
+
+* updated pointpillar metrics
+
+* updated weights
+
+* object sampler fix (#194)
+
+* upload link (#195)
+
+* Added CI tests for Object detection (#208)
+
+* Dev (#197)
+
+* version update for next release
+
+* Add Kitti object detection dataset (#128)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* address reviews
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* Add Waymo Dataset (#136)
+
+* add waymo preprocess
+
+* add waymo class
+
+* added argparse
+
+* apply style
+
+* add docstring
+
+* remove cv2
+
+* Add NuScenes dataset (#137)
+
+* add preprocess nuscenes
+
+* bug fix
+
+* add argparse
+
+* add nuscenes class
+
+* apply style
+
+* added label
+
+* Fix ignore class
+
+* add docstring
+
+* style
+
+* create sampler class for sampling point cloud idx and points idx (#135)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* sampler
+
+* sampler class
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* spatially regular
+
+* kpconv sampler
+
+* kpconv paris lille
+
+* delete debug information
+
+* valid
+
+* vlida
+
+* default sampler
+
+* confusion matrix
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+
+* Add Lyft Dataset (#138)
+
+* bug fix
+
+* Added preprocess lyft
+
+* bug
+
+* add dataset_class for lyft
+
+* style
+
+* bug fix
+
+Co-authored-by: germanros1987 <38517452+germanros1987@users.noreply.github.com>
+
+* apply-style
+
+* Download scripts (#145)
+
+* add kitti download script
+
+* fix semantickitti
+
+* added lyft download script
+
+* Add bounding boxes to visualizer (#140)
+
+* Add bounding boxes to visualizer
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* Create LICENSE
+
+* Change Bounding box class. (#149)
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* address review
+
+* Update README.md
+
+* Added Agroverse 3D Dataset (#155)
+
+* added argoverse
+
+* style
+
+* change classes
+
+* use open3d for reading pcd
+
+* link to kpconv parislille3d models in readme (#160)
+
+* readme for parislille3d kpconv models
+
+* PointPillars inference pipeline (#153)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* using our checkpoint format
+
+* fix ci
+
+* apply style
+
+* apply style
+
+* changed list to tuple
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* add comments for visualize predictions (#151)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* Import os (#148)
+
+I am getting also another error later about 
+
+NameError                                 Traceback (most recent call last)
+<ipython-input-5-bed5d0e06c9a> in <module>
+     22 pipeline_k.load_ckpt(model.cfg.ckpt_path)
+     23 
+---> 24 data_path = os.path.dirname(os.path.realpath(__file__)) + ""/demo_data""
+     25 pc_names = [""000700"", ""000750""]
+     26 
+
+NameError: name '__file__' is not defined
+
+
+for this
+
+data_path = os.path.dirname(os.path.realpath(__file__)) + ""/demo_data""
+
+* Create LICENSE
+
+* add comments
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: Albhox <albertotono3@gmail.com>
+Co-authored-by: germanros1987 <38517452+germanros1987@users.noreply.github.com>
+
+* Fix broken link to torch RandLA-Net Toronto 3d model (#163)
+
+* Updating documentation (#154)
+
+* Editing documentation for TF and Torch dataloaders.
+
+* Updating datasets documentation
+
+* Updates after fixing style issues
+
+* Updating semantic segmentation
+
+* Updating dataset.py to fix semantic issues
+
+* Updating semantic segmentation
+
+* Updating base_dataset.py to fix semantic issues
+
+* Updating custom_dataset.py to fix semantic issues
+
+* Updating dataset.py to fix semantic issues
+
+* Updating visualizer documentation
+
+Updating files for visualizer documentation
+
+* Update customdataset.py
+
+* Fixing PR comment
+
+Fixing indentation issue
+
+* fix indent
+
+* Updating customdataset comments
+
+Updating customdataset to fix indentation issue.
+
+* Adding Jupyter tutorials
+
+Adding jupyter tutorials for: Training SS using PyTorch and Traing SS using TF
+
+* Update customdataset.py
+
+Fixing indentation issue.
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+
+* Add Tensorflow model and inference pipeline. (#159)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* added tf voxel class
+
+* added PFNlayer
+
+* add pillar feature net
+
+* added pointpillar scatter class
+
+* add class SECOND
+
+* added SECONDFPN layer
+
+* fix ragged tensor
+
+* implemented tf bbox generator, improved some torch helpers of pointpillars
+
+* batch support for box generation
+
+* add call method
+
+* fix name conflicts
+
+* fix bugs
+
+* added tf objdet pipeline
+
+* fix scatter tf
+
+* fix conv2d channels last
+
+* apply style
+
+* added crossentropy
+
+* add focal loss
+
+* added smooth L1 loss
+
+* apply style
+
+* fix batchnorm
+
+* add load/save ckpt
+
+* apply style
+
+* simplify inference torch
+
+* simplify inference tf
+
+* fix bug
+
+* fix ci
+
+* fix ci tf
+
+* apply style
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: Lukas Prantl <lukas_prantl@hotmail.de>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* Fixes for changes from TensorList to Tesor for t.geometry objects (#161)
+
+* Yiling/readme randlanet semantic3d (#167)
+
+* readme for randlanet semantic3d models
+
+* readme change
+
+* Prantl/point pillars train (#170)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* added tf voxel class
+
+* added PFNlayer
+
+* add pillar feature net
+
+* added pointpillar scatter class
+
+* add class SECOND
+
+* added SECONDFPN layer
+
+* fix ragged tensor
+
+* implemented tf bbox generator, improved some torch helpers of pointpillars
+
+* batch support for box generation
+
+* add call method
+
+* fix name conflicts
+
+* fix bugs
+
+* added tf objdet pipeline
+
+* fix scatter tf
+
+* fix conv2d channels last
+
+* apply style
+
+* added crossentropy
+
+* add focal loss
+
+* added smooth L1 loss
+
+* apply style
+
+* using our checkpoint format
+
+* fix batchnorm
+
+* add load/save ckpt
+
+* apply style
+
+* simplify inference torch
+
+* simplify inference tf
+
+* fix bug
+
+* fix ci
+
+* fix ci tf
+
+* apply style
+
+* implemented loss calculation of pointpillars, not yet tested
+
+* training working, evaluation and augmentation missing
+
+* fixed batched inference
+
+* style
+
+* new bev bounding box class
+
+* validation added
+
+* small fixes
+
+* small fix
+
+* reset yaw transformation in kitti bbox
+
+* fixed bug in loss calculation, fixed bug in save logs
+
+* removed debugging bug
+
+* fixed cls loss bug
+
+* style
+
+* Update kitti.py
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* Prantl/point pillars train tf (#171)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* added tf voxel class
+
+* added PFNlayer
+
+* add pillar feature net
+
+* added pointpillar scatter class
+
+* add class SECOND
+
+* added SECONDFPN layer
+
+* fix ragged tensor
+
+* implemented tf bbox generator, improved some torch helpers of pointpillars
+
+* batch support for box generation
+
+* add call method
+
+* fix name conflicts
+
+* fix bugs
+
+* added tf objdet pipeline
+
+* fix scatter tf
+
+* fix conv2d channels last
+
+* apply style
+
+* added crossentropy
+
+* add focal loss
+
+* added smooth L1 loss
+
+* apply style
+
+* using our checkpoint format
+
+* fix batchnorm
+
+* add load/save ckpt
+
+* apply style
+
+* simplify inference torch
+
+* simplify inference tf
+
+* fix bug
+
+* fix ci
+
+* fix ci tf
+
+* apply style
+
+* implemented loss calculation of pointpillars, not yet tested
+
+* training working, evaluation and augmentation missing
+
+* fixed batched inference
+
+* style
+
+* new bev bounding box class
+
+* validation added
+
+* small fixes
+
+* small fix
+
+* reset yaw transformation in kitti bbox
+
+* fixed bug in loss calculation, fixed bug in save logs
+
+* removed debugging bug
+
+* fixed cls loss bug
+
+* trainings pipeline for tensorflow
+
+* style
+
+* style
+
+* Update kitti.py
+
+* style
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* new validation for torch (#169)
+
+* infer
+
+* test and infer
+
+* testing
+
+* test inference
+
+* modify
+
+* before merge
+
+* inference dummy
+
+* add back save results
+
+* update model zoo (#175)
+
+* added weight initialization (#174)
+
+* Added ShapeNet dataset (#157)
+
+* Added ShapeNet dataset
+
+* Applied style
+
+* Added dummy part segmentation labels
+
+This is a hack as there aren't any official part labels (as far as I know).
+
+Co-authored-by: Matthias Humt <matthias.humt@dlr.de>
+Co-authored-by: germanros1987 <38517452+germanros1987@users.noreply.github.com>
+
+* Fix for changes in t::geometry (#173)
+
+* Add wide lines (#176)
+
+* Prantl/point pillars metrics (#172)
+
+* Fix missing argument
+
+* more import bugfixes (#126)
+
+* fix missing attribute 'utils'
+
+* removed import statements for unused modules
+
+* fix conflict
+
+* add kitti dataset
+
+* add readme about config files (#129)
+
+* readme about config files
+
+* link to predefined script
+
+* Update README.md
+
+* address reviews
+
+* Simplified install instructions (#127)
+
+* Simpliefied install instructions
+
+Multiple requirements files for different use cases.
+
+* minor change to README
+
+* minor change adding link to docs for build from source.
+
+* update install instruction, add +cpu to torch requirements.txt
+
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+
+* added conditionals in requirements-torch for macos (#131)
+
+* Fix color dictionary in Semantic-KITTI bgr -> rgb (#130)
+
+* Enable hierarchy UI feature in visualizer for SemanticKITTI (#133)
+
+* PointPillars port from mmdet without NMS and Voxelizer. Only inference. Focal loss and smooth L1 implemented and tested.
+
+* loss function implemented and tested
+
+* Add bounding boxes to visualizer
+
+* Voxelization layer for point_pillars
+
+* apply style
+
+* Dataset bounding boxes are now fully their own object and do hide auto-hide/show pieces associated with a geometry, but they do auto-hide irrelevant boxes when animating.
+
+* Style fixes
+
+* objdet metric
+
+* removed mmdet3d dependency, o3d nms and voxelizer added
+
+* renamed objdet to run_pipeline, implemented part of the objdet pipeline
+
+* Added documentation, changed definition of size argument to be edge-to-edge and adjusted code accordingly
+
+* kitti eval only 3d boxes
+
+* test pipeline point pillars
+
+* howto small fix
+
+* change bbox class
+
+* improve bbox
+
+* style
+
+* visualization of results
+
+* test vis of results
+
+* using new bounding box class
+
+* waymo bbox
+
+* added nuscenes bbox
+
+* added lyft bbox
+
+* apply style
+
+* anchor head refactoring
+
+* fix waymo bbox
+
+* fix kitti bbox
+
+* apply style;
+
+* removed transformation of the predicted boxes
+
+* added licenses to files
+
+* removed unnecessary parts
+
+* format
+
+* setup
+
+* Labels displayed in visualization. Kitti dataset label ordering changed to match MMDetection3D.
+
+* added temporary metric test + numba operators
+
+* added tf voxel class
+
+* added PFNlayer
+
+* add pillar feature net
+
+* added pointpillar scatter class
+
+* add class SECOND
+
+* added SECONDFPN layer
+
+* fix ragged tensor
+
+* add mAP metric
+
+* implemented tf bbox generator, improved some torch helpers of pointpillars
+
+* batch support for box generation
+
+* add call method
+
+* fix name conflicts
+
+* fix bugs
+
+* added tf objdet pipeline
+
+* fix scatter tf
+
+* fix conv2d channels last
+
+* apply style
+
+* added crossentropy
+
+* add focal loss
+
+* added smooth L1 loss
+
+* apply style
+
+* using our checkpoint format
+
+* fix batchnorm
+
+* add load/save ckpt
+
+* apply style
+
+* simplify inference torch
+
+* simplify inference tf
+
+* fix bug
+
+* fix ci
+
+* fix ci tf
+
+* fix ci
+
+* apply style
+
+* apply style
+
+* apply style
+
+* implemented loss calculation of pointpillars, not yet tested
+
+* changed list to tuple
+
+* training working, evaluation and augmentation missing
+
+* fixed batched inference
+
+* style
+
+* using same mAP technique as mmdet, 1 percent off
+
+* new bev bounding box class
+
+* validation added
+
+* small fixes
+
+* small fix
+
+* reset yaw transformation in kitti bbox
+
+* fixed bug in loss calculation, fixed bug in save logs
+
+* removed debugging bug
+
+* undone removing debug code for test run
+
+* old loader
+
+* some small fixes
+
+* cls loss fixed
+
+* undone changes in demo script
+
+* fixed cls loss bug
+
+* small bug fix in mAP calculation
+
+* metric bug fixes, o3d iou intergrated
+
+* trainings pipeline for tensorflow
+
+* fixed cumulative prediction calculation of mAP, no more deviation in mAP calculation, removed debugging code
+
+* mAP validation added to tf model
+
+* fixed convertion to eval data
+
+* small fixes
+
+* fixed infinite epoch
+
+* style
+
+* style
+
+* iou gpu/cpu depending on o3d build
+
+* Update kitti.py
+
+* replaced adamW with adam in tf training pipeline
+
+* removed legacy setup
+
+* style
+
+* fixed bug in loss computation of tf model, fixed bug in scatter operation of pointpillars tf
+
+* renamed tensorboard writer
+
+* tf summary writer
+
+* tf summary fix
+
+* mAP in tensorboard
+
+* fixed tf writer
+
+* fixed some merge artifacts
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+
+* Filter kitti point cloud (#177)
+
+* reduce kitti pc
+
+* apply style
+
+* PointPillars bug fixes (#179)
+
+* fixed resuming from checkpoint
+
+* fixed offset in reassume
+
+* fixed missing device definition in pointpillars
+
+* Update object_detection.py
+
+removed debug log
+
+* Data Augmentation (#178)
+
+* shuffle
+
+* object range filter
+
+* add sample objects
+
+* added collect bbox
+
+* add box points in preprocessing
+
+* add object sample
+
+* add augment in config
+
+* bug fixes
+
+* apply style
+
+* remove duplicate
+
+* filter by min points
+
+* apply style
+
+* improve speed
+
+* fix tf
+
+* apply style
+
+* optional out_path
+
+* vectorization of points in shape, small bug fixes, removed pickle path
+
+Co-authored-by: praluk <lukas_prantl@hotmail.de>
+
+* fixed absolute path bug (#182)
+
+* Disable data augmentation while testing. (#181)
+
+* disable test augment
+
+* - validation without augmentation
+- transform returns bbox_obj
+- labels and bboxes single elements instead of list
+- fixed ignored min_points
+
+Co-authored-by: Lukas Prantl <lukas_prantl@hotmail.de>
+
+* update readme and config files for parislille3d; align points for parislille3d (#180)
+
+* randlanet parislille
+
+* config
+
+* merge
+
+* model path
+
+* minor changes
+
+* trans normalize
+
+* trans norm
+
+* fixed infinte dataset iteration (#184)
+
+* fixed infinte dataset iteration
+
+* - fixed obj det demo
+- preprocess full points
+
+* style
+
+* fix collision (#183)
+
+* Abhishek/documentation (#185)
+
+* Editing documentation for TF and Torch dataloaders.
+
+* Updating datasets documentation
+
+* Updates after fixing style issues
+
+* Updating semantic segmentation
+
+* Updating dataset.py to fix semantic issues
+
+* Updating semantic segmentation
+
+* Updating base_dataset.py to fix semantic issues
+
+* Updating custom_dataset.py to fix semantic issues
+
+* Updating dataset.py to fix semantic issues
+
+* Updating visualizer documentation
+
+Updating files for visualizer documentation
+
+* Update customdataset.py
+
+* Fixing PR comment
+
+Fixing indentation issue
+
+* fix indent
+
+* Updating customdataset comments
+
+Updating customdataset to fix indentation issue.
+
+* Adding Jupyter tutorials
+
+Adding jupyter tutorials for: Training SS using PyTorch and Traing SS using TF
+
+* Update customdataset.py
+
+Fixing indentation issue.
+
+* Updates to readme
+
+Added object detection updates to the readme.md in Open3D ML and Open3D ML\Script for the new release.
+
+* Update __init__.py
+
+* Fixing style errors
+
+Fixing style errors.
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+
+* In dataset mode, only bounding boxes from visible names are visible. Also update set_background_color() -> set_background() (#186)
+
+* Fix absolute path. (#187)
+
+* fix abs path
+
+* fix order of paths
+
+* fix skewed argoverse
+
+* Abhishek/documentation (#188)
+
+* Editing documentation for TF and Torch dataloaders.
+
+* Updating datasets documentation
+
+* Updates after fixing style issues
+
+* Updating semantic segmentation
+
+* Updating dataset.py to fix semantic issues
+
+* Updating semantic segmentation
+
+* Updating base_dataset.py to fix semantic issues
+
+* Updating custom_dataset.py to fix semantic issues
+
+* Updating dataset.py to fix semantic issues
+
+* Updating visualizer documentation
+
+Updating files for visualizer documentation
+
+* Update customdataset.py
+
+* Fixing PR comment
+
+Fixing indentation issue
+
+* fix indent
+
+* Updating customdataset comments
+
+Updating customdataset to fix indentation issue.
+
+* Adding Jupyter tutorials
+
+Adding jupyter tutorials for: Training SS using PyTorch and Traing SS using TF
+
+* Update customdataset.py
+
+Fixing indentation issue.
+
+* Updates to readme
+
+Added object detection updates to the readme.md in Open3D ML and Open3D ML\Script for the new release.
+
+* Update __init__.py
+
+* Fixing style errors
+
+Fixing style errors.
+
+* Updating Readme
+
+Updating readme to include image for visualization.
+
+* Replacing bounding_boxes image.
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+
+* Prantl/dataset fixes (#189)
+
+* - Object3D of datasets inherit from BEVBox, calib unified, output path of preprocessing scripts optional, label names instead of numbers
+
+* dataset configs
+
+* small bugfixes
+
+* fixes for Lyft training
+
+* added missing file
+
+* small bugfixes
+
+* added sample split
+
+* style
+
+* Update .gitignore
+
+* Fix Label LUT and Waymo (#190)
+
+* fix lut
+
+* fix waymo
+
+* address review
+
+* fixed style for mAP log in tf (#191)
+
+* Change the line width factor now that line widths are working (#192)
+
+* Prantl/pointpillars readme (#193)
+
+* updated pointpillar metrics
+
+* updated weights
+
+* object sampler fix (#194)
+
+* upload link (#195)
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: Prantl <lukas_prantl@hotmail.de>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+Co-authored-by: KENTO Yamamoto <31678561+kento-Y@users.noreply.github.com>
+Co-authored-by: Albhox <albertotono3@gmail.com>
+Co-authored-by: amirshal <35299570+amirshal@users.noreply.github.com>
+Co-authored-by: AbhishekS <65679171+ClarytyLLC@users.noreply.github.com>
+Co-authored-by: Matthias Humt <22399283+hummat@users.noreply.github.com>
+Co-authored-by: Matthias Humt <matthias.humt@dlr.de>
+
+* do not import CUDA functions when CUDA device is not available (#198)
+
+* Do not import CUDA functions when CUDA device is not available
+
+* update name
+
+* update wording
+
+* Use scikit-learn instead of sklearn (#200)
+
+* torch test
+
+* tf objdet test
+
+* apply style
+
+Co-authored-by: germanros1987 <38517452+germanros1987@users.noreply.github.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: Prantl <lukas_prantl@hotmail.de>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+Co-authored-by: KENTO Yamamoto <31678561+kento-Y@users.noreply.github.com>
+Co-authored-by: Albhox <albertotono3@gmail.com>
+Co-authored-by: amirshal <35299570+amirshal@users.noreply.github.com>
+Co-authored-by: AbhishekS <65679171+ClarytyLLC@users.noreply.github.com>
+Co-authored-by: Matthias Humt <22399283+hummat@users.noreply.github.com>
+Co-authored-by: Matthias Humt <matthias.humt@dlr.de>
+Co-authored-by: Yixing Lao <yixing.lao@gmail.com>
+
+* Added Scannet dataset (#212)
+
+* add scannet resources
+
+* added preprocess scannet
+
+* change init
+
+* add class mapping resource
+
+* add scannet class
+
+* apply style
+
+* Add Bounding boxes in S3DIS (#210)
+
+* modify s3dis
+
+* find min bbox
+
+* add bev box
+
+* apply style
+
+* Add SunRGBD Dataset (#215)
+
+* sunrgbd download script
+
+* added preprocess sunrgbd
+
+* add data class for sunrgbd
+
+* modify download script
+
+* apply style
+
+* remove folder
+
+* Abhishek/documentation (#206)
+
+* Editing documentation for TF and Torch dataloaders.
+
+* Updating datasets documentation
+
+* Updates after fixing style issues
+
+* Updating semantic segmentation
+
+* Updating dataset.py to fix semantic issues
+
+* Updating semantic segmentation
+
+* Updating base_dataset.py to fix semantic issues
+
+* Updating custom_dataset.py to fix semantic issues
+
+* Updating dataset.py to fix semantic issues
+
+* Updating visualizer documentation
+
+Updating files for visualizer documentation
+
+* Update customdataset.py
+
+* Fixing PR comment
+
+Fixing indentation issue
+
+* fix indent
+
+* Updating customdataset comments
+
+Updating customdataset to fix indentation issue.
+
+* Adding Jupyter tutorials
+
+Adding ju…
+
+* Update download link (#288)
+
+Fixed RandLANet mIoU issue on S3DIS dataset and tensorflow. Updated weights link.
+
+* fix deprecation (#289)
+
+* fix import issue (#290)
+
+* change intel-isl -> isl-org (#325)
+
+* voxelize api change (#347)
+
+* Fix typos discovered by codespell (#334)
+
+* Undefined name: val_files --> self.val_files (#337)
+
+`self.val_files` is created on line 63 and set on line 71 and printed on line 212
+
+$ `flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics`
+```
+./ml3d/datasets/waymo.py:210:20: F821 undefined name 'val_files'
+            return val_files
+                   ^
+```
+
+* Undefined name: import in_range_bev for line 213 (#338)
+
+* Undefined name: import in_range_bev for line 213
+
+[`from ..utils.transforms import in_range_bev`](https://github.com/isl-org/Open3D-ML/blob/master/ml3d/datasets/utils/transforms.py#L128)
+
+$ `flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics`
+
+```
+./Open3D-ML/ml3d/datasets/augment/augmentation.py:212:16: F821 undefined name 'in_range_bev'
+            if in_range_bev(bev_range, box.to_xyzwhlr()):
+               ^
+```
+
+* Undefined name: import sample_class
+
+https://github.com/isl-org/Open3D-ML/blob/master/ml3d/datasets/utils/operations.py#L433
+
+* Update augmentation.py
+
+* Undefined name: from collections import abc for line 41 (#335)
+
+$ `flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics`
+```
+./ml3d/utils/config.py:40:28: F821 undefined name 'abc'
+        elif isinstance(v, abc.Iterable):
+                           ^
+```
+https://docs.python.org/3/library/collections.abc.html#collections.abc.Iterable
+
+* Undefined name: remap_lut --> self.remap_lut (#336)
+
+`self.remap_lut` is defined on line 102 and used in a similar way on line 193.
+
+$ `flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics`
+```
+./ml3d/datasets/semantickitti.py:216:20: F821 undefined name 'remap_lut'
+            pred = remap_lut[pred].astype(np.uint32)
+                   ^
+```
+
+* Added missing `sum()` call to `loss_cls` (#343)
+
+Fixes error in validation loop of the `object_detection.py` pipeline caused by loss being arbitrary size rather than scalar value.
+
+* Make focal loss onehot encode even on class classification problem (#344)
+
+Without this check, when running with a single class the code will try to allocate a very large array on the GPU and fail with the following error:
+
+```
+Traceback (most recent call last):
+  File ""scripts/run_pipeline.py"", line 147, in <module>
+    main()
+  File ""scripts/run_pipeline.py"", line 143, in main
+    pipeline.run_train()
+  File ""/home/k/code/Open3D-ML/ml3d/torch/pipelines/object_detection.py"", line 296, in run_train
+    loss = model.loss(results, data)
+  File ""/home/k/code/Open3D-ML/ml3d/torch/models/point_pillars.py"", line 164, in loss
+    avg_factor=avg_factor)
+  File ""/home/k/miniconda3/envs/o3donly/lib/python3.6/site-packages/torch/nn/modules/module.py"", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File ""/home/k/code/Open3D-ML/ml3d/torch/modules/losses/focal_loss.py"", line 40, in forward
+    pt = (1 - pred_sigmoid) * target + pred_sigmoid * (1 - target)
+RuntimeError: CUDA out of memory. Tried to allocate 1535.09 GiB (GPU 0; 10.75 GiB total capacity; 3.99 GiB already allocated; 4.64 GiB free; 4.03 GiB reserved in total by PyTorch)
+```
+
+* Use dict lookup to find functions faster (#356)
+
+* Undefined name: val_files --> self.val_files
+
+`self.val_files` is created on line 63 and set on line 71 and printed on line 212
+
+$ `flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics`
+```
+./ml3d/datasets/waymo.py:210:20: F821 undefined name 'val_files'
+            return val_files
+                   ^
+```
+
+* Use dict lookup to find functions faster
+
+* Update visualize.py
+
+* Remove unused imports
+
+* Simplify code with dict.items() (#359)
+
+* Undefined name: bcolors (#357)
+
+* Add support for inputs without bounding box labels to PointPillars by returning zero size dimension arrays where needed. (#361)
+
+* Update `collect_bboxes.py` to support datasets beyond KITTI (#358)
+
+Modified `collect_bboxes.py` to take an optional argument `--dataset_type` which allows for an arbitrary dataset name. I have a custom dataset that is KITTI-like but expects a different input file format, and this change allows me to run the `collect_bboxes.py` script on my dataset.
+
+* PyTorch PointPillars - Fix out of bounds pillar coordinates (#349) (#350)
+
+Fixed #349 by doing pseudo image bounds check and removing out of bounds pillars.
+
+* Move zero sized elements to device to prevent concatenation of mixed device tensors (#377)
+
+Without this change, the NuScenes dataset crashes 20% of the way through the first epoch due to mixed elements being concatenated together.
+
+* Parallelize collect_bboxes (#387)
+
+The bbox data augmentation table generation is embarrasingly parallel. This commit rewrites collect_bboxes to use Python's multiprocessing API to parallelize the processing across a configurable number of CPUs in order to significantly speed up generation.
+
+On KITTI, the single threaded collect_bboxes took several minutes; with 16 cores, it takes only a few seconds. This scalability is particularly important for larger datasets (either with more datapoints or larger point clouds) which can take hours to process without parallelization.
+
+* Avoid mAP NaNs when zero ground truth or predicted boxes exist (#382)
+
+Without these changes, the mAP computation will produce NaNs for scenes where it predicts no bounding boxes or there are no ground truth bounding boxes, which occurs in practice in several datasets or with poorly trained networks.
+
+* Added support for optional use of `validation_freq` to set how often validation runs during training (#385)
+
+Without this change, the validation step runs after every epoch which can significantly slow down training. This change allows the number of epochs between validation steps to be configurable, while maintaining the default behavior of validating after every epoch if unconfigured.
+
+* Replace contrib ops  (#380) (#393)
+
+* remove contrib knn
+
+* remove kpconv_nn
+
+* fix ci
+
+* fix ci
+
+* address reviews
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+
+* Update semantickitti.py (#372)
+
+* Update semantickitti.py
+
+This is to get rid of the error
+""UnboundLocalError: local variable 'pred' referenced before assignment when running predefined script for testing""
+
+* remove comment
+
+Co-authored-by: Sanskar Agrawal <sanskaragrawal107@gmail.com>
+
+* fix typo (#397)
+
+* fix typo
+
+* fix typo
+
+* fix style
+
+Co-authored-by: germanros1987 <38517452+germanros1987@users.noreply.github.com>
+Co-authored-by: Benjamin Ummenhofer <benjaminum@gmail.com>
+Co-authored-by: YilingQiao <49262224+YilingQiao@users.noreply.github.com>
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>
+Co-authored-by: Ignacio Vizzo <ignaciovizzo@gmail.com>
+Co-authored-by: prewettg <prewettg@gmail.com>
+Co-authored-by: Prantl <lukas_prantl@hotmail.de>
+Co-authored-by: lprantl <lprantl@lprantl-DESK.imu.intel.com>
+Co-authored-by: KENTO Yamamoto <31678561+kento-Y@users.noreply.github.com>
+Co-authored-by: Albhox <albertotono3@gmail.com>
+Co-authored-by: amirshal <35299570+amirshal@users.noreply.github.com>
+Co-authored-by: AbhishekS <65679171+ClarytyLLC@users.noreply.github.com>
+Co-authored-by: Matthias Humt <22399283+hummat@users.noreply.github.com>
+Co-authored-by: Matthias Humt <matthias.humt@dlr.de>
+Co-authored-by: Yixing Lao <yixing.lao@gmail.com>
+Co-authored-by: eiiijiiiy <68719911+eiiijiiiy@users.noreply.github.com>
+Co-authored-by: Christian Clauss <cclauss@me.com>
+Co-authored-by: Kyle Vedder <kyle.c.vedder@gmail.com>
+Co-authored-by: WiNet-Lab-IIT-Hyderabad <54973329+WiNet-Lab-IIT-Hyderabad@users.noreply.github.com>
+Co-authored-by: lc-guy <lc-guy@users.noreply.github.com>",2021-10-29 14:11:36+05:18,False
+c0edaa3588c1827209c6330ddce0e240fa44f9ed,"Added Point Transformers (#327)
+
+* add pytorch point_transformer
+
+* fix knn cuda
+
+* fix sampling
+
+* fix index
+
+* use cpu knn
+
+* add augment
+
+* added tf model
+
+* style
+
+* tf 2.5 compatible
+
+* fix knn
+
+* fix bn
+
+* add inference
+
+* add docstring
+
+* use ml knn
+
+* fix memory leak
+
+* address lgtm
+
+* fix style
+
+* update config
+
+* fix knn bug
+
+* Update Readme
+
+* address reviews
+
+* type
+
+* apply-style
+
+* add hue saturation augmentation
+
+* change params
+
+* change optimizer
+
+* remove comments
+
+* fix dimension
+
+* change optim
+
+* address reviews
+
+* Update Readme
+
+* fix pydocstyle issues",2021-10-29 18:03:26+05:18,False
+21be5658788a1d89a145e40d230beec0fdcf63de,"Update torch and tf versions (#416)
+
+* update versions
+
+* Update readme
+
+* Update torch link",2021-11-15 17:45:34+05:18,True
+319921542407bf8963da042b63f2e6dce2b1ab1f,"Add RandLA-Net's License (#423)
+
+* add license
+* Update Readme
+* minor language update.
+Co-authored-by: ssheorey <41028320+ssheorey@users.noreply.github.com>",2021-11-19 14:39:57-08:00,False
+13c847b50f4766cd73f942bd2c12bb86c202c088,Merge branch 'dev' (#428),2021-11-24 17:24:16+05:18,True
+c730f4640e2c134087861184a68356dd19a2e4d2,"Add Tensorboard plugin links to readme (#444)
+
+With sample TB plugin images.",2021-12-17 16:37:22-08:00,True
+87a205a018b2bbde70fef0290fc859e1d24f84e7,"Intel OpenVINO backend (#406)
+
+OpenVINO backend
+
+Enabled models
+Model / Framework 	ported to OpenVINO
+RandLA-Net (tf) 	+
+RandLA-Net (torch) 	+ (Gather takes too much memory and execution time)
+KPConv (tf) 	+
+KPConv (torch) 	+
+SparseConvUnet (torch) 	
+SparseConvUnet (tf) 	
+PointPillars (tf) 	
+PointPillars (torch) 	+
+PointRCNN (tf)",2021-12-22 17:41:43-08:00,False
+160648bf5c7d58a26da8b2819e48327b7e7b5731,"Update RandLANet (#454)
+
+Replace older CC license code with new MIT license code.",2022-01-24 09:09:53-08:00,False
+bc721c5fc17148980efda0b9a6ecb59042ecab9d,"Update changelog
+
+Move OpenVino to separate requirements file.
+Update README links.",2022-02-10 15:27:39-08:00,True
+df284806aa74f3ecc7877c9a5e318d60c2c01b08,"Update RandLANet weights link
+
+Update weights link to address this issue - https://github.com/isl-org/Open3D-ML/issues/458.",2022-03-07 16:12:56+01:00,True
+66131df0f8db64b0293d686355937374f643c0ef,"PointPillars Waymo distributed training model weights and docs (PR #585)
+
+- Training speedup with GPUs.
+- Add model weight file + metrics.
+- Script for running training with SLURM.",2023-02-27 13:15:52-08:00,True

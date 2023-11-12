@@ -1,0 +1,312 @@
+sha,message,date,result
+9cebd94e28b6b0b4ff75b2d6610315d3fa89955e,Adding in the README.md file that contains the name of the project.,2017-08-14 19:54:04-04:00,FALSE
+e1cd9460cd07b7c7489879029213c2ee7b77eb1f,"Adding in the start of the first paragraph in the README; also adding
+the a starting concluding paragraph.",2017-08-22 15:17:56-04:00,FALSE
+9db2e124eec51688f589709ee5e4901ef277c1d0,"Revising the introduction and adding the first draft of the README
+content about running GatorGrader.",2017-08-22 16:28:22-04:00,TRUE
+3d5b602ef67bca6731ea28d42c9b0e3e635cbdd9,Revising some of the content in the running section of the README.,2017-08-22 16:32:08-04:00,FALSE
+652f62b1e39f76d1579a70072830341151750a64,Adding to the README the first example of running GatorGrader.,2017-08-22 16:38:34-04:00,TRUE
+0431fd341bc55210b6431a317ebbf9e701bcef8f,Adding notes to the README file about testing GatorGrader.,2017-08-22 16:52:33-04:00,TRUE
+068375af1217f695cd94801a2d8b1c388be06810,Fixing one of the command-lines in the README file.,2017-08-22 16:53:47-04:00,TRUE
+af3b1ae8262e9b75dbf27202de86ac69e887a6cf,"Adding the first paragraph in the README explaining GatorGrader in
+action.",2017-08-22 17:01:28-04:00,TRUE
+8ae0fc0262347713c546b76dcc9a973abbceeecf,Updating the README with content about GatorGrader in action.,2017-08-22 17:10:26-04:00,TRUE
+75423e4685c8a39eae820c3406ce95e5d609a721,Improving the final few paragraphs in the README.,2017-08-22 17:12:22-04:00,FALSE
+ce93696258a2f0b98836aad75ab128f0f2548fe8,Adding a clarifying statement at the start of the README.,2017-08-22 17:13:26-04:00,FALSE
+12ab24973b33fe917770651cdc00dd79acdb15df,"Updating the README file so that it refers to Sample instead of
+DisplayOutput.",2017-08-23 16:26:31-04:00,TRUE
+865d799507283e4f109ade8469d511b3686b7c81,Fixing the README in the section about Running GatorGrader.,2017-08-28 08:22:02-04:00,TRUE
+8b9eb6af79edf92473c4a765738abfb473e3e611,More improvements to the README content about Running GatorGrader.,2017-08-28 08:22:30-04:00,FALSE
+d8ac93f9fc589d8372fa64f2739ab1a41b797356,Clarifying what students have to write in the README.,2017-08-28 08:23:46-04:00,TRUE
+b6e40f0ca6991479b62fbb122e9fe86a5410135f,Improving the README file's description of GatorGrader in Action.,2017-08-28 08:26:12-04:00,FALSE
+0846fd54d6b3b9070abafb775095ba6563df530a,Adding the Acknowledgements section to the README.,2017-08-31 12:47:33-04:00,FALSE
+f86df91655aea34495d9de3508d1cd3d7f73d94b,Fixing a capitalization mistake in the README.,2017-08-31 12:48:29-04:00,FALSE
+a3a3d0a271b569b5aa7948d544c175e12e366b17,Changing the title of a subsection in the README.,2017-09-02 20:58:12-04:00,TRUE
+73eba04710fa52e61c84f3028866e24a726adffc,Using the correct capitalization of :snake: pytest.,2017-09-02 21:00:37-04:00,FALSE
+0f49c7fce34ae2ec75ea27ae31d4399d21739271,Removing a slash that was not needed in the README.,2017-09-02 21:15:16-04:00,TRUE
+51fed81a30d65c0720458f19853df834242ac59d,Added Travis CI build passing widget to README,2018-02-19 11:19:28-05:00,FALSE
+6dc453d83c463acc226e83c642187ea90e63ae34,"Update README.md
+
+added svg instead of png build tag",2018-02-21 18:00:55-05:00,FALSE
+81ba99b781c757ab48ed70a5f6fc155072e81b67,adding documentation for command line and output,2018-02-27 11:40:01-05:00,FALSE
+3fe62f9798457f6022a2bb7f1828875ba17b6ee8,addin the change in README,2018-02-28 10:51:20-05:00,FALSE
+d9a1aa6219e160e7c3f81e90ce252ce17fb25a56,"Fixed some vague writing
+Also fixed gatorgrader home variable name inconsistency",2018-02-28 14:28:40-05:00,FALSE
+a64f78fc793f0dc193215aa21873111eb6725f4c,Fixed mdl error,2018-02-28 20:34:58-05:00,FALSE
+9f3c6aa844d10a5ae9889181eacfa1772cdb7080,Update README.md,2018-03-03 20:10:07-05:00,FALSE
+31eeb3466dfcee0c35f06f9520a8bdfc9539bb7b,"Update README.md
+
+added requirement for language to be specified for comment counting",2018-03-03 20:20:50-05:00,FALSE
+d8d79fb7d3dc6f6bab882e0d9b0abdc7033fb861,"Update README.md
+
+added fragments optional use with command flag",2018-03-03 20:25:31-05:00,FALSE
+3fc946e0c8732dcdf8a997a4b2006af291ec326a,"Update README.md
+
+removing documentation related to bash script (this repository only concerns GatorGrader itself)",2018-03-15 15:53:12-04:00,FALSE
+960942b5a99a502660006f0766eb45928c282978,adding updated README.md to reflect word change,2018-03-27 15:03:58-04:00,FALSE
+1d2e6aaef9c1aa7eaefd3fd0e03e8d97c0270d36,fixing flake8 and mdl problems,2018-03-27 15:11:42-04:00,FALSE
+34fe0d6a2911c7d4c78c6a62a116c28ce6a6b7a1,Updating the link for the build status badge and adding made with badge.,2018-07-27 12:08:00-04:00,FALSE
+6bff9ba2a7ddf624b1a1423f5d6b90c9d9b5450e,Deleting from the README the example command that required gradle.,2018-07-27 12:11:16-04:00,TRUE
+8efec01f6b8e31693238dfb426c010083968aed6,Changing the Python version statement in the README file.,2018-07-27 12:11:55-04:00,TRUE
+a8d303e4e539f461d939600a34ff65a90f1dcd7d,Improving the title of a subsection in the README file.,2018-07-27 12:18:42-04:00,TRUE
+c80cb7c8a92e183e7b6e564fe26b35a37acd3c0f,Adding in the README a link to the badge for the CodeCov service.,2018-08-06 11:01:05-04:00,FALSE
+1401dabc133ce612615a29283a326ebc960405eb,Improved the first paragraph in the README.,2018-08-25 13:25:47-04:00,FALSE
+6ef7e51b0c5dea4753441500d19f412fc290213a,Further revisions to first paragraph in README; starting next also.,2018-08-25 13:37:34-04:00,FALSE
+5aea1fad8a12e5a9489316c0596ee4b16331013c,Finished a first draft of the introduction in README.,2018-08-25 13:48:52-04:00,FALSE
+cfbca73802beb622e9746fdc8be18752ee3c3c87,Improve an introductory paragraph in the README.,2018-08-25 13:50:48-04:00,FALSE
+20694ef87b22251676f36b2334bcc71dce431e40,Adding in the individual quotations to the README file.,2018-08-25 14:01:19-04:00,FALSE
+4dcd8c9440542d817e746a63f8dd318c584c35df,Revise installation instructions and delete not-needed content.,2018-08-25 14:04:37-04:00,TRUE
+120cb337b068f30743e08820ef12eec9f35ae6f1,Delete more installation content and add link to pipenv.,2018-08-25 14:07:26-04:00,TRUE
+296fe16894a74d1ec055869cc7b0919b736c7554,"Add the ""git clone"" step to the installation instructions.",2018-08-25 14:10:41-04:00,TRUE
+7e2d7a443ffc40635e3fd2b12651e2f182229133,"Polish installation content about running the ""git clone"" command.",2018-08-25 14:12:43-04:00,TRUE
+062cff8fcab568c15a3709bac0576e74e33af1fd,Finish a draft of the installation documentation.,2018-08-25 14:18:05-04:00,TRUE
+54aa7957fa790bdbef4b213a785aaea5797b8e38,Improve phrasing in the Introduction of the README.,2018-08-27 07:46:28-04:00,FALSE
+eb433bdd4138116616a2a3719660885b2aa0842e,Add a reference to the sample laboratory assignment in the README.,2018-08-27 08:00:56-04:00,TRUE
+2dbabcbd7941d8d9e263ca682f961370b31116c0,Delete not-needed content about testing in the documentation.,2018-08-27 08:02:55-04:00,FALSE
+0dbee721a8a77fcd32cf69d9e14eb17681ea4fd2,Add documentation of commands for two simple ways to run the test suite.,2018-08-27 08:09:38-04:00,FALSE
+4dd4cae3710f124a74cb7848b115a0926e3ef702,Add test suite running output and more test running options.,2018-08-27 08:15:09-04:00,FALSE
+f4fccacde8f0310e7e4efa6d46b820456ecb65a1,Finish final draft of documentation content about testing.,2018-08-27 08:18:59-04:00,FALSE
+e633264ada8eec22191c264a2a3f4a02a9f94a97,Delete the out-of-date content about the command-line arguments.,2018-08-27 08:21:28-04:00,FALSE
+ce89b5edc3f2e7ab675aedb99756872fab303f34,Delete incorrect examples in the README about commands to run.,2018-08-27 08:23:28-04:00,TRUE
+930850b08b1d0503894e14c0f421999e25fd35ba,Add details about how to display the help message for the tool.,2018-08-27 08:55:47-04:00,TRUE
+bbd0fb77126e1d33f1a47151487bcb5c0cb082fb,Clarify a point about default values in the documentation.,2018-08-27 08:56:35-04:00,TRUE
+3cdcf98c38532b0d5ab2b5d1cac5e3267b416f27,Add the first example of an incorrect argument to the README.,2018-08-27 08:58:53-04:00,FALSE
+76e4508b5dd8b5fb8705c4ed4005b085e39ccbb1,Add setup points about the first three commands for using the tool.,2018-08-27 09:04:06-04:00,TRUE
+d51e4950d3d9dc0c48433f4b7795967c5c104070,Make a point less specific so that the documentation is durable.,2018-08-27 09:04:26-04:00,FALSE
+ac8ce06e37be9a64b9a9a6f91a60fe9ca32e7f1a,Add the first command example and output and clarify content.,2018-08-27 09:07:20-04:00,TRUE
+549bf0bbae7d71e5fc8a50bdf51987a7bdc2eef4,Adding in two more command examples to the README.,2018-08-27 09:11:58-04:00,TRUE
+5c38dea8e4cc068a597a3602fe29a8ffa0904077,Add all content in a rough draft that explains how to run the tool.,2018-08-27 09:24:24-04:00,TRUE
+0916c3500654ea99e7a39d9a63d6199c092d8b16,Give the exact version of Python 3.6 used to produce command output.,2018-08-27 09:27:49-04:00,TRUE
+ff00983f1479b07526f295748db4e279c7af5084,Add first draft of the new Acknowledgements section.,2018-08-27 09:36:07-04:00,FALSE
+3d8e574c60b78029b0875a60d3465dd2495caf0f,Improve the Acknowledgements section.,2018-08-27 09:37:13-04:00,FALSE
+c3f010c25e008b08538482e3055914e95b1b1357,Fix phrasing in the README.,2018-08-27 09:37:38-04:00,FALSE
+3db365f9df08f072d20034f393561445a84709be,Update the Contributing section of the README.,2018-08-27 09:51:01-04:00,FALSE
+3cd8329e590d4a8c526a7cfd5d8fc8726b672bf8,Add references to past GitHub organizations using the tool.,2018-08-27 10:00:09-04:00,FALSE
+5e552f2d029020bb8301ceedc83543fa4eb43b18,Fix small details in the writing of the README.,2018-08-27 10:01:58-04:00,FALSE
+12276a7667ccda90835adc017f0686ba3c2ddf86,"Add the ""$"" to the commands in README mixed with output.",2018-08-27 11:45:39-04:00,TRUE
+ba1f2ce8fdd881d816ffb45f1e777746f19b040b,Add links to the presentations about the GatorGrader tool.,2018-08-27 11:57:55-04:00,FALSE
+03272971501beb56e57a072254fc5f3997467185,Delete a trailing white space in the README.,2018-08-28 07:56:22-04:00,FALSE
+d2e80161e9327267a82a71373c07c04173aedf28,Fix writing mistake about the presentations in the README.,2018-08-28 07:57:00-04:00,FALSE
+1721c2116cb29d33dfa6f7526269bd412f540aa2,Make minor revisions to writing style in the README.,2018-09-03 11:45:12-04:00,FALSE
+2f9b34e2a672115485539c457495037731b1b247,Deleting a not-needed blank line in the help message in the README.,2018-09-05 19:52:42-04:00,FALSE
+5813d0ed2afbca0336c37b678f8a1c4a6f79217d,updated README.md -- fixed link to sample repository,2018-10-18 13:43:44-04:00,TRUE
+3ca89848aed294a998f50827d91113fac1dc55a8,Fixed Broken Link for Sample Assignment,2019-01-25 14:56:30-05:00,FALSE
+8dda591d89597615837de0b6aa80aa7f624c8a1f,Added name to contributor list,2019-01-28 09:07:35-05:00,FALSE
+0a41f9485f9dd584dbbf533e8a95db00db5ea525,Fixed styling errors,2019-01-28 09:43:57-05:00,FALSE
+535a2db70ffe272d98ecee843032896fcc044ab4,spacing issue,2019-01-29 00:46:24-05:00,FALSE
+27a394ee056a6da1ce94cf0632df0750cf8762ba,"Add correct coverage details
+
+Note that this does not update the number of checkmarks in the section
+above the change, because in xterm I was not able to replicate the exact
+output -- instead, individual tests are each printed, and are not
+separated by module.",2019-02-14 11:56:45-05:00,TRUE
+dd6d7caf63f1925dcf79ea633612cad63897b4d6,Add small testing documentation changes to README,2019-02-20 22:05:07-05:00,FALSE
+2cd02f1f99e8d7a4b6d90e3c6ea2aa48345da89d,updated README.md to reflect new state of test cases,2019-02-21 12:36:12-05:00,FALSE
+5fa413f4690a961af5dc4bf0d86a27b3c30de4ef,"Added emoji to test word count, updated README.md with test results.",2019-02-21 13:18:40-05:00,FALSE
+b1d9526e43592f53404ba10c5b49adfd9d390235,Add link to the PyGotham presentation,2019-02-21 14:07:54-05:00,FALSE
+d78a9f5e4fc376d2ba1c21e6d411c7b007b9bdfb,Update README.md,2019-02-21 14:39:14-05:00,TRUE
+edb012e53938984b7a9dc1c09e33421f58442441,Update README with information regarding regex.,2019-02-27 19:27:08-05:00,FALSE
+68913848ec318b88b28c128fb98b8f56d8b6c5bf,Add some keyfeatures and sub features,2019-03-05 17:46:05-05:00,FALSE
+477090f78cd607eed121be184cd788cd8ed591b7,Add reminder of things that needs to be added to some key features,2019-03-05 17:47:09-05:00,FALSE
+0bab4d2bcb3618f2ea73f3c1bd007b19d741b1f0,Added more key features and edited the wording for some of them,2019-03-05 20:12:58-05:00,FALSE
+2ce8343307f2c2d5b8505d6a9461cc6361e51b93,Fixed grammar in the key features,2019-03-05 20:16:23-05:00,FALSE
+6d81de0b50a72d905a92ffb68d20f4d1b2d5f217,Add some languages gatorgrader can support,2019-03-05 20:37:20-05:00,FALSE
+0c842b1a1416a8f8a71a6abc3b228f91a7835dba,Add integration with my workflows and can be run in cloud base environment or local machine,2019-03-05 20:39:55-05:00,FALSE
+104d55a5faf0696a51887f61236c5db93b9890ab,Refrace the multiple languages sentence,2019-03-05 20:41:02-05:00,FALSE
+d8473e81770a00777e3a15df755620c60d6814ab,Added more key features and fixed grammar in the key features,2019-03-05 20:50:23-05:00,FALSE
+7d3c5458d18c0bacfc01d6d08bb916209e10229a,Added regex usage (line 197),2019-03-07 13:30:01-05:00,FALSE
+2e95e80ea3ad1b417a68e7ed145e63d6e1267fd0,Add few changes requested in the PR,2019-03-11 10:18:39-04:00,FALSE
+64707c48477b7b66d2dd56d2dafc912864b335c4,Add more changes resquested in the PR,2019-03-11 10:19:06-04:00,FALSE
+723c55be441135138cda3640c4455ca23ee1ab8a,Add changes to key features section,2019-03-11 10:19:39-04:00,FALSE
+ac619dee8071e3da0fcfb2856312ac47c4e8682e,Add information about correct regex commands to the README.,2019-03-11 19:36:37-04:00,TRUE
+973a967b56bb00357510210b0846b1c5ac500599,Fixed spacing issue,2019-03-13 17:02:11-04:00,TRUE
+df5cec41546b7b87f14ded37b68b4f7fd6c377dd,"Update README.md
+
+Add changes to key features section",2019-03-13 22:40:11-04:00,FALSE
+deeb8a66fb56e6a84e5e348124a58884b25f8524,Update README.md,2019-03-14 11:36:45-04:00,FALSE
+ca8d92d2a50b1347d156e9890edcfd456bf69e9c,Update README.md,2019-03-14 11:37:54-04:00,FALSE
+6037df95377da2a997a50a4e337c1dc22a0bf9a0,Update README.md,2019-03-14 11:39:57-04:00,FALSE
+e11530ed396e0468859d24da7da41477239b9d81,Update README.md,2019-03-14 11:53:53-04:00,FALSE
+9fdbce66102891d1753facebe3d094f3b50cf9be,Update README.md,2019-03-14 11:54:06-04:00,FALSE
+3d3a4343692e9c7ec2a667b6ac32f25536545d54,Update README.md,2019-03-14 11:55:15-04:00,FALSE
+48029a7f768237e198b3cae4c962c2a8785a1357,Update README.md,2019-03-14 11:55:38-04:00,FALSE
+d535877d9ac4d0c38981f0dbd6d284d901d4457a,Update README.md,2019-03-14 11:55:50-04:00,FALSE
+d5eb440d0e4b3d3df21e8e9c8a769db832975a74,Update README.md,2019-03-14 11:56:10-04:00,FALSE
+5922ac878ceb187ea0ab83f4452e870a1afa7ad3,Update README.md,2019-03-14 11:56:37-04:00,FALSE
+0f105477aab9b4aedd73b8f486b100ad39a8cd2a,Update README.md,2019-03-14 11:56:56-04:00,FALSE
+b32f57110871438718e58fe4b8d910009ed57c5b,Update README.md,2019-03-14 11:57:34-04:00,FALSE
+68afb8869c4e80e14588f4bd37602992286112ad,Update README.md,2019-03-14 11:58:21-04:00,FALSE
+c8f7fb723e9cfa7e314acd3b1848129d6731324b,Update README.md,2019-03-14 11:58:52-04:00,FALSE
+ad091a774d43bdd787420149079269828b28ede1,Update README.md,2019-03-14 11:59:12-04:00,FALSE
+3a80f999a6f9d6523747988573c7d08979e2f5ea,Update README.md,2019-03-14 12:01:18-04:00,TRUE
+8c39b712784244ebc4286a5243e7b20d3a24fb80,Update README.md,2019-03-14 12:01:28-04:00,FALSE
+367b628dc1a6e5652815d5fd2425ce68d079ca00,Update README.md,2019-03-14 12:01:36-04:00,TRUE
+c572357887482b2e95cc343b8ae81e81757f6424,README.md updated version with deeper pytest documentation,2019-03-14 12:14:56-04:00,FALSE
+18fd3ba410e054e21029089f84d587e13e772170,updated readme,2019-03-14 12:26:50-04:00,TRUE
+f6f30544c5424071d4c242b1bcf7c0b0a606c3be,add documentation of all current sample lab repos to list,2019-03-14 12:34:28-04:00,TRUE
+10e0f88ec6e056448a1f2d22f75c850553107d83,update samples in contributing section,2019-03-14 12:43:07-04:00,FALSE
+24006df0b490cf3acf040e53580f83a1e023db78,update README to shorten list of sample lab repos,2019-03-14 13:09:33-04:00,TRUE
+b4b7463b048b5515a08015b7e2effa08ef84aef5,minimize logo size,2019-03-14 13:39:53-04:00,FALSE
+3ba76bbfbca89ac7ae89344e0537830ce5f6a7fc,changing logo size once again,2019-03-14 13:43:28-04:00,FALSE
+4ed55e364250cdf6f783c32357870c88d0182e77,Fix lining errors,2019-03-14 13:43:48-04:00,FALSE
+4f1b123dfd2d5cb5ae5e794b89f6143e8185c629,Fix some spacing,2019-03-14 17:15:23-04:00,TRUE
+ea86af1436fde2132bd624f67d1f0af264e8608f,test image,2019-03-17 13:44:39-04:00,TRUE
+15e15473dfc4a4eb62fe4cff9b31227931427df6,Update README.md,2019-03-17 13:45:02-04:00,FALSE
+61f9f9174a295fda7cb5ed1f22a68bb61a8e4590,"changed markdown code to reflect the url of the logo 
+
+changed url from /dubswalker to /gatoreducator and changed logo size",2019-03-17 13:50:00-04:00,TRUE
+858aff59e5269cc1b3d9a084b43c8f57450dc23b,Added logo summary,2019-03-17 14:55:35-04:00,FALSE
+a8021ef962533252960d60d8c1746e05c8f63405,Update README.md,2019-03-26 15:01:34-04:00,TRUE
+eda21eaa5df07bf9756d39ee3184bb9271676a70,Update README.md,2019-03-26 15:03:25-04:00,TRUE
+d1bd4b6c944c5b162bc0b1fe26151509f8264a54,Update README.md,2019-03-26 15:04:46-04:00,TRUE
+6d02ec9f0637c085bf8e6d8fc9879a58ad0bfa60,Update README.md,2019-03-26 15:18:25-04:00,TRUE
+bf86bf1d9f314275e1b5c02bd23c8ce708470d4f,Fixes README.md to conform to the requested changes and fixed formatting to meet Markdown standards.,2019-03-26 18:04:08-04:00,TRUE
+3318a0be7fd603664baaf269496facbc56d95e51,Fix formatting and remove/rename unneeded titles,2019-03-27 13:50:39-04:00,TRUE
+f17edc94c5700ebf1dc39098c3f54244aab24c5e,Update README.md,2019-03-27 13:52:20-04:00,TRUE
+17afeb551b647ae9adec6620de1d7f9461524f22,added png instead of svg,2019-03-28 11:46:39-04:00,FALSE
+5a6659a9ba51cb18c29ccafe90c58ce1d59bdea3,Update README.md,2019-03-28 11:52:52-04:00,FALSE
+daffe800ca83f3d6878bc9cca2b54c998193a3eb,svg to png and changed png location to .github folder,2019-03-28 11:55:12-04:00,FALSE
+5d9ea7437303b38335251a80b8143ca135e8af3e,Fix image url,2019-03-28 15:45:10-04:00,FALSE
+9ede4f8afb5b8c5a403753523c23e8921f1b65ec,Update README.md,2019-03-28 15:46:50-04:00,FALSE
+95a656501518f780f5693271a76e49b1c1da2e69,Remove unneeded additions to README.md,2019-04-03 16:26:37-04:00,TRUE
+6523dd3de5b9ffd3dd4c427662d22a03db06055a,restructure of starter labs in README,2019-04-04 08:53:22-04:00,TRUE
+b3473973d7a2791f17d0c9f5ee2c1684f44ae519,Fixed link to Python website.,2019-04-08 16:04:26-04:00,TRUE
+7ea2637d592b17dbcc192c7743a631d2a6b0ec0d,delete test coverage report,2019-04-09 22:43:26-04:00,TRUE
+7ce1198327568a511ff2e285d59efaaccbb019a7,minor fix to capital letters and fix commands,2019-04-09 22:52:11-04:00,FALSE
+80af2f840f2e6cf843d43a4195e675e67697e137,delete error chart for test cases and edit the commands to run test functions,2019-04-09 23:01:10-04:00,FALSE
+8321973d66dee1c1be159086d841fce262b73889,delete classes that gator grader has been implemented in,2019-04-09 23:11:02-04:00,FALSE
+0e5c82deff056ed55f71b5ba423c9f03eccd1971,edits to wording,2019-04-09 23:37:40-04:00,FALSE
+bedb5cb083d1b86cd4b2b0858ddca38e1b8ca9c5,delete commented out section,2019-04-09 23:40:14-04:00,TRUE
+e0e22dae5de3323ec93645705adece07e0175726,delete unnessary line having to do with executions with outcomes,2019-04-09 23:41:26-04:00,FALSE
+cc59d2bf973a65c8fd0d85385bbd910a43d7bd49,minor typing change,2019-04-09 23:44:49-04:00,FALSE
+dee90b86013f300ccf5c4ec338cfe02e847983bf,rewording of sections,2019-04-17 08:37:10-04:00,TRUE
+90e8025c2c4da20b73993f458cf378d293304a61,move acknowledgements to bottom,2019-04-17 12:49:50-04:00,FALSE
+35006d7073a68f59779231a6d02e3d4674c2b273,docs: update README.md,2019-04-17 17:18:22+00:00,FALSE
+e9d803f6698edebd6331263975ffbc8564a6d280,Update README.md,2019-04-17 13:21:29-04:00,FALSE
+69c002e0c62ee1316fa6a511ed060734e26c4e2a,minor change during meeting,2019-04-17 13:28:40-04:00,FALSE
+c9cf6af1a52dd2c8c4d48feaf1a8c9e9d31d8c11,Add all other starting contributors,2019-04-17 14:10:21-04:00,TRUE
+8c3def01799c059df042d8c81dbfbca70f310a91,Update all-contributors badge to match others,2019-04-17 14:14:54-04:00,FALSE
+d135c579f5c884e08b4f728bbf940f32c27fa6e5,Move all-contributors badge,2019-04-17 14:16:22-04:00,FALSE
+390c20db3309c558cce8545c0098365b276b461e,Regenerate all-contributors,2019-04-17 14:24:31-04:00,FALSE
+496ff8e194cf0a95d78676aa5f5c7c2b75ce3935,Regenerate all-contributors,2019-04-17 14:25:31-04:00,FALSE
+f5768e9291855bdda91ecfaae95fcd48f0c103bb,Add codacy quality badge,2019-04-17 20:30:24-04:00,FALSE
+ad617bcf611f9b1da729a214154b4ce33aba3e17,Change all-contributors badge type,2019-04-18 11:41:34-04:00,FALSE
+5e890fdb1d0ed71438d55a04cd950687e008dca1,rearrange key features and delete repetition within paragraphs,2019-04-23 23:55:23-04:00,FALSE
+dccb59770724c7600afe9894e0dc04c8cad101ee,start of comparisons and error codes fix,2019-04-24 00:21:30-04:00,FALSE
+323383ab6bf1d30a66971da98ea6de5538c6b839,Submitty Contrast,2019-04-24 08:04:52-04:00,FALSE
+1ba0420954c5e8d7045995b5c6ff0235ad253c39,Web Cat addition,2019-04-24 08:25:53-04:00,FALSE
+955eeb87544acd5df7b850f5b6a5c0499a9d24b7,delete all contributors,2019-04-24 13:03:46-04:00,FALSE
+e7d4d85e44a5b9adf70c478d650de1d488e212d0,word edit,2019-04-24 13:10:28-04:00,FALSE
+789cec0263892869ddc83a4d68deadaff51e4993,running gatorgrader paragraph,2019-05-12 12:18:42-04:00,TRUE
+80ea96a8edce37cdb5df50b2dfbf276f5010d9a6,testing gatorgrader paragraph,2019-05-12 12:28:18-04:00,FALSE
+43cfc2989286e21666c879ffeda5c95337607a3d,installation paragraph,2019-05-12 12:33:09-04:00,TRUE
+3b476af7371919781f74060fcd5614a91fa85c28,Add appveyor badge,2019-05-21 18:33:55-04:00,FALSE
+1842ff818a7b1e0685341d42d0a4becba0b125e7,Update README.md,2019-05-21 18:40:07-04:00,FALSE
+9a4027009ebfdd9ab3382bbdb14921be72ce3bd9,edits to readme based off of codacy issues,2019-05-22 09:49:11-04:00,TRUE
+54dc53b87b16f850ea93532699fb8bbf672b07e6,codacy fixes that deal with indentation and lines spacing,2019-05-22 10:02:31-04:00,FALSE
+c1ae8445c773b8f77e7e28383775c0b5d654cf41,spacing change for key features paragraph,2019-05-22 10:10:13-04:00,FALSE
+aed0a50be54fe1e787bbeadfea2c7974b665e295,add a space to fix codacy,2019-05-22 10:15:55-04:00,FALSE
+6b3698175caa5c038baad73ac30fb07d6fd720c5,add a space to fix codacy,2019-05-22 10:25:03-04:00,FALSE
+99b63cac7564e39ed7c4daa88c769295afc2942d,remove space below line identified in codacy,2019-05-22 10:58:17-04:00,FALSE
+01bbacfc5caea53fa9a9540de8d7a92ba6892a97,attempt at one space before bullet instead of 2,2019-05-22 11:05:35-04:00,FALSE
+24fe79e2aa6d34b4a451cbe7df1b26fe1fa0aeb0,2 spaces added to remove new codacy issues,2019-05-22 11:13:26-04:00,FALSE
+920a7cc7972130954fcbf8fffb4c96f8412f562e,fix character max for codacy,2019-05-22 12:10:00-04:00,TRUE
+00817dff6aa7e77e5088ec3e2305b3dcb14bf152,codacy word max met for lines that did not pass,2019-05-22 19:25:05-04:00,TRUE
+9751fc9aa6859422351a238e55316a8d655413dd,codacy word max met for lines that did not pass,2019-05-22 19:31:06-04:00,TRUE
+df50c084fdb6cf263fb9b9cef2659cdcaf3c6127,Fix list indentation and spacing,2019-05-23 08:37:28-04:00,FALSE
+54bbc5014a4ce975e13ee4066820c46e552be826,Fix indentation of list,2019-05-23 08:42:13-04:00,FALSE
+ed3c45a9b626ad14043dd8381add611bbd3e6029,Fix list length,2019-05-23 08:51:35-04:00,FALSE
+b82710f682f5801d7546b6539f5b15a5c2b04c69,fix max line length,2019-05-23 10:36:32-04:00,FALSE
+c6fbe62d701967a0ac6591998f6e1e759fd4ed17,fix spacing and minor typo,2019-05-23 10:49:49-04:00,FALSE
+52f0b06657fedbf84759cd3113c6574783e5ec0c,removal of line before node,2019-05-23 16:00:54-04:00,FALSE
+b9da74c7c1261e68c310f0d32bcf44a50f75ce9c,Fix badges and various smaller issues,2019-05-23 16:21:28-04:00,TRUE
+5ea7116e833cac2b244d83566239626c412963be,Fix line lengths,2019-05-23 16:25:55-04:00,FALSE
+91a0bc5e9ee73e9eff43e558bb92eb2ef7b8aa2d,Add a space after a subsection in the README file.,2019-06-14 08:54:14-04:00,FALSE
+f9b1b6a99a86e335402b5cf8e18f74188bcd5bf0,docs: Delete the space in the name of the tool in README.,2019-07-06 18:40:19-04:00,TRUE
+28b7caa7a30fecb0f10c3ee7f10d2979ca761354,docs: Fix spacing and modify the tool's tagline in the README.,2019-07-08 09:47:42-04:00,FALSE
+00e00d68f5e570c5fc4ca80814f3facd74e5103f,docs: Improve the Quickstart Guide in the README.,2019-07-08 10:09:23-04:00,TRUE
+884a3efa831fcddc3d9d7a48bd1f527769caeee8,docs: Improve the tagline and introduce the new logo with title.,2019-07-08 10:53:52-04:00,FALSE
+6728482115a237665e78df63bd8c893c205aa57a,docs: Add status badges to README for maintenance and license.,2019-07-08 11:08:31-04:00,FALSE
+a39e07086ed3038bc7aeb8f746f9747351f70d64,"docs: Delete the ""Made with"" badge at the end of badges listing.",2019-07-08 11:09:55-04:00,FALSE
+ef43492a79069a634d04b4107aec9085a6b82955,docs: Improve the listing of key features given in the README.,2019-07-08 11:45:19-04:00,FALSE
+46f517f7e16e550b4272a365204736282a6c2479,docs: Revise the summary paragraph at end of list of key features.,2019-07-08 11:53:40-04:00,FALSE
+35d722fa0b899b82d9ed3d0e22f3f321f7e99432,docs: Fix the final sentence in Quickstart Guide in README file.,2019-07-08 11:57:13-04:00,TRUE
+5782566ccd242565b2d3df221b686e0d7c85d700,docs: Reformat and clarify the quotations about GatorGrader.,2019-07-08 12:00:04-04:00,FALSE
+d588175d82dd1ac06c6f72953e2449827c73ecfa,docs: Fix small writing mistakes in the README.,2019-07-08 12:02:25-04:00,FALSE
+8fb28b2b5eac924d752c35f100c7ab078c207c5c,docs: Fix small writing mistakes in the README.,2019-07-08 15:39:00-04:00,FALSE
+1a85b072d1c86bf46467c0bcf727801d60745057,docs: Clarify a point in the README about the problem the tool solves.,2019-07-08 15:40:08-04:00,FALSE
+667b4fae31ab17e16a06676064e79ace9741c9d1,docs: Fix mistakes and polish the installation steps in the README.,2019-07-08 15:52:30-04:00,TRUE
+a7ca4f4748cd5172b88f61af4df2480e3719d960,docs: Improve the Testing GatorGrader section in the README.,2019-07-08 15:56:43-04:00,FALSE
+00ef0451b27386109d4ef7d8048d701e17ccee04,docs: Add the description of the linting tools to the README.,2019-07-08 16:05:02-04:00,FALSE
+0b154573b43f224fa392b96c0ef24a5e37b05151,docs: Add a quotation from an instructor to the README.,2019-07-08 16:13:59-04:00,FALSE
+0c6e880f00291f516e0ffda927157afe2351a545,docs: Add a table of contents to the README file.,2019-07-08 16:22:40-04:00,FALSE
+c383a92fa1869bdbbd7812733a88dfc21d2040b0,docs: Delete a not-needed space near quotations in the README file.,2019-07-08 16:25:38-04:00,FALSE
+49140c37cf8d88047bd4a34b38dedeeaf73b4dbc,docs: Improve the Running GatorGrader section in the README.,2019-07-08 16:28:16-04:00,TRUE
+14060146c0543ad7323b51f0f882c54a94cbefaa,docs: Improve the GatorGrader in Action section of the README.,2019-07-08 16:40:43-04:00,FALSE
+fcbb32793ea07e5e8ca6916e630573afe7305dd8,docs: Fix small writing mistakes in the README.,2019-07-08 16:45:04-04:00,TRUE
+e731ac3b4e18d246ba2afec624679a11c0f9c926,"docs: Combine subsections, update TOC, and polish README content.",2019-07-08 16:49:44-04:00,FALSE
+feede84fc8c12415ddf58b3de7f573ae9ad9c111,docs: Delete content from the README.,2019-07-08 17:09:27-04:00,FALSE
+e2661f575830f2d5c53fe17fee685c390802e85e,docs: Finish a comparison with other existing tools.,2019-07-08 17:34:17-04:00,FALSE
+63e597fbb88fb74fea914abf8a8d6b9921b5b5e7,docs: Revise the comparison with existing tools in the README.,2019-07-08 17:41:48-04:00,FALSE
+9fd591b43e82be0faee8e93297bbf914ee61b9a3,docs: Clarify the Contributing section of the README.,2019-07-08 17:43:23-04:00,FALSE
+43b2a29d54f7c342f2a6125b6ed75dd05f10e8b0,docs: Simplify the content in two sections of the README.,2019-07-08 17:44:53-04:00,FALSE
+0951bbc5200485d338b2f05e45ab72979b2e03b4,docs: Make small improvements to the README file.,2019-07-09 15:39:14-04:00,TRUE
+350a9777fd2c0b8ba24ca80cd20bf7bb11f670e3,docs: Fix a small writing mistake in the README.,2019-07-09 16:46:24-04:00,FALSE
+2aec2271cd590c671b6f933d2c4b103a5f7cafb4,docs: Fix a small writing mistake in the README.,2019-07-09 16:52:34-04:00,TRUE
+428579b5167cdcc6849022d385644eb50a594392,docs: Revise the concluding paragraph in the README.,2019-07-09 17:28:01-04:00,FALSE
+e8cb52e8b5da10cc6aa7301bbb4c18163e66d768,docs: Add a missing word to the README.,2019-07-09 17:51:13-04:00,FALSE
+b8d08016dba4663341be9d0728b0f7f387aa9470,docs: Change a word in the README.,2019-07-09 17:51:42-04:00,FALSE
+3a489337d9e24dddd276aeb930cef1cafe519387,docs: Revise the README content about running the tool.,2019-07-09 17:56:56-04:00,TRUE
+30a1da0ede4cd74cf6cb711ab759608f75204f3f,docs: Improve a subsection title in the README.,2019-07-09 17:59:09-04:00,FALSE
+55c3c3bcef9436cf75cc1dd09b6fdc2a171b6268,docs: Update the TOC in the README to reflection new section titles.,2019-07-09 18:00:31-04:00,FALSE
+8626ebef0942a71a5c11e03d131a55de8ddf1975,docs: Delete a not-needed entry from the README file.,2019-07-09 18:01:02-04:00,FALSE
+d18a8091b546954cd084140d71647cf16296273c,doc: Add content to the README explaining how to switch Python versions.,2019-07-22 11:53:40-04:00,FALSE
+35519215ca28c5f0af199efbc770e185163c0660,doc: Move and rewrite README content about the use of invoke.,2019-07-22 12:12:08-04:00,FALSE
+cb80750748949f23316a59405bda361d44e922db,doc: Improve the Quickstart Guide in the README file.,2019-07-22 12:13:37-04:00,FALSE
+4e76411d861f8b6f39d5e6b0d49d19a2848b4dd1,docs: Clarify the README content that explains how to run pipenv.,2019-07-22 12:22:19-04:00,TRUE
+f43b50f5aed0f064df2b583969e907941359bba7,doc: Remove passive voice from the README file.,2019-07-22 12:23:11-04:00,TRUE
+79476cea174ff61c99da626ddbdc9681e6ee4971,doc: Clarify a sentence in the README about the use of Pyenv.,2019-07-22 12:24:02-04:00,TRUE
+e1f7851a18ae9d0925af6ca8dde7651900ab4e3b,doc: Fix an invoke command in the README and also polish it further.,2019-07-22 12:29:01-04:00,FALSE
+7325feb440b3e193623b6a13bb9bb12ad6898b7c,docs: Fix a writing mistake in the README.,2019-07-22 12:30:33-04:00,FALSE
+9bdb420a12b2af1239c34c2e1e6aecce860524a4,docs: Revise a sentence in the README.,2019-07-22 12:32:01-04:00,FALSE
+90459014c32a92a8c656ab2d21d1861e3438f796,docs: Update the table of contents in the README.,2019-07-22 14:28:00-04:00,FALSE
+e397efcf5eff24da692b4b69e1f1d40b17d877bf,"docs: Clarify that a command in the README is a ""for instance"".",2019-07-22 14:29:23-04:00,FALSE
+300cb5ca7b44a67ece15a753fcfd6e4f6d5b4a69,docs: Update README.md to use command substitution syntax instead of backticks.,2019-08-02 11:06:33-04:00,TRUE
+5617671b253be2daafb0c4d95892b9ae3a8f3b0a,docs: update README.md,2019-08-05 15:27:19+00:00,FALSE
+d40bab7dedc1f4f7be517e16b4dee112989e2b47,docs: update README.md,2019-08-05 15:33:39+00:00,FALSE
+86cb1e0af45c6de60b67cb47e3a1472964521707,docs: Update the README to emphasize the bound version of Python.,2019-08-05 14:52:47-04:00,FALSE
+16e57252095435cb55eabc3b2f282c47a5f08256,docs: Rewrite invoke commands in the README to use scripts/tasks.,2019-08-05 15:05:30-04:00,FALSE
+206d116bd91f8bcb68a0a6b0e6a5af5054ef6363,docs: Improve the README content about using multiple Python versions.,2019-08-05 15:13:10-04:00,FALSE
+96619d15d4d256b02c03721f382d9cae0fc84024,docs: Fix grammar in final comment at the end of the README file.,2019-08-05 15:14:56-04:00,FALSE
+e222cb60ee9f3137e44668fcd386506785e33bb0,add checks to README,2019-09-09 12:37:11-04:00,FALSE
+ec3e0f3b8417509a99639277802d98b48ebc3da4,delete check explanation in README,2019-09-09 12:50:34-04:00,FALSE
+9af1e2fd9d42406d72915df047a7f7cf5b0fb9e7,organize linting check titles,2019-09-09 12:58:52-04:00,FALSE
+685d737326f38801d5acfe6bea4ff0cce7797cf5,add website link with ordered list of checks,2019-09-17 13:42:03-04:00,FALSE
+2d848001d0ea3a9a3734e19c07442eee57fcbf0a,add explanation for optional arguments,2019-09-17 17:15:17-04:00,FALSE
+2cc486bd22435e274084af2d5a4791361264f3a4,fix explanation to linting checks,2019-09-17 17:42:51-04:00,FALSE
+b4f89d6178be500374962346627a0fd867523c6b,fix explanation to linting checks,2019-09-17 17:47:33-04:00,FALSE
+84ec5a6b94b98e3a5b1b70375d93978a6eeaf865,delete quote section from README becasue of addition to website,2019-09-25 00:12:21-04:00,FALSE
+9eb98893700c9e972e4b2042e0059a665acc60ea,change in explanation of automated checks,2019-10-31 12:45:02-04:00,FALSE
+26047aa891ca05bc28789f0a451da862e5c76104,add in solution and starter repository links and subsections,2019-10-31 12:51:45-04:00,FALSE
+83044adb319e30fefa57a71dbf9c7c6b7e228a26,add ListChecks command explanation,2019-10-31 12:56:03-04:00,TRUE
+c89bb4de0300ad2bbef0b4cbaf463210ebfdf4a4,add in the using docker section,2019-10-31 13:43:12-04:00,TRUE
+5a465e63d73e5ccb7be72ef9ff5a8173166a1d84,change in url and add docker to contents,2019-11-02 12:08:06-04:00,TRUE
+e5384d542fc05c5d4eaa4d711407afdbe06f0ea3,add the LaTex links to README,2019-11-05 11:23:25-05:00,FALSE
+5fa590219e6dd67cbe494de04d4c17bbfd553a33,add a break line for new line,2019-11-11 08:30:54-05:00,FALSE
+7474158b437c8b17a23d757c99e91fc906c81fea,removal of break tag,2019-11-12 18:51:36-05:00,FALSE
+33378f8fc15c6ec4d1b17f4ac43e5c125a9eb0b0,change link in readme,2019-11-25 07:51:55-05:00,FALSE
+bbfdffb164288aee382e0631de464a7a1597ecf9,fix link for gatorgrader.org,2019-11-25 08:00:11-05:00,FALSE
+a3b8f03b47d4a33f48da69d3c2019421b67e7628,"chore: Add .gitattributes, re-format, and fix dev deps and AppVeyor.",2020-01-20 20:18:54-05:00,FALSE
+01a036239e7490fcc8d0b6436709d166a2f1d79d,docs: Update CodeCov badge,2021-01-13 22:48:20-05:00,FALSE
+f7d07d00d2f5f9e6409f6669ba7162f2bea5809c,docs: Add GitHub Actions badge,2021-01-13 22:56:08-05:00,FALSE
+7c55e8a404fdd31ed4d4bc57a853cf220f57a713,fix word changes,2021-03-28 17:15:53-04:00,TRUE
+239a2ab076763d842406d07a882a97cf6a070f22,"Add documentation for PyPI release
+
+Additionally, this makes the public interface available through
+`import gatorgrader` well as `import gator`, although `import gator`
+is recommended.",2022-07-18 16:10:18-04:00,FALSE
+364fcfbe02cd40325c4b14afbee1d4f7d40a6d5d,Update README documentation,2022-07-18 16:10:18-04:00,FALSE
+bf7a56a2c9831422d7b1fe2d7be44fc97e49b1dc,Fix punctuation and link issues in README.md,2022-07-18 16:10:46-04:00,FALSE
+cc2df9d45437f0c28fa92ef25bee1237326fe896,Update README.md with details/fixes for poetry integration,2022-10-16 23:44:07-05:00,TRUE
+1a050292501abb40931aec9f90c6417db06602f4,Update README.md logo link to be full URL,2022-10-17 00:19:21-05:00,FALSE
+88586966aba16ef0930b8eee80fb98e2ccf90b7b,Fix minor typos and links in README.md,2022-10-17 00:24:36-05:00,TRUE

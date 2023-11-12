@@ -1,0 +1,14 @@
+sha,message,date,result
+c791050d2674be09c045158d646eaeaed069c6bb,Add more information to the README and a new readme for contributors,2017-06-27 08:20:06+02:00,True
+a2b89a61ac7e31a2c95af150e49d18aeddd191a5,Update the upstream git URL for blivet-gui and blivet,2017-07-11 09:09:05+02:00,True
+699567b29a3fbce6be02e75b7a3285d9b13d17ad,"Update README
+
+CI status and link to Wiki with installation instructions added.",2019-07-25 10:42:48+02:00,True
+94a2f8f2fe8709414f0d5d747c1ef66e35dc68ff,README: Add information about Debian and Ubuntu repository.,2019-09-10 09:43:26+02:00,True
+b57bc17b70b6fd757c62f3204fab8ea676ea153d,add link to translation platform,2020-02-13 05:28:53+01:00,False
+8d3c8544ab1f3602e9e6123a0350bcfd9f4b3f36,Add daily builds badge,2020-06-19 12:25:24+02:00,False
+7da3fec1471dec3f72c4560a8051ad576d5e9085,README: Add more information about the OBS repository and its usage,2021-04-07 21:42:30+02:00,True
+2adc9c56e3e953c19fa1605867d80fcae5a4619a,README: Add information about the openSUSE and Mageia Copr repo,2021-08-07 22:00:40+02:00,True
+23e8bd1d76b584292c73a022c5b4d01442c7643f,README: Add information about OpenMandriva repo,2021-09-05 20:45:24+02:00,True
+cc58f51679b586aecf9a6d3aa40b452c1184ddef,"Various grammar fixes in README.md, CONTRIBUTING.md and doc/intro.rst",2022-03-19 19:14:33+01:00,True
+5d9a9b1676af370ca8d64dab6c3cce1a10b74b86,Fix various typos discovered by spellintian,2022-12-04 16:01:28+01:00,False

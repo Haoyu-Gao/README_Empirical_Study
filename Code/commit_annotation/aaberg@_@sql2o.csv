@@ -1,0 +1,32 @@
+sha,message,date,result
+6777d3d5d3aee4fb6947b1d566e1f409718e6d6e,add readme with dapper data,2014-02-21 08:10:19-05:00,True
+e06708efa22369232030f95a42e5a4660ed18ec8,fix markdown links,2014-02-21 08:11:51-05:00,False
+2534e6040a7e876217cd4f7adf09b1ac6baded5d,"initial cut at performance tests, havent run them yet",2014-02-21 09:45:31-05:00,False
+e30d49715d28ad9207d5b543c1274a008c5393f7,add performance test against ResultSet and Hibernate,2014-02-21 22:25:14-05:00,False
+1416e1d7cdf7b4964af1271f4172b18366358bfd,slight cleanup,2014-02-21 22:29:32-05:00,False
+502825be23203fbc90a0da517d4a646f31785b70,update readme,2014-02-21 22:39:24-05:00,False
+816ffa2d6aed884e784a436c023fec3ae929c61a,update readme,2014-02-21 23:08:37-05:00,False
+ef891fc3c2439287880d4dece826aefd9592104b,update readme,2014-02-21 23:10:24-05:00,False
+e7baacc7334ba06dbfc713d80f7ec8c5b035eec8,update readme,2014-02-21 23:12:55-05:00,False
+ad57d5c87231898b04ac96e25eae254f282546a2,update readme,2014-02-21 23:13:57-05:00,False
+0b78f184b6239a81e5342359ab4f3128015a7cf8,update stats after running on a decent machine,2014-02-22 14:15:25-05:00,False
+825e1e8f02b7a938dd40d112bc65be1cac10a127,print out percent slower and update readme,2014-02-22 14:31:07-05:00,False
+bc833e380d0f707619555da291cf0449cd326e3d,update readme,2014-02-22 14:40:26-05:00,False
+40ab9cb0b5d98ce77e6bd0f95cd1f01839a3381c,update readme,2014-02-22 14:42:00-05:00,False
+c2224269a967057f7ce16917fbad8088cdcae786,update readme,2014-03-26 21:07:13-04:00,False
+1416b564d344b0a92480b98decdbe77330c24cf3,updated readme with new performance test values,2014-03-30 17:08:10+02:00,False
+49e2ea892696ca35a939045f6f6f8371e98982da,Update README.md,2014-03-30 20:49:25+02:00,False
+a2e0fc53c64cd66274c3d63b694429317088a183,Update README.md,2014-03-30 20:50:27+02:00,False
+6e9e9a22f483100b7c891637212a67e39d46bc6d,Fixed dead link in README.md,2014-05-01 20:34:57+02:00,False
+df722320b3c62049158dd23e389ad2d9a2ba8460,Update README.md,2014-10-09 00:16:12+02:00,False
+b05494c66a9b6a8112081cf57874e14c15c4fafb,Update README.md,2014-10-09 00:17:42+02:00,False
+348da2208f48d9fdca4ad21ce4d9a019139b1d85,Updated the README.md to include travis build status,2015-02-18 23:15:23+01:00,True
+4fd6886e8eeff487da33bdaf23b18bfa466b2346,Changed travis build status url to point to master instead of the travis-test branch,2015-02-19 00:51:46+01:00,True
+dc816c3913f67e6b6e9a53d5b994b22bf4fe9ab2,Updated the travis build url to explicitly point to the master branch,2015-02-19 01:58:13+01:00,True
+96e762eef0ec5ab06c6392b1174b9ef7b04649ef,Updated travis build information to point to official sql2o repo,2015-03-03 21:01:43+01:00,True
+b513fdecc7e82df45daedd35ce3ebbbb0ad756b9,Clean up README opening,2016-10-28 09:59:00+11:00,True
+7b8feccaf532d3345a041acb157e21e39064e151,Update README.md,2017-08-22 15:57:04+02:00,True
+cf07d55c73928caf716dea842af7466f2122a3fd,move settings file one step down,2018-03-28 13:57:50+02:00,True
+ef3b366f0ac5cf15931cd8ece3baef790534f685,Add Maven central badge,2018-10-22 11:21:01+02:00,True
+01d3490a6d2440cf60f973d23508ac4ed57a8e20,Add Coveralls badge,2018-11-22 07:59:13+01:00,True
+ad90d5959a8c538690e338be07df7a7c5e993bbb,Update README.md,2019-05-16 12:55:50+02:00,True

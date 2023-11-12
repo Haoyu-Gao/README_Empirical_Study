@@ -1,0 +1,41 @@
+sha,message,date,result
+b53a7b593827bac0b0e87c6a7387229f683fabf7,Added Python package files and README,2020-04-28 18:25:08+02:00,True
+966f5d24fdb2cf267a9a5347a8b41ede0d359b68,"Added docs outline, installation instructions and README outline",2020-05-08 17:07:00+02:00,True
+a8895dfe1a11e199b73074437d225c57f4cea214,"Moved the documentation from eradiate-legacy, including README.md and fixed a typo in scenes/builder/base.py
+Also added autodocs for eradiate.scenes.builder module",2020-10-02 17:10:35+02:00,True
+94b26c767aba5ae21a4f5cfd297a7c8f0d2dd790,Set up automated docs deployment on readthedocs.io,2020-11-04 19:51:30+01:00,True
+36611cfa9cccf472398604c8f2b9660121545d53,"Docker: Refactor the Docker image build, automation and documentation (#94)
+
+* Docker: Refactor the Docker image build, automation and documentation
+
+Docker images for Eradiate were scattered accross different repositories.
+Their structure was missing an easy configuration and build method.
+Build automation was only available internally at Rayference.
+
+This patch solves these issues by bringing the folloing feature:
+ - A centralised docker-compose file at Eradiate repository root ""docker-build.yml""
+ - Usage of env variables to specify some build parameters
+ - A ""docker"" folder containing all the necessary Dockerfiles
+ - A gihub workflow which builds the images everyday at 23:42 and for each tag of the form v*.*.*, and push them to docker-hub
+ - Documentation update to reproduce the build internally
+ - (external) A new, properly named docker hub account to store the images: rayference
+ - A nice badge on the README to be informed of any build failure
+
+* Remove jupyter lab install command
+
+Co-authored-by: Nicolas Misk <nicolas.misk@rayference.eu>",2021-06-21 16:41:43+02:00,False
+9e5c11975b91f2890b088982ec22eb018cfedda3,Docs: Update README.md,2021-08-21 00:19:32+02:00,False
+7371f095e0138d100d014c5ccec6cb411bab340b,Docs: Update README and description pages,2022-03-14 15:16:21+01:00,True
+6de43db59689cff9d362e8b18d5c75f9da3e56e2,Docs: Update README,2022-03-15 11:03:59+01:00,False
+a3dfe36fd9b2f7e5842c60a7d5204f9d2138072e,Docs: Minor logo update,2022-03-17 22:45:25+01:00,True
+dce89b5f740f11bd37b398d03cc9067a71fca638,Docs: Minor updates to README and install guide,2022-03-24 10:48:29+01:00,True
+c6e43bc584983c76f346a1f05a603fed940e384f,Fix typo,2022-03-24 15:14:29+01:00,True
+8d6990a14e2e00d41ae36d2570815d9a94b93d01,Docs: Add ESA contract no to README,2022-05-21 22:11:14+02:00,False
+66113951e28f1d9356e770baf200e5af573e1a75,Docs: License info update,2022-05-31 18:27:30+02:00,False
+1a170514832be34a80b3e1a11646f7634bed0dae,Docs: Update changelog and installation instructions,2022-08-05 16:27:21+02:00,True
+cf81c891cf71997e55c24f0dc5d3b18c76d2f388,Docs: Update README,2022-09-05 14:10:36+02:00,False
+54685cebf90fcbf2935e934f336885fa7dc53b6e,Docs: README minor update,2022-09-12 16:21:31+02:00,False
+3e8a330099a157c9779006342a7adfaea9060b22,README format,2022-09-24 23:10:57+02:00,False
+8f6e5ba06fdf015e830a9f825b3b7d8eb3e8c060,Docs: Update README,2022-10-14 15:18:28+02:00,False
+4dc5ca129b79e3c2dfe63dbca44209ba2d28ca87,Docs: Remove Docker badge from README.md,2023-01-03 19:00:14+01:00,False
+9181d35fa610cc7b0611d5ccf368d222af6fe15f,Replace isort badge with ruff badge,2023-03-08 13:44:15+01:00,False

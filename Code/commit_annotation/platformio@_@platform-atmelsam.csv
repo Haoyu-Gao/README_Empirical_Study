@@ -1,0 +1,12 @@
+sha,message,date,result
+7cdab1aeae6e1fd1999c577c514caa519fcb0e8e,Initial commit,2016-05-27 15:30:49+03:00,FALSE
+436eca14a60e8cc9cbc5df0a299902be8ac60be0,Initial commit,2016-05-27 15:44:00+03:00,TRUE
+21ba35376577b597f512a717aabd96ec06947870,Use GIT URL to install development version,2016-08-29 15:37:32+03:00,FALSE
+0fc0a2f0641cf246c8a3628774e1fe428685afe6,Typo fix,2016-09-03 20:47:53+03:00,FALSE
+6e638fbc07ecdc98e63cdb6412357b8801bbb576,Use stable documentation,2016-09-17 00:15:43+03:00,TRUE
+3abc420ac84e0b7d7ad2447a6990149adee2e97f,Update links to docs,2017-02-22 16:29:33+02:00,TRUE
+360ce986489209d315f685779add1cae8a5c3d25,Update links to docs,2017-02-22 16:42:54+02:00,FALSE
+fae4b083e731e3601c7b22c12f51238cdb126e75,Update usage section in README,2018-01-10 14:13:30+02:00,TRUE
+7b4dd2b876039c2e556ac821d3d966c6dc06efc7,Switch to Github Actions as the main CI service,2020-06-02 16:01:20+03:00,FALSE
+a70025717f47f960915be1735b30fc4878018ebb,Switch docs to HTTPs,2022-03-31 14:19:16+03:00,TRUE
+f06764534919b9f607675ea0480c07d6cdc85b6b,Add compatibility with PIO Core 6.0,2022-05-27 15:59:46+03:00,FALSE

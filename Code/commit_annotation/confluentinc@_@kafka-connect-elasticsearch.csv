@@ -1,0 +1,14 @@
+sha,message,date,result
+b5836f0a129a444b9ceeb1b4ca3e5f7137790265,initial commit,2016-02-10 01:47:59-08:00,False
+6a741a84828709bf75950d7e46a4b846122d23b1,Initial implementation,2016-06-13 10:53:29-07:00,True
+1efe6ca80ffdacff57e974449866a53d41102212,README: link to current version of Kafka doc,2016-07-27 11:41:51-07:00,False
+7dfca0fa617631855b5df68b18956f5ec11612c0,Add license scan report and status,2017-07-17 11:20:12-07:00,False
+433768601159da57a2436db5a7cd5892b79c688f,Update README.md with details for local dev,2018-09-18 22:51:09-07:00,True
+882c11f8b2d673e576c32c3ee94f8f217c7adf65,Manual updates to use CCL,2018-12-14 00:55:10+00:00,False
+0f56257557d24a35b2c0c77b1a93e95e69a372a9,CCMSG-1181: Updated validateConnection to not fail if user doesn't have monitor permission. (#552),2021-06-15 16:34:12-07:00,True
+e0e3cbb3dc177bb45a1c73befea1fa16b34f017e,Add link to Changelog (#610),2021-12-23 09:25:34-06:00,False
+898eb592a26b8f22720de6fa13d91cf76910f359,"MINOR: Contribution guidelines for developers (#616)
+
+* MINOR: Contribution guidelines for developers
+
+* MINOR: Update README.md to include link to contribution guidelines",2022-01-27 13:12:15-08:00,False

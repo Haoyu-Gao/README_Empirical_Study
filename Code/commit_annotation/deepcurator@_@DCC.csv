@@ -1,0 +1,476 @@
+sha,message,date,result
+56f9397ea5c011e5237f7b12efe417957a6ac4bf,Initial commit,2019-02-27 17:29:16-05:00,FALSE
+741ed6faa61d7b21e7f441f445cfdc2a7905dbb9,Update README.md,2019-02-28 22:46:48-05:00,FALSE
+30ba1730c412f323dee102d50373b601552993a4,Update README.md,2019-03-04 12:00:26-05:00,FALSE
+de22a350c4dfac271b8390ee652fc12e1b8ee188,Update README.md,2019-03-04 12:03:01-05:00,FALSE
+ceabb0e22645b06deceac3c48313661ae97331fd,Update README.md,2019-03-04 12:51:06-05:00,FALSE
+193d80094b0f61535bd3a3e31a70f94f172775be,Update README.md,2019-03-04 12:54:01-05:00,FALSE
+787c64b8e5418d3cfe54a313b905c35180c2761e,Update README.md,2019-03-22 01:49:24-04:00,FALSE
+a0b9543ebded21e12f2bb1a67cdca27be6531b74,Update README.md,2019-03-22 01:50:19-04:00,FALSE
+6278ebc3e60c9711aaa94cff049ac87dc0bc0dc4,Update README.md,2019-03-28 09:51:38-04:00,FALSE
+bad1c64f4d35048d1558e30b479a4efbeafca461,Update README.md,2019-03-28 09:57:22-04:00,FALSE
+f684501d421ffd263036f25a63d1bfc0793cc406,Update README.md,2019-03-28 09:58:31-04:00,FALSE
+295100d823435e9df2ac5e405882e2f9d1d74e13,Update README.md,2019-03-28 09:59:00-04:00,FALSE
+3a86ee29f328f318901f5a8ebd894465c8893600,Update README.md,2019-03-28 10:00:42-04:00,FALSE
+695d1f6213ca9e941169de969f1acfb3550bd37c,Update README.md,2019-03-28 10:04:39-04:00,FALSE
+763d4aaba9604cde7c16058b377fd11a1d6b8177,Update README.md,2019-03-28 19:32:08-04:00,FALSE
+ad028a0f560171531b21c005c4bde5968227394d,Update README.md,2019-03-28 20:07:12-04:00,FALSE
+23b8a22545ff16facf8e7c384cbf99f1ca54e977,Update README.md,2019-03-28 23:57:11-04:00,FALSE
+a46d4695a7c410ad271d0950355a23031d09fd49,Update README.md,2019-03-29 00:15:12-04:00,FALSE
+1fa347cb4b29ff7209769806157707a7baadac41,Update README.md,2019-03-29 00:29:18-04:00,FALSE
+d9f842e6f1338c92817bc0ebd67825843d73342a,Update README.md,2019-03-29 00:29:52-04:00,FALSE
+aa69e15b7c7b6696b692fee5d776212a47986409,Update README.md,2019-03-29 15:55:42-04:00,FALSE
+d75e792a3b7273466a4eaf16ffef0447c0e117f8,Update README.md,2019-03-29 18:34:53-04:00,TRUE
+5c2b9d8ab926f2be82d1059800e33b5aa7478c54,Update README.md,2019-03-30 12:42:21-04:00,TRUE
+4437a5f23112d7cce1c83ee416b0a37022d279eb,Updated Readme.md to include DARPA logo,2019-03-30 13:24:10-04:00,FALSE
+0d841e238827ba6d3751b9c834a189f08d622ce6,Lists were not showing right. Updated that,2019-03-30 13:24:55-04:00,FALSE
+b71250f31f648c5583399bf233778e50fa3b4dde,emphasis changes on text,2019-03-30 13:33:35-04:00,FALSE
+9fc3bdb0ed1f08f0195a1dde34638a8c1c0c7605,Update README.md,2019-04-01 17:50:36-04:00,FALSE
+7958ae9091b88213f956605c8eb0cac29e2dfa2d,Update README.md,2019-04-01 17:51:35-04:00,FALSE
+61210131958d7b21e09773487a9baad05e19dc83,Update README.md,2019-04-01 17:53:05-04:00,TRUE
+38703eb47db0c0db88dab1ce5c907f46e424e8aa,Update README.md,2019-11-04 16:37:15-05:00,TRUE
+1a2df4318818ca7983957e41e9e392d5c4fff586,"Development (#35)
+
+* minor bug fix
+
+* Updated to have definition :hasFigure
+
+* Python interface to Virtuoso with graph plotting
+
+* Create RDF graph out of text for publications
+
+* Image to RDF graph
+
+* Python export from Visual Studio Code to jupyter notebook
+
+* updated to process multiple repositories
+
+* updated to process multiple code repositories
+
+* Update README.md
+
+* Update README.md
+
+* renamed
+
+* updated to work with the latest changes
+
+* removed extraneous plot from queries.ipynb
+
+* Update README.md
+
+* modify pipeline to add ontPath & paperId as inputs
+
+* last query added
+
+* pykg2vec script
+
+* minor fix
+
+* removed print statements
+
+* minor fix
+
+* bug fix
+
+* modified argparser
+
+* update readme with pykg2vec script
+
+* minor fix
+
+* typo
+
+* debug
+
+* debug
+
+* debug
+
+* clean repo
+
+* Delete 123.owl
+
+* modify doc2vec file name
+
+* move function save_to_file
+
+* move script_train_pykg2vec.py and comment
+
+* remove old train pykg2vec and comment on new one
+
+* update readme accordingly.
+
+* change gitignore
+
+* add dumping function for config files.
+
+* update graphast export functions.
+
+* add ast generating parts.
+
+* Reorg
+
+* modification to auto-annotation data
+
+* gcn code vectors
+
+* Update README.md
+
+* Update README.md
+
+* Update README.md
+
+* Update README.md
+
+* figures added for readme
+
+* Update README.md
+
+* Update README.md
+
+* simple node name option
+
+* bug fix
+
+* bug fix
+
+* fix import path
+
+* split functions into seperate files
+
+* changes for tf projector
+
+* supernode embeddings
+
+* visualization and others
+
+* initial commit
+
+* new query added
+
+* query updated
+
+* query updated
+
+* updated import statement
+
+* initial commit
+
+* file name updated
+
+* paper name updated
+
+* added comment
+
+* Create test.txt
+
+* adding report for milestone m13
+
+* Delete test.txt
+
+* Create test.txt
+
+* updates for GCN
+
+* CSO update and merging graphs
+
+* First version of CSO ontology merged with graphs
+
+* Merged image2graph (December version) and CSO merged text2graphs
+
+* changed tf version to 1.15
+
+* relative path fixed for gae/gcn_train
+
+* Text Triples
+
+* text triple generation
+
+* updates to text2rdfgraph.py and minor other changes; removed old scripts
+
+* separate code for embedding work into src/embedding (moved from code2graph/core/gcn)
+
+* src/code2graph/core/gcn moved to src/embedding; minor changes in other scripts
+
+* minor fixes to gae_train.py
+
+* generate triples for siemens
+
+* improvements to embedding code
+
+* CSO queries first set updated
+
+* Added upsampling block to the FigureComponent
+
+* refactor ast explorer
+
+* finalizing graphast.py.
+
+* clean doc2vec pipeline.
+
+* clean and change hyperparameters.
+
+* clean imports.
+
+* clean
+
+* stripping.
+
+* code2vec preprocessing pipeline.
+
+* doc2vec model files
+
+* add gensim
+
+* forward pass of code2vec.
+
+* code2vec loss calculation.
+
+* change doc2vec label information to the whole function name.
+
+* tokenize function name
+
+* doc2vec evaluation
+
+* updated model
+
+* fixed bug: creates directories for intermediate results
+
+* deleted unneeded files in diagram2graph
+
+* minor edits and reorg
+
+* moved DARPA logo
+
+* added reports/README.md
+
+* updated diagram2graph/FigAnalysis/ShapeExtraction/DemoScript.ipynb
+
+* testing skeleton.
+
+* fix training pipeline
+
+* evaluation
+
+* change epoch number
+
+* fixed to old demo notebooks
+
+* skip preprocessing
+
+* skip preprocessing
+
+* clean up data
+
+* Added CSO equivalents for images
+
+* CSO Equivalents for image2graph
+
+* Text2graph changes
+
+* triple tuple to list
+
+* filter to reduce pathcount
+
+* filter pathcount
+
+* small bug fix
+
+* evaluate model every 5 epochs
+
+* fix target to idx mapping
+
+* add rank metric.
+
+* modify hyperparameter
+
+* sample one function 3 times
+
+* cast target tensor to int32
+
+* sample based on num_contexts
+
+* lowercase labels for better subtoken matching
+
+* upper bound on sampling
+
+* dropout only for training.
+
+* increase batch size.
+
+* Update code2vec.py
+
+* fix evaluation score calculation
+
+* change to top 1.
+
+* refactor code2vec model
+
+* recording embeddings and checkpoints.
+
+* Removing extraenous lines
+
+* temp fix for unique test labela
+
+* temp fix for separating train and test labels
+
+* shuffle train and test
+
+* change function name
+
+* evaluate training error
+
+* fix sampling.
+
+* filter the document that already existed in training set.
+
+* move output files before saving metadata
+
+* remove pdb
+
+* paper2graph demo
+
+* paper2graph demo change
+
+* minor fixed to demo/run_all_modalities
+
+* commiting multiple changes
+
+* code folder issue resolved
+
+* merged rdf graphs
+
+* merge graphs changed to nt
+
+* serialize to nt files
+
+* serialize to nt files
+
+* changed turtle to nt format
+
+* fixed publication_id_uri
+
+* Latest batch of queries
+
+* Latest batch of queries
+
+* Methods and functions
+
+* queries that show methods and tf functions cooccurring
+
+* image and related functions
+
+* paper2graph
+
+* updates to embeddings and embeddings demo
+
+* updated queries.py for demo
+
+* updated queries for demo
+
+* color changes - "".txt"" removed
+
+* queries.ipynb
+
+* fixes to demos
+
+* cleanup of embeddings
+
+* Update README.md
+
+* Update README.md
+
+* Update README.md
+
+* Adding alignment folder
+
+* updated conf.yaml
+
+* Update README.md
+
+* Milestone 15 report
+
+* cleanup
+
+* cleanup
+
+* cleanup
+
+* cleanup
+
+* cleanup alignment
+
+* adding kgconstruction
+
+* cleanup text2graph
+
+* cleanup of src
+
+* updated conf/conf.yaml
+
+* updates to README.md and minor edits for embeddings
+
+* cleanup
+
+* Update README.md
+
+* Update README.md
+
+* Update README.md
+
+* Update README.md
+
+* comments
+
+* cleanup
+
+* Update README.md
+
+* update README
+
+* updates to embeddings
+
+* Update README.md
+
+* remove DCC.ipynb
+
+* cleanup
+
+* updated README.md
+
+* update README
+
+* added embedding_demo/ folder
+
+* updated src/embedding
+
+* updates to READMEs
+
+* updated text2graph/README.md
+
+* updated text2graph/README.md
+
+* Create test.txt
+
+* updated alignment/README.md
+
+* add report for Milestone month 18
+
+* clean up and updates
+
+* Tweaking kg construction
+
+* updated demo/run_queries/README.md and conf.yaml
+
+Co-authored-by: Aung <aung@pop-os.localdomain>
+Co-authored-by: amarviswanathan <amarviswanathan@gmail.com>
+Co-authored-by: kulatu00 <tugba.kulahcioglu@siemens.com>
+Co-authored-by: kulatu00 <54407005+kulatu00@users.noreply.github.com>
+Co-authored-by: louisccc <louis29418401@gmail.com>
+Co-authored-by: Ioannis Akrotirianakis <48071735+ioannisakro@users.noreply.github.com>
+Co-authored-by: Louis Yu <shihyuay@uci.edu>
+Co-authored-by: arquicanedo <canedo@gmail.com>
+Co-authored-by: arquicanedo <44371316+arquicanedo@users.noreply.github.com>
+Co-authored-by: Aung Thu <aungthu17593@gmail.com>
+Co-authored-by: Aung Myat Thu <aung@AICPS.SERVER>",2020-05-04 20:40:33-04:00,FALSE

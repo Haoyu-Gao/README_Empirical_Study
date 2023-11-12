@@ -1,0 +1,36 @@
+sha,message,date,result
+989e399825af57cefe5aa4103dc9f111bb0e3525,"init repo (with notes from Dec 16, 2017)",2018-01-12 11:50:48-08:00,False
+027f1639ecf29f9e8d5e9b605e1b3ecb4e65139a,start writing up my thoughts,2018-01-16 16:58:42-08:00,False
+9dcebe3a0dd8cb2a4a31de29b757e9950a2399b4,(old) pipenv setup,2018-03-19 21:24:19-07:00,True
+acfb1fadb5ed51ba5fe6c217c9b15def72f9bb02,docs,2018-03-20 20:55:43-07:00,True
+d66fed95534d7a443e2cf84e9290d0c9bdf72311,WIP,2018-03-21 18:46:23-07:00,True
+4ce751f000285bc97adef27bab0873ae2690859e,bunch of unstructured notes,2018-03-22 21:31:05-07:00,False
+f8920f46b46282670229bdb7cf12052d167c26e8,dev infra,2018-04-11 15:02:51-07:00,False
+4b521b5eb0eb0843e365ac063cb04706d1cb674a,docs update,2018-04-11 15:31:06-07:00,False
+f819a369af5237f340e9229169c4fbed92778d64,update README,2018-04-12 12:09:06-07:00,False
+cc85fa69262b6e937e9d675808ca779d15c6fd85,refactor tests around more,2018-04-20 16:17:48-07:00,False
+4cf667c283d54f769e73d76bb23bbb68b4329cf8,move python code to subdirectory,2018-05-16 18:34:19-07:00,False
+a06721491227266e8abc829a754dfed1a84deec7,update README,2018-05-16 18:41:54-07:00,False
+c6dd01e26b74e066437821575ca6afd3ab9b07fc,rename RFC document,2018-06-17 13:27:59-07:00,False
+d03cb8421c6bd9c73fae43e1de1cac0455598f77,update readmes/TODOs,2018-06-30 20:35:02-07:00,False
+e4c1514294443b9e6f6ed716dcad5ebec64c3af8,prep for base32 encoded identifiers,2018-07-20 14:32:54-07:00,False
+8630a99c0c6351f5d4a051ce0c38b162f46b62ae,license under AGPL/zero/MIT,2018-07-24 17:52:25-07:00,False
+195305f1c2525f32c7c0ddbedf66353c058f2bd4,README tweaks,2018-08-24 13:01:24-07:00,False
+eddf4872b0b4436b020f45c18e7c146058c8907f,"fixes rfc url
+
+Closes #1, fixes url name",2018-09-28 16:39:48-07:00,False
+879ca85a5b074e2b03d8da9e55dfcf6593853f6e,moved github repo to internetarchive org,2018-10-12 15:34:16-04:00,False
+0565516ce64297cf83f4cab23454f017c0fb3515,update README and TODOs a bit,2018-11-07 11:36:30-08:00,False
+d07b0240d9ddc824694a94da594186380d4d7f44,update README,2018-11-08 11:46:09-08:00,True
+9555367d693ccb894eb8960c98507315e581f60a,most basic fileset/web access tests,2018-12-26 18:14:47-08:00,False
+c1cdda4cf4c714f92b5fd7676e44ab5a92e637a9,update main README,2019-01-04 13:31:37-08:00,True
+8bd35d2b452cef9d4537e2b84180aad0f43347ac,update READMEs about python client library,2019-01-09 11:34:52-08:00,True
+7119e7525516ebba8edd3110d2a08d29eb317484,update README with progress,2019-01-14 20:51:20-08:00,False
+2a72864a8e39a2a45c00840ae0eff005d0735eae,add CI/coverage badges to README.md,2019-04-05 13:51:21-07:00,False
+33af234aa7d776e5d1ef28d08cca712d6d10cdac,perpetual access to the scholarly record,2019-08-24 14:08:04+02:00,False
+a65dfc914517376b5ededb82e594236c5d61c721,update all other mentions of python client lib,2019-09-05 18:54:39-07:00,True
+81c031ec822aece655104cf545a556ce72d7cd73,update top-level README (checklist done),2020-07-31 12:19:18-07:00,False
+95bcef522ba3cdb32fc60078caec38855506c814,update README,2020-10-01 21:46:56-07:00,True
+c5fdad74622350e7445a962f96975348a964018d,update 'contributing' page in guide,2020-10-02 00:12:57-07:00,False
+87bab32f1391e8074d4ab9cb3d97f86c257065e2,README: photo instead of ASCII; small tweaks,2021-02-25 18:43:14-08:00,False
+b347264c4e69a0d475994074befe94ab103693f5,README: title as a title,2021-02-26 14:16:34-08:00,True

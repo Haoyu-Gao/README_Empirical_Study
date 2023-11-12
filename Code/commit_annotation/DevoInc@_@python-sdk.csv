@@ -1,0 +1,131 @@
+sha,message,date,result
+60315328ca27281778b7b84fb9399e13c218940c,Initial commit,2018-09-14 12:09:20+02:00,True
+a336be7834f6fb04b5c32ffbf3b5d73c25345ec3,Added test function to setup.py,2018-10-01 14:05:29+02:00,False
+3bfb1a19e44f5e1fa555ef257144feec2b69401c,"Local server for tests
+
+- Created custom-not-usable certs-keys for tests purposes
+- Modified the code for create local server thread apart
+- Modified tests for connect to local server, not to real Devo",2018-10-08 18:13:52+02:00,False
+5cd09411f2b8851c416647344e9ef00b521a8f1e,Updated README.md for build status,2018-12-03 17:16:06+01:00,False
+550c561dd3b68ce2bd2abe38c63182b44167290b,Updated README badgets,2018-12-03 17:48:52+01:00,False
+cb41b5093f1c3d096465053fd7f1f3108ece3e65,Updated readme badgets for master,2018-12-03 17:52:04+01:00,False
+12176502fd0f519393ef94dc115a08cd7b5beb4a,.gitignore modified,2018-12-17 16:02:37+01:00,False
+52576d31e7f5a512cf4a2bd4d2a230a23eee0807,"Updated changelog, version, etc",2018-12-26 17:40:16+01:00,False
+5976a35219b0b6b7ade57e32a9feec1461997796,Updated versions and changelog,2018-12-28 16:14:52+01:00,False
+14b2755533ed106aad37270b4efb5f48d5aadb7f,"Fixes in API and refactoring code of API and Sender v1.6.0 - 2019-01-09
+
+Changed
+ * Mild refactoring of Sender class
+ * Refactoring API Response processing
+
+Fixed
+ * API responses blank lines and splitted lines
+ * Problems with API CLI and automatic shutdowns
+
+Changed
+ * Typos in docs",2019-01-09 14:11:37+01:00,False
+4f8fc38dff42394e9e083a5e759b1cd098f838c5,Updated version in changelog and __version__ files,2019-01-09 18:25:45+01:00,False
+621978a5ed675da739533610538c953bd4fe5897,"Modified version in changelog, readme and version files",2019-01-16 11:02:34+01:00,False
+c87a1298c46c60086e7feac8012bf51ae0cf0dfc,Documentation updated,2019-01-17 15:30:58+01:00,True
+a92826d185fc69d3bb1e67b4a018823d23c8b85a,"Updated changelog, version and README version",2019-01-17 15:32:58+01:00,False
+781a88754f19fb20dfdecc0f3943b200ef3d3dbb,Updated version file and README version,2019-01-18 21:27:10+01:00,False
+bdd6136dab3c30b5a560b60e605e09a371a9047d,"Modified processors, now we can process by default in yield with some defaults options",2019-01-21 12:59:26+01:00,False
+d06c22f9c3503633391e45a90b2a97f93a9e5308,Fixed response when error,2019-01-22 17:47:45+01:00,False
+5b06c543ff73d0b4152102eac4656128b6938ad0,Updated version and changelog,2019-01-22 18:27:22+01:00,False
+79aa780ee2c54c22d0bc377350ec3dfc98187ccf,Added documentation and fixes configuration for python 2.7,2019-01-28 11:16:30+01:00,False
+34bb2c4a106b8868bfd7a2b66ab6583bf73a3cb0,"Added flag revise to api query, for make insecure calls if client need it",2019-01-28 19:43:56+01:00,False
+02a542b5cfb760062bf323b9d6f0bfd672738312,Problems with recursion depth when zipped send has problems with Socket.,2019-01-29 10:42:50+01:00,False
+c769960fa1a5d32396e8602022a2eecd539cc148,Changed all new endpoints references for sender and api,2019-01-29 16:30:23+01:00,True
+4c8a3623f1341941a89b8be55ad74a0d97123ad3,Updated version,2019-02-12 16:11:22+01:00,False
+25091176de723b60fde42bc8e53263c8c206b7dc,Updated readme,2019-02-22 13:10:07+01:00,False
+5b724dd72adc0bb41bdc87da5786c2a74d730653,Updated changelog and version,2019-02-22 15:18:57+01:00,False
+ba99f0f84476873ef2aac8ccccc2414594a58c65,Fixed little bug with new confiuration init and update changelog-version,2019-02-27 16:43:42+01:00,False
+f4b489bae0a0f443cf2e6c7d61d2bcb26ec9e984,Updated version and changelog,2019-03-28 10:56:23+01:00,False
+b43f923418a9f73748eb1385d2f16fb4aa2f6e9c,Fixed: Sender for logging (Handler) get Severity correctly,2019-04-03 14:49:10+02:00,False
+f854628020c312a69482242b0e84d3e1693afe1d,Fixed bug in  Sender CLI introduced in version 2.2.2,2019-04-22 14:53:57+02:00,False
+95c2d5808c68acbe63a40d70fb51101cd231b9fb,Updated versions and changelog,2019-04-25 12:47:46+02:00,False
+6a800fd647247bddb7da3ff0f54e8834ed59a8d4,Updated endpoints and docs urls,2019-04-26 17:48:57+02:00,True
+c1722cb8b0b2e712af7cf6be41792b43f7f4ca73,"Updated docs, bugs and comments",2019-06-17 13:36:29+02:00,False
+456ee356872f687453efef60fee470832464b4ca,Updated collectors to old paths,2019-06-19 10:39:42+02:00,False
+89a24d58cfaf4a7e3016bdbc815c2519292d3a10,"Revert ""Date input""",2019-06-19 10:44:23+02:00,True
+63f9c5f235e7b3a5e31a2a4463f590384a2ae5a0,Update README.md,2019-06-19 10:46:26+02:00,False
+a6d7cfda2bb9169cb13949eada11adb9f2a48ed7,Update README.md,2019-06-19 10:50:02+02:00,True
+bc268c131a8d1c118ccaadef4ebf25912b891d77,"Changed Options to ClientConfig, and fix tests, code and READMES",2019-06-24 17:32:28+02:00,True
+1886247cc20d3ced74a5749fd752ad7394e56f01,"Revert ""Revert""
+
+This reverts commit 89a24d58cfaf4a7e3016bdbc815c2519292d3a10.",2019-06-26 15:47:45+02:00,True
+7f862b1ec5bda082b5496ee610dee2a58ad3470b,Updated changelog and version,2019-06-27 13:29:54+02:00,False
+26d32b3eec2e5c05edb5b93918c42bc5286434de,"Fixed dates in Client when int, and overriding tag in sender",2019-07-01 15:58:16+02:00,False
+006a4615f6b90a81163bf1702b40b22f1067fe92,"[3.0.3] - 2019-09-25
+
+Fixed
+ * Fixed reconnection to socket in every send instruction of Sender
+ * Code style changes
+ * Added pep8speaks file for Github",2019-09-25 12:46:25+02:00,False
+bb6f0ffd0fd9274811ed9372641409c2a4fdba80,"Version 3.1.0
+
+ - Modified logs to add level by handler, not by logger only
+ - Updated/Fix documentation
+ - Added read pfx certs in Sender",2019-10-21 12:27:41+02:00,False
+864b5565fea2d263bb410bd5bf2b8725ddee1a2b,"[3.1.1] - 2019-11-12
+
+Added
+ * Support to CA_MD_TOO_WEAK problems with a new flag ""sec_level""
+ * New flag documentation
+
+Changed
+ * SSL Socket in Sender creation with custom context
+ * Tests Sender certificates generation/files are updated
+
+Fixed
+ * Problems in documentation with API information",2019-11-12 13:38:08+01:00,False
+916c75113d97bc01ec5fc1d8ab1c562a0203618c,"Updated documentation, changelog, version and deleted prints for tests",2020-01-09 19:32:35+01:00,False
+77c0ebe3c2868a982e74ca5133f5186cf97cfed7,Updated documentation,2020-01-22 14:11:55+01:00,True
+46150c10e459f32b5ac0472ed3d161a8f6cecc83,chore: update README's year,2020-03-05 14:18:25+01:00,False
+6b053307c87f1a464231cb786896d542f6a94303,Fixed bug introduced with last changes,2020-03-17 18:58:16+01:00,False
+62c696481361806e32f1b4482c397e8852404bc5,change version in README.md flag url / devo/version.py,2020-03-30 23:40:55+02:00,False
+9b5a2dcd1a8972b075780d9dfb214ed62d40a5fc,Added new security flags to Sender SSL Sender,2020-04-02 15:29:21+02:00,False
+3689af9cb02dd9f2410e6403525b83fd2798c46c,Updated version,2020-04-03 11:12:18+02:00,False
+6ac955e7ae512bbb563f6c4fda75dede508d6ff0,Updated version,2020-04-03 12:05:18+02:00,False
+22a285de13a7df00ac8913b233cafbe89ad744d1,Added new flags in sender CLI and new function for buffer options,2020-04-14 10:57:10+02:00,False
+abcd5202da1366647171324609f94bc988e4118d,Updated version,2020-04-14 13:03:48+02:00,False
+35c253be878232eda342cacb38d86c67d363bbbf,Fixing documentation errors,2020-04-14 13:27:55+02:00,True
+99844f1e849c470425565820dc62013e15613bde,Update README.md,2020-04-17 10:56:18+02:00,False
+d3a3c1b775ec3fac1200c91c69815f3dc74d8180,Added examples and remove two typos/spaces,2020-04-29 17:40:55+02:00,False
+d5b88a1038f2e1433a486bdc08044cae2f9d3e2a,Updated version and changelog,2020-05-11 11:03:11+02:00,False
+9b76eb058dc3dd3761565ada291fe7ab4b0dd564,"Changed version, updated changelog",2020-06-02 15:16:26+02:00,False
+6521abe32c520ccbbe2ec06204080b12818d6a3f,Changed version,2020-06-10 18:40:36+02:00,False
+40c9bd70f9518e974d561151886198d48e9352e3,Fixed problem with row types in Lookup creation,2020-06-30 10:45:48+02:00,False
+b1acad434e8fefe0df4391812104184fa0918cd5,Fixed problems with builds,2020-06-30 13:21:36+02:00,False
+3831223363fc2826b33167f7e5e63f7b36365c9d,Updated doc and version,2020-07-13 11:22:48+02:00,False
+91b699ca45aa78e45ea07c3da025296e4ac2496c,Update version,2020-08-06 13:59:15+02:00,False
+19eb049628642788e77fa7f28569620a7348548a,Updated changelog and version,2020-11-03 13:25:43+01:00,False
+07f2f08f87bf2826a9884ed0ffbb5b6e8957e176,Updatd version,2021-05-18 16:23:23+02:00,False
+2e00aa84ca48dd5ca5d5b6bfa22f0b236efa21cb,"docs: add Sender and API endpoints for Canada region
+
+Additionally, both lists are converted to tables.",2021-05-24 13:58:20+02:00,False
+9976bc86da3dde4b81b8d17ba43a478f72fb429f,chore: update copyright's year,2021-05-24 14:20:05+02:00,False
+9618a874aa749fa548f83f252d33fb03bf3291df,"fix: remove sender's endpoint for AWS CA cloud
+
+Apparently, for now, this is not ready (yet)",2021-06-18 09:41:54+02:00,False
+de0f6d4a33ea7d31a5b2224added93867dfc034a,chore(release): 3.5.0 (#116),2022-01-20 15:34:23+01:00,False
+0d94f812ff4af8aa53ecff5c1733807d459dea08,chore(release): 3.5.0 (#116),2022-05-18 13:56:44+02:00,False
+1fb357f3f0174785b13561f4768883295eb3260a,"fix: Some documentation fixes, mostly related to dependencies and compatibilities with Python versions",2022-05-20 09:57:41+02:00,True
+7263f1ff0534cad79c3972b906f775976bace11b,fix(doc): Reference to public documentation fixed in README.md,2022-05-27 19:23:44+02:00,False
+52e0b595afb6e47ed46e9f182123262e76041529,fix: README.md,2022-05-27 19:38:46+02:00,False
+437bacad2d29f339fa27449e8d9b5940faef9511,fix(doc): Version fixed in README.md,2022-07-11 13:47:39+02:00,False
+d922cd00ca007699c9e29670ca8499f6477d307c,fix: Update docs for Sender and API CLI,2022-07-20 18:08:43+02:00,False
+3debca84acbac7527f31dd5543daf9bfde0630f8,fix: Fix receiving empty keep-alive token,2022-07-21 19:09:44+02:00,False
+088a8c41a9216345906c992bac0870ee566798a3,feature(keepalive): Query API support for server keep alive feature,2022-08-05 18:02:34+02:00,False
+fbe7b478d683e47465060b32ae81d3316c7e8d5c,chore: Modify documentation and setup with last changes,2022-08-23 13:53:03+02:00,True
+a1915281d912a958e6e856e02555bd2f7fda85cc,doc: Fix badges with automated info,2022-08-26 10:23:16+02:00,False
+bfa0c691b926fa924df2d4388408d9a088e43367,Update README.md,2022-08-26 12:04:05+02:00,False
+eb091bb6cc41ffe42b3869fbfbc6b4980b009f4e,feat: Add escapequote flag and tests,2022-09-01 14:11:51+02:00,False
+c88dfd9f450b48d1a1950001170f46282df6dc9b,fix: Fix typo in README.md,2022-09-01 16:54:39+02:00,True
+c14f7c7769ad2c83a18fbf6393f328b2f5d4432a,"Fix/documentation (#170)
+
+* fix(doc): Documentation fixes in `README.md` and `docs/common.md`",2023-02-21 13:08:25+01:00,False
+48565c69f293ca0923dc43eec9eaef1e330d1905,"Par 16742 verify config (#171)
+
+* feat:  Added `verify-certificates` parameter support in event sending and lookups management clients
+* fix: Some documentation fixes",2023-02-21 18:00:29+01:00,False

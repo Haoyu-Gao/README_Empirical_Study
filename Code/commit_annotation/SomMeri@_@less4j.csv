@@ -1,0 +1,204 @@
+sha,message,date,result
+15b84abb699c0607744544146a2352496b84fca0,First version of README.mf,2012-06-29 13:36:18+02:00,False
+5bd7c5f04234e2d30e91ff74ac7d9726fc4eec3f,.,2012-06-29 13:41:45+02:00,False
+f9a2046964aec7d0ea1c0c8415a86c3b018da28d,.,2012-06-29 13:43:12+02:00,False
+28b917c417c734dfcd766b20b7d5560cf374fc2f,.,2012-06-29 13:43:46+02:00,False
+ccdc2ff6eb12379c3ded7e028f6510150c01f582,.,2012-06-29 13:44:53+02:00,False
+95b4c7eb84c65a4ebc463947ddeb61e550ca03e6,.,2012-06-29 13:46:31+02:00,False
+f9ee134819bb2332391d60cbb0e8b6cf6f83ebe7,.,2012-06-29 13:47:17+02:00,False
+b14340bba1bc710e8dcdfc4f7332ae7e048b60b6,.,2012-06-29 13:49:47+02:00,False
+acf25ecf3ade9bbba36d83839c47c1bb3b30b587,.,2012-06-29 13:50:36+02:00,False
+d9121574b3c5308adf03dc28b88aee68611a0a24,Updated roadmap.,2012-07-25 10:38:08+02:00,False
+2eb8cd46077ff3c5579bcbcd40c45e3bd90543ef,added some links to readme,2012-08-06 11:47:05+02:00,False
+bba1d423a01a01e7f3a9679aa191ddcc838083b7,"Added css3 selectors conforming to w3c specification and test cases. The
+selectors are not entirely done yet:
+* namespaces are not handled yet.
+
+Anything that does not contain namespaces is expected to work correctly.
+
+Two types of w3c tests are skipped:
+* those with namespaces,
+* those that crashes less.js.
+
+W3c specification: http://www.w3.org/TR/css3-selectors/
+W3c test cases: http://www.w3.org/Style/CSS/Test/CSS3/Selectors/current/",2012-08-12 12:12:25+02:00,False
+733e8f3a4daf53821045d2fe30111cf9ba1859e2,Linked comments handling documentation in readme.,2012-09-01 11:54:37+02:00,False
+eb4b5b851b812e2e2d6864499fe15bf869941ef5,Fixing link in readme.,2012-09-01 11:59:05+02:00,False
+b2be2abd8dc163643c1b7a9dbfe7a99485728a47,Updated progress in readme.,2012-09-01 12:00:12+02:00,False
+f9ced150886471c826526171d1e46b9e4e2e60ac,Playing around links in readme.,2012-09-05 11:24:47+02:00,False
+1cb18367c364c3871f30b85f7146ada5f629f3ff,Added new test case for variables.,2012-09-07 12:08:37+02:00,False
+7bb9874c384fb7e7e10af3787b9a7afdf007474e,"Less language supports four arithmetical operations plus '+', minus '-',
+multiplication '*', division '/' and parentheses '(' ')'. Operations are
+evaluated in usual order:
+
+* parentheses are evaluated first,
+* multiplication/division takes precedence over addition and subtraction,
+* non commutative operations are evaluated from left to right.
+
+Only operations on numbers are supported. Operations on strings,
+identifiers or anything else are not.
+
+On Units:
+Numbers in CSS can have specified units: ""21px 14cm 4.56%'. Less does not
+convert between different units, it takes numbers as they are. The result
+of mathematical operation is assigned leftmost explicitly stated unit
+type.
+
+Empty Separator vs Whitespaces in Expressions:
+Less4j follows current less.js behavior. More on the topic is on wiki
+https://github.com/SomMeri/less4j/wiki/Supported-Less-Language .
+
+Expression are Occasionally Ignored:
+Expressions are not evaluated inside font declarations and
+xxxxx-aspect-ratio media features. It is because those things allow ratio
+""number/number"" as a valid parameter and expression evaluation would make
+them impossible to use.",2012-09-15 21:04:13+02:00,False
+aaa74c3bdcf61003682ba9257b6d9a3f8227e6dc,Updated readme with travis status.,2012-09-24 09:45:47+02:00,False
+d93b7ffe79bf7815439c0e0cd76e59e590128695,[ci skip] Documenting: added description to pom.xml and updated readme.,2012-09-29 17:23:25+02:00,False
+806ee47ea1c6108826dec08ce8d5d327a45eb6c7,[ci skip] Still working on readme.,2012-09-29 17:28:45+02:00,False
+39f1607ffb75adf6091bc2e2504c41f02fe44b5a,[ci skip] readme,2012-09-29 17:32:32+02:00,False
+e0b204930feb811579add8a6e573d3f1a86c3b52,"Update README.md
+
+[ci skip] typo",2012-09-29 18:40:12+03:00,False
+e9a6f54f65f347e3b48b656ffbec083babb1ce07,[ci skip] readme,2012-09-29 17:41:15+02:00,False
+025e01f3978c3d27e30d15a7913bc05445ea83fa,[ci skip] readme,2012-09-29 17:54:12+02:00,False
+aebc19bc73d78b927fd42d27f54cee84ec247715,[ci skip] readme,2012-09-29 17:55:05+02:00,False
+b5c85948cff11201037a44dfeeb805f5dbd08c34,Renaming CssPrinter to defaultLessCompiler,2012-09-29 18:24:50+02:00,False
+cc02b6112959ce023e3eecc9e4bc2e81b91b591e,"[ci skip] readme, documenting api unfinished",2012-09-29 18:40:10+02:00,False
+03906796e7b8bc5c0cb07126db90b3740d09f89a,[ci skip] readme,2012-09-29 18:41:32+02:00,False
+d973ed0809ac2ea3d6565d837ea70c03b5662f45,[ci skip] readme,2012-09-29 18:43:52+02:00,False
+fc4916109db3a8fcfb05d64a5552311ff1181bbf,[ci skip] readme,2012-09-29 18:49:49+02:00,False
+569c3d66d30c156cc8f5ec983cfac2b20b36b525,[ci skip] readme,2012-09-29 18:58:53+02:00,False
+020d83eba622dbd92186431855c21ea8c6ecd3ec,[ci skip] meaningless,2012-10-01 14:25:30+02:00,False
+1416e5cbff7021f5c979e9f3043a78632cf554de,Updated README.MD with maven dependency.,2012-10-03 09:03:30+02:00,True
+5ec02807e4c8715ae5393d2094d0f882f6084e6e,removed < and > from dependency,2012-10-03 09:05:17+02:00,False
+e0c9ba5ca7820bc9a28578c52319af6b56afab7e,"First draft of mixins including unit tests. It forced me to implement also
+lazy loading of variables and last declaration win strategy for them.
+
+What is done:
+* pure mixins with or without parameters - they must have () (`.mixin() {declaration: value; }`).
+
+What is NOT yet done:
+* rulesets that doubles as mixins - this is not treated as mixin `.notMixin { declaration: value; }`,
+* guarded mixins,
+* error/warning on faulty default values,
+* patterns matching.",2012-10-08 16:22:14+02:00,False
+111d20789811b95f1b903b69a8ca03948035649e,changed maven version in readme [ci skip],2012-10-16 14:31:12+02:00,False
+21692a7655a6d026b065f86a388a913caf739cc1,Changed readme to reflect API changes.,2012-10-16 21:37:34+02:00,False
+33c6a272ddfa9e355d738985a73a2bd4cbe2c484,Getting ready for the next release.,2012-10-29 14:06:08+01:00,False
+990a52655a439534e270afcb9b8f3c760c71bc8c,[ci skip],2012-10-29 14:07:57+01:00,False
+975d10846c7a726eeba50bc3a36831d112988681,[ci skip],2012-10-29 14:09:59+01:00,False
+bc558d7de6bad205393811b725235d6235e8603c,updated version number,2012-10-29 14:35:29+01:00,False
+46203fab50c5e667a6b4bc6ab72ae566d885783d,Updated readme with real downloads page.,2012-10-29 15:18:54+01:00,False
+ecc1b43d68d9a9a548f531fc3a212c2034273a91,Wrong info in readme. [ci skip],2012-10-29 23:22:29+01:00,False
+2970ad9f0edcf32c5f4fc0fbf3c3b71a5e8633bc,Updated version number.,2012-11-14 13:57:23+01:00,False
+424af4b1cf0c925d6e3b10eae5116168f4163384,Fixed typos. [ci skip],2012-11-14 13:59:11+01:00,False
+e0fac0e5dddda7b439517926f02c74b88c1197a7,[ci skip],2012-11-29 16:07:30+01:00,False
+e2967954e076bba696b68ed4d428e8fc63bf67aa,[ci skip],2012-11-29 16:08:25+01:00,False
+3150b4eb6464b4fee0941059d886b979e3850c6b,[ci skip],2012-11-29 16:10:06+01:00,False
+8a062ce389a458a81f55c9d8c965b4ac0b8657a2,[ci skip],2012-11-29 16:39:08+01:00,False
+79a8e022910065d3bda89be259c112ced90c2c55,[ci skip],2012-11-29 16:40:52+01:00,False
+426b927a890cbcce30d14f4e5fb515b1a42f26e2,Raised version number in readme.,2012-11-29 17:43:52+01:00,False
+f9e5e82729397bd117de5a372422c67198c3b55e,[ci skip],2012-12-12 22:31:40+01:00,False
+ab18600badd8870e332ed5ccfcee99ca0f8902fc,[ci skip],2012-12-12 22:32:47+01:00,False
+9f7fb014fb5189f9476fc3d6cc072c956bcb27a4,[ci skip],2012-12-12 22:33:48+01:00,False
+49e2a38456064ebce94e29f6d2eff5eeae2f3073,"Getting ready for a new version, raised version number in readme.",2012-12-13 09:12:47+01:00,False
+2c0682dcf38bb8fefecb6f0176ff6ab0571b13db,[ci skip],2012-12-13 10:08:23+01:00,False
+5942c3095b092b70e889e8255df73f8832e0bd11,[ci skip],2012-12-19 09:44:52+01:00,True
+53170f529a8ee1b452aa99f0e611e837da870007,[ci skip],2012-12-19 09:47:48+01:00,True
+50ee1c0e1849aacfba253ba4152156e9f3c4fdd4,[ci skip],2012-12-19 09:49:11+01:00,True
+b87e0758ed42f1bdf7f3017f1b534ff9fdee71d0,Raising version before release.,2012-12-19 09:56:33+01:00,False
+c6430ccbc978510ee8b22f1b4ae377235bcb75b7,Raised version in readme.md.,2013-01-02 19:52:45+01:00,False
+ba04f1770910221a053bc99b5d0d1a1dd36122f4,Raised version number in readme.,2013-01-07 23:28:56+01:00,False
+bea4573caa49814e6b67ae707a54217ab5858d08,Modifying readme.,2013-01-13 12:26:46+01:00,False
+80b5b19c2fba4e248a5659f367b39f545f80c2b3,readme,2013-01-13 12:30:32+01:00,False
+9a204949e5cb7dd26d552c2708ee1dda795da745,[ci skip],2013-01-13 12:39:12+01:00,False
+f0d9dca72088db502aefbd3d6334d06f9be3cc24,[ci skip],2013-01-13 12:46:36+01:00,False
+3d1ddbf66906f998d20980a0679def35248d6c15,[ci skip],2013-01-13 12:49:18+01:00,False
+d28506160dbf5fa5059ad1db10f6bc96851237a4,[ci skip],2013-01-13 12:50:56+01:00,False
+3a8fdf7068f6acbb2ed6bf414b7773ab93d32338,Raised version number for next release.,2013-01-13 13:16:57+01:00,False
+49da2b6432198e2901faa5f3c0fd8fbd5b165e96,Raised version before bugfix release.,2013-01-14 15:00:48+01:00,False
+0b1a514fac88afc791655ff8b6018b954360eadd,Added less source description and raised version number.,2013-01-27 11:52:14+01:00,False
+4f7725c7de634a4e02ed8429f88783804ea886fa,raised version number,2013-02-12 13:27:20+01:00,False
+ca0410a2184925e5bd47c016279fa38e73db79a6,Raised dependency version in readme.,2013-02-28 15:18:03+01:00,False
+9183e4f54c0bc389df79ac03144adfea3f07bb71,Clean ups and readme clean up.,2013-03-04 14:36:41+01:00,False
+78c98afbe550b8fb56b8ee88a378ff28ac47cf78,[ci skip] readme changes,2013-03-04 14:37:50+01:00,False
+848dfb0b63b806c9bfb3e42138e86f12c6d5d0b4,Minor readme change.,2013-03-06 22:57:40+01:00,False
+75140d475b84eec2b2cf29cc0094d4a9ce2ed4be,Readme edit. [ci skip],2013-03-06 23:00:14+01:00,False
+28a47e7e9874a0d94a32a735c7aa4bea93f3d86e,[ci skip],2013-03-06 23:01:58+01:00,False
+b78f3950056084da6a423f17d6c40d9a74a8363b,[ci skip],2013-03-06 23:04:08+01:00,False
+9cec2731df1a05652a73d88695b624d04768ffc6,[ci skip],2013-03-06 23:05:06+01:00,False
+6087e137fcf67b9484816577f407fb6b78501b13,[ci skip],2013-03-06 23:14:49+01:00,False
+94bd3e900a936cdce07d2f72c9fc07a30278d2c3,[ci skip],2013-03-06 23:44:11+01:00,False
+32ddd3273c173d84b43a3bde1d9dd43f8ee124af,Updated version number in readme.,2013-03-25 20:12:54+01:00,False
+51abbf7f0bd67cd36821cf10751fac1b8c582193,raised version number,2013-03-29 22:47:36+01:00,False
+a09330f786273fe87ba94fda907bb9b52744071d,[ci skip],2013-03-29 23:05:19+01:00,True
+51767903cfbd270b19098dfff9f381faab63732e,Raised version in readme.,2013-04-21 14:45:21+02:00,False
+aaaabb468425ff91e84078bbdb2a12d9325942b1,Licences.,2013-04-23 14:42:53+02:00,False
+1a7999996e794561f1f8903ce559ec027d733b5c,[ci skip],2013-04-23 14:44:59+02:00,False
+f6db5fc9f2f90225d846c8422d8d89bab06ec90c,Updated readme before new release.,2013-06-17 11:41:13+02:00,False
+4a101a8b2b96a50d76b56ff7f296572f206d1e6b,[ci skip],2013-08-08 14:19:09+02:00,False
+02967b6824cb0e48c653fc60d2b46a292410226d,[ci skip],2013-08-08 14:58:00+02:00,False
+e3d54d33b964242617088d403ca47d9886b63bbd,[ci skip],2013-08-08 15:01:59+02:00,False
+5ab70a6f6ddaa02b1faa93aee382f9d9dad3830c,[ci skip],2013-08-08 15:04:41+02:00,False
+30a944a1e9fb805d05922133ac2e04aaa6cfdc09,[ci skip],2013-08-08 15:05:58+02:00,False
+cfae2dc71605c24c1b802714f965e39e32226d84,[ci skip],2013-08-08 15:44:15+02:00,False
+6391f64b26bcf704f639d0c394b8689838b0a9e9,[ci skip],2013-08-11 13:51:37+02:00,False
+b53f765c9cb3703a1b9c61f8114efceecf4be720,[ci skip],2013-08-14 12:44:41+02:00,False
+ecd91fc41d0c01f6c29d5984e74ec35ad3bed3d7,[ci skip],2013-08-14 12:51:06+02:00,False
+544d808f83a4632c5ca992913f0a107059f6fd4d,[ci skip],2013-08-16 16:23:40+02:00,False
+797b9c6cc06a22aa5a7eb77b5a6963679a58211f,Fixed less4j package names.,2013-08-19 23:12:50+02:00,False
+77731726f6a6042b84ee9cad61e85cc8fecbb2d3,Getting ready for release.,2013-09-01 22:02:18+02:00,False
+cbfda13bdaf5fc7d4b4c8c82851c22df4177240a,Raised version.,2013-09-15 15:43:07+02:00,False
+28d0e23ce4a86e1e96d87d9496affa59e877d7eb,Raised readme version before release.,2013-10-07 12:41:00+02:00,False
+607dda40041e8494294e713bd6594136639b3543,Raised version number.,2013-11-15 10:41:47+01:00,False
+4233a6cc66bf15a43655c79118648918aaab5ab0,"Raised version in readme.md.
+
+Extend is now able to match selectors composed using appender. #151",2013-12-05 11:31:54+01:00,False
+caa2bc3d84ed25102b184822e3b7b0d08bd6d89b,Raised version in readme.md.,2013-12-28 15:39:43+01:00,False
+86cbf9090e54ccc9f92390755e1d7474f758a1dd,Raised version in readme.md,2014-01-14 12:58:10+01:00,False
+d713773d065e4a99f057b898cd0585e0a50c4c60,raised version in readme,2014-02-13 20:41:32+01:00,False
+750ef591483e8dae58a078ae510f8457bb3a388f,Raised version in readme.,2014-02-17 20:57:38+01:00,False
+68b2193dd86ccb89ee0451e8c0c54d118bd98d0b,Raised version in readme.,2014-03-10 10:32:18+01:00,False
+982c16200807a02143f14a932c8119dad4c83336,Added example and modified test for #134,2014-03-22 21:13:54+01:00,False
+709f2085a9b89146a48e7b4a4e573cb6e9ae9f20,Update the last version,2014-04-04 12:06:58+02:00,False
+a5487c58383078d69129cff93876da98c94c5dc3,raised version in readme,2014-04-08 00:06:19+02:00,False
+6a0a8a3e8a60e4cc75029aa911a64b2bbe9822ce,Added details to readme,2014-04-08 11:05:46+02:00,False
+d2732399aa44ad77832d73ff4759b2078f7baed1,.,2014-04-08 11:08:11+02:00,False
+fa6ac5055566fc71baf6fb093f89adc71c2525f7,.,2014-04-08 11:09:22+02:00,False
+72d8efee1b137b223ea1079cbb41e9da69d22d3a,.,2014-04-08 11:10:04+02:00,False
+511cf4124ec3d175586c405c0119e11fa38ba538,raised version,2014-05-30 15:33:16+02:00,False
+6e46a2d292502d5c02eead80d057bce73bd7049c,raised,2014-06-21 09:43:28+02:00,False
+6ca1596fa5ac107883cb04d0cab946db8aae0090,Raised version before release.,2014-07-02 16:15:30+02:00,False
+1c1be5b812d9329738493ceca56a29ec0138784b,Raised versions,2014-07-19 09:28:15+02:00,False
+516e02dc2526077f73df7dc5228f4aa13215308e,"Raised version in readme, removed warnings.",2014-08-31 11:27:14+02:00,False
+6b023becf1ae4a9b5a47c6e915e12e9df58ca287,preparing release,2014-09-11 10:51:52+02:00,False
+3af6182e0be06b9b55a0f5620ae79c989bf01614,Switched default encoding to utf-8 because of #230 Fixes #230,2014-10-04 15:34:13+02:00,False
+5a2ec9daf6619671eb73edde05ad3dc835452b5b,Raised version number in readme.,2014-11-05 12:15:10+01:00,False
+ace74403ccc94bcc49e971cc6e9025b084315cdb,[ci-skip] raised release version,2015-01-08 13:51:39+01:00,False
+a1fce106840d91e13f6e08817d34360bc4b32e63,Raising version before release.,2015-04-02 18:08:35+02:00,False
+6de9d80df280522f894a39717d804ff5317572fd,Raised version in readme.,2015-06-05 09:34:56+02:00,False
+889a676cbd313c97cde5a6720f823a948fbfe13e,[ciskip] updated readme,2015-07-11 20:20:18+02:00,False
+ed8a83f5524c389ff1e83496ff6de8f4070c7ac6,[ciskip] explaining new less sources in readme,2015-07-11 21:05:57+02:00,False
+2e77ee857af5f4d4fc7577adb6b22a1c4ee9c0a9,[ciskip],2015-07-11 21:07:50+02:00,False
+59cbf3a194ab5cec4d489ed0a2bca2aa7c2e03d3,[ciskip],2015-07-11 21:18:55+02:00,False
+15c457571b6cb9849cb44d8a99c6809630984f82,[ciskip],2015-07-11 21:21:49+02:00,False
+eb8af0a0eb5064d371031a8d496c62b94779ed2c,[ci-skip],2015-07-11 21:33:21+02:00,False
+62c27bf7c7f7460b17a1276f5634868d644b5f5d,[ci-skip],2015-07-11 21:34:26+02:00,False
+273b065fec9d465749c718f9a7a26f28f9517266,[ci-skip],2015-07-11 21:37:34+02:00,False
+68f547caafaeaf956264368e016064553a61c88d,[ci-skip],2015-07-11 21:38:09+02:00,False
+972e81edcb31f28ef6041f84fe2b7e8e097315f6,[ci-skip],2015-07-11 21:39:21+02:00,False
+59638db0ace4708de168631cc4a0f315169271db,[ci-skip],2015-07-11 21:40:40+02:00,False
+caea4b75ffabbd41e76f5ce362de17361ee15e1a,Preparing release.,2015-07-12 13:34:02+02:00,False
+aa0a926774b09fe0eda983ee5b42a7dc9e96a5f2,Documented timeouted compiler. Close #292,2015-08-04 15:35:40+02:00,False
+866be7b415e726e60846a597dac2f5ea32f03c33,updated readme,2015-08-04 15:38:46+02:00,False
+f14b459044eae92eeb33360441bcbc9d91101cbf,Updated readme.,2015-08-04 15:44:07+02:00,False
+cb4013aebd3fff1ddb3ede75a6a0e2722e7eec8d,Updated readme,2015-08-04 15:45:02+02:00,False
+83506e8f6d5eca756c5a9808f98da1c93691a613,Raised version,2015-10-20 11:15:52+02:00,False
+fcf49517b885d7fde35d231daf1f44dd03a1b67b,Raised version in readme.,2015-10-21 11:08:51+02:00,False
+fbfee4936db7eb5459df452a2bf3f84f495f13b0,Raised version,2015-11-26 15:21:09+01:00,False
+df24528aa712b166ef07da566aa1113ba03ff714,Raised version in readme.,2015-12-04 11:15:52+01:00,False
+b1183c07a2930da6f5d55b5600670477ae58934e,Getting ready for release.,2016-02-07 15:44:49+01:00,False
+cc95467fcc3801d2eb80727a854c71b12c77e86f,Getting ready for release.,2016-02-18 18:14:41+01:00,False
+66fad5bef8189eae01f9b6ec077477867bcaccdc,Getting ready for release.,2016-03-10 13:23:35+01:00,False
+ad132a95df3dd3f1411b4589feadf246bdd21254,Raised version.,2016-03-14 13:05:18+01:00,False

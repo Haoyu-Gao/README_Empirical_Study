@@ -1,0 +1,131 @@
+sha,message,date,result
+121ad2b7110db6e1c11d0f8d3cf2c4aced4cc2ad,first commit,2018-01-14 13:11:07+01:00,False
+d1a078f147b48304a901e50cc5431dbdf552e940,update,2018-01-14 13:15:07+01:00,True
+076a5a4ad909f6f7a3a45028d5f34b8d27e68dee,updates,2018-01-14 13:30:32+01:00,False
+446d4a02b262f5d62291a81f3a9fd9174d735c80,added map support,2018-01-14 15:12:02+01:00,False
+321f144015d7680d35a752fdfb9d7eb7fa26e7e5,updates,2018-01-14 16:01:48+01:00,False
+858b01aca2a1cb19025119e39d6a42e683f9026d,updates,2018-01-15 14:49:08+01:00,False
+333771226b07451257ef5343e6e88a07f68ae698,adding sensors,2018-01-16 08:53:47+01:00,False
+22bc334b651a8cbc0825dddb74c6eb721094adfb,updates to readme.md,2018-01-16 12:55:38+01:00,False
+b667c877c8d06e926a5b2273666c78ba6ea603d3,updates to readme.md,2018-01-16 13:00:19+01:00,True
+1a2e9b3cd6518561b59b459eae7e7c62e66bf6f3,added locked sensor,2018-01-16 14:00:57+01:00,False
+3a5aefc7b20748cc4fc7fd24b7c405cedb8bff55,added parking light sensor,2018-01-16 14:34:57+01:00,False
+724ba487aa2bf35e5f69f71db144a61779efbac4,added sensor for next service inspection,2018-01-16 15:02:37+01:00,False
+f6b1d1c63c4babc5e6831927af62056c85587b25,updates to readme,2018-01-16 15:14:12+01:00,False
+4aba3d5ff892be33da751b5fc9e38044eeacfece,updates to readme,2018-01-16 15:21:18+01:00,False
+71975d943dae7fccd9548b8af5113493d2b99c02,updates to readme,2018-01-16 15:21:52+01:00,False
+aa849d9d829bcd5e11dbf68863bbc91102d93672,updates to readme,2018-01-16 15:21:57+01:00,False
+c6f61edc26bf9a56c9578e1fdf1270337b0b8857,added update_interval option,2018-01-16 15:56:02+01:00,True
+92489c59d128fb8cd09f75113bf31fc43d8dc357,updates to README.md,2018-01-16 16:14:24+01:00,True
+120301d9cdebf2b99b853be7b83cdd5a592ae313,updates,2018-01-16 18:22:37+01:00,False
+7741bdde363c27c5dc76d4301c0d252370ced014,updates,2018-01-17 11:37:43+01:00,False
+0e3f29a5a15200d4d346c564a4e597843ed387e1,updates,2018-01-17 14:43:44+01:00,True
+bd725fc3b443c54b7a221c06cd052f6b658f5018,updates to interval,2018-01-17 15:16:29+01:00,True
+257d37a6f6464ab861e266c4b3b447f424caba8c,added binary sensors,2018-01-17 16:43:51+01:00,True
+e1a114d657807882933d5cdbafcc82e7cb36f240,smaller changes,2018-01-18 08:17:48+01:00,False
+01408cc40f313f5a252e6ff4d5a494f71dad97e5,version 2,2018-02-05 15:46:13+01:00,True
+31ae2d748c77fdb5d50bf8532e65fc00b087ad01,version 2,2018-02-05 16:10:40+01:00,False
+48a5ad8ee0034a4cd68f8c844d1c4e606577f2cd,changed so it makes a new login for each update,2018-02-06 15:46:31+01:00,False
+eea4453aa6a8ad54bf802c19daf2efb26c19c1ca,added support for combustion range and fuel level,2018-02-07 10:28:41+01:00,False
+43aab598d1c334ec39c447eb00379325f96a5403,added support for combustion range and fuel level,2018-02-07 10:41:50+01:00,False
+16e5f41a624d8f246cf57d6e840b1b3c5552d4d4,added support for combustion range and fuel level,2018-02-07 10:57:42+01:00,False
+f851522ab0dc3912d261f5cdfd5984ff43acac74,bug fixes,2018-02-07 12:01:51+01:00,True
+9e0a78618b53e95a0c4e852269dcc372f71cb7b1,minor updates,2018-02-07 12:51:12+01:00,False
+ceae452b2bbbea79cb1e1c4adb7b9f9c4b4d7f40,updates,2018-02-07 16:41:02+01:00,True
+9998462034b54b6c0e6a9d79669726c51a5c0ca8,updates,2018-02-07 16:43:08+01:00,False
+3306544f8f43c42456f2f9ac30cc2355ef628cb4,updates,2018-02-08 14:47:58+01:00,False
+5f2cab01cb86674881fc8e012715a74d059cfe9d,updates,2018-02-16 11:18:05+01:00,False
+c78851c2fe9df21249fc82d961d19167b3b447b3,updates,2018-02-16 11:48:06+01:00,False
+baf96bef036b90e4fb1808da9d7df50a6704e600,bug fixes,2018-02-24 15:51:03+01:00,False
+7f13c514695aece5e6f52c5ec4479f03dad303f1,New folder structure compliant with 0.88.0+ (#25),2019-02-27 11:32:51+01:00,False
+19aceece695459324555e4486cded876eb1b47e9,"changed component name to volkswagencarnet, dont forget to update your configuration file",2019-02-27 16:26:04+01:00,True
+94585bb5bb33568de722d9193a1b0dec72401c7c,new version that is adapted to new version of HA and prevents issue with request update,2019-04-11 12:49:11+02:00,True
+9690a9cfd7fc52d92e2f81d84db7d747a0b7e7d3,updates,2019-04-11 16:07:11+02:00,True
+d421177474ee85996c9da39d9ea5d738bffa1d09,added new climate control,2019-07-29 14:14:46+02:00,False
+c85843c6ba9899b406d98b3c164b82682e7ef83e,"Add support for combustion engine heating. (#50)
+
+* Add remote_access_heating support
+
+* Bump version
+
+* Change name to combustion engine heating
+
+* Update readme",2020-01-17 07:28:40+01:00,True
+d3f4ec52c9c2736646a183d61ce156a08d70581c,Updated information on MY 2019/Facelift (#52),2020-04-09 08:38:00+02:00,True
+546e6d437b19f73552c31c208c6eb67c3d9e7d1d,new client version,2020-06-10 17:07:12+02:00,True
+044a28150a1fab9ff3076710ffd3208e018254f3,new client version,2020-06-11 14:51:02+02:00,True
+8e539fe99a1ebf3a0928388ae02d77b45a53d13e,new client version,2020-06-11 16:12:52+02:00,False
+f9c95fdd8ddf59d964fb80f695911945bebbd532,new client version,2020-06-11 16:16:10+02:00,False
+d67bb86723f10c7fa2329bb383c4c4954c3b7884,new client version,2020-06-11 16:16:31+02:00,False
+883383b4393d06133bfa392486b02f275b0ee164,Updated readme,2020-06-13 09:38:41+02:00,False
+56aea3cf60fcfc3201b664d13bc380b066a42c57,Minor updates and clarifications,2020-06-15 15:46:40+02:00,True
+4d3d80819f4003a8df3e34b638e482e72fdf6ff5,adding support for scandinavian miles,2020-06-16 13:55:48+02:00,True
+73fa804a7d5ff8d93c7559b7fc99d226bd1e6a64,new client version,2020-06-16 14:21:49+02:00,True
+8af51ace3df7ef44042ac04714d6645c7f856e2c,cleanup,2020-06-16 16:56:37+02:00,True
+0e30f79f049bb79dfb26dafda952d43b4de0f2ff,Update README.md,2020-06-16 17:12:13+02:00,False
+fe66294be739202da0c75a93d19498df776586cc,new sensors,2020-06-17 14:57:10+02:00,True
+08b87a2f52af76da390d8ce07e792c3e2c315cdf,Updated README.md: fixed spelling,2020-06-17 17:16:47+02:00,True
+6852ea5520fbbe9c0cfb28bed6197165deec4c55,Updated README.md: various fixes and improvements,2020-06-17 17:17:28+02:00,True
+4af1016145a0a4d99ad691270a82b9e0fcebdbab,Updated README.md: documented the entities this plugin creates,2020-06-17 22:44:06+02:00,False
+cb71bf7d73612a3b294ea0faac2f3bbbc8f4bb6c,updates to readme,2020-06-17 23:42:10+02:00,False
+b52684f13c5e1f95afc0c511c913f8b283cb55b2,Updated README.md: document what types of cars the entities apply to,2020-06-18 13:36:38+02:00,False
+17466e532dad21b5fda6c9359b9c69d8b28dccb8,updating readme,2020-06-22 13:34:57+02:00,True
+83d51dbbb51b2e428cb53e265d6525bcd2c0e9d7,minor bugfixes in new client version,2020-06-22 13:48:17+02:00,False
+50615fd8b1ff95d19d6b325fe9fd6392c23c5ba7,minor bugfixes in new client version,2020-06-22 13:48:49+02:00,False
+19fb0d1cb36445f566ffa73d778e354f34bfbc40,updates to readme,2020-06-22 14:23:49+02:00,False
+b2d33108e40402650b9283b7def787cf3767ecca,Disclaimer - VW WeConnect service,2020-06-22 16:11:35+02:00,False
+6fbb4fb5f15ee175144330d35e287af0cbee4ec5,adding travis deployment,2020-06-23 09:00:34+02:00,False
+63ecd3d167bad17bc083423bd8a905de89619d72,adding travis deployment,2020-06-23 09:01:57+02:00,False
+6babf9164df3ceca2a497348c101d4b2a4678698,removing travis,2020-06-23 10:51:03+02:00,False
+5d5f1ea5c869705e1c01c7bccd8e2c12a8335fd4,updates to readme,2020-06-23 15:46:34+02:00,False
+07fef33a28b7ea1ff39d49954850627bff686d76,updates to readme,2020-07-09 09:16:23+02:00,False
+14271723583e6f77109ecd17918b5922bb2f96f5,adding support for doors and windows states and also sunroof,2020-08-14 14:05:18+02:00,False
+3c50399c30eef5526aa87e0507175d225d06b10f,adding support trunk closed,2020-08-14 14:34:39+02:00,False
+8c437b5c02de28a1d5ab7dc56224b1f1e5df4257,"Another clarification ..
+
+.. on checking WV WeConnect service",2020-09-03 08:07:24+02:00,False
+3aae36e9fb2e7917863ac41bd6c55b2c1364b6d6,updating readme.md,2021-03-01 15:03:34+01:00,False
+92f63a904334851372b0b288463d77617c010dd9,Some more clarifications to the readme.md file,2021-03-01 14:17:05+00:00,True
+68d11001b13ee238b6bbcf51189673c2b6cd16dd,"Revert ""Merge pull request #238 from robinostlund/tubalainen-patch-1""
+
+This reverts commit 93b1024b2f934b5ca986942a3f3968c9a88e738d, reversing
+changes made to 3a3378e4e073e5e1aba253d45a2a7da2e8971d43.",2021-03-01 15:22:58+01:00,True
+9a678e00cd992abb3708cfe5623de801329357e1,cleanup,2021-03-01 15:24:05+01:00,True
+4874960ef56a9bab0147cfcc433c633bfc13514d,Update to the docs - config explained,2021-03-03 08:17:16+01:00,False
+9d0d1bac93d6846298d4bb546eb24587c0ade6b7,"Region - what framework?
+
+SV = Sweden - but according to what standards?
+Ping @JohNan and @robinostlund",2021-03-03 08:35:23+01:00,False
+ff4b0efd9a3a90a09df79bf36b3ac65e357a7628,"Added information for people upgrading...
+
+... from older versions.",2021-03-03 09:08:05+01:00,True
+508223256be02dfeab0dcf0f2f53f1d9ab056a21,Updated info on mutable,2021-03-04 08:30:11+01:00,False
+edc7271c87cb8e15cefb16c976433ee4156e99f3,Update on EU only,2021-03-05 08:18:54+01:00,False
+f6ea7e91cd20bc0b5547e47fb418b4c8a110df25,Update on login issue - help wanted,2021-05-03 09:09:00+02:00,False
+8a82747ae3674eaa215999c02b1042944810efdb,GAH! Typo!,2021-05-03 09:23:01+02:00,False
+90761992c808a8fa67b430e2d44230e6d004f186,Update README.md,2021-05-03 12:12:45+02:00,False
+5aacfd8841cdc5eeada90d6ce3c2d9485940e845,Update README.md,2021-05-03 12:16:43+02:00,False
+ce1bcb62f32409a22495ae246f334fbb8d724d6b,"Update README.md
+
+Add a template sensor example",2021-05-03 18:39:58+02:00,False
+fcaca5e4a3843fec65675d3d3f71d5f53347248f,Update on working countries/Regions,2021-05-04 08:31:24+02:00,False
+c961a82ec18bcf6117b4e986dd4ed614a9132117,Removed old information.,2021-05-05 12:40:15+02:00,True
+cff81551261c24d2d2e6a30ae88e622866175846,"Update README.md
+
+Added additional templates for converting km to miles.",2021-05-05 15:00:02+01:00,False
+062074f1eecfd55bb5f51ba67ba48b798c99079c,"Update README.md
+
+Added new ""Swedish mi"", Imperial Miles and KM option to config flow, inc new screenshot.
+Added note on km to miles templates to use the in-built configuration option.",2021-05-06 18:36:07+01:00,False
+645053bdfd61a225a4700df00141886bf6dc7799,Update to info working regions,2021-05-19 10:36:24+02:00,False
+1ad25da0da8f413b14ebbb4191f65d1325a41c01,Update on Home Assistant branding,2021-05-19 14:00:00+02:00,True
+59d0fb2fe919a32a1ed789d7e7c31775cdfefa75,Update on T&A info.,2021-06-02 09:54:46+02:00,False
+67cff4a6e79abc9aad0afe9862650d49b2a4831d,"Update README.md
+
+Add at the end a link to a youtube guide",2021-06-02 23:28:44+02:00,False
+1e31cc0e0a314cd7f449f86b8ba1f44cd7d321ba,Update README.md,2022-02-08 15:24:21+01:00,False
+d8ce072cda59716ba5300046813b988bc62a7a47,Removal of login regions.,2022-02-09 14:25:36+01:00,False
+e8fcfa25711bee6c9850e6633a442bbbc47ae420,Update README.md,2022-02-14 10:26:40+01:00,False
+7446af5badf1ca470bc6dd3b1ef16bd1dc832de6,Add note about dependencies in source installation,2022-02-18 14:24:55+02:00,True
+a509fe7f3d70fdab58b65dea389ada1f2265d35a,"Run black, update descriptions for services, whitespace formatting.",2022-03-06 10:24:53+02:00,False
+96e96c122579e038e68a576b1b7d410f35caec9e,Update HACS URL,2022-06-03 16:14:04+02:00,False

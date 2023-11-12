@@ -1,0 +1,26 @@
+sha,message,date,result
+323e564cad915e7cca02ba907443b31951fcc9e6,Initial commit,2019-05-28 21:41:51-04:00,FALSE
+983928298d3e7b953bcdff5522c98fd23a2fb7d7,feat(*): initial set-up,2019-06-03 13:13:23-04:00,FALSE
+965e3d9a56fc303868924d2007a9f62ac469ccf6,"docs(readme): update readme.md
+
+resolve #3",2019-09-10 08:33:36-04:00,TRUE
+9e5847e55821adb532777d6e09ab18b8e1df5faf,"feat(modifier): Refactor modifier modules
+
+This is an initial refactor of the whole library in preparation to make it an extension of honeybee-core. There are a number of edits included in it:
+
+* Completed the ModifierSet object, including the from_dict method
+* Fixed some places where native python operators (like type) were being overwritten with variable names
+* Filled in a number of incorrect docstrings that were copy/pasted from other classes but never edited
+* Added the term ""primitive dictionary"" to differentiate the generic schema of Radiance Primitives from dictionaries following a schema specific to a given primitive. I used this throughout several docstrings that I added and this should help clarify what's going on to new users.
+* The use of the Point3D class in geometry primitives was unnecessary since the only purpose these primitives serve now is translation to/from Radiance. They have no need for any geometry computation and any of that should probably happen on Rooms, Faces, Apertures, Doors, Shades where we use real 3D objects like Face3D or Sphere (not just points). So I think we should leave these geometry primitive classes as something used only in the writer/reader modules for serialization. And the use of Point3D objects was actually interfering with this primary purpose by introducing an in-elegant schema for serializing points to a dictionary that's not even used within ladybug_geometry.  So we should just  keep points and vectors simple using arrays to represent them.
+* Switched to using iterables for primitive values (list instead of dictionary). This uses much less memory, it's cleaner for hashing + copying, and it avoids the possibility of the user getting a KeyError when they go the check the values by index (what seems to be one of the major use cases of the property). Using lists also simplified a lot of the code but, if you are attached to the dictionaries, Mostapha, we can put them back and I'll need to add some extra code to handle cases of missing keys and the fact that the dictionary isn't always ordered). This was just easiest for now.
+* Added __hash__ operator to all primitives that agrees with the __eq__ operator
+* Added __copy__ and duplicate methods to all primitives
+* Implement __slots__ on all primitives
+* Added some tests but largely refrained from editing existing tests (beyond changing the modules that were imported)",2020-01-29 22:53:05-05:00,FALSE
+e835774b623f2d1c58d7e45b2642e4ec6234f35a,chore(dev-deps): Include importlib-metadata in dev-requirements,2020-11-08 18:19:48-05:00,FALSE
+32060924fe99dd27491cc6fdcf9782835e991c7f,fix(deps): Remove [cli] option in favor of making it a requirement,2021-02-04 12:44:34-05:00,TRUE
+7c6ba53078c38802a4b543d24c7c98d8e078f1e8,docs(readme): Update badge in readme,2021-06-25 15:25:10-04:00,FALSE
+c92321d26e857299f7715d27f196f47ed75c8023,ci(deps): Refactor the dependency-updating system,2021-07-22 22:29:56-04:00,FALSE
+8437bb12480a716910c4cff93e175b4ff5561808,fix(release): Trigger new release to get around secondary rate limit,2023-01-30 10:47:28-05:00,TRUE
+90a8d2ef8b2a569d90b277bc2610127540e680e6,fix(grid): Add option for --punched-geometry in exterior face grids,2023-02-22 11:23:43-05:00,FALSE

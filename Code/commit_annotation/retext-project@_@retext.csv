@@ -1,0 +1,81 @@
+sha,message,date,result
+7a8f8bb325880bce9e417ea8312fee5fd06eda1a,"Markdown-ize README file, update for 4.0",2012-09-01 11:28:00+04:00,True
+fa2fcad1c83ea0e81ccf724b0e325fb7f773e02f,"Add setup.py and MANIFEST.in; make some renamings so that the build works
+
+Update .gitignore",2012-09-09 18:55:12+04:00,False
+48edaaa1f0dd1ae9b3f18c16d2bf2bde90c50746,README: update some links to point to PyPI directly,2012-09-11 13:34:51+04:00,False
+b310c01d79537d870d08c06d8d62e283ece6976e,README: remove extra space,2012-11-28 21:22:29+04:00,False
+ace0e1991b43c97a9879361bca0b371020f46b82,Drop Qt 4.x support,2014-05-03 15:51:15+04:00,False
+8beaf9329353973607f99b370f0fa0ffc904306a,"Rename README back to README.md
+
+... so that it is recognized by GitHub. Also include it in MANIFEST.in.",2015-05-10 22:02:02+03:00,False
+5d762fbd8ce4298e70c1a9386c84732240aa0671,README.md: Use HTTPS python.org links where possible,2015-05-10 22:08:30+03:00,True
+b10fdbf5e2dd42bc6c0ebebba76a0692a6e2490c,"README: Bump copyright year, and update my address",2015-05-12 18:05:19+03:00,False
+58707413dd64cba7f36a9b144e743e30b8ff1db4,"Move ReText to GitHub
+
+Closes #50, closes #146.",2015-09-13 20:47:31+03:00,False
+e6baef870a09c1028085734e570606eb250ada36,README: add a screenshot and reference PyPI,2015-09-21 21:35:42+03:00,True
+c83f608e66e2e405aeb422c06471212373a8f473,README: Add a link to Transifex,2015-09-23 14:28:28+03:00,False
+f824b39f3b580e0e1f8d12cb54bbbb6daf27488c,README: Use HTTPS link to my website,2015-12-20 14:37:35+03:00,False
+b288589780d54a0b4411723b22a70e38d0d21573,Add dependency on pymarkups >= 2.0 because of new API,2016-02-26 17:40:24+01:00,True
+a8b73144e4b14b8a4b616460f23610672e9291ae,README.md: Use a proper em dash,2016-02-26 20:26:13+03:00,True
+41ef754a6e09eff81c18c6b2dd79ce58caa525f4,README.md: Add Travis CI status and Maurice's copyright,2016-02-26 21:32:24+03:00,False
+51cc51e18683d11a4d64e82b9722066162f46d32,README.md: added link to e-mail address,2016-02-27 13:10:16+01:00,False
+a4014dfa97cc56bbfb782b4118dfe96fd35e8dbd,"README.md: Add a badge for appveyor
+
+Also, specify the branch name in the Travis badge.",2017-01-21 16:03:11+03:00,False
+66fa5604b499a4892eaff68294bc5280263bbaf8,Update references to the screenshot,2017-10-05 11:58:34+07:00,False
+7901f8c401a9d033bf7095ce2b305d6ccb7a35d0,"README.md: Mention --user flag and required package for lrelease
+
+Fixes #322.",2017-10-22 00:01:01+03:00,True
+7eebebd231c738593e628906e5b9716b64b4b9a4,"Recommend using pip3 instead of pip
+
+Versioned commands are available since pypa/pip#1053, or pypa/pip#1251
+if pip is installed from a wheel.
+
+Fixes #353.",2018-02-06 16:51:56+03:00,True
+d7496fb67530c9d50fdcb0cffdbe203a05ae3415,README.md: Update PyPI links (and also the PyQt link),2018-05-06 19:33:05+03:00,False
+e4dfefaa71fd69566d37a36065a1952257863742,"Require Qt 5.6 or later, and PyQt 5.6 or later
+
+Drop hasattr checks for attributes that were introduced in earlier
+versions.
+
+Fixes #376.",2018-07-12 16:56:40+03:00,True
+afb326bf8b683d632e292dae1650ea310b7d88c1,"Require Python 3.4, as that is what PyMarkups requires now",2019-05-24 15:37:25+03:00,True
+e0eb6a2a0ba5d721c8cdb7d55ddc726c4a7693bb,"Update README.md
+
+Fixes #495.",2020-02-26 14:13:31+03:00,True
+cb256612d693f9c7604d551813725277c1f851e7,"Drop support for EOL Python 3.5
+
+And test with Python 3.8 (neither Travis not Appveyor has 3.9 yet).",2020-10-08 20:53:51+03:00,True
+17579ce9c133db3c3ffbedf7ebf96c8223502ded,"Bump PyQt5 requirement to 5.11, needed for the previous change",2021-01-12 16:15:29+03:00,True
+8bf970ca88a922269a031aefddadd3f1514df61f,Add GitHub Actions workflow,2021-01-19 23:33:12+03:00,False
+f903b0e59554da0c475ee27ef62fdef9039fb2ca,Bump copyright years,2021-02-07 20:56:06+03:00,False
+4fd5236139133e582995cad94bf1e2b79a6b6152,Mention PyQtWebEngine in the README,2021-02-07 21:04:47+03:00,False
+8329423add3a8edea94d8536a5325a3cc46a7a86,"README.md: Move Markdown and docutils to required dependencies
+
+Fixes #562.",2021-05-26 20:43:19+03:00,True
+b0b38eeb5397cfea82c1960456b89add5b9d7693,"Move runtime resources (translations and icons) to the package directory
+
+There are several reasons for it:
+
+- It is difficult to determine where setuptools did install the data files.
+  We are using directories from QStandardPaths, but they are not necessarily
+  the same location. There were hacks for Windows and for virtualenvs, but
+  some cases were still not covered, such as Homebrew. Moreover, it is
+  possible to pass arbitrary --install-data to setup.py.
+
+- data_files is deprecated because it does not work with wheels. Setuptools
+  documentation recommends installing resources into the package directory:
+  https://setuptools.readthedocs.io/en/latest/userguide/datafiles.html.
+
+- Using the package directory makes the code simpler and faster.
+
+The application icon, desktop and appdata files remain in data_files because
+they are not runtime resources, but are needed for packaging in Linux distros.",2021-07-22 16:23:04+03:00,False
+0ed7b51054e5b7120adf8fb95b12867fbfac59bc,Port to PyQt6,2022-05-15 18:51:06+03:00,True
+d66aa564716ca1aa82e692deffef236650fe385b,"Run lrelease from Qt 6
+
+And adapt for missing Qt 6 config for qtchooser on Debian.",2022-05-31 18:40:20+03:00,True
+688b650c82062431783f07cce73dd5606929b6bd,Update copyright year,2022-07-23 23:16:11+03:00,False
+bc4f72a839443a9a401f4a827b7f43ce93f23fb2,Bump copyright years,2023-05-28 21:02:53+03:00,False

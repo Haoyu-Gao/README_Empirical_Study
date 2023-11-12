@@ -1,0 +1,133 @@
+sha,message,date,result
+64529b4741e4757648776c69a3ad55fd3a172a5c,first commit,2010-03-15 09:37:37-05:00,False
+73b0d73c1cebfbd8d15760c5a2cd90bf45206edb,"Added a readme, changelog, and license.",2010-03-24 17:20:12-05:00,True
+6bc1d0c518b18c80b3ee891040ff54269e355bd7,Made ssl certificate path relative to braintree folder.  Fixed casing in README.,2010-03-25 14:41:12-05:00,False
+678bb90b45dc525cfef7008b661f511b5a0202ac,1.0.0,2010-03-25 15:00:44-05:00,True
+46cf3e1688982c48be60fa711af1d9f922db703c,Fixed alignmenet of README.,2010-03-25 15:09:10-05:00,False
+3a4830279bb0acb5ee284349b71be27d15b67653,1.0.0,2010-03-25 15:59:04-05:00,True
+e212df7df7f195cd41cc1456002050d7abb0ff79,1.0.0,2010-03-25 16:43:46-05:00,True
+ba1d0235188dc92911f3b40cd69e5cb8aeb37e66,Updated quick start example to give an example of proper error-checking,2010-04-14 10:13:27-05:00,False
+5b0b2bbf7732442a3655b3587290cf47b6f611d4,1.2.0,2010-04-14 10:34:54-05:00,False
+59a2d2db764a33f54e0fdd715d1787ac9a235f95,updated README quick start; set credit_card_verification and transaction to None on error result when not available,2010-04-22 12:59:04-05:00,False
+da6ec4a47703be64483c2398a0a01daa159bff95,2.0.0,2010-04-23 11:40:39-05:00,False
+135e39096de2020f238525ac7a9970e8ac60db19,Use isinstance instead of type to cater to inheritance,2010-05-17 12:04:44-05:00,True
+e730534dc4e6bd4b3b49a1a8013e7210a8ff5d2c,2.2.1,2010-05-17 12:07:33-05:00,True
+6f8093b0c261e6dd06fa59ea26a30e0bf9dfd756,"added customer_id to top level of customer update signature for tr_data, fixed bug in wildcard signature logic that allowed unintentional use of customer_id at top level, updated showwarning override in test environment for python 2.6",2010-07-04 13:03:45-05:00,False
+0097ecbee806d7f9e9bfe32286d7ccea7c93ced8,2.4.0,2010-07-09 13:19:49-05:00,False
+b2f9deb7efade821e319bfb270f305a82ab9ce14,n/a - Link to new docs,2010-07-09 15:10:08-05:00,False
+94d430b6e0be4a20526da71bf734dd52f12b670a,2.5.0,2010-08-19 12:20:48-05:00,False
+b4949145b119dcd7bdac68ebcee8f6c3f079b061,update readme,2010-09-20 10:43:03-05:00,True
+ab32e91ce8cea28a1584ef5eb6b3fda936d6757a,changed domain from braintreepaymentsolutions.com to braintreepayments.com,2011-05-01 13:30:33-05:00,False
+d2d55cbfa838b0549d89de32991227a481d22cd7,2.10.1,2011-07-19 16:48:14-05:00,False
+079fe4b911fb377c4268ea8bbba8fd0ea068030d,experience #207 - fixes and updates docstrings and sphinx templates,2012-10-31 20:08:12+00:00,False
+f71a22e65b359c776a3af3183fece168cbf5be2c,2.18.0,2012-11-09 12:25:02-06:00,False
+3b6785db47e66e90bd2a280e7415dfa92830d548,Update README to reflect requests OR pycurl as depencency,2013-04-08 22:17:18+00:00,True
+21628f0bedbcba55f7ac032e4af42e0be55a1a69,2.21.0,2013-05-01 16:19:01+00:00,True
+40ebe1c6ad9eb39d0e2c1747bcc6f45c117545a5,Add open source attribution.,2013-11-01 20:00:50+00:00,False
+a366e470ba28c2734019147bb50611834474f9a1,Add open source attribution.,2013-11-01 20:02:31+00:00,False
+3d8ed482270679ebfa72b3a4c7888831eb2dfc47,github #42 - Link to Venmo's testing lib in README,2014-04-10 16:25:58+00:00,False
+fe017ec8122cd1b361f1eda5311572ddb9a00d93,2.29.1,2014-05-12 16:41:58+00:00,False
+e284d291e0d23b231250873cbc667402b4d379b9,"Merge branch 'master' into python_3
+
+Many conflicts, especially noticeable are those around the
+SignatureService.",2014-06-13 20:03:17+00:00,False
+1f43b54c49e7b7a226e24cf15b80f1ee8c2b1135,python 3 - Update README.,2014-06-27 16:12:14-05:00,True
+0cb2f690772703c2cba0c3831ee55c5879811d9d,3.0.0,2014-06-30 16:18:53+00:00,True
+128effe199cf2cffecc6c30da89546a67d2e7959,python 3 - Make README example compatible with Python 3.,2014-06-30 17:53:44-05:00,False
+f457586c04b24d6352e9ba25e0e290a65cb3de6a,3.1.0,2014-07-09 15:52:11+00:00,False
+07672795fd3e949f8133f168d8f371636776199c,Update README to point to new documentation,2015-01-28 21:46:14+00:00,False
+98867bba6b6e8491177abe6d1f25dcca683c995b,3.9.0,2015-01-30 01:38:57+00:00,False
+fb15ff95c42b38d534490aae564f04084c2e96e7,Cleanup - Update moved links,2015-05-07 14:33:17+00:00,False
+51f52bbb666a6ff3bd7d558c88a47bda5929b20b,3.14.0,2015-05-07 14:56:17+00:00,False
+11f11407a62788443be40b029c12c9a8671b6185,supdev AMb0Nvv0 - update readme example to use nonce param instead of deprecated cc,2015-09-14 18:53:34+00:00,False
+402006eabc7c006647c0edfaf32a4afa5156b16c,supdev AMb0Nvv0 - make nonce a var instead of string,2015-09-14 18:57:50+00:00,False
+9199156e77ed28af0a6b86943b77b7f972c06e98,"supdev AJu98Dag - add standard testing language 
+
+from other libraries.",2015-10-20 16:15:36-05:00,False
+0c1832242c013a3cf3adcdf53bea6d1595130a09,supdev AJu98Dag - Add nose alternative for running unit tests.,2015-10-21 09:36:58-05:00,False
+78e74c0000b2bacb0255bb58007707794143e7df,3.21.0,2015-10-29 20:36:35+00:00,False
+3937c3bef9e07838b7c26c387b98969c68426f9d,supdev tAO7wxPL - Add python 3.5 as a python version option,2016-03-23 18:43:27+00:00,True
+6219681a70debc2005c63c920db53cfd5f747754,3.26.0,2016-05-11 21:49:32+00:00,True
+cb5d0f5ac1d3efffca38883fc3c1db1e62336a89,Add TLS Update note to README,2016-10-10 15:17:41-05:00,False
+ec3258c064d5997bb3ff37b310776ac9cd9ab531,3.30.0,2016-10-13 18:11:53+00:00,False
+12583f29e3ed54c5e6fca91de3627d9dafba27c5,Added ACKNOWLEDGEMENTS.md,2016-10-13 15:11:36-05:00,False
+c6b6761f4f3ae79b05c90dd592ba3f91a4efd3ff,3.31.0,2016-11-14 22:14:40+00:00,False
+35c98e33df8b42aa6f7b339a8441604d709f636c,Update client library to SDK,2017-02-07 19:33:58+00:00,True
+71e5167dbf53b9c8344be3609a0fc92da0722ea3,3.35.0,2017-02-15 20:55:28+00:00,True
+e43ffaf7184101b10d5b7dad94b9d6a266e235ab,Change SDK to library in README.md,2017-03-09 20:58:11+00:00,True
+7c62ac83e7513e0319d95ba619f75cb8504e02a2,3.37.0,2017-05-01 15:31:15+00:00,True
+abfcad037ab0192f3057f3fb03cc39ad55da3ca9,"Fix running tests with Rake and add development instructions (#244)
+
+* Fix running tests with Rake and add development instructions",2017-11-17 14:37:44-06:00,True
+b69a9d6833dad16cd480a10940acbd597722c813,3.39.0,2017-11-17 22:20:40+00:00,True
+882249f54c8678dd95b7efffc23490b4ad06ee99,"Add Dockerfile for testing (#260)
+
+# What
+
+Add a Dockerfile containing setup for repeatable local development on cpairs.
+
+# Why
+
+Setting a cpair up to develop on server SDKs is tedious. The instance has to be setup, and the setup instructions in the [internal wiki](https://internal.braintreepayments.com/display/DEV/Client+Library+Development+Tips) don't work verbatim on cpairs, so it's a time consuming activity to get setup. Instead of assuming cpairs are setup or expecting developers to manually set them up, lets move that into a Dockerfile so it is predictable and documented in code.
+
+# Example
+
+Run gateway on cpair:
+```
+drake exec --target authy dbdo
+drake exec --target provisioner dbdo
+drake exec --target arbiter dbdo
+drake exec --target integrations dbdo
+drake exec dbdo
+drake exec rake db:populate_cosmos_data
+drake up -d authy
+drake up -d provisioner
+drake up -d arbiter
+drake up -d integrations
+drake up
+```
+
+Open console in docker container and run make
+```
+make
+# rake
+```",2018-01-08 16:14:15-08:00,True
+a8207bc53f7e944edbc4ed395741416df68dd270,3.40.0,2018-01-19 21:17:26+00:00,True
+c0120c9004b075f1c616685ea3a9804139f5d738,"Update URLs to use HTTPS (#262)
+
+Some links  were using insecure HTTP. This commit switches them to use
+HTTPS.",2018-02-06 09:06:24-06:00,False
+37291ff9530ce07acb6b1e0fdc530818092d2780,3.41.0,2018-02-09 23:59:36+00:00,False
+4ab6973a684cecab8ccb03d4dcc44a91ee580110,auth 111 - Use instance methods in README snippets,2018-02-22 20:57:17+00:00,False
+bdc95168f46b4c3ad3904fd56e5f8e15e04e9935,3.42.0,2018-02-28 19:15:26+00:00,False
+5246378f2f7b9c1c41672f6dc1adbe78e40ea388,clarify support for python 3.6.x and 3.7.x,2019-01-07 20:07:01+00:00,True
+e2ef48fe91c5c4a50b2425d49dcccca6f39c82d7,Update Python version description in readme (#311),2019-01-23 16:41:47-06:00,True
+e3347b2b81ad1ff0e6fecabfee72dccdc6cd9ec6,3.51.0,2019-01-24 20:39:54+00:00,True
+ca3fa459f9315f530694cb223cebe7de7590ec36,Update readme to state that we test against python 3.8.0,2020-01-13 22:06:56+00:00,True
+b08c323f34ff75efc71a260cedda944fd8dec230,3.58.0,2020-01-13 22:14:17+00:00,True
+bf4556e892777fc0a12996a30b720d715134bcb0,Add syntax highlighting (#119),2020-02-07 09:27:55-06:00,True
+a4e4f7c3943a837a6f135f228205924b95efa7ff,"Split dev requirements out (#360)
+
+* Move dev-only reqs to separate requirements.txt
+
+Co-authored-by: Chris Foresman <chris.foresman@getbraintree.com>
+Co-authored-by: Cooper Gillan <cooper.gillan@braintreepayments.com>
+
+* Update Makefile
+
+Co-authored-by: Chris Foresman <chris.foresman@getbraintree.com>
+Co-authored-by: Cooper Gillan <cooper.gillan@braintreepayments.com>
+
+* Add description to CHANGELOG.md",2020-03-02 13:18:57-06:00,True
+94ab6737e0f91612e1f270ad930af2e49ae62c33,Update README,2020-03-05 15:27:05-06:00,True
+7b133a7193426c5594b1f4233df5be1754b1c00c,Fix link to deprecation policy,2020-03-06 11:57:30-08:00,False
+807973b2741fb8ff31c55c997639a139a5b0354f,"PR feedback - clarify README, add lint comment & refactor E0203 errors",2020-03-10 16:03:44+00:00,True
+0a9a3cb32303962851ca3adbbb57f0c9ff66fb8a,Reorder versions in README,2020-03-11 13:42:57-07:00,False
+d8fc0cebe5d319c6cfc515cb76e2f0e1c80939ca,4.0.0,2020-03-11 21:29:38+00:00,True
+673572255aa9ed1c50a58853a369b9b5ce19d61b,add deprecations to CHANGELOG and migration guide to README,2020-11-09 17:04:49+00:00,False
+61b61895cf9ca9f1af0848c17b05d96ad2a8655c,4.5.0,2020-11-09 22:15:28+00:00,False
+b0b34e04584345b6315a99a7f8062c09217670a0,Update docs to point to paypal domain,2022-02-09 19:53:14+00:00,False
+9b58e54eee72a7682bf341e4c9a8a404199e7c3c,4.14.0,2022-02-17 20:40:04+00:00,False
+7d363757daad4dd047a662e774690abe0d508a8a,"update docs to use unittest directly
+
+Signed-off-by: Arthur Zamarin <arthurzam@gentoo.org>",2022-10-05 09:17:40+03:00,False

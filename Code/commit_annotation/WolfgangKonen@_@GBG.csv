@@ -1,0 +1,26 @@
+sha,message,date,result
+7a05e1ac6efa539255f7bb075775df0dc581ba48,first commit,2017-03-30 16:14:07+02:00,False
+68ff371ea8b876476d45359345fee267b7f1ac3b,"update README.md
+
+changed README.txt to README.md, added JFreechart Install Guide to lib",2017-04-29 14:11:05+02:00,True
+c9bae47f69fdfd023b32fe69867309dae9b3b23a,Update README.md,2018-01-01 15:11:53+01:00,False
+3a6434fdc8c08347b387cd5de6aad3265f555349,Update README.md,2018-01-01 15:13:11+01:00,False
+b6db2c2ec24c1e8ee913890ea3ca4a79956a8017,Update README.md,2018-01-01 15:14:46+01:00,False
+7a2d4a2c60716f7a7c846040bb610f34c6f05b7b,Update README.md,2018-01-01 15:15:57+01:00,False
+425d8b28a99947931844e7608f069131b49befa0,Update README.md,2018-01-01 15:16:16+01:00,False
+1671333c769780b6d391b27b7087106ddd029f6c,Update README.md,2018-01-01 18:37:22+01:00,False
+cf58ba26ce215b4a495e33fac1bdc8f15b2c9fa5,Update README.md,2019-02-07 22:36:11+01:00,False
+369db9462db22e1127accb094134b9ded9de07c5,Update README.md,2019-05-22 09:55:17+02:00,False
+716ed3d40236eeb6efa276b77629d25efe89574d,Update README.md,2021-06-20 22:46:06+02:00,False
+2cea3611c376d8704c2c57542bbce5a46fa08be1,"JavaDoc Changes
+
+- a bunch of small JavaDoc changes
+- StateObservation and derived classes: removed the deprecated methods getGameScore(StateObservation) and getReward(StateObservation,boolean)",2021-10-07 16:10:35+02:00,False
+b3c2ab0366a7d0cfb895f9cde67b2955e3ada409,Update README.md,2021-11-06 13:35:07+01:00,False
+719c0d9212bced7259f7fe30097e9413195e7b2f,Update README.md,2021-11-08 12:53:07+01:00,False
+d15f82add5121933ec7fa9c4b701723a1612179a,"DAVI4
+
+- new DAVI4Agent for RubiksCube (still beta)
+- simplified GameBoardCube (old stuff out)
+- removed StateObserverCubeCleared (now StateObserverCube.clearedCopy + clearedAction)",2022-01-12 17:08:29+01:00,False
+6bcee5c948ed4dab3582f3a10754fa6028773e4f,Update README.md,2023-01-29 11:09:49+01:00,False

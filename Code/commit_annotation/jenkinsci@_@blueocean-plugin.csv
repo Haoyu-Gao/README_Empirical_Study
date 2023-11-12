@@ -1,0 +1,453 @@
+sha,message,date,result
+914ec49718c5603bfc3d9e29d8b14b3b973e7c17,Docs and .gitignore.,2016-01-24 18:56:23-08:00,TRUE
+74dd80e684c8bc9c33c54dd38824cd15857f55ab,needs a logo,2016-01-25 16:47:21+11:00,FALSE
+8cd71d2b589ef763b331daac84cbf1539ad08cc1,added a note on how to use gulp for js editing,2016-01-25 17:07:41+11:00,TRUE
+c46b830190006e6c31496d3bf7a1c9833e43971e,Fixed test failure and doc improvement,2016-01-25 07:21:17-08:00,TRUE
+99edbda74d80c26e7e9fc15aff17269531b8f8b8,Update message,2016-02-01 10:42:16+11:00,FALSE
+3d437a49dbfa213153390b6e27576cea6677b157,script to run dev tools automatically,2016-02-01 17:34:21+11:00,TRUE
+cebbff41051f26164dccd66cd292d6166637b621,Hotswap documentation for IntelliJ,2016-02-05 12:48:53+13:00,TRUE
+a0826e2facb3a884995f9e251016103768b1b11a,Forgot to save README before prior commit,2016-02-05 12:50:32+13:00,TRUE
+5ef27747146434227d30b775f8c4ee8ecbe081e1,"UX-5# Implemented Service APIs for embedded case.
+
+- Generated hpi can be used as plugin on Jenkins.
+- There are tests to launch FreeStyle jobs and serve them via API
+- No workflow/pipeline style jobs based tests yet. There is some problem using workflow-plugin:
+  some maven depency issue causing compilation failure.
+- There might be authorization lapses, will be tested after UX-6/UX-7
+- model clean up and bug fixes:
+- Run model is enhanced to include RunTrend, other run status and enQueueTime
+- LoginDetails handling is cleaned-up, it is handled polymorphically with JSON/Jackson
+- Service apis, commons and security apis don't depend on core, only embedded-service module depends on core",2016-02-08 18:51:10-06:00,FALSE
+c4d9c8233cffe274fef4cef86260da4dc13c5d22,"[UX-6] Authentication Abstraction and Impl
+
+Fix bug where cookie decoding error handling would have eaten all exceptions. Oops.
+
+.
+
+Fix poms",2016-02-22 17:03:23+13:00,TRUE
+9c89b95b323aac0c1cce3e540a3945035044be31,UX-39# Removed war module and some more cleanup,2016-02-23 16:30:48-08:00,TRUE
+7bfa2d402bde1b23bc3966f805d9f360409ea6b5,README clarifications and editing,2016-02-26 17:10:59+11:00,TRUE
+59e5fa6aa740606367c5c565a2b17d42ca845bb4,Update README.md,2016-02-29 20:57:53+11:00,FALSE
+6a2d5f031e28062601bba9fac6697e78518dd6ce,"Build badge does not work
+
+sads. But ok.",2016-03-01 16:43:26+11:00,FALSE
+2369d74ff9a686f03c6b4dd0b2906007a0f66eb5,docs to reflect the best way to work with it,2016-03-01 20:18:07+11:00,FALSE
+30c083a3ab50bce21f00f553fa25d442aa5fb61a,added an example extension that can host the organisation pipeline listing,2016-03-03 19:11:57+11:00,FALSE
+18892fa63dc6d88f8fec58de27c52a7a795bf35e,Nice to have a readme,2016-03-07 13:34:15+11:00,FALSE
+4111680c764eb465108960aa8d738d11bc99a854,added TODO for publishing,2016-03-07 13:54:57+11:00,FALSE
+1736078cd6f9006407b5175264902a7ed2a77be8,"Squashed commit of the following:
+
+commit 8a11a18fbbc0e34b287480c62e3a8bd1ca9a5c71
+Author: Josh McDonald <josh@joshmcdonald.info>
+Date:   Mon Mar 7 23:02:23 2016 +1100
+
+    josh/UX-31-polish * Add minified CSS
+
+commit e96bd1bec4f94fc95f890bbd188440c8f274f13f
+Author: Josh McDonald <josh@joshmcdonald.info>
+Date:   Mon Mar 7 16:53:28 2016 +1100
+
+    josh/UX-31-polish * Update shrinkwrap
+
+commit e464e5d965b676257c50e9c001aacccc85ff529b
+Author: Josh McDonald <josh@joshmcdonald.info>
+Date:   Mon Mar 7 16:21:10 2016 +1100
+
+    josh/UX-31-polish * Clean up directory hierarchy a smidge
+
+commit daee66329be37b01176865f797b3427dc7acc8c9
+Merge: b30a51a 199bf9b
+Author: Josh McDonald <josh@joshmcdonald.info>
+Date:   Mon Mar 7 16:04:37 2016 +1100
+
+    Merge remote-tracking branch 'github-bees/master' into josh/UX-31-polish
+
+commit b30a51a61c19125a5f80483bea25f669bd5933d8
+Author: Josh McDonald <josh@joshmcdonald.info>
+Date:   Mon Mar 7 16:03:40 2016 +1100
+
+    josh/UX-31-polish * Small text editing
+
+commit d21a88218389380663112ccebbc92f8d8fce1bdf
+Author: Josh McDonald <josh@joshmcdonald.info>
+Date:   Mon Mar 7 16:00:46 2016 +1100
+
+    josh/UX-31-polish * Metadata improvements for npm, and move the font names out of theme back into variables
+
+commit fb87dee20f8ba3fa253f08361aa3702930737831
+Author: Josh McDonald <josh@joshmcdonald.info>
+Date:   Mon Mar 7 08:49:32 2016 +1100
+
+    josh/UX-31-polish * Table polishing
+
+commit 9a960f710acb1a61b5f12d7c7a701ff29ecb477e
+Author: Josh McDonald <josh@joshmcdonald.info>
+Date:   Fri Mar 4 19:05:12 2016 +1100
+
+    josh/UX-31-polish Most of the polishing done for now",2016-03-07 23:06:52+11:00,FALSE
+ff63beff16fe3543e320293f7423edea9a6b29f8,Using JDL components and assets from blueocean-web and blueocean-admin,2016-03-08 14:52:10+00:00,TRUE
+f84f0a03d162dda2ae9a930f2e787a7002c59a90,README typo fixes,2016-03-08 15:14:43+00:00,FALSE
+281432724ad30237d692a98ff99c30e5e470e46e,Forcing ci build,2016-03-14 12:48:13-07:00,FALSE
+a53cfb7a9454e882c116f550e0c5bc5c183dcd0b,[hotfix/reduceHierachyJdl] update readme,2016-03-31 12:58:58+02:00,FALSE
+f813a1a0078e1a05e8ceb45bbcc380dfd75faa47,token push,2016-04-07 08:50:47+12:00,FALSE
+44c76221ae5ebfd4682dfd799058b83f5b559cae,Push to trigger build,2016-04-07 08:53:09+12:00,FALSE
+1d08476e6af03f6f4a7ac1c517d2b2392212af77,A little doc to try poke the PR builder,2016-04-07 07:33:07+01:00,FALSE
+690490e7c76f192acc13e38ed889cc25f138f3d7,Forcing new build,2016-04-14 15:30:40-07:00,FALSE
+8e48978695476cf2e710b5818b8ada2d3d7ae7e4,update developer steps in README,2016-04-29 10:14:20-04:00,FALSE
+996aebe1000abe20b90dc1548928daa1eff7c12e,"Bump version, update package.json URL and add a brief note to the README concerning repo history",2016-05-09 06:55:17+10:00,FALSE
+4239e25095e1b59db762db7da3db8a4b8f431ce3,"* Refactor status indicators into separate <svg> and <g> -level components
+ * Updated visual appearance for indicators with glyphs for usability
+ * Some small improvements to Flow typing info
+ * Update PipelineGraph to use new indicators
+ * Improved storybooks
+ * Update README to reflect current state of JDL, Flow, slink usage
+
+Squashed commit of the following:
+
+commit ad8f307a6aa20e2f29908cd6ebe51ca202e66d86
+commit e50a517b67964895355bcbf7e69ae2a2ecb8a1a5
+commit e0f1cffc16bbfe9af262e49745dc58b7e2dd93a8
+commit 8bdced630f59d13aedd03bcf11975f0a405d7314
+commit 2e746d8954bc49fd7cb0eed3633e880dad7970ed
+commit 41ea66fa81ba99fad4128d66ad172e8908a84a62
+commit a733b73f5df8a4421b6f465776686c94144f8ea6
+commit 461d5c007e75d844a0e61726445c9969e1fe1a04
+commit cb7591be3f893a4348968bc7de643f4532d2dd42
+commit 1e97b64fd28806da63b34a2449d7e5642a40df1e
+commit 23b533bec45c63d37460d67bd41d274703815afe
+commit 34eb28cd625b42c164d36c1a23c87e89af383b7b
+commit 46e0f860405480b6ff4e0b95e8e1ee075a521f7d
+commit ba954849ef43abd8ef47d31959df0d2c1e9aa2a8
+commit 383a9c19140b2306b84c347f5cd7a2c270a7c652
+commit c90c64ba8e1d17a99d75a47339c13db41770b3cc
+commit 98ba0be4b1390513840655b7cae458d430368233
+commit 16131925ab8714ea40f35e04a2158d98fb4f1921",2016-05-25 18:12:25+10:00,TRUE
+f507cd9ccd98c594719dc4dd4ae32aa94ff3fa51,[UX-491] Rename the blueocean-admin to blueocean-dashboard,2016-05-25 10:35:47+01:00,FALSE
+3a1be3ad02723e0790304b28078e374ccd9e76f1,[UX-491] Rename the blueocean-admin to blueocean-dashboard - typo fix,2016-05-25 10:46:54+01:00,FALSE
+4e4133cee79bbc3620b95da1856d6379e8f594e8,"big cleanup of dev docs (#203)
+
+* big cleanup of dev docs
+
+* fixes for README",2016-05-26 13:51:46+10:00,TRUE
+d079aec2abbc0345932839d3fefccdef776217cd,"UX-495# Module refactoring
+
+- Needed by HOSTING-98 ticket
+- Rename blueocean-plugin artifactId and module name to blueocean-rest-impl
+- Create new aggreagator module blueocean-plugin with artifactId blueocean
+- Added LICENSE to each module",2016-05-27 14:34:45-07:00,FALSE
+9d8d87234c78ffb80612da571fcc5b17fb4c29a2,Fix blog URL in readme (#231),2016-06-05 11:52:43+10:00,FALSE
+95c01edb36dcfa3eb72196f6921fa5c491fd195a,Minor typo fix,2016-06-08 11:43:48+03:00,FALSE
+1bbf198b16d95c2c1cd06f132dd35c15f1646621,README text for Windows build instructions + a browser compat section,2016-06-09 10:04:55+01:00,TRUE
+5ca14421201b136e823d096175f135be197aa892,update slink instructions,2016-06-14 15:43:36+09:00,TRUE
+48e14bf0167d143b739b43e1fc33574037998919,update instructions to refer to dashboard rather than admin,2016-06-14 16:47:16+09:00,TRUE
+7b0aa7e22b3014835658acf75f52f5d1f687b6c0,simplify directions for starting Jenkins,2016-06-16 15:39:54+09:00,TRUE
+ca7d54e99f90a261f852766460304d89095cfa6d,"JENKINS-36837# Split of Pipeline specific API implementation in to se… (#364)
+
+* JENKINS-36837# Split of Pipeline specific API implementation in to separate module
+
+* doc improvement
+
+* Fixed .js, .jsx with changed pipeline related impl class names
+
+* Fixed BranchImpl package
+
+* Removed uneeded error message",2016-07-21 16:28:57-07:00,FALSE
+e181cf5a9103c0168137f6301700b8c07d5f1153,"JENKINS-36884# Analytics-tools plugin to integrated rollbar (#374)
+
+* JENKINS-36884# Analytics-tools plugin to integrated rollbar
+
+Also includes infrastrucutre to inject HTML head tags and HTTP header by any plugin that implements BluePageDecorator
+and appropriate jelly files.
+
+* Doc update
+
+* Wrapped rollbar JS code inside IIFE.
+
+* Use rollbar-browser package and build browser bundle
+
+* Fixes and doc update
+
+- Stapler includei jelly tag needs escaping $
+- Added missing dependency in gulpfile.js
+- require should load browser-rollbar",2016-07-28 08:50:24-07:00,FALSE
+c713cf4f1530b8bcfb879fd918213b711981e791,"JENKINS-37612# Cleanup POM and prepare for beta (#442)
+
+* JENKINS-37612# Cleanup POM and prepare for beta
+
+* Changed references from bluecean-plugin to blueocean
+
+* Added Module :: suffix",2016-09-01 23:08:46-07:00,TRUE
+b2a9287c6dfcdff8b1d92fab20644b34e53d6ce7,"GitHub pages website for JDL (#90)
+
+* Initial gh-pages site docs using HarpJS
+
+* Layout and style tweaks
+
+* Add bootstrap
+
+* Change to use bootstrap LESS
+
+* Add some more docs
+
+* publish to my name
+
+* tweak margin under buttons
+
+* Integrate storybook into generated site
+
+* remove bootstrap ... going to add JDL theme instead
+
+* Use JDL theme
+
+* Use JDL theme
+
+* Style the frame around the JDL storybook
+
+* Style the nav buttons using JDL
+
+* Add storybook gen to site-publish
+
+* More room at the bottom of the jdl iframe
+
+* Added fork me on GitHub ribbon
+
+* Fixed up 404 page
+
+* Cleaned up index docs a tiny bit
+
+* component doc styles (rough)
+
+* component doc styles (rough)
+
+* button docs
+
+* empty state docs
+
+* remove action logger window from storybook
+
+we're not using redux in any of these components
+
+* Added a prepublish that runs gulp and publishes the site to gh-pages
+
+* index page link fix in nav
+
+* Fix nav button highlighting
+
+* Fix nav button highlighting again
+
+* remove prepublish as a test, in case it is interfering with npm install
+
+* Add flow ignores for new deps
+
+* reintroduce prepublish
+
+* Extract component docs to .md (or .jade or .ejs) files + pretty print sample code
+
+* Moved harpjs dep to devDependencies
+
+* Publish to jenkinsci fork
+
+* Link to the docs site inside the readme
+
+* 0.0.75 - docs site",2016-09-05 10:13:41+01:00,FALSE
+710652d5394376a72805595d97cb728cce9cc34a,"docs for shrinkwrap (#509)
+
+* docs for shrinkwrap
+
+* docs for shrinkwrap",2016-09-19 11:23:29-04:00,FALSE
+2579fbc3111c2dc0a37c5e7d9500077889fac698,Initial commit,2016-09-26 16:33:51+10:00,FALSE
+0ee8e8966328bca8635628022cf6d48ea14d3648,Update README,2016-10-05 10:40:38+10:00,FALSE
+40e04c273de3dad52ef315379f3ab56da12c87e1,"FIX JENKINS-38673 (#552)
+
+* [updateDeps] Raise all versions of deps besides the router, if we raise the router we need to fix the code
+
+* eslint - formating changes and fix offences
+
+* [updateDeps] fix bug in freestyle project for the full log url
+
+* [updateDeps] Update readme about the experience I made updating the deps
+
+* [JENKINS-38673] fix declarations and add note about the dev flag to be used",2016-10-10 12:16:24+02:00,TRUE
+3d14e8440634fd0820be84e2d5d2791e8dd60474,improve docs for shrinkwrap (#565),2016-10-14 11:44:57+11:00,TRUE
+624eb0bb0d89920581c098540565d55bf3308a65,"[FIX JENKINS-38013] Fix bloated JavaScript bundles (#569)
+
+* Updating the node and npm versions
+
+* Added .watch_trigger ignore
+
+* js-builder 0.0.47
+
+* Drop node and npm versions back to 6.4.0 and 3.10.3
+
+* Update blueocean-config build
+
+* Update blueocean-dashboard build
+
+* Update blueocean-personalization build
+
+* Updated js-builder version in js-extensions
+
+This does not require a new build of js-extensions. It's just to keep the checkdeps happy
+
+* Fix FavoritesSseListener initialization to not throw SSE connection exception when there's no window etc e.g. in a test
+
+* Updated docs to remove references to Gulp",2016-10-24 11:13:41+01:00,TRUE
+b0d66b6b7d083a0cd678218c24a7b0aa7fe77b09,Time to spring clean the readme/devdocs (#602),2016-11-17 10:12:18+11:00,TRUE
+ed76c2cb723ca5732c7fccf75aea0ba46ac2a5fc,"[FIX JENKINS-39225] Internationalisation for Blue Ocean and JDL (#556)
+
+* [JENKINS-35845] WIP first steps with i18n
+
+* eslint - formating changes and fix offences
+
+* [JENKINS-35845] first basic working version with 2 languages
+
+* [JENKINS-35845] WIP adding patched backend to investigate
+
+* [JENKINS-35845] Assumes https://github.com/jenkinsci/jenkins/pull/2586 to be applied. We know get the translations from the standard jenkins way, but needs changes in the core for now
+
+* [JENKINS-35845] remove testing class
+
+* [JENKINS-35845] WIP fixing integration of jenkins i18n keys with dot in them
+
+* [JENKINS-35845] move i18n to core-js and using it from within web
+
+* [JENKINS-35845] follow jenkins convention/pattern for storing locale
+
+* [JENKINS-35845] WIP implement translation in core-js runbutton and toastUtil. Prefix translations with bo.web. remove sample code
+
+* [JENKINS-35845] WIP starting to translate dashboard
+
+* [JENKINS-35845] WIP added german translation and finished dashboard. Currently working on making moment respect the locale
+
+* [JENKINS-35845] Use latest jdl
+
+* [JENKINS-35845] fix locale retrieval
+
+* [JENKINS-35845] update stories to use the new i18n functions. Create story to test readableDate and timeDuration. In node this works fine now traking down wht not in dashboard
+
+* [JENKINS-35845] Add spanish translations
+
+* [JENKINS-35845] better translation for spanish (thank you @Dario) as well updated some german translations
+
+* [JENKINS-35845] Fix german translations with feedback from @daniel
+
+* [JENKINS-35845] Fix test view and finish translation
+
+* [JENKINS-35845] Fix german translation. fix result views. fix some lint issues.
+
+* [JENKINS-35845] create a compose function to wire different functions together
+
+* [JENKINS-35845] better documentation and remove debug string
+
+* [JENKINS-35845] add documentation about i18n and linking contributing and i18n docu in principal readme.
+
+* [JENKINS-35845] updte docu
+
+* [JENKINS-35845] Pass locale and translation function down the component tree. Fix links to not drop query parameters.
+
+* [JENKINS-35845] Fix links to not drop query
+
+* [JENKINS-35845] use the url config util to get correct path to jenkins
+
+* [JENKINS-35845] WIP security commit - refactor i18n class to support listener and subscribe to i18nChanges. Will allow to drop react specific integration via react-i18next.
+
+* [JENKINS-35845] WIP security commit
+
+* [JENKINS-35845] remove debug statement
+
+* [JENKINS-35845] fix import
+
+* Task/jenkins 35845 i18n key rename (#579)
+
+* [JENKINS-35845] rework i18n keys for home page
+
+* [JENKINS-35845] l10n for activity tab
+
+* [JENKINS-35845] l10n for branches tab
+
+* [JENKINS-35845] l10n for pull requests tab
+
+* [JENKINS-35845] l10n for run details -> pipeline
+
+* [JENKINS-35845] l10n for run details -> changes, tests, artifacts
+
+* [JENKINS-35845] l10n for run details header changes
+
+* [JENKINS-35845] pagination; fix typo causing error
+
+* [JENKINS-35845] order keys
+
+* [JENKINS-35845] WIP security commit to be able to merge master
+
+* eslint - formating changes and fix offences
+
+* [JENKINS-35845] Remove dep to snapshot-jenkins and implement fallback to default values. Fix tests of all related projects.
+
+* [JENKINS-35845] remove duplicate variable
+
+* [JENKINS-35845] fix test by adding polyfy again
+
+* eslint - formating changes and fix offences
+
+* [JENKINS-35845] Fix last test
+
+* [JENKINS-35845] fix tests for dashboard
+
+* [JENKINS-35845] sync version numbers",2016-11-17 19:15:26+01:00,FALSE
+969f1a189c6401391594e73c13b0b84dc662ff3d,Update README.md (#635),2016-12-01 09:44:53+11:00,TRUE
+d68a909932873992e4000664b3146ce9e90132e7,Add Rollbar badge,2016-12-06 08:46:26+11:00,FALSE
+dff8076cf4eb9739db140190471eb55c578be1d3,Update README.md,2016-12-06 08:47:17+11:00,FALSE
+cb002de9af7f7e598cb336ca9cb32526f076a7c9,"howto on upgrading deps (#851)
+
+* howto on upgrading deps
+
+* talk about @ mentions
+
+* more instructions",2017-02-24 09:15:22+11:00,TRUE
+c138e6864ca51dd10aca6c74826164ce4e7aca11,Add `Developing` in README (#163),2017-04-19 20:29:27+10:00,TRUE
+e5f0d2ae4e01fc13f3bbf6552e4673ec80cdb583,Remove deprecated plugin-dev reference (#1001),2017-04-24 19:04:33+10:00,FALSE
+18211d448f62358214db365987600969fedb1f49,"node-gyp-readme (#1012)
+
+Add some notes on what native tools are needed",2017-04-28 14:41:23+10:00,TRUE
+fb8ab8903a29473cb566ea5e7717602f536d6960,Move to jerkins-design-language dir,2017-05-24 23:44:14-04:00,TRUE
+4a7ede62ee2974fbaa8d9d8e34ce386671f1b38a,documentation for extension points (#1094),2017-05-29 10:47:29+10:00,TRUE
+9417b1f86e0c94f6514a12eb754aa8cff86b5445,Simple grammar correction (#1239),2017-07-11 07:59:04+10:00,FALSE
+7f37333ddc8213c3a2ad7825f920a97fd32a7347,Small update to README with run instructions (#43),2017-07-21 10:55:28+10:00,TRUE
+ffad1a9557fb6e76045e9254d272e10d096381a6,Indexing for github/ghe (#53),2017-08-21 15:18:41-07:00,FALSE
+484664c8cdd76c3fdbf54aa88307eb4ea3255604,"Revert ""Indexing for github/ghe (#53)"" (#56)
+
+This reverts commit ffad1a9557fb6e76045e9254d272e10d096381a6.",2017-08-21 16:01:52-07:00,FALSE
+037957519ef385302e73558bcf52a26b51d9bbe7,Move blueocean-pipeline-editor to subdirectory,2017-08-22 12:08:59-04:00,FALSE
+b998ba2d991e6dd41ac6f6e7f44633b9556cc785,[FIX JENKINS-42602] Convert JDL and core-js to HPI & auto-watch all plugins to bundle (#1257),2017-10-21 16:51:21-04:00,TRUE
+b640430ffc4931860d97088f9c69084e2b5abf0c,Comments spelling (#1672),2018-02-26 09:56:06-08:00,TRUE
+96efe1eaf1b06008ecb130ae6c8d2dd6143b7edb,task/update-docs-prettier - add setup instructions to README (#1679),2018-03-01 10:50:41+10:00,TRUE
+5cffd5346b628032ba52f74523f3a6dd7736c680,"Update to Jenkins LTS 2.121.1 (#1763)
+
+* [JENKINS-52295] Update to Jenkins LTS 2.121.1
+
+ - change to use jenkins/jenkins:lts base Docker image
+ - use `docker run jenkins/jenkins:lts --version` to obtain effective version
+ - pom.xml continues to explicitly use effective version
+
+* Other places to bump version / add another LTS acceptance test target",2018-07-01 22:14:39+02:00,TRUE
+70083b199cf41486dd0559520f0764205ea67ac3,"Fix links in README.md (#1936)
+
+* Fix links in README.md",2019-03-21 07:55:47-07:00,TRUE
+07bbd5082d314c215c4b750f337f20b88b19b3fa,"Update README.md w/ note about installation on macOS (#2016)
+
+* Update README.md w/ note about installation on macOS
+
+Installing the project requires usage of JDK 1.8.
+
+* Update README.md",2019-08-23 15:24:05-07:00,TRUE
+0fe5ce3ee380506c028edcc28f3326ab0e1f77ab,Typo in the README.md (#2023),2019-09-04 19:35:59-07:00,TRUE
+2a8a0a65ac73d27871663d1567c695652237b9e1,README: remove reference to the Blue Ocean roadmap,2020-04-16 12:08:27-07:00,FALSE
+5c37ebdbc07eab8c1c9ce5043cbbea384d147cd6,spelling: propagate,2020-04-19 20:45:15-07:00,TRUE
+868c0ea4354f19e8d509deacc94325f97151aec0,"Update README.md
+
+you need pythod to otherwise the build fails with
+
+`[ERROR] gyp ERR! stack Error: Can't find Python executable ""python"", you can set the PYTHON env variable.`",2021-04-08 16:20:39-07:00,TRUE
+3afd6d1cd3052b25254552049fd61fd26404c2d6,Doing a small change to watch jdk11 CI running (#2208),2021-10-13 11:19:29+10:00,FALSE
+6511fc5684bb73b98b7c2c17cecf0e545bd0665d,rollbar not used anymore,2022-04-16 19:32:36+10:00,FALSE
+8db0509cdb4e7f45963a4899b52d961b9f284719,Adding Blue Ocean statement (#2325),2022-08-08 17:34:40-04:00,FALSE

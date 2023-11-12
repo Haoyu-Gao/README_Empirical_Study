@@ -1,0 +1,29 @@
+sha,message,date,result
+11cac2c0e79ada814578c5799d8d25bf608acfef,Add readme,2020-06-11 15:26:20+01:00,False
+444e6435dd713204ad0d2ac39390e0f0c40a8735,Update setup and readme,2020-07-27 13:35:15+01:00,True
+3d958474c846e5194dcefb0dc4ba9d18dadd52e5,Add pre-commit and clean up formatting,2020-08-12 09:48:48+01:00,False
+3550aa56c053bd6a3e9583f54ac5c5ac43a717c9,Update readme and contribution guidelines,2020-10-30 18:17:16+00:00,True
+dcfde30fd5f20ba66913be9605ac6487e29abb72,Fix typos,2020-10-30 18:21:59+00:00,True
+8ecc24c497f20eae06223a9ab241fe055ef0aba8,Fix typo in README,2020-11-05 12:10:39+00:00,True
+044727d2cc7ec7200745485f2f7256a8d45970ca,Update install method for Bilby,2020-12-08 09:53:48+00:00,False
+81884765134ebb1e69ad45e7edc5a234f1b6e916,Fix typo in README,2020-12-08 09:59:09+00:00,False
+1cb50d0d1629e0b5411807a2299e6f4170e1d1b1,Update README,2020-12-15 15:11:51+00:00,False
+4da03f7e3947afc64c3c0943e7f76329972b9f2b,Update README.md,2021-01-08 10:26:48+00:00,False
+e635ec00c5915cbdb27d45fee5b4c86af039845e,Update README for public repo,2021-02-17 16:27:48+00:00,False
+cc62006b7cbf2ad910da3969b906319513eff56a,Add link to README,2021-02-17 19:02:54+00:00,False
+ceeeeb178562ad4870fc0e299e46d6cecbf7ea86,Update readme for pip install,2021-02-18 11:18:20+00:00,False
+8fe4d48d11fec1c062186412cd8fa18bf7000062,Add docs badge,2021-02-19 10:38:58+00:00,False
+77f83a775b8f7a11948c97cb60e854e212d721a7,Add badges to README,2021-02-19 11:01:12+00:00,False
+198ec3e879d2acde809f8b5f4d3031d8e3b87e2f,Add section on citing nessai,2021-02-24 10:11:18+00:00,False
+d0ac420fc5002ae86d917a5c6836d8993aa13c0f,Fix PyPI badge,2021-03-08 09:51:32+00:00,False
+95e7ac10a03047b5db4204690a0c331451cbb020,Add coverage badge,2021-03-23 12:16:09+00:00,False
+12263f03a79ad2f1676b2b20923292f15aea310c,"Update README.md
+
+Include more badges, update references to bilby and updated the citation for the PRD paper.",2021-05-28 11:33:00+01:00,False
+d0b73ec84afab3298025d42adfcea092e400f28d,Fix spelling mistakes in README,2021-10-12 14:41:46+01:00,False
+4b5814d92889cedf6ed20ec82e292f706daaa31c,Add acknowledgement to some very helpful folks,2021-10-26 17:13:30+01:00,False
+a93e548b6edabf14d49dd211614091239392d54f,"readme: update acknowledgements
+
+Add Christian Chapman-Bird",2022-08-25 09:03:54+01:00,False
+599c11edb28601483512d76d6a6bd442a8f9f2c3,readme: update installation and add badges,2022-10-03 09:55:48+01:00,False
+423ae6272dcd3080112404e20e34bf1f8b1d3df7,readme: add Simon Tait,2022-12-08 10:35:56+00:00,False

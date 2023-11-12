@@ -1,0 +1,160 @@
+sha,message,date,result
+ee7e873f880a2db47bad325726fe430145a75655,Use markdown format for README and add links,2018-11-02 07:12:38+01:00,False
+2bc281ab6cf792c0b7f1753ebf4955046076e618,Installation placeholder added; --dry-run more visible,2019-02-21 15:46:00+01:00,True
+18759fad8d0c2a7b486a74bf2ec39c75218d6863,Installation: point to docker/ subdir,2019-05-03 13:16:19+02:00,True
+d3aae94269d19a494d3eb14485d8af2b4ef90284,DOI and license badges added,2019-05-19 11:40:20+02:00,False
+43598381add6081bf931090d4f51aead91f42124,docker build batch added,2019-05-21 21:07:02+02:00,False
+7571a990341c07974bc490b7425657d1df98378f,fix LL location name to latlong_wgs84 (on server),2019-09-01 16:42:34+02:00,False
+4c2c6034f3969ca357d96a909785ab5850c2da96,List of available endpoints query added,2019-09-24 16:15:05+02:00,False
+46f84d5560b71dd1b0f560814a807e26fc7dea10,fix actinia curl examples,2019-10-30 23:08:34+01:00,False
+543c4dfcb8cda02a8fbc68798170dfcb647ace93,"replace ""docker build"" with ""docker pulls"" badge",2020-07-22 11:55:44+02:00,False
+ded9fadfeabfff8d084d9b3b6b76db91d6d7b1ed,add link to docker hub,2020-10-29 20:07:00+01:00,True
+244b64caf1c7bb883b2b863e609e0569e38a49cc,add link to OSGeoLive,2020-10-29 20:09:29+01:00,True
+49a230dba82b52f7fb849566209a1cfa647bc30d,update docker readme and setup,2021-01-08 17:25:22+01:00,True
+70ea7988091736af91497a49a727720e63a73c7d,rename master to main (#194),2021-05-26 13:32:29+02:00,False
+4826b268f09774376f145cd8c826d54c41f4bf09,"Using v2 (#277)
+
+* docs using v2
+
+* update actinia version to v2
+
+* linting
+
+Co-authored-by: anikaweinmann <aweinmann@mundialis.de>",2021-11-23 16:45:46+01:00,False
+8f483d4d2bad5ef0062918f9b333c5b8db25bc2e,"Actinia core v3 (#296)
+
+* add script to change major version
+
+* v2 to v3
+
+* fix missing v2
+
+* CT + MN review
+
+Co-authored-by: anikaweinmann <aweinmann@mundialis.de>",2022-01-07 12:52:47+01:00,False
+12f2e7a9ab53cf6f3f804ddcc1b60ee8d78b8a4d,Add software DOI badge,2022-01-18 08:49:36+01:00,False
+691b7edfd6b7c5e249541d7ffc4c5703a2d9877c,Change actinia software DOI badge to generic DOI,2022-01-19 14:26:22+01:00,False
+2147fc764f485997adcf82ebd588aa34860390e0,Update generic actinia DOI,2022-03-01 19:00:22+01:00,False
+c73b08b902dd87c48f62d757278c0882d7187060,replace API doc links,2022-07-28 14:00:22+02:00,False
+8e56a0783c5b2929e5920982a15f9e0973085337,disable old api doc links,2022-07-28 14:41:26+02:00,False
+3fce8075037103c611efb945c11d461949447d56,"Fix redoc rendering (#379)
+
+The API docs gives only an error currently. Adding `&nocors` aparently helps. (maybe browser dependent?)
+See: https://github.com/Redocly/redoc/issues/2009 for background",2022-09-22 14:22:22+02:00,False
+933990a20307174af1bc48cf8fc6dd5839cfe9c0,"README.md: Thanks to all contributors (#423)
+
+Add an auto-generated section listing all contributors with their icons at the bottom of `README.md`.
+
+Make this README.md file less boring :-)
+
+Uses:
+https://contrib.rocks/preview?repo=actinia-org%2Factinia-core",2023-05-04 11:34:09+02:00,False
+4f7363b74033a40b3265e1cfc970bb2ee59bea55,"PyPI publish (#373)
+
+* add pyproject.toml
+
+* fix license
+
+* remove direct dependencies
+
+* update actinia-api
+
+* cleanup metadata files
+
+* fix gha
+
+* fix gha
+
+* fix gha
+
+* fix gha
+
+* trigger ci
+
+* clenaup
+
+* lint
+
+* update gh org
+
+* sync
+
+* lint
+
+* update Makefile
+
+* better use of docker build cache
+
+* test tests
+
+* adjust webhook test to new path
+
+* add version update to gha
+
+* update version
+
+* update version
+
+* use test pypi
+
+* update gha
+
+* update gha
+
+* update gha
+
+* test ci
+
+* test ci
+
+* test ci
+
+* Update version number to new_version
+
+* use real pypi
+
+* update readmes and version
+
+* add deprecation notice
+
+* black
+
+* fix typo
+
+* fix typo
+
+* remove deprecation warning for never existing commands
+
+* Update pyproject.toml
+
+Co-authored-by: Markus Neteler <neteler@osgeo.org>
+
+* Update setup.py
+
+Co-authored-by: Markus Neteler <neteler@osgeo.org>
+
+* Update src/actinia_core/cli/actinia_server.py
+
+Co-authored-by: Markus Neteler <neteler@osgeo.org>
+
+* Update src/actinia_core/cli/actinia_user.py
+
+Co-authored-by: Markus Neteler <neteler@osgeo.org>
+
+* Update src/actinia_core/cli/rq_custom_worker.py
+
+Co-authored-by: Markus Neteler <neteler@osgeo.org>
+
+* Update src/actinia_core/cli/webhook_server.py
+
+Co-authored-by: Markus Neteler <neteler@osgeo.org>
+
+* Update src/actinia_core/cli/rq_custom_worker.py
+
+Co-authored-by: Markus Neteler <neteler@osgeo.org>
+
+* reorder authors to match CITATION.cff
+
+---------
+
+Co-authored-by: Markus Neteler <neteler@osgeo.org>",2023-05-12 10:16:53+02:00,True

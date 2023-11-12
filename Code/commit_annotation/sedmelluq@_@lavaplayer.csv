@@ -1,0 +1,112 @@
+sha,message,date,result
+d87144fd8f39504154553d22e289fa8d468328f5,Initial commit,2016-10-02 09:20:22+03:00,False
+d51e7244b36cb856183ffb857f2729e552437d85,Updated readme with a quick startup guide.,2016-10-22 07:44:37+03:00,False
+f5315522d5402b8a99a57ed9d540d45f9dccf562,Small readme adjustment.,2016-10-22 07:48:03+03:00,False
+f6edec9a5cc5548bba7d7cf160bba17cbabe8ba5,Another readme adjustment.,2016-10-22 07:48:48+03:00,False
+d05c93d0d6c27d75b978bcb80ee52d096c88aad0,Added maven info to readme.,2016-10-22 08:00:46+03:00,True
+b13e439fe173e36c89a8a2153871939bf7548b50,Consistent quotes.,2016-10-22 08:01:32+03:00,True
+96effd72601b0780229a11209c44be01e966f838,Typo fix,2016-10-22 08:05:38+03:00,False
+e4e03f313bc6e381acd322175858fec0292d7e59,And another one.,2016-10-22 08:06:13+03:00,False
+bf05d500469d9349739fd56c08825c108c9e3da2,Fixed wrong version number in readme.,2016-10-22 08:16:06+03:00,True
+bb43886c144b48abc8464a61221be85c4381e343,I'll be fixing these typos forever.,2016-10-22 13:29:49+03:00,False
+a63714145a2c447b046284b0c0f5c7a0a104e34d,Updated readme.,2016-10-22 16:02:54+03:00,True
+0cde43fcf78fb3323e2fd05074e6c6b233c028aa,Updated version in readme.,2016-10-22 23:46:35+03:00,True
+e819fcd0fe3cc0b7ffa6a937968cbfe56494313d,Updated readme.,2016-10-23 18:24:09+03:00,True
+b1570914fc9056bd3b5629368a2816c427d9ff18,Updated readme.,2016-10-27 02:37:49+03:00,True
+c26c15b996219663d238d3671b6a57c9904c388d,M3U support.,2016-10-28 00:14:30+03:00,True
+80291c22e27baa24d9e9f45e2490cee933432653,Custom SSL certificates.,2016-11-01 23:41:37+02:00,True
+8c06254bda86587efd4538c722c06b9393f69c94,AAC stream support.,2016-11-01 23:41:37+02:00,True
+83eb2936fa4941a1b4cd7114a452cc7d92852c40,Fixed a readme typo.,2016-11-01 23:42:45+02:00,False
+b76bc6aec05fce2ebb0b32ba4327bf70918199fc,"PLS playlist support, ICY protocol support.",2016-11-03 00:01:14+02:00,True
+91c535940a099d9e2969cd367aa50cffbd111ade,Fixed some soundcloud playlists not loaded.,2016-11-03 10:32:47+02:00,True
+0c2c952d3fad5f7d907317c444c9cdf586df8ef9,Updated version.,2016-11-03 22:58:20+02:00,True
+bcdc752d6d6fceb6f990c9bc3033378c6f1e02cf,Support for standard MP4/M4A. Vimeo source.,2016-11-05 02:03:22+02:00,True
+fa9ca19e23761fa3f4320647c4a6f953a06fea7b,"Twitch streams, MPEG TS stream format.",2016-11-05 18:02:24+02:00,True
+d36a2415ce6244de46dd48ab643cee0b0f1ad6ef,Fixed track not loaded if url references a private playlist.,2016-11-05 18:40:32+02:00,True
+ba2e03a01d2a1cdc588981892c875bcea7f1c375,Load liked tracks as a playlist on SoundCloud.,2016-11-06 17:35:13+02:00,True
+0d61bccebbf558bebb844b8e350ed4a3a959e11c,Small soundcloud fix. Replaced loop with track position marker.,2016-11-11 00:37:02+02:00,True
+c0f97f7a402650893c408273ad4c2202849ca1f1,Fixed OGG stream expected to contain the next track when one ends.,2016-11-11 21:24:14+02:00,True
+6b30e04118a1a7ff60bf136a8450012fbf21d014,Updated version number.,2016-11-11 23:39:27+02:00,True
+68cedb2f75f7124c950ae52e4c6c7af496745670,Moved MP3 to the end of media detection chain due to false positives.,2016-11-12 20:52:28+02:00,True
+5c253bad9c6f9e4bcbd3766379547b4f5f6d9ce4,Fix issue with youtube ciphers.,2016-11-16 15:51:23+02:00,True
+a3e7fb7d309d403ce48baeab6d996ccf3ef4e9d6,"Avoid race which allows to inject new track with noInterrupt during track switch, JDA demo.",2016-11-18 02:41:11+02:00,True
+5f8da7831ee940b96600113e480b9d78df4d7e75,Allow redirects from HTTP urls to other sources.,2016-11-18 20:15:09+02:00,True
+2920d531f1bbd51f6f8ab0f15e08cca5cafa3e1e,Added youtube search option with ytsearch: identifier.,2016-11-18 23:49:01+02:00,True
+c63db6c576c0d758bb2d42a29986954edf2c2222,Allow to specify whether searches should be allowed with youtube source.,2016-11-19 15:35:25+02:00,True
+da07d33e42b76699bcf58c14d6ea75a033480165,Soundcloud client ID change (temporary fix).,2016-12-01 01:08:47+02:00,True
+ea90ed51297fb91602fe16f1250f9fe7268241c1,MP4 metadata.,2016-12-08 02:51:13+02:00,True
+91d2384f460afcfad215dc5166da13c13c234d62,"Properly parsing ID3v2.2 tags, report no matches on nonexistent youtube video.",2016-12-08 03:37:15+02:00,True
+4491a7a72583bc081bb5d9e6768075977c90dca4,"Native audio system, everything to JDA3, fix for running lavaplayer with different linux users.",2016-12-11 16:00:12+02:00,False
+0714c49863123978e8f7963b8e8ddd53edc59159,Version updates.,2016-12-17 15:51:45+02:00,True
+9051f49f8c1b34cdbd30335d83a193fae85e73b7,Temporary fix for MP3 detected as ADTS.,2016-12-19 00:53:42+02:00,True
+16b5384a979581bfd5c0ddb947f0532b69d7624a,"Fixed a method call in README
+
+ AudioTrack doesn't have mayStartNext, AudioTrackEndReason does.",2016-12-27 14:05:39+02:00,False
+469f790dd888ce674fb5a880c7845068b32bae10,Filter out ads from YouTube search results.,2016-12-29 03:46:48+02:00,True
+9951c87b8957105f86e12563bf0917adb90f5457,Fixed handling relative HTTP redirects.,2016-12-31 04:11:34+02:00,True
+265b681378e6037602f2f18250320185f0d230b5,Fixed track marker and position reset when starting the track. Changelog.,2017-01-01 20:52:15+02:00,True
+e51b898827245889256d76211a8b5192e9d22763,Versioned messages for node communication.,2017-01-08 16:50:58+02:00,True
+f98ceb579720d029454cb62c9d46b26a3ba9eeca,Version number updates.,2017-01-09 22:37:55+02:00,True
+8c45773fc194cd80ab98e5e6a47e5a608702f21e,"Remote node balancing updates, fix for youtube player urls without hostname.",2017-01-15 19:32:44+02:00,True
+c67fbf7a0ffb1241b4b4be585949211f561e496a,Updated changelog.,2017-01-21 15:46:45+02:00,True
+829c2c1c9c0b01018c904761926c7e534719206c,"Soundcloud search and unlisted tracks, fixed wrong playlist order. Youtube playlist fixes.",2017-01-28 00:47:17+02:00,True
+952076e068786c60802df9e2229117f0068ac3df,WAV file support.,2017-01-28 14:38:01+02:00,True
+efc8999273c9355db6b323cc06e42353edf18034,Looking for ARM binaries in the right directory instead of in x86 dirs.,2017-01-28 15:46:29+02:00,True
+45ba98cebf07d8ea49890da3fa8445b1e0fc197a,Fixed a native leak in Vorbis decoder.,2017-02-02 00:01:56+02:00,True
+1f90240471e2196d8d08b977b86ea8393ad3a105,"Blocking provide, configurable output format.",2017-02-04 19:27:47+02:00,True
+440f885b0989b38d2dc8ed14724abd256c75716a,YouTube MP4 live streams.,2017-02-05 19:00:38+02:00,True
+fe57ddb5edb367672c0969a3e65555f7e0718097,Fixed Vorbis MKV tracks not working if the channel count was not specified in MKV audio section.,2017-02-06 20:56:10+02:00,True
+5ef091f3ce78b4475db9725aefb007270a580948,Fixed some synchronization issues.,2017-02-08 03:33:20+02:00,True
+f7943ba916862d3bee4f23fe62476e814639e67f,"Fixed lavaplayer-common dependency version, updated version numbers.",2017-02-09 05:52:50+02:00,True
+1ead8c1298b125594efdd17b8289ebfb090306e4,Fixed item load queue being broken.,2017-02-09 20:08:59+02:00,True
+6df21a158ecbd130be1cd9b4c1ad5390024ce836,Fixed limited http connection count.,2017-02-09 23:15:19+02:00,True
+6cd9e26429cb3cbcb6015f2b95e8e9ae4393c6fe,Interrupt management fixes.,2017-02-18 01:02:11+02:00,True
+84524a4040c55848f47139214f6d8057b9e7c1c5,Support for alternative YouTube JSON args (adaptive_fmts -> url_encoded_fmt_stream_map),2017-02-18 01:29:01+02:00,True
+ee4ed2e6da5334d0272a811c700a63a1d1cc81e2,Updated version numbers.,2017-02-23 21:01:04+02:00,True
+a89b524dba660a2ef530fc871a2b8ea08aa3741a,Updated version numbers.,2017-02-24 13:55:00+02:00,True
+88a3883c4006478dc6a438f72285372e03620364,Fixed Vorbis crash if shut down before properly initialised.,2017-02-25 16:08:14+02:00,True
+303d4e5390ced895e064847a87c840a8bd9e299a,More frequent assignment of abandoned tracks to nodes.,2017-02-26 15:21:22+02:00,True
+09b32713e3946ef06126ce6f5d21960901de1e18,Added premature end exception to retriable connection cases.,2017-02-26 15:34:01+02:00,True
+5461699e8acdc9439e5ad3b4e5e51982bf87cea4,Fix some connection exception retries not actually working.,2017-02-26 17:42:12+02:00,True
+6c0e8fed324cbd7b73f08bac676925b44a6a3ebd,"Fix potential issue with YouTube ciphers, add a bit of loggin for ciphers.",2017-02-26 21:21:01+02:00,True
+942fcdf14cd3d7c23aa1936b0b8348104677d34e,Fixed an MP4 stream issue and using higher track start message version than necessary.,2017-02-26 23:31:34+02:00,True
+d439897dfc7c7e0f3cee4c2beea9bfcd2d842653,Added NicoNico source manager.,2017-03-01 00:40:31+02:00,True
+f8d604c7ee1c92a86eb0b43fa6e3a892f61891c8,HTTP config can be changed.,2017-03-03 01:06:56+02:00,True
+195b8fd92fa7f44eb0809b893bcc63436dedfc56,Fixed some YouTube streams throwing read timeout exceptions,2017-03-04 01:43:24+02:00,True
+caac327d4c8c5b9d9bee3aac3a4f505da11a7c04,Fixed releasing node manager's http manager when node list cleared,2017-03-04 15:06:01+02:00,True
+d44ca6a981fff6e02604657c8bbde7e5c0073820,Version updates.,2017-03-05 21:17:37+02:00,True
+63ebcf904702e02c4c728a03f5f89ca4009d9ad9,Not relying on hardcoded soundcloud ID anymore.,2017-03-06 14:06:46+02:00,True
+5019bd8173a0d8b99ff5fc53149774d77792702c,Version .28 stuff - retry with new soundcloud client ID for all types of soundcloud requests.,2017-03-08 13:58:02+02:00,True
+8e9067faec4c47f54e17a3c7bb2d3da9a6c5af43,Track URL field in track info.,2017-03-08 22:17:19+02:00,True
+613550b12b2b155fd0cf124ae04cc9377a21393b,Make sure stopped track threads can't get stuck in AudioFrameBuffer#consume(),2017-03-12 15:17:50+02:00,True
+fdbd16fd864198acc320a636b1b47e1698256b23,Fix for probe logic going haywire with local files.,2017-03-22 21:14:46+02:00,True
+c2906918f55731b729cfb2f42436861cb899ef22,Support video+aac format for youtube videos.,2017-04-10 21:38:58+03:00,True
+4a2f2c8754cd0f9d5204cfc65b4fb93f469388c3,"YouTube cipher fix, track user data.",2017-05-18 18:56:08+03:00,True
+044cd9bf4dcafa63632e5dfe94528daea4d8cb34,Updated versions in readme.,2017-06-25 23:31:49+03:00,True
+7edba9dd58bc8f0f6ef8ae172a061985075f703b,Updated readme with version.,2017-11-25 21:25:27+02:00,True
+5e58965685662ea6e5c7cd3c160f6474489e70d5,Updated all dependency versions.,2018-02-04 15:08:29+02:00,True
+71c8e8c59373c3846e1334e1a4b36370812c0b14,Fixed YouTube cipher extraction.,2018-02-07 17:10:30+02:00,True
+dae53f78ff9ed7121d8340206b3dccf15c60aa74,Ability to change youtube mix loader pool size.,2018-02-11 22:30:06+02:00,True
+7439827da9214adaa4c46e4c1312e999d3f794c2,Allow configuring HttpClientBuilder directly.,2018-02-12 00:51:33+02:00,True
+96feddf85e74d8960fe94c4727d3c242c5e70099,Version updates and changelog.,2018-02-15 01:13:04+02:00,True
+a31a805dbca1276f3cc50697f0d70b1f0ef59a23,Fix attemping to load removed native library.,2018-02-15 02:52:18+02:00,True
+dbe6220e96befdf4da02a2bba4d65d6ace103f02,Use Bintray badge instead of having to update README every update (#71),2018-02-20 23:54:50+02:00,True
+1baf549b3f28c64bf97685f808c73bcbdc92543f,Fixed some YouTube URL issues.,2018-02-21 00:02:04+02:00,True
+6be6cb241c273535b576d11c6059ac937286a278,Added basic FAQ.,2018-02-21 13:57:45+02:00,False
+9a7fd7417f5beb9eed449e51106375149d868c35,Update readme example.,2018-06-02 23:19:51+03:00,False
+a548d3c5d1bdbdb7f9972acb56981cf401a6827a,"Restructure for JDA v4 compatibility (#182)
+
+* Restructure for JDA v4 compatibility
+
+* Update example in README
+
+* Update JDA version",2019-09-09 06:47:06+03:00,False
+1d9bed58de4d1c7d2d5015aa310fcf54c5fc5b10,Tell people to use JDA 4 instead of JDA 3 (#224),2019-10-20 22:07:35+09:00,False
+33352dfcec766844ca792f08566f6241f61b6457,compile -> implementation in gradle info (#252),2019-12-29 22:23:35+02:00,True
+14ee4d796b6ef41a4c9196b8251784ece01e32b3,"Use https for jcenter url (#267)
+
+JCenter will soon not support HTTP anymore: https://jfrog.com/blog/secure-jcenter-with-https/",2020-01-09 17:26:46+02:00,True
+c50feafb9f2a9393fbd5204466b476e06e59908b,Missing end parentheses on loadItem example. (#542),2020-10-28 16:50:07+02:00,False
+40c111e2ba663e6585c0e8c1c6660d5cfc07aad6,Goodbye Bintray and JCenter,2021-04-03 16:45:18+03:00,True
+d0e5dc5d4ecceaa461652c7162d1d7cfc3985172,Remove jcenter mentions from readme,2021-04-03 16:47:34+03:00,True
+8b65f554d7b0d78051631e79404fec881627f6a8,Version 1.3.77,2021-05-25 02:10:01+03:00,True

@@ -1,0 +1,705 @@
+sha,message,date,result
+8f433b9097c3f659037cd8a97cba9819fb628246,Initial commit,2017-08-01 13:25:43-05:00,FALSE
+6df1a92b56de2cf7d395e13f6e53224143398a2f,Initial commit,2017-08-21 16:59:07+04:00,TRUE
+902f4ea9012d5241608ab09acaec1de1a44f88ea,readme,2017-08-21 17:43:14+04:00,TRUE
+fef7ffccd7de4d0dd8a629e59d5371e62e7eaa0c,link to examples,2017-08-21 17:48:46+04:00,TRUE
+ef3bd944c987d3e75e8e9c257849b81314c9312f,DIF logo in PNG format,2017-08-21 18:03:12+04:00,FALSE
+f1a976c3b020b4b881ca2ae6acd886202e11d8d6,README,2017-08-21 18:12:40+04:00,TRUE
+e205929c4d0ee0684aaef745d5ec66619b7733b8,more information about Docker,2017-08-21 20:16:00+04:00,TRUE
+c026b13b4afdb404de4ad726c37702cd77742508,move uni-resolver-java to subdirectory,2017-08-21 21:38:16+04:00,TRUE
+d8ad369d116d107fd7a3ee2169fd92bfb22cfaa3,re-organize documentation,2017-11-02 15:17:04+01:00,FALSE
+04ed786b0a9ce723df9f3600110637345530818d,"Removing the ""Open Questions"" page (converted everything to Github issues)",2017-11-21 14:05:16+01:00,FALSE
+3f4a5266907a7da649c96aa542040ba730143b48,driver list,2017-11-21 21:46:13+01:00,FALSE
+524427e352a6bc48a6d0f7c1864a6032b451b4b2,Update did-uport driver,2018-05-04 02:45:18+00:00,FALSE
+a0b1d86f37161d8e7b099166991909740a9a729c,move java implementation to dedicated repo,2018-09-04 09:36:54-07:00,TRUE
+f02c7bd918179de361d9e0c152ae7c3bac11d5ae,Updating directory name and logo reference,2018-09-05 13:17:05-07:00,FALSE
+48717b09d9bd675087e7105866b3f7e6392568e2,Reconnect java and python implementation links to new repos,2018-09-05 13:25:32-07:00,FALSE
+bb833774959b35ab5ffa4f6ea3110595e93a3b9d,Update README.md,2018-09-05 13:26:37-07:00,FALSE
+9bd48217cfa2e2c903afa612d753285c749373b4,"fix github repo url
+
+Signed-off-by: Axel Nennker <axel.nennker@telekom.de>",2018-09-07 10:02:39+02:00,FALSE
+6ef2ae66884096a5563ca44574fced40b95f4e38,"add Troubleshooting section
+
+Signed-off-by: Axel Nennker <axel.nennker@telekom.de>",2018-09-07 10:23:05+02:00,TRUE
+2f2b5df58208e08d2ca16c7f125c74dc9b0bc893,Fix README documentation.,2018-09-12 11:09:06+02:00,FALSE
+a68604dd55979434da1f35ce34ca2c56f875cbc6,"Add link to public instance https://uniresolver.io/
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2018-09-12 11:17:52+02:00,FALSE
+150fc320a6ee3655ee81c75ec448d3a565840855,"Update README and examples.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2018-09-12 11:33:28+02:00,TRUE
+5cb7fe36f4e665aec81efcd2ff04d98c61d88835,"More work on README.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2018-09-16 14:16:06+03:00,TRUE
+e34dcbdd4f09be019862681abe9185b19008309a,"More work on README.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2018-09-16 14:16:38+03:00,FALSE
+9715182f9db0d84bdceaecfa194ffcdb4f7df6fe,"docker-compose only references images, so no need to build anything.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2019-01-22 18:40:32+00:00,FALSE
+398dacaa375241e23df9e65f780323690c0ea3ab,"Bump DID spec version to 0.11.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2019-01-22 18:46:51+00:00,TRUE
+6ecac705b87b101284bc8f747a50121f6393574f,add jolocom to driver table in readme,2019-01-23 16:02:45+01:00,TRUE
+bfde32a0295dd3795426eb5720ecc87f73e302a8,Update README.md,2019-01-23 16:03:16+01:00,TRUE
+655969263cee478841d18873dc5da595d2b72c03,"Update list of sample DIDs.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2019-02-06 12:01:16+01:00,FALSE
+09b1d545434209077d62040a5697f19a6933bcb4,"Prepare to merge repos.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2019-02-13 10:57:14+01:00,FALSE
+65a3d4406519bc205571fdd1b6def6cbb79c0200,"Move Docker Compose instructions to the front.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2019-02-13 11:03:03+01:00,TRUE
+c35025d6718ef9ff68b430fd1c0edeb1c25439ea,"Small fixes to repository structure.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2019-02-13 11:11:09+01:00,FALSE
+81553bd600bf31cf61a3954c16fe54a4e3f33e20,"Move ""Troubleshooting"" section.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2019-02-13 11:11:20+01:00,TRUE
+3bcb15c6a753e67998d77acc8fcd06af4f14d573,"Move README section.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2019-02-13 11:44:28+01:00,FALSE
+ab06a8f338fed36583450b58a42b943e01f9bed9,Update README.md,2019-02-15 10:23:49+01:00,TRUE
+0a4b64ee8a5259fbe3b561adda0c89d50710dc87,"Re-organize outdated docs.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2019-02-18 10:59:19+01:00,TRUE
+c9ddaa1024503ce07f2ad13cd4ef4e4062d96f3f,"Add link to DID Resolution webinar.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2019-02-18 11:03:44+01:00,FALSE
+a30451513ce27cba61c93fa429d989c934e84983,"Move troubleshooting.md to its own file.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2019-02-18 11:08:41+01:00,TRUE
+d841f360242d1529fe1598adaeb3de70b8deb970,Added jolocom DID method spec,2019-03-06 12:20:49+01:00,TRUE
+e8709d28e5e2da251edada0b9728809ee949aec1,Added HACERA DID driver configuration,2019-03-13 19:51:56+02:00,TRUE
+10906bf3a06d09ba1d969f9a1f11fcc7916a2683,Updated README.md with more DID examples,2019-03-16 15:32:50-05:00,FALSE
+f84dcf835a4f7599f3deb84acfe2ae12ad519e73,Update logos in README,2019-06-11 18:50:54+02:00,FALSE
+ef55afe11c65861aaf878ec941203e7602419e3c,"Also mention NLnet as supporter.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2019-06-13 10:12:08+02:00,FALSE
+6fbf42a1b34c24110691798f3df2c6b33b72300a,Add entry in the Readme,2019-08-20 15:15:36+02:00,TRUE
+6dfa344bf3d7b06f01bb2545ad2a447198cfa740,Adds driver for Seraph ID,2019-08-28 11:46:22+00:00,TRUE
+4be30d3d5839e13feed8336fc382f0a9ab04df28,fixes README.md formatting issues,2019-08-28 12:28:35+00:00,TRUE
+7d13f7899f72e950d5d01590e263a27c34795f9d,Add github-did to the README,2019-09-25 12:04:15+02:00,TRUE
+0c2cb70f8b42a30df3af7ac886362a421240b76e,Add example for element,2019-09-25 15:01:46+02:00,FALSE
+4e747fc95daf626bbf751699d3df2234f52c6559,Add example for github-did,2019-09-25 15:02:06+02:00,FALSE
+b14e90f25f0f3f6be51b81afc0a1ce2854b9036b,Fix examples,2019-09-25 15:03:55+02:00,FALSE
+37c1a27d1d9a36c4c7e43ee38496d885f6edec4f,upgrade uport driver to 1.2.1,2019-10-03 11:56:10-03:00,TRUE
+4acb9a2b666557106797af70f253e15bb44246d2,remove duplicate,2019-10-03 12:06:00-03:00,FALSE
+b8723220733c3fec4080668a9a4113ca40148f04,Fix #57; update sample curl,2019-10-21 18:15:07+08:00,FALSE
+b9618244c250e492e7015107f06972859abb340f,Add Baidu Cloud DID driver: did:ccp,2019-10-23 19:28:51+08:00,TRUE
+2aabf1d194e83581b850d355d6ab97ad5f56c62e,add work did driver,2019-10-25 15:35:12-07:00,TRUE
+81b19652b60ed10b11ebd951d8edec597366b5c1,"Remove unused image file.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2019-11-10 16:52:52+04:00,FALSE
+3698740fa37d6c2972ceb96b900143338bcade31,feat: added KILT DID driver,2019-11-11 16:42:06+01:00,TRUE
+29f014554840146cc8451e2502ebad4f13cdc3e6,add ontid-driver,2019-12-05 14:21:02+08:00,TRUE
+607596cdd46b3b6a8d1565a9d9233dea0eae8666,"Fix merge conflict.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2020-01-01 15:57:19+01:00,TRUE
+4734c71ccfb321d34b8a0d3b3d477eea4fd6599d,"Fix image URLs.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2020-01-01 15:58:24+01:00,FALSE
+b94fddf8a39193db6c5e8ba80cff51ddd483d097,"Update README.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2020-01-02 15:08:17+01:00,TRUE
+60ec03dd87b5bed5c871bbcf67e36229e401c381,"Assume all drivers are developed against the DID Core 1.0 WD spec.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2020-01-02 15:10:43+01:00,TRUE
+20c5efa2b18ef265e34ce9a9a6a31bc5923182c6,"Update various documentation files.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2020-01-02 15:27:32+01:00,FALSE
+1b9a3fe66b340a48077d940e492a83193294a078,"Update links to DID method specs.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2020-01-02 15:49:53+01:00,TRUE
+aaa87f1987340c96bea5f961499006e7f71cc018,chore: update element example,2020-01-04 14:04:04+01:00,FALSE
+fdfbc3995a4be53496409856a5c90e893eb34dc1,"Move drivers to separate repositories.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2020-01-06 15:19:18+01:00,TRUE
+bb8d08d9296679437823adf5616db89c0a72390b,"Update link to did:jolo driver.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2020-01-06 15:35:26+01:00,TRUE
+56eb58b846b9b14923ca075911f27cd1c9863cb6,fix: updated kilt did example,2020-01-10 12:23:08+01:00,FALSE
+145aa69d54c3bfe82afec0b6f5907660d6be0a4e,Update element example,2020-01-14 12:11:48+07:00,FALSE
+191d47f9f3f85195f8dbcbecc418e5b7e17f40d1,add did-evan to readme with missing link for docker image,2020-01-17 12:55:53+01:00,TRUE
+9631f80fdc4d38b6de1c8cb7794b6e71b633af00,add link to docker image of DID resolver,2020-01-20 08:45:16+01:00,TRUE
+7a03c465c6d8ea3eb1b361d780715181dec40f9a,fix: updated kilt example and driver version,2020-03-02 17:09:48+01:00,TRUE
+bae0b88b607b53c30e65de3abb8a157a5f20935a,"feat: Use uport/uni-resolver-driver-did-uport:1.3.1 instead of :latest.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2020-03-13 16:46:39+01:00,TRUE
+bf09833ef73035376d0dfa115cd6292824f837df,Fixed mvn-run commaond and updated docu,2020-03-16 21:47:32+01:00,TRUE
+ec80550a6b0bc6824c254871ce7a6760af8cec4c,Added echo did resolver,2020-04-08 14:53:38+00:00,TRUE
+0bf970c436d84b7b09c7306a8201eb35e424db5e,Add entry for did:v1 and did:key drivers.,2020-04-10 16:56:12-04:00,TRUE
+96ba091ce849ab3aedac3c7cc1c62a53a60f4331,"Add Factom DID driver to universal resolver
+
+Driver Github: https://github.com/Sphereon-Opensource/driver-did-factom
+Factom DID spec: https://github.com/bi-foundation/FIS/blob/feature/DID/FIS/DID.md",2020-04-21 03:28:58+02:00,TRUE
+f093f0cec16d20326c989b0bebd2c29f4383b92a,Add did:key driver.,2020-04-24 13:28:15+02:00,TRUE
+77fa6528d352d49bfce11ad524ca8b71d1dc3a33,"Add Dock DID driver
+
+Signed-off-by: lovesh <lovesh.bond@gmail.com>",2020-04-27 14:38:03+05:18,TRUE
+3572c965733d6bbbe814c63a00c51259eda00f6b,"doc: Latest did:work driver version.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2020-04-28 13:24:02+02:00,FALSE
+3f7fa035e700f9b0686748a651e498df53a50f4a,Update veres-one docker image.,2020-04-29 22:42:24-04:00,TRUE
+7f769a00835d3e0939b1dc980f30dc01c65b49eb,Pull request 101 : Add driver for ArcBlock did:abt.,2020-05-05 10:04:15+02:00,TRUE
+dde73c642abbf16eb7df5eb039591a64a458bee5,"chore: Add trustbloc driver
+
+closes #104
+
+Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>",2020-05-11 12:01:52-04:00,TRUE
+8fe94e2e4661876b599def1782a40e97bf26c1cf,Update README.md,2020-06-09 15:07:42+02:00,TRUE
+a878ca87f6741c92c97f86604a04f39dec7e9e60,Update README.md,2020-06-09 15:17:43+02:00,TRUE
+ededcc545dcc7215c4661fcc1e2313c3bd02e194,Update README.md,2020-06-09 15:26:36+02:00,TRUE
+5b921fa15972c2688a7ca6bbbf5bb396d5330485,Update README.md,2020-06-09 15:32:38+02:00,TRUE
+11d6e1bb2d7589c48d03d9f655f2d956870d0756,Update README.md,2020-06-09 15:59:01+02:00,TRUE
+5ed9e462785f8d6bf5fc72d1e8700220393e52e0,Update README.md,2020-06-10 10:49:54+02:00,TRUE
+42fce13708b0ea00589b8a04d75110c650fef3f7,did:sirius id,2020-07-04 00:25:11+10:00,TRUE
+9f7bd66fed58ed6f6f36ac7eaf131ffe4ead1ba8,Add driver-did-mpg,2020-07-07 01:17:52+05:18,FALSE
+49215441555875507c9bd6a25932ebf2487750f7,"doc: Remove mention of Github Personal Access Token.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2020-07-13 12:48:09+02:00,TRUE
+ee6531eef84e521ced4b97b8460768f9308908eb,chore: change host for smoke-tests to http://dev.uniresolver.io and minor improvements to pull request,2020-07-14 12:06:27+02:00,TRUE
+f3eb8ca7d7293ecf368d1ce8c1a51962ec0615af,Add did:io driver,2020-07-16 07:22:12+08:00,TRUE
+7f71041b7f9f44a59e4afcc19752694acd360694,Add did:trust driver,2020-07-16 12:23:57+08:00,TRUE
+412bba0961e30a690c8e163cda72f1f58dd34577,Add driver-did-cy,2020-07-29 00:35:52+05:18,TRUE
+6fec7af0d09fe923c86e6f62811bf4c543bc5e41,chore: update kilt version,2020-08-06 11:12:25+02:00,TRUE
+18391527684a2392e801b17f63cc4fb9860dca1e,"update KILT did driver version, update KILT example DID",2020-08-06 11:15:11+02:00,TRUE
+6590d6e909a08dbcb6ecb0a721529ffb5959ca82,Add driver-did-cy,2020-08-06 16:13:07+05:18,FALSE
+dfff73f07ae97e354b76f732c3aad00fe344a0b8,chore: clean up,2020-08-06 13:45:48+02:00,TRUE
+d048855203ba3baf1fe0732711990368024b277b,Add did:bba driver,2020-08-08 15:43:53+02:00,TRUE
+d4e32d49844a3cfea8c68adfbdde00a8376129e9,updated driver version,2020-08-10 22:15:59+02:00,TRUE
+3f07b096e0795e8485eb573d4397059b04a68a25,add did schema resolver,2020-08-31 17:52:12+02:00,TRUE
+7762611afc83a5a032b15bb583d35c45e80f3f89,docs: update references and examples for did-ethr and did-web,2020-09-02 18:08:05+02:00,TRUE
+466da0642614180a6dbc18d0e9c117bea3b943af,"Add Teleinfo DID Driver (#139)
+
+* Update README.md
+
+* Update config.json
+
+* Update docker-compose.yml
+
+* Update README.md",2020-09-04 08:26:32+02:00,TRUE
+d2aa3fc45c7f2808dfac063aece1be0d1bc0f397,"doc: Remove older examples.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2020-09-04 10:07:37+02:00,FALSE
+268317a6ae30ba702291aa47b5a6aa7160d071d6,Aceblock did resolver data added,2020-09-15 10:49:16+02:00,TRUE
+b60ae1eb4e5c5f687d71f87f09985a6ca33ec2f6,"Adding the new UR to the page.
+
+the text is missing to point to the new resolver DIF is hosting.",2020-09-25 14:21:39+02:00,FALSE
+3768ec37e105d0473ddd2e6b12a2201f124616cc,New dev.uniresolver.io subdomain,2020-09-25 14:37:54+02:00,FALSE
+74af09e6e90d54e64ea102551c75d5cb5e9d569f,Add slash,2020-09-25 14:40:02+02:00,FALSE
+38d6a85d4d457cf1598627201729973495b427b9,Remove superfluous words,2020-09-25 14:40:51+02:00,FALSE
+98fd1d546b5837f943d2733a18f339e993ad623a,use version 0.1.1 of did schema driver (#148),2020-10-21 09:34:37+02:00,TRUE
+a80540c757fbffa5472ca337d7d91574044e4532,Update README.md,2020-10-21 12:48:06+02:00,TRUE
+09eae5fe1ddfd5827f7f391728ee59a0e3e2f1bc,Update README.md,2020-10-21 13:03:27+02:00,FALSE
+24cc6a49e420b2c96aa8178e4f495e33c790ba7d,Update README.md,2020-10-21 14:23:02+02:00,FALSE
+a7e1385c18563a4d037780bba0d360166bf89763,chore: remove dead link to deleted release docs,2020-10-21 21:02:53+02:00,FALSE
+c5ec380e8a84b59d7b9224d82d160e0eb57b40dd,Adds entries for ION,2020-10-26 16:46:38+00:00,TRUE
+4b8d5437d61fab160a7e0b7b564a024c214e9754,chore: Update trustbloc driver to 0.1.4 (#155),2020-10-28 08:47:34+01:00,TRUE
+99960ea86084ea386dff40a52e26ac1243cb783a,"Add Gataca DID Resolver Driver (#158)
+
+Co-authored-by: José San Juan <josevallejera@gmail.com>",2020-11-12 18:27:27+01:00,TRUE
+e108bd341ed9b90de255b890529443718a3d60c6,Add did:icon driver. (#160),2020-12-03 15:15:37+01:00,TRUE
+271eeb6e5abfb970420426c7f73bbd76826fee6b,Update did:icon driver to 0.1.1 (#161),2020-12-04 18:37:13+01:00,TRUE
+d4e0265d0d7883cdb2c09b0e91e6649d219ff88e,Add did:vaa resolver (#159),2020-12-05 13:22:16+01:00,TRUE
+2e3503396f2296e79363a8c49f134fef0013dc1a,updated driver version (#162),2020-12-07 08:51:35+01:00,TRUE
+d109e0508120c389c5cbf08c79facb23e49e0209,Update did:icon driver to 0.1.2 (#163),2020-12-07 15:10:30+01:00,TRUE
+8d40e752b2abf1da6a08bd5a5b3d2d442b3933d5,"feat: add UNISOT DID driver to the Universal Resolver. (#164)
+
+* Added UNISOT DID method.
+
+* Added UNISOT DID method.
+
+* Added UNISOT DID driver.",2021-01-07 19:08:09+01:00,FALSE
+b6252d911fe2e3853096f5bf7b99577f06d355b0,"chore: Update trustbloc driver to 0.1.5 (#169)
+
+* chore: Update trustbloc driver to 0.1.5
+
+Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+
+* fix: test image from dockerhub
+
+Co-authored-by: Firas Qutishat <firas.qutishat@securekey.com>",2021-02-23 16:35:09+01:00,TRUE
+5b22834dad3e24ee2ef2f9b6a54a65808bd1c671,feat: add bitxhub did (#176),2021-03-08 12:03:18+01:00,TRUE
+c4182b043b1a891a47d08d041249792f8a54c518,Add Solid DID driver (#179),2021-03-16 10:48:48+01:00,TRUE
+f19684bf735e199afbe6babb77b695422e2aabf7,"fix(deps): update drivers, tests and examples for did:ethr and did:web (#180)
+
+* fix(deps): update drivers, tests and examples for for did:ethr and did:web
+
+closes #168
+
+* fix(deps): update driver for for did:ethr and did:web to 2.0.8
+
+closes #168",2021-03-20 09:40:54+01:00,TRUE
+010295795073a0f30dd6bc9720fbef10c1eff81e,"Add driver-did-lit (#182)
+
+* feat: Add driver did lit v0.1.0
+
+* feat: Change did-spec url, Change docker owner
+
+* fix: Change lit spec version",2021-03-20 10:10:29+01:00,TRUE
+b608de3f8a9db92bafea7e269db229bb1f2b5b91,"chore: README formatting.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2021-03-30 15:40:48+02:00,FALSE
+a3c162a047e99c40587c0516d35187cd858a26c3,"doc: Fix link to Java Components page.
+
+Addresses https://github.com/decentralized-identity/universal-resolver/issues/185.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2021-04-07 11:20:45+02:00,FALSE
+1db455e1987d068e71bd7691cc37accd7db2afca,"doc: Working test identifier for did:ion.
+
+Signed-off-by: Markus Sabadello <markus@danubetech.com>",2021-04-09 19:47:31+02:00,FALSE
+599585420de5e0a1c975c41964fc5c8271b27033,update did:trust with new sample dids (#190),2021-04-15 13:15:50+02:00,FALSE
+e7ec11ed7b9f3b2afe8f787a903b0f4c4b81360c,Rename the SOLID driver to SOL to avoid clashes with https://solidproject.org/ (#192),2021-04-20 17:03:13+02:00,TRUE
+13355caef462ee9b243b77ad493c918a1a718be5,fix: Remove the wrong entry for did:key,2021-04-23 11:04:22+02:00,TRUE
+fc62d5c4e2cf52a7baac169afc4da7a113531843,"fix(deps): update driver for for did:ethr and did:web to 2.1.0 (#200)
+
+adds support for `assertonMethod`, `versionId`, `updated`, `nextUpdate`, `nextVersionId` for did:ethr",2021-04-23 18:19:03+02:00,TRUE
+1c3da1a51bb7f68d104e60228307b33025a02da5,doc: https URL in README.,2021-04-28 13:36:49+02:00,FALSE
+ab594a49374002e96560f8fcb4b34903eba4f27a,did-ebsi resolver url added to config and README.md updated (#201),2021-05-14 10:46:05+02:00,TRUE
+e0389c87e1feabece49f0d24597cc7c2120c619a,"Added emtrust did resolver (#202)
+
+Co-authored-by: halialabsdev <admin@halialabs.io>",2021-05-24 15:24:40+02:00,TRUE
+a2903d4836911ac64b044a279baa163cb8893ab4,"did-meta resolver url added to config.json and README.md updated (#208)
+
+* Update config.json
+
+* did-meta resolver url added to config.json and README.md updated",2021-06-10 09:54:22+02:00,TRUE
+c92e3a6ac14d5947dff320334b693a46dce4c5d8,master -> main,2021-06-16 17:48:47+02:00,FALSE
+9628d449a02540770721950d8bd4e1844e96dd43,"Remove ""DID Spec Version"" from README",2021-06-16 20:23:39+02:00,TRUE
+bebaf128e5810d7e3ad243bcc627ebc5fc86b28a,Link to DID Core specification.,2021-06-16 20:25:14+02:00,FALSE
+b177969362300fb0a928c83b83b2e0c43d328a7d,List Docker image or plain URL.,2021-06-16 20:27:50+02:00,TRUE
+e672058b7a271bef5d31b3f35439030824be367c,docs: Add link to DID Resolution spec.,2021-06-21 16:56:25+02:00,FALSE
+334b83e4249d149628640bc3a708253e3902edb4,"docs: Add link to did:stack method specification.
+
+See https://github.com/decentralized-identity/universal-resolver/issues/27",2021-06-23 20:07:06+02:00,TRUE
+9993effe725ec374ae86fc35f58e949ca3c62a47,docs: Add short descriptions of drivers in README.,2021-07-03 14:45:07+03:00,TRUE
+6c030b5510ce0fff4a76abb42c6cec3492361c72,Remove did-factom because of broken image (#220),2021-07-08 12:04:47+02:00,TRUE
+4745daad7fcbee6de463be0452f33a6ae8810b64,"update lit resolver to 0.1.1 (#219)
+
+* feat: Add driver did lit v0.1.0
+
+* feat: Change did-spec url, Change docker owner
+
+* fix: Change lit spec version",2021-07-09 08:51:21+02:00,TRUE
+d01f8535892e4fd8b7d33fb28746557669bdcb2b,"Add driver did-orb (#223)
+
+* chore: add orb did driver
+
+Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+
+* fix: add start command to orb-did-driver
+
+* fix: add shell to start command
+
+* Add orb-did-driver to driver-config.yaml
+
+Co-authored-by: Firas Qutishat <firas.qutishat@securekey.com>",2021-07-09 22:13:13+02:00,TRUE
+4b1f4c39dc93d25123fdfdc30da7c79f5f2dfcfb,"Test driver did kit (#224)
+
+* Add DIDKit driver
+
+- Add support for did:tz, did:key:zQ3s and did:key:zDna
+- Use existing did:key driver for did:key:z6Mk.
+
+* Add env variables for didkit
+
+* Add double-quotes to port number
+
+Co-authored-by: Charles E. Lehner <charles.lehner@spruceid.com>",2021-07-12 19:03:46+02:00,TRUE
+d2373309af50e51724f142b6388c82d6f8bec5de,"New EOSIO DID driver (#216)
+
+* Updated config.json docker-compose.yml and readme.md
+
+* Changed port
+
+* Fixed the port for the curl commands
+
+* Updated port",2021-07-12 20:55:39+02:00,TRUE
+066660693c735510e72bf0d9db0f929e1cfae89a,docs: Cherry pick last changes in README.,2021-07-12 22:09:32+03:00,TRUE
+eccc307f0e1543dbdb1affbb51662e82e2af9956,docs: Cherry pick last changes in README.,2021-07-12 23:00:19+03:00,TRUE
+e9028a9eb9f13bdb4cad7a4721dfc2e140f2e39c,Recovering lost changes,2021-07-15 10:22:34+03:00,FALSE
+2be48cb64205a132b3362ee48675450f92bdfa78,Add link to Docker Hub,2021-07-21 21:01:09+02:00,FALSE
+ec5b24a25db554153324beb925e97286fd8781a7,"Add did:pkh driver (#231)
+
+* Fix did:tz listing in readme
+
+* Add PKH DID method",2021-08-06 10:40:39+02:00,TRUE
+5c2147f7992dd2c622aaf659309131e4cb881c05,"feat: add back new Factom driver (#234)
+
+* Factom v0.2 driver
+
+* Update README.md
+
+Fix tab",2021-08-20 09:56:06+02:00,TRUE
+b2f42cd92be7ceb7c2aa7251c11e87527a1ad1f3,"Prepare release 0.4 (#235)
+
+* ci: add maven-release workflow
+
+* ci: prepare pom and update docker release workflow
+
+* ci: better nameing for workflows
+
+* chore: remove driver did:sirius
+
+* chore: remove driver did:ipid
+
+* chore: remove driver did:erc725
+
+* chore: remove driver did:echo
+
+* chore: remove driver did:dock
+
+* chore: remove driver did:cy
+
+* chore: remove driver did:bid
+
+* chore: remove driver did:bitxhub
+
+* chore: undo renaming of workflow to have it available on branch
+
+* chore: update poms with current snapshot version
+
+* chore: remove driver did:echo from ci pipeline
+
+* chore: remove driver did:trustbloc
+
+* chore: remove driver did:trust
+
+* chore: remove driver did:orb
+
+* chore: remove driver did:abt
+
+* chore: remove did:ion:test identifier
+
+* chore: remove did:trustbloc and did:orb from ci pipeline
+
+* ci: better nameing for docker latest workflow
+
+* ci: use did-common-java 0.4.0",2021-08-21 12:28:49+02:00,TRUE
+565cfde2f59d9f7b0ae88d8aef41de041062c9b6,chore: bump driver for did:ethr (#238),2021-09-06 17:36:31+02:00,TRUE
+a64aff96df7dd4d12329ddd7e7a8b3c6aafd3d4f,"Test driver did orb (#240)
+
+* chore: bring back orb did driver
+
+Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+
+* ci: add did orb config to ci pipeline
+
+Co-authored-by: Firas Qutishat <firas.qutishat@securekey.com>",2021-09-17 14:46:01+02:00,TRUE
+774a838cb33891bed6bc3ab5e4ad3b8d723a29f3,Add note about frontend,2021-09-29 14:38:45+02:00,TRUE
+7a974108d36f359c6a080792bbc4b8f15a9bbd4f,"Add examples for using ""Accept"" header",2021-10-06 14:28:33+02:00,TRUE
+93761a8f02cf067c8622449f6603011f375049f9,Update text about work item and test instance,2021-10-27 14:42:30+02:00,FALSE
+eb2ebb86c6ec30671181cddd0ead8b461d8a76ce,"add did:oyd driver (#250)
+
+* add OYDID driver information
+
+* add OYDID driver information",2021-10-31 11:50:39+01:00,TRUE
+8fcff17d7a71fc12ea9c1c785e11a31b166d8bb3,Update did:sol driver to 1.0.0 (#249),2021-10-31 12:02:37+01:00,FALSE
+ab1fd1b0915f4931d67b06443023f4528a6c7914,"Add Dock DID driver (#251)
+
+* Add Dock DID driver
+
+* fix config
+
+* update config pattern to support any future changes
+
+* remove unused config vars
+
+* fix typo
+
+* use 8080 port",2021-11-02 10:08:55+01:00,TRUE
+f3c85e5b76d267cbcbdd61987082bee3a11e4c67,"add did moncon (#254)
+
+* Update docker-compose.yml
+
+* Update config.json
+
+* Update README.md
+
+* Update docker-compose.yml
+
+* Update config.json
+
+* Update README.md",2021-11-03 09:13:55+01:00,TRUE
+5c941c05d7f3e21d9f8e8be779115ad45d3552f0,"new driver for non-default location behaviour (#256)
+
+* new driver for non-default location behaviour
+
+* full percent-encoding of example DID",2021-11-04 10:06:38+01:00,TRUE
+0a916a92aa8a1c89dcfca7ec0a5d7775dc1894dc,docs: fix broken repo link for did:jolo,2021-11-08 16:51:43+01:00,TRUE
+abb6fdf4ca8110c460cebde959442c965c17a423,"Add did:mydata driver. (#261)
+
+Signed-off-by: George J Padayatti <george.padayatti@igrant.io>",2021-12-09 21:34:17+01:00,TRUE
+939ea3228ef2ca0081eb61c625e921d3b6030340,Update docker release. Include new examples. Update description (#269),2021-12-29 10:58:53+01:00,TRUE
+fcc31e7b78c3806337a6b14ce50219e4946c4305,Add did:dns driver. (#270),2022-01-05 10:06:45+01:00,TRUE
+ea6b15fd8a64b0cc069afa4d2d82c3865cdcff02,did:oyd spec updates (#272),2022-01-07 19:17:43+01:00,TRUE
+ce18c7a45a3f989f7d6a8b0eaa08afa5c0dac7b4,"Update example for did:ebsi (#273)
+
+Same DID as https://github.com/decentralized-identity/universal-resolver/pull/246",2022-01-07 19:20:00+01:00,FALSE
+dd761fe50ddb683595a940d7cfb16081bee561e0,feat: update KILT driver to v2.2.0 (#274),2022-01-11 09:24:15+01:00,TRUE
+acd9689d032a881405f21a9fb56ee95d86b10d3e,"configuration of did-indy-driver (#280)
+
+Co-authored-by: Paul Bastian <paul.bastian@bdr.de>",2022-02-02 16:40:53+01:00,TRUE
+28f7c0f4cbc471570e46656f48f31cbc04380c18,"Updated driver details for did-elem (#287)
+
+* fix: update driver for did:elem
+
+* docs: update readme for did-elem",2022-02-14 19:21:09+01:00,TRUE
+789b9b59676606b8d462f1fbf5fae4de1dc2f928,deps: update KILT driver to v2.3.0 (#290),2022-03-02 09:46:54+01:00,TRUE
+62c37dc538a3eb8bba749f6699fdf244fdf49c0c,chore: update driver and spec to v2.4.0 and v1.2 respectively (#293),2022-03-23 10:14:52+01:00,TRUE
+a47c9a8ed7fe161c05bb1a2b95d59d86ee841d90,"deps: update KILT did driver to v2.4.1 (#294)
+
+* Update docker-compose.yml
+
+* Update README.md",2022-03-29 11:31:28+02:00,TRUE
+3ebacc584c227b9127045852fe4f2bbdcf8270cc,"add did:everscale driver (#297)
+
+* add did-everscale driver
+
+* newline at the end file",2022-04-21 15:08:03+02:00,TRUE
+b67a894c5980779658cd74e2f5ec86fc7aaa28c8,"DID Universal Resolver Driver (#299)
+
+* DID Universal Resolver Driver
+
+* Fixed internal name for K8 deploy",2022-04-22 10:35:36+02:00,TRUE
+2adfe5aa1c0829c2cf399a2ff3463806a0827e98,"fix(deps): update driver for did:ethr to 2.4.0 (did:ethr spec 6.0.1) (#303)
+
+fixes LD @context and `blockhainAccountId` CAIP10 format",2022-06-14 09:44:40+02:00,TRUE
+3216df51df83cd5c57689a1a1f43422b18b1babb,Add cheqd method (#306),2022-07-18 10:11:57+02:00,TRUE
+43a35e61073f86c05873f1ce1b2dece37ff12fea,"Add did:com driver (#307)
+
+* Added specification of the did:com driver
+
+* Fixed configuration and examples
+
+* The did_com specification does not seem to have a version
+
+* Assuming 1.0 as did_com specification...
+
+* Fixed line tab",2022-07-18 10:30:37+02:00,TRUE
+c35fdabb557167f148ae7b5bf482e5984f212533,"chore: remove not working did:evan method
+See https://github.com/evannetwork/evan-did-driver/issues/5",2022-07-18 15:57:38+02:00,TRUE
+443802dcbaa3ecba55ad1a379c7b4882f53cd3f4,"Add dyne did driver (#316)
+
+* add dyne driver to docker-compose.yml
+
+* Update README table
+
+* fix typo
+
+Co-authored-by: andrea-tabbles <andrea@tabbles.net>",2022-08-29 14:19:39+02:00,TRUE
+6aaa36db79655d31182345b488dcbe38b6072feb,"Add did jwk (#318)
+
+* Update readme to include did:jwk
+
+* Update docker compose to include did:jwk
+
+* Update application to support did:jwk
+
+* update readme",2022-09-15 19:56:44+02:00,TRUE
+53c4641b60297adbf92b94bd8d4b12febc92e9de,Bump Cheqd Resolver version (#319),2022-09-16 12:24:37+02:00,TRUE
+5595878cb00cb3175b918fe6056aa477a1ab74d5,docs: fix broken format for curl commands,2022-09-16 12:51:21+02:00,TRUE
+c3b95e09150c6bb087b03d064e841cda3c528338,"chore: update orb driver to v1.0.0-rc4-snapshot-7125f6a (#317)
+
+Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+
+Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>",2022-09-27 21:37:01+02:00,TRUE
+b91e939fcc5409badeab37f9bc68318995a871dc,"Add did:kscirc driver (#322)
+
+* Add kscirc driver to application.yml
+
+* Add kscric driver to docker-compose.yml
+
+* Add kscirc driver to README.md
+
+* Update kscirc drvier : application.yml
+
+* Update README.md
+
+* Update kscirc : README.md",2022-09-30 11:56:50+02:00,TRUE
+3f1b55fa0d8df6119c292fbd87eba6306a3c7658,"Add did:iscc driver (#327)
+
+Co-authored-by: Titusz Pan <titusz.pan@gmail.com>",2022-10-10 13:23:32+02:00,TRUE
+2c555e5590724dfabbf3d86383c7c96476daccfd,fix: Bump cheqd DID method driver (#329),2022-10-14 10:28:52+02:00,TRUE
+11a25daa7d4f0480bd775f90598ef49f3217adfd,"fix: update driver for did:ethr to 3.0.0 (did:ethr spec 7.0.0) (#333)
+
+Removes deprecated testnets (rinkeby, kovan, ropsten).",2022-10-20 10:07:10+02:00,TRUE
+746ba4bc92ad806c01a2b47a36f73bcf50c2d2af,"fix: Add env variables for cheqd driver to enable cheqd DID driver to use local Docker service path (#334)
+
+* Bump cheqd driver version
+
+* Remap cheqd DID driver to local container URL
+
+* Deactivate all drivers except web and cheqd
+
+* Fix docker-compose syntax
+
+* fix: Bump cheqd driver (#3)
+
+* Bump cheqd resolver version
+
+* Uncomment other drivers
+
+* Squashed commit of the following:
+
+commit 11a25daa7d4f0480bd775f90598ef49f3217adfd
+Author: Mircea Nistor <mirceanis@gmail.com>
+Date:   Thu Oct 20 10:07:10 2022 +0200
+
+    fix: update driver for did:ethr to 3.0.0 (did:ethr spec 7.0.0) (#333)
+
+    Removes deprecated testnets (rinkeby, kovan, ropsten).
+
+* Update cheqd DID driver version
+
+* fix: add env variables to cheqd-did-driver
+
+Co-authored-by: Ankur Banerjee <ankurdotb@users.noreply.github.com>
+Co-authored-by: toktar <renata.toktar@dsr-corporation.com>",2022-10-21 12:39:22+02:00,TRUE
+404e8ffe23f506d3dd646ffcc4d364763dc0c24c,"Add driver-did-ev (#335)
+
+* Add did:ev driver
+
+* fix: Update driver version
+
+* fix: declare port to app
+
+* Use a more robust Polygon node
+
+Official Polygon node has unexpected failures. Use a more robust node.
+
+* Pass a proper value for baseBlocks
+
+Use a value of 2700000 for the baseBlocks configuration settings. This value is adapted to Polygon.
+
+* fix: did-ev use 8000 instead of 8080 for container port
+
+* fix: change port for did-ev url to 8000
+
+* fix: add driver-did-ev env variables to pipeline
+
+Co-authored-by: David Ammouial <david.ammouial@nttdata.com>",2022-10-25 17:13:38+02:00,TRUE
+9c380980aafc71ca177119f93f59e7eb86e20392,"Add driver did iid (#336)
+
+* add iid resolver details
+
+* fix wrong indentation
+
+* remove blank space
+
+* correct pattern url
+
+Co-authored-by: superzoeyian <ranyueranyue@outlook.com>",2022-10-27 09:35:49+02:00,TRUE
+37a3982612663f995053e2a8b6f4a554daf4ef0b,"re enable did:evan driver (#337)
+
+* re enable did:evan driver
+
+* fix formatting
+
+* add missing docker-compose adjustment
+
+Co-authored-by: Sebastian Dechant <sdechant@blockchains.com>",2022-10-28 09:19:29+02:00,TRUE
+478db50f923b9aa38f026f9486a243356d20437d,"add did:bid (#338)
+
+* Update docker-compose.yml
+
+* Update config.json
+
+* Update README.md
+
+* mod universal-resolver
+
+* mod universal-resolver
+
+* mod universal-resolver
+
+* mod universal-resolver
+
+* mod universal-resolver
+
+Co-authored-by: caict-develop-zhangbo <68949988+caict-develop-zhangbo@users.noreply.github.com>
+Co-authored-by: guoshijie <guoshijie213>",2022-11-03 10:06:39+01:00,TRUE
+a7fabf0ccdc4bcdd0ff60518b6bf86f17d49b3c1,"feat: add did:ens support (#342)
+
+* fix: allocate ports correctly for newly added drivers
+
+* feat: add did:ens support via uport driver 3.1.0
+
+* chore: update README table",2022-11-08 10:50:30+01:00,TRUE
+33265455c949edf8252e8e70e415132913c4c958,"update DID Method spec (#344)
+
+* Update docker-compose.yml
+
+* Update config.json
+
+* Update README.md
+
+* mod universal-resolver
+
+* mod universal-resolver
+
+* mod universal-resolver
+
+* mod universal-resolver
+
+* mod universal-resolver
+
+* mod did method url
+
+Co-authored-by: caict-develop-zhangbo <68949988+caict-develop-zhangbo@users.noreply.github.com>
+Co-authored-by: guoshijie <guoshijie213>",2022-11-09 09:53:34+01:00,TRUE
+8e41b95b6cc90ca964bdde7f4c680a9f0bf0433c,chore: update KILT driver version and DID spec link (#349),2022-12-20 13:04:13+01:00,TRUE
+ab7a4bc83d609f14026df722b4443a1c5b1b6ac8,"New driver `did:algo` (#351)
+
+Documentation is available at:
+https://github.com/algorandfoundation/did-algo/blob/main/DRIVER.md",2023-01-16 11:39:50+01:00,TRUE
+29019c73bb59a2fdcfad5e4a85bf959bd3271add,"Update: driver-did-sol to 3.3.0 (#352)
+
+* Update did:sol driver to 1.0.0 (#18)
+
+* Update: driver-did-sol to 3.3.0
+
+* fix readme table
+
+Co-authored-by: Daniel Kelleher <danielbkelleher@gmail.com>
+Co-authored-by: Julian Spring <julianspring@Julians-MBP.lan>",2023-01-20 10:20:26+01:00,TRUE
+b310eda4f17e1b06b5f6112f1ffcacf062e5e83e,"Remove did:work driver references (#353)
+
+Co-authored-by: Jacob Yanicak <jacob.yanicak@workday.com>",2023-02-07 17:16:57+01:00,TRUE
+dbb090ff601fb1794d1fb90d969d7549bc6c0c47,feat: add support for 3ID (did:3) (#354),2023-02-08 17:12:18+01:00,TRUE
+d6d27cbd9f18f57b0ca9ccdaaec3c35c2a815ae5,"feat: Bump cheqd DID Resolver driver to v3 (#355)
+
+* Update driver-config.yaml
+
+* Bump cheqd resolver Docker package
+
+* Update test DIDs for cheqd
+
+* Update cheqd links",2023-02-23 15:27:26+01:00,TRUE
+ce02f775a753624ad0ed13f281b7be27d16dc420,"fix: remove support for 3ID (did:3) (#356)
+
+Public gateway to the ceramic network was deprecated",2023-02-25 10:47:29+01:00,TRUE
+e9a610d4bff586754cb9ef8c31965d9a0a04495a,"Update did:mydata driver (#361)
+
+Signed-off-by: George J Padayatti <george.padayatti@igrant.io>",2023-03-16 12:47:41+01:00,TRUE
+2bbe9d24fd00af66232c69f0eb3cae5e9fe109a0,"Update did:mydata driver - bump docker image version (#362)
+
+Signed-off-by: George J Padayatti <george.padayatti@igrant.io>",2023-03-16 14:10:18+01:00,TRUE
+a587c58b4470cd231f26b2dcb9987f47c8239c9b,"Update did:mydata driver - bump docker image version (#363)
+
+Signed-off-by: George J Padayatti <george.padayatti@igrant.io>",2023-03-16 15:23:52+01:00,TRUE
+e29806b66539483d2a6745943e0638e939e92fc3,chore: Bump cheqd driver to v3.2.1 (#365),2023-03-31 12:11:12+02:00,TRUE
+6f4296d6150516dbc5ad2852dec48962be5ac1d5,add driver for did:peer (#367),2023-04-27 10:45:17+02:00,TRUE
+10f61b8ea906cad1151673b342eee3aefe166a09,"support polygonid did method (#366)
+
+* support polygonid did method
+
+* remove polygonid did examples with query parameters",2023-04-27 11:26:05+02:00,TRUE
+cda549e608a55f0fff4501ec8db0ccfd541d9f4f,fix: update did:dyne examples (#369),2023-05-09 17:28:34+02:00,FALSE
+998570b45187a8aa3bd8c3b6d1c34dfb30eaecec,"add driver : driver-did-pdc (#370)
+
+* add driver : driver-did-pdc
+
+* fix the indentation.",2023-05-19 16:06:18+02:00,TRUE

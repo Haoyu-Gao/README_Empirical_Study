@@ -1,0 +1,144 @@
+sha,message,date,result
+302eb8aba6d36a32c323c33da6757d69b4818b27,add all source,2017-09-20 14:54:30-05:00,True
+8921c7cefe9a7392f1a75bc710e3ce877c328bc3,Update README.md,2017-09-20 15:09:53-05:00,False
+e051eea29044ff5c1fa80f61276012080fc912d2,update examples and readme,2017-09-20 13:52:35-07:00,True
+0ed8adcd870c3c67cd55074ab3aa7e2c4bbda86d,Update README.md,2017-09-20 17:58:52-05:00,False
+7907615917025a43cc80d1c1c1e7b8e18b8226a7,Update README.md,2017-09-20 22:57:55-05:00,True
+426104c8faed841e95e86690dd5f0fb049dd6570,Update README.md,2017-09-22 14:20:33-04:00,True
+eeccab6f0da37ec653b05165f06da5ed99185c4c,Update README.md,2017-09-22 14:21:08-04:00,True
+eed0ee2b11a702bd43d3a33fb8f35c7af8567023,Update README.md,2017-09-22 14:24:35-04:00,True
+5a0cd83dda21e39f683f7f85bfe3b581fff712d3,Update README.md,2017-09-29 17:32:20-04:00,True
+6b3f9b763e3116dbdebf5bd82aeb160e5e5bc701,Update README.md,2017-10-02 16:12:51-04:00,True
+0dbaaa6ca1325cf4fb88cc3a81bdc3b7cbaa7b36,Update README.md,2017-10-03 23:59:36-04:00,False
+fa120f2b966d1edaf0e5d47ee6454074b1cefb35,update buzzard high-res,2017-10-03 21:14:20-07:00,False
+d4a3153cb17865842470396b941696daeffd4e44,Update README.md,2017-10-04 16:02:31-04:00,False
+3aa315f98e9f3c0761c65be169ce150f3da915a9,Update README.md,2017-10-04 16:54:54-04:00,True
+e0afb6cf62f884294d5567c3b9e5f26355d44dc2,Update README.md,2017-11-02 22:36:26-04:00,False
+f74020c8e129fa1d69638569e6b64cf91dc7f2cf,Update README.md,2017-11-03 12:46:42-04:00,False
+eda1c826f8aba65c9c1b423577f853a26016eb5c,Update README.md,2017-11-07 14:14:29-05:00,False
+ccf0d2d35004752841cea32fbefdafcad55f4982,Update README.md,2017-11-07 18:06:52-05:00,False
+a9e890cdba849f176847b08f65e10ddacde6c32d,Update README.md,2017-11-10 18:07:33-05:00,True
+9cdd40adba3f4309b4b3dcead33e3cff719947a7,Update README.md,2017-11-10 18:07:55-05:00,False
+07ce42d6ad6bd5cbac86176841c28771e161dd88,Update README.md,2017-11-11 18:39:27-05:00,False
+f7796eb21c5d7d1a594c0783730f9f25a44254a0,Update README.md,2017-11-11 18:40:43-05:00,False
+d5d604b4de0d8dffa0ac069990e293bcb5c19eec,fix typo,2017-11-14 13:30:00-05:00,True
+27abb8a240d4a658b21df25a0e80ccca05364c40,Update README.md,2017-11-14 18:39:52-05:00,True
+44c7f76d672cbf8ba8ae0b3eb7944ae48d9b6569,Update README.md,2017-11-15 16:43:33-05:00,False
+e622d46154c9ca8f793108cba53f1efea2077c60,Update README.md,2017-11-16 14:25:53-05:00,True
+f30f8c23f072d015c2727773fab5affd99597de5,Update README.md,2017-11-20 19:19:04-05:00,False
+133d312f97aad70588d7049c953e6608efecf0bf,Update README.md,2017-11-20 19:24:44-05:00,False
+b2fcff462f452a29e5f9856ddc638bf161d664fe,Update README.md,2017-12-02 21:34:00-05:00,False
+d084cf70597d1e6ae406a5915450ef71f85f68b1,update py env in readme,2017-12-08 10:59:44-06:00,True
+b4163cd7b7b0c8a67ccf5c09d1c187d9420d8f77,Update README.md,2018-01-07 23:44:34-05:00,True
+204c504bd785fc9127a01c3c5f9a24640b3e7583,Update README.md,2018-01-07 23:46:49-05:00,True
+54598516703b3c9ab33c73478fd8d4a3628c03d1,update tutorials,2018-02-24 06:47:22-08:00,True
+e7dceec7d9fa3813124193add249efed514aeb3a,update path in readme,2018-02-24 06:49:40-08:00,False
+e66922b89da47323c647862728ebc3e67191c570,update readme,2018-03-20 00:32:15-07:00,False
+b63928821d40a8bf694c9a6abcbe2f96415c3812,Update README.md,2018-03-27 14:21:03-04:00,False
+548856dba6121cf84bb6568610521e6584c3b561,update python paths,2018-05-01 17:52:16-04:00,True
+8d57a2f3aae85e54944360463f85bacce6606d7c,Update README.md,2018-05-26 14:10:52-07:00,True
+c06fa7396aaf8d56b3808f6bde41d26aa3ce191e,Update README.md,2018-07-02 14:49:27-04:00,False
+5b0098980191c27282abbe85b26ef06807d01dc7,Update README.md,2018-07-05 12:30:31-04:00,False
+d980e6b35b31432634002f87f65c16211dbbf282,update readme,2018-07-09 10:37:44-04:00,False
+b456372ba18fc91341b2c16bbe24ecd2d55b193b,minor fix,2018-07-09 10:39:57-04:00,True
+f24f75d55924a9cddae62980236b3ff50d3ef464,add link to SCHEMA.md,2018-07-09 10:42:26-04:00,False
+a70ce23ff14c06602fbe301bd4ff57b90f78ed9f,Update README.md,2018-07-09 16:58:24-04:00,False
+e9ba2e42745f7d428cca5b324bea9c84143db9f4,fix typos,2018-07-10 10:00:15-04:00,True
+9aa528045259aded2efa17cb878046d611e5561d,fix typo,2018-07-10 17:19:49-04:00,True
+51eacd2e934b32c2805a586a84fa41d6436f1571,update readme,2018-07-17 19:20:07-04:00,False
+cb11b15dae77d64ea1c84eaad3ea22073ca8fe36,update readme,2018-07-19 17:16:00-04:00,False
+1b5a08c8bd45b76c9ae054b91731e0018643e764,Update README.md,2018-08-10 13:50:08-04:00,False
+4e30016bec4ac897b8b32a2fac560ed52be90bba,update readme,2018-09-14 10:43:41-04:00,False
+3f8a0dc97b8137481bcb218a1b007ae5226c9600,update readme,2018-11-19 16:37:44-05:00,False
+3bad809640923ef86c8d3028279ac471e69efaef,address review,2018-11-19 16:50:29-05:00,False
+a57a2360db9d6d12d7c45c7147a7822b415983bf,update readme,2018-11-21 11:21:33-05:00,False
+950ea73d0ce044e793e4652d698021d28253ebfa,update readme,2018-11-27 11:46:20-05:00,False
+c628b5769d2578329362dd72598bfcbc923f83fc,updated readme.md,2018-11-28 15:57:44-08:00,False
+0e92756bd82f2ab68fbf8f7b6c1ed394e542ee70,"Apply suggestions from code review
+
+Co-Authored-By: dkorytov <dkorytov@gmail.com>",2018-11-28 19:30:27-06:00,False
+ddfbd65ed7e23ca1ff2cc2b762794f8c3cb12a39,update readme,2018-11-30 14:04:36-05:00,False
+4c99b962fb6786974e7ee03e7fb496a43c065465,update README,2018-11-30 14:47:36-05:00,False
+bbd621531e1f251c6764f13aeb7c8b71adac8d0a,Update README.md,2019-01-15 16:40:55-05:00,False
+ce91662f06c3b455fc09c3b6b3dfa5720fe74650,Update README.md,2019-01-18 10:38:27-05:00,False
+579113d989b5e2497c0a7978d4a89845e7fa5f39,add new composite catalog to README,2019-02-21 13:03:29-05:00,False
+81484dca1c83de4d012764ae4eb5df19fbe7e192,use photoz instead of pz,2019-02-22 21:06:17-05:00,False
+879b14f9081b051c87316c73e667f2b209cbc888,fixed to make backwards compatible,2019-02-25 16:58:06-08:00,False
+e652cb45fb736eb1ee79a67bb2a545bd9a6d5695,Update README.md,2019-02-26 16:46:41-08:00,False
+cf49da313253047990b1e1742ec55501820061c7,Describe DC2 Source Catalog in README and SCHEMA.,2019-03-15 06:13:29-07:00,False
+c3e456a1e263835a9f9bad1ac48558715610e46f,Adds documentation for metacal catalog.,2019-05-09 19:09:37-07:00,False
+82dfcdccade0ba714365791e34a642cf5af62ec9,Add DIA Source Run 1.2p Test catalog to README.,2019-05-13 13:02:16-04:00,False
+fb7e943cec096aa75c4a1ebc0eaec8ad0bcc638e,Add DC2 Forced Source catalog.,2019-05-13 13:07:44-04:00,False
+b651503b513b70ca9dc228f9a98326679b8ab0eb,remove `dc1` catalog,2019-05-30 18:45:32-04:00,False
+3c8530d175b19ef3dbf7611ecd74390adc941c13,update readme and config names,2019-06-11 09:50:36-04:00,False
+8a3716eeef9bf269d6e8e174a3d2e808f8efb92f,update python path,2019-06-28 09:41:27-04:00,True
+11747a6339ea433b635d918a81ea971ea37bd708,Update README from Run 2.1i dr1a -> dr1  ('drb1'),2019-07-02 11:22:14-07:00,False
+925622f2a27ede3920e06e9aa5bebcaae7c08c2c,update readme,2019-07-18 12:28:51+02:00,False
+9cb1b5bd8bcd56be7e49199f56855052a84d0abf,update readme,2019-07-18 16:40:32+02:00,False
+f03bd724b63869b163b1dc990fbfcc72130ed549,Update README.md,2019-07-19 11:25:20+02:00,True
+e23da6da6fcbfeea3a5557d65502050289c96b31,Update README,2020-03-05 17:41:36-05:00,False
+ed192f7a7293ea723a657d46deb093fdb44b7ec1,Update README,2020-03-16 16:25:26-04:00,False
+698f4df6e454a4c34f710ca57d59381933771cbc,Update README.md,2020-05-05 15:13:19-04:00,False
+f86342d4b58d9aecb5b4d614d68da696b5a76ba6,Remove hsc pdr1 catalog,2020-05-16 09:55:13-04:00,False
+c2b349bad3e5fa4789fc2d13ea63347b7ab00682,Update README,2020-05-25 11:49:41-04:00,False
+1906be5ed12aefec1febbd8ed8ab602d731ef11a,fix typo:,2020-05-25 11:53:21-04:00,False
+4851f4d32725cd062800bbcc7df31ae6d7364cb3,Update README to remove Run 2.1,2020-05-29 19:51:11-04:00,False
+08b91262d53013a346ea1a9b0effc3c83aab8680,Update photo-z entries in README,2020-05-31 11:50:40-04:00,False
+083afc2cfeb04fb8fb9d2560d95687651b3c6ae8,Fix typo,2020-06-01 14:59:41-04:00,False
+46843fdfd03af423c1e6c27189af06fee93063f2,Update redmapper version,2020-06-03 08:47:00-07:00,False
+cf1f761016e103dc95a4adc9dee6ab80f302515c,Add Run2.2i DR6,2020-06-03 16:57:25-04:00,False
+dc407d0ab4a6d28be9f31b1db69a244b94235b29,"Make catalogs with _dr3 postfix in the list, not aliases",2020-06-03 16:58:10-04:00,False
+b4de2291eab6771deb9d99bd7f9c77382f56e964,restructure readme,2020-06-05 15:46:41-04:00,False
+d3ebf2e980d73a76fdcc8873ec694ea7a1d3ea38,Add config_overwrite,2020-06-05 15:53:37-04:00,False
+6ea2ab6252b0f2a267b485126f6b6ef2913c2605,Remove dc2_object_run2.2i_dr6_tract3830,2020-06-05 15:54:09-04:00,False
+23d59c7de27a6e57af662ff591f5cf7bf8a7db25,Update README,2020-07-17 17:37:15-04:00,False
+6aecbc385db25f9d9f8509179f9aec7af9bc44f3,Update README.md,2020-09-04 11:25:12-07:00,False
+38912425d9579937a21808e61db0ded72cd1145e,update README for DR6 WFD v1,2020-09-04 11:25:13-07:00,False
+62ff107952ad3821be3cd8a29678ea8fa9ab3a7d,"Update README.md following Yao's suggestion
+
+Co-authored-by: Yao-Yuan Mao <yymao.astro@gmail.com>",2020-09-07 22:54:43-04:00,False
+73aeeea9992b10ad35b83806dc8a1b9fa87503ff,"adding dc2_object_run2.2i_dr2
+
+and metacal - though maybe that is premature due to missing patches",2020-12-08 17:19:22-05:00,False
+a79a27bfe238cf5ec93f1bed1799927e3b49834d,no Run2.2i DR2 metacal for now,2020-12-08 17:20:28-05:00,False
+b5b88f0ca5f39a7a663fd0f8e47bbb4e6f698721,update readme,2020-12-23 09:53:54-05:00,False
+4bf8ec84eeba16c82629c9a458b0734b149e002a,add Truth Catalogs to readme,2020-12-23 10:01:31-05:00,False
+581aa1c7a075dd56c244a3d41f3171d1cea80127,add conda-forge badge,2020-12-23 10:17:42-05:00,False
+62d57ab0fb1a644739664590a44d877d35bdc629,prefer dr3a over dr3,2020-12-23 10:51:42-05:00,False
+3d8aa6562857cc42aed4fd9348365831ef3e6cda,rename dr2 -> dr2_wfd,2020-12-23 16:30:42-05:00,False
+37db887ca26e1637aed72dd95a10f3a4567b5a6b,update all configs,2020-12-23 17:01:22-05:00,False
+1c9b202dac6e364dee2239a3c51154a28da32d49,README wording,2020-12-23 17:19:08-05:00,False
+6a0441d9125443286d2ca15216f4ed60f87fe632,"Update README.md
+
+Co-authored-by: JoanneBogart <JoanneBogart@users.noreply.github.com>",2020-12-28 08:27:46-05:00,False
+c8dce6614bc78d16c1b7c63d72427a213ea33005,"Update README.md
+
+Co-authored-by: JoanneBogart <JoanneBogart@users.noreply.github.com>",2020-12-28 08:27:55-05:00,False
+f9c7fb5f0acb475bf54a5cfe36ca3a8a6d332db6,fix markdown list,2020-12-28 08:28:58-05:00,False
+920e3b1d28885d6278245641c81ab65c2432647e,Update readme,2020-12-28 17:59:49-05:00,True
+ca2f2b8217b6009f68a13acf52c1aa552cba7146,fix typos,2020-12-28 19:53:32-05:00,True
+3efde7da889920edaa75d41d3383f33987b5b2c1,Update README.md,2021-01-12 13:54:46-05:00,False
+d91aaadcf7da07bab19591027d138e8b661804d6,Fix typo,2021-01-12 19:44:59-05:00,False
+5ffc2cce2906911e0ee915eb41a07848a74f658a,Fix typo,2021-01-13 13:37:54-05:00,False
+5583f2f03e65ff84bf429bce1ad6fcb066f0f621,Add skysim5000 to readme,2021-01-15 10:24:15-05:00,False
+b7b51bb76467f1799233fecc3a12b031425bc51c,Fix typo,2021-01-15 14:31:53-05:00,False
+929927c09564e97308b1bc0cedd946bb147acab3,typo,2021-01-15 15:25:59-05:00,False
+b7b1adbe4b443c4b0dcd9311c5abd1802b4767fe,Add entries for Run3.1i truth tables,2021-02-22 14:46:39-08:00,False
+cd10396a4df36879a3d35158944b337fb39129f5,Update redmapper version,2021-07-13 21:05:40-07:00,False
+1f02b8831af68d85ab9a2205c131d572724ad743,Add redmapper v0.8.1 catalogs to readme.,2021-08-08 11:03:09-07:00,False
+fa030ca382440999f08f31ffd41e1147f812edbf,Add redmagic catalogs for cosmoDC2 and DC2 DR6.,2022-03-15 14:43:48-07:00,False
+cb0ecdd46509deeba5e5a03c17de436788ad25fa,"1. Add files for new galaxy truth summary
+2. For Portal files, change subdirectory name from truth_variable to truth_unmerged
+3. Partially update README.md.  Still more to do",2022-04-21 18:02:07-07:00,False
+aefba29fd7964c7dda6b77f09d35f7b1617c2c25,Add dc2_run2.2i_truth_merged_summary,2022-05-27 18:17:28-04:00,False
+331372c41f0832032a4e529129679fcdbe9f6cff,update README,2022-09-28 09:36:15-07:00,False
+173bc3fb1a0756dcd136fc7c55610fd8cd1b7207,rename wazp catalogs,2022-09-30 02:13:45-07:00,False
+03d19d3f603be51e45e30f4af9e00edfd51dfe93,rename wazp catalogs,2022-09-30 03:24:01-07:00,False
+24cf4abb7239ead0350fa6a05b19fff6918b80c8,change location of wazp cat in README,2022-09-30 11:11:12-07:00,False
+e1da31feca8ada95de78c001b358ac538ba1f22a,updated for latest skysim catalog,2022-10-05 21:52:28-07:00,False
+cf7da6d1006b5c3f665e52b230fd8244e7ea40c2,Link to data portal updated,2023-01-24 12:46:09-05:00,False
+5251e7eb93857159275f349947d2a151fbf6f090,Add redmapper/redmagic skysim5000 v1.1.1 entries to README.,2023-01-24 10:07:20-08:00,False
+28910df9d498b7dd888d2dfaf8ff011d0490f5fb,Updates to improve documentation and clarify class name,2023-03-24 17:28:58-07:00,False
+71f72ca07f571a287cfa28ad4412a89b916a725b,"Updated configuration files for bug-fixed skysim5000 catalog, including updates to README",2023-03-30 15:36:52-07:00,False
+b676a95cf30e5884aab407079d56c8756c904625,Making requested changes,2023-04-07 14:39:49-07:00,False
+8bb33c62230169369a2e6abf6b322da3cedc398e,Requested changes,2023-04-07 14:48:18-07:00,False

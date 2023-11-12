@@ -1,0 +1,185 @@
+sha,message,date,result
+b7cfead1607e4d9494ab96a245c12bd59e5438b0,Update links to project home page,2015-08-04 18:26:22-07:00,FALSE
+a8e83993c59fbb0e6e837da3d933f34b52d33395,Adding travis build status icon to README.md,2016-10-11 17:26:50-07:00,FALSE
+1957f6876efb329f975ed7d2e631592d0f6c1d95,Fix broken Markdown headings,2017-04-18 05:12:24-03:00,FALSE
+dbb6e34766edda019147ac8e76446a3803ee2bd3,add link to channel on network to code slack.,2018-10-19 13:26:40-07:00,FALSE
+adf9b11053b035953165a67978a87dc713e2120c,Added blank line to the end of the readme to re-trigger copybara,2020-06-15 14:31:45-04:00,FALSE
+625d4f3cababcc4f70f0c4da4ee639790087cd05,"Revert ""Added blank line to the end of the readme to re-trigger copybara""
+
+This reverts commit adf9b11053b035953165a67978a87dc713e2120c.",2020-06-16 14:38:17-04:00,FALSE
+7f735f81283dbfd11d9db231ff829b8b361f21c3,new: added pre-commit hooks and install script,2020-06-30 11:00:07-04:00,FALSE
+34ffcdf1fa14f9fc6feca4290c277fb998eacfab,new: added dockerfile to run capirca as an executable container,2020-08-05 12:40:39-04:00,FALSE
+9cb9d0730ce71e7599c7f05552c0fefb157310fc,"chg: updated build and push action, readme, and version",2020-08-05 12:49:38-04:00,FALSE
+d88bb5f4e404afebc085773aad5afc6adc1bd34d,new: added file-base configuration for capirca,2020-08-25 09:34:25-04:00,FALSE
+ae23c41c433267914cca6415f8d9f0c4167a449f,"This change improves current documentation
+and moves the wiki to doc directory.
+
+PiperOrigin-RevId: 360305591",2021-03-01 16:37:47-08:00,FALSE
+bf437ddebd1a80cdc4befcb48373f193ec22b818,"Add CiscoNX support to capirca
+
+PiperOrigin-RevId: 373182639",2021-05-11 10:32:26-07:00,FALSE
+6708f110518f46e7efa19a8139a55fef1285f08c,"documentation cleanup
+
+PiperOrigin-RevId: 381546751",2021-06-25 14:21:56-07:00,FALSE
+51bba4bb249df7c7f3fe78990317ac15c5002ead,"Add policy generator for Kubernetes NetworkPolicy resources
+
+PiperOrigin-RevId: 428527533",2022-02-14 09:13:10-08:00,FALSE
+91408576297f0179533133befed419f5614473f5,"Add Juniper EVO generator to capirca.
+
+Also, fix HOPOPT rendering in protocol_except.
+
+PiperOrigin-RevId: 453969942",2022-06-09 11:18:50-07:00,FALSE
+d481f1bfb605c2d68f12f993b9d67f3811df2255,Rewrite README for Aerleon fork,2022-09-21 12:36:15-07:00,FALSE
+41e9f10366fc27557a70e028f656c696f635e50f,"Remove Docker package (#16)
+
+Although a reasonable idea, users do not seem to actually consume Capirca as a Docker image.
+
+https://github.com/google/capirca/pkgs/container/capirca%2Fcapirca
+
+Co-authored-by: Jason Benterou <jason.benterou@gmail.com>",2022-09-23 10:57:52-07:00,TRUE
+4c1b0e6a1a72be2e3669da835de0311c214ec20f,"Add YAML policy file support (#77)
+
+This change allows Aerleon to read policy files written in YAML as well as the traditional .pol format. It will search for files named \*.pol.yaml in the same places it would search for \*.pol files.
+
+Include files can also be written in YAML. Cross-format includes are not allowed. A YAML file can include files named \*.pol-include.yaml while a .pol file can include files named \*.inc .
+
+YAML files are loaded in PyYAML's ""safe"" mode.
+
+Reviewers: please see [/doc/wiki/Yaml-files.md](https://github.com/ankben/aerleon/blob/yaml/doc/wiki/Yaml-files.md).
+
+### How this works:
+
+```
++----------+ 
+| YAML file | --- load YAML ---> Native Python representation --- validation --> RawPolicy
++----------+                                                                        |
+                                                                         BuiltinRecognizer.recognize()
++--------------+                                                                    v
+| Policy Model |       <--- FromBuilder(PolicyBuilder) ---      RawPolicy (parsed, validated, normalized)
++--------------+ 
+```
+
+The ultimate goal of the YAML front-end is to produce a Policy model identical to what would be produced by an equivalent .pol file. Prior to this change the only way to construct (or even instantiate) a Policy model would be to run the .pol parser against a .pol file. This PR adds the PolicyBuilder class and policy.FromBuilder(builder) module function so that a Policy model can now be constructed directly from a native Python representation. The RawPolicy class acts as a flexible intermediate representation understood by PolicyBuilder.
+
+The YAML front-end is responsible for loading the file into a RawPolicy - with minimal parsing and validation. In-depth parsing and validation of value syntax and semantics will be performed by the PolicyBuilder. Normalization of equivalent input types (e.g. string ""100"" vs integer 100) is also performed within PolicyBuidler.
+
+Error messaging is a critical element of this change. Errors and warnings should be raised to the user on non-conforming YAML input. Those warnings should contain file and line context as much as possible. The current PR does have some limitations where validation errors generated within the PolicyBuilder lack file and line contexts. A follow-up PR to add spans and push them through to the builder phase would be desirable.
+
+This change also adds a suite of standard value expression ""recognizers"" which match, parse and normalize common value expressions.",2022-11-23 11:33:27-08:00,FALSE
+ce8a5d4039cce17c05334578b5be904726043ac8,"Creating contributing file (#107)
+
+Creating CONTRIBUTING.md
+
+Co-authored-by: Jason Benterou <jason.benterou+github@gmail.com>",2022-12-28 13:51:44-08:00,FALSE
+4ab5091b300b4e9297541b27afe22d2bf5bed7b6,"Readme update 1 (#111)
+
+* change reference to aerleon
+
+* add tested python versions to metadata
+
+* adding initial proposal for badges:
+
+* license
+* PyPi version
+* PyPi status
+* PyPi downloads per month
+* PyPi Python versions
+* code style
+* Github workflow status
+* Snyk Vulnerabilities for GitHub Repo
+
+* revert pyproject.toml version changes - covered in PR #108
+
+* add Aerleon Slack + link Capirca occurences
+
+* add eBay tech blog article to external links",2023-01-04 12:58:09-08:00,FALSE
+455e7a9e9624e61fcaf74facd00bbec524cd5695,"Inits AllContributors (#118)
+
+* Inits AllContributors - no badge",2023-01-07 13:48:02-08:00,FALSE
+ae8fbd4927aeac967027e08588719303fd0518f1,"add fischa as a contributor for doc (#124)
+
+* update README.md
+
+* update .all-contributorsrc
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",2023-01-07 14:25:10-08:00,FALSE
+a55d17bc26cc420e0140822a925485805aa44f32,"add itdependsnetworks as a contributor for doc (#125)
+
+* update README.md
+
+* update .all-contributorsrc
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>
+Co-authored-by: Rob Ankeny <ankenyr@gmail.com>",2023-01-07 14:28:47-08:00,FALSE
+a5c00318aaccc11b5db6d06e99272a232aed3373,"Removing dead links and adding codecov badge. (#159)
+
+
+
+Co-authored-by: Jason Benterou <jason.benterou+github@gmail.com>",2023-01-17 21:33:28-08:00,FALSE
+80b2c90c308b33a949972f247905a88c94887910,"move generic keys out of all generators + fixes: (#168)
+
+* move generic keys out of all generators + fixes:
+
+* the low hanging fruits of keys are now only in common.md
+* there might be others that need more validation
+* reformatted a few along the way to have a similar look&feel
+* added icmp types to have them present in the docs
+* split windows_ipsec off from windows_advfirewall
+* fixed a few links and formatting in contributing.md + links.md
+
+* fix a few broken links in the README
+
+* remove obsolete alpha/beta state comments
+
+Co-authored-by: afischer1-godaddy <106536318+afischer1-godaddy@users.noreply.github.com>",2023-01-18 10:00:17-08:00,FALSE
+bd26bfa59282c2b4410610ec91cc542fa7d6fbb1,"Reducing README.md (#133)
+
+This content was moved to the docs/ section.
+
+Co-authored-by: Jason Benterou <jason.benterou+github@gmail.com>",2023-01-18 10:21:06-08:00,TRUE
+9b6e5d564974f58e0d6fba64c4dc81f17b7deb4c,"Additional content edits (#169)
+
+Co-authored-by: Jason Benterou <jason.benterou@gmail.com>
+Co-authored-by: Rob Ankeny <ankenyr@gmail.com>",2023-01-18 11:07:54-08:00,TRUE
+226322dbb3cdc510ee608c9b09432d349cc42345,"API Docs (#172)
+
+* API docs
+
+* Reflow
+
+* Typo
+
+Co-authored-by: Jason Benterou <jason.benterou@gmail.com>",2023-01-18 12:04:00-08:00,FALSE
+2efc48f2f0a83eb0eb279f18b612584cfa4963b2,Updating readme version link.,2023-01-18 20:28:58+00:00,FALSE
+484d9b689a484b371afc215d03d537017341b9a7,"Remove AllContributors usage link (#175)
+
+* The 'tfoot' tag is not rendered correctly in the PyPI README renderer.
+
+Co-authored-by: Jason Benterou <jason.benterou@gmail.com>",2023-01-18 14:57:24-08:00,FALSE
+881176fc5815a363eed107d41e7e8afd0140a61b,Fixed minor typo (#178),2023-01-18 19:14:03-08:00,FALSE
+207a69c54d8e28a68edba68e6e555af61de54e2a,"Include functional Slack invite in README (#180)
+
+Co-authored-by: Jason Benterou <jason.benterou@gmail.com>",2023-01-19 11:36:12-08:00,FALSE
+c25ed31eb33250aad72460c1fd240a91597dfc40,"Re-add downloads badge (#177)
+
+Co-authored-by: Jason Benterou <jason.benterou@gmail.com>",2023-01-19 13:56:05-08:00,FALSE
+0c764e8e94f078b604da1d831ee2312807e8264b,"fix, reorder, add badges + minor cleanup (#202)",2023-01-25 14:49:17-08:00,FALSE
+2999e7764adfdb203497e930c2d2945e4a06664c,"add nemith as a contributor for code (#213)
+
+* update README.md
+
+* update .all-contributorsrc
+
+---------
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",2023-01-28 23:45:14-08:00,FALSE
+5cf5dba0761bc39f364e280f9d9b602bf2ec6064,"add btriller as a contributor for code (#217)
+
+* update README.md
+
+* update .all-contributorsrc
+
+---------
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",2023-02-01 09:37:47-08:00,FALSE
+bf8e51a964e7d024ff84b28f39fff14c5fe93913,Release 1.1.0 (#222),2023-02-01 21:31:24-08:00,FALSE

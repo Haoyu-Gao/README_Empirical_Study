@@ -1,0 +1,209 @@
+sha,message,date,result
+ab17ab8e929c0ff8bf7e6ee5393188b7c6c60d68,"Haiku is Sonnet for JAX.
+
+PiperOrigin-RevId: 290964750
+Change-Id: I8de9354db79d2180b813e40c7742dc00e10397af",2020-01-22 20:21:56+00:00,TRUE
+49bf6aeff714be8dee0fb4db9735aa6b2f7e83ea,"Fix example in tutorial: jax.tree_map -> jax.tree_multimap
+
+PiperOrigin-RevId: 291012307
+Change-Id: I6b0f837c8288f2e8c36a7d6075def9ae05686576",2020-01-28 06:21:27-08:00,TRUE
+5cb663818aae85f50a8fcb456e5bd00c90ccf7f5,"[hk] Rearrange Haiku readme introduction and motivation.
+
+PiperOrigin-RevId: 294425620
+Change-Id: I65411a0a315bc53d64cf9a335a13c0392e6f4eba",2020-02-11 06:26:50-08:00,TRUE
+9ce0eae25e672c8d10a49ef02944e304b509e6c7,"Add clarification re example input.
+
+PiperOrigin-RevId: 295571066
+Change-Id: I9a309a01031b239dd6ac4725b8722024cd27dd27",2020-02-17 05:51:50-08:00,TRUE
+220b6043204c9ffaccb67a0ff3e2218d59b5760f,"[hk] Add installation, distributed training, citation to README
+
+PiperOrigin-RevId: 295717885
+Change-Id: Ieeecfbad2abd7d98dd6577a8112fa3e16dfdec25",2020-02-18 06:06:02-08:00,TRUE
+b559b0225c2843f26bb1e87b0fc31281585dc3c4,"Reformat readmes.
+
+PiperOrigin-RevId: 295722922
+Change-Id: I050a224cf9ba6bd03ef95e853ef5f9ab159f69c4",2020-02-18 06:43:56-08:00,TRUE
+91572dc18f8ef70c55c8fa34161642d5892abf7d,"Add examples to nav bar.
+
+PiperOrigin-RevId: 295748728
+Change-Id: I6e9e6a06d86995a5c2943b0048a7311f28c05328",2020-02-18 09:16:45-08:00,FALSE
+0a262029dd5ea3ff53805be18a148110ed68accb,"[hk] readme formatting tweaks
+
+PiperOrigin-RevId: 295977925
+Change-Id: I06d9373d432962893f1a33497d4f83ff7beaeb4c",2020-02-19 08:47:08-08:00,FALSE
+a5dcb09460b69f8bb865622c46b90990fed37526,"Replace non-breaking space with regular space.
+
+PiperOrigin-RevId: 295993924
+Change-Id: If15f5c18ef8058958abfddf00d3b360e7e8e65ed",2020-02-19 10:03:17-08:00,FALSE
+4bcbec9f874c847075ad666c7f3621c8c524af3b,"Document non-trainable state and standardise on collect/inject.
+
+PiperOrigin-RevId: 296166911
+Change-Id: Ifbcfa4072eb7a356bd87f4b580253a933c7a0303",2020-02-20 02:57:05-08:00,TRUE
+5dc6c8efbef3722070c24cd14d6ac66de6f37eee,"[hk] fix readme typo
+
+PiperOrigin-RevId: 296177960
+Change-Id: Ib8014e1e974b1ba7a26eed145f56ea197ed355b4",2020-02-20 04:20:36-08:00,FALSE
+ee3214b05c0ee7a1957fd1fac302136111570220,Update README.md,2020-02-20 12:25:41+00:00,TRUE
+dddf15cb60c53b316ece3d0938056790a80fe097,"Fix typos in cross entropy calculation.
+
+PiperOrigin-RevId: 296272697
+Change-Id: I8fcc056ec094de134303b2541aa158febb5a8a70",2020-02-20 12:35:53-08:00,TRUE
+80c412d5821c97c20e94094e137b265ec193ecbf,"Update github links to dm-haiku, link out to haiku-os.org from readme.
+
+Closes #2.
+
+PiperOrigin-RevId: 296413851
+Change-Id: If01c3f5356c43999da58bce0b053a5a142303aff",2020-02-21 05:06:02-08:00,TRUE
+697fb7c442ee2fd5f57bbb861029fa9e07b3b7d1,"Add CI badge for pytest action.
+
+PiperOrigin-RevId: 296885935
+Change-Id: I2616062caa959efe36492c18cb8df7f29a3be7cb",2020-02-24 07:21:34-08:00,FALSE
+ba6c997586f580ea83aef6d9857bfd5e4a20af03,Mentions `bsuite` IMPALA dependency in `README.md`,2020-02-24 23:22:54+00:00,TRUE
+85113b6277a11973029b7dcea6f741a343fa949c,`README.md` pip install examples dependencies,2020-02-25 10:45:23+00:00,TRUE
+9146e9b01e117666f38a47d9be97b145af2daa64,"Misc tidying in mnist example, use LeNet-300-100 consistently in docs.
+
+PiperOrigin-RevId: 299785786
+Change-Id: I1d4f05885be1299de27d6207e1f089c1976436f4",2020-03-09 01:33:19-07:00,TRUE
+0a05bb18e6ee0f1ce7326d0c88a19a8fe93d3cd5,"Add documentation on working with stochastic models via `hk.next_rng_key()`.
+
+PiperOrigin-RevId: 302432221
+Change-Id: I3bfb91564868e171ad2bab2260b4a06e92fff970",2020-03-23 07:53:31-07:00,FALSE
+e7df5c2e823a2273ce844aea10a759ba5e91b169,"Add full example on training variational autoencoder with binarized mnist dataset.
+
+PiperOrigin-RevId: 302647774
+Change-Id: I44cd7dd91c505a70a8e3f42de3a5db8305cce491",2020-03-24 05:48:31-07:00,FALSE
+66ce5db661703d013a6834a502fb4b8e0365635c,"Create 0.0.1b0 release.
+
+Changelog:
+
+Examples:
+
+- Added VAE example.
+- Added pruning example (https://arxiv.org/abs/1710.01878).
+- MNIST example uses 300-100-10 MLP.
+- Updated imagenet dataset to return correctly scaled examples.
+
+Breaking changes:
+
+- State arg to `hk.transform` dropped in favor of `transform_with_state`.
+- Decay argument is now required in `BatchNorm`.
+
+Features:
+
+- Added `hk.maybe_next_rng_key()`.
+- BatchNorm and LayerNorm speed improvements.
+- Added support for partition/filter/merge params.
+- Haiku now allows running with `jax_numpy_rank_promotion`.
+
+Experimental features:
+
+- `hk.experimental.to_dot` - experimental visualisation support.
+- `hk.experimental.lift` - experimental purification support.
+
+Usability:
+
+- Improved error message when RNG arg is not and RNG.
+- Improved documentation.
+- Improved test coverage.
+
+PiperOrigin-RevId: 303113097
+Change-Id: Ia08a3a02be9d48a5e4261bb5072e2b9f78b66ae0",2020-03-26 08:07:25-07:00,FALSE
+8d3747083b5e884e18c669c911495340db962f7a,"Fix some typos in the readme.
+
+PiperOrigin-RevId: 309723951
+Change-Id: I7e81c2a65842eb78ca0acf28ce937f7c83b1ee61",2020-05-04 05:28:12-07:00,TRUE
+d6cbcab02abc36a72b2dea81dfec17fb9de7b232,"Make our documentation more poetic
+
+PiperOrigin-RevId: 311509967
+Change-Id: Ia43d8d6ef0ca4639a9d4b786dd7aa6dae94ada58",2020-05-14 04:46:39-07:00,TRUE
+6a39725ce1c7bf4c60f0f9809026e5670b57d2a2,"Implement `hk.one_hot` with `jax.nn.one_hot` and mark as deprecated.
+
+I've moved all internal usages to `jax.nn.one_hot`.
+
+PiperOrigin-RevId: 313360842
+Change-Id: Iaee69af6f53d5f1faae70f16ae75631996a8393e",2020-05-27 03:39:05-07:00,TRUE
+6002eb4ccaf261377940110c11a1c86502b0158b,"Minor improvements to Haiku main doc.
+
+PiperOrigin-RevId: 313578331
+Change-Id: Ic49c9ca41d4e32f7de52ddee5417777b0825f505",2020-05-28 06:53:35-07:00,FALSE
+064ddf588fae4ce8feb3851ffd6f6790c231bd03,"Bump version to 0.0.1.
+
+PiperOrigin-RevId: 314701534
+Change-Id: I03a6371fed6d19408c4c9e1a527a5fc14f789f23",2020-06-04 03:48:16-07:00,FALSE
+db991d56563221d5a06be5e7228155e53d01aba9,"Change the default for apply_rng in hk.transform.
+
+This is a breaking change that changes the default for `apply_rng` from `False` to `True`.
+
+Too many signatures are making the library harder to use and reason about. Suddenly having to add a seed is also very brittle. Thus, the default behavior is now to assume an RNG is used.
+
+For equivalent behavior please either use:
+
+1) `f = hk.without_apply_rng(hk.transform(f))` and call `f.apply(params, ...)`.
+2) or `f = hk.transform(f)` and pass a `None` rng to your apply function: `f.apply(params, None, ...)`.
+
+PiperOrigin-RevId: 319776685
+Change-Id: I4551e0f3ccf9b90c6e30c56ef6ea28679c6fc5a1",2020-07-06 07:36:55-07:00,FALSE
+70b781e3965ac9aba29805e0b419773d7fa3a51f,"Use `apply_rng=True` in docs.
+
+This is the default at head and our docs reflect the new behavior, however the
+current PyPi version of Haiku has `apply_rng=False` by default.
+
+PiperOrigin-RevId: 322800753
+Change-Id: I28d92e599426849c5e5ddfb56516b675a8763ef1",2020-07-23 09:23:34-07:00,TRUE
+7977598dbe1769f475d66d9b34728a5e2922cffc,"Bump version to 0.0.2.
+
+PiperOrigin-RevId: 323778864
+Change-Id: Iec9e324480e736dbe48040190f3815b37fb5b6c5",2020-07-29 07:01:33-07:00,FALSE
+a98c7804b8c1775012cad8a985900838270b3c5b,"Remove apply_rng=True (this is the default).
+
+PiperOrigin-RevId: 330346230
+Change-Id: Ic66dd920197a5d70d3be35dd73bae16070040752",2020-09-07 02:01:51-07:00,TRUE
+2df77b45189c7db3ffa4422c01b896a83c379147,"Minor tidying of code examples.
+
+PiperOrigin-RevId: 338906652
+Change-Id: I6eefe8fe3f10f67cdb0ad8126959e82acd5e71d8",2020-10-25 04:17:54-07:00,FALSE
+08a9695ea49c5a4e87181d2c0a6247d4f15c0350,"Cut 0.0.3 release.
+
+PiperOrigin-RevId: 344021600
+Change-Id: If50afb891f1b8f79d7dde25598e135d99d2a9a3a",2020-11-24 03:02:39-08:00,FALSE
+324478deac9cde00fd19c58393c1c129c9392665,"Fix links to docs on Haiku transforms.
+
+Fixes #86.
+
+PiperOrigin-RevId: 346958063
+Change-Id: I212a26826b153b808f6df48f3ab850eefe02e271",2020-12-11 02:02:54-08:00,FALSE
+fa38bf7dc4c8f2b0a3b8aea14bca8afc06565b22,"Remove ""beta"" warning from Haiku README.
+
+PiperOrigin-RevId: 356232148
+Change-Id: Id686d9b57cc9ae28a2ebaffbc9af89a3fb31ec44",2021-02-08 04:01:57-08:00,FALSE
+540537ef6633b288cd8b9bcc7349af7463d39328,"Add explicit section anchors to the README.
+
+PiperOrigin-RevId: 367169060
+Change-Id: I03a6f6a0bb0988c1df679a7def7e8f4a8a90cbc8",2021-04-07 00:58:03-07:00,TRUE
+3527f212dcadf1271059fd3cf1e15fdfba40b75e,"Add PyPI and RTD badges.
+
+PiperOrigin-RevId: 376837302",2021-06-01 08:23:29-07:00,FALSE
+4cbfeaba186914f90d32d70fb96527b9205ba88d,Add pip install -U singularity to README,2021-06-05 21:39:54+01:00,TRUE
+3bee43a8234d8f7a3d09d78ebeec7b1d7cb8b172,"Rename master -> main.
+
+PiperOrigin-RevId: 379990116",2021-06-17 10:25:04-07:00,FALSE
+e7433a337c0dba4ab90a7ad37cb9fe01cf47b652,"Improve quickstart docs
+
+PiperOrigin-RevId: 405403005",2021-10-25 08:11:34-07:00,FALSE
+982eebdb5fb3b94faceebe56548cacd9076190cb,"Fix typo
+
+Sorry for such a minimal commit :)",2022-01-12 16:31:37+03:00,FALSE
+c2604b64424e016a2cc259484a2ff878ef1222f0,"Fix typo.
+
+PiperOrigin-RevId: 443357992",2022-04-21 06:09:59-07:00,FALSE
+eaedb94dbbb77ad219590ed9be893ef295420784,"Replace `jax.tree_multimap(..)` with `jax.tree_map(..)`.
+
+Fixes #406.
+
+PiperOrigin-RevId: 448935758",2022-05-16 05:52:42-07:00,FALSE
+c21f3cfa74bda953748842a23f28f70aaa4ffca9,"Update ""jax.tree_util"" functions
+
+PiperOrigin-RevId: 460090860",2022-07-10 15:32:22-07:00,FALSE
+889bb06f3cc31dad38412efc16d96235e366d6b2,"Cut Haiku 0.0.9 release.
+
+PiperOrigin-RevId: 488896427",2022-11-16 03:54:06-08:00,FALSE

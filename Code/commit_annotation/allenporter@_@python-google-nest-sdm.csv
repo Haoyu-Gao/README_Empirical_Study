@@ -1,0 +1,36 @@
+sha,message,date,result
+997d45217986f42810e2344f08dec43457bfabb5,Initial commit,2020-09-27 11:34:44-07:00,False
+8e860db1689492a022ee88816e39207c19d83910,Update README with details.,2020-09-27 18:38:03+00:00,False
+51ba56c1172519a0dc232f89f79b6a776e8b6780,"Documentation and readability improvements.
+
+Modify the documentation to make it slightly easier to follow the flow
+of class inheritence.",2020-09-29 14:07:20+00:00,False
+519099596ae5e8f11b7f9163f6334782849ac642,"Prepare for release with improved docs.
+
+Adds some additional detail for getting started, and
+clean up some setup file to prepare for initial release.",2020-10-01 05:37:29+00:00,True
+906d3191b35daccdc4de10d4ba1c16645234f988,"Add support for subscribing to events
+
+Uses the 'Guides: Subscribe to Events' docs to
+allow the command line tool to fetch events using
+the google cloud pubsub APIs.",2020-10-05 04:23:23+00:00,True
+d55e5adaf27f8fdee4177ae32fed8224c5781f09,Add instructions for where to donate.,2020-10-07 15:00:52+00:00,False
+3f6a42ef1a2960f45002c9e9df8d9654af1c040c,typo fix,2020-10-12 13:18:36-04:00,False
+389c4c6f83922e9abdbd1f202ac46f8ad4a01963,one more typo,2020-10-12 13:25:37-04:00,False
+444e324bf02b1662a31c173ebe01adc58bf8eb57,"Check in development environment reqs
+
+Set up the virtual environment following the instructions in this tutorial:
+https://developer.akamai.com/blog/2017/06/21/how-building-virtual-python-environment",2020-10-24 15:26:11+00:00,True
+28998bcaa86c1bf398238af395d050511c95ca4e,Use flake8 to address test lint errors.,2020-10-24 15:53:02+00:00,True
+096adacdd2ab528a5af4771af21afe6a054c1257,"Improve releases, unpinning, etc
+
+Don't pin python versions for common libraries.
+Include requirements.txt in the source release
+
+fixes=2",2020-10-24 20:06:20+00:00,False
+86a3d633aac6fc4b677dd68f95920f29319b1673,Update project test dependencies,2020-11-16 01:45:41+00:00,True
+d6afac24adaad6af800d06033eafb6e56ac13d55,Fix errors in Fetching Data section,2020-12-04 16:22:35-06:00,False
+49b1cc7575b55cf4bf1d3aad59e415a034471c8b,Add README replacing commands with pre-commit,2021-07-18 16:05:55-07:00,False
+551d1c42ba3c1e21123d4e847e4b23ac154ad4a8,Remove release instructions since it is now automated on github releases,2021-10-12 19:20:15-07:00,False
+0c282a17147a8f6b24feda6b6b31f889620635e6,Adjust flake8 package groupings to send in single group for version pinning,2021-10-12 20:32:00-07:00,False
+82813b96823fdbf4a481531407cc652577fd7f13,Exclude command line tool from code coverage,2021-12-04 21:10:51-08:00,False

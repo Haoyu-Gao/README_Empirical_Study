@@ -1,0 +1,72 @@
+sha,message,date,result
+5cbf5f58a9646937bb040803d9a33b726e50623e,Initial commit,2012-05-21 06:47:53-07:00,False
+d9e0472a12f77bc03b4478519f54328419cc46c7,edited title in README,2012-05-30 09:40:39-04:00,False
+5764f31e55409d49b2ae62fdec43f4f4bfb85c7f,"added instructions in README.md for installing the app, closes #1",2012-05-30 11:40:31-04:00,True
+769b478992db6ce885ca6117c93fd3045b6dd1d5,corrected some typos in README.md and apache conf file,2012-05-30 12:03:43-04:00,False
+d9d3be0479a14bdb1673ac611e2733cc2dba1611,minor changes to README,2012-05-30 12:17:44-04:00,True
+80b377064e100e4cc1ab7572c387acf5725210be,"replaced idservice with launchpad in README file, closes #6",2012-05-31 14:05:42-04:00,False
+dbcb921daf09d6c077d354aafd746788f6cf20dd,edited README file,2012-05-31 14:14:14-04:00,True
+71b347ecd7d85e67298b20faf6b0fa0bd8fa51d2,changed Oracle setup instructions in README,2012-05-31 14:57:24-04:00,True
+06874b19dccef2592fa3ca8865d3d023f3c96d77,"tweaking README.md, one missing dependency and obsessive-compulsive formatting changes. sorry about that.",2012-06-01 15:31:11-04:00,True
+3e9924bf8b5bf4a76ccb76cfeee33c3a05790c63,tagging m1 release,2012-06-01 16:54:39-04:00,True
+acef76ecce67e070337b5d857d263ff3e48bb7bb,missed python-dev,2012-06-01 17:14:15-04:00,False
+3fa309060aa94b409dd8ebaa984ce73065c7bf61,"suggest copying .template files, not moving; lets you pick up changes and not have a git diff with files removed",2012-06-01 17:15:43-04:00,False
+54b34fde1af33a923ea0a3c192cea2e6e520c571,"re-ordering deployment instructions w/r/to apache; should config local_settings.py, apache sites-available file before a2ensite and apache2 restart",2012-06-01 17:25:57-04:00,True
+31d01dc39ec5c2a6253356badbaae626953dfe97,"added license, one tweak to install notes",2012-06-01 18:04:34-04:00,False
+935e2291a5f329821107e9764d0f4e8c510f5d7c,added function to get GM and GT holdings from z3950 server,2012-06-08 12:31:52-04:00,False
+38618de8b7c8c39861c692f286fafd77ff6705ed,"spelling out language name in view, closes #27; tweaks to config for z3950 support, refs #26",2012-06-08 13:23:12-04:00,False
+978908fc2933ec7b3da31b793f2217bea1412a8d,"tweaked z3950 query setup, config, moved server info to settings files, refs #26",2012-06-08 14:32:50-04:00,False
+77301f32311018b5103a9f5770d72d1277f788a4,"adding support for native title display, including tweak to django source documented in README, closes #22",2012-06-20 17:34:51-04:00,True
+b32cdd17e7f59457141d97ca95e632096a1f27c2,"added some basic performance tweaks, mainly better headers in response headers. closes #30",2012-06-21 18:47:46-04:00,True
+98dd56fe5a181091df8fdc8987946b2fed222c47,"setting up to use memcached for item page caching, closes #58",2012-06-29 14:32:24-04:00,True
+ab482c68b6230bd3b4e98fa77d46ee1662bd6a77,tweaked README to suggest runserver option,2012-07-17 20:48:41-04:00,True
+fd4166383a77893e7c398a1e0c89185a203eb8fc,"added setting and template markup to support google analytics, closes #113",2012-07-27 12:56:56-04:00,False
+6ad061fd0f0caacffbabaef60d06c0426103d7ea,"updated readme and apache config to handle sitemaps, closes #112",2012-08-02 19:21:56-04:00,True
+268594cee060030548ab77f732c25a12b64f4110,"added read-only clone url to README, closes #215",2012-10-10 11:19:16-04:00,False
+aa013cdabd47eb44cb8811e6765258659476caf2,Added function to call 360Link API and parse the xml to a list of dictionaries. References #42,2013-01-07 16:53:09-05:00,True
+27ca075be8ad7df4e9b910961b9bcfccd367e917,merged additional sys packages needed into first step apt-get install,2013-01-15 18:53:14-05:00,True
+b50b598301ba33bc8c62f327551e60f5808bc7f3,"readme tweaks, refs #339",2013-07-26 09:31:22-04:00,True
+b0769d9ccb76b1d4f6fe5789afa0301c8c5ebf37,"updated readme w/ALLOWED_HOSTS note for DEBUG = False, closes #339",2013-08-14 02:27:13-04:00,True
+a274052e5f6c74ea2fb1ea398c54fdf54754818c,"Update README.md
+
+s/git-core/git/",2013-09-24 07:12:03-04:00,False
+e4419a073d42b7d3028277455593fd12dc79c82d,"Update README.md
+
+adding easy_install line for pytz",2013-09-24 07:19:17-04:00,False
+54a1a825accecca86652e3f9f76c31b15ce8659e,"added more apache mods to enable, closes #376",2013-10-01 08:35:04-04:00,False
+180be59bff522eb942f635067f53afa1a444f41b,updated README to spell out z39.50 parsetab and permissions issue,2013-10-28 12:55:47-04:00,True
+d6747d1c5ebf4ce985320941faa97dabbb792775,"more readme tweaks (added email header settings info), formatting",2013-10-28 15:11:19-04:00,True
+cf8d4c3ea7a203aa12c1e25fa3bb54e8845250a7,"revisited annoying django-patching strategy for handling Voyager insistence on ASCII connections, fixes #345, refs #22",2014-01-23 18:17:23-05:00,True
+285ffdb3ab5cbb27afa20a3a618308412f83cbaa,added secure env variables for summon tests ; also added build status to the README.md,2014-03-01 07:27:26-05:00,False
+8cdb63e4047209531c8a9e71d74219c263c8a5c8,updated README installation instructions,2014-05-14 13:59:18-04:00,True
+79019d3f7a8dfd373148d6b9485aa20aa6a578b8,"Update README.md
+
+Editing a file in the /etc directory is going to require superuser permissions.",2014-05-15 12:00:30-04:00,False
+bd3c271840ad7a309041171423d34ed33304134a,"Update README.md
+
+Corrected error in README (regarding the need to comment out ITEM_PAGE_CACHE_SECONDS if not using memcached)",2014-05-16 17:02:30-04:00,True
+96afff036b77d85d47440722215a836808412981,Added pytz to requirements.txt; no longer need to easy_install it; updated README. Fixes #745,2014-07-31 09:51:25-04:00,False
+1e28456dfc59e60ebc101728d3ad1930362c23f5,"updated README to reflect updated oracle instantclient library version, closes #1036",2015-10-02 13:19:03-04:00,True
+aad29b79b37ec6bf109b492b9786453b48cc8549,added note about upgrading sqlplus instantclient,2015-10-05 10:48:22-04:00,True
+5149528a429c7a86ff5b77e9c24388ddaf7716db,"roll back README for oracle instantclient back to 11.2, fixes #1043",2015-11-04 11:41:50-05:00,True
+1caf441e57afbd134aa8902429dd17ffa5e4202a,Updated README for Django 1.8.13,2016-07-28 14:10:59-04:00,True
+04581c4b81a98994ac60732c648794930e15907b,Updated README for Django 1.8.13,2016-07-28 14:20:42-04:00,False
+13ea463f1679901e94e1959c19687c944fb1ab0d,"Updated README for Django 1.8.13
+
+Correcting the README for Apache Config file command",2016-07-29 14:09:47-04:00,False
+d971ce072db25d8b9496e3500c876aed21cb0cf9,Updated README for Django 1.8.13,2016-08-05 11:40:52-04:00,True
+ad140ed47f50a1a357dd60073ec98ce073ad1628,"Updated README for Django 1.8.13
+
+Replaces Postgres with a sqlite3.",2016-08-10 11:50:35-04:00,True
+78deb5d95651ab739a80b9b23385df975cac4793,"Updated README for Django 1.8.13
+
+Updating the Ubuntu version and removing Postgres references.",2016-08-10 14:01:14-04:00,True
+42201237155ee95081bd7b85b84a5ea44608df41,refs #1203. Adds sqlite to install docs.,2017-09-27 14:41:13-04:00,False
+e1531174802b09aa488f2002ac68202b7db13aeb,"Fixes #1196. T1196 https (#1207)
+
+HTTPS configuration including proxying cover images from Summon.",2017-10-09 08:19:44-04:00,True
+487c0fbefbc20e628a1c5c79d600862ca7610d2c,"Created logsitter script and updated README with supervisor deployment instructions. Refs #1004 (as a workaround, not a fix).",2017-11-13 16:07:10-05:00,True
+fdcf2db185be634417d3062a598864886cce9a64,Added step to ensure logsitter script is owned by root,2017-11-13 16:29:33-05:00,True
+faf532e4d2d4699a25c0b8c8af68225c42e59657,"Moved chown up, to ensure that the logsitter.conf file is owned by root before being copied to /etc/supevvisor/conf.d",2017-11-13 16:31:37-05:00,True
+9cc68c16b908590b8621ec21544641d6d1984256,formatting,2017-11-13 16:35:41-05:00,True
+7841ff627b8bb703c9d6f513a1628ec4e733c4af,Corrections to logsitter instructions,2017-11-14 09:02:43-05:00,True

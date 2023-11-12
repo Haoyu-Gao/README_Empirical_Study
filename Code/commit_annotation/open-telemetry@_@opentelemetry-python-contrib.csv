@@ -1,0 +1,115 @@
+sha,message,date,result
+67f43ea6ab2d0d811792906dc03bb9f17ed3957b,"initial commit
+
+Signed-off-by: Alex Boten <aboten@lightstep.com>",2019-11-15 08:52:03-08:00,False
+1bc244074729b9dc8d5952deb8cb1c093a2b91a9,"adding instructions to port instrumentation (#26)
+
+Adding some instructions on how to port from the reference directory. More updates will be needed as tests are added. 
+
+Co-Authored-By: Hector Hernandez <39923391+hectorhdzg@users.noreply.github.com>
+
+Co-authored-by: Mauricio Vásquez <mauricio@kinvolk.io>
+Co-authored-by: Hector Hernandez <39923391+hectorhdzg@users.noreply.github.com>",2020-04-09 11:16:33-07:00,True
+2ba7927ec1c0eb3255ce1d4fbfa8fc6c5a1887b3,"updating readme, adding contributing doc",2020-04-14 14:37:56-07:00,True
+1e437a2d5a1ca92daac5abe9a2146c0c2362b16c,Update README.md,2020-10-29 11:16:59-07:00,False
+31945100803347ea5774a1a629b63c3bde768941,Add section on how to run tests,2020-11-03 13:50:11-08:00,True
+28c1331e571d386baab74f5028e3268e4bfda4cd,Update Contrib packages to 0.16dev0 (#129),2020-11-05 11:25:37-08:00,False
+4aeac4a9bab814de66c2067a8ad89b34f25efc17,Update README.md (#214),2020-11-25 07:47:41-08:00,True
+f3a078296c098d861a2e70795404a1e5938d44cc,Added Zoom passcode (#295),2021-01-26 08:15:47-08:00,False
+f279d396231ceb9e08429443234db6e9d4d6d437,"updating readme (#296)
+
+Adding more details to the readme including a link to the read the docs",2021-01-26 09:35:37-08:00,True
+f022385e37d14f5baadda2292a1115ef244b7523,update references to main (#306),2021-01-29 12:09:22-08:00,True
+b0f7268fb07c16afbd13320698c9d7a906ed0354,Update README to link to GitHub Discussions (#325),2021-02-09 09:11:48-08:00,False
+da692d1aed434c04cdb90209aea870a25d704e82,removing toumorokoshi from approvers (#404),2021-04-05 08:15:05-07:00,False
+c8103f5fa0bfa91b374c21817057682ec3047fe4,"remove hectorhdzg from approvers (#489)
+
+Thanks for all the contributions @hectorhdzg!",2021-05-13 08:57:29-07:00,False
+287cda9b37d21b000a952d44237d5cb93a47acbc,"Add employer for Diego (#525)
+
+Fixes #524",2021-06-01 16:54:51-07:00,False
+5374aeea0e17ed459993c27230174e68e7cc31e0,Update Zoom link to match core (#603),2021-07-23 08:21:18-07:00,False
+b2a86719eb71af9d7cfcd1896c26952e8485f797,update approvers/maintainers list (#614),2021-08-10 10:43:14-07:00,False
+a78c94ce59ac6553e0c5fb47835fb643c0fc4f1b,"README includes 1.0 release checklist + CODEOWNER description (#596)
+
+* README 1.0 release checklist + what is a CODEOWNER
+
+* Do not required SLA for responding to asks
+
+* Easy changes to address reviewer comments
+
+* Introduce on Slack at least not SIG meeting
+
+* Give guidance when a CODEOWNER wants to leave a project
+
+* Update README.md
+
+Take suggestion package ""MUST"" wording.
+
+Co-authored-by: Diego Hurtado <ocelotl@users.noreply.github.com>
+
+* Update README.md
+
+Take suggestion on CODEOWNER requirement wording.
+
+Co-authored-by: Diego Hurtado <ocelotl@users.noreply.github.com>
+
+* Apply suggestions from code review
+
+Take more suggestions on checklist list requirements.
+
+Co-authored-by: Diego Hurtado <ocelotl@users.noreply.github.com>
+
+* Update README.md
+
+Take suggestion on MUST requirement for documentation.
+
+* Add back missing bullet point
+
+* Do not say perpetually 1.0 instead say up to maintainers
+
+* Make it explicity CODEOWNER is for 1 file
+
+* Make OTel Community membership a requirement because the action we use requires it
+
+Co-authored-by: Diego Hurtado <ocelotl@users.noreply.github.com>",2021-09-08 19:14:20+02:00,False
+d2984f5242ed2250ad1c11b6164e2e8e11e2a804,remove need to clone core repo (#678),2021-09-27 20:28:32+00:00,False
+444e0a13127304d3a04ccd44445b2e6caed3f770,"Remove direct Zoom link (#816)
+
+Zoom links are randomized and in the calendar. Removed the existing link.",2021-11-23 22:16:08+05:18,False
+11103ffb9c0396a9b7c097d4ceda773570ad5a83,"Add release cadence (#880)
+
+* add note about monthly cadence
+
+Update the release section of the readme to include the monthly cadence of releases.
+
+Fixes #457
+
+* add note about monthly cadence
+
+Update the release section of the readme to include the monthly cadence of releases.
+
+Fixes #457",2022-01-28 17:10:31-06:00,False
+1b7e8e44b259b060b755b8e68fc811df2ee78504,Moving owais to approver (#953),2022-03-10 15:10:12-08:00,False
+1bb3dcf3852dd31ffc1be6c4d7425b47c628e50c,"Update README.md (#1013)
+
+Co-authored-by: Leighton Chen <lechen@microsoft.com>",2022-03-21 11:04:33-07:00,False
+0fdc3c165671b865d1a48ba356db78f21932c881,[docs] update maintainers (#1045),2022-04-09 01:04:44+05:18,False
+2f7a666560343634577887e242629e432db9d587,"Add Ashutosh Goel and Sanket Mehta to approvers (#1062)
+
+* Add Ashutosh Goel and Sanket Mehta to approvers
+
+Fixes #1053
+Fixes #1054
+
+* Adding company name for ashu658
+
+* adding company name for sanketmehta28
+
+Co-authored-by: Ashutosh Goel <39601429+ashu658@users.noreply.github.com>
+Co-authored-by: sanket Mehta <sankmeht@cisco.com>",2022-04-20 10:11:18-06:00,False
+2eb86e06f93df218b21dcd28519d8c8f73c355cb,[chore] update approvers list (#1191),2022-07-12 00:35:11+05:18,False
+8107ad474b9170110a23ea0b44d1fd0692f13c99,Update README.md (#1257),2022-09-01 11:15:35-07:00,False
+fc738c04a629153ccec476b76ea9514ecb5a051f,Pin tox version (#1480),2022-12-08 16:39:48-06:00,False
+520e58d62a0bceb2e5ae21f29395e5758ec3409b,Update README.md (#1617),2023-02-03 03:46:25+00:00,False
+a6797541721af72e6feab400e24ceaabc08cb31e,Update maintainers list (#1817),2023-05-23 17:14:38-06:00,False

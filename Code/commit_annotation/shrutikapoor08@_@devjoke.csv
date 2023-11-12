@@ -1,0 +1,531 @@
+sha,message,date,result
+0788f02e29cdb79fae6d329037a46acae8071481,Initial commit,2019-03-14 21:58:42-07:00,FALSE
+268ed461f37b6ef796f9c777d233f0ba880f9d3e,Update README.md,2019-03-14 22:04:53-07:00,FALSE
+77db906d9afa278e101c3cf852bdb66cd967d277,Update README.md,2019-03-14 22:05:12-07:00,FALSE
+14648d49b16ba7b0e381b5905a9c29b60e5f6d02,Update README.md,2019-03-14 22:06:59-07:00,FALSE
+46a56aa9e03e4c2552e7c32920d610a800a5e1e7,"Revert ""Update README.md""
+
+This reverts commit 14648d49b16ba7b0e381b5905a9c29b60e5f6d02.",2019-03-16 12:53:55-07:00,FALSE
+bb8204291e5c195a7617f4b205f65d0d57c3984a,Update README.md,2019-03-17 16:23:17-07:00,FALSE
+d2e79bbfba89122e38936400c0642a56c599eead,Adding images,2019-03-18 10:55:56-07:00,FALSE
+a0ffe43d6af06e9fd5454026ac90c84c2e9505a6,adding more images,2019-03-18 11:02:52-07:00,FALSE
+7eba6db80f1057e47f8966f33aa8a0c856dda6f1,Added new joke,2019-03-19 11:39:19+05:18,FALSE
+adcda3f8f0be76c437abbe3fa2eaa2942fd22c6d,adding null,2019-03-22 15:58:12-07:00,FALSE
+45fea676ef49d03a32bad701596b14136e1d3fe9,Adding 💩,2019-05-28 17:23:35-07:00,FALSE
+6f7e46b687dc52a31104936d77a0b69a983c71c9,Update README.md,2019-05-31 17:16:28-07:00,FALSE
+7082efd90764bc158ee8b28015e2779707eb69a4,Adding devjokes from community,2019-06-17 23:13:49-07:00,FALSE
+4fb27df99fae42a474ce895d58534b5d652e39ea,engagement,2019-06-17 23:21:30-07:00,FALSE
+bfe6304c6c517111978b1dcdd67d7843f327f405,Grammar Nazi,2019-07-30 18:10:03-07:00,FALSE
+dfcca4ec3a0c1adb69f08f44b1511c8bd0603c7e,Adding a joke about docker,2019-09-03 01:30:22+06:00,FALSE
+e215f9595eb1a793ccbdfe3aee1bd79cfe4d3fb0,Added a joke about garbage collectors,2019-09-30 23:34:13+05:18,FALSE
+c752f7ffc21b5da437310b7f6e11ff6096ccf22d,Added a joke,2019-09-30 23:53:21+05:18,FALSE
+fd039d94d5c4de493607ed48827ee668d496b182,Added a new dev joke,2019-10-01 17:40:54+05:18,FALSE
+b76514edef08a072f33f9def2f1bc2652f7ab9b9,"SQL jokes welcome here?
+
+SQL joke wants to join this README 🥺",2019-10-01 20:46:03+08:00,FALSE
+3f2b861e5171e0e725c0d3979c38aceae443a24a,Update README.md,2019-10-01 21:21:17+08:00,FALSE
+994421898309fe0279bfb56357635f9a0b6c3aee,Add joke about VS and JSON,2019-10-01 17:12:54+03:00,FALSE
+6fe2b6fef5af31d6d3080fd17a5a3204f681cc2f,Adding UDP joke,2019-10-01 22:26:30+08:00,FALSE
+eea3afd5364de85a548cf675e5b56438c5bf0b74,adding a new udp joke,2019-10-01 22:28:22+08:00,FALSE
+7ba1e9cdfd6c929528d0a25a6ee7301470acb6b2,added JS Arrays joke,2019-10-01 21:42:19+05:18,FALSE
+596f54dd89a1eb7e25268ce980facf8b15b58061,added two dev jokes for debugger/ documentation,2019-10-01 22:01:21+05:18,FALSE
+3c05853b718eec634fc6bb61b6967095d97d07cd,Add new joke,2019-10-01 23:54:18+05:18,FALSE
+3f208fab703daadcc4cfe8783665a0f86fe9527b,Add new joke to README,2019-10-01 17:10:11-04:00,FALSE
+ef2d4216a08928fb6068a13f568e7178cbee70ca,SQL Joke,2019-10-01 22:37:04+01:00,FALSE
+749d4480237c52a7a53a3d18fa165cbd823db2c0,added java joke for hacktoberfest 2019!,2019-10-01 23:31:14+01:00,FALSE
+e5a450f13c64724270ecf1ba969e7f2492138967,added regular expression dev joke,2019-10-02 08:07:33+05:18,FALSE
+59580ada3d47396f62ca54ddeeb4edf63dc09671,:sparkles: add c# memes,2019-10-02 10:50:07+07:00,FALSE
+dd6c7eb24f12846ca624ec2a76d4c02faa736529,add be vs fe devjoke,2019-10-02 11:51:05+05:18,FALSE
+1dee24dd426856091a2a995928e2e11efc93177b,added link to devjoke image,2019-10-02 13:47:49+05:18,FALSE
+c2cb91dd79e8d6dda35d82c1d2d50002ffe0b590,Add windows joke,2019-10-02 12:26:03-04:00,FALSE
+7396471a963c7085ee1dfde470370c18b387958f,New joke,2019-10-03 12:45:02+05:18,FALSE
+93c2c6bcfc456c1c8791a734ce3285be2951a825,Update README.md,2019-10-03 17:39:18+07:00,FALSE
+689870cfac936c37b893e5f3e3b806bc6532680b,A QA engineer walks into a bar,2019-10-03 11:56:10-03:00,FALSE
+2c55078e0a94ef8bf8f84ac6bd3060ffaccb2e18,changes,2019-10-03 19:12:41+02:00,FALSE
+f3cd776eb07d7e939e98ae6813199b69ea9c318d,adding jokes about android java kotlin and index time,2019-10-04 01:05:51+07:00,FALSE
+48867c1b8c20fbba77c18ba52b3c2de3c68bc889,Update README.md,2019-10-04 12:17:13+13:00,FALSE
+13861787f5d47eb725fb7d661da197184a59e617,Update README.md,2019-10-04 12:18:35+13:00,FALSE
+d5a710b0726fa2c7a877ea19c1463cb65cae0637,Added a joke,2019-10-03 18:28:35-05:00,FALSE
+13afac00ef1125a85543138b818d5d8cfc611c34,"Update README.md
+
+first commit on github :)",2019-10-03 22:28:25-03:00,FALSE
+44b51ebcbc5c52aff6131d686371ac82d698db11,add security joke,2019-10-04 15:12:56+02:00,FALSE
+1c482c22159a767e002f38c87702b3108b07b1d9,add whileloop devjoke and debugging image,2019-10-04 15:28:27+02:00,FALSE
+55941db670032d31d91febe327381d3076a6f764,"add a joke
+
+What we all say to a repository",2019-10-05 12:53:51+05:18,FALSE
+a89cad940966b7dcbfe12b4cc3b37cd839ff497a,"Add programmer boyfriend joke
+
+He thought his gf is a function.",2019-10-05 13:26:17+05:18,FALSE
+09ffb035ef9b1fe2210bc24d89c9612c74585115,Added a image to README,2019-10-05 14:12:02+05:18,FALSE
+8d019134c33753963adac9b1a4ec259c52ecbec1,Add new joke about the new mac,2019-10-05 15:08:02+05:18,FALSE
+54a329c06b6cb25c0a448e5500e170f6d85f4420,Add async functionjoke,2019-10-05 15:31:43+05:18,FALSE
+467a5ac7bc925afd0a283d5388b0fb3efdee5f52,"add samsung Joke
+
+added joke on samsung.",2019-10-05 18:01:00+05:18,FALSE
+da028843975436eea4df0a64458773dc8a297ac7,Added a joke,2019-10-05 18:16:50+05:18,FALSE
+73554e9cb3e130af734eb4472d01839ae9639233,Update README.md,2019-10-05 19:28:47+05:18,FALSE
+9cc983176032f4756dd400708ee760eaaa034ca7,added a devJoke,2019-10-05 21:49:31+05:18,FALSE
+e7dc48b09dcac0fa5ef4441e683a9c5aa83a40ff,added a devJoke,2019-10-05 21:51:23+05:18,FALSE
+5c7411f12662b0b1e78b7e39f6d1c12d0dc61756,add error joke,2019-10-05 13:53:34-03:00,FALSE
+17ba724f30283a9cba7e3ef6593346b0375bf059,"add C - Pointers joke
+
+A joke about pointers in C",2019-10-05 22:50:54+05:18,FALSE
+42aa0797e445fa80e2b7e9a4806abd7ae8f561da,Adicionando uma piada genial ao repositorio,2019-10-05 16:00:11-03:00,FALSE
+964a0ed685d7bcc459631dbd9ad34ce0c87f4732,Desafio 4,2019-10-05 16:09:13-03:00,FALSE
+5dc20ddcd4ad1b97a2ac37898ef678fb495120b0,"Java Jokes Devs understand
+
+Just Dad Jokes nm.",2019-10-06 06:43:33+05:18,FALSE
+12416e50c9adca7bf2d87ec7f2e813056d4b97f2,"Added a devjoke related to javascript
+
+Added a new joke about javascript",2019-10-06 10:44:10+05:18,FALSE
+ffa320e332703550f8234a2d048338f1f2c08645,Added a joke,2019-10-06 10:52:16+05:18,FALSE
+a1acdf3dd7be7fc42802d2ecd761d948fe6410f1,"add programmer joke
+
+let me know if you accept it",2019-10-06 11:06:27+05:18,FALSE
+2f4e0998c2d2bbb59c23f64a8e3f1f7ec7582fad,Update README.md,2019-10-06 12:35:27+05:18,FALSE
+4ae00af726cc252ef909819e3446eba1d67d3bd5,Python: cat_invasion,2019-10-06 13:10:56+05:18,FALSE
+7ff84262da9491e71450d284d197c246b03b0411,"Added Inheritance Joke
+
+The Main Concept of OOPS.",2019-10-06 16:42:31+05:18,FALSE
+92e86726808522acb93174b9cec90f961b3ba6ce,"add system32 Joke
+
+let me know if u get it",2019-10-06 20:07:57+05:18,FALSE
+2f0bc1a658f680a6704a622376d14cabb5eb5877,"added a Python joke
+
+Python joke!:D",2019-10-07 06:41:00+03:18,FALSE
+d12ece1ce7006c36638713631fd51cd56acb28f3,"add Android joke
+
+Only the Core android devs might get this",2019-10-08 02:43:35+05:18,FALSE
+a56959c821b4c90c9cdb8a31567d43120c01159b,"Javascript joke!!!!!(Tried my best)
+
+Please let me know if you like!!!!",2019-10-08 10:47:51+05:18,FALSE
+6b015343264468aaaa5d445e54a71a46873d3b5c,"Added developer joke
+
+Let me know , how the joke was.",2019-10-08 23:46:51+05:18,FALSE
+bf53899c26f93860d92e5e49296eb1e0f88843c5,"joke added
+
+I added a developer joke",2019-10-08 23:53:56+05:18,FALSE
+0acf814d49375d5eaba4dab15826629297b7419c,"Added few developer joke
+
+I hope you like those jokes",2019-10-09 00:20:05+05:18,FALSE
+1753e21ff95446c8c55ef67f8f56e4f013b4c4ac,Update README.md,2019-10-08 23:11:32-03:00,FALSE
+7f5aa41e09086bc4cf9b54cc2957a1f4e5a30ff5,"add programmer joke 
+
+let me know if you get it",2019-10-09 16:23:17+05:18,FALSE
+ebc8aab7f0e461c8d95a24343b4a5f1d13f1db8b,Adding umbrella unit testing joke,2019-10-09 17:19:14+05:18,FALSE
+5f9c7a2c7bed087640086ebe309525d9fd587c0f,SE_Dev_JOke,2019-10-09 18:57:50+05:18,FALSE
+2e6a6067c6f9c65b5fa81907a85c36325b387597,"add a ""pro"" joke",2019-10-09 20:54:21+05:18,FALSE
+aadd4014c8163b7a3804d2d5d8740604bb379d2b,"Update README.md (#71)
+
+I'm learning open source and this is my first contribution.",2019-10-09 11:01:14-07:00,FALSE
+ba588da798c497cbe420e7d64bb580420332fa57,"Added a new dev joke (#110)
+
+* Added a dev joke
+
+* Update README.md",2019-10-09 11:04:40-07:00,FALSE
+882f8de363542378a16b971598118a54b329c620,"Update README.md (#111)
+
+adding a dev joke on algorithm .",2019-10-09 11:07:16-07:00,FALSE
+7460a5304e540f47e03ab98863e68c34b5ce380d,"Update README.md (#114)
+
+Nuke em modules after every git pull",2019-10-09 11:10:06-07:00,FALSE
+89c5b459db8a186eebc4b2002d2e9656cfa196af,Update README.md (#116),2019-10-09 11:12:48-07:00,FALSE
+11075a31877f2ab561c3a36fa09e9d81709bbb8d,add debug joke (#117),2019-10-09 11:14:32-07:00,FALSE
+2598da79c3bacc4dee3c64a0a0243a5f262c9b27,add dev joke (#118),2019-10-09 11:16:13-07:00,FALSE
+c6634eaa9b7fed03d24cd4c39ba9f8eeb64aa09b,"Add file new_hell.jpg (#87)
+
+* Add file new_hell.jpg
+
+* Add reference of new_hell in README",2019-10-09 11:37:02-07:00,FALSE
+1e6695029541b96a941dc14f52c6c250e63b6675,"Add programmer joke (#120)
+
+Difficult to Understand the concept behind hacking in TV shows.",2019-10-09 11:39:10-07:00,FALSE
+ffdea47a7d1d346a70d752f254fee899426e1a1f,added a new programmer joke (#123),2019-10-09 11:41:18-07:00,FALSE
+1ec3ed5989bf297b8f4256474c5535be31dc4c0b,"let this joke 'sink' in (#133)
+
+* titanic joke - image added
+
+* added titanic css joke",2019-10-09 11:42:45-07:00,FALSE
+5630773e34a4ab355aa70c07916db662f24acdbb,Adding React joke (#148),2019-10-09 11:43:26-07:00,FALSE
+eef9b6c3f4cd090850be7fd6f8de1180a3ae59ba,"add a RegEx joke. (#128)
+
+Let me know if you like it!",2019-10-09 11:47:16-07:00,FALSE
+dfabc331df877495e6f31d81cafea63a5cb462ed,"Added wifi joke (#129)
+
+* Added Wifi Joke",2019-10-09 11:48:21-07:00,FALSE
+538a042b79a29c46fa91bae28da6bb2957d030ea,"add programming joke (#130)
+
+He is hardcore programmer",2019-10-09 11:50:21-07:00,FALSE
+2caa4ecf0351899015df740a523374c6c79dd3d7,joke added (#134),2019-10-09 12:00:10-07:00,FALSE
+d094463705692941c4145f2284d2c7672ed300d7,"Add super computer joke (#127)
+
+let me know if you get the joke",2019-10-09 12:01:28-07:00,FALSE
+1e636da8046865d3e08c4cfe8464d4d976b7a746,"error 404 NOT FOUND (#150)
+
+still trying to fix the problem",2019-10-09 12:02:53-07:00,FALSE
+bc83df90e9610365a19bf26ce3d0aad1d0465bde,adding a programmer wife joke (#144),2019-10-09 12:06:02-07:00,FALSE
+8edf47d5f69408be0b8083c2f171ff070e98c5b7,"It's Me Everytime On codechef!!!!! (#146)
+
+let me know if you relate!",2019-10-09 12:07:15-07:00,FALSE
+88b70e567329d0448f43e898171e2444ba2a5c30,Added a frustrated programmer joke (#147),2019-10-09 12:09:04-07:00,FALSE
+1e5cb1338dd645ce8b04d78db9366c0ada8c1085,A little joke for Java devs (#142),2019-10-09 12:13:41-07:00,FALSE
+4283929772c29c2f56997fe4309a9f725290949c,"programmers joke (#151)
+
+It require high coding knowledge as well as memes too.",2019-10-09 12:16:00-07:00,FALSE
+d6076598806ef43f90f47afd9b61fa4e34bc5968,"Isn't it the best one ? (#152)
+
+Almost every programmers go through this ..!",2019-10-09 12:20:18-07:00,FALSE
+8d0ebd373fa89923371260fe0b3b97336be2a680,add-devjoke,2019-10-10 00:43:45+05:18,FALSE
+b5d1ec4f78a4d2bd1cf79900772aa46d8c6ff5a3,add-devjoke,2019-10-10 01:08:41+05:18,FALSE
+cc302a5cd923f198d8e963fa1b57055586d4d403,Added new joke,2019-10-10 17:25:54+05:18,FALSE
+e654395b591e90d573d2db500e3a56ad89f39c1e,done changes(move to top of images),2019-10-10 23:09:58+05:18,FALSE
+ab384862c03de9415f0812c41296bb4bc6b4d6c5,Add land-hover joke image,2019-10-10 15:08:21-03:00,FALSE
+f59e3bbe2448c7dc46911c99c67d6143d18ff1e1,Adding intkam joke,2019-10-12 12:20:47+05:18,FALSE
+1a86388e73d038d21c55706abdc78bdb58ddd459,added joke,2019-10-12 13:53:07+05:18,FALSE
+005bd2f6dfc4fea06e495609e1721d509d4a92f9,"Add a dev joke.
+
+Hope its new and you will add it. my first pr :)",2019-10-12 22:04:39+05:18,FALSE
+d42496d0428c3bc68c0bff14f749bbef73189557,Added joke,2019-10-13 00:50:15+05:18,FALSE
+744ca9bb4735913a7fef05d011fd1169e31e8303,Update README.md,2019-10-13 10:54:24+05:18,FALSE
+06dc426192b16d234e4755e9650712a454ac8e5d,"trust me still working to decide what should I do
+
+let me know you like it or not (Dad and Kid)",2019-10-13 11:37:31+05:18,FALSE
+8fb8e7d8715b4227466a85909e86f512a83af0fb,Added semicolon joke image,2019-10-13 14:47:10+02:00,FALSE
+0caf959943fa21d3cb090660b316a6e8a7fea1a2,"add SQL joke
+
+let me know if you get the joke!",2019-10-13 23:53:41+05:18,FALSE
+e36be527f755c5a010b76f56b96e1f2d439a6ab6,my contribution,2019-10-14 02:52:59+05:18,FALSE
+e60ecbcbf086100ab4a192a7c2d88b7ce4787368,Update README.md,2019-10-14 08:51:45+07:00,FALSE
+2c88d9db75339fdf57519d2bf88096428b99d39e,"added bug joke 
+
+have you created a feature ever?",2019-10-14 09:07:30+05:18,FALSE
+3140fd8a5b3d648bd767371ce2f94a880b9cf927,just a github thing,2019-10-14 20:23:21+05:18,FALSE
+a300da06a247e64093bdf8e5e96b2984f04de457,dog loves coding,2019-10-14 20:36:26+05:18,FALSE
+cc4912a794ee66079f9fc9c6a863103c77444855,Co(ffee)de,2019-10-14 20:40:57+05:18,FALSE
+f9e02ad008b597d937c3d00429920ccd355b764b,add better than sex joke,2019-10-14 17:14:53-03:00,FALSE
+6106d799ee15a5a4b6fb5e41ce59ddd736e01a54,"Add PHP joke
+
+PS: PHP is a good language.",2019-10-15 01:41:02+05:18,FALSE
+fbc36c93975a25b91f99d79def1916d787c20830,Add doctors joke image,2019-10-14 21:25:16+01:00,FALSE
+c7d082b642ca7f7f2f0713acea8bb3346983686e,"add jokes
+
+Earlier there was a conflicting files",2019-10-15 13:38:23+05:18,FALSE
+b37c38fa6b2027e563272869b2e7fb85d1951854,"added a joke to README.md file
+
+added  at line number 549",2019-10-15 18:05:05+05:18,FALSE
+997a46c17be3b422ecbccdc66504ac493a34edee,"add a joke
+
+it is funny.",2019-10-15 18:12:27+05:18,FALSE
+a24da46dcd3f42a8b9fcef1e8fd7f6ede2b0d878,"add a real definition of programmer
+
+i hope u get it!",2019-10-15 18:19:36+05:18,FALSE
+8746145250f86f76d2946417158fa2271a5b87c2,"Programmers Joke
+
+Let me know if you get it.",2019-10-15 18:50:23+05:18,FALSE
+8d5a6c2a3fe2bc0be6c5e7d52e007f7923474e5d,Added Joke,2019-10-15 14:40:51+01:00,FALSE
+a0998ce35f885bec76881dd0ac7eb810e8788295,added joke,2019-10-16 00:25:25-04:00,FALSE
+7d6fc0dfa0db8d7968c453d1d1c063c2dcf64e62,Update README.md,2019-10-16 10:51:50+02:00,FALSE
+632e86c468e1b0df07fa9c17522beeb8833d2562,"Update Readme.md
+
+I correct it.",2019-10-16 15:06:14+05:18,FALSE
+679a4e52c043678b49b54b4e467f507923c3eb90,"Added 11 DevJokes
+
+Just kidding, was just testing your basics!",2019-10-17 08:51:44+05:18,FALSE
+baea67800e4d7851dc681d98f336b4b00d5a22bc,"add-feat-joke
+
+added a dev joke",2019-10-17 19:37:04+05:18,FALSE
+8a50688e2754da81eba363d515f2d143b30b23d1,"Add Stackoverflow joke
+
+Funny computer joke",2019-10-19 17:32:01+05:18,FALSE
+99445dab9b98561de40bdb4c913f456f14c03b10,Update readme,2019-10-19 11:01:19-03:00,FALSE
+0ee94983b2b9aeb34c01988591755dd1b9a05f58,add programmer joke,2019-10-20 15:01:18+05:18,FALSE
+fd2a18e1a8b93d6dd08bab880e9ab50f351bde89,Add: sql-join joke,2019-10-20 22:27:22+07:00,FALSE
+44a7d76be614bb9cc0e7f8a80367263e40ac176f,added a joke,2019-10-22 15:18:01+05:18,FALSE
+5ad3366503f6835eda6057295985cf9fb7696020,added android studio joke,2019-10-22 16:07:30+05:18,FALSE
+60fe5de749d4925e62c39143a317d59e0fffb650,"added a joke
+
+added a joke about algorithms",2019-10-22 16:27:55+05:18,FALSE
+c6e3acf9d01eb32e93bddd45d50cebe55f16214b,Update README.md,2019-10-22 15:35:33-04:00,FALSE
+88c9ec54ed0d86a9f7faf8e272ac9d56c4255cea,added a devJoke about angular,2019-10-23 12:24:15+05:18,FALSE
+ac0eff6e0269b651e8741aa712278451360a2e4e,New joke added,2019-10-24 10:48:53-03:00,FALSE
+155ab5ee1214917ed97caa3033e69f531008aa9c,"feat-add-devjoke
+
+Added a new joke",2019-10-24 21:41:35+05:18,FALSE
+2edfc7864b6f0c52bba50d4973aacc1949fd1399,bad pickup line for programmer added,2019-10-25 06:54:17-05:00,FALSE
+352c73485020e00131de7ce044429458a9d1de14,"add-feat-joke
+
+added a binary joke on programmers",2019-10-26 01:17:10+05:18,FALSE
+275527f1042297a1a3e7f7e3a7280fec2ff9e2cf,Update README.md,2019-10-26 17:30:54+03:00,FALSE
+17a3a5abfa96b2cc06db076847284755363bbc69,"add a joke
+
+Something funny to read with your coffee",2019-10-27 15:06:04+05:18,FALSE
+b41dd710a0e30256cd6e4cb61f24e53f6ff5a91d,Update README.md,2019-10-27 16:36:33+05:18,FALSE
+c6ac4e0cc1fd68702ff9b460c4b3f472b5d9d29a,add new html5 joke,2019-10-28 03:47:44-04:00,FALSE
+d009673ec3f931ed75ff8f98e8f3ee35511734d6,Update README.md,2019-10-28 22:04:59+08:00,FALSE
+40a79bd89347dde986009b8c306934a810b8b984,"Update README.md
+
+Added a UI joke",2019-10-30 01:22:29+05:18,FALSE
+003e16aa1002ffe53c55e343497242deeda09569,"Added a binary joke.
+
+There are only 10 kinds of people in this world: those who know binary and those who don’t.",2019-10-30 03:23:25+05:18,FALSE
+c4cd693cc57d321cd3ee23ab38fbb1a847d6cb4e,"Add a joke!
+
+A programmer puts two glasses on his bedside table before going to sleep. A full one, in case he gets thirsty, and an empty one, in case he doesn’t.",2019-10-30 03:28:34+05:18,FALSE
+efbc5810888eb6f69ad17ee059840c0c2a9bd667,added a joke on objects and classes-oop,2019-10-30 09:45:03+08:00,FALSE
+41c559d47f442283292f9de0b49e96e1f7096211,Added image to README,2019-10-29 23:18:40-04:00,FALSE
+223f340de3ed4f8bc003776c09912806eafddaff,Add joke to readme,2019-10-31 00:18:59-07:00,FALSE
+ca728649cd3e13df60333ac4c970552c8c612c36,Add joke for Unix admins,2019-10-31 16:18:00+01:00,FALSE
+b7424091d4d53e28759eb087ca8ec866475a4e5f,fixup! Add joke for Unix admins,2019-10-31 16:22:33+01:00,FALSE
+943df6f338623feff8c878609d477812f2d38ebf,"hotfix
+
+keep applying hotfix",2019-10-31 21:01:53+05:18,FALSE
+f82006fdb0a71054fe85421637fc34d5ebccdaa1,Update README.md with Chuck Norris jokes,2019-10-31 15:21:56-07:00,FALSE
+2d1b6ba58f84d51d14153f24da19bd1922a28813,"Updated with a new text joke
+
+A tee-totalling programmer attends the office Christmas party. He asks for null wine.",2019-10-31 23:18:02-06:00,FALSE
+0b35f74feac2a6a66e980d19168b992a802041e9,Image added to README.md,2019-11-14 15:07:22+05:18,FALSE
+a0c1a763c5c36119d7930d8cc63fb48d64269f20,add sodium joke,2019-11-30 16:19:27+05:18,FALSE
+08a284a6c8cddcb5efc7253962ad200ace6cf3b9,Add HTTP timeout joke,2019-12-07 22:40:20+08:00,FALSE
+64e39fdcb9714d0cb38c2d1735ec9ff3678042b3,Best way to save your codebase,2019-12-13 11:03:36+05:00,FALSE
+6a05e505ce0cd9f0def35af67d4187b0209b8636,Update README.md,2020-01-01 12:11:18-08:00,FALSE
+5cc962ecfcda86cc33c2248f4eae44c1b48185c7,Fix typo,2020-01-01 12:14:04-08:00,FALSE
+f323ceb8cd36a8aeefc64015bda627f58c42683d,Update README.md,2020-01-03 18:13:04-08:00,FALSE
+bb26b719d02a40f6feab4a2ea4c04eb8acf27671,Add jokes,2020-01-05 10:24:43-08:00,FALSE
+b2e5ad9be52a1cca140abb10d8f100cb70e6ec9e,Fix typo,2020-01-05 10:26:05-08:00,FALSE
+38d79543a6bd89f9a30b2f94c757b06e5e706031,Best friends,2020-01-12 23:19:18+01:00,FALSE
+fe04392c6b1123998d85d88a5b4402aa772c50e9,Cleanup,2020-01-24 16:24:31-08:00,FALSE
+aa45edb2b768cbe07b092ceab9e74fd1abc275a6,cleanup,2020-01-24 16:27:11-08:00,FALSE
+a0e15f38c2d7d0153174b2fb71d6c4a52dafff73,DevJoke about node_modules,2020-01-26 23:03:31+05:18,FALSE
+f109ba4646da8264e9c5d90e9ce3fe06a4e4414f,reverted to it's original version,2020-01-27 17:09:36+05:18,FALSE
+11aace02bcaed0d32aa91dd7314a4bba33900a6c,"Roast FrontEnd Devs
+
+Roast FrontEnd Devs",2020-02-14 11:05:58+11:00,FALSE
+77484a92072f2ad7929ccf3ce41a00fb7a48b075,json joke,2020-02-20 16:34:50-08:00,FALSE
+b74f5a9ea5d8a21b80777353151d538540b73f59,Update README.md,2020-02-23 22:28:16+05:18,FALSE
+06801ea1a8845bd77ac535d5db370f58c53510f1,Update README.md,2020-02-23 22:29:45+05:18,FALSE
+e425a16dd6adb01592d92a0ef5d9373b03a88477,"Added a DevJoke
+
+Added a DevJoke to this file",2020-02-27 19:38:41+05:18,FALSE
+1c819f6e95e1b37faa4eb1c91c25d3f927226fe2,merge conflicts,2020-02-28 00:08:01-05:00,FALSE
+78d5cf93ae94038c37f3a53c7decc8c665126161,"added devjoke
+
+added an image frontend before backend.jpg",2020-02-29 10:20:39+05:18,FALSE
+78f632e127ba9e32dbab2758c88ff8c911e7e4f1,Update README.md,2020-02-29 10:22:24+05:18,FALSE
+49b9d35980b90d33511d09499aea543d94bdd0a2,debug readme,2020-02-29 10:24:16+05:18,FALSE
+37953a6b95b261bf3ff19d6816be3cc453ed6c32,debug readme,2020-02-29 10:26:07+05:18,FALSE
+ebb9fdea1cdd6e3e60bd0f76e1895a58e51b29f1,added image of joke,2020-03-04 12:23:34+05:18,FALSE
+b56a4e03e0d7b2c55586f17cdfba36e54e466481,Added a joke on parameter passing!,2020-03-14 13:13:03+05:18,FALSE
+ab5caee30dbf3bef22c0527fede267f9e83230dc,"Github Joke which says
+-If Github hosts everyone's source code, where is the Github source code?",2020-04-05 13:59:13+05:18,FALSE
+57e2d2009952d3c97fbb3dbfd3fed8612e0aef0b,"add python and c joke
+
+let me know if you don't it :>)",2020-05-09 03:54:53+05:18,FALSE
+827e7835d19630ef2cdf67c0f1021191bb6279f6,add 'pass by reference' or 'pass by value' devJoke,2020-05-12 21:40:03+05:18,FALSE
+08dc5b179d0d82fa541c46eef5fc4e9987633579,"change devJoke position
+
+Since it is a text-only devJoke, therefore moved it to top.",2020-05-12 21:59:11+05:18,FALSE
+e184c7b595160930b1c49e5eba674e8c16548a8b,Update README.md,2020-05-17 21:40:15-07:00,FALSE
+65a4c73b0a13154e124c5addecaa781cfa455c53,gitignore joke added,2020-05-19 07:13:19+05:00,FALSE
+729b93bed2e23cbd97265d7620f30c54104b7341,"Updated Jokes
+
+react jokes with good to be continue",2020-06-11 10:22:49+05:18,FALSE
+fc795c1b680c2b795a15eb2a42d7fcef7b38a759,"Removing a repeated joke
+
+> A programmer puts two glasses on his bedside table before going to sleep. A full one, in case he gets thirsty, and an empty one, in case he doesn’t.
+Same joke on line number `66` also",2020-07-15 11:54:25+05:18,FALSE
+0fe9ee31c3cbe50dc832fab47c654d03935eced3,Add restful API joke,2020-07-21 17:02:06+07:00,FALSE
+4737336c4ae8e1168dd397a6d91dc167322d3a4d,add a dev joke,2020-08-12 16:43:10+01:00,FALSE
+539a95c76ff4f64dc310de095bdd1e2934943da9,"Update README.md
+
+adding the devjoke from tweet from hasura :) 
+https://twitter.com/HasuraHQ/status/1294153517746155521?s=20",2020-08-14 20:29:43+05:18,FALSE
+e7fbe78fb52ee9c0baefc04ea895d965acde1388,"Added a devjoke on line 263
+
+Second joke to make it into the Devjoke Hall of Fame!",2020-08-15 18:03:24+05:18,FALSE
+19daeebd6ce78e49fb43b484100485de0ea480ec,removed the duplicates,2020-09-03 14:38:43+05:18,FALSE
+51179e7a8821c2da57fb751fc9fe60397c828af6,removed another duplicate,2020-09-07 00:24:02+05:18,FALSE
+183e7bcf0ccd053aa73f173b064e5821fd253a74,Update README.md,2020-09-17 09:49:09-07:00,FALSE
+e8e345a7c3d1f3ef653ad3d704bd7a43317a8346,"Added a markov chain joke
+
+Title says it all :)",2020-09-18 18:32:39+05:18,FALSE
+82bc59635fb88fbdbed0d208c1ab16061cf62dbd,A new joke has been deployed,2020-09-21 23:41:22+02:00,FALSE
+d354054ad75ab9f1511979a0218faee268ef8727,"Update README.md
+
+Added another beautiful joke.",2020-09-30 23:52:58+05:18,FALSE
+93a08e9cf15a337a1c0663b5fe1cf791dfccc104,"Update README.md
+
+A joke on C++.",2020-09-30 23:55:59+05:18,FALSE
+3b674a40c0708bfd3b52dd8d556dbc4dd9cf196b,Update README.md,2020-09-30 23:58:11+05:18,FALSE
+9207958f384d502166cf5e1fd4ba38a0403c2b38,Update README.md,2020-10-01 00:03:00+05:18,FALSE
+ef6761718148886a836e45999967cd5ad98ab8df,"Revert ""Update README.md""
+
+This reverts commit 9207958f384d502166cf5e1fd4ba38a0403c2b38.",2020-10-01 00:03:16+05:18,FALSE
+7c4518eda16f2f7451cc56bc23a3e4b4bc5e5aff,Update README.md,2020-10-01 00:03:45+05:18,FALSE
+e0904c61a79707b4e8f5fdcaceb9dcb76aca7f61,"Revert ""Update README.md""
+
+This reverts commit 3b674a40c0708bfd3b52dd8d556dbc4dd9cf196b.",2020-10-01 00:03:53+05:18,FALSE
+50eeb61ee751453fb55bead75b86e0937d040e6b,Update README.md,2020-10-01 00:08:48+05:18,FALSE
+fc8e1c7796c6c2f3f5afa3e4157bc537fe7065b3,Update README.md,2020-10-01 00:14:36+05:18,FALSE
+440530588770dd9f05eb54ff07e3e34c8a9c6a75,Update README.md,2020-10-01 00:17:56+05:18,FALSE
+dc9d23ff0016ff8f4d0815d346f85a42ac67e98e,added java joke,2020-10-01 00:29:09+05:18,FALSE
+f5faffca7c8be342c754f0713d4fa6ceba00a12e,Update README.md,2020-10-01 00:32:46+05:18,FALSE
+7c3527b5e87492bbe78b323946eb877202a6941d,Add joke about recursion,2020-09-30 19:15:52-07:00,FALSE
+3476d9c9bedff7ed99e1043bfa470ba80eddde6f,"add-joke
+
+What would you call a web developer who enjoys finding bugs?
+Answer: spider",2020-10-01 12:46:14+05:18,FALSE
+cc05d958e32d87ff2fe0c554872e82272ffb33d0,Add an image joke,2020-10-01 17:54:21+10:00,FALSE
+8255aac35bde0178c662270a09a6d0b49e52b8e3,Added a new joke,2020-10-01 13:30:38+05:18,FALSE
+7981a782be5c327307f33f4e8b3ed8ae12b435a9,Update Readme.md,2020-10-01 17:31:07+05:18,FALSE
+a942213e1b0e8b9e29830686ae43d43a67e13722,added a dev joke,2020-10-01 18:26:25+05:18,FALSE
+c3db8995ffa5825845552f69d6a30137caf123f2,Update README.md,2020-10-01 18:40:19+05:18,FALSE
+e6ba5f1850eb1cd15a4fb615b0b341ed86776142,Update README.md,2020-10-01 23:51:42+10:00,FALSE
+303abf7865ff52b04bf7aa35c4922182b595b796,Added lame C joke,2020-10-01 20:03:14+05:18,FALSE
+2ab2dd98b2593d001d1525ef9e1ae91f1c0d0526,Adds new js dev joke,2020-10-01 20:11:59+05:18,FALSE
+282b0c568f8443021f18b3066b18bd4c96f47635,Added about Linux being better than Windows ;),2020-10-01 21:15:51+02:00,FALSE
+5ff7f2779f17fae95aebe9a426cdd5bb2fd04f7d,Updated README.md,2020-10-02 01:55:28+05:18,FALSE
+55d8b40b029a40be810775e7b19080f3e6ee6761,Updating the readme.md with the meme image,2020-10-02 02:05:08+05:18,FALSE
+96d0aeafcbcde7e1c60c682636b26b2de7e68100,Organizing text + image jokes,2020-10-01 13:49:24-07:00,FALSE
+3e8c924a46726d41b87eb183e12815a760e2bf68,"Removed bad jokes, and organized jokes",2020-10-01 13:59:04-07:00,FALSE
+9120ec728c575a412b083b0d30cd23f5cbfe77e6,Update README.md,2020-10-02 03:57:38+05:18,FALSE
+bd956a81fc57fc81b05eb4bc154890843095223b,Logician's wife joke - is it a boy or a girl?,2020-10-01 19:03:30-07:00,FALSE
+0fab044e1e4c65f4cc90531bd84f366cca3247b4,added a new one,2020-10-02 10:25:14+05:18,FALSE
+a8a09f33cf92b38ed2d164fc87d965e3a4134227,Update README.md,2020-10-02 18:20:51+05:18,FALSE
+dd673aad410603cfa7e7fff532caa6c96058d855,Update README.md,2020-10-02 20:38:16+05:18,FALSE
+65ebe6b0d02b3baf4ae085864477bbcc3047dfe4,New joke about VIM!,2020-10-02 11:59:10-04:00,FALSE
+ca47dc776f26cd2d1764917df79ef26b5c432855,Added a joke about production and testing,2020-10-02 22:00:14+05:18,FALSE
+c8863952551bf88db85f81f42368ace984bf5a9d,"Update README.md
+
+Added a Dev Joke",2020-10-03 00:28:10+05:18,FALSE
+2abec418503919763a0b8180e9fba848a96ddee1,Update README.md,2020-10-03 01:12:57+05:18,FALSE
+6c17c7058b4cb004224922f7e27de87d3c808636,Update README.md,2020-10-03 01:15:59+05:18,FALSE
+f4349891b9ebdbd066ea9afddf4020e0b9a08de7,Update README.md,2020-10-03 01:45:35+03:00,FALSE
+78d958df2cadcd2d0361d52f1776be23376cfe47,Update README.md,2020-10-03 01:52:45+03:00,FALSE
+200099c7894dc030d8a9639edcf69e6198f49242,Update README.md,2020-10-03 01:53:19+03:00,FALSE
+9575a96b2102d91c657e632c0933556d75541d6d,Added Content to README.md,2020-10-03 11:12:16+05:18,FALSE
+c5846da7f98b213bce847eb9afd028c158ee2ed1,added a data science joke,2020-10-03 13:11:39+05:18,FALSE
+68c12328a7927d4c596dea7d12f93f4a00be3bc9,added the IP joke,2020-10-03 16:37:54+05:18,FALSE
+ac6ba511b337e8b7826d170e02b4a9231384e531,Added new Dev joke,2020-10-04 02:14:05+05:18,FALSE
+607178ab2f030b4034ac4e38b386bbae277c83d2,Updated DevJoke,2020-10-04 02:14:37+05:18,FALSE
+e9b62428c5e9c27a941de3d70b1f5e4019c12900,Updated DevJoke,2020-10-04 02:17:06+05:18,FALSE
+90b89a9be19764899ef045055685ec0a061a998f,Updated DevJoke,2020-10-04 02:22:03+05:18,FALSE
+a12cd073390e0b38ef9068a0b6c7a358ef49e923,Update README.md,2020-10-04 02:34:28+05:18,FALSE
+4838dcdb141572111ad3604247b527910d3476f9,"Added a new joke, my last one was duplicated",2020-10-03 18:19:45-03:00,FALSE
+f7b63d9d94f364356f149c23b1f2a9a3a355951e,added joke,2020-10-03 23:50:22+02:00,FALSE
+1c8e47010207c31306e9682e57b788ddfcd26263,adding new text joke,2020-10-03 19:37:35-04:00,FALSE
+fb867b8a9461953ed9faa24bda6a02d40c451549,"1 new joke
+
+sorry not sorry",2020-10-04 00:18:01-04:00,FALSE
+32a221ae31611ff29b941ea58b85daf1600e00bc,"Update README.md
+
+MergeMyRequest",2020-10-04 11:08:19+05:18,FALSE
+f8026f6c36661a4de4dae21838ff91aefa402ffe,Update README.md,2020-10-04 14:35:53+05:18,FALSE
+a7bbbe51d7ce6ab5755c127af9e83787a9fa88ad,"Adding new Coding Meme
+
+a simple dev community meme",2020-10-04 19:10:12+05:18,FALSE
+4078ecfcffba9113d9dad62beff2671d456cf45c,added a new joke,2020-10-04 23:20:57+01:00,FALSE
+84fe2c278785c22be122dc6d20020fc117efa58c,Update README.md,2020-10-05 12:25:53+05:18,FALSE
+6df25283724c673c4fbe46c3766a31a91518cd7b,Update README.md,2020-10-05 12:36:59+03:00,FALSE
+44e636645b7e12f65a808083dcb08370808617cb,added another joke,2020-10-05 08:55:10-05:00,FALSE
+9e098f1cc395b262e3c3bfec50f3c79bb52d7882,added a joke,2020-10-05 19:50:51+05:18,FALSE
+abb00950327034522f8396cb05a06f8b56a82bd7,Added couple of jokes,2020-10-05 19:51:03+05:18,FALSE
+3759972154f1bc924caded1addd4b9a8926a9c81,Added a joke,2020-10-06 00:05:46+05:18,FALSE
+33e7ebb7cdf768de9a6c56f44fed8768ec9e03bd,"Update README.md
+
+Added a joke",2020-10-05 20:03:05+01:00,FALSE
+1d5965f2a2700091809aeb3b0000e1839d53a648,"Update README.md
+
+Added JavaScript Joke",2020-10-06 22:00:34+05:18,FALSE
+f4de04029f73974ffacd61a02a5bea943c7dc8e4,"Update README.md
+
+Added a new joke",2020-10-07 09:42:09+05:18,FALSE
+a500291e8716537f3c737de9445fd737662e354c,Added New Jokes,2020-10-07 18:19:05+05:18,FALSE
+293548dc0ae317c8740d4a6caf2ebe9149630833,Added a few jokes to Readme.md,2020-10-08 22:19:25+05:18,FALSE
+94d31939158f49935777327a08ae80bb29f08af9,"Update README.md
+
+I have made the changes.",2020-10-09 00:26:07+05:18,FALSE
+f5944301bfc022bec6794cc2e83c711b3ac01ad2,Update README.md,2020-10-09 16:02:47+05:18,FALSE
+9aa46cf25ce0f3f50a5023358652d9df83af42da,Update README.md,2020-10-10 19:32:23-07:00,FALSE
+8f453b90ff637af971069f7126a288a262dcbf65,Update README.md,2020-10-11 21:16:27+05:18,FALSE
+e2ecc0159b099edd807d4eba33364df0d32a8880,add new dev joke,2020-10-11 22:28:28-04:00,FALSE
+1d954b121f6e9c27dad5710950c74760fffc0e71,Remove duplicate images,2020-10-12 15:08:43+03:00,FALSE
+b1c58a38a47248b7b07b335b5cea08a7265c7e49,Remove duplicate joke with image,2020-10-12 15:11:53+03:00,FALSE
+6bafa9bdbbfcc848d6026b47348303312f1d7141,new TCP joke added,2020-10-12 12:33:29-03:00,FALSE
+705242044bc7bcf96d3323f7bfdd965b550579ba,Added a Hacktober Meme,2020-10-13 15:21:01+05:18,FALSE
+b42ec4e0c69bef7f1a2b1f6658f2d07ee020a5c5,Update README.md,2020-10-13 15:33:31+05:18,FALSE
+2005d2eeeeca7403fbf1575b9344c96afb22e479,Update README.md,2020-10-13 15:37:52+05:18,FALSE
+62b013cd19471a11159ca330e8a082dedce7ba64,Update README.md,2020-10-13 15:46:20+05:18,FALSE
+3fefea6645f31d8f701bc98a85b52fba7235f62a,Added to readme,2020-10-13 22:35:03+05:18,FALSE
+3a82e5a099a55f39a8b8a8383524a082512df402,Update README.md,2020-10-14 00:05:53+03:00,FALSE
+4a72841c4b220ca01f5377292d23d62aa3de163b,Update README.md,2020-10-14 09:25:01+05:18,FALSE
+b3c805a52dcb878df860d256d0086b790947184a,adding confidence joke,2020-10-14 13:45:21+05:18,FALSE
+d6ff680386ddb1a2b0599e1cf681f2d6d9d52b55,Added DevJoke,2020-10-14 18:58:08-04:00,FALSE
+926f6af1a63c024ea6c806877250ee4a4ee44a56,Adding joke,2020-10-14 23:14:31-07:00,FALSE
+f62b30f6da7370ab7eef11490869977aad1d62eb,add dev joke,2020-10-15 18:45:47+05:18,FALSE
+1f37597123b7edc914f9e2ff6f1441fac110ed2c,Update README.md,2020-10-15 11:47:02-07:00,FALSE
+daa2ea0c960795a403937f63855a595a1230671e,Update README.md,2020-10-15 17:57:11-03:00,FALSE
+b6cabc2bec971e91785eb41b0733fec1af10ccbf,add nodejs joke,2020-10-16 12:02:17+05:27,FALSE
+106d537020c80e8fec7aea8eb945e85aac63c228,Update README.md,2020-10-16 14:24:36+02:00,FALSE
+c8d6adfe01930904479ea59440076663f00d520b,Update README.md,2020-10-16 15:11:29-04:00,FALSE
+2c7e9d197c195da3a03d27c6457f956dd87df491,Update README.md,2020-10-16 15:14:12-04:00,FALSE
+bf599ff73ef44e0243c58449e452001289da1c49,add joke,2020-10-17 15:18:44+05:18,FALSE
+8b1bdc1cea9aff715fe87fa258bac5c240c52f7b,add joke,2020-10-17 15:24:30+05:18,FALSE
+ff32350ca2f3e1cf16b49ef79a3963582ea58788,Adding startup dev joke.,2020-10-17 15:17:24+05:00,FALSE
+1006d8a188ac96110617045c05055dfd2961712c,funny image added,2020-10-17 12:37:12+02:00,FALSE
+58ef6b2a981b7b33f40d64481c3878ce65924ed8,new joke,2020-10-17 16:42:46+05:18,FALSE
+a447ac00769ca27400e72a29457595de229ec800,added new devjoke,2020-10-17 18:57:14+05:18,FALSE
+8ee358fa7212f4f8cfa9fa50089fca7e59ab9082,Update README.md,2020-10-17 22:12:58+05:18,FALSE
+e0c7931c8ae0e0fb32ca0f566f2ff070ebf30365,Update README.md,2020-10-17 22:13:39+05:18,FALSE
+a6977d7420ead9b82f58310cf7cba1c2a2d9498b,added new joke,2020-10-18 02:16:55+02:00,FALSE
+c48549891ad9660a1072d258d4aa205d9bfa0302,Fixed an error in readme..,2020-10-18 12:01:28+02:00,FALSE
+7c033bd513e111eb209f830a05b81a96fb4f5c98,Added Hello word joke,2020-10-18 18:21:44+05:18,FALSE
+07c5b3752bcb7a4170e0ca8c9b41dae3cdcd22ea,"Update README.md
+
+new joke",2020-10-18 19:50:06+03:00,FALSE
+c937aef0c3efdb19c404c2575f249b8208add4f8,little bobby tables joke addded,2020-10-19 19:44:46+02:00,FALSE
+8459afb67d62c7699cefb19d350842c25248397c,Update images to README.md,2020-10-19 23:06:16+04:00,FALSE
+78e507a51442df2930aececfd6a3a04de076a68c,Son and Dad conversation DevJoke added,2020-10-20 01:54:35+05:18,FALSE
+b1444f27f84d3b49047aad87f63a0a77b794d0e7,Add python joke !,2020-10-20 02:16:17+05:18,FALSE
+e277ec507d272abb61c4d165d09703bb8f6873b2,modified img,2020-10-20 02:17:22+05:18,FALSE
+9fb609e0dd228430b3fa5cd180bb33f0248c8415,add extra spacing,2020-10-20 02:18:27+05:18,FALSE
+f19d075bf6cead4d1115a92e07c3de53fbf8b8c9,add joke for married men,2020-10-20 11:15:42+08:00,FALSE
+6701c4684bb82f1ad93843c2351710a54afad68a,Add New Javascript Joke,2020-11-26 16:26:54+09:00,FALSE
+20458194b6d1aa6ed0cc73c6babfa053998c15e0,Added Constructor DevJoke,2020-11-30 12:34:18+05:18,FALSE
+f0359ef05b35b25a818e407f999c6316ef0be678,added assembly programming joke,2021-10-01 06:32:25+05:18,FALSE
+fde3beed9c5cdda7500fc0f7f7603bbb5c2dbac3,correct spelling,2021-10-01 06:35:28+05:18,FALSE
+e2b9ac8a21d4ccfa35369b7540b732c5d6d8cf29,Update README.md,2021-10-01 06:41:59+05:18,FALSE
+c519e73ad9f71980c76db8fdb78b500a254052d7,Update README.md,2021-10-01 15:43:51+05:18,FALSE
+8ace0655b8c146dca2ac7dbbc31041671c18e930,feat: add weekend image to readme,2021-10-01 20:12:04+08:00,FALSE
+033bf512d7a400b3d9233962d44fedfa5bb718cf,joke added Ctrl_Alt_Delete,2021-10-01 19:24:42+05:18,FALSE
+dd9d02e6c0d79c4825019e22d01fa0dd04f80db0,Update README.md,2021-10-02 00:24:59+10:00,FALSE
+17b42a933de6988ce005300125cd2959de1c3db8,Joke added,2021-10-02 01:43:52+05:18,FALSE
+e1804096affd0b85e6d1be496122df78f564abde,Joke added,2021-10-02 01:44:51+05:18,FALSE
+dc788fac2e987eb8af8f9a4d58b4a3509f17cf7b,Joke added,2021-10-02 01:46:48+05:18,FALSE
+3ec2d024223439ca8817e9413d320950f087ae03,Added a joke,2021-10-01 19:15:01-04:00,FALSE
+2fcde59eccfbc9e6f8b71b4ab1e3bfd65dc0e7cb,My joke,2021-10-01 21:32:07-04:00,FALSE
+6fa9de5ab3747c82bf04a5b69428f53109665997,"Update README.md
+
+added joke to readme",2021-10-02 16:32:29+05:18,FALSE
+8377e9322f66a5123d85112fb5c74fc9218b60e7,Added a joke,2021-10-02 16:47:34+05:18,FALSE
+15c502ff16b0e8fa20f3c4750507720babcdaaf4,Update README.md,2021-10-09 22:55:26+05:18,FALSE
+586936f7bb8edfa3d0ed418ab1d911c8e1175a79,Adding laptop joke,2021-10-09 21:34:14+03:00,FALSE
+a3ac3e627af5392e36c40993adafe02070991e33,Update README.md,2021-10-10 03:19:55-04:00,FALSE
+3eaf4436eaccfbdaae6468796336ad81c7d21950,ADDED: Programmer jokes in readme.md file.,2021-10-10 14:27:41+05:18,FALSE
+28a455e66527d93bb5fb46ca72cb0d1159a5151b,Update README.md,2021-10-10 16:03:53+05:18,FALSE
+d52ec02e0a0f747ff313d604c287605f1ada004b,Add dev joke in readme,2021-10-11 04:52:01-03:00,FALSE
+9eb7852a935fa556b759823672963f294be76322,Update README.md,2021-10-11 17:13:51+04:00,FALSE
+f02a5e93086f911b2b5e66a478be290e230ce288,Update README.md,2021-10-11 11:47:36-07:00,FALSE
+8a666dcb54253f0ca77b26258f95f982e4e7d83b,Adding rapper joke,2021-10-11 22:19:18+03:00,FALSE
+1f42b840a6313c14dd5df66b6e70d6f08920d2e3,Adding binary tree :deciduous_tree: joke by Majdi-Zlitni,2021-10-11 22:45:04+01:00,FALSE
+aa5ba03a1dfec00b5ce7bbb772f21fd92db4b441,Cleanup,2021-10-11 14:51:00-07:00,FALSE
+d27d4d1a3caf0b4b56e60bf231ae79c2bb183f1d,Update README.md,2021-10-11 15:01:16-07:00,FALSE
+ceb930ead3ce8d6f572941c211acc16c12c5e3d8,Update README.md,2021-10-11 15:02:48-07:00,FALSE
+e7ee8b6dca2e12b9071fe280fbd8781d9429e2dc,Update README.md,2021-10-11 15:04:16-07:00,FALSE
+278c2dc18fba9da414ee98ed44518d3f241df68d,change image type,2021-10-13 00:13:16+05:18,FALSE
+8d6a3d93323814ec22925317ec7291a55e794c1e,ADDED:Move text jokes to text section.,2021-10-15 18:44:09+05:18,FALSE
+6fdcc486b2f8a14bb3a7d9b2e7aec0940aa5ada6,Update README.md,2021-10-15 18:12:05-07:00,FALSE
+07351c033324dfa8f7982d4ca305a2f5a1028ca3,Update README.md,2021-10-15 18:18:08-07:00,FALSE
+1f90d64212e7e5c6f84e1fd0eb2e718bf16d81b9,Update README.md,2021-10-21 18:24:59-07:00,FALSE
+b3b520675ed5acb2a376c9d79d11a5fc73e8ab06,updates README.md,2021-10-24 16:38:42-03:00,FALSE
+ab334de4c11704f424721a226f105c4a5b7d72ec,Update README.md,2022-05-02 15:28:52-07:00,FALSE

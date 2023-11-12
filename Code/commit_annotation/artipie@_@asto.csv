@@ -1,0 +1,39 @@
+sha,message,date,result
+ae024650f7eb05f9c5d73ccfff83b2231ac4f9ef,#1 skeleton,2019-12-23 13:26:04+03:00,False
+a8d44a6a76e78bd9312ea87d562a2954315c2f89,domain name changes: yegor256 -> artipie,2020-01-16 14:34:39+03:00,False
+227dd59910b50899fb050f84e2afea010f28b3f9,logo,2020-01-16 22:10:29+03:00,False
+d97442115ee98dd7ade9a5969e01e93ab4e22e49,ping,2020-01-22 10:23:23+03:00,False
+71271b4f7e6c0ec279804996850b76f326863726,add usage examples,2020-02-04 15:51:37+03:00,False
+a99963bc74b7aa431cec0ac0d183a5b0efd2805f,add general details about asto,2020-02-04 23:28:16+03:00,False
+f6740e7bacfd4804b2d7a5fbfd4393605ece8036,add name section with examples as 'Quick start',2020-02-05 12:21:30+03:00,True
+694598ac021b0a9550fa8e3a2b52cfd741be6051,replace Flow of Byte with Flow of ByteBuffer for performance reasons,2020-02-07 19:30:34+03:00,True
+5268a6ef7cc031dd55354dec5d7bd7bbb2228b47,#1 - support s3,2020-05-14 16:17:09+03:00,False
+ec53aa16d253ef86a167e402de251aebb6c89a7b,#175 - codecov badge,2020-05-15 17:47:06+03:00,False
+fc2ec934d3028b695a17e487f4a368fa425bac06,"Added etcd storage
+
+For #305 - introduced etcd storage, added integration test
+using junit extension.
+
+PR: #306",2021-04-21 12:44:09+03:00,False
+75f79320176c41d513d2c741f25441b03b2b9430,doc: links to javadocs,2021-06-03 12:53:43+03:00,True
+1a9296d27079ff62151acfa5253cf1c94b1f083a,"Add implementation for `list` and `size`, optimize `delete`
+
+Part of #314 - Added implementation of list and size for benchmark storage and tests.
+Optimize delete by avoid using synchronize block because the result of add operation could be used instead
+
+PR: #320",2021-06-03 14:30:56+03:00,False
+d5962d843af02c745a53391d6f9f8ab7e5ceeb64,"fix: extended README.md (#434)
+
+* fix: extended README.md
+
+* code review corrections
+
+* code review corrections
+
+Co-authored-by: olenagerasimova <olena.gereasimova@gmail.com>",2022-06-17 13:25:26+03:00,False
+93846afef353d249044d9d7701f4a2e74e50b08b,"fix: readme corrections (#435)
+
+Co-authored-by: olenagerasimova <olena.gereasimova@gmail.com>",2022-06-17 16:45:38+03:00,False
+b2ef2e8a120a0ea5572c9a70c0f8d69e6e6957ad,readme and license update action (#438),2022-06-23 16:24:47+03:00,False
+3cab54c95b2c1fbc9fd1a9c58239b91ef7d3e559,"Readme, Changelog v1.13.0 (#458)",2022-08-02 17:18:49+03:00,False
+60cba06d49d52821cdf0d56a5711df0b2d8457a6,release: v1.14.0 (#477),2022-09-12 16:33:31+03:00,False

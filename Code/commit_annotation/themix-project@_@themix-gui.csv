@@ -1,0 +1,190 @@
+sha,message,date,result
+7ea4434a5fcd54baf82b1638caa8291c08bb61f2,Updated README,2013-08-10 02:20:24+05:18,TRUE
+008e62eadde59599e1d65d04071036bfda563682,Updated README,2013-08-10 02:24:49+05:18,TRUE
+f64331516113f07ceecec3ee2fc28cd0edffb45b,Updated README,2013-08-10 02:30:33+05:18,TRUE
+bf839c6587853b48fa58889b0786b227e0cac26e,Improvements to GTK2 theme,2013-08-11 06:37:48+05:18,TRUE
+6f5c63b20db8e590e9677f85348ac33ab45c3fbd,Added website to README.md,2014-01-07 02:07:27+05:18,FALSE
+fb58023bffaadddc8fc942b6eca0be530cba021a,Create README.md,2014-05-25 16:02:42+02:00,FALSE
+a8ba8dfcd0f3672e7570320b160700a541603dba,Update README.md,2014-05-25 16:13:13+02:00,TRUE
+177afb258ebd76273c36d22207140377bb2e88af,Update README.md,2014-08-02 17:38:29+02:00,FALSE
+fe9bd00fade5d039b481a15852dd87a356e36a43,Update README.md,2014-08-02 17:40:56+02:00,FALSE
+af6919123b1d9dda5b6e2d0d05417ef9cfee13da,Update README.md,2014-08-02 17:44:49+02:00,FALSE
+de88a63b9adbd01fbc56f4ddc49f4e2be6aad43e,fixed script name,2014-08-04 21:58:56+02:00,FALSE
+e1ecc3adfecc452bd31cda89a9d7b67887bca152,fix(readme): typo,2014-08-10 08:58:36+02:00,FALSE
+780ae34e165ffd15918555ccd7b463b382c4665d,readme: updated web ui screenshot,2014-08-10 16:04:22+02:00,FALSE
+16667f4b1abd75a7884e726043ab299140d07584,Added sidebar styles,2014-11-13 23:33:48+05:18,FALSE
+66cb45d253c5c1c61260cf9a2d31ab6f2bfe4ad6,Fix install directory,2015-08-07 02:07:29+05:18,TRUE
+4a8686c7e4ef64669a65a747d00f9c6bfb7ddd2a,Update installation instructions,2015-08-07 02:40:27+05:18,TRUE
+4b8da3a88b953d27113a5570995f4dc1b71e9daf,Update the docs,2015-09-10 00:23:36+05:18,TRUE
+baf5ab74ba10904e8fe20323dd74181bf79834f7,merge with upstream - 0,2016-02-16 02:47:20+01:00,FALSE
+539ed632c1137e4b364bbfa937b0c3f1ed4f0c50,doc(readme): update readme for gui and add some screenshots,2016-04-11 12:45:26+02:00,TRUE
+04a3b428a86a8d7f0f5a43e6b6c53106f7ead3fa,fix(readme): command examples,2016-04-11 13:15:58+02:00,TRUE
+b39795a34c6696e0f60e27e19bfe8a5b96e5d9ad,doc(readme): arch linux,2016-04-13 09:02:19+02:00,TRUE
+c189315d5da19ffabccc57d4036a727d31b20f9a,doc(readme): description,2016-04-13 13:01:02+02:00,TRUE
+660cba5aede4bd933afb59e172e556932ec84da4,doc: update readme to include ubuntu hints,2016-04-13 17:17:15+02:00,TRUE
+bdb92335ca8ea0b36578c2e2b296fc544f3162d6,Fix link to issues page in README,2016-04-19 01:34:57+05:18,FALSE
+8aeb4535ef85ec24c96404992c1cbd5f134b9c59,update readme,2016-04-23 01:24:18-05:00,TRUE
+94826d32e284f59c917b9590c1f86ebdac5f9374,update readme,2016-04-23 01:45:56-05:00,FALSE
+ed1dd2c1c22194e631012496980698b6e35fb0ae,ok i quit..github sucks :unamused:,2016-04-23 01:48:14-05:00,FALSE
+964f9bb3b8dfed4e21ae32d5ed593e9dac5fd180,doc(readme): add hint for tiling wm-s,2016-04-28 23:50:23+02:00,FALSE
+30d1f30fcfe8fdf8d9e7c9f3dbb757193fc65b4b,chore(readme): add link to youtube video,2016-05-02 12:11:04+02:00,FALSE
+67db978f7113a191cbd4989f1004fef315b9215b,doc(readme): add toc,2016-05-02 12:16:47+02:00,FALSE
+d1906366bfc35093470b7d37a87d9ab78233310b,doc(readme): fix toc,2016-05-02 12:17:33+02:00,FALSE
+c8f9ede7355a85b8d50e68902b707bd467b8334e,doc(readme): add link to the review,2016-05-03 13:57:02+02:00,FALSE
+bf40b491e1bc9fb2a6d258100c231d6795688a59,"Fixed capitalization, use https",2016-05-03 14:10:18+02:00,TRUE
+898dc2f44d1e8f553ec01480cdf93f60a17a24b3,Fixed issue spottted by @lots0logs (#405),2016-05-04 03:31:00-05:00,TRUE
+3e73e03b836b1a1a6b8a3ed054a850513e2c71a6,doc(readme): mention spotify,2016-05-04 13:17:17+02:00,TRUE
+5f7b71baf1892bcfafb13409d40e34d11b00ed10,doc(readme): add note regarding spotify upgrade,2016-05-04 13:18:20+02:00,FALSE
+4f17bc4531b3187e1254c15f0f15231ac82afd66,chore: add murrine dep and bin for spotify thing,2016-05-04 16:45:14+02:00,TRUE
+0f44d68429acf3233c35943645e3bfe29b3b0a31,doc(readme): fix style of first p and toc,2016-05-05 12:46:39+02:00,TRUE
+30ece78f528f499d530c2a5c4fa53cea995e148f,doc(readme): fix toc style - 2,2016-05-05 12:47:48+02:00,FALSE
+1c87004672cdd6568fc56d59a9c3c5dada743295,Update README.md,2016-05-11 08:50:12-05:00,FALSE
+e634e461499a5274bb8dcb9764e61700cbc577fa,feat(spotify): add support for replacing default font,2016-05-14 10:30:55+02:00,FALSE
+736abaccb6174cd9974972ce973e26974dca2550,doc(readme): update screenshot,2016-05-16 22:04:55+02:00,TRUE
+2f6048583a60ee35392ab8d0172b4117b6396cb1,chore(readme): add webupd8 ppa,2016-06-20 22:24:14+02:00,TRUE
+b8a2607e1d3741c666e4357455b7929693ce87fa,chore(readme): add info regarding iconset generation,2016-07-03 22:27:31+02:00,TRUE
+a9c4e1f8120458db0a05391271f828f4ffa53c7d,"Drop support for Gtk-3.16
+
+Styles for 3.18 also works for 3.16. From now on we don't expilicitly support Gtk-3.16",2016-07-20 00:25:58+05:18,TRUE
+44bd14f21b44ec8466edcaccd089e8655dfacd3b,chore: add one more screenshot,2016-08-21 09:09:07+02:00,FALSE
+5bb4568bf391531f096c8ed66e41ba9e946042a5,* Removed run attribute. (#515),2016-08-23 05:25:38-05:00,FALSE
+8d4320e9d7a9ca9c96bbb9730712073f8e696f65,* Readme update. (#519),2016-08-24 08:52:29-05:00,FALSE
+a2f0aa686404f32964d7552ae79658c33dc4d605,"Updating readme to specifically list package names. Fixes #555 & #493
+
+* Updating readme to specifically list package names
+
+* Updating readme with dependency commands to run",2016-09-12 00:19:44+05:18,TRUE
+b781175f3aff8674db88a2dc2d5e592ae8308e5f,Update README.md,2016-09-18 04:59:57-05:00,FALSE
+82e3fd4ecb983cf6eaf9ddb2d171a93839b061f8,Update README.md,2016-09-18 05:02:05-05:00,FALSE
+459de57fe72e8426f4204d169334ecdf36092f1e,Update README.md,2016-09-22 06:35:32-05:00,FALSE
+b9872bc00aba9b74aaa26f38f3d698bead9c6f9c,Update README.md,2016-10-01 18:53:38-05:00,TRUE
+45463ce3d97bffafea267f3dc901e31de0b3db7b,Update README.md,2016-10-12 19:11:00+02:00,FALSE
+287a4edc5980e9da9396e283752b43090534c324,feat(oomoxify): automatically flush spotify files' backup without manual user actions,2016-11-16 23:57:40+01:00,TRUE
+c09d4ef2adb628471ef4670632d0a84b3aaba936,"Add Debian and Ubuntu official distro package, remove Ubuntu PPA. (#633)",2016-11-19 16:34:56-06:00,TRUE
+1b0bb61e62fd4dfd947b66d14c1f61c40eace6d0,Update README.md,2016-11-19 16:36:45-06:00,TRUE
+a356707177a83d580884d24dd212c08d847e7f1f,chore(readme): mention packages for newer ubuntu versions,2016-12-06 21:20:55+01:00,TRUE
+e81d4f3c74e3aeeeaaaa5b1519c0f925fb80180d,style(readme): formatting,2016-12-06 21:22:15+01:00,TRUE
+5bbb34bd478556a933599ed9d8bc51e11d3dab23,chore(readme): remove video preview,2016-12-06 21:24:38+01:00,FALSE
+4676b42ba65802c885aea7bb62090d23921112f2,"doc(readme): update description, add Archdroid mention",2017-02-14 23:17:01+01:00,FALSE
+5bfe8cb59f807963858a80655f4786f2a2e196d4,doc(readme): add link to big screenshot from DA,2017-03-05 13:43:58+01:00,FALSE
+2453788d2aeccff84fc0e295063ac34aa7c52e1b,fix(gtk3.20: window): uniform border look in gtk and wm-s; update readme about tiling wm-s,2017-03-07 00:31:38+01:00,FALSE
+063c9d1596a33b07a7007350c4358af67e6ee28a,doc(readme): add Fedora Copr instructions,2017-03-09 17:06:06+01:00,TRUE
+d70e29ddd93dddb56ca24ab7f8dfdd0ef817286d,doc(readme): change ruby-sass to sassc,2017-05-05 19:56:09+02:00,TRUE
+b80adfa2683f4ce22292f99045b86f2af012bc34,fix(readme): mention minimum required versions of libsass and gtk3,2017-05-24 19:49:46+02:00,TRUE
+b8337004b47e3acd38f38fd65e2135974d9ec889,"Use pacaur for AUR downloads
+
+Please don't use yaourt anymore.",2017-07-17 22:31:02+02:00,TRUE
+22e58abb3e81e4df90aa84b528a5af54205e1f6c,chore: move gtk-theme into submodule,2017-08-19 19:12:55+02:00,TRUE
+f3c0ee4e33229270763fa41db577e759452e21cd,doc(readme): improve usage examples,2017-08-19 20:00:37+02:00,TRUE
+42c949be0792dbcef6d3cea3ef1b73ca12457998,"chore(README, PKGBUILD): mention new dependencies",2017-08-27 16:13:55+02:00,TRUE
+610fca585f3b23cbfde5034f7b172bee30a56433,"chore(PKGBUILD, readme): update version; mention Flat-Plat support in readme",2017-08-27 16:17:12+02:00,FALSE
+be505b45a4ecb74ea80b0e54985e7725173dc6a4,doc(readme): update the headline,2017-08-29 14:16:28+02:00,TRUE
+845bbc959c005a222edb6e2734e3bce52d650b42,"chore(colors, gui, submodules, PKGBUILD): s/Flat-Plat/Materia/g",2017-10-04 20:05:19+02:00,TRUE
+5d0b209b9c008a75506cb2ddceccf78484c5cc4f,doc(readme): add link to Slackbuild and add note about ubuntu ppa,2017-10-19 12:01:42+02:00,TRUE
+e223584b108c64f07054fe5f9550f84e5a6f19ac,doc(readme): update text around screenshots,2017-10-19 12:08:16+02:00,FALSE
+dabdeeff81bd5035984d321af96b2d6777b49499,doc(readme): mention other distros from copr,2017-11-06 01:59:32+01:00,TRUE
+31fcbe97ebdc9053ede3b3fb34b4da206472bb08,chore: move gnome-colors-icon-theme to a separate repo,2017-12-11 18:59:02+01:00,FALSE
+e8494a69b203ecf1d2eb0507db883ff69c9a584c,doc(readme; submodules: gtk): documentation fix,2017-12-17 14:37:41+01:00,FALSE
+db498eeea951da33d0f671c51240cefb7aa9800b,style(readme): remove tab character,2017-12-23 03:51:54+01:00,FALSE
+c8d796342f3ef68d586d062445b038c2b45bfd95,style(readme): equal indentation,2017-12-23 03:52:39+01:00,FALSE
+11b3cc163dadd16c7cb9eaed92c25ab62c669954,doc(readme): confirmed to work on manjaro,2017-12-23 04:48:51+01:00,FALSE
+14d3d3d0dc7e001c3b5e1ea9c0793b5461424aab,doc(readme): remove old screenhots,2017-12-23 04:53:54+01:00,FALSE
+2c037779e734fa84b983a9437a9ef5ceed3772c9,style(readme): more space,2017-12-23 04:55:17+01:00,FALSE
+3ad75c2b0e7f5aebd96f4ad7f2b75640a14b4350,doc(readme): update info about ubuntu package,2017-12-31 03:29:53+01:00,TRUE
+4cb613b9f639145406e9d778c0e81d99e2778b8c,doc(readme): update info about ubuntu package  -2,2017-12-31 03:38:12+01:00,TRUE
+738ed8fa0c2ab10c74ab912020a37d126ece7d03,doc(readme): typo,2017-12-31 03:49:50+01:00,TRUE
+38197e05b90e33c18cf3ae606ac38401e8864914,"doc(readme): mention `librsvg` dependency, don't repeat dep list in ubuntu section",2018-01-18 17:42:29+01:00,TRUE
+a6684113c6716a41bdb555efce844730d09687e8,doc(readme): remove outdated info about CLI tools,2018-01-18 18:25:43+01:00,TRUE
+f1a5ca314cc5ec980d8947f0885e4822f23d9730,doc(readme): update spotify section,2018-01-18 18:27:09+01:00,FALSE
+393aafd490db1dd2d3325283183e96ed60dd4775,chore(plugins: icons: gnome-colors): update submodule: use rsvg-convert instead of inkscape - much faster theme generation,2018-01-19 20:36:49+01:00,TRUE
+a45549b59965f72d2e1cdc14eb376ee8d3f998a5,"fix(readme): path to oomoxify
+
+closes #119",2018-01-21 17:59:28+01:00,FALSE
+64ce62b33472c2d3a1ed6a3180e6a9044ab8ace9,"switch from pacaur to trizen
+
+pacaur is no longer maintained (https://github.com/rmarquis/pacaur)- trizen is a good replacement because it has the same syntax as pacaur.",2018-01-23 13:55:40+01:00,TRUE
+fe154af9a82181a6bd12e9cb5bd972382fc1c6bc,doc(readme): use pikaur for arch manual,2018-02-10 06:25:42+01:00,TRUE
+586b4faa1ca6aef1369f7df33144c11705d0b91d,doc(readme): add flatpak instructions,2018-02-14 14:07:52+01:00,TRUE
+d80846a9afd2507421eebb9a21a429e77f28f8f5,"doc(readme): add more info regarding aur options
+
+re #137",2018-03-22 14:26:13+01:00,TRUE
+f030550d36e3b7ad670829f7eda6c1386bcf286a,fix(readme): aur links,2018-03-22 14:29:12+01:00,TRUE
+16c984772d23f6ef0b91d30c06ed47cd371bcc27,doc(readme): describe dependencies more detailed,2018-03-22 14:53:33+01:00,TRUE
+c1af48f8e4f92d2f5922c27152a78a37e667da81,doc(readme): describe dependencies more detailed - 2,2018-03-22 15:05:06+01:00,TRUE
+d115d6a89ba19be180653a5e4df015b2f8ebe58d,"doc(readme): add warning about flatpak buildscripts
+
+closes #131",2018-03-31 20:13:08+02:00,TRUE
+4738619351f551a17bc8bfdb2ac2720dae803131,style(readme): formatting,2018-03-31 20:15:40+02:00,TRUE
+61aeec8149a982954229a65f9247428da9e614ba,chore: update repo URL to themix-project,2018-03-31 21:00:47+02:00,TRUE
+6c35012abe8bbdb96229e5babec1846fb08f4c60,doc(readme): described how to undo Spotify theme. #134,2018-04-05 00:30:20+02:00,FALSE
+19ae5e96464957a161ce82059d69a38c753e44d9,doc: fix urls/emails after past `sed`-ing,2018-07-30 17:21:21+02:00,FALSE
+920f61dc6f504c774ec775fd7afebadea8d2f532,doc(readme): reorder screenshots,2018-07-31 17:34:44+02:00,FALSE
+36fa571d73fbcd0c4755c0ce8851e4c2211c7b2d,doc(readme): add one more video,2018-07-31 18:09:30+02:00,FALSE
+fb656db43a2f467e19c85db4dc28db92536dc48d,doc(readme): update flatpak section,2018-08-01 01:23:39+02:00,FALSE
+4d4e157f9722639eceb1954726796c79bd43ac59,doc(readme): increase flathub icon size,2018-08-01 01:27:37+02:00,FALSE
+625166e192c26ee331342ca381a0e122cf94283c,doc(readme): add copr and aur badges - 2,2018-08-01 02:55:27+02:00,FALSE
+2ac9af3285852e4e5cecf9fe6aef3188bd3c8a32,doc(readme): add deb badge,2018-08-01 03:24:56+02:00,FALSE
+c5e3e932f6e82bc1c0c80d165862e608d84952d2,doc(readme): add slackware badge,2018-08-01 03:41:57+02:00,FALSE
+78d89f6443430b8cc5998ccdd32e1864a496715e,doc(readme): add slackware badge - 2,2018-08-01 03:42:42+02:00,FALSE
+a885a5f355b73d9388e817b7b0b8d01addcc4417,doc(readme): fix badges,2018-08-01 03:53:46+02:00,FALSE
+a0287fc9a16f2fd8572f90c4829fb063967eb686,doc(readme): improve deb section,2018-08-01 16:07:49+02:00,TRUE
+02800006f2506efbfe7d026021ae24588581822b,doc(readme): improve deb section - 2,2018-08-01 16:10:16+02:00,TRUE
+c7dbf0bab1ca9776792aa8c6132eb109cf1ee515,doc(readme): improve table of contents,2018-08-01 16:15:57+02:00,TRUE
+29501db6d5436a625bb6e6fca50a78dac965316e,fix(readme): markup,2018-08-01 16:16:39+02:00,FALSE
+ccf56cfe85081330f3462dcb8f1b69dece4356a7,doc(readme): improve manual installation section,2018-08-01 17:22:24+02:00,TRUE
+ee424cbde44f63cc916641a256236e12388a2d1e,doc(readme): improve deb package section,2018-08-01 17:28:10+02:00,TRUE
+74ccb4e3e7be4455ace6255bb2a385cb974de43f,doc(readme): fix link to manual installation,2018-08-01 17:30:50+02:00,TRUE
+0980ad7b6c682efd3a790f4458bbd2b5c15b4c4e,doc(readme): add link to void package,2018-08-04 01:05:08+02:00,FALSE
+ae46ea7df3922cd7060f531c2a204a0896a18d2d,doc(readme): use more compact icons,2018-08-04 01:11:06+02:00,FALSE
+13ba59bda43521461c0507e6cac371403a10a5ae,doc(readme): reorder icons,2018-08-04 01:29:18+02:00,FALSE
+d4b3d0ffaeaf0cc02b882bab0517b090e763a83a,"feat(plugins, packaging): add arc-theme",2018-08-08 22:39:06+02:00,TRUE
+0595c28d1b7c4245c51272ccbf1c313bf45f57e6,chore: add old implementations of xresources and random themes to use with the cli scripts,2018-11-24 00:25:10+01:00,TRUE
+ea82d9b15b241e07a0af935b659419a2f1f5746a,doc(readme): remove 'Using with tiling WMs' section since @nana-4 already fixed that oomox-gtk-theme,2018-11-24 00:25:58+01:00,TRUE
+e164b76270fd8e56d7867859a93e13b8f93a0a2a,chore(packaging: ubuntu): add control file with deps for Ubuntu 18.10,2018-12-09 00:30:34+00:00,TRUE
+57fa3400bc32b4c4ac5e4d209bd19252a709bb8e,chore(packaging: ubuntu): include cosmic to docker build,2018-12-09 02:05:27+01:00,TRUE
+5215177ebb1077de0b3e29fbd8708f5166b42bd3,"doc(readme, packaging: ubuntu): 17.10 -> 17.04",2018-12-09 02:10:13+01:00,TRUE
+4bcf5dae509d7739c38f9000f5a748342a5e2aa6,"feat: implement exporting of base16-based templates
+
+closes #101, #102",2019-01-01 05:01:18+01:00,TRUE
+d4826745849f13fdd4adce3eec326d9252c4bb62,doc(readme): add link to the base16 tutorial,2019-01-07 20:07:04+01:00,TRUE
+80de0df1b7169d91527c05c9b1b69473de21566b,"doc(readme, pkgbuild): parallel is not needed for arc theme anymore",2019-01-10 23:59:47+01:00,TRUE
+626eaed53999545744a1448e19a39067f14fb577,doc(readme): return back tiling section,2019-01-16 21:11:48+01:00,TRUE
+1f071722783e3fe877ac29916f90a5f8537832b4,doc: mention Papirus icons in readme and package descriptions,2019-01-19 09:36:47+01:00,TRUE
+385caebfdb155910e71512e4f966c882f416ed90,"chore(packaging, readme, shellcheck): update for Suru++",2019-01-30 13:31:47+01:00,TRUE
+0d1a4fe2237ee1555219c79edef8a42112183241,doc: update screenshots,2019-03-03 07:50:04+01:00,FALSE
+43daeb9e7e6208c55da1a03ff80c20ed38ea42d8,doc(readme): Add Flatpak instructions (#241),2019-04-15 02:57:33+02:00,TRUE
+45684f3e5f1ef9807cc15d990ed5179696b7b148,doc(readme): update wiki links,2019-08-27 22:55:00+02:00,TRUE
+467e034b8612c5e2fe281d8135383b773cf80b6f,doc(readme): remove void linux link,2019-09-21 06:18:26+02:00,FALSE
+c1c9cc0f797c97417037ad0d3847f60bd26480f0,doc(readme: ubuntu/debian): simplify installation instructions,2019-10-11 06:56:47+02:00,TRUE
+d27854ea09d2da5e34f8c7fc55ae1c5c493fb53a,doc(readme): add travis badge,2019-10-27 04:08:42+01:00,FALSE
+4549bc4cdb6be26a6a5f2f0a506023f7fb372357,chore(plugins: theme: materia): update submobule (tag: v20191017 + 29 commits); update CSS readme,2019-11-15 17:45:22+01:00,TRUE
+c265d01d0bda7bbae0dbddca7041e06658980acf,fix(readme): link,2019-11-15 17:48:41+01:00,FALSE
+d6beb3686881caa5e101a571606670ab96091c73,fix(readme: download): distro logos height,2019-11-15 18:08:35+01:00,FALSE
+2c556017c244a2f788f61253641ca6a58bd64d65,doc(readme: arch): aur pkg got renamed,2020-03-20 02:08:30+01:00,TRUE
+53803d9000025908bd368bc6030840086d2aa542,doc(readme): update the title,2020-03-21 15:58:53+01:00,TRUE
+e1fa97946dad0aeb62e7927906ea4c97d1244800,chore: extract xresources-related functionality to a separate plugin,2020-05-29 17:57:12+02:00,TRUE
+2c38d69c59346cf8f85a8d9146fa19a6a3edf446,doc(readme): remove mention about arc theme,2020-10-10 04:00:13+02:00,TRUE
+e0c568d811a92724444a9565b2c8ec8d4c2206a4,doc(readme): update 'default' aur link,2020-10-10 04:01:50+02:00,FALSE
+5cd98638a7252157da89111215d351ff2e0b05e6,style: fix wrong spelled words (#352),2021-01-18 11:33:09+01:00,TRUE
+1e5b19feea3838908e9e9836887a1d1931abb48a,doc(readme): remove Copr instructions (#368) (Closes #363),2021-03-09 01:42:34+01:00,TRUE
+a8208dbc92d96f88a382f814eb7bef29069590af,chore(plugins: theme: materia): update submodule (gtk4 and meson),2021-03-23 16:31:41+01:00,TRUE
+08a3a21a3f2ba5a9d046a7bf97f6cf9e653cffcb,doc(readme): replace travis badge to github actions,2021-04-01 19:35:29+02:00,FALSE
+1c042d1dd6489cb8adac67830a39d2748c71eda7,doc(readme): remove ubuntu since no one wants to maintain in,2021-04-05 12:11:13+02:00,TRUE
+4dd6335cf3bf06ec21b51512a09ca4904fb0782a,doc(readme): it sounded almost on the edge of tautology :),2021-04-05 12:13:26+02:00,TRUE
+bce9d3d042614aacdc32314f166eb484c02631db,doc(readme): mention minimal python version,2021-05-06 00:26:57+02:00,TRUE
+09cd6af283a64e17e10d86dcfe372501064af324,doc(readme: arch): remove link to old pkgbuild,2021-09-02 19:40:50+02:00,TRUE
+351faaa3cbaa3641b329adac760154156de87d5f,doc(readme): add pi-apps badge,2022-10-03 04:28:35+02:00,FALSE
+095369f3d1fb65f7a908f9528ee6fbd18bb12d7d,doc(readme: badges): round-up pi-apps,2022-10-03 18:48:03+02:00,FALSE
+554a41ed7b554f7355c03fd83fe8632cd18dc95b,doc(readme: badges): pi-apps badge height,2022-10-03 19:13:58+02:00,FALSE
+0e1ce1ef9ff6bc4865e2da9fa475b5e221bab4d5,doc(readme): mention base16 output plugin more detailed,2022-10-03 19:19:03+02:00,FALSE
+74d8203923405b9bfe86f5ca42698e8f2f7b219f,doc(pkgs: slackware): update link for 15.0,2022-10-27 13:39:27+02:00,FALSE
+badf664c0d30becb5b48b11d5e3d67486e336a7d,doc(build: manual: import_image): describe optional deps,2022-10-27 13:41:39+02:00,TRUE
+a29b07d9bc1830de9bc4b4a514dc51cf9d198d67,doc(build: manual: materia): deprecate,2022-10-27 13:42:52+02:00,TRUE
+4e04df9478f2d997a19ab99df8944ccfa245cdce,doc(toc): add cli,2022-10-27 13:44:51+02:00,TRUE
+15f0374f6f9f48ff7d30563738f741453240d0f6,doc: unclutter description a bit,2022-10-27 13:48:23+02:00,FALSE
+d9f934de77b774dc2043d32eb7bc78691f430a90,doc: mention also import plugins,2022-10-27 13:54:38+02:00,FALSE
+69643dac76ea45e0bfc2d3a86b9115e53a87cc26,doc: intro formatting,2022-10-27 13:54:56+02:00,FALSE
+8f0400faed120735b289be5c192589859d95f43c,doc: add couple links into description,2022-10-27 14:06:51+02:00,FALSE
+93a9f384d1222150e2179bd886d3a28cb6fb9e24,doc(readme): update executable name,2022-11-11 12:26:36+01:00,TRUE
+9f9afc30d64eaae11cefa2f2f36f4b276f5bac31,doc(readme): raise minimal python version,2022-11-28 22:03:10+01:00,TRUE
+dd9b15267763589456fdee7c2ed12e7e155ecfb1,doc(readme): add Commit Activity badge,2023-01-07 08:28:23+01:00,FALSE

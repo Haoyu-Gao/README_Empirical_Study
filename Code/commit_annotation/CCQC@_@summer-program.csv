@@ -1,0 +1,45 @@
+sha,message,date,result
+842d49722ad50633ac433cda2f9702e314384ec2,first commit,2015-04-16 13:36:09-04:00,False
+8589b254e54a78259bf44922f08093147c2d4ec9,Updated README.md with directions on how the repository is organized.,2015-04-16 13:53:54-04:00,False
+23dabe2942307855ccc80a03c3dd1e5b8070bd7f,Added instructions for Git to the readme.,2015-04-17 09:29:06-04:00,False
+0ae0e98e93a756e05da0940fd6c6c66665267a7f,Renamed directories to simplify navigation.,2015-04-17 14:53:20-04:00,False
+01076db6ad9eb083dc54dceeaf9efc36cdf80a83,We will not be placing the summer presentations on GitHub.,2015-05-27 17:17:25-04:00,False
+5a9b8b26676d10dcd4f97530c37ef2d0754a19b9,Added link to proper git commit message formatting in README.,2015-05-27 17:25:10-04:00,False
+915fbed5582dd4f9a20122e1cf078dfa28d38805,Add Python section to README.md,2015-05-27 20:20:06-04:00,False
+ec394b0c26a107ec3d42d52b34606c4b20b50d08,Update README.md,2015-06-22 14:51:06-04:00,False
+42c2abf04056e3ba2b2d96ec19c9974fb05bd06e,Update README.md,2015-06-22 15:03:19-04:00,False
+0e327df7c2eea2e3b19939bc26e6da1ac2716817,fix zero indexing,2015-06-22 15:22:40-04:00,False
+2b156f6c21d18c51a07ca7748948f1bd2a6e9772,Update README.md,2015-06-22 15:42:30-04:00,False
+587be6840f825e13111d2d3a51f6fdb4dd2862e9,Update README.md,2015-06-22 15:47:08-04:00,False
+2850f9238fa6682cc3ccc80952e5242a0ddca303,Update README.md,2015-06-22 15:56:44-04:00,False
+e7b6b0013f13d60b50a25fd09c194418d81a63af,Update README.md,2015-06-22 16:01:02-04:00,False
+b51465f7388c015a2939a0876e56dadc5aeebb4e,Update README.md,2015-06-22 16:01:34-04:00,False
+24d2ed1f9635f1e7f5ec183e84f2f93027ecd787,Update README.md,2015-06-22 16:05:42-04:00,False
+a963ccb780d57f44ecf051b795d13ee388edb46b,Update README.md,2015-06-24 20:58:49-04:00,False
+6c0d3894dff5d2d6b1cf2e7f1377bac8b56bc59e,Update README.md,2015-06-25 20:27:26-04:00,False
+e6426c598757d186c5e635902ccd9456c9e33d4d,Update README.md,2015-06-26 12:53:29-04:00,False
+5eb2c92cf595325990bc30d75a861b0ef9cc2156,Adds mention of how to use  to the README.,2015-07-15 21:56:14-04:00,False
+045d73c3eb0738f3f2a7976c7108ed74903279e8,Adds reference to python_tips.md in README.,2015-07-15 22:06:34-04:00,False
+e85fbbe56e1c299807172cc427802a65e3a4ba91,updating some stuff,2015-12-02 18:08:37-05:00,False
+6c54ecca03e6eb7ac165ed8840cc4c5354c5d40a,fix newline,2015-12-02 18:09:42-05:00,False
+1a268f51f3857e82cdedf0f9a6acd76dc260de65,minor README edit,2015-12-02 18:10:51-05:00,False
+6309ddff374cafd773887eab647fa8a40c0bd8b4,revised project 1,2015-12-03 17:04:49-05:00,False
+1088f82d5d05ca31c038ef79d3e23ef34b8086b0,revised project 2,2015-12-04 18:05:15-05:00,False
+6ce15bcf4919b3d450ddf077b907a7fdd62af243,fix botched README,2015-12-04 18:06:44-05:00,False
+e2ff8b0407a8c3a38be919e396fc0742edf24e0d,project three,2015-12-05 14:01:30-05:00,False
+6b6ca876a1894cdb01dc823c8d1b145ba2c4bd29,Links to algebraic methods pdfs,2015-12-05 14:38:42-05:00,False
+2d15e2903dc60bab18adcdef2f85d483777df446,project 4,2015-12-05 16:16:05-05:00,False
+7ecdf710fba1a74556f8e30c62c7ae799f568337,Added CCD project and Wick's-theorem-based derivation for CIS,2015-12-07 12:25:40-05:00,False
+6e455c6ce50291ad830e659d562d7f7d15919a0f,moved projects around,2016-02-25 17:52:50-05:00,False
+1b7a66322d1fefc240a66b45c83a0a92cd800eb0,"Adding a section for additional programming projects, for anyone to contribute",2016-05-20 13:43:39-04:00,False
+d6e3d22e5f7009d65b8ab5d59bf341ff4d83b784,Add folder for applications projects.,2016-05-20 13:49:23-04:00,False
+0bf142af74d95bac28f900febd930cb7a65a1d83,Have README point to the base directory for a given topic,2016-05-20 14:12:02-04:00,False
+88fcb10a714e6687203aaed421ae894d7a119718,updated README to include cepa0 project and removed project 9 directory,2016-05-20 15:43:02-04:00,False
+95247edf090767e721577fc8703758aea3e4e0a2,Update README.md,2016-05-20 18:30:27-04:00,False
+619f68eeea1562ebfa7e17db1bb43ef2530315a9,updated README to include spin-integrated UHF project,2016-05-24 17:36:43-04:00,False
+c8bef9f4522793f4022a10ba8310d19504e248eb,Added quick theory write-up for UHF natural orbitals,2016-05-24 19:25:26-04:00,False
+9c8905940a055b8f9ef0a75b877a760197855085,Added Spin-Integrated CEPA0 as an extra programming project,2016-05-29 17:35:54-04:00,False
+e351c5edcb7dfb595f4e2e60051fd66d362c30b2,Updates or removes explicit references to Python versions.,2016-06-03 15:31:09-04:00,False
+7a68c86dab0c14b2bacc6d5742134fdbbde26d42,"Updated recommended Python resources
+
+Learn Python the Hard Way is no longer recommended. It is out of date and often uses improper terminology.",2016-06-07 11:11:13-04:00,False

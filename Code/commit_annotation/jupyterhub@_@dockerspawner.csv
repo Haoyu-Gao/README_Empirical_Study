@@ -1,0 +1,65 @@
+sha,message,date,result
+f331b40b1eeb214fa2b0cb3be6b011b3c2566043,Initial commit,2014-09-12 14:24:08-05:00,FALSE
+91c8b3f01029d142ac711394d19cf416668fe1b2,Add to README,2014-09-13 13:18:47-05:00,TRUE
+bb26073f6a11880bfabd16fc98d9c2cf8d39dfd5,"add Dockerfile, etc.",2014-09-23 14:36:16-07:00,TRUE
+9b75c81487b432e113cc03b057b1edea023d86bf,support ssl,2014-09-23 14:59:53-07:00,TRUE
+effbf9babbc8ad64db6bbec71eca7f9bbb02a222,links!,2014-09-23 15:15:48-07:00,FALSE
+45dc8a4b87603020e11f2ba14a9800d5121c54e5,add single-user container,2014-09-23 20:46:07-07:00,TRUE
+4d2e80550bbdcb116c59445436547d7691dd1ce6,split dockerspawner into its own repo,2014-09-24 15:54:15-07:00,TRUE
+c60753b1584e3e48680b206e53d433a9a650b15c,move oauth example to examples/oauth,2014-09-26 13:07:23-07:00,TRUE
+c17d82cc2698d5ff5f3264be33c6f5ac7803d6d6,Add documentation about SystemUserSpawner,2014-11-19 15:22:34-08:00,TRUE
+b12f4e66bd444603bbeacd3799a015a960ef385d,"s/JupyterHubApp/JupyterHub/
+
+in config files, the App is removed",2014-11-25 20:20:32-08:00,FALSE
+64bd02044d06846f186741bd5f5ea352a830d66a,remove c.SystemUserSpawner.user_ids.user_ids from readme,2015-01-08 12:05:43-08:00,FALSE
+7ee51c02ddca57cdd6f92e3150475b3787ff5828,"update jupyterhub urls
+
+now that jupyterhub is an org",2016-04-19 13:18:45+02:00,TRUE
+46f0e8e6fc82f240e03eae8fe846f63d61d62fbf,"Clarify language around use of DockerSpawner
+
+There's no reason it is useful only for 'basic, temporary' servers.",2016-06-15 03:16:18-07:00,FALSE
+c65373767a9fa8af9927b6599e831abab0e1f996,Add section to README on docker swarm,2016-08-20 02:08:26+01:00,TRUE
+df02ac7a085a318765f96c3030c4fadcae174eca,Update README and create CONTRIBUTING,2016-10-11 13:34:20-07:00,TRUE
+4a90a55e8449d3d303e96610e41b2ef137b51811,Add more config detail,2016-10-11 13:34:20-07:00,TRUE
+a895f34b7ce320b9807a7466d8734dc9a95c8c3b,Remove extra space,2016-10-11 13:34:20-07:00,FALSE
+8dfe7dd503257bf0fc9909faa2d89fcf627554a0,Add explanation from @minrk,2016-10-11 13:34:20-07:00,FALSE
+e6ca4813c813d615eb5293a4652244b501ca99d0,Add volume mapping per @akhmerov review,2016-10-11 14:09:07-07:00,FALSE
+65e90617e60e97b775317cad2ff8965dfcc172c9,Improve formatting of {username},2016-10-11 14:12:56-07:00,FALSE
+5ef8679fde1ec699eaea6d2508d659e14d16a27d,Use jovyan for user consistency,2016-10-11 14:36:27-07:00,FALSE
+28baf28842a2c94bfceceb8dc4f386682cdf7418,Add mem_limit info to README,2016-11-15 15:05:32-08:00,FALSE
+335023ffe99388cd9dddded00c0848508e2554a6,"update install docs
+
+just `pip install dockerspawner`, don’t instruct installing from git.
+Save that for CONTRIBUTING, which is already at the bottom.",2017-08-20 12:18:31+02:00,TRUE
+1d696ff434789baf46961ddd4907ff2a11585ebf,"update image selection in README
+
+- recommend docker-stacks
+- explain requirements
+- give example basic Dockerfile
+- add note about swarm vs swarm mode",2017-08-20 12:19:31+02:00,TRUE
+5f8a2f6d73820947b8e77d09a2eef711151c8c6b,Added README documentation,2018-01-30 09:56:36-05:00,TRUE
+40cf6599b684d5340be01ef708af492fe24b8365,"Update README.md
+
+Fixed indentation on code blogs",2018-01-31 11:57:04-05:00,FALSE
+1b0a80518b055139d6ecc334b4a43c7b6558ac33,"Fixing README's subsection links
+
+Each spawner's hyperlinks didn't properly jump, could be due to a change in Markdown parsing; but all's resolved now. :smiley: 
+
+Hyperlinks fixed: 
+- DockerSpawner 
+- SwarmSpawner 
+- SystemUserSpawner",2018-06-05 14:51:38-04:00,TRUE
+0436704da37f4449e777b0b999763539a270ca1a,minor typo,2018-08-16 14:42:14-04:00,FALSE
+b3af6ca729e769ec8a24a56e26a874b71190d064,Fix dead link in doc,2019-11-24 18:39:46+01:00,FALSE
+72eefe01c15b1ad3cfbfaf6507f9c055e2e2d02a,Add readme badges,2020-01-28 12:53:15+02:00,FALSE
+80db7655977ac3f33edc32c0de7b5222fc88b94e,Move subset of README to docs,2020-06-21 14:16:25+03:00,TRUE
+707a878f8c7ffc8604a9ebfa1155c3bc6923cc1c,Fix emoji,2020-06-21 14:16:25+03:00,FALSE
+96fa7f4081b73c60f867625abb67e72e2847acaa,Remove links to sections as the document is not that big anymore,2020-06-21 14:16:25+03:00,FALSE
+c07d635e0585f38074025348d618a7b7e6e219af,Add future RTD badge,2020-06-21 14:16:25+03:00,FALSE
+9ccedbe296321f3dcc33a1c4274dfcd09e690361,Update travis-ci badge in README.md,2020-10-28 22:56:36+01:00,FALSE
+37f5677703b897bf0b2bd5cf934be58ed1345097,run pre-commit,2021-02-25 14:36:08+01:00,FALSE
+a5bae4b72b46cff8b254d4cefcc176986a698109,Add GitHub Action readme badge,2021-02-25 15:41:26+01:00,FALSE
+1b92c1e998b0623addda8be3d3d6d05a5481c71e,update release steps for main branch,2021-07-16 13:28:05+02:00,FALSE
+51cb740d853b9b39ef45cb864801a4865b3dac8a,Update badges in README.md,2023-05-31 14:45:03+02:00,FALSE
+5d1e96570ed613429581a7d688c89a3c3f380d52,Don't point users to gitter any more,2023-05-31 15:06:32+02:00,FALSE
+52b789f5eb5bf9b2181e97bb4474c622cd7e6d05,Require python 3.8+ and jupyterhub 2.3.1+,2023-05-31 15:13:43+02:00,TRUE

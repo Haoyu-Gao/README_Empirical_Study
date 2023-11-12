@@ -1,0 +1,78 @@
+sha,message,date,result
+e14b30e7162387d042ca88f5b3b6ae2708018015,added readme,2020-06-27 14:59:20+01:00,False
+b9029d4d8025abdb3b7a7b3255e8617e25bd07ee,Added packaging code,2020-06-27 15:58:37+01:00,True
+ed8ed050c90116e7c11ecf24d0af9fe864392c25,updated readme.,2020-06-27 16:18:13+01:00,False
+1c3db31410f68756cd899dca87fbe647f315731c,update to readme.,2020-06-28 15:32:40+01:00,False
+0a1dd8b5625500e28ea90eb5e65b140a18419a86,Updated readme.,2020-06-28 17:33:44+01:00,False
+827d02da05536ecf177d05a30ce907f91f91d70b,Added link to why arrows isn't ready.,2020-07-09 09:17:42+01:00,False
+00a0cc987e1d1ebb528a88586ad526dd1f6441bb,Updated readme.,2020-07-15 11:59:32+01:00,False
+10f2c1f9662cff38e7fd66dc388b2a71c91f6278,Included use_disk = True in the readme,2020-07-15 14:29:36+01:00,False
+7711324cfce9aa7626387a6f8a0f28cf645eec1b,numerous small additions to increase code coverage.,2020-07-15 15:34:24+01:00,False
+7c633dd75960d93e61b6e7f81626efd2d870a065,added pepy download badges.,2020-07-15 23:11:17+01:00,False
+bbadfd75a8df6772b027373741361967cf8ac0c7,Cleaned up readme. Added pypi keywords.,2020-07-17 11:14:31+01:00,False
+b47fe1b5a1828f6d6d081ac8894ac83c5814d2a2,minor edit to the readme.,2020-07-18 16:41:08+01:00,False
+3023d1dfdabc6710443a95424916c7bf89e33272,Added example of how to use plotly with tablite.,2020-10-09 17:16:15+01:00,False
+f98f7614641444625db66988ade1a54e9abcf6e1,minor docstring formatting update,2020-10-28 12:16:20+00:00,False
+1cd2451eceb5642d4bb34fc8858d233d8d0971d0,Added example to the readme regarding #6 - how to reverse a pivot table.,2020-10-29 11:20:18+00:00,False
+e09c4ee27eb2731b5dd6b7eda44c544758a925fc,Update of the add_row api to satisfy #7,2020-10-30 12:56:48+00:00,False
+39e2def391c338ee5e2d1b7d155f74bc3f81a23e,Updated readme to match changes to api.,2020-11-03 15:00:37+00:00,False
+63b6c705df2f7a7351fc55655dbbb150bcf82258,Updated readme with clipboard support.,2020-11-03 16:42:07+00:00,False
+5fb22dece1d437267de45992480af4fe23f78a0e,Updated README.md with new url to travis-ci.com,2020-12-21 19:01:42+00:00,False
+935048f1cb63e709e1e2345f2f3586f174cd6720,Badge and requirements update.,2021-02-10 16:53:37+00:00,False
+a0415d3d194cd7c300e3f70b7ddc527d2d01f14d,Updated documentation.,2021-02-11 20:53:20+00:00,False
+7673511648c09209019c66da1c9bbfe8ff9ba9b7,Updated readme,2021-02-18 16:20:07+00:00,False
+86b15ad1e0c138eb096457df61d29f1fb28a2eaa,Minor update to documentation.,2021-02-18 16:41:18+00:00,False
+02a6a14bcf511ef9c9605818d360bd1bb4786f5a,Added announcement of breaking change to readme.,2021-02-18 16:43:55+00:00,False
+7156ac541ec5c6cb0bf59708e0788416ee5f59a9,Added instructions on how to add a custom file_reader.,2021-03-01 16:11:42+00:00,False
+7b96a19e0d74006d8a8f0643180ff7e24ff7e0b3,Added credits.,2021-03-02 10:09:41+00:00,False
+ad2a4a20bae7f74a5b43d3a2572305d6aba3fe28,Using python-doc-pep to document changes.,2021-03-08 11:32:58+00:00,False
+5e67609199d6b8c15844dc542ead31c0873323c6,Updated the readme.,2021-03-11 09:20:52+00:00,False
+6bb85905af47e343cd0be5443554c267a957c187,"Updated the documentation.
+Added tests for 2 new features.",2021-03-11 12:41:58+00:00,False
+b5e443314031714ad5b77445562148bcfb286509,Updated docstring for file_reader.,2021-06-08 12:33:47+01:00,False
+76cded61531ce28c70c5acfe82dafda1fa73a6e4,Travis CI tag updated.,2021-11-03 17:21:00+00:00,False
+d3f81cd73cf6a449f80152712dad177263624cd4,Updated readme for release.,2021-11-03 17:24:43+00:00,False
+557a39051a5a59d8f68ba08ed02628a27e15d86f,Updated news.,2021-11-05 18:02:37+00:00,False
+aeeb6224ebfab8eb8f4a09163fb3f9f637286398,Update README.md,2022-01-24 09:57:28+00:00,False
+891b0b3d6c1458ca5d3c7ddfa7bf532009c239e8,Added note about API change for join in README.md,2022-01-24 15:28:31+00:00,False
+e751fbb4396cef27f7b9869c160630f3ac9b8975,"Updated readme for addition of keyword `all` to lookup function, so the api now accepts: `def `lookup(self, other, *criteria, all=True)` Set `all=False` to lookup for `any`.",2022-01-25 18:58:14+00:00,False
+795dc523c4dc9d305f5cbd94afe4933d34e37465,Fixed csv reader bug.,2022-01-26 11:04:58+00:00,False
+6bdc1c20a5b1c24236b54d265366f8039a791c1e,removed everything that now is in the tutorials.,2022-01-30 12:18:57+00:00,False
+4dcc11fc8cfe8bf3fe2c933bd6e5caa6543a1546,adding badge for workflow,2022-01-30 12:23:41+00:00,False
+02a8c0a27c070b9efdda3348e2239a95a60d7d72,using pdoc and github pages for documentation now!,2022-01-30 13:03:02+00:00,False
+49210125905dbe3ea12561f217a7f4bfb687b681,"Update README.md
+
+Minor edit to readme layout.",2022-03-07 22:12:58+00:00,False
+f0b8c7c62050a71ce8bb123125a1daae452bd2ab,Added credits to contributors.,2022-06-30 15:21:25+01:00,False
+c6afc6cc3b19227a2bd9a2a532a857beb2b07979,Updated the readme to reflect the latest api changes.,2022-07-11 11:26:03+01:00,False
+3143c8148c1aee874f19ccda6f3e0130b0edb83f,minor edit.,2022-07-13 10:41:07+01:00,False
+c247c4020188920564743e849f4f658067a7ad80,Added note on 2202.7's breaking changes.,2022-07-18 10:51:31+01:00,False
+da3bd89098db7211d02ff39c640252a25f6b7743,Update README.md,2022-07-27 14:47:17+01:00,False
+e644197b8ad54a4bd8dcb9ecc2b2843e13b09ae0,minor update to readme.,2022-07-29 15:29:00+01:00,False
+5a6185f10dbe1b6bfcc768d798c1ab5a61e8587e,minor,2022-07-29 15:30:20+01:00,False
+f1abbae5032def0f336fa0c5da9f814f5f36b86f,minor,2022-07-29 15:31:53+01:00,False
+4cdd20b32e363206c287639ef6d4cb5065ed4908,Updated readme,2022-08-03 14:10:03+01:00,True
+5b3dd93c34c7d87627dc61c8da9cb8a49f9d3d76,minor update,2022-08-03 14:12:13+01:00,False
+aa70d6e43dc990620ed3d5517d1b32161f6f90ac,minor,2022-08-03 14:13:29+01:00,False
+fe1e0c8b7492ce4f6e5e8e678d09fbf5391d69d0,layout update.,2022-08-03 14:56:45+01:00,False
+02c85ccc7d9ebf1e143ed5ca53786e4dd40610fd,Update README.md,2022-08-03 15:01:11+01:00,False
+e806b0ea42477d4400190511774dfe158b4dac39,Update README.md,2022-08-03 16:05:49+01:00,False
+be44c33872f3a84631cf131b18d472057ff42570,updated documentation.,2022-08-05 10:50:47+01:00,False
+c6b67249753934ec65571cdd051b1058f521bb83,readme update,2022-08-05 10:53:51+01:00,False
+4ca344dc77df2997b6e67badcb541bae84240126,Update README.md,2022-08-08 12:20:19+01:00,False
+e2c27d09d800c0d18db208faf07e4feb12e8e239,Added credits to Sergej.,2022-08-21 18:04:19+01:00,False
+f439c6ad06dcdea23691da427b29ebd96065f568,Added credits to OG.,2022-09-05 15:12:13+01:00,False
+4e6a58d2dabe2853a2b998533618f65f4f544109,typo.,2022-10-08 11:31:47+01:00,False
+ecb44617569756a7b64c81d7e59e0d0006fc9c66,update of credits.,2022-10-10 09:10:08+01:00,False
+8218169869fbfa05a11a9fc1e5076864d7962e2a,Moved changelog from tutorial to separate file.,2022-10-10 18:42:44+01:00,False
+9bdea7a46ab9623ff91d91c311d330749060c118,update to docs.,2022-10-30 14:42:31+00:00,True
+49b60bd535c6c1557a273b6d59e7811fcaa590a7,updated links.,2022-10-30 14:47:13+00:00,False
+bd0edab98a486632c237f6c0bf6266ae092ab0e5,url updates.,2022-11-20 17:08:00+00:00,False
+dfec9366587f983dd25799feb0108361fb8a72ba,added toc to readme.,2022-11-20 17:41:42+00:00,True
+d773dc5a54016a728e1ff3788cde96e23b2d8596,"Update README.md
+
+badge update.",2022-11-22 19:47:27+00:00,False
+cc5e244f4025eb92e93ca4d6833d9af57b5e6056,Updated workflows for release based publishing to pypi.,2022-11-23 12:16:52+00:00,False
+74e7b44cfc314950b7a769316cb48d67cce725d0,link update,2023-03-01 09:17:16+00:00,False
+9bb6e572538a85aee31ef8a4a60c0945a6f857a4,link update,2023-03-01 09:20:18+00:00,False
+b8f6384690c0c59683bfa1d09e32bf9131e0e46c,updated link to images to match latest refactor.,2023-03-01 11:27:27+00:00,False

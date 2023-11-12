@@ -1,0 +1,58 @@
+sha,message,date,result
+c75d602d0d901bc2ffa26100e9a72c336eaf1a0c,Initial commit,2016-12-23 17:20:08+01:00,FALSE
+88fb44e45b71b72b45bb727f927f2990c9b66e69,Vue GWT initial commit,2017-01-03 11:57:42+01:00,TRUE
+61fe52da19c266fa8147aa51df390e3c0c3f38f4,"Make README more detailed.
+
+Warn about JsInterop flags. Update the start up guide to not mention VueApp. Add Gitter and MIT badges.",2017-01-04 12:45:56+01:00,TRUE
+249efe449acee6f0fc338275f5257e8601af250b,Improve README formatting.,2017-01-04 13:03:32+01:00,TRUE
+69a3cf4b67ef01dede052a63a07b13ec387294ab,Fix english mistakes in README,2017-01-04 13:08:07+01:00,TRUE
+dea2c8054790cff59e2961e715d39e5b3dd48843,Small tweaking on README,2017-01-05 11:36:00+01:00,TRUE
+70a7130cc41efe0165043a47756a425fb2ba5f42,Add instructions to include Vue.JS in the setup guide,2017-01-06 22:46:19+01:00,TRUE
+12748485855986220cc1cc29b53453c33d0783e1,Fix html character escape for <head> tag in instructions,2017-01-06 22:49:45+01:00,TRUE
+cedc2fa5e38d6266469e0a0477587b8de59df7c9,Fix a missing . in the instructions,2017-01-06 22:50:17+01:00,TRUE
+161668d10ca955398394072efeea8b0115d98851,Fix a title level in the README,2017-01-06 22:51:29+01:00,TRUE
+9f3732668e72b109ea5360b6312d84f08f39f803,"Most of the code has been rewritten to use Annotation Processing
+
+This is a big change in the way the JavaComponent are processed.
+It is now necessary to add @Component annotation to each Component.
+The documentation has been updated accordingly.",2017-01-27 21:00:12+01:00,TRUE
+5e97a2f37a152df1439b71d7ab1af9d59c4b8f74,Remove reference to Components without templates,2017-04-07 16:01:14+02:00,FALSE
+c81258bacf99f341d2abc51c8f43f390bfb8a4fb,Update README.md,2017-04-20 09:56:19+02:00,FALSE
+00a0b8aabcd6e69ec1d9429e444892b6827fd29d,Update Vue.JS name to Vue.js to match Vue.js official website,2017-07-03 11:25:31+02:00,TRUE
+932e6b37d4ca9c6e954c2e7acf48735783efe298,Start moving the documentation to Gitbook,2017-07-03 12:51:03+02:00,TRUE
+3b0010d0ebc2f6e2d3c49d6caa3708b017c6b27f,Add a guide for Vue GWT inspired by Vue.js startup guide,2017-07-03 17:28:07+02:00,FALSE
+704504686eab32abeb1997ee9eb61807543a7195,Add compiled Gitbook book.,2017-07-03 17:47:53+02:00,FALSE
+e57497a6b7eb9be026d50f8e0d12e61e4708ae45,Revert back README from the new version,2017-07-05 10:14:01+02:00,TRUE
+6aa3cc32efecae8bf254d8b25c9e8c935ca99495,Update the documentation to reference GenMyModel,2017-07-06 12:23:50+02:00,FALSE
+6bc358eb216e461454a89ab230fc147771e01449,Update GenMyModel logo to look better on retina displays,2017-07-06 14:42:31+02:00,FALSE
+c07181c1a0ff57fef9eecb868c4d6eba4f31f15c,Update documentation with a section about non supported features,2017-07-13 11:07:19+02:00,FALSE
+06afa44bcaf7a0c16c1f7d16ad134e5877ad145f,Fix links to documentation on README,2017-07-13 11:16:07+02:00,FALSE
+0a4db07035c87c45eb989f460304b6d6f5630221,Update README,2017-07-13 16:20:43+02:00,FALSE
+eb6038fea273fbd497622d929a3ca596c245f843,Refactor documentation to take advantage of anchors,2017-07-17 16:29:23+02:00,FALSE
+3422f14e326ba2fd24f6778ce9140790a90427ed,Update README and documentation index,2017-07-29 01:11:11+02:00,FALSE
+fba1f195db7ef158ff61c8b307146e9291a9eb88,angliche fixes,2017-09-06 21:02:18+02:00,FALSE
+74298684e31691f56641e5f6f70ac6f7e88ee709,Update documentation for version 1.0-beta-1,2017-09-07 11:41:09+02:00,FALSE
+1613159fce0d0153f2be0e8e66f13a703433b4b2,Fix typos in the documentation and README,2017-09-07 15:03:19+02:00,FALSE
+f0270f474cc4d899b45f391c8174b4680b3fcf2b,Add a logo for Vue GWT,2017-09-08 15:43:39+02:00,FALSE
+b0c655a4d4ca0f0c37500024c3aa8006b672f796,Update logo style on README and documentation,2017-09-09 10:35:39+02:00,FALSE
+b9416f25e34c5ae79f6636abdd5aa16af5a7ca10,"Fix size of logo on README
+
+Github doesn't seem to support max-height.",2017-09-09 10:45:29+02:00,FALSE
+ed56044b0acbcd4acaab539935ed5f6b93696b00,Add documentation on Dependency Injection,2017-10-05 17:39:45+02:00,FALSE
+83ca274f5d506552f8be69435ef352e7f04c1b0d,Update links in README,2017-11-18 16:19:20+01:00,FALSE
+40fdb22aa8d0fb742c3242510bc71240be13ec57,Add documentation on Custom Elements (Web Components),2017-11-25 00:53:57+01:00,FALSE
+2da842cd1d1bd3daae44e458864ed02fa3603b9c,Update README.md,2017-12-02 17:09:06+01:00,FALSE
+45ca8c4d70064b0559a1d5efe87b8d61041f6553,Update broken links in documentation and search feature,2018-03-16 14:51:43+01:00,FALSE
+fc9f8e7d61a7dd37326018e5078aeaba04ebbb84,docs: fix documentation links on README,2018-06-07 21:40:43+02:00,FALSE
+aa05f119f8713c672a77aabad3804caf213164b9,"Add CI (#45)
+
+* Add CI
+
+* Change permissions
+
+* Add badge for builds",2018-08-17 12:59:39+02:00,FALSE
+369d230a779957fbf8ff06706e2b6e1c75706a12,chore: trigger a build on Travis CI,2018-08-17 13:21:06+02:00,FALSE
+882b20a31fa952431e4c3ea1de268cb49ff58ad7,chore: update links to VueGWT org,2018-09-06 16:27:35+02:00,FALSE
+56a0bc49d0a73f1c50ac8748c979f9751acf3c5c,chore: update logo,2018-09-09 05:25:02+02:00,FALSE
+89da61bdb78708eb2ade546831afc3348dc8e886,Update README.md,2018-09-09 05:28:14+02:00,FALSE
+7b7aadc67fedfc414e0d1760665ef03538988a58,chore(readme): update GWT version,2020-11-08 16:12:39+01:00,FALSE

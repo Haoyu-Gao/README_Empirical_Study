@@ -1,0 +1,25 @@
+sha,message,date,result
+b3cd1d0978e0d758e18a2e9641c6b6a09e984eb4,fork; initial commit,2019-10-07 08:52:00+02:00,FALSE
+5f2215457c6a67851c702e90d19968ea09941d84,small fixes,2019-10-08 17:33:20+02:00,FALSE
+97423bcf3243efcae86cafb89958261c63f4bbcf,test multiarch container build,2019-10-09 12:38:19+02:00,FALSE
+38d3b029617e4483e69d5974793f226254e7be46,cleanup,2019-10-09 13:03:55+02:00,FALSE
+b48ea2fce0dd9223c548a755811f67a59d3de12b,add basic readme,2019-10-10 14:59:12+02:00,TRUE
+201f18e16c0438077283ff648ae22cdd25bf5f58,add some pypi badges,2019-10-10 15:04:31+02:00,FALSE
+e68ffee83cfd25e5ab962dd56c1bd2692b462952,[SKIP CI] fix env variable names,2019-10-10 15:06:03+02:00,TRUE
+9ee176bba9a15c081e7122c2a1b7c4bb2b4ebe72,[SKIP CI] fix missing env var name,2019-10-10 15:09:02+02:00,TRUE
+ea22d67ee37ed84501dc362fc726d9ebd31af708,cleanup readme,2020-01-16 14:45:30+01:00,TRUE
+ac524698d29672a0b8d680ddc8b44eeafab2e482,update docs and readme,2020-01-27 13:41:29+01:00,FALSE
+a37812031e7d663bc25a5f74cfde3ccf7b68e828,fix license badge,2020-01-27 13:44:26+01:00,FALSE
+9e2a3f052bf9678a1353bab235b380c2ac1812fb,fix readme,2020-02-24 22:17:09+01:00,FALSE
+5e306a8aae129a1c84eef985ba1d9601c02a53a1,add docs validation to ci,2020-06-02 22:17:46+02:00,FALSE
+c83233f34538e70a00b1e3aabff440ee2b98360e,publish to dockerhub and quay.io,2020-09-05 18:01:56+02:00,FALSE
+abf49fad9be6144632578bfa99ba52c8db20e041,fix badges,2020-09-06 20:43:51+02:00,FALSE
+131c2f0c1a45d5aab5f2e732ea2012db6354b6d2,migrate to thegeeklab namespace,2020-09-27 14:21:54+02:00,FALSE
+501d806665b6a13955034bab9e79b42d4cfb2543,add contributors badge,2020-09-27 14:54:05+02:00,FALSE
+d2564b1928698ef9732d352d1ac6887ad3e37188,remove duplicate badge,2020-10-23 13:19:07+02:00,FALSE
+2981079cbf4f5366027c0f4e59a97f226e08b455,docs: add contributing information,2020-12-31 13:43:28+01:00,FALSE
+b37cadaf648c4380aefcc8847f745b4f7cafd1fc,chore: replace master by main as default branch,2020-12-31 14:53:39+01:00,FALSE
+f8302293e35b57a3dafc71bc3b9d17b4d273c100,fix ci badge,2021-01-17 15:10:33+01:00,FALSE
+d1044fb6dad00ddbab378741ee5620c53211ec99,fix ci badge,2021-01-17 15:23:46+01:00,FALSE
+a3f240ef026d0a97bef6b578adb74d4e10cca15d,feat: implement todo identifiers (#246),2022-02-21 21:38:47+01:00,FALSE
+afd4bd2c2616d135372c1d580e14fed2e68ada35,docs: fix spelling in readme,2022-07-15 08:50:06+02:00,FALSE

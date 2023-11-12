@@ -1,0 +1,81 @@
+sha,message,date,result
+c4b7be2917f55e4849b88dd4af3b9fa121ba8930,"added distribution files to tag MDP-1.1.0
+
+
+git-svn-id: https://mdp-toolkit.svn.sourceforge.net/svnroot/mdp-toolkit/mdp/tags/MDP-1.1.0@14 c860887f-54fc-0310-8c92-9a9c51041e24",2005-07-20 15:51:28+00:00,True
+3f0e60760ecf20b6d55a1c32b3dfc6ed9db6eb4b,"Creating devel branch from main trunk.
+
+git-svn-id: https://mdp-toolkit.svn.sourceforge.net/svnroot/mdp-toolkit/mdp/branches/devel@8 c860887f-54fc-0310-8c92-9a9c51041e24",2005-07-20 14:20:22+00:00,True
+abdfa159a89476ed13f565540bc4a8215469ec1c,"added distribution files
+
+git-svn-id: https://mdp-toolkit.svn.sourceforge.net/svnroot/mdp-toolkit/mdp/trunk@13 c860887f-54fc-0310-8c92-9a9c51041e24",2005-07-20 15:51:04+00:00,True
+f9a2e1b6960b597c09bb744567da3a9510e6adac,"added mdp distribution files to devel branch
+
+
+git-svn-id: https://mdp-toolkit.svn.sourceforge.net/svnroot/mdp-toolkit/mdp/branches/devel@16 c860887f-54fc-0310-8c92-9a9c51041e24",2005-07-20 16:00:28+00:00,True
+324c21544ad037c6efcc019b08a58a444fdae3b0,"Prerelease check in. web site, tutorial, distribution tarballs.
+
+git-svn-id: https://mdp-toolkit.svn.sourceforge.net/svnroot/mdp-toolkit/mdp/branches/bore@105 c860887f-54fc-0310-8c92-9a9c51041e24",2006-06-30 09:27:59+00:00,True
+cc4853d40779a3c6c523986c842388f7bfd8c630,"release commit
+
+git-svn-id: https://mdp-toolkit.svn.sourceforge.net/svnroot/mdp-toolkit/mdp/trunk@162 c860887f-54fc-0310-8c92-9a9c51041e24",2007-03-23 19:06:34+00:00,True
+5dd1ce323ffb9c95d219c68e69022deb86894d13,"updated copyright and readme with correct email address.
+
+
+git-svn-id: https://mdp-toolkit.svn.sourceforge.net/svnroot/mdp-toolkit/mdp/trunk@206 c860887f-54fc-0310-8c92-9a9c51041e24",2008-02-10 21:58:26+00:00,True
+47f769bb4c7ad4c9921443d969a7d42920cf48ae,"Added JADENode with tests.
+Added test for output_dim dimension settings after stop_training.
+Modified those nodes which did not comply with this test.
+Updated tutorial to add suggestion for setting output_dim after training.
+Updated CHANGES, TODO and removed last scipy copyright residuals in the
+COPYRIGHT file.
+
+
+git-svn-id: https://mdp-toolkit.svn.sourceforge.net/svnroot/mdp-toolkit/mdp/trunk@207 c860887f-54fc-0310-8c92-9a9c51041e24",2008-03-11 11:07:42+00:00,True
+f5000f1d42e626aa94c2373e3df2a029e41384a9,"tutorial links, html, site
+
+
+git-svn-id: https://mdp-toolkit.svn.sourceforge.net/svnroot/mdp-toolkit/mdp/trunk@238 c860887f-54fc-0310-8c92-9a9c51041e24",2008-03-21 18:46:27+00:00,True
+c8a01a6fb2fd2000ac6b55ca7df6d15f75a8467a,"pre-release check-in: random adjustments (html, tutorial, licenses, etc...)
+
+
+
+git-svn-id: https://mdp-toolkit.svn.sourceforge.net/svnroot/mdp-toolkit/mdp/trunk@264 c860887f-54fc-0310-8c92-9a9c51041e24",2008-05-15 13:18:15+00:00,True
+b3b9b50701667061064c6cb1d4ce32465faa4835,"pre-release cleanup: symeig.
+
+
+git-svn-id: https://mdp-toolkit.svn.sourceforge.net/svnroot/mdp-toolkit/mdp/trunk@265 c860887f-54fc-0310-8c92-9a9c51041e24",2008-05-15 13:50:34+00:00,True
+27d57c82b1ee24f7e0801e97a31067c20fe6f878,"modified README, tagged 2.4 release.
+
+
+git-svn-id: https://mdp-toolkit.svn.sourceforge.net/svnroot/mdp-toolkit/mdp/tags/MDP-2.4@391 c860887f-54fc-0310-8c92-9a9c51041e24",2008-10-17 23:24:16+00:00,True
+f3f51eaefc9ba914396bb72eb274becf2d13bd80,"updated text files just before release.
+
+
+git-svn-id: https://mdp-toolkit.svn.sourceforge.net/svnroot/mdp-toolkit/mdp/trunk@579 c860887f-54fc-0310-8c92-9a9c51041e24",2009-06-30 12:17:26+00:00,True
+ba2743e19d6edd5df46427c3abf1304d7f259b76,"Delete mdp_dist. All future updates should be made in release-manager branch.
+
+From now on mdp_dist will only exist in the release-manager branch.
+If the release manager decides to update, the specific commit of the master branch
+should be merged to the release-manager branch. (Of course, care has to be taken
+that the mdp_dist folder is not removed from release-manager after merging.)",2010-02-19 18:10:08+01:00,True
+6cc3f01d43b62bfa20d2c529d9781419819607e1,"Revert ""Delete mdp_dist. All future updates should be made in release-manager branch.""
+
+This reverts commit ba2743e19d6edd5df46427c3abf1304d7f259b76.
+The idea of a release-manager branch doesn't actually pay off, because
+all the files in mdp_dist should actually be in remote master branch
+apart from the two scripts (gendist & cleandist). I think the two
+scripts can live in the master branch: this would even help the wannabe
+mdp-forker ;-)",2010-03-04 18:30:55+01:00,True
+b262faaa1352eb47375ef342c30975f45e7840c1,"Moved release files in root of master branch.
+
+FIXME: setup.py does not install bimdp at the moment!",2010-03-04 18:35:46+01:00,True
+0c10cfc13378dab2665cc4d06752579c3410faa3,DOC: Updated README to point to mdpdocs.readthedocs.io. (#64),2019-12-14 18:14:56+01:00,True
+2251def7d42d4acb8999d18965b5788471772182,DOC: add a reference to the GitHub page in README,2020-04-18 09:10:07+02:00,True
+63761ceac91753ca20572a33f1e5d7d4ee38db58,"DOC: Point to the new website at https://mdp-toolkit.github.io. (#86)
+
+* DOC: Point to the new website at https://mdp-toolkit.github.io.
+
+* DOC: Updated two remaining references of the old sourceforge homepage to the new github homepage.",2020-05-28 23:48:37+02:00,True
+775b90866c0ff53e758b693a0b420cc51fa9fbb3,ERF: Fancy README,2020-06-20 19:02:28+02:00,True
+ed447f9e7ee9ed250103e82cfdacde5c4fc5d587,Rename README to README.md,2020-06-20 19:03:17+02:00,False

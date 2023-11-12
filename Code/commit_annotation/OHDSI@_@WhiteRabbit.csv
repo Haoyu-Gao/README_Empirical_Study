@@ -1,0 +1,45 @@
+sha,message,date,result
+7bcd0be7f961cb4591bd32091ebec25e2b7d4863,Initial commit,2014-05-16 08:16:55-07:00,False
+a7f73b69243eb8802386b49f4e109c601efc132c,Update README.md,2014-05-20 09:33:27-07:00,True
+eb0fdc2f243a397b56f9ff006798ccfa5d695154,Update README.md,2014-05-20 09:40:26-07:00,True
+0996b77da9653446f861b011de3e7a4ecc2cccee,Update README.md,2014-05-20 09:41:08-07:00,False
+c4c1a2f6a8e9263a87b83c85aabfc42173c89ced,Updated README,2014-07-17 10:02:58-04:00,True
+9c6e2762990e6965eefed6682658cf8862e8c0e7,Updated Getting Started information for RIAH,2014-07-21 14:09:30-04:00,True
+b20b2c4b1db26c444e99d6ae5553539bf68f9f89,Fix typo in README,2014-07-21 14:11:08-04:00,True
+13497c756985a06309b4950824d30df98a8f7e44,Update README.md,2014-08-01 08:26:12-04:00,False
+5a07e4cc2b21f24ed6c78a28181d55c2902a6eb1,Update README.md,2014-08-01 09:11:34-04:00,False
+eb097bc5ada915ca453b4884b9aef5bc7eda78aa,Update README.md,2014-08-01 09:14:13-04:00,False
+449466998b64c52845494ce94d8db770da582145,Update README.md,2014-08-22 10:32:26+02:00,False
+899c804013e4f09a1e882276db4208c1199dd6ea,Update README.md,2014-11-04 20:48:39+08:00,True
+5f8f68b1a21f73bf5f8539e5494ce3893b2ea46d,Update README.md,2014-11-12 14:16:57+08:00,True
+f780fb44a463a8a359e7a5097f38a28ddcac40c7,"Update README.md
+
+Added URL for where to download JAVA.",2014-12-03 11:27:47-05:00,True
+735ff78f9a1908eeba1d86f5093f42ffa0e430ac,"Update README.md
+
+Updating the ReadMe with new required sections",2014-12-03 15:38:17-05:00,True
+7aa4fe61fe7445adcb3ab781e3d8b4f9474de248,"Update README.md
+
+Small URL fix",2014-12-03 15:39:59-05:00,False
+3066cb830cddc91f13b73c4aff96c8f725ed3c9b,Update README.md,2014-12-03 15:44:27-05:00,False
+4705c995d1ba865945b80ddae744e9a9885049a2,Added technology section to Readme.md,2014-12-04 11:02:46+08:00,False
+03d22fe9055dbcebe0e9c94e127ade2fb0b18e92,Update README.md,2015-06-01 12:28:23+08:00,False
+6a8418cddf6ef78ca508c0cfb8ee08207ec4c156,Update README.md,2015-06-18 12:37:57+08:00,False
+48690d307ab5729c9f4d699c55088d663fd57a89,Update how to launch WhiteRabbit/Rabbit-In-A-Hat,2015-06-19 11:52:43-07:00,True
+8016cef72b31bb9988da5b2e89e35fc7312b699d,Bump Java to version 1.7 in System Requirements,2015-06-23 12:30:27-07:00,True
+1d40c29e38df2abcc61d230af2db19b16805f765,Update README.md,2016-02-18 09:21:03+01:00,True
+eab5b31ba36763df8c4efdce015b11a965d1f00c,Update README.md,2016-03-23 14:14:01+01:00,False
+543eae73a58a421685c153c97169265defe74231,Now can run WhiteRabbit from command prompt,2016-11-01 10:59:49+01:00,True
+5ab4aa5ce1d8e48a520b0a4e863d6c1b3efee761,Update README.md,2016-11-01 11:13:40+01:00,True
+27052d738f81f0dc0b9724ba8e39c9f903abf360,Update README.md,2017-04-13 10:32:14+02:00,False
+ba754460c72ef6d2778c95b378d303a78fac6e92,Update README,2019-05-08 09:32:52+02:00,True
+bea60550c8cd5e0d993650afc33c867b73a15584,Fix PR comments,2019-05-08 13:25:37+02:00,True
+07319dda8399dda258ee5751263641794425072b,"Revert erroneous bin placement, remove defunct launchers",2019-05-08 14:00:40+02:00,True
+45cbb1d69935285f6d757a0047ad606fd4c8e1a9,Update README.md,2019-07-30 17:21:48+02:00,False
+4d304360cad2a490785a21cbe789b1faef1ba9e1,zip examples folder and add description of examples in the readme,2019-12-31 11:52:11+01:00,False
+50c90f4a2f60aaaff391d1d3bf3c619d5832ee96,Update README.md,2020-01-07 17:14:36+01:00,False
+f57adf8516043054d5a60999152aa4637788e34b,include documentation in markdown format,2020-01-20 08:50:43+01:00,False
+57de344ee8be7fb1e26139c291992be2796137ca,update documentation urls,2020-03-04 09:29:29+01:00,True
+04dc76dd87ec36ac1396775de925245b7a4c152f,"Add a testcontainer.org based ""integration"" test using PostgreSQL",2023-02-07 15:05:21+01:00,False
+e8a3d01c12c211ccba985db065c96319883d2caa,Improved text about testing,2023-02-08 21:49:00+01:00,False
+894506f1d5edf473386597fc6624d4f57b40e8f7,Updated the README with regard to automated tests using Docker,2023-03-21 20:44:33+01:00,False

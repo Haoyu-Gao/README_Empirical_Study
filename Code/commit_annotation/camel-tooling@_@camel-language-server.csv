@@ -1,0 +1,142 @@
+sha,message,date,result
+ede93801038762c53eaad6977ea6b697486d2a64,Initial commit,2017-01-26 14:38:04+01:00,False
+0ba0b844f0a3010cf0b7e55093fe0c676d3e5d38,first skeleton of the server bits,2017-02-08 16:40:24+01:00,True
+e95dc37752200c6601397bff35baf706a6a37299,Fix typo,2017-02-08 16:49:43+01:00,False
+b66cb4b4907b3f6b44b61fdf29980309fe522c51,Update README.md,2017-02-09 10:23:36+01:00,True
+3e04251261f77cd7100a284ad0a3f3799cd9ce90,Update README.md,2017-02-09 10:30:56+01:00,False
+baeb2ae6d702ad44fdab9626c75e429036bec679,Update README.md,2017-02-09 10:40:06+01:00,False
+4028402d3c8f0e2e5e2204e05b3df1d1d50f5398,Update README.md,2017-02-09 11:00:06+01:00,False
+115fa292b88f52ced01f2b5aca6b90c30995e0ce,Update README.md,2017-10-25 09:42:43+02:00,False
+a8f1d7b0de4891defea48d8b42d5780682da035c,Update README.md,2017-10-25 09:47:26+02:00,True
+df1cdac5e75925d514ee21630783a75ce4b26e69,Update readme to mention availability of Code completion and hover,2017-12-27 11:16:21+01:00,False
+ea10bb873534ec226d5744d9d9356fc0a2d45801,"#51 - Provide instructions for installation 
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2018-01-17 08:42:29+01:00,True
+1e16ffb81d36ec8d335dbc497c0d87433fd7fb56,"Change to apupier organization
+
+repo on lhein organization has been deleted by error and is in process
+of moving to common Camel Tooling organization
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2018-03-15 15:59:09+01:00,False
+66e0336c3bc20aa8357a7bebba554b99ccef30fd,"restructured the repository for server only
+
+Signed-off-by: Lars Heinemann <lhein.smx@gmail.com>",2018-03-16 10:16:20+01:00,True
+722c6bd38d531b5c7cbaf74528b3d91a5c576167,Update README.md,2018-03-19 14:31:53+01:00,False
+a6cd8ec374625498796b40dbcd3b51f9593f5023,"rebranded package names, gav, added handling for gpg, sources, javadoc, deployment to central
+
+Signed-off-by: Lars Heinemann <lhein.smx@gmail.com>",2018-03-22 21:21:48+01:00,False
+f6b420ab1a0dcfe37318c1b87ffed21ac42fc45e,"fixed central link
+
+Signed-off-by: Lars Heinemann <lhein.smx@gmail.com>",2018-03-22 21:31:52+01:00,False
+d9d0bb7dd1b235a641019cd7d51496942d070b96,"#7 - Provide links to client implementations in readme
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2018-04-04 12:17:09+02:00,False
+13637142bc0c8da5de53835a0182935cee79dea7,"#22 - Provide screenshots for completion and hover features
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2018-05-28 12:22:19+02:00,False
+f1717d69059909af9f16f2e03053ba6523cb3d8a,"Include diagnostic in list of features (#112)
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2018-07-11 14:02:47+02:00,False
+f13c3b857b271cd83da8a971b3b8affc7e24cac9,"Replace http by https #223
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2019-04-25 14:47:57+02:00,False
+4d4f7c79fa9de6f06c51162cfbd2e9af1cd4803d,"Update list of clients #258
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2019-07-31 16:01:53+02:00,False
+1cbe522b5284ac046f3ba877921cba00001ebb33,"Provide websocket support #260
+
+- use Tyrus, the reference implementation
+- connection through non-configurable port 8025
+- camel server jar needs to launched with --websocket
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2019-09-25 08:38:41+02:00,False
+48e42d4ec2a86de18f93d6181b586a55c37f518d,"Provide configurable WebSocket parameters #303
+
+allows to configure hostname, port and contextpath
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2019-10-03 08:54:14+02:00,False
+3f297d97e6a907c69443a388f7755373cd724c2e,"FUSETOOLS2-54 - support loading of specific version of Camel catalog
+
+- the format contains an extra layer of ""camel"". it is to follow-up
+conventions of xml and Java Language server implementations. it also
+allows in the future to potentially read properties of other Languages.
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2019-11-13 17:26:37+01:00,False
+3e107c3f465b07ea53377b6bec5b1361f8b8c281,"FUSETOOLS2-72 - support additional components
+
+provided as a JSON list following the Camel Catalog syntax.
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2019-12-02 16:30:00+01:00,False
+9a3a939004313d315be459c467bf77143a76b708,"include Document symbol support in readme #80
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2020-01-06 15:41:46+01:00,False
+42d9789f104dba8bc07e8504ce453d13d6d20eb7,"FUSETOOLS2-178 - add information how to use productized catalog
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2020-01-06 16:01:28+01:00,False
+36bf240f6f7519c22a8c7847f780473cab812d4f,"FUSETOOLS2-707 - add information in changelog about which folders are
+filtered out for Camel K modeline resource like properties
+
+added very rough description of Camel K modeline support to have a more
+coherent readme
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2020-09-25 08:42:22+02:00,False
+40744869895bfbc0ee3a2950cb405a88491e9f1d,"FUSETOOLS2-825 - update badge for Travis moving from .org to .com
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2020-10-29 09:24:38+01:00,False
+a23f7d9d1a86e9450c32d7cce3c5cfd687fab86d,"FUSETOOLS2-866 - add badge in readme for Circle CI
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2020-11-30 08:51:12+01:00,False
+21c6d14abb81db9f255e5fd51ec5d3cbc3a0936d,"FUSETOOLS2-839 - remove Travis
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2020-11-30 16:13:26+01:00,False
+6b273863fd0e6dd289ad9924d1093a4101fce98b,"Update badge for chat, move from gitter to Zulip
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2021-01-22 18:46:38+01:00,False
+9ebe05890868f88ef2585582553930f7846a0f55,"FUSETOOLS2-961 - Provide a setting to set a Runtime Provider
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2021-02-03 16:22:48+01:00,False
+18f6dd5c806511d68d59df56a9fb35ad47760f07,"FUSETOOLS2-1057 - provide completion for kafka topic
+
+first iteration:
+- does not support multi-topics (which is possible for consumer
+configuration)
+- does not support connection that requires authentication
+- use localhost:9092 by default
+- use system property to override connection url (not convenient for
+language server clients but useful for testing)
+
+next iterations:
+- connection url provided with a setting
+- support credentials
+- support of multi-topics
+- use `brokers` attribute if provided in Camel URL property
+- completion for some attributes that can be retrieved from a connected
+instance? partitionKey? others?
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2021-04-12 22:25:41+02:00,False
+d0533e1584232b5678fe3cb2f8030207d21533bd,"FUSETOOLS2-1059 - provides setting for Kafka Connection url used for
+completion
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2021-04-16 11:43:32+02:00,False
+fc00c20417a15f8437c9b3869175fa3e09305564,"FUSETOOLS2-1677 - improve support for productized catalog
+
+Only the classic catalog is covered. It allows to cover the Camel
+Quarkus use case. It will cover the SpringBoot based use case when it
+will be productized.
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2022-07-18 12:47:47+02:00,False
+4500731d86b6cf8178f10cc4584260abb3b51303,"Update readme - more dsls and more clients supported
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2022-07-19 11:27:05+02:00,False
+53c3b331cee0a6b1485cd13525f17677d422c406,"FUSETOOLS2-1912 - Configure sign and deploy from GitHub Actions
+
+- The Maven central token has been made completely configured from
+GitHub secrets. Created from my Maven Central Nexus account as described
+in https://github.com/chhh/sonatype-ossrh-parent/blob/master/publishing-to-maven-central.md#configuring-maven-to-know-the-credentials-for-sonatype-servers
+- GPG keys and passphrase are configurable, currently configured on Ci
+from my own account (apupier@redhat.com)
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2023-01-10 13:35:51+01:00,False
+40e041d68bfc27a0567aa043ad388f9f4babb2b9,"FUSETOOLS2-1 update readme for clients
+
+Signed-off-by: Aurélien Pupier <apupier@redhat.com>",2023-05-23 16:58:06+02:00,False

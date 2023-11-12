@@ -1,0 +1,58 @@
+sha,message,date,result
+00bcbb8d7ec3ecd19c00d44971f4fbab1921ed01,Add TFLite example (MobileNets on Android).,2018-09-21 15:51:39+01:00,True
+b88a14e90870b4164c7316be806b405c703c5106,Document scipy dependency.,2018-09-21 16:12:03+01:00,True
+da96056250f6bdafc315494f505ff5fdb480fe87,fixed typo,2018-09-21 20:05:15+02:00,True
+585f062e60a2cb47f3aef4ff7e4a1da9571674d0,Update README (rearrange for TF benchmarks).,2018-09-26 16:35:06+01:00,True
+e88f05d56f7a21d279d3c7b8eab44f0d26ba2ff8,"Update README.md
+
+- Fix subitem indentation.
+- Change Ubuntu -> Debian.
+- Describe TensorFlow Lite / Python / C++ in this order.",2018-09-26 16:44:12+01:00,True
+7c2bfbe5077f0b53e1c083d765407e1160db6eba,Add TensorFlow (Python) instructions.,2018-09-26 17:11:51+01:00,False
+26c6fc98d2a37b68be76d1ea58c18400f605556f,Binary TensorFlow package requires system protobuf.,2018-09-26 17:18:25+01:00,True
+5fda03aeae703201b103827fe8f5407189fcb0f6,Add TensorFlow (C++) instructions.,2018-09-26 18:43:35+01:00,True
+39e1d953ce32ffbff3946ab6e8cabd20faef9eb7,Provide more details on models.,2018-09-26 19:22:16+01:00,True
+257958bd5a9be7a850b11b2d9995b0e88950761c,Move MobileNets v1/v2 paper references to top.,2018-09-26 19:25:19+01:00,False
+f077fe2332a41a83eb8e1bc3495a57ce0b82c852,Update TF (C++) deps and update to 1.10.1.,2018-10-02 11:31:41+01:00,True
+d3ede52fdbf18cbbf5f4519726e5ec432c015079,Provide full paper titles for MobileNets v1/v2.,2018-10-02 11:35:51+01:00,True
+ed605470f4ae623c835ab0e5e183081bb72aded4,Document zlib dependency.,2018-10-02 11:37:55+01:00,True
+811f2bcddf731e88ed254f8d551555acaa810c1b,Add optional Android target to TF (C++).,2018-10-02 12:05:31+01:00,True
+0d3a02dd3e3a2d31b8c0e42cfea116e6c3444d62,"For Android, recommend TFLite but not TF (C++).",2018-10-02 12:55:49+01:00,True
+e8614c8be1d7c55fe1c2ce5adb6183ac94da5481,updated logos,2018-10-16 18:14:41+02:00,False
+71e26ae69ade10e25e8577c5a539e1c5d0d91fb6,automation badge,2018-12-19 13:32:57+01:00,False
+8f5b81332a85bb908cb86a94d92285475d94df67,badges,2018-12-19 17:09:35+01:00,False
+bcaf16c33d33324cd63bcbe84603b987f1d4a6db,added DOI,2018-12-20 22:41:20+01:00,False
+44ac904776c18e4e3e3f6f68d6d42f5c1ff722a3,added Travis badge to README,2019-04-10 16:49:02+01:00,False
+84b25362575b8b01dea98abc93ab525cbf692958,Clean main README.,2019-04-12 11:51:23+01:00,True
+1a878e574296bfc6c6921fa39bd0064e8fd8c7cd,Add MLPerf Inference v0.5 matrix.,2019-04-12 12:12:18+01:00,False
+cd88adb1dd52f27b96be6ab291e59a69b927dc4b,Add links to MobileNet implementations.,2019-04-12 12:15:50+01:00,False
+6867af417d2d14e56b11cfddb3c7e30f38b921fe,Add links to ResNet implementations.,2019-04-12 12:19:09+01:00,False
+4a8862ca7e1b933b2cd567aa25f11174f0af0279,Add links to SSD-ResNet and GNMT implementations.,2019-04-12 12:25:29+01:00,False
+1df1aa8dafbb29ba1ef74b0f78c67ed7cab73517,Add links to Object Detection implementations.,2019-04-12 12:31:32+01:00,False
+29433574df63de3897e4440a7d3886e429a3cb13,Link to mlperf/inference/pull/72.,2019-04-12 13:45:40+01:00,False
+648cc9ce5f265671f1fddb7346cfdeab34c28334,Update for TFLite SSD-MobileNet instructions merged.,2019-04-18 12:05:51+01:00,False
+8ef6a5cf550c61125af7d6e2a008bdee676b023e,Update for ONNX MobileNet instructions submitted.,2019-04-18 12:10:00+01:00,False
+03a3f6f6a90d0d365f9e016488151c5407a58d12,Update with owners and contributors.,2019-04-18 12:28:30+01:00,False
+0d0499dea95bf4f4b24ff1a3202c8e56a484cf33,Fix summary table.,2019-04-18 12:30:32+01:00,False
+cb1c297fc1360526cadfb60f59170c036d12e7f2,Ackhowledge principal contributors on per implementation basis.,2019-04-18 20:58:12+01:00,False
+583209955917e6d0ca2b601b53a08cbe9c085fdb,Update status of ONNX classification workflows to 'yes'.,2019-04-24 22:44:31+01:00,False
+15a57ee0c817d6f8921d36057416ac57e0538b55,Add links to ArmNN workflows for image classification.,2019-04-24 22:57:07+01:00,False
+c0772b9288b74c56ea287f24f9063063dc591f55,Add environment (OS) support.,2019-04-26 12:20:22+01:00,False
+8dc597c082f97e5e3038cab69177681d81f78ad3,Fix table cells.,2019-04-26 12:31:08+01:00,False
+4d222a1205d0ae0ce8a3ee5d8585b3f8567f95d9,ONNX Image Classification has been developed and tested on Mac.,2019-04-27 23:54:14+01:00,False
+07c76cd0ff37bc2eb7c0e6a53f171d2357fbc6cd,Update README.,2019-09-25 10:46:08+01:00,False
+add1e7d26cfc9daa57c7aadaf0f3b1f343fbd455,Fix README.,2019-09-25 10:52:27+01:00,False
+04018805b8cb968d13cb41382aca76d33223818c,Add instructions to install datasets.,2019-09-25 11:22:52+01:00,True
+94312e194910834026fefa9405819eb9f08e41ec,Link TOC to models. Move comment about symlinks down.,2019-09-25 11:34:18+01:00,True
+1a2fbb3a54d33942763b4e9d10ba92d804d4807a,Install LoadGen for running without Docker.,2019-09-25 12:24:30+01:00,True
+5c6f6ba0f6a715fba38a630c1648a2e1e45baa39,Test LoadGen import with a caveat.,2019-09-25 12:43:53+01:00,True
+b2ff9dd94b48cc8a9f0775dfafd7f600eb9fa091,Separate instructions for running without Docker.,2019-09-25 15:10:57+01:00,True
+11b914f00b7c177358bd168ad052e6dea07c053f,Merge LoadGen with other prereqs. Advise to use the same Python 3 version.,2019-09-25 15:28:23+01:00,True
+d894a6dac3a81f0b0718d20d11900773c49d5ef4,Update README.md,2020-09-03 10:15:06+02:00,False
+1fb00a1352e62913905b0c4df8df38854660494b,added info about AI repo,2020-11-15 20:44:30+00:00,False
+a7466db2c3830b08d7407243c11831671632504e,clean up,2021-02-06 10:36:06+01:00,False
+61a03b211528f46b83560a8390723110b8964ca3,fixed travis and updated news,2021-04-11 21:28:45+02:00,False
+28450b4fa81b7e68d5ed17432fc2791a4779cb7e,fixing travis,2021-04-17 21:51:45+02:00,True
+0bae06f3787e1f0cb83aac7fe641755d3594abe0,fixed links,2021-07-10 14:29:10+02:00,False
+0e22930c1519685e6a1d12db26faeb003594f9f8,Update README.md,2022-09-22 10:54:14+02:00,False
+bd14e18fdfd1eb7f9dd5635d4af3de01affd9629,Update README.md,2022-09-23 16:40:50+02:00,False

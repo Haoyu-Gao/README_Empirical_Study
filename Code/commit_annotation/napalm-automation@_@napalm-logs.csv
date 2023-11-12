@@ -1,0 +1,53 @@
+sha,message,date,result
+5f4398183c61ed987223394d296fef7938fa0818,Initial commit,2017-03-14 14:30:20+00:00,False
+00595f77ff8155db547eea79f7212033c6581cba,More readme details for pre-release,2017-03-31 13:47:34+00:00,True
+ef0dcf2e3ce714cbd3a5d942d7d90a85c0e3ae4c,Insert logo in the readme,2017-03-31 14:59:52+01:00,False
+46c038678ae20480f7901206e2b9168d2adc3944,Small README updates,2017-07-07 11:48:20+01:00,True
+5bb3b726f58cff3a73dda53150d0d3955ee2e23b,"Remove some dependencies to increase speed
+
+Previously we were loading the default OC object each time, however
+as we do not use any of the defaults there isn't much point as it
+drastically slows things down.
+
+Another benefit of loading it each time is to make sure the OC object is
+correctly defined, however this does not need to be done every time.
+Therefore in future it should be checked manually before submitting /
+accepting new message config.
+
+Before the change:
+
+```
+Sent 735140 messages in 60 seconds
+Sent 736409 messages in 60 seconds
+Sent 744102 messages in 60 seconds
+Sent 740599 messages in 60 seconds
+Sent 742752 messages in 60 seconds
+Received 470 messages in 50 seconds
+```
+
+After te change:
+
+```
+Sent 584443 messages in 60 seconds
+Sent 587113 messages in 60 seconds
+Sent 576232 messages in 60 seconds
+Sent 582314 messages in 60 seconds
+Sent 575888 messages in 60 seconds
+Received 106044 messages in 50 seconds
+```",2017-07-07 11:52:13+01:00,True
+79ed56c2039cd45ed4b511deb53a10d2c253dc04,"Add severity and facility to ooutput dict
+
+The priority is made up of facility * 8 + severity
+(https://www.balabit.com/documents/syslog-ng-ose-latest-guides/en/syslog-ng-ose-guide-admin/html/bsdsyslog-pri.html).
+So to get the severity and facility from to priority you need to do:
+
+```
+facility = floor(priority / 8)
+severity = priority - (facility * 8)
+```",2017-08-02 15:55:43+01:00,False
+38f82ba5e441befb5e888cbc94a7abe40d12727b,Update README.md,2017-09-06 09:52:10+01:00,False
+32f735675e42a8699791a3e9d6a1ba734327e033,Missing comma,2017-09-06 11:38:07+01:00,False
+1e5494fd2af56c9de13bcdf6859cf9670c547fd8,run tests again...,2017-12-14 09:05:52-05:00,False
+5bb4b16585d2dcfdfde50050a23ba7e38278572a,"Update README.md
+
+Fix spelling typo for word, ""structured"".",2019-01-14 13:14:18-08:00,False

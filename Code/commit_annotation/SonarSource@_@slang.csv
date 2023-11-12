@@ -1,0 +1,49 @@
+sha,message,date,result
+dc2165d8b35ea3ba70e64ba59aeb20666e162bd7,Initial commit,2018-05-28 16:52:01+02:00,FALSE
+b42fda4acf69c88b3bdd42088aaf325c92880ec2,"Setup integration tests (#62)
+
+* WIP in ITs
+
+* Added sources to its
+
+* Add ITs ruling module
+
+* ITs for sonar-lang kotlin
+
+* Add expected issues its
+
+* Add expected issues
+
+* ITs: Update plugin name and adjust test configuration
+
+* ITs: adjust Maven setup
+
+* Remove tearDown method
+
+* Update README.md",2018-06-12 11:03:14+02:00,TRUE
+a2bb44b590f3a8214211bad6642c30189cdd1962,Upgrade orchestrator to 3.19,2018-06-13 08:55:54+02:00,FALSE
+f8a20d6d7af4089127e3685ba5a3ec94c88934c3,SONARSLANG-35 Exception handling in slang (#88),2018-06-19 17:00:05+02:00,FALSE
+557d0ba9343156b89dd5cdab535f5e4f22feb949,Update README file (#220),2018-09-03 09:11:17+02:00,FALSE
+4aa5948c2187194d00eb95f8053a8bc4cd13adf4,SONARSLANG-182 [Scala] Create sonar-scala-plugin skeleton (#225),2018-09-24 17:58:26+02:00,FALSE
+95e612dd7e6a3a6df31811e0e53373ac1b189cf1,Create slang-enterprise gradle build,2018-11-29 16:15:33+01:00,TRUE
+79e2a75b4cf09e5e673dfabd2643b163b9a937f6,Update public and private README,2018-11-29 16:15:56+01:00,FALSE
+c44829d46dfeb29b37d905f0bc7fade500792cdb,Fix SonarQube badges broken links,2019-01-15 20:18:17+01:00,FALSE
+3f477e63caef4167177b8e44e50d0ae09978cbfd,Fixed link to the SonarScala documentation,2019-04-02 12:05:30+02:00,FALSE
+cd7cc09235da314125fb9068e224f56a877a30a9,Add link to community in README (#41),2019-06-11 20:18:15+02:00,FALSE
+33a784736e6634d567623b369ecf30be28e0d2b8,SONARSLANG-375 Setup plugin backbone for Slang support of Go (#42),2019-06-27 14:07:42+02:00,FALSE
+ac7688a93cef1cf3a7a1f27743e0f4afd8d85d57,SONARSLANG-484 Update branding to drop 'SonarScala',2020-10-06 00:40:17+00:00,FALSE
+f4115ed2566dc1809855409938b3ca672f18e8bc,SONARSLANG-482 Update branding to drop 'SonarKotlin',2020-10-06 00:40:17+00:00,FALSE
+c0137300395bffaa507dda370cbd9ce059d58d92,SONARSLANG-481 Update branding to drop 'SonarGo',2020-10-06 00:40:17+00:00,FALSE
+5eda94edc58bb084cc1218ec086589c93c0241bf,SONARSLANG-483 Update branding to drop 'SonarRuby',2020-10-06 00:40:17+00:00,FALSE
+b4951bf5603a661ce02a16c1e13ec37289e8d0c9,Update README.md,2020-10-06 00:40:17+00:00,FALSE
+33a49ff70cbbf526b3c358afb4d90437574da79a,Update documentation about running ruling tests,2020-10-07 00:40:39+00:00,FALSE
+e21a5cb851fb0d8127ecaecba196e4a50a1b360a,Update sonarqube version,2020-10-07 00:40:39+00:00,FALSE
+27ec127c712bd670b9d41f3f4a9e2496b706537e,Update README.md,2020-10-09 00:40:58+00:00,FALSE
+320bc7b42821f6b23fcd0c088cfbd7bd8cea3b37,SONARSLANG-493 Upgrade Kotlin compiler to 1.4.10 version (#131),2020-10-10 00:41:13+00:00,FALSE
+e014418133088bb9f0b33b7f6950f9f8d3c3bddd,Add setup steps in README (#149),2020-10-13 00:42:24+00:00,TRUE
+283054d0249c7088469bf4a2dc85cb6b2f55a8b1,Add tests for public plugins,2020-10-16 10:23:31+02:00,FALSE
+49e2ed44532e25c824519a3ac5d8616d37f858c0,Update README.md (#173),2020-10-20 00:44:21+00:00,FALSE
+70797763356eb4538669c577b342c9076ba339e0,Move Kotlin analyzer into https://github.com/SonarSource/sonar-kotlin,2021-09-08 07:17:45+02:00,FALSE
+5b54fb980df3c1f45e0c9f2850e2843abe9b78c2,"Use spotless plugin and stop using com.github.hierynomus.license plugin
+for Go, Ruby, Scala",2023-02-18 00:16:04+00:00,FALSE
+6c7392fbdc385295823d564b0dde781de0795697,Remove outdated SQ runtime version from README,2023-03-29 00:17:28+00:00,FALSE

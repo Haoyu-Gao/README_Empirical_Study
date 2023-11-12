@@ -1,0 +1,23 @@
+sha,message,date,result
+bb9268e731b73992b87a4e795264879384120d0a,Create README.md,2021-12-18 14:53:55+01:00,False
+91222f9cd7c1461a120d3d7b6f436c2eca52217a,Spelling,2021-12-18 14:54:16+01:00,False
+e2761e474763378a482a484edf581864c1353079,New readme.md,2022-04-21 10:27:30+02:00,True
+ee399a38ff8275bf9155ebfbb9eeef7462ba810a,"Updated banner for readme
+
+Signed-off-by: Sigmund Granaas <sigmundsgranaas@gmail.com>",2022-05-02 01:14:59+02:00,False
+3304bfa2705e2ee6a06c1a69599479cf2ef3f1e6,Restructured project to use multiple modules,2022-09-06 01:14:26+02:00,False
+c70b80bd78d327fa3424c44dd5289b5856a89709,Implemented a resource loading pipeline with injection points,2022-09-18 14:44:48+02:00,True
+e03876bcfa2ef0dce5455993630ae6bcd75c7823,"Tweak readme, add `CONTRIBUTING.md` and `CONTRIBUTORS.md` (#541)
+
+* docs: Tweak readme
+
+Updated the roadmap, installation (now development) section, contributing, contact, and uncentered the text below the banner.
+
+* docs: Remove back to top buttons from readme, add `CONTRIBUTORS.md` and `CONTRIBUTING.md`
+
+* docs: Fix typo in readme link
+
+The acknowledgments section had a typo in the readme template link. Also, git happened, that means more changes to `CONTRIBUTING.md`.
+
+* docs: Replace patterns with schematics and better word a line in the readme",2023-03-26 17:31:53+02:00,True
+a1bf4bd766f90cf1bc59ae71fa20afb7061829c1,Banner typo,2023-05-29 23:07:06+02:00,False

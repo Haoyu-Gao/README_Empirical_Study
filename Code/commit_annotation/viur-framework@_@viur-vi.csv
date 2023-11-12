@@ -1,0 +1,36 @@
+sha,message,date,result
+077fbd86908aebe9c42eb95eb9ef678f73cc4cff,"Extended Makefile to setup target, added a README.
+vi.css is now a default-file which can be copied to get Vi run without lessc.",2014-10-27 17:28:33+01:00,FALSE
+a7cc6a4dc8ecc250a038f78af7740444d415e924,Small fixes in README and Makefile.,2014-10-27 17:40:38+01:00,FALSE
+a542e01ee5f8371f0055f671256c8d4d8d8f2860,Fixed panel collapsing bug and changed README.,2015-02-11 16:36:45+01:00,FALSE
+253cd1170c922f4cf063820a15fffce830cf0935,Give me my markdown highlighting back ;),2015-05-06 10:38:47+02:00,FALSE
+3f27a000013c0b96af9b4d62bfed049bfd6978e3,Updated README and LICENSE.,2016-12-21 16:12:53+01:00,TRUE
+83626a67976a6a8a893f0f7ee4df066ed8063b08,Fixing README.,2016-12-21 16:14:35+01:00,FALSE
+d4527529dff94278d080755b3675bffc2cde9a35,lessc link.,2016-12-21 16:15:31+01:00,TRUE
+22e55f2d877a64335c592735ad5a0467b14de46d,Updating README and html5 library.,2017-01-13 14:36:50+01:00,TRUE
+d0d9e0b367688527d7e79fd1ed1722b15475862f,Adding a new README file,2017-10-16 16:58:34+02:00,TRUE
+3db53c2d6f9eb4b399e452b7a1f5305ef2ab92f0,Travis build file that works...,2017-10-18 13:10:40+02:00,TRUE
+f5817e0c06f69e80de3361caf02f087e3ffd34d5,Updating html5 submodule to latest develop.,2017-11-02 15:24:11+01:00,TRUE
+0bc5595c308a922c1daff964056ac0b6df93a1ec,Bumped version number to 2.1,2017-11-02 16:11:09+01:00,TRUE
+da7c85ac639c0b12d96033eb9f631e084743802b,Updated CHANGELOG & README,2018-02-21 17:36:00+01:00,TRUE
+9305c41b9ea285dbbb29c4dd36a9cb17a05ae7f1,CHANGELOG and README modifications,2018-04-19 12:08:56+02:00,TRUE
+4340b454d337553195f538d7a7698578fb91035d,Re-enabled #viur irc channel in README,2018-04-20 11:47:45+02:00,TRUE
+aef6d764834665d8068ac389d101bef0bb300b70,corrected release version and year,2019-05-17 13:21:31+02:00,TRUE
+1e2c2f24193ab486803969335175e99965038535,"Finalizing new source code layout
+
+Please look into base (`feature/viur3`-branch) for further info",2020-01-31 12:24:03+01:00,TRUE
+6cca1f9e9fe9b346723abbdf2df802cf48804a45,New get-pyodide.py using official repo,2020-02-03 14:49:01+01:00,TRUE
+949fac65a09ed7c1b8c04088e23537f99ce58a51,"Update README.md (#53)
+
+Small grammar corrections in readme",2020-04-07 12:39:42+02:00,FALSE
+2de7e35dd21e1099925d9c17d3b294ca0e73b65c,Pyodide-related startup & fallback stuff,2020-07-01 22:15:36+02:00,TRUE
+2ea7547a8236a18d8837e8f53c164600192d54df,"Update README.md
+
+added release build badge",2021-03-08 14:53:33+01:00,FALSE
+29c531557f965ef87516a7edec86055ace4eca50,"Update README.md
+
+added docs build badge",2021-03-08 15:37:22+01:00,FALSE
+fa3266e882a2b458eb2c4477c4773a0d399af1dd,"WIP: Consolidated vi and flare bones styling as well as vi, flare and ignite (generic) elements.
+Updated the usage of several generic elements.",2021-10-13 17:29:20+02:00,FALSE
+6b31c7b0864ffca55d094b46b0e12bc0c7d69edd,Updated README.md and version number.,2022-04-14 15:48:04+02:00,FALSE
+7a9870f542f8581d178db68ecf7ef12df515def8,.gitattributes,2022-04-14 16:21:10+02:00,FALSE

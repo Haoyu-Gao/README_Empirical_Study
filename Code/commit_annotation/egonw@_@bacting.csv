@@ -1,0 +1,104 @@
+sha,message,date,result
+0a4c901e10534815154bf1b67633122b66501261,Initial commit,2019-04-11 08:38:07+02:00,False
+1768e0682b09c0f08a5e00fa82a916fb89a6feb4,Update README.md,2019-04-11 08:48:52+02:00,True
+dc8d74568e95a8e9619a0e73a77f2e2ef3bc3d44,Copied in my first steps,2019-04-11 18:16:57+02:00,False
+830e3d0736a789a74098cdbdbb323586fce6d265,"OK, outline finished",2019-04-12 07:42:33+02:00,True
+c2b162091fa1812fc3ee1a72bc7aa6d7ccca193c,Simplified the example,2019-04-12 08:10:41+02:00,False
+c9985b095b8a1fce3871547740ba94b23cbc9e67,Info of clearing the Groovy cache,2019-04-12 09:27:07+02:00,False
+ec4bdca3f74839c063e8ed028353dd89e92dc3a1,Removed an obselete line (closes #1),2019-04-12 09:54:02+02:00,False
+7e3fad137aa933ed78b3d18b69a688b59fa72414,Added a how to cite,2019-04-12 16:16:03+02:00,False
+7c6c283ee6a0c61e1c9991f7f41674820038ae1c,Updated license info,2019-04-13 09:02:19+02:00,False
+61d60c148b82d42a312e66cc99b23f479fbbbcae,More info.,2019-04-13 09:07:32+02:00,False
+2c3b0cc4c4c60b4228082a8e4d56e657c782bb53,Update README.md,2019-04-13 09:15:11+02:00,True
+d995770a14e780a554d4edc0b5bc3e68c0a9eb43,More README tuning.,2019-04-13 09:15:57+02:00,True
+9ed146c9880a02d56304b0db44b8ab01f3f6515d,"First release, version 0.0.1",2019-04-13 09:46:43+02:00,True
+724abfb0f898d4006b9e87b088ab7a6b98c54e35,Added the Baction 0.0.1 release DOI and update the example to use that version,2019-04-13 10:24:24+02:00,False
+2c35fbfd69bd526a74b31b0d220c9adbbb228162,Updated the Zenodo badge,2019-04-14 10:05:43+02:00,False
+118e75f19a5f21880839779ba6ec9256b83a9bea,Latest version,2019-04-20 14:09:29+02:00,False
+16ebd50dee8fc3e4904d92955e2ed3528c602c95,Updated the Zenodo badge,2019-04-20 14:30:06+02:00,False
+688fa6684d21250bb85c880b8fd2d4af1dcd493e,Updated the DOI badge.,2019-04-30 20:21:56+02:00,False
+51c03a4c7c5f504c6eea4305b2d5b444c1771666,Updated.,2019-04-30 20:23:11+02:00,True
+ecd82e6c5b4bc59a6bc3c0ffb93e7fe841e4634b,Hardcode the version number for now,2019-06-20 15:26:42+02:00,True
+38a2e9632630a91d173245a15c4758f2093658ee,Updated the README for the new groupId,2019-06-22 13:03:37+02:00,True
+1086f4e39b352579a2163030f2d9c69e96e55a8b,Updated the Zenodo link,2019-07-14 10:07:30+02:00,False
+48d884750256bb74084d3fd5ecf288da30604928,Added the Maven Central badge,2019-07-17 22:46:39+02:00,False
+8585f6a9872963a522d9165c563a4f5f3342bc52,Updated some metadata,2019-08-10 14:40:05+02:00,False
+2de8f48a5b496ae61eac5e439345887a7f269412,Setting up Travis-CI,2019-08-25 09:56:01+02:00,False
+1b6b480c129df65b5804ed03375edf8461b5e0cb,Updated the version in the example,2019-08-25 09:56:59+02:00,False
+4ae4620eeb6c14309c72e0622ab2b9be30fdba49,Fixed to match the current groupId,2019-09-27 15:42:07+02:00,False
+661015f9e34e62b14cc50bb881c52dc37ea6bcae,Updated for the 0.0.9 release.,2019-09-29 19:03:58+02:00,False
+1f5768bb45e8786838beaf112121ac4194497119,Updated the README,2020-07-19 12:50:27+02:00,True
+9b13df2b4f899b55f2457c8bb9c746b749dcd6a2,Added JavaDoc info,2020-07-19 14:24:50+02:00,False
+7607da15e7904d172ab91352aa375db97bf14db7,Added mention of the preprint (submitted to JOSS),2020-08-09 11:00:04+02:00,False
+b53d508aa13c68c586f9e5301dcb7271486da3ee,"Removed old code no longer in use, as now done with 'maven release'",2020-08-09 11:00:25+02:00,True
+552e3e4bffbbfc40aedaecf37127ffa6cd0b3206,Bumped the version number,2020-08-09 11:00:35+02:00,False
+e835bfe4123b2a0fd78b1ddbc37f2313baf826fb,The general (version-independent) DOI,2020-08-09 12:29:02+02:00,False
+53365929d3d2fb495632e39daf3295c40bf7934c,Don't sign,2020-12-23 12:04:55+01:00,True
+8e7e8fc82eed2cee9a181b02bbd62d21ff2b68c9,Added a short description of what Bacting is/does,2020-12-23 12:04:55+01:00,False
+d7726449437fc02ba166354d6febae0edf24f2a1,Added info which Java versions are supported.,2020-12-23 12:04:55+01:00,True
+304ec685911025d836e229afa1543024e0dc7739,"Clarified TNG.
+
+As requested in https://github.com/egonw/bacting/issues/11",2020-12-23 12:04:55+01:00,False
+c04f6606aaa94423944f69b4b67d31db5f1e098b,"Clarified why the README suggesting citing the second Bioclipse paper
+
+Per question in https://github.com/egonw/bacting/issues/11",2020-12-23 12:04:55+01:00,False
+c8c5fafa04a9c6a8911ddb8e1d921d6a6c256a53,Clarified the relation between Java and Groovy,2020-12-23 12:04:55+01:00,False
+2c19152ceef895a7bda112e4c44ffaaf6c10227d,"Explain what the code example is doing.
+
+As suggested in https://github.com/egonw/bacting/issues/11",2020-12-23 12:04:55+01:00,False
+888e48e1a61595903d78ee2eb6c461e0cc8564f1,Added three real world examples,2020-12-23 12:04:55+01:00,False
+5a627a1877e785aa06083dd6d2a4995b55cf549f,Do not create JavaDoc by default,2020-12-23 14:58:21+01:00,True
+3c408fb935898184e555ecc0ac0d2eb43feb9361,Added the codecov badge,2020-12-23 16:17:04+01:00,False
+7e1c30e7815d99363eb36b810180b700d551c5f6,Added instructions on how releases are made,2020-12-24 16:03:47+01:00,True
+7977212a742713081867c0d10edf3b5683f43d73,Added a link to the overview of APIs supported,2020-12-24 22:35:26+01:00,False
+c62ecf2d617a8142eb6fe6abc106275af5e3504c,Updated the build badge,2020-12-30 10:44:51+01:00,False
+9429a9646d19ff1506dacc1b49490881752e2dd0,Added the instructions on how to create the JavaDoc,2020-12-30 10:48:56+01:00,True
+c0b60bd2f9d1764acbee00b6d5b86b3466635371,Some example from 'A lot of Bioclipse Scripting Language examples',2020-12-30 11:22:42+01:00,False
+c8dbd7c84ff9da8510cb37faed64a0fbbb376660,"Updated the copyright section, as it still reflected a very old version of this repository",2020-12-31 12:49:58+01:00,False
+aa5a68b7b5cd178bf38428f20082ecc085942ca7,Bumped the version,2021-04-01 18:17:44+02:00,False
+79a20fe66e798cc010d70ccd6edea5c3614083d0,Added Python example,2021-04-03 11:11:49+02:00,False
+3138894246ecce8511b6f1939cc5286021d3c2b8,Some clarifications on installing Bacting,2021-04-03 11:18:02+02:00,True
+f8468f33f96a15e2c6f0ba864f00cb612f476dcb,Added the missing URL,2021-04-03 11:29:04+02:00,False
+a131be5d905ffcf1a298a211116a5b431049aa37,Updated the docs for this future release,2021-06-23 08:36:44+02:00,False
+3937fbfc5c6507450f54a7d5940588e56a59b50c,One of the dependencies no longer support Java 8,2021-06-23 08:39:02+02:00,True
+19677a421f77391df6bac9f861e5ab4d9ba5e75b,Article is now published.,2021-06-24 15:30:43+02:00,False
+92f825f0767d79e33ad23d1eaa71297aee2172ae,Published,2021-07-03 12:47:29+02:00,False
+ffc70dccdcd5aa5c545c7f520b3910c1e00d7866,0.0.20 is the next release,2021-07-03 12:47:29+02:00,False
+e26951b668beb76054c92d79cce0cb8175d1cfda,Added pointer to pybacting,2021-07-29 14:44:15+02:00,True
+d170f6e2aef7e04f3f63d0698e25a82158c9b33f,Better header level,2021-07-30 08:43:24+02:00,False
+e3f2f1a506527ae15e9c0ead826d32c37351a378,More pybacting info,2021-07-30 08:47:36+02:00,False
+449b7182195c7e81c0e8ebea1afde6a253725e60,Correct header level,2021-07-30 08:48:00+02:00,False
+ecf527ce94ae40798466dfb108265b85b2211bbf,Update README.md,2021-07-30 08:51:07+02:00,False
+79b010e76e34c479f693bf6424fdb4ad43d481dc,Upcoming release,2021-08-01 13:18:34+02:00,False
+9b21e4749ff48080b0213b2fb5c277bf287158f4,Release versions updated,2021-08-02 19:47:16+02:00,False
+4b25c4b8fa62f3541372b8e2952419c484ff6dec,Bumped the version,2021-09-14 07:23:02+02:00,False
+81bb42278ecfdbc8bd8669cbc0e3d8512055d99b,Bumped the version,2021-09-18 09:58:18+02:00,False
+7d97eebfd502f18fafb3b19aae7141af393d9f95,Release 0.0.25,2021-09-28 15:45:37+02:00,False
+6c8584f3fa33fc16dead7547c46fa298ace933b9,Making a new release,2021-11-02 08:10:08+01:00,False
+ceeac3fb0953ffcd1b9a94366785e03a35d6229d,Bumped the version,2021-12-31 10:51:39+01:00,True
+4f9eea0966f24033b55bdf5e48fd7bade24814e6,Instructions on how to make snapshot releases,2022-01-03 20:48:41+01:00,True
+f0729b51c7f6267529914c4f57349e2bb2eb04ac,Bumping for release,2022-01-03 21:13:58+01:00,False
+4670fdaf66c57b4604022bba6534f40776fbce36,New approach,2022-01-03 21:50:40+01:00,True
+23246b556d540c92891a4a4ae3b41fdef52aaf2c,Added reminders to update the release number,2022-01-03 21:52:46+01:00,True
+f25ad4f6172fd07ff259c9abc7f7d17b73de2126,Preparing the release,2022-01-11 23:03:28+01:00,False
+2653767dc7f9cedb58af58c952dbb29075dd2fbc,typo fix,2022-01-12 08:35:32+01:00,False
+66efe5cb8b626510b6ca3267762205d3a370a957,Updated the instructions,2022-03-06 08:58:13+01:00,True
+b04b9cbcc080a30d2eb667b10826d55859e18f77,Updated the version numbers,2022-03-06 08:59:20+01:00,True
+7f67be22102c16f13716674066c0f2134e60852c,New release,2022-03-27 19:13:24+02:00,False
+515e5a8342d259052f55a07ad34d15224ff79b95,New release,2022-05-10 11:40:16+02:00,True
+71450a058297e70171f6531d12471a35cff36376,New release,2022-05-18 19:10:09+02:00,True
+63361d6c44cb83782adbad7cffd61694139624df,New release,2022-05-28 07:41:08+02:00,True
+a95efc2a34e4b12786c419295ba186709cdc70b8,New release,2022-07-02 16:04:35+02:00,True
+fe132272d7ad519cc6dbb422becff0815c1b64a5,Release 0.0.39,2022-07-03 14:49:33+02:00,True
+a659720b3ed3be3971a5f34e541fc99881145473,Making the 0.0.40 release,2022-07-10 13:43:22+02:00,False
+56163bd01e09f3fa4aa4ed47558c9058fc8fdbeb,Release 0.0.41 with hardcoded org.eclipse.equinox.preferences 3.10.1,2022-07-10 16:39:58+02:00,True
+c0ec51273851decfe54cadbef6555b76c9958cd8,Another release,2022-07-10 17:06:45+02:00,True
+aa570b8a8dea274f8a07190be1aab8e324f14627,New release,2022-08-10 16:09:40+02:00,True
+610e3db2f2a772afa90753a31a30e99645a7f823,Release 0.0.44,2022-08-22 14:30:36+02:00,True
+9062980fe69b98c9a36a4a5bca8af0f81b2ecbc2,Bacting 0.1.0,2022-09-18 08:38:29+02:00,True
+82bb0322160a341efe21bdf72ada5f82f5e3bfbc,Updated for the transition to 'main',2022-09-18 12:25:24+02:00,False
+fceab52d0453ee238d97b29b237b2c92db705172,Release 0.1.1,2022-10-09 18:27:16+02:00,True
+2d701b0f6a26942f7029403a59d7df54c884792f,New release,2022-10-15 16:10:54+02:00,True
+f1ec8efe2ee94354ac4976e64757c25ed6d4f4e4,Release 0.3.0,2022-12-10 11:24:09+01:00,True
+74bf55e9380af82d2ad9618a19671e07c23f9633,Release 0.3.1,2023-03-12 16:44:31+01:00,True
+6768f989e49d348ce83ae806d79d7a5240385626,Release 0.3.2,2023-04-09 18:40:01+02:00,True

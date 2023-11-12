@@ -1,0 +1,37 @@
+sha,message,date,result
+8df2f41cbb7a01b89624719a5514c4381c37cd54,Prep for open source,2018-12-22 20:24:27-08:00,True
+19db0093567db37e522e3b6b641ff3be53e15802,Some more documentation for the config file,2018-12-22 21:49:52-08:00,False
+4e794d8e45baeb2514ff270a78e4b1019996d8d0,Clarify the example and a couple other small items,2018-12-22 23:24:04-08:00,False
+094fe1986b9abcf5d139aa67f68fb561c41739e9,"Set up AWS CodeBuild/CodePipeline for CI and pushing to Docker Hub
+
+* Added Docker build to gradle
+* Added docker-compose configuration
+* Added buildspec for CodeBuild
+* Updated README",2019-01-05 20:55:46-08:00,True
+ab035f245d1758882140e2283b97491582bc51a4,"Minor README edit
+
+My MD plugin in IDEA appears to be broken so it won't preview.",2019-01-05 20:57:49-08:00,False
+62b8c6cfece3cd879514379872a25b61b42a18b0,"WIP
+
+Add editorconfig
+Update example config documentation
+Update README
+Blacklist specific trade combinations
+Catch UndeclaredThrowableExceptions
+Display missed trade opportunities",2019-01-16 09:58:08-08:00,False
+8ad8ee51ca2e35cee216decba752d4baba03633f,Map both application.yaml and application state into Docker Compose,2019-04-08 20:27:38-07:00,True
+ee31e68e547e747dafbfd443e7718ebc373c73b8,"Documentation Updates
+
+* Trim down the README and move the bulk of it into the Wiki, where we can make use of having multiple pages.
+* Add a CONTRIBUTING.md document.",2019-04-27 14:41:25-07:00,True
+8597372352c6fe7dd9266ef3872c19b635583185,add dependabot badge to readme,2020-01-25 13:51:25-08:00,False
+136f7fc28e68d0fc42477ecff5341c9a52e68824,small update to the readme,2020-05-14 17:14:31-07:00,False
+71c035d96740e0e5fdfa89badb34003393638cbe,Update README.md,2020-05-21 11:31:10-07:00,False
+db6343dd2cebf222b8e959b2bb953a15bd6923e6,add Discord links,2020-10-18 22:12:42-07:00,False
+8d36238c04b8088819b039bf384f5618330ea7e4,update the invite to go to a different channel,2020-10-18 22:42:04-07:00,False
+6cb234838686a9f934857d9ce72003501f60a893,Migrate to agonyforge organization,2021-02-10 21:46:31-08:00,True
+234271af95dd0ebc0ca249bc4a4b81817c19c1d6,"temporarily remove dependabot badge because it's broken
+
+See https://github.com/dependabot/dependabot-core/issues/1912
+
+Will add it back in when the new Dependabot supports a badge.",2021-06-03 14:45:42-07:00,False

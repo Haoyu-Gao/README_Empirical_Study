@@ -1,0 +1,331 @@
+sha,message,date,result
+63f68987105acf1575848231518430b611ec8ee7,initial commit,2013-01-14 09:50:12-05:00,TRUE
+cc9e24bef31862e544d4a55e6ba8b3b770aa6df2,docfix,2013-01-14 17:32:35+00:00,TRUE
+7a370aed67952dc4cb7175405fc9d17959a37fa8,more doc,2013-01-14 17:33:35+00:00,FALSE
+3fcd2b02c580322f246129fb3f83a3864425c544,doc fix,2013-01-14 21:13:10+00:00,FALSE
+97a5524aeedef5c5462b9b291c7045ae4d2f2a05,doc fix,2013-01-14 21:13:49+00:00,FALSE
+cca97bdc5f272b45b73f384f83df991ad91a80df,typo,2013-01-24 13:34:37-05:00,TRUE
+654a6f3c5e72a6bd443e9138ea0a1e7eaf328350,moved utility scripts into utils,2013-03-06 08:32:52-05:00,FALSE
+55bb7b01cbcb09ad3df43e81e4098bcaa2ff9386,typo,2013-03-06 08:34:17-05:00,FALSE
+9246a7b0ef6a4f0d6b9cc04ff60ae1e46e22ba05,docfix,2013-03-06 08:34:56-05:00,FALSE
+f7b86645ffb1f5a6735070025e29cc49d6172204,cleaned up doc a bit,2013-03-06 10:37:52-05:00,FALSE
+555fde0e1cba53a24cbcc6934f79326bcdd98e94,added wall example,2013-03-06 10:52:34-05:00,FALSE
+67c4cfddda8b426b86492c304619a124e159d7db,typo,2013-03-06 10:52:57-05:00,FALSE
+ea68981a7b14507b5d3f3f7dea512709135f81f3,more examples,2013-03-28 23:59:44+00:00,FALSE
+65a025a0106397adcfef4a9ed44fcc465bbeb92a,indentation,2013-03-29 00:00:13+00:00,FALSE
+d52f1a4667943750a1bdb21b157463226a830b32,typo,2013-03-29 00:00:44+00:00,FALSE
+4ceb65fcf36be74540bbfb45f7f84e284b5444aa,Correction on the using gender script,2013-03-31 19:43:09-07:00,FALSE
+2d23ce5b6bb4df9fd5b828674de037e1f57ed7cd,added the ability to scrape search.twitter.com for older tweet ids than are available via the rest search api call.,2013-04-08 12:45:39-04:00,FALSE
+626e04363ff7678c0889f62307081a73014fc2a1,docfix,2013-04-08 12:50:29-04:00,FALSE
+d9bd48f8f729e03d619133907b899779c19536d4,docfix,2013-04-08 12:51:05-04:00,FALSE
+03cdda905ab0225bc9777be87183c347b50c3027,docfix,2013-04-08 12:51:29-04:00,FALSE
+8932ae8407e778d380e868d904c7944271d17b30,added example of reverse ordered wall,2013-08-09 13:07:50+00:00,FALSE
+71e169edb385b1d1ed4c04e7f27b17e9e7328823,updated README.md and .gitignore for addition of utils/directed.py,2013-10-16 22:21:50-06:00,FALSE
+9b6ed9c72a9747ed5b6eb60f2e659234b218ccb6,small formatting change,2013-10-21 11:58:29-04:00,FALSE
+5e97d3bd5bc50ce6f42aa7583e4bc936942ffb90,update readme,2013-10-23 17:54:05-04:00,FALSE
+6ce39ebd30f8913be4c09d3f2ae684e01ad45fb4,update readme,2013-10-23 17:55:10-04:00,FALSE
+ac14b9de174fc87eeed054d2c8e0868c2a9bcefd,updated scraper to use new scroll_cursor param. fixes #7,2013-12-19 12:59:41-05:00,FALSE
+986b7ed15a21c1112fc21098b03b95af72a9e2ef,refactored a bit so twarc can be used as a library and added some tests,2014-08-22 19:09:46-04:00,FALSE
+32e32d38c170fc671b0b0e2166f4303efadcd568,some doc,2014-08-22 19:28:21-04:00,TRUE
+ae3f6a390c1709303ac50047fc2c56ded4e50ef5,doc,2014-08-22 19:32:11-04:00,FALSE
+5f07eb3399d377bb4fc50656482c810a137c1672,doc,2014-08-22 19:53:25-04:00,TRUE
+46885fa0ae0740bfd1d187fc17886f4825f8f991,initial pass at stream mode. fixes #15,2014-09-16 09:57:48-04:00,FALSE
+c22a3043695a09e3f9c5fe8064abc0a3ec087231,Script to filter out tweets older than a certain date,2014-10-20 17:32:22+03:00,FALSE
+9146f18abc401026f37f9b1e7ad870c290e66845,Utils to dedupe and sort by ID (date),2014-10-21 14:15:50+03:00,FALSE
+c3c1d4a1e2141b34f3f47cb3ddeeca95154902d1,coveralls badge,2014-11-11 09:33:25-05:00,FALSE
+a600f96fb496022e9a1ba93a49e06332a4bd3991,Added Gitter badge,2014-11-11 14:37:51+00:00,FALSE
+8a55003fca5d1275855d4143e8033170fe589024,doc,2014-11-11 09:41:51-05:00,FALSE
+f6ccea97453b6525e0d736c8a5e800e5f51dad50,twarc.py now requires --query flag ; added --hydrate option for turning a file of IDs into a stream of line-oriented JSON ; fixes #29,2014-11-18 11:27:43-05:00,TRUE
+40a5d7c05244ef95ea6f5029f4ae62e9ee1eb2bd,fixes #31,2014-11-24 12:36:09-05:00,FALSE
+bfaf7a36f9bb958e127a9138210f217d3db371da,fixes #32,2014-11-26 16:27:31-05:00,FALSE
+17d3caa8dd549dc99289d7c1c90d0b1a82e84fea,Update README.md,2014-11-26 16:28:06-05:00,FALSE
+b38fb86a6fec781ed352d0fa3c8487d8c2999cb0,Document new utils (plus caps/tabs fixes),2014-12-11 08:55:18+02:00,TRUE
+0db7ce8de3284f8be460796dd0d111a027b04704,fixes #35,2014-12-11 12:55:40-05:00,TRUE
+a229b295cb8a3e07092dc7e22db1a9782622290f,updated doc,2014-12-18 04:47:22-05:00,TRUE
+15624c94ddb14b4319d4c79e221349a39fd194c1,doc,2014-12-18 04:48:05-05:00,FALSE
+1b3bec35f077af6e0da3a6d5092f119f012891c6,doc,2014-12-18 04:50:57-05:00,FALSE
+585188489c37bdfdd145a79dd8ed3da662e7cef5,doc,2014-12-18 04:52:04-05:00,FALSE
+83e1217067fcc8ba62fa1652822fbdb5d885257d,doc,2014-12-18 04:58:16-05:00,FALSE
+dd9ec767a7623a5f8a9d1d465e640ce2e6d3f393,doc,2014-12-18 05:03:28-05:00,FALSE
+126d7a58d63f703dfc22f3cbb0063e30aa9bffb0,Document,2015-01-02 22:16:37-07:00,FALSE
+98bb8c5ea6cda570237800ff914cd2efa4d583b9,Document some @edsu protips from #code4lib irc,2015-01-09 16:18:58-05:00,FALSE
+dfa4add8e499e6a727c1dc40d5b9d010bacb3252,Move d3 utils to twarc-report project,2015-01-25 14:57:29-07:00,FALSE
+32b7b0b469e2041981299b98b08f60c5a6c088bc,doc,2015-01-28 23:00:53-05:00,FALSE
+bd056971c477493a6fe82c517fc4fb1e27694def,aligned documentation and method names,2015-01-29 22:13:21-05:00,FALSE
+0a45bea8d9dbbf1ce6f77ae64865846c68cc54c1,doc fix,2015-01-29 23:01:20-05:00,FALSE
+d22c4110e9d695f337667e3661283e8d3a6f6959,doc fix,2015-01-29 23:24:06-05:00,FALSE
+376d7c45e66ad34d230e09c532cfb4d406d41027,doc fix,2015-01-29 23:24:29-05:00,FALSE
+20d68623b76679e332f19806f0fe849c85d4edc2,doc fixes,2015-01-30 06:02:19-05:00,TRUE
+cc2332f25f8f3c33fcd0795e036516b5b2750e44,doc reordering,2015-01-30 06:03:47-05:00,TRUE
+9addef13e60920748ba9cb88cc34bc2ac2ddf769,doc,2015-01-30 06:05:57-05:00,TRUE
+3fbc98cde0bb0ae84e0feed8f573a7e9aa50d003,doc for utils/archive.py,2015-01-30 13:08:27-05:00,FALSE
+943485b17d2c3553f826d4e0572c362a17001105,removed unused oath2 which should make pip install work under python3 ; fixes #50,2015-02-16 12:57:01-05:00,FALSE
+a999a2612778d9f749599a734607f156538f2430,allow twitter credentials to be passed in on command line ; fixes #52,2015-02-16 15:27:15-05:00,FALSE
+20a2c744d965f2ad8d438afc16900f5541aa7d3d,doc,2015-02-16 20:02:08-05:00,TRUE
+e7268d51ad948f4d04c5f1fbc9f59fe08802b210,doc,2015-02-16 20:03:21-05:00,TRUE
+78d993147ff0b8eee7c919c0124bdcbe1779bf24,doc,2015-02-16 20:07:39-05:00,FALSE
+edcfc90af63d6dbe33fcd1b9514403f7d6b3160b,typo,2015-02-17 21:30:40+02:00,FALSE
+6b9c0d6b87e9fbbdeb321f060538c0675188d799,added download badge from pypi,2015-02-18 17:28:24-05:00,FALSE
+37e5afef783d2731201acbcfc8196a9d8adedc48,moved icon,2015-02-18 17:30:17-05:00,FALSE
+ca4651ff1362afe35cb423b3f11f6346996ed3e5,see if diff lines works,2015-02-18 17:31:15-05:00,FALSE
+5cef9637de93f40913fd8a9c4be01bab72a12499,reordered,2015-02-18 17:31:32-05:00,FALSE
+3d79e29f38635c0890f4c1ce1432213cecd00893,pip comes w/ python now ; :cake:,2015-03-03 17:03:12-05:00,TRUE
+6f3f6de8c76f87e45ede24a97c36ac66513c3cfc,coverage did not mean so much with all of utils,2015-03-05 16:40:15-05:00,FALSE
+fc7570b9242e66b0583f208db1f3982db961346e,added DOI badge,2015-05-06 11:51:38-04:00,FALSE
+44e7b0516fae99af1853893ad32cd5848e2919e1,download image was not working,2015-05-27 10:59:17-04:00,FALSE
+44f1608b9787edb65df4246eb535ea68cb3f1ec9,"Fix downloads badge
+
+pypip.in has been down for a while, but http://shields.io/ is another service. 
+
+This is the monthly badge; change `dm` to `dw` or `dd` for weekly or daily downloads.
+
+[CI skip]",2015-06-02 11:16:52+03:00,FALSE
+7e05f74208dc35d5ce3f46cd60133112a4b3a967,allow for multiple profile names in config file,2015-06-09 23:15:23-07:00,FALSE
+54cc4702ada178691bc34cf52108687aacbea530,doc,2015-06-09 23:16:41-07:00,TRUE
+16f0802292c8c8a5dcdaf4b6f6e8284d3b90be1f,downloads not working in doc,2015-07-09 11:59:39-04:00,FALSE
+dc003c3fa0d462b72cf2a997c2127b512edb5acf,doc,2015-07-31 06:15:14-04:00,FALSE
+a85462f961ebbdc09b8eb782040fa3e2ab792bdb,doc,2015-07-31 06:18:14-04:00,FALSE
+666fa78e2ad19c7d7cbd7aed372cbaa49d4395da,fixes #80,2015-10-07 13:16:15-04:00,FALSE
+7354b2a96e9afbdd3288415a8c7cb309405870ea,removed reference to utils/archive.py,2015-10-07 13:22:45-04:00,FALSE
+063ff4f122f61ea51e25cfcfaaa1063bbcc4fc38,"Typos
+
+[CI skip]",2015-12-01 11:29:13+02:00,FALSE
+e2d4b98bc160774b642cbf4bcf07e6b988571831,typo,2015-12-01 05:45:20-05:00,FALSE
+58806aeb5a824214a3a65131a9570c77c9d4970e,"Broke up --stream functionality
+
+The --stream option has been separated out into --track --follow and
+--locations to better match Twitter's filter stream API.
+
+Similarly the `twarc.stream` function has been renamed to `twarc.filter`
+and it now takes three parameters: track, follow and locations.",2015-12-02 11:52:57-05:00,FALSE
+12b7c5e871f5e18857306b29a0b020eafdbf9405,doc,2015-12-02 12:24:14-05:00,FALSE
+f413fa68ad6697ef0ecd687706df87c2f60252a8,doc,2015-12-02 12:26:17-05:00,FALSE
+685a9feb98adc0cbaf6622a36b3941939883059c,doc formatting,2015-12-02 12:27:32-05:00,FALSE
+5ec4c3244be9e01d8884fb5b4439b94d4fc87755,improved doc a bit,2016-01-06 07:56:28-05:00,FALSE
+1976dd46f0b0fa0046750dd0c9073cac43c95a83,"Example ranked list with most first
+
+I find it useful to have the ranked list of most-tweeted URLs with the most-tweeted at the top instead of the bottom.",2016-04-10 10:55:58+03:00,FALSE
+e8299959359d0998aa9f3907115197ff6d95ddb9,Added geojson documentation,2016-04-10 22:25:59+10:00,FALSE
+d8f658e32d8ea7fa2e705f7b6d4f299b8ca50eed,Fixed markup in updated geojson doc,2016-04-10 22:28:00+10:00,FALSE
+b07f9a5ece041bf3538d65bb74011b5ad5d50c28,"cleaned reformatted, removed duplicated logic, fixed up command line arguments",2016-04-10 10:18:40-04:00,FALSE
+c6d52fd2655ac596fd8b8176678680bb9316e1d0,typo fix,2016-04-18 09:20:20-04:00,FALSE
+3ac89ef8182d8540e64b97a52a2cc148d98b39e7,normalized var names,2016-05-06 11:17:56-04:00,FALSE
+f1912293ca868af4b7b1d117b7151710661b5f8c,"Adds functions to listen to sample stream, collect from a user timeline, and to look up a user object.",2016-05-24 08:59:40-04:00,FALSE
+8b012dc8e5d44427a65b73546077f5190afb69e0,README updates for geo search and utils/geofilter,2016-06-10 16:55:45-04:00,FALSE
+d813d0c38a16da8fa6734cfa5f6fdceefb60bb11,ready for merge back into master,2016-09-15 16:07:34-04:00,FALSE
+e3b88d9ca726b87d66a36ea1941fa31722e80c74,"added --follower_ids mode, updated README",2016-10-19 19:48:28-04:00,FALSE
+a0fc7864343e15d067d42a7d70db5545de97679f,added --friend_ids mode to match --follower_ids,2016-10-19 19:57:00-04:00,FALSE
+9858c180addb4d70dd16f7e5790c19a4cf785157,typo,2016-10-19 19:59:44-04:00,FALSE
+97144e4748a5548308fd06366fe0c43cf1769c11,updated doc to indicate there is no longer a 5K limit,2016-10-20 10:51:42-04:00,FALSE
+7743cb8084b762aed4b62953434f32b1963b199a,"added trend functions to twarc, README, tests",2016-10-26 17:41:29-04:00,FALSE
+59d738fb068edaab183413cb9a6f944d5bb3b412,moved to docnow org account,2016-10-28 08:55:24-04:00,FALSE
+14875596576d3b06f0b41f018da383bc86770a2d,moving to use command CLI patter,2016-11-19 15:33:40-05:00,TRUE
+82ae06abaaa7e6767c61f57c7476c0653b0a5c53,doc changes,2016-11-19 15:59:52-05:00,FALSE
+7f6b729944e8258a4f6df75b8e32f6e690decb67,collapsed --track --locations --follow into --filter,2016-11-19 16:21:09-05:00,FALSE
+24271f55aefe64f15072626a958959a9cffd2358,doc,2016-11-19 16:25:28-05:00,FALSE
+1b683523385aecb7fc21197322accecc90eb187b,doc,2016-11-19 16:26:02-05:00,FALSE
+61a9dc58ecf3a6cefd743e5b920a58b6f9f34a9a,doc,2016-11-19 16:31:39-05:00,TRUE
+98066f20d27562eee494bb59e464354c81529a5f,try syntax highlighting,2016-11-19 16:34:49-05:00,TRUE
+353d56df2fbe357f4870403877bc136b8f13a688,simplified doc,2016-11-19 16:38:27-05:00,TRUE
+b5b46ad709223458716182c30bf2116d5b5465b0,more doc,2016-11-19 16:40:28-05:00,FALSE
+e9eec9b6b53203e683088214cd29ecc2f6f8ccc1,more doc,2016-11-19 16:40:54-05:00,FALSE
+d92ba14eade0f3095fb73c7cf11a9d819abc09ce,link to tweet field guide,2016-11-19 16:42:02-05:00,FALSE
+0956d33e58e61b896a52a28e1c2f7d01233cf420,link to tweet field guide,2016-11-19 16:43:27-05:00,TRUE
+e613303efe3f16e42008cd149a89b8209be15b07,random doc fixes,2016-11-19 17:14:51-05:00,FALSE
+cf3674424e34f6872ed385c61eedc79532a899db,wording,2016-11-19 17:16:16-05:00,FALSE
+9b53a660d7eb9390ba41dbc42719d3589ca70d95,doc,2016-11-21 06:26:36-05:00,FALSE
+70f945ecbe18a7fe107e1606cc061fb7400ea6d5,doc fix,2016-11-30 21:57:14-05:00,FALSE
+6fe5b303a281eb4271e8ed11ea13002de9bd1eb7,doc fix,2016-11-30 21:58:21-05:00,FALSE
+3b17f00771b8906905a80a6765dd9bcf9afbd354,added link to pt-br,2016-12-23 14:18:49-05:00,FALSE
+6c959ada206c2166ecc80efcc063b6a89c39a63e,style,2016-12-23 14:19:31-05:00,FALSE
+faccad6c097e3f70ea027b2c4202cf4b0a7ad967,style,2016-12-23 14:19:46-05:00,FALSE
+7244991d4af939fa032d037d008b759945e3aff5,Avoid HTTPS certificate error,2017-01-14 07:41:57+02:00,FALSE
+a960ac15c9600fce79853844d5a1ce56406739fa,"Document dehydrate command
+
+[CI skip]",2017-01-14 23:35:38+02:00,FALSE
+d951232c1591cd95776d578ab6513e9ae97b8ccb,"Replies
+
+This commit includes functionality and a test for getting replies for a given
+tweet. Twarc.replies operates on an iterator of tweet objects, since a user
+screen name and the tweet_id are needed. The filename can be passed in
+on the command line.
+
+    twarc replies tweets.json > replies.json
+
+Since Twitter's API doesn't support getting replies to a given tweet
+twarc will use the search api to look for responses to a given user and then
+filter those for tweets where the in_reply_to_status_id_str matches the
+original tweet id. It also will recursively fetch replies to replies, unless
+told not to.",2017-01-16 16:16:58-05:00,FALSE
+158bc7ae58f30cbd018b62106cc282f94cbe3267,"replies for a tweet id
+
+For convenience the command line can fetch replies to a given tweet id:
+
+    twarc replies 323893983983 > replies.json
+
+This commit also includes tests for replies that was previously not committed.
+
+Refs #136",2017-01-17 04:41:53-05:00,FALSE
+65945fec47588d74c0617f18993f5c15adaba59b,simplified by reducing back down to a replies command only. fixes #140,2017-01-29 17:20:21-05:00,FALSE
+d5eb4ab5df27013fd090b3ef5f320918a76c7fa5,reflects proper usage of network.py,2017-04-24 10:37:36-04:00,FALSE
+5c9eb24168447e8cb331e4265018dcaea083cb4d,adding --users flag and GEXF output to network.py documentation,2017-04-25 13:23:41-04:00,FALSE
+a18b091bb4ec055b20b8aea79a16ca2b59bd55ac,"fixing the dreaded teh to the typo, gah",2017-04-25 13:32:20-04:00,FALSE
+52f92f9dda247e84c43b575badbc19f2a59b6224,fixes #163,2017-05-07 15:20:27-04:00,FALSE
+7b1b258c40a8ae51829f14fdeecdb34369e047ec,Minor fixes,2017-08-15 18:34:49-03:00,FALSE
+34f89fb01dd1e7813790724b14e5916bf9676e99,Fix link to translation,2017-08-22 16:46:31+03:00,FALSE
+6c3390a8d239d3551f2db9637acf79ad4e5b05b3,Update docs to use .jsonl instead of .json,2017-08-22 17:43:02+03:00,FALSE
+261853d412a145e97df01e9d5793744598dd9e53,"Update README.md
+
+added blurb on how to upgrade",2017-11-28 10:52:42-07:00,TRUE
+76234e6303864bdbdf2864f03bd7ca6b5b7011a3,"Update README.md
+
+Small grammatical change.",2017-12-11 08:28:02-05:00,FALSE
+8ba27afbb22e977b0760adef3e8aa322418fcf19,use upgrade,2017-12-18 05:42:46-05:00,TRUE
+3a7fa687807d8b586e0b43525241801b13716a0b,missing module name,2017-12-18 05:45:25-05:00,TRUE
+9a8497f01d6bb6102fbd9438a8d016feb7cd890f,"renamed list to listmembers, also added tests for new list_members",2017-12-18 19:18:34-05:00,FALSE
+74c7b465f3c24f50e0ba85b4206483d9a6953edc,docs,2018-03-25 13:47:19-04:00,FALSE
+f86b4413b7811e7ead3dc9df81f2999dac6d4b6c,"revert
+
+I accidentally committed some changes before they were ready for prime
+time. This commit reverts those and keeps the small documentation
+changes that I meant to commit.",2018-03-25 13:52:51-04:00,FALSE
+f9b9da19e70021bbbc93d2727bb8f13f44e0506e,"update to ""unshrtn.py""",2018-03-28 12:01:59-05:00,FALSE
+516e9f7a50e36584a6196e5245e905ffd1e82888,added links to translations,2018-04-21 06:08:44-04:00,FALSE
+1035b2ae9a213dddfc1d189b7a636e6ae4ed15f3,typo,2018-04-21 06:09:09-04:00,FALSE
+e105442096a10413954d01b4144da31d36a923d9,Fixes #177,2018-04-21 14:11:27-04:00,TRUE
+c27d26dd544c53db24f6006afdf6f5ae46d8441a,added links to the swedish translation,2018-05-11 04:25:49-04:00,FALSE
+775ccac9e63750e652f1b6ad4ca553024ebed191,adds the backtick to make the `timeline` render,2018-05-23 15:04:39-04:00,FALSE
+73220ddd3c848e457424392881fd8e10519ce346,URL for unshrtn is now at docnow not edsu,2018-05-23 16:17:31-04:00,FALSE
+17c4567229c14d017281aa2a152dce064caf8832,added links to Swahili translation,2018-05-24 14:58:53-04:00,FALSE
+e4022c6a8644a3308f5cc3a9f9eb723b9d991502,linked pip to the install page for pip; refs #241,2018-08-10 18:54:51-04:00,TRUE
+af95b54e32e4f1d6b643aba6adf69f403c9114fe,"we can install twarc via homebrew on macOS
+
+cannot decide if this is simpler or not but pleasantly surprised to find
+a keg of twarc",2018-09-17 10:00:21-04:00,TRUE
+ac86bfe862e8c339e8ff5064253627d5e3f7a8e6,"README: fix links to Wikipedia
+
+A while age, a hyphen was added to the ""Line-delimited JSON"" section
+of the ""JSON streaming"" Wikipedia page that the README links to.
+(https://en.wikipedia.org/w/index.php?title=JSON_streaming&type=revision&diff=prev&oldid=815227476)
+
+This updates the links in all of the README files to use hyphens.",2019-04-22 19:42:22+01:00,FALSE
+74a7f7a2965a90225db4a01a6cafc8c2fe4e95ae,"filter + lang
+
+This commit adds the ability to filter tweets on language. You can use
+from the command line, with one or more --lang arguments:
+
+    twarc filter paris,madrid --lang es --lang fr
+
+You can also use programatically:
+
+    for tweet in t.filter('paris,madrid', lang=['es', 'sp']):
+        print(tweet['full_text'])
+
+Fixes #266",2019-05-22 15:25:20-04:00,FALSE
+9668eb59983f43727c754fa6a040adacfa889c70,remove confusing prompt,2019-12-20 06:47:33-05:00,FALSE
+6f7ee7254ccdd7dc54e8dbeee49f0de3893cbd28,added @igorbrigadir's excellent guide to the search api,2020-01-31 13:40:04-05:00,FALSE
+15ba6c08fcf1b95107d84d19d6aaac15e7b9629e,Add README_ja_jp.md and some links,2020-02-08 11:10:05+09:00,FALSE
+c51da35684e9d8c10d32d2dd1c02b33fb55ad4f8,Fix wrong ISO code,2020-02-12 17:28:57+09:00,FALSE
+18d80c1529d5f842c3da53c3c3340f4cdb3666cb,"App Auth
+
+The Twarc constructor now takes an optional app_auth parameter to tell
+Twarc to use OAuth2 App Auth when connecting to the API. This has the
+benefit of getting increased rate limits in some cases, but lower in
+others, so check out the rate limits when using this:
+
+https://developer.twitter.com/en/docs/basics/rate-limits
+
+The default is User Auth (current behavior). It can also be set at the
+command line:
+
+    twarc --app_auth search covid_19 > tweets.jsonl
+
+fixes #246
+fixes #302",2020-03-24 13:30:24-04:00,FALSE
+691bd5d02b6af0b17861c412f6462486bdb03b21,"Premium API Support
+
+This commit adds new functionality to search the Twitter Premium Search
+API. From the command line you can now:
+
+    twarc search blacklivesmatter --30day > tweets.jsonl
+
+or:
+
+    twarc search blacklivesmatter --fullarchive > tweets.jsonl
+
+Depending on your query this could quickly use up your quota, so you
+will likely want to use --from_date and --to_date to limit the time
+range that you are searching. You can also use --limit to limit the
+number of tweets that are retrieved.
+
+If your app is only authorized for the sandbox you can use the --sandbox
+parameter.
+
+This functionality is made available through the new Twarc.premium_search
+method.
+
+Fixes #326",2020-06-06 15:40:41-04:00,FALSE
+a777a545185a8530ca1f8bc29f233f22dd11dcdf,docfix,2020-06-06 15:47:03-04:00,FALSE
+d0949df933f098a7d0aa086f54a0d65af5df891b,"Retweets changes
+
+This commit changes the behavior of the command line client so that it
+can also fetch retweets from a file of tweet_ids.
+
+    twarc retweets ids.txt > retweets.jsonl
+
+This is in addition to the previous behavior where it accepted a tweet
+id to fetch the retweets for:
+
+    twarc retweets 20 > retweets.jsonl
+
+You can also comma separate them:
+
+    twarc retweets 20,21 > retweets.jsonl
+
+The internal interface to the Twarc.reteets has changed to now accept an
+iterator of tweet ids.
+
+    from twarc import Twarc
+    twitter = Twarc()
+
+    for tweet in twitter.retweets([20, 21]):
+        print(tweet['id_str'])
+        ...
+
+If you have been using the retweets method in your code you will want to
+adjust it to pass in a list of ids rather than the bare ids.
+
+Fixes #255",2020-06-25 14:37:29-04:00,FALSE
+8ca02721402234cdddbeb996edc1bf6567b8f44b,Fix broken links: master->main,2020-07-02 14:04:15+03:00,FALSE
+0d333c329afc304970e03d1d9980564f9f14a8ba,create network for hashtag colocation,2020-09-17 22:37:29-07:00,FALSE
+96400a26e5f0dc1d12c55b4f5a41a91b84d571e4,Minor corrections to English docs,2020-09-19 17:11:00-07:00,FALSE
+35e2453d1c95dd8aa8c0c0c420fb19d546b8a88a,Support gnip full archive search,2020-10-21 21:17:35-04:00,FALSE
+e7a98a826ac25fefc34ebd897971e82708b0f222,added documentation and code to add and use timestamps for gephi dynamic networks,2020-10-23 00:44:52-07:00,FALSE
+049911a21e189b6295f4fdeb60e7d86e2666cf71,"initialized Chinese doc, 50% done",2021-01-16 21:21:31-08:00,FALSE
+8f52cfa0fd0a24fb3cce7f0ff5e669f16c5121cf,fixes #369,2021-01-22 17:32:02-05:00,FALSE
+019113bf116ef8e7f854601a6b8fc126ef0bd961,removed travis badge,2021-02-08 21:47:56-05:00,FALSE
+a51da1eba570c1cae5aa51bb3259ea03b646cbec,"added badge for github test action
+
+Also removed Slack notifications which were not working.",2021-02-09 05:04:41-05:00,FALSE
+bb3f638789938e8f6da130a41d190b1e39fce790,fixed link to filter api docs,2021-02-16 20:23:07-05:00,FALSE
+7ff37b223ae3484cd64e93034363bcefabfb4150,added note about the v2 docs on the wiki,2021-02-16 20:48:03-05:00,FALSE
+4766fc1cc302ce1c6b60bfa9092291ed70bc4809,formatting,2021-02-16 20:49:06-05:00,FALSE
+e04af0cee3acbc01f39ace80505f2320bcf5ccfe,initial pass at mkdocs config,2021-03-22 16:55:20-04:00,FALSE
+e034854f8da7f55ed0f3c4b98e04a6fc08d49453,use mkdocs-click to generate twarc2 docs,2021-03-22 18:03:21-04:00,FALSE
+b131721ee4dc73132ce591eb6b1e10ceffb0b24b,fixed doc link,2021-03-23 23:01:20-04:00,FALSE
+21e5f4729dd8996e97e54840a391e6cc01d99c96,added build status badge from automated tests,2021-04-07 08:13:01-04:00,FALSE
+b3aa0f105bc2664cb96578d0f1a4aa129b2773fc,added a little bit of detail about contributing code and docs,2021-04-11 21:06:28-04:00,FALSE
+3e9e83b6506d5df422a59ddbddc338e0e96671a7,fixed headings,2021-04-11 21:07:36-04:00,FALSE
+e59341a193bf0b59e74e4bbc55f3bea8f5f760e9,typo,2021-04-11 21:08:28-04:00,FALSE
+dd9c17485c64dbee4d44c1a31b9e4fa3a5a3d436,instructions for running mkdocs locally,2021-04-11 21:11:13-04:00,FALSE
+1078819c7e3f12c14f0b08f9f4b3f16b250c9dbe,"Should be github.com, not github.io in clone command",2021-05-14 11:17:11-04:00,FALSE
+84900278b6da040cd9fc34436c55cae181edf6cf,added Zenodo DOI badge,2021-09-22 09:37:38-04:00,FALSE
+ff70a3d30fa4a3f0be2612b0d69674dda8cf4e5a,Add some notes about the purpose of core twarc and principles about what belongs where,2021-10-22 15:20:19+10:00,FALSE
+44ab2536a233f022fc2eaef101908cbd7e40c94f,more badges in the readme,2021-12-03 21:17:49+00:00,FALSE
+6404d6b4020460f3e8b2f37b2df06c65aea3f18e,link to github discussions for asking questions,2022-03-29 20:54:44-04:00,FALSE
+6fcfa425327c425e443e4febf528b839773f873d,note about Mellon support,2022-04-05 12:10:29-04:00,FALSE
+482415666d213d31fd04e73787a691f2879366fc,include link to Mellon too :o,2022-04-05 12:13:02-04:00,FALSE
+b566fc6e2b52788d396f352402a4acc777b3edd9,"Add module installation to documentation local development instructions
+
+Add `pip install -e .` step to readme instructions for running local
+documentation server",2022-10-10 14:59:18+10:00,FALSE

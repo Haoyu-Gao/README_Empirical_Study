@@ -1,0 +1,26 @@
+sha,message,date,result
+767be00fe37b9f36106b65db5528b85e48e896bd,add readme,2012-12-09 20:22:45+05:18,True
+62caa5f15543d7696faaaa20c3b169ee337d2442,"update readme with supported languages, sort methods.xml",2014-03-09 22:56:16+05:18,False
+a15ecedc954a111340ebea6dc51069ccbbcc1eca,renaming the package for smc/icfoss release,2014-03-10 13:31:36+05:18,False
+6ba82c252e1e449f3e8d73d28393692f3d478b5e,fix typo,2014-03-10 13:31:36+05:18,False
+51c3f88aafebb371db5b39ca9df341ca903e2d1d,Update README.md,2014-03-11 17:02:13+05:18,True
+8221d1769a10fe3738d7860609ba0bd2e877efa7,updating Readme with credits,2014-04-20 13:31:15+05:18,True
+a1ee4131ab0557986a7f3e648855a82e7f6239cf,adding wikimedia to credits,2014-05-18 14:46:28+05:18,False
+cfe3679c950d259725f3f7e3d768721a594d8db8,adding kashmiri transliteration,2014-07-27 19:39:46+05:18,False
+345e1081c7c25b72d9157a2174118943fc873735,updating readme,2014-07-27 20:35:08+05:18,False
+96f78b6b4d00146fd0635cc4ecf6f21a0be91292,"building instructions, cleaning up app details",2014-09-14 13:44:54+05:18,True
+86507b4ac812e506a149f2365c911c15eef453ac,updating readme,2015-05-28 01:24:29+05:18,True
+bcfe21cb3b3bf22ad8ef2a2c38517e1b00e66497,Updated README with text from blog and app description on Play store,2015-05-29 03:10:41+00:00,True
+9a9a0bd97d40ea1808f03140f5b83c16daa5ecd2,update build instructions with gradle wrapper,2017-02-13 12:50:16+05:18,True
+bddbb8ff8d18583c07c153ac033bf4846f8e38a9,Update README.md,2017-02-27 14:26:38+00:00,True
+86a82881294637952e2467f2868c385054987737,Add info about development environment docker image to README,2017-03-24 11:06:24+00:00,True
+b3679efa92a7f76ea86c304cf0f0543141fe6974,use gradle instead of gradle wrapper,2017-04-02 11:37:43+05:18,True
+5f2f10f302fe86798431208d2aabbdd6fd1396c9,update readme,2019-03-29 20:47:00+05:18,True
+bee758de74308435383c20645a5052ee532289d3,Update README.md,2019-03-29 21:31:36+05:18,True
+da5d0f56c61d8865333e491c878e027255458b5e,add CC license for fontawesome icons,2020-07-19 18:36:03+05:18,False
+92c29138c9a35283b0efaefa73aef977e5300c38,update logo,2020-07-20 06:00:27+05:18,False
+f24e2336f1b117140bef0bff0c15381608b761e1,mention lieageos and openboard,2020-08-23 13:13:46+05:18,False
+5ed97f651f8b5333976ffd1abf11199f397aa236,add urdu to readme,2020-08-26 10:58:13+05:18,False
+8175d28353d90fe0014c79f93f67057f25028bc6,mention simple keyboard in credits,2021-06-12 22:09:28+05:18,False
+4cc781c7ba83454e91dfa5834f146d65df2e112f,"add mobile inscript for malayalam, in layouts list",2021-08-08 20:39:55+05:18,False
+de35182c8bd33e238c0aa12b9819bd80bbaad66d,fix typo in readme,2021-08-09 09:12:57+05:18,False

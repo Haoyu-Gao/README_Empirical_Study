@@ -1,0 +1,38 @@
+sha,message,date,result
+fcc0c8c2eea332ad435f77de9d5ee6dd722958df,Initial commit of tools.,2019-09-17 05:00:53+00:00,TRUE
+d45bbe3bbc491e5e101bb6cc1511bc980ed06cd4,"Refactor into a library and a helper script.
+
+Did a bit of cleaning up:
+- Pulled the NetDimm class and exception out into its own module.
+- Only attempt to connect when asking to send or reboot.
+- Properly close the connection when finishing an operation.",2019-09-18 04:01:28+00:00,FALSE
+0cfb8194a1eab998708b6989696f2e92e47ea029,Hook up Cabinet management state to a new utility script.,2019-09-18 06:46:11+00:00,FALSE
+a35f098fd0e1e69c976f35674e06d7b37a32b4ef,"Add a basic web server that does nothing, but is hooked into netboot code.",2019-09-20 05:04:32+00:00,TRUE
+2a9c9edf289bc093173561edcd94fa15e0197a96,"Refactor out Naomi ROM header stuff, make name lookup take a region.",2019-10-26 01:00:15+00:00,TRUE
+76f8961ab1bf2d2b542e10a039db7ec3a77af1ee,Update README.,2019-11-17 23:50:01+00:00,FALSE
+72665d1a327c179596d055d27023e2f0317d9728,Add documentation and code to display Naomi EEPROM defaults.,2019-11-20 08:01:29+00:00,FALSE
+0c1607fbf5b54d742778b93a093e4d9d287611dc,Update documentation with new information and executable.,2019-11-22 06:19:58+00:00,FALSE
+ce5f3778ab4063e683d29cbd353aac5930b0e414,Fix a few typing issues revealed by new mypy.,2020-05-18 18:56:29+00:00,TRUE
+9705f28a5c7064b8a07fa483700dfd11b8a263f6,"Remove copy of binary utilities, add dependency on arcadeutils.",2021-06-27 17:49:16+00:00,TRUE
+289a4d9fc321141a20e170ae682e6d0ce28c2950,"Update readme to document new scripts, as well as clean up scripts directory.",2021-09-30 16:21:13+00:00,FALSE
+2fb8d63d1bc4b9031fb897c531b265a88ca8ce53,Teach attach settings script to also extract/edit/attach so two command-line tools don't need to be used at once.,2021-10-01 17:08:09+00:00,FALSE
+a560a093bf3e0e3d51e6fbaebd6535f90e3ce2d1,"Add wrapper scripts so people can call all the utilities from the root of the repo, update readme.",2021-10-02 20:48:02+00:00,FALSE
+9da6f6318d35c779124b3c7b9a8f05f324c64cda,Add section about 3rd-party use.,2021-10-04 02:48:51+00:00,TRUE
+f996142547fac76e96c2caaaabcf1e75153f56a2,"Document settings definition format, fix an oversight in parser, document upcoming naomiutils package.",2021-10-04 20:55:05+00:00,TRUE
+ae6c1ffb8186c29b65e7b497dfc2a7dba1b215cc,Update readme to highlight that netdimm_send and netdimm_ensure support patching settings on the fly.,2021-10-05 04:01:58+00:00,FALSE
+d3deeb79456a46e86643ca378ea5dec75aa3954a,Complete the circle with documentation in `edit_settings` highlighting that `netdimm_ensure` and `netdimm_send` can be used to patch settings on-the-fly.,2021-10-05 04:04:14+00:00,FALSE
+e3a8b08d32b4867918dee89db06acce11fc47611,Also refer to `edit_settings` in obsolete patch generators.,2021-10-05 04:05:33+00:00,FALSE
+19216b1ca2164f2a2ec832a87be89cbf7035099d,Document info utility.,2021-10-06 19:25:55+00:00,TRUE
+af4416c005b41eb5b4e56c667627c954c36a2280,"Teach settings patch how to deal with SRAM files as well as EEPROM files, update attach_sram to use it instead of bespoke code, add some optimizations to settings_patch for much faster ROM editing.",2021-10-07 16:59:34+00:00,FALSE
+cb0728d7e9afa9ac204d6d637f901685415fdc52,Update documentation for a bunch of stuff.,2021-10-12 03:18:12+00:00,TRUE
+080092a20a9a405c0a878ead6051a16b5c466347,Add documentation for new utilities and new command line options.,2021-10-13 18:24:39+00:00,FALSE
+47a2a4fd688849c309d52bdc4d8493ade2df272f,Add documentation for menu.,2021-10-19 00:28:43+00:00,FALSE
+7e372eee09142b326981cafa19b40cafd6b32146,Add documentation for peekpoke utility.,2021-10-19 00:51:30+00:00,FALSE
+840015985559143bc810ad4d1219fc6eb821849c,Juggle source around so netdimmutils can be created.,2021-10-21 17:36:09+00:00,FALSE
+6dcd41d142822343bbc02528c59ddfebaef30cd2,Update documentation for a few new scripts as well as put a note in about attach_settings and protected games.,2021-11-04 21:09:36+00:00,FALSE
+876c030eb447c59b2d1767bcfea6e5053f71d627,Add documentation for GDB portion of the toolchain.,2021-12-02 01:26:56+00:00,FALSE
+324adf691d16015edc179236e928a9d020714c27,Remove homebrew directory (aside from menu and settingstrojan).,2021-12-18 03:02:08+00:00,FALSE
+963bd1f21144d22e44efc563104e3eeb57e5235f,Add support for attaching SRAM files to AW conversions for netdimm_ensure as well as the web frontend.,2022-03-19 16:56:53+00:00,FALSE
+f6c7584d6ff67a2ca8c65fa2775ab673317e61d8,Add readme section for SRAM dumper tool.,2022-03-21 00:55:59+00:00,FALSE
+55a8723aae9ed2287051315ab3f316a7afd299ad,Add a bit more note to the README file about how to obtain SRAM files.,2022-03-21 00:58:00+00:00,FALSE
+b5a1934def50518e786b9a77ceea245cf90b2045,"Add the beginnings of a test suite that I should have made long, long ago.",2022-07-31 04:48:17+00:00,FALSE

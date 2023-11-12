@@ -1,0 +1,327 @@
+sha,message,date,result
+1450388ac6220b77f931d27609c868e22b4619d7,Create README.md,2022-10-22 16:28:21+02:00,False
+f176fa7db57099d3e6eeaaccb3584dbc4012b2b4,Update README.md,2022-10-22 19:34:53+02:00,True
+39c3e10bb945f9ac67845d6e037450f48d6799f1,Update README.md,2022-10-22 19:36:32+02:00,True
+671e9dd8ba183f4999dbf8d46660703c76b21fd4,Update README.md,2022-10-22 19:36:42+02:00,False
+71bb34ffabd9e6c233e12ee17d6e3fff06d8664e,Update README.md,2022-10-22 19:37:26+02:00,True
+6fdb7b091302d1a260ec18850346ccb3e59247d0,Update README.md,2022-10-22 22:11:40+02:00,True
+816187260a22846ef86e4f43395d82b1e3c6e64a,Update README.md,2022-10-22 22:25:41+02:00,False
+cf81073867fd9cfb4fb95bd746c749788b03011e,Update README.md,2022-10-23 11:14:40+02:00,False
+56a510de8fb959d3c056f4f4452541a7c4e75ece,Update README.md,2022-10-23 12:51:27+02:00,False
+f44522686ed4257a467c6a60fc877ba78e01ab99,v13,2022-10-23 19:34:55+02:00,False
+8d150d11d7e31838ea7ba3ea3808957f2d4c2a69,Update README.md,2022-10-24 21:18:49+02:00,False
+e391eafd43f056c30d4730a2e167447abaad48e7,Update README.md,2022-10-24 21:18:59+02:00,False
+89dc9864eae296ed235c88fa8efff9bd045c10a1,Update README.md,2022-10-24 21:20:21+02:00,False
+d46c05b041b4068031ea90557e51f2e824db4943,Update README.md,2022-10-25 14:04:06+02:00,True
+813efe20783ed26b869c1c25a3dd1788bb12e7dc,Update README.md,2022-10-25 14:05:16+02:00,True
+1f073212f268760a009c7a54cb0bcc84b273848e,Update README.md,2022-10-25 14:08:55+02:00,False
+108428a016cc0b08227f8a23d4d3d4f10b02e77c,Update README.md,2022-10-25 14:16:47+02:00,False
+bd24c0741b0254d0f55a8a0416c02c392120d7e3,Update README.md,2022-10-25 14:20:01+02:00,False
+7e95d300720161df36c8df06da8fdb89dd53a72d,Update README.md,2022-10-25 14:20:17+02:00,False
+5088c156436e29f00c373b125b195ebed4f6bf51,Update README.md,2022-10-25 14:20:38+02:00,False
+ef995ce5fbfa169c84e46d6c3de2f1d5897725cc,Update README.md,2022-10-25 14:28:46+02:00,False
+31c26994894a8ba8f866355eb2d24f14af146370,Update README.md,2022-10-25 14:29:03+02:00,False
+48e1d838f1f9df52706add78bb322a8e337618ce,Update README.md,2022-10-25 14:30:15+02:00,False
+492cd48b24d6c17c5fe7d39962179af964d118d2,Update README.md,2022-10-25 14:32:42+02:00,True
+85ae7c2aba54683a2cbde00c05f96725c3f5cdd3,Update README.md,2022-10-25 14:38:29+02:00,False
+aebf02afca1ce197495fa045263c6d391bcd62f9,Update README.md,2022-10-25 14:38:49+02:00,False
+7fb8fb5b90b1990d0e04ff40425e9266277100f0,Update README.md,2022-10-25 14:45:01+02:00,False
+8ff54993afa01d2a98ef268ff2fb7317c24d199c,Update README.md,2022-10-25 14:46:22+02:00,False
+6f73cda46bd42d914f9aa42b63e80b9dc6be4b48,Update README.md,2022-10-25 15:58:03+02:00,False
+a40088999fb00112607f54133fbb6338591e9edc,Update README.md,2022-10-25 16:02:34+02:00,False
+e6b19b781e910805a32a327d0897dc01d0e1b36d,Update README.md,2022-10-25 16:32:44+02:00,False
+ef21d29a0dde8050083da38819a898607d590792,Update README.md,2022-10-25 16:32:53+02:00,False
+99438d74f8f161b6b017cb98af99dd37d9bc53ea,Update README.md,2022-10-25 16:33:57+02:00,False
+cbead56b8e235c056ff59062805740f61e13af72,Update README.md,2022-10-25 17:56:41+02:00,False
+5b003ff6fdda5817b2f5af5f311c87cef432793f,Update README.md,2022-10-25 18:04:25+02:00,False
+1e83e099e132b9d785fc323eee1657554dc54ecb,Update README.md,2022-10-25 19:45:22+02:00,False
+dd24f43dd964212bd581445ba129ae2f44a8ae8d,Update README.md,2022-10-25 21:31:53+02:00,True
+1f105f9dfb7e601d813d452a0dbac3e52dfc7e16,Update README.md,2022-10-25 21:33:04+02:00,True
+cde43e4c839ed1722f03e140d3efbfd67aa37f90,Update README.md,2022-10-25 21:52:11+02:00,False
+545c41c284859f0f4f6b814fc68a75aed1b9433b,Update README.md,2022-10-26 13:22:50+02:00,False
+d76b16656d80838cc4d4d68f24a1d5661aa3cd71,Update README.md,2022-10-26 21:18:10+02:00,False
+01a335b820e29ff309cae0a014a791cb3a63ba91,Update README.md,2022-10-26 21:31:43+02:00,False
+50d788a872386a8ffbf14b3c4f83c5c0182a3854,Update README.md,2022-10-26 21:40:58+02:00,False
+2529f23ba606d8cf3497d41f73e0579127f0882c,Update README.md,2022-10-30 12:51:18+01:00,True
+69dcafb32a96beecb0352a0d47927e6a2e302047,Update README.md,2022-10-30 12:57:22+01:00,False
+4ccb8c47274534dd7c7db69d090da628834da43f,todo update,2022-10-30 21:17:53+01:00,True
+2593e240d9705a49b9f37f7e1357a1c7f12ac43d,Update README.md,2022-11-01 12:52:40+01:00,False
+cd56726428954cbf2093faf814a95c75b0851e9b,Update README.md,2022-11-01 17:40:27+01:00,False
+ad3e619803edbbb965d0e6800947a2f179f9c372,Update README.md,2022-11-01 17:43:55+01:00,False
+c07201ff1ddc9b73a71374e4fc9d5269001c4f7e,Update README.md,2022-11-01 17:49:32+01:00,False
+54f29e04f12b1083f67f180873bd7f4e2bfc6451,Update README.md,2022-11-01 18:59:03+01:00,False
+ddc6688788751df2b027a2efa42a705bf31bf474,Update README.md,2022-11-01 19:01:26+01:00,False
+c9b6fb39d4f15bc3c3c11171eebf4fa1c1c4b544,Update README.md,2022-11-01 19:17:51+01:00,False
+69bb04f91bba95895693d081a00c87055a67bef2,Update README.md,2022-11-01 19:29:52+01:00,False
+bb8d9906af87a51212b017179b77370ac01f75f5,Update README.md,2022-11-01 19:44:31+01:00,False
+a55286ba10b655a9b34318be675f1ec0d7a0257e,Update README.md,2022-11-01 19:49:31+01:00,True
+c273f416c6a37748f543ce7ee096450f2af7f4ee,order message,2022-11-01 20:05:21+01:00,True
+907705873708227d568a72d5e3b200713c6b14d4,update,2022-11-01 20:11:03+01:00,True
+16164f6dd861805cb4d84ab5c99525095986fd03,update instructions,2022-11-01 20:18:45+01:00,True
+a6cf899aa1a9ea663c4338838efef748ae321b9c,message update,2022-11-01 20:52:39+01:00,True
+4ff5803f549df1d0fdf03003284ee3e7f086a6f1,Update README.md,2022-11-02 08:04:02+01:00,False
+a53ebf467ebc5b956118f2a933a720badedf6149,Update README.md,2022-11-02 08:06:26+01:00,False
+fd117d3f1a08e23918252e15f8e9f0edffac307e,Update README.md,2022-11-02 08:08:55+01:00,False
+b379e658a01292ff42a0a2dae09f210ebe4e299a,kofi,2022-11-02 09:20:58+01:00,False
+7ddc3807434faa6b8638ea65b7f8c6a4f4200251,update,2022-11-02 10:05:09+01:00,False
+ff1833800250fe24eecaeb4ff0ec893d5c2ecf0a,message consolidation,2022-11-02 10:33:13+01:00,False
+86cff4da3d98753dbf47ed8293814f4d07c39fe6,Update README.md,2022-11-02 16:50:01+01:00,False
+86b35e5d3006ae3292e4e6b342f7d4051c69dd29,Update README.md,2022-11-02 16:51:04+01:00,False
+8b15ed7fb3d63db2d8ce68840586e8025ac5e0bf,Update README.md,2022-11-02 16:53:33+01:00,False
+bb87056df88964d5306a8d33d27db8fef3aaf9a3,update,2022-11-02 17:14:29+01:00,False
+0f1c14f9606af36de5b6b59155549cca2ce73661,Update README.md,2022-11-02 17:15:36+01:00,False
+11d2140c0a313983fdd1af613f86d977bf521ba0,Update README.md,2022-11-03 10:20:27+01:00,False
+9ce7a42f22906ec252442f6e834d54ed679f0c0f,Update README.md,2022-11-03 10:25:45+01:00,True
+e352f7dd6ebd4095436928861fd7f26ab771a30b,Update README.md,2022-11-03 12:34:57+01:00,True
+7a85882a2aa6ad9ae3fb2dca7adf11c1e59249d0,Update README.md,2022-11-03 12:37:07+01:00,False
+02cb30544882e45bad85615400704c4c95b0b6e6,Update README.md,2022-11-03 14:29:08+01:00,False
+0847009a2f6c6c53edc43d6ffd1c37a9859ff9ca,Update README.md,2022-11-03 20:22:20+01:00,False
+10839f77117fe5b6c23e6d7717afc3f0cea23ed2,Update README.md,2022-11-03 21:16:40+01:00,True
+94fdf9161c2b46525184dda32c7d7ba8f29fb22c,Update README.md,2022-11-03 21:30:35+01:00,False
+9532adeeef4a69439bef81b34a53d205ff1449c7,Update README.md,2022-11-03 21:56:55+01:00,False
+a60c5e513f61d76408d8e047af1b493c9621d9f9,Update README.md,2022-11-03 22:36:41+01:00,False
+da19c50281be5725a1cd04d81afaea8988c91f50,Update README.md,2022-11-04 08:46:04+01:00,False
+8c3f2df675134ac225dc25bf4c1dbe73a361b5f5,Update README.md,2022-11-04 08:46:27+01:00,False
+e06ebb453421589af8c55007210350ac2312ed34,Update README.md,2022-11-04 08:47:34+01:00,False
+9c7f58f86a3858bb53a2e8a3ae292f4ae3052839,Update README.md,2022-11-04 15:56:49+01:00,False
+1d3ca749fe83d697a0e06229a88f5e2bb3529e51,Update README.md,2022-11-04 15:58:53+01:00,False
+92e57524068a3f039bfddf9642d597fb9aced5cb,Update README.md,2022-11-09 12:45:45+01:00,False
+2b304952385e31ea1430f9f5659f89eb5554e8b2,Update README.md,2022-11-09 19:55:17+01:00,False
+eb0dd54d970342bd541f5c9c5138a5e75b9c1f1e,Update README.md,2022-11-09 20:28:13+01:00,False
+9e88b3a6569743b02ae2904d104bec7fd1983bec,Support for multi CEFI exchange and switch capability and DB support,2022-11-14 12:00:23+01:00,False
+4fdec71b8788c407872c844be205ec37566a42fb,Update README.md,2022-11-14 12:59:45+01:00,True
+9b4bff14efd40fb17f2eb6f51cb95de79ebad0e4,dex integration,2022-11-14 14:44:42+01:00,False
+910311ac8358a7df49ec73b9e076e8efc9398797,web3 update,2022-11-14 15:54:18+01:00,True
+2d65c8eb619ee9676a0bf9ca4465c296c361be61,Update README.md,2022-11-14 21:32:49+01:00,False
+e1dd3144db01962f79cbbd532d45002c6b78cc0d,Update README.md,2022-11-14 21:34:43+01:00,False
+595456f031e222434991fb3dbcf9b1dce68528d4,Update README.md,2022-11-14 21:58:24+01:00,False
+b129f8fc3eec73df0b7357b9c2706927d0fba5a7,Update README.md,2022-11-14 22:05:23+01:00,False
+cbca980bb1461f689aad0f08f9d08507e97f656f,Update README.md,2022-11-14 22:12:45+01:00,False
+75c26178575ced8816c6d834a7671ead43972557,update,2022-11-15 14:47:01+01:00,False
+ae010213ccd6f328d5eca4e232e0ed8de7c06330,Support multiple channel with 1 DB,2022-11-15 16:25:43+01:00,False
+a9c738001ea7ac2f715bf51bf63447064274a6cd,DEX improvement,2022-11-15 18:29:37+01:00,True
+055aabb99e4473bbcb57a1df534597a9a87d0b6f,fixed the ignorecase,2022-11-16 08:42:14+01:00,True
+883f2c1ffbe96d8ffd27b6733474acee37dc8bf4,cleanup the db structure,2022-11-16 09:06:38+01:00,False
+a6d200143778d5928b7390e12ab4b3464957da93,Update README.md,2022-11-16 10:58:46+01:00,False
+eb87454f1afbab855b2ef77c262ab2257b338776,v1 prep,2022-11-16 11:07:05+01:00,False
+37109c953403638b1febea58509405ecedecfb96,Update README.md,2022-11-16 11:35:33+01:00,False
+3eb046b7edbacf2a7dd0dc2d8caafa1c56d27696,readme,2022-11-20 18:51:27+01:00,False
+151b8af116df7e8b984ce633f1e5f4d802a65833,update,2022-11-21 13:42:25+01:00,True
+7e6a4f1329e5134e2cac2faca1054e679f28e564,Update README.md,2022-12-07 19:04:44+01:00,False
+886b98b0445f3337b1fd15afac94579e24b78c40,Update README.md,2022-12-07 19:05:20+01:00,False
+da233b2d8824261ddd7c805ba30dd93d39f24505,update,2022-12-11 09:14:07+00:00,False
+040af4901a9aa19a9a751913bdc9d3e25a47e29f,update on balance and cleanup,2022-12-12 07:10:30+01:00,False
+15fb99ab18fc5ccc1c42fe34e59cec77396c87df,roadmap update,2022-12-12 15:09:37+01:00,False
+e4ea74a50ed37b0f57840e6fe71f379fb1fc280c,fix dexbuy,2022-12-16 19:43:52+00:00,True
+efa2c51e4bf67e7c686c8e7cd5074c2084bcade7,update readme,2022-12-16 20:20:34+00:00,False
+e67fc93baeebea8733096c8ebf8295fdea434491,Fix BinanceCOIN M error with ex.id instead of ex,2022-12-18 02:01:24+00:00,False
+4335012f071ec88ebe4a6cc6c4ff04b44965a5cc,updated roadmap,2022-12-18 02:08:47+00:00,False
+9b48db7955d3b83cd3360839d303bf34ed9cb490,roadmap update,2022-12-18 08:51:13-03:00,False
+ca9d8eef70f0f0653e89d334d64a21151b17447d,readme,2022-12-18 19:11:53+00:00,False
+3b554dbb9a2625fb40cfc072220a0a952c81ffb6,updated roadmap and added basesymbol in the db for dex db,2022-12-18 22:27:47+00:00,True
+c40d43cf15d58dc6a1e71f80065ac8f3f6a31bb0,updated roadmap and db schema for tokentosell,2022-12-18 22:42:20+00:00,True
+ac23bc73f95f0d4ceaecab0b5b29591ae882b608,modified:   src/bot.py,2022-12-19 14:25:29+00:00,False
+90dc416944c4617b214609a5fe184e839abc0746,[],2022-12-19 18:40:24+00:00,False
+0019773ce3baa3a60bc4f73d032fe7edea500479,docs: update README.md,2022-12-19 18:42:26+00:00,True
+3dc828b6c5f5b43c876ccbadf26d7b230fcc86f8,"update README.md, db.json.sample and bot.py",2022-12-19 21:45:57+00:00,False
+297f9a2047d004687685e99773e17b8e15e98a5a,support quickswap/price function for CEX and DEX,2022-12-19 22:49:14+00:00,False
+21c12a34f9577963a60d3929e504dce60d4db1f3,docs: update README.md,2022-12-20 00:03:33+00:00,True
+da780b6822532de65a14c125ed8b8abf1c911b96,update README.md and bot.py,2022-12-20 00:30:01+00:00,False
+9663c54871a4b0f9d2aa04411291664ad6c10bec,docs: update README.md and bot.py update README.md,2022-12-20 01:13:01+00:00,False
+35ac19eb6937ffc2dc7262565381d951701e9baa,Update README.md,2022-12-20 08:33:44-03:00,False
+260be000460caefe0733dee4139e5ab4565e77dc,Update README.md,2022-12-20 08:34:44-03:00,False
+e8efa591889c427abad2c8867ce89c1610a8143a,Update README.md,2022-12-20 09:05:26-03:00,True
+93d8309b5ce25f6872848a4c1c013c8d8e142eae,Update README.md,2022-12-20 09:10:09-03:00,True
+903e1b6648e36c0f5f155d371ac1232763ff3b49,Update README.md,2022-12-20 09:12:32-03:00,True
+483d5de5b916cf4b2d34748a7bb3f1382d7692a6,Update README.md,2022-12-20 09:56:57-03:00,False
+97e61a754798577e5ede0cad1a7fe644d31096a3,Update README.md,2022-12-20 09:57:57-03:00,True
+6db3c9135d2c7819e21b5c01002170616274830a,Update README.md,2022-12-20 09:59:02-03:00,True
+c0f1793ce6f9a137291a4ecbfcf47026449505b4,Update README.md,2022-12-20 09:59:49-03:00,True
+1c28c44b311085824c14afdfc977389f7122a2a4,Update README.md,2022-12-20 10:01:02-03:00,True
+1b230669e90480f0c1927bc1d2e063636ab1d8fb,Update README.md,2022-12-20 10:06:44-03:00,True
+080c66ea3e7b3fdc1b23556048fdb6c32314ab80,Update README.md,2022-12-20 10:11:58-03:00,False
+28e394e5026b42a25d7922771ab85d1b7e21d00e,updated readme documentation,2022-12-22 21:46:31+00:00,False
+28bb084d182e980ee25e95cce881a7ebfd00a2a8,code fixes across the board,2022-12-26 16:56:34+01:00,True
+1770a6a2f385c479156142327f037de5e37c90ed,testnet adjustement and readme update,2022-12-26 22:58:43+01:00,True
+ce0f297f7517233c2cd82a1a6d32b2d6144b6fc8,Update README.md,2022-12-31 00:01:32-03:00,False
+5dcb1993c395c0a2a6953faf906b5c196c16f7a2,Update README.md,2023-01-04 20:57:47+01:00,False
+d4d3aa6b8b7cfe34c03140eeb762edb58f09c59d,added a preliminary dynamic gas function,2023-01-09 19:18:45+01:00,True
+702ce41588d16e3a664797d5e0691c7aa4ecf81a,update on gas function,2023-01-10 17:48:06+01:00,False
+ad1f3b5aed2b24e4112ac2ae34ecbfae34ac7405,cleanup,2023-01-12 11:30:48+01:00,True
+c6cc184139a33054b5528d153ff6feda4c84a794,webhook switch,2023-01-12 17:46:01+01:00,True
+3bfe87f262cdc7c540a12609fc55f4de53bf95df,add capability to load remote db via env,2023-01-13 11:02:41+01:00,False
+c6f327ff0f7ea042b25ed16376356a53527403fe,coingecko info /c command,2023-01-14 13:51:04+01:00,False
+c4069e0d4ae66244385b1524b82738d7027fc1b0,readme update,2023-01-14 13:53:54+01:00,True
+ccab0c36ef70373b8bb07f83200ee6b7f6b8e10b,README,2023-01-14 19:14:23+01:00,True
+26fdfb120f486530d6db9a91496b5d9ef6c88a5a,readme update,2023-01-14 19:17:53+01:00,True
+27204d396bc122833bcb0eefbe8e3cc4024bc2da,readme and filename update,2023-01-14 19:52:28+01:00,True
+a6f197693ed2cfc986481d836754ebd6fb82c912,typo,2023-01-15 00:39:01+01:00,True
+e05f1eb12b32cdfff91dbcf24752c63fe0cd798e,Update README.md,2023-01-26 14:20:31+01:00,False
+5307a70e286633dc0bf7be5b99034ad454dddac6,udpate,2023-01-27 07:49:48+01:00,False
+49a0f1a3be7585e893bb4daa49d5c174e7df9ac8,added restart capability,2023-01-27 15:05:50+01:00,False
+aebee58a40412d9936a2163c8dbd943479b7508d,update,2023-02-01 08:47:29+01:00,False
+c51e29300fb4eea9e0ed510a931d70a404acc588,Update for search function and order processing,2023-02-04 10:44:00+01:00,False
+8ca5adceb00081310073dac2bd7b2307c9271807,cleanup,2023-02-06 12:25:18+01:00,True
+311e4c9864e39f5bdd00c9f28f0b156fe31635d9,more cleanup,2023-02-06 12:32:41+01:00,True
+42eba166a6ac90f074725b9e9a7715a20e5ebe87,documentation,2023-02-09 21:03:29+01:00,True
+4166c46bca2388d63dbe499d41dee06cc19636d5,documentation update,2023-02-09 21:19:10+01:00,True
+38e537de07e0ccc3e1f910d19ddf5139e0ef0eb4,Update README.md,2023-02-09 21:31:34+01:00,True
+e88639640fbc089681007f9fd2f4f1919d996e27,Multi repo support,2023-02-09 21:46:54+01:00,True
+dfe46836ed78d4c8933bfd708131bab79e8d8fdd,Update README.md,2023-02-09 21:52:53+01:00,False
+c1c4044769b9d52f4584f912a15dede66d6c8140,Update README.md,2023-02-10 09:40:24+01:00,False
+af3b84f3745b99966b9b6b53151398e55b94cc51,added platform,2023-02-10 19:38:28+01:00,False
+e557b0ae20b1c7b6dee8775b18275aeb7842168b,refactoring for multichat,2023-02-12 16:34:20+01:00,False
+2e9be425ca5d048e239b49407484d44063d2b049,Documentation update,2023-02-14 18:13:40+01:00,True
+564d321acca0a4b75093c988b7d94d433343b64f,Update README.md,2023-02-15 11:43:05+01:00,False
+243d65eeb1da8a82d5f3e18f188da0f0ed9f473c,name update,2023-02-15 12:36:29+01:00,True
+387be0bac064e0e8b7a672cc9a94e7c89abba6ad,readme update,2023-02-15 13:39:39+01:00,True
+71476e93beb9313db519aae85133e53c2a6767a0,Update README.md,2023-02-15 13:48:17+01:00,True
+050922b6999e65988ea0227278b5d9c5675c769e,small update,2023-02-15 20:34:08+01:00,True
+99d407cbb0dadeb7b5fbbaa214ae69356b4f98be,Update README.md,2023-02-15 21:53:55+01:00,False
+fb14e4dbc299f6c12cdae58f10ba6d5b621190ff,image,2023-02-16 13:44:18+01:00,False
+121370b053748888d0951cfcbf2bbd7fca3caba9,Update README.md,2023-02-16 14:20:50+01:00,False
+1a9c30f2f21b31c8e34add175663f05495abb4b4,readme update,2023-02-16 14:56:00+01:00,False
+88a99f3e186648e3f39388015e7c9a17075c59f0,readme update,2023-02-16 14:57:22+01:00,False
+c7070c33a09ba7c65ed233eda0ad97991b1380ff,readme update,2023-02-16 14:58:27+01:00,False
+c6b2b0ad9d1b376b5ee75ed902367f3851855316,readme update,2023-02-16 14:59:56+01:00,False
+e0faceff771556edacc3771a20ef06ab8027e753,screenshots wiki,2023-02-16 20:20:41+01:00,False
+cfab42bbe5c7ee8cd6689bf94081b34da8df261f,readme update,2023-02-16 21:14:17+01:00,False
+41631318f054889a481f41e5f79d95aac3d3e814,position for CEX,2023-02-17 22:05:05+01:00,False
+76efde8475eba55426a1ad816d6cb66f686af440,small update,2023-02-20 15:52:22+01:00,False
+115fe6d12631e32a9b6c51179f0a0ca715c2a581,notify function,2023-02-20 20:49:31+01:00,False
+613ca414d805e86d4f6d996339f6e65d8e0e30e1,Update README.md,2023-02-20 21:05:17+01:00,False
+7a9c775ea3b8d5100d9d5c0909e775db4115556b,Update README.md,2023-02-20 21:05:52+01:00,False
+32e277113a637d680ea63f222dbc8e315a73432d,Update README.md,2023-02-20 21:09:33+01:00,False
+a523c4bd41ebd3d6ddb0585a1cb525766dfde48c,Update README.md,2023-02-20 21:11:16+01:00,False
+5db4eafe9b5e2e55765896a065c08f5eeaeb647f,"FastAPI with healthcheck, only 1 notify function, all bot as async setup and loglevel as variable (#179)
+
+* Update bot.py
+
+* webserver troubleshoot
+
+* webserver troubleshoot
+
+* webserver troubleshoot
+
+* webserver troubleshoot
+
+* webserver troubleshoot
+
+* healthcheck in dockerfile
+
+* discord help error
+
+* healthcheck3
+
+* healthcheck3
+
+* healthcheck4
+
+* healthcheck5
+
+* healthcheck in dockerfile removed
+
+* healthcheck5
+
+* fastapi implementation HEALTHCHECK6
+
+* small update
+
+* updated discord bot start to async with start()
+
+* Matrix bot run need to be review and is not working.
+
+* troubleshoot for asyncio matrix
+
+* playing with fastapi
+
+* remove nio
+
+* fix broken dependency
+
+* fix webhook test
+
+* testing send message via fastapi
+
+* notify function
+
+* typo
+
+* Update README.md
+
+* Update README.md
+
+* Update README.md
+
+* Update README.md
+
+* adding LOGLEVEL as VARIABLE
+
+* remove send_msg function to fully leverage on apprise
+
+* trying to fix the matrix async issue with nio lib
+
+* Update bot.py
+
+* matrix async fixed.
+
+* cleanup
+
+---------
+
+Co-authored-by: mraniki <mraniki@users.noreply.github.com>",2023-02-22 12:44:36+01:00,False
+edf2deaa2a2a3907c7dcdaefe9939b482d892aa0,Update README.md,2023-02-22 13:06:32+01:00,False
+e2b368141052c262926e267caed013150b06f875,Trying to Fix error 13,2023-02-22 14:47:20+01:00,False
+ac762d9c4ba84d54d71df58733a47c3e252c3681,Fix an ugly parsing Indexerror bug for order,2023-02-23 19:48:54+01:00,False
+eea307435a536f7b2b13be0318079b3e739e6e31,Trying to Fix error 13,2023-02-23 20:19:40+01:00,False
+cbb45a3bc1d0be68c7f7aafc4d29848b1c104f1f,Fix an ugly parsing Indexerror bug for order,2023-02-23 20:19:40+01:00,False
+8b31cbbced5b6b2b5a0fb03b4f14218e0f5284d1,Update README.md,2023-02-25 12:24:44+01:00,True
+794208b7aa0be5420ffb6c97cd80976f46499210,trying to improve parsing for order,2023-02-26 17:14:07+01:00,True
+34c3e33de1d31fdbe4a2db5b58eaf78ee5654e3e,community contact,2023-02-26 20:52:32+01:00,False
+bd1d2ac56b89c39ec0fd52787d305d12f9ed7b08,Update README.md,2023-02-27 06:32:21+01:00,False
+e4307d2836820115a35c4afd363cbfbef44e0cfa,Update README.md,2023-03-01 14:59:32+01:00,False
+fc1c41f69bfe61abf7f4fd742fd7ff4c1b5aedd9,Update README.md,2023-03-01 14:59:54+01:00,False
+e81ccd9f72e2c9facd34d97841f337ac2400055c,"Update README.md
+
+added DEX screenshot",2023-03-05 10:53:39+01:00,False
+2d05172a8a7e940c65ead45120900da1b418dd1e,cleanup,2023-03-05 17:20:36+01:00,False
+32c915cb1594b000377bd67f4834538d9ac1806c,Update README.md,2023-03-09 21:08:05+01:00,False
+81ab5f90eb31d5fe55eb7d7a8c45bb953071b9a8,Update README.md,2023-03-17 14:35:52+01:00,False
+ffaef256144ad34d16418579126cee026428bb8a,update readme,2023-03-21 14:03:54+01:00,False
+9613d32aa7b01d744e962cf9c30ecde3a4bc4ab5,Update WiKi link in README.md file,2023-03-21 14:11:01+01:00,False
+be461cc7520269b6d7ca2ddb4074f8d0424b866d,Update README with new dockerhub and github container instructions.,2023-03-21 15:35:47+01:00,True
+210b19f4943ea621a2ef927bb5e91be78f997eb3,Update README.md,2023-03-21 17:04:25+01:00,True
+441910aea36f9c58fc507bfeaad34867f8f33243,update,2023-03-21 22:33:57+01:00,False
+2d23c1e7dcc5f9bcf291e9b0ca93af7250beddd5,cleanup,2023-03-22 10:48:05+01:00,False
+33fa0378d86838c72a02f60d98c165c8e633d706,Update bot.py,2023-04-06 20:24:59+02:00,False
+d950db8a9c6b9f849db76827d2c575eb93ea6995,change abi to block_explorer and added Dexswap object,2023-04-12 08:57:54+02:00,False
+054a7eaf70635b18a2375a9b9d522c53fc8d7aad,fully remove DEX specific to integrate with DXSP lib,2023-04-16 14:52:48+02:00,False
+55f81d3e707df9c87b130645dc1e35a777095589,major: full revamp to integrate with dynaconf and drop tinydb,2023-04-20 15:40:27+02:00,True
+cfe5b291de4254d1506271a47be44303102cad34,fix: actions,2023-04-20 16:12:07+02:00,False
+92b23237d1cc1f259d1a4dfc488498e7243aa7cc,fix: uppercase issue,2023-04-24 14:45:48+02:00,True
+5b1588afc6aaadde7e7cf60ad9494d8124626967,Fix: Refactor CEX & DEX integration and update config file path,2023-04-30 08:28:33+02:00,True
+75390b3e53e9c597dfcb19901b29b17687acc1cd,Update README.md,2023-04-30 12:54:11+02:00,False
+128cf9a6c6840098094406586d7895230d72ad8b,"fix: Update DEX wallet address and private key in config
+
+Changed the instructions to update the DEX wallet address and private ke
+y in the config file.",2023-04-30 14:26:39+02:00,True
+2fe01e5ceb6cafed98fd8c7ed336fc998499d674,Remove empty line and Telegram bot badge from README,2023-04-30 21:28:49+02:00,False
+8dadcd319edea5a8408f6654a192b75b4fd761a7,:speech_balloon: Update Telegram API key creation process,2023-05-06 06:28:11+02:00,True
+7d8f61b6e6f338b01b5c1e1e7f5c3c4c5dbc32a3,"Fix Telegram and API key typos, update DXSP library API capitalization",2023-05-06 06:53:53+02:00,True
+09a4eb38c58d3700145c0d1a6fb4cb5d9ee14bb3,:speech_balloon:docs,2023-05-06 11:38:14+02:00,False
+1c705c0b6a116041a6e474511f5a43adf90a1be6,:zap: readme update,2023-05-09 19:49:28+02:00,False
+86a54d3f775c7bf688e279492f433a524b654b7a,Update README.md,2023-05-10 14:13:33+02:00,True
+a5d9fd4763bd266cdb282be62ea02859de533ea2,readme cleanup,2023-05-10 15:23:15+02:00,True
+2807f4c6e7a4cc3edc78c21d5bab74503d90fcb9,⚡️Update README.md,2023-05-13 18:00:16+02:00,False
+592dfcea339d899a5491f21a661897e162c76fad,Update README.md,2023-05-21 20:41:30+02:00,True
+4b964c84554942e1bc3ac3bbec2cc33ea443ead4,Update README.md,2023-05-21 21:35:23+02:00,False
+56e95488772e782d47df7c9a8b6c651e7da45970,Update README.md,2023-05-21 21:36:31+02:00,False
+8e1e3ce5af674a28cf465a2af3547eb2b15b5499,Update README.md,2023-05-21 21:56:37+02:00,False
+0ac520064b329253bc6ca61ea2ea449801bb020f,Update README.md,2023-05-21 22:10:01+02:00,False
+7f6f6b92ed95afac37eea070d0b7b7c6af853759,Update README.md,2023-05-21 22:17:04+02:00,False
+0b066a12fff785064c4389c286a7ce43c9c2ef99,Update README.md,2023-05-21 22:19:05+02:00,False
+0dabf90d0ded03ede679cc045e2a622ce0456d24,Update README.md,2023-05-21 22:21:22+02:00,False
+53841f5282d1977893483ffb15930aa41ef20f7e,💬 readme update,2023-05-28 06:51:54+02:00,False
+c81371fdcb47b0f49dac5d09d44c163c37e6d665,💬 readme update,2023-05-30 08:08:38+02:00,False
+ec97635431cac7c5fbeada3a1e792da22213ca0b,Update README.md,2023-05-30 09:52:02+02:00,False
+35bd5ad5c63770567bbbdc1e07dcb6892f417b83,Update README.md,2023-05-30 10:12:54+02:00,False

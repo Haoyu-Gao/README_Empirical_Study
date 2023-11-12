@@ -1,0 +1,44 @@
+sha,message,date,result
+80156f8d40f1247cd4181dea8c8e8fb0ca22fd2f,Reorganize language descriptions.,2018-08-21 14:04:23-05:00,FALSE
+0c56c5da647c1d6be6cc9e12a6fad6e3113dfe6e,Correct README and move some files into hiding.,2018-09-06 15:40:11-05:00,TRUE
+be958aa91b3249fa919b382d277debc59671ce8e,Update project.,2019-01-05 20:50:56-06:00,TRUE
+b889290e23e957e7eebd441ef0d5538a98ebdfb5,Update readme with installation instructions.,2019-10-09 14:46:13-05:00,TRUE
+3945e9590bd3763f8e09637d6613cbac540e42f3,Mention that installation instructions are for Linux.,2019-10-09 14:47:35-05:00,TRUE
+571f70e692511ee683200e286c966f810daacb65,Improve wording of miniconda installation instructions.,2019-10-09 15:11:19-05:00,TRUE
+37a879c9aa1fc4267a18cc782d0c1b1681781d77,Improve wording abound dependencies.,2019-10-09 15:18:00-05:00,TRUE
+c79970d607565938590a28a0b26ba3c42d9c10a3,Mention location of docker image.,2019-10-09 15:27:52-05:00,TRUE
+2efcd593e30f06b15473f38b4e63477f77fe8d71,Document docker container.,2019-10-10 13:57:51-05:00,TRUE
+4abefa9d0b90286cb3448052e9a36bda479eeced,Give docker run command its own line. It looks better that way.,2019-10-10 14:05:04-05:00,TRUE
+c96870930524e62aa06449890e878595c5f90145,Revise initial phrasing of what parla is.,2019-10-10 14:19:15-05:00,FALSE
+a801b1071e2fdf15cc099cc6f928e80588e22c14,"Make sure Python 3 is installed and not Python 2. Also add -y flag to
+conda commands to speed up installation.",2019-10-10 14:35:59-05:00,TRUE
+9e6f35779c0cb48241439c7fb44d3619610f2631,Note that sudo may be required to use docker.,2019-10-10 14:48:27-05:00,TRUE
+e4c62d7611034682ca0dd5dfa8ac8848fd558256,"Update README installation instructions to show how to properly use
+Docker with GPUs.",2019-10-15 11:43:20-05:00,TRUE
+2bcb9590b6cdbf2baebfe26641c5db173ebb7fa0,Add note about symlinking libcuda since this is a recurring issue.,2019-10-15 12:00:55-05:00,TRUE
+43a9cbe61d465230c328c186a7a15609be45de60,Switch channel location for conda package.,2019-10-15 13:41:50-05:00,TRUE
+ed056c29bc18159a008208f3c5456f7a742acdc8,Update docker run instructions to point to utparla org.,2019-10-15 15:59:21-05:00,TRUE
+81984337eeaaadf4af695efb6802c57436328b08,Re-add documentation link to README.,2019-10-21 09:23:44-05:00,FALSE
+4608520ec10e944205ede32737e66399d2342394,Fix link formatting in markdown.,2019-10-21 09:25:00-05:00,FALSE
+04bad08a515fbb60b983dc65af3415e252e1061c,Remove note about symlinking libcuda.,2019-10-21 10:05:19-05:00,TRUE
+30da192a3fc943ec9c9ac19cb70e6ae13e85a0f0,Editing on README.,2019-10-22 23:31:12+03:00,TRUE
+67f31dd9af8c0376bf6c4d0e6301f130e2551d58,Acknowledge funding in the readme.,2021-03-20 20:31:01-05:00,TRUE
+4e10d9ccf0ef0606ea113780a435f2548472bf6a,Update README with build instructions for VECs.,2021-04-20 17:41:52-05:00,TRUE
+1bd3cb4b796c563cfb03f97dc8f06a694b458238,Disable systemtap in custom glibc build.,2021-04-20 17:43:17-05:00,TRUE
+6ebd105143cbae33c1b70ab5f2e798abc9a2b0e9,Fix readme to include modifying LD_LIBRARY_PATH.,2021-04-26 17:44:18-05:00,TRUE
+53e12589050350e0475f1f2dfe7b3e81368ee79d,Add libunwind backtracing to help with debugging VECs.,2021-04-29 16:10:51-05:00,TRUE
+77824317594ae0c825bf340bba66780aa4915311,Mention more dependencies in README.,2021-04-29 16:40:44-05:00,TRUE
+83f8c130410a8704d80652f0b7668829e2ae2b1f,"Update installation instructions in top-level README
+
+Old installation instructions are still present but commented out - they'll be useful later once we get this working as a Conda package again.",2021-09-10 17:12:13-05:00,TRUE
+09901de97f2b0b62d4d0b90b444231df671a217d,Add dependencies to installation in README,2021-09-10 17:52:53-05:00,TRUE
+1937b48ba42e24dc228508ba534dfa169164880e,Update installation instructions,2021-09-16 22:53:40-05:00,TRUE
+db0728641a29be3562dc03cb4a8dfb6b5bde5c17,update parla docker name,2021-11-17 01:50:03-05:00,TRUE
+f68458b010390f5e0ee307ff3ed783e9b9ec962f,Update README,2022-07-29 20:35:58-04:00,TRUE
+dfb932b00d1a45d6a65c3beb239b42eb997442f6,Add DOI,2022-07-29 21:37:29-05:00,TRUE
+33f1473f13bbf8ffb23f06ee7118bd0a5b954ef3,Add submodule note in README,2022-07-29 21:40:57-05:00,TRUE
+139c2c7653a29466b9e3f141e574c72379e1bfd4,Update README to include mkl,2022-08-02 12:10:54-05:00,TRUE
+d7955174423509864e00c353906f3e78518cec60,Update README,2022-08-02 23:00:37-05:00,TRUE
+e810955623ae2cbbad2369b8feb2315caa93912e,citation,2022-08-17 09:51:04-07:00,TRUE
+f7907b03fc450efe1cf2a0515ac8f434dc717a3d,Typo,2022-08-17 14:31:53-07:00,TRUE
+bef5f7ebd24c25057a6be830fd0df1083bb25b1b,Update README from install-dev,2022-11-03 11:12:32-05:00,TRUE

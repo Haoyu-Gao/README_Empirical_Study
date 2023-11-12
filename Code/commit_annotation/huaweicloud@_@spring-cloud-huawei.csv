@@ -1,0 +1,110 @@
+sha,message,date,result
+a4c3e7dccdb56763679c2d5a96d715718a94b390,Initial commit,2019-07-22 16:33:47+08:00,FALSE
+3fb9525f62aa8fa18f9dc15b32a0ac8ffccabbf3,Description Project,2019-07-24 18:36:30+08:00,FALSE
+0d52ba7f789cc1ee35503f4ad474fb460b4ad609,init commit,2019-08-01 09:39:39+08:00,FALSE
+9908034b95ff7a151cb8d3e17e61b02d1076c2b9,add coverage,2019-08-16 19:42:04+08:00,FALSE
+b8015a7cc26982ee19dc0aaa096ea7eba953f6ad,"add travis (#2)
+
+* register and service center client refactoring, add the ability to select a registry cluster
+
+* add travis
+
+* 1.fix NPE; 2.fix jackson-databind.version",2019-08-19 09:56:06+08:00,FALSE
+4542c8aec111f5c69a80e3849a7781fa5719e726,Add travis status,2019-08-19 09:57:45+08:00,FALSE
+e346d8672446fc7543a1b628c5eb224fc6f00fcb,implement deregister and actuator,2019-08-23 14:22:20+08:00,FALSE
+ee16476680e8f4a0435b6e85f744a496c4b74508,update doc,2019-08-23 16:50:01+08:00,TRUE
+63daec048865481dccb46cb1c8e73e8bd2f3abea,implement get services,2019-08-24 16:31:02+08:00,FALSE
+5e20bdd128f1f5ea342d886aaffea1711996d553,update doc,2019-08-27 11:38:32+08:00,TRUE
+3032990056b650af4249046a2a7c75eab1f591b9,Modify project structure,2019-08-28 10:12:05+08:00,TRUE
+9d0b6feab2f0e6b3c833dbe6c2438466cc64177e,Update README.md,2019-09-02 20:42:34+08:00,TRUE
+8489e3032076adca71848b5d6d1701afb68486b5,update RoadMap,2019-09-11 20:59:08+08:00,FALSE
+c7eddac3422310c7ef13a5e27053d7cf560566f1,update doc and example (#25),2019-09-29 16:38:35+08:00,FALSE
+c3f077f67dca8463ff142e038717b951cdd0344c,implement load all config from config center (#35),2019-10-22 11:46:08+08:00,FALSE
+03de42d28ebab8300a69c6af93f72d5f016000f6,update doc (#47),2019-11-05 20:32:01+08:00,FALSE
+fa239ae5aed82833460855ce9b8c10fea38c9afe,"[issue #68]add new module to support swagger2 (#89)
+
+* add new module to support swagger2
+
+* Rollback to 0.0.3
+
+* midify
+
+* rename module to remove version info",2019-12-26 14:24:23+08:00,FALSE
+d29cc8a43f2b1bce92e3ede88799e30946f957b3,"[issue #121] update readme (#122)
+
+* update readme
+
+* add link to show how to use edge service",2020-01-13 16:12:14+08:00,TRUE
+af79667f90bb79ae080b43ff86f9a49b97d097a1,document update (#124),2020-01-13 16:51:08+08:00,FALSE
+8992c8a7721b55ac75348e0fef52d10ec4bd82d3,add LICENSE to all source files (#125),2020-01-13 17:34:50+08:00,FALSE
+0c07e0ed89f179c8e4aa473bb4b18e6c5e87e843,rewrite readme (#126),2020-01-14 09:25:41+08:00,FALSE
+cfe8c30b3c9442136125a5ab50cf9f83d86ebfe2,"release 1.0.0 (#127)
+
+* release 1.0.0
+
+* readme update",2020-01-16 16:49:03+08:00,TRUE
+fcfac9ba17f2f1f145581fb2b431fc7ac767ecda,Update README.md,2020-01-17 14:09:26+08:00,FALSE
+72407025950b7dbd42e82e4b1389282746a80f8b,Update README.md,2020-01-17 14:15:05+08:00,FALSE
+01d370ea3567f23f22b4d1127315e8a974964364,improve document,2020-01-17 14:50:23+08:00,FALSE
+88c89f0648266aeb42bc1af0d92a133461cac65b,"fix ssl and add demo (#134)
+
+* fix ssl do not work
+
+* update read me
+
+* add demo to show how to use ssl",2020-01-23 16:14:05+08:00,FALSE
+5db6cd48340560f247ae0874559a93277e4acb84,fix readme bug (#160),2020-04-03 11:21:28+08:00,FALSE
+c27b47c7c3d23f2686825ddc1f99c32c0082b2e0,"upgrade version and  update readme (#180)
+
+* upgrade to 1.3.1-Greenwich
+
+* update readme",2020-04-26 15:18:42+08:00,TRUE
+2ac8bccd9d9ac6bc61f265e1a330382d0d02a1b0,"upgrade version to 1.3.2 (#192)
+
+* upgrade version to 1.3.2
+
+* update readme",2020-05-09 17:31:55+08:00,TRUE
+ad83a653e79479aa604fafd989487d576dacd12b,update readme version to latest (#217),2020-06-04 16:03:32+08:00,TRUE
+129866f1f1a96c65dbfbb597b7a1870161321b04,update readme version (#237),2020-07-23 17:13:26+08:00,TRUE
+36e94171c19d5a7c1f878bcfcf8bd6f525e6f7db,update readme vision (#248),2020-08-19 10:26:19+08:00,TRUE
+415098bc146f45c032bae59b68c0fd3bfcf01a16,update version to 1.3.6 (#254),2020-08-27 09:48:36+08:00,TRUE
+d2ef1447585aa3b5137ba6f36810e0509cf10d5c,update version to 1.3.7 (#259),2020-09-18 16:57:21+08:00,TRUE
+a0d3093c5888bfb5bf0f2d300e18fe8e2e865aea,update readme (#283),2020-11-05 15:19:02+08:00,FALSE
+256c82b147a6061a59ef3bfea474d9fd233699b4,fix typo (#285),2020-11-05 16:43:26+08:00,FALSE
+a2f51de81987aa75bd61d8b669ed1eb79ff78732,fix invalid links (#286),2020-11-06 10:34:04+08:00,FALSE
+cf60edb1e4aefa88c4c5685ef3d7357f28de6213,update readme latest version,2020-11-26 09:29:29+08:00,TRUE
+b89d6c7c9eaa83b7e510e210921550ca67eb5d97,"prepare 1.6.0-Hoxton-SNAPSHOT and update README (#350)
+
+* prepare 1.6.0-Hoxton-SNAPSHOT and update README
+
+* update README and minimized demo to latest",2021-01-29 17:37:11+08:00,TRUE
+8adfd9725dea3ad471bdfd2a6b2774b58279d679,update version info (#357),2021-02-10 18:00:07+08:00,TRUE
+c534cfed90766af6d07caf11d6849e30a2cd5bb4,"#375 improve governance documents  (#368)
+
+* #375 基于流量治理模块的文档冗余需要删除将原来的老旧文档删除，直接链接到华为云官网文档
+* #375 英文文档链接替换",2021-04-16 14:53:37+08:00,FALSE
+e845b7561c95f4fd427e19fa5491a57807da82b9,[#385]update readme and project instructions (#389),2021-04-21 17:37:14+08:00,TRUE
+1058d41181b6f321909f12b6276ef46b145e5cab,update version info (#396),2021-05-06 17:43:44+08:00,TRUE
+a9b75531800bf34e5b901910861d52f96512c976,[#450]provide a starter include config & discovery only (#451),2021-07-14 16:16:20+08:00,TRUE
+b1b825118b59b8f5a03b4e32e8bc92b71085d2ec,upgrade version info (#470),2021-08-03 14:17:08+08:00,TRUE
+088ec97eba9d416e8383ed83132f59a7c76f2f76,update version info and fix test case error (#493),2021-08-19 21:26:06+08:00,TRUE
+439a7fc94ed8e4c3e50fd7edcbeaf654f5194c0f,prepare 1.8.0-SNAPSHOT (#529),2021-09-10 16:56:22+08:00,TRUE
+095c656a12f11e464cea06fbae99d73df8c8784a,update latest version info (#530),2021-09-10 17:06:50+08:00,TRUE
+1104a23fa9986176050ae8a1a20e1bb2d1e7a420,[#536]support jasypt to encrypt sensitive configurerations (#546),2021-12-01 09:01:40+08:00,FALSE
+431a290b0ff0788156e8a717c282027d9d80e906,updated the readme to latest version (#558),2021-12-23 15:38:16+08:00,TRUE
+90bb5700a62c53a727fa9af14f4541f3c7a1c466,Update README.md (#588),2022-02-24 14:49:59+08:00,TRUE
+29455169b33b617cd71c9769fea6e5203794e7e0,[#638]upgrade servicecomb dependencies to 2.7.0 (#639),2022-04-07 20:52:33+08:00,FALSE
+1adade1173370610d9979384aed5e135c2a474f1,prepare 1.10.0-2020.0.x-SNAPSHOT (#642),2022-04-08 14:22:28+08:00,TRUE
+5fe9ce33cd89a5c35045be75bff7f1787878ca88,update project readme (#703),2022-05-31 17:31:55+08:00,TRUE
+459caa12cf35ad000f58ae2479c44190c992c931,update reamde for developer guide (#755),2022-06-22 18:04:21+08:00,TRUE
+46676ca7a1c34aa36e24051ecdbe1d699e9bb006,update version info (#792),2022-07-05 19:58:46+08:00,TRUE
+132153e3e81d8241625db2d62a7a25fcdc3530e2,Update springboot support matrix (#799),2022-07-19 17:17:57+08:00,TRUE
+7eba51d3af75f126bec337a869c65748a0acad41,update version info (#912),2022-09-04 17:16:09+08:00,TRUE
+da6700924d0cfd28d07915d9ffe29f346f795ebf,update version info (#946),2022-11-23 20:25:28+08:00,TRUE
+cafd0a5dda0ad17204808780b40e0e76c41db8a6,update version info (#965),2023-01-19 10:58:28+08:00,TRUE
+4f66100d191079a55173b7c924a61958a9168740,update readme (#966),2023-01-19 11:36:14+08:00,TRUE
+fdc30a2e44fafab8fdbea1b6822d1025bafece1b,update home readme about latest version info (#1019),2023-04-26 10:43:43+08:00,FALSE
+2f5dd303aa9d361809032e67c2bea81892118900,fix readme typo (#1020),2023-04-26 10:48:40+08:00,FALSE
+7b16f1c03460e823c3344d9bb66386748afa5c65,update readme for latest version (#1028),2023-05-05 15:24:39+08:00,TRUE
+20570895014b5e4b5d1b295829033e2a9208f3f0,update latest version info (#1040),2023-05-25 11:16:18+08:00,TRUE
+1362c3eba2718a65077c23cc88376bc863107c60,update for new version (#1047),2023-05-31 12:00:40+08:00,TRUE

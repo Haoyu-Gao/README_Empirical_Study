@@ -1,0 +1,158 @@
+sha,message,date,result
+7d59c99109509056c3fe73ce3121bd47ed304524,Initial commit,2015-03-26 09:38:55+01:00,False
+bc46e1219067783c2d7efd6e50436f73b07454fb,added build status to README,2015-05-18 15:34:11+02:00,True
+9d57bbe9f44091d727c49bc12ff5dd752a2d5d44,Extend readme with further information.,2015-05-26 15:41:55+02:00,True
+447583273e2a77da7eb67a5a99cb1fc61350b5bb,Update README.md,2015-05-26 15:47:59+02:00,True
+e36041b417519dae004b39c5e68a22ac2c2503c9,Initialize documentation of Iceland,2015-05-28 12:24:20+02:00,True
+47c77a469b0218356c9cdaa2cfb40bd298b8866f,"Add branches, code compilation and maven dependency snippet",2015-05-28 13:49:43+02:00,True
+69814d09672678f3c85b8f7d8dccf5c545c328c4,Fix link after renaming,2015-05-28 13:51:19+02:00,True
+08e1dd2817204bf53bb141ce4604e96d9634763b,Add further documentation,2015-05-29 11:09:45+02:00,True
+dbeb6ff2b47ebeda148c454d4e6ce8ded979a5f0,Set Java compilerVersion/source/target to 1.8,2015-06-01 12:38:27+02:00,True
+93581e5d3aed5a7590d4b3a9f6a21fdb215494cb,Initial commit,2016-10-05 15:19:06+02:00,False
+063302b02b28330d15cd159779fdc983089e8529,Create README.md,2016-11-29 11:24:23+01:00,False
+2009cdd5ecd3c9e52442e01e0be35072a95589fd,Create README.md,2016-11-29 11:24:42+01:00,False
+5fdd093935ec882f9e40e325ac73f60090487d73,Update README.md,2016-11-29 11:25:04+01:00,False
+f726da416102ae1c96676d92abbfddd960013347,Update README.md,2016-11-29 11:28:06+01:00,True
+4066042f3797aec910516fa1dbee5b8919853abd,Update README.md,2016-11-29 11:28:23+01:00,True
+bb10eb4566e4a7c9cc5f45fcfc8243dc6415c3d4,Update README.md,2016-11-29 11:28:36+01:00,True
+21be27e0371d41fd6cb7950d1a1cf5878b7cb3e4,Update README.md,2016-11-29 11:29:16+01:00,True
+ad7411443338752e5fa8c5f2e14fb9411813b8c3,Update README.md,2016-11-29 11:29:42+01:00,True
+149c6fd8a4ea506d6de62d2340e0c12ff30acb56,Update README.md,2016-11-29 11:29:49+01:00,True
+2ea07fb718f5fd5bb517f51c83cefcdf3185cd3c,added README,2017-01-12 14:47:49+01:00,True
+895835b63b006b351e2fff0092947a8c120d9951,added readme,2017-01-13 14:36:48+01:00,False
+438f69273412a10444ca726db8b34526254ec136,first readme draft,2017-01-13 16:28:55+01:00,True
+7ec2bb6f5ed29638299c79efad7d981443cbaf76,Update README.md,2017-01-13 16:29:36+01:00,True
+23f91141a4ccc4623bdba7fc82cc63e11b6e5203,"Update README.md
+
+inserted link to Apache license. edited language.",2017-02-21 10:13:52+01:00,True
+c725341c7337edadeaca12e0dead58fbe33be785,"Update README.md
+
+added download links",2017-02-21 11:00:10+01:00,False
+0086ef887379b6f91725469fa15998542d571e87,Update README.md,2017-06-02 11:17:17+02:00,True
+1644f78a35f19a8f58d0b54c7c2424d53e80bc0d,Update README.md,2017-06-02 11:18:37+02:00,True
+a5619057bdfe66d73dfabf3ea49538b664359fe8,update README.md - formatting,2017-07-27 13:02:00+02:00,False
+dd2f245be563d791aca6521d286e742159317c04,Update README.md - rearranged graphic,2017-07-27 13:04:36+02:00,False
+77208a57fc5270a1d33929bc817607c005f15e53,Update README.md - deleted marketing features,2017-07-27 13:09:36+02:00,False
+5eb0034d6078777ff49ce927512e7b82b923b75f,Add credits,2017-08-17 08:31:27+02:00,True
+0095636b5d988b817aef1f76f7be040cc07c135c,Add credits,2017-08-17 08:31:41+02:00,True
+fe7463e0c0f233e4e3492fe721ce2a3e250fc2c2,Add credits,2017-08-17 08:31:53+02:00,True
+1eebb2ff71c11a29c78ac90ff9b76483e41556c6,Add credits,2017-08-17 08:32:49+02:00,True
+95cb44762983050b046a7ce15b27924bbceeb1af,Add credits,2017-08-17 08:32:56+02:00,True
+21a7d250524634fd2f9c4aa1bd3ded3f5a486ea4,"Update Readme.md
+
+Added an extended description.",2017-11-08 10:01:44+01:00,True
+53d6157f406aae9435de3921e9cbd7983a014c3f,"Updated Readme.md
+
+Added extended description.",2017-11-08 10:09:31+01:00,True
+68f8b0b2df1cf1ca9e96f271aa46bb9f2d032106,"Update Readme.md
+
+Added extended description",2017-11-08 10:17:46+01:00,True
+90282d28f779fea153da8cf743b61b9f62fa722e,"Updated Readme.md
+
+Added an extended description",2017-11-08 10:23:13+01:00,True
+a20a62386d7d2e42c21ec6b5c786e3d29bbefbde,"Updated Readme.md
+
+Editorial corrections",2017-11-08 10:30:17+01:00,False
+7b7d614df6954a92a51b91c0021f697881a6cca1,"Update Readme.md
+
+Editorial changes/additions.",2017-11-08 10:33:30+01:00,True
+94c09c86b563fc959584c3e77c877fece59e98d8,"Update README.md
+
+added links to faroe and svalbard",2017-11-08 10:50:27+01:00,True
+fb5389128f783805a440ca47176aba10f990caa1,Update README.md,2017-11-10 11:30:43+01:00,True
+02bc2437d10549d199226a1d9142fd53ed4d1c2d,Update README.md,2017-11-10 11:31:09+01:00,True
+7661a4e82988fc0770b50174b438f8d5062b602e,Update README.md,2017-11-10 11:31:57+01:00,True
+ffb195e2e240896d56f55d24e723a9ec8788098a,Update README.md,2017-11-10 11:32:11+01:00,True
+0519108d27ecad0025cc6811edd414b5ecd3e50f,Update README.md,2017-11-10 11:33:22+01:00,True
+b0e17f83c698cdc31bc773ac9c52f510a08620d7,Update README.md,2017-11-29 15:19:01+01:00,True
+73ceebf726b1abb9cc85356379c98193562a93b7,Update README.md,2017-11-29 15:35:48+01:00,True
+10680e1b27748185b248fa79db840a5a39760527,added maven central badge,2017-11-29 15:46:56+01:00,True
+7e65cf8aade3bca306fa124d2cbe3a0914e1657f,Update README.md,2017-11-29 15:50:03+01:00,True
+41917ec00ce2903a58aae00997fb7e15c7c5f5fe,added maven central badge,2017-11-29 16:29:44+01:00,True
+91ab5e35f742c9715f6870b02092e78fd438541b,added maven central badge,2017-11-29 16:52:02+01:00,True
+742dfbd2786b04eaa36723ab5ff3d18e239bd89b,updated version in readme,2017-11-29 17:17:46+01:00,True
+30e316a73ef8d828f92f6b4506aab25e8218cd77,Update README.md,2017-11-29 17:33:33+01:00,True
+456e3b170fabdd05b0c51a356ed7904ac73a6de9,Update README.md,2017-11-30 10:33:37+01:00,False
+2029890a88b24d50ca2709b3c0958bbaf0062a01,Update README.md,2017-12-04 13:39:32+01:00,True
+2260a4abb9fe02ec7eab3fad4ca84e12e4cd71dc,preperation for arctic-sea,2017-12-20 14:26:10+01:00,True
+b33e951c65b2f2d43d76bcdc9e5ecbedd57b8b75,preperation for arctic-sea,2017-12-20 14:27:17+01:00,True
+4f7db9455da05d93c2c7f6b283295256d5438ce0,preperation for arctic-sea,2017-12-20 14:27:49+01:00,True
+6c8079bf2d77255b03cb6440f6b4b73ae388e712,preperation for arctic-sea,2017-12-20 14:28:21+01:00,True
+748d11e4aaeccfc6a130bf89a3b8d91eca5985e6,preperation for arctic-sea,2017-12-20 14:29:01+01:00,True
+7ff842894823fbb713a6d5468573c7a1dcda92d0,updated readmes,2017-12-20 15:08:10+01:00,True
+7eb3d47ede0c5504d34a4932d7de0ca60bc70521,updated readmes,2017-12-20 15:13:06+01:00,True
+0acefae2249e6daf8815e0fa90228594f8cfbfc5,fixed link in readme,2018-01-08 11:27:23+01:00,True
+516e1070d88a557ff53453933785cfcbedfb76ca,Update README.md,2018-01-08 12:16:45+01:00,True
+11672d9accfbf8859f754931978fa6575494a696,Update README.md,2018-01-08 13:38:51+01:00,True
+de189120ccf0d9b1179f84b369f36b1916d03873,Update README.md,2018-01-08 13:39:28+01:00,True
+290db44c5c9557c7ee7843594e1171944fb89d43,moved images to etc,2018-01-08 14:19:14+01:00,False
+a1da6a6a0ff88ea8d0db9ecb5996da3f608962b7,changed line endings of README,2018-01-08 14:20:04+01:00,False
+52a4b9d39ffd8e7087b29d103b76e5a9b964cb70,Fix version property in quick start,2018-01-08 15:20:50+01:00,True
+0cb4ac154db0d1ae6b052728091253d88d1ee5e0,fix in development repository definition,2018-01-08 15:22:29+01:00,True
+c819fdf894b3f5d17d7943a12b4054d44d4b8f39,updated versions in readme,2018-01-19 12:42:57+01:00,True
+22325369e91de5eb9fa790744746603bd325b4ae,added gitter badge,2018-02-15 12:08:40+01:00,True
+5844b3851993252aec4d5ceeda8da69beb209e13,updated versions in README.md,2018-02-23 15:46:10+01:00,True
+8cb99a5d1e55f0ebd914342ec5acbf8c116b51e4,updated versions in readme,2018-03-09 10:33:43+01:00,True
+ef437b723465e5d97a8b2907cf5db262718b3070,Update README.md,2018-04-23 13:56:47+02:00,True
+e0e4b74b44dc13a0b9f55c494bc1f8730fcffbf1,update logo,2018-05-30 16:41:45+02:00,True
+ae9ce4c17de39caad5bb3cdb95d0dd80805c573c,fixed version in README.md,2018-10-25 14:16:43+02:00,True
+58cac4dc0864c550f8b580e5e965a43f102374cc,updated Maven Central links,2018-10-25 14:16:57+02:00,True
+90d6de8acfb946b6837095de1659ba1f11ec013c,Add lgtm code quality and allerts badges,2018-11-27 08:58:48+01:00,True
+e2d6469f4e682c0a9e0dab0e7c8f1c331b302f94,add spaces between badges,2018-11-27 09:07:51+01:00,True
+43e64ae82b4df878d75a0543c79286c83038d9ba,Update README.md,2019-11-25 14:18:32+01:00,True
+cdfc62ddd8b9491688fa0c84fc2aba17cdc43b71,Update README.md,2019-11-25 14:21:59+01:00,True
+ce39f75af2b5b08775f603d0f028804244b7c15f,Update README.md,2019-11-25 14:26:43+01:00,True
+4322a54e99d51d55440cb462aa972bd42b911e44,Update README.md,2019-11-25 14:29:15+01:00,True
+38f9186da4e193e26a416f0d03fbb0d0d5ba0ae9,Update README.md,2019-11-25 14:30:12+01:00,True
+a11f2b521dd43f23675c7c7618263982749924e1,Update README.md,2019-11-25 14:46:43+01:00,True
+30b15ec30810f12e22be0681efaa01aa518a5575,added images locally,2019-11-25 14:55:22+01:00,True
+20c78aa1fc317b24df306b48048d4e6c1414714e,switch to raw.githubusercontent.com,2019-11-25 14:57:28+01:00,True
+5fda668f9cd0cd265d9f2305c1898c3b0b49e0bd,"added bridges, externalized links",2019-11-26 09:23:06+01:00,True
+e68e6c1dd401baf84e76e8e94775a0d762533fac,fixed table,2019-11-26 09:24:10+01:00,True
+c20156eec81844cae243a3f92ba3de0ea0857d66,fixed grant agreement no,2019-11-26 09:25:44+01:00,True
+f4328e984b5e1c9a820a3715ce5d0b1efa57993e,fixed connectingeo link,2019-11-26 11:15:33+01:00,True
+a00390ef8c7b734fc0438c4c3a88db4ded189536,fixed FP7 link,2019-11-26 11:15:47+01:00,False
+44f97ef181183ede593b18cabeace7e4543808af,test markdown image,2019-11-26 11:17:09+01:00,True
+f085d80fa976d367c2600833fcbb2651405fd18d,switch to markdown image,2019-11-26 11:30:10+01:00,True
+f7a1813967ae33b7fcd1c221ac36b5d1e865945e,unified logo names,2019-11-26 11:42:27+01:00,False
+8f54f6c597bc96e3fe65863546533293a9de529c,added newline,2019-11-26 11:43:14+01:00,False
+7389285198436776d35b6b7aa9dffa9a9540f000,use unicode,2019-11-26 11:44:45+01:00,True
+acd77c4a58d89203ba3ba6197d4cb2ad3daa2982,added FONA link,2019-11-26 11:46:09+01:00,True
+91932fd477f4d5df99afef1cb572c303af850c56,minor changes,2019-11-26 12:18:00+01:00,True
+ccfab94fd62ce7a26e162de305f07ed28aec570a,Update README.md,2020-02-15 20:49:40+01:00,True
+aa4b9b99e43cd3dd1e94c50fe3b3651be9f3319f,adjust version in readme,2020-04-01 12:44:44+02:00,True
+d0e738343d328e29ed973eeacbfd0e481df57b0d,update versions in README,2020-04-09 09:51:47+02:00,True
+3607bcc59f5bcee59bb0b88afd91de9947f87bce,added key technologies and benefits,2020-05-11 10:33:45+02:00,True
+9609dc0319ff8940703ab1ecf3cc4046248647a6,update version in readme,2020-05-28 16:08:05+02:00,True
+1bd4eb78fdb7de1d6c7287e409c8de28a980d7ed,inline links,2020-05-28 16:28:00+02:00,True
+de9acb60e9b218d8cd4bb7a96b585c188acd95d6,add new overview image,2020-05-28 16:28:29+02:00,True
+46bb58f47a0428a02b0a67c03fce133a77e1f6fb,update version in README,2020-06-05 11:39:58+02:00,True
+767a878ca3191ee63a7042a8f15083be1c0797c9,Update README.md,2020-07-06 14:14:57+02:00,True
+721a19ea7e96725c7ee226063895896278047610,Update README.md,2020-07-09 09:20:07+02:00,True
+d81c56ff8d9f503cd31b64c20166d9b6128632a6,Update README.md,2020-08-11 15:13:31+02:00,True
+b45238679ba1dd7c38d636569ed6c523a137dc57,Update README.md,2020-08-12 08:43:56+02:00,True
+1e5deaeb8da17312cb6df57607a1fb41db4ebdd3,update README to 8.0.1,2020-08-28 09:15:57+02:00,True
+83dc3ab83760b3e58c826c25ccf4854956b2bd40,update version in README,2020-09-21 12:21:53+02:00,True
+926b47d9837eace6ab89f85e5c5e16d989fda945,update version in README,2020-11-30 10:06:20+01:00,True
+4c9fb4517dab7652790a54d2f62df8634424b1f7,update credits,2021-01-29 09:50:16+01:00,True
+10fd07faebcb77a9bf9650b7b5087a7986fba627,add logos,2021-01-29 09:53:27+01:00,True
+c614d5b33104b7c48fc32aaf0a60ffaa65c096ac,fis project name,2021-01-29 09:54:57+01:00,True
+ea9e731d3bb251f44e967f70333e330d89ad021d,update credits,2021-01-29 10:28:24+01:00,True
+4c0b70f13d28d67e5dc68bbdd10a627ce3c36325,update credits,2021-01-29 10:36:22+01:00,True
+8a59a9a9b25976f358a498591be847660f15e5d2,update versions in readme,2021-01-29 10:39:19+01:00,True
+4a3c5e12e8f0f106637c211df95cdbce86353667,update credits,2021-01-29 13:58:10+01:00,True
+3e1fda82768a8e63bd298d9a8654819d5eab2a1c,"fix references
+
+fix references development of arctic sea instead faroe",2021-05-28 12:21:38+02:00,True
+b8ccf413bb339c4ef4abe41abf3410da1a1e26e7,Bump version.jena from 3.17.0 to 4.2.0,2021-10-25 12:16:33+02:00,True
+1e2f091ff2ae49d56f3841f9f7ef8cd761eebbc1,Update README.md,2022-04-29 14:09:58+02:00,True
+643b2edc7231f5cb0e7251229c06c4b17697ff31,Update README.md,2022-06-21 13:55:15+02:00,True
+4efb00d7dda2f2d7f2c8d436a2436305707cf266,Update README.md,2022-06-21 13:55:45+02:00,True
+c035d023f22dc0b96fd1abbaac00fc0df96e00e9,Update README.md,2022-06-21 13:57:16+02:00,False
+67cba88b1d8836cc2f10af52da0f8300f51d9f9e,update version in example,2022-06-28 11:31:16+02:00,True
+107246069946a264a12a70e5b392641fe43631ce,update images in credits,2022-07-18 12:23:21+02:00,False
+17f8af8f8f004fa69b565b10533877b80d2897d0,Update README.md,2022-07-18 12:25:49+02:00,False
+1f9cf10a24cb0251a32ecbebd5e1c64479624142,Update readme,2022-10-27 14:34:54+02:00,True
+9691926106e71e95738c8025762570a8b329febc,Remove lgtm and add CodeQL badget,2022-11-08 11:12:47+01:00,False
+41c695c84f4f7721e2c2d81169dcda4a32c2b7a6,Update README.md,2022-11-15 10:45:53+01:00,False
+13d5f29fd1e54e10d7ee63df5768cc86719d6118,Update version,2022-12-06 08:23:52+01:00,True

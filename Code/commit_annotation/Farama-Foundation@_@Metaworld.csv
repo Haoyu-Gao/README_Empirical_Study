@@ -1,0 +1,133 @@
+sha,message,date,result
+8711e21458bf757df7ee4e9e95077f6c77951ed5,Initial commit,2018-06-07 11:27:27-07:00,False
+3217c986e014bf9d5079c5354b1254d3ecc7f239,add description of current version of code,2018-06-09 23:29:08-07:00,False
+9c5a6c6ef164e6ca6bbdf74c7dd5afc5133a4a88,add description of future plan for env,2018-06-10 00:03:02-07:00,False
+9b59dd39d48633655a8cf17247ba2246bbe70896,small updates to readme,2018-06-10 00:05:20-07:00,False
+f2876f985a85134c166b183d4705ad535210f9d5,converted everything into a goal env,2018-06-10 22:06:12-07:00,False
+7ec4e10e187a49097d8062b752b4d81353234290,"Update README.md
+
+typo fix",2018-06-13 15:43:44-07:00,False
+55afc8f569a52cf9c636c8cd546a15048487cf7c,"refactor compute_reward(action, ob)",2018-06-21 17:01:41-07:00,False
+6c6b61f0e33d5bed1adc72fc17b2e187d10077c5,implement add_goal_to_obs and update README for FlatGoalEnv,2018-08-15 09:41:31-07:00,False
+d129c70075dd597c50109bd253ed9ad9633c2a1d,Update README.md,2018-11-12 16:38:50-08:00,True
+ec116da4ee0fb0db5c74c40d63b913da0f242f41,Edited README and added contributions file,2019-04-19 13:21:03-07:00,True
+b65c9d574a3aeba074749a3f82a2f7456e8bcd00,Removed old README,2019-04-19 13:23:46-07:00,True
+7133c837541e98eff90adc29dd91541342da5826,"Fixes for running all envs in SawyerXYZ (#1)
+
+* Fix envs in SawyerXYZ so they can be stepped(38/40)
+* Create parametrized test file runnable by pytest
+* Create a command line program to run demo code for each env",2019-05-28 15:56:42-07:00,True
+916ebca80b2ba2fe3a40c4acba6cf39510006f16,Use metaworld instead of multiworld,2019-07-08 19:38:46-07:00,True
+38b43ddc7d1caa5e5dccab2258ce6efa4124a2a6,Update readme for installation and benchmarks,2019-09-01 09:28:58-04:00,True
+4b26274fabe2e31f95713c2c9428ab78a82e965a,Update license,2019-09-01 09:47:20-04:00,False
+983d8f4f2f2423fbfe0b0bfe9732fd0dd7c8afbf,Update installation guide,2019-09-01 09:53:29-04:00,True
+f94d005160b039c4e028cf2190943e5348972390,Update readme,2019-09-04 10:06:36-04:00,True
+f88dd9890680fb0bce7326b8fddba17b2f413a19,Update readme for release,2019-09-04 11:29:19-04:00,True
+8915083bb25c4d757fdc75d05a58bbc3841b452c,Cleanup for release,2019-09-04 11:54:48-04:00,False
+f886b155cac5299d2264a8d99104f2be55cdf8d5,Update README.md,2019-09-05 17:07:47-04:00,False
+6412ae4c2f8cdc45b9d6e69798845f60b27e7edb,More readme updates,2019-09-05 17:31:21-04:00,True
+7ab3128bd7e945f36f835d969fe7b48f7452b8f3,Update website link,2019-09-07 19:58:58-04:00,False
+2b9c7c16602ecbf91c636ed1e5bc1aeb0e37dd93,Add v1 to all task names,2019-09-08 16:54:43-04:00,False
+df295f58c1ee493b820299d2bb271aedcdc2892e,Remove 6Dof from all environment names,2019-09-08 17:18:03-04:00,True
+2acac73d26b83e09ea53510d887e291b5694fb84,Update README.md,2019-09-09 12:05:49-07:00,True
+d18446b10f7c9990ca03445dbf0136b53edc1911,"Update BibTeX (#9)
+
+* Update BibTeX
+* Update authors",2019-10-09 11:13:34-07:00,False
+5a543f07255be4da0a7c4bccc3864c4391e80bf4,"Update README with CoRL paper (#12)
+
+* Updates BibTeX with CoRL/arXiv paper information
+* Tweaks to presentation and outline",2019-10-31 08:13:55+09:00,False
+9f613fe967349c00c6367af53ece499964253793,Fix paper url in README (#13),2019-11-01 17:25:49-07:00,False
+2361d353d0895d5908156aec71341d4ad09dd3c2,"Fix missing assets after pip install (#17)
+
+* Fix recursive include for python distribution
+* Update install instructions without cloning
+* Use graft directive, update egg for pip install",2019-11-08 12:51:58-08:00,True
+b3682a7147b18ca0c02e746d27c6127c0e9c93db,Add link to metaworld-announce mailing list (#51),2020-02-17 11:06:21-08:00,False
+c622d48679823c959241a54292919b86120a1d66,"Implement the new API (#143)
+
+* Implement the new API
+
+This API aims to simplify usage and fix bugs (such as random_init being
+set wrong) by removing as many arguments as possible from the API.
+
+In the process, it makes using metaworld potentially much more
+efficient.
+
+However, this changes breaks the old API.
+
+Prevent goal from being resampled on reset
+
+Note that this *should* make the environments easier, since they're no
+longer partially observable in a non-meta-learning sense.
+
+* Unsplit ReachPushPickPlace*
+
+* Undo special goal fixes (not needed)
+
+* Delete old API
+
+* ""Fix"" mouse_control.py
+
+* Update the README
+
+* Integration tests for benchmarks
+
+* Rename env_id -> env_name
+
+* Add tests for checking observations and spaces
+
+* Extend all observation spaces to 12 elements
+
+Co-authored-by: Avnish Narayan <avnishna@usc.edu>",2020-07-10 23:54:09-07:00,True
+8fc970f17a58361dac10140d13aa249843cd9231,"Remove test tasks from MT10 and MT50 (#144)
+
+Separate test tasks for MT10 and MT50 removed.",2020-07-12 07:02:58-07:00,False
+2d441eed70b6f5cb1f35883b0517c4bd2812268c,"Update README to modify description of task ids (#188)
+
+* Update README to modify description of task ids
+
+In reference to #187. We should probably create a function that allows user to pass MTXX.train_tasks to it, and then returns dictionaries for constructors that would wrap the train tasks with a wrapper that augments the environments observations.
+
+* Update TOC to include MT1",2020-08-05 16:09:51-07:00,False
+b01e60d25b270e6edd98f829df221f7531a103fe,Update README with Slack (#211),2020-08-21 14:51:04-07:00,False
+7f96d0e50030ebd8b9310275d51f28e3e1845716,Update README with link to the Garage baselines (#229),2020-09-23 08:15:03-07:00,False
+b80dd3701ed8f4580ffd384c6d6fe0470895a914,"Add github actions yml (#302)
+
+* Add github actions yml
+
+* Remove quotes
+
+* Update readme and remove travis
+
+* Remove non-docker CI scripting",2021-01-27 14:22:52-06:00,False
+b7bd661dfa2747fd30decc6333844b418166d5a0,Rename CI workflow and fix addopts typo (#316),2021-02-15 20:51:21-06:00,False
+cfd837e31d65c9d2b62b7240c68a26b04a9166d9,"Add benchmark seeding (#341)
+
+* Add Procedural Generation of GoalHidden Envs
+
+The new environments are children of the various Metaworld tasks, but with the goal zeroed out in observations and goal randomization turned off. All envs have the new name Parent + GoalHidden.
+
+* Add Test For Goal Hidden Envs
+
+Test checks for all obs being zeroed out, all envs can be created and stepped through, goal does not change on reset, and the name contains important key words
+
+* Add single goal environments
+
+Add single goal environments with goal observable and goal hidden
+constructors.
+
+* Add option to seed benchmark
+
+* Rename cls to env in single goal env constructors
+
+Co-authored-by: Adithya Bellathur <bellathu@usc.edu>",2021-04-15 16:19:56-07:00,True
+a98086ababc81560772e27e7f63fe5d120c4cc50,Update README.md,2023-01-24 17:56:41-05:00,False
+97296a1f9d5c6094d4dce028009fe09cdb8a3786,"Improvement to setup and readme (#398)
+
+* add scipy as required
+
+* added working code to examples",2023-05-08 13:12:14-04:00,False
+d9203eec2177c73be31b3d72d9c19d07c96be390,Update README.md,2023-05-08 13:13:21-04:00,False
+3ced29c8cee6445386eba32e92870d664ad5e6e3,Update README.md,2023-05-08 13:16:12-04:00,True

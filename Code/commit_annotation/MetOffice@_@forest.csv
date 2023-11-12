@@ -1,0 +1,69 @@
+sha,message,date,result
+bedf8617d84c32cae048c8a4c7dd1eb19d957f79,Move in to own repo from SEAsia repo,2018-01-12 13:43:56+00:00,FALSE
+7a8e3773593ca75201afc971f18a986dad37871f,Added 'hi' to README.md,2018-01-17 11:18:19+00:00,FALSE
+a99e2dd216fd16fa6d91444de5b09321b014d908,Removed 'hi' from README.md,2018-01-17 11:21:20+00:00,FALSE
+795e202707b69f9bfd6baa975dd16e4f827726f9,MET #20: draft of proposed revised structure for repository.,2018-01-31 14:26:52+00:00,TRUE
+fce94f8dd30dda6763dfb80222e1da62b7e62ff8,updating readme with more running and installation instructions.,2018-05-21 16:05:40+01:00,TRUE
+ce4d0161fe0d670306991bad1225f2ce26790e53,updated readme file to point to the old wiki for background info.,2018-07-10 13:59:44+01:00,FALSE
+a563027992c98ff29a3b4921a60b54aabbbfbba8,added unit test and documentation instructions to README.md,2018-07-18 10:56:02+01:00,TRUE
+4e3ee715a85f0669733d955b55db4fcb95a6cb8e,Add badge,2018-07-18 15:24:47+01:00,FALSE
+c57b5e49ec5f89d2a33db93b1163be596f4beacd,improved README.md to include unit testing information,2018-07-23 11:16:40+01:00,FALSE
+b8f503d01c0e83b0f6b285ccef51f7330474fdfb,reworded the npm test description,2018-07-23 11:20:17+01:00,FALSE
+0dd2de45f892cedcba3a64e73592fc8a9329647b,typo fixed,2018-07-23 11:21:39+01:00,FALSE
+9db1e7fec7c69427949dda3cef906b3176c5b37d,global vars rather than flags for download_data; clean up test; fix bug in aws.py,2018-07-27 13:51:57+01:00,TRUE
+1d056c5daf9270212471f2c592e53e7593c54611,Changed 'EXPORT' to 'export and updated PYTHONPATH,2018-07-31 15:18:53+01:00,TRUE
+2b34a4045e4869cb184c039fa7961e43c6bbf1fe,"Readthedocs (#106)
+
+* steps towards a developer guide
+
+* readthedocs builds in the same directory as conf.py
+
+* add application reference
+
+* more Sphinx infrastructure
+
+* more docs
+
+* point release at __version__
+
+* more developer guide
+
+* developer guide additions
+
+* more detailed docs
+
+* remove dead documentation from README.md
+
+* more README.md edits
+
+* add a user guide",2019-07-16 18:04:55+01:00,TRUE
+97a8d0e0339d2cb9eb9d1455641e50b1b1a8fd17,Update README.md,2019-07-19 10:01:13+01:00,FALSE
+2ba5b0bcfb9f954668bc998a08292de3bb7d7848,Update README.md,2019-07-19 10:01:57+01:00,FALSE
+2b628d0a30c52aea5a41c63eebe54bd74ba531f8,Update installation instructions (#110),2019-07-24 10:35:00+01:00,TRUE
+dc9cb064a0c8b4fd9a3003a4b086c3ad50fbf51b,"Logo (#133)
+
+* Add files via upload
+
+* Add logo to README",2019-09-25 14:50:05+01:00,TRUE
+ec8b88230266af9f17cb38fc94244336fbdcaf14,Update README.md,2019-09-25 14:59:31+01:00,FALSE
+8e9ddcb05e508e0d98d0a1d6bf1c3a37cb052153,"Enable test coverage (#136)
+
+* enable test coverage
+
+* add badge",2019-09-27 09:53:44+01:00,FALSE
+03741d4be34874df3b7805771eb10602fee6cf90,"Align logo (#137)
+
+* align logo
+
+* wip",2019-09-27 15:04:59+01:00,FALSE
+b0e390750547ad758db48befb0e201a5e4564604,add latest docs badge (#138),2019-09-27 16:25:20+01:00,FALSE
+fc218bd975df1fd33429df11a3cff0b142aad84b,Add conda-forge version badge,2019-09-30 16:06:10+01:00,FALSE
+703cb69983e5ab75c5ebd91ddea68caa8c284b56,Guidelines to contribute to FOREST,2019-10-01 10:55:42+01:00,FALSE
+20bc87a417017b5a38eeca65a03612c1a3796598,Add Crown copyright,2019-10-10 09:59:02+01:00,FALSE
+24ccbdf56f9087798e3cebad4b517a2052c8651a,Update README.md,2019-10-15 11:35:47+01:00,FALSE
+48de2b0759eab1777d5666bafc60dc094acf7998,Updated logo for readme file,2019-11-28 11:37:48+00:00,FALSE
+3f5503334e2a59c435b7e95c4ca5b0e40b9948c0,Update Readme font sizes,2019-11-28 11:50:59+00:00,FALSE
+2d66211a641db73e5f26d2a79c232e2edd0c1c56,"Replace repo references
+
+Change informatics-lab to MetOffice",2020-06-10 15:52:18+01:00,FALSE
+cd55f53f0d744093823b3e51c5bbb8ed30bfeaeb,Add link to lite repo,2021-04-30 10:03:30+01:00,FALSE

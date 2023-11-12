@@ -1,0 +1,118 @@
+sha,message,date,result
+c8f57a1c29fdcaba4f2ef870243b4ece372a2413,Initial commit,2019-10-27 20:04:23-06:00,False
+d5fcc6e4019634f9bd1bcb0ab06f6db88898015f,Update README.md,2019-10-27 21:28:41-06:00,False
+76261a5c74440a89c4a06072273051a2d2c34672,Update README.md,2019-10-27 21:29:03-06:00,False
+b8094f1cf9895629219a8f9bdc3a78dadab854e8,Update README.md,2019-10-27 21:29:34-06:00,False
+63267a899da44eb23e593804ebde7a40989457cd,Update README.md,2019-10-27 21:32:46-06:00,False
+0c0eb66f63a568c8ff468b9046ce48f66020c8fa,Update README.md,2019-10-27 21:39:23-06:00,False
+9f9731ca449439582e209b86c3e63729a8e6cfdb,Update README.md,2019-10-27 21:45:44-06:00,False
+20e99124bae2d5bd40a133ea6cce08624086c169,Update README.md,2019-10-27 21:49:44-06:00,False
+fe0b539d3046237ca464814b916f7ec5bbdd7f18,Update README.md,2019-10-27 21:50:14-06:00,False
+04835cd902a9a9ad1d8f1d36f4aabc0ef3a1d87b,Update README.md,2019-10-27 21:58:33-06:00,False
+1cc4ec894a9b4d44f424b2c1b9869e1ec21fae35,Update README.md,2019-10-27 22:04:32-06:00,False
+6e5c6fadcfcae2c4fd5735575aea14a7e130ebc0,Update README.md,2019-10-27 22:09:23-06:00,False
+acaa8e9c4f17ba6ec492c1290232570d0be58719,Update README.md,2019-10-27 22:09:52-06:00,False
+60f97969f4b23053f99ff544b303599ad9c1fa1b,Update README.md,2019-10-27 22:10:53-06:00,False
+1a8673b4a29428fdf41fd15ad718064dd0a704cb,Update README.md,2019-10-27 22:11:39-06:00,False
+e0130a92ec497319c8aa1b4d1a5ce7b71713112f,Update README.md,2019-10-27 22:12:55-06:00,False
+f49dce8590465b92f27b1a7c8b5089d2668f53bf,Update README.md,2019-10-30 07:41:11-06:00,False
+51cee327570f409b48b0aba9edf89b3edb68d532,Update README.md,2019-11-01 12:50:36-06:00,False
+88a329f2df35e30d38fc7b7a17e212b4408397e6,Update README.md,2019-11-01 12:51:02-06:00,False
+390a0aacf836010af0a82de5a303403a3e1ceb72,Update README.md,2019-11-01 13:59:55-06:00,False
+78e1dea901936e56c800a709f2d48decbf8c3442,Update README.md,2019-11-04 08:09:57-07:00,False
+db9990a4bdf94a98792ea092be1dc4c96eb377d9,Implements the structure changes in #10wq,2020-02-04 19:17:12-07:00,False
+8b59a7f4db09ec5b05ae17bbd0ee8e87fd87c8ff,Typo,2020-02-04 19:35:18-07:00,False
+c639e9cd34ef8bd7481d64f23fab716164228b6d,Updating README to reflect new calibration process,2020-02-05 12:49:02-07:00,False
+4e2f9c0e2842fcd3db34b46319e4b2db99414d5d,"Calibration step 3 updates
+
+Kudos to @Luxonis-Brandon's changes.",2020-02-05 14:05:03-07:00,False
+8623652c93ecbf5fd0526bf152209d795e485b10,"README cleanup, removing calibration, referencing docs site",2020-02-12 06:47:35-07:00,False
+71518b0a40f7bdd4bd71a2d37103f9b0ca572b90,"Update README.md
+
+Change SHAVES to 4 from 8.",2020-02-19 11:26:59-07:00,False
+7306c1b27d479459a698caa077d849d18a77c173,Update README.md,2020-02-19 11:37:44-07:00,False
+f017a1c7e0da4499dff2b2e3257b88b6799f0044,Update README.md,2020-02-26 14:06:35+02:00,False
+88a5dbfc0b2dfcad94d00265f37d52fb6b5eaa6a,Some cleanup and formatting for README.md,2020-03-07 06:41:33+02:00,False
+f62c05e876634070813c2f73419a9efe14153ef7,"README: add instructions to fetch and build depthai-api source.
+Update depthai-api with fixes to shell scripts.",2020-03-07 07:19:41+02:00,False
+180892112e2af3ec282db7bc9310ca7c1be08c00,Update README.md,2020-04-15 13:27:49-06:00,False
+9f12749a88f35180ea9a0c4578808c3cfb4cecfc,Update README.md,2020-04-19 19:26:40-06:00,False
+8ace0f81fe3f5a16b666d65431e9d9645361613c,"UI/UX Improvements in visuals and dev cycle (#95)
+
+* Add initial requirements file.
+
+* Add note about running with --clean to make updated versions work on macos, etc.
+
+* Update display of mobilenet detections, increase contrast on labels, use less horizontal space for XYZ.
+
+* Alphabetize imports... is that a thing we do?
+
+* Remove unused imports: sys and sleep.
+
+* Implement label and bounding box helper functions. Rewrite some code comments for clarity.
+
+* Quick f-string replacement
+
+* Pin requirements.txt to version numbers.
+
+* Add info on requirements for python, and links to the project pages.
+
+* Make FPS display smaller but still readable.
+
+* Add background to FPS counter for legibility.
+
+* Remove unused 'd' key elif.",2020-05-07 18:10:21+02:00,True
+9a0c6d038effdf713e3507a0ba0bd8215de6c8e6,"Revert ""UI/UX Improvements in visuals and dev cycle (#95)""
+
+This reverts commit c315fad5b7d5eede759f9ffd3405ba74d22482c0 [formerly 46bf9bf4eb0be49d224f7aad15d885f8c83e9e05].",2020-05-08 08:36:44-06:00,True
+0e43c14f2a81d9a38abd24605efc5e73c9513085,Bring back requirements and readme updates from #95.,2020-05-11 12:33:42-07:00,True
+9cf2b2841709153847560b1cde59ed45105c3c0f,Clarify note about rebuilding module.,2020-05-11 12:36:06-07:00,True
+77f94f854054759b7515b746aea3846f76c31d20,"Fixed some issues, renamed files and updated README",2020-06-04 02:51:26+02:00,True
+fe389d5453bcee4be50ba3ecbab11a1fbeac93d8,Update README.md,2020-07-16 12:19:00-06:00,True
+0019f25fd3757ec77767f7f608313b0cd67640f6,Add command line autocomplete for arguments; see updated README.md for instructions,2020-07-23 01:08:04+03:00,True
+d53c1e21cb1387432b15a0fb7ebc1ca1774feedf,update readme,2020-07-23 01:21:18+03:00,True
+3512a5023337ddabea4460dbf35f8687d66e609e,Merge remote-tracking branch 'origin/master' into HEAD,2020-07-23 06:27:24+03:00,True
+0e662678bf19028dc6a9b8f819e720b2012e88da,Fix more references to the now renamed depthai.py,2020-09-15 21:47:50+03:00,True
+b78a6668750166b65476f2bc03b3794be636cdf6,Update README.md,2020-12-22 10:02:32-07:00,False
+7f0633a6f04e5b0c925d372ddc025ddab3879614,Update README.md,2020-12-22 10:02:45-07:00,False
+6c413a80d63bdf4c9ebae3b2dc4b6f48374c23bd,Update README.md,2021-01-11 15:11:00-07:00,False
+8093dc7fe540b18e7d5b795816a1deda22b9981c,Make Open3D installation optional,2021-01-15 12:43:46+01:00,True
+3496f6019d0ea9445c168a6a3d96a8f5bddc6a5b,"update readme, script and requirements",2021-02-23 09:56:49+01:00,True
+9dcccdcfb14590a37dbf66aaedc7725d48e4d511,Update README.md,2021-03-09 22:20:31-07:00,True
+c33805e4a476c02319fa19994dcdf6182eb11690,update documentation url,2021-04-02 16:45:17+02:00,False
+0e1de917d924926cc4776abb3624a7cf7a75f59e,merge with latest main & update README.md,2021-04-28 10:28:16+02:00,False
+5c7dedd80b1ada38979affd05304678affe355e8,update README.md,2021-04-30 12:02:41+02:00,False
+13277f1129cb8a9301dd81b24bca9e6bcc289c92,move downloaded files to videos directory,2021-05-18 15:54:31+02:00,False
+19a121f8f2b5a5db4b5be7bc1470e63149b266a6,Remove Gen1 from README.md,2021-05-20 23:13:40+02:00,True
+ba4f6a986830b57c52d95c11c0e8d897dcf46bb8,Update README.md,2021-07-20 22:16:11-04:00,True
+742d1f6451de2e3b166232188b98c174dc067a96,Update README.md,2021-07-21 16:59:47+02:00,False
+a1277fe106ee6d40d34f324e8bb7a77383d15c6b,Enable full fov by default,2021-08-12 17:41:45+02:00,False
+c96adf6151af2b3d07e8bd3c58b4e58e6950f813,Update README.md,2021-09-06 10:37:14+02:00,False
+e8b22d6ceab924c997a9f36b9c5788798a07ce9c,Update README.md,2021-09-06 10:39:43+02:00,False
+bda3f183fe8ac1fa7e89796b0202abba5eaa96c4,review fixes,2021-09-06 15:58:15+02:00,False
+7def81c44724eeb078d0d88de88192f163ca1532,remove typo,2021-09-07 09:34:14+02:00,False
+96b4eb9541fca41b7b585aee9552f99527436e8a,Add -bandw / --bandwidth argument,2021-09-10 14:04:37+02:00,False
+7faa10483ae5b80394f3e6760b31c879d429bbe9,Update README.md of bandwidth,2021-09-13 14:38:52+02:00,False
+79b0c04b0f3ccd196117243b7f32ccf436781023,Update README.md usage,2021-09-24 12:36:25+02:00,False
+cc414e0e10315f308b7ef52e82ff3616e23ad9a6,update README.md,2021-10-06 15:25:06+02:00,False
+4872aef28e4090465f2b2ae9c5ed72f486b595b6,fix typo,2021-10-06 15:27:18+02:00,False
+fcbac00ce102d930e0748b77c77e52d8966a6557,Add demo GIF showing GUI usage,2021-11-18 14:47:35+01:00,False
+94b08ba1f84cd10b73b05ae05673e514149e9c0d,update gif location,2021-11-18 15:07:04+01:00,False
+1ef1f949d81297bc48d0fed515563b59ffb2871f,use HTML,2021-11-18 15:10:17+01:00,False
+33f2a17777b5257fcac2ff4983cc2db5a368db93,try with size,2021-11-18 15:11:24+01:00,False
+c3141571299408a7bab82be00df9d9372af28165,roll back to optimized gif,2021-11-18 15:13:45+01:00,False
+22fa50ee1dfff42e93e500f93cfa0f4198d287b5,Update README.md,2021-11-22 19:24:24+01:00,False
+51ce1aceff6f284b11716cd094a5570db6866962,Updated readme about model conversion,2022-02-06 23:12:43+01:00,False
+e6393790c4b38f0ba54c5f4bc1b6e8f11ca45045,Updated readme,2022-02-07 10:39:47+01:00,False
+9332e260130271c82b668c30144c3584bb89b7f5,Update README.md,2022-02-07 11:04:28+01:00,False
+18ee44f6eb9c7a07ca7e2671707b670723f25776,Update README.md,2022-02-07 12:03:14+01:00,True
+6c39700deb9b7ff74003a1838f77ef21983d5f04,add links,2022-02-07 12:05:59+01:00,False
+eb84c7d085b269d1bdd3b811d4248e1bb05cddc9,add linebreak,2022-02-07 12:08:15+01:00,False
+9ff7e068fc97c0438e684827d9795422e27db25f,Update README.md,2022-02-07 12:09:23+01:00,False
+dd5f0387c298093d8417dd9762f7377b13de0232,Added '--debug' option to connect to already booted devices and skips version check,2022-03-16 00:46:32+01:00,True
+984b06b4351f1cb61fb2585b7b146a75ddd2ea34,Added readme shields,2022-04-01 16:06:17+02:00,False
+8f24438e651f9ef11bc5e930a35e41fd5de692d3,Updated app arguments,2022-05-26 10:41:28+02:00,False
+0f73fad3b2ba89e5beb37219fbcb3bb99b5c6cec,Default median size: 5,2022-05-31 00:24:50+03:00,False
+e926cbbbbe6b5c624e97c3e39c27d8857735d277,"Moved args manager to SDK, edited readmes",2022-07-07 01:19:05+02:00,False
+7aa1c628a2ea696f65255db2677299609a51b661,Initial docker image support and CI,2022-09-22 21:30:10+02:00,True
+6652ece5406a7202988d8d1f1071ac562323b91a,update getting started docs,2022-10-31 00:17:26+11:00,False

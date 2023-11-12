@@ -1,0 +1,35 @@
+sha,message,date,result
+b909a082a34993a23455fc9bbf6fe51881635bda,model creation tutorial and README,2019-04-12 14:35:39-04:00,FALSE
+fe9ccadd96c0780eabaa07564d798fd394084cdf,add solver creation example to tutorial,2019-04-12 17:43:03-04:00,FALSE
+6b994d4a04a1ec8eb489357e6a2969d1ed949ace,standard API and add job script creation to tutorial,2019-04-18 13:53:04-04:00,FALSE
+d7569fcc6d9a66dc073b40b8760aee4f61cfc73f,create two models in tutorial,2019-04-18 14:14:11-04:00,FALSE
+382e3a4e5b941743a789d7c4ed08d2daf6feda99,"add data model and disc model to tutorial, revert data_name to data_prefix",2019-04-18 14:48:16-04:00,FALSE
+806839ffc4c531a875468edc16aa0d83d5617230,tutorial and bug fix,2019-04-18 17:48:09-04:00,FALSE
+e8c951421514bd457435319a628c877c10ec0285,add submit job command to README,2019-04-30 10:38:30-04:00,FALSE
+8c2d4b67e97c9ba655d36806a437d77c101048b3,update README and tutorial,2020-09-30 17:30:04-04:00,TRUE
+46acc58d119b097d1f2406386d69a753e9bc2876,update tutorial scripts for new job_errors usage,2020-10-02 00:25:01-04:00,FALSE
+b97d5c9b138895b68f5d3f3d331b0f8c10ebf71d,add download_data.sh script,2020-11-18 16:49:22-05:00,TRUE
+db7324077e86ed6258693c3efb253360cbde71e6,update tutorial with experiment submission,2020-12-08 11:55:06-05:00,FALSE
+6f235f2e998614c643f01361299d7560a1106c42,"update existing models, add cvae model, and basic usage",2021-05-06 18:15:39-04:00,FALSE
+ce7c607b2de9092d11bd6d867eecfce2716a6606,fix arxiv links and remove param_search dir that was split out to separate repo,2021-05-06 18:18:03-04:00,FALSE
+6f1d99702023c0a887daebdf4be5b40ad0875e07,update readme with download scripts,2021-05-07 16:05:55-04:00,FALSE
+8cb4e0fd2bb2a537dacbc4915b1875e45d77cee0,Update README.md,2021-10-28 18:09:58-04:00,TRUE
+6842f35e39cac2cd9d8b308c978ec11d2f0f50e2,Update README.md,2021-11-05 12:41:30-04:00,FALSE
+07436d77f06c8a2cd62caeb9fac122f29cf80444,update generate.config,2021-12-06 12:43:08-05:00,FALSE
+74c423a35b549d38c58de0bb169ed3617093dad8,"update train demo config, add methods image, and update readme",2021-12-07 19:05:58-05:00,FALSE
+3e9d38eef5a5ac0c21ba04c342650e90fccb78c9,add scripts to download weights and data,2021-12-08 11:47:44-05:00,FALSE
+df7a6fc05310ddec4da9f60eba7fef92e595ac52,Update README.md,2022-02-04 11:12:35-05:00,FALSE
+4a7bc2e7690b2cd38cef5e6e5650b8c0ea264186,"Update README.md
+
+add chem sci citation",2022-04-08 13:43:51-04:00,FALSE
+4d716db24b2adfa1f3cc73f40703301c66d2061f,Update README.md,2022-06-06 12:01:15-04:00,FALSE
+daada2f077c28975129c8278a2605ee726caeda1,Update README.md,2022-06-06 12:11:48-04:00,FALSE
+0cd66b966c71789ccc62090589380efb80a8d45a,Update README.md,2022-06-06 12:12:11-04:00,FALSE
+06de662665d8d256f2dda1c3d6577aaa21b37468,merge upstream,2022-07-14 15:26:11-04:00,FALSE
+2f8162baafc5aeee69edd8892f91aef4e9aef635,"Update README.md
+
+add mamba link",2022-07-14 15:27:54-04:00,FALSE
+0eddb2fda3841a703f22a2c9abfa4257fe48ec0b,update readme,2022-07-14 16:58:18-04:00,TRUE
+88a072b832958894e64d323a9184793cfde2ee7c,add gnina install to README,2022-07-15 11:15:48-04:00,TRUE
+8f2c4d151e73ef89c5775f16b48838ee2095d8a1,Update README.md,2022-07-15 11:37:11-04:00,TRUE
+e43f3d87503c49c24818f9ab8f24bd124e583d3a,Use latest gnina binary in installation,2022-08-22 12:13:17-04:00,TRUE

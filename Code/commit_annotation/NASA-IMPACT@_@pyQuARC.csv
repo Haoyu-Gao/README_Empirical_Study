@@ -1,0 +1,62 @@
+sha,message,date,result
+b5af3c3e02dbbf9765ad9504d40783122ceada48,"Add README, remove unnecessary files",2020-11-17 12:08:47-06:00,True
+8a80f02d34e2096db89f6ef8a60b13780ab42689,Fix formatting,2020-11-17 12:17:36-06:00,False
+8591e7d7071273ef088909a457aae72ecbe9aa71,Add `--file` argument,2020-11-24 10:53:41-06:00,False
+cfb97dd7086cc2f3cc7573ecf887765bdcc2221b,Update readme,2020-12-01 11:14:52-06:00,True
+335ea0097aa5924d733691e9c48be026d83ca7ec,Update README.,2021-01-21 19:38:26-06:00,False
+de78a43a0540ee2c3b432f2b9fb7f20b94139d3a,Add instructions for installation and usage.,2021-02-17 17:33:18-06:00,False
+20952a62e6fd19c7e170cb1c9aae318adf020fce,Rename vacqm to pyARC.,2021-02-17 18:00:19-06:00,True
+def6fa951ce897bacb0a5065a24cefd0f4288661,Use pyQuARC instead of pyARC.,2021-03-10 14:49:42-06:00,False
+346c399a2b8b2131b4559b9ba4bb01ba7920bb2a,Update README.md,2021-03-31 17:00:20-05:00,True
+4e2298a01ba22b2b21fe89a359f775ed6152ce96,Add architecture diagram.,2021-04-01 14:47:48-05:00,False
+4dbb999eb09884fb36cdc834ef960b15eac791db,Change extension.,2021-04-01 14:48:55-05:00,False
+699f3a35d3b4a18c557dba106a2192e492fa04f2,"Update README.md
+
+Addressed Derek's comments and added text to the architecture section.",2021-04-02 11:54:48-05:00,False
+e131b70f713573068f5ccb84ae480bfbbbc0d02a,Remove whitespaces.,2021-05-12 14:36:02+05:27,False
+be147a7fde5075a97b2f91642d7d0da969a3eab4,Update README,2021-06-22 13:20:20-05:00,False
+338eebc85c983c2223c06ab7d47c8ad8b1b252d8,Update README,2021-08-25 17:34:15-05:00,False
+4c826f3fa65307b41f05f0b9a5520394aef113e0,Update README,2021-08-25 17:37:12-05:00,False
+938812dd601a61e4fd554a645884de19b62d86d7,Update download extension as a result of format change,2022-03-28 11:42:52-05:00,False
+8659069ea99497ad681964741e1199aa17ea03de,"Added Characteristic Name Uniqueness Check UMM
+
+- Added Characteristic Name Uniqueness Check UMM
+- Added entry in CHANGELOG.md
+- updated README.md to include UMM-C support",2022-03-28 15:53:52-05:00,False
+2feed2c6f683a8ac7993b5ed48bad4967c35425c,"Updated / added checks for ummg
+
+- modified online_resource_type_presence_check in rule_mapping.json
+
+- modified online_resource_url_description_check in rule_mapping.json
+
+- modified get_data_url_check_umm  in rule_mapping.json
+
+- Added URL Description Uniqueness Check:
+rule_mapping.json
+  - Added rule using """"check_id"""":
+  """"url_description_uniqueness_check""""
+
+  checks.json
+  - Added url_description_uniqueness_check
+
+  check_messages.json
+  - Added error message for url_description_uniqueness_check
+
+  custom_validator.py
+  - Added url_description_uniqueness_check
+
+- Added UMM-G support to README.md
+
+- Added to CHANGELOG.md",2022-03-31 14:23:36-05:00,False
+bbbd6626ed1fde63101a0b2f77f97fdf368d90d0,Update README.md,2022-04-01 09:16:20-05:00,False
+5840ced34f2c74b892747451e0cb6404e60adc2b,Update README.md,2022-07-19 18:50:24-05:00,False
+7393faf052d0dbd7e95905f88902090330edeb69,Update README.md,2022-07-19 18:52:36-05:00,False
+1abeb857b6f2e73f80549b70759bc57d3aa033a7,Update README.md,2022-07-19 18:58:02-05:00,False
+fe9eab781faeba702c79f092cf8d9144e5c82665,Update README.md,2022-07-19 19:00:26-05:00,False
+814074fa79acab127225675317390acfc3292670,Update `README.md`,2022-07-21 12:10:08-05:00,False
+33de8e5716362ac645a9d3d707fe31292e6d9f8b,Update README.md,2023-01-05 13:27:50-06:00,False
+63371d2fb286f98a14a11c5cc5c834b8a7661385,Update README.md,2023-01-05 13:51:10-06:00,False
+01cd68211a93b0b40a6e263c81291cd91316c092,Update README.md,2023-01-05 13:53:34-06:00,False
+88383d8ce721a5a53be769a18e031fb0254d1a1b,"Update README.md
+
+Changed ""Use"" to ""Using"" in the last section to match the other sections.",2023-01-05 14:09:01-06:00,True

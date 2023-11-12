@@ -1,0 +1,162 @@
+sha,message,date,result
+6b26935ca505c46c0e19631101bc0aa655c25b4b,first commit,2011-12-08 23:41:24+05:18,False
+14c622c06198e80a3b1bdb732289d2dd472acf87,Update README.md,2012-12-05 09:13:34+05:18,True
+fbff07876d5fda25d4acb0bb49a4d2c0ba5d605b,Minor corrections.,2012-12-05 09:17:41+05:18,True
+4929e46dae09343930f518b3c4973cc8a31fc657,"HasGeek TV SPA using Vue.js (#177)
+
+* Use vue-cli for hgtv spa(WIP)
+
+* Add HomeBanner and LiveStream vue component.
+
+* Add transition and update dict name.
+
+* Add client-side rendering for channel, playlist, video pages.
+
+* Add build config files.
+
+* Add Importplaylist form.
+
+* Add vue files for channel & playlist form. Update views to return form html template on ajax request.
+
+* Change forms to computed properties in vue components.
+
+* Update video edit route. Update vue components of form route. Add service worker.
+
+* Remove console log.
+
+* Add error component to show xhr errors.
+
+* Remove unused config files.
+
+* vue spa (wip).
+
+* Moved ajax fetch, form submit to utils.js.
+
+* Add build config and build files.
+
+* Replaced ad-hoc functions in services module by model methods
+
+* fixed indentation
+
+* directly assigning dict key
+
+* Change to video.url_name in client side.
+
+* Remove generated build files.
+
+* Ignore build files.
+
+* added basic makefile to build assets
+
+* updated test config
+
+* reincluded package-lock.json to repo
+
+* added basic tests for API
+
+* updated readme
+
+* renamed handle_ functions to jsonify_
+
+* using `all` role
+
+* updating npm on travis before running tests
+
+* using unittest instead of pytest
+
+* added more tests
+
+* Handle homepage reload.
+
+* replaced assert with assertEqual
+
+* removed csrf-only forms
+
+* fixed video url
+
+* got rid of wtforms
+
+* Align the play button and change to video.url_name.
+
+* moved speaker details to a property
+
+* removed empty roles_for
+
+* returning speaker_names from current_access
+
+* Some optimizations, some fixes
+
+* introduced roles
+
+* replaced get_details() methods with current_access()
+
+* removed variables
+
+* using json argument of render_with
+
+* Style the loader while form submit.
+
+* Use current_action_permissions on the frontend to check for user permissions.
+
+* check for channel.current_action_permissions
+
+* added missing packages in package.json
+
+* wrapping current_access with dict wherever missing
+
+* fixed video url on few templates
+
+* fixed channel type labeledenum order
+
+* removed the jsonify functions and using render_with() with json=True
+
+* only looking for tests inside tests directory
+
+* fixed playlist tests
+
+* Fix video action url.
+
+* misc cleanup of unused imports
+
+* Change path property in Vue components.
+
+* Fix add to playlist action.
+
+* Fix share url of video.
+
+* updated setup.cfg for pytest
+
+* removed solo Optional() validator usage
+
+* added docstrings and renamed custom access methods, using auth role
+
+* fixed next/prev video queries
+
+* using localization for form strings
+
+* Send flash messages for edit channel to frontend. Updated UI strings.
+
+* removed use of make_response and jsonify from views
+
+* fixed playlist creation
+
+* removed unnecessary exception handling
+
+* fixed typo
+
+* made livestream urls a list
+
+* Send field name with DataProcessingError error. Change to  in Vue components.
+
+* Call fetchData on clicking the logo on the navbar.
+
+* optimized the method for user video preferences
+
+* make banner ad url optional
+
+* using current_auth.user instead of g.user
+
+* made loading icon the leftmost icon
+
+* fixed user preference flags",2018-10-05 11:37:33+05:18,False
+a5d746d67f7dbcbc62d57977f4da9ed566658a91,Rename HasGeek to Hasgeek (#270),2020-07-31 04:52:24+05:18,False

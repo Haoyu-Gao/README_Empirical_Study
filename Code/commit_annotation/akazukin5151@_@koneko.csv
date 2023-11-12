@@ -1,0 +1,324 @@
+sha,message,date,result
+e89451dfc678bb4928bb9b5de445cbd2863a9748,Move all files without history,2020-05-10 22:03:18+01:00,True
+de3d499d0fa710e7844f21c3f1dad22c44a8c22b,Move all files without history,2020-05-10 22:05:52+01:00,False
+ba8cef3ee83f2e4c15c89fe1d8efadc5c37d04e4,Asyncio rant,2020-05-11 14:48:13+01:00,False
+1f8837da703cda9e5f8cf3f9fdc457dcd87849f6,Rename show_large_res to show_full_res; cleanup,2020-05-11 17:26:56+01:00,False
+9b72de978ab482101869a7ebc4f0851339929937,Bump version number,2020-05-11 18:22:18+01:00,False
+06423e28a5e49e49752d1c7478a8eed9e4e72998,Added PyPI badge,2020-05-12 12:40:35+01:00,False
+690d23195a6728e9884f29e6b6f826411616c4c1,Mode 1/5 now displays each img as they download,2020-05-12 22:15:31+01:00,False
+6552f1a1694edfb04d450555ff3451a18f505f19,Fixed bug where mode 5 won't launch,2020-05-12 23:04:01+01:00,False
+7d36e427ad4a2bd6ffd6da2fa67a6901aeb6b192,Fixed PyPI badge,2020-05-13 19:43:55+01:00,False
+4271b6c831b494419a46990ebf82e54965890077,Minor update on roadmap,2020-05-17 00:21:03+01:00,False
+cd5d1c294d2d4610958b1093b79b394a177f9532,data.GalleryJson now stores current page number,2020-05-17 13:29:58+01:00,False
+567d8ce9fbf6b480555793e8a1f4c27ea54528bf,Fixed gallery -> image -> next -> previous,2020-05-17 19:17:20+01:00,False
+4dabf65927db31c22fd090301232688c1c5a53f9,Notes about startup time,2020-05-17 20:14:38+01:00,False
+235c49fbae00759517f72d9c3f264ccbca9f2c0c,Moved everything to koneko subdir,2020-05-17 20:36:36+01:00,False
+c50c84e12bb771dca490ea301afddaa9d3f6aba4,Updated flowcharts for instant gallery,2020-05-18 00:45:11+01:00,False
+93993f12e180b6af43667be43792f2c2c473afa8,Updated roadmap,2020-05-18 00:55:28+01:00,False
+574ce82e653579020130df35e2fb763866b3e1e0,Add experimental multi-image previews,2020-05-18 13:57:45+01:00,False
+56c45ef8608060b7e587059a32429e36a4ef0a5f,All direct icat commands now refers to lscat.py,2020-05-18 18:47:50+01:00,False
+5ec7c10eebc9474b4ecc4c2b6796e57c665e9d3c,Remove raw attribute from data classes,2020-05-21 19:14:33+01:00,False
+709f67ddcf9ac104734c041dad93c0608211b515,Roadmap on more reliable terminal support,2020-05-22 17:47:46+01:00,False
+1ed1c46ad2467c60f2a3d6ecacacaac119cb5521,Added supported kitty versions,2020-05-23 17:58:32+01:00,False
+39c04edf56db2f311ba1b5b9c8f06673cadb85b1,Remove unneeded kwargs with defaults in lscat.Card,2020-05-23 19:06:26+01:00,False
+3fd19db04a2b81ae6043d693a6a1f82ee6abc13c,Better roadmap layout,2020-05-23 19:20:18+01:00,False
+945e92f50920fbceb985c29ee42c468ba5d5a9eb,Add option to turn off printing messages in lscat,2020-05-23 19:55:50+01:00,False
+d79782fe5bf55715520801eee76943d462e32c9c,Fixed gallery reload not working,2020-05-23 21:30:35+01:00,False
+2d3fc6875b1128f847e6fd70b63f701eec3684d2,Updated roadmap,2020-05-23 21:34:13+01:00,False
+3460db5a6c257540ea409a16c7969915d56eb929,Fixed tests,2020-05-23 21:40:16+01:00,False
+d0e24bb9d994d34bd9538bcc180f4c8775b5d55e,Add tests for data.py; coverage badge,2020-05-23 23:12:21+01:00,False
+28cc732678d4984da48c3a776f5e9b2ba884211c,Add coverage badge,2020-05-23 23:16:27+01:00,False
+e8b553f469ef8989cc9413c960b69d7028fdfbfc,Updated installation + contributing with tests,2020-05-23 23:22:00+01:00,False
+6777e5ab449c4c30265660046e8906de0c498843,More tests for find_number_map; coverage instructions,2020-05-23 23:27:49+01:00,False
+9664ee92082853b289b024b4481ee1019a5de42c,Add tests for utils.py,2020-05-24 00:30:25+01:00,False
+a3a2ba7612c67de5c3899c8db2d517f95429ff29,Remove nocache idea - much slower,2020-05-24 11:14:39+01:00,False
+431c0801d7d51c2c2bf258497a451c494485a9c8,Fixed minor wording for coverage run -m,2020-05-24 11:16:44+01:00,False
+bcb0f0c57abb32ec9e0ed48b160624d10e403c68,Better badge command; use a no-print fixture,2020-05-24 11:33:40+01:00,False
+98ce2f4c219fc296c5c7fd9efd2b7a4f23f5a72b,Depreciated legacy stuff,2020-05-24 22:02:00+01:00,False
+c3f18d7759b6d2bf4ab9ebacf07f59b4e8ffb95d,Update roadmap,2020-05-25 16:39:12+01:00,False
+11391ef69e26d2cf06d56deb76cb2c0139cc9f66,Add upcoming changelog,2020-05-25 16:42:47+01:00,False
+a7c44c2df691abcc6d1928d66677be6d8e216d58,Bump version,2020-05-25 16:45:32+01:00,False
+583616baa6f3a2d7aef67485ac9157669e8ccc16,Update classes puml in readme,2020-05-25 17:36:27+01:00,False
+a711ebc4c8ebb718197763eac04214f99688d9aa,"Support newer versions of tqdm, pytest",2020-05-25 22:15:03+01:00,False
+f8b784e53107c90b03e7c160a9124a6ee443d0e4,Smarter way to do the previous commit,2020-05-25 22:59:01+01:00,False
+c5aec857fad3acc5915784c52d370938a46711b6,Better lscat gallery padding between pages,2020-05-26 13:37:51+01:00,False
+8c056ad28c76fb79a14e69a68cb04a5300b8617b,Use command line option to skip tests with icat,2020-05-26 14:27:47+01:00,False
+b904735e824c4235f9b80441f241359b0a801066,Moved image class' self._image_id to data,2020-05-26 15:45:11+01:00,False
+23c55b1b4b3137a84f841542fecc8ab1ccd8dc2a,User modes to parse and prefetch in another thread,2020-05-26 20:25:05+01:00,False
+56aff88d7ce2916c21ad77eb669a3d0da4c62597,"If cache is valid, display without awaiting api",2020-05-27 06:59:38+01:00,False
+07b57b156112ead7fc698b75a14246adda893a1a,"Remove start bool from main, main_loop, & Loops",2020-05-27 07:14:26+01:00,False
+c4fecbf70dbe3a75ef6d32156dea9f5a686b78a3,Renamed Loop ABC to AbstractLoop,2020-05-27 11:02:21+01:00,False
+ff72731beddb6ec38505e758fc119f20aca7ca37,Update class.puml to reflect new ABC names,2020-05-27 11:07:01+01:00,False
+9718ff848502cb8a69099b936c9e52bfbcb07414,Mode 5 does actually correctly reload,2020-05-27 11:10:19+01:00,False
+9b7383c17b9a63b1dd9a15af346e5acad17bceff,Updated changelog,2020-05-27 11:18:16+01:00,False
+969a4e6c391be8ae5b1d8caa54f98a421e4fd5ea,Replace code coverage badge with github actions,2020-05-27 11:21:45+01:00,True
+f59a28d39b55a6892326e468512e31677614c3fb,Renamed github action,2020-05-27 11:24:20+01:00,True
+6fcf93f50195c9a05493e4bb0edb9e184c3f7846,Add commits since latest release badge,2020-05-27 11:32:59+01:00,True
+37809b2739af579ac0bd7dff273fdbd27c136f6a,Split up testing.py,2020-05-27 14:49:35+01:00,False
+1f9948b2e5c07f1eb58af75e1e69d47fdc7961d6,Restore coverage badge,2020-05-27 15:31:57+01:00,True
+f4bf6c6a09ed5e7bd2358ab502af88c54567e27b,Temp fix for tests fails,2020-05-27 16:06:03+01:00,True
+0b805d0f4326f56c209069f562092410856e604c,Separate master and dev workflows,2020-05-27 16:19:16+01:00,False
+6dfdb3f2cef7dea08766d7d571cb916123788cee,Re-added build status badges for each branch,2020-05-27 16:22:28+01:00,False
+f882dbf4768159b38dfb755807f04ab52e27ca6d,Use quote for description,2020-05-27 16:24:49+01:00,False
+e3534c4e0e1cafa52b3d1bc9b7ca3771a302d42d,Remove upcoming changelog,2020-05-27 18:33:02+01:00,False
+13158999824d58f430d0aa2caf086d4f01621fd3,Bump version number,2020-05-27 18:50:32+01:00,False
+c08012aff17fa687a5c39978d7ec78d0650d6cbc,Append koneko. to every import,2020-05-27 19:08:23+01:00,False
+34d89de10b50fee01ee185a8528af775eccb6166,Updated instructions,2020-05-27 19:12:07+01:00,False
+6aaf8cd0df7255954e18d4c2c73a94abd8002ee1,Add warnings to readme,2020-05-27 19:28:14+01:00,False
+140e9e4715f15ad01b309e727391eeeb3ad03afb,Bump version info,2020-05-27 19:33:23+01:00,False
+97d692dce03c5f97643034e506d2d223ce3b4b24,Test against `python -m koneko.main`,2020-05-30 06:07:36+01:00,False
+2a36cbaddd050c4da5fb24b0a98a280130f5bb52,Add automated note,2020-05-30 06:41:48+01:00,False
+2362e9675a0d2fb37bf54e58f3026829c5326c61,Add todo to allow customising magic numbers,2020-05-30 07:12:39+01:00,False
+b6163d5ded91c460be7b7f9f07cf6d942d453f87,Add validate + handle wrong credentials to roadmap,2020-05-30 09:53:37+01:00,False
+f28c2056c2adb249181db561309fb33589d7159f,Remove completed in roadmap,2020-05-30 09:54:15+01:00,False
+7cb0894d217a0b094e8113a3343fc0046d135617,Remove --icat test arg,2020-05-30 11:58:31+01:00,False
+0387708e49cafcf4d0ecee0adca2855389f0142b,Updated changelog,2020-05-31 04:13:31+01:00,False
+61bbeed32a8efc8f866189eaa6a374ea3b11e8ae,Updated changelog: screens.py,2020-05-31 04:16:04+01:00,False
+32717cc877d181126862f67d1c3407bdab79d2ed,Warn user for invalid credentials,2020-06-01 14:32:48+08:00,False
+f7f760d9c9b43a6b80876ded97ab3728f6aba385,Updated changelog,2020-06-01 15:22:09+08:00,False
+ec10f696ba8846abc9455612e6ba5bd38565ace4,"Simplified jump_to_image(), fixed multiple jumps",2020-06-02 21:56:09+08:00,False
+9265d684da2b3c8b142f84099691ba42a6900135,Updated changelog,2020-06-03 14:22:49+08:00,False
+2337a4af3d131bd3b33340ba4f8873ca8dd5172b,Simplified download methods in gallery and image modes,2020-06-03 18:29:10+08:00,False
+f72c16d10696ba08d219e3e3360f01cf13a7d736,Updated roadmap,2020-06-04 11:46:41+08:00,False
+82d355accc72852575b4bb32762185e06bd4760f,Fixed spinner not propagating exceptions,2020-06-04 12:21:32+08:00,False
+fdefd4ea347ef8f6b142e7044940c8484900b92f,Updated roadmap,2020-06-05 11:56:39+08:00,False
+668e73138dbb52451d5b1f689ae6390a5ed74417,Updated changelog,2020-06-07 20:39:57+08:00,False
+d4eafe04b920249f2b1df894c86b1fc3b8c0defc,Updated changelog,2020-06-08 00:38:05+08:00,False
+5798e7a5b8bda72130cb444110f2c3f80ac1591e,Updated manual in README,2020-06-08 00:38:54+08:00,False
+8b13b3970b13834d98c929b2cc482f6048d62e06,"Add manual, updated readme",2020-06-08 12:45:50+08:00,True
+05dfaf5a80e73b94b6488468c0a8444e1d5b23f6,Fixed details,2020-06-08 05:48:39+01:00,True
+93ead61b81eb4197c072ad02e1f6791208cc5005,Add contributing.md,2020-06-08 12:55:54+08:00,True
+4ed1fed98c3a00411da4cb9f2ab0728ae596b0f6,Updated trackers section,2020-06-08 12:59:13+08:00,False
+b44bfc9b43523c727490812ba9ad1b2c5dec8be7,Simplified readme,2020-06-08 13:06:29+08:00,True
+c6bdd5b2cb5f8ff84f1072668c1665135b292209,Update config manual spacing,2020-06-08 14:28:39+08:00,False
+3914a9addd23d6f186c4b3e77ed9f39aede8018b,Update changelog,2020-06-08 14:58:23+08:00,False
+d2ae5e431dfca5e64ebca65f716610a769cffcfb,Remove seqnum in prompt,2020-06-10 16:27:45+08:00,False
+2702b549ca9dfc757e4f5d7b7d3590b20794759e,Update roadmap,2020-06-10 16:36:45+08:00,False
+6d1d3a71f90b47b2facb9e0f8bd76d6c1066d3f2,Update roadmap,2020-06-10 20:25:54+08:00,False
+4086ff277c7b79178cbd884d1315a8988552602a,Update roadmap,2020-06-10 23:15:26+08:00,False
+bd2072dd83982a06b752149099a8d6ce9147ebc7,Update changelog,2020-06-10 23:18:12+08:00,False
+28ef544b6d6cabd73de246904eee160bc2d5d55a,Updated usage,2020-06-10 23:20:41+08:00,False
+d2787a601b728e442c4304ecf1c60bfd646af6b5,Update roadmap,2020-06-11 11:59:07+08:00,False
+96a2f397c639d031778cfc51addd79d88c67bc96,Update roadmap,2020-06-11 17:18:35+08:00,False
+ca2d298d03062c06721155fa5aea832d331834e6,Update changelog,2020-06-11 18:01:52+08:00,False
+652cbed088e005fb27f1a41b40325282e9694027,Updated changelog,2020-06-11 18:34:24+08:00,False
+ccd16291db348b2fde87aab377defaac8567fc49,Update roadmap,2020-06-11 23:10:27+08:00,False
+fbb20ce3aac5ca5bab1bbafb7a806d27d81be80d,Bump version info,2020-06-11 23:13:13+08:00,False
+e7410a2865a85a49de054621e2fc50e578adfc11,Clear changelog in preparation for release,2020-06-11 23:16:05+08:00,False
+9ae86aae299fcc9ecf1fd1ce786d17fd5e6372bb,Add changelog placeholder,2020-06-11 23:19:17+08:00,False
+6d37b1a26f93f29c436a63691b1b7d02e5d7161c,Fixed users manual not working,2020-06-12 22:00:55+08:00,False
+fe11aeda7b1159bf49938a47024bcc91b81bf8b2,Update roadmap,2020-06-12 22:39:21+08:00,False
+15d038144caa4e409d6c5b44de66024e52a6dd8d,Update roadmap,2020-06-14 12:07:58+08:00,False
+52b2dfa00b5692efb6b0594782220dbabb1b8e02,Use placeholder's _ and m to replace lambdas,2020-06-14 20:18:05+08:00,False
+13e5675d15936b22090ef710fa28b7c15713c42f,Update roadmap,2020-06-15 15:48:49+08:00,False
+3bc21cfb57b86e53cfa758121d3d602ec6e53c7a,Replace **kwargs in mode 5 api request with explicit args,2020-06-15 16:15:08+08:00,False
+51f0a8407194bbab5c6a75a61a228c9277031935,Make tests more professional,2020-06-17 16:04:13+08:00,False
+1d1ce44a523e2ab10dc66f4cce8e3176089130ae,Updated changelog,2020-06-17 16:15:05+08:00,False
+8416e48747854ff3a9cb55507ca2161256e18d37,Removed unused import,2020-06-17 21:52:02+08:00,False
+cc9be9fb40ce00844bd7d0238ac27ed9652dfb68,Update roadmap,2020-06-19 18:49:29+08:00,False
+a740b6e2ab4802676866322bd86b52ba24346dc7,Update changelog,2020-06-19 20:21:34+08:00,False
+07d0033a1a9e0e6a4c2b2add07455e010ad04dca,"Type annotations, docs",2020-06-20 17:48:31+08:00,False
+c68218c3f6b100f48b4c32c6a6c45b6ad42df7e4,Update changelog,2020-06-20 20:06:46+08:00,False
+816912a8668ca69ebbb0b35fff8de9a04389cc8b,Update changelog,2020-06-20 20:41:35+08:00,False
+63c14cc887483ea2a14c6367ffea9db231a116fe,Update roadmap,2020-06-21 12:51:33+08:00,False
+d43ec158604b613e313b4b613d4d4a21be9afdee,Update roadmap and contributing tips,2020-06-21 13:22:46+08:00,False
+5de8fb8420280045123f5c4544ee4d712b99d3ae,Update roadmap,2020-06-21 17:55:14+08:00,False
+16c8fb4f1bd158946de250fa693bf570508fb6e4,Update changelog,2020-06-21 17:57:45+08:00,False
+27a07082239bb3976397f774db9238cabf88ecb7,Move conda env info to CONTRIBUTING,2020-06-22 15:45:23+08:00,True
+5364c1fcd416ad50a8b00d845658c9dde0d98824,Update changelog and readme,2020-06-22 16:01:33+08:00,False
+f644fb5023fef00dd057862684195e08d29c51d0,Bump version info,2020-06-22 16:03:22+08:00,False
+c1b80616d4aeca40e0fe92c66ef700eca4d24eb7,Reorganise and refresh readme,2020-06-22 20:05:29+08:00,False
+a748bcc3661d14e7bc3bd0ccc3e193fc834a11ce,Update roadmap with more features,2020-06-22 20:17:34+08:00,False
+c790f7bd240875c3a1a843f739c2ed15cf9a74b9,Split up test gallery and user,2020-06-22 21:05:11+08:00,False
+d7beb5b6470215ab7fbcc2db07674542a33c756d,Update readme with progress,2020-06-23 14:08:48+08:00,False
+7e3a93af2181c8c8e232423ef38e1629790f9bf2,Add - to [ (x) ],2020-06-23 14:11:01+08:00,False
+bbfcf79150c7463722860807b47c18a8b3e1d649,Add users_print_name_xcoord helper,2020-06-23 14:35:52+08:00,False
+8d71607991b06ee7dabc6e37fa9ac53341b6455c,Remove users_page_spacing: it's just gallery_page_spacing + 3,2020-06-23 16:26:22+08:00,False
+812eb1bbdfde3f3acd4fca44714becfde922a570,gallery_page_spacing to page_spacing,2020-06-23 16:31:40+08:00,False
+8221b5e5c9001d62962d9aff7c3c0384a902f89c,Update roadmap for ncols and nrows,2020-06-23 21:19:09+08:00,False
+cd0a40818504e8a989ba869ee16b574ec111e179,Update changelog,2020-06-23 23:47:27+08:00,False
+5df08d0d1281a933c4594f93a91d83109efc7e08,Update roadmap,2020-06-24 00:52:09+08:00,False
+ee0c8681d3a8cc19594750e6fff61586c2fa2885,Fixed cursor move functions failing with num = 0; update changelog,2020-06-24 16:46:05+08:00,False
+84e347fc1d9876ccead7b2d20d6f901023f703aa,Update changelog,2020-06-24 19:46:33+08:00,False
+478a17dd8c66c88af90fc399a963c7537af805ba,Remove ncols and nrows assistants,2020-06-24 20:46:15+08:00,False
+28f0a254e511b77b629ef39a61977cd59b091191,Update changelog,2020-06-24 20:50:43+08:00,False
+b09b39d8379c7a2b5bc1cf746bac728c65b00830,Update changelog,2020-06-26 19:02:26+08:00,False
+511a3d2f762ad54b92e9100c71bb46ab55165059,Update changelog and roadmap,2020-06-27 00:14:55+08:00,False
+022a47a7419464722f4b3e013a9bab13705fecf9,Update changelog and roadmap,2020-06-27 11:54:52+08:00,False
+1cbeea596014579a73d674b9357fbcc11fa0e830,Update changelog,2020-06-27 16:27:40+08:00,False
+e3ea866613d2cd9828421dae70995805e9904084,Update roadmap & improved browse path title,2020-06-27 20:46:24+08:00,False
+3d74e8a36d51528f569ce602a90ec59e69de63ee,"Fixed bug where invalid cli args crashes, and added a new bug",2020-06-27 21:23:42+08:00,False
+d677d4e3ce88f9a7b88478016502eb1da0014531,Updated known bugs,2020-06-27 22:03:21+08:00,False
+91a9dd28b003ebc563f3a7995d06ec5ae7ea1d51,Update known bugs,2020-06-28 12:07:03+08:00,False
+eef5cd9e670cc403fec36d98f84a82c1e8a898b3,Add frequent (all modes) to main,2020-06-28 16:07:48+08:00,False
+353ea2a0ccaa8724fc82c32b7690f9af80d59d0d,Update changelog,2020-06-28 16:24:37+08:00,False
+ae174f5d39f8f41fb6077c27f8d8ced02972c588,Update changelog,2020-06-28 16:57:21+08:00,False
+8e529e459fb7342df4adcaea7886bb4e78a9df6b,Update changelog,2020-06-30 18:12:16+08:00,False
+b8e958f00e1fdbe4b0479f4f6212014ea9a977ab,Fixed missing word in roadmap,2020-06-30 18:16:16+08:00,False
+66fe2bd5c521b23a472d412e96292e0bc98bc03e,Update changelog,2020-06-30 20:38:14+08:00,False
+a96e8bf77e7aef6db15fb5d97ac083a1adfe0142,Update roadmap,2020-06-30 20:46:12+08:00,False
+d1510dc09a76cdfb3691d24c40bb3fca89a66265,Update installation section in readme,2020-07-01 17:15:48+08:00,True
+c8274d773eabc8bb1fa14be72ecc24a22291f5b1,Finalize changelog,2020-07-01 17:17:58+08:00,False
+e3fd3a80822a4d4a142fed16749c96758a8a8ed2,Remove changelog in preparation for release,2020-07-01 17:25:42+08:00,False
+b0d5a2f56ceaa7491b1691683006ebd102b2c552,Restore changelog,2020-07-01 17:55:36+08:00,False
+084be26b4f61e22d8676de0994bdd85931a84806,Updated known bugs,2020-07-01 18:03:53+08:00,False
+08c5bb7a0392f12bcae74be817a11e8048292c1d,Update roadmap,2020-07-02 18:32:52+08:00,False
+e357eb87972a3a5623ef4e15835cebcbb0035fa5,"Add offline mode, not accessible yet",2020-07-02 20:18:29+08:00,False
+c84483d08c0a3a1d2e20aaca1f65fb1c1d5790ff,Remove offline,2020-07-02 22:32:01+08:00,False
+75c83cf4e896c650068469776b10d0b38f11e219,Update roadmap,2020-07-02 22:33:06+08:00,False
+69707a333392a12a37cde52073a33414a04253ea,Update roadmap,2020-07-02 22:35:18+08:00,False
+98d182e3e09b3f26ce1059b49b36bb63af9bd124,Update readme and hacking,2020-07-03 00:04:43+08:00,False
+13a5eb43f3aa169301a0eb3efff2612758ac0fb3,Move update_gallery_info() from lscat app to utils,2020-07-03 14:22:26+08:00,False
+670b508976fa52c29038604afa4345988d6d97b5,Updated changelog and roadmap,2020-07-04 20:25:23+08:00,False
+d192ce3589625452c13c8812636061a1038b2a68,"Remove useless things in readme, recommend to read HACKING.md",2020-07-05 15:51:58+08:00,True
+0ec9816f948700743b97b5eb638cdd5e7d4cdf6a,Update roadmap for mode 2 dirs in lscat app,2020-07-05 20:03:28+08:00,False
+77c4712c5bea86ff7c19f99fef0e39d15609ba6b,Improve wording of changelog,2020-07-05 20:04:38+08:00,False
+0bf7662981b4c44bc7af5fde66887fdfa62ba5d5,Update changelog,2020-07-07 12:10:48+08:00,False
+2979e0728b289fd947c48005a9ad4aacfeb5674c,Update changelog,2020-07-10 20:41:45+08:00,False
+e41ebaea3d10ca4112abedaf236c5702d15cd46d,Bump version number,2020-07-10 21:17:53+08:00,False
+766c3ce98f187ccbf61d8b4fb93846ee3fec1dc4,Remove previous changelog,2020-07-12 13:15:53+08:00,False
+56ec6d7bf004aeb74d4ea2eb48480998df9d2352,Update changelog,2020-07-12 13:41:47+08:00,False
+ebe00ae254c8bc0d304c0291a7ba80b0bdcf6061,Update changelog,2020-07-12 18:01:06+08:00,False
+67b04a2f70e1e4682c319cae9c72af53d9ef3041,Bump version info,2020-07-16 23:59:44+08:00,False
+675dac38a6eb30f68a464d0d8fbcce206a2dcd23,Update changelog,2020-07-17 13:15:55+08:00,False
+15172536da1a54611a48fd85ab70e99df74e37d0,Fixed gallery mode reloads leading to user prompt,2020-07-17 18:41:46+08:00,False
+1ec0f25aff142cf93a365f5734eacf353f005898,Update changelog,2020-07-17 22:37:21+08:00,False
+d5365417784b8a26e46499c53d5f5721487790d2,Update known bugs; & clarify that 1st arg of main_loop() is unused,2020-07-18 10:31:34+08:00,False
+8f205cf0e027cdb9739cac149e4b4c32b9b17d37,Add xdg-open and curl in requirements,2020-07-18 10:38:08+08:00,True
+a8ba18e42bdf301943e3ccce4ee0f40cf83c7e6b,Add 'pass in path to api.download' to roadmap,2020-07-18 11:24:40+08:00,False
+a4d754eb2f37d865ebffdd59a18b5a6359c34d0c,Removed image_mode_text_offset config setting,2020-07-18 15:07:30+08:00,False
+534fb2e62c3c67311c44fd207075850393aa8e17,Update changelog,2020-07-18 23:05:33+08:00,False
+26b5c4165c80f155f1ad1b2b69314256b6f126ef,Fixed wording of changelog,2020-07-18 23:51:15+08:00,False
+a455199de0b84b1eb33ee4e46b0d910f94cb8e5f,Update roadmap for lscat app mode orders,2020-07-19 00:44:42+08:00,False
+398be369f6f73dc906b6de8bdf63e69f150fa936,Update roadmap: ctrl+c can already escape frequents,2020-07-19 13:03:39+08:00,False
+e0069f54b77ec79b08e17e51c84ade91828a9489,Remove outdated code coverage badge,2020-07-19 14:46:09+08:00,False
+05a3713f90e12954e0c16fbb9e096a1b7fe356b7,Swap the modes in lscat app,2020-07-19 15:19:47+08:00,False
+c4c85b6b042aca4c9cc97c6fabd1f244e98f985f,Update changelog,2020-07-20 21:39:04+08:00,False
+e214db4c5b4726f89080875f5e9f7cd47c840d3b,Update readme and changelog,2020-07-21 12:09:22+08:00,False
+d981e6bfc4036b518783ca05a42289861a3d845c,Update roadmap,2020-07-21 14:14:29+08:00,False
+6cfcfd6ca41aa3bc8bed7d95904c6401ca6faa2f,Update usage section in readme for modes and more commands,2020-07-21 14:42:01+08:00,False
+1b1417972776403273f0a8a175f0a07f4e4efe56,Update features section in readme,2020-07-21 14:43:36+08:00,False
+fe697704b56ab12ea43dedd1ea20f99e47fd5fd0,Mention mode 15 (related illusts) in readme,2020-07-21 14:45:51+08:00,False
+0bea8188c7c288b0720f81b47c221ed030cf3fcd,Update roadmap features,2020-07-21 14:46:31+08:00,False
+beee8b6853867b5fc71732b6640d779fad838c46,Update changelog,2020-07-21 14:48:37+08:00,False
+64b8d2c384e1f6bbc04595d52729820a30ce193a,Update roadmap on usage documentation,2020-07-21 14:56:09+08:00,False
+923545fb4ed46f5687d864b7a49e65e7ae8ac1a7,"Update roadmap docs, and update changelog for browse cache",2020-07-21 17:17:42+08:00,False
+9919316001c3c875fcda4ef3a38db54164946f43,Add `koneko q` feature,2020-07-21 17:32:11+08:00,False
+c10151e7f3316c76cd928fe3355ab4fb4249d8dc,Update roadmap: prompt for password everytime,2020-07-21 18:56:44+08:00,False
+531aada017a897cba6c5b6c6023a3af0b56f14bf,Update notes on startup delay,2020-07-21 19:46:20+08:00,False
+2e51df9d0fa5a7e65d526d97cba999a22283ef9c,Revamp features and usage section of readme,2020-07-22 17:31:54+08:00,False
+46508f1828e4035243d9131985f85a5da7279f39,Remove useless manual section in readme,2020-07-22 17:34:29+08:00,False
+b95dbe11cd008c97b3c4acf3d94f3b0da91af036,"Use what, why, and how key words in readme",2020-07-22 17:37:34+08:00,True
+c8f6998dc2318ae4514f629fa7366031fe4dd156,Update changelog,2020-07-22 17:38:22+08:00,False
+1445775667f24f4c9a577cd2800112838100fc71,Bump version info,2020-07-22 21:41:00+08:00,False
+e5a99cc5ece9fee0dfad3e578b7192d5ecea9027,Update and rearrange roadmap,2020-07-23 18:03:39+08:00,False
+e0fba68e98777c7acaedf1c2c4bf338b4fda9948,Update unit test section in readme: remove -s & add notes,2020-07-24 21:45:27+08:00,False
+d699784baa9b3cdcb673249a588b0764b8e4ad31,Update roadmap on macOS; add macOS debugging in tests,2020-07-24 22:11:31+08:00,False
+8d5fc428f01bb2a7d55a1f28209068fe024f9b82,Fix: use open in macOS instead of xdg-open,2020-07-24 22:30:20+08:00,False
+22d64b15d34cc2b0a9818ef2c4442344edc0da67,Update changelog,2020-07-24 22:37:25+08:00,False
+9ff9a3b45eaf4b989a2af4d606bdd72f49f75bbc,Update changelog,2020-07-26 16:05:12+08:00,False
+c6b68cd49ff89fa49e491d14abbea5ecddddf129,Update roadmap: circular imports,2020-07-26 20:26:30+08:00,False
+74aaab921d72b99849bf4ff868f8b7dde4631ca6,Update readme and hacking to reflect import changes,2020-07-26 20:35:08+08:00,False
+287bd9cce9089a3643191ba6a0b3a14ffbddfcef,Update readme and hacking to reflect import changes,2020-07-26 20:39:30+08:00,False
+1358bb0753131c87bb982ed59a785652ea90f946,"Update roadmap, HACKING, and changelog",2020-07-26 20:47:59+08:00,False
+586b39239ee72f8d0804547bff8c7c60f4b8cac9,Update changelog,2020-07-27 11:34:49+08:00,False
+b6c70ec94590248289d7882aaf339cbf9fa1332a,Locally generate puml pictures,2020-07-27 17:15:34+08:00,False
+5ac3926d93f868eec5bb95827cbfe8f6d4b1ef5a,Add note to run tests in readme,2020-07-27 17:16:37+08:00,False
+56b6d91402213ce0a164fdab7c57547340b3cf56,Fix wrong puml output location,2020-07-27 17:18:57+08:00,False
+28091c40edc6df66ac9c8e95da183d6dfb14e18b,Improve CONTRIBUTING & sync new things from README,2020-07-27 17:58:26+08:00,False
+df16d69a4de54f2367e5388d59639850e5c05e08,Update changelog,2020-07-27 21:03:00+08:00,False
+6e7bbb082cfa3d7c75b79eee75a6ca00473dc019,Update README with steps for ueberzug support,2020-07-30 14:47:43+08:00,False
+ec35736db2d864c9b387b13e4a46a7175ad16958,Update readme: split up progress to gallery and user mode,2020-07-30 15:53:40+08:00,False
+22a5cd0ac6381c25eedaf7e466c7d5cfff7dfb21,Add support for ueberzug for users mode,2020-07-30 16:15:49+08:00,False
+388f8c526efd5751ac2a979f2255f32da6c6a788,Update roadmap for current progress,2020-07-30 21:23:16+08:00,False
+784f311103e440eb7f024f1cf52efb54cbe3412b,Update progress by splitting up another point,2020-07-31 00:24:56+08:00,False
+779e5aec62a6a1569b24e2d81fd53a2f66fee57c,Add image mode to roadmap,2020-07-31 01:03:32+08:00,False
+67aeda93e00217ad3f389843f8805c7b1bc3283b,"Update progress in roadmap, add more items to refine",2020-07-31 12:11:02+08:00,False
+a8b94001d0d8e48063481956f5ebcc6521d0e08e,Hide ueberzug images on scroll,2020-07-31 14:02:10+08:00,False
+5ee8499d135d188b445b48c0ae0f5f604a2d46f7,Use ueberzug_center_spaces() in lscat.ueberzug(),2020-07-31 16:16:32+08:00,False
+a951bc1ca59ba3df085ca28671022ea73c154eeb,Fix print_info for generate_users_ueberzug(),2020-07-31 16:43:18+08:00,False
+969e1a875b522b9c35f01a1618ca58e8794dd044,Update roadmap with progress,2020-08-01 16:32:29+08:00,False
+2a774ac159d4abe03e1d059f5d070b0d011529ae,Support ueberzug in koneko mode i/2,2020-08-01 16:39:23+08:00,False
+b20cd1acf36f920bf20263ba630835c585dc211d,Update roadmap with things still need to be done,2020-08-01 16:44:04+08:00,False
+9b0ff56ba06a14fd4deb33182b1d629886ab3560,Update roadmap with progress and yet another item,2020-08-01 16:53:58+08:00,False
+4a79ba881b71c76dee4a29684949efbff26f2161,Improve layout of progress in readme,2020-08-01 17:02:03+08:00,False
+ae19f900b5aa4bbc3e2863c6d958fb0226a59270,Update roadmap with progress and add another item,2020-08-01 17:09:19+08:00,False
+cd231b8457bf7b052a29f1c8b13508c60b2f749e,"Update progress for Users mode during download, note bug",2020-08-01 17:12:27+08:00,False
+c4618581f7d1693d1c74d5fc3cf08d41626ad772,Support ueberzug in main screen and info screen,2020-08-01 18:20:23+08:00,False
+95f345a1bdac80ca250b49d53cb7214421c17342,Note `open` as alternative to `xdg-open` in readme,2020-08-01 18:43:23+08:00,True
+2442b362e40e149c5c04ef1e3375f37f5894e9ab,Support ueberzug and fix users mode display in display path (lscat app),2020-08-02 11:09:13+08:00,False
+6397c33e9ec286074d2c6b8d99134a0266fd0108,Update changelog,2020-08-02 11:10:31+08:00,False
+31612b00fe42c16ca184c289a3a7613d9259e649,Update progress in readme and split up config assistants task,2020-08-02 11:50:51+08:00,False
+b680069e5b008e95f64951b19b2283cc5dc5c392,Remove unused line in user info assistant,2020-08-02 12:51:28+08:00,False
+7d6a48b5d40cece305ae670a880e1a78c6dba0c2,Call __exit__() in hide_if_exist() for ueberzug canvas,2020-08-02 12:55:03+08:00,False
+b33ecf000ff984076c7e5c42268785cff16f8922,Prevent moving cursor in ypadding assistant if ueberzug is used,2020-08-02 13:03:45+08:00,False
+9eb4e18a6e0eff613e353fb4860f586766faa67e,Print newlines for ueberzug in gallery print spacing assistant,2020-08-02 13:17:12+08:00,False
+ea1f563c1679322c92b467d263f09f97633e196e,"Add ueberzug to changelog, update roadmap and manual",2020-08-02 14:37:22+08:00,False
+b680a217042a789df64fff4ce6ea9ec2565cf0e6,Update changelog with non ueberzug changes,2020-08-02 14:48:14+08:00,False
+0187808590479314af45c4670fa40ac83a826db5,Clarify the need for docs for ueberzug,2020-08-02 14:50:49+08:00,False
+236ff6728011b3bbfb1dc6847d645916489978f7,Update roadmap for unified API,2020-08-02 15:00:54+08:00,False
+12992b4f84f3fb9d89e4732f874013069750101f,Add to roadmap: illust related mode can't go back to image mode,2020-08-02 17:03:11+08:00,False
+a410d59fbc81b32ff5f2a7ca2f800f51f60dae49,Update roadmap with new item & split up ueberzug todo,2020-08-02 17:05:18+08:00,False
+953ddf0cb6ad524c36a67e2d2b5710c80fa792c4,Update roadmap: add new items,2020-08-02 17:57:28+08:00,False
+9a2c61a78b98ec8858c123d85cc6ee95ebe16c83,Update progress,2020-08-02 18:22:10+08:00,False
+0b86565bbadb640fe9dda7a8c1fd44e4699a7fad,lscat.hide_if_exist(): move cursor only if not ueberzug,2020-08-02 18:26:36+08:00,False
+5046259c57a6938e2ff687ed21bb7fe591450072,Add ImageWrapper to todo roadmap,2020-08-02 18:28:11+08:00,False
+eb0a222b477b863a8326741e6b8e791e71e51853,Add another bug to fix in roadmap,2020-08-02 20:08:16+08:00,False
+ec89cba1bea9215d236d111dad4bd74de30179b9,Update todo to exit canvas after reloads; all mode transitions fixed,2020-08-02 20:15:41+08:00,False
+2e69e6d372246e96c4b6ab40aaac66535cfec2ce,"Remove completed item in roadmap, split up tasks",2020-08-02 20:23:50+08:00,False
+0c1b8da11a2d56e5b394b49c8018101145f4c259,Update progress and add new performance task in roadmap,2020-08-02 21:06:35+08:00,False
+0555da17ca16e1fe4b5d3521b498586fe07b16dd,Indicate current thumbnail size in thumbnail size assistant,2020-08-02 22:22:39+08:00,False
+650d41ece78fbbf4a040053fbb8b3f8060bd5652,Fix info being printed hidden by ueberzug in x/y padding assistants,2020-08-02 22:30:34+08:00,False
+4fb56cc245b64170dd71704c56978d1b60547b17,Update progress in roadmap and split up tasks,2020-08-03 11:21:56+08:00,False
+aff2926d30400766c7514989dd982c0dbd3bd56a,"Fix print info being hidden by ueberzug in Image mode, lscat app
+
+User mode already fixed",2020-08-03 11:26:58+08:00,False
+262d8f3ded55d8fcf7635517137d58adbe9509de,Update changelog,2020-08-03 11:29:58+08:00,False
+d1e6567a547e867eeabe0f43a761c471bc7533d2,"Remove completed item, add new task to roadmap",2020-08-03 14:17:33+08:00,False
+0f0b364205f3a08f22bb4678c7f7ec6533be23ee,Update changelog and roadmap,2020-08-04 17:10:24+08:00,False
+8a2a992f45322b7dac95c733b170329881e17df0,Update changelog and roadmap,2020-08-06 22:29:31+08:00,False
+f3c51508645664ece588bf32498446297717782d,Improve roadmap,2020-08-07 14:40:59+08:00,False
+7666c5d3033c862659bdf2a48194ea350c8c1258,Move fixed item from roadmap to changelog,2020-08-07 15:57:30+08:00,False
+385415569a805349aeff4de02b96546a6ade6145,Update roadmap - indicate finished item,2020-08-08 13:24:58+08:00,False
+423a9ede5f3c5e8c84f95312267ac1346e9a7491,Update roadmap,2020-08-08 15:35:29+08:00,False
+2235631bcfb23684cfdb044b30db48b821a42380,Update manual and readme with ueberzug,2020-08-09 01:38:01+08:00,True
+68882493f806c545f057328ab8b158175b5aeece,Update changelog,2020-08-09 02:15:55+08:00,False
+97188112476021a61487c3b2b5ad614e36423389,Add new task to roadmap and update order,2020-08-09 14:49:34+08:00,False
+b3e6a7ab5cc82368a5906680a7754357ed502eea,Add automated docs to roadmap,2020-08-09 15:05:58+08:00,False
+87412f719d13fba72c32cd1f35b6364e5135d901,Add notes to a task in roadmap,2020-08-09 15:25:42+08:00,False
+4b25c6a08c52816d1b630d1e5e3409795cce9f82,Update roadmap,2020-08-13 15:28:37+08:00,False
+4a8a23840f289c271e2904490cbd754bc8a53ea6,Update roadmap and changelog,2020-08-15 16:04:41+08:00,False
+29e3c4aeaccaad79b0a9d3d980368e2cb15613e7,Move items in roadmap features to more appropriate subsection,2020-08-16 21:37:30+08:00,False
+0f8d09a1693aeca2ad8df8dfb45666e609f242ed,Update changelog,2020-08-16 21:48:11+08:00,False
+ae1d87aa8a3cadd7a46ebed1722bf999c6bf602c,Fix heading not being sub-headings in documentation,2020-08-17 17:21:40+08:00,True
+e107d83f651722b619bb632fa24328761f0d43bd,Add docs status badge to README.md,2020-08-17 21:03:42+08:00,False
+91aa7aef6ec73cb7b7734fc0b4fbb25ab2765c56,Remove badge for non-existant dev branch,2020-08-30 13:57:19+08:00,False
+41b94c823b7cf9ee9be40f1237010b7dd4e16723,"Remove the need to ask for user id -- grab directly from api
+
+Also freeze returns at 0.14 as pip downloads 0.16 for some reason.
+This should be temporary anyway, and should be fixed later(tm)",2021-06-22 21:55:14+01:00,True
+aa5325cafe45ec8ea46cc8417adc1a50af82f488,Update docs,2021-06-22 22:07:44+01:00,True
+240e597ae5fa25ecffda6f44784dd74745865087,Update readme,2021-06-23 13:31:50+01:00,False
+908a6e9837ffc2d311e086512b7a4cddeeb043c7,Document `desktop-file-utils` dependency and install it in CI,2021-06-23 14:10:51+01:00,True
+526162ea9e17032f5dde9780d70e5ae00f207686,Update and sync READMEs,2021-06-24 14:25:55+01:00,False
+06af1d15fcf1b2a9da7d47c0bb2291ced5ca4c72,Update READMEs as well,2021-06-24 15:33:50+01:00,False
+3c22635b70330916b6541dce57389e1d2d5a1e7c,Simplify readme,2021-06-24 15:43:00+01:00,False
+b591488d7a43d613b9543e50d8ee3634f2917c78,Remove outdated section from HACKING,2021-06-24 15:49:32+01:00,False
+2ba7758b486d7012af45c85f15e3b08107204643,Update and sync READMEs,2021-06-24 15:54:58+01:00,False
+db693fe08fc9806a6516cce624b1aa49b0961068,Remove duplicated pics by referring to docs/pics,2021-06-24 16:04:12+01:00,False
+c16f16ebe6e2b2e1cb6cb56108ff774069856f2f,Replace (revert) links of ad pics to use github,2021-06-24 16:28:54+01:00,False
+afacf35f9ec28ffe2ce4fc6a27f5742a99edb3ac,Add development status badge,2021-10-08 16:21:47+01:00,False
+8a802bfa438c541aa16b18f19709026a327b0fd1,Update,2021-11-14 18:19:40+00:00,True
+ec0135861f89e2cfc4331a9475725c28510aca9d,Remove outdated upcoming changelog,2022-03-08 14:44:39+00:00,False
+5138ed9ea3a5c85dcea67da23ef12333c5d80033,Update readme,2022-03-22 17:18:30+00:00,False
+2a29aa9fef7990b25154b51b04047d2c9f3087af,Update ueberzug links to a fork (GH #34),2022-11-28 20:26:15+00:00,True
+ad73ba646f1d7f6f0441e1de8cd8ea15a241f75d,Fix incorrect config assistant instructions,2022-11-28 22:10:40+00:00,True
+dfee8a1b544536474db7555a4d6105114caeb52b,Add path of `lscat` to README in case command not found (GH #34),2022-11-29 12:49:05+00:00,True
+b4aad02b03b04562879e3ea39d9a9a4b9ca09545,Replace ueberzug references to the ueberzug fork (GH #34),2022-11-29 13:06:15+00:00,True
+1b7f53fc73661fe854aaf0b7ff8125bbe319f95c,Add link to comment about ueberzug issues,2022-11-29 13:40:14+00:00,True
+52f7d2e82e3b8f45f1c47bd090eadd0630cc5ac6,Suggest fix for command not found errors for lscat,2022-11-29 22:23:01+00:00,True
+0b08c46a0a26ea035f19e11fc4f5953db4f99321,Restructure README for better readability,2022-11-30 21:29:20+00:00,True
+b50ea55d7e1572662cca1b45b1a7f156783cc9f9,Update both md and rst READMEs,2022-11-30 21:44:18+00:00,True
+ef942ba4132deae640612e56c7a0a96ca7e2268b,Replace CONTRIBUTING.md with CONTRIBUTING.rst,2022-11-30 21:53:08+00:00,True
+76630267b2d083e7a37cafcdbb1b0702550558ee,Improve README,2022-12-01 12:26:44+00:00,True
+dbcbfab4ae89fc38f3a0ab6892b8a18bda5bc111,Revert absolute path of koneko-url-login and document it (#34),2022-12-01 14:35:35+00:00,False

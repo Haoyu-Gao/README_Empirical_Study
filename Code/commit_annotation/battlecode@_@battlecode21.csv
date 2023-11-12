@@ -1,0 +1,63 @@
+sha,message,date,result
+eee0a1d6b831f4bf50fd50fc36a3d676f94eb6ce,Add basic guide to README,2015-06-29 23:41:48-07:00,TRUE
+de3b8cb4c2c30f13eb727a642bfdd7cc6c34da73,Update README.md,2015-06-29 23:42:59-07:00,FALSE
+c472acb3cb5ca0f0401e04b571f10ba214ddf5a8,Remove the text about building the engine.,2015-10-18 14:24:28-04:00,TRUE
+68bcefd14046eac715ca1f6cae67be67c32b08de,"Add badge, be trendy",2015-11-04 20:30:52-05:00,TRUE
+c33f474bb56c4a5b47971127ad15c663040a4d0e,Fix failing test cases,2015-11-04 22:33:52-05:00,TRUE
+a854c7eb37bf0d8485dfa84ebdff9a2326cb8e4d,Tiny README fix,2015-11-07 23:27:56-05:00,TRUE
+06be603ad7e954a8ad1ec4ebefe2f072d19c57ed,Update documentation,2015-12-19 04:21:18-05:00,TRUE
+f4980b7e52521838a61ad37ae7ae82bd694e2ce9,Update build and dependency fetching,2015-12-23 12:32:45-05:00,TRUE
+81ca19a4104a89e8de16c341b85f9da728289d12,Rename world.Signal to InternalSignal,2016-01-03 12:50:53-05:00,TRUE
+4d64d791d8916a18d196ca4273f6a3a74979094c,Fix some automatically-generated typos,2016-01-03 16:02:16-05:00,TRUE
+6031e4a91bfc51ce44a6f52772eca9867ea0b931,Add build instructions to README.,2016-01-06 23:52:39-08:00,TRUE
+216e010135772d9b4d58b9e668f7644299f24956,Fix typo in Readme.,2016-01-07 09:13:23-08:00,TRUE
+90be031370290cb3c602b6ce0ab4247bb646c38b,Initial.,2016-05-28 11:34:06-04:00,FALSE
+3a4c166f6217969f5daa751b809530caae5d3a91,Initial.,2016-07-12 23:27:07-04:00,TRUE
+bc093db26e9b5351918e3081e5055a2019ddf8e7,Add circle.yml,2016-10-06 00:14:33-04:00,FALSE
+b98234d11d93bf9b360a5381ab599905dc094c6d,Remove buggy badge,2016-10-06 00:16:48-04:00,FALSE
+0f929d1dbb20240f35d16565c93ba4452515343c,Initial.,2016-10-06 03:05:58-04:00,TRUE
+e8db36cb723ad96a942b1307ac8f38a5d8474150,README changes,2016-12-28 14:17:53-05:00,TRUE
+6eeed9c489db22cefac6d3801e92e3668cb8e783,Added minor compilation note,2016-12-28 20:06:57-05:00,TRUE
+944d4e0a097229d5c092a380ad6c71624cfd75ba,Update readme,2017-01-01 16:11:24-08:00,FALSE
+5a2c37003cc78cb6c4d18fc6cf8a6111d859c176,Should be indicatorLine and not indicatorDot,2017-01-01 17:06:51-08:00,FALSE
+bf475db7a9b3679430cc62ef41188fddb693688d,Final breaking-changes,2017-01-07 15:50:57-05:00,FALSE
+306d4d9a786856ce954ba220717cacbb2cf474cd,README and Help updates,2017-01-09 17:29:03-05:00,TRUE
+f566501da7974559f687928368c629f133c58ddf,Initial commit,2019-07-29 16:15:48+02:00,FALSE
+1615ff3c8fff578bf762b65cccb7ad97d8a3d433,Add basic repository structure to README,2019-07-29 16:31:34+02:00,FALSE
+4e267797f8a1ca3f63e0698bea72fb1241f13e6e,Add notes on keeping history for future,2019-07-29 18:44:24+02:00,TRUE
+62aabd0d7d4dfa01cc8178b307ef50b8f833b4dd,Make title more descriptive in README,2019-07-29 20:44:14+02:00,FALSE
+5adc327b5ebeb24fc2820a9c1370cdfcc395f796,Update README.md,2019-08-04 14:47:49+02:00,TRUE
+598dbb3ea6ef28b2cf9a950629c7db9f9aa9f2b3,simplify local development with docker-compose,2019-08-11 18:42:56+02:00,TRUE
+3ad5f1c0b584c5c7a60b9160a8f5b1a7a975482e,update docker-compose things w npm things,2019-08-11 20:07:08+02:00,TRUE
+b840bc0954f8ec741702daa2d0b1dcc62a271312,Move all files into engine directory,2019-09-21 13:15:38-04:00,FALSE
+f23edaef027a8d478cee710ee9760d3f3df4aaeb,Move all files into client directory,2019-09-21 13:20:54-04:00,FALSE
+3d2c01d44e419cacafe4f65f68f87338d3363ade,add engine instructions to readme!,2019-09-21 14:47:12-04:00,TRUE
+de6a696a16460c7c26f2f12fd296c6f6a7d63fad,Update README.md,2019-09-21 15:08:53-04:00,FALSE
+7b08d64533c7769aed47d49528ce40ccdd8d503a,Move all files into playback directory,2019-09-21 19:10:45-04:00,FALSE
+482ff8ec8ddac3fcf85ea22468db57c6419b853b,Move all files into schema directory,2019-09-21 19:17:13-04:00,FALSE
+0281b46f7625dc5e72f431408a23b365802b0f79,Update README.md,2019-09-21 19:40:29-04:00,FALSE
+4765b4f30cd5858851cea7ca00adbb117a063e29,update docs,2019-09-22 14:29:25-04:00,TRUE
+8e37ae1d6aaf6183c88afc33009b0fda9b0b6bf9,Update README.md,2019-09-22 15:06:37-04:00,TRUE
+6fcd0158a11ceca94feb2a25c634c638e7b7381b,"combined playback & client(visualizer)
+something wrong with playback",2019-10-12 02:30:59-04:00,TRUE
+5bc316922f64593536d857559d0ae0b05740f66a,add link to internal test bots,2019-11-30 14:42:43-05:00,TRUE
+4233ea976ba6e6a15241ae7cd89b0e111651cd8e,add client instructions,2019-11-30 19:51:17-05:00,TRUE
+31f1c66b3d55f028be9103116dd4c62dddbf38d7,add javadoc documentation,2019-11-30 20:29:55-05:00,FALSE
+da981988782de9b178548aa18785c38a9cf3fe31,make engine run command more clear,2019-11-30 20:31:45-05:00,TRUE
+52c5537b0fab246601582cd9276a72922daf1bfe,clarify gradle instructions,2019-12-08 00:56:26-05:00,TRUE
+e7734bd3ceb008a2cf51ac5d294c4e16a4d95708,add npm update instructions,2019-12-08 12:36:23-05:00,TRUE
+5497123384ce3d142e8afd30a00696afd8e24372,install frontend script for slakoths like me; update readme,2019-12-30 14:42:18-08:00,TRUE
+fd064a9aa730677e03f9527ced51e626ce95ae10,update porting instructions,2020-04-11 19:20:52+02:00,FALSE
+ae75173d09a7b216c870f233968f352c72e8d4b1,add snek import documentation,2020-04-11 20:44:39+02:00,FALSE
+393e6fc546779780393f640a36d139a80220c747,remove battlecode20 stuff from readme,2020-04-11 20:46:16+02:00,FALSE
+eae27ebd6fd30da8600496d8462513328175872b,Update README.md,2020-04-12 02:07:55+02:00,TRUE
+dc281660a809bda91764166972265d9b5f6fe265,"Copied engine from BC20, added gradle build files",2020-10-25 02:54:41-04:00,TRUE
+48175fa36ae390a214dbf624ef42239f7a662124,Revise instructions of running web thru Docker,2020-11-22 21:05:33-08:00,TRUE
+eb57050c3f39eff40c9738cab7d034a991f14ab3,Update repo create instructions,2020-12-28 11:58:58-08:00,FALSE
+5e7d6466d90b5845eacdafc5ad15f389da0a502f,Update readme headers,2020-12-28 12:03:17-08:00,FALSE
+84a4b0314237182c2315fbe947ca3b0b5290905c,Add java-based info from bc20 repo,2020-12-28 12:03:53-08:00,TRUE
+06b9e323a5fcee92b52ac6f7a8cce4f626493b8f,"More notes about porting, updating",2020-12-28 12:09:28-08:00,FALSE
+18a4c3e8341e125fa32d4fcde0eccef790721ce3,Generic names (instead of spec competition names),2020-12-29 11:03:34-08:00,FALSE
+9c598b995696b5be3716d54658e733d448e11d15,Update client instructions,2021-01-04 09:57:34+08:00,TRUE
+805b2bbd1faa1e3432862695a97ee5bfba36e7fe,add javadoc deploy instrs,2021-01-04 21:33:32-08:00,FALSE
+9b9bb15f4c2e108cf6d2a3abe25baa27e2c77a95,Added some instructions,2021-01-05 14:08:11-08:00,FALSE

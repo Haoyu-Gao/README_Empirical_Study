@@ -1,0 +1,471 @@
+sha,message,date,result
+fdeabaf46145c6541671a32ca6a48004ad01f67e,MVP release r=smacleod,2018-08-08 00:11:57+08:00,False
+a8d92675831f7999f67ea90c5d4ab4671d90930d,"Update executable name in README.md (#1)
+
+Looks like the executable used to be named `review`, and now it's named `moz-phab`.
+
+README.md still has a couple mentions of the old name; this patch updates those to say `moz-phab` instead.",2018-08-09 10:36:28+08:00,False
+8e01263ccfee0d46595d60b6d3fcf752a114687e,add development section; remove py3 and add `black`,2018-08-09 11:11:53+08:00,False
+ce677de0fb5baee02a09007a62c9fe4b3f708f05,add minimal install instructions.,2018-08-09 12:15:52+08:00,True
+a708a4bb2db6cca70b84bcc4810576a53fc25888,"Add explicit installation and execution instructions.
+
+Summary: Also remove references to the old script name (`review`).
+
+Reviewers: glob
+
+Reviewed By: glob
+
+Differential Revision: https://phabricator.services.mozilla.com/D2983",2018-08-10 10:12:12-04:00,True
+8e3cdf719cfc22fbe354d49efbc8ec74419d8a37,"Bug 1481526 - add windows support  r=smacleod,mcote
+
+Differential Revision: https://phabricator.services.mozilla.com/D3185",2018-08-21 14:06:58+08:00,True
+4ef207880c68c631dde631418dee857104487afa,README: `submit.warn_uncommitted` is now `submit.warn_untracked` (#2),2018-08-25 10:00:51+10:00,False
+c70149fffd56db5a261c99a6096738c5d40d06fc,"review: configure arc command
+
+Summary:
+`which` is not always working as required when using WSL.
+This patch allows to configure the exact `arc` command.
+
+Test Plan: Change the arc.arc_command to different values and see responses
+
+Reviewers: glob
+
+Reviewed By: glob
+
+Bug #: 1482146
+
+Differential Revision: https://phabricator.services.mozilla.com/D3078",2018-08-30 12:48:14+02:00,False
+ada09dd70f4b9656c4e30da612fa0192b823861c,"Add instructions for updating commit series (bug 1487191).
+
+Summary:
+Also include a note about fix-up commits not being
+supported yet.
+
+Reviewers: glob
+
+Reviewed By: glob
+
+Bug #: 1487191
+
+Differential Revision: https://phabricator.services.mozilla.com/D5454",2018-09-11 11:31:28-04:00,False
+1e1c82b4c5db18f76c6e8fa7ebe0ad100d3f0373,"Add bug-filing link to README (bug 1494966).
+
+Reviewers: glob
+
+Reviewed By: glob
+
+Bug #: 1494966
+
+Differential Revision: https://phabricator.services.mozilla.com/D7570",2018-10-03 10:45:11-04:00,False
+38f15f241b780f4141b9a1930e142dd756080ef8,"Fix download URL
+
+Summary:
+Download URL is pointing to the `master` branch. It should point to the
+latest release. This patch is doing so, but for the latest commit of the
+1.4 version.
+
+Test Plan: Check if the link is working
+
+Reviewers: mars
+
+Reviewed By: mars
+
+Differential Revision: https://phabricator.services.mozilla.com/D10717",2018-11-02 15:59:49+01:00,True
+c1d2ba543c743cff8d23e30a4c992e0012737cb3,"Download moz-phab from the latest release page.
+
+Test Plan: Check if links are pointing to the latest release
+
+Reviewers: mcote, glob
+
+Reviewed By: glob
+
+Differential Revision: https://phabricator.services.mozilla.com/D11006",2018-11-07 16:42:36+01:00,True
+7a7d01ca6d03b2a6bb27739c3550b366cb4b2f9b,"Bug 1504534 - Follow local VCS `land` behavior in range selection. r=glob,dylan
+
+Summary:
+Added test_integration for Git
+
+Note:
+The update test is skipped as the generated commit message has an
+additional line
+
+Reviewers: glob, dylan
+
+Reviewed By: glob
+
+Bug #: 1504534
+
+Differential Revision: https://phabricator.services.mozilla.com/D13851",2018-12-14 14:35:49+01:00,False
+f38d4987398d0b416cae610ebaa0f132c346b363,"Bug 1520155 - Rebase feature branches in Mercurial with evolve extension. r=glob
+
+Summary:
+
+`moz-phab` is rebasing only the commits within the commit stack. If any
+of the commit is a DAG branch point and is amended during the submit
+process, the feature branch will not be rebased and will be left
+attached to the obsolete commit.
+
+With this patch `moz-phab` is storing the commits children when
+building the commit stack and is using this info to rebase feature
+branches in the `finalize` stage.
+
+DAG branch points ca't be in stack if no evolve extension is installed.
+
+Reviewers: glob
+
+Reviewed By: glob
+
+Bug #: 1520155
+
+Differential Revision: https://phabricator.services.mozilla.com/D16558",2019-01-23 08:49:18+01:00,False
+a406613debecf9a39c9805c9aa71a3e0d3d5a964,"Move link to Bugzilla into ""Reporting Issues"" section",2019-02-04 13:42:16+08:00,False
+f50183ab68694321cd28f2f6b51821e0c98ffa9f,"Bug 1495777 - Allow to use full VCS configuration. r=glob
+
+Summary:
+
+Currently all calls to VCS are done with a limited configuration.
+This patch is changing that and runs the Git and Mercurial using full
+config. `--safe-mode` can be used as an option. If user wants to always
+run the VCS commands in a safe mode `vcs.safe_mode` config item is added.
+
+Reviewers: glob
+
+Reviewed By: glob
+
+Bug #: 1495777
+
+Differential Revision: https://phabricator.services.mozilla.com/D17944",2019-02-05 15:33:32+01:00,False
+f2e2965d8b9fba5db9420cea5c8774c52dd1b2ac,"Bug 1503903 - Patch revisions r=glob
+
+Summary:
+
+- `--apply-to TARGET` Depending on the `TARGET` the starting commit:
+  - `base` (default) find the base commit in the oldes ancestor revision,
+  - `here` use current commit,
+  - `NODE` a commit identified by SHA1 or (in Mecurial) revision number
+
+- `--raw` Print out the diffs of each revision starting from the oldest
+ancestor. It can be used to patch the working directory with an external tool:
+`$ moz-phab patch D123 --nocommit | patch -p1`.
+
+- `--no-commit` Use the system's `patch` command to patch the diffs. No commit
+or branch is created.
+
+- `--no-bookmark` Prevent creating the bookmark on Mercurial repos.
+
+moved self.branch to the new `before_submit` function to allow the
+`patch` to work from the detached HEAD state.
+
+Reviewers: glob
+
+Reviewed By: glob
+
+Bug #: 1503903
+
+Differential Revision: https://phabricator.services.mozilla.com/D15914",2019-02-12 09:52:21+01:00,False
+256289189b69430c9dc06a17e51e63c58728265e,"Bug 1527621 - Add ability to patch without creating a branch in Git r=glob
+
+Summary:
+Mercurial has a `--no-bookmark` option which allows to not create a
+bookmark for a new DAG branch point. In Git we had been always create a
+branch.
+
+This patch is adding a new option `--no-branch` which allows to create
+commits without creating a branch. This may result in switching the
+repository to the 'detached HEAD' state. User has to use the `--yes`
+option or agree to the prompt.
+
+Reviewers: glob
+
+Reviewed By: glob
+
+Bug #: 1527621
+
+Differential Revision: https://phabricator.services.mozilla.com/D19773",2019-02-18 08:44:37+01:00,True
+52abe178d7128840802e6152ea36c69c72c8c382,"restore accidentially reverted changes to readme, standardise header level",2019-02-18 21:58:50+08:00,True
+bf788687ab40e4281df306090e73bb11ce31084a,"Bug 1529176 - Use special arc version r=glob
+
+Summary:
+
+Instead of asking users to install Arcanist moz-phab will install one
+for itself. It is a Mozilla flavored version with an ability to run
+git cinnabar and potentially other enhancements.
+
+Reviewers: glob
+
+Reviewed By: glob
+
+Bug #: 1529176
+
+Differential Revision: https://phabricator.services.mozilla.com/D21370",2019-03-20 10:26:18+01:00,False
+d255b1cdb46e2472f35fb7b20cf19b6990b05e03,"Bug 1526901 - Set Git remote in the configuration file r=glob
+
+Reviewers: glob
+
+Reviewed By: glob
+
+Bug #: 1526901
+
+Differential Revision: https://phabricator.services.mozilla.com/D24012",2019-03-21 09:29:38+01:00,False
+6b0945b5a5c365118b396caf040e9d1af373601e,indicate the we don't accept PRs,2019-03-26 14:05:41+08:00,False
+6c84ae542e22e702bc63f4d7be2faa64e4adb7ad,"Bug 1534703 - Skip dependencies r=glob
+
+Reviewers: glob
+
+Reviewed By: glob
+
+Bug #: 1534703
+
+Differential Revision: https://phabricator.services.mozilla.com/D24867",2019-03-27 08:20:14+01:00,True
+3f4bebcf2bad31d05bb71c5c92cb0688504f34c9,"Bug 1537700 - Run arc within moz-phab r=glob
+
+Reviewers: glob
+
+Reviewed By: glob
+
+Bug #: 1537700
+
+Differential Revision: https://phabricator.services.mozilla.com/D24498",2019-04-04 05:42:22+02:00,True
+39420a4072249673750100e3a858db08dd37c016,fix typo in readme,2019-07-19 11:55:27+08:00,False
+30d859b55da0669e0a4ab8225fbe8dcbd48dc1a7,Update bugzilla component,2019-08-08 22:47:40+08:00,False
+920562980b96fc464ee36dc2201a1a3ff226f1a7,Fix typo,2019-08-08 22:48:09+08:00,False
+fc63191357083f5148b007b8904f86630bd72f98,"Bug 1481528 - Translated to Python3 r=glob
+
+This is a first working version.
+Requires refactoring and better coverage which will come in next commits.
+
+Differential Revision: https://phabricator.services.mozilla.com//D41345",2019-08-13 14:14:39+02:00,True
+0175bd3cbbdcc9ce2c2b9732d9faafb3d6731d09,"Bug 1481528 - Translated to Python3 r=glob
+
+This is a first working version.
+Requires refactoring and better coverage which will come in next commits.
+
+Differential Revision: https://phabricator.services.mozilla.com//D41345",2019-08-20 07:39:25+02:00,True
+c748a828f2b3a3a5eef3e6f752af001793ab5377,"Bug 1517463 - Distribute with PyPI r=glob
+
+* `version` command added
+* using pip3 to upgrade
+* checking if arc is installed only if needed
+
+Differential Revision: https://phabricator.services.mozilla.com/D26493",2019-10-08 10:17:42+02:00,True
+53c2d45a642c187ddcf0055a9f2568de7662d9bd,Add information about the ability to switch the auto-update feature.,2019-10-10 13:46:09+02:00,False
+0c7d0d8f78513c524035196b88ac9c392db763bd,"Bug 1603475 - Refreshed the README.md r=mars,mhentges
+
+* Paragraphs about updates moved to the Installaction section.
+* Changelog info added
+* `reorg` documentation created
+* Pitching suite
+
+Differential Revision: https://phabricator.services.mozilla.com/D57769",2020-01-06 15:01:58+01:00,True
+5ed023b29d9720a9bf521dadc69b58c022433be2,"Bug 1611620 - Explain moz-phab commit data and remove articles, r?mhentges
+
+I added a section to explain the `Differential Revision` line.
+I don't think anyone calls it ""the Phabricator"", so I also removed those stray articles.
+
+Differential Revision: https://phabricator.services.mozilla.com/D61070",2020-01-30 15:35:56+01:00,True
+31cf3f1d85477ebcc01800e24d8503c5e301fd2f,"No bug - improve contributor docs on how to submit patches
+
+Define how to submit patches to Phabricator in more specific terms.
+
+Differential Revision: https://phabricator.services.mozilla.com/D61043",2020-02-07 08:54:39-08:00,True
+a2a62cf5b35f30cc9a3a08d4ab1a884ee42f814b,"Bug 1608293 - Adds Sentry integration
+
+Reports top-level exceptions to our Sentry instance. Includes breadcrumbs such as HTTP calls and FS operations
+
+moves css to separate file
+
+Differential Revision: https://phabricator.services.mozilla.com/D62105",2020-02-14 09:08:52-08:00,False
+8609bdd1d78aba7bb0a7bbf324151e626109a3c2,"Bug 1580734 - Add an ability to provide the git and hg command in the config file. r=mhentges,glob!
+
+Exported GitCommand to a separate class
+
+Differential Revision: https://phabricator.services.mozilla.com/D60954",2020-02-27 15:55:00+01:00,False
+a7fe91713fadc98ce149483e22682e773977cd79,"Bug 1641199 - Various fixes for Windows development r=zeid
+
+- add sha for colorama to allow dev-requirements installation on windows
+- bump callee version so we don't break under py3.9
+- replace dead frozendict with immutabledict so we don't break under
+  py3.9
+- normalise slashes in filepaths in mercurial to fix file modes in
+  subdirectories
+- use unix text files on windows with mercurial when testing
+- don't mix line endings in tests
+- use venv install black and flake8 executables when testing style
+- update README to include Windows instructions, and make the
+  instructions more verbose
+- add windows testing to circleci
+
+Differential Revision: https://phabricator.services.mozilla.com/D87321",2020-09-16 14:15:24+08:00,True
+fd35aa03ddb7c1480447427f41c131fa0c55d6c3,"Bug 1653429 - moz-phab patch --raw should include patch metadata; r=zeid
+
+- adds hg patch metadata when using a hg repo; git output is unchanged
+- reduce output in raw mode in a single location rather than scattering
+  checks throughout the code
+- print raw output directly rather than via logger; there's no need for
+  the patch to be present in moz-phab's always-on log file
+- fixes tests
+
+Differential Revision: https://phabricator.services.mozilla.com/D83865",2020-10-08 23:42:19+08:00,True
+10d914a4a3038e37385d1d8afe8d2f89ad7df0d6,"Bug 1672111 - mentions Circle CI r=glob
+
+Differential Revision: https://phabricator.services.mozilla.com/D94080",2020-10-20 22:18:06+08:00,True
+45af4c82a123ca3b929e1069c3dd542df2b40d86,"Bug 1543963 - allow periods in names r=sheehan,glob
+
+Differential Revision: https://phabricator.services.mozilla.com/D58945",2021-01-06 09:44:02-05:00,True
+00f3200ff16d532d7ae9586dc92e80c7c3978530,"Bug 1691818 - clean up development requirements r=sheehan,glob
+
+- configure docker containers to facilitate generating various requirement files on different platforms
+- add new Dockerfile to setup a Windows/Miniconda container that mimics CircleCI's Windows orb.
+- generate new requirements files for CircleCI builds based on existing package versions
+- update CircleCI config to use new requirement files
+- Update README with instructions on how to generate requirements files and how to run some tests on Windows.
+
+Differential Revision: https://phabricator.services.mozilla.com/D104575",2021-02-12 15:27:17-05:00,True
+94974e4a6997871d184dd5b5016dc700cf66842f,"Bug 1703882 - Support opt-in pre-release functionality r=dkl,glob
+
+- adds `get_pre_releases` configuration flag
+- appends `--pre` to pip command if flag is on
+
+Differential Revision: https://phabricator.services.mozilla.com/D114871",2021-05-18 09:08:24-04:00,False
+07aa3d8a01470a7dbffe447912073819e341a86d,"Bug 1471687 - Followup - Remove references to ""arc"" in the doc r?glob
+
+Differential Revision: https://phabricator.services.mozilla.com/D126115",2021-11-15 08:47:49-05:00,False
+0eaeeb9fe609eacf432f9aa8bc29de4b94af327c,"uplifts: add a `moz-phab` uplift command (Bug 1737838) r?zeid
+
+Add a `moz-phab uplift` command to send commits to Phabricator
+to be reviewed as uplift requests. The interface is similar to
+`moz-phab submit`, in that a revset/commit range is specified
+for submission, but the user must also pass a `--train` argument
+with a Phabricator callsign indicating the target uplift train
+to submit to. The target repos are any repository on Phabricator
+with an `uplift` project tag associated with the repository. If the
+repository has an appropriate named tag/bookmark/branch associated
+with the passed train, a new set of revisions will be created via
+rebase and the new commits will be submitted for uplift. When amending
+the commits, the `Differential Revision` of the original revision
+is moved to `Original Revision` and the uplift revision is set as
+the `Differential Revision`.
+
+To keep uplifting behaviour consistent with regular submissions the
+`uplift` command re-uses almost all of the logic of `submit`, with
+a few amendments that check the value of `args.command` to determine
+if the uplift specific code paths should be taken. The `submit`
+CLI argument parser is turned into a function so it can be re-used
+by the `submit` parser.
+
+A conduit function call is added to return repositories with an
+associated tag, in our case the `uplift` tag. We add a few VCS specific
+functions to associate a callsign with a named branch/symbol and to
+perform the automatic uplifting functionality.
+
+Differential Revision: https://phabricator.services.mozilla.com/D131984",2022-02-02 14:45:37-05:00,False
+4c79e05db4f9a6bbafab84f254f1f5f7554fb1b4,"python: drop support for Python 3.6 (Bug 1762403) r=zeid
+
+Differential Revision: https://phabricator.services.mozilla.com/D142560",2022-03-31 12:30:50-04:00,True
+6f77d9dadafac5524cb4a13fa20d01bf8006b22d,"ci: add workflows and support for Python 3.10 (Bug 1762438) r=zeid
+
+Adds a CircleCI job for Python 3.10 testing, a `docker-compose`
+command to generate requirements for Python 3.10 and the result
+of running the command. Amend `README.md` to include the new
+command.
+
+The current versions of `black` and `pytest` fail to install on
+Python 3.10, so upgrade them in all requirements files. For `black`
+this also requires a slight syntax change to
+`tests/test_integration_git.py`, so add those syntax changes.
+
+Differential Revision: https://phabricator.services.mozilla.com/D142586",2022-03-31 14:14:56-04:00,True
+80003feb1a933f3a4ce5f728eda880b80c091c39,"readme: update pytest steps for osx / linux (Bug 1776501) r=sheehan
+
+Differential Revision: https://phabricator.services.mozilla.com/D150284",2022-06-24 15:49:52-04:00,True
+39fd2271fbb1f408e51b5ddf30ebe3ccfb7cced4,"Bug 1771670 - Disable accessing user-config from the testcase. r=sheehan
+
+Differential Revision: https://phabricator.services.mozilla.com/D148366",2022-06-28 09:30:39-04:00,False
+0670916439a38f525243c6f7ab0a709b44751019,"Bug 1784701 - Add option to create topic rather than bookmark r=sheehan
+
+Differential Revision: https://phabricator.services.mozilla.com/D154593",2022-08-25 16:56:44-04:00,True
+44e16d5c48347f98aafbd945844a73d72aaf9d91,"circleci: add workflows to publish releases on pushed tags (Bug 1761982) r=zeid
+
+Adds a new job to publish a release of `moz-phab` to PyPI when
+a tag is pushed to the repo. Adds a simple set of instructions
+on how to create a release to `README.md`. Add a simple check
+that if `CIRCLE_TAG` is present in the environment, it matches
+the value of `VERSION` in `setup.py` to avoid headaches if tags
+are pushed without updating the version in lockstep.
+
+Differential Revision: https://phabricator.services.mozilla.com/D160551",2022-10-28 11:33:04-04:00,False
+f63d0208c92c41b88cf573ebc8ed9dc617b35830,"readme: some small changes to conform to markdown linter
+
+Make the README slightly more readable and don't use bare
+links.",2022-11-08 11:13:32-05:00,True
+17e3775fb66dd10e04314134a35cc771315f251d,"build: migrate from `setup.py` to `pyproject.toml` (Bug 1799674) r=zeid
+
+Migrate from `setup.py` to `pyproject.toml`. Fields from `setup.py`
+are converted to their equivalent in the `project` section of `pyproject.toml`.
+`importlib_metadata` is added as an optional dependency on Python
+earlier than 3.8, and `environment.py` is updated to use it to
+retrieve package information. CircleCI builds `moz-phab` via the
+`build` package from PyPA. The README is updated to reflect no
+longer needing to push a version update commit, as `setuptools_scm`
+now parses version information from Git tags in the repo. The
+`moz-phab-dev` script is removed in favor of detecting for a development
+release using `packaging.version.Version` and the version string from
+`importlib.metadata.
+
+Differential Revision: https://phabricator.services.mozilla.com/D161594",2022-11-09 17:39:47-05:00,True
+14493c9842c748c20dae948f3fbe48c812cefe70,"dev: add updated `release_announcement.py` script (Bug 1754059) r=zeid
+
+Adds a `release_announcement.py` script for generating text for posts
+to announcement pages from bug numbers in commit messages between
+two given release tags. This is a modified version of the Github Gist
+that Zeid has used to generate the release announcement text. Update
+the README.md instructions to recommend using the script.
+
+Differential Revision: https://phabricator.services.mozilla.com/D165038",2022-12-19 10:52:28-05:00,False
+a0ec48ed7110fd84c84d1b5cca0d87bed2115d7f,"readme: fix linting errors and make a few small updates (Bug 1806440) r=zeid
+
+- Make the header look nicer.
+- Fix code blocks to always have a specified syntax.
+- Fix line endings and spacing.
+- Add a header for ""Environment Variables"".
+- Fix indentation under release announcements section.
+- Don't use raw URL for Changelog.
+- Change `environmental` to `environment`.
+
+Differential Revision: https://phabricator.services.mozilla.com/D165043",2022-12-19 10:52:33-05:00,True
+d629bd368de5ddc487911e71a8fe6ec2830162d4,"args: add diff ID flag to patch command (Bug 1534707) r=sheehan
+
+Right now users cannot specify a diff ID within a revision's history
+when patching. Being able to specify a diff allows for investigating
+older diffs and provides and easy way to rollback.
+
+This change lets users use `--diff-id` to supply a number as long as
+it is a Diff ID that belongs to a revision in the stack, it will
+apply changes from the diff to the local repo being patched.
+
+This will retrieve the diff via ID and replace the existing diff info
+for that revision with the requested diff's info.
+
+Differential Revision: https://phabricator.services.mozilla.com/D165314",2023-01-03 16:03:53-05:00,True
+bebb8fac789dcea75f35e4a88f57ae2d296b1911,"reorg: add a `--no-abandon` flag (Bug 1654837) r=grammar
+
+Adds a `--no-abandon` flag to avoid abandoning revisions during
+`moz-phab reorg`. Revisions are abandoned when they are present
+in the remote Phabricator stack but dropped from the local VCS
+stack. This flag avoids adding the `abandon` transaction when
+the flag is passed on the command line.
+
+Differential Revision: https://phabricator.services.mozilla.com/D167299",2023-01-20 12:22:24-05:00,False
+f973a6f1a8e23fc12fbc864c95a3e653a4f0ba0e,readme: reword prelude to available command options,2023-01-20 13:59:08-05:00,True
+4f2fcbfc5a988384f721cefe8b5b998d2652edf1,"patch: make branch name configurable (Bug 1826125) r=zeid
+
+Adds a `patch.branch_name_template` config knob to control
+the name used as the branch name for a new bookmark/branch.
+This knob takes a single format template, `rev_id`, which
+is the rev id of the revision being patched. The current
+default value is `phab-D{rev_id}` and that is set as the
+default value in the config. Move branch name resolution
+into a separate `resolve_branch_name` function and add a
+test for it.
+
+Differential Revision: https://phabricator.services.mozilla.com/D174777",2023-04-05 14:41:43-04:00,False

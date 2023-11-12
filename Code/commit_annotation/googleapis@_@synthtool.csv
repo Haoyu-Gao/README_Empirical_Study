@@ -1,0 +1,94 @@
+sha,message,date,result
+016352f11175ce10c1b810cb0ab42f6662b007df,basic README,2018-06-11 14:08:13-07:00,TRUE
+25c34100a756f677bf84d12e9d506e85eaf2b2eb,"Add black
+
+Change-Id: Ib32d22f022c2a798435e30e61e0c9db3b98758f7",2018-06-27 13:27:12-07:00,TRUE
+aabf1e8f42c6096be235c04ce169c4d9458d013a,"Update README to explain how to use templating. (#18)
+
+* Update README to explain how to use templating.",2018-07-19 10:02:59-07:00,TRUE
+df652883e7e3745748246c9adbb27457554b37f7,Document environment variables (#176),2018-12-21 15:03:36-08:00,FALSE
+d1bc7a08efa814f26f1eaaacbfc4bc62ad4c3045,"Update readme to latest instructions (#182)
+
+Per https://github.com/googleapis/synthtool/blob/8e95a2333f4c5fc5e12a319b33664d75b06ae620/synthtool/gcp/gapic_generator.py#L27 the environment variable is `SYNTHTOOL_GOOGLEAPIS`.
+
+I get a warning when I run `python synth.py`.",2019-01-24 09:12:42-08:00,FALSE
+f9740d2c24af062a267973c50943a3b8d963d2e4,s/GoogleCloudPlatform/googleapis/g in README (#199),2019-03-08 13:46:03-08:00,TRUE
+32615ebddfe720213e2162fa95dc0b30ee52a837,Add a helpful tips section to the readme (#200),2019-03-12 17:02:27-07:00,FALSE
+76e933e92e8b6ba7662fd29fb354ac394f7c03fd,"Update README run command python3 (#235)
+
+Or it explodes 🔥",2019-05-01 17:01:16-07:00,FALSE
+340b1e907a54abc2653911695fad86c79a7fd5cf,"README updates (various) (#242)
+
+- Add usage for Node.js, Java, PHP, and Ruby
+ - Add useful links throughout README
+ - Syntax highlight Python code demonstrating synth.py features
+ - Document include_protos=True
+ - Document CommonTemplates including Jinga basics and reference links
+ - Little bits of consistency, e.g.
+    - no newline after header
+    - new newlines around code blocks
+    - SynthTool when referring to tool/product
+    - `synthtool` when explicitly referring to the CLI
+    - Python is always used as the primary language. All languages which support SynthTool are included and always included in alphabetical order (with Python always starting first).",2019-05-11 22:57:23-07:00,TRUE
+00429e3b08acabc0ecacd220418491fd7be3932d,"Fix a small README error. (#251)
+
+In [google-cloud-python](https://github.com/googleapis/google-cloud-python), we do not use the `google-cloud-` prefix in the directory for each individual API.",2019-05-28 09:31:32-07:00,FALSE
+65a930bbc63819b85e669243020ead4e0e6b0456,"Add support for using local GAPIC generator (#265)
+
+* export SYNTHTOOL_GENERATOR=/path/to/gapic-generator",2019-06-25 10:20:17-07:00,FALSE
+35f9c02c0ab38fdfe617c58199adbebd43cd8eba,docs: add Docker to installation steps (#314),2019-10-24 10:53:30-07:00,TRUE
+ffbab4a2a9298fa2a009d61957c66f541c436103,"feat: allow synth.py to opt out of obsolete file tracking (#349)
+
+* feat: allow synth.py to opt out of obsolete file tracking
+
+* Lint
+
+* Remove unnecessary global decl.
+
+* Add a note about obsolete file tracking to the README.",2019-12-17 16:04:27-08:00,FALSE
+3a1e8ca136f29a51b2183504f7e2d9e42e3788bc,"feat: track templates as git clone (#445)
+
+Clone a copy of the templates repo (currently synthtool) for template
+generation. This will support the use case of precloning and walking
+through the commit history for context-aware-commits and for possibly
+extracting templates to a separate repository.",2020-03-17 13:38:20-07:00,FALSE
+a003d8655d3ebec2bbbd5fc3898e91e152265c67,"docs: remove ""install stable"" instructions (#461)
+
+The package hasn't been released to PyPI in some time",2020-03-30 14:52:15-07:00,TRUE
+97c7ccfdceb927db1cbe6f3bb09616aa02bafd89,"doc: document context-aware commit flags (#481)
+
+Also, delete obsolete blurb about cleaning up old, dead files.
+
+Co-authored-by: Jeff Ching <chingor@google.com>",2020-04-13 10:32:32-07:00,FALSE
+f49dfa1281541e22a012697ae2d9dabf301c1a90,"feat: allow Python docker image override via env var (#525)
+
+Closes #523 
+
+cc @dizcology",2020-05-28 20:18:05+00:00,FALSE
+cb3c683e958a4b5c016bb3734436fc1cb887eb7b,chore: fix README instructions for java (#592),2020-05-29 14:22:08-07:00,FALSE
+95586c36f1c85b5e142909e499a568a9b0d0f0bf,"doc: update and move READMEs (#589)
+
+* doc: update and move READMEs
+
+to reflect new bazel prerequisite and the fact that two tools, autosynth and synthtool, now live in this repo.
+
+Fixes https://github.com/googleapis/synthtool/issues/511
+
+* fix: broken links
+
+fixes https://github.com/googleapis/synthtool/pull/589
+
+* chore: manually merge recent change to root README.md
+
+* fix: remove the future tense from README
+
+* fix typo
+
+* remove ..\synthtool$
+
+* Accommodate PR review comments.",2020-06-04 11:20:15-07:00,TRUE
+88645a8f6e1b1c90fed625158960ffec565b023a,docs: add diagram and README for autosynth (#615),2020-06-09 18:36:10+00:00,FALSE
+fc492f9ed8debe9f231f5b3ccd3f6b800d6d7f60,"cleanup: remove autosynth code (#1360)
+
+All autosynth jobs have been (or are in the process of being) removed. We no longer need to keep the Kokoro configs, the code, or the tests.",2022-03-01 19:08:20+00:00,FALSE
+87551a337d77ce991ea9b80c2820a33e66a8841e,chore: update README (#1449),2022-06-06 13:22:04-07:00,FALSE

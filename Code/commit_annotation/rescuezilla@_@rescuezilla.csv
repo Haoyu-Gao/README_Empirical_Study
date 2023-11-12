@@ -1,0 +1,484 @@
+sha,message,date,result
+8b4113e91cdf32771d0248f04ea82300c7048b7f,"Adds README.md adapting Redo Backup and Recovery Sourceforge project
+
+Adds README.md file based on the Redo Backup and Recovery Sourceforge project's
+summary page [1].
+
+The screenshots under the 'Project Samples' have also been included in the
+README.md file.  Given these screenshots are JPEG files, git LFS is used to
+track these files.
+
+[1] https://web.archive.org/web/20190918023955/https://sourceforge.net/projects/redobackup/",2019-10-15 10:43:43+10:18,True
+762da501efed74cb13788abbb1589482e9da40bb,"Adds build scripts based on old Redo Backup and Recovery v1.0.3 instructions
+
+Adapts the Sourceforge Wiki instructions [1] for building the Redo Backup and
+Recovery v1.0.3 source code release, into an initial series of shell scripts.
+Concise documentation as well as a Dockerfile and Makefile have also been
+added.
+
+Background: The most recent Redo Backup and Recovery source code release
+tarball is v1.0.4, which builds an Ubuntu 12.04 (Precise Pangolin) ISO image.
+The earlier releases, v0.9.8 through to v1.0.3, build an Ubuntu 10.10 (Maverick
+Meerkat) ISO images. The Sourceforge Wiki currently has two sets of
+instructions: v1.0.4 published on Nov 21 2012, and the v1.0.3 published on Sep
+9 2012 [2].
+
+To provide the ability to build the v0.9.8-v1.0.3 releases historically
+accurately, this commit adapts the v1.0.3 instructions. For maximum
+auditability, described below is the full list of adaptations between the build
+scripts in this commit and the v1.0.3 instructions. The v1.0.4 instructions are
+adapted in a subsequent commit.
+
+* Replaced semicolon-delimited ""one-liners"" with newlines, for readability
+* Use variables instead of hardcoding APT mirror, Ubuntu codename, CPU architecture
+* Restructure expected paths to support cleaning up builds and version-controlling
+  source code:
+  * Use directory named ""src/"" (for version-controlled source code), instead of
+    extracting a snapshot tarball every build
+  * Use directory named ""build/"", for build working dir, instead of the ambiguously
+    named ""livecd/"" directory
+* Ensure no user-interactivity required once build launched:
+  * Package installation configured to be non-interactive/unattended via
+    debconf/frontend ""Noninteractive"" setting.
+  * Customizes plymouth boot splash screen image using `update-alternatives
+     --set` instead of the interactive `update-alternatives --config`
+  * locale.nopurge config file provided (via a heredoc) based on the
+    auto-generated file in the official v0.9.8-v1.0.4 ISO images
+* Copy isolinux.bin from host, not the chroot, as the Wiki page [1] documents
+  running `apt-get install syslinux` on the host, not from within the chroot.
+* Install memtest86+ package on the host system, rather than assume presence.
+* Adapt the ""correct the MD5 checksums"" instructions into a scripted
+  workaround, and document the root cause: mkisofs's ""-boot-info-table""
+  argument modifying isolinux.bin
+* Based on the CHANGELOG and analysis of the official ISO images, for
+  historical accuracy of v0.9.8-v1.0.3 builds, the following packages listed in
+  the v1.0.3 instructions have been removed:
+  * ntfs-3g           (added in v0.9.9)
+  * wodim             (added in v1.0.0)
+  * system-config-lvm (added in v1.0.1)
+  * wget              (added in v1.0.2)
+
+Additionally, added supporting files:
+
+* Adds a simple Makefile to launch the build script.
+* Adds a Dockerfile to construct a simple ""host system"" environment
+* Adds documentation describing how to launch build
+
+[1] https://web.archive.org/web/20190923105831/https://sourceforge.net/p/redobackup/wiki/Home/?version=10
+[2] https://web.archive.org/web/20190923105755/https://sourceforge.net/p/redobackup/wiki/Home/history",2019-10-15 10:43:43+10:18,True
+f6107bb5fc48b0479acb634a52ec309ba0fcb94b,"Adds Travis CI build bot configuration file, and status image to README.md
+
+Adapts docs/build_instructions/BUILD.ISO.IMAGE.md into a .travis.yml
+configuration file for Travis Continuous Integration build bot to build each
+commit.
+
+Ubuntu 18.04 (Bionic Beaver) was selected as the build bot OS. The build bot OS
+environment does not really matter, as the docker image provides the primary
+host environment for the build. However, a more recent OS provides a more
+recent Docker release, which means additional Docker functionality.
+
+Also embeds Travis CI status image icon in README.md file.",2019-10-15 10:43:44+10:18,True
+06652526f35539b87927cfc9c45117ac55d6b596,"Adds cropped Redo Backup and Recovery logo to top of README.md file
+
+For aesthetics, adds the cropped Redo Backup and Recovery's Syslinux splash
+screen [1] as a 352x202 logo to the top of the README.md file.
+
+[1] src/livecd/image/isolinux/bg_redo.png",2019-10-15 10:43:47+10:18,False
+d1bf9531775e3813b03fa5137e69ce24e2685635,"Adds 'Supported Languages' section to README.md
+
+Lists supported languages in the README file, and makes clear that further
+translations are not currently being accepted because Redo Backup and Recovery
+is undergoing active development.",2019-10-26 12:13:15+10:18,True
+92872e9bdbafcf41d5aa777190ec2aaf7b423048,"Renames project Rescuezilla in README/menus (1/2)
+
+Renames project Rescuezilla instead of ""Redo Backup and Recovery"" in the files
+not directly associated with application functionality, such as the README
+file, the ISOLINUX boot menu, the desktop entry files etc.
+
+French and German translations have also been modified in a few places,
+something which has been avoided in prior commits as much as possible to
+prevent mistranslation. Given string literal 'Redo Backup' appears in the
+French and German translations as an unmodified proper noun that doesn't appear
+to have any kind of language-specific acronym or gendered suffixes,
+substitution is unlikely to cause unintelligible text (but should certainly
+help reduce confusion with the abandoned 'Redo Backup and Recovery'
+application).
+
+This commit does not change anything associated with application functionality
+(other than translation files) or paths, just static string literals.",2019-11-07 11:42:47+10:18,True
+1c592be1ab80b7e4b63d6bcdf59f0921e2e9f48e,"Updates README with Patreon, website, wiki links
+
+Adds links to README to help users view the development roadmap GitHub Wiki
+page, translation HOWTO, become a Patreon member, and a link to
+rescuezilla.com.
+
+Also added a brief version history table, and fixed an instance of the term
+'Redo' (instead of 'Rescuezilla').",2019-11-08 13:38:22+10:18,True
+8bded075dd20880f1abfe7db7c39579aa4e2ef5f,"Updates screenshots using official v1.0.5 release
+
+Updates the old screenshots using the v1.0.5 release image. The lossy JPEG
+files have been replaced with PNG files.",2019-11-08 21:24:44+10:18,True
+30c7ca9bd8c17bd6f618edc789b4e1d86ee10df1,Adds link to Sourceforge v1.0.5 release thread,2019-11-08 22:48:46+10:18,True
+f24407a5993057da01b330a94b737035eac06d7c,"Adds link to releases at the bottom of README.md
+
+Adds another link to the GitHub Releases page because GitHub's traffic
+analytics show about 15% of traffic visiting the BUILD.ISO.IMAGE.md page.
+
+Given the number of git clones is far less than 15% of the traffic, it appears
+non-developer users are scrolling down to the bottom of the page looking for
+the download link and clicking the build instructions trying to get do a
+download page.",2019-11-12 22:55:58+10:18,True
+2c19736e4ddc011469259f701257c414c682381a,"Adds Spanish translation by caralu74 (ES-es)
+
+Adapts Spanish translation based on caralu74's work [1]. Also adds keyboard
+layout and GNOME language packs as relevant.
+
+https://github.com/rescuezilla/rescuezilla/issues/28
+
+Fixes #28",2020-01-21 12:50:11+10:18,True
+854f16db5f64c317d9bdf47758b4a07eaba3fddf,"Adds ISO tag to supported languages in README.md
+
+Adds the ISO language tag to the supported languages in the README.md, so the
+language variant is made clearer.",2020-01-21 12:50:11+10:18,True
+22657eaeb7d88c0fa65e218511d36319776945f1,"Moves Downloads section of README.md to bottom
+
+Moves the entire download section to the bottom where its less easily missed.",2020-01-25 18:36:50+10:18,True
+2e22ebf12607fb588c31b795708ee908a0a078f4,Tweaks Patreon funding call-to-action in README.md,2020-01-25 18:36:50+10:18,True
+5cc2ea6651c5ca0b52e0f875474d0e7d512c76e2,"Updates README.md for v1.0.5.1
+
+Adds to the abridged history table information about Rescuezilla v1.0.5.1 and
+the old unofficial updates.
+
+Also updates the README.md download link to point to the latest release (that
+is, non pre-release tag), rather than simply the link to the GitHub Releases
+page.  This should reduce the number of downloads of older versions, which
+seems to be due to people scrolling past the latest version.
+
+Finally removes the Patreon link from the bottom of the README.md, to try and
+assist users finding the download link.",2020-03-24 15:00:13+10:18,True
+26de41fe25e435941abeba95524edb1d3ec84133,"Prevents README.md version table from wrapping
+
+Shortens lines in the version table to help prevent the table from wrapping.
+This should improve readability.",2020-03-24 15:55:22+10:18,True
+f379bdb9c561083b6411829993e9159525acff26,Updates Patreon links to join page,2020-03-24 21:01:38+10:18,True
+6874a885aed78cf23f94e79ddad7326f3e442688,"Replaces README.md screenshots with hotlinks
+
+Deletes the README.md screenshots and hotlinks to the GitHub Pages repository.
+
+Given many websites lift the screenshots directly it's important that even the
+upgrade from v1.0.5 to v1.0.5.1 is reflected in the screenshots. The hotlinks
+reduce the burden of keeping this updated.",2020-03-26 12:35:32+10:18,True
+2534b149bdfe24aa0f45b84a92837d0c6897a081,"Replaces Redo Backup logo with Rescuezilla logo
+
+Replaces almost all usage of the Redo Backup logo with the new Rescuezilla
+logo. The notable exception is the drivereset tool, which is currently not
+being maintained.
+
+In addition, ensures Rescuezilla desktop icon works as SVG vector image
+(pixmap), and ensures GTK window icon 64x64 PNG raster image works (taskbar
+icon, header bar icon). Also updates plymouth (boot splash screen).
+
+Note: Redo Backup desktop icon never worked in prior releases: Redo Backup
+v1.0.4 and earlier didn't have a desktop.",2020-06-12 12:33:57+09:18,False
+8912c9f42998378cb5c86e0afe03b8580252dc0c,"Clarifies Rescuezilla is fork of Redo Backup
+
+Clarifies that Rescuezilla is a fork of Redo Backup rather than the direct
+successor, after the original authors of Redo Backup released a new version
+after a nearly 8 year absence [1].
+
+[1] https://sourceforge.net/p/redobackup/discussion/1169663/thread/d0e37c4750/",2020-06-14 19:46:05+09:18,True
+3dbd1df69261e5a37d8d8c8334765821dbee0a20,"Improves Rescuezilla asset appearance
+
+Makes several tweaks to Rescuezilla art assets that were originally intended
+for commit [1], but were delayed due the scrambling to upload the assets in
+time as the original Redo Backup author uploaded a new version [2]:
+
+* Resizes the main Rescuzilla banner in the README file
+
+* Deletes old banner file intended to be removed during [1]
+
+* Corrects mascot arms/flippers clipping (for the plymouth and wallpaper)
+
+* Exports plymouth and wallpaper at 3 times the size, so the image is clearer
+
+[1] 2534b149bdfe24aa0f45b84a92837d0c6897a081
+
+[2] https://sourceforge.net/p/redobackup/discussion/1169663/thread/d0e37c4750/",2020-06-17 14:38:39+09:18,False
+0270704a70e47ca9f468e49ae127fa2f69cb31fa,Adds v1.0.6 to README.md version history,2020-06-17 20:29:38+09:18,True
+af02ef520663d566e151b7148f3ee740e70901b7,Scale up README.md screenshots,2020-06-17 20:39:03+09:18,True
+0a78fbdbf67286e80b4f4227e65b3552deb0a873,"Resize README.md images for redesigned GitHub
+
+Resizes the screenshots placed in the README.md file as GitHub's redesign
+appears to have made the README.md column narrower.",2020-06-26 15:59:56+09:18,True
+07d1cac8994623301bd90651b5e076742af35e26,"Adds v1.0.6.1 to README.md version history
+
+Removes the ""find shared network drive"" featured function as it's currently not
+yet fixed. Adds note about Rescuezilla v1.0.7 features.",2020-06-26 15:59:56+09:18,True
+ed58ad9da5e4899b5d3eccbd1eefab87455e159a,"Updates version history, links to support forum
+
+Updates the abridged version history table with updated links to Rescuezilla
+v1.0.5 announcement megathread. Adds an entry to Redo Rescue v2.0.0, with a
+link to the announcement thread of that project.
+
+Also adds a link to the Rescuezilla support/discussion forum, and the
+CHANGELOG.",2020-07-03 18:10:57+09:18,True
+7d321f8437ce2f846cc81116bf8b2b9acda99b81,"Updates README.md for v2.0 release
+
+* Updates introduction text to talk about Clonezilla compatibility
+
+* Updates version table with Rescuezilla v2.0 information
+
+* Removes limitations section after nearly all listed limitations removed.",2020-10-14 11:49:48+10:18,True
+9c235afa19799f138585edc34b674cb0cadcf059,"Adds Portuguese (Brazil) translation by vinicioslc
+
+Adds Brazilian Portuguese (pt-BR) translation by Vinicios de Lima Clarindo [1].
+Also adds keyboard layout and GNOME language packs as relevant.
+
+For simplicity, installing this translation as 'pt' rather than 'pt_BR'. If a
+'pt_PT' translation is submitted, this can be updated.
+
+https://github.com/rescuezilla/rescuezilla/issues/128
+
+Fixes #128",2020-12-12 10:05:44+10:18,True
+72ebfd9286d2274c6534c55333d1910fc8e181a6,"Adds Polish translation by zeit439
+
+Adds Polish (pl-PL) translation by GitHub user zeit439 [1].  Also adds keyboard
+layout and GNOME language packs as relevant.
+
+https://github.com/rescuezilla/rescuezilla/issues/135
+
+Fixes #135",2020-12-12 10:05:44+10:18,True
+a899c3d97eb4c0c975bcdc260a9a3816dcb17525,"Updates README.md for v2.1 release
+
+* Describes Image Explorer (beta) in features list
+* Hotlinks to Image Explorer screenshots
+* Updates version table with Rescuezilla v2.1 information",2020-12-12 21:16:37+10:18,True
+4d9fe8fdc29cdbdc2be475baa0607e8d43d71012,"Adds Italian translation by AlexTux87
+
+Adds Italian (it-IT) translation by GitHub user AlexTux87 [1].  Also
+adds keyboard layout and GNOME language packs as relevant.
+
+Fixed translated variable names (and updated the Translation-HOWTO Wiki
+to better document that values surrounded by braces {} are variables
+which don't need to be translated).
+
+[1] https://github.com/rescuezilla/rescuezilla/issues/154
+
+[2] https://github.com/rescuezilla/rescuezilla/wiki/Translations-HOWTO
+
+Fixes #154",2020-12-13 13:44:07+10:18,True
+07cc5d387a3d1d3fb1224d1e1d7634c540901520,"Rewords README link to Italian translation ticket
+
+Rewords the link to the Italian translation GitHub issue to help avoid users
+clicking it trying to find the yet-unreleased Rescuezilla v2.2 image and then
+ending up at a Google Drive link to an Italian language test image.
+
+[1] https://github.com/rescuezilla/rescuezilla/issues/154",2020-12-13 15:09:50+10:18,True
+832dde2c13141fdace573589004a50529cc0e888,Updates README.md for v2.1.1 release,2020-12-14 21:51:57+10:18,True
+95080f235849ea45b2cd9dba6b561b36c3818489,Updates README.md for v2.1.2 release,2020-12-31 21:48:56+10:18,True
+7b1bf333fe33dbbc1d2be0bc8d65e6e8ba54146c,"Adds Greek translation by tkatsageorgis
+
+Adds Greek (el-GR) translation by GitHub user tkatsageorgis [1].  Also adds
+keyboard layout and GNOME language packs as relevant.
+
+[1] https://github.com/rescuezilla/rescuezilla/issues/171
+
+Fixes #171",2021-01-22 15:19:32+10:18,True
+b3dc86261e0deff0547237fa40f47ec9705bdebf,"Adds Japanese translation by AE720
+
+Adds Japanese (ja-JA) translation by GitHub user AE720 [1].  Also adds keyboard
+layout and GNOME language packs as relevant.
+
+For input, ibus-anthy [2] has been installed but not configured. Switching to
+Google Japanese Input based ibus-mozc [3] needs to be evaluated.
+
+Future review by a native speaker is suggested as this is a non-native
+translation: the user suggested they translated the application for practice.
+
+[1] https://github.com/rescuezilla/rescuezilla/issues/176
+
+[2] https://packages.ubuntu.com/focal/ibus-anthy
+
+[3] https://packages.ubuntu.com/focal/ibus-mozc
+
+Fixes #176",2021-01-24 16:28:22+10:18,True
+2f807999d07ceea9a41178c5d7de5ae303289e3b,Updates README.md for v2.1.3 release,2021-01-30 08:19:15+10:18,True
+a461f3bd23a00362d9937ce37d3b613454987b7a,"Adds Swedish translation by AliensInc
+
+Adds Swedish (sv-SE) translation by GitHub user AliensInc [1].  Also adds
+keyboard layout and GNOME language packs as relevant.
+
+[1] https://github.com/rescuezilla/rescuezilla/issues/186
+
+Fixes #186",2021-02-09 10:42:13+10:18,True
+4ade040a2653b340176a23a1b1512d5f176fae5a,"Adds Chinese (Simplified) translation by mzky
+
+Adds Chinese (Simplified) (zh-CN) translation by GitHub user mzky [1]. Also
+adds keyboard layout and GNOME language packs as relevant.
+
+[1] https://github.com/rescuezilla/rescuezilla/issues/191
+
+Fixes #191",2021-03-07 10:16:29+10:18,True
+6f7960b51a7c7f33bccd89d63519bb3631edccfa,"Updates README to use Weblate for translation
+
+Updates README file to remove the link to the Translation HOWTO, has
+Rescuezilla has switched to using the collaborative webtool 'Weblate' [1], and
+updating the README file to refer to Weblate is a requirement of Weblate's
+libre hosting billing.
+
+[1] https://hosted.weblate.org/projects/rescuezilla/rescuezilla/
+
+Fixes #196",2021-05-22 15:24:18+09:18,True
+50e2e222402a48434957a6138ec65f003aa8a8e5,Adds Weblate translation status widget to README,2021-05-22 15:24:21+09:18,True
+d2ed55392c368287557b66157ac85c5c9f841a27,"Adds Turkish, Russian, Norwegian Bokmål lang pack
+
+Adds relevant language packages for Turkish, Russian and Norwegian Bokmål
+language (nb_NO) languages, and configures the GRUB menu so the translations
+recently submitted by users of Weblate [1] get selected.
+
+Notably, this translation uses a language code that's 'nb_NO' (rather than
+'nb'), so special care has been taken to ensure the translation files continue
+to work.
+
+[1] https://hosted.weblate.org/projects/rescuezilla/#languages
+
+Fixes #89",2021-05-22 17:54:02+09:18,True
+dc6f780da2ab19e96b279998f2282f1b8397f566,"Lists languages in alphabetical order
+
+Lists language in alphabetical order the same way Ubuntu does it.  This makes
+it easier for users familiar with the English alphabet to search the language
+list.",2021-05-22 17:54:02+09:18,True
+17d381452caf3420a234028ea914b08c7f472b75,"Adds traditional Chinese language pack
+
+Adds relevant language packages for traditional Chinese language (zh_Hant), and
+configures the GRUB menu so the translations recently submitted by users of
+Weblate [1] get selected.
+
+Notably, this translation uses a language code that's 'zh_Hant' (rather than
+'zh' or 'zh_TW'), so special care has been taken in the GRUB menu.",2021-05-29 19:36:56+09:18,True
+12cf23d34e8f7fad4f205dc1f1412f270c30b03f,"Updates status image for Travis-CI.com migration
+
+Switches the status image from Travis-CI.org to Travis-CI.com as there is a
+free-tier available.
+
+This negates the immediate need to switch to another continuous integration
+provider.
+
+Fixes #149",2021-05-29 22:59:16+09:18,True
+9d3d8f976a915ea7c3f22039ab16db6f07cc3771,"Adds Danish language pack
+
+Adds relevant language packages for Danish language (da_DK) after a Weblate
+user recently started translating Rescuezilla into that language.",2021-06-04 01:52:40+09:18,True
+b6bdf7bc53331bc21cc93553cd144e031af53fce,"Points TravisCI status widget to main build page
+
+Switches the TravisCI status widget URL to point to the main build page as the
+build history page is not as relevant.",2021-06-04 01:52:40+09:18,True
+87db7e6fa9974883e5b86b13385e7ce85a243a4d,Updates README.md for v2.2 release,2021-06-04 03:39:45+09:18,True
+60a12ca0395009f6968b79ea6cd123361a6f5306,"Increases screenshot size, re-orders screenshots
+
+Increases the size of the first and last screenshots in the README by letting
+GitHub resize it to the README.md width. The biggest images are more readable.
+Also reorders the screenshots to make things more logical.",2021-06-05 18:41:28+09:18,True
+c358f744cc98259f24127bdd21aadcf6c88d44f9,Removes trailing .html from URLs,2021-06-19 21:43:54+09:18,True
+e3711a08d8e0e3b36a98eaadc7ee6b4d2c8f96ad,"Adds Hebrew language pack
+
+Adds relevant language packages for Hebrew language (da_DK) after a Weblate
+user recently translated Rescuezilla into that language.",2021-06-24 11:18:15+09:18,True
+d62d0b0d33d82ca2ceeba3602ea494d85c18efc6,"Adds Hebrew language pack
+
+Adds relevant language packages for Hebrew language (he_IL) after a Weblate
+user recently translated Rescuezilla into that language.",2021-06-24 11:57:52+09:18,True
+d8cc028f1d467bd9a9914f3249f5d91b1a54343d,"Adds Indonesian language pack
+
+Adds relevant language packages for Indonesian language (id_ID) after a Weblate
+user recently translated Rescuezilla into that language.",2021-08-02 22:05:10+09:18,True
+0c63b3ccffd3f3a030e2446fa5e31fbc79dd7b7f,"Adds Vietnamese language pack
+
+Adds relevant language packages for Vietnamese language (vi_VN) after a Weblate
+user recently translated Rescuezilla into that language.",2021-08-02 22:05:10+09:18,True
+58a401d414a605800fea1229d4e5f8988b246c04,Updates Vietnamese translation status,2021-08-30 15:47:37+09:18,True
+2fd14b57151bb0ed582288ea2ea0602c7991e540,"Clarifies that Rescuezilla is not a *trivial* fork
+
+Clarifies that while Rescuezilla is indeed a fork, it's actually been rebuilt
+from the ground up to support Clonezilla, and has features *beyond* Clonezilla.
+
+This is to address misconceptions in earlier drafts of this blog post [1], as
+well as in-person chats with people about Rescuezilla who understandably may
+initially think it's a trivial fork of Redo Backup and Recovery without the
+significant additional features and development of its complete rebuild from
+the ground up.
+
+[1] https://raywoodcockslatest.wordpress.com/2021/08/17/linux-v2p/",2021-09-23 13:16:43+09:18,True
+9e0a1d10eca70ab775f98c6532ec81bffc2bb2a6,"Adds Ukrainian language pack
+
+Adds relevant language packages for Ukrainian language (uk_UA) after a Weblate
+user started translating Rescuezilla into Ukrainian language on Weblate.",2021-10-01 20:46:14+09:18,True
+b30b6ea6af2bca4df46861a96da0b18905358978,Updates Russian translation status,2021-10-14 13:21:14+10:18,True
+e814f27de6117fc222b4f0c6589d73908ba7de88,Updates README.md for v2.3 release,2021-12-24 08:56:42-08:00,True
+d2eda700cee3d28c3c4d36cb03bd91448e7ec3db,"Adds Korean language pack
+
+Adds relevant language packages for the Korean language (ko_KR) after a Weblate
+user started translating Rescuezilla into the Korean language on Weblate.",2022-01-01 12:28:40-08:00,True
+98d6493d517940e0100d8eaf32a4005122abfe3a,Updates README.md for v2.3.1 release,2022-01-02 10:04:16-08:00,True
+5f51aafddf51cba61b7ce41af6eaa381e2093c87,"Reword fork statement after feedback
+
+Rewords fork statement after a user [1] suggested improvements.
+
+[1] https://github.com/rescuezilla/rescuezilla/issues/298",2022-01-03 07:40:07-08:00,True
+70234ad7200c9154c3a965d8ee8eb76a651db779,"Adds Catalan language pack
+
+Adds relevant language packages for the Catalan language (ca_ES) after a Weblate
+user started translating Rescuezilla into the Catalan language on Weblate.",2022-04-10 15:08:07-07:00,True
+bdeb336faa2c826f9444c478d4595ee4ad555b8a,README: Adds link for incomplete translations,2022-06-14 12:15:28-07:00,True
+cb669f7071277aab28f2f5de7da57784175824f8,"Adds language packs: Arabic/Czech/Hungarian/Slovak
+
+Adds relevant language packages for several languages that Weblate users have
+started translating Rescuezilla into, but have not finished.
+
+This will help encourage users speaking those languages to complete the
+translations.",2022-06-14 12:51:37-07:00,True
+65ad259f10241b2a4ed9ef7491e48333bba27e09,Updates README for weekly rolling release,2022-06-26 18:05:56-07:00,True
+f382b42e5b9c2fd8fc54fdd3e40d671ea3ccd1a0,"Adds back stable link to README
+
+Adds back the stable link to the README to encourage people to use the stable
+if they are unsure.",2022-07-03 10:27:26-07:00,True
+d21df647a815b16dc7c53d54f0f666659cd10dd4,README.md: Clarify Arabic translation is complete,2022-07-23 11:01:09-07:00,True
+eac6a472fddd60e21dd0daaae54b0993db0c086b,Updates README.md for v2.4 release,2022-08-07 18:05:49-07:00,True
+60dbcc04cdc45486d024140a275c79f5843831a4,"Adds Thai language pack
+
+Adds relevant language packages for the Thai language (th_TH) after a user
+started translating Rescuezilla into the Thai language on Weblate.",2022-08-13 14:52:12-07:00,True
+4cc2d9f4c5999e564cebd8428aed542cdebd4972,Updates README.md for v2.4.1 release,2022-09-05 15:02:19-07:00,True
+9123ef450e8657a7b206d43a022badbb544beba2,"Adds Albanian language pack
+
+Adds relevant language packages for the Albanian language (sq_AL) after a user
+started translating Rescuezilla into the Albanian language on Weblate.",2022-12-10 21:35:49-08:00,True
+fd9c85fca7c8f1cd8566908e55686c5bca4550b2,"Update in-progress translations on README, menu
+
+Ensure README and GRUB menu align on the in-progress translations, and ensure
+translations are correctly marked with an asterisk in the GRUB menu if
+incomplete.",2022-12-10 21:48:00-08:00,True
+01957083b8c630fba3a402a85e1ca2835551668d,"Adds Lithuanian language pack
+
+Adds relevant language packages for the Lithuanian language (lt_LT) after a
+user completed a translation of Rescuezilla into the Lithuanian language on
+Weblate [1]
+
+[1] #394",2022-12-10 21:48:01-08:00,True
+8e570bc17efafa9758580d6056b23227708bb5f8,"Adds Dutch language pack
+
+Adds relevant language packages for the Dutch language (nl_NL) after a
+user completed a translation of Rescuezilla into the Dutch language on
+Weblate.",2022-12-10 21:48:01-08:00,True
+4f5d8c1ee58b119ead7d8b9fe81fd73af8c6d013,"Label Portuguese translation as ""in-progress""
+
+Labels the 67% complete Portuguese translation as ""in-progress"" and links to
+the Weblate page to encourage users to finish the translations.",2022-12-11 09:13:09-08:00,True
+7e418f0427a9b183717ec89eae67b05ea0b86699,Fix missing '(' on sq-AL and ot-BR README entry,2022-12-11 11:58:12-08:00,True
+dc4ca2ff31ffdedb6752e886a999349fbb20592a,"Replace Travis-CI with GitHub Actions
+
+Add a GitHub Actions configuration to run Rescuezilla unit tests every push,
+and to build Rescuezilla on the creation of a git tag.
+
+Deletes the Travis-CI build script and updates docs too.",2022-12-11 18:13:55-08:00,True
+a43d18aab8a8e83818c56e34a519c91940db7db7,Updates README.md for v2.4.2 release,2023-03-05 16:07:47-08:00,True

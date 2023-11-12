@@ -1,0 +1,175 @@
+sha,message,date,result
+30f52c169706c9903493b9c24e2192de86bbf13b,initial commit,2015-06-29 17:57:01-07:00,False
+a83357d244da0cc6277e00a5850c48e6e818a288,"Removed schedulers
+Simplified recurrent API.
+Updated Dox",2015-06-29 21:36:16-07:00,False
+af9a92b9de4b191d86432ec866cbc118a1bea506,Various API consolodations/simplifications,2015-07-01 14:15:39-07:00,False
+af5a709413203929e6934f6ff1081d5e4b434aff,Various internals work,2015-07-03 19:19:57-07:00,True
+5a137ef9db4a0579d9564777e42adb798bf9c658,"Made future completion/cancellation threadsafe with scheduling
+Added a bit more testing",2015-07-03 21:31:45-07:00,False
+8c0eed0da0c5b914a72c61cf9b1e57e0f8048b3f,Doc fixes,2015-07-03 21:46:06-07:00,False
+4309ec9f2dae7ab44ca76b8564cd366f6c8d465c,Added some javadoc links to the readme,2015-07-03 21:54:47-07:00,False
+f9bd9e5266fcaa8f33185b06a308c6fc8aca4be7,"Use a circuit for tracking the state of a RecurrentFuture
+Update tests to include assertions in future callbacks",2015-07-04 00:12:55-07:00,False
+54f1a720232d2756ce82d5347fee89c9f93b554c,Added completion support for invocations,2015-07-04 23:36:00-07:00,False
+273112101b474d4aa1d5509f8c9cddf8b53deb07,"Simplified test
+Simpplified invocation completion
+Doc fix",2015-07-06 15:19:29-07:00,False
+7fb5c8c04a50adbace71f346a2c446448d431845,Added support for retryOn to retry policies,2015-07-06 19:13:31-07:00,False
+75b83fcc36b9f7eac65d87f22347419bccd21929,Prepare for 1.6 versioned java release,2015-07-06 20:27:22-07:00,False
+ff2a431a92315ba4c2e535b22d5e6c12db0f7236,Updated pom and docs for release,2015-07-06 22:34:15-07:00,False
+3ac24512f334a99df87144957dac39c5ec902355,Added run() example to dox,2015-07-07 12:32:58-07:00,False
+3e558579edb6303b3d5faf25ac8b03e2f6c2c3fd,"Separated invocation and retry stats tracking
+Added RxJava example impl",2015-07-07 21:56:16-07:00,False
+947589141b1290c6eb3bbfdf67c55a62b4972dbf,Added/improved docs around retryWhen,2015-07-09 13:15:37-07:00,False
+ea1bb689ad2a75ef6a89843ab31dc881926d603a,VertX example,2015-07-09 13:16:37-07:00,False
+139594f34f58bd5b4f29fb536df4447484203f72,Doc update,2015-07-09 13:20:52-07:00,False
+707f8dfc63c732ecd16fe0c9d831f84ee65e6d57,Fixed build status image,2015-07-18 11:43:43-07:00,False
+01405d9347a3be4295006fc53d239ab3c5be1881,Add support for retrying when an invocation result matches a policy,2015-07-24 17:16:40-07:00,False
+19fc5cced20c63cc167ba7111bb3d24a9ea3e324,Add support for checking multiple retry policy conditions,2015-07-26 00:41:27-07:00,False
+6f3062164961e50c16eb2f6824ca2779027d83e7,Contextual callable and runnable invocations must be manually retried and manually completed on non-failures.,2015-08-01 20:23:05-07:00,False
+946bed674bfc4fff9b36f0a600231adf8047b939,Added better support for sync and async invocation tracking.,2015-08-14 17:42:36-07:00,False
+1e62f0950889b098fbdc87b41eb8af2019a12340,"Added support for synchronous and asynchronous listeners!
+Added contextual callbacks to RecurrentFuture
+Added argument validation in all public APIs
+Added better completion checking for synchronous retries",2015-08-21 22:18:39-07:00,False
+c2b8ad7d38e639f2e6f3cc1e5db34f016a652cf7,"Updated docs for event listeners
+Few changes to tests to assert stats.getAttemptCount",2015-08-21 23:44:01-07:00,False
+c5861b439e84291a76c9e5d7cdc0bd3bdfc744df,Doc updates,2015-08-22 00:00:18-07:00,False
+9df9c42eae3a677c9fae3182c86cd9137ff79a0e,"Added support for CheckedRunnable.
+Documented Listeners.
+Documented RecurrentFuture callbacks.",2016-03-30 21:06:20-07:00,False
+659820698548a5561de506a6eac17c49a51abf2c,Doc update,2016-03-30 21:21:58-07:00,False
+a2720b7cde7b7d76b712e70ef4906089e25c86a8,Re-org'ed the readme,2016-03-30 22:03:11-07:00,False
+324e2dd2b7cb1bac732284ae52a72a01ddfdf674,Added note on contributing,2016-03-30 22:12:24-07:00,False
+81eefea1d16dc1cf38175e7e948749f5d707d94f,more badges in readme,2016-03-31 11:29:24-07:00,False
+989677e9a3adcf20ed25a15f2d8b7916b74e3ddb,Minor doc changes,2016-03-31 12:02:23-07:00,False
+7dc260c877c180f8859c33d3bcfd61f7ddc50287,"RetryPolicy.retryWhen -> retryIf
+RetryPolicy.retryFor -> retryWhen",2016-03-31 13:27:02-07:00,False
+88c8a02c228bdeda9194aaa99dc208558fe2932c,Added abort options to RetryPolicy. Closes #8.,2016-03-31 21:17:07-07:00,False
+6f6cdfde624371f584527e930f71c4a222ef791d,readme formatting,2016-04-01 20:26:47-07:00,False
+3c0a0d85fdba62bc3a4e5d71222dcc9ef746bc01,Added support for synchronous contextual get/run,2016-04-03 00:38:21-07:00,False
+d7bc6e2668aaecd290ea88b9227c023cfb19cfd2,"readme formatting
+changelog updates",2016-04-03 21:48:42-07:00,False
+2c9848214ad9782e3afe637193c0984d16ff49a1,Created a new API entry point: Recurrent.with. Divided the API into sync and async. Unified much of the internals around these changes.,2016-04-11 09:31:31-07:00,False
+3cd3823bd3a3a37abbd65541af9416c89bf373c2,Invocation stats should be immutable when passed to async listener.,2016-04-11 09:31:41-07:00,False
+463866e85743296b19e69076e8ed9e0e2af4ba78,doc changes,2016-04-11 09:31:41-07:00,False
+7c1f246b7be56b14acfa52951e987c7f40482139,doc updates,2016-04-11 10:04:04-07:00,False
+1a08c02c55c66b399b90d9684448c7a0f0842457,Renamed invocation APIs to execution for better consistency with java.util.concurrent.,2016-04-12 11:55:44-07:00,False
+9bff58cab8842448b136369f962fa7740af302d8,ExecutionStats.getAttemptCount -> ExecutionStats.getExecutions,2016-04-12 12:02:30-07:00,False
+47bcda12d26f8a2ac2a2512659e3195e1092dd2d,Doc formatting,2016-04-12 12:17:24-07:00,False
+67de8e472a0ce432afa8bc49718e178e8d7ba00e,doc updates,2016-04-22 20:48:37-07:00,False
+cb846c5fca23a8765f67456acac4073d3888b40a,"Refactored for Failsafe.
+Added support for circuit breakers.",2016-06-11 22:55:05-07:00,True
+24b383eaf1a3583f73047fa144d52909782baa09,[maven-release-plugin] prepare for next development iteration,2016-06-11 23:23:57-07:00,False
+c552c1e81fcd3eb4eb0b98c712a244e149ad5b47,updated docs,2016-06-11 23:26:48-07:00,False
+c09a443ea9dfd96468da60193d133ae24bb8e1ba,Doc updates,2016-06-12 21:58:48-07:00,False
+cab9113e7279dabf351c41d9409f4bcf396275f9,Doc updates,2016-06-13 11:31:16-07:00,False
+8c9f9ec85ac9609b2a25510a010b31975b825ec8,Updated docs for next release,2016-06-23 15:22:05-07:00,False
+ae513e32e51eb0f6b082508827d3581b8a8b7188,Doc update,2016-06-23 15:46:49-07:00,False
+6edf147054f23023bff3ca6830f70eff3bff0458,Doc updates,2016-06-23 16:18:01-07:00,False
+11980dcfe71d4bf327dfa4bff0efff41623691bc,corrected API call,2016-06-29 18:23:13+02:00,False
+982501a5ed2c5b0eb55a24a87e98bd871c59068a,Added onRetriesExceeded listener,2016-07-01 16:31:50-07:00,False
+21d862a4f650fa9e2b037a5b4eebaa4ed2aec7a0,Simplified features in readme,2016-07-20 15:33:59-07:00,False
+fa5898598fa4d8d28b6af20786f8cc577971db53,Added support for fallbacks,2016-07-22 21:41:25-07:00,False
+d731c2dcc4b7e4c9749beab646463c0c0582be1c,clarified async integration docs,2016-07-22 23:13:53-07:00,False
+2d6f585247fe2d2d6c1f62eb345e2d5b7bf81597,Typo fix,2016-07-23 15:53:55-07:00,True
+8fcd0d82c9cc5a07ebe68c8a55ca63e3eb149243,Added comparisons to the readme,2016-07-23 20:36:20-07:00,False
+95af09fae6cc27bab764a8821a585e874b1ae8b9,Add friends to copyright,2016-07-23 21:22:52-07:00,False
+894632c6d3b904a862a7e19a0dca46affdc1943f,Added jitter to retry policies.,2016-07-25 20:02:18-07:00,False
+56616274182466690d2081166ef6fa03ba3749fa,Minor doc improvements,2016-07-26 10:33:48-07:00,False
+1be3ab5e2bdd22cc1962158aeba611058ae19694,"Fallback and listener improvements
+
+* Added additional fallback method overloads
+* Allowed the various listener/fallback function types to throw checked exceptions
+* Moved all Failsafe config methods to common classes",2016-07-26 22:57:36-07:00,False
+3b198a346a2b96f949a8041e8335492b9180b255,Created a simplified Additional Resources section in the readme,2016-07-27 09:51:15-07:00,True
+731589ce318993168447eda7620ac4f05abad125,Clarify the behavior of withTimeout,2016-07-28 15:01:50-07:00,False
+aa53a7354eb2b177ff41f0651e0e5dd3dc5180db,A few misc doc improvements,2016-07-29 13:59:36-07:00,False
+b8544465c83178825e7ea6ce175ef2738937f24d,Fixed link in readme,2016-07-30 22:52:04-07:00,False
+86b9051ed01f83078da565afe3607830d1e81af0,Fix typo,2016-08-24 15:00:01+01:00,False
+952cee9d404ae36ddb7457b65db35249fc3a03dc,Add Gitter badge,2017-03-22 23:02:57+00:00,False
+c8f530769897f721222a9ec7487f30b6d24fb80b,Tiny readme formatting fix,2017-04-09 12:15:06-07:00,False
+b06b5d2b24117b1f43cc463dfd486cd7936e4c1c,"README.md fix snippets
+
+Remove invalid ';' on snippets with chaining.",2017-05-24 13:25:31+02:00,False
+0cc50efc117726965025fc57c8f86c3f724cdc72,"Support CompletionStage instead of CompletableFuture in AsyncFailsafe… (#118)
+
+* Support CompletionStage instead of CompletableFuture in AsyncFailsafe.future(...) and AsyncFailsafe.futureAsync(...)
+
+* Remove unrelated changes to .gitignore",2018-03-30 11:00:26-07:00,False
+66af6e89d6b174e3d423111b5c0ae75d7339f5d5,Update README to avoid withFallback ambiguity.,2018-03-30 13:03:53-07:00,False
+5457dde676c9f442d0282698a3af21910fe94d1c,Updated readme with additional delay features,2018-04-05 17:46:42-07:00,False
+e8d2a7f68d90d0a0e5f919c9423521575509bfab,README improvements,2018-04-05 18:56:35-07:00,False
+59afa14d27047658bb04bc40f10a707511f3aa81,Fix bug in doc (#134),2018-05-08 10:04:36-07:00,False
+0f81cc9516c2fd04eb138a1df7b6bdd99c6ac3b1,Fix readme with new method (#150),2018-12-22 20:53:33-08:00,False
+41edf0b3e3d2429e1aa40948989202aad8e90ed8,Expose public CircuitBreaker pre-execution.,2018-12-23 11:56:59-08:00,False
+5d919d5fe5725040b4117c85fba2bc4a4dacdbc9,"Add support for composable policies
+
+- Adds new FailsafePolicy and PolicyExecutor SPIs
+- Adds separate FailsafePolicy and executor implemenations for RetryPolicy, CircuitBreaker, and Fallback
+
+# Conflicts:
+#	CHANGES.md
+#	README.md
+#	src/main/java/net/jodah/failsafe/AbstractExecution.java
+#	src/main/java/net/jodah/failsafe/CircuitBreaker.java",2018-12-24 16:17:11-08:00,False
+70e544df46accdb4179857154a10cdc8931beedc,Initial refactoring for Java 8 requirement,2018-12-25 11:34:19-08:00,False
+ce4959ea89e32bed78517b30b8b4439cd77e91e7,Remove FailsafeFuture from docs,2018-12-26 10:09:03-08:00,False
+cd128a08544e9bdd271326d939e1e87ea8f65768,"Move towards java.time APIs
+
+- Replaced long + TimeUnit with Duration
+- Replaced TimeUnit with ChronoUnit
+
+Also
+
+- Resolved race in ListenersTest
+- Remove 1x readme for now",2019-01-14 21:59:16-08:00,False
+2f9c1e677bb858bf33b093a1d691b62bc5881e39,Update docs for 2.0,2019-01-22 22:43:52-08:00,False
+8d5b6cfc68265fba8317beea9667d05e93d94599,Switch to shields.io maven badge,2019-01-23 12:25:39-08:00,False
+66feb92499c1b8e618e80fa63d0ee46d9ca744cc,Add link to policyexecutor impls,2019-01-23 12:32:02-08:00,False
+574bf6ae316fda786c989945673f8caedda0c5aa,Add support for adapting an ExecutorService instance to a Scheduler,2019-01-26 08:43:42-08:00,False
+9d2de0ad2a1884bad3f6c595f4ca7f27b91d7938,Remove wrapped Stream example.,2019-02-02 09:10:40-08:00,False
+e79426336a3b2623cf60799933e131e25e838ae6,Switch to shields.io for javadoc badge,2019-02-07 11:55:29-08:00,False
+149f37201880ec02a58f66c42b4100061700d4e9,Fix custom Executor code example (#178),2019-02-27 20:43:11-08:00,False
+5e0592be3e6e38a215c455ea2d4c71d9b38036af,Fixed link to 2.0 changes,2019-03-14 17:56:29-07:00,False
+8439af55f97c3178ee703ccb89a5a29ec7ac3d73,Fix readme typo,2019-05-04 17:06:44-07:00,False
+ac6ab5f6b35e5e0f67a00076cf98ed4515d991da,Fix typo. (#189),2019-05-08 12:41:07-07:00,False
+2f0bb60ca63e1e2e30305efa4036b369738e4ce1,"Minor concurrency improvements
+
+- Removed some volatiles in favor of synchronized blocks",2019-06-29 12:25:32-07:00,False
+ea0327189b49d7c1db1b238c9989652a9f981bb9,"Add Fallback.ofException
+
+Fixes #193.",2019-07-23 18:41:34-07:00,False
+b41c56aaa4818c87c3d301a691c9c047fd8c7535,"Add getLastResult and getLastFailure to ExecutionContext
+
+Fixes #163
+Related to #105",2019-07-26 17:43:28-07:00,False
+10dfe2c3db1d82c1375ccd971440453c5b64a55b,Fix computed delay links in readme,2019-07-31 08:21:28-07:00,False
+3fef820521e8d7617b5a201e6b588bb67ae7668f,"Add Timeout policy implementation
+
+- Added Timeout policy implementation
+- Added ExecutionContext.isCancelled support
+- Reset interrupt flag when a synchronous execution is interrupted
+- Improved handling around externally completing a Failsafe CompletableFuture",2019-08-04 23:39:07-07:00,False
+09804dae7e11347ec4bb5cb352a9b91595e18df8,AsyncExecution javadoc and Readme improvements,2019-08-09 16:19:48-07:00,False
+1574e200d7af930bb6fcffb7588c7977e7a264aa,Use TimeoutExceededException to fail on Timeout,2019-08-10 16:41:44-07:00,False
+ef09a34b37a2c37e716bb2312a39d3b561ec065c,"Update readme on cancellation, changelog for release",2019-08-10 17:13:57-07:00,False
+1c8908cc49e6beea6ae92aedb906eb6396e130de,"Simplify CircuitBreakerInternals API, readme fix",2019-08-10 17:24:32-07:00,False
+8a47c35b4844ae3889499b66e8d7afd08f0a8232,Misc readme improvements,2019-08-12 21:58:57-07:00,False
+a1c844c08c708cdf28cc0e045f68cc9db280f2ba,Improve docs around execution cancellation/interruption,2019-08-14 19:36:35-07:00,False
+2ef69e73cbfe7d52ec63aac1006c9b383f188d44,Minor doc fixes and code org,2019-08-16 16:19:11-07:00,False
+0d9fae4ef738d9361a038221d9d8e524f7cab236,Migrate from readme to proper project website,2019-08-18 01:47:15-07:00,True
+04a2db6c8a4b146fb6bdfda76f2be5d83475afe4,Update docs for 2.3.3,2020-02-10 10:50:06-08:00,False
+8b6ec6cd63039230e27de2314ded453259722fe5,Uodate README to mention policies.,2020-04-24 13:46:35-07:00,False
+265535e4510d6b42a4a06b36064a1eb89d7dcaee,Remove year from copyright notice,2020-04-29 17:05:41-07:00,False
+2e9fae2e04c152afe2566e6ee1fa67e5ea91108f,Fix the javadoc link in the readme,2021-07-17 16:20:04-07:00,False
+5c101b00e8b6706b6cf378cf63339c2bd3d7db48,Update github coordinates,2021-07-21 14:06:50-07:00,False
+062b910880008e2d05b61afb25e86489ec86d9b1,Update links for failsafe.dev domain,2021-08-19 17:32:44-07:00,False
+504a73ab2bf0a4603343d94472d7c0bb5fd3b2c5,Update readme and add versioning doc,2021-09-22 09:36:12-07:00,False
+1507b759fa396f5ef941cc515ea706830d96d80b,Update badge to use github actions build,2021-09-24 13:26:11-07:00,False
+ee405f6592b5552cf54a7ea75b2db0bf289b1ed2,Update readme with new maven group id,2021-11-17 19:38:26-08:00,False
+eaece12b2af61fe0eb2019e2cfdadec09788d793,Add rate limiter ref to readme,2021-12-03 18:15:30-08:00,False
+9c1e0347670de9318a7342282e2374e2f0faff9c,Add a Bulkhead policy,2021-12-22 20:55:48-08:00,False
+ee6d6af9bb78f2079cea9803f5871e6f253bcca2,Update readme for modules,2022-02-16 11:21:38-08:00,False
+1434769fdb7639b907b4c7a2f00ff3f91c260d25,Fixed javadoc link in readme,2022-08-07 18:54:10-07:00,False

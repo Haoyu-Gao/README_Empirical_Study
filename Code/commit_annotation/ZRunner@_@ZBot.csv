@@ -1,0 +1,2164 @@
+sha,message,date,result
+cde459d4914b867321c3ff2bdcf3d8062e858445,"Reset git history, inital commit",2019-01-25 15:14:46+01:00,False
+e78be164a688c121ea20432af33971e6e11d570c,Update to 3.3.6,2019-02-20 20:04:17+01:00,False
+ea796716691460e5019f9cf65c9060aa09aebf14,Update to 3.4.2,2019-03-31 13:07:56+02:00,False
+58415efd8327e03205cc66f61df7dfc40d4672a7,Update README.md,2019-04-29 20:09:11+02:00,False
+f511732bfe0aa82b0cc20f688184697746734c44,Update to 3.4.3,2019-05-08 03:36:11+02:00,False
+ad6fab5ee413876588b55fbd87d7898fb0e977f5,[add] DBLs on readme,2019-05-26 15:32:25+02:00,False
+b5467f1c3e8f01e8696000c58c41e6bbd2d01486,Update to 3.5.3,2019-08-24 15:26:39+02:00,False
+5741bd1f91ec2d056a0a01ffa196cf6de3cf9e73,Update to 3.5.8,2019-09-29 21:58:45+02:00,False
+3b2d061bd8b32ec90aa849459ffa0fcc08f778f0,[fix] images in readme.mc,2020-10-04 00:08:13+02:00,False
+049ad21a4c7f58f375b6b7632c5b0dcb4dd01398,Update to 3.6.9,2020-10-17 18:42:54+02:00,False
+0927e01acdd58a9c55c0afafb7cd82b7110649e2,[update] botlist become discordlist,2021-03-27 14:12:20+01:00,False
+c2f987ec47b22cca379821291ee7216d66bd4820,[update] ReadMe badges,2021-04-10 12:23:00+02:00,False
+b32f2b8d1067e8211e278bc8d4770f919f50f7be,Update to 3.7.2,2021-04-19 01:01:08+02:00,False
+939987febe56f3ebb97d5858d8c34af200344b84,[FIX] license url in readme,2021-07-06 19:37:13+02:00,False
+6cb08f63a906c8a8af93a0ee9e421d750f7814e4,[update] migrate to discord.py 2.0,2021-10-14 17:05:49+02:00,False
+c23b23978e17ab33de2c8fa1430bac56f17e8341,[update] merge 2.0 branch,2021-12-28 11:50:49+01:00,False
+1c1c07f7416683b9d8f50318aa50e6177be24fa2,feat(readme): update readme badges,2022-01-09 00:32:27+01:00,False
+d7682bc847be5717b7671822e3271a760b4e1cb7,fix(linter): update top.gg links,2022-01-26 21:42:21+01:00,False
+11632725ef3cf1e9cefd2848574b90ed1bddb3f3,doc(readme): update badges on readme,2022-01-26 23:33:36+01:00,False
+c0fb7ca9ee9baf342803e0aae711dcee678eb54b,feat: bump Zbot version to v4,2022-02-17 19:34:41+01:00,False
+a828b94f2d5842451c068def133e5273238ccae4,feat(api): remove discordlist.space from everywhere,2022-06-28 17:36:09+02:00,False
+36fd1a13da8db633fe74a174b6f2d3629e5fed07,Remove issues badge from readme,2022-08-13 11:10:19+02:00,False
+5b9c7d81988a79be5cc2f258c5c0946f9e8bd3d7,doc(readme): add crowdin badge,2022-08-17 18:46:44+02:00,False
+8dd065b63fe964bca958972f87f4f0982d410565,"V4.1.2 (#30)
+
+* fix(stats): NaN bot latency
+
+* fix: segmentation fault
+
+* fix(stats): wait until bot is ready
+
+* fix(tickets): topics without emojis
+
+* fix(tickets): opening a ticket
+
+* refract(welcomer): welcome messages
+
+* feat: enable translations cog on boot
+
+* refract(emoji): emojis cog and manager
+
+* fix(tr): add missing translations
+
+* refract(args): unicode emoji converter
+
+* feat(tickets): allow unicode emojis in topics
+
+* fix(tr): weird english translations
+
+* refract(events): sending server counts to lists
+
+* add more variables to voice channels
+
+* feat(antiscam): add report system
+
+* feat(antiscam): add doc link to report cmd
+
+* feat(tickets): disable tickets names ""other""
+
+* refract(rss): use class instead of dict
+
+* fix(rss): multiple small issues
+
+* feat(Zbot): typehint main cogs in `get_cog()`
+
+* fix(linter): typehints
+
+* fix(stats): sending stats to deleted bots list
+
+* feat(mc): makes `mc mod` compat. with CurseForge
+
+* doc: v4.1.1
+
+* feat(rss): guild inactivity protection
+
+* feat(linter): new allowed var name
+
+* refract(mc): server data collection code linting
+
+* feat(roles_react): use proper order when updating
+
+* fix(tr): missing cap in French translation
+
+* feat(tr): filter deleted translations when merging
+
+* fix(antiscam): interaction detection
+
+* feat(serverlogs): add tickets creation logs
+
+* feat(admin): new database cmd
+
+* build(lib): upgrade d.py version
+
+* feat(error): add app interactions error handler
+
+* fix(tickets): too wide interaction detection
+
+* fix(conversion): discord IDs length
+
+* fix(softban): reason containing spaces
+
+* fix(doc): rss add documentation
+
+* fix(rss): stopping rss loop
+
+* feat(xp): new levelup message
+
+* fix(tr): tr status with language
+
+* refract(args): literal arguments
+
+* feat(perms): allow binary/integer perms
+
+* refract(server): remove unusued config
+
+* feat(usernames): disable records for large guilds
+
+* feat(info): change usernames history tip
+
+* feat(ticlets): custom format
+
+* feat(reminders): delete nice select menu
+
+* refract(stats): improve latency frequency
+
+* refract(stats): remove useless try/except
+
+* refract(reminders): cleanup database methods
+
+* fix(db): logging SQL errors
+
+* refract(stats): use internal bot servers count
+
+* feat(info): show bot owners when available
+
+* feat(tr): update guild features translations
+
+* fix(doc): misleading doc for ragequit
+
+* feat(fun): yet another useless command
+
+* dep(emoji): update emoji lib version
+
+* feat(stats): count antiscam actions
+
+* fix(dep): bot startup
+
+* feat(logs): add new modlogs
+
+* feat(logsà: add member_verification
+
+* doc(moderation): deprecate verification system
+
+* feat(mc): use curseforge api for mods
+
+* feat(error): handle event errors
+
+* feat(modlogs): add log when welcomer fails
+
+* feat(modlogs): add logs when rss fails
+
+* feat(tickets): pin intro message
+
+* feat(stats): add ticket creation stats
+
+* feat(stats): add nickname records
+
+* feat(stats): add translations
+
+* refract(config): rename some old options
+
+* fix(tr): wrong help translation
+
+* feat(boot): add cogs loading progress bar
+
+* fix(ping): security patch
+
+* build(lib): update LRFutils URL
+
+* Update Crowdin configuration file
+
+* Update Crowdin configuration file
+
+* Update Crowdin configuration file
+
+* doc(verification): add depreciation warning
+
+* fix(tr): translation file merging
+
+* feat(tr): update translations
+
+* fix(tr): file un-flattening with lists
+
+* fix(tickets): topics list with no default
+
+* fix: progress bar
+
+* feat(tr): add new translation language
+
+* feat(stats): add rss warnings
+
+* fix(args): simplify oauth url regex
+
+* fix(ping): regex detection
+
+* fix(arg): discord ID argument
+
+* refract(lint): fix some code QL issues
+
+* First hindi translation (#20)
+
+* Create hi.json
+
+* Remove issues badge from readme
+
+* refract(lint): broad except
+
+* fix(args): bot invite regex
+
+* feat(reload): log when a lib is reloaded
+
+* refract(lint): remove broad excepts
+
+* refract(tr): cleanup languages files
+
+* doc(readme): add crowdin badge
+
+* New Crowdin updates (#24)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (French familiar)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (French familiar)
+
+* New translations en.json (French familiar)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (French familiar)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (French familiar)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (French familiar)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (French familiar)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (French familiar)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (French familiar)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (French familiar)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* remove crowdin weird lolcat files
+
+* fix(tr): revert fr translations
+
+* fix(config): nicknames history
+
+* fix(config): nicknames history
+
+* fix(logs): reset option
+
+* fix(tr): wrong translations
+
+* fix(reminder): correct error handler
+
+* feat(logs): add join date to verified log
+
+* feat(logs): fixed date delta
+
+* New Crowdin updates (#26)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (French familiar)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (French familiar)
+
+* New translations en.json (French familiar)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (French familiar)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (French familiar)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (French familiar)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (French familiar)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (French familiar)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (French familiar)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (French familiar)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* remove crowdin weird lolcat files
+
+* fix(tr): revert fr translations
+
+* fix(config): nicknames history
+
+* refract(lint): errors and list creation
+
+* feat(find): add servers count
+
+* feat(deps): update discord.py version
+
+* fix(rss): youtube names with spaces
+
+* fix(rss): youtube custom names wrongly detected
+
+* fix(args): unicode emojis
+
+* refract(tickets): delay cooldown check a bit
+
+* refract(tr): delete unusued code
+
+* feat(slash): first slash command
+
+* fix(errors): error handler with interactions
+
+* fix(help): too many subcommands
+
+* fix: errors related to interactions
+
+* fix(errors): some errors being sent 2 times
+
+* refract: remove unusued import
+
+* feat(slash): start migrating to app commands
+
+* refract(moderation): cleanup max roles affectation
+
+* doc(embed): try to fix characters escape
+
+* fix(language): use them instead of him
+
+* refract(db): remove one database connection
+
+* refract(lint): rename imports
+
+* refract(lint): remove broad excepts
+
+* feat(slash): use slash commands for /find
+
+* refract(errors): better error for slash in beta
+
+* fix(utils): remove dead bots list API
+
+* New Crowdin updates (#27)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update l10n code (#28)
+
+* feat(find): add servers count
+
+* feat(deps): update discord.py version
+
+* fix(rss): youtube names with spaces
+
+* fix(rss): youtube custom names wrongly detected
+
+* fix(args): unicode emojis
+
+* refract(tickets): delay cooldown check a bit
+
+* refract(tr): delete unusued code
+
+* feat(slash): first slash command
+
+* fix(errors): error handler with interactions
+
+* fix(help): too many subcommands
+
+* fix: errors related to interactions
+
+* fix(errors): some errors being sent 2 times
+
+* refract: remove unusued import
+
+* feat(slash): start migrating to app commands
+
+* refract(moderation): cleanup max roles affectation
+
+* doc(embed): try to fix characters escape
+
+* fix(language): use them instead of him
+
+* refract(db): remove one database connection
+
+* refract(lint): rename imports
+
+* refract(lint): remove broad excepts
+
+* feat(slash): use slash commands for /find
+
+* refract(errors): better error for slash in beta
+
+* fix(utils): remove dead bots list API
+
+* fix(error): conversion error catching
+
+* fix(rss): feeds selector callback
+
+* fix(stats): infinite api latency
+
+* feat(rss): allow batch edition for text + mentions
+
+* fix(tr): translations in threads
+
+* fix(roles_react): external emojis usage
+
+* feat(stats): add stats cmds command
+
+* feat(help): better aliases indication
+
+* New Crowdin updates (#29)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* feat(stats): improve `stats cmds`
+
+* doc: up version to 4.1.2
+
+* feat(stats): hide remindme stats
+
+* refract: misc. improvements
+
+Co-authored-by: Devendra Poonia <devendrapoonia9983@gmail.com>",2022-09-13 05:17:20+02:00,False
+fb0228ee05f7bbde61c57ded735ec3d9507cc98a,feat(doc): add axobot to readme,2022-12-11 15:33:36-05:00,False
+a3393a6b36335e5ee3847ecb6558b53fe5ff556d,"V4.2.0 (#42)
+
+* feat(stats): add total guilds count
+
+* feat(stats): add sent xp cards to internal stats
+
+* fix(stats): rss internal stats
+
+* Hindi Translations (#31)
+
+* Create hi.json
+
+* Update source file en.json (#32)
+
+* fix(tr): hi translations
+
+* New Crowdin updates (#33)
+
+* New translations en.json (Hindi)
+
+* New translations en.json (Hindi)
+
+* New translations en.json (Hindi)
+
+* New translations en.json (Hindi)
+
+* New translations en.json (Hindi)
+
+* fix(interaction): wrong attribute
+
+* fix(sql): SELECT query detection
+
+* fix(stats): commands usage SQL query
+
+* fix(usernames): dates field in embed
+
+* fix(pep8): markdown usage
+
+* fix(antiscam): weird discord behavior
+
+* feat(logs): add years in verification/leave logs
+
+* remove(moderation): custom verification system
+
+* refract: split libs.classes file
+
+* refract(pep8): method names
+
+* feat(reminders): new selector when batch deleting
+
+* feat(rss): use new paginated selector
+
+* feat(info): add ID length to `info id`
+
+* fix(help): JSON file format
+
+* refract(hw): halloween-related code
+
+* feat(admin): add logs when syncing commands
+
+* refract(logs): allow passing 1 embed only
+
+* feat(event): add halloween event
+
+* feat(hw): convert hw commands to hybrid
+
+* refract(errors): linting and things
+
+* feat(error): better error response
+
+* refract(hw): remove useless import
+
+* feat(rss): add feed enable/disable commands
+
+* feat(stats): add disabled rss, remove translations
+
+* refract(rss): prettify some code
+
+* feat(stats): add dailies points
+
+* fix(stats): is_sum column
+
+* feat(antiscam): log antiscam warnings
+
+* feat(paginator): add pages count
+
+* doc(perms): update Discord link about admin perm
+
+* feat(events): halloween 2022
+
+* refract(event): standardize random reaction system
+
+* fix(admin): commands response time
+
+* refract(events): better-looking code
+
+* refract(events): event rank card system
+
+* feat(admin): add commands for rank cards
+
+* refract(event): points and colors
+
+* feat(event): actually correct halloween 2022 date
+
+* refract: remove translations cog loading
+
+* fix(paginator): unselecting items
+
+* feat(rss): disable feeds with too many errors
+
+* refract(rss): remove duplic. disabled feeds stats
+
+* feat(stats): add event points stats
+
+* feat(event): add leaderboard to rank command
+
+* feat(fun): add movie command
+
+* doc: v4.1.3
+
+* New Crowdin updates (#34)
+
+* New translations en.json (Hindi)
+
+* New translations en.json (LOLCAT)
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* fix(events): wait for the bot to be ready
+
+* fix(movie): fields values
+
+* fix(admin): owner reload feedback
+
+* fix(rss): loop log
+
+* fix(admin): faq update command
+
+* fix(stats): disabled feeds
+
+* fix(halloween): use replies and hide year
+
+* fix(event): dont list non participants in top5
+
+* fix(halloween): remove old commands names
+
+* refract(halloween): fix typing, improve check
+
+* feat(stats): add enabled serverlogs stat
+
+* fix(stats): dont send antiscam/tickets if null
+
+* refract(rss): remove unusued import
+
+* feat(doc): add zbot ToS
+
+* fix(rss): invalid twitch URL
+
+* refract(antiscam): linting things
+
+* fix(stats): tickets events
+
+* fix(stats): code lines count including strings
+
+* refract(loop): move translations loops in its cog
+
+* fix(stats): SQL syntax error
+
+* fix(tickets): opening with a topic with no emoji
+
+* feat(antiscam): publish unicode map
+
+* refract(antiscam): use websites list from database
+
+* feat(antiscam): update unicode map
+
+* feat(antiscam): add cmd to refresh database
+
+* feat(antiscam): add beginning of model training
+
+* feat(antiscam): improve model training and save it
+
+* New Crowdin updates (#36)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* doc: v4.1.4
+
+* fix(dependencies): pin LRFutils version
+
+* refract(error): exception handling
+
+* refract(admin): hide eval command
+
+* feat(help): add category emojis and small QoL
+
+* fix(unban): error when user not found
+
+* feat(cases cog): linting
+
+* feat(stats): add activated antiscam count
+
+* refract(admin): fix linting
+
+* feat(ConfirmView): add send_confirmation option
+
+* feat(config): config command is now hybrid
+
+* fix(rss): weird Twitter url redirection
+
+* feat(event): planification for no-challenge events
+
+* feat(slash): add auto command mention formatter
+
+* feat(slash): use cmd mentions when possible
+
+* fix(admin): app commands sync
+
+* feat(slash): migrate ticket commands
+
+* fix(config): deleted options
+
+* fix(help): tickets cmd category
+
+* feat(deps): upgrade discord.py
+
+* feat(twitch): start new plugin
+
+* refract(help): help when no subcommand invoked
+
+* feat(twitch): add logic commands
+
+* fix(rss): feed selection when only one feed exists
+
+* feat(slash): global commands actually global
+
+* fix(stats): hide more private commands
+
+* feat(twitch): help and cooldown
+
+* fix(cache): server config cache
+
+* feat(twitch): add max streamers count
+
+* feat(twitch): add translations
+
+* fix(tr): outdated tip
+
+* feat(tr): allow translation from Context object
+
+* fix(start): unicode file reading
+
+* feat(config): pagination, yay!
+
+* feat(slash): convert antiscam
+
+* fix(doc): typo in pong cmd
+
+* feat(mod): remove pin cmd
+
+* fix(requirements): scikit-learn
+
+* refract(servers): merge beta and release tables
+
+* feat(twitch): start notifications system
+
+* fix(events): crash when Rss is not loaded
+
+* fix(sql): remove ""servers_beta"" table
+
+* refract(xp): rank card font usage
+
+* feat(xp): rank card fallback to embed/txt
+
+* feat(slash): migrate clear and slowmode
+
+* fix(twitch): loop delay
+
+* feat(clear): cleanup code
+
+* fix(server): config modification
+
+* feat(slash): convert kick
+
+* feat(modlogs): add reason in timeout
+
+* fix(server): muted_role default value
+
+* refract(args): converters typing
+
+* feat(slash): convert more mod commands
+
+* fix(find): unloaded cogs
+
+* feat(stats): update ignored guilds list
+
+* fix(temp): timezone issues in tempmute/tempban
+
+* feat(view): improve paginator UX
+
+* feat(slash): migrate even more mod commands
+
+* fix(rmd): reminders deletion
+
+* feat(mutelist): pagination
+
+* feat(perms): slash + better UI
+
+* fix(admin): send_msg command
+
+* feat(cases): use pagination
+
+* feat(doc): v4.2.0
+
+* fix(twitch): variable name
+
+* feat(errors): anti spam blocker
+
+* feat(stats): add slash commands usage
+
+* refractor(logs): username change logs registration
+
+* feat(stats): more optimization
+
+* feat(events): christmas 2022 event
+
+* feat(stats): add serverlogs emission stats
+
+* refract(assets): move assets folder one up
+
+* refract(assets): rename cards folder
+
+* feat(assets): gitignore files
+
+* feat(stats): first try for total RAM stats
+
+* refract(stats): fix comments
+
+* feat(twitch): add streaming alerts
+
+* feat(twitch): correct error for invalid twitch names
+
+* feat(twitch): grant streamer role
+
+* feat(twitch): better streamers list
+
+* feat(twitch): add roles and improve notifications
+
+* feat(twitch): allow subscribing by URL
+
+* feat(muteconfig): improve confirmation msg
+
+* feat(confirm): disable buttons after a choice
+
+* fix(config): autocompletion typing
+
+* feat(twitch): add permission check
+
+* feat(modlogs): add autocompletion
+
+* feat(twitch): add API caching
+
+* feat(antiscam): report by right-clicking
+
+* New Crowdin updates (#38)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* feat(event): add christmas 2022 banner
+
+* feat(start): add axobot
+
+* feat(axo): make zbot ignore input when axobot
+
+* fix(serverlogs): check axobot presence
+
+* fix(serverconfig): default value usage
+
+* refract(twitch): logs call
+
+* feat(admin): git pull
+
+* feat(admin): allow packages installation when pull
+
+* fix(modlogs): kick event when bot leaves
+
+* fix(stats): number formating
+
+* feat(config): add missing translations
+
+* fix(twitch): permissions check
+
+* doc(twitch): add documentation
+
+* fix(modlogs): permissions check
+
+* fix(help): permissions cmd category
+
+* fix(help): category of sub-sub-command
+
+* fix(perms): permission checks
+
+* feat(stats): use entity_id instead of beta boolean
+
+* fix(stats): get_stats SQL query
+
+* feat(axo): check by channel for support server
+
+* fix(reminders): datetime comparison
+
+* feat(rss): log active guilds change
+
+* feat(rss): deprecate active_guild column
+
+* fix(xp): rank card cleanup
+
+* fix(xp): top with no page
+
+* feat(axo): improve axobot changelog
+
+* fix(doc): invitation url
+
+* feat(doc): add axobot to readme
+
+* feat(axo): update bot invite url
+
+* refract(events): unusued attribute
+
+* fix(partners): axobot transition
+
+* refract(doc): remove Zbot references
+
+* feat(roles_react): remove author control
+
+* feat(stats): add backup size
+
+* fix(stats): backup size detection
+
+* doc(modlogs): add examples and doc link
+
+* fix(errors): cooldown seconds notation
+
+* feat(modlogs): add channel argument
+
+* fix(lint): unneeded tab
+
+* feat(ctx): allow to easily send json
+
+* feat(doc): add axobot doc url
+
+* feat(config): improve compatibility with threads
+
+* fix(rss): better exception handler in loop
+
+* feat(loops): ping when a loop breaks
+
+* fix(logs): guild join internal log
+
+* New Crowdin updates (#39)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* Small fixes on axobot + streams (#40)
+
+* feat(stats): use entity_id instead of beta boolean
+
+* feat(axo): check by channel for support server
+
+* feat(axo): improve axobot changelog
+
+* fix(doc): invitation url
+
+* feat(event): add christmas event
+
+* feat(axo): better migration support
+
+* feat(doc): add axobot doc url
+
+* feat(config): improve compatibility with threads
+
+* fix(rss): better exception handler in loop
+
+* feat(loops): ping when a loop breaks
+
+* fix(logs): guild join internal log
+
+* New Crowdin updates (#39)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* fix(event): christmas collect outside of christmas
+
+* fix(stats): total guilds count
+
+* feat(axo): improve migration message
+
+* Fix Christmas event
+
+* Fix Christmas event (bis)
+
+* Fix Christmas event (bis)
+
+* fix(stats): stats cmds command
+
+* feat(welcome): use command mention
+
+* refract(stats): reduce rows count
+
+* feat(movie): delete command
+
+* feat(say): allow bot admins to bypass check
+
+* fix(admin): error when deleting invocation
+
+* doc(perms): update permissions list
+
+* New Crowdin updates (#41)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* feat(axo): new migration alert
+
+* feat(update): disable zbot changelogs in support
+
+Co-authored-by: Devendra Poonia <devendrapoonia9983@gmail.com>
+Co-authored-by: Awhikax <awhikax@gmail.com>",2023-01-07 17:49:32+01:00,False
+1f4da111c7b97fb921c68404e08ca73f51513f43,feat(readme): update top.gg link,2023-01-09 11:49:24-05:00,False
+29985269a6a217dacdb9d01f9cc9df3f95eda519,"V4.2.0b (#43)
+
+Misc fixes",2023-01-14 23:42:27+01:00,False
+4d8e2ec2998550aaffb877cce2afe55f45495eff,fix(readme): dead badge,2023-01-14 17:47:15-05:00,False
+e48e68d4061f59c816895edcd3732c9711ea6ff3,"V4.3.0 (#45)
+
+* fix(readme): dead badge
+
+* fix(stats): merge failure
+
+* feat(antiscam): improve regex matching
+
+* feat(antiscam): improve training logs
+
+* fix(check): config reset bypass ignored guilds
+
+* fix(rss): DM commands + no tweet found
+
+* refract(stats): remove statuspage RAM usage
+
+* fix(yt): new youtube channel URL
+
+* refract(xp): better logs
+
+* fix(antiscam): regex replacement
+
+* feat(antiscam): improve training/saving process
+
+* fix(roles-react): deleted custom emoji
+
+* refract(tokens): improve credentials fetching
+
+* fix(top.gg): API stats posting for axobot
+
+* refract: rename Zbot class to Axobot
+
+* refract(doc): rename Zbot to Axobot in doc
+
+* refract(errors): variable name
+
+* fix(args): circular import
+
+* fix(logs): message update with pin/unpin
+
+* fix(twitch): log when loop fails
+
+* fix(help): config fetching
+
+* feat(serverconfig): 1st version of the new system
+
+* feat(serverconfig): update every config call
+
+* fix(serverconfig): xp stats
+
+* refract(alias): avoid using ctx.invoke
+
+* feat(doc): refresh documentation
+
+* feat(doc): use spinx book theme
+
+* fix(doc): references and tocdepth
+
+* fix(doc): dependencies list
+
+* feat(doc): v4.3.0
+
+* feat(config): french translations
+
+* feat(modlogs): add msg creation time when deleted
+
+* fix(find): rss with NUL date
+
+* fix(error): slash command name
+
+* fix(logs): difference between nick and username
+
+* New Crowdin updates (#44)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* feat(actions): upgrade to checkout v3",2023-02-13 19:04:56+01:00,False
+df377552c72c7980f83af39dffc65906ea9fa40c,V4.3.0,2023-02-13 13:12:36-05:00,False
+1264319b131b31d2c4a092c24dfc37ab53e8a181,feat(readme): update d.py version badge,2023-03-08 11:42:12-05:00,False
+eb6dc5444a185ff6524cd374e28c3e171b22f060,"V4.3.1 (#51)
+
+* fix(logs): database backup detection
+
+* feat(tr): new guild features translations
+
+* fix(doc): `config change` being renamed to `set`
+
+* rmv(prefix): `prefix change` subcommand
+
+* feat(fun): re-enable weather command
+
+* fix(help): not working in DMs
+
+* fix(logs): DM logs with nearly 2k characters
+
+* fix(prefix): make it a command instead of group
+
+* feat(tickets): better error when fails to create
+
+* feat(tickets): add `tickets review-config` cmd
+
+* feat(doc): v4.3.1
+
+* fix(doc): typo in ""antiscam"" server logs
+
+* feat(rss): use paginator for rss list
+
+* refract(paginator): faster view refresh
+
+* refract(rss): cap list to 10 feeds/page
+
+* refract(pagination): better disabling workflow
+
+* fix(xp): always disabled
+
+* fix(xp): levelup channel config
+
+* New Crowdin updates (#47)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* fix(xp): levelup check
+
+* fix(memberchannel): error log
+
+* feat(serverlogs): add tickets errors
+
+* feat(doc): emojis and cards
+
+* feat(reminder): new creation example
+
+* feat(deps): update LRFutils
+
+* fix(error): help command mention
+
+* feat(modlogs): add role deletion
+
+* feat(serverlogs): role_update logs
+
+* feat(xp): private rank command
+
+* fix(db): remote connection
+
+* fix(xp): font usage
+
+* Create .github/FUNDING.yml
+
+* refract(ticket): better ticket summary text
+
+* refract(serverlogs): factorise audit logs search
+
+* feat(slash): migrate about command
+
+* feat(usernames): disable usernames history feature
+
+* fix(sconfig): hidden config options
+
+* feat(stats): save audit logs search success rate
+
+* feat(slash): migrate remindme command
+
+* refract(lint): remove unusued import
+
+* refract(lint): add missing space
+
+* feat(tips): add rank card background tip
+
+* feat(tips): implement cache
+
+* feat(tips): lower rank card tip probability
+
+* feat(crowdin): better commit message
+
+* Revert ""feat(crowdin): better commit message""
+
+This reverts commit 6b9f52f39b38e76cefcadb04598e42e502e8c15b.
+
+* New Crowdin updates (#48)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* Update source file en.json
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* Update translations %original_path% (%language%)
+
+* Update translations %original_path% (Finnish)
+
+* Update translations %original_path% (LOLCAT)
+
+* Update translations %original_path% (Spanish)
+
+* feat(readme): update d.py version badge
+
+* feat(doc): update `profile` cmd doc
+
+* feat(git): update pre-commits actions
+
+* refract(requirements): cleanup requirements file
+
+* feat(lint): cleanup all files
+
+* feat(slash): migrate profile command
+
+* feat(error): avoid truncating the traceback
+
+* fix(clear): users check
+
+* fix(mc): server status JSON error
+
+* refract(user): cleaner user config change+query
+
+* feat(tips): disable card tip if already changed
+
+* Update source file en.json (#50)",2023-03-09 21:10:30+01:00,False
+24fc5c37b222adb16e18979d07793066018cf836,"v4.3.1 (#53)
+
+* V4.3.0 (#45)
+
+* fix(readme): dead badge
+
+* fix(stats): merge failure
+
+* feat(antiscam): improve regex matching
+
+* feat(antiscam): improve training logs
+
+* fix(check): config reset bypass ignored guilds
+
+* fix(rss): DM commands + no tweet found
+
+* refract(stats): remove statuspage RAM usage
+
+* fix(yt): new youtube channel URL
+
+* refract(xp): better logs
+
+* fix(antiscam): regex replacement
+
+* feat(antiscam): improve training/saving process
+
+* fix(roles-react): deleted custom emoji
+
+* refract(tokens): improve credentials fetching
+
+* fix(top.gg): API stats posting for axobot
+
+* refract: rename Zbot class to Axobot
+
+* refract(doc): rename Zbot to Axobot in doc
+
+* refract(errors): variable name
+
+* fix(args): circular import
+
+* fix(logs): message update with pin/unpin
+
+* fix(twitch): log when loop fails
+
+* fix(help): config fetching
+
+* feat(serverconfig): 1st version of the new system
+
+* feat(serverconfig): update every config call
+
+* fix(serverconfig): xp stats
+
+* refract(alias): avoid using ctx.invoke
+
+* feat(doc): refresh documentation
+
+* feat(doc): use spinx book theme
+
+* fix(doc): references and tocdepth
+
+* fix(doc): dependencies list
+
+* feat(doc): v4.3.0
+
+* feat(config): french translations
+
+* feat(modlogs): add msg creation time when deleted
+
+* fix(find): rss with NUL date
+
+* fix(error): slash command name
+
+* fix(logs): difference between nick and username
+
+* New Crowdin updates (#44)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* feat(actions): upgrade to checkout v3
+
+* fix(admin): update command
+
+* fix(logs): database backup detection
+
+* feat(tr): new guild features translations
+
+* fix(doc): `config change` being renamed to `set`
+
+* rmv(prefix): `prefix change` subcommand
+
+* feat(fun): re-enable weather command
+
+* fix(help): not working in DMs
+
+* fix(logs): DM logs with nearly 2k characters
+
+* fix(prefix): make it a command instead of group
+
+* feat(tickets): better error when fails to create
+
+* feat(tickets): add `tickets review-config` cmd
+
+* feat(doc): v4.3.1
+
+* fix(doc): typo in ""antiscam"" server logs
+
+* feat(rss): use paginator for rss list
+
+* refract(paginator): faster view refresh
+
+* refract(rss): cap list to 10 feeds/page
+
+* refract(pagination): better disabling workflow
+
+* fix(xp): always disabled
+
+* fix(xp): always disabled
+
+* fix(xp): levelup channel config
+
+* fix(xp): levelup channel config
+
+* New Crowdin updates (#47)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* fix(xp): levelup check
+
+* fix(xp): levelup check
+
+* fix(memberchannel): error log
+
+* feat(serverlogs): add tickets errors
+
+* feat(doc): emojis and cards
+
+* feat(reminder): new creation example
+
+* feat(deps): update LRFutils
+
+* fix(error): help command mention
+
+* feat(modlogs): add role deletion
+
+* feat(serverlogs): role_update logs
+
+* feat(xp): private rank command
+
+* fix(db): remote connection
+
+* fix(xp): font usage
+
+* Create .github/FUNDING.yml
+
+* refract(ticket): better ticket summary text
+
+* refract(serverlogs): factorise audit logs search
+
+* feat(slash): migrate about command
+
+* feat(usernames): disable usernames history feature
+
+* fix(sconfig): hidden config options
+
+* feat(stats): save audit logs search success rate
+
+* feat(slash): migrate remindme command
+
+* refract(lint): remove unusued import
+
+* refract(lint): add missing space
+
+* feat(tips): add rank card background tip
+
+* feat(tips): implement cache
+
+* feat(tips): lower rank card tip probability
+
+* feat(crowdin): better commit message
+
+* Revert ""feat(crowdin): better commit message""
+
+This reverts commit 6b9f52f39b38e76cefcadb04598e42e502e8c15b.
+
+* New Crowdin updates (#48)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* Update source file en.json
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* Update translations %original_path% (%language%)
+
+* Update translations %original_path% (Finnish)
+
+* Update translations %original_path% (LOLCAT)
+
+* Update translations %original_path% (Spanish)
+
+* feat(readme): update d.py version badge
+
+* feat(doc): update `profile` cmd doc
+
+* feat(git): update pre-commits actions
+
+* refract(requirements): cleanup requirements file
+
+* feat(lint): cleanup all files
+
+* feat(slash): migrate profile command
+
+* feat(error): avoid truncating the traceback
+
+* fix(clear): users check
+
+* fix(mc): server status JSON error
+
+* refract(user): cleaner user config change+query
+
+* feat(tips): disable card tip if already changed
+
+* Update source file en.json (#50)
+
+* V4.3.1 (#51)
+
+* fix(logs): database backup detection
+
+* feat(tr): new guild features translations
+
+* fix(doc): `config change` being renamed to `set`
+
+* rmv(prefix): `prefix change` subcommand
+
+* feat(fun): re-enable weather command
+
+* fix(help): not working in DMs
+
+* fix(logs): DM logs with nearly 2k characters
+
+* fix(prefix): make it a command instead of group
+
+* feat(tickets): better error when fails to create
+
+* feat(tickets): add `tickets review-config` cmd
+
+* feat(doc): v4.3.1
+
+* fix(doc): typo in ""antiscam"" server logs
+
+* feat(rss): use paginator for rss list
+
+* refract(paginator): faster view refresh
+
+* refract(rss): cap list to 10 feeds/page
+
+* refract(pagination): better disabling workflow
+
+* fix(xp): always disabled
+
+* fix(xp): levelup channel config
+
+* New Crowdin updates (#47)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* fix(xp): levelup check
+
+* fix(memberchannel): error log
+
+* feat(serverlogs): add tickets errors
+
+* feat(doc): emojis and cards
+
+* feat(reminder): new creation example
+
+* feat(deps): update LRFutils
+
+* fix(error): help command mention
+
+* feat(modlogs): add role deletion
+
+* feat(serverlogs): role_update logs
+
+* feat(xp): private rank command
+
+* fix(db): remote connection
+
+* fix(xp): font usage
+
+* Create .github/FUNDING.yml
+
+* refract(ticket): better ticket summary text
+
+* refract(serverlogs): factorise audit logs search
+
+* feat(slash): migrate about command
+
+* feat(usernames): disable usernames history feature
+
+* fix(sconfig): hidden config options
+
+* feat(stats): save audit logs search success rate
+
+* feat(slash): migrate remindme command
+
+* refract(lint): remove unusued import
+
+* refract(lint): add missing space
+
+* feat(tips): add rank card background tip
+
+* feat(tips): implement cache
+
+* feat(tips): lower rank card tip probability
+
+* feat(crowdin): better commit message
+
+* Revert ""feat(crowdin): better commit message""
+
+This reverts commit 6b9f52f39b38e76cefcadb04598e42e502e8c15b.
+
+* New Crowdin updates (#48)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* Update source file en.json
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (Finnish)
+
+* Update translations %original_path% (%language%)
+
+* Update translations %original_path% (Finnish)
+
+* Update translations %original_path% (LOLCAT)
+
+* Update translations %original_path% (Spanish)
+
+* feat(readme): update d.py version badge
+
+* feat(doc): update `profile` cmd doc
+
+* feat(git): update pre-commits actions
+
+* refract(requirements): cleanup requirements file
+
+* feat(lint): cleanup all files
+
+* feat(slash): migrate profile command
+
+* feat(error): avoid truncating the traceback
+
+* fix(clear): users check
+
+* fix(mc): server status JSON error
+
+* refract(user): cleaner user config change+query
+
+* feat(tips): disable card tip if already changed
+
+* Update source file en.json (#50)
+
+* refract(action): update CodeQL triggers
+
+* feat(doc): update documentation URLs
+
+* fix(usernames): disable new usernames storing
+
+* feat(rank): delete invocation for private rankcard
+
+* fix(config): code using old table
+
+* fix(stats): antiscam enabled count",2023-04-03 16:51:35+02:00,False
+6843a4dff043f5010705a272e6c5df968f492817,feat(readme): update badges,2023-04-07 21:10:19-04:00,False
+1c6df12f70f78b830a125c4c01a67195525f7a24,refract(doc): move to axobot.rtfd.io,2023-04-19 16:31:33-04:00,False
+107ae7a95716483df05186de3fda43f139af8869,"v4.3.3 (#61)
+
+* fix(utils): top.gg vote check
+
+* feat(info): add bot verification statut
+
+* feat(role): add color link from hexa
+
+* feat(doc): v4.3.3
+
+* refract(antiraid): level 5 name
+
+* feat(xp): levelup messages in DM
+
+* Update source file en.json
+
+* Update source file en.json
+
+* feat(rss): allow to silent mentions
+
+* refract(rss): rename set-* commands
+
+* feat(slash): migrate rss command
+
+* fix(rss): default app cmd permission
+
+* refract(lint): misc linter fixes
+
+* feat(slash): start command translations
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* feat(slash): parameter names i18n
+
+* refract(i18n): split method complexity
+
+* fix(slash): missing unmute parameter translation
+
+* Update source file en.json
+
+* fix(find): bot badge
+
+* feat(readme): update badges
+
+* fix(rank): card generation
+
+* fix(tr): translate from partial channel
+
+* fix(tr): missing translation handle
+
+* refract(lint): misc code cleanup
+
+* feat(reminder): snooze button
+
+* Update source file en.json
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* feat(rss): merge commands
+
+* refract(fun): embed command code
+
+* Update source file en.json
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* feat(reminder): new 10min button
+
+* feat(reminder): add snoozingi internal stats
+
+* feat(docs): update tos+privacy policy translations
+
+* refract(rmd): cleanup translations
+
+* refract(tickets): modal callback typing
+
+* refract(args): Duration argument
+
+* feat(duration): new parsing method
+
+* feat(rmd): custom duration for snoozing
+
+* feat(rmd): better snooze confirmation message
+
+* fix(stats): snooze duration as float
+
+* refract(http): only allow https arguments
+
+* fix(rss): deviantart detection regex
+
+* feat(sonarqube): add folder to gitignore
+
+* feat(stats): rss loop stats
+
+* refract(rmd): better button labels
+
+* feat(modlogs): speedup loop
+
+* fix(stats): rss stats clear
+
+* feat(rmd): improve snooze button label again
+
+* refract(doc): move to axobot.rtfd.io
+
+* feat(intents): temporarily disable presence intent
+
+* feat(reminder): log snooze durations
+
+* New Crowdin updates (#58)
+
+* New translations en.json (Finnish)
+
+* New translations en.json (LOLCAT)
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* Update source file en.json
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* New translations en.json (LOLCAT)
+
+* fix(mc): embed color
+
+* feat(tr): SOUNDBOARD guild feature translation
+
+* feat(poll): escape character",2023-04-22 18:09:00+02:00,False
+a784b3b558d87b4343d9baf220e77040a76ad6d6,refract(zbot): remove more references to zbot,2023-04-24 17:30:45-04:00,False
+db98406dc9a7ecdc146c7e27018c89d78fd78915,feat(readme): add discord bot list,2023-05-11 16:24:27-04:00,False
+447ad87b64cf37ddde311c98477938e98f1daf70,feat(doc): remove Zbot,2023-05-19 15:57:36-04:00,False

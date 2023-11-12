@@ -1,0 +1,78 @@
+sha,message,date,result
+0df639d0854f96f710d30933313d016c94cc5728,Initial release,2020-02-11 19:30:16+01:00,TRUE
+358ef0a67897f1639a58f7d050ecfe010f63af2c,Better support for integrating the CSE into other applications,2020-02-13 19:31:22+01:00,TRUE
+5ce70f823739c0cd878bc8bb03708055470179e7,Improved explanation how to integrate into other applications,2020-02-14 10:06:05+01:00,FALSE
+da55fff0314c1f2d211315de00c4ef4e7ee23c58,Support for fcnt:contentSize attribute,2020-02-14 12:37:13+01:00,TRUE
+b329831f0228a02c88a45753fd09230086fe198d,Added --import-firectory command line argument,2020-02-14 23:51:50+01:00,TRUE
+7c7687f1c384d4556e9fe27de5bdbfa5c4df253e,Described integration in apps,2020-02-19 18:07:31-08:00,FALSE
+bddbcdc479c7c34132b0094e1249f221fab50b95,Introduced background worker class for all background tasks,2020-02-27 23:14:05+01:00,TRUE
+7ff76b579a2d283552355d954d6667c3f09ace03,Improved documentation,2020-03-02 12:48:48+01:00,TRUE
+53d14c236d7afae6e1bfb4189a2534de6f306dbd,Bumped version number,2020-03-02 23:07:38+01:00,FALSE
+5ca3476d118246a0da1c372fcf4b4bfa2a3b2810,Fixed wrong originator for already registered AE. Added appData API for Apps.,2020-03-06 12:57:51+01:00,FALSE
+8357a78992ce7bf77c7e91fde4ccaad611e6ff67,Documented discovery result content,2020-03-06 17:22:13+01:00,FALSE
+29ca3a4a29a1c6898b2aa6d814a87354513e52e2,Changed color of icon,2020-03-08 22:27:16+01:00,FALSE
+e0364307471f9095e083e52b285caa22e2539c9e,Removed collapse section try,2020-03-08 23:59:15+01:00,FALSE
+d92e9798fea1bf40b2bf95f57a7761e188dd2777,added command line arguments --apps / --no-apps,2020-03-19 11:02:56+01:00,TRUE
+c5dc0f95956b3efba1cec5538e7b0853146b0676,Improved documentatiom,2020-03-22 22:53:01+01:00,TRUE
+6007e776d555d49064e3b9ab1bfd9d3abcf1ec08,Added command line arguments.,2020-04-16 18:48:01+02:00,TRUE
+6059058096be0619dfebb06991960a53db7cd490,Documented Docker build,2020-04-20 19:32:27+02:00,TRUE
+d5b9cd4a50827e19a74b5fbb44ebe5c06206317d,Fixed Configuration & MultiThread is now default. Added __init__.py files.,2020-05-07 14:45:24+02:00,FALSE
+933bcca028cf12b89ca93b32703edb0eee9e17b4,Upgraded to TinyDB 4.x,2020-05-15 15:27:57+02:00,TRUE
+70ec1ef8661cf9a1e6d149ccf044521606587ed9,Reorganized documentation,2020-05-23 14:28:40+02:00,TRUE
+b07a9b1e0e88d6a6150105e3c3b04b98f96117d7,Update README.md,2020-05-23 14:31:42+02:00,FALSE
+4ee373d948272eeed0c5643d145cbe55811462a8,Update README.md,2020-05-23 14:32:05+02:00,FALSE
+b2edc203fde974b7084de5b4beaf2c8d6816e857,Update README.md,2020-05-24 19:54:41+02:00,FALSE
+4c0b9bd397cf16b1b30dfbfa82f85477671513ab,Documentation,2020-06-09 16:56:12+02:00,FALSE
+e707517dfd4f9406ad27d6aeb820f15fb5358056,Update README.md,2020-06-09 18:20:01+02:00,FALSE
+64a0d3fd20ffeb89c76342b944b102f6e12405f9,Improved documentation for release. Bump version number,2020-06-18 23:32:26+02:00,FALSE
+48f9b3570723482302ecfd643e198a4efac02d0d,Bumped version,2020-06-25 11:15:20+02:00,FALSE
+126cb3641aede0d4386692cf1e3ef73c439cd7ad,Added badges,2020-06-30 16:51:12+02:00,FALSE
+0a21062b2abd92e760c50e9e270990c6829b6113,Acknowledgements,2020-08-28 16:31:35+02:00,FALSE
+b8ad004dbd48cad7be35a4c5889757059eb6f72f,Update README.md,2020-08-28 16:33:52+02:00,FALSE
+1e240189db49ab045b2ad559084cabfc5c204134,Added documentation for https & certs,2020-09-07 10:14:14+02:00,FALSE
+3c40f00c9ac61be840f4c3f2f269d15521292216,Corrected missing ACP announcement,2020-09-07 20:33:18+02:00,FALSE
+447ae048772c564ba277b5d8cc2e63ea8e3af443,Incremented version number,2020-09-20 20:24:36+02:00,FALSE
+52695bd73dbf8e7e759b8f70da3f197e6d45bab3,Documentation & changelog,2020-10-20 11:48:19+02:00,FALSE
+252428972986d07f49a8a1663dd16c873afc5e73,Added twitter badge,2020-10-20 14:09:41+02:00,FALSE
+a0d9f6ba3ef087744230ba46f26c6e9014177c7c,Added documentation. Added FAQ,2020-10-24 15:31:53+02:00,FALSE
+c0571bb86b159a8e8a7760c757f7a77607fff088,Update README.md,2020-10-27 18:40:14+01:00,FALSE
+e87e10fd12a41092e6c6e4d157b7cf0cc56dcd78,Moved backlog to a separate file,2020-12-23 13:22:05+01:00,FALSE
+b43b43cbbdd7f55922fc48e3c499e1ec32b269f9,Updated for version 0.7.0,2021-03-06 13:28:49+01:00,FALSE
+03da3937865eade5cdaf3d8a89c96828c9ad1cf6,Started 0.8.0-dev,2021-03-06 13:46:17+01:00,FALSE
+3ba041ba551018538829084cf6b58e011f285fbb,Prepare for 0.7.1 release,2021-03-09 17:49:02+01:00,FALSE
+6d4df041a1445e8ce2b1d3641d38edb213c1a1ce,Preps,2021-03-09 17:54:49+01:00,FALSE
+0c0c510ea3bc92378f373720342b4b038aef65cc,Update README,2021-03-22 14:15:54+01:00,FALSE
+9dbe5b41470c698401ae95f023e1a8e600b72b4c,Preparation for release,2021-03-26 14:47:04+01:00,FALSE
+7b3f75be8e7469596127daba05a458cdd6bd3b8b,After merge,2021-03-26 14:56:56+01:00,FALSE
+65e37b65841ace24229e7bebc3f40dd9cefa35e8,"Added warnings when an imported <CSEBase> overwrites any of the *csi*, *ri*, *rn* attributes. Better error handling for ill-formed CSE-ID.",2021-07-14 16:20:16+02:00,FALSE
+534e56944e5d120dd0b5755b3cb0f353a159e5f8,"Changed running the cse. Now, the acme module is run instead of a separate starter script",2021-07-23 18:07:30+02:00,FALSE
+51f19b4feddf53ec7b71e2a0e08d08a64655f804,Release Preparations,2021-07-26 17:22:44+02:00,FALSE
+b6d654fbb26f286b94c6c0cf9a584ea089207bd5,Start 0.9.0 development,2021-07-27 19:01:07+02:00,FALSE
+d20a40f4f7be78d099ee838924d502eefd48d3e6,Removed build-in AEs,2021-07-30 14:35:18+02:00,FALSE
+6f3faeef4c66a75204da44a1b4677f2a1c4f4f66,Added [cse.console].confirmQuit configuration option. It is switched off by default.,2021-08-05 15:23:22+02:00,FALSE
+423e4a477434e70c58b22e7e4de1a3739dc55dea,Added Massimo Vanetti to the acknowledgements,2021-09-04 21:07:55+02:00,FALSE
+87608b08a87d0eb76432ff361197cf85c9315330,Changed documentation: new start procedure,2021-10-06 13:11:26+02:00,FALSE
+80c03aad86bc81c5c649c274ef2a513837bda328,Updated,2021-10-15 15:31:41+02:00,FALSE
+73ceae4130afd5fe7b2d548852cdc40714d39878,Repaired wrapping for CSE-based notification (like for subscriptions),2021-10-18 14:59:30+02:00,FALSE
+953c32cb6a09e9df7924d4b0579e768c612222a5,Added contribution procedure,2021-10-27 10:36:17+02:00,FALSE
+1901a02d90817d0ec5b9f66508ecdb9489edc7e7,"Improved documentation. Moved quick configuration to ""installation""",2021-11-02 18:38:12+01:00,FALSE
+b676350722bc55ec1411acac1f580d4ae408e087,Update README.md,2021-11-04 23:17:58+01:00,FALSE
+7e02095e5ebe3c27b72bc2be1ea8634b0d04b04a,Update README.md,2021-11-04 23:25:59+01:00,FALSE
+9cac5fdd0af85c1f56b11faeda0898b24a804499,Prepare for 0.10.0-dev,2021-11-05 12:08:11+01:00,FALSE
+e9244dc544b947e47500831e16732b7758860960,Removed acpi attribute definition from <contentInstance> resource. Added more tests for inheriting ACPs.,2021-11-09 11:47:07+01:00,FALSE
+2654db0958c91f363242b46ee5aadea8d601a160,Fixed typo,2021-12-01 22:28:05+01:00,FALSE
+9e844f30e5f6a1bcab299f48b5e53d5fe1527fba,Updated documentation for scripting and first setup,2022-01-31 00:26:08+01:00,FALSE
+94f990ef77dafc86f3a55f55e9ae80f6a9e08716,Documentation & preparation for the next release,2022-04-16 00:44:02+02:00,FALSE
+fbaeb6841e6f7104f022bdd773228b301978fc21,Added support for BLOCKING UPDATE notification event type.,2022-04-25 15:04:38+02:00,FALSE
+870abc185c48a9fab649b8c674e7607280843285,Added to thank you section. Prepare for release,2022-05-02 11:33:28+02:00,FALSE
+b3f7202ad28c425e65eff11e56262d1a60f870bb,version 0.10.2,2022-07-20 11:29:00+02:00,FALSE
+2b4a158db362d692190b8c910440974ecf943d93,Moved console documentation to a separate file. Explained function keys,2022-09-07 00:15:51+02:00,FALSE
+789866070d7ff6abfc0760672f99348da78f35f4,Prepare for 0.11.0 release,2022-11-21 17:22:01+01:00,FALSE
+b3e69ecfdc6158cae6d1b8b38f36c7ede72447dc,Preparation for 0.12.0 work,2022-12-02 11:58:11+09:00,FALSE
+1bd408f2f6f3f7f379f6ae870257b26e3a5a9dc5,Update introduction,2022-12-09 18:42:47+01:00,FALSE
+7c1ac5398629f05076d4435544caa434e78ab393,Prepare 0.11.1,2022-12-16 16:43:05+01:00,FALSE
+f60f707470e0b5f4f41c8ca8688662f0f40ce13e,Continue with 0.12.0 development,2022-12-16 16:49:15+01:00,FALSE
+c55d4badc6316ed43ef0c07b3970492de33fee0c,Fixed target originator for notifications sent via MQTT.,2023-01-22 15:48:34+01:00,FALSE
+1792ee6097d47b96cd4918efde6ebf663d428493,Changed social button from Twitter to Mastodon,2023-02-24 07:04:11+01:00,FALSE
+c69c8801ac7cbe92df1c66e1b5fe41bf1b4da0a5,Moved scripting to a lisp-based language,2023-03-14 15:48:03+01:00,FALSE
+dbbdc5e1aa479516e5c7cadcb2624323c93d2c64,Fixed a crash when checking permissions and the ACP has a `acod.ty` attribute set. See #112,2023-05-17 20:18:02+02:00,FALSE

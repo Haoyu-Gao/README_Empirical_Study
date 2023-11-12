@@ -1,0 +1,45 @@
+sha,message,date,result
+b79e74c377994b4b4e4844b2308dea60e11ed104,Add README.md for GitHub repo,2018-04-12 15:48:49+07:00,True
+e23d8589ad9128ca9d2cce630d760dab31584cde,"Update README.md
+
+Change about section - highlight main features.",2018-04-12 16:22:35+07:00,False
+88185283b221b2d6549daae504f7294ce954921b,Fix link to changelog.,2018-04-12 16:53:22+07:00,False
+f9f94446319209600dbb9350bde7803561654546,"Update README.md
+
+Add link to NOTICE.md file",2018-04-12 17:13:23+07:00,False
+bf1298d0b22530b7538b664f38002713cf78961b,Main link is changed,2018-04-18 23:22:11+07:00,False
+5c734cdc0793bad02a0d17dc2b499d840a8e1f8f,no jira: Documentation is updated due to release,2018-05-23 09:31:23+07:00,False
+bb5874dd00920046e6734e1cbaf9e5a951a09d7a,release preparation: documentation update,2018-08-30 23:02:44+07:00,False
+18a79f24ea74a4fe4a30d5e5e13160b87cd1818a,Release preparation: site update,2018-10-09 23:45:49+07:00,False
+7422f21372741d6c041cf8303ef12b65b3936b87,"Release preparation, documentation update",2018-12-28 23:03:13+07:00,False
+83d54becd01c0b3efb8523d0726cdc5a12bf40dd,no jira: release preparation: documentation is updated,2019-03-05 22:27:42+07:00,False
+e667c1283489b18cbdb0466807f2c8f6382c89b7,"no jira: release preparation, documentation update",2019-03-29 21:25:16+07:00,True
+69c957020c1628a181ce8ddd5e879ded21638eda,no jira: links are corrected,2019-04-03 20:37:03+07:00,True
+39a63ee35cf94bd806d6bdd235efaf02e0cbdbb0,"Fixes issue #28: java and maven versions are corrected, start instructions are updated",2019-06-21 10:15:10+07:00,True
+7a630260360bf45ff3fd076dd6728d6e5875aee6,"no jira: release preparation, documentation update",2019-07-11 23:29:58+07:00,False
+ded2969fc09726832b70cbb0858353b8ff5ba740,Release preparation: documentation update,2019-12-10 20:58:17+07:00,False
+fedb0183b78eaddca410b3826989a9b639e56745,"Update Readme with CI links and status (#58)
+
+Update Readme with CI links and status",2020-04-11 08:43:42+07:00,True
+84b5755de9b2ff9a733df982fd57e1572c87a723,Release preparation: documentation update,2020-04-19 10:28:25+07:00,False
+a43c73ccc127b67034b508e64fbe8c265382e675,"[OPENMEETINGS-2276] basic clean-up, required to clean-up string labels",2020-05-08 11:48:29+07:00,False
+189073036b0af8f0e55c10df940f6e15c293774e,"[OPENMEETINGS-2389] system requirements are updated, formatting changes",2020-06-08 12:27:49+07:00,True
+0bb487d101d737b6e5fead77397896d83cda73ae,no jira: link to build server is updated,2020-08-17 12:43:23+07:00,True
+4a5e199a26ae0a35b1d105b87d7f48ffa06672c5,release preparation: documentation update,2020-08-17 13:32:01+07:00,False
+63c8a61346419159fdac42501ef852919142e2ae,Release preparation: typos are fixed,2020-08-17 23:34:17+07:00,False
+493444d44a8c2d7f70f4efab6fd2e3d327c21455,Release preparation: documentation is updated,2020-09-19 11:45:46+07:00,False
+3f54d587f8921a6113feb629914a9ca47948f50b,"no jira: release preparation, documentation update",2020-12-01 22:15:53+07:00,False
+feb4ab0e4d3a0f8d5e8fcdbe1179b636c562fcfc,"[OPENMEETINGS-2559] oracle DB seems to be fixed, code clean-up",2021-01-22 13:57:24+07:00,False
+c1bb418043a0802b4d9e931225c298b02c231fad,Release preparation: documentation update,2021-03-08 22:36:03+07:00,False
+2b3d708567a11fea1e7b07126fa13272f1543894,no jira: Release preparation,2021-07-16 23:47:35+07:00,False
+5f787ceb5d7012797a75a9ed2715ae253fb9a2e1,no jira: urls are corrected,2021-09-15 08:21:59+07:00,True
+303c1bb6e43e0ff795b984f9ea44907b4eff1258,6.2.0 Release Candidate 1,2021-09-29 22:35:55+13:00,False
+bdb076088776ea6df9b6a066365be441966f9da3,6.2.0 Release Candidate 2,2021-09-30 18:33:07+13:00,False
+6296bb151c5a3cac874706cb895976757e33658d,Update information for v6.2.0 and additional changes.,2021-10-21 19:45:58+13:00,False
+a7216acf40de75f37ca228651946457cf58dfc69,6.2.0 Release Candidate 3,2021-10-21 20:52:15+13:00,False
+cd98ba98906db9a95710462dccc55aa4f984bbce,fix: wrong link (#171),2022-04-25 10:53:30+07:00,True
+cfb7848cffa8060ad1fa990d8fe24424bd9bb5cd,Release preparation: documentation is updated,2022-05-13 12:16:00+07:00,False
+fdc7e9ac04a8a87b7776c4f8005bbba7fd59217d,[OPENMEETINGS-2734] updated to java17,2022-05-17 22:47:36+07:00,True
+fa67693a96e153b3761ab76dfc327af8ef14772e,[OPENMEETINGS-2733] couple Sonar issues are addressed,2023-01-30 17:18:01+07:00,True
+878918234b2859df67244ccc262639883df99760,Release preparation: documentation is updated,2023-02-07 09:55:59+07:00,False
+726e9d32101d4a7a5b3add34f5bde788f699d440,7.1.0 Release Candidate 1,2023-05-10 09:39:59+07:00,False

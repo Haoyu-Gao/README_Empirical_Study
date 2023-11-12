@@ -1,0 +1,84 @@
+sha,message,date,result
+c7580f75e2cf9c65f85efe786e71794f9df8072b,Import iredapd: mail list access policy daemon.,2009-12-29 14:47:15+08:00,True
+47a6f4a60352028b9a6677c5f3b5f76d9ce32433,Typo.,2010-05-13 14:25:17+08:00,True
+661afb6c86cbd46ae6d6e0040b5ab790f7243dd9,Typo.,2010-09-29 21:18:26+08:00,True
+f2c1993faec5e4e55923c0eecdf6816beaa7747b,Typo in README.,2012-02-12 13:48:54+08:00,True
+1907333dfeafa04021962b0d7fab67b579584ea0,Typo in README.,2012-02-12 13:50:41+08:00,True
+e4d101085d053fbaa3bca445bdac8eaccda23b26,Typo in README.,2012-02-12 13:51:11+08:00,False
+1833fc38591f8aa0448b306b478f3190999c801c,Code cleanup.,2012-04-16 20:34:23+08:00,False
+1b3c88db6e792030de714d9ea91f6c0834c3d3b5,Sync README.,2012-04-19 20:43:05+08:00,True
+e7093656e76e8ae2e8130807b1a10666f5053970,Typo in README.md.,2012-08-29 23:43:03+08:00,False
+035066bcd76384d758c3c77c80eaa5abbedbea47,Typo in README.md.,2012-08-29 23:46:52+08:00,True
+808267b2056fe4ad146714ae0704bcdb19f7fe5f,Typo in README.md.,2012-08-29 23:52:02+08:00,True
+548a901e5c326a624a8efec5ae8fc6c7fca2b3ad,Sync plugins.,2012-09-12 22:19:24+08:00,False
+f49e8481269ca8048b56a32a611370bf80345b9d,"* Use python file as config file instead of .ini.
+* Merge iredapd.py and iredapd-rr.py.
+* Query required LDAP attributes instead of all.",2012-12-30 04:59:04+08:00,False
+2aed153fa8f97fee1c523dfa46317d4365178007,Sync README.,2013-03-03 00:15:02+08:00,True
+2dd9a63e05f37b39b61ca8c7c9a2032543b59a2d,Typo in README.md.,2013-03-03 00:37:02+08:00,False
+27a17d49876fc004bee6e70ee1de60e28bf60d4b,Typo in README.md.,2013-03-03 00:37:38+08:00,False
+35e4b0a3875c4980f058cf51d3c1aef63d590345,Typo.,2013-03-03 00:41:48+08:00,False
+be0aa241c8b6fc5f903def54b08a6c4f7c98b86b,Typo in README.md.,2013-03-03 00:46:58+08:00,False
+90cb951c91758eb61c7791f3c154e6641cc7fa92,Typo in README.md.,2013-03-03 00:47:36+08:00,False
+dfc9881f675fb631c1f5844019e2703c8a677e0d,Typo in README.md.,2013-03-03 00:51:03+08:00,True
+1a1d49e37fde8214c86e881c73cf311cf19254dc,Typo in README.md.,2013-03-03 00:53:16+08:00,False
+bfef805d624ff69b574486aad12097e4ed7838a0,Typo.,2013-03-05 22:57:56+08:00,False
+8f0db3b69324828d286314b896c65bcbb7b65ce4,"Sync README.md, add description for new plugins.",2014-04-29 10:56:47+08:00,False
+bd8d7f8ccac330381b3df063a8f5e52518f3d52d,"Update document, move plugins/README.md to top directory and renamed to README_PLUGINS.md.",2014-09-29 00:17:43+08:00,True
+3368c0772fff73d868008c8f5a55cc239ca98474,Typo in README.md.,2014-09-29 00:21:45+08:00,True
+ddef7131529dc1c644b964bd733902cfa15bb24f,Move installation steps to INSTALL.md.,2014-09-29 22:42:39+08:00,True
+920ad2f74630e1cb7f16ad31e72451c4a4486153,Plugin renamed: amavisd_reject_message_size_limit.py -> amavisd_message_size_limit.py.,2014-12-03 22:22:17+08:00,False
+832b755d8cfb008517ab17c498ebe0c825b61e2d,Typo in README.md.,2014-12-16 14:56:55+08:00,False
+9a2e8081743f5394a66aa66f8135488e96fbd800,Typo in README.md.,2014-12-31 23:21:03+08:00,False
+2e5803650d277d57dce05c7fce6f0a514796457c,Typo,2015-01-05 10:30:17+08:00,False
+3f4448ba1e5b0d07162607cdb0d5df35d0649635,Make license clearer.,2015-01-14 11:19:16+08:00,False
+3fadb138dae95c44f2fc8fa2042845c1df4437e1,"Sync README.md, INSTALL.md.",2015-07-06 11:07:35+08:00,False
+ac274a4460c004ac2873237d688cadba1d80ac31,Fixed: not enable greylisting in iRedAPD by default.,2015-12-16 08:52:45+08:00,False
+8bbf669bfaa078f3a6689cfd1e863cb12b80a8e5,"Revert: don't use sql tables: log_sasl, log_smtp_sessions.",2016-04-01 15:44:33+08:00,False
+9fad2b2d3a767850d5d9c0ff0f38e0ee37872956,"New settings for plugins/whitelist_outbound_recipient.py:
+
+# Whitelist outbound recipient for greylisting service.
+#
+# Note: Default is whitelisting recipient email address for the (local) sender,
+#          +-----------------------------+
+#       so | it is a per-user whitelist. | If you want to whitelist whole
+#          +-----------------------------+
+#       recipient domain globally, please check setting
+#       `WL_RCPT_WHITELIST_DOMAIN_FOR_GREYLISTING` below.
+WL_RCPT_FOR_GREYLISTING = True
+
+# Whitelist domain of recipient.
+#
+# Notes:
+#
+#   *) this will submit domain to SQL table
+#      `iredapd.greylisting_whitelist_domains` and waiting for cron job
+#      `spf_to_greylisting_whitelists.py` to whitelist IP addresses/networks
+#      in SPF/MX/A records of the domain.
+#
+#      +----------------------- WARNING -----------------------------+
+#   *) | The domain is whitelisted for greylisting service globally. |
+#      +-------------------------------------------------------------+
+#      This should be useful if your mail server just serve your own company.
+WL_RCPT_WHITELIST_DOMAIN_FOR_GREYLISTING = False
+
+# Whitelist outbound recipient as normal whitelist which works for iRedAPD
+# plugin `amavisd_wblist`, and also works after-queue in Amavisd.
+#                 +---------------------+
+# Note: this is a | per-user whitelist. |
+#                 +---------------------+
+WL_RCPT_FOR_WBLIST = False
+
+# Whitelist domain of recipient instead of full recipient email address.
+#                 +---------------------+
+# Note: this is a | per-user whitelist. |
+#                 +---------------------+
+WL_RCPT_WHITELIST_DOMAIN_FOR_WBLIST = False",2016-06-03 22:48:07+08:00,False
+c1a4f3e99a0e6d788f3439d8b64198be14c4e10f,Update plugin info in README.md.,2016-06-03 23:24:41+08:00,False
+4c07fa6d8600513a95952c946481e44a8a9ba6e6,"WIP: Initial SRS (Sender Rewrite Scheme) support, not yet finished.",2019-03-04 09:02:10+08:00,False
+ddbbb88af1e70c674457f859ccd1855f43e6b891,"New: SRS (Sender Rewrite Scheme) support.
+Fixed: tools/spf_to_greylist_whitelists.py: not treat x.x.x.Y/x as a valid IPv4 CIDR range (Y != 0). Thanks Toma? Bri?nik for the report.",2019-03-19 13:52:03+08:00,False
+f7136a8d7216356392f8c6634a57f34d7e6f0e6f,Update README.md and INSTALL.md.,2019-03-25 09:57:22+08:00,False
+e8e6c61c1c96fc3510ebbd948559020135dce8de,Code cleanup.,2020-05-09 17:28:16+08:00,True
+629713f289eac615211b83952dcadeb5f7145161,Fix if condition in upgrade script.:,2020-10-10 17:08:36+08:00,False
+d6a1de770e59dd6f5181224d615b0b1c0d0e760c,Update README.md.,2022-07-28 21:24:15+08:00,False

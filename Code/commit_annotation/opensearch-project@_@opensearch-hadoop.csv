@@ -1,0 +1,315 @@
+sha,message,date,result
+f4bb3efe9067b09be100e0d58ab19621426b815b,"initial commit
+
+MapReduce, Pig and Hive integration",2013-03-11 20:59:59+02:00,True
+b5589fdaef04b7f03924b32f969c9224d93616c7,update readme,2013-03-11 21:10:55+02:00,True
+449852032cf4525951a8d6777efb8263afb23d59,another readme update,2013-03-11 21:13:31+02:00,True
+7a199fd992285e24449fba03628d31d2bec4f415,yet another readme update,2013-03-11 21:16:11+02:00,False
+73fac0a6899d7a9c39052ee03059037902772c6a,links are apparently case-sensitive,2013-03-11 21:17:23+02:00,False
+a12a53613e17aed8c477dc858141f2d16aaa15a5,remove extra quotes,2013-03-11 21:18:53+02:00,False
+67f3f8d79d93e026bd74d07d4465157a1058b35b,add Cascading + MR section to README.md,2013-04-02 14:20:37+03:00,True
+57df009edad5599389ce81db4cb931ae4089bc1c,update headline,2013-04-02 14:42:54+03:00,False
+4f6c2b4df140b304709bd0b96a5cab2877f1811d,Fixing writing code example,2013-04-04 09:29:39-05:00,False
+be511e397ee8a830ab2cec4aa01d96d43a1f48c1,Typo fix in README.md,2013-04-05 00:09:57-07:00,True
+30f50d7a08b4b4ed2223c35fa377a8ceb65f9e0b,fix typo in Readme,2013-04-05 18:34:18+03:00,False
+3b3bc8b254a8076ee6b3b7cff47ce07e36173a72,update readme to reflect latest code changes,2013-04-08 19:40:03+03:00,False
+31e16a07987ee6f5d8a40ba74e1b7ea420772efa,add Bamboo reference in README,2013-04-18 23:31:34+03:00,True
+1599c6b3688bfc600b89cd49904b558e727d62b9,quick js test,2013-04-19 11:30:10+03:00,False
+a1a7952cf91629930aa64f146b6be33021d8df11,"change ESStorage constructor to accept only Strings
+
+fixes #34",2013-04-19 14:12:28+03:00,False
+a9931dc86a6692697954cc2c0a5b45f982fe764b,add Maven repo for snapshots,2013-04-30 14:22:31+03:00,True
+c93d5bc8ae89acc23b5780dc16d0c3812be865ce,add build status image (thanks to Karel),2013-04-30 15:55:46+03:00,True
+f40d70effe23f35c08b6fa2832e2cbae16c10e66,embed Travis CI into Readme,2013-05-01 18:36:42+03:00,True
+84eb9aef5538d4effdf331040cf6318479470edf,"address issue #3
+
+add direct serialization of Jdk + Writable types
+introduce serialization package similar to ES xcontent
+add direct json serialization for pig types
+add test for converting pig to json
+rename PigValueWriter
+add json serializer for Hive lazy types
+add generic support for numbers
+add timestamp as a future supported type
+add support for Hive writable types
+includes support for Hive 0.11 DecimalWritable
+reuse key object inside RecordReader
+integrate direct to json serialization into Hive and Cascading
+introduce BytesArrays to easily pass/reference byte[]
+improve Hive to JSON serialization bypassing byte[] copying
+reduce the number of object copies created during serialization
+improve logging for debug purposes
+fix some tests along the way
+remove old, to Object, serialization
+update readme regarding the ES version required (0.90)",2013-05-25 17:08:08+03:00,True
+963744c8a6b2b7656ca6b01753b22537cdd7162d,add contributing/license/notice file + update readme,2013-07-17 18:19:56+03:00,False
+49bbc15f478133239d16a1307d076690cb5991bc,update readme regarding the YARN build,2013-08-15 14:19:34+03:00,True
+4af374672d93e51400c70d69d48f27ef0aae07be,add readme to dist zip,2013-08-18 16:39:29+03:00,True
+262f01c652330f48a14a5fd4a88cbfb1baff79cf,update README.md,2013-08-27 20:45:04+03:00,True
+8182b02f2bf7009ae271d5e463fb710be879d435,update bamboo image links (to avoid Github caching),2013-09-02 17:28:01+03:00,True
+9f89802dae18529b14f321c5144137a343b2edca,update readme,2013-10-03 20:53:21+03:00,True
+3fb2a7aabc8c3472668820f15484da9dbc75f406,update links,2013-10-03 20:54:47+03:00,True
+9e42df5174626296ba1dce2a1edcd22e39dfa4ae,update docs,2013-10-03 20:58:46+03:00,True
+ef549c728d995d64cd303ef5d4df7d736a369020,minor fix,2013-10-03 21:00:14+03:00,False
+7624845b143f2cf11c41cb2c70b7f80dc6a32927,another minor fix,2013-10-03 21:06:12+03:00,False
+7b52e2a603e97215188987e4c350cc1c023a46ec,fix download link,2013-10-10 11:39:00+03:00,True
+0f60519ca5654fdd1a9244afa1afaca2fcc315a6,updated readme,2014-02-06 12:55:21+02:00,True
+369cbc8fabc7c13367317932f7e1d0b344522388,upgrade readmes,2014-02-06 13:01:42+02:00,True
+f46cef8615d9ab308d5e34fa5da4c846310d69af,leave only one build status icon,2014-04-03 11:46:55+03:00,True
+2830ad86d6a926f7646fc7e2b1aa9ce6fd53bbda,release 1.3.0.M3,2014-04-08 16:26:56+03:00,True
+08f4c51f2a14816e7f481dd2aee57a6540ef677f,Update readme,2014-05-07 14:52:37+03:00,True
+a614c804661a5a02023b850c29916253e6e37658,polishing,2014-05-07 14:56:00+03:00,True
+271c7c6b4d3afc33c66189fff877646aeda99bdb,More polishing,2014-05-07 14:57:50+03:00,True
+bcc8e98d1579591ab1f5e7ea2d0ec7bae9bcc602,Bump version,2014-05-08 17:00:12+03:00,True
+eb4487f75fdca7590e38778a9ed373696c575642,release 2.0 GA,2014-05-27 19:00:51+03:00,True
+dd9d3f9bda351ac23f84b0fd176610947f1056db,Update README.md,2014-08-14 15:28:14+03:00,True
+ceb4031851f6472f900cea103892e4967e5f11d1,More formatting,2014-08-14 15:29:40+03:00,True
+f69b10669b681dd81061e245bd85432104da00cd,[DOC] polishing,2014-08-14 15:34:31+03:00,True
+92e98c6f0e8bb8cc565000a9dffdd3976e7099f5,"Add integration with Apache Storm
+
+Provide dedicated Bolt and Spout implementations
+Related #267",2014-09-10 23:25:34+03:00,True
+2d2a5fe08a7c477bdbc570cb5a69289839cbfae8,[DOC] version updates and typo fixes,2014-10-08 15:26:39+03:00,True
+fee009608509c655492738362762fcc6715286ab,update readme,2014-10-08 15:27:42+03:00,True
+0e5aae3c5eadf95cf128cde63e1dde6880993dbc,Fix typo in README,2014-10-08 15:32:48+03:00,True
+795f0201a85d7c9c22cc86ad6ee479a198b85082,Another README update,2014-10-08 15:35:03+03:00,True
+4140d4f11fdd7674b177a07057d59bb4a621e080,Improve build status icon,2014-10-22 20:54:12+03:00,True
+648067293ca7e856f5fdcbdc704b6386d4e67160,"Update README.md
+
+Fixing typo in maven dependency
+Closes #314
+Signed-off-by: Costin Leau <costin.leau@gmail.com>",2014-11-16 23:53:44+02:00,True
+37d1ca64f55116e50e717aebdaa66d5a09160d7b,[DOC] release updates + upgrade to ES 1.4,2014-11-17 16:42:34+02:00,True
+e5fb74bbc4a5f669c0fa0eefb28086b7a0f39a00,"[DOC] Fix incorrect name
+
+Fix incorrect statement in README.md
+Fix #329",2014-12-10 17:43:37+02:00,True
+989eb8c313728ca0662d3927150291cbbbb5c4cd,"[DOC] Correct method name
+
+MR Job class provides a `setOutputFormatClass` not `setOutputFormat` method
+Fix #324",2014-12-10 17:57:11+02:00,True
+34ec7572d907e6f7e2e6b1610142d5b5706c276b,Update CI Build Status,2015-01-28 17:20:19+02:00,True
+cff1f87acad0da64ab89b5d84f77e9b5c0b0dec2,Update CI links in README.md,2015-03-27 10:07:33+02:00,True
+dabae9e2de6ea67df3679f447d29f194c5465667,Update the badges again,2015-03-27 10:09:47+02:00,True
+a716e5ccb493e7c2819d3c81af32556f65e2bcd2,"Updated README.md,  updated broken URLs
+
+Changed elasticsearch.org URLs to equivalents at the new elastic.co site.",2015-03-30 18:55:49+03:00,True
+34a6b9a2748061f5c1f851486ce3d50a87d6d87e,Fix whitespace,2015-03-30 18:55:49+03:00,True
+5b768b39fe555f15fa8692e8ef5e84f5aee2b03e,"[DOC] Fix typos
+
+closes #421",2015-04-14 13:25:59+03:00,True
+9cb93f40e5eacc9101db02bce819d214e5bcd5e6,Minor fixes,2015-04-25 14:32:22+03:00,True
+2c62e273d2534151340560c095f9b8f81eb195ec,Release 2.1.0.Beta4,2015-04-28 16:31:09+03:00,True
+5cc3f530847a80745241b30bb665815f2c4506fe,2.1.0.rc1 Release,2015-06-17 15:19:45+03:00,True
+76e51188cfbf5dd67d3437ebf784ed0dca13352b,2.1.0 Release,2015-06-23 16:49:35+03:00,True
+adfde016c9a6c709e762ca8bbb85634cd49a7330,2.2.0-m1 Release,2015-08-27 16:21:35+03:00,True
+f28b0d3e1252abf7bfdf37f261aa120d9ed4349b,Upgrade to ES 2.0 GA,2015-10-28 19:13:55+02:00,True
+d731e2b2a4dc3f7780980c168885f96d0af6c2b9,Update README,2015-10-29 10:55:58+02:00,True
+006440e0d760081cabd1ebeda102f09c5edc2de0,Update README with the new release,2015-10-29 17:29:30+02:00,True
+3862b4f7bec71b000f037e25eff8918d9cbc3801,Update README,2015-11-07 10:32:27+02:00,True
+518b8ff0445e336484d24bdc2ef65c697bd4a2c8,"[DOC] Update info on Hadoop/ES versions supported
+
+relates to #597",2015-11-12 13:12:04+02:00,True
+4dd6da54c34ecbc5163e279537ea6c7f86755d41,"Update readme regarding plugin install
+
+relates #609",2015-11-14 16:53:17+02:00,True
+ab852c0eb097809a8d3e73e9dd595ef4908ccf6c,2.2.0-rc1 Release,2016-01-08 22:15:26+02:00,True
+5a90d7b36199b0e174d9510e9494a6932c7cbacd,Expand Readme with Spark SQL examples,2016-01-31 20:53:43+02:00,True
+c11e37bde94848823d70f60432105077781ae486,2.2.0 release,2016-02-02 16:19:28+02:00,True
+2adffefa2ea8b457d58b8bc91ddd0ec38d451417,"Update README.md
+
+Master requires JDK 8 for building (because of ES).",2016-04-27 21:54:48+03:00,True
+c4112e5540700865f7a601689f7c5ca2e18f4265,Update README,2016-05-03 15:08:00+03:00,True
+2dd111c5038f326cdd5f3c708f8de5a6b10072b2,[DOC] Update versions,2016-05-31 15:14:38+03:00,True
+276bddd62bdb42abd354d557a68443d86f0b5249,Update to ES alpha4,2016-06-30 14:22:28+03:00,True
+c513369b06abcb4e1705bfd2e334bb6bfe679f98,5.0.0-alpha5 release,2016-08-08 11:46:35-04:00,True
+457df8772485e08e2671c33a2e66742f3322614a,[BUILD] Removing old build link in the README,2016-08-09 12:37:59-04:00,True
+508575a37936f2eb02d63bba7b69baaeff945280,5.0.0-beta1 release,2016-09-21 20:19:56-04:00,True
+9731edef2a503beb239a9f96438a23a0436c745e,5.0.0-rc1 release,2016-10-10 11:14:20-04:00,True
+3676ce0673fa609a4f853dfe349838db9106dab1,Fixing more `api.java` vs `java.api` documentation inconsistencies.,2016-10-10 16:33:02-04:00,True
+b3b70377fbd9b8f83a47e91325e934ea7740614e,5.0.0 release,2016-10-26 08:54:11-04:00,True
+ce727d59effe12491a2c144f994c16905c3ec4d2,6.0.0-alpha-1 Release,2017-05-09 11:03:44-04:00,True
+9ae5a5dc7541924a75b8b3ac7095beb12ed93541,6.0.0-alpha2 Release,2017-06-06 10:14:38-04:00,True
+5059c2878278ee66b5c0e2df8805e98eae159030,Fixed reference to maven dependency in README (#1016),2017-07-27 16:31:51-04:00,True
+bdfcc1134f01b37a452f25852d8cfd947d5c5b18,"Remove Hadoop 1.x references from build
+
+Rectify that the deprecation for Hadoop 1.x is ONLY for the library, and that old api is still supported",2017-08-03 09:31:12-04:00,True
+c5f8465760c96d74146a1dc15fe278a2d03c9899,Changing the build suffix to be just -SNAPSHOT instead of .BUILD-SNAPSHOT,2017-09-25 16:52:53-04:00,True
+03af5238da7edb40f1dca36fedc5088c8132584c,"Update README.md (#1090)
+
+Fix typo in code sample.",2018-01-10 16:23:37-05:00,True
+0c0c0c45e2a348bd5588a55b5d861848747d7120,"fix misspelling saveToEs in Spark SQL (#1094)
+
+it should be saveToEs not saveToES",2018-01-18 13:09:24-05:00,True
+8c12524d8dcdcb175ede8c489708556311d20c51,Misc version updates,2018-02-08 14:23:40-05:00,True
+c833a0ffdfa2b4ee00f85c0c6b92c3399c4e4409,7.0.0-alpha2 release notes,2018-12-20 17:11:00-05:00,True
+cab94aded4423aad326e2688dce930babbed28af,Remove Cascading (#1235),2019-02-05 23:20:04-05:00,True
+f34b027cffa5f6630e03f5eff6ae4ced852c4b26,Add 7.0.0 Release Notes,2019-04-05 15:54:03-04:00,True
+851b22bf73f7794486aad223eb0ad03eab05d555,Set README dev version to 8.0.0-SNAPSHOT,2019-04-05 15:56:07-04:00,True
+bb97ac436d653d417d794fab4615eff64fd30cf9,Update stable version in readme (#1381),2019-10-25 11:47:54-04:00,True
+9d7f39cca80a1c6c5217d59053068aa4ecd766d3,Update README to point to 7.6.0 (#1426),2020-02-11 10:03:15-05:00,True
+417e7873f511836b198dd1bb7048feb4029bf999,"Update references to latest stable, 7.7.0 (#1451)
+
+Update README references to latest stable, 7.7.0",2020-05-13 14:33:34+02:00,True
+d0c91e2e6cf2da123df470c7f2fe2521a65afc0a,Version bump for 7.8.0 release,2020-06-18 14:07:48+01:00,True
+248f7651656803fd0c0d2fccb1dfc9caa658ec22,"Bump version in readme on master to 7.9.1 (#1524)
+
+Bump version in readme on master to 7.9.1",2020-09-03 16:23:24+02:00,True
+b110d37c6dbe8c05eff7971ffd95954c11d3312a,Bump latest version in README to 7.9.2 (#1536),2020-09-24 10:52:17-05:00,True
+42d9ab59dc2bebcf0df2b3a08e5d5be4c7b34e44,"Update references to latest stable, 7.10.0 (#1555)",2020-11-11 16:07:18+00:00,True
+0db74fdf51ef96f43b8648e6d1116a4a39469ee1,Version bumps after 7.12 feature freeze (#1606),2021-02-19 09:58:44-05:00,True
+b93f6eec7884145e3132d58fab0e33b477fc778e,Update readme with 7.13.0 release,2021-05-25 08:52:14-07:00,True
+fddb11c25c76405fa423abb4b6c1bf91faee629c,Bump version to 7.14.0 (#1732),2021-08-03 16:36:23+02:00,True
+3c7d31ba41c9df7697e98be2d8226e52571a578b,Updated stable release version after 7.14.1 release. (#1742),2021-09-01 18:32:44+02:00,True
+e4c14bcccbe90728ef12c2673c8719d5caba93de,Version bump for 7.14.2 (#1766),2021-09-21 19:21:46+02:00,True
+e125212c737e849689a9fb1ac78e7544b3d1ff97,bump version to 8.0.0,2021-10-27 11:17:20-05:00,True
+552cb7f53571fcf9e14985a58f10b87f91d94e67,Bump verison to 8.2.0,2022-02-02 12:57:23-08:00,True
+306bb394101536a1d0634e74c760614a35dabf9d,Bump version to 8.1.0,2022-03-08 17:59:26+01:00,True
+e0ef266b52303a43b529f921a4d06d667e829cac,Bump version to 8.1.2,2022-03-22 11:10:15-04:00,True
+a597158a2d1d1a46f601236d48060e20a9ed3ac1,Bump version to 8.3.0,2022-03-30 19:31:06+02:00,True
+bb576071b56de5c4b31648800750428d1fec5ec0,Bump version to 8.2.1,2022-05-24 21:30:03+04:00,True
+0607e330b27b2ebf126ad296dc73dc10ad3f138c,bump version to 8.4.0,2022-05-25 19:43:45+02:00,True
+15c602d3d9f728d1b65d4d41c7f17628a13b141b,Bump to version 8.5.0,2022-07-27 07:58:59-07:00,True
+e90ae30e6977b43eea3e08c8a2d35ba2ef43a2e4,Bump to version 8.6.0,2022-09-21 21:15:14+03:00,True
+2c364ec53b4d336c37d05b6b4d9b8a1acfc27a23,"[Refactor] buildSrc/java from legacy to opensearch namespace (#6)
+
+Refactors legacy naming to opensearch in the remaining buildSrc java
+directories.
+
+Signed-off-by: Nicholas Walter Knize <nknize@apache.org>",2022-10-24 13:14:59-05:00,True
+c137b8dd0b1d79d5b27dffdaed9f61825710fe42,"[Refactor] legacy major version class to OpenSearchMajorVersion and fix tests (#7)
+
+Refactors the legacy major version class to new OpenSearchMajorVersion and fixes
+up the tests to passing.
+
+Signed-off-by: Nicholas Walter Knize <nknize@apache.org>",2022-10-24 17:50:34-05:00,True
+642cf563346d4355e9bc8f7753b1fe52161ac9b4,"[Refactor] Hive and Pig (#13)
+
+Refactors Hive and Pig classes from legacy namespace to opensearch. Including
+resource files.
+
+Signed-off-by: Nicholas Walter Knize <nknize@apache.org>",2022-10-25 14:54:19-05:00,True
+4a938219a433403d0169f373d2d34f0f4ddf1bce,"[Refactor] spark-sql-30 from legacy to opensearch namespace (#18)
+
+Refactors classes in spark-sql-30 from legacy to opensearch namespace.
+
+Signed-off-by: Nicholas Walter Knize <nknize@apache.org>",2022-10-27 18:02:46-05:00,True
+f1d8b4a711f51310f2afb8e183510a34128fa422,"[Refactor] Storm and Test from legacy to opensearch namespace (#19)
+
+Refactors classes and resources in storm and test modules from legacy to
+opensearch namespace.
+
+Signed-off-by: Nicholas Walter Knize <nknize@apache.org>",2022-10-27 18:11:49-05:00,True
+276e2b74184448ce22505f07f6d7e96c79ba2c08,"[Refactor] Scala namespace from legacy to opensearch (#21)
+
+Refactors scala code from legacy namespace to opensearch in prep for integration
+testing.
+
+Signed-off-by: Nicholas Walter Knize <nknize@apache.org>",2022-10-28 16:00:30-05:00,True
+ae34c183ac350f226af3c8d7843f9f7183ff22b8,"[Refactor] From legacy build-tools to opensearch build-tools (#26)
+
+Refactors the build-tools dependency from legacy to opensearch build-tools.
+
+Signed-off-by: Nicholas Walter Knize <nknize@apache.org>
+Signed-off-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>
+Co-authored-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>",2022-11-09 13:59:38-06:00,True
+ebcb928b60c5e500350dfbf05308e89bc1f02fb2,"Adding opensearch project required files: Admins, Maintainers etc (#23)
+
+Signed-off-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>
+
+Signed-off-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>",2022-11-22 08:44:11-08:00,True
+e1a87fb7e10aea209e56140ae639bfd0d47d7a57,"[Refactor] First round of Versioning (#29)
+
+Initial refactoring of OpenSearchMajorVersion from legacy to OpenSearch
+versioning. This will be implemented in several phases beginning initial server
+connection support.
+
+Signed-off-by: Nicholas Walter Knize <nknize@apache.org>",2022-11-28 10:38:40-06:00,True
+2c7214e48eec539f76780720c7db2c19d0789e5f,"More ES refactoring (#32)
+
+More ES refactoring and test fixes
+
+Signed-off-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>
+Signed-off-by: Nicholas Walter Knize <nknize@apache.org>
+Co-authored-by: Nicholas Walter Knize <nknize@apache.org>",2022-12-02 17:33:48-06:00,False
+644f0809c8b92b127ee23a2c37a5e7ad30a77ccd,"[Refactor] More Es and legacy references to OpenSearch (#43)
+
+Refactors more legacy references to the OpenSearch namespace. Also fixes ivy
+repository location.
+
+Signed-off-by: Nicholas Walter Knize <nknize@apache.org>",2022-12-08 09:40:33-06:00,True
+e0531ca2d7b2de62cd51a2fca53ff7e0f69f4ed8,"[Refactor] more es and legacy references to OpenSearch (#44)
+
+Refactors more legacy naming to the OpenSearch namespace and naming conventions.
+
+Signed-off-by: Nicholas Walter Knize <nknize@apache.org>",2022-12-08 16:09:44-06:00,False
+d7302e949423c2191b167aec7ae5a902ef1216f5,"Adding docs for SigV4 support (#51)
+
+Signed-off-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>",2023-02-08 12:08:26-08:00,True
+4eea742db0ee9bcb490a7365292f95f2e4416c6e,"Adding necessary workflows (#96)
+
+* Ading necessary workflows
+
+Signed-off-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>
+
+* Update typo from java to hadoop
+
+Signed-off-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>
+
+* Remove link checker
+
+Signed-off-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>
+
+---------
+
+Signed-off-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>",2023-02-14 14:02:40-08:00,False
+216aa8b6d08e62cc2783dbbae9edbf530411d7fd,"Deprecating storm and pig (#207)
+
+Signed-off-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>",2023-05-01 15:57:26-07:00,False
+627eb1b2d4b4d40290f503d84c0eeac1697c4b1a,"Fix wrong OpenSearch version in requirements in README bug (#241) (#244)
+
+Signed-off-by: Emil Kleszcz <emil.kleszcz@cern.ch>",2023-05-24 13:56:26-07:00,True
+1ae9f39821bdb28c1b2977a74641575b9bfec663,"Fix/spark20tests (#246)
+
+* Fixes imports from being thirdparty to local
+
+Signed-off-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>
+
+* Adding info to debug
+
+Signed-off-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>
+
+* Fix param
+
+Signed-off-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>
+
+* Downgrading jackson version
+
+Signed-off-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>
+
+* Renaming remaining ES references
+
+Signed-off-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>
+
+* Fix rename method for spark
+
+Signed-off-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>
+
+* Check without scala210
+
+Signed-off-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>
+
+* Undo all dependabot commits
+
+Signed-off-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>
+
+* Undo all dependabot commits
+
+Signed-off-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>
+
+---------
+
+Signed-off-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>",2023-05-30 14:54:18-07:00,False
+bf1cd1c6ae476184b707b9f8824041d1d350e463,"Updating docs to include compatiblity and user guide (#252)
+
+Signed-off-by: Harsha Vamsi Kalluri <harshavamsi096@gmail.com>",2023-05-30 17:38:50-07:00,True

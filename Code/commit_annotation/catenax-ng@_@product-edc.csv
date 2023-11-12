@@ -1,0 +1,791 @@
+sha,message,date,result
+f03fd348c2068e1c02c6072f50eac435cf4fee42,"Init
+
+Signed-off-by: Denis Neuling <denis.neuling@daimler.com>",2022-03-29 08:43:12+02:00,FALSE
+70a3ad5ea6ff32b6115e6094d87bdc92b4533e68,Add initial documentation (#27),2022-04-14 15:24:30+02:00,FALSE
+492e834c4119d7fdd015d0b5c0430b4e636320bd,"update README.md
+
+Signed-off-by: Dominik Pinsel <dominik.pinsel@mercedes-benz.com>",2022-05-05 10:05:19+02:00,TRUE
+a02601306fed39a88a3b3b18fae98b80791157b9,Milestone 3 Docu (#132),2022-05-13 17:34:23+02:00,FALSE
+861afa06ccaf378b5a14ea89fb485221fac060b1,Release version 0.0.1 (#135),2022-05-13 17:58:07+02:00,FALSE
+3485bd73082101fe660bb68c3de4381b41aa5d37,Remove edc-controlplane-cosmosdb (#184),2022-06-07 11:25:56+02:00,FALSE
+e4c1b89383ec52cf19cf4182e3c1d1fe944ed4f8,Add hashicorp vault extension only with Token Auth (#175),2022-06-09 16:49:45+02:00,FALSE
+c713c2b6ca87a5f9ad891025de285e093cc90369,Release version 0.0.4 (#230),2022-06-27 14:15:32+02:00,FALSE
+bd4a6765910124ed8d01ee49c95b813e6c8aa1f1,update documentation (#231),2022-07-07 12:02:30+02:00,FALSE
+dc4b40c547b8412e0166497e712f335766b3d11a,Release version 0.0.5 (#306),2022-07-28 11:45:45+02:00,FALSE
+e9a9b2de60eb30cf06bb30328b0adeb746a23862,Update product-edc to use EDC version v0.0.1-milestone-5 (#302),2022-08-08 13:10:26+02:00,TRUE
+549bb0a21d33334c55945e02edbe4e30edd06434,Release version 0.1.0 (#361),2022-08-19 11:50:21+02:00,TRUE
+e10f01acc37e98ab4d64b419f0997c28e4167c65,update README.md (#391),2022-09-06 10:21:37+02:00,TRUE
+846473b8539327daca3fc54ed5e08e9a69014566,update edc commit to 740c100ac162bc41b1968c232ad81f7d739aefa9 and resolve build errors (#431),2022-09-26 15:48:43+02:00,TRUE
+aedbf25ff6d319aa53b3fde429f329d3c5df3bc6,Release version 0.1.2 (#441),2022-09-30 15:29:21+02:00,TRUE
+c1b8affe8348ccaebb04d3ee080770341cb593e7,Add windows command in README.md for EDC Submodule dependencies (#447),2022-10-04 11:50:15+02:00,TRUE
+194c6040addcd247442ebbd8b49722329e9923b1,Release version 0.1.3 (#571),2022-11-30 16:58:37+01:00,TRUE
+b269bc3e26d7c388b291901fa83f0087874573bd,update link to edc logo in README.md (#612),2022-12-20 11:10:06+01:00,FALSE
+35fd3426dd60b6e11de85da030514f26c9951742,Local TXDC Setup Documentation (#618),2022-12-21 14:04:16+01:00,FALSE
+a0c7ab8b46afd6d234a7b7eb0e063d313bf85641,remove git submodule (#619),2022-12-21 14:53:15+01:00,TRUE
+90e4cbfe3a8ec456bcb563077ceb141dc363a76f,Fix not working docu link in README.md,2023-01-16 09:16:50+01:00,FALSE
+67063087401a4b62d63125aba7143a6649c8b0b8,"Release version 0.3.0 (#768)
+
+* Bump logback-classic from 1.4.3 to 1.4.4 (#464)
+
+* Bump logback-core from 1.4.3 to 1.4.4 (#463)
+
+* feat(controlplane): support additional volumes (#467)
+
+* Make veracode scan nightly (#468)
+
+* Update veracode scan matrix action to have a dedicated version per matrix build (#469)
+
+* Fix zip step required veracode upload (#470)
+
+* Fix zip step for veracode (#471)
+
+* Replace zip step by tar gz step (#472)
+
+* Oauth2 Unit Tests (#473)
+
+> Shouldn't we switch back to the upstream oauth2 module since they are feature-equivalent right now? That happened with this PR: [eclipse-dataspaceconnector/DataSpaceConnector#2000](https://github.com/eclipse-dataspaceconnector/DataSpaceConnector/pull/2000)
+> 
+> On the upstream the code is already well covered with tests.
+> 
+> Will come up with a dedicated PR
+
+As long as we have and support our custom oauth2-extension and as someone volunteered to write test we should merge them. But yeah, going back to an equivalent oauth2 extension coming from upstream is desired.
+
+* Bump mikefarah/yq from 4.28.1 to 4.28.2 (#480)
+
+* Upgrade jackson dependencies to version 2.14.0-rc2 (#483)
+
+* Bump mockito-bom from 4.8.0 to 4.8.1 (#479)
+
+* Bump actions/setup-java from 3.5.1 to 3.6.0 (#478)
+
+* add one more example call for Release.md Dash (#482)
+
+* remove exuaa extension (#481)
+
+* Remove xsuaa-authenticator from edc-tests (#484)
+
+* Bump flyway-core from 9.4.0 to 9.5.1 (#488)
+
+* add CONTRIBUTING.md (#487)
+
+* add code of conduct (#486)
+
+* change package from net.catenx to org.eclipse.tractusx (#398)
+
+* Upgrade docker jre version to openjdk11-jre-headless-11.0.17_p8-r0 (#489)
+
+* chore: switch back to upstream oauth2 module (#475)
+
+* remove IN policy operator support for BPN extension (#485)
+
+* Bump gson from 2.9.1 to 2.10 (#491)
+
+* Bump flyway-core from 9.5.1 to 9.6.0 (#492)
+
+* Feature/update foss docs (#490)
+
+* Update dockerfile package version openjdk11-jre-headless=11.0.17_p8-r1 (#502)
+
+* Bump azure/setup-helm from 3.3 to 3.4 (#495)
+
+* update dependencies (#501)
+
+* Bump cucumber.version from 7.8.1 to 7.9.0 (#499)
+
+* Bump mikefarah/yq from 4.28.2 to 4.29.2 (#497)
+
+* Bump flyway-core from 9.6.0 to 9.7.0 (#504)
+
+* allow sub directories in hashcorp vault extension (#503)
+
+* control-plane-adapter extension - PR remarks changes + authorization fix
+
+* Add custom Labels to helm-charts. (#506)
+
+* control-plane-adapter extension - adjustement to external changes
+
+(cherry picked from commit 3e246c49fd09105f547c82e3d4eb3acc9cbd6a98)
+
+* Bump mikefarah/yq from 4.29.2 to 4.30.1 (#513)
+
+* Bump flyway-core from 9.7.0 to 9.8.0 (#514)
+
+* 189 - add e2e test for s3 file transfer (#510)
+
+* Bump flyway-core from 9.8.0 to 9.8.1 (#517)
+
+* Bump alpine (#521)
+
+* Bump alpine (#522)
+
+* control-plane-adapter extension - refactor after pr
+
+(cherry picked from commit 80e3e7ed2f1b65bb121b91629666dc88ddec5ff9)
+
+* Bump alpine in /edc-controlplane/edc-controlplane-memory/src/main/docker (#523)
+
+* Bump alpine (#520)
+
+* Bump alpine in /edc-dataplane/edc-dataplane-azure-vault/src/main/docker (#519)
+
+* Bump s3 from 2.18.1 to 2.18.16 (#518)
+
+* Bump mikefarah/yq from 4.30.1 to 4.30.2 (#516)
+
+* control-plane-adapter extension - refactor after pr
+
+* control-plane-adapter extension - diagram update
+
+* Bump s3 from 2.18.16 to 2.18.17 (#527)
+
+* Bump mikefarah/yq from 4.30.2 to 4.30.4 (#525)
+
+* Bump mockito-bom from 4.8.1 to 4.9.0 (#526)
+
+* Bump s3 from 2.18.17 to 2.18.18 (#528)
+
+* Bump org.testcontainers.version from 1.17.4 to 1.17.6 (#532)
+
+* Bump flyway-core from 9.8.1 to 9.8.2 (#536)
+
+* Bump s3 from 2.18.18 to 2.18.20 (#534)
+
+* Bump rest-assured from 5.2.0 to 5.3.0 (#535)
+
+* Remove xsuaa-authenticator from edc-tests and dependencyManagement (#537)
+
+* Bump logback-classic from 1.4.4 to 1.4.5 (#540)
+
+* Bump logback-core from 1.4.4 to 1.4.5 (#538)
+
+* Bump s3 from 2.18.20 to 2.18.21 (#539)
+
+* Bump s3 from 2.18.21 to 2.18.22 (#543)
+
+* Bump s3 from 2.18.22 to 2.18.23 (#545)
+
+* Bump azure-sdk-bom from 1.2.6 to 1.2.8 (#544)
+
+* Bump postgresql from 42.5.0 to 42.5.1 (#553)
+
+* Remove @Setting annotation due to broken dependency to edc runtime-metamodel (#558)
+
+* Bump flyway-core from 9.8.2 to 9.8.3 (#556)
+
+* Bump mikefarah/yq from 4.30.4 to 4.30.5 (#560)
+
+* Bump s3 from 2.18.23 to 2.18.25 (#559)
+
+* Bump s3 from 2.18.25 to 2.18.26 (#561)
+
+* Bump spotless-maven-plugin from 2.27.2 to 2.28.0 (#557)
+
+* Update alpine image to version 3.17.0 and openjdk11-jre-headless to version 11.0.17_p8-r3 (#562)
+
+* Explicitly disable docker healthcheck (#563)
+
+* Add edc-controlplane-memory-hashicorp-vault (#564)
+
+* Feature/prep release 0.1.3 (#566)
+
+* remove BPNs part from postman (#568)
+
+* update transfer md (#567)
+
+* Introduce tractusx-connector helm chart (#541)
+
+* Fix github step helm-lint (#569)
+
+* disable postgresql in charts/tractusx-connector per default (#570)
+
+* Bump s3 from 2.18.26 to 2.18.28 (#573)
+
+* Bump maven-dependency-plugin from 3.3.0 to 3.4.0 (#572)
+
+* Fix typos in tractusx-connector helm chart (#574)
+
+* add business test for http proxy transfer (#565)
+
+* Bump s3 from 2.18.28 to 2.18.29 (#576)
+
+* Bump actions/setup-java from 3.6.0 to 3.7.0 (#575)
+
+* Bump EDC version to 20221018 (#494)
+
+* Fix envFrom in tractusx helm chart (#580)
+
+* Update actions setup-java to version 3.8.0 (#584)
+
+* Bump httpclient from 4.5.13 to 4.5.14 (#583)
+
+* bump edc version to 0.1.1-20221201-SNAPSHOT (#585)
+
+* Bump s3 from 2.18.29 to 2.18.32 (#586)
+
+* Bump s3 from 2.18.32 to 2.18.33 (#589)
+
+* Bump flyway-core from 9.8.3 to 9.10.0 (#591)
+
+* Bump cucumber.version from 7.9.0 to 7.10.0 (#594)
+
+* Bump s3 from 2.18.33 to 2.18.35 (#593)
+
+* Bump thomaseizinger/create-pull-request from 1.2.2 to 1.3.0 (#592)
+
+* Bump azure/setup-kubectl from 3.0 to 3.1 (#581)
+
+* Bump helm/kind-action from 1.4.0 to 1.5.0 (#597)
+
+* Hotfix 0.1.4
+
+Signed-off-by: Denis Neuling <denis.neuling@mercedes-benz.com>
+
+* Handle OrConstraint (#595)
+
+* Align custom-jsonld module to use edc @ 0.0.1-20221201-SNAPSHOT (#604)
+
+* Bump s3 from 2.18.35 to 2.18.39 (#606)
+
+* Feature: Sftp Provisioner and Client (#554)
+
+* Add sftp provisioner and client
+Signed-off-by: Brendan Cronin <brendan.cronin@mercedes-benz.com>
+Co-authored-by: Denis Neuling <denis.neuling@mercedes-benz.com>
+
+* Bump actions/setup-java from 3.8.0 to 3.9.0 (#605)
+
+* Bump flyway-core from 9.10.0 to 9.10.1 (#610)
+
+* Bump s3 from 2.18.39 to 2.18.40 (#609)
+
+* Bump mockito-bom from 4.9.0 to 4.10.0 (#607)
+
+* Bump actions/checkout from 3.1.0 to 3.2.0 (#598)
+
+* Bump azure/setup-helm from 3.4 to 3.5 (#596)
+
+* Bump s3 from 2.18.40 to 2.18.41 (#615)
+
+* update description  of supporting infrastructure deployment (#616)
+
+* update link to edc logo in README.md (#612)
+
+* update postgresql version in Chart.yaml supporting-infrastructure (#622)
+
+* Bump cucumber.version from 7.10.0 to 7.10.1 (#614)
+
+* Bump mikefarah/yq from 4.30.5 to 4.30.6 (#613)
+
+* update control plane docu (#623)
+
+* Local TXDC Setup Documentation (#618)
+
+* Feature/update postman (#624)
+
+* remove git submodule (#619)
+
+* Bump s3 from 2.18.41 to 2.19.1 (#626)
+
+* Feature/update txdc deployment downward capabilities (#625)
+
+* update setup docu (#627)
+
+* Add validity attribute in class ContractDefinition
+
+* Add feature and create SendAnOfferwithoutConstraints method in class negotiationSteps
+
+* Add Validity Mapping in ContractDefinitionStepDefs class
+
+* Correct format testing
+
+* Feature/set charts deprecated (#628)
+
+* Bump s3 from 2.19.1 to 2.19.2 (#631)
+
+* Bump flyway-core from 9.10.1 to 9.10.2 (#632)
+
+* Remove ""counter offer"" Method an testcase call
+
+* Add validity attribute in class ContractDefinition
+
+* Add feature and create SendAnOfferwithoutConstraints method in class negotiationSteps
+
+* Add Validity Mapping in ContractDefinitionStepDefs class
+
+* Correct format testing
+
+* Remove ""counter offer"" Method an testcase call
+
+* Bump mockito-bom from 4.10.0 to 4.11.0 (#637)
+
+* Bump spotless-maven-plugin from 2.28.0 to 2.29.0 (#641)
+
+* Bump flyway-core from 9.10.2 to 9.11.0 (#646)
+
+* Bump actions/checkout from 3.2.0 to 3.3.0 (#647)
+
+* Bump s3 from 2.19.2 to 2.19.11 (#648)
+
+* remove trailing slash (#652)
+
+* Bump junit-bom from 5.9.1 to 5.9.2 (#657)
+
+* Bump azure/setup-kubectl from 3.1 to 3.2 (#655)
+
+* Bump alpine (#662)
+
+* Bump alpine (#661)
+
+* Bump alpine (#658)
+
+* Bump alpine in /edc-dataplane/edc-dataplane-azure-vault/src/main/docker (#660)
+
+* Feature/cp adapter task 355 356 357 (#621)
+
+* Bump alpine in /edc-controlplane/edc-controlplane-memory/src/main/docker (#659)
+
+* update alpine from 3.17.0 to 3.17.1 for controlplane-memory-hashicorp-vault (#665)
+
+* Bump edc version to 0.0.1-20230109-SNAPSHOT (#666)
+
+* cp-adapter : code review, rollbacke name change (#664)
+
+* update setup docu (#654)
+
+* Bump maven-surefire-plugin from 3.0.0-M7 to 3.0.0-M8 (#670)
+
+* Bump s3 from 2.19.11 to 2.19.15 (#668)
+
+* Bump maven-dependency-plugin from 3.4.0 to 3.5.0 (#669)
+
+* Bump cucumber.version from 7.10.1 to 7.11.0 (#672)
+
+* Fix typo in control-plane adapter README
+
+* Fix not working docu link in README.md
+
+* Fix typo in tractusx-connector values.yaml comment
+
+* Bump edc version to 0.0.1-20230115-SNAPSHOT
+
+* Bump spotless-maven-plugin from 2.29.0 to 2.30.0
+
+Bumps [spotless-maven-plugin](https://github.com/diffplug/spotless) from 2.29.0 to 2.30.0.
+- [Release notes](https://github.com/diffplug/spotless/releases)
+- [Changelog](https://github.com/diffplug/spotless/blob/main/CHANGES.md)
+- [Commits](https://github.com/diffplug/spotless/compare/lib/2.29.0...lib/2.30.0)
+
+---
+updated-dependencies:
+- dependency-name: com.diffplug.spotless:spotless-maven-plugin
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Remove not useful anymore custom-jsonld extension (#683)
+
+* Bump mikefarah/yq from 4.30.6 to 4.30.8 (#682)
+
+* Bump s3 from 2.19.15 to 2.19.18 (#684)
+
+* Configure dynamically HTTP Receiver callback endpoints. (#685)
+
+* Bump flyway-core from 9.11.0 to 9.12.0
+
+Bumps [flyway-core](https://github.com/flyway/flyway) from 9.11.0 to 9.12.0.
+- [Release notes](https://github.com/flyway/flyway/releases)
+- [Commits](https://github.com/flyway/flyway/commits)
+
+---
+updated-dependencies:
+- dependency-name: org.flywaydb:flyway-core
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* add hydra deployment
+
+* Add client to omejdn
+
+* Add test case
+
+* Add documentation
+
+* Introduce typed object for oauth2 provisioning
+
+* Increase trivy timeout
+
+* Bump edc version to 0.0.1-20230125-SNAPSHOT
+
+* Bump mockito-bom from 4.11.0 to 5.0.0
+
+Bumps [mockito-bom](https://github.com/mockito/mockito) from 4.11.0 to 5.0.0.
+- [Release notes](https://github.com/mockito/mockito/releases)
+- [Commits](https://github.com/mockito/mockito/compare/v4.11.0...v5.0.0)
+
+---
+updated-dependencies:
+- dependency-name: org.mockito:mockito-bom
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump nimbus-jose-jwt from 9.28 to 9.29
+
+Bumps [nimbus-jose-jwt](https://bitbucket.org/connect2id/nimbus-jose-jwt) from 9.28 to 9.29.
+- [Changelog](https://bitbucket.org/connect2id/nimbus-jose-jwt/src/master/CHANGELOG.txt)
+- [Commits](https://bitbucket.org/connect2id/nimbus-jose-jwt/branches/compare/9.29..9.28)
+
+---
+updated-dependencies:
+- dependency-name: com.nimbusds:nimbus-jose-jwt
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump spotless-maven-plugin from 2.30.0 to 2.31.0
+
+Bumps [spotless-maven-plugin](https://github.com/diffplug/spotless) from 2.30.0 to 2.31.0.
+- [Release notes](https://github.com/diffplug/spotless/releases)
+- [Changelog](https://github.com/diffplug/spotless/blob/main/CHANGES.md)
+- [Commits](https://github.com/diffplug/spotless/compare/lib/2.30.0...lib/2.31.0)
+
+---
+updated-dependencies:
+- dependency-name: com.diffplug.spotless:spotless-maven-plugin
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump nimbus-jose-jwt from 9.29 to 9.30
+
+Bumps [nimbus-jose-jwt](https://bitbucket.org/connect2id/nimbus-jose-jwt) from 9.29 to 9.30.
+- [Changelog](https://bitbucket.org/connect2id/nimbus-jose-jwt/src/master/CHANGELOG.txt)
+- [Commits](https://bitbucket.org/connect2id/nimbus-jose-jwt/branches/compare/9.30..9.29)
+
+---
+updated-dependencies:
+- dependency-name: com.nimbusds:nimbus-jose-jwt
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* chore: Disable build ci pipeline if just docu was updated (#705)
+
+* docs: Update sample documentation (#671)
+
+Co-authored-by: Florian Rusch (ZF Friedrichshafen AG) <florian.rusch.external@zf.com>
+
+* Bump docker/build-push-action from 3 to 4
+
+Bumps [docker/build-push-action](https://github.com/docker/build-push-action) from 3 to 4.
+- [Release notes](https://github.com/docker/build-push-action/releases)
+- [Commits](https://github.com/docker/build-push-action/compare/v3...v4)
+
+---
+updated-dependencies:
+- dependency-name: docker/build-push-action
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump s3 from 2.19.18 to 2.19.27
+
+Bumps s3 from 2.19.18 to 2.19.27.
+
+---
+updated-dependencies:
+- dependency-name: software.amazon.awssdk:s3
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump edc version to 0.0.1-20230131-SNAPSHOT
+
+* Bump mockito-bom from 5.0.0 to 5.1.1
+
+Bumps [mockito-bom](https://github.com/mockito/mockito) from 5.0.0 to 5.1.1.
+- [Release notes](https://github.com/mockito/mockito/releases)
+- [Commits](https://github.com/mockito/mockito/compare/v5.0.0...v5.1.1)
+
+---
+updated-dependencies:
+- dependency-name: org.mockito:mockito-bom
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump azure-sdk-bom from 1.2.8 to 1.2.9
+
+Bumps [azure-sdk-bom](https://github.com/azure/azure-sdk-for-java) from 1.2.8 to 1.2.9.
+- [Release notes](https://github.com/azure/azure-sdk-for-java/releases)
+- [Commits](https://github.com/azure/azure-sdk-for-java/compare/azure-sdk-bom_1.2.8...azure-sdk-bom_1.2.9)
+
+---
+updated-dependencies:
+- dependency-name: com.azure:azure-sdk-bom
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump cucumber.version from 7.11.0 to 7.11.1
+
+Bumps `cucumber.version` from 7.11.0 to 7.11.1.
+
+Updates `cucumber-java` from 7.11.0 to 7.11.1
+- [Release notes](https://github.com/cucumber/cucumber-jvm/releases)
+- [Changelog](https://github.com/cucumber/cucumber-jvm/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/cucumber/cucumber-jvm/compare/v7.11.0...v7.11.1)
+
+Updates `cucumber-junit-platform-engine` from 7.11.0 to 7.11.1
+- [Release notes](https://github.com/cucumber/cucumber-jvm/releases)
+- [Changelog](https://github.com/cucumber/cucumber-jvm/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/cucumber/cucumber-jvm/compare/v7.11.0...v7.11.1)
+
+---
+updated-dependencies:
+- dependency-name: io.cucumber:cucumber-java
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+- dependency-name: io.cucumber:cucumber-junit-platform-engine
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump jackson-bom from 2.14.0-rc2 to 2.14.2
+
+Bumps [jackson-bom](https://github.com/FasterXML/jackson-bom) from 2.14.0-rc2 to 2.14.2.
+- [Release notes](https://github.com/FasterXML/jackson-bom/releases)
+- [Commits](https://github.com/FasterXML/jackson-bom/compare/jackson-bom-2.14.0-rc2...jackson-bom-2.14.2)
+
+---
+updated-dependencies:
+- dependency-name: com.fasterxml.jackson:jackson-bom
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump flyway-core from 9.12.0 to 9.14.1
+
+Bumps [flyway-core](https://github.com/flyway/flyway) from 9.12.0 to 9.14.1.
+- [Release notes](https://github.com/flyway/flyway/releases)
+- [Commits](https://github.com/flyway/flyway/commits/flyway-9.14.1)
+
+---
+updated-dependencies:
+- dependency-name: org.flywaydb:flyway-core
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump lombok from 1.18.24 to 1.18.26
+
+Bumps [lombok](https://github.com/projectlombok/lombok) from 1.18.24 to 1.18.26.
+- [Release notes](https://github.com/projectlombok/lombok/releases)
+- [Changelog](https://github.com/projectlombok/lombok/blob/master/doc/changelog.markdown)
+- [Commits](https://github.com/projectlombok/lombok/compare/v1.18.24...v1.18.26)
+
+---
+updated-dependencies:
+- dependency-name: org.projectlombok:lombok
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump nimbus-jose-jwt from 9.30 to 9.30.1
+
+Bumps [nimbus-jose-jwt](https://bitbucket.org/connect2id/nimbus-jose-jwt) from 9.30 to 9.30.1.
+- [Changelog](https://bitbucket.org/connect2id/nimbus-jose-jwt/src/master/CHANGELOG.txt)
+- [Commits](https://bitbucket.org/connect2id/nimbus-jose-jwt/branches/compare/9.30.1..9.30)
+
+---
+updated-dependencies:
+- dependency-name: com.nimbusds:nimbus-jose-jwt
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump postgresql from 42.5.1 to 42.5.3
+
+Bumps [postgresql](https://github.com/pgjdbc/pgjdbc) from 42.5.1 to 42.5.3.
+- [Release notes](https://github.com/pgjdbc/pgjdbc/releases)
+- [Changelog](https://github.com/pgjdbc/pgjdbc/blob/REL42.5.3/CHANGELOG.md)
+- [Commits](https://github.com/pgjdbc/pgjdbc/compare/REL42.5.1...REL42.5.3)
+
+---
+updated-dependencies:
+- dependency-name: org.postgresql:postgresql
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump spotless-maven-plugin from 2.31.0 to 2.32.0
+
+Bumps [spotless-maven-plugin](https://github.com/diffplug/spotless) from 2.31.0 to 2.32.0.
+- [Release notes](https://github.com/diffplug/spotless/releases)
+- [Changelog](https://github.com/diffplug/spotless/blob/main/CHANGES.md)
+- [Commits](https://github.com/diffplug/spotless/compare/lib/2.31.0...lib/2.32.0)
+
+---
+updated-dependencies:
+- dependency-name: com.diffplug.spotless:spotless-maven-plugin
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump jaxb-runtime from 4.0.1 to 4.0.2
+
+Bumps jaxb-runtime from 4.0.1 to 4.0.2.
+
+---
+updated-dependencies:
+- dependency-name: org.glassfish.jaxb:jaxb-runtime
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump s3 from 2.19.27 to 2.19.33
+
+Bumps s3 from 2.19.27 to 2.19.33.
+
+---
+updated-dependencies:
+- dependency-name: software.amazon.awssdk:s3
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Replace provision-oauth2 with data-plane-http-oauth2
+
+* Bump s3 from 2.19.33 to 2.20.0
+
+Bumps s3 from 2.19.33 to 2.20.0.
+
+---
+updated-dependencies:
+- dependency-name: software.amazon.awssdk:s3
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Support also support releases in ci pipeline
+
+* Bump actions/setup-java from 3.9.0 to 3.10.0 (#730)
+
+* Bump maven-deploy-plugin from 3.0.0 to 3.1.0 (#735)
+
+* chore: Copy over version 0.1.5 release note file
+
+* Add contract id to data source http call (#732)
+
+* Implement first version of the provision-additional-header extension
+
+* Give header a better shape
+
+* Refactor
+
+* Apply spotless
+
+* Cover edge cases
+
+* PR remarks
+
+* PR remark
+
+* spotless whim
+
+* Remove unused dependencies
+
+* Add missing json type name to resource definition class
+
+* Register types
+
+* bugfix: Fix slow AES encryption (#746)
+
+* bugfix: Fix slow AES encryption
+
+* Fix copyright headers
+
+* Bump alpine in /edc-controlplane/edc-controlplane-memory/src/main/docker (#753)
+
+* Bump alpine (#752)
+
+* Bump alpine (#750)
+
+* Use upstream jackson version (#741)
+
+* Bump alpine (#749)
+
+* Support horizontal edc scaling in cp adapter extension (#678)
+
+Co-authored-by: marcingajek-zf <maaarcin@onet.pl>
+
+* Bump EDC to 20220220 (#767)
+
+* Prepare release 0.3.0
+
+* Update CHANGELOG
+
+---------
+
+Signed-off-by: Denis Neuling <denis.neuling@mercedes-benz.com>
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: Marco Lecheler <marco@task.media>
+Co-authored-by: Denis Neuling <denis.neuling@mercedes-benz.com>
+Co-authored-by: Dominik-Pinsel <dominik.pinsel@daimler.com>
+Co-authored-by: ndr_brt <andrea.bertagnolli@gmail.com>
+Co-authored-by: marcingajek-zf <maaarcin@onet.pl>
+Co-authored-by: marcingajek-zf <102966861+marcingajek-zf@users.noreply.github.com>
+Co-authored-by: Tuncay Tunc (ZF Friedrichshafen AG) <100704677+tuncaytunc-zf@users.noreply.github.com>
+Co-authored-by: maciejkizlich-zf <102966398+maciejkizlich-zf@users.noreply.github.com>
+Co-authored-by: GitHub actions <noreply@github.com>
+Co-authored-by: Florian Rusch (ZF Friedrichshafen AG) <florian.rusch.external@zf.com>
+Co-authored-by: bcronin90 <90203222+bcronin90@users.noreply.github.com>
+Co-authored-by: Diego Gomez <diego.gomez.external@zf.com>
+Co-authored-by: Diego Alejandro Gómez Pardo (ZF Friedrichshafen AG) <97615391+diegogomez-zf@users.noreply.github.com>
+Co-authored-by: Tuncay Tunc <tuncay.tunc.external@zf.com>",2023-02-20 18:12:53+01:00,TRUE
+cf0a86551ed0361f5efd07580ede82e7b1107d99,use gradle in documentation,2023-03-15 10:45:05+01:00,TRUE
+22146c3c79309cda52a362214d9fc2e592d2107f,Add Deprecation message (#822),2023-03-21 08:50:59+01:00,TRUE

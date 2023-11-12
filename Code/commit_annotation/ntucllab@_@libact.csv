@@ -1,0 +1,76 @@
+sha,message,date,result
+61f78a403f6043926c8876a68faec9c80f8c2800,init,2014-09-26 20:46:40+08:00,False
+6b1c6fb770d4790a9ce2512ea112629cbb23fdb2,write about examples in README,2014-12-22 00:57:53+08:00,False
+c973991fb70da48c11e810ba7d3ae79272d9bebe,add usage examples for example script in readme,2014-12-27 15:26:12+00:00,False
+9c12c628065ffbf8eb48149f385833891b7e64ee,fix example in README,2015-01-25 18:40:25+08:00,False
+0504ab2b27bdb7488d9dd9ccf3eff2264a2a847c,fix example in README,2015-03-12 02:03:41+08:00,False
+71f95b0451308338730e8ec0fd7c282220c6cd93,add status badge to README,2015-05-17 09:25:48+00:00,False
+8aa652f9f62e74834bd13143367959cc8fc4ab98,add usage in README for hintsvm,2015-11-07 17:26:24+08:00,False
+cb2f01b4b7aec8778e55b79d26e0ef598ad28019,Update README.md with installation instructions.,2015-11-17 08:28:47+00:00,True
+a486c8ad36e4d0814fd20360d605af2d0592da18,"readme: generalized envvar setup, styles",2015-12-02 22:36:25+08:00,False
+d1d62505024f518c0c1b18a4e14dc49ec867e311,readme: remove CI label,2015-12-07 01:25:46+08:00,False
+a154784ff299e18dbd11492742b149d7637c72fe,update plot.py description,2015-12-08 23:49:12+08:00,False
+39a05074597aba978da72a65783dcfbc903954c4,Use requirements.txt instead.,2015-12-09 18:24:35+08:00,True
+296763bb4f916c5cb95aa7b8bda8ec124118c0c0,Homebrew's openblas is in homebrew/science.,2015-12-09 18:33:28+08:00,True
+9d15cb19d8f87751e93748b57d3e62e2d4cf25da,Update README.md,2015-12-16 02:21:12+08:00,False
+eb3c512cb7f2be6182691028643ea05932881c39,readme: update linux dependencies,2015-12-17 02:59:06+08:00,True
+5959d15df0cd4c1a17f928134aac96ef1f4342f9,readme: update hintsvm url,2015-12-17 16:31:38+08:00,False
+481280d6dc7c9842d0d820dadca1b35f9cff4378,readme: add travis badge,2015-12-17 23:53:34+08:00,False
+8d33d3e2a77d46fafacb9d1290889e9559ae1813,Update plot.py description with labeler.,2015-12-26 21:38:05+08:00,False
+85dda7f94697b02908cce458a26f53db668d0f0f,add introduction,2015-12-31 14:51:35+08:00,False
+4a2354fa317d72a1d2552e9abeb2686c67e110bd,add introduction,2015-12-31 14:53:10+08:00,False
+6ebe7d2d5ec3f82e17b16277f0482528707b1844,minor wording changes,2015-12-31 14:57:57+08:00,False
+79c855f64bf63b76ba6a371f641d32c141c1a80a,add authors and ack,2015-12-31 15:02:39+08:00,False
+e198bbae77eac8fa569cba97e564a2b092e8cc69,move HintSVM to installation,2015-12-31 15:07:19+08:00,True
+809cff86cd82c8a11a32389756ab1eff9858f179,beautify author part,2015-12-31 15:11:05+08:00,False
+747f9238a74bbfc79e59e8d9d7f4fed212857235,add temp contact window,2015-12-31 15:15:25+08:00,False
+b61dc194bf7495df91f45b5301a9ddda419106b8,add citation point,2015-12-31 15:18:15+08:00,False
+fe2eeea78f6cf5befe2f4d127062200f926eae11,also say about citing original work,2015-12-31 15:21:02+08:00,False
+927152428beef6ce4772b4e3942472039289654f,spell check and smoothing of examples,2015-12-31 15:27:12+08:00,True
+80df095a1c7deee2efc6a08daab5189d05d1906c,usage minor fix,2015-12-31 15:29:01+08:00,False
+b99dcf23403c8c2c70b269c862623d5fd90a52e1,readme: fix python code block,2015-12-31 15:45:01+08:00,False
+9f5495ed7d63d0f0a1b45e4526a6ea52b794ea2f,added python3-dev as dependency,2016-03-02 17:16:45+08:00,True
+cb2124dda282b09fae9fac7acdd86c71b6835a74,Added readthedocs badge to README.md,2016-03-06 17:01:15+08:00,False
+f63d43ecaa4cb1274d813d9ba27927430645cbd4,Add pypi badge to README.md,2016-03-07 13:34:58+08:00,False
+2a7322533d2854f646ddb1a20c9ac47b6c4f8168,Update README.md,2016-03-12 19:02:37+08:00,False
+e359a82e90aed297eca7d89011c8f554ae28c8fc,update hinsvm descriptions since we can auto install hintsvm now,2016-03-13 17:45:19+08:00,True
+b217135b08c1abb0d439ddf9d3bc83dd1bd90a96,update pip installation,2016-03-13 20:46:32+08:00,True
+0003a275283233295aef326084840472e820c560,update pip installation in README.md,2016-03-13 20:48:27+08:00,True
+bdb55b85a2615e08014711014615dfa9f6dd585e,added codecov badge,2016-04-25 17:23:48+08:00,False
+fd53d5a1619db1e71445fe0f409550126aeb03fe,add documentation link to README,2016-04-25 17:30:17+08:00,False
+47dc55a8daf15341dd5777e6510a5f60c3f637cb,"Update README.md with latest information
+
+Removed installation of HintSVM since is is included in setup.py now
+Update dependency since Python2 are supported
+Add instructions for running tests",2016-05-04 22:17:49+08:00,True
+f1bf3558d83ff1a3637b236b4cf08eb5418a8117,added the description for albl example in README.md,2016-05-31 22:55:19+08:00,False
+84837b4a365852fa0cbcf39441d7dc0b24615965,polish README,2016-06-09 06:23:46+08:00,False
+bb61c52f952728fdb8ec19f02fd90ca2c51f2a9e,Simplify macOS installation,2016-09-07 18:00:09+08:00,True
+99e3483cc730f2ad6108384e23f3518801bf4c3e,update README.md with new examples,2017-02-17 09:43:00+08:00,False
+6bf15e1d485e8161197e087421c520978691bc0f,update documentations,2017-02-17 17:09:54+08:00,False
+99be02d2282d4292a98f511cf60af3554ecf519d,FIX a typo in README.md's example section,2017-02-17 17:17:29+08:00,False
+edede7bc1cebe65b26658db7a05d18672c6a63c2,update author list,2017-04-05 12:42:05+08:00,False
+8eaf295893070aceb1d3cbd0ffd3928d7253d2b9,add documentation section to readme,2017-04-09 16:06:40+08:00,False
+d0cad0778c018a6ad304ea48a1da872db590f296,move bibtex to citing section,2017-04-09 16:18:21+08:00,False
+f43a744ff07d5d77b383eb49bafc7642686783a2,Move documentation section to the start of README,2017-04-10 15:31:54+08:00,False
+0e605fe89c3cd6b35c6bea175cb3d487c726fbd1,"Use `brew install openblas` for macOS dependency
+
+Brew maintainers have deprecated `homebrew/science/openblas` package,
+```sh
+$❯ brew info homebrew/science/openblas
+Warning: Use openblas instead of deprecated homebrew/science/openblas
+…
+```
+This commit updated the README.md with updated instruction for managing
+dependencies on macOS, i.e. use `brew install openblas`",2017-08-17 11:10:35-04:00,True
+06b8ba319daf5313c5d443a6c0e14df6f3c3275e,Pointing bibtex entry to arxiv article,2017-10-02 21:18:12-07:00,False
+f4c6ddf7c6ca0f14bd9839978af8174e44760843,change article to tech report,2017-10-09 17:56:28-07:00,False
+66fc811c72536a035b165e0355c89abe3c9f92f6,Update README.md,2017-10-12 10:33:35-07:00,False
+872d26f7995986f8009815c49d870237c0dd94e5,Update README.md,2017-10-12 22:55:45-05:00,False
+43a07b5e8dfc0db639dca2848ad8822a991de4dc,Update README.md,2017-10-12 22:56:43-05:00,False
+6edc4e4cf3c2ed91ef5d2f57759f53645644628c,update installation option so people can install libact without install C-extensions,2019-05-05 16:12:07-07:00,True
+6b380e246b3d3b1c858ea0979a4d9bf6033279d5,remove unneeded requirements and update README with the build env variable,2019-06-20 20:24:22-07:00,True
+e3deb69387cf82e322cbe9b0f5cfe1ea78a037aa,update Python 3.6 as supported in README,2019-06-20 21:13:28-07:00,True
+b56593c1f0213e10c0b4a95fff25b9d31e5fadd0,remove week star badge since the site seems down,2019-09-16 11:12:23-07:00,False
+9394e60c7d72b43acd571bce6a082447feecfff2,Update README.md,2020-05-30 15:42:33-07:00,False
+2432b512bca3bdf97df6d2d7c40c5ffba5b46094,Update README.md,2020-05-30 15:42:50-07:00,False

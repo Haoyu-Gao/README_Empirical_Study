@@ -1,0 +1,46 @@
+sha,message,date,result
+cc27a40f09e19aef03b01ef5e65aa0562a12779d,initial split from force-awakens branch,2016-02-15 10:44:37-05:00,True
+8a6778320ea2581dd838c85019a0047487b66334,add jackson-annotations and fix build info,2016-02-15 11:24:04-05:00,True
+92a92812c194f89854b9e221b538658f1f9ffcae,README -> README.md,2016-02-15 11:25:27-05:00,False
+6a0fcb316214b1902695ed58718c64629ec5bbd4,prep'ing for basic ui work,2016-02-18 22:34:39-05:00,True
+e1e7fc24b46d190e871ed186537a5ee38565dd32,formualizing a description of the stitching algorithm,2016-06-15 23:50:18-04:00,False
+baf528729c0f8360bef4426d0c3deb5fea6ab0c3,Update README.md,2017-02-21 15:56:56-05:00,False
+f053aca5965b76c7c7eaf759f2d2ea80e747240e,Update README.md,2017-02-22 10:48:28-05:00,True
+263d55275adcb8fea186368310322705ed63df40,updated readme with detailed instructions; updated main script; updated broad conf file,2018-01-09 18:36:44-05:00,True
+96d69a5c8a79679f389934b5ba937b4bb521c1ff,updated readme with detailed instructions; updated main script; updated broad conf file,2018-01-09 18:36:44-05:00,True
+72b7a61c4ec6b672a563253a7d1a89a8c72ed25e,updated README.md,2018-01-09 18:53:22-05:00,True
+1c36f702ef73f725a7b71494c6054f4bb23c14b9,updated README.md,2018-01-09 18:53:22-05:00,True
+4cd89565a2245d6b3e9492eaffa1e78dd2ac9a18,Updated README.,2018-02-01 13:58:33-05:00,True
+17586929623caf1dedbb56dc0d35e7a3cac1c2b7,Updated README.,2018-02-01 13:58:33-05:00,True
+ec483ad6b1d17cc057336107f8fdf314a46bf92b,Updated README.,2018-02-01 14:02:14-05:00,False
+03e3dfc7114416994a4c2a9a2282654cc429023c,Updated README.,2018-02-01 14:02:14-05:00,False
+e553fd410497cca2622f310c418e487f5660f407,Updated/streamlined dailymed fetch/process scripts. Updated DailyMedParser to avoid assignment of product properties to product parts. Added dailymed otc fixing script (comparison to authoritative otc list). Updated stitcher deployment script for complete automation. Updated stitcher README. Updated main stitching script. Uploaded russian medicines + conf file. Updated dev status logic file in accordance with new spl files.,2018-08-15 17:15:38-04:00,True
+d62f9fe59c8c22a289a135978244ae7895f39fbc,Updated/streamlined dailymed fetch/process scripts. Updated DailyMedParser to avoid assignment of product properties to product parts. Added dailymed otc fixing script (comparison to authoritative otc list). Updated stitcher deployment script for complete automation. Updated stitcher README. Updated main stitching script. Uploaded russian medicines + conf file. Updated dev status logic file in accordance with new spl files.,2018-08-15 17:15:38-04:00,True
+a3aabdb84f942591f68025700d2e603917997801,add graph3.pdf and fix mol for entity,2020-01-19 00:26:27-05:00,False
+7e535d306291746cded814dd4b1342d609b5b4a7,add graph3.pdf and fix mol for entity,2020-01-19 00:26:27-05:00,False
+8f64da801140968df31b85cc374b709b1c847200,Added Troubleshooting section to README.,2020-08-27 01:28:11-04:00,False
+ba1a3a33ba58db4f6e33181c98a8b5d91153b8af,Added Troubleshooting section to README.,2020-08-27 01:28:11-04:00,False
+7c71e792572b192ddfde1502f6a6bf7a0f0bb293,Update README.md,2020-09-02 12:00:13-04:00,False
+bd1b4608fba450b733a10aaf9ea4439f1ed2beff,Update README.md,2020-09-02 12:00:13-04:00,False
+061fc6a2170d63663ef054cf4cd7b5d616a946bc,"Update README.md
+
+Updated re Ivan's suggestion",2020-09-02 12:48:18-04:00,True
+68f21ec37f0857583ab265ba14ab0a667e13ea9c,"Update README.md
+
+Updated re Ivan's suggestion",2020-09-02 12:48:18-04:00,True
+b74b1068a5a338eb763296d8668008a3d5c52779,Update README.md,2020-12-14 10:01:21-05:00,False
+fa1683ce6f41a3b5c050b59cbdda770e8eee0c70,Update README.md,2020-12-14 10:01:21-05:00,False
+94222c652bc9a4c8ce2935003bd07cf3ced5184c,Update README.md,2021-05-23 12:33:14-04:00,False
+fc59693466599de24ec08b2e069150737c88cbaf,Update README.md,2021-05-23 12:33:14-04:00,False
+8c8ad8016c7982b64656b6bc54c49fe64b8dd957,"Update README.md
+
+Added pointer to the paper at the top of the README",2021-09-18 07:12:01-04:00,True
+d3b7760da3ec5e77867481e3744f85ec137b0886,"Update README.md
+
+Added pointer to the paper at the top of the README",2021-09-18 07:12:01-04:00,True
+728a991fc175f8d9f3c17c231bf1bbf4dbac2303,Update README.md,2021-11-15 14:10:47-05:00,False
+32ca3617b0a7680c7d3a5a78629ca9ad3ec30c0a,Update README.md,2021-11-15 14:10:47-05:00,False
+1f3b6fd4577b75b7db8f9f2cbc4d82c84c73225d,Update README.md,2021-11-15 14:20:55-05:00,False
+b8aae22a799838c91440b1cc7dd2dc287e44bd8d,Update README.md,2021-11-15 14:20:55-05:00,False
+162ce83bed2cfb33f8ef5fa113692331acc50403,Updated README.,2021-11-17 11:15:05-05:00,True
+704fbdc99c8f4d96c2e5895958e4d216fac9cd7e,Updated README.,2021-11-17 11:15:05-05:00,True

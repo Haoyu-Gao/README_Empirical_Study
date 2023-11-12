@@ -1,0 +1,43 @@
+sha,message,date,result
+1d77b001067dbd10137d34912328c89e4c71a392,Adding README.md,2017-08-17 22:19:13+00:00,False
+817930f1c5862190706c3d9dd3182eb8f4456d6f,Initial effort to integrate with gcloud,2017-09-21 12:39:58-04:00,True
+854ff8cb715ef359724de19c901171dc5eb1705a,Introducing BEGAN,2017-09-22 11:38:09-04:00,False
+5237858fd51bca283f1d1cad2a9e7a562913c9cb,Fixing bbbc021 generation,2017-10-05 11:42:17-04:00,True
+c98b4f420bba0017b8fe11d783af45ce94abd560,Updated README.md and vm setup script,2017-10-05 14:44:02-04:00,True
+fb48838790bb496bc96e32a80fee19e2220a6c2b,Try deeper models for bbbc021,2017-10-05 15:28:11-04:00,True
+f855269794d768db1db649e55ab354329885c4ac,Add note to README.md,2017-10-05 20:02:57-04:00,False
+4bb01585131b19bef48866059af5c6cc3873b1cb,Some updates to setup-vm and gan.py,2017-10-06 15:48:56-04:00,False
+57a29501e7494ae5fdcf9edd853e6fd2fe0a6d98,Updated infogan script,2017-10-06 16:13:53-04:00,True
+7b4db83bcff0b3a5ce817f32255176442110ae75,Reduce number of checkpoints stored to reduce memory usage,2017-10-06 21:04:23-04:00,False
+cfe844c9873acfb5263eb1e4a05bddfbee42375c,Still doesn not work,2017-10-06 21:32:46-04:00,True
+871e5231feafe6a08cd7fcd29a01e8786f2c528d,Updated infogan and added conditional embedding to began,2017-10-07 17:19:42-04:00,False
+ca1b5bd03191bd40b17f658a2796764591dcaacb,Wrote plan for new runs,2017-10-07 17:40:20-04:00,False
+eaf7ca58043e02e96a400db36eba96d6506d97d1,Fixed Hyper for BEGAN 2,2017-10-07 17:55:37-04:00,False
+adbd61eedd5ef9cbe261d79cdfc148845d671643,Small change to lsgan setup,2017-10-07 18:09:31-04:00,False
+eaba484fac39ceef8c10cd2a50aa4fe95bf4be7b,Reduce number of conditional variables,2017-10-09 15:28:45-04:00,False
+e5b0288189ef09a9d8ac7ddcb6ae7d6dabf5cf9d,Going to try WGAN again,2017-10-09 16:06:12-04:00,False
+a02d0f11d99a9cfcf14cd54ab9d2b879937505f1,Implementing latent space interpolation,2017-10-10 15:30:15-04:00,False
+951e5976ec8acec9edfb944b58cd5ef3e2ee3ec3,Try different infogan sampling for bbbc021,2017-10-10 17:52:45-04:00,False
+22b0ccc2a0a38b563ebd341d1f8ee4e489c5ce97,Added point sizes differences to latent space graphics,2017-10-11 19:48:10-07:00,False
+b530563118e1abb5afc83178d20966f33e0a66cc,Updated c-lsgan scripts,2017-10-11 20:44:52-07:00,False
+113852a26b135764f15480d45925c74117853530,Fixed conditional models,2017-10-11 21:08:14-07:00,False
+25477c1791eef0402d5079d68396c7db551f7136,Updated README.md,2017-10-12 01:16:16-07:00,False
+7c70447ad7a403a6833b0f3b1067ac78a927c90a,Change some learning rates,2017-10-12 10:47:22-07:00,False
+a9d70a59d8abe3fe9997364ad575ffddf45bf3e8,Added concentration latent space sampling,2017-10-13 01:48:51-07:00,False
+b919c8a19503fd5d477035ca6a29d9c9db0e0c8b,Added save-generated-noise option,2017-10-14 16:53:33-07:00,False
+19eafcc87d7e3d03ed2a336c36921612d9d28fb9,Fewer GPUs for WGAN,2017-10-20 21:32:38-04:00,False
+296132e9a5366e5e2929eab1f77159330c544b93,Changed BiGAN filters,2017-10-20 22:23:47-04:00,False
+2f4a0cb7cae8c5edc191ef3e7b41cd5ba334bacd,Different GPUs for BiGAN,2017-10-20 23:11:12-04:00,False
+1174b7f9c72c86447701a05b3c84bdbb6490b889,Made BiGAN input np.array,2017-10-20 23:23:27-04:00,False
+aaf178d8419d6d0f3c1e26e76c8a49ca481d67cc,Try smaller batch size to avoid OOM,2017-10-20 23:30:42-04:00,False
+eb5ce191e5007563ec7cf28cb3e3f351633a2321,Fixed C-BEGAN,2017-10-20 23:33:14-04:00,False
+747333ab994174f1ab4254ececb5940dcb413a62,Have to downsize BiGAN to fit in memory,2017-10-20 23:37:41-04:00,False
+3653b0f358c9bde688bf6c035a0a897a4abface8,Try larger model again,2017-10-20 23:45:08-04:00,False
+ee21697cfa0c3590287ee87174c66dc3d2e691bf,"Going to try a new, long WGAN",2017-10-20 23:56:33-04:00,False
+fe0d196ff7bd5e565533860b123580ee2616136e,Going to run another infogan,2017-10-21 00:27:44-04:00,False
+731d34fb42415a743b8224c53b617beb7113e3d1,Reducing TSNE verbosity and DCGAN learning rate,2017-10-21 16:03:37-04:00,False
+e81ef34c54ceee559243d1c32677b57cfcf22670,Missing np.array cast in BIGAN encode() function,2017-10-23 13:40:33-04:00,False
+5a07dcc53b0ba2fdcf27a89d22c2640924c0b2d9,Adding visualization of single factors,2017-10-23 19:32:37-04:00,False
+460f9a5abc357629553f763b6071235ddfb13603,Fixed InfoGAN sampling,2017-10-24 14:38:07-04:00,False
+a8241e09c8da335094d1b24dcc7ba01bd6f49258,Added experiments for opposite-moa algebra and treatment interpolation,2017-10-26 18:13:01-04:00,False
+65c2287e932569c55bdff9f5cf0253ec8c7ed74d,Going to attempt random uniform distribution for BiGAN,2017-10-27 20:41:03-04:00,False

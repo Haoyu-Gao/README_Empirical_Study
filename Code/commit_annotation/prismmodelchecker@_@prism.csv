@@ -1,0 +1,119 @@
+sha,message,date,result
+30e24567d50e834c8b471cbeec78328de02462c2,"Setting trunk version of PRISM to 2.1.dev11.sim8.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@2 bbc10eb1-c90d-0410-af57-cb519fbb1720",2006-03-03 16:25:15+00:00,True
+b54050a19983cc041d3396a4c5c8364ab0c8cf6e,"PRISM trunk layout rearrangement.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@4 bbc10eb1-c90d-0410-af57-cb519fbb1720",2006-03-03 17:12:02+00:00,True
+f4917ae3ad27e217588aae6ce96914a5f49402fa,"Preparations for 3.0.beta1 release.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@44 bbc10eb1-c90d-0410-af57-cb519fbb1720",2006-03-29 08:45:39+00:00,True
+963962da84226659bebf7e1faf435654fe8d0ba4,"New README.txt (installation instructions now in manual).
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@54 bbc10eb1-c90d-0410-af57-cb519fbb1720",2006-07-05 10:13:06+00:00,True
+031c8968b106068b29923fe7ef21727396ef7544,"Final changes for 3.0 release.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@55 bbc10eb1-c90d-0410-af57-cb519fbb1720",2006-07-05 22:42:39+00:00,True
+c002cbd19febc400ad37195d470ed688564b9acc,"Updated version info: 3.1.beta1.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@104 bbc10eb1-c90d-0410-af57-cb519fbb1720",2006-11-02 09:47:44+00:00,True
+5064ae83f1a9668c428fe86453c2f5956c2a779e,"Synch with updates to README/VERSIONS/CHANGELOG made for 3.1.beta1 -> 3.1.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@158 bbc10eb1-c90d-0410-af57-cb519fbb1720",2006-11-17 09:42:23+00:00,True
+4acf85712b1227bc18f08064f7a914cc864a28e6,"Updated acknowledgements in README.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@254 bbc10eb1-c90d-0410-af57-cb519fbb1720",2007-04-06 20:03:21+00:00,True
+e80af1a74bf038f5801f5359dee2c44301351836,"Make sure 3.1->3.1.1 changes included in trunk.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@256 bbc10eb1-c90d-0410-af57-cb519fbb1720",2007-04-10 09:04:34+00:00,True
+d41897dce96774a762e642d0174fa60abd07c518,"Added Alistair to acknowledgements.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@293 bbc10eb1-c90d-0410-af57-cb519fbb1720",2007-04-23 09:21:31+00:00,True
+e715cf3c8bee67adf2f22c4d80d7d654a80d75ad,"Updated more email addresses, affiliations, etc.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@548 bbc10eb1-c90d-0410-af57-cb519fbb1720",2007-12-06 11:11:33+00:00,True
+abcaa2ed636f45d0d63a0ae76955389a5f3e4fa2,"README.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@557 bbc10eb1-c90d-0410-af57-cb519fbb1720",2008-02-08 09:19:22+00:00,True
+484d803121001ed99adca7e810a7f1cacc13b3b4,"New version numbers.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@564 bbc10eb1-c90d-0410-af57-cb519fbb1720",2008-02-25 12:31:08+00:00,True
+b0f6994f55b3a15b6c9117ceb60c9b991499b361,"Added some useful scripts to etc/scripts.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@778 bbc10eb1-c90d-0410-af57-cb519fbb1720",2008-04-29 16:48:49+00:00,True
+bf28deeddd5f55428f8cac831b63c34b9913103c,"Pre-3.3-release stuff.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@1073 bbc10eb1-c90d-0410-af57-cb519fbb1720",2009-05-20 10:23:40+00:00,True
+389d6ee2c7ea8eb29f9f078389461c7c6b37f258,"Formatting in text files.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@1707 bbc10eb1-c90d-0410-af57-cb519fbb1720",2010-01-22 16:48:34+00:00,True
+2e6a5be184f36ab14b42524da03b4d2dea879906,"README.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@1956 bbc10eb1-c90d-0410-af57-cb519fbb1720",2010-06-30 09:17:24+00:00,True
+45e45cb7a50cdf194eee3c7cda27f6ab39272aff,"Removed des files
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@2137 bbc10eb1-c90d-0410-af57-cb519fbb1720",2010-10-15 14:23:10+00:00,True
+5580c71566953fa3e985e8e631ae757b7926556b,"Removed extra accidental bits of last commit.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@2138 bbc10eb1-c90d-0410-af57-cb519fbb1720",2010-10-15 14:29:38+00:00,True
+6293a36ddf89dfaaecb3fbf758f805829de0a312,"Notes.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@2139 bbc10eb1-c90d-0410-af57-cb519fbb1720",2010-10-15 14:31:25+00:00,True
+fffba04b3b70f19da5a5a283848989fb85d11329,"README (people).
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@2261 bbc10eb1-c90d-0410-af57-cb519fbb1720",2010-11-19 18:30:33+00:00,True
+b469b11054e9d329880a84aa2a01649cba0bc7e2,"README/CHANGELOG
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@2336 bbc10eb1-c90d-0410-af57-cb519fbb1720",2010-12-16 09:46:50+00:00,True
+53a5274cb3520d3d6721440679d90ce59c4f4021,"Addition of new statistical model checking stuff (patch difference between trunk and prism-statmc branch at this revision).
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@2391 bbc10eb1-c90d-0410-af57-cb519fbb1720",2011-01-17 23:07:19+00:00,True
+c87343aa94056e4bddd415134100ea4a15a462ee,"Affiliation in README.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@3015 bbc10eb1-c90d-0410-af57-cb519fbb1720",2011-06-01 19:54:19+00:00,True
+5d3166a5b9cda2be7fbe043361d864ea5f56949f,"Re-arranged people in README.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@3289 bbc10eb1-c90d-0410-af57-cb519fbb1720",2011-07-18 20:03:53+00:00,True
+24caab6c9719d9be7d1003ca5a2778744568dd37,"Credit/copyright for Christian von Essen.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@3290 bbc10eb1-c90d-0410-af57-cb519fbb1720",2011-07-18 20:05:06+00:00,True
+657afdcd52b8d9c3255bac51785c7721bf0d29f2,"Version nums (4.0.1).
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@3292 bbc10eb1-c90d-0410-af57-cb519fbb1720",2011-07-18 23:36:06+00:00,True
+34daba81cf5be924b05c46d7d207222f085b1e3c,"Remove version num from README.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@3294 bbc10eb1-c90d-0410-af57-cb519fbb1720",2011-07-18 23:59:10+00:00,True
+687feda2ef6fac33eae78773a8c1c1c0e35bc010,"Vojta - copyright and acks.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@3324 bbc10eb1-c90d-0410-af57-cb519fbb1720",2011-07-25 21:32:13+00:00,True
+d215bf2da0c810af60b7330d3324cba8cb2ce908,"Update README with new contact/people details.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@5159 bbc10eb1-c90d-0410-af57-cb519fbb1720",2012-05-08 14:30:21+00:00,True
+f6d794c22c440d843bb17c337f5ba1cf07c2ccfc,"Reverse previous commit
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@5160 bbc10eb1-c90d-0410-af57-cb519fbb1720",2012-05-08 14:31:32+00:00,True
+497ccbc033b541bd2281208c7d81316ad292beb9,"Update README with new contact/people details.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@5161 bbc10eb1-c90d-0410-af57-cb519fbb1720",2012-05-08 14:32:02+00:00,True
+1ea340dbd2bec8840ebcd86ca00130d8065ac25d,"Author/copyright info.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@6024 bbc10eb1-c90d-0410-af57-cb519fbb1720",2012-11-23 01:00:12+00:00,True
+702e9e5df0685b12c9c7b59a1484586c0b6caec6,"Corrected/added headers + copyright info.
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@6212 bbc10eb1-c90d-0410-af57-cb519fbb1720",2012-12-17 10:37:16+00:00,True
+27a96022f00c59cb2c5817c9285f1305c8d059ff,"README update (contributors).
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@9165 bbc10eb1-c90d-0410-af57-cb519fbb1720",2014-08-31 21:24:13+00:00,True
+11ab81f540ae86626c21da683892ec7452ed7f73,"README update (contributors).
+
+git-svn-id: https://www.prismmodelchecker.org/svn/prism/prism/trunk@9166 bbc10eb1-c90d-0410-af57-cb519fbb1720",2014-08-31 21:36:42+00:00,True
+55cfb8f4008974492f6849a7cff57c9d5e3f4447,Move text files up to top-level and Markdownify README.,2018-09-11 11:52:00+01:00,True
+6d6b5266adc55d502a97af74cdc4c5644881652c,Update README.md,2018-09-11 13:30:12+01:00,True
+1980b088cd54759bf480087f9c67091d02bd0261,Update README to account for recent file arrangements.,2018-09-14 18:19:20+01:00,True
+8394df8e1a0058cec02f47b0437b185e3ae667d7,Update CHANGELOG wrt latest commits.,2019-03-20 14:51:53+00:00,False
+1285bbfc99005c0a442913b26e4990bc6842fff4,"Add ""make test"" to brief install instructions in README.",2019-04-21 00:38:10+01:00,True
+58034a739f13d050553720ccb1f83b71a7a37c5f,README.md: Clarify affiliation,2019-04-23 18:57:50+02:00,False
+e20d0d1e12a3acca34cd4e90e4ae494ddfd6a0a0,"Update README (licensing, dependencies).",2019-04-24 14:34:24+01:00,False
+74fdd44b976e3562e204b08c307987b37fd519dc,README (contributor list).,2021-01-14 23:57:59+00:00,False
+3a632e293b00cdf6bad420f83d0a85ff60032a94,README contact details update.,2022-11-05 10:38:18+00:00,False
+68072b78998c167d7b1147b112cc62d6e93cf0e5,Update contributor info.,2023-04-11 11:33:03+01:00,False

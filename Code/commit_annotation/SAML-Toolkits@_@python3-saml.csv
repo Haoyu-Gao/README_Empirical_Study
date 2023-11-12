@@ -1,0 +1,210 @@
+sha,message,date,result
+12ec706d004ac06ca32c5284a09f764a842358b5,Initial python-saml 2.0.0 version,2014-10-03 19:06:51+02:00,TRUE
+a920a7b71013bb9405f282158a662484543c1761,Setup environment,2014-10-03 19:19:36+02:00,FALSE
+cf2b71c883a26282b196ada0d8dc9060fe21fcc9,Add Readme headers,2014-10-03 20:27:03+02:00,FALSE
+500c3291867419615b878f8eee57294defc0ffee,Update settings,2014-10-21 11:36:22+02:00,TRUE
+e2e38b9854d17fd3c43ce1dff86f1668049eae0b,Update documentation,2014-10-21 19:53:57+02:00,TRUE
+8445fc6e9220f9e7c37a2229eb7c5f865e418de9,Fix doc,2014-10-21 20:00:21+02:00,TRUE
+74ffac646111a2b2787e424802f633a41d1116c9,Add more docs,2014-10-23 04:42:03+02:00,TRUE
+a2c2a3eb92dd71cd91411a3df6d30c03907e0a2e,Update doc with info related to the demos,2014-10-24 01:04:45+02:00,TRUE
+e26b020b95912333b082b530c25e65e786019e62,Fix copy&paste error in documentation,2014-10-24 01:06:24+02:00,TRUE
+39c56d99763cc6be7ebf21b68415b350e10f4013,Setups and files required for pypi,2014-10-24 05:12:38+02:00,TRUE
+72df76ba5282bd635e48e27093031a54556fbd67,Update README.md,2014-10-29 01:11:18+01:00,TRUE
+8959883762e7518ee7fa2e5fdfe4432c67940dc1,Related to #31,2014-11-13 20:44:15+01:00,TRUE
+105638a8406a439b64339b81439d4a23cfbaad3e,Update README.md,2014-11-13 21:17:14+01:00,TRUE
+07059170866d411e427d351ff6e76182f85ab660,Adding AuthnContextClassRef support #34,2014-12-01 21:43:41+01:00,TRUE
+3fa4cd7f0bd67ca6bd4e4e9e6221c7ca43162a68,Related to #34. Implemented the AuthNRequestContext in a different way,2014-12-01 22:44:54+01:00,TRUE
+03e097d1e86510ae0dbbeb27d89e017b2816a7d0,"Clarify SSO communication between IdP and SP
+
+This change clarifies some of the documentation, correctly identifying where the IdP and client sit within a SAML session. This is gleaned from the admittedly basic SAML information on Wikipedia (http://en.wikipedia.org/wiki/Security_Assertion_Markup_Language), which identifies the IdP as OneLogin, the SP as the service being communicated with on a webserver, and the User Agent (or user's client, here) as the intermediary that talks to both.
+
+This is relevant because service providers /need not be routable from the IdP/. This clarification prevents others from being confused in the same way I was, in which no further documentation clarified the intent of this article. I've also gone ahead and added a clarification for HTTPS support, which is not needed (but highly encouraged through a tool like stunnel) through my experience working with the demo-django application.
+
+Thank you for reading and for providing these code. I have found it to be quite helpful.",2014-12-03 19:08:33-08:00,TRUE
+83a27eadfd0d1aec2cfe1e54a64ee8b2923c6339,"Fix a code example that does not work
+
+The current ACS example only redirects if a user is not authenticated. This fixes it.
+
+Verified it works in my own SAML implementation for Tornado using python-saml.",2014-12-11 14:26:21-08:00,TRUE
+561047c1672337276bd57e25115997bbf1b5e3ba,Update docs,2015-01-09 22:56:29+01:00,TRUE
+2b0c59fc1181f74e712b62410cc3591c0aaf9da9,New release 2.1.0.  Add ForceAuh and IsPassive support,2015-01-14 00:19:44+01:00,TRUE
+bda5bcba03b143db1e8806a53751ec92c7084197,Fixed typo in README.,2015-01-14 22:49:51-06:00,FALSE
+ae9ff12a5e28ffe6b0da957516906d06367103c8,Fix #50. Do accesible the ID of the object Logout Request (id attribute),2015-03-05 03:24:27+01:00,TRUE
+698d8ae8defbc2d4f58a349512ac58ed1e36276d,Fix #43. Add SAMLServiceProviderBackend reference to the README.md,2015-03-05 03:44:05+01:00,FALSE
+7a502199c822fb8876af9561f6339fd6f421bb16,Fix PHP-style array element in settings json,2015-03-10 23:18:28+01:00,TRUE
+fa67f9ec8c5a7197cc7191c706c37b1492afea61,Minor typo,2015-03-14 01:33:01+01:00,TRUE
+98c45f31bec3a717a691070d3ac7791680d18844,Add fingerprint algorithm support. Previously the toolkit assumed SHA1 algorithm as the algorithm used to generate the fingerprint. Now you can set the 'certFingerprintAlgorithm' parameter and define it,2015-04-09 15:15:07+02:00,TRUE
+99307976528295a191beffc68ed0dfaebc7b1c79,Allow configuration of metadata caching/expiry via settings,2015-07-29 19:22:09+02:00,TRUE
+d680fa30d9b711e224f606c96a1da492286dd952,Split the setting check methods. Now 1 method for IdP settings and other for SP settings. Let the setting object to avoid the IdP setting check. required if we want to publish SP SAML Metadata when the IdP data is still not provided.,2015-07-30 13:37:29+02:00,TRUE
+66c46102a309527b780971822985855cba89d8bd,Now the SP is able to select the algorithm to be used on signatures.  Support sign validation of different kinds of algorithm,2015-07-30 16:01:25+02:00,TRUE
+2c0c043cca01f5cbd1d5f7ac4f5474b8baf124b8,Update the documentation,2015-07-30 17:23:57+02:00,TRUE
+4bc703724df894028d4fc46f04575dbbe3ddb193,Allows the RequestedAuthnContext Comparison attribute to be set via config,2015-08-23 11:38:46+02:00,TRUE
+3e03e0428aee1742c19ba7efef59da992b4ed8cb,Update README,2015-08-26 08:01:15+02:00,TRUE
+4e21a59f3db3b5d79589ac74b80315295e7755c4,Fix #7. Make AttributeStatements requirement optional,2016-03-17 02:48:50+01:00,TRUE
+3f586d0cdc5f2dc6a491ecdab0c04c61681ff611,"Add information about getting the demos up and running on Heroku
+
+It took a significant amount of time for us to troubleshoot this, and although there's a few stackoverflow questions and blog posts with descriptions about solving the problem (none of which we could get working), the buildpack is the simplest approach.",2016-03-21 11:32:13+11:00,FALSE
+74d5dfb609c12ca6cd71d1480e48b3e79f20ce48,Update with working instructions,2016-03-22 08:45:32+11:00,FALSE
+ff6e4d5f6f4584bb7fec104383670e6dc4b955d6,Clarify the use of the certFingerprint,2016-04-01 17:09:47+02:00,TRUE
+1eb6f4761180af0c9229e567baca796e3dc974fd,Support AttributeConsumingService,2016-04-06 10:55:18+02:00,TRUE
+6f4542d232694fd2bb61cf2580b7485fc3d38639,Idp Metadata parser,2016-04-08 12:56:58+02:00,TRUE
+ca27889fe6c675cd8b69d3cd2be7217b89e20be4,Add documentation of OneLogin_Saml2_XML class,2016-04-08 13:00:26+02:00,TRUE
+f7e59c3d08671796f3d99b792c1e445b0df8ba3b,Allow AuthnRequest with no NameIDPolicy,2016-05-10 17:20:10+02:00,TRUE
+c51261691132b7daf5c4394cbec4709d97b8472e,Remove NameId requirement on SAMLResponse,2016-05-12 10:06:16+02:00,TRUE
+e530d7ae35f95bac6b3605ad1c542ed9b389064f,Remove reference to wrong NameIDFormat: urn:oasis:names:tc:SAML:2.0:nameid-format:unspecified . Should be urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified,2016-05-14 19:43:30+02:00,TRUE
+3659de8e4e9a11ec0683764b53e88acae6b2976b,Release 1.1.4,2016-06-27 13:38:08+02:00,FALSE
+74181e94585aecfb1289ed6c907cf8b8c66f21a1,Document the wantAssertionsEncrypted parameter,2016-06-28 21:09:08+02:00,TRUE
+50bf10f1c1f4f4343a62db61d550c695447aab13,Fix README,2016-07-04 12:02:06+02:00,TRUE
+a8cb717c7151d4445851f90882494564420f66e4,Remove download stats from README (not working anymore),2016-08-06 16:54:45+02:00,FALSE
+110d08b2c3b1d74f9838ef696020e9f7ee82e23a,Update README.md,2016-08-06 16:56:16+02:00,FALSE
+c5324469a2a3b1f9fe981f2b854bd0aba2ab05e6,Update README.md,2016-08-06 16:57:29+02:00,FALSE
+a8e8009338fbec99a9dd0a4ee443c8486e3a9aa5,Update README.md,2016-08-06 16:57:50+02:00,FALSE
+3da33a7248013fc8e9a0d1aa576cad05ccca6266,Update README.md,2016-08-09 01:14:11+02:00,TRUE
+7dfdcf48962eb78b5fbfb5f914a21c77900f7dbc,Support multiple attributeValues on RequestedAttribute,2016-09-20 13:21:43+02:00,TRUE
+af7378487b9d366a9c20d2bf8e84924f2e0c42ba,Release 1.2.0,2016-10-14 16:55:18+02:00,FALSE
+fd1beeba8b1d8406723310440e2be89cce52a139,Release 1.2.1,2016-10-18 19:04:20+02:00,FALSE
+4aefa08ba695dba12ad8f8f163ce188892fe0677,Strip unneeded whitespace characters from documentation,2016-11-03 17:26:11+02:00,TRUE
+e8031d2ff453f7cac55118ef254b2439b45af69d,Fix code sample in documentation,2016-11-03 17:26:11+02:00,TRUE
+3bde482275a211818115625438ee6a1059dabd0d,Use double quotes more consistently in documentation,2016-11-03 17:26:11+02:00,TRUE
+f65a794aae4954f3243b52a731076217f1ccbafb,Fix some typos in documentation,2016-11-03 17:26:21+02:00,TRUE
+73ee97717d75a71f4863deea069f9e83ca83897a,Add support for retrieving the last ID of the generated AuthNRequest / LogoutRequest,2016-12-30 00:30:22+01:00,TRUE
+a510f167812d1ae56f4dd2c9ee42547b4847cf6f,Add hooks to retrieve last-sent and last-received requests and responses,2016-12-30 01:32:59+01:00,TRUE
+fa6d3ea9314650d66c5e855649e4443524dd853d,Minor fix on docs,2017-01-02 17:23:10+01:00,TRUE
+91172ab9d7ff91d7b2cc238990d9c9e83e220702,Add CVE reference to the README,2017-01-10 10:30:03+01:00,FALSE
+55083289ec191d8d24be998f7d3711d69de51fa2,Release 1.2.2,2017-01-11 14:00:11+01:00,FALSE
+24a170095cfff54142dc22a924e4e263b3f1f71e,"Fixed bug with formated cert fingerprints
+- Added Test
+- Fixed typo in README.md",2017-01-25 17:38:55+01:00,TRUE
+4016b245f590cb43bc246ba9369147baf4d6649d,Fix minor typos on Readme,2017-03-06 20:48:27+01:00,FALSE
+476f32f34339fcee1ba65ff0f8f7fb5ffcc8988f,Add DigestMethod support.  Add sign_algorithm and digest_algorithm parameters to sign_metadata and add_sign,2017-03-11 01:44:02+01:00,TRUE
+d39c963571121487dcc1c8d1c84ce03ba6c69f56,Update README with Pyramid demo instructions.,2017-03-30 10:50:38-04:00,TRUE
+728d51f5ef07b8f8e6ec16c1eaeb878739c5f44b,Be able to register future SP x509cert on the settings and publish it on SP metadata,2017-05-13 10:31:37+02:00,TRUE
+a509c88459c349a6df3967d75fac3f7c109ae698,"Be able to register more than 1 Identity Provider x509cert, linked with an specific use (signing or encryption",2017-05-15 12:53:25+02:00,TRUE
+701d65ec467465b89db490fd602850cbf56401a3,Allow metadata to be retrieved from source containing data of multiple entities,2017-05-15 13:23:21+02:00,TRUE
+634cd408f16f34dd0ab9c94876c4bc6618a24ca8,Use defusedxml that will prevent XEE and other attacks based on the abuse of XML. Release 2.1.6,2017-06-15 19:41:48+02:00,TRUE
+16cd67c0efa329ac016abdb8471cb0d654a68825,Fix minor typo,2017-07-26 13:01:25+02:00,TRUE
+b9f9a4e594618b7deee174a9e38bca44a3d304b8,"On a LogoutRequest if the NameIdFormat is entity, NameQualifier and SPNameQualifier will be ommited. If the NameIdFormat is not entity and a NameQualifier is provided, then the SPNameQualifier will be also added. Update info related to LogoutRequest on the README",2017-09-13 16:03:58+02:00,TRUE
+90474ff37a40b2f44ecc399eacbd1d37d7cd60b7,Add more tests and documentation related to get_last_message_id and get_last_assertion_id. Add get_last_assertion_not_on_or_after,2017-09-14 13:11:18+02:00,TRUE
+e1db820a8c9a75978548319240a700d01443863e,Documented advanced req parameters; Fixed section headers for GitHub-flavored markdown,2017-10-16 14:04:21-07:00,TRUE
+bfa51108beded2db2aebf6ad4627de179c6e88e2,Release 1.4.0,2018-02-27 16:30:59+01:00,FALSE
+76a5576bd8d7179a22f47a0682b250d2fd0b6d7e,Update README.md,2018-02-27 17:31:22+01:00,FALSE
+817a1363e7cd1121b02a9f8863615939eef6dc77,use print with round brackets (compatible),2018-03-17 11:35:44+01:00,TRUE
+783fc6716a5453dbcbcbd57f5198004139113f51,"test framework should run on 2.7, 3.4, 3.5, & 3.6",2018-03-21 11:41:43+00:00,TRUE
+3da2298a2f6d4f8f841b4f3a9ab8eac43466d040,Check that the response has all of the AuthnContexts that we provided in the request.,2018-05-28 18:15:23-07:00,TRUE
+2fec2a8270b68f5f902f7986a07661854ac7ca98,fix confusing alternative naming of python3-saml in readme warning,2018-06-05 11:20:20+02:00,FALSE
+4a30dc50c656ea8eee9d43d781715c2b2786b04b,Discourage the use of the fingerprint on production environments,2018-08-05 21:27:08+02:00,TRUE
+29e1b51c1d830e1dd4c08455fcdb268d20bf7f36,Release 1.5.0,2019-01-29 18:14:20+01:00,FALSE
+a82cbdcb961e3d737488074d59a7cb069ccb3814,Update README with get_last_authn_contexts method,2019-01-31 12:25:45+01:00,TRUE
+eb9680adca69e542a501dff3ad4aac2595316309,"README: added inline markup to important references
+
+Also fixed minor grammatical errors.
+
+Signed-off-by: James McClune <jmcclune@mcclunetechnologies.net>",2019-02-28 23:03:23-05:00,TRUE
+f610a8ad5f32e9c064dceb5ef1a631c6158bcb6d,"Update Heroku instructions
+
+* Use `heroku buildpacks:add` instead of `:set` so existing buildpacks aren't overwritten
+* Replace deprecated ABASystems' apt buildpack (redirects to uptick/heroku-buildpack-apt, which hasn't been updated in 3 years, forked from ddollar/heroku-buildpack-apt, which explicitly says it's deprecated) with Heroku's (https://github.com/heroku/heroku-buildpack-apt)
+* Replace ABASystems' python buildpack with Heroku's (heroku/python)",2019-03-19 12:04:00-04:00,FALSE
+5946ea6398b45ae87cf8ab3a3ff3530baed950e3,Add support for Subjects on AuthNRequests by the new name_id_value_req parameter,2019-04-02 13:12:22+02:00,TRUE
+e46e3353c6e55c71cd000fc84170de50b17dcefc,docs updated,2019-04-23 14:32:18+02:00,TRUE
+47ba1cad2dd44ab10f1962e67ba4d46c85c29e94,solved formatting error,2019-04-23 14:52:46+02:00,TRUE
+b0f2ac94e01dcb648abb2a8381070986c1410a65,"Fix typos
+
+Fixed typo in https://github.com/onelogin/python3-saml#option-1-download-from-github
+    Changed `Lastest release` to `Latest release`
+
+Changed hyperlink to Python 2 version to match hyperlink in [onelogin/python-saml](https://github.com/onelogin/python-saml) repo
+    Changed hyperlink from `https://pypi.python.org/pypi/python-saml` to `https://github.com/onelogin/python-saml`",2019-05-10 11:20:41-04:00,TRUE
+ae90bac7c94c82c4a5625aff57163aab2a8098d4,Adjusted acs endpoint to extract NameQualifier and SPNameQualifier from SAMLResponse. Adjusted single logout service to provide NameQualifier and SPNameQualifier to logout method. Add getNameIdNameQualifier to Auth and SamlResponse. Extend logout method from Auth and LogoutRequest constructor to support SPNameQualifier parameter. Align LogoutRequest constructor with SAML specs,2019-06-26 00:43:22+02:00,TRUE
+40883d925ce17e2b2dcd2d19cab3c710b2fe20b4,use python style comment in python code block,2019-07-09 11:34:44-04:00,TRUE
+1694935585554699d474fcf10f8b31a6aeb52cc7,Release 1.8.0,2019-09-11 16:42:36+02:00,FALSE
+a6b07e92242fdf8b37d9384b5ac2e4d678d652ee,"Fix typo: Attribute -> Assertion
+
+Fixes a typo in which the Assertion Consumer Service was erroniously referred to as the Attribute Consumer Service
+See line 497 of https://www.oasis-open.org/committees/download.php/56783/sstc-saml-profiles-errata-2.0-wd-07-diff.pdf",2019-11-18 13:55:17-08:00,TRUE
+c13e998d36171d096518a76b4b6cef048b8ef717,Fix failOnAuthnContextMismatch code,2019-11-19 21:13:31+01:00,TRUE
+4d28828d8d67c4be2f44274e1fdaba3e31d1d0ce,Update tornado version. Remove unnecesary doc. Improve demo,2019-11-20 17:31:34+01:00,TRUE
+589425d1fbd2161ce2a566dfcb92835a221a3541,Add sha256 instead sha1 algorithm for sign/digest as recommended value on documentation and settings,2020-02-21 10:47:09+01:00,TRUE
+082dfc75ceadaf317f9b8c66bdcec3a35f4105a2,adding returnUrl parameter to singleLogoutService of IdP,2020-12-03 12:45:13+01:00,TRUE
+b7402c0029d63e6a7fecb9955bc33d5b10b33fac,correct typo,2020-12-03 13:06:45+01:00,TRUE
+ae5cae2524a04c47f78c3994c2a463e1a225f1e9,rename returnUrl to responseUrl,2020-12-03 14:54:26+01:00,TRUE
+fa1ddab1573eb710583046633bce47ace33006aa,Update Readme.md,2021-01-09 00:07:24+01:00,TRUE
+a1e1f8b4d0fa4cd17467446f5cbe72dc1fc80bd8,Close #217. Support single-label-domains as valid. New security parameter allowSingleLabelDomains,2021-01-09 02:07:49+01:00,TRUE
+4b6c4b1f2ed3f6eab70ff4391e595b808ace168c,Remove the dependency on defusedxml,2021-01-27 11:17:29+00:00,TRUE
+332ea51b92fe6240855a4113fa0fd37da81b77ce,"Add a comment describing the attributeConsumingService 'index'
+configuration option.",2021-01-29 16:19:09+01:00,TRUE
+ded055793d7a6ab7dbe0fc74b67a70a6a88bcbb7,"Update README.md
+
+Update self-sign certificate example to use ``sp.key`` since that is the hard-coded filename that must be used.",2021-02-09 14:57:40-08:00,TRUE
+88f66a858044c9818ad60368320ebd0ba677917f,"Update README.md
+
+for issue https://github.com/onelogin/python3-saml/issues/249",2021-02-24 14:45:03-08:00,TRUE
+1fbb515ba34255a684ac29125fdc38030446746a,Added timeout kwarg to metadata retrieval,2021-05-10 16:12:19-04:00,TRUE
+b14e438cdb5bf51be6df34d3f686598178da1d96,Fixed readme,2021-05-10 16:25:20-04:00,TRUE
+293bcde73b12b7374f120752680c05a399b76774,"Add an option to use query string for validation
+
+When validating request or response signature in process_slo() we
+currently rebuild query string from 'get_data' elements. This requires
+URL encoding components of the string. Unfortunately, some IdPs (Azure
+AD, ADFS) use lower-case encoding. To handle this, one needs to pass
+lowercase_urlencoding=True. This complicates code that needs to support
+different IdPs.
+
+Instead, if 'query_string' is passed, take parts from it directly. This
+avoids the need to URL encode them. This is similar to the
+`retrieveParametersFromServer` argument in the PHP version.
+
+This feature is disabled by default. Pass validate_signature_from_qs=True
+to enable it.",2021-05-10 18:53:43-04:00,TRUE
+277b642da278e484b0b983eea38ee1051feff13e,Add warning about the use of OneLogin_Saml2_IdPMetadataParser class,2021-05-26 16:31:33+02:00,TRUE
+b794a89916e8e0aaed3d1b9c6b149964a2e98320,Added to readme,2021-06-07 17:27:41-04:00,TRUE
+5eaad0a3c6cb06769b0d21cdf1f294aac2f364f9,"Fix misleading comment with fingerprint hash weaker than a certificate verification
+
+The reasoning of a fingerprint hash weaker than providing a certificate like a CA is wrong. 
+
+A X509 signature of a certificate always uses a Hash like SHA1, SHA256, etc, which is then signed. E.g. 
+
+ openssl1.1 x509 -text -in sp-test.pem 
+
+    Signature Algorithm: ecdsa-with-SHA256
+
+So these are as vulnerable to collision attacks as fingeprints.
+
+Depending on the implementation of the fingerprint, there are other for not using them. E.g. some implementation ignore other problem with a certificate like validity or missing EKUs.",2021-06-28 13:57:37+02:00,TRUE
+f435584496977bb91e2f62aecf3fe22fa47095b9,"Deprecate server_port from request data dictionary
+
+`server_port` is unnecessary, since the HTTP Host header sent by the client
+already includes any non-standard port.  In addition, when the Python
+application server is sitting behind a reverse proxy/TLS terminator,
+SERVER_PORT is likely to be wrong anyway (since it would be the server port
+of the non-reverse-proxied server).
+
+See https://github.com/onelogin/python3-saml/issues/273#issuecomment-885566427",2021-07-25 15:07:56+03:00,TRUE
+c137dddc6f44c9c5ee3e8884e6d53b0376508126,Implement OneLogin_Saml2_Auth.get_last_assertion_issue_instant(),2021-08-26 23:19:37-07:00,TRUE
+b6ffc5932d16dacf314123dcd653a92e1332f32e,Implement get_last_response_in_response_to(),2021-10-04 22:40:40-07:00,TRUE
+138916d1cd5cc391b5f39c9f9eaef494a3fa8834,Clarify README description,2021-10-04 22:41:40-07:00,TRUE
+4c4d54005b8dd3d8ffa630e45b4d217e8f01621e,Warn about Open Redirect and Reply attacks,2021-10-18 21:21:11+02:00,FALSE
+b4199c5364d4b4c00d9930d9e4dab655ecdfaf81,Modify examples of README as well,2021-10-18 21:29:09+02:00,TRUE
+171a89e75a6e39f9cb38472162418555c85aa02d,"Add rejectDeprecatedAlgorithm settings. Define DEPRECATED_ALGORITHMS list on Constants. If flag enabled, reject signatures on response, logout_request and logout_response with deprecated algorithm",2022-01-28 20:53:13+01:00,TRUE
+f10edf68feaddeb0472819d220f28014c8ac8834,"Remove coveralls mentions
+
+The stats haven't been updated since 2017",2022-01-31 12:43:43+02:00,FALSE
+220a3359afd7db10fbbd11f6c359d91960b0ef9d,"Typo fix: reply -> replay
+
+""Reply attacks"" should be ""Replay attacks"".",2022-07-18 13:54:30+03:00,FALSE
+ff2b31c0083605f032f3bd3b6d350d87b3ca94aa,Update README.md,2022-08-12 09:46:11-07:00,FALSE
+ba572e24fd3028c0e38c8f9dcd02af46ddcc0870,Update README.md,2022-08-12 09:47:11-07:00,FALSE
+344c28640f8a718aeffd72f1ff56835488965eb0,Remove references to onelogin provided support.,2022-11-18 13:31:08-08:00,TRUE
+960b3a1d44a92329747de46302c15a95a151bab3,"Remove lxml version restriction
+
+Add documentation on how to avoid libxml2 version incompatibilities",2022-12-16 08:59:51+00:00,TRUE
+b9d15cf37924b93f7d56aeaa351b9c985a7271cf,Document how install dependencies for testing,2022-12-25 23:10:39+01:00,TRUE
+69680a3916bf9215f2a3c6bb5a6286ffa8d2d771,Update CI status badget,2023-01-03 14:59:53+01:00,FALSE
+dfb6a272e8c21350161545524d7cc9de534ff8e2,Add coverage badget,2023-01-03 15:03:07+01:00,FALSE
+7b17e62521cd76833563b16ca029228192f18417,Add Pypi downloads badget,2023-01-04 20:25:58+01:00,FALSE
+028411f154e1429faff2a7a8009896e53383f032,Update Security Guidelines,2023-01-04 21:25:42+01:00,FALSE
+cc23a40c7dbcf56b6213d915c0ab1793893b6d42,Typo,2023-01-04 21:26:52+01:00,FALSE
+e3f5519a44ebfc9ab4d85bbde2dae82607073aff,"Fix spelling in documentation and comments (#352)
+
+Co-authored-by: Ongaro, David <David.Ongaro@sap.com>",2023-05-01 22:34:51+02:00,TRUE
+918b4bbecf46da46e117e1c5da8ec7a27779ce7d,Fixed error in README,2023-05-22 11:57:07+02:00,FALSE

@@ -1,0 +1,55 @@
+sha,message,date,result
+b63d022a8ba432b11c17a9a13b5266f4b81396db,Initial commit,2012-08-20 12:44:55-07:00,FALSE
+4436ce970281795aacab0ff2ad87ce0117a7612e,Initial Source Upload,2012-08-20 20:48:53+01:00,FALSE
+59aa2a509a6354dd02b7a6fa73499a585461703d,added readme,2012-08-20 15:13:09-05:00,FALSE
+923f1d9cfc54d011bc16ed78fec0bc0c4c6fef68,Improved README,2012-08-20 22:22:06+02:00,FALSE
+bd1a44ab2cad7c6ece15ec97b031489ab192b330,Added information to helpers,2012-08-21 22:33:27+02:00,FALSE
+707c3bdb0f2c36bc5cb061c3ce1345f71a363483,Add TMT fix info into readme,2012-08-24 11:18:13-03:00,FALSE
+c20ebec8cf084692c5d8118d51a5c5d44eaa8a5f,"Stable Update #6 - 0.0.1.3
+
+Reimported from my old github repo.
+
+old update notes from there:
+Updated 49 classes including adding new stuff.
+Planes are half supported ! but is still a little buggy with the new
+NMT.
+Guns are now reloading & semi-auto / automatic :)
+Vehicle support added, but no vehicles.
+Models / Renders added
+Slot's/Gui's and Container's have been added.
+new packs support have been added!",2012-09-04 20:56:17+03:00,FALSE
+f7103b77091baa6c34d346db08ea8146b87c9f65,"Stable Update #6.1
+
+made Readme.md look nicer and updated to our current working station.
+to check Stable Update #6 changelog go to older commits.",2012-09-08 11:31:47+03:00,TRUE
+f02e809bdf10186ee005cec744d365fc7e1b3439,"Updated README.md with current goals and projects.
+
+Flan, if anything is incorrect here, change it :)",2012-09-14 12:14:57-03:00,FALSE
+93957a1bb0b665c5d6bb499ee4146df247120770,Figuring out newline on README.md,2012-09-14 12:15:30-03:00,FALSE
+ad556c8e728229356982968709b73b55ce712e18,Sorry! Newlines should be in effect now.,2012-09-14 12:16:29-03:00,FALSE
+6019e31b599276c5bad5f3dbe7b87c675e70ca17,"Updated readme, read me!",2012-10-10 14:20:30-03:00,FALSE
+6b7956f151643afb0985d2096e1e60d336458dc1,Update README.md,2013-01-12 10:49:29-05:00,TRUE
+04d36ce6bb66c6e5fa759c4405e2d5634ade8d1f,Update README.md,2013-02-17 22:23:30+00:00,FALSE
+e9083de1d7cbbcc9a6c9a9a3042d92b7d4e7460a,Update README.md,2013-03-16 20:12:26+00:00,FALSE
+9e5e4a5a8f39fc9c579cc93792b5a31cd8249ad9,Update README.md,2013-03-24 16:06:15+00:00,FALSE
+399196398510bb2b9e37c61c94db9e0301493207,Me too!,2013-04-01 01:11:14+02:00,FALSE
+6952f0fed0f287fd0fa0f2c0f7bb580dbe5d6bf8,Update README.md,2013-06-02 23:35:32+02:00,FALSE
+475aa770dc09431c98cb29bdf8dc0c1fe57d1923,Update README.md,2013-06-02 23:36:05+02:00,FALSE
+c3eda81d95f772e17fd30dabc126f09460a81862,Update README.md,2013-06-06 01:58:23+02:00,FALSE
+039daebc34100badd858af76a7701c1426bd4fdf,Update README.md,2013-06-06 01:58:45+02:00,FALSE
+2235e859a0e26195f1adc574c78b184350998900,Version is listed in build properties anyway.,2013-09-10 19:23:29+01:00,FALSE
+55face6a76dcec5c48e5c77d9aa5a8bbc0f0adb9,Version is listed in build properties anyway.,2013-09-10 19:24:23+01:00,FALSE
+df25338a93fa199c783b1296ca2c905155828357,Normalise line endings,2014-01-08 20:03:22+00:00,FALSE
+0888145d5720987a5eb602df404e838d36d77923,Update README.md,2014-08-31 13:44:00+01:00,FALSE
+f29b21d7aad2b751f0751dbfedade9a6383fc632,Update README,2018-03-20 17:24:30+00:00,FALSE
+4afe279e53f0d6b688a158f70c079444e00a2c72,"Add building instructions to replace #902
+
+Bring on the onslaught of incompatible server/client pairs!",2018-10-15 19:15:13+01:00,TRUE
+d234ceb9a2772b93a243de87c65511998e696932,Fix 0 indexed list,2018-10-15 19:18:11+01:00,FALSE
+8f21f76208661bc72652225f03b5e78939752f81,"Update Readme.md
+
+Well the changes document themselves :)
+Just a general overhaul to make the readme more up to date and to help new users find their way around this repository",2020-03-27 20:33:24+01:00,TRUE
+bae80c840c37d0d6a7f64bfd78f114e8f87df710,"Change latest release to include pre-releases (#1222)
+
+Updated to reflect the latest available (pre-)release to avoid confusion",2020-05-10 11:29:50+01:00,FALSE

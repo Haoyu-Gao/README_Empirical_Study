@@ -1,0 +1,206 @@
+sha,message,date,result
+443f0441bea90ed555491f558a5fd92773b21bc9,Create README-new.md,2015-09-20 21:20:36+04:18,FALSE
+0cd9b3fca4cb089b40b102bfdcf26b0d0d30f9cb,"README.rst -> README-old.rst, README-new.md -> README.md",2015-09-20 21:22:42+04:18,FALSE
+b1eba4bdcf93ea053400dfa80a7d5a00b1266173,fix a word in README.md,2015-09-20 21:26:48+04:18,FALSE
+148cd7f0bef576b1aaf08386f9b7610c4f8be626,Update README.md,2015-10-16 05:15:50+03:18,TRUE
+28daa11deb9dca8054f73c45ee369436cf9f7550,Update README.md,2015-12-02 17:57:11+03:18,TRUE
+285f6cfd5afe3e7d2d45908e7773bc5b91fd4492,README.md: replace gtk screenshot with gtk3,2016-04-21 13:27:31+04:18,FALSE
+a2e58420adf7c791c901a70d226f19999afeec3c,README.md: remove PMD,2016-04-25 00:45:52+04:18,FALSE
+1c045776494d090ed35b507a5c59fcb1ed91ad6e,README.md: minor fix,2016-04-21 19:14:21+04:18,FALSE
+423383d8ed328f48e1c26295724fa21eb4e50bcb,README.md: update Linux dependencies for PyGI interface (python2.7),2016-04-21 19:13:04+04:18,TRUE
+0acf87a2f6cf773a1990036555aeaaf00b0ddc08,py3 fix in README.md: update Linux gi packages for python3,2016-04-25 00:59:22+04:18,TRUE
+8d303a5c8dead4a6627730dc9f15838bda94f9e2,py3 fix in README.md: change python version,2016-04-25 01:01:42+04:18,TRUE
+ece15f2fab48fe23854ceafdb3b9edd76ff89b78,"add my own glossary format Editable Linked Entries (Edlin), to use later for a Glossary Editor",2016-04-28 19:09:10+04:18,FALSE
+904b471d0e1191672462f4b754f5378d0004c16d,"README.md: SQLite: add 3, change extention",2016-05-05 12:14:06+04:18,FALSE
+2e362b7ee34aec9ab4803a935f429ae103e676fc,README.md: increase width of Format in format table,2016-05-24 00:06:59+04:18,FALSE
+ca37ddbe11fc2e6b235de9e7f8c23096992d8540,edlin.py: change description to: Editable Linked List of Entries,2016-05-24 00:07:06+04:18,FALSE
+caed7611d44025445a8d8e40b16afe371d45d365,"README.md: fix format table:
+- read and write CSV
+- read DictionaryForMIDs
+- move down SQLite 3
+- Octopus { MDic -> MDict }
+- read and write Lingoes Source (LDF)",2016-05-24 00:07:15+04:18,FALSE
+9978990b6d23b0c9ec1050cc8d70cb74bd506383,README.md: update screenshots based on version 3.0,2016-06-17 15:48:12+04:18,FALSE
+d2473ab0d5ddad46f61aa36f0046c4341c602fc9,README.md: update summary,2016-06-17 21:28:56+04:18,FALSE
+d44fa175eed287473f4c4f3868823cc4c02bd779,py3 fix in README.md: easy_install -> easy_install3,2016-06-20 22:16:40+04:18,TRUE
+0e04bd84971b9086e576f89f8d07415089c70fde,README.md: remove duplicate title,2016-06-23 08:30:12+04:18,FALSE
+95073c28e1f0c91634c801308ae50b1aca482528,"README.md: add section ""Format-specific Requirements"", containing AppleDict and MDict",2016-06-23 10:48:47+04:18,TRUE
+a18905a99117532e0cf8271d73c492865a3c5163,"README.md: remove broken GetDict link, added in Dec 2012 when we didn't have read support for MDict MDX",2016-06-26 20:09:50+04:18,FALSE
+90c2014992c4bb6e83e44eaa4c1b98b63a211257,README.md: fix MDX -> AppleDict example,2016-06-26 20:14:08+04:18,FALSE
+ab81d00894de6c1be9bd62e6b9ef42f78a029d9e,README.md: replace `python` command with `python3` in examples,2016-06-26 20:15:33+04:18,FALSE
+63aa0e0b5d01c5062c8dbbecab775f887f7e93ed,README.md: replace one of Linux screenshots with Windows 7 screenshot,2016-06-27 16:19:42+04:18,FALSE
+02e0989bcc3ff3ace76cd987afc83ba4296e845d,"README.md: fix package names for tkinter in Debian, openSUSE and Fedora",2016-06-27 22:11:12+04:18,TRUE
+2b12386e43c3e44e6cde3d7774c860e21eccd994,README.md: change 2 screenshots,2016-06-28 19:27:28+04:18,FALSE
+a169a5d0e2693a6881b0b40588c9e4a8d3afb2ff,README.md: some formatting fix,2016-06-28 19:38:18+04:18,TRUE
+55d244e62acbf057052c6a1e6eef4d6acd5998d4,README.md: change `easy_install3 beautifulsoup4 html5lib` to `pip3 beautifulsoup4 html5lib`,2016-06-29 23:25:27+04:18,TRUE
+211f56a3152f4c688c04722893222dde5948a984,README.md: add tip about python-lzo,2016-06-29 23:27:55+04:18,TRUE
+c11f722d6e569523303ad3b02a27d14ce95db6bd,README.md: add tip about BGL and Python 3.5,2016-06-29 23:31:32+04:18,TRUE
+57a91db191e9024dcf66c111259b0b1209666c5f,README.md: lxml is also required for AppleDict,2016-06-29 23:34:26+04:18,TRUE
+5bcf275ff80dbc7506fb0b5bc08ed40a1035f2e5,README.md: add XDXF requirements,2016-06-29 23:38:58+04:18,TRUE
+0ffa74da0e7fa051aa3f93ab07fdd9a1a9229af4,README.md: fix pip3 commands in Format-specific Requirements,2016-07-14 02:52:18+04:18,TRUE
+ab1177d361b6376e50859b544761cbd4288d725d,correcting small typo in README.md,2016-09-26 20:39:15+02:00,TRUE
+5829eb3435b73d1329efae9937cdf60a5146033f,"README.md: for reading BGL, Python 3.4 is just fine now",2016-11-07 23:12:36+03:18,TRUE
+b8c8c56eb05290693cef5d3a84032873836032dc,"README.md: fix AppleDict sample commands, always creates a directory for AppleDict Source, #81",2016-11-08 18:32:45+03:18,FALSE
+1678a732813224f540649ccec18c0170e7505ccc,add 'plugin_lib/py36/gzip_no_crc.py' for BGL,2016-12-30 09:21:34+03:18,TRUE
+1abb057cb6e9b966263aa415c19652e1776a1551,README.md: add Donation section,2018-03-08 23:48:31+08:00,FALSE
+0f2e83c19242e0e236a865021af290e734978cb5,update README.md,2018-03-31 18:25:31+08:00,FALSE
+f379b0b7d19b89e3501ffd3fabadc3710d461ce5,README.md: update PyGI installation instructions,2018-05-04 09:47:22+08:00,TRUE
+a2d8f8d6949030d1d3314f76ed3fb4f5d52aba04,README.md: Debian/Ubuntu,2018-05-04 09:49:14+08:00,TRUE
+202fe3846fd488e78d771c83540f45cff00c6923,design change: yield/iter DataEntry for resource files,2018-05-04 09:51:57+08:00,FALSE
+b79cc88634a17a27b1cdd3c8f35bc4cb060bcfde,remove xFarDic plugin,2018-05-04 09:51:57+08:00,FALSE
+846240d18aa4ec01fa14c9e0167d66001d4585fe,remove read support for Omnidic,2018-05-04 09:51:57+08:00,FALSE
+5dc0e6c0016648e837e5da9dbd49616b02ab6383,drop sqlite3 support,2018-05-04 09:51:57+08:00,FALSE
+2c0d3a29a523f2113dbeed58ace701acfcb8a155,update README.md,2018-07-08 02:30:01+08:00,FALSE
+6658005d1191531cba5885e4a28984c85243a798,Update README.md,2018-07-28 01:54:26+08:00,TRUE
+6977238d96b4ba79a97cb951812a9d818a7582a4,"Added CC-CEDICT plugin (originally from
+https://github.com/benzrf/pyglossary-cc-cedict)",2018-07-29 17:46:17-04:00,FALSE
+051e488c8ddb54893bbcd65c00f10c477ff98d57,Added a note about the CC-CEDICT plugin's jinja2 dependency.,2018-07-29 17:51:14-04:00,TRUE
+2b2f10bf8cd1a086532c55e9d6b3123e90f60f4b,README.md: add pygi and tkinter package names for Nix,2018-08-04 15:22:07+00:00,TRUE
+44282c4de5cc701191c5352e573de225f5e92f76,README.md: change indentations to tabs,2018-08-04 15:27:38+00:00,FALSE
+3cf541efd37a6ff3bc516952859d2519008676a2,README.md: Supported formats: replace X with unicode check mark,2018-09-23 14:06:51+08:00,FALSE
+9bed46b4105406c4938b44d6fb99621b73463f44,README.md: Supported formats: make columns center-aligned,2018-09-23 14:10:40+08:00,FALSE
+fa74923894456ce25d542b1cf458fded038c95c4,"README.md: Archlinux: fix pkg name, add AUR",2019-03-13 15:07:21+03:18,TRUE
+7c0fc3b9c5f5c57bad837ac76ef887da3ccb863a,update README.md,2019-05-11 11:07:44+04:18,FALSE
+bf15c5610f1818224191595a2d4616f798fd2cb1,README.md: add instructions for installing python-lzo on Windows,2019-06-21 01:54:46+04:18,TRUE
+e4a71c04a259f1ad1d705ec9c2a2d027d3369b25,"add Aard 2 (slob) plugin with read support (Reader class) and write support, #116",2019-06-22 08:32:58+04:18,TRUE
+5201086606daabaef4580415b3739621455bf6a9,"rename pyglossary.pyw to main.py, add a small pyglossary.pyw for compatibility",2019-06-27 07:01:43+04:18,TRUE
+eddb4c3e8bf635db09f82d7a1072c9b38a90209c,README.md: update Gtk screenshot,2019-06-27 08:01:39+04:18,FALSE
+8cea0f2ab8a337bf38d1d5f4571e617c0c6f7e1b,README.md: update cmd screenshot,2019-06-27 08:20:00+04:18,FALSE
+e0adb2e017a77ef0cc1e599ca2d1420e0ac39dcc,README.md: limit the height of Gtk and Tk screenshots,2019-06-27 08:36:55+04:18,FALSE
+35341b222028414e74889e6a50d2e5ef95674d61,README.md: update Tk screenshot,2019-06-28 13:17:05+04:18,FALSE
+e5df8470309b112b81324685cecf0eae35777990,add AppleDictBin plugin,2019-10-16 10:59:02+03:18,FALSE
+8c0da66095d2a3e89925dffb53c5ae5125dc6bc7,"update README.md
+- change Format-specific to Feature-specific
+- add dependency for --remove-html-all
+- add dependency for AppleDict Binary",2019-10-16 11:30:21+03:18,TRUE
+94d0a8c42b2686a024a1fea44ca2123ecb0eeb0b,README.md: mention requirement to Python 3.6 or higher,2020-02-06 23:20:36+08:00,TRUE
+9ff95725dfdb245c76a8610db0e1194be64541bc,Moving dictionary development kit to homee,2020-03-13 21:23:08-07:00,TRUE
+714f546192f8237d301f0bf0c31fd850bffecca0,README.md: add EPUB-2,2020-05-14 16:36:13+04:18,FALSE
+fd35c36e74403647b48973770dce3f03d7a064ba,"update README.md, add Kobo",2020-05-16 14:33:53+04:18,TRUE
+1e864f6920bf729700e79861899642901def7f99,README.md: fix Python min version for BGL,2020-05-16 14:35:45+04:18,TRUE
+ea8787de9ef88977c914f49612a38a964eeb3cc0,update README.md,2020-05-22 19:56:45+04:18,FALSE
+64a4f1c87554086e698e613d8fa321affe75c54e,"README.md: add FreeDict read check mark, #206",2020-06-16 01:53:20+04:18,FALSE
+895230c9ee5b37c81fdc92f1aaec778f4e4f6a15,README.md: mention dependency to lxml for FreeDict,2020-06-16 03:07:00+04:18,TRUE
+7fa1ef0ec20b3b7c914a843998807e2432fdc0ad,move AppleDict docs to doc/apple.md,2020-06-19 11:21:12+04:18,TRUE
+3c5b7f632e38aee28fde7c65a51ac601f8184273,add plugins/ebook_kobo_dictfile.py,2020-07-06 19:27:47+04:18,FALSE
+37d991af29a9ad41ccd9bae4ac889226f4e15af8,update README.md,2020-07-10 07:47:40+04:18,FALSE
+685431938a71e6f0227ae1d24b7bd4a61e551b23,remove Omnidic plugin,2020-07-10 10:39:40+04:18,FALSE
+f9f257b7adc67edce176db74b0a64e844ec8e576,update README.md,2020-07-10 10:45:23+04:18,FALSE
+3959bbe5cf6b9bcaf8bc2aa77c63497729489c1d,update README.md,2020-07-10 12:09:06+04:18,FALSE
+914bab0a03b1dcd68809fb6738e12f1000d6304c,add plugins/dict_org_source.py to convert with dictfmt for dictd,2020-07-11 11:38:54+04:18,FALSE
+ba0dddfb5c131f8e517772729b012b5d8c8e870a,update README.md,2020-07-11 11:57:02+04:18,FALSE
+a73a041eadbbb2d07f4b1ba6b2bab7f811011169,update README.md,2020-07-11 13:31:10+04:18,FALSE
+4a61d396ab28c0b478bda4362b7635a2fbee70b8,"fix #221, typo in README.md",2020-07-12 04:53:22+04:18,FALSE
+6c6a46aa4802c5b1853a96e5e69c9f2eca85e4bd,update README.md,2020-07-12 11:36:15+04:18,FALSE
+5ed32156c7ae14ca299da0cdb883edb83153e845,remove Octopus MDict Source plugin,2020-07-16 15:21:43+04:18,FALSE
+8d6c852aadcb2d73918113ee97e490e0e259b444,remove Babylon Source plugin,2020-07-17 06:15:35+04:18,FALSE
+a4ed5d1877b1968de0cbb7a8fad3ba258bb59e30,"AppleDict: remove '.xml' as extension metadata, since it's a directory",2020-07-18 11:58:00+04:18,FALSE
+3feac4d33b503e3660f0811e018fa77ae6c2f76d,add read support for: Wordset.org JSON directory,2020-07-20 02:41:32+04:18,FALSE
+c301f880c27dbe3808acee9b325bc6b452c3a349,update README.md,2020-07-20 10:41:14+04:18,FALSE
+cc1c8d11b0ed31af9a18295d8f559ab124e2e119,update README.md,2020-07-20 16:31:20+04:18,FALSE
+48b6c4765b3e7f31517f42386bdd020d72338cba,update README.md,2020-07-21 04:33:08+04:18,FALSE
+cd2e3471f169554ef4cd2ec2b069c1db154227a6,update README.md,2020-07-21 14:37:15+04:18,FALSE
+c49677762a20d949c9334bbee02804405d31aae0,add read support for Kobo Dictfile (.df),2020-07-21 19:38:14+04:18,FALSE
+6676f49f97de1b40f5f76098db7957f379ef7c56,update README.md,2020-07-23 00:29:14+04:18,FALSE
+7069d9736cb6c665e0981560ba4690955a68d34c,update README.md,2020-07-23 00:34:21+04:18,TRUE
+679180092eb2a678b8ecb03a22825809052a029b,update README.md,2020-07-27 08:47:21+04:18,FALSE
+746415071d1fb7261b609c1bebe03dd4dd03ee20,update README.md,2020-07-27 11:11:48+04:18,FALSE
+019c9d063f303fc1002770c65f57600b1048687a,add read support for Dict.cc (SQLite3),2020-07-27 12:08:55+04:18,FALSE
+757ec73363144582009b7a24ed76b5769477abe0,"add html_dir.py plugin to write to html directory, split by file size",2020-07-27 12:36:03+04:18,FALSE
+e0b2bd110907e4bab4f74f578cb8b528c54c5ee2,add support to read Wiktionary Dump (.xml),2020-07-29 15:57:47+04:18,FALSE
+68b106c9a6c23a5958ee0520216c7a7e80681a2d,update README.md,2020-08-06 04:45:44+04:18,FALSE
+649de37cf2276ddc44db2356e44dcd319b058029,update README.md,2020-08-07 03:57:39+04:18,TRUE
+96b894fa9314c5baeb6157372bcbc0d11bb13f15,"move lzo doc to doc/lzo.md, add Termux",2020-08-17 16:36:00+04:18,TRUE
+1af3725f09d7ca55c707c8c4fa4441df5cfa7fe7,update README.md,2020-08-17 16:46:04+04:18,TRUE
+5a1852d9bd1f95fab36414b24244865df6b777e4,add doc/termux.md,2020-08-17 20:14:19+04:18,TRUE
+4f9251fb2758faf193ad97a7dc976ef363ab4ba1,update README.md,2020-08-18 15:15:56+04:18,FALSE
+07ba745d48e353ed9fc352e1871892b4973effa7,update README.md,2020-08-30 08:00:00+04:18,FALSE
+02cd738a1b4e24a13959f9e7f14f5c68a573a274,add read support for cc-kedict,2020-09-01 10:08:09+04:18,FALSE
+a555f82ca89edf6e0ecb95e98b40f411936bc63b,update README.md and doc/termux.md,2020-09-02 02:50:31+04:18,TRUE
+c17cf7fd451ce21e54c9b6981ec65718613d7add,update README.md and doc/termux.md,2020-09-02 02:57:51+04:18,TRUE
+02fb13eaedf7c7d4d6c14d0f077ee9cb3752344f,update README.md,2020-09-03 21:38:59+04:18,FALSE
+03d9c2d42a76f1f38872a097033dfca9ffd1373b,add plugins/digitalnk.py,2020-09-04 13:48:14+04:18,FALSE
+a0b98d9900c78b68235361cb9b279bdf04cb771d,update README.md,2020-09-04 14:05:11+04:18,FALSE
+6cd73f661663ec4215686438c63cf997815d7898,Update README.md,2020-09-05 14:13:36+04:18,FALSE
+892ec476fc7cd950b3e960609a168d6ce9b80db3,update README.md,2020-09-07 04:04:35+04:18,TRUE
+72f9eb74350af206709cd7433a079cdfb27cdc07,Update README.md,2020-09-13 02:16:34+04:18,FALSE
+b6a96a53bdd8a0e4e602751945c698d554a2590a,update README.md,2020-09-13 02:24:55+04:18,FALSE
+f5f15c3b8db82fd453c5f869f2989bc5e1e47d2e,update README.md,2020-09-13 02:30:07+04:18,FALSE
+c812650157e8afc46224c7253d39f2b9ec7830a3,update README.md,2020-09-18 03:52:02+04:18,FALSE
+b9f210ccbb3d3cde44c453c7d317b85379d65c54,README.md: require Python 3.7,2020-10-01 08:03:27+03:18,TRUE
+1015a92e88ffe1201a9ab7317ccb64035ccb7123,update README.md,2020-10-02 04:05:49+03:18,FALSE
+a909f50b820888cd73c2acdd98a8a92113d27b81,update README.md,2020-10-24 13:02:13+03:18,TRUE
+6009590092abafd7de432e1b3eb5de0f98fc2810,update README.md,2020-10-24 13:47:08+03:18,TRUE
+96c5bb026f9f8b7b86df0c01226eb8c2fd27fba7,add 3 shortcut flags: --cmd --gtk --tk,2020-10-25 12:30:54+03:18,TRUE
+7e773da8edb2b0ba786ffd6dc534ad6cef244ef1,update README.md,2020-10-25 12:36:17+03:18,TRUE
+2fa3367fdef8f51cc8fc2f7d4722c1319a06f25a,update README.md,2020-10-25 14:56:02+03:18,FALSE
+ff33ea74f80822bdd586f0164316f12d2690502a,update README.md,2020-10-29 13:46:23+03:18,FALSE
+390db6c43ea991e6e6d25abd25938b53e50dcefa,remove plugins/treedict.py,2020-10-29 13:49:28+03:18,FALSE
+f39e0ce97367a5ce6105dd368cbf11bac6ce60f8,update README.md,2020-10-31 16:26:08+03:18,FALSE
+079297a15c79f1c6baa7b6f7c822ab6dd013e2da,update README.md,2020-10-31 19:52:22+03:18,FALSE
+3ab5fac12a05d134915ea21bd449ff1317575794,update README.md,2020-11-01 02:10:15+03:18,FALSE
+e5ab07f011c158ba7ba9affae0800e36112150b8,update README.md,2020-11-01 11:24:35+03:18,FALSE
+9a27efd1df40ff9c3040d0906be5028e3ef46527,update README.md,2020-11-02 12:10:54+03:18,FALSE
+ccb8bdc67729f47f8c2834d8cd0e008632a081af,update README.md,2020-11-05 04:47:33+03:18,TRUE
+78b13a45a36e412138be721b23c5e7524c151243,"update README.md, doc/termux.md and Dockerfile",2020-11-17 01:28:05+03:18,TRUE
+5176a1f42aa6023360ff2fb2ab0bbe0aba0286b4,update README.md,2020-11-24 21:19:18+03:18,FALSE
+22893a83f544df6cce8e44198e5d52a322832135,update README.md,2020-11-29 06:35:04+03:18,FALSE
+4e6c287383d9d277e5d9f03d64d0e2fe23dd51d5,update README.md,2020-11-30 23:59:59+03:18,FALSE
+10fec568512e31db19ad8f44a3479962ccb958e3,update README.md,2020-12-02 19:26:43+03:18,TRUE
+9126151ce07fc9515cf6f05e40782cd2c8a1ac2d,update README.md,2020-12-24 06:11:40+03:18,FALSE
+67e4d78b20bae2b59c032c02712bf196adb467e4,update README.md,2020-12-24 06:20:50+03:18,FALSE
+ac67ad7ec161cf274c2245f8a7193e21e6ec4610,"update README.md, add doc/pyicu.md",2021-01-07 16:34:51+03:18,TRUE
+dd5135de2de078023cd6e96b8410058f62f3a03a,"update README.md, #284",2021-01-10 12:41:35+03:18,TRUE
+20aaf6d6fe77f221db3199683eb6670c2efcba6e,remove FreeDict writer,2021-04-11 15:27:18+04:18,FALSE
+9eae4507674c4e68a78a8d9b715be22ed5e05ee3,update README.md,2021-05-27 13:07:44+04:18,TRUE
+ae0cdf2597124ef027f4d58240e1fbdd973e9d7d,update README.md,2021-05-27 13:09:26+04:18,TRUE
+923ace846b1dae58dd742e2d9b0daf8982d324be,"Mobi: update ebook_mobi.py and README.md, #299",2021-06-07 11:24:08+04:18,TRUE
+4ec331d4d529341530dc411a4a1fbf1b7e7c40e5,update README.md,2021-06-07 11:30:14+04:18,TRUE
+3f6802215a5d96048e11c2b47a50901f65b333af,update README.md,2021-09-16 18:02:16+04:18,FALSE
+e5664f3de00ffada7fb5c79aaee2f6224d1154bd,update README.md,2021-09-26 02:31:45+03:18,FALSE
+b00a64ec57b83f99b0f3bc11dc7ce36e2efaf511,update doc about PyICU,2021-09-28 11:58:03+03:18,TRUE
+3d296ce5fc53603c3f2d395cb91f19548137b882,update plugins doc,2021-09-28 20:13:51+03:18,TRUE
+bf321006e02da6eb5dc33e690ecd9918149a284b,update docs for AppleDict and Mobi,2021-09-28 20:20:24+03:18,FALSE
+1473136f8e33be53447952f22c3de490fd4520ac,update README.md,2021-10-10 05:38:05+03:18,FALSE
+90a2d45ca873075202d0ca0b3e7a44e246f35374,update README.md,2021-10-13 18:55:27+03:18,TRUE
+4b09e0735a818be2eaebf53f328228ba32a880ab,update README.md: add: Using PyGlossary as a Python library,2021-11-25 17:51:13+03:18,FALSE
+2e0810126ebfb2bf9a01ff0d454862d41e3b33f3,format README.md,2021-12-11 03:50:03+03:18,TRUE
+0d5ef0a278bb6810f304a2842b265ee3c3b107ab,update README.md and help,2021-12-19 05:03:11+03:18,TRUE
+bf41942ddf5b33afbaaa4217df2b70744115b0eb,update README.md,2021-12-20 08:23:01+03:18,TRUE
+a3d6bc297708ca9f6fdb610dc69789b34cbc8bbc,update README.md,2021-12-20 08:25:52+03:18,FALSE
+f551bafb565dbd6a9bac2f9497717b4ac0e8df2b,Update README.md,2021-12-21 17:55:38+03:18,FALSE
+2cb88b4c62e917e1feb22e00f372dd4cf376eac9,update README.md,2021-12-31 19:09:50+03:18,FALSE
+cd0172780bf346bc0c414413d75f6888f7d59a99,update README.md,2022-01-04 06:26:40+03:18,FALSE
+af2b61110ab98c74a6bae75bef263ed7b8dd9f7a,"add ""auto_sqlite"" config parameter to use sqlite mode for StarDict by default
+also add --no-sqlite flag to override it",2022-01-05 06:14:22+03:18,FALSE
+ab062eec556ebe5b22693915c608bef73e31c4a6,replace doc/config.md with doc/config.rst,2022-01-07 08:02:02+03:18,FALSE
+7d23479ce6ac380179ff31a7d2e06cdeb2ef62ff,update README.md,2022-01-17 16:08:27+03:18,FALSE
+2c70cb5db5e4851822131decb5892115f31b82f4,update README.md,2022-01-24 14:02:34+03:18,FALSE
+e4977e058eb3c50fee5855802257468ed1d61284,rename doc/entry_filters.md -> doc/entry-filters.md,2022-01-24 18:23:04+03:18,FALSE
+c681a8978f0ee6d5857d1436d7fc876f5d505c26,README.md: change min python requirement to 3.8,2022-01-28 23:30:40+03:18,TRUE
+72add0688ae7c30cad156015b8c00ec1d7de887a,mdformat README.md,2022-01-28 23:35:30+03:18,FALSE
+d328b100dd32209c522af6f86db72d91edf6b57c,update README.md,2022-02-04 13:33:23+03:18,FALSE
+35b21bad9acf0b584dbd4ebf14c31864e0bc4f52,update README.md,2022-02-10 08:38:28+03:18,FALSE
+79f00c0de9a982adb4c95cb2e46fceacfeb3dd81,"add r/w support for StarDict Textual File, #348",2022-02-14 06:09:59+03:18,FALSE
+cf691dcf50730dd91a762e95f0623638af452a3a,update README.md,2022-02-14 06:22:09+03:18,FALSE
+14683f13b4d6ea10a769fcb0e74328de3f139e24,update README.md,2022-03-05 19:55:43+03:18,FALSE
+66db38f27449e3165a5730ac41ea0b15c93028fe,"update README.md, remove doc/p/wiktionary_dump.md",2022-03-05 20:07:32+03:18,FALSE
+d3c3307c6a5ec2149c9837f647f09a4ef6cde1b4,update README.md,2022-10-15 09:43:22+03:18,FALSE
+772dbdf11a3b64a1c6572e7e505537e2851c1f96,update README.md,2022-10-22 09:01:29+03:18,FALSE
+228756538aefae719413992a9a16482b4c1525db,update README.md,2022-10-22 09:03:53+03:18,FALSE
+35e748f58d6f9a90d72a1478afa71e457efa6975,"fix: README -> nixos command
+
+The ‘gnome.gobject-introspection’ alias was removed on 2022-01-13. Please use ‘pkgs.gobject-introspection’ directly.",2022-11-13 17:04:50+03:18,TRUE
+da5d2614d0bf756bc56e0bd9bee5f7ae2c729658,add --sort-script,2023-01-13 09:35:40+03:18,FALSE
+eb93f0075e27d6b213c0d49fe875fe8c4e2fee63,Update README.md,2023-01-16 05:23:08+03:18,FALSE
+9a3a6d9e5e20612fa7cf02265530591ad63a0427,"README.md: add document for adding data entries, #412",2023-01-19 07:02:16+03:18,FALSE
+a43d2cda6e15cab5515f977cd23dbdf80b9d031b,update README.md,2023-01-21 06:22:44+03:18,FALSE
+6556281e134e81135324fc949ab5ea0a2c632be6,"switch to Python 3.9, use str.removeprefix and str.removesuffix",2023-01-31 05:04:28+03:18,TRUE
+301e239c1c80f898b0c3fd3d5e382555473fc75f,update README.md and doc/pyicu.md,2023-02-04 06:01:37+03:18,TRUE
+18bc194f71260390a5c5853534c67d2fbdf9b6e0,remove support for Sdictionary Binary and Source,2023-02-12 05:03:23+03:18,FALSE
+ed85363f1e10bcbf9f2a5673b95483899a106543,remove --sort-script / sortScript,2023-02-17 07:11:29+03:18,FALSE
+f1bba84a5b9210a232afea4f79ef3796bf76c755,"combine sortKeyName and sortLocale params, removing sortLocale / --sort-locale",2023-02-19 16:21:49+03:18,TRUE
+83dc52e1cc344625eafd3e0b91ce1b1552b9efa5,glossary_v2: rename addEntryObj to addEntry,2023-03-07 04:57:43+03:18,FALSE
+84d45c8a6115eb7fa394aba1ce5cb44a2b57aaea,update README.md,2023-03-07 04:58:35+03:18,FALSE
+30fb421be910d31a7eb08d8c418a1792e035253b,update README.md,2023-03-18 03:14:13+03:18,FALSE
+b18f6ae8427ce2030350790be7bee6d8ef5a7fc5,Update README.md (#460),2023-05-05 12:57:08+03:18,FALSE

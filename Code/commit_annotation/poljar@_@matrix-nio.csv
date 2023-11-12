@@ -1,0 +1,50 @@
+sha,message,date,result
+4003c309c23b692c847e8aa6bc2e81b670f6dd5b,nio: Add initial readme.,2019-01-15 18:47:27+01:00,False
+bc3647ac917dfe297dfad9dfa0b9a64fbf5f70a9,readme: Update the shields.,2019-01-23 15:11:56+01:00,False
+8ecdf734a35ce589167200e3ad8c5da1d8309ad8,readme: Add a link to the documentation.,2019-01-23 17:00:41+01:00,False
+07dd928112ba78da5a9bce0f398f3e2ed6438cf3,readme: Update documentation links.,2019-02-16 17:00:11+01:00,False
+a17772fa0d436414d3d03139ee344bf3e1563f8a,README: Add a matrix room badge.,2019-07-05 19:06:53+02:00,False
+96d2e2b299078901a44a65cc1b50872db1f1463b,"README: Add a install section.
+
+This fixes #10.",2019-07-11 13:26:35+02:00,True
+a13577db468a72ae0979aa981ad5bdf50080495a,"README: Improve the description.
+
+The description now mentions the multilayered nature of nio.",2019-07-11 16:30:07+02:00,False
+7cf51b048db7b943f705617a6451f5bfa8f1805a,README: Include a usage section with a asyncio example.,2019-07-11 16:30:50+02:00,False
+416c6c51880f6efb46409c2a68182252493a887f,README: Move the documentation section upwards.,2019-07-11 16:39:37+02:00,False
+30defe47caa09430ff3d7c720e616ad2a2a2f3c4,README: Fix the API documentation link.,2019-07-11 16:47:38+02:00,False
+a73c7c3dc8b9d0502e5677ee15ef8f5bb28b1f50,"setup.py: Use the open function from the io module.
+
+This is used for python 2 compatibility.",2019-07-11 16:56:54+02:00,True
+5dd454ee51e1da09d310fc04a241c308722c85e3,"README: punctuation, example for Python 3.5+",2019-07-11 18:12:25-04:00,False
+8ff22f3c25c2cc666d5d04ef2413cbba1b5ed8cf,README: Fix the matrix room badge link.,2019-07-30 15:00:44+02:00,False
+a6db7e336279d06e23f0c978eece498c55c4b5ff,Fix typos in the README,2019-09-02 23:42:37+01:00,True
+936f666b9998c662b703d493f4fc45e7e2d22a68,"Add comma to read easily README
+
+This minor PR adds two commas.
+I think it's easier to understand the sentences.",2019-11-08 11:05:07+01:00,True
+d6992bf9f27bac1afd26f8c329b1d1ae3846afee,[README] libolm needs to be at least version 3.x,2019-12-07 15:00:19+01:00,True
+cd9ca6b2582634576922a62ae8cd99d5d216062b,[README] specific 3.x  version,2019-12-07 15:23:38+01:00,True
+d5ce9977bc1a7714af22bebaa683910aaf9f5064,add example for sending message,2019-12-18 16:15:40+01:00,False
+9209e6f205f8c2c15beb9e214a8042aa9a061dbd,"make headings clearer, move notes on examples together",2019-12-18 16:46:08+01:00,False
+c9cbf2b2c679c5e25ff1457ca619b3e3b69f03f6,switch to keyword arguments in example,2019-12-18 20:48:27+01:00,False
+f02dcecfa642bab409808d5df9ebd2c234044295,add example for sending message,2019-12-20 18:40:58+01:00,False
+693c617fd2e64af310eadfe9e695a0edd20e043c,"make headings clearer, move notes on examples together",2019-12-20 18:40:58+01:00,False
+d9de036407714954fc79f8dd9c19c0f243f9bd46,switch to keyword arguments in example,2019-12-20 18:40:58+01:00,False
+a78f023fb2781cceda5d58685b4a3d89a94bb270,README: Remove trailing whitespace.,2020-03-28 12:53:32+01:00,False
+ff6b5ecda1f2cc2828ea70a459524bfb8bc076e0,Add feature list,2020-05-10 12:01:07-07:00,False
+afb2c3a8d1f197877723351203a2a314b6e7970d,"Combine examples and move to Examples page
+
+Signed-off-by: Phil Denhoff <phil@denhoff.ca>",2020-05-10 12:01:07-07:00,False
+2b160d199ef862dfe51603fa9193a784325661a0,Clarify nio might do file IO; avoid HTTP client,2020-05-12 21:51:55-07:00,True
+f8f6e076d7e5fccbe60f6713b3f237b7c9f5def0,Add a docker container with e2ee deps pre-installed,2020-05-31 19:51:31+01:00,True
+1d609bd568a9b71c52db53e5df72e5dbe2117416,"added further sentence to ease installation
+
+- adding this sentence can reduce installation time for many people and avoid frustrations
+- I read all of https://gitlab.matrix.org/matrix-org/olm and then started to download libolm source code, compiled it, etc.I ran into an error, had to troubleshoot, etc. 
+- I spend 2 hours, just to find out that I could have done it the easy way in 10 seconds with a simple dnf or apt-get. 
+- It was just simply nowhere mentioned that these packages are available.
+- I think adding this sentence would help a lot, and avoid other people unnecessarily doing what I did (compile the source)",2020-07-12 05:59:16+00:00,True
+59dcda536652e1db5f72ced689224078ada20b4f,Add the MacOS way of installing libolm via a package manager.,2020-07-15 20:52:09+02:00,True
+c7a8c1f7c782bac6327c36952097ae1cf835f6c6,README: Switch to the github CI badge.,2020-11-07 17:37:07+01:00,True
+1e59767a68b950f6d1978e19fb8436286ba584d3,docs(README): Mention that room key backups are unsupported.,2022-05-04 19:56:58+02:00,False

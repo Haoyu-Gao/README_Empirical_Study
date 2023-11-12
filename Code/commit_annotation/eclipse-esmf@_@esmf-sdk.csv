@@ -1,0 +1,40 @@
+sha,message,date,result
+2c362347797e7853af4f17be44796ec41eec988d,Initial commit,2021-03-04 08:11:37-08:00,FALSE
+421f1e015e265d0046c55d60d1c6089c07fcf3c9,Update README.md,2021-03-09 16:25:42+01:00,FALSE
+4d705d3ddce352ccdb1248dccedd8be0add40856,"signed-off this commit
+
+Signed-off-by: Joaquin Prado <jprado@standardshub.io>",2021-04-05 17:23:34-07:00,FALSE
+20ee3a2744996f13c773052cce2dbdc24f7fc7ef,"Joaquin <jprado@standardshub.io>
+
+Signed off first PR
+
+Signed-off-by: Joaquin Prado <jprado@standardshub.io>",2021-04-05 17:31:41-07:00,FALSE
+83d9ccad73c1b85ea8a1d28f001108c291c5c151,Initial Contribution,2021-08-30 13:15:03+02:00,TRUE
+667fb36182421035e40a616c916a9f6111af2356,"Add link to developer documentation to README.md
+
+Fixes #60",2021-11-24 08:33:26+01:00,FALSE
+4ba38e639d0490aee9de851481b05c7a24f25f9e,"adds information on BAMM CLI
+
+Adds information BAMM CLI to Readme files and updates links to SDS documentation",2021-11-24 14:28:20+01:00,TRUE
+33965212b3baa683a18c67d19bba2cb3a637aa10,react on feedback in PR for changes to Readme,2021-11-24 15:23:57+01:00,FALSE
+6ab93cae1124c250802498a6f6763694029a8c5f,"Remove reference to non-existing folder in README
+
+Fixes #75",2022-01-20 13:00:39+01:00,FALSE
+063d3061e9bb35a9b35d0b159e6d5ceabb8cc053,"Adds documentation about how to access a package released in Github.
+Removed unused Link to api-versioning",2022-03-02 15:26:31+01:00,FALSE
+7c0c8243daa0e64621bdbaac97fb7fdfe27a693f,Restructure bamm-cli interface.,2022-03-30 10:11:09+02:00,TRUE
+0ab15bd93f3c485e28601e35900117e8e0cca97e,Improve according to PR review.,2022-03-30 10:11:45+02:00,TRUE
+fda950a32b129600987d383fb6dff57734456bbf,"Fix broken developer documentation links in README
+
+Fixes #142",2022-04-01 08:25:36+02:00,TRUE
+616fd7e56374e07616549a88020686fef64bb904,Update README with build instructions,2023-01-31 07:07:37+01:00,TRUE
+eeda84919164fdd7dc2a991f2dca05517b03d548,Incorporate PR suggestions,2023-02-22 16:42:07+01:00,TRUE
+0d58d557b52aa10904fe4428eab7d4a6d9ce44f7,Update classes and fields from BAMM to SAMM,2023-02-23 14:05:30+01:00,TRUE
+f87235664047d31806d9807283442f8e12de15b7,Update documentatio and guidelines,2023-02-23 14:28:08+01:00,FALSE
+7ba82fc901008862e3cd545889eece5c2363b6c9,Remove outdated TODO from readme,2023-03-03 10:04:06+01:00,FALSE
+c65b3f0f3c4239d6d198c166c2ec2655269ada52,update antora description and link to the instruction,2023-03-30 14:19:24+02:00,FALSE
+baa1183baca1d01e1f26dce3ee234b57fa415280,update sds-doc link,2023-04-03 17:40:52+02:00,FALSE
+3eaab6887e3517998043e58b8c43f6a9a19cd9dc,Improve versioning section in README,2023-04-05 15:55:00+02:00,TRUE
+647949caa69c09e28b91852778f1e1846b10c526,Fix typo,2023-04-05 16:00:30+02:00,FALSE
+1a749edcb84806eaab6f52df93f9091c96b7141d,Fix ESMF links,2023-04-06 10:34:22+02:00,TRUE
+32f675ff709cb4294f4698b46f98c255dbb76b9e,"replace sds-documentation term with ""ESMF documentation repository""",2023-04-18 09:46:23+02:00,FALSE

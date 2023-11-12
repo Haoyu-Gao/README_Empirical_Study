@@ -1,0 +1,22 @@
+sha,message,date,result
+049d2356847bf675ed5755c8c158743113d3528a,Initial commit,2020-09-17 15:02:08+02:00,False
+89ced62153a17456f654b38b24777220705c4816,Added some documentation,2020-10-12 14:20:17+02:00,False
+7dcac4a488a65e33f650c3bdbe38407c4792a131,Lowercase Orchestra -> orchestra,2020-10-14 15:17:59+02:00,False
+cf74ccb4db558bcddc319d9fd8da9fb3a84ead9c,Rewrite README.md for rapid bootstrap,2020-11-20 16:39:53+01:00,True
+ff87545ef1ff67fbb472809dca0b12d44f136695,Clarify that orchestra does not pollute your $HOME,2020-12-23 17:00:31+01:00,False
+6b194ba9489f1dd7b4c44b39e6f8aa1ec0ba63d5,Update directives to install revng-orchestra,2021-01-14 11:50:30+01:00,True
+7c8ed9bc6215dbb80f2917526245a2a35497d099,"Updated rev.ng developers bootstrap guide
+
+It is no longer recommended to add personal remotes to orchestra
+configuration and instead developers are encouraged to manually add
+their remotes to the specific repositories they want to fork.",2021-02-01 18:00:40+01:00,True
+1fcb2bd05993c6e150d05fad07965ae073ad71e8,Add pip cache cleanup command,2021-02-05 17:05:55+01:00,True
+bff61ee1cfb880f5b5710dd85debec6489b84ceb,README.md: minor fixes,2021-05-31 11:10:11+02:00,True
+2074b5529e59e5a996dff83ffac9780a806aeea4,README.md: suggest installing dependencies,2021-05-31 11:49:51+02:00,True
+a7f5a56c54d469c2a4cd016b7e889cbe11b7adc1,"README.md: reorder the steps in `Bootstrap`
+
+Reorder the steps in `Bootstrap` to avoid missing packages (such as
+`graphviz`, `graphviz-dev`, etc.) on a naked Ubuntu.",2022-07-05 10:34:30+02:00,True
+245f55bfc7092868440954d1f877b0cff0a42996,Add README.md section about virtualenvs,2022-07-22 10:15:06+02:00,True
+df43cdd756f6238f638bb4d67ee71280dffcecf2,Whitespace changes,2022-10-06 17:49:01+02:00,False
+ec690b425254df2af4e511ce405277ad5ea43ae2,Update README.md,2022-10-26 17:10:47+02:00,True

@@ -1,0 +1,43 @@
+sha,message,date,result
+17aa332a2c674459f05c4d3f66933a807d56e987,"Initial commit
+
+Add README.",2017-12-27 21:12:40+01:00,True
+664de4acd19e91e5ea1edec9bc3692f11e8b20d9,Release under Gnu GPL v3,2017-12-27 21:13:28+01:00,False
+2d6d454bc78fa95fd0c9b810b53a349e36aa7490,Document piexif as optional dependency,2018-12-26 02:26:49+01:00,True
+e5f6ff04e3da39eef6ab50b1e45a5cc301045446,Update readme,2019-01-06 22:04:41+01:00,True
+b751549b73d48901e3402ff08ee5215f04ee7413,Update warning: we are going public,2019-01-07 01:13:36+01:00,False
+0bbf485a687555f39e3789b19a8f6f2f5c8841e8,Add travis and pyup shields to README,2019-01-12 13:37:16+01:00,False
+f549cb15414aa2381062ca705a8c689e05424d8a,Add nifty little gif to README,2019-01-13 12:17:44+01:00,False
+e74be7cc990a606aa36e66b9b792b0ff707ee46b,"Format the code with black
+
+It seems like automatically formatting the coe is an easier way to go
+than to always run the linters and apply changes before every commit.",2019-01-19 16:15:27+01:00,False
+5edc10723c78b34c7c996fb14b11075131afb340,"Fix link to contributing guidelines in README
+
+CI skip",2019-03-03 18:07:55+01:00,False
+a15acfd8c2cd6bc8c9c1411542f9b2c791d9550c,"Add codecov badge to readme
+
+CI skip",2019-03-03 18:10:18+01:00,False
+ba88670c286290b65bfa4edef5f1967fee57c78b,"Update notes and roadmap for vimiv
+
+The Qt port is no longer as experimental and a clear plan to replace the
+Gtk version has to be established. Making the notes and a roadmap here
+is the next step.",2019-10-01 21:24:25+02:00,False
+60833799f13f8cf17dd0da691454910acb6a99e9,Slight changes to introductory documentation,2019-10-30 21:33:01+01:00,False
+632a90dcea217bfbb17649cee00361b3ba67dfb8,"Switch from pyup to dependabot
+
+We have been waiting for the updates from pyup for quite a while now and
+it seems like this has happened before. As dependabot is acquired by
+github, let's hope this is more stable.",2019-11-24 02:53:57+01:00,False
+c0688be02fdcbe61fe8e926a80c25b15107d296c,Change badge in README from travis to actions,2019-12-12 17:31:32+01:00,False
+4d55f67231ea09c93c0893ce256f41e27ea6f9a3,"Rename github workflow to CI
+
+The full ""Continuous integration"" was simply to long.",2019-12-12 17:49:05+01:00,False
+987875f76ccc2de275c0e0a2779cc26fcf6351f2,Extend information in README,2020-05-14 18:55:05+02:00,True
+4451208d94ed3d556a371991bcbbb10bf48d2a36,Add features section to README,2020-05-17 01:22:13+02:00,False
+e6c21e5bf051c9bce8a33d44da50ba0af80f1f0f,Add spreading the word to contributing in README,2020-05-17 14:55:34+02:00,False
+90ea1dec29f575e43eab8f53811b3114e9d3eff2,"Remove dependabot badge for now
+
+This does not seem to work after switching to the github native version
+of dependabot.",2020-07-21 15:42:22+02:00,False
+f8fb001767ec7433fdecefefb7502ec655ecbd1e,README: Fix and in wrong position,2021-04-20 18:25:40+02:00,False

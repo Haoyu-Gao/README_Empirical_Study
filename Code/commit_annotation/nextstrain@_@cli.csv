@@ -1,0 +1,118 @@
+sha,message,date,result
+2c2a4bf2fb4ffd361d6bb3be1a2283eaf46e22db,Initial commit,2018-06-27 11:25:19-07:00,False
+5e8773d380c92ab99a4a4c65201e4596d9258641,Flesh out README,2018-06-28 09:44:22-07:00,True
+1a102a5461772760895a2ee8185df55e49cfbe7d,"Add a basic ""check-setup"" command to check the local environment looks ok
+
+Right now only checks if docker is available and able to run a standard
+test image.",2018-06-28 09:44:22-07:00,True
+2acb68504446d994cdc8b6e9a83b93d831034a1f,"Add an ""update"" command to pull a new image version, if any
+
+This can also be used to pre-download the image before running a build
+if the image doesn't exist locally.",2018-06-29 14:44:35-07:00,False
+9f969ec925c97b366c0aa9aceef3f741ae514b10,Now released to PyPi,2018-07-02 17:26:58-07:00,True
+798bcca9f2827b8cdfe0db6affb9a834525b482f,Notes on development tasks for the README,2018-07-30 11:23:02-07:00,False
+e275458ca040bc36a95f0bcdbab1208376fe2905,Update README to include deploy command,2018-08-01 10:32:51-07:00,False
+b6f5e4ed17c2bfac536496a7bb9c7d4be1edb643,"mypy configuration for static type checking and error detection
+
+The recently-merged deploy command includes Python 3.5+ compatible type
+annotations in the nextstrain.cli.deploy.s3 module.  Types can be
+checked by the mypy program, run as:
+
+    mypy nextstrain
+
+The minimal mypy.ini configuration file allows it to run clean.
+
+The goal is to gradually add type annotations to the rest of the code so
+we can catch errors earlier and be explicit about our interfaces.  This
+matches well with the functional approach taken by the package.
+
+I use a small, custom wrapper script for vim's quickfix mode to look at
+mypy output, but there are many editor integrations for mypy, including
+plugins for vim, Atom, and PyCharm.",2018-08-01 11:22:21-07:00,False
+663f093efdc878bab0d6e0843fce571995a564a0,"Update the README with the new ""shell"" command",2018-08-09 16:49:50-07:00,False
+6ae5c3cbec292b12b154f0598ca5e6cb4ea5ca52,README: Fix PyPi registration link,2018-08-11 11:03:34-07:00,False
+6ceba236627a6a0c321ae76a975b4fb31708ed7a,"README: Note that we can't yet annotate the type of variables, only functions
+
+…because of our goal of compatibility with Python 3.5.  Annotation of
+variable declarations are supported since Python 3.6.",2018-08-11 11:03:46-07:00,False
+3d2565a98dc4bebf46223c5710e2c7a5f64d0a0c,"README: Note how to annotate variable types with Python 3.5-compat
+
+I forgot about hinting comments!",2018-08-15 14:52:23-07:00,False
+ad150410d4397637bb3cd2e4dd3cd4d82bbeb290,README: Note usage of typing_extensions for Python 3.5-compat,2018-08-28 10:06:05-07:00,False
+9f85fc4349d6463511536a8a75d01199f3202548,"Docker Community Edition is now Docker Desktop
+
+Docker, Inc. kept changing their website, but it seems to have
+stabilized.",2018-10-02 15:45:21-07:00,True
+1f3575fd34f8d86d4f72758765b01e08846889c8,Typo fix,2018-10-02 15:48:23-07:00,True
+1556e7484d9ed4077cf25520d317944f2c8ec36d,"README: Flesh out installation instructions with more details
+
+I wrote better, more detailed instructions for our Quickstart guide, but
+this README may be the first thing people interact with.",2018-10-10 12:18:57-07:00,True
+f264e5cf1564c89873c50f610f13034040f809ef,"README: Include the big picture diagram I sketched for lab meeting
+
+Hopefully helpful to orient folks about what the CLI does.  It could use
+more words providing context and background, but something is better
+than nothing for now.",2018-11-02 12:27:11-07:00,False
+0cf8ef923c3d888d4a7b1ef4ec5aa688f18edf6a,README: Update with latest usage output,2020-02-25 14:29:21-08:00,False
+45c6880c26fc2b35ab513e88507ace99b930feaa,"Use Flake8 for static runtime safety and correctness checks
+
+I was only familiar with Flake8 as a style-checker, which is what I've
+primarily seen it used as.  But it can do some static correctness
+checks, which is great!  Learned about this from
+<https://github.com/nextstrain/seasonal-flu/pull/50>.",2020-03-27 15:58:17-07:00,False
+799f1e8cffeb580a4178cca3576369c031ee97da,"check-setup: Try to clarify messaging around success
+
+This was muddied over time by adding support for the native and AWS
+Batch runners, and we've seen several support requests because of
+confusion here.
+
+There are still some misleading or outright incorrect statements in the
+README, also related to multiple runners, but I'll address those
+separately.",2020-05-19 12:16:37-07:00,True
+1b07ac8281ea2320a9a231ff4f06eedc1bab66b8,"README: Overhaul installation instructions
+
+Describes all runners now, not just Docker.  Eventually this README
+should be split into separate doc pages, once we have RTD setup.",2020-05-20 11:24:00-07:00,True
+aaab4a338588a1e59f510fc57be817671f21da5c,Update top-level description in `nextstrain --help`,2020-05-20 11:24:00-07:00,False
+7e3eea52042aee48037d4d69cb07d1322045b664,README: Document issues with Docker on Windows,2020-05-20 15:05:54-07:00,True
+7c9301963e90eedc3b37132c34b8a8448e657c15,README: Fix link,2020-05-20 15:06:35-07:00,True
+6a48d3de238bc2b02eebb7ed3dfaffc33aa88d29,README: Fix another link 😑,2020-05-20 15:07:16-07:00,False
+b5dbc319f6881e474dae81a5a79e99406288182f,"Use Pipenv + pytest for an easier development environment
+
+Combines mypy and flake8 tests into one command, enables doctests
+(as-of-yet unused but soon to be), and makes it that much easier to add
+other tests.",2020-05-22 10:17:11-07:00,True
+d2969d7fe9fd9c139f5d81c2eda257717ee7d46b,"docs: Move bulk of the README into our documentation
+
+Rather than maintain two sources of documentation, the README now is
+just a brief introduction and pointer to the full documentation.  This
+already provides better organization than a burgeoning README with
+sections most people won't care about.
+
+I kept the material Markdown and copied it mostly as-is.  As it's
+further refined, I expect sooner than later it will make sense to switch
+from Markdown to rST for better cross-linking, TOC trees, etc.",2020-06-12 17:30:11-07:00,False
+3f8dc1e807da0b9f9da07f6bfcadfba0d2a8e5e3,README: Update link to Auspice doc home page,2021-05-03 13:23:06-07:00,False
+eafd2a08c0fb1dad99782d1a6aa60a57c9656de1,"Standardize use of ""runtime"" and related terminology
+
+Use ""runtime"" ~exclusively in user-facing output and documentation,
+replacing other terms such as ""computing environment"", ""build
+environment"", and ""runner"".
+
+""Computing environment"" and ""ambient environment"" are now used only
+sparingly and in the general sense.  ""Computing platform"" is now used to
+describe the things on which our runtimes are based (Docker, Conda,
+etc).
+
+The code still makes a distinction between ""runners"" and ""runtimes""
+that's, albeit, fuzzy in places, but nevertheless useful.  The runtime
+is the environment itself (e.g. a container image or a Conda
+environment), while the runner is the code (Python module) which
+arranges for Nextstrain CLI commands to execute things inside the
+runtime.  Runners and runtimes have a 1:1 mapping.",2023-01-13 15:15:05-08:00,False
+f6bca01df427946b5d022b932e39370b0933361c,"docs: Consistently list and link our computing platforms
+
+Adds Singularity to two places I missed earlier and points all links to
+the brief description of each platform on our installation page.  Those
+descriptions contextualize each platform within our use case, and link
+out to the official websites for each too.",2023-01-18 14:11:07-08:00,True

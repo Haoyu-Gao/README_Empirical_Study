@@ -1,0 +1,117 @@
+sha,message,date,result
+515410e1030c39afd3469cac4457a752f96a8fc5,Initial commit,2016-11-08 15:22:06-08:00,FALSE
+49b896511220fef5f53f315ea1b7a0558197d986,Updated README,2016-11-08 15:43:11-08:00,FALSE
+2c7db949ac51676d37394c512276c7c511be8eee,"Release notes local testing
+
+- Enabled release notes local testing
+- Updated documentation
+- Added steps to locally test release notes generation with Mockito repository
+
+Addresses issue #15",2017-02-26 09:01:49-08:00,FALSE
+28d653344f8666f463b6df0cecc6d1e92b63c159,Updated the readme file,2017-03-21 15:04:41-07:00,FALSE
+a0b2808dc60d2e4560b8bdbf1b9b051d22969eb6,"Updated suggested testing procedure in README
+
+Updated suggested testing procedure in README so that it uses mockito-release-tools-example project and is simpler and safer.",2017-03-26 19:25:12-07:00,FALSE
+de7b9e11a321b5ca234b258cf619b03e54794a6a,Added mailing list address,2017-03-26 21:59:04-07:00,FALSE
+1ea03ca234a8dd6cd295970083823a40f71336c5,Improved README,2017-03-29 21:14:25-07:00,FALSE
+965466df55f287eb0729d30106cc14474b032cd9,"Started writing development guide
+
+Started with the private and public api distinction.",2017-04-12 15:36:22-07:00,FALSE
+d12561ce0acea120e44ffeb75150e1c46c698b5b,"Added information how we are getting contributions
+
+Added info on how we get contributions to the project, explained the use of ""please contribute"" label [ci-skip]",2017-04-29 21:20:28-07:00,FALSE
+c4e61d568c2377b8a0959a35f63527d1b21b87a7,Fixed typo in README.md (#138),2017-05-11 16:36:44+02:00,FALSE
+6ff5d4334f4698b40529324a7c154f43ba523c50,"Added note about ""Shipkit"" project
+
+[ci skip]",2017-05-11 19:20:15-07:00,FALSE
+16a21e1f5c4ca3fe5ea2991e28fb94c01ed77f5e,Added information about project history and plans,2017-05-13 16:56:18-07:00,FALSE
+ef8401cc280e9232eec6684e6d20ef6fc09e1399,"Added basic contributing guide
+
+The purpose of this is to document the design decisions the team takes.
+Consistent set of design principles will help us execute the project.
+The codebase will be cleaner and easy to work with.",2017-05-19 15:09:17-07:00,FALSE
+97e8208b16a6e98f0ddad4dfed32eacfbc18f654,Fixed the testing instructions in the development guide,2017-05-22 22:58:47-07:00,FALSE
+ad6c7d664c7316670382e424b93043422fafbd7e,"Updated team's documentation
+
+- how to give great code review feedback
+- more notes on how to test stuff",2017-05-29 08:32:05-07:00,FALSE
+5c65b875a9311815783bdf07609595eb7e88e8d3,Some other places where mockito or release tools names has been used,2017-05-29 18:47:56+02:00,FALSE
+a461e6711bd661094a9019cd15bed373e7c89006,continuation of rename from mockito-release-tools to shipkit,2017-06-08 08:07:51+02:00,FALSE
+700e5351c5640ae6ee8d845c6ee008b02b699877,Added Travis CI build status visual badge (#215),2017-06-08 18:46:57+02:00,FALSE
+387c7181941379bc42edc17f3a12e59a4bc6e5a1,"Updated README and started publishing our java plugin
+
+java plugin will now be possible to pull down using shorthand notation (""plugins"" section)",2017-06-16 22:42:44-07:00,FALSE
+525146b51d968db18c01b0e00637575dee558728,"Update README.md
+
+Some quick spell- and grammar checks. Feel free to use or withdraw them. Just stumbled over it after watching your very nice talk at Gradle Summit. Nicely done!",2017-06-26 22:18:37+02:00,FALSE
+08320b0e9c80cdce6a604eea7db60f86b4828d89,"Update readme, replace Mockito Release Tools with Shipkit",2017-06-27 08:12:43+02:00,FALSE
+e715329527fd1fc3f4ef716889506e137a27513f,Tidied up the README.md file,2017-06-29 15:16:26-07:00,FALSE
+d1fa0fe4304bcee3cbe075516b543897fb940b25,"README.md: Add link to CONTRIBUTING.md
+
+The README.md file references CONTRIBUTING.md. In order to make the
+file easier to navigate, this patch changes this reference to a
+clickable link.",2017-08-28 14:52:43+03:00,FALSE
+f95bfefea6944dbc5abb80cea350d5e2ddaf47fe,Added getting started to README.md,2017-09-17 22:57:54+01:00,TRUE
+4df62ccae65a4b36838ce6e80e157b7cf1d68618,Description of getting started section improved,2017-09-17 23:05:27+01:00,TRUE
+26c7fbee48161191f3de6ebf2460a331cc5a986b,Update readme with a better getting started section,2017-09-18 10:36:03+02:00,TRUE
+a226e92585d7d340742ae29cc87c6109eb504a40,User lowercase letters,2017-09-18 10:38:52+02:00,TRUE
+46b851b0b0f624fdec7c82543140d4cb6a593db5,"Updated the documentation
+
+Chipping away TODOs in #432",2017-09-24 20:32:53-07:00,TRUE
+c729e4c767193ab1fb45e15427fa927333e021a9,"Testing relative links in README.md
+
+[ci skip]",2017-09-25 23:06:12-07:00,FALSE
+6ae4b41a5146a4c92ce37e24dcdca0240e994b4d,"Updated the documentation
+
+Chipping away TODOs in #432",2017-09-25 23:10:08-07:00,TRUE
+ffb34498ba2132bc067f030df83151fb75f7dbb1,"Moved getting started guide to docs
+
+Moved the contents of wiki guide to the docs. See #432",2017-09-28 22:17:34-07:00,TRUE
+5ba2b2ac2c62f98cae86799006a2e34eb08e5c5f,Added release notes link,2017-09-28 22:17:34-07:00,FALSE
+d8aacfb54be970eb0967b089fd4ae8c62cc26211,Final tweaks to readme,2017-09-28 22:17:34-07:00,FALSE
+7dfb31c002f7fda9b3ea07e17e745bd2c3696f9f,"Replaced link to wiki.
+
+Moved all content from wiki to markdown files.",2017-09-30 23:17:12-07:00,TRUE
+a5df88e581da29bacdaa71136f7e17392399b17a,Fix name,2017-10-03 18:19:46+02:00,TRUE
+a98b96577251174d862050cbca150af4cdeba142,Updated documentation,2017-10-14 11:27:10-07:00,FALSE
+613f31c85a3e17b8413f241ec5576f8afed1e5b3,Fixed documentation bugs based on code review!,2017-10-14 11:27:10-07:00,FALSE
+083e317695428141be3ff6a72f5cab88d83fc358,"Updated conference links
+
+Added links to 3 conferences where Shipkit was mentioned.",2017-11-19 14:28:31-08:00,TRUE
+cdccb3a9e334808924d7e3209b5a33f052b39317,"Updated README.md
+
+Let's get all the historical facts and plans updated",2018-02-16 06:48:37-08:00,TRUE
+303cae081e978d5d1e7b05ba1a674b64c4b93c09,Fixed bracked typo,2018-02-18 21:51:10-08:00,TRUE
+683c0c5647f1f1f3d91a851ae84c687ecf81d641,"update README.md
+ - use gradle 2.0.0 in getting started section
+ - add a hint to use 1.0.12 if java6 and/or gradle 2/3 is needed
+ - adjust history/plans",2018-02-21 20:26:29+01:00,TRUE
+dc29d76f77af3208d9fee283d9316e68da0a7040,mention that 2.0.0 is fully compatible with 1.0.12 feature-wise,2018-02-24 20:28:30+01:00,TRUE
+afcd257431779c4e57adffd065e4bba0a9eba9a0,"Added one more client to the list
+
+This also helps us find out if #536 is still open [ci-skip]",2018-03-11 10:11:20-07:00,FALSE
+bcf977442b0b8ab1e6957504a091eeade4acd616,"Made small tweak
+
+Mainly to test if we can close #536
+[ci skip]",2018-03-11 10:22:22-07:00,TRUE
+88bcdb732ebae60d21a103ea6d884aef2fafb47d,"Documented how to prevent publication of a submodule
+
+Added FAQ page and linked it from README.md
+
+Addresses #655",2018-03-14 08:57:12-07:00,FALSE
+d560959cef53361a9463323735db32efeff9df8b,"Updated docs
+
+We changed the label from ""please contribute!"" -> ""help wanted"" because the latter is more standard on GitHub",2018-03-18 18:52:06-07:00,FALSE
+2b00f5405b22ee0dd3db92ee11acb4c4763f8671,Updated plan,2018-03-18 18:52:06-07:00,TRUE
+170a32c574d6c0e71f6368196676f1c5d4a72760,"Fixed link based on code review!
+
+Thanks!",2018-03-20 22:00:13-07:00,FALSE
+5e27fe48f9846ddb948f309406fc5954c561d214,Add Shields Badges to Readme,2019-08-28 08:36:05+02:00,FALSE
+377aa7ad8e494c0789606be6eb70e4c6fc4a0a6a,Add terse-logback to the list (#866),2020-02-23 01:30:32+01:00,FALSE
+73314ee4ae62eefb916edd3b8fd6ad8e96882fb7,[ci skip] Add MockitoPlus to README (#885),2020-10-18 00:26:08+02:00,FALSE
+f725fc9ff4185ace9f58755d3951e87f798250db,"Overhauled the README.md
+
+Ensured it correctly reflects the state of the project.",2020-10-30 11:00:11-05:00,TRUE
+9bdf8086b24c042dcef0a18c7c2109c50dc61b1b,"Reworked readme pointing to the new plugins
+
+The idea is that this is the last commit to this repo before we mark it ""archived"".",2021-01-16 12:01:23-06:00,TRUE

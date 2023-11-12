@@ -1,0 +1,110 @@
+sha,message,date,result
+4c6f552a27fac1314c06af0a48661a371e00fc1b,Add very basic README.md file. Would still need to check that all defaults and parameter data types etc. are stated correctly there.,2021-10-08 14:11:32+01:00,False
+7c86c1aa8bf2e992b8e04353d32d133976035be9,Capitalize title in README.md.,2021-10-08 14:17:24+01:00,False
+7341b85959ce483ec5bdd13ee0669712141271cc,README.md: Expand introduction and give more information on subscribed topics.,2021-10-08 14:25:37+01:00,False
+864fcbcba22c1c21f4837bb971e3b10e8400fa9e,Add more information on WMS servers to README.md file Parameters section.,2021-10-08 14:29:20+01:00,False
+54a8ab0c207d60e05534831e20b4a4095893b5a3,"Add getting started instructions to README.md. Not quite finished yet. May have to consider leaving the README.md of this package much smaller and creating a separate repo for setting up the whole system. Call it Kestrel, for example.",2021-10-08 15:09:26+01:00,True
+af573250364bde9d2899793c3e4cbd38816abbad,Add missing numbering to getting started sub-headers in README.md.,2021-10-08 19:20:02+01:00,True
+088e170faab650fca9d65845241a5c368e05b912,Add demo image to top of README.md file. Image is roughly 700KB.,2021-10-09 21:29:44+01:00,False
+345b7e8d5e6c38f63dab959fb7f6a72deda9abe2,Add instruction on how to configure the microRTPS bridge topics to README.md.,2021-10-16 14:21:52+01:00,True
+e24e655ee488633f7647bb73630f98eb3a310bfa,Use VehicleGpsPosition for location and heading (this topic includes both - VehicleGlobalPosition does not have heading). Note that in VehcileGpsPosition the lat and lon are provided as integers in 1E-7 degrees. This commit also updates README.md and config.yml for relevant parts. Not yet tested.,2021-10-16 14:47:27+01:00,True
+8c977049cc979569f40a246769eb8d169b4a1a42,Swap gps position for a combination of local and global position. Tested with gps position but for some reason the heading value there was NaN while it worked earlier with local position.,2021-10-16 15:22:25+01:00,True
+fce6039af71aa2a70559d7caa1ae601d16547ef2,1. Rename package to python_px4_ros2_map_nav. 2. Rename node to map_nav_node. 3. Update README.md. 4. Add self.name property to reduce redundant hard coded usage.,2021-12-21 17:54:05+00:00,True
+b782ac44d9af46cd231a22f9aa71770364854c73,Update README.md with new package name.,2021-12-21 18:02:42+00:00,True
+41e4683e1c5057ac7c0a886a676090d64fd3d431,1. Add Sphinx documentation from docstrings. Update docstring format. 2. Update properties to use single and double leading underscores so that most of them are private as intended.,2021-12-23 09:17:31+00:00,False
+fbc749b9bcf3f2bccc3d62ab9754e9c1fede653f,Increment version to v0.8.3 and update directory tree in README.md.,2021-12-23 10:02:53+00:00,False
+09eddcfc99468921bdcf79bf1d4ce7c61360395b,Remove unused quotation marks. Update API documentation template. Increment version number to 0.8.4. Remove prolog string from template since the rtd template already includes the version in the side menu. Add missing requirements-dev.txt to directory tree in README.md.,2021-12-23 19:05:20+00:00,True
+b7e4bad3c8d06b581c5bf82cbf9fa0f702eba240,Update README.md - missing 'xhost +' command when running docker container with graphical applications.,2022-01-03 17:56:53+00:00,True
+409c5f16beba7600449df5b17268924adf99b7e8,"Update documentation: Return to Alabaster theme, put README, Indices and Tables, and API docs on their dedicated pages, and update README.md accordingly. Adds autosummary to automatically generated API docs.",2022-01-10 12:39:41+00:00,False
+fc414341eabcc1deedbdea4a49975bbabff0b2e5,Fix CSS file so that headings also become sans-serif. Update README.md directory tree with missing files and folders.,2022-01-10 12:51:49+00:00,False
+f5bc44247d3fe308e96d976bb6cb1044face8533,"Update README.md file title, more specific.",2022-01-10 12:54:00+00:00,True
+8026faedeb4e63e663b20dfa64b44d77d53b3479,Update README.md directory tree.,2022-01-11 23:44:31+00:00,False
+36cd4b5eb4ae704dfb4f7df6a594e8c3da15621b,1. Refactor initial_guess param to be a list instead of two separate parameters. 2. Get rid of the config arg for the node and use the params file like a ROS params file should be used (had to move Superglue config here too even though not ideal).,2022-01-22 20:45:40+00:00,True
+e8b950a4ba8d81de5af585dbd605367cfd238159,1. Move main method to __main__.py. 2. Put matching logic into a separate submodule and create an abstract KeypointMatcher interface - makes it easier to swap matching algorithms in the future. The matching adapter is dynamically loaded based on configuration in YAML file. 3. Remove directory tree from README.md file - annoying to maintain.,2022-01-24 20:15:38+00:00,False
+e289d052ad8a62f98cfb40827f746bd68d1aeb8f,Add logo to README.md and docs side bar. Change CSS theme color to match logo.,2022-06-10 12:25:08+01:00,True
+fdff54a68d9589eae072fb7919c8c359d27441e9,Remove large logo from README.md for now - it is still in Sphinx docs sidebar.,2022-06-10 12:26:20+01:00,False
+d75bf6e56979e4f8e526de34bfcb1ae2c153a93e,Some streamlining of README headings.,2022-06-11 09:32:35+01:00,False
+cd89052c798f737a59a384c90cef45eb70c35c15,Streamline README example.,2022-06-11 09:37:08+01:00,False
+990bc7e8415142fddd0b002971afc58a2aa324fe,"Add quick draft content for project goals in README.md. Narrows down scope to complementing and improving GPS, not replacing it. Also states again that people should not run this on their own drones on real flights.",2022-06-11 09:51:16+01:00,True
+5def8102a901191c3390651921f9fc99c8d56ce5,List some project scoping constraints or assumptions.,2022-06-11 10:14:22+01:00,False
+71f25f6d5c60a94eb42d36f6593f1bcfad1a0538,Modify guiding principles section in README,2022-06-11 12:10:12+01:00,False
+5641e9a8a0a89571d209d86b9c24f539f08bce10,Change two headings.,2022-06-11 12:12:04+01:00,True
+71d6d28dfc17fb591d7ebff7556ade50871ef19f,"Add ROS constraint, also mention flight control software is not baked in.",2022-06-11 12:45:20+01:00,False
+fabe9ce8694b40ca26e0e85817747007fbbec8db,"Call it development goals as opposed to project, feels more like a continous iteration instead fo linear thing that sometime ends.",2022-06-11 12:59:17+01:00,False
+2a3517fbda78bfcc68e863a6b86e6125f69bef45,Update README.md,2022-06-11 19:10:46+01:00,True
+f509deb4c0f5e9e101fb771681b2497caf8bbdb9,Move development objectives from README to Sphinx docs Develop section. Keep README brief.,2022-06-11 19:26:16+01:00,False
+27985ddcd40a51eb534dacaef5aa8d0ae5a4e62a,1. Update Generating Documentation section in README.md. 2. Update Extend GISNav section in Sphinx docs.,2022-06-15 14:11:26+01:00,False
+d2edbb2f4f5a803432d55237ea55eb78644ce50a,Add prerequisites to README.md Quick Start.,2022-06-15 14:52:20+01:00,True
+13bd070b959df9e6b2c6c0b72defe6055176b522,Fix link in README.md Prerequisites section (was rst instead of expected markdown).,2022-06-15 14:54:35+01:00,True
+5eee71bd92f11482bfc2c6870e6bc81ba916cfe3,Swap map tiles link in README.md for a more appropriate one (also OpenStreetMap).,2022-06-15 16:10:50+01:00,True
+5d0e1a1f13c74e6bdf397588efbbee5aa0c19bc9,Streamline README.md get started instructions.,2022-06-16 10:12:29+01:00,True
+4f8321ced397c6d784848d121f65243054c0d49a,Updates to README.md and Simulation Environment sections.,2022-06-17 10:26:07+01:00,True
+a2074ea98305403a856496707fde36cad9aebab3,Update README.md.,2022-06-18 22:48:15+01:00,True
+bd0cc3d72c929f29f3bd5d3b993a446c91837844,Fix LoFTR repo link in README.md.,2022-06-18 22:49:25+01:00,True
+beee0f038c7729c6c0a3627f9710d24060326d39,README update.,2022-06-18 23:40:08+01:00,False
+2bc4d468219c414b50096f69a7e8ffc7974e8e1d,Fix highlight syntax bug for markdown when there is a dollar sign by adding explicit bash hint to code blocks in README.md.,2022-06-19 08:01:20+01:00,True
+15f1e8e55e598a9a44c04dc9176a1dcd7f5bcf82,Rename to gisnav (better and shorter name),2022-06-22 17:49:59+01:00,True
+ba1a92799b04178d658a109020abeb6645d6c170,Update README.,2022-06-27 09:35:40+01:00,True
+e6356ac750e2b70d9fa80f1548522f0a79e30065,Update Setup section in Sphinx docs.,2022-06-27 14:38:23+01:00,True
+d1ee78383bf371ca9f61f4f2bcf627d61e7ba7e7,Fix gscam command camera calibration file path in README.md,2022-06-29 12:35:00+01:00,False
+7e4602173e5461143641010ac4f6aa4215c57285,Install requirements.,2022-06-30 11:49:25+01:00,True
+01e62b0cccdb2edc0579fa23b5b63f1949b4ae13,Install ROS dependencies in README.md.,2022-06-30 11:52:59+01:00,True
+7a06d458befce8c809b238673360c542592f988e,Update README.md.,2022-07-07 10:50:11+01:00,True
+c4a33b80a1e9d39285858b7bc4f63418bdc5fddc,Remove commandline.,2022-07-07 10:51:43+01:00,True
+cf040fb04cbd78bb40265fad4d1b82fdc6200a85,Fix typo.,2022-07-07 10:54:17+01:00,False
+6c354d726513162c77e5c1094545e8259ab7ddd1,Harmonize PX4 param default setting example.,2022-07-08 20:38:30+01:00,False
+718dc884af8993bb7347cbab52b73c41f3df1b92,Move the video iframe to the README.md file so that it shows up also on Github landing page.,2022-07-09 09:54:48+01:00,False
+32695f3e11359a14c4e2d3b114058481112c1956,Fix bug in README.md.,2022-07-09 13:22:42+01:00,False
+8cf69fcfa1175ef05593d5b7dab5fee788fd8210,Clarify intended use (simulation only). Add warnings to sections that modify PX4 parameters.,2022-07-25 09:53:33+01:00,False
+4093d04febe7edf327d3489c26e9304aa181013b,Update README.md,2022-08-01 09:45:47+01:00,False
+c58da8d7562d2533ac3b312b058d35cd46cc70fb,Run ROS2 integration tests in CI. Update README with command line instructions to download LoFTR weights.,2022-08-10 14:33:20+01:00,True
+7f54c40ee2068abd81542a119c7b06fce1f4d1da,"Update README.md with dramatically simplified demo instructions. Does not update Sphinx documentation yet, and also assumes that gisnav-docker will automatically launch gisnav, which is currently not the case.",2022-08-22 20:03:07+01:00,True
+7dcf5a46fc9f99e477541b9c9d9f7ff0d544183e,Modify README.md initial warning to leverage GitHub-flavored markdown's built-in style for warnings.,2022-08-22 20:05:26+01:00,False
+e690dbed7b5aa1dc8fec78042faae27708a7fa20,"Fix requirements.txt->requirements-dev.txt error in README.md, and edit the section a bit more.",2022-08-22 20:31:01+01:00,False
+441654199a5d9697065eb2481247d3c7d5787834,Updates Sphinx setup instructions and removes references to VehicleGpsPosition in documentation. Removes some dead code in MockGPSNode.,2022-08-25 15:02:12+01:00,False
+f29fbf95e1028e6839a5dc9e1af53bfcd5d6f696,Update documentation to use dockerized mapserver instead of mapproxy. Also edits the config/typhoon_h480__ksql_airport.yaml file for mapserver (ideally should not need to change this whether mapproxy or mapserver is used).,2022-08-28 13:32:47+01:00,True
+b63e6a9b51df017a683c6c0446903dce1139b3f9,"Update README.md to with streamlined mock GPS node demo instructions. Also fixes error in previous instructions regarding access to nsh shell (cannot hook up standard input when using docker-compose, have to use separate MAVLink console instead to type in the failure gps off command).",2022-08-31 23:47:28+01:00,True
+7cc1e42243d304d5871c49a3267edba30bb18f62,Update README.md instruction on how to check whether mock GPS node messages are coming through.,2022-08-31 23:52:23+01:00,False
+9aa4c2514eec53cba467723f2c8ab87a9e141a4b,Remove ambiguity in terminology in README.md,2022-08-31 23:54:27+01:00,False
+e909f8b919262c74af7b24f314c41c116ed9adc7,Replace README.md demo video with a better one.,2022-09-01 11:28:34+01:00,False
+de0e4030d11ccf2cb45593d42ea15242c2cc3704,"Update README.md video
+
+Video edit: adds a small zoom in to the Mission mode indicator in QGC to better explain what's going on",2022-09-01 12:23:15+01:00,False
+cfb36579f93ef2d9877fed605344eabb5599ffe4,Remove WITH_GISNAV build arg from README example. Not needed after multi-stage builds introduced in https://github.com/hmakelin/gisnav-docker/pull/8,2022-09-07 13:39:25+01:00,True
+d9ed446a112df2975cf78c9781fd1cc64ed11ffa,Create new autopilots module and implement adapters for PX4 microRTPS and ArduPilot MAVROS ROS bridges. The ArduPilot adapter does not yet implement the gimbal attitude properties so a new configurable static nadir facing camera assumption was introduced along with an example typhoon_h480__ksql_airport_ardupilot.yaml parameter configuration which should be used when running SITL with ArduPilot.,2022-09-28 17:30:13+01:00,True
+86a768c8b0fa57245305ab9352b564f94a8970cb,Change old obsolete reference to px4-sitl to just sitl.,2022-10-15 14:51:54+01:00,True
+71fc0ba460b857d0708aa2af7715f6e948e1e49b,Add links to prebuilt images in README.md.,2022-11-22 15:25:10+00:00,True
+4b892a74be98843f07f0bb9387fcab844790482a,"refactor(docs, launch, nodes): Update Sphinx docs [skip ci]
+
+Refactors launch and ROS parameters to be more intuitive and easy to use.",2022-12-16 18:03:33+00:00,False
+79f5b0a7151aca93998f91351ab4f121764ff474,"docs: Update docker instructions
+
+Updates README.md docker-compose commands for new gisnav-docker docker-compose files in https://github.com/hmakelin/gisnav-docker/pull/16
+
+Removes links to old Docker images in Docker Hub from README and Sphinx docs
+
+[skip ci]",2023-01-03 12:59:52+00:00,True
+35126886e708a4bda3a18e2c22bb1190fc7bf346,"docs(README): Update README.md for latest docker changes
+
+Mock GPS demo now instructed using new docker images that are included in the same repository.
+
+[skip ci]",2023-01-23 15:30:43+00:00,True
+0da96bab9adeb8d7a006deda3eb9bf7d81ee125a,docs(README): Remove reference to SITL in warning and reduce repetition in intro [skip ci],2023-01-31 11:11:23+00:00,False
+8e9b379d45b7ee3bdf80f158587cb43153838422,"refactor(docker): Reduce docker-compose clutter
+
+Moves docker-compose YAML files under docker folder and updates documentation for container orchestration with Makefile.
+
+[skip ci]",2023-02-18 14:52:25+00:00,True
+9bc89073a3163134746357c8000561ebc11edecc,"refactor(pose_estimators)!: Move torch dependency to separate docker compose service
+
+Removes git submodules which were used for 3rd party pose estimators.
+
+Completely removes SuperGlue - use LoFTR instead.
+
+Sets up mapserver with downloaded maps already during image build.
+
+[skip ci]",2023-03-05 23:16:26+00:00,True
+bb112ca3476023cceddc9add7a36bea1b8bd1ec0,Add static analysis and fix ROS 2 launch test CI workflow,2023-03-14 21:52:34+00:00,True
+9fcc9d0d2b9e4807dfdcc161ef996ac2cb14e804,Include gisnav_msgs in main repository,2023-04-07 20:25:28+01:00,True
+7c6e9a7708eebab063d334d27de7fd0e1e54bbbf,Use custom mavros also for gisnav image and update docs,2023-04-08 08:53:25+01:00,False
+a3d87fb1cb6e24f77031be8a191856acf113b88a,Publish GPSINPUT message with mock gps node in ardupilot configuration,2023-04-19 20:25:03+01:00,True

@@ -1,0 +1,45 @@
+sha,message,date,result
+ff196fe86bca9348a58333c0d487ef86565959e1,Initial commit,2017-02-01 22:23:44-05:00,False
+3f914e851c69394032d0e2563634db7c7e79f0e6,initial commit - HSCC repeatability evaluation package version,2017-02-01 22:30:19-05:00,True
+e26d21ec730c75082bc23dc93104f39b9c6847dc,added installation instructions for openblas in the np_dot_benchmark.py,2017-04-05 14:12:27-04:00,False
+e1be5b5e4258acbbea58f57a82d678c0605b3b9d,went through readme and made it more user friendly,2017-04-07 14:09:35-04:00,True
+be68a9bf51b4e9620ea876d3c66c840a9fa4ddfc,typos in readme,2017-04-07 14:13:42-04:00,True
+42f1e7f8deefa008f567b9666c8507ddcbbe9a24,readme changes,2017-04-07 14:14:11-04:00,False
+bd567144b37188a62c64e07060f344d0efae5186,readme makrdown formatting,2017-04-07 14:17:49-04:00,True
+ebd387d8d3ad0bbde7e581e98fc783411a85c919,readme formatting,2017-04-07 14:25:38-04:00,True
+7e1adce73268996594e989f58c219c98354a0e04,more readme formatting,2017-04-07 14:27:13-04:00,True
+7e5df6c15a6a252a51a62f84f88acc7ad825013a,yet more readme formatting,2017-04-07 14:28:30-04:00,True
+0bce2da4c37548a9e14134407928b54785869f31,even more readme formatting,2017-04-07 14:32:22-04:00,True
+36567f8610afd5a8de3be7348cb9d9e00ebd229b,added list in readme,2017-04-07 14:35:58-04:00,True
+6b05faad7b99ff1b709cb232a2a15ad806f3dc47,added hylaa logo to readme,2017-04-07 14:39:26-04:00,True
+b5ae6b05d6ab2d3efbc1fc8e3ae71884fd0f0235,finalized readme,2017-04-07 14:44:26-04:00,False
+112c63c9b64b1f858e50a0c5cb43f099de475e3c,modded logo to be centered in readme,2017-04-07 15:01:18-04:00,False
+8b3dae143f3013ba6566d932b9664adc3c47bdad,added logo,2017-04-07 15:03:52-04:00,False
+76e16deaf4a3751fec423dcb8c110e9cb8a24680,smaller logo + rename,2017-04-07 15:07:32-04:00,False
+47d457a89f3b1885a8764e6948eb5a6c64d11573,Added websites to readme,2017-04-07 15:10:16-04:00,False
+3171b9cb6638b59398b5e324a0635e17b9226eab,added plot_matlabl,2017-05-25 13:45:49-04:00,False
+05fadd646271d8ea91428fabeaaa6ebabffe75b8,added compare_methods in sim_tests,2017-06-05 10:45:49-04:00,True
+d32be78d198acb3532d30c725bbbdd04a60d4a6b,minor changes,2017-06-09 16:19:17-04:00,True
+ee8b797b56b7e904f6f01cdd72d8ca8bd6c4a990,updated gpu_mult to do gpu detection and error handling,2017-06-15 10:17:04-04:00,True
+f61854ddcdb957a09e929dec50a6ba7fedc9bed6,updated readme with installation instructions on aws,2017-06-15 10:38:18-04:00,True
+8d2c4fcf637d7dd5728001b1ff199a1b4da95374,added cav paper to list of publications,2017-06-26 13:09:02-04:00,True
+28d0e0c6051d1ff94eeec4a5a6f5e475b883f2b6,working towards quick expm,2017-08-08 15:54:47-04:00,True
+de5b14b35ebd199e9923a81531889939d1c190cb,towards optimized gpu computation,2017-08-09 20:50:49+00:00,True
+a3c298d5d9df3e2624bb9e713c8ac3f49cbfeec5,reorganizing krylove interface,2017-08-21 12:06:41-04:00,True
+d96690c57f30f979539bb8b7472378b82a013448,added nvidea's gpu matrix mult benchmark,2017-08-31 10:00:49-04:00,False
+e5a659714bf7cb6816dedf69fd24709263315436,updated readme to be more accessible; still need to add tests and code sections,2017-10-18 17:55:45-04:00,True
+b83d13d42681408658effe00dd4df4c96eff6e3f,working on adding arnoldi and lanczos python implementations,2018-01-10 18:13:19-05:00,True
+8626e0824c09a7dc5184e59ffb1ffc5e9453da43,passed all glpk tests,2018-01-22 10:21:51-05:00,True
+a779408f89a226c3d2fe73e09200d86563853a25,renamed containers.py to settings.py,2018-01-22 10:36:50-05:00,True
+45b1b7d4245688bdc75fee6518ecefd64138b550,updated readme for cav submission,2018-02-01 21:53:17-05:00,True
+43fb08cc9914e9835dabe4dd37a6d0c478e633d3,working on more module time elapse setup... eventually numeric simulation option,2018-04-05 12:39:22-04:00,True
+500b6b6868014379e8aace2fa5c11139a3d8c07b,added fast_mult as setting,2018-05-01 16:35:54-04:00,True
+edc7e331dba7aae0b8bb92eb06541a561d998799,atva version,2018-05-10 11:04:22-04:00,True
+4752afe5c436f39d14fa9b5c5f948a0496f2e629,readme update,2018-05-21 15:05:56-04:00,False
+a1963576f79c83a6adeba464ec0641f9d5eda3fb,added warning if allow_constants is false,2019-02-28 17:27:38-05:00,False
+b9a11514ba40035f40565f448da61496d6378991,added files for continuous integration with docker,2019-03-08 16:58:43-05:00,True
+4bd58164e708472a6ab1ff42362e928ef8b49fb3,Added CI logo to readme,2019-03-08 17:01:23-05:00,False
+4f341ff40946693899674c3618d7faa1a90c6652,Update README.md,2019-03-12 09:51:01-04:00,False
+b4ba95c1393a636163efb44beb55eb300d324570,removed second build status from readme,2019-03-12 13:21:05-04:00,False
+ac643eddc458dc4f75fc4057201b5ade0185ff60,switch repo picture to URL for PyPI display,2023-03-16 14:13:34-07:00,False
+63f49d2d0703866688b4a7f9262ac5bcc0285b98,"fix URL resource to raw content, add pypi badge",2023-03-16 14:20:45-07:00,False

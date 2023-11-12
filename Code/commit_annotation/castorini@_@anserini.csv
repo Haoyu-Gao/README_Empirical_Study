@@ -1,0 +1,790 @@
+sha,message,date,result
+2ae25682fa53b310b4f0a1a8a9b255a409d8f4a5,Beginning of README: Gov2 indexing instructions.,2015-10-05 19:57:50-04:00,TRUE
+54e4918e75f9dc165a2794a19dd3cc608ef60bc4,Added retrieval info.,2015-10-06 07:57:48-04:00,TRUE
+515be388fd15d70aec2e327eb0ce2e7036aa003f,Added evaluation.,2015-10-06 08:05:44-04:00,FALSE
+430fccf50a86aa0f99238604dd3969ab0fe9564d,"issue #2 Necessary code for ClueWeb09B baselines
+https://github.com/lintool/Anserini/issues/2",2015-10-08 14:54:52+03:00,TRUE
+fcd46ec3612afeb409f1f5278189d8c06b6dac57,"abandon System.currentTimeMillis(), which is not monotonic
+make submissionFile an argument to searcher
+add utility to record running times
+control lucene version via a variable in pom.xml
+update readme",2015-10-09 17:05:19+03:00,TRUE
+f0b55d1ff35b43a6f23b02f63b88789cfb15e3bd,Updated README.,2015-10-10 05:28:17-07:00,TRUE
+169a12f0ad6acfd2e68b4099e8b09ecadcd7bee8,Added README to top level.,2015-10-11 21:39:34-04:00,FALSE
+7b20cb49ad3d93a2d244e69cca5987620aaad322,Minor tweaks.,2015-10-11 21:41:06-04:00,FALSE
+86644f1da14a5358b5c4f10630dc0b6b962a76da,Fixed another typo.,2015-10-11 21:43:56-04:00,FALSE
+283abfd3b98178cf15bff85d3414ff72381a7b4f,Update README.md,2015-10-11 23:37:00-04:00,FALSE
+ba555e83ef85eddcee480f1982814011bd188b71,Updated README.,2015-10-14 15:16:03-04:00,TRUE
+84fcb6bc2a30faad25812e07ab31267903723cbf,Updated README to add Twitter OAuth information.,2015-10-21 12:44:24-04:00,FALSE
+65e41fc7c47a1329b3aaadefc5d1620e2fe167e8,Added Tweets2011 section to README.,2015-10-23 07:45:10-04:00,TRUE
+dbee33032fbdf5eda4e594b0c76caca356e23f4c,Add readme of IndexCounter,2015-10-23 11:18:22-04:00,FALSE
+82ef8060d9feafd913998ac79a6f70feb93a4523,update IndexCounter in pom and readme,2015-10-23 11:29:13-04:00,FALSE
+0412d697dcf253cb845e280f96f2d71b24bafd93,Fixed breaks of DumpDocids,2015-10-23 23:51:53-04:00,FALSE
+3114eaad6e521ebfcd70f5e7c07416c630abcb52,Refactor HTTP response use Mustache template,2015-10-24 22:35:01-04:00,FALSE
+66b60672bec390eb5e05b646d5ce2b06a671328b,Add -docIdName filed,2015-10-26 15:32:18-04:00,FALSE
+0dc0ed4b07ba133e80216ab9db9772bd70671108,Updated new command-line options.,2015-11-07 08:59:05-05:00,TRUE
+a49b302378e6f2d9c14c5210ad0ffc4d11edca18,Modify indexer to handle all CW* corpara. Initial cut for the issues #18 and #3,2015-12-01 21:27:30+02:00,TRUE
+85fe3aabc1dbb52b89d11778716b1d9cb6140a02,add readme entries for #3 #18,2015-12-02 22:27:42+02:00,TRUE
+6e4d6c2b98812f06115a909bc0fd5277600d06d5,better readme explaining the relation between CW09 cat A and cat B.,2015-12-04 15:12:12+02:00,TRUE
+6dd5d1947f654ea5bf8e34352629d3e80ea6cc99,better readme explaining the relation between CW09 cat A and cat B.,2015-12-04 15:16:24+02:00,TRUE
+f88d9c6e4e3fd3917b25d73efece77aab28ab9fc,update readme about unified index and search mechanism for all tree web corpara.,2015-12-18 19:51:14+02:00,TRUE
+cbaf9367824b71d2a932e15242946447d0e9a653,fix output flag usage in readme,2015-12-18 20:55:13+02:00,TRUE
+865ef480341723c85c3462ff1a3d0d678ea79f70,"Added retrieval effectiveness results on Gov2, ClueWeb09b, ClueWeb12-B13.",2015-12-19 06:23:09-05:00,FALSE
+b6da9191a017b5e5599132a74cd123601ff253b1,Tweaked README.,2016-04-27 12:14:04-04:00,TRUE
+76fb9873d45741d6dab705a1bca7f0fb8da90a3e,Updated README w/ ClueWeb09b and ClueWeb12-B13 runs.,2016-05-01 11:58:05-04:00,TRUE
+471f8070eccbe81e2ba74f7551d5578343e88e2a,Added Tweets2011 and Tweets2013 experiments.,2016-05-23 10:52:34-04:00,TRUE
+1750ebb90b916dee802a919fdfe86db87d877afb,"New rebase branch (#81)
+
+* clean up code
+
+1. Status: change to support redirect to retweeted origin tweet status
+2. JsonTweetsBlockTest: add test field according Status field
+3. Other files goes into /rts directory
+
+* update documentation link
+
+* reformat 2 space indentation, Status file and JsonTweetsBlockTest file",2016-10-19 09:52:06-04:00,FALSE
+43638fe81b65fb8dc2abdcc8212401007b122cbe,"Reorganize docs (#86)
+
+Breaking huge long README into smaller files in doc/ directory.",2016-10-27 09:41:20-04:00,TRUE
+00de5bbb5b2666e00c910712618d0d9eb355cc45,"add documentations (#91)
+
+* add documentations
+
+* update documentations of old TREC collections
+
+* Update add-collection-class.md
+
+* Update add-topic-reader.md
+
+* delete original dumpindex readme
+
+* Update dumpindex-reference.md",2016-11-03 17:26:01-04:00,FALSE
+224e50f540259262c2fa5c1af3d5c4d50842659d,"Added wt topics and qrels (#105)
+
+Re-application of PR #99 to make sure it was squash-committed.",2016-11-15 07:37:49-05:00,FALSE
+6705dc7870b1c5f365b2f659efa27d808f5d2664,"Robust05 results added (#108)
+
++ add the results of robust05
++ update the results of robust04 using the new topic reader
++ will upload the topics and qrels files once this is merged",2016-11-19 10:01:53-05:00,FALSE
+357abe4c3f90263bf69392f95c4e485385ee7122,"Eval update (#112)
+
++ Moved topics and qrels document into docs/; other minor tweaks.
++ Added gdeval script from https://github.com/trec-web/trec-web-2013/blob/master/src/eval/gdeval.pl",2016-11-26 08:33:20-05:00,FALSE
+32e2104d2a287e47825dbd9d005c939d785f6af9,"Clueweb experiment updates (#113)
+
++ After upgrading to Lucene 6.3.0, I reran ClueWeb09b and ClueWeb12-B13 experiments and updated the documentation.
++ Added documentation about ClueWeb12 runs.
++ Reorganized documentation.",2016-11-27 21:29:32-05:00,FALSE
+45b55c754b89d463bb08b94062bc516296e2324f,"Updated gov2 experiments + other do updates (#115)
+
++ Updated results from regression of gov2 experiments.
++ Added trec_eval and gdeval examples.
++ ClueWeb12: Correct NDGC@20 values (from gdeval and not trec_eval)",2016-11-28 08:04:30-05:00,TRUE
+0ab54ee9d4ece0dec7bf8a7bf3f49f349765460a,"Embeddings (#118)
+
+Initial integration of Word2vec to Anserini",2016-12-08 14:57:16-05:00,FALSE
+1e8b65d3f88f3c198c31b52d31aebfee18f16c8d,"e2e QA output (#168)
+
+generates an e2e QA run for a test set.",2017-04-12 18:00:47-04:00,FALSE
+900a80d0718ce0dffb3b5ec07f9d5083f70325b6,"Indexing Trec Core (#201)
+
+Addresses Issue #187
++ indexer binding for TREC Core collection
++ parsing NytCorpus documents (provided by the organizers and is Apache licensed)
+
+The parsing code is verbatim now and needs to be slightly modified. This is an initial PR, so that we can track back to the original files.",2017-06-27 21:40:42-04:00,FALSE
+c949669984ffdce5075c669af1b788b1ad7f9185,Update README.md,2018-04-17 13:13:07-04:00,FALSE
+5bd1d614f6793ddac1164ab6d6b09dcc9ad6d567,Tweets indexing/searching/tests refactor (#215),2018-06-03 16:51:40-04:00,FALSE
+3aa26acc54b20a2d95c2951ce890b48e2d5f24e3,"Docs update: regression on Disk12, Robust04, Robust05, Wt10g, Gov2 (#223)
+
+I've run from-scratch regression on the following collections: Disk12, Robust04, Robust05, Wt10g, Gov2. There are very minor differences in effectiveness, but nothing of concern.",2018-06-07 11:26:20-04:00,FALSE
+33a4355249ceb559c1a9dd2231397cc96205da1c,Added Washington Post Collection + Core 17 Experiments on NYT (#231),2018-06-12 15:14:08-04:00,FALSE
+31774551932748296758dc618118b517cf8401ba,"Removed io.anserini.nrts and io.anserini.rts (#238)
+
+This is dead code that no one has touched in years. Removing allows us to dramatically simplify our dependency structure.",2018-06-14 09:26:38-04:00,FALSE
+309387361125de02a4b79cc740ba8570069324a6,"Moving some docs to javadoc (#240)
+
+Related to issue #237",2018-06-14 10:04:30-04:00,FALSE
+c1d4e7b99961a8f1ed6ed53f5930d49f82b3e95c,"Update README.md (#242)
+
+More descriptive explanations of experiments.",2018-06-14 11:53:40-04:00,FALSE
+63fdb24454e8002ad777183e013d3ea2b09f6f6a,"Removed io.anserini.{embeddings, qa, and py4j} (#241)
+
+Per #239 - All of this code should be over in Python in Castor.",2018-06-14 16:04:33-04:00,FALSE
+2c390e3ec28b923a0a88724f256bedc31cfffbe8,"More documentation updates (#246)
+
++ Removed link to index stats (out of date)
++ Folded topic and qrel information into page on each experiment
++ More cleanup on root README",2018-06-15 09:16:04-04:00,TRUE
+03426ac392679b006298ad91d5a686df330af390,"SimpleSearcher Prototype (#244)
+
+Example class and Maven setup (build fatjar) to bridge Python/Java.",2018-06-17 15:51:57-04:00,FALSE
+2c76f3c51ed57aaac24589e6b5ec19ad9c528e9c,"POM cleanup (#256)
+
++ binds appassembler:assemble to package phase explicitly so it'll run by default.
++ unbinds shader from package phase so it won't run by default - speeds up build (fat jar is only needed if we want to build the Python bridge)",2018-06-20 16:42:10-04:00,TRUE
+e92682ab118a179a763a13e9334015410565db8f,"Axiomatic reranking (#247)
+
+* Add axiomatic semantic reranking: the algorithm supports either reranking using the same index with the original ranking and reranking using an external index (e.g. commercial search engine snippets or Wikipedia).",2018-06-25 16:25:18-07:00,FALSE
+10a6418e1c604bfd6fddfd2a6b161041f77a49de,"Patch for issue #260: Build regression tests for tweet collections (#269)
+
++ Changed tie-breaking behavior for tweet ranking to get consistent, repeatable results.
++ Added regression scripts for tweets2011 and tweets2013.",2018-06-27 07:34:49-04:00,FALSE
+0543117f2946a42ab7d4896449286b676e8d68a5,Updated badges and wrote release notes (#298),2018-07-05 10:06:43-04:00,FALSE
+7fdb3fbb5f502a98d7031e2bd11bd2a0db1923fa,"Patch to fix issue #300 - errors building fatjar for pyjnius (#302)
+
+This patch basically reverts commit 2c76f3c which breaks fatjar generation for pyjnius.
+
+Maven now by default builds the fatjar, but appassembler needs to be explicitly triggered. So the full Maven command is now back to: mvn clean package appassembler:assemble",2018-07-05 20:56:46-04:00,TRUE
+2ff2c6a34c2e70a7c3e4cbcdb15bc733cbee2150,update indexing related docs (#309),2018-07-07 11:08:10-07:00,FALSE
+73b24b4035dbb3dd5f7b12a5fff3017baf7fa7a6,Add -dumpAllDocids and -dumpRawDocs options to IndexUtils (#310),2018-07-07 18:20:09-07:00,FALSE
+384b23c731c6e9df9d7657011b93ec3de22c1542,"POC of simplified regression test script and usage (#286)
+
+In this PR, a new script `src/main/python/run_regression.py` and the expected results in `src/main/resources/regression/all.yaml` are introduced. 
+This script is going to be the single regression test script for all collections (via different parameters). 
+The idea is to separate ""what to test"" (in yaml file) and ""how to test"" (the script).
+Currently, only the results of disk12 and cw09 are included but the initial POC seems promising. 
+I temporarily name all current `experiments-*.md` as `experiments-*-old.md` and change the corresponding regression test scripts in `src/main/python/run_regression_*.py`
+We will migrate all other collections to the new regression test script in another PR.",2018-07-14 09:52:44-07:00,FALSE
+e5ec096ce8398edddf1f7cda405db2e1b6d8b190,Add ndeval and related qrels for web track 2013-2014 (#337),2018-07-14 10:05:47-07:00,TRUE
+5f8c26d328dd67e6cc538d5f9b4af44acdbc74e5,"Regression test refactor (#355)
+
+This is a complete refactor of the regression test framework.
+
+# All the to-be-validated numbers are in src/main/resources/regression/*.yaml. One file per collection.
+# Now all experiments-*.md are automatically generated by `mvn test` or `mvn clean package appassembler:assemble`. Any manual changes will be erased. The only way to change them is to directly change `src/main/resources/regression/*.yaml`.
+# Please note that for CW12 there is no result of BM25+AX and QL+AX since it takes too long to run the test.",2018-07-21 08:59:52-07:00,FALSE
+742d6fd0cdf06c44515832861b0c50d6afe2a950,"Update docs (#361)
+
++ Tweaked names of experiments and collections
++ Started a log keeping track of regression tests",2018-07-23 14:42:45-04:00,FALSE
+e7888564599ac25eed7bb7cb07a12c393000e857,"Patch for issue #353: Add MapCollections (#370)
+
+* Add MapCollections: a generic mapper framework that runs mapper on each file segment in parallel",2018-08-03 16:50:22-04:00,FALSE
+d4b3272e7f07fa274e5d8ffd50976beb0c08de52,Add Regression Test for Car17 (#379),2018-08-08 19:33:15-07:00,FALSE
+f8266d8a9ae13635dd6b1afae7e660d83d825931,"Tweaked README (#398)
+
+Added new intro, refs, acknowledgments. Minor tweaks elsewhere.",2018-08-12 07:53:56-04:00,FALSE
+e26bcbfcfe35913663d039078f736631b54decf6,v0.2.0 release notes (#428),2018-09-10 18:47:01-04:00,FALSE
+8eadcf3b6c5bdb4a9d486d7467824ed14ff5a42e,"Updated regression docs (#437)
+
+Changed organization of documentation pages. Minimal changes to actual content.",2018-09-19 13:57:06-04:00,FALSE
+d9caf46c2e904aafb6fc5578433d66ee38ad1773,Updates to documentation for JDIQ article (#466),2018-11-02 15:27:50-04:00,FALSE
+5c7b9b9841b1b85160b0194b28554f97e4b10395,"Update README.md re: issues w/ Java 10 and 11 (#468)
+
+Addresses #445",2018-11-03 12:52:38-04:00,TRUE
+b4064da75e31aeaf6322cd1e321267c15c1c48f5,"Update trec_eval Fix #475 (#477)
+
+Tarball is created from usnistgov/trec_eval with
+a5211566d0c9e2ec337bacf327b9350ab5b3edde as latest commit.",2018-11-16 15:50:29-05:00,TRUE
+19b93c726adce5e715d892f4e7bc33efe7e28d6a,Update README.md per #482 (#487),2018-11-29 12:13:30-05:00,FALSE
+e5b87f0d6c16b47d0be6cc8fd587acd20e3fbb0d,add core18 regression related files/results (#490),2018-11-30 07:57:04-05:00,FALSE
+68140501155333fce0cbb31f22d4b57c9220183d,Various small tweaks to documentation (#493),2018-12-04 15:38:35-05:00,FALSE
+210881836c752b9cee49db04a1531a4e9f4d9925,More TREC 2018 runbook tweaks (Anserini group) (#505),2018-12-14 06:23:45-05:00,FALSE
+af210bd078d8acca09d65ab21dc75053e6dee314,"Minor tweaks to TREC 2018 h2oloo runbook (#507)
+
+Minor copy editing and formatting changes.",2018-12-14 10:24:44-05:00,FALSE
+d9e4badae62b0181c7a831fe7b377db49c0d3318,Release notes for v0.3.0 (#513),2018-12-16 13:40:58-05:00,FALSE
+b5e4c43b3d28e98ea672ae1a0f92ae0ce765fc3b,Updated documentation about replicating SIGIR Forum results (#549),2019-01-12 12:11:55-05:00,FALSE
+dfda1b934f79ad494f6ae2897fe2d0c8f8a4435b,"Updated documentation for ECIR 2019 axiomatic semantic matching (#551)
+
+Moved runbook into docs/ directory, following same organization as other documentation.",2019-01-14 07:34:29-05:00,FALSE
+53b54445e51ad9e243d733fa2009328d80efa9c3,"Tweaks to ECIR 2019 ccrf runbook (#561)
+
+Copyediting, reorganized; linebreaking.",2019-01-19 15:16:38-05:00,FALSE
+e6431a73cdc3e59357595c6f21a540ea6cfef76d,Added release notes for v0.4.0 (#582),2019-03-05 06:33:53+09:00,FALSE
+3f940d0f032e4705d488f9ee67080de4fe4cf032,Added note about Oracle vs. OpenJDK replication issues (#594),2019-04-18 19:08:21-04:00,TRUE
+b38bc3ad51e5a642b91bf1c288734ccaf6edb4b0,Adds MS MARCO experiments (#595),2019-04-22 08:36:06-04:00,FALSE
+65c9314af73ed3c4884249daa2bc9008134bfa3d,Tweaked build status badge (#608),2019-04-27 07:32:19-04:00,FALSE
+d911bba180aceabbe052624b7f715a2189e25dbb,Renamed to clarify that current CAR regression is v1.5 (#638),2019-05-10 09:12:26-04:00,FALSE
+2ba2b9582ee942aee714301b78015a2ded16da8c,Add CAR 2.0 regression (#640),2019-05-11 11:20:47-04:00,FALSE
+88fd615972ed9eb218cc5a9ea302f4533e12638f,"Various documentation updates (#666)
+
++ Pass over Solrini documentation (confirmed that everyone works)
++ Updated recent publications
++ Added Lucene 7.6 v.s Lucene 8.0 efficiency results",2019-06-01 15:46:51-04:00,FALSE
+7e1c0370d55d9e5978afb7a31fe974760a0d4623,"Update README.md (#671)
+
++ Removed OSIRRC paper (which isn't really about Anserini directly).
++ Added BERT arxiv papers.",2019-06-03 21:35:09-04:00,FALSE
+7fd1f648dcdd196cda436bb6af129c015dbdb9b6,Update README.md (#674),2019-06-04 10:22:44-04:00,FALSE
+ab743aa984e875e422ef1e8f4452243b1d2b3ff8,Release notes and doc update for v0.5.0. (#677),2019-06-05 20:34:46-04:00,FALSE
+1a492e330142d17fb7d1259ca40106752b3d7a93,"Adds experiments with the BM25 baseline on the Open Research corpus (#682)
+
+* Update README.md
+
+* Add files via upload
+
+* Create retrieve.py
+
+* Add files via upload
+
+* Writes the true BM25 score to the output file.",2019-06-07 10:26:18-03:00,FALSE
+09778846c53eaa2225c77f162bfde59cc2b4e3fe,"Rename regressions documentation (#686)
+
+Rename of docs/experiments-foo.md to docs/regressions-foo.md for all our regressions.
+Doing this because we have documentation like docs/experiments-msmarco.md, which aren't regressions - to reduce confusion.",2019-06-07 16:35:51-04:00,FALSE
+781d9ed111b41883c2342ff4d367ca77cfd9ebb2,"Added formal regression for MS MARCO passage task (#692)
+
+Ref #690
+
++ added MS MARCO passage regression into Anserini's framework
++ added tsv topic reader
++ ""msmarco"" -> ""msmarco-passage"" to make way for doc task
++ fixed bug with Java timing of MS MACRO retrieve class",2019-06-08 15:16:37-04:00,FALSE
+93f8f3c769bc9f95b2c351dc8347f0bbe940d1b2,"Added documentation and regression for MS MACRO document ranking task (#693)
+
++ Added docs for how to run e2e MS MARCO document ranking experiments
++ Integrated into Anserini regression framework
++ Minor tweaks/fixes in passage ranking documentation",2019-06-09 12:35:23-04:00,FALSE
+908a3dc61530f9164f02528c4c06acf4b83d9862,"Update of regression docs (#694)
+
++ Fixed broken links
++ Tweak links and anchor text to be more descriptive
++ Added documentation in regression log about MS MARCO regressions",2019-06-09 19:16:55-04:00,FALSE
+ed874210a2f984904f08761268b9bb9a44c95a2f,"Fixing Document Expansion by Query Prediction link (#700)
+
+Document Expansion by Query Prediction link previously led to Simple Applications of BERT for Ad Hoc Document Retrieval",2019-06-11 07:53:54-04:00,FALSE
+e4a7233f2d20b5293d2e117812ebe0ad7e75b404,v0.5.1 documentation update (#701),2019-06-11 12:34:56-04:00,FALSE
+439667ee576fcba6bc98817c4effbffd3f1cec2b,"Added Pyjnius configuration helper to add jar to classpath (#711) - closes #678
+
+* Added setup script that searches for the latest matching jar in target
+* Replaced existing instances of hardcoded jnius_config calls
+* Modified travis test for python integration",2019-06-12 15:31:21-04:00,FALSE
+e2d1f7b7ae8ef3c6c8e7a361b7e42fa069ba46ae,Lucene8 doc update (#712),2019-06-12 15:40:39-04:00,TRUE
+daf60d64a20f13fc5817456344950cf83c2e60ec,Having fun with badges - added Lucene badge (#715),2019-06-12 22:01:43-04:00,FALSE
+b656da3ed0ec3fa385dfdb9df0d153cd9a78bd7d,"Added document and regressions for doc2query (#721)
+
+We supply the predict queries: added documentation and regression for replicating https://arxiv.org/abs/1904.08375",2019-06-20 08:28:41-04:00,FALSE
+86be3d21ea8bdf9309ca5f85362c2782c3898a19,"Updated MS MARC documentation + regressions (BM25 Tuning for doc) (#723)
+
++ Moved Doc2query documentation (on passages) into its own dedicated page.
++ Added documentation and regression on BM25 tuning for the MS MARCO document ranking task.",2019-06-20 17:29:10-04:00,FALSE
+4e74b652c7d5c8c39a72f0ab8a0805557cd75182,"Multithreaded indexing through Elasticsearch (with ES 7 & Lucene 8) (#655)
+
+* added dependencies
+
+* added multithreaded indexing through Elasticsearch
+
+* added Elastirini doc
+
+* enabled passing in ES index name
+
+* enabled option to exclude raw or transformed texts from indexing
+
+* added dependencies
+
+* added multithreaded indexing through Elasticsearch
+
+* added Elastirini doc
+
+* enabled passing in ES index name
+
+* enabled option to exclude raw or transformed texts from indexing
+
+* switch to ES 7.0.0
+
+* close ES clients pool after indexing
+
+* updated README with ES integration info
+
+* uses lambda expressions
+
+* add more detailed doc
+
+* updated doc
+
+* change default timeout
+
+* updated doc
+
+* update url in doc
+
+* updated doc",2019-06-20 21:12:17-04:00,FALSE
+d0be1682e31896e3d32b2d4d13f7737acfb6be02,"Refactoring documentation: Pyserini, Solrini, Elastirini (#727)
+
++ Reorganized ""integration"" section.",2019-06-22 10:44:00-04:00,TRUE
+298a8f0f5f3d6db12c93a5ebe42eda4c5766b83e,"Update README.md: adds request for records of replications (#731)
+
+Closes #517",2019-06-25 09:38:13-04:00,FALSE
+64bae9c8b87ad56bc8cf6ea0c5405eb2a82b3682,"Fixed ""neural hype"" tuning experiments after Lucene 8.0 upgrade (#736)
+
++ retuned retrieval models for Lucene 8.0
+
+Refactored tuning script:
++ made command-line parameters more consistent
++ broke fold settings into external config files for greater generality
++ removed unintuitive distinction between ""model"" and ""basemodel"": there's just ""model"" now.",2019-07-03 15:04:22-04:00,FALSE
+3389de42653a7010b3a167a4cf006bc7b238e9d3,Update README.md (#744): Upgrade to Java 11,2019-07-11 10:56:56-04:00,TRUE
+1217d475c88cc4782ff3056506afc43d71bf31fb,Add TREC CAR doc2query regression (#768),2019-08-09 22:06:34+08:00,FALSE
+bfa6820afb85f304c2d9e787ac7448f554605967,Release notes for v0.6.0 (#792),2019-09-06 09:52:06-04:00,FALSE
+1649d31331c0dc37f7b0efb2907e01088eea9e2f,"Fix issue with duplicate field for WaPo in Solr. (#807)
+
+* Fix issue with duplicate field for WaPo in Solr.
+
+* Add known issues for Solr in v0.6.0",2019-09-16 17:26:18-04:00,FALSE
+445bb458da825c9919d7a4e92de5ce87c929af7d,"Tweaked regression for NTCIR-8 Monolingual Chinese to build directly from LDC source (#822)
+
+Previously, regression was using the incorrect collection and needed an extra Python script to convert from TREC doc format to JSON.",2019-10-11 07:03:13-04:00,FALSE
+c2463850ee2a94a1e420addbca8868df87203791,Minor doc tweaks. (#826),2019-10-17 14:45:22-04:00,TRUE
+bf8fab369acb8c9671e77672a44f90b7d7c23200,Update README.md to Anserini and Pyserini colab demos (#846),2019-11-01 14:44:52-04:00,TRUE
+3d3a21f951412f2672e02810d93092dd319763a3,"Update README.md (#851)
+
+Added links to anserini-notebook repo.",2019-11-02 15:55:18-04:00,TRUE
+2722abace99d009b5b3d80e8d2bc6cb9d376be18,"Update README.md (tweaked badges) (#854)
+
+* Update README.md
+
+* Update README.md",2019-11-04 14:51:19-05:00,FALSE
+1402bc96eab0eda49dc58785b2fda5fdf4041c4d,Update README.md (#857),2019-11-09 10:36:14-05:00,FALSE
+318b08064296f0d13719395d49d051df43a5af26,"Removing pyserini from repo (#865)
+
+Pyserini is dead! Long live pyserini!",2019-11-10 10:20:13-05:00,FALSE
+5729eedf8af45f0e0c3a22b1314ef34dffc53588,"Update README.md (#866)
+
+Changed to version of notebook that uses PyPI.",2019-11-10 11:08:55-05:00,TRUE
+dfc6d5090181c9b05c9f0bdfbbae2f4d315fd233,"Update README.md (#867)
+
+Twiddled with badge colors.",2019-11-10 12:31:08-05:00,FALSE
+37247b087b31ddb9347ffa9638460d23042ed8b7,"Add codecov (#868)
+
+Test coverage is terrible... but at least we know it now...",2019-11-10 15:03:29-05:00,FALSE
+32a2133b575d8b8c13fbd8158cf5c5e8ade5a42d,Update README.md (#869),2019-11-10 19:53:46-05:00,FALSE
+897210dd1fb0e13edc7301ea7eb2edfc6049aa1b,Upgrade to Lucene 8.3 (#855),2019-11-13 09:12:05-05:00,FALSE
+65f347e872a1f2d6b63c92068270578fe7ef5a2f,"Update README.md (#894)
+
+Added link to https://git.uwaterloo.ca/jimmylin/anserini-indexes/ repo",2019-11-25 11:49:15-05:00,TRUE
+05cf6b72397861bf79d1cf46eaf1ccebb101d5be,"Update README.md (#895)
+
+To reduce duplication between Anserini and Pyserini, I've moved the focus of the notebook stuff to a separate repo: https://github.com/castorini/anserini-notebooks",2019-11-25 15:45:51-05:00,TRUE
+b9264da049c355f8cc8d304f0d799b4435011f43,"Multilingual regression fixes (#902)
+
+With this patch, I've verified that all new regressions work on tuna.",2019-11-27 14:48:34-05:00,FALSE
+3d1524fdaf3a539bcba01aeb4c9d42b78fe4923c,"Refactoring of FIRE regressions and documentation (#915)
+
++ Switched FIRE topics over to official topic format
++ Modified TREC format reader to accommodate
++ Fixed a bunch of broken links
++ Better documentation of topics and collection",2019-12-05 05:44:24-05:00,FALSE
+293c0c7bc3f1ecb8407eb149fe697e26ec39b8b4,"Added DocTTTTTquery documentation (#919)
+
++ Added stub docTTTTTquery documentation that references https://github.com/castorini/docTTTTTquery
++ Tweaked doc2query documentation to add refs",2019-12-06 19:38:00-05:00,FALSE
+ae2977cfbc84feb162cfdac3855f7e333e26521c,"Added docTTTTTquery regressions (#923)
+
+Added regressions for docTTTTTquery. Tweaked existing regressions and documentation to make word/terminology consistent.",2019-12-09 22:22:09-05:00,FALSE
+c44f4d34dac52d878dde4c708f10d8521b61c42f,"Multilingual corpus cleanup (#925)
+
++ Detailed documentation cleanup of CLEF2006 fr and TREC2002 ar.
++ Refactored TREC topic reader to table TREC2002 ar topics.
++ Changed both above and NCTIR8 zh to AP, P20, NDCG20 for regression metrics.
++ Minor tweaks to FIRE regressions.",2019-12-10 14:40:46-05:00,FALSE
+7710562959bec535e5773ff192cb11745bcf3fab,Release notes for v0.7.0 (#930),2019-12-13 07:41:01-05:00,FALSE
+387405a4b187ecb30adab29ae903091cecce8481,"Refactoring of ANN features (#934)
+
+Improved output, reproduces @tteofili 's results.
+Closes #909",2019-12-26 07:20:21-05:00,FALSE
+a704e4c1206e41f540390ad3b3b4814728108fdd,Release notes for version 0.7.1 (#941),2020-01-09 20:41:49-05:00,FALSE
+d5ee069399e6a306d7685bda756c1f19db721156,Release notes for version 0.7.2 (#970),2020-01-25 12:55:53-05:00,FALSE
+0d42d309b7d0b2b4827fadd6d8bde39fa6bcd4cd,"Regressions for TREC 2019 Deep Learning Track (Document Ranking Task) (#996)
+
+* Regressions for TREC 2019 Deep Learning Track (Document Ranking Task)
+
+* Shortened label
+
+* More minor tweaks.
+
+* CR comments.",2020-02-25 13:00:31-05:00,FALSE
+a62004b9179f6fa8a8e50e30008d3f8bc8f9d234,Regressions for the TREC 2019 Deep Learning Track (Passage Ranking Task) (#997),2020-02-25 14:30:53-05:00,FALSE
+93db44a6fb9ba20b42574aea91b950db30afe1dc,"Update README.md to better explain ""regressions"" (#999)
+
+Also updated complete list of regressions.",2020-02-25 15:13:50-05:00,FALSE
+e733bdcbafbd3fe29d1d1e1f6662152450e418a0,"Add baseline for TREC news BL (#1015)
+
+fix #1012
+- Add baselines for both 2018 and 2019
+- Add qrels + topics for TREC BL 18+19
+- Add link in README.md to the markdown that explains how to generate the baselines.",2020-03-06 06:24:54-05:00,FALSE
+10ff01a429bbfca196c8a012f1577b09ea476d8a,Added background linking regressions for TREC 2018 and 2019 (#1018),2020-03-06 08:25:07-05:00,FALSE
+dc829073ef3af56271f22f5611ab7faae398d5a4,Update docs: explained what regressions are (#1026),2020-03-08 18:52:41-04:00,FALSE
+ba2d82c6ac10e8b8debd4f4e66f18e0337b0fff7,Release notes for v0.8.0 (#1037),2020-03-11 21:21:56-04:00,FALSE
+a90a0ce8f3664aaaf60403c45becfe1ed7bee837,COVID Passage Indexing (#1049),2020-03-22 13:28:30-04:00,FALSE
+39b1a6e8d3f2dae7ea4fad22a683f87a2bfaa19c,Release notes (#1055),2020-03-22 16:54:36-04:00,FALSE
+894ebb753c1bda8d7c39b0a486a9644122b86292,Update experiments-covid.md (#1067),2020-03-27 10:40:06-04:00,FALSE
+2bda85d7ce016e0255c0446bc473b5d82c130f2d,Release notes (#1104),2020-04-18 08:02:59-04:00,FALSE
+92a44d7f8dae49a13adbe8826c25ab7b249903e5,TREC-COVID round 1 baselines (#1146),2020-05-05 10:53:40-04:00,FALSE
+39c9a92a957b9c444fe0dc89f4560f3f5a3b612f,Release notes for 0.9.1 (#1155),2020-05-06 12:01:30-04:00,FALSE
+ad5ba1c76196436f8a0e28efdb69960d4873efe3,Release notes for v0.9.2 (#1197),2020-05-14 17:51:54-04:00,FALSE
+793d92c5b4b2adc268712ad1c77b985fdf25047b,Replication and tweaks of 20 Newsgroups (#1204),2020-05-17 12:42:17-04:00,FALSE
+2b4dcc2662f91ff50d3dbcd6fb4e2959a9de58c6,Release notes for v0.9.3 (#1228),2020-05-26 13:59:23-04:00,FALSE
+2ff28eab69ea8c75306e22959b3510ecb714e303,Refactored Solr/ES docs for CORD-19 (#1244),2020-05-29 09:27:25-04:00,FALSE
+a7531aa7122c68edb7b718338926f1341b153e16,Added anserini-eval as a submodule (#1248),2020-06-01 18:21:51-04:00,TRUE
+a5ba12681442c23a7715c54cef9579b6ba2f9834,"Housekeeping (#1253)
+
++ updated eval/ submodule
++ updated .gitignore
++ simplified pubs",2020-06-03 17:30:39-04:00,FALSE
+8a7c250eaaa631544479bdd320d83934ab6455f9,"Bind anserini-tools submodule to tools/ (#1282)
+
++ Remove src/main/python/msmarco/ since the scripts are in tools/ already.
++ Update documentation for MS MARCO passage and doc ranking.",2020-06-17 07:11:53-04:00,TRUE
+d1703f8e3201114457382353c86392859e28f573,Add documentation for FEVER baseline (#1297),2020-06-23 14:34:02-04:00,FALSE
+b8609aa8b640a0322641d823fcb3c169acb2f79a,Release notes for v0.9.4 (#1307),2020-06-25 17:56:49-04:00,FALSE
+c9757346f1ec1e628e86b7ab7315c003b858d39c,"doc2query baselines for trec-covid round4/round5 (#1338)
+
+* add download_doc2query_indexes.py
+
+* add initial generate_round4_doc2query_baselines.py
+
+* bug fix
+
+* add instructions, just missing urls
+
+* add round5 stuff
+
+* fix round4 bug, add latest indexes
+
+* just missing run links
+
+* add all links to runs, working generate r5
+
+* finish adding r4
+
+* resolve comments",2020-07-28 23:06:42+05:18,FALSE
+d6a984d3df6291827e9dadd3f56edf6f0ae34655,"Update experiments-doc2query.md (#1401)
+
+(and associated scripts)",2020-11-09 09:12:01-05:00,FALSE
+9a8e8b4a569036de3d68daabebf42ae302069eca,"Add regression for MS MARCO doc with per-doc docTTTTTquery expansions (#1408)
+
+Also fixed terminology: Retrieval -> Ranking",2020-11-12 16:24:25-05:00,FALSE
+f87c945fd1c1e4174468194c72e3c05688dc45dd,Add regression for MS MARCO doc with per-passage docTTTTTquery expansions (#1414),2020-11-16 16:17:20-05:00,FALSE
+6a69f2cb3e12f54fa3686b7d92cb07432602ad4f,"Refactoring COVID documentation and replication scripts (#1417)
+
++ Reorganized my Dropbox, changed links
++ Updated indexing documentation and scripts to fix underlying changes at AI2",2020-11-20 12:22:24-05:00,FALSE
+1b4d0a29879a867ca5d1f003f924acc3279455ba,Release notes for v0.10.0 (#1427),2020-11-25 15:55:33-05:00,FALSE
+09e05d3eaf1893f7a4ba9c75041ac9f02dae6cbe,Update README.md (#1440),2020-12-15 10:03:49-05:00,TRUE
+be4e44d5ac1e898469fc179f8e6a336234b23d93,Update README.md (#1441),2020-12-15 10:41:28-05:00,TRUE
+5cebafc09c8974cb9924c3e5af69340a479942a6,"Documentation update (#1442)
+
++ Cleanup of axiom reranker - moved documentation page into code directly.
++ Reorganized replication guides.
++ Add MS MARCO doc leaderboard replication guide.",2021-01-03 09:05:03-05:00,FALSE
+113f1c78c3ffc8681a06c571901cf9ad8f5ee633,Release notes for v0.10.1 (#1450),2021-01-08 14:46:28-05:00,FALSE
+2a32d5aac69529d05d22fe50dabf8683762ed6ff,Release notes for v0.11.0 (#1479),2021-02-13 09:55:00-05:00,FALSE
+e9af6eca16290ed222f23fcaa9cb1547f8a10d38,"Regressions for TREC 2020 Deep Learning Track (#1486)
+
+To reproduce official submissions and related variants.",2021-03-19 20:37:58-04:00,FALSE
+4526e1ac00ae08a754e9fd83753c555fad965131,Updated regression log for TREC 2020 News Track background linking task (#1497),2021-03-31 21:27:31-04:00,FALSE
+868afe9ec07fa477ce817d7a43dd5723cb4c8a86,"Updated MS MARCO doc ranking regressions (#1516)
+
+Added MS MARCO doc ranking per passage regression test.
+Now we have the complete set of regressions, 4 in total:
++ {doc indexing, passage indexing}
++ {no expansion, expansion}
+
+Updated regressions with tuned parameters.",2021-04-13 06:47:19-04:00,FALSE
+66a501943c68af8fbe27f9ed6350233251e30d18,Release notes for v0.12.0 (#1530),2021-04-29 15:05:22-04:00,FALSE
+71f3ca671faf6ddd7b0dea0a1e7f4b590a0a02a5,Replicability -> Reproducibility (#1532),2021-04-29 20:33:43-04:00,FALSE
+f5876f9a2b797ee5b3c215512549a641b652b160,Update README.md (#1539),2021-05-01 08:48:04-04:00,FALSE
+62c4d4a2120c834f2f97d5efa7b9f8ef10b8a7a2,Added FEVER regressions (#1550),2021-05-30 08:25:33-04:00,FALSE
+b58c8559b4fc473e857b9ce5ca73523d8d017b41,"Overhaul of regressions for MS MARCO {passage, doc} and DL {19, 20} (#1559)
+
+Covers:
++ MS MARCO passage + {doc2query, docTTTTTquery}
++ MS MARCO doc {per-doc, per-passage} x {doc2query, docTTTTTquery}
++ {DL19, DL20} passage + {doc2query, docTTTTTquery}
++ {DL19, DL20} doc {per-doc, per passage} x {doc2query, docTTTTTquery}",2021-06-14 09:51:03-04:00,FALSE
+ff618dbf87feee0ad75dc42c72a361c05984097d,DeepImpact reproduction guide (#1564),2021-06-17 12:12:18-04:00,FALSE
+68cf7d2340b0d9bee5e6eeb0bc4d2b66f50d019c,Release notes for v0.13.0 (#1568),2021-06-23 12:05:14-04:00,FALSE
+ce35d61455d5943e164e31880e517ce091fded66,Initial support for MS MARCO V2 passage and document collections (#1571),2021-06-24 17:48:51-04:00,FALSE
+fc8e9e0c95a36720e88840b99cd9a51b594ec28a,Update README.md (#1578),2021-06-28 21:34:43-04:00,TRUE
+8fc40fc7384d448040956daf5a6f8517dc1b506e,Successful uniCOIL reproduction (#1583),2021-06-28 22:04:44-04:00,FALSE
+7e91acb6139d093dff77787674356f5f3cc439fb,Release notes for v0.13.1 (#1585),2021-06-29 20:16:26-04:00,FALSE
+a9f7cc20f532774d574c193014cc991aa757f2e6,Release notes for v0.13.2 (#1602),2021-07-20 22:22:58-04:00,FALSE
+c9d8dd95f15f53da55cec7f707910d8f0bd22e27,Update README.md (#1613),2021-08-10 14:20:41-04:00,FALSE
+918dd920f2ca45358eeeccc17aee7f9ff9e6ed51,Release notes for v0.13.3 (#1623),2021-08-23 10:31:55-04:00,FALSE
+139675e4ed45191add40bb458729ed8d664ae2d5,Update README.md: More compact display of links to regressions (#1627),2021-08-28 02:10:15-04:00,FALSE
+f86e4e193eee806e935720c2ea8c549babb02c53,"jsoup upgrade to address security vulnerabilities (#1625)
+
+Ref #1624
+
+Note that this impacts a bunch of regressions that uses jsoup for document processing. All score changes are minor.",2021-09-02 14:39:06-04:00,FALSE
+112438c85f642c3b6b5006af68f82457a43d602f,"Regressions for MS MARCO V2 (#1630)
+
+Standard BM25 + PRF configurations w/ default parameters
++ passage, passage augmented
++ doc, doc segmented",2021-09-04 08:01:46-04:00,FALSE
+f79fb67845b4b68b8c177eacb5832c209847dc29,Add regressions for DeepImpact and uniCOIL on MS MARCO passage (#1633),2021-09-05 18:32:15-04:00,FALSE
+fa650159898fbc7223c053c23725037249c821ea,"Add unicoil-tilde-expansion readme (#1635)
+
+* add unicoil-tilde-expansion readme
+
+* add unicoil-tilde-expansion link to README",2021-09-09 10:17:07-04:00,FALSE
+50ec93aeaff922fbb9bbb7e3b8367850b3823a6e,Update uniCOIL + d2q-T5 docs (#1642),2021-10-07 22:41:33-04:00,FALSE
+f8b7cd9f8d1d11ca8b5415cf868b60676aff5472,"Fix MS MARCO v2 naming conventions (#1644)
+
+msmarco-passage-v2 to msmarco-v2-passages (and similarly for doc):
+propagated changes to topics, qrels, documentation, classes, regressions, etc.",2021-10-09 10:42:33-04:00,FALSE
+fc2ddb026677d2695fa4a1e9cfdd5608cb0ac26b,Update uniCOIL + TILDE docs (#1645),2021-10-09 10:43:11-04:00,FALSE
+bbb21dee1a45bbf72e14f289394e9e37d7806e0f,"Refactor documentation of sparse learned models (#1647)
+
+Added guide for SPLADEv2. Went through docs one more time to ensure consistency, etc.",2021-10-14 06:59:37-04:00,FALSE
+cf5c4fb9e8d2d8a8d883b0f0f9b778908cb49a6d,Update regressions for DeepImpact and uniCOIL (#1657),2021-10-16 23:51:22-04:00,FALSE
+828d05f77e3e0655c059cba07e576c67a9378c77,"Fix score overflow issue in ScoreTiesAdjusterReranker for SPLADEv2 (#1658)
+
+The method of rounding used in ScoreTiesAdjusterReranker causes overflow issues
+because SPLADEv2 scores can get very big. Doesn't affect the actual ordering of
+docs, hence everything is fine with MS MARCO output format, but does cause issues
+with TREC format and trec_eval.
+
+With this bug fixed, added SPLADEv2 regressions.",2021-10-18 18:30:13-04:00,FALSE
+77836527293b10348193bdff5026e5df2ffc9e32,Release notes for v0.13.4 (#1662),2021-10-22 13:57:22-04:00,FALSE
+2b3e6c23764875c62ff2f2c1940983d300553f58,"Create maven.yml (#1663)
+
+Switch unit testing CI from Travis to GitHub actions.",2021-10-24 10:25:51-04:00,FALSE
+227cd749e79b83bff382865079fcdb55c94427e5,Update maven.yml to fix codecov bindings (#1664),2021-10-24 12:39:47-04:00,FALSE
+b81f1eb110f21f990acd88143aa2c00ae428711f,Update repro docs for Solr and ES/Kibana on CORD-19 (#1673),2021-11-02 10:22:20-04:00,FALSE
+65645e1facccc830b6604326390f868ec59e82fe,Release notes for v0.13.5 (#1674),2021-11-02 14:30:40-04:00,FALSE
+f0502cc7cf4978b266b6427a594e6c57e524fd8e,Update regressions for MS MARCO doc v1 segmentation (#1675),2021-11-16 07:01:08-05:00,FALSE
+1c5f640ee566c74d45f9c558f518b188e6473748,Add regressions for MS MARCO V2 dev2 and TREC 2021 DL Track queries (#1677),2021-11-18 20:52:49-05:00,FALSE
+47685b1c42375c1a46404effdd866dc01c424358,"Add uniCOIL noexp zero-shot results on MS MARCO V2 and DL 21 (#1679)
+
+Each regression page can have multiple query sets, so we don't need separate pages
+for dev and dev2 on MS MARCO V2. This makes our README cleaner.",2021-11-25 06:45:48-05:00,FALSE
+aee51adefe9d2b8f178df37abc5b236b185c5bab,Add Mr.TyDi regressions for Arabic (#1685),2021-12-05 07:36:19-05:00,FALSE
+fbdd0087b33caaf3422ce2892a30fc3af5dbb468,Upgrade Lucene to 8.11.0 (#1687),2021-12-07 12:17:20-05:00,FALSE
+12149f87457f4eeff3818a76be1331f5a8a60c75,Add regressions for TREC 7/8 on Disks 4+5 (#1692),2021-12-09 16:17:56-05:00,FALSE
+64f4d1e226e5e478ebb5cec93f3e4705d09d4326,Combine robust04 regression into disk45 regression (#1693),2021-12-13 07:35:44-05:00,FALSE
+15140448d6b6dbf12d7461fc4d90cfb3f4529f69,"Mrtydi regression (#1702)
+
+Add regression and test case for all other Mr. TyDi languages, following #1685. 
+
+including: 
+- template and yaml files (index stats, MRR@100 and Recall@100)
+- test cases (size of topics and qrels, doc loading)
+- unrelated to Mr.TyDi: add the path to `/bin/build.sh` in the readme",2021-12-15 12:58:20-05:00,FALSE
+88299fc8680498b1a99ea02d4abea3a07dc4a321,"Final round of refactoring of regression framework (#1717)
+
+Final installment of #1680
+
++ Refactored regression script, cleaned up dead code.
++ Renamed YAML params.",2021-12-29 23:18:03-05:00,FALSE
+6fcb896c61e2b8cf2f235def3e95dda5fe4cd2fc,"Refactor MS MARCO (V1) doc regressions (#1723)
+
+Rebuild all doc regressions from scratch.",2022-01-08 07:12:36-05:00,FALSE
+06fb4f9947ff2167c276d8893287453af7680786,Release notes for v0.14.0 (#1729),2022-01-11 11:34:42-05:00,FALSE
+1be47b95cbc722fff1b883a6b91a92632a00461e,Add MS MARCO (V2) regressions for doc2query-T5 (#1744),2022-01-20 09:24:14-05:00,FALSE
+4c33f137f81c9e6fef030befd2a6e089cfe0ab78,"Add regressions for uniCOIL (with d2q-T5 expansions) on MS MARCO V2 (#1751)
+
+Tweaked noexp regressions to bring docs into alignment.",2022-02-05 06:23:43-05:00,FALSE
+51c386a22f5ca8b749ccb0eb200c3ee135e504eb,"Add regressions for uniCOIL for MS MARCO V1 (#1757)
+
++ missing regressions for uniCOIL passage on DL19, DL20
++ brand new regressions for uniCOIL segmented doc on dev, DL19, and DL20",2022-02-07 12:50:05-05:00,FALSE
+c3033243cc5977e3cf6ee6e5bda4388b570d345a,"Refactor uniCOIL for MS MARCO V1 documentation (#1759)
+
+Reduce duplication of documentation - we have both a ""reproduction guide"" (docs/experiments-msmarco-unicoil.md)
+and ""regression experiments"". The latter is more complete and better tested. With the latter, we don't really need the
+former. This saves us from having to keep multiple copies of the document up to date.",2022-02-08 16:07:41-05:00,FALSE
+c7614d212a8f7744b2e7071fd5819c058ab6a09c,"Reduce documentation duplication for learned sparse models (#1765)
+
+Fold reproduction guides into regression documentation for MS MARCO v1 learned sparse models:
+DeepImpact, uniCOIL+TIDLE, SPLADEv2",2022-02-10 22:02:04-05:00,FALSE
+950d7fd88dbb87f39e9c1f6ccf9e41cbb6f04f36,Release notes for v0.14.1 (#1782),2022-02-28 07:19:32-05:00,FALSE
+41b65d9fcb82d787faf4ca937f81faca82ead8c2,Add regressions for uniCOIL noexp on MS MARCO v1 corpora (#1789),2022-03-02 11:16:53-05:00,FALSE
+2e8e9fdfedc1b81522d9e22a805e08e6a7105762,Release notes for v0.14.2 (#1805),2022-03-25 13:35:41-04:00,FALSE
+5306153c7cdf1055bc2a39c94f6f745da2c441b0,"Add collection support for BEIR + regression for arguana (#1807)
+
+We're now able to index BEIR collections directly in Java!",2022-03-28 19:39:26-04:00,FALSE
+58f13f08068f9167a9dbd43d307a41df08947675,"Add SPLADE-dsitill CoCodenser Medium BEIR regression (#1809)
+
+Add prebuilt query encodings for splade reproduction on ms-marco and beir benchmarks
+Add regression `yaml` and doc `template` for beir-v1.0.0/splade_distil_cocodenser_medium/arguana
+Add regression link for docs/regressions-beir-v1.0.0-arguana-splade-distil-cocodenser-medium.md
+Add recall@100,1000 for regressions-beir-v1.0.0-arguana-splade-distil-cocodenser-medium
+Update README.md, one liner for beir-v1.0.0-arguana
+Remove duplicated lines of BEIR (v1.0.0) in README.md
+
+Co-authored-by: Jimmy Lin <jimmylin@uwaterloo.ca>",2022-03-28 21:46:23-04:00,FALSE
+dfce73647cb1c0c7bf86fb02d27eecbb4809cbfd,Update README.md: add missing right paren (#1811),2022-03-29 07:14:51-04:00,FALSE
+e97e37c4be6c3dc5ff64e4f52d4d109259f8000f,"Add splade-distill-cocodenser-medium regressions on BEIR_v1.0.0 (#1813)
+
+Add splade-distill-cocodenser-medium regressions on 13 BEIR_v1.0.0 subsets
+Remove model name from title line in beir-v1.0.0 regression templates",2022-03-30 12:31:23-04:00,FALSE
+9a6f4843af0849371141a79c26f21471466fc71b,Add splade-distil-cocodenser-medium regression documents (#1818),2022-03-30 22:46:07-04:00,FALSE
+172bcc9d9eb9367041042cdf829618b32734e25d,"Refactor splade-distil-cocodenser-medium for MS MARCO (#1821)
+
+Minor tweaks on BEIR documentation.",2022-04-01 09:52:25-04:00,FALSE
+55398f5bb76da0c268ec15ec4c8a49753295e9c3,Add bm25-flat baselines for beir_v1.0.0 regression (#1824),2022-04-05 12:50:05-04:00,FALSE
+7e05e802525721e30993cebd98ab8b6150fd5f36,Rename documents: bm25-flat changed to flat for beir-v1.0.0 regressions (#1826),2022-04-05 18:26:28-04:00,FALSE
+8289bcfc83d4b6c412bf38ad47e9413e77be1fb7,Add DL19/20 regressions for splade-distil-cocodenser-medium (#1832),2022-04-07 12:41:19-04:00,FALSE
+3624dc875e90e87661ca22b80d5a687a0c173354,Add MS MARCO regressions based on WordPiece tokenization (#1833),2022-04-08 21:20:47-04:00,FALSE
+2ce877e554ac428e222642af8d9158b3dddbcb52,"Refactor BEIR regressions (#1834)
+
++ Add template and pages for multifield regressions (arguana/climate-fever)
++ Tweak YAML files so that runs don't have the same names
+  (this prevents regressions from running in parallel because they overwrite the same files)",2022-04-09 05:46:53-04:00,FALSE
+d75981ee47e521d9f4815e311c9e56d33f7cd76c,"Add bioasq/signal-1m/robust04/trec-news flat baselines (#1841)
+
+Add bioasq/signal-1m/robust04/trec-news flat baselines
+Modify headings in regressions docs as case sensitive style",2022-04-13 15:29:52-04:00,FALSE
+9c790b9e2de52ef088549bcefae315a73526569c,Adding fiqa v1.0.0 multifield regressions from the BEIR benchmark (#1842),2022-04-13 16:58:08-04:00,FALSE
+4530b598841612de38670b0893caf0f2ee1061f1,"Add CQADupStack flat baselines for BEIR regressions (#1846)
+
+Add resources for beir_v1.0.0 cqadupstack regressions
+Rearrange beir_v1.0.0 regression orders in README.md",2022-04-19 08:57:26-04:00,FALSE
+115af94928872f73513fe261c42c18cb49f48017,Update README.md with note about test failures on Windows (#1848),2022-04-20 16:34:35-04:00,TRUE
+5e0437b6d5fc6e7119aafe8f6bad923be3d3a0ec,"Add regressions for MS MARCO v2 doc segmented uniCOIL (#1850)
+
+Encoding title/segment this time - calling it ""v2"" to distinguish from segment-only encoding.",2022-04-21 11:11:11-04:00,FALSE
+35d7801e405bc8f85ce11e67f694f937451bb037,"Adding Robust04 and TREC-NEWS multifield regressions in Anserini (#1844)
+
+* add: fiqa multifield regressions from beir benchmark
+
+* Adding Robust04 multifield regression to Anserini
+
+* Adding TREC-NEWS multifield regressions in Anserini
+
+* Fixes robust04 to Robust04 (with caps)
+
+* Fixes trec-news to TREC-NEWS (with caps)",2022-04-22 10:48:33-04:00,FALSE
+5cf57f8d773131fa5ae5f724effdf73ca08f4063,"Adding NQ, SCIDOCS, TREC-COVID, SCIFACT, NFCorpus multifield regressions  (#1852)
+
+* Adding SciFact multifield regressions
+
+* Adding NFCorpus multifield regressions
+
+* Adding TREC-COVID multifield regressions
+
+* Adding NQ multifield regression
+
+* Adding SCIDOCS multifield regressions",2022-04-25 08:48:24-04:00,FALSE
+d4155e20a66578ca8a3d49155e1b69b944c245f0,"Beir splade patch (#1856)
+
+Add topics and tests for beir_v1.0.0 splade_distil_cocodenser_medium
+Add regression docs for beir_v1.0.0 splade-distil-cocodenser-medium; align collection namings",2022-04-25 18:44:52-04:00,FALSE
+7adee1d9596f052a87b0427e654c4b95e2cd5e89,"Add remaining BEIR multifield regressions (#1859)
+
+* add beir_v1.0.0 multifield regressions in README
+
+* Add regression docs for beir_v1.0.0 multifield
+
+* Add docgen templates for beir_v1.0.0 multifield
+
+* Add regression yaml files for beir_v1.0.0 multifield",2022-04-26 19:47:17-04:00,FALSE
+fadceb5c12c6a7c4f573b8e70b63138df02d90f5,Add note/link about Windows build errors (#1862),2022-04-29 13:38:21-04:00,TRUE
+a3358907021bc8d73bf6568f9d73ab11b430d0ac,Release notes for v0.14.3 (#1871),2022-05-10 06:56:32-04:00,FALSE
+0081164d0314b63d7e80f9f883410cdf7f807676,Update README.md: Changed BEIR conditions into a table (#1877),2022-05-19 14:40:31-04:00,FALSE
+4430ac4437a32f9bb42a25fd276c620ca8cc2780,Update README.md: reorganize MS MARCO repro links(#1878),2022-05-19 15:14:43-04:00,FALSE
+fc050dedb16f37f9d17f2fb03f5958a350daea42,"Add regression for MS MARCO passage ranking BM25-Quantized (#1881)
+
+Add regression for MS MARCO passage ranking using quantized BM25 weights.",2022-05-21 13:34:44-04:00,FALSE
+457978d8f7e9ea92f5cf327ec3ba34f63900410e,"Modify regression ordering in README (#1883)
+
+Move newly created quantized BM25 regression for MS MARCO passage ranking to be next to BoW baselines.",2022-05-21 13:45:40-04:00,FALSE
+a9a93fff28f32c5eb8354b8e516150170479488e,Update README.md: Reorganized MS MARCO regressions into tables (#1884),2022-05-23 14:56:36-04:00,FALSE
+30c9974f495a06c94d576d0e9c2c5861515e0e19,"Rename beir-dataset-wp to beir-dataset-flat-wp, update README.md (#1886)
+
+1. Rename beir-dataset-wp to beir-dataset-flat-wp
+2. Add missing docs for some datasets
+3. Add beir-flat-wp docs to README.md
+4. Update beir table format in README.md
+
+Co-authored-by: Jimmy Lin <jimmylin@uwaterloo.ca>",2022-05-24 23:20:35-03:00,FALSE
+dceae06ddff4b1df3746754c476a2498bfe4e112,"Switch table columns in README.md beir table (#1887)
+
+1. Switch flat-wp and multifield columns in the README table for beir
+2. Fix few possible doc link bugs and typos.",2022-05-26 12:34:06-03:00,FALSE
+fc542b5fa5dd67fe53e6110d8933b2d403f8e80e,"Add regressions for quantized BM25 dl-19 and dl-20 passage ranking  (#1889)
+
+Add regressions for dl-19 and dl-20 passage ranking with quantized BM25 weights.",2022-05-26 17:26:33-04:00,FALSE
+dd5f2e80840e25bc5d415ce5198dd2b69f3c7b54,"Clean up MS MARCO V1 passage/doc repro guide (#1891)
+
+Minor fixes: broken links, clarified parameter options, etc.",2022-06-01 11:23:15-04:00,FALSE
+236b386ddc11d292b4b736162b59488a02236d6c,"Add --download option to run_regression.py  (#1893)
+
+Option automatically downloads the corpus from our servers.",2022-06-03 12:13:48-04:00,FALSE
+dc073447c8a0c07b53d979c49bf1e2e018200508,Add --download option in run_regression.py for more MS MARCO V1 passage conditions (#1901),2022-06-13 10:38:35-04:00,FALSE
+d2fbe67b0f17545c0dd2edc4a445b8df9dcf80fc,"Add regression for HC4 monolingual retrieval BM25
+
+* index neuclir
+
+* refactor
+
+* hc4 regression
+
+* updates
+
+* updates
+
+* generate md
+
+* refactor hc4 regressions
+
+* update readme",2022-06-15 21:41:30-04:00,FALSE
+1a28d3462479432b61278c7a55696724e574a3d7,Fix HC4 Regression Link (#1912),2022-06-17 08:05:44-04:00,FALSE
+f59283297e79045a81d6ff84eebb116ce842736c,"Add unicoil-noexp on beir datasets (#1913)
+
+add all required to run unicoil-noexp on beir (29) datasets including: (1) add unicoil-noexp pre-encoded queries (2) documents (3) integration test",2022-06-17 18:07:13-04:00,FALSE
+308138ede94622fd16416832329f7f44e59f6d1e,Update docs to add notes about BEIR uniCOIL and HC4 regressions (#1915),2022-06-18 20:45:34-04:00,FALSE
+acc6c2a9d5e1391dcaefca240cdcd1da5d37cc58,"Improve wikipedia-dpr-100w regressions (#1932)
+
+- Added CuratedTREC to regression
+- Added links to regression in main docs
+- Cleaned up regression command",2022-07-18 11:27:05-04:00,FALSE
+a1608aca4063de6b34f0b9b96a3639a3ed5b13c8,Add HC4 on NeuCLIR22 regressions (#1938),2022-07-23 10:03:44-04:00,FALSE
+d25495b6a5982ee9e64c99e7bbe9979774bfc284,"Add HC4 NeuCLIR22 doc translation baselines (#1940)
+
+Minor clarification to doc of other HC4 regressions.",2022-07-23 13:03:18-04:00,FALSE
+0e35b32f781b9e42eaa3dc48291c20c0999609d0,Release notes for v0.14.4 (#1949),2022-07-31 16:01:41-04:00,FALSE
+0fc578a08f2348eb578085e20bf3a38e6ceabbc8,Update README.md: Add note about Lucene 9 upgrade (#1959),2022-08-12 18:01:32-04:00,FALSE
+6a742be8d34ef845b05a97eac701a24ae33bec45,Add regression notes re: Lucene 9 upgrade (#1963),2022-08-18 07:00:17-04:00,FALSE
+5b8e29236dbf1830a351c65dff9866b2f72fd678,"Add note about inability to exactly reproduce TREC-COVID runs (#1966)
+
+(due to Lucene 8 -> Lucene 9 upgrade)",2022-08-21 09:27:51-04:00,FALSE
+f6ea49b37a776be950e85044bb2641e30f4fc187,Release notes for v0.15.0 (#1977),2022-09-22 08:10:24-04:00,FALSE
+95b9f0646556eafb59266b4a2bbcc2d58828fcc7,"Include Additional Regressions Using Hgf Wordpiece Tokenizers (#1981)
+
+Include additional regressions with hgf wp tokenizer and update MrTyDi Te Regressions",2022-09-26 10:07:31-04:00,FALSE
+1dfc8d86901c31e8cae474024131155d241f615b,Update README.md (#1993),2022-10-15 09:46:04-04:00,FALSE
+f94285abf322a4ec982d9eccacece97a2a65dba4,MIRACL Dev Set Regressions and Test Cases (#1999),2022-10-23 12:39:08-04:00,FALSE
+c4a8d00e3c218ed89dca8a4e51c3b2c7d577db00,Release notes for v0.16.0 (#2002),2022-10-24 10:50:26-04:00,FALSE
+6d8601a24410567e07f7daf704bef558ff678050,Add TREC 2022 NeuCLIR Track regressions (#2006),2022-10-27 11:50:59-04:00,FALSE
+91ec6749bfef206e210bcc1df8cd4060e7d7aaff,"Update README.md: add expando sections (#2007)
+
+Update tools/
+Update .gitignore",2022-10-27 16:48:41-04:00,FALSE
+2d13a25b2068ca5c2b9838bb297faca8c10603c9,Add regressions for TREC DL 2022 passage (#2008),2022-10-29 21:27:39-04:00,FALSE
+3ccdb091b8cf76246e9c9055a04ac3d0c2285ec4,Release notes for v0.16.1 (#2011),2022-11-02 20:01:30-04:00,FALSE
+24a1f46888a04e1aefa50195b20e6dbe79a78a0f,Release notes for v0.16.2 (#2035),2022-12-12 22:06:31-05:00,FALSE
+357f16645d4759782d1ca7ad089a2c61b8fc4798,Update README.md badge to Lucene 9.4.2 (#2040),2022-12-22 05:27:14-05:00,FALSE
+63aa63fdc37ada7bcc480e554d9b8c2f2b118bd8,Add logo and emojis to README (#2041),2022-12-29 09:56:10-05:00,TRUE
+dc0b7ff8d41c992e37c8ee4b403b1b1dcaa87806,Release notes for v0.20.0 (#2050),2023-01-20 15:21:49-05:00,TRUE
+3944517f65f4938f8bf68613acfe2471d1576a59,"Update all regressions for NeuCLIR22 (#2049)
+
+Full set of conditions: {SPLADE, BM25} x {DT, QT} x {title, desc, both}",2023-02-07 15:54:16-05:00,FALSE
+03f95a8e1ae09ab09efe046bfcbd3a4cdda691b4,Add regressions for SPLADE++ ED/SD (#2071),2023-03-07 09:33:00-05:00,TRUE
+cd6ac6fed364cd31606ebce65dd3b1bf83648e85,Update README.md,2023-03-31 12:37:07-04:00,FALSE
+b192e3caae8feec3f1944b664de4ba9f41452b7a,Release notes for v0.21.0 (#2087),2023-03-31 13:57:15-04:00,FALSE
+ff011f828796fc3a1dfadf76c274af93a59c87db,"Add qrels and bindings for TREC 2022 DL passage and NeuCLIR (#2090)
+
+DL22 passage qrels: https://trec.nist.gov/data/deep/2022.qrels.pass.withDupes.txt
+DL22 landing page: https://trec.nist.gov/data/deep2022.html
+
+NeuCLIR 22 qrels:
+https://trec.nist.gov/data/neuclir/2022-qrels.fas
+https://trec.nist.gov/data/neuclir/2022-qrels.rus
+https://trec.nist.gov/data/neuclir/2022-qrels.zho
+NeuCLIR 22 landing page: https://trec.nist.gov/data/neuclir2022.html",2023-04-03 13:39:11-04:00,TRUE
+467ac5abbac7986f59d2db716cdde956e4875850,Upgrade to Lucene 9.5.0 (#2096),2023-04-10 12:51:44-04:00,FALSE
+a403a2a44af9322c7a2dbdb5240180a62398ab06,"Add SPLADE++ ED/SD ONNX regression documentation pages (#2125)
+
++ Regressions themselves were added in #2094 - this patch adds the documentation.
++ Fix download paths for SPLADE++ ED/SD corpora.
++ Minor tweaks for other docs",2023-05-30 15:54:26-04:00,FALSE
+f7dc0d18f321cf4260de2e6c21ace8a169cd2171,"Add SPLADE++ ED/SD regressions for MS MARCO V2 Passage Corpus (#2124)
+
+Tweaks to the documentation for the other MS MARCO V2 regressions to make verbiage more consistent.",2023-05-31 16:25:05-04:00,FALSE

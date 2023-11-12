@@ -1,0 +1,146 @@
+sha,message,date,result
+e14943fb5006e0e83de87b2ce672d772bb664cdf,initial commit,2021-04-15 08:03:02+02:00,False
+cd3d5126aeed75790c9077b3faa8a44e634d39fc,implement matching,2021-04-15 10:00:00+02:00,False
+81b81447e90a0fd373f93e0f43869fd2c6f3691c,update,2021-04-29 08:45:04+02:00,False
+06c7b07d8183636f30b802d4ac3b85fe3118090c,update,2021-05-02 11:51:55+02:00,False
+d125c3a4625e7aba107f1cba4c345c0d3706c722,version 0.1.0,2021-05-08 09:59:35+02:00,False
+6e5b64991ddfd5572d6ca4d9cb87f68e23a25858,add initialize script,2021-05-09 19:00:47+02:00,False
+6d9c9d9a3fb104adce7d63d315b088b469db01e4,update readme,2021-05-12 17:22:28+02:00,False
+874c405d008ca42900f04a89fc11a943109f3fdb,"execute all scripts/make inside Docker (#1)
+
+* execute all scripts/make inside Docker
+
+* remove R scripts/should be in Python
+
+* docker-compose and backward_search
+
+* update documentation",2021-05-17 15:35:59+02:00,False
+b0272f0eafd50fbca163f1f6f6ddb4808bf281cf,update,2021-05-20 13:21:48+02:00,False
+4ebd1ff989f131d6c80bdd36d84c766ad173dc92,update readme.md,2021-05-25 14:13:15+02:00,False
+dd886b138d251245857edd198e7aaf7311718581,update readme,2021-05-25 14:37:46+02:00,False
+68b206b228de7b28cef87eecd0f60b07b6f04a77,code formatting and pre-commit hooks,2021-05-26 21:29:40+02:00,False
+1fe339115b8468216e3d63ddfb463f6f259720a0,merge_duplicates,2021-05-29 09:54:47+02:00,False
+dc20422c7f78fc13e6dcfa95db8223c16986a2a5,"update combine, cleanse, merge",2021-07-05 14:29:17+02:00,False
+1e04a6da89bbed0b474341667814efc5376fe535,move status to pre-commit hooks,2021-11-12 11:10:04+01:00,False
+9f8b11c5eebd046f6085eb2a0ba33fab686dd57a,set up as pip package,2021-11-12 11:10:04+01:00,True
+9e920b4de2d4c1cc526a138cc12b30273d654703,refactoring,2021-11-12 11:10:04+01:00,True
+5ab932ecae942c5df5bc7c4c0e9ee02fb8634f65,validate merges,2021-11-12 11:10:04+01:00,True
+5d7333e4f915f0dda3757eb754ef6e3086d319d9,update readme,2021-11-12 11:10:04+01:00,True
+eedef41d6efce4f67b864e906874327b46c98eec,(re)move material,2021-11-12 11:10:04+01:00,True
+afafbda50672ae2630569cd355a51a20ffa81a76,hash_id -> entry_links,2021-11-12 11:10:04+01:00,True
+85e7fa17eb78820d477c390c5e2681b83daa1bc0,convert non-bib files for import,2021-11-12 11:10:04+01:00,True
+c43e715a5d4e4223f6b5e526bb52e1d10fb97832,"import: txt, csv, xlsx, pdf",2021-11-12 11:10:04+01:00,True
+5038f22372fed5fb49b4efd3aff47f548f00cc62,update,2021-11-12 11:10:04+01:00,False
+85dc7a2bf2939780277389aff764816eeed4e61f,checking and refactoring,2021-11-12 11:10:04+01:00,True
+f4094b2c8d454cae2bb7ad868f4aecd31c9f0be5,drop hash_ids,2021-11-12 11:10:04+01:00,False
+ba718b98bed1c1919e54d52986836ac24c6cd8e0,update readme/explanation/cli,2021-11-12 11:10:04+01:00,True
+239cb5939f0d6d7ac5baf6cb713074cecc38875d,update readme/docs,2021-11-12 11:10:04+01:00,True
+2fda9ba4077cb5482c37ba1e14f8b23347165d9c,README,2021-11-12 11:10:04+01:00,True
+0ccda902239c3e49e79d2527a684dc0b70b9dcd7,update preparation,2021-11-12 11:10:04+01:00,True
+4379bfcb433340fe1c500fb03c64ffbf7402a334,update readme,2021-11-12 11:10:04+01:00,True
+d85027dccac2bfe19000cb2497cca12f4f986bab,refactor,2021-11-12 11:10:04+01:00,False
+58deaf37b0b067f72dfb857fc0539c7518bdd991,complete entrypoints/refactor,2021-11-12 11:10:04+01:00,True
+9191bc9766fa8279f0bc447c534ec3952a5e114b,update data,2021-11-12 11:10:04+01:00,True
+19743eb86be4d09149d151945c112e11fb154d0e,pdf_get_man and pdf_prep_man,2021-11-12 11:10:04+01:00,False
+3b435f36a8a1e797009641c8b8d44fc557ddc205,update template/readme,2021-11-12 11:10:04+01:00,True
+047f9694a1fc471ead1ea519289082fd151f240d,"testing, back-search details",2021-11-12 11:10:04+01:00,False
+822f2a4fceb106e0db821b48ec53f7ac444912bd,add tesseract to readme,2021-11-12 11:10:04+01:00,False
+741f17c6ccf6f278dcae4fa758fa71fb192187f3,open library support + man_prep hints,2021-11-17 07:31:40+01:00,False
+cd8719f3d0572f715d61b28dc82b93c81160b74a,introduce ReviewManager,2021-11-30 16:03:54+01:00,True
+f37b608a9398c90db97adfdd055acddbd06461e4,update/virtualenv,2021-12-05 22:37:59+01:00,True
+4e28193dce67be99c1d2da7527977a8c64ee83e6,update data files,2021-12-07 07:05:30+01:00,True
+e028ca412f7d28a6fb337ac0df3b6926b993e88b,rename entrypoints,2021-12-13 10:06:47+01:00,True
+3a4cc34fe3f7cd68eaf9cf70257af40bb6c543c1,rename to colrev,2021-12-13 10:17:25+01:00,True
+0ab73450e15a1e33b942045c5bacbccc8572dd10,extract cli to colrev,2021-12-13 11:54:08+01:00,True
+6f3491f642b5cb0b08a3768a4d7c39898f4724a8,include architecture design principles,2021-12-19 11:46:48+01:00,True
+6586c3c7b25790bcd65d36d8799e0fe0ad9b3fa0,update readme,2021-12-21 08:20:48+01:00,False
+233301c282d099f5c0d4cf9e4ea1541aa10cfaa9,minor changes,2021-12-21 09:42:28+01:00,False
+e1ec951c8a75ace0b942a95424d9ff2dda74c945,fix typos etc,2021-12-22 07:05:22+01:00,False
+793fa6e5443ccae02c1c1d6ba2604ad3daec4b21,update documentation and refactor,2021-12-22 19:43:16+01:00,False
+cfb2d2bdf5fafa865837540a1dd3ca13b26d454b,refactoring and fixes,2022-01-02 09:16:23+01:00,False
+c4c34cabf263d57a1857f56d3d5913fc646243ee,restructure/test dedupe,2022-01-15 10:33:22+01:00,False
+40bad2be60d99f276872a811b51c5ec1ad13231d,documentation,2022-01-15 10:41:34+01:00,True
+9e5e4730940358486da55ef7f9e30dc74a0e74b5,update documentation,2022-01-21 14:29:40+01:00,False
+41ed9f8bee3809c53f8c7290c402b7019a967141,add logo,2022-03-04 17:03:44+01:00,False
+88aaf7b16f0e13d7d577aadabdfc20f5ced40cc7,use zotero-translators and update docker handling,2022-03-07 11:01:57+01:00,False
+b2267dd1030dad2d86bb044d94dbbea50304d358,update readme,2022-03-07 12:09:51+01:00,False
+40447bfa4baf7440aa03e775609c8b1a26e92c20,index: elasticsearch,2022-03-17 10:48:45+01:00,False
+2646ecb94648d7d16ddc55a678e2404303f065b4,credits: reformat > docs,2022-03-19 09:21:13+01:00,False
+60f69c4276ce9bc643b6844aac5201d8216a2324,documentation: use top-level README.md,2022-08-02 13:46:15+02:00,True
+c85b0001417bf4f2cd66e30ff0611eddfb93ef22,minor updates,2022-08-04 06:44:56+02:00,False
+04eab12d46d7e8d93a4d93aeccbf8da78ad21947,rename: colrev_core > colrev,2022-08-14 21:35:06+02:00,True
+6b517b7c34793ba4964d4a405f15c1bac60aed9f,remove colrev paper operation,2022-09-09 15:23:51+02:00,True
+de38b4b9a5ebb2fa975a98663e6f811697a92b74,update docs,2022-09-17 11:38:34+02:00,False
+adc7a06e25313ef05a87caedd1a6818992186c8f,update docs,2022-10-29 09:57:21+02:00,True
+7df8ea58f623fe0d1137260acc5be407a76a8914,"testing, updates and extensions",2022-11-27 14:45:32+01:00,False
+77c91d75e5237080a8d113752b94482b6f04c199,minor docs updates,2022-12-20 21:14:26+01:00,False
+6f1d0bc17eceb3070c8fb7dd07cb3b3169cfd206,update readme,2023-01-05 06:58:33+01:00,True
+08e935797594e9fd7f85f732dbeab0e8a29485e7,minor fixes/updates,2023-01-12 20:56:31+01:00,True
+20ea4da47c32b6a279893a869768b38c831ff799,Update readme/links,2023-02-02 21:33:21+01:00,False
+c01b4e137a9d54a0eaeef1661f99fe3fc1c18148,readthedocs: poetry  only docs,2023-02-02 23:03:01+01:00,True
+0099dfc4a13cde2e290f3c8dfab05738b72e5e8f,update remote url,2023-02-12 09:53:43+01:00,False
+33c62dfe43d2ec75be19a4c4054b59e2675521b8,update tox/py-versions,2023-02-23 17:06:40+01:00,False
+4093d25255d83c9403f4b8f7191d9ce594ba3a33,update README/badges,2023-02-23 17:16:57+01:00,False
+39809984b810764a6ce42ef5849ea7f81008f315,minor updates,2023-02-24 17:39:14+01:00,False
+3d2384c8f2308d654e9e9d98aa969763dd66d84f,update pytest-coverage,2023-03-05 18:10:57+01:00,False
+e23aefb8d0e9cc9671d0198a7e7c1a274d845795,"Pre commit action (#131)
+
+* add pre-commit as gh-action
+
+* update
+
+* add ci to pre-commit
+
+* ci: pre-commit instead of gh-action
+
+* update pylint args",2023-03-06 10:09:30+01:00,False
+e18459fe5ca3e703817316ce6d6810844d05dbe5,add ci/gh-action to new projects,2023-03-06 21:02:47+01:00,False
+4f8dee1402fb9aab42d32b58f3580145929c32dd,fix link: workflow badge,2023-03-08 15:47:55+01:00,False
+294faec509e401e12ad8a59da6eded1626c2f986,update REAMDE.md,2023-03-10 10:54:49+01:00,False
+bfb4b69d12ce373e80c92c158f3a377f4f40f2db,add release-checklist,2023-03-10 18:53:21+01:00,False
+46c76204cbae4fe433f7b841b359b29d1eed2d3f,fix readme,2023-03-10 22:02:14+01:00,False
+f8347bf3ae2c30c1aff2ea3d295590060c8bcad3,docs/readme: platform > environment,2023-03-16 08:45:29+01:00,False
+195154c473618eec557ad3720239040f3d0094e9,docs and readme update,2023-03-16 09:39:22+01:00,False
+b3c6e22f86740b857f6a99688399eb286e0c71c1,update readme/figures,2023-03-21 16:49:38+01:00,False
+e360c39ca5de3449be5b5526271f78b966fa1db9,update docs/best-practice badge,2023-03-22 12:11:34+01:00,False
+19fb6883fa2445e1119aa11cb1a011997f285e4f,update readme/description,2023-03-23 11:06:57+01:00,False
+b00b871de99a6faed6516f283126638380184a13,add software heritage badge,2023-03-23 14:57:21+01:00,False
+fb283d8c7be90e782461bde2282317a7b55c41f9,minor updates,2023-03-24 08:25:50+01:00,False
+25575b333ce99d535e7d8a681b5ec4d06fba5e15,add information on development status,2023-03-24 11:38:30+01:00,False
+1fc027223a1a2418db96701df23a945a7a84fbed,Update README.md,2023-03-24 14:50:44+01:00,False
+59adeba20e2f578f5b048fc376c792062ee62669,"fix broken links, add ESMARConf video link",2023-03-26 10:35:17+02:00,False
+ce9850f805a140692866970c92557833e6befa0b,org rename: CoLRev-Environment,2023-03-27 11:43:26+02:00,False
+68a8fa770a82c1ed9ff542044da0e50cf88352ef,update tutorial/youtube links,2023-03-27 19:08:19+02:00,False
+a0c9043784f9342136d2ab214513688769669199,move test coverage badge,2023-03-31 09:40:18+02:00,False
+3a8180dbfd87e31577cc2d867dcb16b389ff2f59,update readme/description,2023-04-06 23:13:21+02:00,False
+d7c18fe0dc10a09e94a931b2dea3bd9811ecda2f,"fix link, update docs:status",2023-04-07 11:21:46+02:00,False
+f3ab52cb69c60619d7952c9cdefcd0b4bcb81518,add codacy badge,2023-04-20 15:42:12+02:00,False
+d0d61a9e43b1e7779fc2217a8e12856fb7584ec5,"Added all contributors bot support and Formatting fix
+
+Signed-off-by: Tarin Mahmood <34904+tmahmood@users.noreply.github.com>",2023-05-09 16:55:34+02:00,False
+8249937abc89026c585e4b99b7ab003385e5c0c9,"[pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci",2023-05-09 16:55:34+02:00,False
+d151e46e7a80494f02544db7f9c99a7cd2c7340d,docs: update README.md [skip ci],2023-05-15 08:04:49+02:00,False
+918fdaf3f76a392db42f80e7350c1849e9227afb,docs: create .all-contributorsrc [skip ci],2023-05-15 08:06:26+02:00,False
+3981d1d0d67f95d99e40021a993ab396af9f6425,docs: update README.md [skip ci],2023-05-15 08:08:43+02:00,False
+93c4ac02ac505e6e9e29e2f2072c4dcf4e7bf3f6,docs: update README.md [skip ci],2023-05-15 06:20:05+00:00,False
+0216726a5d6ee712f4a81a70baa0e41cfa8df6c8,docs: update README.md [skip ci],2023-05-15 08:35:57+02:00,False
+9104fa133733f91b962d04a688cd1d2403da577a,"docs: add julianprester as a contributor for code, doc, and 2 more (#181)
+
+* docs: update README.md [skip ci]
+
+* docs: update .all-contributorsrc [skip ci]
+
+* docs: update README.md [skip ci]
+
+* docs: update .all-contributorsrc [skip ci]
+
+---------
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>
+Co-authored-by: Gerit Wagner <geritwagner@users.noreply.github.com>",2023-05-15 21:57:42+02:00,False
+6c4a1eb781200b0dcecd60586dc547d323cdcffc,Update README.md,2023-05-16 09:40:03+02:00,False
+d7f00707cb6e0bbfcee0ef671ed55ac17f8aff46,docs: update README.md [skip ci],2023-05-22 08:00:28+02:00,False
+fad0e3aeaef51bec3e8ed4d3b99439b1cffa175b,Update README.md,2023-05-22 08:00:28+02:00,False
+6ad4311243ef6316733be892ebb6e66283e819cc,add maintenance badges,2023-05-23 09:15:42+02:00,False

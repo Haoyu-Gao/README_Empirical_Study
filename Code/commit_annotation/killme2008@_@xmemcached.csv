@@ -1,0 +1,63 @@
+sha,message,date,result
+1917d3ae95e45c5e75905fe9697d23ce7d50e5a9,将decode从handler中转移到用户线程，添加README,2009-03-09 11:09:34+00:00,False
+d01310a632817fa93251fd589041fa4e173d074f,"Released 1.11,add tag.",2009-06-04 05:09:49+00:00,False
+f64d8f5eafa7d8283c1e5a1faa5f1a3a933c0dc3,"Remove dependence  to spy.jar,refactor transocoders.",2009-06-19 12:13:17+00:00,False
+8df028f1b10f99b93b68c417941942837851903d,1.1.2 Released,2009-06-20 09:38:26+00:00,False
+d1ce19e896915cd64be581ff1c3b61f6a3860513,Change README,2009-07-28 10:35:35+00:00,False
+386864d85101113af22fec352f7b9a67f2d912c2,"change version to 1.2.0-beta.  Add CommandFactory to XMemcachedClientFactoryBean,delete some derepcated methods of MemcachedClient.",2009-08-26 06:20:17+00:00,False
+868191c9512616b40a9bfac66a475d1231ec5932,Add 1.2.0-RC1 Changelog and README.,2009-09-08 03:18:50+00:00,False
+42db4da5e0623b9f2d60824b384107b058be328a,Released 1.2.0-RC2,2009-09-17 06:30:45+00:00,False
+fec5cd914939cb245a4dc517f19c30e46da96ec5,Modify README,2009-09-17 06:53:04+00:00,False
+023a9af3a0db31d67728f2e54c6552a8c69979b5,"Bug fixed.OpaqueGenerator.getNextValue always return same value,it is wrong.",2009-09-24 09:17:59+00:00,False
+7012b59d207c0ead13985cc90d8a42eca6c1cd28,Add change log.,2009-10-10 02:56:53+00:00,False
+bb015c83dc3cc8ffcac411c606895924e7c6df4e,Modify notice.txt and readme,2010-06-21 08:47:27+00:00,False
+4939604a14db0431976e2cf69f721be97bc80026,Prepare to release 1.3.2,2011-03-27 11:22:35+08:00,False
+8553fff4614bb139df47330fc1a04a3e8cc6d6f2,Formating README,2011-06-01 18:11:02+08:00,False
+c122ef3d8992cf7622a3184d70b617cc9b338659,Rename README to README.md,2011-06-01 18:12:38+08:00,False
+ee12fff00eeb64817f76265ce2d5632578d4bd8d,Add highlights section to README.md,2011-06-01 18:16:32+08:00,False
+a0f37ea75030de12a5b8c495623c1399e7b5c1dc,Remove unnecessary words,2011-06-01 18:18:19+08:00,False
+c585aa8d2b13e559219daedd2b4016af1a2f88d8,Add maven repository to README.md,2011-06-05 19:28:28+08:00,False
+a763b986fa85a136cf641502abd28669472408c3,"Add release notes for 1.3.3,prepare to release it",2011-06-12 10:29:54+08:00,False
+2f81aefabecdb0be6e6a679cb993ce241f6b10d3,Upgrade version to 1.3.4 in readme,2011-09-07 23:10:21+08:00,False
+c98f1781c08275f12dd703f475f76b4d642e50a8,Format README.md,2012-03-18 20:18:45+08:00,False
+f39fb23172891db709e35fa6e48d9dccefa52017,Format README.md,2012-03-18 20:20:48+08:00,False
+f8e020f0a5e4d8fad96f9099733653d2ec527393,Adds javadoc link,2012-03-21 21:45:16+08:00,False
+b7ef569003d3e5703713836f7b3a9df81fa0d41d,Modify readme and .gitignore,2012-06-06 23:13:42+08:00,False
+3391c574fa2fcc479a2f57fdba913a0584b454c7,Modify readme,2012-06-08 10:24:41+08:00,False
+ab684dbc1678aed9f5926231dda650a12f72e5d9,Added release note for 1.3.8,2012-07-16 15:04:50+08:00,False
+75668fe991d332d0fa67f0f7af6ad6c060625a08,Modify xmemcached version to 1.3.8 in readme,2012-07-17 07:54:37+08:00,False
+c52f01eae9b287c6d46c8a90e4088652d94b3dc3,Prepare to release 1.3.9,2013-01-10 17:14:39+08:00,False
+0008262241e21b65f4e27904032ad37805d2a1b8,Added 1.4.0 release note link,2013-02-20 10:33:35+08:00,False
+ed1b5cbabb6423274124a1a87898d30aa2b3849f,Release 1.4.1,2013-03-02 00:01:02+08:00,False
+74d46f56ca82b3249758dd2b801b222048a01feb,Add clj-xmemcached project link,2013-03-14 17:12:37+08:00,False
+407f6090f4ba206a0c1b28fad49c9ba1fb7cd684,Release 1.4.2,2013-07-20 02:19:20+08:00,False
+e6915ab182a839f325317ae4ae5122fa8a30a60f,Added downloads links,2013-07-20 02:20:28+08:00,False
+499b044caf4280b4695f846481d441e6bc3624ec,Added contributors,2013-07-24 18:07:10+08:00,False
+cd90dcdf2b5bbd4912e4a27ed9e85a25afd52975,Fixed release date,2013-07-24 18:09:27+08:00,False
+92923bf65d4a7380675fb9f8fb56c4f3c4e31953,Release 1.4.4,2013-10-27 17:56:35+08:00,False
+33f89b708efa82cf8ee80941e6f8fc0146109556,Updated readme,2014-04-28 10:14:21+08:00,False
+d27f84086fd262ba62530c6045a75fb74ed9a1e6,Added Contributors,2014-04-28 10:30:13+08:00,False
+56b428487e37fdbc0f4841183bbbb0dcf657a6bd,Updated readme,2014-04-28 10:32:06+08:00,False
+53b7820cb37e599a02e576e910df0f8870462401,Fixed readme,2014-05-21 21:23:13+08:00,False
+feadb4c6f2965e6b8cdd12a8e1fab2b54f23c88e,Fixed readme,2014-05-21 21:24:43+08:00,False
+2e4c3b80d37c84629a2957bd84b887e1bb394475,Include build status from Travis on top of the README.md,2016-01-27 15:45:55-08:00,False
+a2ed75952d2adb568abed5bb29fec97be8a4bd83,Fix link to Travis to point to the right branch,2016-01-27 16:19:29-08:00,False
+7fede112b94fd5372b3026dcd4f296dbf5be8923,(feat) Update Build Status,2016-06-17 11:55:14+08:00,False
+7687994e5d4e054314bd120f85f2936841ce55ca,(fix) Fixed readme,2016-06-17 12:09:51+08:00,False
+7a8a6d96a0bca01edc2daab9aaad48ad47ca4d0b,(feat) Update readme,2016-07-28 21:03:26+08:00,False
+8891ae7c9beac202ea2f975e03ae292d955739cb,(feat) Adds news to readme,2016-10-27 14:51:42+08:00,False
+f3e739145fbd3a571d09d7e023686001ed1abeef,(feat) update readme,2017-02-28 15:29:03+08:00,False
+e1b11858898ce7fb32aee74055a842c419363702,(feat) update readme,2017-03-13 08:18:32+08:00,False
+7ac789418c7b555cab16021754c2c6d3ba301d38,Update README.md,2017-05-16 10:50:34+08:00,False
+ec932c532a94bc0f631f56ac0a9bb7b582f3003f,(feat) release 2.3.2,2017-07-18 11:26:10+08:00,False
+97e57ea3b7ab93afd730216fc2e4861f7c2a690e,add contributor.,2017-09-26 21:54:16+08:00,False
+cb356f63c3f69c49f6092961d79a2865534894ba,(feat) use docker-compose to setup test environment.,2017-10-25 18:53:05+08:00,False
+70f4c0d666a727b02bc54638f9131fac991f03a1,(feat) adds news for 2.4.0 release,2017-10-25 20:21:06+08:00,False
+807a523f9787ef5bf04d8ecadca813d61ae0f9da,(fix) docker-compose.yml,2018-02-23 10:44:06+08:00,False
+ab75937ab47a08a95374e2743ab718f218579fb1,(feat) update readme,2018-02-23 18:13:06+08:00,False
+1f48c70eb575109f1874ace72b1462f018d3e01d,(feat) update readme,2018-05-31 22:41:44+08:00,False
+96574f610cc6a5dacd6f194140b02687089ad334,(feat) release 2.4.5,2018-07-08 19:00:05+08:00,False
+14826601af52f8df70fbc4a21225a13f754c98ba,Fixed typos in README.md,2019-01-12 18:12:34-05:00,False
+a78a4570d0364a3ca97899e90697c44f1a7b3714,(feat) release v2.4.6,2019-01-25 19:57:58+08:00,False
+2ae69065e4f36a63e8dbffb9f33a8508a47cb91f,Fix typo in README,2020-09-02 20:56:56-07:00,False
+4a72fb8377a9409048b33d1c1f52b6487a38d88b,(feat) release 2.4.7,2021-01-06 15:55:00+08:00,False

@@ -1,0 +1,127 @@
+sha,message,date,result
+ffec81dde90a614671ba638aa3d7d39810fba510,Added README,2016-04-03 14:08:33+02:00,False
+f535fb8f7450b3d6d9bc2a54820286e33ac0719f,Update libs and add discord to readme,2017-04-05 10:33:08+02:00,False
+a5767bf25b69a321cc2f556b37053fc045201fe2,Add twitter,2017-04-05 10:43:56+02:00,False
+b5fbaadb15a78814d24aaba8a61ea1d2754757d8,Rescale twitter logo,2017-04-05 10:46:51+02:00,False
+eae5e64d2a80072b21b46edc4f62fe29e600a427,Fix twitter logo,2017-04-05 10:54:22+02:00,False
+22c6c422241577a6c229acdf23a7c640aa3da37c,Add more description and a todo,2017-04-05 12:46:04+02:00,False
+67531d7ffb862a0647ff756e1933709e2ffdeacc,Implemented gamemodes for now,2017-04-08 14:19:11+02:00,False
+b7c5300a454e4da9e59d886fb27f30352bd3ee53,Replace invite URL,2017-05-20 20:20:49+02:00,False
+084074ff65bd006d0557394df679cf310a32d313,"Merged from 1.2 into my branch and added some Generic things into the ReadMe (#15)
+
+docs(readme): Better and fancier README.md try 1",2017-09-24 15:38:21+02:00,False
+87d79803df4c249f146f2b07c7ea50e2450b7443,Rewrote the command handling system and deprecated some methods. See README for more informations. Adds parts of #247,2018-06-03 11:03:50+02:00,False
+c87f95472614025c8921d236647bd34f0c4871c2,Change Pocket Edition to Bedrock Edition,2018-06-04 15:42:49-06:00,False
+506718a6c09e582dfdce0c4f83deb88d270bc949,Deprecated WorldType.GOMINT,2018-07-17 21:26:01+02:00,False
+00db70b888e93240320995e30e7f1a29b9560b27,Add ci link to readme (#339),2018-09-07 07:42:20+02:00,True
+1672c976ded9389e5f0dc2cbee9f9a936ebd4138,"Remove deprecated world type from README (#389)
+
+* We aren't using Anvil anymore.
+
+* GoMint world type has been removed.",2018-10-25 07:46:10+02:00,False
+94cbcaad20ea0f334db911946c6d5edb1c608310,Update README.md (#408),2018-10-31 09:39:43+01:00,False
+c776d27219ee574e5af5d02b26ee7a42c6a5eaaa,Fix typo in readme (#409),2018-10-31 11:50:57+01:00,False
+9155747a894032e7a38cac4871439dab3895179d,Use optimized logo due to style attr. filter,2018-12-04 21:44:43+01:00,False
+28210abadb926ff6226ff345d0754f7a97795542,Use html tags instead of markdown for center,2018-12-04 21:52:26+01:00,False
+e91d4d319652cfc0397f742745bc3752296763ef,Add missing image modifier for markdown src,2018-12-04 21:53:26+01:00,False
+09c6918c58aad82e7a52074518a445ab8db5f2d0,Re-phrase and re-locate deprecation warning,2018-12-04 22:17:17+01:00,False
+ec78be9aff2c2e3e45125c6d6e7c12f7a9b3ed26,Merge build status badge into header,2018-12-04 22:23:46+01:00,False
+d9314ef0239b45a07992a6f24899252d31347d80,Tidying up readme and pom files,2018-12-04 23:15:27+01:00,True
+b54725ffe512ba36cb466e977ce3411ffdf8f019,Fix  typo,2018-12-04 23:19:40+01:00,True
+ac6ea55ff3a23b9334ac19d9c49a979afdfe1fa3,Remove 'Essentials' category,2018-12-04 23:20:35+01:00,False
+3f117f41c1aa9cd5f138bfe4bc64a2f1f69625b4,Slightly increase font size,2018-12-04 23:25:08+01:00,True
+de7ccaf5e4e86f9ec6fcb0dbeb55151cd2309331,Replace social category with blank icons,2018-12-04 23:42:00+01:00,False
+d9391f69c63460b0afb4dc25446ebb7e33a518cf,Fix logo sizes,2018-12-04 23:44:56+01:00,False
+30ee3884eaac9cd2d2d9972828127ba6e95d0ad7,Update README.md,2018-12-24 11:06:39-06:00,False
+c626108369855fc46c0342f136f642a2d3ecaddb,Update README.md,2018-12-24 11:30:23-06:00,False
+160e4122cd8fc25a7a03798d8f312894ae0301df,Update README.md,2019-01-03 18:23:32-06:00,True
+edee5ce41d81c89f2c95472cf6bc1a9bfe544d7d,First joinable 1.10 version,2019-04-15 19:32:00+02:00,False
+7a9e234e0b1afbba74ae1dc4fd2f041b7e6790d2,Added financial contributors to the README,2019-09-21 07:43:32-07:00,False
+9b5766bff59756386c5b1e5156cc96dfefb3dfab,Change from travis to github action badge for README,2020-06-03 20:34:59+02:00,False
+7394486aa1bae91deb06432cca88242a7f9fe22d,[readme]: replace old logo with new logo,2020-08-20 16:35:38+02:00,False
+4aed4e57474d4162e3f2b30438a5975b51a707d7,[readme]: replace logo with optimized banner dimensions,2020-08-20 17:02:52+02:00,False
+a5a5b937d145598e59febdb2cca0fe2eb58dd1ee,Changed the build download link (#558),2020-08-22 15:40:46+02:00,False
+7b6fadb7427e3681bd4c08b482e1285a8cab15ba,Fixed wrong twitter url in readme (#639),2020-09-25 12:29:45+02:00,False
+618e1caed4902591675651ab38aa72653b73b590,"Drop logo assets in favor of gomint/gomint-branding (#653)
+
+* Drop logo assets in favor of gomint/gomint-branding
+
+* Update  image source to use logo in self contained repository
+
+Co-authored-by: Fabian Faßbender <fabian.fassbender42@gmail.com>",2020-10-15 08:45:59+02:00,False
+0403857682542d392b076527c277b879d1973158,Fix gomint brand logo in readme (#677),2020-12-07 02:04:31+01:00,False
+f04f2e1143fa799bab6c791f2d5b806432376a63,"Update readme to newer standards (#689)
+
+* Drop Minty manifest from source root
+
+* Split entry point logic into digestible pieces
+
+* Add blank line between 'if'-scopes
+
+* Restructure and simplify just about everything
+
+* Make 'Features' heading bigger
+
+* Add new heading 'Contributors'
+
+* Add back ""Contributors"" suffixes
+
+* Shrink size of ""Features"" heading
+
+* Add new section 'Getting Started' for a quick start
+
+* Add emojis for easier navigation
+
+* Fix broken 'Getting Started' PowerShell script
+
+* Instruct PowerShell to output the server's directory name
+
+* Fix broken 'Getting Started' quick start scripts
+
+* Add GIF demonstrating a quick start and the start sequence
+
+* Provide more efficient quick start one-liners for Unix
+
+* Add line breaks for the PowerShell quick start command
+
+* Add Windows Command Line variant for compilation command
+
+* Add Maven Wrapper to source root
+
+* Shorten Maven Wrapper compile command for Windows CMD
+
+* Apply new structure, fix typos and more
+
+* Add warning about one liners downloading the latest build
+
+* Remove heading and use better wording
+
+* Display the GoMint logo in the README file
+
+* Change the logo width to 512
+
+* Change logo color so that dark mode users won't have a headache
+
+* Fix broken PowerShell one liner
+
+* Use better wording in catchphrase
+
+* Add CloudNet, Docker and Pterodactyl sections
+
+* Revert ""Split entry point logic into digestible pieces""
+
+This reverts commit 77364e95ab79ab5ff0a554301dbed43eb594ccd7.",2021-01-13 09:16:03+01:00,True
+ebae6224def89281386534cf2c14ad72ccdfc789,Add setup instructions for IDE as developer setup (#707),2021-01-20 10:40:31+01:00,True
+6aa46bf2989702e6f7a5c75fe6b920fd1b95020e,"According to JEPS-261 (https://openjdk.java.net/jeps/261) a container host (in this case gomint) should load ALL-DEFAULT modules so containers (plugins) can depend on them. This fixes #709 (#720)
+
+Co-authored-by: Fabian Faßbender <fabian.fassbender42@googlemail.com>",2021-01-22 22:55:17+01:00,True
+2c32abb27aa0ed7b7d7f246ad5d259a8511c0a9e,"Add hint that you need Java 11 to start GoMint (#722)
+
+* Add hint that you need java 11 to start gomint
+
+* Use better wording
+
+Co-authored-by: Felix Scholz <chapldupez@gmail.com>",2021-01-23 15:10:33+01:00,True
+012d2f05fef2e05648f8705caa2e66455423e93d,"Put up maintenance notice (#753)
+
+Co-authored-by: Felix Scholz <felixscholz@xenoncloud.net>",2021-05-13 08:00:03+02:00,False

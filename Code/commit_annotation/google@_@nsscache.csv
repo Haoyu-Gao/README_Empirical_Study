@@ -1,0 +1,24 @@
+sha,message,date,result
+6dd8be70c1c07266a1f48b02906e6a22c70ee73c,Added README.,2015-03-02 13:50:39+11:00,False
+0037095f5bf5426106b4ff88b32ae28913949925,Updated README.,2015-03-02 14:03:38+11:00,False
+167ec4304e027ad58c2a1a6bbcb0148f680a65d9,Add travis-ci build indicator to the README.,2015-05-19 09:03:41+10:00,False
+46bf0d8adc4c37f4efb3b9f5664280a213b55040,Update build status indicator.,2015-05-19 09:23:03+10:00,False
+0ffc09e36cdcbcb63e7ac038e254d04c26470620,Fixed broken link in README,2015-07-16 06:07:36-07:00,False
+e4cf19d6d6296d831b9d3f86f8866c7f68e2adfc,"Updates project documentation: contribution guide and Code of Conduct.
+
+Add yapf to the travis config.",2019-11-01 14:31:34+11:00,False
+593c3477a27e970f7574b87afdd4caa56ae0d66b,Add CircleCI Build status badge.,2019-11-10 23:00:49+01:00,False
+50444c0e1c97cb50cf0f1421cc555cbd57e5d891,Remove old travis one.,2019-11-10 23:01:26+01:00,False
+37ab70d18db9d0d529a9b5c0450d349cc7af8023,Coverage badge from coveralls.,2019-11-11 11:13:53+00:00,False
+d915b890d7283c500891959ed1e608ba64e79ebc,Link to yapf in the README.,2019-11-11 13:12:29+00:00,False
+e0cf868686228d960e66b2524554f12fb6bb799d,https,2019-11-11 13:12:57+00:00,False
+7fbf1e5848e68a94e8a0179cd8dfae2747f9d482,Set CODECOV_TOKEN in cirrus config and update badges.,2020-03-07 15:40:22+11:00,False
+2973e0e61cac43071df44d25722bfb8d336ab094,Delete old CI configs and update badges.,2020-12-23 14:45:59+11:00,False
+9d3a6e95ad8f563d79b83f06c501b85ef3b57da4,"ci: Update the Dockerfile to be useful for testing slapd-regtest.
+
+Tested with `podman build .`
+
+Issue: #98",2022-12-22 13:04:20+11:00,False
+279e48e4e10e039d4e35981df29af84a2db81427,Update links to the presentation.,2023-04-22 15:21:57+10:00,False
+6946b6c1029cfdc767287fdd335bed8cfbaa0741,Add setup instructions for using the GCS source.,2023-05-09 14:13:30-07:00,True
+43a0e25ce95cf434d6de478b0b28d08b16561e64,Add setup instructions for using the gcs source.,2023-05-19 11:03:45-07:00,True

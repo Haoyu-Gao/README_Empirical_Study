@@ -1,0 +1,48 @@
+sha,message,date,result
+ba24130de94ae04358ffde98acd98cbf83f2864f,Document basic development installation and required versions,2016-11-14 15:47:48+09:00,True
+c5d43a0bf3e8c9bc1d0fec90c50d17491d3622b8,Update readme using rbpromgen as example,2016-11-14 16:46:01+09:00,True
+c3127f9fcce2cf8a8453c075f9855dfcae7cd545,Add note about running tests,2016-11-14 16:54:11+09:00,True
+85e721ae389b32e4c001fa9b2a77d1e790ac5c98,Update links,2016-11-14 16:56:37+09:00,False
+42d997e38c56aeaafb8a9ce5bfeda4f0cfa2c947,Update README with links to specific configuration examples,2017-04-03 16:37:43+09:00,True
+5defbf3360bac8653d4286c4c0b1aab600775d5c,Additional notes for using docker,2017-04-04 10:32:57+09:00,True
+ffa28ae0f445070c104809a36c484db0dff5ceb8,Add line to mention migrations,2017-04-04 10:55:07+09:00,True
+0ebb3904d0991fdaf09cb9fd9571b2a0866c232f,"Rename settings.yaml -> promgen.yml
+
+This should match the Prometheus convention of having <service>.yml as
+the setting file.",2017-04-24 11:05:42+09:00,True
+f29048de316c22716f2fd6cb2c8eb3a0968cabd1,Add screenshot to README,2017-04-24 11:51:40+09:00,False
+a307b31532e538e9a70d1c828584792fad67eece,pypromgen - review readme,2017-04-25 16:48:00+09:00,True
+c30aea7d79df40b6d4029e1bb79d53a7013bbf6d,Update the links for issue tracker and pull request,2017-04-25 17:04:17+09:00,False
+88bfcb3a7641bbc898c4d8f04127729f07eb2ae9,Update code comments and installing for development,2017-04-25 18:26:00+09:00,True
+5be061aced32db1be789010f8aa4c4f416ab80a8,Fix typo,2017-04-25 18:29:23+09:00,True
+4bc759ec282db5709623999937f772c8b19b8033,Update MIT License section,2017-04-25 19:03:15+09:00,False
+818351dd8939879d796204839822a6db8d263251,Add ICLA link,2017-05-11 08:49:21+09:00,False
+33d95c28c9f92cd242dca6467177ecd47e089da5,Document creating initial user,2017-09-20 11:18:35+09:00,True
+c8a778ed304850586b1e33bb0cffe5782728df74,"fixed ""Getting started"" manual.",2017-12-08 16:21:12+09:00,True
+1c26cd876274366803669f7ebc9a4a49417e2773,"Updated Docker examples and inline documentation
+
+- Docker builds should be fixed now, so removed :master from the example
+- Updated docker-compose to be a more self-contained demo
+- Added inline comments to example prometheus config",2018-01-30 11:53:00+09:00,True
+d83a5e03adcbe530d77f6a757d1442b9af2e997d,Remove duplicated content from README.md and direct to CONTRIBUTING.md,2018-03-23 10:45:43+09:00,True
+7de8d5f56c5cb93d947d474abb05b637c9904a92,"invalid Database example
+
+DSN example is invalid.",2018-08-29 15:23:20+09:00,True
+b242ddffbadd36df9059cfee894dcc9c40e65d34,Add note about security,2020-10-23 17:54:07+09:00,True
+aac12ddfc069db2483d9f01e5d02de44be37358f,Minor linting,2020-12-02 12:57:51+09:00,True
+46c1082abf01d5c35c9969e84328a28164771c73,"Update readme and docker-entrypoint
+
+Since our docker entrypoint is getting rather long, we'll remove the
+list of shortcuts and use a default case. If a user needs to run
+something custom, they can use the flag to specify a different entrypoint",2020-12-03 17:34:54+09:00,False
+4a528f60ce8d1fe75ffb57f369e9423a75a335d0,"Use Github pages for canonical documentation
+
+Fixes #312",2021-04-01 09:51:20+09:00,False
+1cb74086e02a95b098ab8645acac236a013d5659,Fix https links,2021-04-02 09:43:26+09:00,False
+b8cb4f4b74f2850a8b8e5795d0f795f17435767d,add databse migration command in README.md,2021-07-02 11:58:05+09:00,False
+e0a56481dc91cd391a10b91a565ee5d75841a75e,"Update docker-compose
+
+- Update readme to callout `docker-compose-bootstrap`
+- Update docker-compose to include missing commands for
+  Prometheus/Alertmanager
+- Fix queue name for our demo",2022-08-10 16:58:18+09:00,False

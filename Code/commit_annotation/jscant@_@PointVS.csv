@@ -1,0 +1,44 @@
+sha,message,date,result
+aa043118116712317111f0024b58ce54ac92e2c6,Added a README,2021-01-19 13:52:45+00:00,TRUE
+934a88a92558374ba2d89623dc16a3126c20f8fb,Added dependencies to readme,2021-01-19 13:56:22+00:00,TRUE
+ba03b92c391237dd2087b3548980094fdf4c1d49,Updated README with how to organise dataset directories.,2021-02-01 13:07:11+00:00,TRUE
+038d5dea4f4a5e19a5000713ea93fb32abf60dc8,Updated README,2021-02-19 12:36:05+00:00,TRUE
+632e3ef63500d6f8fb506bfaf4ee87b1ba10aace,Updated readme,2021-04-20 13:45:00+01:00,FALSE
+ed77fd5c04fdbd8805de9788aa7ffcb7e10695db,Added easy installation by conda environment (and updated README to reflect this),2021-07-02 15:12:16+01:00,TRUE
+a45953ba6c91bf2efcded3736ffa70ba3a0d4258,Fixed installation to include PLIP library from GitHub,2021-08-10 12:16:03+01:00,TRUE
+c1dbc3c9a894e0ef8ddf36fcf7b1abdf0cb2e182,Cleaned up mol_to_parquet,2021-10-13 18:25:01+01:00,TRUE
+21e86184c9d2e21ac382970be4ce118fab2b09cf,README formatting,2021-10-13 22:59:02+01:00,TRUE
+5b09c946bce636f805e02cdb357e2acf047030a2,Added point_vs.py usage,2021-10-13 23:07:14+01:00,FALSE
+cdabfbd0a596070ccb780ab85f1ab40c11b71bef,Updated README,2021-10-14 15:12:21+01:00,FALSE
+d7793c06aa8b399ece40b28498878c2f385f3ebb,Fixed example in readme,2021-10-20 17:19:24+01:00,TRUE
+28371ac4c5e89ab4dfb9bfe8bd44aeb4fcd51bb8,Updated readme,2021-10-21 10:38:34+01:00,TRUE
+19100bffe6e9a460b42e6e550b88da26be647934,Updated README,2021-10-22 11:10:29+01:00,FALSE
+f9c0572e59e0cbc27da09b31c9412bfe1051e367,Updated readme,2021-10-28 17:00:04+01:00,TRUE
+d731b1b26138de5096634a2a99ddc4096d966fc6,Updated readme,2022-02-10 12:11:46+00:00,TRUE
+6333fabcfd1c682e79cc406a419dbee5891f7f6e,Fixed pytest,2022-05-22 17:17:55+02:00,TRUE
+5ec72b979dc48aed48a4dc6d8b6a2684123c4990,Updated environment & readme,2022-09-21 09:43:02+02:00,TRUE
+c2a8cdd839caf2fa4a4f7b4888fa5bbf046f432f,Updated README,2022-09-26 16:01:47+09:00,TRUE
+25c85256a9a3691f53ce30cf1b9f474c081e631a,Updated README and point_vs.py to be consistent.,2022-09-27 14:23:06+09:00,TRUE
+185b13efe3875b8c5f52a252ad021cb4de2d7f23,"Introduced bi-headed model.
+
+Classification training and regression finetuning can now be completed
+in one command, without stopping, reloading and restarting training in
+between.
+
+New model class to support this goes by 'multitask' in training script.
+
+Old models should still be compatible under 'egnn'.",2022-10-11 17:53:25+09:00,TRUE
+395fb14917d36b7ed7ad14b6f004f9d816d1828a,Typo in Readme,2022-12-01 10:48:46+01:00,TRUE
+6b972552d4a84c44836a66873f0df5840c24d6d5,Added support for Mac OS.,2022-12-01 14:41:15+01:00,TRUE
+7dbde3003a93ca651b4a575f3051be6d8ca60016,Update README with MacOS Intel installation instructions.,2022-12-02 13:19:15+01:00,TRUE
+dc3beaf38b03241c0e9b9d8d8788b73e96c068b7,Updated README to include regression types information,2022-12-05 13:49:59+01:00,FALSE
+dc543d9604ebf08d0ae63e04d36ac5787e09879d,Updated installation instructions,2022-12-05 14:36:49+01:00,TRUE
+11ec39d19a298f7bb9f1749da55b94e606ae93b7,Typo,2022-12-05 14:37:39+01:00,TRUE
+1aa37512e454698bfc12ec8d446af16661b2a6e2,Typo,2022-12-05 14:38:38+01:00,TRUE
+c40fbfd39cb3276f4d73e25ec41e8d48cfeccee9,Typos,2022-12-05 14:41:29+01:00,TRUE
+0c8b23f08a7e8820ec8e2f68e62f124513042525,Typo,2022-12-05 14:42:26+01:00,TRUE
+0c2c2bb34c9f8014fd0e7483db25107b9306e766,Enable MPS on Apple Silicon devices.,2022-12-06 12:30:23+01:00,TRUE
+412381badb8b5fc9e46d900e2bf7d9114b62eff3,Update README,2022-12-06 13:39:53+01:00,FALSE
+563f7a41ac07e42d7e12b2b1a6ec3b32ec21055a,Typo.,2022-12-06 13:53:45+01:00,TRUE
+acf71a866d12efb0c56ceebe473e507a74b05709,Added preprint to readme,2022-12-17 11:45:45+01:00,FALSE
+06298157c3f8004a7e1afb994b41456242cbdcd9,Fixed README link to preprint,2022-12-17 11:46:39+01:00,FALSE

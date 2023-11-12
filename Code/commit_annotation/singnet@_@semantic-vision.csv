@@ -1,0 +1,16 @@
+sha,message,date,result
+cc7f59108238a548035f11e281153bcf0ea4bc27,"Initial commit
+
+Add get_questions.py to parse VQA dataset json files and prepare data
+for question analysis.
+Add question2atomeese java application to analyze questions and
+represent them as atomspace pattern matcher queries.",2018-06-14 16:51:46+03:00,FALSE
+f7dc253b409f55af19c40ba68f6babb098e35a33,Move files to make structure more logical,2018-06-14 17:21:47+03:00,FALSE
+a46df7c5a354e8473369a137f673388a68cf3d74,Describe running process in README.md,2018-06-14 17:40:40+03:00,TRUE
+207e8e2044f9b3f33cec8505eafeffd38d903e81,"Build jar and lib dir to run without maven exec plugin.
+
+Sort RelEx formula in constructor.
+Fix README.md",2018-06-14 20:38:35+03:00,TRUE
+c8d93b4cc25625a24445b5d26e9042dfbd25ea53,Prepare to move into singnet/semantic-vision repo,2018-06-15 14:36:14+03:00,TRUE
+e33d1d8f42dfed19f1fd8efda1a11ba0be62c025,"provide script to download dataset and models, update readme",2018-10-26 15:09:39+03:00,TRUE
+ffb6e910707b4a62829115aea4364ec742b634ed,"provide script to download dataset and models, update readme",2018-10-29 17:36:30+03:00,FALSE

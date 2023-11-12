@@ -1,0 +1,486 @@
+sha,message,date,result
+ea1065b0191fae6796a9e042109a33c244783982,Initial Commit,2018-08-25 19:07:19-05:00,FALSE
+f91413b913d73fc336ae683ab9cc160892aebd57,docs(readme): Update,2018-08-26 23:06:57-05:00,FALSE
+5dfdac913f57c0b3fc7e29f311e56d43c8a55164,feat(indexd.py): functions to hit indexd apis,2019-07-26 12:35:25-05:00,FALSE
+129f5be4df0d8c83369efa309d3b13b51db7a64c,feat(indexing): support for download and verify manifest,2019-12-04 16:17:45-06:00,FALSE
+f8b35cca60770a3bb7107fb6b2ebaafb182bb903,"chore(docs): more comments and docs, small refactor",2019-12-05 10:30:25-06:00,FALSE
+d1805da7db3dcd002da939d65500f558baf8d830,"feat(indexd-tools): use asyncio for multi-thread and multi-processing, update docs, add tests, add backoff to indexd calls",2020-01-09 17:27:22-06:00,TRUE
+23867786ca4b6032f601540acdec140a6ae24cdc,feat(authz): support authz and update README.md,2020-03-02 15:48:40-06:00,FALSE
+88cb464fdca1c9f08e55083b02bd633b6eaceaa3,chore(code); black,2020-03-03 02:39:37-06:00,FALSE
+3a1f049c1c7894b722be8372d37f248be75dbf06,chore(doc): fix doc,2020-03-03 08:51:49-06:00,FALSE
+2ab7dde39c55cba91e088b6166fd4084d8775a28,"chore(refactor): make naming consistent, use Gen3Auth in readme",2020-03-05 14:03:09-06:00,FALSE
+57310b17e809601963210b7306a937b278d6ace3,fix(unittest): fix unittest,2020-03-05 14:57:08-06:00,FALSE
+4d46a1d265580f90b2971f1d936deaf49fe2c6f0,feat(asyncio-verify): update verification code to use asyncio instead of just multiple processes,2020-03-09 16:04:40-05:00,TRUE
+f4d4d4a90772b5addc089595b16d2d5b5a6ef041,"feat(output_queue): use a queue to write all output during async tasks, then after tasks are done read from queue to write to final output file",2020-03-18 13:49:43-05:00,FALSE
+5fea48f9238562b054662af622d6208d6dc4a725,"chore(docs): update sphinx build and docs (#37)
+
+* chore(docs): update sphinx build and docs
+
+* feat(docs): github action to build sphinx docs
+
+* chore(docs): update github action
+
+* chore(docs): add generated html docs from sphinx
+
+* fix(action): correct file path
+
+* chore(action): remove file path, just checked for changed docs files
+
+* Apply automatic documentation changes
+
+Co-authored-by: Alexander VT <alexander.m.vantol@gmail.com>",2020-04-06 15:12:10-05:00,FALSE
+7297acfd8c97dc70eb143f3138a70f1900185d15,"chore(gh-pages): add link to gh pages and improve README (#39)
+
+* chore(gh-pages): add link to gh pages and improve README
+
+* Apply automatic documentation changes
+
+* chore(docs): improve spacing and capitalization
+
+* Apply automatic documentation changes
+
+Co-authored-by: Alexander VT <alexander.m.vantol@gmail.com>",2020-04-07 09:30:38-05:00,TRUE
+23ff8a7152ac733d76cfdf1b133fcda608dc3977,"Feat/metadata (#35)
+
+* feat(metadata): add Gen3Metadata for communication with the new metadata service, tests are WIP
+
+* feat(metadata): add auth to metadata calls
+
+* feat(utils): add common utils file for functions
+
+* fix(metadata): cleanup and fix bugs in existing code, update docs
+
+* feat(index): add async functions for querying indexd
+
+* feat(metadata-tools): add initial script/tool for adding to the metadata service from a file
+
+* feat(mds): docstrings, support updating for metadata ingestion, use asyncio for mds calls, centralize backoff cfg in utils
+
+* chore(backoff): use default settings in indexd class for backoff
+
+* chore(refactor): add docs for metadata capabilities, cleanup other docs and rename things to be more clear, add missing imports to utils
+
+* feat(tests): update unit tests, fix some quick issues
+
+* fix(metadata): when localhost don't use admin endpoint suffix
+
+* fix(download): no spaces between csv header (so columns don't have leading spaces)
+
+* Apply automatic documentation changes
+
+* Apply automatic documentation changes
+
+* fix(metadata): improve logging, cleanup docstring, more clear popping from queue loop, handle exception on missing guid
+
+* Apply automatic documentation changes
+
+* fix(indexing): remove possibility of trying to .strip() a None value
+
+* fix(review): cleanup unneeded/misleading code, add missing arguments, don't retry on 404, reword logs
+
+* Apply automatic documentation changes
+
+* chore(metadata): cleanup tests and comments
+
+* Apply automatic documentation changes
+
+Co-authored-by: Alexander VT <alexander.m.vantol@gmail.com>",2020-04-13 16:08:28-05:00,TRUE
+97603fd3066db575d134d3a6aeae25e04795e8b6,"Feat/metadata merge (#40)
+
+* feat(metadata): add Gen3Metadata for communication with the new metadata service, tests are WIP
+
+* feat(metadata): add auth to metadata calls
+
+* feat(utils): add common utils file for functions
+
+* fix(metadata): cleanup and fix bugs in existing code, update docs
+
+* feat(index): add async functions for querying indexd
+
+* feat(metadata-tools): add initial script/tool for adding to the metadata service from a file
+
+* feat(mds): docstrings, support updating for metadata ingestion, use asyncio for mds calls, centralize backoff cfg in utils
+
+* chore(backoff): use default settings in indexd class for backoff
+
+* chore(refactor): add docs for metadata capabilities, cleanup other docs and rename things to be more clear, add missing imports to utils
+
+* feat(tests): update unit tests, fix some quick issues
+
+* fix(metadata): when localhost don't use admin endpoint suffix
+
+* fix(download): no spaces between csv header (so columns don't have leading spaces)
+
+* feat(merge): tool for merging indexing and metadata manifests
+
+* Apply automatic documentation changes
+
+* Apply automatic documentation changes
+
+* Apply automatic documentation changes
+
+* fix(ingestion): fix bugs, handle None empty column in row and catch 404 exception when missing record
+
+* Apply automatic documentation changes
+
+* fix(metadata): improve logging, cleanup docstring, more clear popping from queue loop, handle exception on missing guid
+
+* Apply automatic documentation changes
+
+* fix(indexing): remove possibility of trying to .strip() a None value
+
+* fix(review): cleanup unneeded/misleading code, add missing arguments, don't retry on 404, reword logs
+
+* Apply automatic documentation changes
+
+* Apply automatic documentation changes
+
+* chore(docs): update docs
+
+* Apply automatic documentation changes
+
+* chore(merge): revert changes from bad merge
+
+* Apply automatic documentation changes
+
+* chore(refactor): make more readable - don't do ""smaller file"" logic
+
+* Apply automatic documentation changes
+
+* chore(docs): fix some comments/docs, add more details for clarity about capabilities/assumptions
+
+* Apply automatic documentation changes
+
+Co-authored-by: Alexander VT <alexander.m.vantol@gmail.com>",2020-04-23 09:19:21-05:00,FALSE
+23a5ecda4ee5fd1aa951399b8d05af005e4a208b,"feat(jobs): add support for Gen3 jobs API, update docs (#41)
+
+* feat(jobs): add support for Gen3 jobs API, update docs
+
+* Apply automatic documentation changes
+
+* chore(readme): use generic url
+
+* fix(tests): add actual tests
+
+* Apply automatic documentation changes
+
+* chore(readme): cleanup commented out code
+
+* Apply automatic documentation changes
+
+Co-authored-by: Alexander VT <alexander.m.vantol@gmail.com>",2020-05-01 14:17:59-05:00,FALSE
+a5691cbd0261c742e98de847ff621fb23b55b208,"feat(metadata): verify metadata manifest and fix issues with merging … (#47)
+
+* feat(metadata): verify metadata manifest and fix issues with merging with BOM character
+
+* Apply automatic documentation changes
+
+* fix(review): add clarifying comments, faster dict comparison in case where different keys
+
+* Apply automatic documentation changes
+
+Co-authored-by: Alexander VT <alexander.m.vantol@gmail.com>",2020-05-29 13:00:28-05:00,FALSE
+81ca351225d340b99ade9ebe2a37195c0ddb9d71,docs(README): add Merge Bucket Manifests section,2020-07-06 12:49:10-07:00,FALSE
+0e34072d33ff00f3eb9f114fce969163694a0037,feat(merge_manifests): detect delimiter for DSV,2020-07-06 12:49:10-07:00,FALSE
+e60ecf13068c7bac630c2e4733b30ebd702c6c1a,"(PXP-6498): add bucket manifest format verification (#56)
+
+* feat(indexing): add verify_manifest_format.py
+
+* feat(indexing): add manifest_columns.py
+
+* test(indexing): add test_is_valid_manifest_format
+
+* feat(indexing): add to is_valid_manifest_format
+
+* style(indexing): clean up is_valid_manifest_format
+
+* docs(indexing): is_valid_manifest_format comments
+
+* docs(indexing): is_valid_manifest_format in README
+
+* Apply automatic documentation changes
+
+* Apply automatic documentation changes
+
+* style(indexing): rename verify_manifest_format.py
+
+* feat(manifest_columns.py): add more column names
+
+* fix(is_valid_manifest_format): remove BOM if there
+
+* Apply automatic documentation changes
+
+* chore(pre-commit hooks): use latest black
+
+* Apply automatic documentation changes
+
+* docs(README): specify correct test directory
+
+* Apply automatic documentation changes
+
+Co-authored-by: johnfrancismccann <johnfrancismccann@users.noreply.github.com>",2020-09-22 12:16:46-05:00,FALSE
+74536c6414d9b89e09badaebca86ba109b94089a,"fix(merge): actually do what the comment said and add to output even … (#50)
+
+* fix(merge): actually do what the comment said and add to output even if match doesn't have a guid
+
+* Apply automatic documentation changes
+
+* Apply automatic documentation changes
+
+* feat(merge): allow getting all indexing columns
+
+* Apply automatic documentation changes
+
+* Apply automatic documentation changes
+
+* Apply automatic documentation changes
+
+* Update merge.py
+
+* Apply automatic documentation changes
+
+Co-authored-by: Alexander VT <alexander.m.vantol@gmail.com>",2020-09-22 13:13:00-05:00,FALSE
+4a6e50fc8c6c7f73a2fd92b3f07d6dff4b9d3b1f,"feat(merge): update indexing manifest merging and indexing to use com… (#57)
+
+* feat(merge): update indexing manifest merging and indexing to use common field names
+
+* Apply automatic documentation changes
+
+* feat(tests): update func name in test
+
+* Apply automatic documentation changes
+
+* Apply automatic documentation changes
+
+* fix(indexing): correct error, allow contining after error for merge
+
+* Apply automatic documentation changes
+
+* fix(tests): make sure acl column in output of merge
+
+* Apply automatic documentation changes
+
+* Apply automatic documentation changes
+
+* Apply automatic documentation changes
+
+* chore(indexing): consolidate standard names into single file
+
+* feat(merging): keep non-standard columns and merge correctly, update tests
+
+* chore(indexing): use enumerate instead of manually incrementing
+
+* fix(indexing): don't reprint errors on every row if only one row has error
+
+* Apply automatic documentation changes
+
+* feat(merge): only add new values if not already existing
+
+* Apply automatic documentation changes
+
+* feat(merge): support edge-case where there are multiple existing GUIDs for same md5
+
+* chore(docs): update docstring for clarity
+
+* Apply automatic documentation changes
+
+* fix(manifest merge): dont merge for multiple guids (#58)
+
+* fix(manifest merge): dont merge for multiple guids
+
+* test(manifest merge): sort tsv data by (md5, guid)
+
+Co-authored-by: John McCann <johnmccann@uchicago.edu>
+
+* Apply automatic documentation changes
+
+* feat(merge): determine delimeter based on file ext
+
+* Apply automatic documentation changes
+
+Co-authored-by: Alexander VT <alexander.m.vantol@gmail.com>
+Co-authored-by: John McCann <johnmccann@uchicago.edu>",2020-10-19 13:54:14-05:00,FALSE
+285d8179d139e60487dc9801d81940d8bd7cd769,bundle ingestion,2020-11-03 15:35:20-06:00,FALSE
+bf0c3b671d8ce01c7b536670f4c3a0b8f4e89e7a,cahnge readme,2020-11-04 12:03:59-06:00,FALSE
+a4cf299ed785e1fe2d28c8edff57830e4bc901f7,"Update README.md
+
+Co-authored-by: Pauline Ribeyre <ribeyre@uchicago.edu>",2020-11-05 16:45:18-06:00,FALSE
+1caf24269f77951fd5067f46191eb1d6a3637857,doc update,2020-11-17 10:53:24-06:00,FALSE
+a2160dae124f5c01e4074675cd8b3d10d3cbe850,Readme: add Gen3Auth in workspace initialization (#61),2020-11-30 11:52:51-06:00,FALSE
+7266e8c54a7dade64f3cf17023ee89cb2959ebfe,"Chore/poetry (#63)
+
+* chore(poetry): update to use poetry
+
+* feat(cli): add entrypoint cli
+
+* chore(automation): test pypi upload, update docs
+
+* chore(deploy): use testpypi on branch
+
+* chore(poetry): change backend
+
+* chore(version): update
+
+* chore(version): update
+
+* chore(version): update
+
+* fix(plugins): remove missing plugin
+
+* chore(version): update
+
+* chore(deploy): attempt to standardize testpypi deploy alongside a real deploy
+
+* chore(version): update
+
+* chore(deploy): add master branch deployment to pypi
+
+* chore(version): update
+
+* Apply automatic documentation changes
+
+* Apply automatic documentation changes
+
+* chore(release): update to next major release, remove dockerfile
+
+* Apply automatic documentation changes
+
+Co-authored-by: Alexander VT <alexander.m.vantol@gmail.com>",2020-12-03 11:55:17-06:00,TRUE
+fdef5b504d445f87d439108dd90c67644806c4ff,"chore(wss-cli): checkpoint progress
+
+chore(gdk auth): checkpoint
+
+chore(cli): mv cli.py cli/pfb.py
+
+chore(auth): check expiration
+
+docs(README): deconstruct
+
+docs(wss.rst): not sure
+
+tests(fix): endpoint changes
+
+docs(sphinx): update outputs
+
+chore(auth): add access-token cache
+
+fix(auth): token cache handling
+
+chore(auth): access-token provided support
+
+chore(pyproject): bump to v4",2021-01-08 16:57:38-06:00,TRUE
+cf32b789a4745916f0555cc20e0fe08c19a3cac1,"chore(Jenkinsfile): add integration test
+
+fix(Jenkinsfile): whoops
+
+fix(Jenkinsfile): virutalenv setup
+
+fix(Jenkinsfile): tweak PATH
+
+chore(jenkins): tests/jenkinsSmoke.sh
+
+fix(jenkins): bad paths
+
+fix(jenkins): more bad paths
+
+Apply automatic documentation changes
+
+Apply automatic documentation changes
+
+docs(wss): cli usage fix
+
+Apply automatic documentation changes
+
+docs(cli): more usage tweaks
+
+Apply automatic documentation changes
+
+Update gen3/auth.py
+
+Co-authored-by: Pauline Ribeyre <ribeyre@uchicago.edu>
+
+Update gen3/wss.py
+
+Co-authored-by: Pauline Ribeyre <ribeyre@uchicago.edu>
+
+Update docs/howto/metadataTools.md
+
+Co-authored-by: Pauline Ribeyre <ribeyre@uchicago.edu>
+
+Update docs/howto/bundleTools.md
+
+Co-authored-by: Pauline Ribeyre <ribeyre@uchicago.edu>
+
+Update README.md
+
+Co-authored-by: Pauline Ribeyre <ribeyre@uchicago.edu>",2021-01-08 16:57:45-06:00,FALSE
+00c765d467ed51b254da57bba01eca75f4e9347a,"feat(crosswalk): publish crosswalk initial support, tests, and docs (#151)
+
+* feat(crosswalk): publish crosswalk initial support, tests, and docs
+
+* chore(crosswalk): order imports, new version
+
+* Apply automatic documentation changes
+
+* fix(crosswalk): fix metadata API interactions to update/create when necessary, placeholders for future functionality
+
+* Apply automatic documentation changes
+
+* feat(crosswalk): implement crosswalk read functionality
+
+* Apply automatic documentation changes
+
+* docs(crosswalk): update command
+
+* Apply automatic documentation changes
+
+* Update gen3/tools/metadata/crosswalk.py
+
+Co-authored-by: Pauline Ribeyre <4224001+paulineribeyre@users.noreply.github.com>
+
+* Apply automatic documentation changes
+
+* feat(crosswalk): response to review
+
+* Apply automatic documentation changes
+
+Co-authored-by: Alexander VT <alexander.m.vantol@gmail.com>
+Co-authored-by: Pauline Ribeyre <4224001+paulineribeyre@users.noreply.github.com>",2022-08-10 15:53:20-05:00,FALSE
+a39ffd538aa830aa678f6257032a671e2005aa16,"Feat/dbgap fhir (#178)
+
+* feat(fhir): initial, rough dbGaP FHIR support - needs tests
+
+* feat(deps): update and add command to install all extras for testing
+
+* docs(combine): add docs for discovery combine feature and fix code in other docs
+
+* feat(fhir): cleanup dbGaP FHIR support, add CLI/SDK for Discovery combine
+
+* Apply automatic documentation changes
+
+* Update gen3/nih.py
+
+Co-authored-by: Pauline Ribeyre <4224001+paulineribeyre@users.noreply.github.com>
+
+* Apply automatic documentation changes
+
+* chore(fhir): address review comments
+
+* Apply automatic documentation changes
+
+* fix(fhir): cleanup logic, correctly parse citer url
+
+* Apply automatic documentation changes
+
+* chore(blacken): run black formatter
+
+* Apply automatic documentation changes
+
+* chore(pre-commit): update pre commit tool versions
+
+* Apply automatic documentation changes
+
+---------
+
+Co-authored-by: Alexander VT <alexander.m.vantol@gmail.com>
+Co-authored-by: Pauline Ribeyre <4224001+paulineribeyre@users.noreply.github.com>",2023-03-23 12:46:05-05:00,FALSE

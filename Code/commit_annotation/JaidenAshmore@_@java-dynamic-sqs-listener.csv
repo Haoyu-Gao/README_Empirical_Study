@@ -1,0 +1,216 @@
+sha,message,date,result
+55f31f203dfa2958e415327106e9d9e039c6cf58,Initial commit,2018-08-07 20:12:36-05:00,FALSE
+c2777e602f17d4ab9ea249e44d3ea8009f12d3f8,NONE: Added core implemetation for the core sqs listeners,2018-11-09 23:24:25-06:00,FALSE
+6898d64950a4b862d23f0110e30f169ff7728a12,NONE: Self review changes,2018-11-10 15:27:54-06:00,FALSE
+8a43bd6a6cbe6596288ab4543677ca790819e6e6,NONE: PR review changes,2018-11-12 23:34:36-06:00,FALSE
+e9a164c285cc244e89a764ff36f9d5b7be90b391,NONE: Improve the documentation,2018-12-27 17:52:46-06:00,TRUE
+515252a9687ce6b6a55488bda3a583a40c5b5aa5,13: Change the links for the documentation to internal instead of the wiki,2018-12-30 23:20:44-06:00,FALSE
+2a987e1442244a6b780f2530087fa235ef6f2a92,"refs #15: Aligned Spring Starter implementation with conventions (#18)
+
+* refs #15: Aligned Spring Starter implementation with conventions
+
+* refs #15: fix up compiler warnings",2019-01-05 20:24:28-06:00,TRUE
+68752b615e5d56defc291342e57bbd332a880932,"Issue/15 spring starter convention again (#21)
+
+* refs #19: fix jackson databind vulnerability
+
+* refs #15: Fix travis build, fix spring starter
+Travis builds were running mvn test and not mvn verify. This resulted in breakages
+in Spring Starter not being discovered.
+
+* refs #15: Fix broken coverage builds as they weren't being run previously",2019-01-06 11:04:14-06:00,TRUE
+33dba8120c0f1b9c335c24e90b421cf76cf187fe,refs #24: Add LGTM lozenges for vulnerability detection (#25),2019-01-06 16:08:55-06:00,FALSE
+91748fd2d205aee86f5f6bd700fab12f09cb6284,"Issue/26 improve integration tests (#27)
+
+* refs #24: Add LGTM lozenges for vulnerability detection
+
+* refs #26: Improved integration tests using TestRules
+Added documentation for how consumers can write their own integration tests.",2019-01-11 10:33:07-06:00,TRUE
+c0ed1d7f61a2da0b8916104dc8210f465a9a0531,refs #13: Add some guides for the different types of queue listeners that can be provided (#35),2019-01-14 22:19:56-06:00,TRUE
+273123496c50e45d0c8e7a138519c6a441931743,refs #13: More documentation improvements by fleshing out the README.md to make it more desirable from first read,2019-01-15 20:41:02-06:00,TRUE
+c9cf1773c25632c6155eef90fcc5813ebc83f02f,refs #13: Improve the README documentation a little.,2019-01-19 17:05:35-06:00,FALSE
+cdf6c979df6ee12a8570f24d39123686d3d1aadb,refs #37: Add the ability to batch remove messages from the queue,2019-01-31 14:18:27-06:00,FALSE
+21d11faaa084aba73b77e9e811e97546ec72cdcb,NONE: Added the Maven lozenge,2019-02-02 22:47:35-06:00,FALSE
+9912499e8dc4a119476cee30245ba30eb0745608,refs #29: testing verified commits,2019-02-02 22:58:18-06:00,FALSE
+fa173eb6f60e45bc5384221b5650e6e2cd71b004,refs #29: Try another verified commit,2019-02-02 23:02:56-06:00,FALSE
+0deed943608fac0aef0fc746329459238046e74d,"refs NONE: Make the ArgumentResolver indicate the returned type
+Fix up README.md documentation to include custom argument resolvers",2019-02-09 15:45:21-06:00,TRUE
+8f6de19dad0af51ad3c45947c3701051cce6d67b,refs #55: wrote own code to obtain method and parameter annotations when the bean has been proxied by libraries like CGLIB,2019-03-02 18:18:53-06:00,FALSE
+7427b61dadd3a4696d11d2805611693faec89434,NONE: Fix up the documentation for running examples,2019-03-16 17:07:05+11:00,TRUE
+43711bc7d9aaf2fa36bb44a25d3f7668d6c38d64,Update README.md,2019-03-16 17:37:14+11:00,FALSE
+e20260260161fcaec293883d57899df1a837d9cd,refs #61: Re read the documentation and cleaned up any confusing sentences.,2019-04-05 18:37:07-05:00,TRUE
+f67b29fa60d0ab9120d0b0dc98eed302347dc24c,"Issue/54 work on reducing flakiness (#65)
+
+* Remove Travis CI
+
+* none: remove travis ci config
+
+* refs #54: Fix bugs in ConcurrentMessageBroker for shutting down
+General cleanup
+
+* refs #54: Fix one flaky test",2019-04-06 11:09:36-05:00,FALSE
+1b2711e4fd4549946d04c17449e725635c8a6fda,"refs #73 #54: add dependency information in the README.md
+Attempt to help the ConcurrentMessageBrokerIntegrationTest from not being flaky.",2019-04-20 14:54:43-05:00,TRUE
+144b6682fcc89c518d6b682bc6fabd479e7b739d,"refs #73 #54: add dependency information in the README.md
+Attempt to help the ConcurrentMessageBrokerIntegrationTest from not being flaky.",2019-04-20 16:40:43-05:00,TRUE
+29e0dcfef1c7f719a1382f73e8a069be9f5ec202,"refs #66: Promote MessageResolver to API
+Fix up MessageResolver unit tests
+Remove CustomQueueListener as I don't think it is valuable and more code to maintain",2019-04-22 20:38:17-05:00,FALSE
+63e29f80856b9acf825e5184fb04c41bed540bbe,none: change to shield style badges,2019-04-22 21:35:47-05:00,FALSE
+c22baac96419cfb4f56344f61e59ca8b48eee56f,none: Fix up Batches,2019-05-18 19:43:28-05:00,FALSE
+5f47429bedb3a2ddbc46c2543bf6afaca0d9edae,refs #96: Upgrade Jackson Databind dependency,2019-05-24 23:22:08-05:00,TRUE
+d87c73d1dc3c0eee0723789eee083e1f8e6c265c,"refs #36: add a module for performance/functionality comparisons
+Record the results of running on my local machine.",2019-06-02 23:53:07-05:00,FALSE
+650e6c58e7d8a6039ba7917828c755f55a201059,refs #116: Allow SQS to be consumed from multiple AWS Accounts,2019-06-21 21:59:26-05:00,FALSE
+2e9df6b78b15a170ad58efa189216a56c734c347,refs #125: bump the versions of the dependencies,2019-06-22 12:51:26-05:00,TRUE
+d4dad4d8e0fe1398b5b62d07de38db634aab982c,refs #131: Fix up the now incorrect documentation links,2019-06-22 17:07:42-05:00,FALSE
+78927f9e9623400af88b72a83af6c1b1466cc6ed,"refs #129: A lot of breaking changes for class names, etc.",2019-06-23 19:35:38-05:00,FALSE
+56c5bd325bea63210d2ba77190a99260f00b3c92,refs #142: Update README.md versions,2020-04-21 22:41:35-05:00,TRUE
+33746376b51d45568bae1b64730e3d29d9f26935,"none: move around utilities, bump some dependencies and improve documentation (#147)",2020-04-30 17:17:12-05:00,TRUE
+68fb92a3608a133aed1abd67add80b5e34e982ee,"Update Badges, remove LGTM",2020-04-30 17:24:35-05:00,FALSE
+df64a935965a208590b8cd130177a0e13779b169,"140 spring cloud registry extension (#146)
+
+Adds the ability to deserialize messages that have been sent using a schema like Avro which is registered in the Spring Cloud Schema Registry.",2020-05-04 17:15:02-05:00,FALSE
+bcfcc1b7e2d251e9e65c8e1956150f88ceabc003,"refs #161: upgrade dependencies (#162)
+
+* refs #161: upgrade dependencies
+
+* refs #161: Update README.md for dependency versions",2020-06-18 19:21:58-05:00,TRUE
+f9f8ce56d5055dd91ae694618bd26b40803fbfb9,"#164 message processing decorators (#165)
+
+Adds the ability to wrap the message processing with MessageProcessingDecorators that can be used to supply logging, metrics and other custom functionality. More specifically it will allow for Brave Tracing to be easily configured into the application.
+
+* refs #164: extracted base message decorators from brave branch
+
+* refs #164: simplify the implementation of the MessageProcessorDecorator
+
+Improve the tests for the MessageProcessors
+
+* refs #164: Improve documentation
+
+* refs #164: Self review changes",2020-06-20 12:31:04-05:00,TRUE
+ebec1ba0899adb39bdfb3722eac458335b46b425,"#159: Brave Tracing Integration (#160)
+
+Adds a extension that creates a BraveMessageProcessingDecorator which will add Brave Tracing to the message listener.",2020-06-20 15:33:52-05:00,FALSE
+fe1c0860c28577a9a6b3771d278378e259ee8c96,"166 remove guava (#171)
+
+Remove Guava from the library as it was only being used for a few functions which can easily be reproduced. This should make it easier for consumer libraries to use this when they are using different versions of Guava.",2020-06-21 22:08:55-05:00,TRUE
+0fe07cbdc6fab6d767c2020be74918425f9c277f,"refs #170: change folder names to be simplified format. (#172)
+
+Change folder names from something like java-dynamic-sqs-listener-core to be core",2020-06-22 22:22:52-05:00,TRUE
+bf5c1146df0bf55e9544253a2ece556d8d5a93ab,refs #163: add markdown linting (#173),2020-06-24 08:57:33-05:00,FALSE
+88aeea54b3956b2f34dd77fe67f251533843164c,refs #177: Change all local guides to use gradle not maven (#178),2020-07-01 20:45:13-05:00,TRUE
+d16eca4baecce55321c29e892ba3f4051c24363c,"refs #150 Improve Xray Tracing functionality (#179)
+
+The BasicXrayMessageProcessingDecorator will now continue any Xray trace when the trace header is included in the message attributes.
+
+This AWS SDK v2 Xray Instrumentor now works with the library.",2020-07-12 17:00:14-05:00,FALSE
+d39b0d19157c84045da7c33cb50f1c838a943574,"refs #180 improve documentation (#181)
+
+Add to and simplify the documentation
+
+Fix build from not releasing correctly",2020-07-12 18:09:47-05:00,TRUE
+81b829d334cab6139ab6a6fe6bc47770a566e3c0,README.md includes link to builds for Build and Test status badge,2020-07-12 22:01:55-05:00,FALSE
+883490f05e0baf098f538b741e83b9c823a460a0,"Remove versions from README.md, remove duplicate versioning through build files",2020-07-12 23:00:51-05:00,TRUE
+63323ae4643b2b475ddeb628b64f5b32a48bba07,Update Coverage Report branch name,2020-07-15 16:44:06-05:00,FALSE
+de0bc2b4109dd93503fa6a9c44c69b2ad457d406,"fixes #217: fixes up problems with Spring's ObjectMapper being overwritten (#218)
+
+Now changes the configuration to use a SqsListenerObjectMapperSupplier
+instead of doing a @ConditionalOnMissingBean for the ObjectMapper. The
+reason is that the auto configuration for this library was running before
+the Jackson auto configuration, resulting in it supplying an empty
+ObjectMapper and thus removing the default implementation.
+
+By using this supplier method, it will use the default Spring Boot
+ObjectMapper if supplied, otherwise it will define its own custom empty
+ObjectMapper.",2020-07-20 13:39:16-05:00,FALSE
+6a19044132f1751a7a82982f796449c2f63c5a59,"refs #216: Adds a Kotlin DSL for managing the core library. (#225)
+
+This allows you to more easily create a MessageListenerContainer using
+a simpler Kotlin DSL format. An example is something like:
+
+```
+val container = coreMessageListener(""identifier"", sqsAsyncClient, queueUrl) {
+    retriever = prefetchingMessageRetriever {
+        desiredPrefetchedMessages = 10
+        maxPrefetchedMessages = 20
+    }
+    processor = coreProcessor {
+        argumentResolverService = coreArgumentResolverService(objectMapper)
+        bean = MessageListener()
+        method = MessageListener::class.java.getMethod(""listen"", String::class.java)
+    }
+    broker = concurrentBroker {
+        concurrencyLevel = { 10 }
+        concurrencyPollingRate = { Duration.ofSeconds(30) }
+    }
+    resolver = batchingResolver {
+        bufferingSizeLimit = { 5 }
+        bufferingTime = { Duration.ofSeconds(2) }
+    }
+}
+```",2020-07-21 16:49:27-05:00,FALSE
+4804bd9f2d0ab00504d71254bb03e8a42cd38fe2,refs #230: Clean up example projects and documentation (#233),2020-07-22 13:22:06-05:00,TRUE
+88bfa7d7693d7745ce08ac5b91c2b4f8762fcc70,"refs #236: split brave extension into core and spring boot (#237)
+
+This was to remove warnings for building the Maven distributions in
+regards to the optional spring dependencies. I feel it is easier to
+understand and less likely to make mistakes if I just create separate
+modules for them.",2020-07-22 23:21:06-05:00,FALSE
+4ffacaa1a00bf2dfc3477300ae926b575c9b3748,Update Maven Version status badge,2020-07-23 16:52:47-05:00,FALSE
+87f06d8539c1abf935f473beb07a80df35cd1d80,"refs #254: Added Ktor support (#261)
+
+Can now register message listeners in a Ktor application by using the
+Ktor Core module.
+
+Usage would look like:
+
+```kotlin
+val server = embeddedServer(Netty, 8080) {
+    prefetchingMessageListener(""prefetching-listener"", sqsAsyncClient,
+""queueUrl"") {
+        concurrencyLevel = { 2 }
+        desiredPrefetchedMessages = 5
+        maxPrefetchedMessages = 10
+
+        processor = lambdaProcessor {
+            method { message, _ ->
+               log.info(""Message: {}"", message.body())
+            }
+        }
+   }
+}
+```",2020-08-01 12:55:59+10:00,FALSE
+290191f8602b899b5c3c3d9a07a4d2e752bcd900,Extend the README.md to include more examples,2020-08-02 17:48:25+10:00,TRUE
+d110ac2a64cdf12b9de35e2b1cf941756a2a13e7,"refs #273: Allow configuration of container startup when spring starts (#274)
+
+Also adds a `MessageListenerContainerCoordinator#getContainers()` method
+so consumers can get all the containers if they desire.",2020-08-08 15:36:57+10:00,FALSE
+8c3402a8e433930eca00e89ea9b7517d72e889ce,"refs #278: update formatting to use prettier instead of Checkstyle (#279)
+
+This allows for auto formatting of code instead of running checkstyle linting checks and then manually fixing any problems.  The formatting rules are okay and there are a couple of places that I don't like, for example lambdas and functional chains (e.g. builders, streams, etc), but what are you going to do.",2020-08-09 19:23:33+10:00,TRUE
+927cdd8207c7073896edd3cb2444bd199416a062,Change link for versions to be gradle.propertie,2020-08-09 20:56:05+10:00,TRUE
+ec510a0b6f248c19c35be4015c334380fe999b93,"Update dependency prettier to v2.1.1 (#311)
+
+* Update dependency prettier to v2.1.1
+
+* NONE: Fix up linting errors
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Jaiden Ashmore <jaidenkyleashmore@gmail.com>",2020-08-27 21:47:06+10:00,FALSE
+9c221e93aa24c376f8abc386c97b1dc858752879,refs #313: Add implementation for listening to FIFO SQS queues (#335),2020-09-26 23:08:52+10:00,FALSE
+5d21dae2e4e843415e4a20374bef570dbee6611e,320 automatically extend long running messages (#342),2020-10-04 19:27:49+11:00,FALSE
+cb6759ed4b27617469a5320604c09aab35d0f96d,"refs #345: Move Prefetching and Batching container to core (#346)
+
+This will allow easier sharing of logic.",2020-10-05 11:08:29+11:00,TRUE
+15617c8380389cb361bc88c5eeccb8e2d374c335,refs 339: Allow Spring Annotations to be overridden with dynamic properties (#347),2020-10-09 09:37:27+11:00,FALSE
+93d7dfed0d433877a12b6aead5838f07f14af002,"Update dependency prettier-plugin-java to v0.8.3 (#350)
+
+* Update dependency prettier-plugin-java to v0.8.3
+
+* none: fixed prettier changes
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Jaiden Ashmore <jaidenkyleashmore@gmail.com>",2020-10-13 21:15:46+11:00,FALSE
+fd20c7581c81fec3ec7de05d68058e6cd624cc34,Change default branch to 5.x for badges and updated security support,2021-06-18 11:55:04-05:00,FALSE
+1b9c0ee269eb7e5f479baff2a5443b1458db90c0,closes #365: Spring default message visibility to AWS SQS visibility value (#366),2021-06-18 12:06:09-05:00,FALSE

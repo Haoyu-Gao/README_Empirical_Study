@@ -1,0 +1,204 @@
+sha,message,date,result
+ba6e78d1ffb80f3d40500b9d557de89fcc7227c5,Change README to markdown,2014-09-29 21:24:46+02:00,False
+580581350f079e9e94abacd20fc364ddb846fcbd,Updated README,2014-09-29 21:31:51+02:00,False
+820e8c2fa3dfe88290a93beb2b5ad551ee6616da,Update README.md,2015-02-24 16:39:34+01:00,False
+a58dc7f57376fb154f9712398f15fce205277923,Update README.md,2015-02-26 00:51:59+01:00,False
+897307db787443152f64208def3b4ad5bed4244b,Update README.md,2015-03-15 21:41:39+01:00,False
+4ac79889507663a0cdf9b026e6bab2df1c58503b,Update README.md,2015-07-24 13:16:52+02:00,False
+bf70c634dc42ea8dc37971e54109a013593e30c0,Update README.md,2015-07-24 13:19:02+02:00,False
+5a0242a2819b0267f94c8ec155d0ab309cc69f28,Update README.md,2016-07-22 10:35:34+02:00,False
+f235228b706dfb775799b0e63ecdea6f6675e17b,Update README.md,2016-09-06 22:44:58+02:00,False
+d2897736f0b1804e9bb147d26ddf25361438a3ef,Move docs to repo.,2017-08-18 16:02:30+02:00,True
+3aaeee00a84f3770bfa7420231679880491b2ad6,Update README.md,2017-08-21 10:23:32+02:00,False
+afd48ac698b2e8de8e89e021dc47a4210aee4b0e,Update README.md,2017-08-21 10:24:21+02:00,False
+966c5e7d4d713a1fe434929f5336e2202dd92656,Update README.md,2017-08-21 10:25:01+02:00,False
+289013658283b84537c9995c0bae3b731bef655a,Update README.md,2017-08-21 10:26:48+02:00,False
+7bfaded21fe9f986a3d2f8628c05a4bc0175746f,Update README.md,2017-11-26 15:09:58+01:00,False
+6073cc87f49bbb3e23d1b3af558d34a06c2e2c63,"Addition of JSONL upload capability (#511)
+
+* jsonl upload support
+
+* jsonl upload support
+
+* jsonl upload support
+
+* jsonl upload support
+
+* jsonl upload support
+
+* jsonl upload support - minor tweaks
+
+* jsonl upload support - minor tweaks
+
+* jsonl upload support - minor tweaks",2018-01-08 18:25:03+01:00,True
+0801afe65d300fa7c42bc673d0a2b67de749f339,Adding the users guide to README.md (#611),2018-05-17 16:07:35+02:00,True
+c68bdd5d5de412a8b33dfc726a6260e78acb4e7d,docs(readme): update readme.md (#680),2018-10-08 12:25:40+02:00,False
+44b97490ed5ab24b7b8a3030a932dbd17e0f641c,"Added a colab notebook that demos TS/colab connections, also added a badge to the README (#793)
+
+* Adding badge.
+
+* Ordering.
+
+* Created using Colaboratory
+
+* Created using Colaboratory
+
+* Created using Colaboratory
+
+* Created using Colaboratory
+
+* Created using Colaboratory
+
+* One typo
+
+* Minor text change.
+
+* Minor cosmetic changes",2019-01-23 12:27:27+01:00,False
+5c246ce377fc3542776cd4021476a19e9f450fbe,"Added mybinder config to TS, making it possible to run jupyterlab notebooks. (#802)
+
+* Added requirements file for binder.
+
+* Minor changes.
+
+* updating requirements.
+
+* Enabling graphing rendering in JupyterLab
+
+* Fixing notebook.",2019-01-23 14:58:39+01:00,False
+04a1db2066ece1c7740e673f8ab03a992d1bcfff,First version of documentation and minor changes.,2019-10-24 14:30:41+00:00,True
+81ba06e63f20fc7f1e22184ae340321f6f08b1a8,"Introduce documentation how to import arbitrary data to ts (#1009)
+
+* Update README.md
+
+* Create CreateTimeLineFromOtherData.md
+
+* Update CreateTimeLineFromOtherData.md
+
+* Update CreateTimeLineFromOtherData.md
+
+* Update CreateTimeLineFromOtherData.md",2019-10-28 22:27:24+01:00,True
+e1bc479f431eedab4087f92f2db4ba9087296b6d,"Remove vagrant from the readme (#1058)
+
+as per https://github.com/google/timesketch/pull/979 Vagrant support was dropped, so should not be in the readme",2019-12-13 22:13:30+01:00,True
+515c8dcc8c8206b6190784223c472bda87fd036a,Fix docker installation documentation link.,2020-03-31 21:21:13+02:00,True
+42dc2013e91f294d558b95ccdf8370f33c81b496,"Fix Docker Readme link (fixes #1247)
+
+During https://github.com/google/timesketch/pull/1207/files the Docker readme was moved to docker/e2e/
+And while we do not have a general docker readme, it is better to link to the docker dir than 404.
+
+This was brought up in https://github.com/google/timesketch/issues/1247
+
+Should be a quick review",2020-06-03 16:23:47+02:00,True
+1f721cf55e18410125afecf2563156753b4320bf,"Add support for Sigma rules (#1231)
+
+* full sigma commit
+
+* updated git submod
+
+* Apply suggestions from code review
+
+Co-authored-by: Johan Berggren <jberggren@gmail.com>
+
+* change sigma rules from submodule to a git clone that has do be done by
+TS server admin maunally.
+Updating the .gitignore alongside
+
+* remove a leftover print and remove additional fields as this was also
+not needed
+
+* code readability
+
+* remove not needed exception
+
+* s/BROWSER_STORY_HEADER/SIGMA_STORY_HEADER
+
+* widen the try block to catch even more sigma issues
+
+* propper OR coverage for aspects
+
+* improve tag coverage mapping
+
+* introduce exception for timeouts for to many searches
+
+* remove comliance path
+
+* adressing: https://github.com/google/timesketch/issues/1199#issuecomment-639475885 and https://github.com/google/timesketch/issues/1199#issuecomment-639472176
+
+* increase mapping coverage
+
+Co-authored-by: Johan Berggren <jberggren@gmail.com>",2020-06-24 10:27:52+02:00,True
+9099c665f3d2893a6a4b9ba230f7bc5fc945a424,"Fix width on main screenshot (#1356)
+
+Fix width on main screenshot",2020-09-02 08:56:53+02:00,False
+08ff805e1287ecf17e9b955e21ff030a54409cf1,"Adding a GH workflow for unit tests (#1476)
+
+* Adding a GH workflow for unit tests.
+
+* ppa
+
+* sudo'
+
+* update
+
+* version
+
+* version
+
+* os change
+
+* os change
+
+* removing
+
+* changing installs
+
+* fix
+
+* missing deps
+
+* nose
+
+* Removing travis",2020-11-17 17:17:05+01:00,False
+a18812e585f2cf308728f37197103156336da34e,Add GH action badges,2020-11-17 17:41:41+01:00,False
+77f360ff42abeb5996e0027a5719c2b0e0acbec5,Update badges,2020-11-17 17:42:35+01:00,False
+3d66afaf4e61e79e23841d6ccd3631ffb5b6403d,Update README.md,2020-11-17 16:43:21+00:00,False
+977e15da460b9feeee61309fe04cfae421d67379,Update README.md,2020-11-17 16:44:26+00:00,False
+2f127253134e051085873bf3c3b28c2520a3f963,Update README.md,2020-11-17 16:48:35+00:00,False
+a57399538541606ac2c43ab63069bf08d7686c66,Update README.md,2020-11-17 17:51:29+01:00,True
+63035aeda21e584c7236394de9237b79dc77215f,corrects doc link to Sigma (#1571),2021-01-31 08:25:08+00:00,True
+c021944e60d98cc984556d996cdd6fa8d0dcfc54,hypen error in readme (#1572),2021-01-31 10:57:43+00:00,False
+d1715cec111a50b34b51ff9855f1b185a20ecfbc,Update README.md,2021-03-05 14:32:18+01:00,False
+9a1713dd07667652cc2ee1c527693bfe81e81a76,"Added instructions on how to install a notebook container (#1681)
+
+* Added a notebook instruction.
+
+* update docs
+
+* c
+
+* fa
+
+* f.
+
+* c
+
+* t
+
+* Remove and change out of date documentation
+
+* fix importer doc
+
+* adding discuss
+
+* heading
+
+* up
+
+* a",2021-03-15 10:01:01+01:00,True
+15311aa6a5fa6e98e72f413f37452ec36f84bbc6,Added a new documentation site (#1680),2021-03-15 09:31:45+00:00,True
+37f5bd5a20451c9a625c0c8cdf6c387a49c5e131,"Fixed broken links in README.md (#1696)
+
+Fix broken links",2021-03-19 13:50:07+00:00,True
+a1dfadc077f4fc2220a8d74de95e3003d7b99fa3,"Fixed broken/outdated documentation URLs (#2017)
+
+Co-authored-by: Juan Leaniz <leaniz@google.com>",2021-11-09 20:46:28+01:00,True

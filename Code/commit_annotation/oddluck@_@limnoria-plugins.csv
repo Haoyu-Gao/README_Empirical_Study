@@ -1,0 +1,318 @@
+sha,message,date,result
+8d2ba534d82457e7a3d45a91b6819c55f137f5ae,"Added kick ability to the BadWords plugin, imported it from supybot-plugins.",2009-03-11 13:37:24-04:00,FALSE
+95a83cb953db2707429ed2ea33e66b6e02c54273,"Added Unicode lookup
+
+git-svn-id: svn://rc98.net/supybot-plugins@1013 231ca652-46dc-4159-9403-8d4cb240bb29",2010-01-19 18:03:22+00:00,FALSE
+ed0af3cdb7ef62c3f2ceb41d5be8d42abebc4d07,"First commit, with LinkRelay and Timebomb plugins",2010-03-25 18:47:21-04:00,FALSE
+cb5c8d1219d4b898f7b3e1b7e0ca2200e178e42b,"Undercut plugin.  Number games based on those described in the book ""Metamagical Themas"".",2011-02-20 01:04:54-05:00,FALSE
+267911143f37c900f089bb87fa2776b15dbd35a0,Adding Uno plugin,2011-02-22 01:42:50-05:00,FALSE
+3fba5e56942ff9132233bf2b2fb03936a16f7181,Adding TMDb plugin (themoviedb.org),2011-02-22 19:46:41-05:00,FALSE
+27c46ee1e6d6fb32e1d464fc051b9eabb4c5439a,Trivia: import from quantumlemur repository.,2011-03-02 11:10:44+01:00,FALSE
+568678e2536919627011d4a64031fa0acf6b6f32,"First commit, the DuckHunt game for IRC",2012-07-17 20:59:22+02:00,FALSE
+14537359184df8ede4d026ff2712cef927e6576c,Update documentation,2012-07-17 22:06:14+02:00,FALSE
+64c5b0fd5f10b2005b27c574cea97e8606e80306,"Adds a lock when someone bangs, to prevent from lauching a duck at the same time",2012-07-20 12:20:14+02:00,FALSE
+72cec63deae9d2d8141fd340751015126e8fcdb3,Use a .md for README instead of a .txt,2012-08-24 08:26:41+02:00,FALSE
+3a172ca259fcedc9efde8b6beeb27f81d893480a,initial commit of HuntNFish plugin. needs method of storing highscores and other tweaks,2012-09-12 03:04:02-04:00,FALSE
+24397af063f62f94f401f7dfe713cd9959705626,removed files,2012-09-12 03:07:58-04:00,FALSE
+74ff479e761dd0151a123f0d5f0243451a868347,initial commit of HuntNFish plugin. needs method of storing highscores and other tweaks,2012-09-12 03:09:56-04:00,FALSE
+5f1c4ced1f8d99dc6d097606b8a23b10c69270f7,"adds highscore tracking, command to check highscore and README content",2012-09-14 00:42:26-04:00,FALSE
+de597fe29f1679ca802080bf79d73bd877b05e50,Convert all line endings to UNIX format using Flip,2012-09-23 09:47:19+03:00,FALSE
+145e004b29efeb89b148f7b5c1a3e0a49d2dfc13,made plugin.py generate highscores files upon load and fixed typos in README,2012-09-23 18:37:35-04:00,FALSE
+2449f9a42e1b6b13af357b1f83b1aa4690a4ee01,Initial push..,2012-10-23 15:03:06-04:00,FALSE
+a718e301443b8ea877adbcb46e30cedfc9809b50,Latest,2012-11-30 12:09:09-05:00,FALSE
+5c8c2d4b9f566569d3d82d6ee8d49f663574a7d8,Adding Geo plugin (provides geographical information from ip address using GeoLite City),2013-01-01 21:45:11-08:00,FALSE
+0372f002e91a82884a2eb57a69425f8c2b6eb764,Upload plugin default,2013-01-02 20:27:52-06:00,FALSE
+5f500e26ef1374b0bbc00d5c92b03451f2762ef3,Updated Readme,2013-01-02 20:33:03-06:00,FALSE
+75bfc751f506c733cca049a110e77c1c49c6c2ee,Updated Readme,2013-01-02 20:34:26-06:00,FALSE
+4f982d59fc79690bf54c62f79a3cbf1d3d7eab82,"Updated Readme
+
+Added Future plans",2013-01-06 18:36:00-06:00,FALSE
+11c84f81d0dce7e8e6696b47a099589194ffd6a8,Clone README over to markdown.,2013-01-12 11:49:04-05:00,TRUE
+f4fe2b42137f94feaf4b3f70a8d964e518396a5d,Update README,2013-01-12 12:11:45-05:00,FALSE
+e5bebd401d84ce47c654464a0bdd24d731914099,Fixed a stupid bug due to names.,2013-01-12 12:41:00-05:00,FALSE
+46df3e83997e7832fa1a25bbe201b0e3a38aecbc,Updated readme,2013-06-09 17:20:03-05:00,FALSE
+77a922c0c43be90b72c9261e47079dd1e4b82de5,"Mass rename README.txt --> README.md .
+
+[SKIP CI]",2014-06-06 12:08:44+03:00,FALSE
+608b745e4abea357cb3c5f831e4bbb9ebfcec882,"Mass rename README.txt --> README.md .
+
+[SKIP CI]",2014-06-06 12:42:33+02:00,FALSE
+1aa0bc0bd4c845bd8a3f4d5fb489f7b0157f2b03,Update readme for v1.03,2014-06-12 22:02:30-05:00,FALSE
+d49d24503cb9655280d5eb82e8fcadb17018a948,"Improvements to skip; improved definitions; updated README
+
+In plugin.py:
+* Updated version
+* created getTimeLeft
+* Changed next() message
+* Changed regex message when reporting
+* Changed restore question messages
+* Included timeSeconds when inactive users try to skip
+* Included skipSeconds when a user tries to skip again
+In config.py:
+* Updated skipActiveTime definition to include seconds
+* Improved skipTime, quizfile, showstats, skipTime, hintTime, hintKAOS,
+waitTime, enableVoice, timeoutVoice, nextMinStreak, skipThreshold,
+definition
+In README.md:
+* Added that restarting isn't required
+* Added update instructions for v1.04
+* Fixed typo",2014-06-17 21:41:15-05:00,TRUE
+b4169f0c386980e710b981cd9a4b42f0c20fcb37,"Readme fixes
+
+typos",2014-06-17 21:46:33-05:00,FALSE
+7fd5e522c9d5ddc1f502d40844a817b4f2f29562,Added __init__.py to readme,2014-06-18 16:27:55-05:00,FALSE
+232d151f973b9640732071af5aa5b358d026887e,Preparations for future updates,2014-06-20 16:43:10-05:00,FALSE
+a641cadbd37e39b86dbf7bc8b0a91348a0b13f46,"Improvements to readme; minor def changes
+
+* Readme now includes information on which files to update from specific
+versions to the current version.",2014-06-25 13:10:42-05:00,FALSE
+ff58dba94d53b50c1b36abe64016f92b1aceb99e,Added detail on editing tools to readme,2014-06-25 18:27:39-05:00,FALSE
+f00f017b119346441171197214ad588da023077c,Preparations for the next update,2014-06-28 20:27:22-05:00,FALSE
+bd5514885d0893f54769cd6969adefcf13080acf,Added new plugin for Cobe Markov chain bot,2014-06-30 22:24:26+00:00,FALSE
+0438daa1697dec41add38f4917992faffb7538a2,"Update README.md
+
+Added actual information.",2014-07-02 02:38:49-04:00,FALSE
+c7913aae925d06c4627126b14db36146c21020e3,"Fixed typo in README.md.
+
+- Change 'involded' to 'involved'",2014-07-20 19:22:11-04:00,FALSE
+03e4b028e48e2ed148b318b8f5658a544327ce35,Updated website instructions,2014-07-23 17:29:59-05:00,TRUE
+26583daea6619b1ea24a0191fbc3c535c6a51e79,Minor change to header,2014-07-23 17:30:21-05:00,TRUE
+7d342881c067fd820c0c723e988960eaa327bf6b,"Revert ""Minor change to header""
+
+This reverts commit 26583daea6619b1ea24a0191fbc3c535c6a51e79.",2014-07-27 22:38:03-05:00,TRUE
+cf8ec033076e5a5cb91b455c576b330a12760ea8,"Revert ""Updated website instructions""
+
+This reverts commit 03e4b028e48e2ed148b318b8f5658a544327ce35.",2014-07-27 22:38:11-05:00,TRUE
+b57ef07bb0bced2e397684fb23b6a2b3a154f7b0,Improvements to readme,2014-07-27 22:39:15-05:00,TRUE
+e5390b9acc2cd250d5a1cdf813bd3299c233cbc1,Touchups to readme,2014-07-27 22:44:11-05:00,TRUE
+23bd8796313ebdc5d0343203d2a718b4ab61eaff,Updates for v1.07,2014-08-25 19:50:00-05:00,FALSE
+bed4f8c50bff3df80e73328d2e16d6a5a5d378f6,Update README,2014-10-11 09:39:01-04:00,TRUE
+a339590f881c46618261dc49b6c4c8860e2fda1a,Update README.,2014-10-11 13:34:55-04:00,TRUE
+060c8480b0700b541208a59bf3937a5c654f6047,Update README.,2014-10-11 13:48:24-04:00,TRUE
+f2519ac28d4b8647cd0e648171f471cfa467b166,Update README.,2014-10-13 13:32:08-04:00,TRUE
+990d6044d2d2456e631e5788be071855dd30a4f7,Markovgen: First commit.,2014-10-26 13:18:24+00:00,FALSE
+4c92bd143df0a05984a61ab14937a2092e7feab0,"Update readme, minor edits to breakstreak",2015-01-16 23:28:57-06:00,FALSE
+714ec28bd6be414370d526670c0d558add4c1116,Added update info to readme,2015-02-02 21:30:09-06:00,FALSE
+5124ba32b6e6e48c26bf28eb135692ee6f08bc18,Removes time from info command,2015-02-06 22:55:00-06:00,FALSE
+4e09dcf95d361f4b3f098267b01411e942388749,Readme update for v1.3,2015-02-10 20:24:15-06:00,FALSE
+ecc3f2ae379f44540e8ccaec9ef3560c0aa384ed,Prepare for v1.3.1,2015-02-18 22:09:31-06:00,FALSE
+bc98efd54d56600d1a0f82bd36681ea3c36c62e4,Of course I managed to screw up the readme,2015-02-18 22:15:27-06:00,FALSE
+c1ef27199f42257f40f441b532e195ebb7cd2796,Prepare for 1.3.2 update,2015-04-03 22:25:26-05:00,FALSE
+93ed4122f5d4c96484023afe92cae35d56144616,"Initial commit for SpiffyTitles. This plugin is intended to replace
+the Web plugin, which did not meet my requirements. SpiffyTitles
+aims to be configurable, and easy to debug",2015-04-09 21:54:40-04:00,FALSE
+3abefd8d463bce16936a2e69419efc7ed692bc8a,Updates SpiffyTitles README,2015-04-10 16:12:52-04:00,FALSE
+86d95c6481dc31398de809db5bf63c4043471a67,Adds title to SpiffyTitles README,2015-04-10 16:24:00-04:00,FALSE
+25ad5d7c6cab58d077885f8d5900f070b7546484,Fixes formatting/adds details to SpiffyTitles README,2015-04-10 16:26:44-04:00,FALSE
+1e76646eb3d47c53e96799203b7a858366b78d38,Adds note about disabling Web plugin,2015-04-10 18:30:41-04:00,FALSE
+bb5968d232ee479f65ba690ca30e25894b8e42a2,Fixes #14 - Adds option for ignoring a list of domains,2015-04-10 19:33:31-04:00,FALSE
+4027358f7e2e701ccfc9db2a62c2853c78d1fb93,"Fixes #10 - Adds option ""ignoredDomainPatterns"" which is a list of
+regular expressions to match against the domain portion of the URL",2015-04-10 20:01:28-04:00,FALSE
+75a4e8e3684ad76e29d08d5bae60663337cde2ee,Fixes #14 - Adds channel whitelist for SpiffyTitles,2015-04-10 22:55:25-04:00,FALSE
+f9c16875a6f957c030ff3eac3a284c8985999dcc,Fixes typo in SpiffyTitles README,2015-04-10 23:05:29-04:00,FALSE
+7475c6cb253366f3a666541b954cd307141e5f3c,Updates SpiffyTitles README,2015-04-10 23:10:26-04:00,FALSE
+e919e71def03b355d4ce19391cdb3daab165751f,Updates SpiffyTitles examples in README,2015-04-10 23:17:33-04:00,FALSE
+f0d2a7bfeaabcc9619fd582e934ab8f35ca89520,Updates SpiffyTitles README to be more clear/consistent,2015-04-10 23:30:59-04:00,FALSE
+3e6c864ab067fe0944aedeebb417068efe314e29,Fixes default/off value for SpiffyTitles configuration option channelWhitelist,2015-04-10 23:47:31-04:00,FALSE
+22aecf048abb3699ba76f7f2dcecabd64d27b324,"Fixes #15 - enhances channel white/black list behavior.
+Adds option channelBlacklist",2015-04-11 12:39:42-04:00,FALSE
+fe4c58699e59bee4c2d5dc961e3c3361d45ea0b9,"SpiffyTitles: Changes ignoredDomainPatterns to a single pattern: ignoredDomainPattern
+SpiffyTitles: Updates documentation for ignoredDomainPattern",2015-04-11 14:08:49-04:00,FALSE
+bb6d7ae5accff1c8cb82a0d08a7ff70a9dd5aa51,SpiffyTitles: Updates formatting for channel black/white list documentation,2015-04-11 14:16:38-04:00,FALSE
+a0ac7f7c406a00932371d31049698ffc4b931804,SpiffyTitles: updates ignoredDomainPatterns examples,2015-04-11 14:20:36-04:00,FALSE
+66d8eb9481ff2caea8757c8b4f717dac0ffd8f29,"SpiffyTitles: indicates that ignoring links with the domain i.imgur.com
+is default behavior",2015-04-11 14:22:32-04:00,FALSE
+2a1d8c0e21489d5f9ba41233991fd7b522d9d9bf,SpiffyTitles: updates README documentation on templates,2015-04-11 20:49:57-04:00,FALSE
+0f29cd2037a5c07c0a7b9831074fdba51fb2af83,"SpiffyTitles: removes suggestion to ignore i.imgur.com because gifv files have
+titles",2015-04-11 21:05:30-04:00,FALSE
+81dc9da57ecaba6d4d03a56d146467952498236c,SpiffyTitles: adds more examples for channel white/black lists,2015-04-11 21:08:37-04:00,FALSE
+740b728d074acbc84e0fb164cbc3975c913c42d7,"Fixes #11 - Adds ""cooldownInSeconds"" option which allows throttling",2015-04-13 00:23:11-04:00,FALSE
+31cda595cbe895e17afcea30fc69984a3195d6d8,SpiffyTitles: updates README to document imgur handler,2015-04-18 13:44:02-04:00,FALSE
+260573361f4a6841754347e971cfaf879812b867,SpiffyTitles: adds example output to README for imgur handler,2015-04-18 13:51:52-04:00,FALSE
+580846f2bce75af3f59ade1d946813fbc8f3a440,Fixes #26 - Adds Jinja2 templating!,2015-04-18 15:47:56-04:00,FALSE
+35c5367e69411478806eda7e5c56b9368105ff08,SpiffyTitles: adds some installation instructions and requirements.txt,2015-04-18 19:09:28-04:00,TRUE
+2fa03933a1c4658f9a1cd6875a3710fd1709421b,SpiffyTitles: adds section to imgur template and updates documentation,2015-04-19 09:10:51-04:00,FALSE
+1d053b4cb05464b91b34dff03f8ef350d27b0f94,SpiffyTitles: Removes unnecessary space in beginning of template,2015-04-19 09:14:46-04:00,FALSE
+329111c0183d2ed6bc13578b5e86e9547fdee725,"SpiffyTitles: fixes #29 - adds imgur album handler
+Major refactoring to accommodate multiple imgur handlers
+Replaces single quotes with double to maintain consistency
+Updates README",2015-04-19 16:40:14-04:00,FALSE
+febfec0c1b022de08b2b7333759e280e2bb7460f,SpiffyTitles: updates README with notable features,2015-04-19 16:56:03-04:00,FALSE
+53ff5ab741da93b56c437d5596fa001e10826451,SpiffyTitles: updates documentation on imgur templates,2015-04-19 17:53:39-04:00,FALSE
+9b5331a82abc1a33f632664632bfadffe09be7eb,"SpiffyTitles: updates documentation for handlers, imgur specifically",2015-04-19 23:00:53-04:00,FALSE
+558811f9584763df303850bff2fac20018ffaf68,SpiffyTitles: fixes typo in documentation and updates command examples,2015-04-19 23:03:05-04:00,FALSE
+19df36b6382ae1f248f7078ec3cd1f4491fd7e04,SpiffyTitles: Fixes #30 - Upgrades SpiffyTitles Youtube handler to v3 API,2015-04-22 21:02:32-04:00,FALSE
+afde0eae861ec12cfbb03098a7e7f2dad177b8e0,SpiffyTitles: removes reference to rating,2015-04-22 21:08:03-04:00,FALSE
+193d23d8cde728a041384a359bced427b25d3cd5,Updates SpiffyTitles README,2015-04-25 23:09:20-04:00,FALSE
+a1bdfb2909ecf6276eec0f46b04aa01dd53a5d01,Updates SpiffyTitles ignoreDomains example,2015-04-25 23:10:29-04:00,FALSE
+327a7bce734c441cc67a3b06bf655bb2ed62c2e2,"SpiffyTitles: fixes #24 - implements link cache. Removes cooldownInSeconds options in favor
+of linkCacheLifetimeInSeconds. Default is 60 seconds",2015-04-26 12:50:44-04:00,FALSE
+82aa86d4142530e30ecdd0693be66835b8755cdb,"SpiffyTitles: fixes #38 - adds IMDB handler. Removes akas changes as this
+enhancement makes that obsolete.",2015-04-26 22:23:32-04:00,FALSE
+8cd5651305a75049afd0c5642c412547476ca135,SpiffyTitles: increases wall timeout and adds new option: wallClockTimeoutInSeconds,2015-04-30 19:56:07-04:00,FALSE
+02804ad678c62bb127c5ac36c51c0db27824aa01,SpiffyTitles: fixes reload command,2015-05-04 20:51:08-04:00,FALSE
+9837eb28eee6af2d1a7243d3bc025d9a277d848c,SpiffyTitles: updates formatting,2015-05-08 13:31:58-04:00,FALSE
+4330c0bc0453cef69753c9419281be91028bb694,Updates SpiffyTitles documentation to include enabling the YouTube API,2015-05-08 14:04:28-04:00,FALSE
+1bc3e989e79a1d59d5aba11e5cb0dfdc749da3b0,SpiffyTitles: specifies version requirement,2015-05-08 14:24:17-04:00,TRUE
+f2395ced3614d03d1d69c3f51c95e1f240c3f0c6,SpiffyTitles: adds enable/disable options for each handler. Fixes #28,2015-05-10 11:52:20-04:00,FALSE
+1d756e87554e5f433852b8fb4e04da3438aeb396,Fixes a typo in the imgur config commands. Thanks beo!,2015-05-10 12:20:14-04:00,FALSE
+6e4d24b5160d610d80a679b362d34e9de9776bc6,SpiffyTitles: adds certifi to requirements and a note about restarting the bot afterwards,2015-05-10 13:11:24-04:00,TRUE
+5980a881f9d538c5899fc5e40358f16b378be7d6,SpiffyTitles: updates documentation for setting up Youtube developer key,2015-05-10 13:53:49-04:00,FALSE
+132a571481ebb57dea00cbc2eb8f89c3944865d9,"SpiffyTitles: fixes #43 - adds a bunch of new variables for the Youtube handlers
+
+- like_count
+- dislike_count
+- favorite_count
+- comment_count
+- channel_title",2015-05-12 16:56:46-04:00,FALSE
+cfc88d89edb8277bc04cb4d79a2371fb384f6b11,"Fixes #39 - adds whitelistDomainPattern option
+
+This option allows users to specify which domains they want to show titles
+for",2015-05-12 20:04:28-04:00,FALSE
+863010bbb05b4ef26f350f098be8b7c3781362bf,SpiffyTitles: fixes #46 - improves installation instructions and documentation,2015-05-29 08:02:02-04:00,TRUE
+45522ecabec89056ce342353d84b39029960100c,SpiffyTitles: fixes #50 - removes reload requirement for all handlers,2015-05-30 10:30:45-04:00,FALSE
+91f92fe35f82ffc2d4d61806aa082b123f62b860,SpiffyTitles: updates README,2015-05-30 13:45:10-04:00,TRUE
+473269d099ce8897bfb273721e3e4b603edb4f02,SpiffyTitles: fixes command in README,2015-05-30 13:47:12-04:00,TRUE
+f05ffe1b14459db6eb38f3f6df1c87832b49d846,Updates SpiffyTitles README,2015-05-30 13:50:40-04:00,TRUE
+580960c712a9f97bb6a634e952ef2a163041b78f,"Documents coub.com feature for SpiffyTitles and adds coubHandlerEnabled option
+to be consistent with the other handlers.",2015-06-07 09:40:24-04:00,FALSE
+4921e40591c590a4fc61863666c89db5e940cf6b,Fixes #55 - Adds IMDB plugin,2015-06-09 20:47:28-04:00,FALSE
+98763522b0bc4c16df9a08f21daec645f64a0df9,SpiffyTitles: adds YouTube template variable yt_logo which shows a colored logo,2015-06-13 14:25:23-04:00,FALSE
+c433829c0902394a202e694afb60f76b35df9379,SpiffyTitles: fixes #56 - adds linkMessageIgnorePattern option,2015-06-19 16:56:43-04:00,FALSE
+2108cbe3196e8bf1f40182ead67374279f8cf375,SpiffyTitles: fixes #52 - add on-demand title command,2015-06-24 17:10:19-04:00,FALSE
+9fa8ff7581095af24d8d4723b3a1a2b25403bdd2,SpiffyTitles: fixes #57 - Adds vimeo handler,2015-06-24 18:49:10-04:00,FALSE
+21e8dea9423686554734400dda38175848241dea,SpiffyTitles: fixes #58 - adds dailymotion video handler,2015-06-26 17:45:25-04:00,FALSE
+c9467537a6e3b3b1638669a676876af54c9d210a,Updates README instructions for Youtube handler,2015-07-07 20:34:21-04:00,FALSE
+cdbf7932e1f05e98f149aeeb81e8d2034d81e1e5,"Fixes #65 - Adds ""ignoreActionLinks"" configuration option, which allows users to
+specify whether links that appear within actions are ignored. False by default.",2015-10-17 20:41:33-04:00,TRUE
+88a9434087760a8d10c6a4d2da98663f40adbb6c,Fixes #40 - adds requireCapability setting,2015-11-03 18:52:22-05:00,FALSE
+8752af8065ba7137ad0982fee81a9222da639b2f,Updates SpiffyTitles documentation/default configuration,2015-11-06 18:57:12-05:00,FALSE
+b13d32481f12e8be8787e90252d35323150e2340,Changes linkMessageIgnorePattern to a channel configuration settings. Also documents that setting,2015-11-08 19:13:26-05:00,FALSE
+a16014c039a406d6ecfe35743b098dd0e3caec1d,"Changes ""defaultTitleTemplate"" to a channel configuration value",2015-11-09 18:24:17-05:00,FALSE
+e3b71443b0e6654e432800f77529a8599b526353,Changes nearly every configuration option to be per-channel!,2015-11-09 19:44:49-05:00,FALSE
+335eb6ab21aed226313403f21c5d0b01612c4eb3,Fixes an error in the documentation,2015-11-11 12:07:16-05:00,FALSE
+492e4fbee52c696146790863c5a5a0caf44b6a5c,Reduces verbosity of logging and updates documentation,2015-11-11 18:15:28-05:00,TRUE
+80ca56d87035a6c96e9a94f98498753a365dea38,Fixes error in regular expression example in documentation,2015-11-12 22:41:59-05:00,FALSE
+05b7ea1a464bf098068211b08b922ff329958e7b,SpiffyTitles: Implement Wikipedia extracts,2015-11-20 04:37:08+11:00,FALSE
+f3cefdd2f42b1f1881676a0ee2a440e071c100fb,"Channel names in channelBlacklist and channelWhitelist must be lowercase. This was not made clear enough, now noted in the README.",2016-11-17 22:58:15+00:00,FALSE
+57cfd496d404671dfdf691ae845f7bdc8124d592,Initial commit,2016-12-13 18:04:45-03:00,TRUE
+570ce7cf96c2b362174b94425bff4165321af2f0,"Fixed #1, the right command in the readme and the right module for `getoutput`",2017-02-21 14:24:52+01:00,FALSE
+d8fd9961c8372ce205a36d05f91363ad65f35ea4,Update README.md,2017-03-21 16:48:46-03:00,TRUE
+47b1f971616144d29d8fc0f9f584ce0ca2571825,Forked WolframAlpha from reticulatingspline/WolframAlpha,2017-12-12 20:43:23+00:00,TRUE
+5f190cfa7e7deeddfd4890651f331beee9daddd7,initial commit,2018-09-28 19:49:43-05:00,FALSE
+f25ef4167e16e81b26663f73ee549164ad3940df,initial commit,2018-10-03 13:10:18-05:00,FALSE
+6c4467e7c318774a1172ea9855923d2cde1a83ea,initial commit,2018-10-03 13:14:13-05:00,TRUE
+d0e813dbd22bf6c14573cbdc243ed8cf7510758b,initial commit,2018-10-26 16:04:05-05:00,FALSE
+6876cc2d8460ebda6e8516e0bf2a219489e1698d,initial commit (fork),2018-11-07 12:39:27-06:00,TRUE
+6e58c3fe1dbdcbee6276e91f4ef6e468d142042d,cleanup,2018-11-07 12:43:31-06:00,TRUE
+da0c9c80b4c05f31a004c65f9280eec9e1f7b98b,initial commit,2018-11-17 09:53:24-06:00,FALSE
+2e2ef8dcab10c678748caa8c7fc62b51b297a091,Link to Limnoria,2018-11-21 03:25:07-05:00,TRUE
+efe4078fa978ccc51aafc7d346b9145d1b2ee4e4,update requirements,2018-11-21 03:26:56-05:00,FALSE
+dd0f2d2cf378f63109eba1f31451b9818134c591,initial commit,2018-12-30 14:57:55-06:00,FALSE
+217479925fb937d8a2a29d580fd338ff3bffc02c,initial commit,2019-01-04 11:17:04-06:00,TRUE
+8abd94444bb9fecc18968a0d5175900e3bdab50c,update readme,2019-01-04 11:26:18-06:00,TRUE
+a6686aebd132ba869d22fb89ed2fb90e7865c492,update README to include instructions for saving user options,2019-01-04 13:02:10-06:00,FALSE
+a55f313180bb4c10158417c1c2a7b1c205e6dece,update README to include instructions for saving user options,2019-01-04 13:02:53-06:00,FALSE
+dd26c66410bdfad7991433b33996f53761e9f9b7,"initial commit - it kinda works, but stuff is definitely broken",2019-01-28 15:52:58-06:00,FALSE
+aaa55003b973aef2b438370a9cf13318e5d0b70f,Create README.md,2019-02-07 08:18:28-05:00,FALSE
+217d63211a5749b187a3e007a0ff8b910bd6bb57,Create README.md,2019-02-07 21:34:58-05:00,FALSE
+a19b0f207a4aef4433b21543ee119cc5d85e0a68,Update README.md,2019-02-07 21:41:10-05:00,TRUE
+bb73a0b8842f8a99fee291c0e2087f76c5272eb5,Update README.md,2019-02-07 21:50:51-05:00,FALSE
+16afd2c7568ac2c2bf983467e03c064c15ba4740,Update README.md,2019-02-07 21:56:12-05:00,FALSE
+0244ada92ccf4bd855ce9cbb59c07940cc58113d,Update README.md,2019-02-07 22:17:15-05:00,FALSE
+9d22cda332f38073c4558e140909384a9edd6f03,Update README.md,2019-02-07 22:39:34-05:00,FALSE
+0945cb7354931804cebdb2f5468bd4f974c64e51,Update README.md,2019-02-07 22:39:47-05:00,FALSE
+574659e41c3752f6c748823ecba0580eff723ecf,Create README.md,2019-02-08 00:47:05-05:00,TRUE
+f2c898b40ab9665e5893a8541820794dddaae769,Update README.md,2019-02-08 16:27:13-05:00,FALSE
+ae216897cd9c45259853c3f84eae826f344482aa,Update README.md,2019-02-13 14:17:12-05:00,FALSE
+13f801e3c428fa61c780106d02c8dd7c1e348e79,Update README.md,2019-02-13 18:14:56-05:00,FALSE
+bd587704e86f5d656d5da4c5830a2e1bad718968,Create README.md,2019-02-14 13:45:08-05:00,FALSE
+424ea5e6757eab160e3254190a9fdf98546d9079,Update README.md,2019-02-14 13:58:51-05:00,FALSE
+40e8c8c12defa4cd1cc2f88d71e43a9ba224d251,Update README.md,2019-02-14 14:00:30-05:00,FALSE
+efd0add1feef28a96b66a1aa064396a6cc541d0f,Update README.md,2019-02-14 14:05:07-05:00,FALSE
+380f899ce2d2dc81c0f2d8a236e04f4c704ec144,Update README.md,2019-02-14 14:05:34-05:00,FALSE
+d1cca69c4d4965d2f8713ffbc0f69bcee4cf17f9,Update README.md,2019-02-14 16:55:46-05:00,FALSE
+66c04e050b774dd5d5e77215764f3f407dd47a94,Update README.md,2019-02-14 16:56:09-05:00,FALSE
+eacad28d91e5a22ee449512afe79dc255b1cb7f5,Update README.md,2019-02-14 19:06:13-05:00,FALSE
+bee10e4ca44b1059171f9c6c2042c8f8282358ae,Update README.md,2019-02-17 23:57:55-05:00,FALSE
+806f59ab5cc7503bd1e6a1024a245deff929c8c2,Update README.md,2019-02-17 23:58:25-05:00,FALSE
+bfa42174b91bf863524d1167077ee3a6a8c94a51,Update README.md,2019-02-18 02:37:49-05:00,FALSE
+b06c2ca1ec494ecd521025c4c2949a34fa8cb6f1,Update README.md,2019-02-19 02:47:40-05:00,FALSE
+865544530fd4d850a8e698c22336ee1bc78bbba7,Update README.md,2019-02-19 04:08:09-05:00,FALSE
+93ad18f25951a5063508344ec2b8f7b291513427,Update README.md,2019-02-19 12:46:42-05:00,FALSE
+eb973dd597d7fde0fdd370b0d27930290b97bb6f,Update README.md,2019-02-19 12:48:16-05:00,FALSE
+aab0c5bbe95f1f1f8b7807826ea20a1fda978fb8,initial commit,2019-02-20 15:51:20-06:00,FALSE
+3051199040b9b8112ea97bafe5b642750265f8d5,Update README.md,2019-02-21 19:53:07-05:00,FALSE
+6b5d0974fbf2a212ea842e6de1426904f701dc6b,Update README.md,2019-02-21 19:53:17-05:00,FALSE
+f0ca972736aefa1cc4c94c15586851d2ee452f86,Update README.md,2019-02-21 20:01:16-05:00,FALSE
+181cec8b284040ae88df04807d1289d912d85fc3,Update README.md,2019-02-21 20:01:28-05:00,FALSE
+65c49c8b0504fc873cdc708bb3079ad9713ea19b,Update README.md,2019-02-23 00:37:42-05:00,FALSE
+78e0524f654f865814d93c1c2d8d064d98d75417,Update README.md,2019-02-23 15:40:12-05:00,FALSE
+aee383c3d5c949167b5b50760dec5f084eab371a,Update README.md,2019-02-23 15:40:39-05:00,FALSE
+f847106f660094176cf3bd7128e63e2b8d035407,Update README.md,2019-02-25 15:19:26-05:00,FALSE
+c3ac9ac807be189a825b9ebe40b24af22e4ee4b6,Update README.md,2019-02-25 16:18:21-05:00,FALSE
+ca93cdfdb839adb3185c61a1e4b2185b29f7f7fc,Update README.md,2019-02-25 16:20:03-05:00,FALSE
+2ffff0dd5c3af9124577be69aeb34162346b6c64,Update README.md,2019-02-25 17:45:11-05:00,FALSE
+4ac64c66411634ad9ae7d3b0b505155dbb3c9cab,Update README.md,2019-02-25 18:22:46-05:00,FALSE
+f33182d0ab89d683861ac306d8ed660e40564be2,Update README.md,2019-02-25 18:42:38-05:00,FALSE
+cc79d387c3886f7c5c35e120e0012a7fe644b169,initial commit,2019-02-28 09:34:46-06:00,FALSE
+c55ac560ecd5873e7a193c1d6640e23954f60c62,Update README.md,2019-02-28 19:37:44-05:00,FALSE
+6ef5e20ec8fd64c49422cae2a5ce084eddc09224,Update README.md,2019-02-28 20:07:58-05:00,FALSE
+024de5196449b7d7473b12ae136b2d7aaff12ca1,Update README.md,2019-02-28 20:23:23-05:00,FALSE
+3ac74ae5145f52762fab8cc3e266eb312eefcdcf,Update README.md,2019-03-01 01:46:07-05:00,FALSE
+b6446ab7cf1bf35d167f856390deefc4ae3d316c,Update README.md,2019-03-01 01:47:16-05:00,FALSE
+a8dd5281d47cad3adc86ef67fb497857039ac4b0,Update README.md,2019-03-04 18:13:21-05:00,FALSE
+2bac3e4c587d7fd8334146857fc45afc79857760,Update README.md,2019-03-04 18:22:28-05:00,FALSE
+a2cb0d5d5abd89d50d7bf8e9cd63f79927c78115,Update README.md,2019-03-04 18:24:07-05:00,FALSE
+2cdf7b5a384014b2175c714bf35ec90c05165ce4,Update README.md,2019-03-06 00:46:08-05:00,FALSE
+4044f8435a27af09e3b8ed1dc00b8853a10a4004,add omdbAPI,2019-03-09 01:22:25-05:00,FALSE
+c3c35e2b0c4e41fbab04df3d7ab53d00f9e89e7c,Update README.md,2019-03-09 01:54:16-05:00,FALSE
+fff97fc70042fd914d6abb72e751e2601b059027,Update README.md,2019-03-09 01:56:53-05:00,FALSE
+5ae4fa2e986b238a2af969d15c0e17d0d8885a7f,Update README.md,2019-03-09 07:00:55-05:00,FALSE
+0bfc2c62913753d1933f987ccb86dcce5d9fcb28,Update README.md,2019-03-13 05:37:38-04:00,FALSE
+34c640f8ac4d397284e1ccb508c7d2822edc7592,Add ASCII Art,2019-03-14 06:50:27-04:00,FALSE
+f6acb89f3963fa4266fcf67c73912a48198468a5,Update README.md,2019-03-14 07:20:04-04:00,FALSE
+a02c42af3e634a87db8b649238bd5346c0c275ce,Update README.md,2019-03-14 17:26:17-04:00,FALSE
+995380dcae1849804f201f33e89b77af6be3a12d,Update README.md,2019-04-03 01:27:33-04:00,FALSE
+63ab749cbd133f14325123076b865b8054b40d80,Update README.md,2019-04-13 15:14:55-04:00,FALSE
+573449127e0cc94a63f3149c2bc6dc508e101514,Update README.md,2019-04-14 17:09:44-04:00,FALSE
+79913f21965e2e2da54507a0576625fd888575d3,Update README.md,2019-04-14 17:28:16-04:00,FALSE
+94cbcdefbf00e71e6fcabf364c6a9710d3bfabee,Update README.md,2019-04-14 20:22:07-04:00,FALSE
+1515672a1a40c646ba941f48d8f0c49c10db5d8c,Initial Commit.,2019-04-14 20:47:32-05:00,FALSE
+15f6b447207028ea436599ed6636edc2b802989d,Small improvements.,2019-04-14 21:56:49-05:00,FALSE
+eb9fa3d69acddf4e26205cd04521cbd13e50b5ab,Update README.md,2019-04-17 02:23:45-04:00,FALSE
+2547d8829aea94b2dbf3f16c531646837d906893,Update README.md,2019-04-17 14:27:21-04:00,FALSE
+3cb88a14db509db2aa48c1b502a5b9c3ab493f2c,Context-aware functionality added.,2019-04-21 13:16:55-05:00,FALSE
+0072aecbcdc87fa7c37ccdd6424255c28a572d52,Update README.md,2019-05-03 15:07:22-04:00,FALSE
+9287dce3b70a52fc3ae6f95a8863149b481fc0bb,Update README.md,2019-05-13 19:17:40-04:00,FALSE
+3ba1afeb55f194ab1c62f9b79ce3508f32503b0b,Update README.md,2019-05-21 19:15:45-04:00,FALSE
+d5f3ba9be037bfc2a9fe852dbe53796415d4adcf,Added link.,2019-05-25 04:46:05-05:00,FALSE
+1b7909bfdc503ba3ac4da959a542f52c934ac5ff,Only read the latest 100 messages.,2019-06-08 13:32:02-05:00,FALSE
+577562f02bcecbc806ac42534d3503ba6b343ecd,WikiLeaf broken info,2019-06-12 19:47:54-04:00,FALSE
+7939655fef19e536fb766a479f7646968de8b577,wikileaf broken explanation,2019-06-12 19:50:45-04:00,FALSE
+d4bfc2e9cebf0487c5bc0b10d10efaf09b5b0f0c,Update README.md,2019-11-15 20:31:05-05:00,FALSE
+02471fdb86ea47998d9c1bbbfa0d5aa0934f8d33,Update README.md,2019-12-05 01:02:53-05:00,FALSE
+658e7f3ce0f5c1c06ef7e5ce158118eecc8b3cb1,Forking.,2019-12-05 06:11:57+00:00,FALSE
+9417cc1aa858f408afbd92ffef8139388cbedf7a,Initial commit.,2019-12-05 07:18:17+00:00,FALSE
+d2354b7fcd300267978fda0f893414f9dc78c58b,Initial commit.,2019-12-05 07:21:06+00:00,FALSE
+9a8844e977cfd5c020d881dd5b610bceba2da882,Initial commit.,2019-12-05 09:43:11+00:00,FALSE
+adba9a01db52c428902c61da291345824358b4e7,Initial commit.,2019-12-05 09:45:11+00:00,FALSE
+81ff0d5781e1034f90d4557a1e4ad00d87332e58,Initial commit.,2019-12-05 09:46:21+00:00,FALSE
+2344075942a1f955f80b19eca91fff72c5f3ba6b,Initial commit.,2019-12-05 09:47:32+00:00,FALSE
+8c6240fdb24f306aac1d55c36f1c92aaec1692c5,Initial commit.,2019-12-05 09:49:10+00:00,FALSE
+34f9d906775076aefe6ab347c871b5602be9c013,Initial commit.,2019-12-05 09:50:22+00:00,FALSE
+1849561caf5bd010c193e8ecb3d6d9b66afe93c7,Initial commit.,2019-12-05 09:52:21+00:00,FALSE
+dbe9879f422538db5a48740fd4ae3ff7e027d4ea,Initial commit.,2019-12-05 09:54:21+00:00,FALSE
+8fe0c3d930d8f1132ded783878f173ce551b1378,Update README.md,2019-12-05 05:08:44-05:00,FALSE
+00f7627a9f14e2b3ac81dcaddbef7f7b6b6749d4,Initial commit.,2019-12-05 13:36:28+00:00,FALSE
+0f75093efdcda152722af9bcffe4c31eb6b44038,Initial commit.,2019-12-07 08:54:25+00:00,FALSE
+228567bf88fd9b48a3a9ccd6610dad78df44238f,Add Cobe plugin.,2019-12-14 17:24:22+00:00,FALSE
+ff4291e42dbcf3f37adf152956de70ff513175db,Add RedditBot: a markov chat plugin.,2019-12-19 07:56:04+00:00,FALSE
+bcaa273e87128a4e31666deab06f7cffa2985c23,WolframAlpha: python 3 compatible.,2020-02-13 12:35:58+00:00,FALSE
+06734d17cbf078ff83df2c9567ab44c6a1861370,Renames and fixes for sports plugins.,2020-02-14 13:46:18+00:00,FALSE
+4023750260017e67b29cc15555eaf8780f545c08,WorldTime: modernize for python 3,2020-02-22 15:53:39+00:00,TRUE
+ab85ebf3ca2d9e12b09207cb5415e92c3207721b,WorldTime: move plugin.,2020-02-22 15:57:13+00:00,TRUE
+1b9a885a20f113797c980594b85c6b2303437107,Update README,2020-03-02 16:18:35+00:00,FALSE
+1a7e76e0f34253c6ba45e41be4219c85b57c56df,Update README.md,2020-03-02 11:19:45-05:00,FALSE
+36b281e1dfb58343938f5574a02ac9df5596d9de,Update README.md,2020-06-09 22:13:28-04:00,FALSE
+d4bbc6adab954fead472db32158b95bac719961c,Update README.md,2020-06-09 22:20:02-04:00,FALSE

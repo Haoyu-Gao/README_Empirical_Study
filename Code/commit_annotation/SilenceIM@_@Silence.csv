@@ -1,0 +1,81 @@
+sha,message,date,result
+bbea3fe1b110afadbac4d6a2c183dc4d899e4ead,Initial Project Import,2011-12-20 10:20:44-08:00,False
+2bf4011ad38b1332a27b0bfbd591b632612e3c23,Fixing grammar in first sentence of readme,2012-08-21 16:44:12-07:00,False
+6acf4ba3f62bc4fa681abf0bda151ed307a9a29e,Add note about translation to README,2012-09-13 20:50:31-07:00,False
+10865bc75f40470e094b8b104fd53cc7795641e9,Update README to reflect Play Store location.,2013-02-07 12:05:36-08:00,True
+fccb4cc0cf40d752962be21950065aaa9bbdc777,Add bithub payout slug.,2013-12-16 09:58:56-08:00,False
+ff5ad4b85de739d7bfe569344cb7c18d7d15f814,Updated copyright,2014-01-06 14:37:52-08:00,False
+dc85b23a06230146bbc1d369f2a17b675fd7e4a8,Link BitHub image to description page. Fixes #591,2014-02-11 00:50:09-05:00,False
+107d999ee7b1c15fe6cdd5fcf51283aa36f2cd29,"make bithub price update // FREEBIE
+
+thanks lilia",2014-03-01 11:57:46-08:00,False
+35eeaa9bd52a08d64186b093288ced789c7b0abe,"Added more build information to BUILDING.md
+
+Added more instructions about setting up a development environment.",2014-03-04 08:44:54-08:00,True
+16764f74fe8a44bd9b6fa7b50129df98c7f87817,"reorganize readme
+
+// FREEBIE",2014-06-12 10:02:18-07:00,True
+453610c39f38a0a09b51fb05d2d735f316bdf6b0,"Add Travis CI config.
+
+//FREEBIE",2014-06-17 14:13:42-07:00,True
+1bb882ac96b848de44b24316f292e9d315cf4808,fix bithub payment link and image,2014-12-24 13:22:31-08:00,True
+cb37ce0f5fb879bf6124a83fc79fa243af828489,"Fix README typo
+
+// FREEBIE
+
+Closes #2396",2015-02-15 14:41:36-08:00,True
+c58b506d4768198c7854d0f219e08baa9b9a1e7e,"Update README
+
+Remove any reference to the Open Whisper Systems mailing-list,
+Transifex and funds",2015-03-18 19:28:42+01:00,True
+72978d3093e153a34fce14f0192296b3bf7311a9,"Update README
+
+SMS cannot be sent using data anymore",2015-03-19 00:44:11+01:00,True
+1c8d1daaf811f8b656ca0a62400606009cead2c2,change package name to org.SecuredText.SecuredText,2015-03-19 11:20:00+01:00,True
+07284e74d83c32d4957c9f90728c6f1c2dd296d6,"disable build badge
+
+Currently broken",2015-03-19 11:23:03+01:00,True
+6c6ac7170e2f0d8655a7c66f79974d4d1138ef95,add goals of the fork,2015-03-19 12:04:47+01:00,False
+968572d35c1368e99017dac0199b086f24c3901c,mini-tutorial to migrate from TextSecure to SecuredText,2015-03-20 00:14:04+01:00,False
+8a148610c73b8fde1759bd08f2041618fd70062d,"SecuredText can be installed with TextSecure
+
+Fix a conflict in authorities.
+Closes #1",2015-03-20 17:39:51+01:00,False
+f31ff0561667e9d1160a263c20c3c8b87398d821,"Revert ""disable build badge""
+
+This reverts commit 07284e74d83c32d4957c9f90728c6f1c2dd296d6.",2015-03-22 00:36:56+01:00,True
+0ae611720eebe677f243200d1bd303f9762bd88d,"Add IRC channel to README
+
+Fixes #10",2015-03-21 23:08:34-04:00,False
+b6a7394576530c926518d93aa8e5a765ec63f506,"rename project to SMSSecure
+
+Fixes #15",2015-03-22 23:38:42+01:00,True
+b92141b0828a46b9c97d73f42248f88b904f1069,"Add Transifex project to the README
+
+Closes #13",2015-03-24 01:34:25-04:00,True
+847b9ed1a69a742b1aa07ee0ff5b71783694e535,remove US cryptography section,2015-03-26 01:06:37+01:00,False
+90ae991b4674c391d8936b91aab86fe412e5d79f,remove copyright for SMSSecure,2015-03-26 23:42:32+01:00,False
+81218a9b66e767d1e6d9be38bd0c9dd067c9ad30,use https irc web chat,2015-03-30 20:28:22+02:00,False
+75f2216758ccd300915fd76aeddade85a9d21b7f,Change TextSecure migration instructions,2015-03-31 18:57:02-04:00,True
+da0067286d6985c3e3127223024982a5851f3c1a,Clean up README,2015-04-01 22:52:58-04:00,True
+73693919de6d689aec48e42cc5d4cc1b30f2f99f,typo fix,2015-04-04 20:42:00+02:00,True
+f1adb02960c1d25142871471ece2ffb58dcbaa6f,add Twitter in README,2015-04-04 20:45:20+02:00,False
+5035635dca10b82115b06742ee9c798927a0b77a,"Recommend using an updated version of TextSecure
+
+When TextSecure <=v2.6.4 is installed alongside SMSSecure it can cause
+issues by trying to automatically complete key exchanges, even when not
+set as the default SMS application.
+
+Fixes #83",2015-04-08 14:01:19-04:00,True
+8586f4d62f476c2b7fa776ae7bf04685718a6d40,"rename SMSSecure to Silence
+
+Add a notification with the new brand name.",2016-04-22 11:09:08+02:00,True
+8c53fef47d2f77735e191ef42b7fc661301078ed,add the old name in README,2016-04-22 20:15:22+02:00,True
+6a4f4fbfb3287e9e08d7152e2661a44eb5ad3966,add Bitcoin address,2017-02-26 20:48:43+01:00,False
+f66205249fcf8c3b122b9cb0c28b3fff4bf3da15,Add buttons to get the app easily,2017-03-02 18:32:39+01:00,False
+4d3365f0e0b095487f5f3342534efebbb5a4e44e,use markdown to display stores' buttons,2017-03-20 14:29:45+01:00,True
+bed161a019dc168cda187877b26fe703195462d8,move from Axolotl to Signal protocol in strings,2017-03-20 14:31:46+01:00,True
+08c2c9f3a3740e4692157c110549c65beb50ed28,"move build instructions and templates to GitLab, use Weblate",2019-08-25 11:12:51+02:00,True
+86643b6658c4525e7ea92e9f2b5680a8e5bd9da4,IRC -> Mattermost,2019-08-25 22:53:49+02:00,False
+e59363a19b55b80ff1d6569421f30a8f0780c01b,move to GitLab CI,2020-04-12 18:19:31+02:00,True
+2a83386252162034bd3fd33d20be10224ee7bb1a,add translation badge in readme,2020-04-14 13:13:12+02:00,True

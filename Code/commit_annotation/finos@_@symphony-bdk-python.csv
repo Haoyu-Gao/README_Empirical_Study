@@ -1,0 +1,177 @@
+sha,message,date,result
+2be7f9aa0dad8756c42900e64e8f1acc0ea5ffa6,first,2018-07-24 14:40:01-04:00,False
+0dd6db7727eca6b025e607aefb026fb0a7ad7ebd,first,2018-07-24 14:45:40-04:00,True
+0f69d8a42fe31be5670bb257e5082fce9e40af95,blah,2018-07-24 17:32:19-04:00,True
+390cbe14aee4264987527b7662f0a587e6d14bfc,readme,2018-07-25 15:39:14-04:00,True
+0b52d9cef6ae9c2166ad0df28cda7d338512ee1e,readme,2018-07-25 15:40:10-04:00,True
+717bd0b844fe81d041e39a477389884311995239,updated hello.py,2018-07-25 15:52:47-04:00,False
+db887e344d31d5398291848b4a9a21948a8c7c86,seperate hello's for RSA and cert,2018-08-02 13:43:06-04:00,False
+e27f002d489154f4f94666d94c876c7dfd3aa9a0,comments,2018-08-20 16:45:42-04:00,False
+7ac5e3b1b4efff5c9bec3fd9b598a8a5c22cbe47,"Update README.md
+
+Removed comment not relevant for the cert Flow",2018-09-24 16:51:24+09:00,False
+972334177259a040a5d1d760c2325a5304c292d7,"Update README.md
+
+Typos on word ""Received""",2018-09-24 19:05:05+09:00,False
+3c3c47cf7f02f80fd3c120e3bb32464b3b01434e,"Update README.md
+
+RSA config.json botUserName was missing a capital ""N"" the config reader was bugging.
+Also the config reader is not capable to handle if the path has a trailing ""/"" or not , I so added this comment:
+(make sure that your ""botCertPath"" or ""botRSAPath"" include a trailing ""/"")
+
+Suggested for the newbies to adjust the paths that are hardcoded in the example",2018-09-24 23:13:13+09:00,False
+6fbb1a2ef2e29b7c58a2652cc5aa0359656c2505,RSA: fixed BotUsername param name to be consistent,2018-12-01 00:34:06+08:00,False
+d3ce32be1774937b2a313eaf64fa7be0c2eb17a0,readme/version,2018-12-11 17:39:35+00:00,True
+fd3f854f38e6fe7b212a432c4f697632979346ac,pep8-and-bug-fix: Update the README.md to make first time users easier to start,2019-02-26 16:31:16+08:00,True
+06b3e3799c86380a446b64e89d6f01602ce992e8,"pep8 updates and bug fixes, release info",2019-03-14 15:28:08+00:00,True
+5b2cb2dae787bf09eb1e00408ccf25fd8185fcb2,"pep8 updates and bug fixes, release info",2019-03-14 15:32:28+00:00,True
+0d8ea43831b5b74f0f700ff173b2a901719c4106,fix AuthClient and Proxy Protocol handling,2019-04-12 12:15:27+01:00,False
+7aaf8968451abfcc089256b143ee3d3bafdb32ea,"adding examples folder, changing README",2019-05-16 16:13:10-04:00,False
+797ce98e43562a6d6c7b54caf063f2af87930da1,Update README.md,2019-05-16 16:27:07-04:00,True
+9e1bd61d5bf239cead8c718542fecbbdd8d56471,"Update README.md
+
+adding JKS to python truststore instructions",2019-05-16 16:38:46-04:00,True
+c0f5b0e26b128d2551bb0658c318c9c661900bc2,"Revert ""Multi proxy""",2019-05-17 11:08:28-04:00,True
+bd29b0f32a0817e0feeb0a079b24ec2868766cf8,syncing changes,2019-05-18 20:02:09-04:00,True
+d21f615e20c92a4941ed2f5adefa9b5a153536c4,Update README.md,2019-05-20 12:11:47-04:00,False
+ce357ac3a7dabb093c3d4091952f2a9c94cf5827,auth config matches other SDKs with backwards compatibility,2019-05-28 13:11:50-04:00,True
+7addc187d713d79d4faaf08b9bb9ec89efc68b7d,fixing quote in README,2019-05-28 13:14:21-04:00,False
+f3ca30bee1f0d037192b9538d5ef78ae6db69d8f,updated version and README,2019-07-23 14:20:08-04:00,False
+4fe1ff3d0b21f1eeae273a6d9d9bb9b03293af13,Update README.md,2019-08-13 12:03:57-04:00,True
+47375304c44841345c183197f7e467c4b1ff54e8,updated readme and added elements_listener_test_imp.py file to listeners folder,2019-08-27 16:02:09-04:00,True
+75cd7df5c22a818c0e907be018f42f7363b7e92e,Update README.md,2019-09-04 17:59:46-04:00,True
+298c0fb7bd2efaf3200d98783cdc861d05e2523b,Update README.md,2019-09-04 19:05:27-04:00,False
+f29bac583ea17b8baf142d597d7677d0f59fb0d2,updated examples 2,2019-09-19 12:20:20-04:00,False
+b31bf0bd6e2e2c3f9e456f830df4c1fdf0eda0f2,"Introduce asynchronous datafeed listening service
+
+The current datafeed listening service uses requests to wait on
+datafeed/{id}/read until a response is received, handle that and then
+wait for further events. This means DatafeedEventService.read_datafeed
+is a blocking method and nothing outside of handling events can be
+performed by the program. It also means that messages must be received
+and handled in order, and no further messages can be processed until
+the current one is done. This limitation could be handled by threads
+but they are error-prone in Python, and it's not clear if the codebase
+is threadsafe.
+
+Instead this commit adds another class, AsyncDataFeedEventService that
+uses aiohttp and asyncio to listen to the datafeed in an asynchronous
+manner, meaning other operations can be queued on the event loop. Since
+the event loop runs in on the main thread, and typically bots are
+IO-bound, this allows for a model where bots can receive events,
+dispatch them to other async methods and quickly return to responding
+to messages. The original datafeed reading service can still be used,
+but for the price of some added complexity the asychronous version
+allows for far higher throughput and responsiveness.
+
+Several other additions have been made:
+  - Update the error handling to hand 400 and >=500 errors from
+    the datafeed, this now matches the Java implementation
+  - Add a timeout to datafeed errors
+  - Add the healthcheck client
+  - Improve configuration loading to be less dependent on current
+    directory and clearer about entries that don't exist
+  - Add a testing framework for the datafeed
+  - Add missing dependencies to setup.py",2019-11-07 12:29:24+00:00,True
+c7ed6300af319e55f8dc18ea9703c2b8e5b7475e,updated readme,2019-11-22 10:29:31-05:00,False
+1f7d3d8054900368981d7a04b3dac0f1923c80f1,formatting readme,2019-11-22 10:33:00-05:00,False
+915fae081e52b2d02b319096c0a89f6a74498ec7,updated readme for datafeed bug fix,2019-12-13 16:12:45-05:00,False
+e19a94819161fea3fbf450ae6b59c4b58b2f4aec,updated readme and setup.py for 0.1.24,2019-12-13 16:16:21-05:00,False
+9fe1ba72a3e7f1c7b7988d1f571b07f0d0ddfbeb,updated readme and setup.py for 0.1.25,2019-12-16 11:59:23-05:00,False
+998643a93bec39b431f37a632155b237b8c0dab6,updated setup and readme,2019-12-31 14:47:53-05:00,False
+1feed706305c837a4845355c8c1acfe3bb82cf88,version 0.1.27,2020-01-10 13:24:35-05:00,False
+8a743c27bcb2bba3fb22493c5494a19c78961ff4,added release notes to README.md,2020-02-13 12:27:19-05:00,True
+995526e2c342a38114e5034cf54c80b19e84768a,updated versioning in readme.md,2020-03-04 15:17:18+01:00,False
+de63a21746dd19e2daa2634d7cec5449e275a744,updated versioning in readme and install_requires in setup.py,2020-03-11 14:12:46-04:00,False
+49e32297b936e174970efe218005cf44830ffa76,"Maintain (#62)
+
+* made fixes requirements.txt, tests, and added asyncElementsListener class
+
+* updated release notes / versioning
+
+* added async elements handler to DFES
+
+Co-authored-by: Reed Feldman <reed.feldman@symphony.com>",2020-03-24 15:33:21-04:00,False
+4870cc5676579b57e704604243cdc0a8e4acf5c7,"SDK-14 Set Cache-Control header value to no-cache (#64)
+
+* SDK-14 Set Cache-Control header value to no-cache
+
+Setting the header value to no-cache when creating the agent session and pod session which will persist it across all requests made from theses sessions.
+Consequently removed the header updates of this specific header in specific request calls.
+
+* Updated Release notes, revised setup version
+
+Update the setup.py version to 1.1.4
+Updated the README release notes and development run command.",2020-05-19 15:51:05+02:00,True
+b489de9c986d58cdacf848cd3c8763a9d675fd39,"APP-2858 (#68)
+
+* SDK-2858 Added Datafeed V2 support
+- adding the DF version enum
+- adding 2 DF clients V1 and V2 with the previous DF client class as the parent class
+
+Adding of the DF V2 client functionality and Refractoring of the DF event service
+
+Added the response code 201 for DF V2 create datafeed.
+
+- Added functions to DF event service to keep backward compatibility.
+- Added handling of None values coming from datafeed read API call.
+- Removed self in wall post listener, add and remove methods.
+- Handled the datafeed at stale bug using the delete datafeed method.
+
+- Implemented tests for the DF client to choose the right instance, V1 or V2
+- Implemented tests for the DF V2 endpoints.
+- initialised the md documentation files
+
+* SDK-2858 minor fix in the DF event service > routing dict
+
+* SDK-2858 minor fix of a delegating function typo
+
+* SDK-2858 important typo fix of a DF Event Service > add_elements_listener",2020-08-19 08:59:52+02:00,True
+a0c5e09a334f3303f9cade73a83e5a7167dc3be5,"APP-3283: Implemented datafeed id reuse (#79)
+
+* APP-3283: implemented reuse and persistence of datafeed id for DFv1
+
+* Updated readme file",2020-11-20 17:40:22+01:00,False
+6da55406ebc8d2670bead9130133a9c0e5520866,"Use GH release page instead of release note (#82)
+
+It will simplify the releases, no need to maintain changelog",2020-12-09 10:24:43+01:00,False
+628cbf3aa857d3bc66a98a3ec009ce1c82295d05,"PLAT-10279 Fix async calls not using truststorePath (#87)
+
+* Fixed async datafeed not using truststorePath
+
+* Remove aiohttp workaround for Windows
+Created get_async_ssl_context to set it when called instead of setting it in init
+Added note with workaround for Windows users on Python 3.8+",2020-12-21 17:57:30+01:00,True
+15a9744cfc5a92ce28dd942d621b95c22d9a1400,"PLAT-10245: Moved legacy BDK into a legacy folder (#89)
+
+* Moved legacy BDK into a legacy folder
+
+* Skeleton of BDK2.0 project",2021-01-05 17:01:58+01:00,True
+69be0750622164822359be64a71e3a3f32f67f14,PLAT-10433: Sphinx documentation (#130),2021-02-23 16:00:24+01:00,True
+ab3d4880d75aa4e7c48d1202c80051b3d17ae9d5,"PLAT-10600 enforce pylint checks in PR builder (#146)
+
+Goal of this PR is to enable pylint checks in the PR builder.
+For now the limit to fail is set to 9.50 (max being 10.00). We can start like this and if needed we can adapt it later on, if we think that is too strict.
+
+All changes about fixture are related to this issue: https://stackoverflow.com/questions/46089480/pytest-fixtures-redefining-name-from-outer-scope-pylint",2021-03-12 09:13:35+01:00,True
+5a48f8068945184911bd33fcce67e9c3b5aed6d1,PLAT-10885: removed legacy folder from 2.0 branch (#190),2021-05-18 09:24:48+02:00,False
+775fbc16e77fda60e6c8331f516b52bb37640255,Updated LICENSE NOTICE and README.md to comply with FINOS guidelines (#214),2021-08-03 18:01:36+02:00,False
+b6fa8f55b7720a5a51ec0b91d4eb0310624ca54d,"Updated project files and documentation following move to FINOS (#223)
+
+* Updated links in documentation following move to finos
+
+* Updated pyproject.toml file following move to finos
+
+* Added roadmap in README file
+
+* Deleted jenkins folder used to release legacy versions",2021-08-24 10:11:43+02:00,True
+6d7885edfdf826372608d02f0a9244c24300ebfd,"#221 Cleaned up readme file and documentation after 2.0.0 release (#229)
+
+* Cleaned up readme file and documentation after 2.0.0 release
+
+* Removed mention of the now deleted legacy folder
+
+* Updated poetry deps",2021-09-14 11:13:18+02:00,False
+8aa6eda289a622451329154306cf39a553cafdd4,"Documented how to update generated code for external contributors (#310)
+
+Documented how to update generated code for external contributors.",2022-10-06 17:33:34+02:00,False

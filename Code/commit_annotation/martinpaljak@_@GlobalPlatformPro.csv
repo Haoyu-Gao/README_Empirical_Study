@@ -1,0 +1,123 @@
+sha,message,date,result
+608c18bcbd262ee8afaddd4ebda4b111090a7c8f,"Initial import.
+
+git-svn-id: https://gpj.svn.sourceforge.net/svnroot/gpj/gpj@2 d4cd07e3-b52b-4d75-8224-5724e8189783",2009-08-19 13:28:56+00:00,True
+8290d818a618fe62d3198823facba1e23efd51d7,git-svn-id: https://gpj.svn.sourceforge.net/svnroot/gpj/gpj@9 d4cd07e3-b52b-4d75-8224-5724e8189783,2009-08-24 14:47:24+00:00,True
+bfe6c9f611c57539bad38190f6710a6459d8db91,git-svn-id: https://gpj.svn.sourceforge.net/svnroot/gpj/gpj@28 d4cd07e3-b52b-4d75-8224-5724e8189783,2011-10-12 13:31:17+00:00,True
+a1e30a13bd49054012adaa248945f8e0f76fc518,git-svn-id: https://gpj.svn.sourceforge.net/svnroot/gpj/gpj@33 d4cd07e3-b52b-4d75-8224-5724e8189783,2012-03-10 10:29:59+00:00,True
+d701ff3c9f957e2a56fe1ae27631f56b564558c4,Modify README,2012-06-14 10:42:00+03:00,True
+4877437c105d93eb2edb225b84ba9d0e620b21ac,More adjustments.,2012-06-14 10:47:30+03:00,True
+9952121d7608ac890683777dc4d586aca6a32ca7,Also change the name of the resulting target file.,2012-09-02 15:46:56+03:00,True
+ee08cff6130357ce00251c2a33fb43aade24de6a,Rename README for github,2013-01-12 20:37:47+02:00,True
+a9a69105b88f7fee4ede95b173fa9ebf6140dac8,Adjust README for github,2013-01-12 20:38:50+02:00,True
+f6d5512593d22cd8d2f72c92a734affb7691edef,Rescue,2014-01-18 16:44:58+00:00,False
+37db4ba13694571256df82cd8179f02e364ec41e,Update README.md,2014-01-24 11:45:48+00:00,False
+d366922dba4ff32e9e4a6318649f98b2104e7854,Update README.md,2014-01-24 12:03:04+00:00,True
+193f74d84766f15c762e76fd64121f0898854a11,Update README.md,2014-01-25 15:34:59+00:00,False
+8f1ea1abae0168568a4e52502b3dc498ccc428f9,Similar projects added.,2014-01-27 20:55:34+00:00,True
+83aaf8a808cdb48a8c780c1fc3be0613296433df,Update README.md,2014-01-27 23:01:35+00:00,False
+d43f3df8d549feba825b8dc9e7689629e23864aa,jar file rename and gpjNG link added.,2014-01-29 15:58:29+00:00,True
+907a23821d0916cd5f6e4a7e848361c898978b21,Update README.md,2014-01-30 16:18:12+00:00,False
+2f115012b7a69e8811a349dc6ca9c6df4cdbae62,Update README.md,2014-01-30 16:26:00+00:00,False
+3cc33d10c7ba208643d95de40715123749399b56,Update README.md,2014-01-30 16:28:17+00:00,False
+2e266619d8a8312b2bb6721d992d10b73af1a1ff,Update README.md,2014-02-02 12:08:49+00:00,False
+1ad0694dbbe688580c0887603f4ffacf2d762414,Update README.md,2014-02-02 12:10:52+00:00,False
+501b9e43a77d720f4fca17a43605811d7a4043c5,Update README.md,2014-02-02 12:14:07+00:00,False
+72f6dc9d351c034a1e6ae4ef89e645d0b4533f32,Update README.md,2014-02-05 13:30:06+00:00,False
+50cf2cebb6cdaf2419b55e1cd2b3ed79ab1b7832,Update README.md,2014-02-13 12:16:22+00:00,False
+7a6357a58915fefb1ce123e6441e35157b814630,Update README.md,2014-02-13 12:59:44+00:00,False
+f056c08a8f32eddf751ac9e48969284027bfa335,Update README.md,2014-02-13 18:21:30+00:00,False
+0824e58ded9a8295fb507f434d3b2eaf492fd0b8,Add the -lock and -unlock commands,2014-02-13 21:57:18+00:00,False
+31c5e2be85935be86c78246873979f7900a9f6d5,Update README.md,2014-02-13 22:14:14+00:00,False
+4b5a7227b87a588eff2f69dde385d9e8b232c70d,Update README.md,2014-02-13 22:56:14+00:00,False
+39d4f4d4511a4ccb113dbb5c72173142f4826a55,Update README.md,2014-02-14 10:55:41+00:00,False
+d63e7a91f27cb3172bf9b9517eb11d55c427050a,Update README.md,2014-02-14 11:05:59+00:00,True
+f11b9ca0e3780d8a8c130f18ec627706bc77e4f4,Update README.md,2014-02-14 12:02:07+00:00,False
+708dab8ce8f2fc078f481e9d57065c56f93663e5,Update README.md,2014-02-17 16:47:04+00:00,False
+9a16e587452559505480b8e50d1ea8fe73b01fb9,Update README.md,2014-02-24 16:59:53+00:00,False
+ec403d663737811baf73bd79d188e8e3845521b1,Update README.md,2014-02-24 17:17:34+00:00,False
+c0c456207b89ec517378000d6be75ca5d9c49e0e,Update README.md,2014-02-24 23:21:21+00:00,False
+dc9b3203667e2f125ea9d6cb16b979e49752ef0f,Fix links in README,2014-03-03 20:06:06+01:00,False
+3ac50946271db569106396480ebb16a47e1b969d,Update README.md,2014-03-09 10:56:02+00:00,True
+3c8c83fa83c01468d87ae95b3c3d83bc95893ce8,Add -uninstall option,2014-07-01 09:07:34+03:00,False
+88d60653bbf2955db06d4dd078aa9b951a25e1df,Update README.md,2014-08-22 14:09:57+03:00,False
+1220a9cff27d1f616fd5027ffcc37c6aa17a3681,Update README.md,2014-12-03 16:50:09+02:00,False
+ff3eb5dc18b22a303560f401e319f2ac55f8936b,Get rid of wiki,2014-12-03 17:07:24+02:00,False
+508d39c8e677d547f3299d25d1f987698f1d4f6b,Add Feitian tool to list,2014-12-05 11:08:45+02:00,False
+fef0722c7e50cfc38db45c150abc2e1bd0a6922b,Suggest an alias,2014-12-05 11:27:38+02:00,False
+d1af31f512c7868ed458c271d29d32d5dbc24205,Update README.md,2014-12-05 17:27:08+02:00,False
+be0d3be414d2a6421db8746d8d8a3cd13c879f7d,Add JLoad,2014-12-11 14:49:26+02:00,False
+6a4c354d947b15531164378b91a981042bf44e2b,Add new release plans,2014-12-14 23:33:16+02:00,False
+710b0cd9f5ec2af49bfc3d6bb605e083c60da4d9,Update README.md,2014-12-15 11:30:38+02:00,False
+35c2318d76a7fc74599e113f64f27e734ed82073,Rename preparations,2014-12-15 11:36:22+02:00,False
+abe1ab3c01a7a964e2c9086b1616df0cef47ec68,Fix travis URL,2014-12-15 18:11:31+02:00,False
+5db73383ae0ed884fa80078f68ac589806408d49,Update README.md,2014-12-15 22:50:19+02:00,False
+276bff6091912fb3a375eb3ef3cb7c56643eba1e,nicer readme,2014-12-17 19:31:08+02:00,False
+327b47ca33fd28ac55a0f2850431e946283ac486,Update README,2015-01-04 13:11:15+02:00,False
+ad6d432f66b064da24a0c9d3389549cf054f4ae2,Update README.md,2015-01-10 18:34:14+02:00,False
+e0b9efed32116bf9b519e5d7a892a9f174cc48b9,"Rename: openkms -> pro.javacard
+
+All JavaCard development projects now share the same package prefix and website.",2015-01-14 19:44:45+02:00,False
+0be7bbde15bfd2049743a8063338a146709538ed,expriment with header rendering,2015-01-14 19:46:07+02:00,False
+a2ad6b6d9c7329df6ac993d7affb17af471c5a21,Update coverity project reference,2015-01-24 18:39:55+02:00,False
+73fd7ab157f6a72f039e4c83181535c36081fa2f,Describe --create in README,2015-02-04 10:35:29+02:00,False
+6ad0eba5176ca6ea0c654bf05e01d7c07db97a27,describe -list output,2015-02-04 11:08:20+02:00,False
+e01f45bc972cd0c0dbb668d9b8765e1847bd0c58,Update README.md,2015-02-07 11:54:27+02:00,False
+de27bdf769ed42174efe3063abb084290c3c408e,Update README.md,2015-02-07 12:26:44+02:00,False
+9e6a3755a277e0d0bdcaf364ce7b7e3c210655ba,Update README.md,2015-02-07 12:34:55+02:00,False
+d3760a0436f371c25a2966866f6b115b5b036f9b,Add tips for depndencies,2015-02-07 20:01:37+02:00,True
+7f79a21bf3faff557fdd634cce61a02b9eb67163,Update README.md,2015-02-08 15:20:59+02:00,False
+023c4d1efd9ddf22a760cc00aedaa5955b1c3e1a,Update README.md,2015-04-06 10:41:58+03:00,False
+e2176ed3dc238d5361352185daec6c340af4a63e,Update README.md,2015-04-06 10:42:12+03:00,False
+c1d3ae57d796a6436bae5e2a71c33f429785e0d2,Must now use recursice clone,2015-05-02 14:17:28+03:00,True
+c08c9bf90b04e69009abde8e37366f0a82ca7ea4,Add a link to testimonials,2015-07-30 20:15:23+03:00,False
+cf03b43c1a3dc33103f926aee6c18f63d4dd5512,New implementation found!,2015-11-08 00:03:03+02:00,False
+bb95875c7a321365a94dfde02cca9bb00b4b95d3,Update README.md,2016-01-10 17:27:49+02:00,True
+e82e8ec2bb9d470fa9a3c28cfcf5c950be513b03,Add asterix,2016-02-05 08:24:28+02:00,True
+b15dedf1952b88c278c625ac3cb1fa44e1edafb3,LuaGP,2016-02-07 18:25:05+02:00,True
+380f6a000e36a1eb8ba19902c1c1c516b41ebdb7,Update README.md,2016-03-28 15:08:32+03:00,True
+f6b2409d4f08cdf4fb0eff36faf693f544886e49,Update README.md,2016-03-28 15:09:24+03:00,True
+d11922f1c5c1c470e7dd7f469c2ad4a44bdc3a23,Update README.md,2016-03-28 15:56:09+03:00,True
+62c9c1f94559b63a415952f2b9ae7d65e8434258,Update README.md,2016-04-01 14:15:08+03:00,True
+0a18742a18947a183c0d925b242a8525805b5cfd,"Try shields.io badge again
+
+As the service got API limit increased",2016-04-01 15:40:08+03:00,True
+5f864bfcc48c5eae2dc2b51fa4f0040b49abf045,How to ask for support,2016-04-06 09:28:48+03:00,True
+29065923a31eba2e7314295220eb394ff3a373f3,Update README.md,2016-04-08 12:43:52+03:00,True
+220feb82d98688ca8ac2e6df0309748be87e5d48,Fix #47: introduce `-force` and retire `-reinstall`,2016-04-18 16:38:44+03:00,True
+d41165fe99577f9214ac70a6a6cca344b578d848,Morpho was missing,2016-04-18 17:04:58+03:00,True
+da03b045b90b16a260b76c3c363926618aaf6bea,Technical support details,2016-06-28 10:52:25+03:00,True
+7bc8df694fb2af3c5f00b694acb5079c8181ec37,Fix #70: remove links to old domain,2017-06-05 12:30:25+03:00,True
+67ee76e7f189fada318053b6daf2d55d92a1c89c,implement access control rules,2017-09-15 21:31:01+03:00,True
+2b94e7d063b381f153ede6443c2faf64af22db0a,Add back Gitter links,2017-10-27 17:34:40+03:00,True
+0fc5f8421c7b0372bd1e032fe2310496b1a5fa13,space,2017-10-27 17:37:29+03:00,True
+e56c5ca639fee755fa691a25734e0bccf405cf52,Remove tracking,2017-10-27 18:13:52+03:00,True
+00fd5e450b153153ea6821824d8c39d9f318dbc9,Change building,2017-11-06 16:39:41+02:00,True
+9d7f31403d2ac3cf79871416dc4649a60090ce76,Some Maven things,2017-11-11 14:55:58+02:00,True
+1ed0b887f7d8b9edd7660d13df32edf25e93244a,Shift around badges,2017-11-11 14:59:52+02:00,True
+bb6e6300541f5736380037924cd40fe313738146,Update README.md,2017-11-11 15:06:54+02:00,True
+8e5069ea9920e199bd46c621431b5019f482bda4,Update README.md,2017-11-11 15:08:17+02:00,False
+685e6165e553df3cdc519fe29436354bf10b8363,Update README.md,2017-11-11 15:08:51+02:00,False
+dcb3b9e9552c34afee44945da6b5ef79179c4a36,Fix #96,2018-01-17 12:26:49+02:00,False
+0d3320a885e94641a868a9626d41f817dabc8e6f,docs: formatting,2018-01-18 09:11:24+02:00,True
+feeb5802e4342b2fc6f7f7dfb09f6a283dc06b58,Workflow test,2019-06-16 09:05:24+03:00,False
+195c091c9f8890d55bd02bdd23dbfa07e12c24a7,Add better link for actions badge,2019-06-16 15:35:27+03:00,False
+0f9ab9eb76e44195a7b7a3b189232131b7139133,"Update Github Actions workflow and update metacard parent (#196)
+
+* Update Github Actions workflow and update metacard parent
+* Minor README update",2020-01-23 14:44:10+02:00,True
+b8c63f986d0e3119fa7160ea79ee025f0183b896,Rearrange badges,2020-02-23 13:51:16+02:00,False
+267e8c6debbcbddf96a7b0c941c3980198ebea2d,Missing lgtm link,2020-02-23 13:53:38+02:00,False
+0198ec0711786e8f5c218500c7e30109966161a0,Rename PR to CI (#214),2020-04-14 21:27:35+03:00,False
+dc0fa837f52551fea0026952c9c739672c7cdad0,Update README.md,2020-04-15 00:41:44+03:00,False
+e41c8e9e54eb59ae190ea0525228e865b10f017d,"Extract SEAC into a separate utility.
+
+Available from https://github.com/martinpaljak/seac",2020-06-19 13:11:45+03:00,True
+e9bb8aa78e6c45515d524f0f9db227ecba63c82d,Add link to private repo,2020-06-19 13:58:25+03:00,False
+cd0b40397ad58a77702214cf6b6a4c4e05b4566d,Update README.md,2020-06-19 13:59:28+03:00,False
+847f91f7a3aab5d7e0c5fe9b7f5b620fa55119ae,Update link to GPTool (#240),2020-09-01 13:59:05+03:00,False
+50bd9f9bf95f92ce4b08a0a9d5f9287453ab500f,"Address #249: re-enable legacy kdf options (#257)
+
+* Address #249: re-enable legacy kdf options
+* Remove LGTM, GraphQL by GH serves the same purpose. Beautify code",2021-03-06 13:08:35+02:00,False
+168445cb4f9eb1c1a9d09a3b81fc3d7275674d71,Update README.md,2023-05-08 17:29:28+03:00,False

@@ -1,0 +1,58 @@
+sha,message,date,result
+4ede37a3e19dd422a966ea115266ec6c480ef43f,Clean commit,2021-09-09 15:23:24+02:00,False
+162c18b65b9bf357ef1fa12abf8bef6cc2fec9c1,Update README,2021-09-09 15:35:30+02:00,False
+2c22703de20d5769482c68e8794ec246e0ae513d,public_examples to orchest_examples,2021-09-10 10:08:29+02:00,False
+d73c2bbe0b0be013d1c10f450175dff4e22de4ee,Add Image Super-Resolution pipeline,2021-09-16 10:54:40+02:00,False
+8cfa6d17f7b65e13d9202d8079b604e2c9564088,Update ISR URL,2021-09-17 10:30:31+02:00,False
+bf69e6cd8e6c5a04054d53a3b65429e574873dd9,Update README.md,2021-09-17 11:42:06+02:00,False
+747e495c822587de720418332fa24dbe79bcc3cc,Add existing examples from the 'orchest-examples' account,2021-10-07 12:58:22+02:00,False
+8ea21e5f3d8885f1f1e5e0a040cbf2fd239deb46,Update README.md,2021-11-09 12:27:20+01:00,False
+58b7de4bee9d06bec9599d2c0da42ca957ec64a6,Update README.md,2021-11-17 14:07:10+01:00,False
+93c4f85604a831000466b623c331df45867d979b,Update README.md,2021-11-17 16:53:38+01:00,False
+c64b9c84f9c4520eb450208762c6c4d2c57b7edf,"Updated with AutoViz_Pipeline
+
+Rick and Team: As promised, I have created an AutoViz_Pipeline for orchest.io
+
+Please review and approve. 
+Thanks
+Ram",2021-12-20 12:55:22-05:00,False
+36491b27578634230bca7a7b779c36b6b357ddd9,"Update README with Deep_AutoViML
+
+Hi Rick and Team:
+Once again, making an update with a new pipeline: this time for creating deep learning models with a single line of code.
+Please test it out and let me know.
+Thanks
+Ram",2021-12-20 14:41:14-05:00,False
+94ab505757da06458bd0f8440318b37147055fea,Update README.md,2021-12-20 14:41:37-05:00,False
+404d0d27775387de7f1f0ae1e6e549bf916dbca0,Update README.md,2021-12-21 18:15:41+01:00,False
+8f9cd0c32f782bdb41274ed396c6bd407f31d9c2,Update README.md,2021-12-21 18:30:16+01:00,False
+f7d4ab1da5ac0a1c95e8247e09b160dba62e5168,Update README.md,2021-12-21 18:36:59+01:00,False
+5c74eb6157ef97ac6cdd2f4a2f2e1743df28e508,"Add ""Open in Orchest"" image and instruction",2022-01-07 15:33:24+01:00,False
+844e27f8ccae2335fff2da3a773865f72243deea,Superfluous [,2022-01-07 16:09:40+01:00,False
+d1476160c32b74036e77f9b849c722d22ce5432e,Update README.md,2022-01-07 16:10:07+01:00,False
+f5592b05d8135c1a63003921abdcd78b200e0cac,point the svg image to OSS,2022-01-18 13:40:51+01:00,False
+5c6e750657d2b5409b4916d5c1f2b591c993137e,Update README.md,2022-01-21 07:03:20+01:00,False
+f36316ca57eca54cbda984bd9fba925438c1679a,Add dbt example,2022-02-17 10:38:49+01:00,False
+00db3eca7ce31529d789dfc34f29c8fc3f9995ba,Add Weaviate example,2022-02-24 15:23:04+01:00,False
+99185d3bba83b5c2fd5036aea80ad769039283ca,Make capitalization less obnoxious,2022-02-24 15:23:54+01:00,False
+a4ddc5eccb4903395537c8939615336a7173c890,Add Coiled + xgboost example,2022-02-25 15:07:28+01:00,False
+0c626a19a2e93150e92c302424c8da8e6e75bf6d,Fix URL,2022-02-25 15:10:36+01:00,False
+421aca4b8a4b447f9ffb1f5ad9e1c6c26672216e,Contribute PyArrow example,2022-03-15 13:53:00+01:00,False
+28e65ac8317840c3a9b2e5dee48066f83a06e636,Add Global Key Value store example project,2022-04-08 14:37:59+02:00,False
+f9017bcf9cbfde8c8981fe499ee1c3033475162d,Contribute Vaex example,2022-05-02 13:51:26+02:00,False
+26a48627e93347e41b8be2a411d9f56d8243f334,Add SQLAlchemy example,2022-05-17 12:40:04+02:00,False
+5d7112d8fdd7b4481d0135e427b3ce3ef35baa5b,"Fix typo: ""an"" --> ""a""",2022-06-03 12:11:24+02:00,False
+3f3a8adbd8f0741f65f45a1b5466a20959719a5e,Add orchest-polars example,2022-06-03 15:35:29+02:00,False
+8223de06df6bdfe2ea8498c5df6c29d6fa3c9cec,Improve contributing badge help text,2022-06-20 12:47:04+02:00,False
+894789c3201b70711b16793f6b603fd13e26c662,Make NOTE into **Note**,2022-06-20 12:48:35+02:00,False
+ae23c08cbc94e73e0325fa8372c421ac05c43f8a,Add Google Search Console API example,2022-07-12 10:49:54+02:00,False
+ddc9d8ccc2a0f7c07852269a0c22a1077347e68a,Add orchest-ipython-sql to list of examples,2022-07-19 17:04:34+02:00,False
+4c5203f7971f3c175a022e73a7ef3a321b0cc2a3,Add orchest-elt-meltano-dbt,2022-07-25 17:42:48+02:00,False
+1093793dfa24dd04c63b81d7e9effad9b9b3f760,Remove extra tag,2022-07-25 17:44:29+02:00,False
+9c656a637c2d3788f516537310069e2f4e77a3f0,Add GA4 project,2022-09-13 10:28:04+02:00,False
+1e6b3bcc5d8d73dee5bcd4a6698ed7b95613fc80,Add Clarify time series project,2022-09-13 10:29:44+02:00,False
+ca56dc5bf2f884b8994254b2279d5dad990c9541,Add Evidently,2022-10-04 14:22:09+02:00,False
+f8fd17f68b0dd2f5651a0b026367d32e08dd00da,Remove newlines,2022-10-04 14:32:20+02:00,False
+522503d13ad8c36e33b75dcc47e9b44c1935b984,Add PySpark example,2022-10-10 19:58:08+02:00,False
+6e81986b50aa8b47bd2cd987f6871158be5e66d2,Add DuckDB example,2022-10-20 19:31:46+02:00,False
+6aac77f668c24a7283e2f65b179b55c06637c826,Add Selenium example,2022-11-21 16:08:28+01:00,False

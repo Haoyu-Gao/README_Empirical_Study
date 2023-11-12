@@ -1,0 +1,43 @@
+sha,message,date,result
+3a5371760f24ccdcd4f2906ff7db85f88044a2c4,Initial commit,2015-12-18 17:26:55+01:00,False
+100efc7b67d2a0f5b655f970f51cd25b245d260b,Add README.,2015-12-19 19:11:17+01:00,True
+429f77e4dae05dcce75f403e1bb718a5a82805fc,Update README.,2015-12-19 23:57:22+01:00,True
+1010b90882d52084f3d26e0a7d6070ee2539d5c1,Add a paragraph in the README about what irctest is not.,2015-12-20 00:01:37+01:00,False
+cb0dd988ab06abe06535507a0dac171a0a89094a,Better install instructions.,2015-12-20 00:16:01+01:00,True
+3380450cdf236d60ad50f1c64baca730b52ac7ff,Update README.md with new controllers.,2015-12-21 22:54:03+01:00,True
+60bd8a04f79de261da24161f79de51ac8fcb8e26,"Improve help, and copy it to the README.",2015-12-24 12:07:40+01:00,False
+fd24cebd0743e210d0cf05543cc4e93107909900,Update README.,2015-12-25 20:43:17+01:00,False
+f359feb8e2bbd3ab99ad45479e91164ebb1d9233,Initial overhaul changes,2016-12-01 19:21:25+10:00,True
+19394fdd09376a071be4248449e5754f0b43339d,readme: Add gIRC and Oragono instructions,2016-12-01 19:46:18+10:00,True
+924d17b7479410ab12b96965b4103774404ca1dc,readme: Update,2016-12-01 19:48:19+10:00,False
+6ff0c524420e9c981380a86eac88eb200dc9d0ee,readme: Note Hybrid controller and update description,2017-11-02 01:04:41+00:00,True
+8922c0ef4ec5a26966699660f62e893c6a3a30d4,new README,2020-09-09 02:53:42-04:00,True
+f9ccc4c824ebfa5ba7ca27fc34b0e8cae6822b66,update readme,2020-09-13 06:48:29-04:00,True
+13be3123669c91f2bd88b31d1f25645d8fd1e36e,Restore the original irctest README.,2021-02-21 21:50:12+01:00,True
+81d57154652e9e4c8556689011b64511cf2dfac6,Update the README with instructions for Oragono + pytest,2021-02-21 21:50:12+01:00,True
+85d14f3e12055e871a15cbc22e2c6665b2001fde,Install oragono in ~/go/bin and update $PATH instructions.,2021-02-21 21:50:12+01:00,True
+9f68f12b3a4f8a6983336503a427e3f686f1fc46,Document how to call the pytest command,2021-02-21 21:50:12+01:00,False
+d6537548c6c3ff2b24b1c1508153d3d6c251dc3e,workflows: Add inspircd,2021-02-26 19:16:50+01:00,False
+b405a94c349fac363f54075f9386f55d589c9192,Patch InspIRCd to make tests run faster,2021-02-27 00:32:36+01:00,False
+407fe663d1dc614f50dab45e7274c018499aab28,Add Solanum,2021-02-27 15:23:33+01:00,False
+72eee6114f0d2c47c1a5bc4d8abdc41274fad17c,Add ircd-seven,2021-02-27 15:23:33+01:00,False
+1846794466be29efb46258b63082e4d79dcddfb1,"Remove warning about Sopel
+
+https://github.com/sopel-irc/sopel/issues/946 seems to be fixed",2021-04-17 22:28:58+02:00,False
+7be29ad801675380b6ec37c49d87bc688f3695a0,rename Oragono to Ergo,2021-05-27 00:07:32-04:00,True
+76db5758e970c2cb2909a4311c28d474fb143a0a,"Remove ircd-seven
+
+A future commit will need Chary and its subclasses to use SASL,
+but ircd-seven has a different config to use SASL.
+
+And ircd-seven is not used anymore AFAICT, and won't be getting any updates,
+so I don't want to bother.",2021-06-27 21:19:34+02:00,False
+cd58d14608e4b800aabaa5af395b2a02a71e1e1f,README.md: fix typos,2021-07-01 17:33:58+02:00,True
+e17234c911371a9dc19f48c5bea6443bbae02058,Update READMEs for Unreal.,2021-07-03 11:58:10+02:00,True
+829cfbf4047d03ba1dcafdc16a9d51a64f149c34,README: Update introduction,2021-07-04 15:33:51+02:00,False
+37ad8789f1a7c2d8efe1edde48aa970e703d9fe3,Update README to mention services controllers,2021-07-07 21:31:08+02:00,False
+f61e3ee6083da7f6274a760bbb55f46fce65f8df,"Typo, solanum refers to chary folder",2021-08-10 20:18:54+02:00,True
+7b38c2be8a20845abab3242c8a6cc35d66f6cef0,Add tests for WHOWAS.  (#138),2022-03-19 20:20:50+01:00,False
+72a12ff5ce9cb644ad58194f1670992ca85e5318,"Add support for 'faketime', to avoid long sleeps in upcoming ELIST tests",2022-03-27 17:08:40+02:00,True
+6290825c64b492a2b1192979a8adcda9136e1948,README: Remove reference to setup.py,2022-08-20 18:05:47+02:00,True
+297bf2c554ecfe8dbce72f2214526fe3bf924787,inspircd: Use upstream mainloop hack when available (#200),2023-05-20 20:06:59+02:00,True

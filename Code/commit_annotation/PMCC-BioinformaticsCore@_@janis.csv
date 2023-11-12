@@ -1,0 +1,49 @@
+sha,message,date,result
+f1b5b35023123fedc9db6f913571398660a3a8b5,WEHI pipeline definition language/tools,2017-10-13 11:53:41+11:00,FALSE
+ce25a57e5f0f3efc7c63159e35b8b3ede169a4af,#NAME?,2018-01-09 16:49:02+11:00,FALSE
+85f5ea464f97493e2af662e746537a7c79702855,Prase tree WIP,2018-03-07 15:21:38+11:00,TRUE
+c72096c153e94f4c65709e02ee7c36606cccf61b,#NAME?,2018-10-08 11:58:05+11:00,TRUE
+d28e467c129c8bb5a174b46b548564e748027044,Adds my goals + Pipeline to goals / readme docs,2018-11-08 10:45:23+11:00,FALSE
+f3866d6691af7e1eb53a1db0d4705ec9010bf387,Last commit before type resolution is dissolved,2018-11-08 14:02:22+11:00,FALSE
+a79398a699a6e2a81918c225aff29eca66013101,Breaking changes to type inference and graph building,2018-11-09 16:32:20+11:00,FALSE
+ec1af50af6f7eb119e6b77e7e1846a5022010b14,Initial parallel-workflow + more typings,2018-11-19 12:28:54+11:00,TRUE
+99552b313ef218291255a1b9510fb3edb80da505,New genericised DataType (with default impl.) + Step -> Tool refactor,2018-11-19 16:02:08+11:00,FALSE
+ab2e44cc716550dea74c7fa1d8cfe6a2a9648a2a,Refactors documentation to be nested by module/provider (if required),2019-01-30 10:39:16+11:00,TRUE
+a61f75bbb63d194ef3e60667d4ca0e9fd29a7272,requirements + travis,2019-01-30 14:42:35+11:00,FALSE
+a13a98662b8223c5761e5bea69564af1343817e2,Adds build tag to readme,2019-01-30 14:45:39+11:00,FALSE
+e0f0d76c9ebbd47f729ab3aa6d7b5cbff9f0b599,Adds badges and hopeful automated deployment,2019-01-31 08:25:27+11:00,FALSE
+db8dc0101becbefb328f4cd5f2be69e99948d6ca,Improves documentation for release,2019-02-01 12:46:42+11:00,FALSE
+b877cdd583d95c14919bd7e0f40c00e20aaac434,Adds codecov badge + fixes unix tools,2019-02-04 14:26:58+11:00,TRUE
+f01cf7c43cbf3600182b43e5c4243adbc12ac5fc,Updates janis for janis.bioinformatics release,2019-02-05 09:22:14+11:00,FALSE
+d989d4eb2e9437069020ec9e7c7f65ffe21c748b,Documentation + progress page,2019-02-26 16:42:18+11:00,FALSE
+3291a4d0a47a280a50be5b929a37bd87f574e8bf,Align badge table,2019-02-26 16:47:42+11:00,FALSE
+265c7a26bf9273f84ed3718cc292d13bca585579,Restructure README + placeholder documentation,2019-03-01 14:35:34+11:00,TRUE
+56b2466184c1ee8e474bb829203deb952fc251a4,Rewrite readme to be simple and link better to docs,2019-05-14 13:30:25+10:00,TRUE
+6f24aa357b276e72b78c60b3699495cbead6c893,Fix broken about link in readme,2019-05-14 13:31:49+10:00,FALSE
+94806c24e929f8bc9484f2404f5eee26f2e7e7cf,Fix simple tutorial,2019-05-14 13:44:57+10:00,FALSE
+edf565e2fe5a15faad7c833a81fd5de88b4da169,pip -> pip3 and fix dump_translation -> translate,2019-05-16 07:42:57+10:00,FALSE
+661dd6bf4fcf2361baa128ce0fa74c1476468725,Add submission titles to README for better SEO,2019-06-28 11:34:48+10:00,FALSE
+205a2472c3ef09260f9d9cbf8e2e551dc42b3a89,Add black and pre-commit requirements,2019-07-03 09:26:50+10:00,FALSE
+586d03f7ff92cbca20e35eee96c26cfe3f90c8bc,Partially rewrite README for clarity,2019-07-08 15:27:37+10:00,TRUE
+6a287262c5f135ba9a734e4c684b79c768943b94,Migrate janis.core to PMCC-BioinformaticsCore/janis-core (afb1189),2019-07-22 13:33:56+10:00,FALSE
+251d6fab31e139d17928ce2c22b8dcf1ffad5505,Update docs and some examples,2019-07-23 15:34:44+10:00,FALSE
+96759440ae809695c6e1085e141a506d077e8dd5,Slightly reorder readme,2019-07-23 15:37:49+10:00,FALSE
+92107351934a8fb11d3640b8b76a2999d4a92aab,Mark Janis as Pre-release,2019-07-23 23:07:03+10:00,FALSE
+1049476ea6297a61556261002e0f0023560425f7,Updates README + some examples,2019-09-05 15:46:48+10:00,FALSE
+dce5134e8c97ac515e3d126b03298a6f88024b26,Fix docs with slight API revision again,2019-09-13 15:11:26+10:00,FALSE
+e3b310813704ce4bb2439d2a96412552dc184222,Add gitter badge,2019-09-24 10:10:28+10:00,FALSE
+2e4bfe6eb3d72f907f787b34331b2b0776d97a97,Update submodules,2019-09-26 15:14:16+10:00,FALSE
+8a792b86ddfc5d35fb9245ae9223b91392ec1ccf,Fix tool TOC pages,2019-10-28 08:52:03+11:00,FALSE
+2d9974708b2361100b2898590d93895a5350b828,Types on README,2019-11-13 17:34:30+11:00,FALSE
+37fd89d2656fd7c3d823d1ec89a028f6d3edbc19,Move some documentation around + add errors + better installation tutorial,2019-11-15 14:37:15+11:00,FALSE
+038e673a84850ec44bf91ee5735078af4665faff,Update Simple documentation + README links,2019-11-15 15:16:45+11:00,FALSE
+865da712530488539933e8e0440a285a286d0b74,Update tutorial links,2019-11-26 15:27:41+11:00,FALSE
+3d1af98f7365c41b7c7cabd6fdde33bdbb7b709c,Add Australian BioCommons to presentations,2019-12-04 12:47:38+11:00,FALSE
+ad4a6a49cd1dd90d91183a8d52ec5b18eb4d00ee,Update tutorials to use CommandToolBuilder,2019-12-08 19:33:12+11:00,FALSE
+9043bb21e92d1655c48a472c658dca70282a5ab1,Add v0.8.0 backwards incompatibility guide,2019-12-13 11:02:10+11:00,FALSE
+1a10c42d6b52926ae06e7259789b593759c6bb8e,Updated README again,2020-01-17 15:19:12+11:00,FALSE
+f3ef09b48a7adefc94695aabff432de7f7e33b2d,Updated README with clearer and more succinct example,2020-03-19 16:12:19+11:00,TRUE
+5f7faf7705a81c049e7be3cd1dea9b7a685586cc,Add section on Toolbox to README,2020-03-20 18:16:18+11:00,FALSE
+808841a6de465cd6e4bbb0e21b01a69997e34aca,Add table of latest versions to Janis docs,2020-05-14 10:15:08+10:00,FALSE
+a2f667c7260ff9252ce074c1881f86bbc6d7ff69,Add table of latest versions to Janis docs,2020-05-14 10:15:40+10:00,FALSE
+9819c3ca7ed99515e26eb4f326a8a61339c090e3,Add CWL / WDL version info to Janis,2021-08-25 09:33:04+10:00,FALSE

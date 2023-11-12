@@ -1,0 +1,72 @@
+sha,message,date,result
+e8ccd5538c3bc1d36cea9324cda8c42612b59ccc,Initial commit,2014-03-14 09:02:10-07:00,False
+9b7fb4b2ebe836d1a869e0f6745277e3b3d7d33d,Update README.md,2014-06-25 10:32:30+02:00,False
+c17a4520982afa85a440178c72a9907a6021d609,Genera code,2014-06-25 12:53:25+02:00,False
+628412aad6e31b82d16f3be178ff15e27b2651ee,Genera code,2014-06-25 12:57:31+02:00,False
+9ceef26a6319c8a4440f5581ab91526e5b37c444,Genera code,2014-06-25 13:01:41+02:00,False
+02d4e1dfca8686009fa958b2523c64f07be681ea,Genera code,2014-06-25 13:06:10+02:00,False
+c73429b9b9ceb9fe3d3c849c71d86d238c4a756c,Genera code,2014-06-25 13:10:20+02:00,False
+71bc01c8e8f53a97a172ef6337306fd24b02f84e,Genera code,2014-06-25 13:16:52+02:00,False
+65014a544252a70fc5db06eee20eea24cfbe06f5,Update README.md,2015-07-21 13:52:44+02:00,False
+9c36a73b6261a1c82d01235bab71e7ce5e47f07c,testing ssh,2015-07-21 14:23:20+02:00,False
+8e47715c17af9b945f81fd1ac8c385c27eff493f,Update README.md,2016-01-22 16:26:35+01:00,False
+29b048c4dace5a874da0128bdb9724da8f65e11f,Update README.md,2016-01-25 17:01:42+01:00,False
+23d2e64c9db6325120dca011e468d1ac9db8e313,"cpbd + demos examples (dba, dba2, dba_track_ellips)",2016-06-06 12:03:35+02:00,False
+983bd1d4dd7a6fa5f0d3c107beb9e8faa89fab8c,new optics.py,2016-06-13 17:50:13+02:00,False
+40eeba88411dbb009f517af6c04e310bbd839403,new optics file,2016-06-14 17:59:38+02:00,False
+15fadadcbecd71d91966e474d421d2d4a7d86f51,minor,2016-06-21 11:36:33+02:00,False
+a5477d76df3b737840ed25d0f55d7a298a2274bf,changed multiplication TM on Particle.,2016-07-05 17:41:45+02:00,False
+fc4f601488f9fa68dff27aef054bfc2fd90723a6,commit in the middle of something,2017-03-26 18:01:16+02:00,False
+6cf625aba2955032a1ee6b41f5de7bd008df379e,middel version,2017-04-06 19:15:07+02:00,False
+693432ba76fc8f51084f358e8849b6fe4edb5bc0,"update
+WakeKick, Navigator, TableProcess",2017-04-09 18:40:22+02:00,False
+3a03bf4aafb20525db4dae2571c1dac0642c9e9d,backup,2017-04-18 10:19:03+02:00,False
+b0ac83abfd95dcc735b8ccb91a48f76f7b7c2772,changed in readme.md,2017-07-05 10:32:31+02:00,False
+645388d97d344903a9ef3c8ad1e8db26969a6cbf,update readme.md,2017-07-05 10:34:48+02:00,True
+a82d1af57f736455745121dcda92220037751250,readme updated,2017-07-05 10:39:18+02:00,True
+d932a1686f86868ea0ec5c732cd03a13a92cf650,readme,2017-07-05 11:38:10+02:00,False
+d2561da74c031ee702bd5945a7583622c4c19364,"fixed beam slice parameters function
+changed moga.py
+changed moga_plt.py to support single reading
+fixed links in README.md and tutorials",2017-07-20 14:41:51+02:00,True
+ac9ee4faaee82e008a1ed41d7bff75d5c0bb34ac,minor changes,2017-07-20 14:51:23+02:00,False
+50e2eca6314eab762486a7dd900a9068df3bc095,minor changes,2017-09-13 14:46:14+02:00,False
+22d6642bafba7269f27c75a74ef3794aeb811806,updated installation instructions,2017-10-27 13:05:05+02:00,True
+6795e7ea3bddf2c53ce4693348e9e37f7d06624a,updated tutorial,2018-01-16 18:44:10+01:00,True
+dae314b9f76fc15621a5325c766194ab7b2e1e85,minor update,2018-01-17 13:08:50+01:00,False
+1bcd478deaf08e1991cc6c982d430d3140b00296,minor changed in docs,2018-01-23 07:57:47+01:00,False
+9faccf2664309a345e517a5bb8744db7877b259f,minor update intro,2018-02-11 11:17:15+01:00,True
+8e837d866819d12011431d92a3ad734e0eb76e07,update Readme,2018-02-24 01:02:58+01:00,True
+edf8ebe3d1145cd7dde3f33e641ffe15e9376cbe,Update readme,2018-02-24 01:04:14+01:00,True
+9f0f10ade49ae09e863f2879896bd49513240510,minor,2018-02-24 01:05:18+01:00,True
+eaed1c98f34b70f3d454a360b7fdd6e4830c68e6,minor,2018-02-24 01:06:20+01:00,True
+c3dcf0328c807fca3c32e9fbc38c34549ff875ca,minor,2018-02-24 01:12:20+01:00,False
+b1f9c7299dbfc1dd64946b2be1eff02f3c84ffb0,Update README.md,2018-02-24 01:15:08+01:00,False
+c325b81a4282b11c65bbe73a6f14c13d33c31e0e,readme changed,2018-06-08 13:45:04+02:00,False
+ffb5452411ff1b22cc096681cc3a11c67fdf8d1b,update readme,2018-06-11 09:52:01+02:00,True
+1390224c004acc653edd1494c2b166c53dfdfdf2,updating demos and minor changes,2019-06-25 15:18:19+02:00,False
+acbea60f41e80b3f960678139d0b288bc990ce52,preparation for merge with master,2019-07-31 16:20:48+02:00,False
+d8a3dc4936f2debb5cd9ca267c214140517adfb1,minor,2019-07-31 18:42:42+02:00,False
+81289036471a2172866fcbfbb6c2fbe66ed3b23a,updated readme,2019-08-01 15:24:56+02:00,False
+acc1a7733933e257cee857a37ea54d56d8fec913,added tutorial N11 to readme.md,2019-09-19 13:35:00+02:00,False
+7ca488175a0143c498d0957f293dd2a57ce197e3,added tutorial 11 to readme,2019-09-20 15:01:11+02:00,False
+c2d3ce24312e72c9515858931aa51508b997a1be,updated readme,2019-11-11 14:15:04+01:00,False
+6f48d17fa7decc9eebea42eff87f95154b866bf7,new numeration for tutorials,2019-11-30 13:16:16+01:00,False
+e98f00c9971646a1d81e4713c144d6b666120a9c,minor,2019-11-30 13:32:29+01:00,False
+5fdbcddcb7c287242e43283bdc08b60487a25286,"removed optimizer
+minor update of readme and tutorials",2019-12-10 09:46:40+01:00,True
+d4aa6412573d44b5f4836ea43293054dba409866,minor,2019-12-10 09:51:30+01:00,False
+68d2310516b1d2df0ae60fdb1da878a674c13ba2,"fixed bug with navi.reset_position function in case no physics process applied. Added small feature to trackSection. Both covered by unit-test.
+Added new notebook",2020-05-29 13:07:58+02:00,False
+58806c56fd47bf186531607c72ac12c1362312b8,"Make sphinx documentation buildable
+
+* Fix path for building documentation
+* Add minimal how to build the documentation
+* Add requirements.txt for the docu as well as the option to install it
+  via `pip install "".[docs]""
+* Add links to the API references to all existing docu subpages
+* Add a link to the overall module reference, so that also modules
+  without a subpage can be accessed
+* Delete temporary build files and add them to the .gitignore",2020-10-21 14:56:52+02:00,False
+79cf636a7f1eec7ce60fca9268275697e3d83c4d,RC,2020-11-05 15:05:22+01:00,True
+2c6d2cd78c51365b42126a084d6ec5618c835f22,updated readme.md,2020-11-05 15:10:21+01:00,False

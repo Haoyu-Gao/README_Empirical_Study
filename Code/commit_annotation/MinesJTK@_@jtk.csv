@@ -1,0 +1,35 @@
+sha,message,date,result
+a747b27bb6b2fcbb9d04513bf0e39738977f8643,"Update readme.txt to README.md and added markdown
+
+* Changed the filename to reflect markdown
+* Added spiffy markdown, including links and tables
+
+The only thing I'm not sure about is I removed the license header from this file as there is a license.txt file. Not sure if you wanted to put it back in there.",2015-10-24 12:57:20-05:00,False
+9f16ef10a5e8be7b1b0dfa8a023255512f19b5e6,Modified license clause.,2015-10-24 12:27:04-06:00,False
+60b0dd3e6b7e838c02f782e2bf3457b897cd97c4,"Updated documentation; moved bin/ to misc/.
+
+Scripts javarun.sh and the like are no longer necessary;
+tests and demos can be run via Gradle.",2015-12-07 20:22:53-07:00,False
+fc7ad5b025ff19ec4f81833b0c969744977546a6,Documentation cleanup.,2015-12-07 20:32:15-07:00,False
+d618f8eb26c331107350d1efbef0b1f73c47144e,Fixed documentation bug.,2015-12-07 20:56:36-07:00,False
+7dcf41fa2ffe568837ffe2e9b03b8c4324d6cdfa,Fix documentation.,2015-12-11 11:15:32-07:00,False
+804557c6447a5d83924e001d0c8a69d54309ca9d,Updated README for use of Maven Central.,2015-12-15 08:46:13-07:00,False
+c6802c56ea1b4d7409d0e2c5b2caba4208bdb5e4,Minor rewording.,2015-12-15 08:47:52-07:00,False
+3bf47889bfa18fdc048987ae8ccdf59ec21edfb1,"Update README.md
+
+Syntax fixes in markdown",2017-03-22 10:12:12-05:00,True
+67aa11c4e63869096bb203f697573cd50da1d2f6,"Update README.md
+
+Added Travis CI build status",2017-05-02 10:09:27-05:00,False
+6c7f67435310ac8f9d5a272a42002b712953be8d,Added code climate badge to Readme,2017-05-02 11:00:03-05:00,False
+801b343fa4c24be9a1d1e6c016ebee40dca04053,Added Jacoco coverage badge,2017-05-02 12:05:29-05:00,False
+91e2c4cd94b2a2146f62623766eee5ec4ff1a64c,Update README.md,2017-05-02 13:00:07-05:00,False
+c491872eb6155319106028108af0800b409754a8,"Improvements to build script for CI (#2)
+
+Removed Code Climate webhook - infrastructure not robust enough to handle static Java analysis.",2017-05-12 08:48:27-05:00,False
+ef36278114e3de591019d7561d76bb4eea508a64,Update README.md,2017-05-12 08:49:05-05:00,False
+4fd013c7e9f340e06dbed9d7a24ab93a64b42e10,Update README.md,2017-05-15 14:54:38-05:00,False
+2f0f617d9bfe688552c2f3adc9e992968dbcf426,Update README.md,2017-05-24 12:17:36-05:00,False
+61fdb143563219f6342b9d2423e3de2573226efe,Update README.md,2017-06-19 08:57:55-05:00,False
+9212dee26a7e90ee7cc8181647ea25f78a07db55,Update README.md,2017-08-07 12:37:47-05:00,False
+902d5a31bad5ae1c86f10b253efcef7840fc7500,"Update build scripts to be compatible with Gradle 4.6, updated README",2018-03-15 17:56:44-05:00,False

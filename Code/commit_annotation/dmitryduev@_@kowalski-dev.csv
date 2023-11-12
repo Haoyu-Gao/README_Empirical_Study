@@ -1,0 +1,88 @@
+sha,message,date,result
+f294b6edf570fbba728a2b913a6e928cf847cacb,init,2020-02-06 23:46:45-08:00,True
+e596a914c96067064a122e903c5eed2091376556,wip: clean and lean,2020-02-07 17:36:40-08:00,True
+8a2d634f13d41dca364ff8e7728b5cbefd6a68b6,wip: kafka producer for testing,2020-02-10 18:07:59-08:00,True
+dbd5d59b98ef7cef1f821d1b762b3e8377bcff14,wip: kafka producer for testing,2020-02-10 18:17:12-08:00,True
+0235d5f911ebedc74516b40f326eedc9033f7c86,wip: kafka producer for testing,2020-02-11 12:57:10-08:00,True
+f679acbb2051d847362dda0046365957d416264f,wip: ingester,2020-02-12 12:22:42-08:00,True
+5ef78ca89a3d98dc1c6ccc59f10cf79e8b4a8a00,wip: ingester,2020-02-12 16:51:08-08:00,True
+9d909196f6c3e5138d7b2b9442a66644b6e15b26,wip: beautify,2020-02-12 17:09:48-08:00,True
+d2ea2f4e577bc3c4ee5fa5f1e7d02e17be0fcfe8,wip: mongo external port,2020-02-12 17:40:30-08:00,True
+fbdd8bee9a54da0d6c920a9eb98fbb8654297b5a,fix: kowalski_api_1,2020-02-12 17:42:32-08:00,True
+f1447990b24a03ef5c3719526504d87c0ef8f156,wip: readme,2020-02-12 17:45:52-08:00,True
+c3169fa7c435ff04f873bcda94067a94f10f2354,wip: readme,2020-02-12 18:03:44-08:00,True
+9a64e16f2657986efb5b29314e698b9c9b5dad4c,wip: readme,2020-02-12 22:33:59-08:00,True
+cbd5888ec150c706f85e723ed5e7f075237fe06e,wip: verbose in test_ingester.py,2020-02-13 11:32:45-08:00,True
+d260ac940196fb5adb7383b3ea98c8f0579d983d,wip: kubify,2020-02-13 12:05:30-08:00,True
+f1bba63c6499dc26eda3dd9ae6e6dadc23770b6f,wip: readme,2020-02-13 12:22:12-08:00,True
+b61bfc5a02ae292d4874d87de270904e3fa495f6,wip: traefik,2020-02-13 15:20:51-08:00,True
+0a1805a7d6cd7ce0921146a922c228661195f39b,wip: traefik,2020-02-13 16:03:03-08:00,True
+bc4e6b212bcd6ead520d50d5758891af2149dd69,rtfm: readme on filtering,2020-02-14 12:39:55-08:00,True
+55fa4932c2f9f8a99b062a40a167fc1869cd5be0,rtfm: readme on filtering,2020-02-14 12:41:43-08:00,True
+d80fbaf74c8060690a2d79d846bdb9426d7759c9,rtfm: readme,2020-02-14 12:45:17-08:00,True
+9315ea94a282c19d316f8a29d819220bef2cb743,rtfm: readme,2020-02-14 12:45:37-08:00,True
+2ae2dc0a578b286da994b62650d340c5242a734f,rtfm: readme on filtering,2020-02-14 12:56:42-08:00,True
+98472a47cd65dd539cac145ae2c1b9ae94bc26b2,wip: filters api,2020-02-21 11:47:33-08:00,True
+3e1b90a714aa73436ac06dab1b654ec89680c9e3,wip: alert filters,2020-02-22 00:29:34-08:00,True
+7021c1d6a5ee5610d0a8f6e16f28e978aad62ca0,rtfm: OpenAPI docs,2020-03-09 15:23:59-07:00,True
+6463dcff65ea153a9581affaa973541eab3111c5,wip: post alerts to skyportal,2020-03-18 02:17:06-07:00,True
+6c956e50b591a5332bfa911a269333890cb1d5da,wip: filtering aggregation pipeline,2020-03-31 01:23:26-07:00,True
+c2b3f86a50e6eb2304a578985a19117dfe6827ef,rtfm: kowalski.py utility,2020-04-08 00:21:20-07:00,True
+fbe05e4fded448571c9a4b5ef2d9e08164b1648c,wip: single config.yaml,2020-05-12 02:27:58-07:00,True
+c628db8ffe66ba2cc6228e1263de5eb9370df078,rtfm: readme.md,2020-05-17 02:12:11-07:00,True
+9be7adb70285f36e340342db6af51482f1154fbb,update readme,2020-08-28 16:43:25-07:00,True
+5b0f64e9b4148fdde9f8f5968b511d222579c5e0,update readme,2020-08-28 16:44:45-07:00,True
+8a0a59e19b30759efbfc56cf3ceb6222eafb15cd,wip: seed data ingest,2020-08-29 02:54:22-07:00,True
+3e94c854e91d824020d875eed2f069a63add0256,Update readme.md,2020-09-30 15:28:18-07:00,True
+4135f35e723305da5282820eb3f4f2f2966ec24b,Update readme.md,2020-09-30 15:30:05-07:00,True
+96de9ce96f4252d1db438b1cfdac8572060d48ee,refactor alert_watcher_ztf,2020-10-19 14:39:03-07:00,True
+e03d9d9c40e0fbd49040403ca5237c3da29c04ae,dev notes->readme,2020-11-20 16:05:10-08:00,True
+a6d2cdc54cf43aa2a6a647fd2e35c52b4ef7aabe,monitor filter updates,2020-12-02 01:22:05-08:00,True
+cb0aff8a9062326911e780ab0691fccf0ec6c1c8,"Add some technical TL;DR to readme (#63)
+
+* add technical TL;DR to readme
+
+* add technical TL;DR to readme",2021-01-19 16:41:37-05:00,True
+794d1951796ddea2cc1b937d898423b809ca1b1e,"Update developer guidelines with Stéfan's memo (#68)
+
+* update developer guidelines with Stefan memo
+
+* add a section on conflict resolution
+
+* do not distract folks with too many details",2021-01-21 12:29:10-08:00,True
+340dd9ff1937628cdb222bd77f9287072e4b8284,Update first install command to './kowalski.py --build' (#157),2022-04-12 20:23:19-07:00,True
+3482c993b4e97a2834615c8197d815ac97602037,"Enable local deployment and testing for basic Kowalski functionality (#165)
+
+This is the first in a series of PRs to enable kowalski to be deployed and developed locally, starting with the api and alert broker.",2022-06-28 15:45:51-05:00,True
+5c0dd02e50972bdf78f2953043ff3a19c9deb57e,"WINTER ingestion into kowalski (#174)
+
+This PR implements the ingestion of the WINTER alert stream into Kowalski.",2022-10-04 14:05:08-05:00,True
+0ca9d742199acbdc4f930de5851c9f1fd9867d0c,"Dependencies update and other development friendly features (#186)
+
+* Support for MongoDB atlas: to allow users to run Kowalski locally without having to run their own MongoDB cluster
+Modular ML models infrastructure: to allow the addition of additional models to Kowalski, simply by indicating their name, version, and input types in the config (and of course adding them to the models folder).
+* A local config file: to run Kowalski locally without having to edit the original config file which requires many modifications.
+* A better readme: adding missing instructions, fixing incorrect ones, re-ordered the sections.
+* Reordered imports in all python files, to follow PEP8 recommendations in an effort to improve readability. Don't be afraid, the PR doesn't actually add much new code, it's mostly about reorganizing and adding some type-safety here and there, especially in the AlertWorker class.
+* Modified some of the tests so that they can be rerun without failures, and made sure they can all run locally (not just in docker).",2023-03-06 12:16:32-08:00,True
+ae35622d9649a3337f8d9f79eeebabafb884e109,"logo (#191)
+
+Add logo to readme
+
+---------
+
+Co-authored-by: Theodlz <theophile.dulaz@gmail.com>",2023-03-07 12:18:09-08:00,True
+cb34b7d770a58f6d68e05f87cde7f2ba15b84926,"Use light logo by default, rename readme.md as README.md",2023-03-07 12:20:46-08:00,False
+f8975f9832f49785c03c7921884fa3532f389cf6,"Generic Catalog Ingestion Tools (#192)
+
+Added tools to ingest all kinds of fits and csv catalogs",2023-03-07 13:05:39-08:00,True
+edad06259269baf747e8b1b9f6946e284ad16b9a,"photometry and thumbnails bugfix (#197)
+
+better logs, avoid errors posting photometry and thumbnails to Fritz.",2023-03-13 14:42:40-07:00,True
+6520e3e03410ff610590f5b8b92295d26ffab2f5,"Parquet Catalogs Ingestion (#201)
+
+* Added generic method to ingest parquet catalogs",2023-04-05 18:32:14-07:00,False
+1b33fb4be22f0b9883b59d49580f143c09b7fedd,"Easier Kowalski (#196)
+
+Simplified Kowalski, installation, monitoring, and development outside of docker on both PC and Mac.",2023-04-26 13:14:07-07:00,True
+f238c07a3f222402feac2677abc9a7cd3226dc47,Rename tools directory to ingesters in readme (#210),2023-05-24 14:02:30-07:00,False

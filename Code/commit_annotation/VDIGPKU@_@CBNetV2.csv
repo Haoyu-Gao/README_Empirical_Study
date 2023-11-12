@@ -1,0 +1,1809 @@
+sha,message,date,result
+b041a643774c32d22c5ae1af196bb4fcd606414d,Initial commit,2018-08-22 15:06:07+08:00,FALSE
+3ba19c1bfd3defe4496e369b96622b976f634df8,Update README,2018-09-09 16:35:54+08:00,FALSE
+fed18d8a698cf315236922d4bc2322f01cc34b52,Update README.md,2018-09-09 16:41:29+08:00,FALSE
+ab58c79f98d545091f5793b19c5da865fd0033e1,add major features to readme,2018-09-09 16:50:50+08:00,FALSE
+bdf9174656c614f2983c37844300f9d7a4ea2984,minor edit of readme,2018-09-09 16:51:45+08:00,FALSE
+49a288f7cc56b4ae777cddd51dd0cd453277721c,update readme,2018-10-10 17:09:38+08:00,TRUE
+3a5ac395ac3286a0d30e62437059faa297263274,fix typo and minor revision,2018-10-10 17:21:18+08:00,FALSE
+2a01c8fc5cbac012205b6907134c57ad46bf7ad5,update readme,2018-10-12 15:30:44+08:00,FALSE
+eeaae6558d904a28a38877aaa1bde57428c2a1c7,update installation guide,2018-10-12 16:25:02+08:00,FALSE
+f29f020ce98d5b027eef590023d1ea5d5d438be4,minor fix,2018-10-12 18:29:19+08:00,FALSE
+0ccd4c5225e217b9aa8a95473d03a244003321c0,auto merge,2018-10-15 22:51:54+08:00,TRUE
+251c429005eccbbc1b372ad458a3fc7dc21895d6,update readme with some training notes,2018-10-16 14:39:05+08:00,FALSE
+8cf4be73a4e10ce7f96531000b6502cf7cd5478b,update citation,2018-10-16 22:05:07+08:00,FALSE
+f8fa51c970ab02341294d23384cceabdf684b294,Update license in README,2018-10-18 16:12:55+08:00,FALSE
+994b6cb6312e756dd8ef3dfc80d0e8cb910865ff,update version,2018-10-20 14:37:06+08:00,FALSE
+0613aedb7c4ee05b65893343fbea6a34b8aac77e,update readme and version,2018-10-21 01:43:47+08:00,FALSE
+af755e01e31d57018fd9033637f3b1b73ca77969,update readme,2018-11-26 23:49:10+08:00,FALSE
+ede8aec6ca689d1189f74eb5f4ce126095fea385,update version to 0.5.4,2018-11-26 23:58:11+08:00,FALSE
+e59ed54d031ac45dc14b8155ad58b110238d49cf,update readme,2018-11-27 04:14:26+08:00,FALSE
+83aa1accf290dd71280e551c1150893e41cb3c4e,update readme,2018-12-02 15:41:38+08:00,FALSE
+03e14ed2c77deb194e90a244812f9008bac05024,fix checkbox,2018-12-02 15:55:55+08:00,FALSE
+178b5baa7cfed416e7b125cd4a597f134f992584,update README,2018-12-11 22:03:17+08:00,FALSE
+21467a715aba578c402a8c41a7529972738f64b9,update readme,2018-12-20 12:15:00+08:00,FALSE
+fb3ea2091c95427794bf722ba5704089057cafc2,update to v0.5.5,2018-12-23 00:03:02+08:00,FALSE
+18593f6da2a0cc5a5956b59a55a012ef27861ea2,update to v0.5.6,2019-01-17 18:59:47+08:00,FALSE
+7640a04bded35e2a5a8beac3143393f478b7ab92,add dcn models,2019-01-25 23:53:57+08:00,FALSE
+ed5b76e6eed66b9e81e2ec26e38993dc3ac2dbe9,the last releaes on Pytorch 0.4.1,2019-02-06 23:59:11+08:00,FALSE
+e83e5d0f144c66dd84852c9623acd31267dc8185,update to v0.6rc0,2019-02-07 00:29:48+08:00,FALSE
+5074eb1a9b0d0726bd08fe643717dd992d34e078,"Typo (#316)
+
+* correct typo
+
+* correct registry typo
+
+* remove f-string
+
+* readme.md",2019-02-13 17:28:53+08:00,FALSE
+b88561dbaac57151eeacc9ee12bce7ac2f04ff19,upgrade to v0.6.0,2019-04-14 15:31:09-07:00,FALSE
+248b6c86029636b8012dd22211afcd79dfbc0271,update readme,2019-04-15 19:23:13-07:00,FALSE
+1cbc88e3f528fa27489b9d68595b47ddb5cb1f34,"Code for CVPR 2019 paper ""Hybrid Task Cascade for Instance Segmentation"" (#478)
+
+* add HybridTaskCascade
+
+* add configs for other backbones
+
+* add keep_ratio argument for segmap transform
+
+* add readme for HTC
+
+* fix linting errors
+
+* split assign and sampling as in Cascade R-CNN
+
+* remove unused imports
+
+* add a large model
+
+* update htc",2019-04-20 16:16:18-07:00,FALSE
+6fe5ccde85d170f52e3fdaa50a9a288e93443fa5,"Add support for weight standardization (#521)
+
+* add support for weight standardization
+
+* add ws support for htc heads
+
+* add a config file for 20-23-24e lr schedule
+
+* update readme of weight standardization",2019-04-26 21:36:55-07:00,FALSE
+d00d0be15a201a2f044d62229f73a65dd02c0a4b,update readme and tutorials,2019-05-04 00:41:50-07:00,FALSE
+e7ac4d6886fd94fd62a94a9dce9ff9bb6cd00781,fix typo,2019-05-04 00:48:34-07:00,FALSE
+ddfb38efa733f52ced8d02b03c9fd913e5d7e044,"add pytorch 1.1.0 SyncBN support (#577)
+
+* add pytorch 1.1.0 SyncBN support
+
+* change BatchNorm2d to _BatchNorm and call freeze after train
+
+* add freeze back to init function
+
+* fixed indentation typo in adding freeze
+
+* use SyncBN protect member func to set ddp_gpu_num
+
+* Update README.md
+
+update pytorch version to 1.1",2019-05-14 22:08:55-07:00,FALSE
+8d38fd8ccfd0234599d6853a880aaca4d89e130e,"Reimplement ""FCOS: Fully Convolutional One-Stage Object Detection"" (#586)
+
+* add fcos
+
+* use P5 instead of C5
+
+* add relu before extra convs in FPN
+
+* add singleclass_nms, use caffe2 lr
+
+* fix log interval
+
+* use caffe2init and relu in extra layers
+
+* fix scale layer, use p5 instead of c5
+
+* fix focs target
+
+* refactor code
+
+* delete useless file
+
+* clean
+
+* refactor code
+
+* change num_classes to cls_out_channels
+
+* fix bug of in get_bboxes
+
+* fix bug in test
+
+* add r101 2x cfg
+
+* ms use value mode, add x101-64x4d cfg
+
+* add more comment and rename some variable
+
+* rename centers to points, modify doc string of distance2bbox
+
+* add fcos detector, replace frozen with requires_grad
+
+* add README.md
+
+* add r101-1x performance, rename cfg, add detector FCOS
+
+* update fcos r50 2x performance, remove fpn caffe2 initialize
+
+* fix flake8 error
+
+* rename cfg
+
+* fix grammar error of some comments
+
+* minor fix comment
+
+* change work_dir to be consistent with config name
+
+* add FCOS support in README",2019-05-16 23:57:06-07:00,FALSE
+a99dbae777c30d5d3957d07db0f11b3f5a3fbe84,add contributing guide (#681),2019-05-21 16:26:05+08:00,FALSE
+b581e19ffc4c88390aab5471734e1772fca0c844,"Code for CVPR 2019 Paper ""Libra R-CNN: Towards Balanced Learning for Object Detection"" (#687)
+
+* Code for components of Libra R-CNN
+
+* Configs and README for Libra R-CNN
+
+* update bfp
+
+* Update Model ZOO
+
+* add comments in non-local
+
+* fix shape
+
+* update bfp
+
+* update according to ck's comments
+
+* update des
+
+* update des
+
+* fix loss
+
+* fix according to ck's comments
+
+* fix activation in non-local
+
+* fix conv_mask in non-local
+
+* fix conv_mask in non-local
+
+* Remove outdated model urls
+
+* refactoring for bfp
+
+* change in_channels from list[int] to int
+
+* refactoring for nonlocal
+
+* udpate weight init of nonlocal
+
+* minor fix
+
+* update new model urls",2019-05-25 18:38:30+08:00,FALSE
+e0c456d77d200c1ad6f6d855f9c8676b7ab8cb88,update readme,2019-06-18 11:42:25+08:00,FALSE
+d5068a14017467332464e7c4a46b9eaea9570a6b,minor fix for bibtex,2019-06-18 11:47:56+08:00,FALSE
+1b225a1c804a206729cb50ec2156cd7418e421f1,update readme (#831),2019-06-19 17:03:35+08:00,FALSE
+e746639503c7c81c10f4c789616a21b089e058a9,"Support FP16 training (#520)
+
+* add fp16 support
+
+* fpn donot need bn normalize
+
+* refactor wrapped bn
+
+* fix bug of retinanet
+
+* add fp16 ssd300 voc, cascade r50, cascade mask r50
+
+* fix bug in cascade rcnn testing
+
+* add support to fix bn training
+
+* add fix bn cfg
+
+* delete fixbn cfg, mv fixbn fp16 to a new branch
+
+* fix cascade mask fp16 bug in test
+
+* fix bug in cascade mask rcnn fp16 test
+
+* add more fp16 cfgs
+
+* add fp16 fast-r50 and faster-dconv-r50
+
+* add fp16 test, minor fix
+
+* clean code
+
+* fix config work_dir name
+
+* add patch func, refactor code
+
+* fix format
+
+* clean code
+
+* move convert rois to single_level_extractor
+
+* fix bug for cascade mask, the seg mask is ndarray
+
+* refactor code, add two decorator force_fp32 and auto_fp16
+
+* add fp16_enable attribute
+
+* add more comment, fix format and test assertion
+
+* fix pep8 format error
+
+* format commont and api
+
+* rename distribute to distributed, fix dict copy
+
+* rename function name
+
+* move function, add comment
+
+* remove unused parameter
+
+* mv decorators into decorators.py, hook related functions to hook
+
+* add auto_fp16 to forward of semantic head
+
+* add auto_fp16 to all heads and fpn
+
+* add docstrings and minor bug fix
+
+* simple refactoring
+
+* bug fix for patching forward method
+
+* roi extractor in fp32 mode
+
+* fix flake8 error
+
+* fix ci error
+
+* add fp16 support to ga head
+
+* remove parallel test assert
+
+* minor fix
+
+* add comment in build_optimizer
+
+* fix typo in comment
+
+* fix typo enable --> enabling
+
+* udpate README",2019-06-28 16:49:00+08:00,FALSE
+5bf935e1b7621b234ddb34ef6c32b2b524243995,update version to v1.0rc0 (#1068),2019-07-28 15:54:14+08:00,FALSE
+7b75de4dd52132080d2b9579d6736ed29c5d89b6,fixed typo in readme -- from colledges to colleges (#1108),2019-08-03 00:28:40+08:00,FALSE
+6e48d28198ea5d6dcf6a9618fd8d2832b5eaf538,"Update readme (#1161)
+
+* update readme
+
+* add different datasets on model zoo",2019-08-10 00:32:54+08:00,FALSE
+e0750f8c71d9faede0a716bc5c40477daaa53ab8,move github doc and documentation to particular folders (#1233),2019-08-22 17:06:25+08:00,FALSE
+4357697acaaf7b3eb17a9e78f2e0b8996bcf4e73,"Release v1.0rc1 (#1805)
+
+* update to v1.0rc1
+
+* update maintainers",2019-12-14 12:16:26+08:00,FALSE
+8118d76a4ff609d5826bb5d758aebdd092d03392,"Add sphinx generated docs (#1859)
+
+* use sphinx to generate docs
+
+* fix flake8 linting
+
+* update docs",2019-12-24 18:06:04+08:00,FALSE
+629b9ff288fc2e6b1a5bef7fb6e9e0467b28c906,"add NASFPN (#1246)
+
+* add NASFPN
+
+* minor fixes
+
+* fix downsample, add norm to lateral
+
+* update downsample and configs
+
+* remove additional blank line
+
+* update docs
+
+* add benchmark
+
+* minor fix
+
+Co-authored-by: Cao Yuhang <yhcao6@gmail.com>",2019-12-25 12:54:49+08:00,FALSE
+e907139cb8f4c0195abcf31101925819f369ecc1,"add instaboost in coco.py (#1739)
+
+* add instaboost in coco.py
+
+* Revert ""add instaboost in coco.py""
+
+This reverts commit 51af81ef88991782d54750761ef2dd394c7a38a8.
+
+* add instaboost in data pipeline
+
+* code format
+
+* Update requirements.txt
+
+* add README.md
+
+* bug fix
+
+* add link
+
+* Update README.md
+
+* install instaboost when necessary, keep r50 cfgs only
+
+* ready to merge
+
+* fix typo
+
+* pass yapf
+
+* minor formats
+
+Co-authored-by: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Co-authored-by: Kai Chen <chenkaidev@gmail.com>",2020-01-04 21:40:46+08:00,FALSE
+1ebb6cb8dbd48d2f017eff9930b70c1d3eecf7ba,"Code for Paper ""Bridging the Gap Between Anchor-based and Anchor-free… (#1872)
+
+* Code for Paper ""Bridging the Gap Between Anchor-based and Anchor-free Detection via Adaptive Training Sample Selection""
+
+* fix format
+
+* changed the code according to the Changes requested
+
+* update benchmark
+
+* minor refactoring
+
+* minor fix
+
+* update model_zoo and support models
+
+Co-authored-by: Cao Yuhang <yhcao6@gmail.com>",2020-01-21 20:56:15+08:00,FALSE
+aade6801e7df66679b1fe9d162da0d03b4742dd4,"Bump version to 1.0.0 (#2029)
+
+* bump version to 1.0.0
+
+* fix typos
+
+* update the version in docs",2020-01-31 00:18:47+08:00,FALSE
+b5431092505f7dcd7de616c8a79eba4d2532fbc8,"Code Release: CARAFE: Content-Aware ReAssembly of FEatures (ICCV 2019) (#1583)
+
+* add carafe ops
+
+* rename carafe benchmark
+
+* grad check fix
+
+* update grad check
+
+* update grad check output
+
+* add fpn carafe & mask head carafe
+
+* add ReadMe
+
+* update readme
+
+* add carafe setup
+
+* update naive carafe
+
+* update readme and setup
+
+* readme typo fix
+
+* fix flake8 error
+
+* fix flake 8 error
+
+* fix flake 8
+
+* fix flake 8 more
+
+* flake 8 fix plus
+
+* flake 8 fix
+
+* fix flake 8
+
+* reformat ops files
+
+* update fpn files and cfgs
+
+* update readme
+
+* update fcn_mask_head
+
+* update fpn_carafe
+
+* update kernel
+
+* update
+
+* update
+
+* add docstring in FPN_CARAFE
+
+* reformat with yapf
+
+* update
+
+* update
+
+* add build upsampler
+
+* fix mask head build error
+
+* reformat build upsample layer
+
+* add doc string for CARAFE and PixelShuffle
+
+* update
+
+* update upsample_cfg_
+
+* update
+
+* update doc string
+
+* rm abbr in build upsample layer
+
+* update readme
+
+* update model_zoo
+
+* add link to other features in ReadMe",2020-02-21 20:57:33+08:00,FALSE
+4c21f7ff199136350bdb15788d5a17a51a429e82,"Update version to 1.1 (#2144)
+
+* update version to 1.1
+
+* fix typo
+
+* remove the version limit of ubelt",2020-02-24 16:07:58+08:00,FALSE
+eeff0beff90fb8c0b65d18cb1a945313a3e2a921,"add new config sample and check scripts (#2216)
+
+* add new config sample and check scripts
+
+* context managere to prevent import
+
+* refactor backbone, add caffe
+
+* add fast rcnn
+
+* all basci config done
+
+* rm coco_proposal
+
+* add scratch, wider_face, voc
+
+* add reppoints
+
+* delete device id, auto resume
+
+* add libra_rcnn, ms_rcnn, nas_fpn
+
+* add hrnet, fcos
+
+* add free_anchor, gn, grid_rcnn, guided_anchoring, gcnet, ghm, gn+ws
+
+* finished all, but some need refactor and unified logic
+
+* fixed albu
+
+* update ReseNet101
+
+* reduce ResNet101, add norm_cfg, 4conv1fc
+
+* refactor caffe backbone
+
+* merge act_cfg, dcn from master
+
+* rename 2fc head, add 4conv1fc head
+
+* delete 4con1fc model
+
+* rename components -> _base_
+
+* flatten _base_
+
+* refactor _base_ structure
+
+* refactor config structure
+
+* reduce _base/models
+
+* rename all config
+
+* add _coco inside configs
+
+* fixed _coco in files
+
+* fixed albu in test
+
+* migrate to new sys
+
+* fixed test
+
+* fixed test
+
+* rm cascade, fast_rcnn
+
+* rm cascade, fast_rcnn from _base_
+
+* fixed fcos_center
+
+* rename from rule
+
+* collopse third party model
+
+* fixed test
+
+* fixed some minor bug
+
+* rename gn-neck_head -> gn-neck+head",2020-03-23 23:57:16+08:00,FALSE
+2bed0f55f2a9cfc3628639226d678803580abf57,"Add tutorials for V2.0 (#2435)
+
+* Add tutorials for V2.0
+
+* Add details for dataset tutorial
+
+* add tutorials in index.rst
+
+* Add tutorials for concat data
+
+* Modify documents
+
+* More contents",2020-05-01 22:09:18+08:00,FALSE
+40d5381d11673fd3b8a8ba94a5f5689c109a043b,"Add v2.0 changelog (#2599)
+
+* add v2.0 changelog
+
+* minor updates
+
+* add speedup percentage
+
+* update changelog
+
+* update the release date",2020-05-05 23:38:25+08:00,FALSE
+94233d418f05e1ca509348ed2e50cef534cbbe7e,"Fix the docs (#2621)
+
+* fix the docs
+
+* add docs for image demo
+
+* add macOS in supported systems
+
+* add mmcv into requirements of readthedocs",2020-05-06 01:39:06+08:00,FALSE
+b62ed854ed87c2be0240026b1c35159ef2785d6a,"Add compare table (#2620)
+
+* add compare table fix model_zoo.md
+
+* fix some typos
+
+* minor add
+
+* minor update
+
+* add link for mmdet
+
+* minor update",2020-05-06 11:00:28+08:00,FALSE
+3b53fe15d87860c6941f3dda63c0f27422da6266,"Add python path in scripts (#2625)
+
+* add python path in scripts
+
+* Make python path work
+
+* Shorter path
+
+* Add docs
+
+* Change dist scripts
+
+* Change slurm example",2020-05-06 17:40:33+08:00,FALSE
+6603790b67d182fb7828b82ac519f3f0d1086231,"1. fixed the small bug that model_zoo url is inaccessible (#2641)
+
+2. Added FSAF model zoo
+
+Co-authored-by: wangxinjiang <wangxinjiang@sensetime.com>",2020-05-07 14:00:47+08:00,FALSE
+a9622c65d8df7f9b53dee5b3f375d729c0c644ec,"Add links in docs (#2735)
+
+* Add links in docs
+
+* Fix typo
+
+* Fix unittest bug",2020-05-18 17:32:37+08:00,FALSE
+b20d6993242a5ebb64a879dd19b89830f1f625f7,"Extension link (#2736)
+
+* Add links in docs
+
+* Fix typo
+
+* Add links of projects
+
+* Add paper links",2020-05-19 19:13:26+08:00,FALSE
+dab4ac1b66658f471172f4b1049b3111751290e2,"Support RegNetX models (#2710)
+
+* Add RegNet, docs/refactor TBD
+
+* Support RegNet
+
+* Add RegNets
+
+* Modify docs and refactor code
+
+* fix pre-train bug
+
+* Performance ready
+
+* Use public model weights
+
+* Performance & settings done
+
+* Fix unittest bug
+
+* Try another way of test config
+
+* Add unittest and refactor
+
+* Reformat
+
+* Finish refactor regnet
+
+* merge tests
+
+* fix conflicts
+
+* Fix resnext CI bug
+
+* rename parameter
+
+* Add ref link & clean _delete_
+
+* tweaks of doc
+
+* try resnext doctest
+
+* add expansion in block
+
+* remove doctest of resnext",2020-05-23 20:07:28+08:00,FALSE
+e903b5c109dc9ee5bb06c35fbe3b9c1f88ba6367,"Code Release: Prime Sample Attention in Object Detection (CVPR 2020) (#2626)
+
+* save
+
+* add retinanet and fix some inconsistent
+
+* fix registry
+
+* fix typos
+
+* fix unmap bug
+
+* fix some bugs
+
+* clean
+
+* minor fix
+
+* fix k b
+
+* add more cfgs
+
+* fix detach
+
+* add some benchmarks
+
+* add some comments
+
+* add more comments
+
+* change test rpn proposal num
+
+* add more models
+
+* modify accroding comments
+
+* more fix
+
+* add pape link, fix some grammar error
+
+* modify according to comments
+
+* add unit test
+
+* add unit tests for head
+
+* fix some comments, add pape link
+
+* add pisa roi head unittest
+
+* fix README.md
+
+* fix year",2020-05-24 13:24:01+08:00,FALSE
+754ec972e93a5aed80a438bd29b7962544ccf3c0,"Implement NASFCOS (#2682)
+
+* Implement NAS-FCOS
+
+1. Supports NASFCOS
+2. Added NASFCOS_FPN
+3. Added NASFCOS_Head
+4. Added r50 config
+
+* Revert ""Implement NAS-FCOS""
+
+This reverts commit ebae11cbbdc5b4f3cc7226c763e9254c94a9c92b.
+
+* Revert ""Revert ""Implement NAS-FCOS""""
+
+This reverts commit 32bca597859a447de62ddf0f2c2f482809730da9.
+
+* Implement NASFCOS
+
+1. Supports NASFCOS
+2. Added NASFCOS_FPN
+3. Added NASFCOS_Head
+4. Added r50 config
+
+* reformatted & use list to build convs in head
+
+1. code refornatted
+2. add docstring in nasfcos_head.py
+3. use a list of conv config to build convs, rather than names
+
+* cells merged
+
+1. merge cells in nasfpn ans nasfcos_fpn
+2. add nasfpn_cell_factory.py
+
+* reformatted
+
+* fixed
+
+* fixed
+
+* Update nasfpn_cell_factory.py
+
+* pre-commit
+
+* bug fixed
+
+* renamed&moved
+
+* not done
+
+* fixed
+
+* fixed
+
+* Delete remove_parawise_cfg_nasfcos_r50_nashead_4x4_coco.py
+
+* fixed
+
+* Create 1x_bias_lr.py
+
+* Revert ""Create 1x_bias_lr.py""
+
+This reverts commit 54602ded283a8f646aebfa0f216350fd2ce82e6d.
+
+* fixed
+
+* fixed
+
+* fixed docstring
+
+* init modified
+
+* formatted
+
+* fixed
+
+* updated
+
+* fixed
+
+* fixed
+
+* fixed
+
+* fixed
+
+* fixed
+
+* fixed
+
+* pass test
+
+* fixed
+
+* fixed
+
+* fixed
+
+* rename
+
+* 123
+
+* nasfcos_readme
+
+* Update README.md
+
+* rename & leave empty
+
+* GN->GN-head in README
+
+* fixed",2020-05-24 17:41:32+08:00,FALSE
+cc4b2d48c0e56969644f3a0f0836a1db5122ac19,"Update project links (#2895)
+
+* add tutorials
+
+* use arxiv page",2020-06-04 19:27:26+08:00,FALSE
+e05e85834c3162a8981dc5169ffd04b1c44d67d6,"Update README.md (#2902)
+
+fixing link typos",2020-06-04 21:37:21+08:00,FALSE
+a04a482e5412b45507bb712afa6c6c3a44515de5,"roi_extractors: GRoIE addition (#2584)
+
+* roi_extractors: GRoIE addition
+
+Signed-off-by: Leonardo Rossi <leonardo.rossi@unipr.it>
+
+* Fix bug caused by empty tensor and update benchmark results
+
+Co-authored-by: ZwwWayne <wayne.zw@outlook.com>",2020-06-08 23:51:31+08:00,FALSE
+d9ee611a68dbc359c0d24454e64f0e69318d438b,"Bump version to v2.1 (#2945)
+
+* Bump version to v2.1
+
+* clean minor changes
+
+* More specific change log and clean unnecessary items
+
+* add 2947",2020-06-09 00:36:03+08:00,FALSE
+d2a8ba76457822daf5a866b72cb1f9ae8a7fc52f,"Code for paper ""Dynamic R-CNN: Towards High Quality Object Detection via Dynamic Training"" (#3040)
+
+* Code for paper ""Dynamic R-CNN: Towards High Quality Object Detection via Dynamic Training""
+
+* update configs/dynamic_rcnn/dynamic_rcnn_r50_fpn_1x.py
+
+* reformat code
+
+* simplify code
+
+* update model link
+
+* simplify code
+
+* simplify code logic
+
+* simplify code and add comments
+
+* minor updates of the docstring
+
+Co-authored-by: Jiarui XU <xvjiarui0826@gmail.com>
+Co-authored-by: Kai Chen <chenkaidev@gmail.com>",2020-06-26 16:22:51+08:00,FALSE
+792273be653ba28412f06e29b49f2c8ebc7761c2,"Add doc string for datasets (#3130)
+
+* add docstring for pipelines
+
+* add docs string for transform pipeline
+
+* add dataset docs
+
+* resovle comments
+
+* refactor table
+
+* resovle comments
+
+* delete __repr__
+
+* resolve comments
+
+* minor update
+
+* update readme
+
+* minor update
+
+* rename api",2020-06-27 17:00:46+08:00,FALSE
+4e40f6f0a1b9101f2d53fbc4b801bcf074ff849a,"Add support for DetectoRS. (#3064)
+
+* Add support for DetectoRS.
+
+* Fix Travis CI build failure and remove loading rfp_pretrained for test
+
+* Revise the code according to the PR reviews:
+
+* remove unnecessary `,`
+
+* add docstring to ASPP and ConvAWS2d
+
+* make args of ASPP configurable
+
+* simplify the code of ConvAWS2d
+
+* import nn and functional for SAConv2d
+
+* rewrite rfp_conv with build_conv_layer and constant_init
+
+* rename rfp_inp with rfp_inplanes
+
+* reformat code to pass Travis CI build
+
+* Revise codes according to the PR reviews:
+
+* Create new backbone DetectoRS_ResNe(X)t to incorporate RFP and SAC.
+
+* Initialize modules with mmcv.cnn.
+
+* Revise the codes of RFP.
+
+* Revise codes according to the PR comments:
+
+* Add docstrings to Bottleneck in mmdet/models/backbones/detectors_resnet.py.
+
+* Add docstrings to _load_from_state_dict in mmdet/ops/conv_ws.py.
+
+* Initialize the switch of SAC with mmcv.
+
+* minior refactor and docstring
+
+* update doc
+
+* update README
+
+* move init into init_weights()
+
+* update model zoo
+
+* add gfl
+
+Co-authored-by: Jiarui XU <xvjiarui0826@gmail.com>",2020-06-30 17:56:17+08:00,FALSE
+25ac8f502dc76c2c2285818ef44b6846afac7625,"Bump to 2.2 (#3170)
+
+* Bump to 2.2
+
+* remove some
+
+* update
+
+* update
+
+* update mmcv version",2020-07-02 01:31:18+08:00,FALSE
+e2b642a4c58acc5bc25c592345c8dd35610a4308,"Add Colab Training Tutorial (#3213)
+
+* Add colab training tutorial
+
+* Update tutorial codes and fix bug
+
+* Clean files, refactor TBD
+
+* Update tutorials
+
+* Remove duplicated code
+
+* Mv tutorial",2020-07-07 23:52:50+08:00,FALSE
+24e84170ee73caa15daff935d16cdcbd22ff3da8,"Add logo and resources folder (#3230)
+
+* add logo and resources folder
+
+* update logo size
+
+* change logo size to 400
+
+* change logo size to 600",2020-07-08 00:40:41+08:00,TRUE
+78ac64b493779ab0ec5d0d1dbec5079025199762,"Add colab link (#3273)
+
+* Add colab link
+
+* Use mmcv-full in requirements
+
+* Migrate to MMCV 1.0.2
+
+* Resolve path issue
+
+* Use newest MMDet
+
+* Update projects
+
+* Update install process",2020-07-15 20:34:50+08:00,TRUE
+f10b3066908cd3878fe5a4298cdca791671f950a,"Bump to v2.3.0 (#3484)
+
+* Add change log of v2.3.0
+
+* change minimum required version of mmcv to 1.0.5
+
+* rm tmp files
+
+* Update docs
+
+* Update docs and requirements
+
+* clean comments
+
+* update with 3392",2020-08-05 00:22:33+08:00,FALSE
+57bbfb7e275250bbf1f72f7242de2901c66b4a1c,"add cornernet (#3492)
+
+* add cornernet
+
+* update model zoo",2020-08-05 00:57:08+08:00,FALSE
+2e3f90cb39b99007783a46bb96dc419198bcc4c8,"Update docs (#3549)
+
+* Update usage and trouble shooting links
+
+* update support for pt1.6",2020-08-13 19:26:11+08:00,TRUE
+5114e030824d92c0846f2120f9412d5e80bef3d9,Bump to v2.4.0,2020-08-31 20:31:01+08:00,FALSE
+dfbb6d6fa237311a867e9a911451e79b7af07427,"YOLOv3 - Continue on #1695 (#3083)
+
+* Implement YOLOv3
+
+* Remove unused function
+
+* Update yolov3_ms_aug_273e.py
+
+Clean the comments in config file
+
+* Add README.md
+
+* port to mmdet-2.0 api
+
+* unify registry
+
+* port to ConvModule and remove ConvLayer
+
+* Refactor Backbone
+
+* Update README
+
+* Lint and format
+
+* Unify the class name
+
+* fix the `label - 1` problem
+
+* Move a lot hard-coded params to the __init__ function
+
+* Refactor YOLOV3Neck
+
+* Add norm_cfg and act_cfg to backbone
+
+* Update Config
+
+* Fix doc string
+
+* Fix nms (thanks to @LMerCy)
+
+* Add doc string
+
+* Update config
+
+* Remove pretrained in head and neck
+
+* Add support for conv_cfg in neck
+
+* Update mmdet/models/dense_heads/yolo_head.py
+
+Co-authored-by: Jerry Jiarui XU <xvjiarui0826@gmail.com>
+
+* Update mmdet/models/dense_heads/yolo_head.py
+
+Co-authored-by: Jerry Jiarui XU <xvjiarui0826@gmail.com>
+
+* Fix README.md
+
+* Fix typos
+
+* update config
+
+* flake8, yapf, docformatter, etc
+
+* Update README
+
+* Add conv_cfg to backbone and head
+
+* Move some config to arch_settings in backbone
+
+* Add doc strings and replace Warning with warnings.warn()
+
+* Fix bug.
+
+* Update doc
+
+* Add _frozen_stages for backbone
+
+* Update mmdet/models/backbones/darknet.py
+
+Co-authored-by: Jerry Jiarui XU <xvjiarui0826@gmail.com>
+
+* Fix inplace bug
+
+* fix indent
+
+* refactor config
+
+* set 8GPU lr
+
+* fixed typo
+
+* update performance table
+
+* Resolve conversation
+
+* Add anchor generator and coder
+
+* fixed test
+
+* Finish refactor
+
+* refactor anchor order
+
+* fixed batch size
+
+* Fixed train_cfg
+
+* fix yolo assigner
+
+* clean up
+
+* Fixed format
+
+* Update model zoo
+
+* change to mmcv pretrain link
+
+* add test forward
+
+* fixed comma and docstring
+
+* Refactor loss
+
+* reformat
+
+* fixed avg_factor
+
+* revert to original
+
+* fixed format
+
+* update table
+
+* fixed BCE
+
+Co-authored-by: Haoyu Wu <haoyu.wu@wdc.com>
+Co-authored-by: Haoyu Wu <wuhy08@users.noreply.github.com>
+Co-authored-by: Haoyu Wu <wuhaoyu1989@gmail.com>
+Co-authored-by: Jerry Jiarui XU <xvjiarui0826@gmail.com>
+Co-authored-by: xmpeng <1051323399@qq.com>",2020-08-31 22:52:26+08:00,FALSE
+26562a1d0eaa20ebbe922d0d9f23b61ac083f375,"Code Release of ECCV 2020 Spotlight paper for Side-Aware Boundary Localization for More Precise Object Detection (#3603)
+
+* add sabl two stage
+
+* add sabl retina
+
+* ret cfg bug fix
+
+* test bug fix
+
+* minor update
+
+* update
+
+* add r101 two stage
+
+* update
+
+* add cfgs
+
+* add cfgs
+
+* update cfgs
+
+* format
+
+* format
+
+* add readme
+
+* fix isort
+
+* update
+
+* update readme
+
+* add doc string for sabl retina head
+
+* add doc string and rename some functions
+
+* add docstring for bucketing coder
+
+* update docstring
+
+* bucket_num -> num_buckets
+
+* bucket_pw -> bucket_w bucket_ph -> bucket_h
+
+* update label2onehot
+
+* update bucketing bbox coder doc
+
+* update
+
+* typo fix
+
+* bboxes_ -> rescaled_bboxes
+
+* rename some params in sabl head
+
+* init with mmcv.cnn
+
+* update doc
+
+* rename pos->post
+
+* update cfgs
+
+* update test cfg
+
+* update
+
+* add unitest for sabl head
+
+* add unitest for sabl retina
+
+* rename
+
+* minor rename
+
+* minor update
+
+* update docstring
+
+* update
+
+* use F.one_hot
+
+* update docstring
+
+* update test heads
+
+* update ReadMe
+
+* fix",2020-09-02 00:55:14+08:00,FALSE
+bb6457d40ad676af3d5b7c8dc49b307ff34510fa,"Bump to v2.4.0 (#3663)
+
+* Bump to v2.4.0
+
+* update change log and benchmark
+
+* reformat
+
+* fix typo
+
+* resolve comments
+
+* Update requirement in doc
+
+Co-authored-by: ZwwWayne <wayne.zw@outlook.com>",2020-09-04 01:12:18+08:00,FALSE
+f240bf9d4999854c4eb5cccbfae5053443db4a84,"Update model zoo (#3684)
+
+* update readme
+
+* Update SABL/PAA in both readme and model zoo",2020-09-07 20:34:31+08:00,FALSE
+1142d3942999104399c839ea28e473ab587bbe7d,"add centripetal head (#3390)
+
+* add centripetal head
+
+* update var names in CentripetalHead
+
+* pre-commit
+
+* modify init_weight to align performance
+
+* add config and README
+
+* fix lint
+
+* update docstring
+
+* update README.md and model_zoo.md",2020-09-25 21:27:40+08:00,FALSE
+d460a531a9d26256cab17538407fe771049712b3,"YOLACT (#3456)
+
+* YOLACT (not the final commit, so please don't review)
+
+* Implementation notes for YOLACT
+
+* Modify yolact_r50.py
+
+* Update YOLACT configs
+
+* Add YOLACT README
+
+* Adjust according to the first round of review
+
+* Handle the corner case when gt_mask is empty
+
+* Add unit tests for YOLACT heads
+
+* Add unit tests for YOLACT forward
+
+* Adjust according to Kai's comments, except for gt_mask filtering
+
+* Change use_OHEM to use_ohem in unit tests
+
+* Update config in YOLACT unit tests
+
+* merge bbox overlap and batch bbox overlap
+
+* fix unit test
+
+* refactor some codes and fix some bugs
+
+* fix isort
+
+* fix ci
+
+* update model link
+
+* fix cfg path
+
+* support batch test
+
+* Make get_seg_masks faster
+
+* fix format
+
+* update readme
+
+Co-authored-by: Cao Yuhang <yhcao6@gmail.com>",2020-09-26 23:56:40+08:00,FALSE
+8753583e4fa50277bde4ba0f666f337a1387b864,"[enhance]: Improve documentation of modules and dataset customization (#3821)
+
+* update tutorials for changing training settings
+
+* update
+
+* Update details of hook
+
+* resolve comments
+
+* reformat
+
+* Update module documentations
+
+* add notes for classes specification",2020-10-10 10:25:55+08:00,TRUE
+abb9a8751a5273780160a7cb8121e6146e2fc7ee,"VarifocalNet (#3666)
+
+* add varifocal loss, vfnet head and config file
+
+* fix nonzero() and register_module bug
+
+* add more configs and README.md
+
+* enlarge image in README.md
+
+* add arxiv link
+
+* add paper arxiv link
+
+* attempt to fix checks error - res2net
+
+* update readme
+
+* update according to comments
+
+* revert res2net.py
+
+* compact the VFNetHead
+
+* adapt for official TTA
+
+* add unit tests and refine vfnet_head
+
+* update url
+
+* update readme
+
+* add minor comments
+
+* update supported models
+
+* remove VFNet.png
+
+Co-authored-by: Cao Yuhang <yhcao6@gmail.com>",2020-10-29 11:17:22+08:00,FALSE
+bd3306f5575908fd90a783bcb1bfc8c55d361423,"Bump to v2.6.0 (#4038)
+
+* bump to v2.6.0
+
+* update version requirements
+
+* Add README.md reference
+
+* Fix README.md",2020-11-01 14:29:00+08:00,TRUE
+af7deffe69d1e3c16f52471765b947991b80964f,"[Enhancement] Refactor Q&A (#4045)
+
+* [Enhancement] Refactor Q&A
+
+* fix typo
+
+* fix cudatoolkit
+
+* rename
+
+* resovle cmts
+
+* reanme
+
+* fixed yaml
+
+* add link",2020-11-05 15:48:47+08:00,TRUE
+0293aedb67e4a10510e4ea14684b8d13f62901bc,"[Feature]: Support ResNeSt backbone (#2959)
+
+* add stem_channels opt
+
+* add ResNeSt
+
+* fixed config
+
+* fixed cascade config
+
+* add precise BN
+
+* add precise bn in test
+
+* format precise bn
+
+* update precise bn interval
+
+* fixed eval config bug
+
+* fixed precise interval
+
+* change to return_loss=False
+
+* add naive syncbn
+
+* add naive syncbn
+
+* rmo precise bn
+
+* add range ms
+
+* change to MMSyncBN
+
+* add naive
+
+* fixed loader
+
+* reset test
+
+* fixed faster config bug
+
+* add no norm decay
+
+* add baseline no norm decay
+
+* set fronzen_stages=-1
+
+* move import
+
+* restore to official setting
+
+* set to MMSyncBN
+
+* update s101 pretrain
+
+* update docs
+
+* fixed config
+
+* add backbone+head
+
+* change fpn init
+
+* add s101
+
+* add s101
+
+* revert fpn init
+
+* add modelzoo, docstring, test
+
+* fixed test
+
+* fixed test
+
+* add missing models
+
+* update docstring
+
+* add comment
+
+* fixed markdownlint",2020-11-24 17:12:14+08:00,FALSE
+159d9251640a161e270eba520a78403b9bc76370,"Add DETR readme.md (#4206)
+
+* Add DETR readme.md
+
+* update model zoo
+
+* fix typo",2020-11-30 23:24:13+08:00,FALSE
+3e902c3afc62693a71d672edab9b22e35f7d4776,"bump to v2.7.0 (#4205)
+
+* bump to v2.7.0
+
+* update dates
+
+* update version requirements
+
+* rephrase
+
+* resolve comments",2020-11-30 23:26:01+08:00,FALSE
+83a964386e6cbddcbe3c51fccfd8f0d49baaed1e,"Add markdown lint in pre-commit hook (#4255)
+
+* Add markdown lint in pre-commit hook
+
+* add markdown lint",2020-12-09 20:51:11+08:00,FALSE
+23ded99365a82275e01ac377ec6178ab68a4941f,"Code for Cascade RPN - NeurIPS 2019 (#1900)
+
+* Code for Cascade RPN - NeurIPS 2019
+
+* using mmdet2 apis
+
+* update mmdet2 coords and minor fixes
+
+* fix format
+
+* update configs
+
+* fix simple test
+
+* update fast rcnn config
+
+* minor fixes
+
+* update docstring
+
+* update readme
+
+* update doc string
+
+* minor fixes
+
+* standard adaptive interface
+
+* update agrs docs
+
+Co-authored-by: Cao Yuhang <yhcao6@gmail.com>",2020-12-23 11:35:06+08:00,FALSE
+a21eb25535f31634cef332b09fc27d28956fb24b,bump to v2.8.0 (#4387),2021-01-04 10:40:37+08:00,FALSE
+4689a7357c5ff2cc8fb03cf1821563207c14a1d6,Add openmmlab projects (#4425),2021-01-10 20:58:21+08:00,FALSE
+40f168937df45986d6159f9c0b4735a9cdcd350a,"Code for AAAI 2021 paper. ""SCNet: Training Inference Sample Consistency for Instance Segmentation"" (#4356)
+
+* add scnet
+
+* add more configs and minors
+
+* fix unittest for scnet
+
+* update docstring
+
+* add forward test for htc and scnet
+
+* fix build on pytorch 1.3 for empty tensor
+
+* update doc string and minor refactor
+
+* update unit-test and use inheritance for SCNet heads
+
+* support scnet tta
+
+* minor
+
+* update readme
+
+* minor fixes",2021-01-28 19:49:42+08:00,FALSE
+6c1347d7c0fa220a7be99cb19d1a9e8b6cbf7544,"Bump to v2.9.0 (#4557)
+
+* bump to v2.9.0
+
+* update",2021-02-01 13:05:36+08:00,FALSE
+272f2007397d8aa984195d2cc6ac6710b8d1fd5d,"Add paper conference link and update MMCV installation docs (#4597)
+
+* Add paper conference link and mmcv install docs
+
+* Update contributing",2021-02-08 11:03:12+08:00,FALSE
+3ea47f4aab7d8b070ad2169492c53eb482302113,"[Feature] Add chinese version readme (#4650)
+
+* add chinese version readme
+
+* fix the language link",2021-02-21 20:40:02+08:00,FALSE
+db85ba2f098471675a18aea4477dd66d7c436e4e,remove some description about developers (#4681),2021-02-26 11:21:30+08:00,FALSE
+bec24ea4ff55767256ac873c4b2e856d3f1dba1e,"Bump to v2.10.0 (#4692)
+
+* bump to v2.10.0
+
+* update other docs
+
+* resolve comments
+
+* resolve comments",2021-03-02 15:34:22+08:00,FALSE
+2894516bacf9ff82c3bc6d6970019d0890a993aa,"Bump version to v2.11.0 (#4870)
+
+* add change log for v2.11.0
+
+* fix typo
+
+* version 2.11.0
+
+* fix typo
+
+* to meet the specification of change log
+
+* Update changelog.md
+
+Co-authored-by: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>",2021-04-02 15:40:41+08:00,FALSE
+455a0b8dbfdede7ca53597155a7ae063f9bef6e1,Update README.md,2021-04-13 00:25:27+08:00,TRUE
+d2ee4c8bff11664802365d0e2288844408ed1f25,Fix link,2021-04-13 13:22:05+08:00,FALSE
+625b258739346c2d415efe674f44dd15c26b7011,"Add mmocr (#5031)
+
+* add mmocr link
+
+* add mmocr link",2021-04-21 10:55:48+08:00,FALSE
+8a432d2082c6a91208b1726473a407cb463bd37f,"[Docs] add qr code and MMGeneration link (#5044)
+
+* [Docs] add qr code and MMGeneration link
+
+* Fix lint",2021-04-23 13:36:01+08:00,FALSE
+7734ff179468d5087622b0ef358ab1b0625f0dfc,"update fpg link and add template (#5079)
+
+* update fpg link and add template
+
+* update model zoo
+
+* update deformable detr link",2021-04-28 20:17:19+08:00,FALSE
+38c050118bb8b8af3e59f5be6274a01f4127288e,"Bump version to v2.12.0 (#5091)
+
+* add change log
+
+* update version number
+
+* update compatibility doc
+
+* reformat",2021-05-03 12:28:55+08:00,FALSE
+78a0a8730c7f28727ec4121a40e89c10440cc1e1,Add MoBY results,2021-05-11 10:50:24+08:00,FALSE
+444e23cd1e9a41b88b6117bffbb8649619f7bede,Update README,2021-05-11 21:36:46+08:00,FALSE
+077a01b177b036bc587acb8faf266cca21143c1d,"Seesaw Loss for Long-Tailed Instance Segmentation (CVPR 2021) (#5128)
+
+* init seesaw loss
+
+* clean code
+
+* update
+
+* update
+
+* update
+
+* test bug fix
+
+* update
+
+* minor update
+
+* add readme and cfgs
+
+* minor update
+
+* reformat build predictor
+
+* minor update
+
+* minor update
+
+* add model urls
+
+* update doc
+
+* minor fix
+
+* minor fix
+
+* update unit test
+
+* update unit tests
+
+* update
+
+* minor update
+
+* fix CI
+
+* fix pytorch 1.8 _conv_forward inference
+
+* update
+
+* minor fix
+
+* update",2021-05-18 15:24:52+08:00,FALSE
+0ba73cf45e817652b749f5bb6efa3b98e9dc55f9,[Fix]: fix doc link (#5192),2021-05-21 10:48:02+08:00,TRUE
+47c2eb3d6687f1c05f9751abf4d2995838617df0,"add centernet metafile and update benchmark list (#5212)
+
+* add centernet metafile and benchmark list
+
+* fix lint
+
+* add batch size
+
+* update batch size
+
+* add centernet",2021-05-26 21:52:42+08:00,FALSE
+a8c681d2854ecdb059fa7ddc12d786dca744ccfb,"Bump version to v2.13.0 (#5262)
+
+* update changelog
+
+* update changelog
+
+* Improvements
+
+* Improvements
+
+* update for v2.13.0
+
+Co-authored-by: hhaAndroid <1286304229@qq.com>",2021-06-01 16:02:58+08:00,FALSE
+4e1468c00869ba5fd81cd4ce9990a77206891884,Initial commit,2021-06-19 16:08:05+08:00,FALSE
+133b7e20ac805ddabd2fce08fabfa7ae4b45c235,Update README.md,2021-06-19 16:09:15+08:00,FALSE
+bc42d20e1693dc251e8f5c6e5c7d234c244a4086,add cbnet,2021-06-23 15:17:00+08:00,TRUE
+2028b0c189d676ce0c7ad31f24f8a68107220855,"Bump version to v2.14.0 (#5466)
+
+* Bump version to v2.14.0
+
+* update
+
+* update
+
+* update
+
+* update version",2021-06-29 21:52:02+08:00,FALSE
+dfe70eb2d3c72ef512d900066385756b6864d2c4,upd config,2021-07-02 15:31:21+08:00,FALSE
+ca49a920d1d5f0256595ecb201736b64af3dfc92,upd config,2021-07-02 18:50:10+08:00,FALSE
+84ae8afc7799d8871898abba57c50330bb3469b6,add faster rcnn,2021-07-03 03:23:18+08:00,FALSE
+6c9bc85d49b82739a95e4c608423484f05a671c9,upd faster_rcnn_cbv2d1_r50,2021-07-06 17:46:51+08:00,FALSE
+ae898d8fb384b36040688c41ba3c98a5a3bbf3ef,Update README.md,2021-07-07 12:54:31+08:00,FALSE
+e745d1714e010911c3d80ad271fb4924377283db,Update README.md,2021-07-07 12:56:38+08:00,FALSE
+f2bf3a3d959713585660a960b1a7476b32942d78,Update README.md,2021-07-07 13:51:27+08:00,FALSE
+99bd1594252b05e6423229f0a9698ecbf8136afb,Update README.md,2021-07-07 13:52:28+08:00,FALSE
+8eaf3b0a37f7b235611f148ea423342b9ab12a4d,Update README.md,2021-07-07 13:56:25+08:00,FALSE
+5769271787c429b0b0f2fad276be115d51e0653b,Update README.md,2021-07-07 13:57:35+08:00,FALSE
+5d674bb580ef0e83b7c42f8f432c24b4334c63a5,Update README.md,2021-07-07 15:24:07+08:00,FALSE
+b1b455158db716dcfdb7b1862932f36408d97939,upd url,2021-07-07 16:02:43+08:00,FALSE
+494598b7ff4f2d152e05b097902ea14b99b63d06,upd README,2021-07-07 16:32:30+08:00,FALSE
+bd0149bc5ce6d3ccf9ce8fd66a8f59ef527d6ace,upd url,2021-07-07 16:55:03+08:00,FALSE
+d123058a9ab7bfcfd2469a4abe926069caa0b378,Update README.md,2021-07-07 19:06:09+08:00,FALSE
+a33c78765e0395571af861cefb731444e88549f4,Update README.md,2021-07-07 22:45:41+08:00,FALSE
+e1fe5ad0093df145975821d4df7dfb002acde7c9,Update README.md,2021-07-07 23:34:13+08:00,FALSE
+9f41cc4f9fc7f9d2a5d288e647b65a569b11691c,Update README.md,2021-07-10 14:27:15+08:00,FALSE
+4bcdd2a30f5794fa74e414447a3215d30e18c8c7,Update README.md,2021-07-11 11:41:53+08:00,FALSE
+5ef2040b69d8320fffe4650f513a4be0a6d85fd8,Update README.md,2021-07-11 19:27:27+08:00,FALSE
+6c5a823b1d98554f1689ea22babdb6cb0e4eaaa3,Update README.md,2021-07-11 22:30:55+08:00,FALSE
+3e725d66dd168d22479d36d808e17144b8462594,Update README.md,2021-07-11 22:38:05+08:00,FALSE
+be0aa09185e0778fcb96225c9bb68eaad209ef88,Update README.md,2021-07-11 23:10:34+08:00,FALSE
+1a39e5e36368ae784e69d404ba46a838b52dc29a,Update README.md,2021-07-12 13:57:17+08:00,FALSE
+3cb418ea05e643b3a43232e55895a9a4c96b3e2e,add imporved htc db-large,2021-07-22 16:35:18+08:00,FALSE
+3ff906d77a8878245382e451d5b6569fa71d3665,Update README.md,2021-07-22 16:37:11+08:00,FALSE
+900f7bd76e28c1fa8a14a083aa2b28e08043f9a1,Update README.md,2021-07-22 23:58:06+08:00,FALSE
+a546be507af55a17c96dc18a85f86b17656ff814,"Update README.md
+
+fix get_start.md",2022-01-12 01:12:51+08:00,FALSE
+f3195402fa34bf6a2a9a488be1ca167c12ea339b,tip,2022-11-02 13:37:06+08:00,FALSE
+c9a853682c705f7ff9a697112b4c6d2b48d9d5b4,Update README.md,2022-11-02 13:38:56+08:00,FALSE
+72334109d5d0c13ec1e8e8f8651f1a288e681c66,tip (update),2022-11-07 15:43:55+08:00,FALSE

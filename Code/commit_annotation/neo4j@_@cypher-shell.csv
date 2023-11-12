@@ -1,0 +1,19 @@
+sha,message,date,result
+4b35a66b4fd27b5643650352c1c9f6b07a1965aa,build instructions,2016-06-22 10:45:15+02:00,True
+4d09507f2a270e1741c15d150b1f79ef79d70878,Typo in readme,2016-06-22 10:50:20+02:00,True
+dce22ba4efda9610399743677786cca6f09eb63d,Rename project,2016-07-04 16:02:02+02:00,True
+4124095e786c4d07c49fc85fa87021a21ea0b63c,"Add a Makefile and update README
+
+Using this to build a zip file with some files renamed",2016-07-04 16:54:16+02:00,True
+603f599c680bc74ccea11081d034acf3c465a0d2,Improve README,2016-07-07 14:56:34+02:00,True
+53809ff2a2bfa4aa58c420aa17e56368b4c59af2,updated readme.,2016-07-08 12:45:40+01:00,True
+ec748eaf4c866feae93e5f7b38009252523fd16c,added readme for integration tests,2016-07-20 16:02:07+01:00,True
+989008a2e1e233056bd77c6abd0dd81269c18013,updated readme based on suggestions.,2016-07-25 11:04:14+01:00,True
+fa1d631e710d9d748974937e07a17c317916eb94,Update README (and some line-length stuff),2016-08-09 15:52:12+02:00,True
+05c367ed2d3505e7f57ec6b181cc0a772f0d3ad5,Switch to non-generated shell scripts for uber jar,2016-08-09 17:19:34+02:00,True
+888bdfedf97a5650b8eead5c36491c43f4a52f9b,Add a tyrekicking test for the shell script,2016-08-15 12:34:18+02:00,True
+73189f30b14217d39c50d03c15e2004678782d0c,Update readme with packaging instructions,2017-04-10 16:03:14+02:00,True
+2661e7ee570a0ba8751589697fb9a49e4387dc79,Branch into 2 rpm packages,2019-04-04 16:27:27+02:00,True
+e719764b62ed41d624b91de7c12fb184373614d4,minor fix to the read me,2019-04-24 11:37:43+02:00,True
+f7f79d2ec7caf23cd291c30c74982e27dc3ca835,Edit README,2021-01-11 11:49:26+01:00,False
+ccb2048707d26402199228e01dcae473cc0890b7,fixed URL pointing to private repo,2022-04-27 18:30:42+01:00,False

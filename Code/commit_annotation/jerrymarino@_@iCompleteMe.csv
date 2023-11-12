@@ -1,0 +1,818 @@
+sha,message,date,result
+cdc3bc35ecdddd9b66d34b0bb10c0659f7efc8fe,Adding initial readme file,2012-04-15 20:14:47-07:00,False
+7b6fa9e4093c9b7a923859781e2d5ac201359c0d,First real version of the README; still WIP,2013-01-21 21:36:17-08:00,True
+ee919417af610d93bd60425a751bda4cb6dd542c,Managing memory from the C interface better,2013-01-22 19:40:05-08:00,False
+440a2c17f20ea4f467fa3b09ee33a197013e0191,Updating docs and the example ycm_clang_options.py,2013-01-22 21:05:32-08:00,False
+19637caddae6d14d8a21f1b096c34317a6e910af,Renaming ycm_clang_options to ycm_extra_conf,2013-01-24 09:59:21-08:00,False
+a2343cad4c3960903090956feeecbe7f67b51f40,Added an entry to the FAQ,2013-01-24 18:07:46-08:00,False
+96bee8a025bd65bde55c7c2981219289a0fcc0ca,"Docs now instruct to build ycm_core, not all",2013-01-24 19:17:39-08:00,True
+8ce2aa8ab7ed4e1cb2db2135a87de47950593074,Adding a new entry to the FAQ,2013-01-25 14:49:23-08:00,False
+421e15f1e1f1a7bbde5ec5eb0d1135162e5fa09a,Readme rewording,2013-01-25 14:50:45-08:00,False
+396309a5b6dfd96598f054a0190fecf47a30505a,Adding a note to step 5 of the install guide,2013-01-26 16:44:58-08:00,True
+05f57e16d11907fc64b689713010676f0fad753b,Stronger install guide wording and warning,2013-01-26 16:47:59-08:00,True
+1f923b55d7d1c2e34b40412e2d6a44dc31a101bd,New entry to the FAQ,2013-01-26 16:52:37-08:00,False
+873528d472a1f131b2db0379aced925c4ee523a8,Extra items to the README user guide TODO,2013-01-26 17:38:11-08:00,False
+a36f449baaacd1569aae74eabc7a60227af0f74e,FAQ question rewording,2013-01-26 17:47:05-08:00,False
+60860d82f38bfc8a70556ebd2151c3b9f4ef60ff,Adding shift-tab for prev completion too,2013-01-26 17:58:34-08:00,False
+9b3e009ed191a3867ede33da0f117439b5f3186c,Mappings can now be easily remapped,2013-01-26 18:45:27-08:00,False
+68f0bcb1c1f718df508301b420ec8e3d35c26761,Adding :YcmDebugInfo to the readme FAQ,2013-01-28 10:03:32-08:00,False
+5c7adfdec7a632ded4fd032389a3427e607ecc89,YCM gif screencast for readme file,2013-01-29 23:46:10-08:00,False
+79f834f97ea05bf01a13b3bd4cf502de9f07e9ee,Now possible to specify a global ycm_extra_conf,2013-01-30 13:23:57-08:00,False
+8452914046963c47bf61aa0b5866f260a68749e1,Adding a command to force recompilation and diags,2013-01-30 14:46:58-08:00,False
+33e0431abcddbd2e11c40f83442e5505c4c8c924,Extra FAQ item about Syntastic,2013-01-30 14:48:41-08:00,False
+ede69a710a3e853eef21aa4360629165df6f5b13,Explanation for the YCM gif demo,2013-01-31 11:05:49-08:00,False
+e5e8a38f8de4c67529d894bff7f4e26b54581fd4,Typo fixes in the readme,2013-01-31 11:09:08-08:00,False
+d9032eaa68207da3ab87c2c77422b5ad89c67724,Pointing out the red X in the demo,2013-01-31 11:12:00-08:00,False
+8f6ebce42cbb5d72218b2dff68b168aa16fb05d6,Documenting the show-full-diag-message command,2013-01-31 12:32:07-08:00,False
+1779cbbb55030a18e9f9920d98321198583c7532,Typo fix,2013-01-31 14:14:06-08:00,False
+7c573528ed5c5cefc4a4856f5c4d1816d9b524f6,"New YcmDiags command that shows diagnostics
+
+Docs updated to mention it. Syntastic is still a better option than calling this
+command.",2013-01-31 19:21:11-08:00,False
+69363626fff4ff62e30bb7a375155f2dccc85c6f,Correct Ubuntu CMake install command typo,2013-02-01 15:34:13-08:00,True
+3ea7f442d0e56fae3f70e3354766de58b925804f,New entry to FAQ in README,2013-02-01 16:06:48-08:00,False
+77d631d9792bf23f03cb9f2198896c30db91a276,Mappings in README now show up correctly; fixes #5,2013-02-02 10:41:31-08:00,False
+6e3205ee345ccf0245cea03bb39ffbcfe9ca1dd9,Linking to wiki page on building Vim,2013-02-02 13:29:27-08:00,True
+36ad7e484c23ed0c3b787a070118d5a09c0ba668,New FAQ items,2013-02-02 13:29:38-08:00,False
+bd108573307509f0e98e75fc983eb4f260bb3e29,Adding command descriptions to README,2013-02-02 13:38:04-08:00,False
+aa233a7a42a20b43d42b081c1410ae4841ddcfb8,Adding a link to the issue tracker,2013-02-02 13:43:13-08:00,False
+02659826ae339e8848ff8e7ef833391ac75b19b5,Yet another FAQ item,2013-02-02 22:28:11-08:00,True
+29b01e6a218afc22ee21ecc6946b87826286e89b,Yet another FAQ item,2013-02-02 22:32:44-08:00,False
+b4a9fabc3961063a51eb8cae461a6cba554da450,Telling Mac users that MacVim has a console Vim,2013-02-02 22:36:15-08:00,True
+0bfe578a35fab1b94e62813333f1ffed00984dbf,Clarifying a FAQ item,2013-02-04 09:48:55-08:00,False
+f97d00250dfd4409671e59a93f3de6adac6a3c2b,Fix typo in install code.,2013-02-04 23:10:44-08:00,False
+b7eded14172d47d7eb505ca48fe50ccdf6a4e259,More makedir -> mkdir,2013-02-04 23:12:34-08:00,False
+64d8735fab7ff5b652514dab4baa0f190bd6dec9,Update README to clarify steps for commandline vim users on OS X.,2013-02-05 19:18:42+11:00,True
+2a03c254d40aa7315a7ef632363257fdaf55ac14,Typofix :has('python') -> :echo has('python'),2013-02-05 23:45:55+01:00,True
+3feefce1975977d95b32e904c83c04c02b5954ce,"Docs for Homebrew Python/MacVim
+
+This can't really be fixed on YCM's side since it's a system configuration
+issue, but we can at least warn the user and provide him with information on how
+to resolve this.
+
+Fixes #18 (not really, but it's the best we can do).",2013-02-06 10:21:01-08:00,True
+7cf179e2b8e65a3dd98c73d827cbc77049960b0e,"Some default mappings can be set to empty strings
+
+This allows the user to not have a mapping. Also, showing a detailed diagnostic
+is now possible through a new command.
+
+Fixes #64.",2013-02-06 18:34:08-08:00,False
+d396fe193c38af1caa7f3efa4665dcca38ade435,"Extra item in FAQ
+
+This one's about conflicting versions of Python detected.",2013-02-07 09:55:41-08:00,False
+a61036eede726dc6e4747c1b5103d9b457faee66,Formatting fixes for readme,2013-02-07 09:57:22-08:00,False
+a5048f6aa6a6e1071d8ccf1b48450c25a1a82f61,Typo fix,2013-02-07 09:58:16-08:00,False
+54560abbad283f8713abf1926ace9b97ea706eae,"Note about python headers to install guide
+
+Fixes issue #73",2013-02-07 16:56:58-08:00,True
+6e6271ddf214aec5cd8b13f81415a1867d764e0d,"FAQ entry about the ""nosy"" completions",2013-02-07 18:06:12-08:00,False
+2897d56d958b2deba99694e211efe310830320a7,Update the README mentioning install.sh,2013-02-07 19:29:59-08:00,True
+561dc26b86e53cfc66df4082daaa1d99757b1281,New FAQ item about not using vim-autoclose,2013-02-07 21:06:16-08:00,False
+4b5cbdbc9d61c8fb8f823a43cade182c383235c2,"Multiple mappings possible for selection cycling
+
+This change also makes the arrow keys behave like Tab and Shift-Tab.
+
+Fixes issue #83.",2013-02-08 18:30:28-08:00,False
+66ff461aa8c2a577ca2cbc372145951f2564dd33,Fixing typo in readme,2013-02-10 14:24:04-08:00,False
+dbad91e75873af9bd76440158c92427b1e4c86f8,"The docs now reflect the new omni-completer
+
+... and the new, fleshed-out Completer API.
+
+YCM now provides semantic completions for every language that Vim has
+omnicomplete support for, which is _a lot of them_.",2013-02-12 20:31:46-08:00,False
+dcae48adf9e72ac2dacb03a57e708d499b00bbb0,"Changing the wording of the warning to recompile
+
+Since YCM now checks for the version of the ycm_core library, the user will
+always know when he needs to recompile.",2013-02-12 20:58:00-08:00,True
+48881f14de20d7605592dad066e750c1284e2810,Doc note for Mac users about having latest Xcode,2013-02-14 09:50:44-08:00,True
+86881d01dd10b51ce4de544bec2faec4abf0a5e4,Improve default semantic triggers,2013-02-15 04:27:58+01:00,False
+3f1b5c9283b3ef26164e0c1487a38b7c6e268bd7,"Option to complete inside comments and strings.
+
+Fixes issue #105.",2013-02-16 12:56:21-08:00,False
+e743076e14a30b6041c7088c90254dfb7c9bef49,"Option to collect identifiers n comments/strings
+
+Fixes #98.",2013-02-16 14:00:46-08:00,False
+40504177c39a31ed52170253fa6696c13c8f28bd,Docs rewording; have other lang semantic support,2013-02-16 14:26:24-08:00,False
+3d1a86c382b23394f654edbf35f2b36b8c9bb023,"Let local YCM config file override global config file
+
+Currently, when VIM opens a source file, YCM always defaults to
+'g:global_ycm_extra_conf_file' if it exists.
+
+This commit changes YCM's behaviour so that it first tries to find the config
+file in the source file's folder (or any of its parents folder), before
+falling back to 'g:global_ycm_extra_conf_file'.",2013-02-17 19:06:48+01:00,False
+9501c649aa8e499e70531fde93535c6430575bdf,New FAQ entry; segfaults on some linux distros,2013-02-17 19:08:30-08:00,False
+97c7b5b0822a79e2c57e6839d953bd0935693ff9,"Let local YCM config file override global config file
+
+Currently, when VIM opens a source file, YCM always defaults to
+'g:global_ycm_extra_conf_file' if it exists.
+
+This commit changes YCM's behaviour so that it first tries to find the config
+file in the source file's folder (or any of its parents folder), before
+falling back to 'g:global_ycm_extra_conf_file'.",2013-02-17 19:12:39-08:00,False
+69997ef20a196bed56ac74642d5412ce5cad6001,New FAQ entry; segfaults on some linux distros,2013-02-17 19:12:40-08:00,False
+a4affacdd77b86d417cf2e868259cc7fbebed3b2,Fix README typo for g:ycm_semantic_triggers value,2013-02-20 14:06:03+00:00,False
+78b5ef93cf33ec4ebc76f000c9c972817e03504b,Ubuntu install docs now mention build-essential,2013-02-23 11:44:58-08:00,True
+78dd01804df26e2e5fa9a22ce2d33bf6d54b724a,"Docs linking to Windows installation wiki page
+
+That wiki page along with the last several commits that make YCM compiled
+cleanly with MSVC should make it possible to use YCM on Windows. Fixes #62.",2013-02-23 16:50:21-08:00,True
+05f707344bcf82beac30183f4425d42ac5d1ea95,Updating docs with semantic trigger changes,2013-02-25 11:21:25-08:00,False
+bae3665602c73132cdaff7c2b1181cf607519482,Adding semantic triggers for Go,2013-02-25 19:09:58-08:00,False
+e9cce297615f1632ce890146bfaa7cac0f27848f,"Ask before loading .ycm_extra_conf.py files
+
+To prevent the execution of malicious code the new default is
+to ask the user before a `.ycm_extra_conf.py` file is loaded.
+This can be disabled using the option `g:ycm_confirm_extra_conf`.
+
+This commit introduces a helper class `FlagsModules` that keeps track of
+and caches the currently loaded modules. To introduce further criteria
+for a module look at `FlagsModules.ShouldLoad`.
+
+Also `:YcmDebugInfo` now lists the file that was used to determine
+the current set of flags.
+
+`Flags.ModuleForFile` could be used in a user-facing command that
+opens the `.ycm_extra_conf.py` corresponding to the current file.
+A second command could then force a reloding of this module via
+`Flags.ReloadModule`.",2013-02-26 11:16:26+01:00,False
+263b405ab44e8c62298be40ce0706772560c59ba,Very minor post-pull style-related changes.,2013-02-26 18:28:58-08:00,False
+3d305f9c74522160e4002f6241f5e8ad2ed5274e,"Implement completer-specific commands
+
+This provides a framework for completer-writers to create
+completer-specific commands. I have in mind to use this for the clang
+completer to force reloading of a flags module via `:YcmCompleter reload`.",2013-02-28 11:32:07+01:00,False
+1d566bad808f6162454afdebf8d6d9823ff486e6,Implement white-/blacklisting,2013-02-28 18:15:09+01:00,False
+67bf88b7263674adf44f5d5fc14236733c3dd422,Minor rewording in the README,2013-02-28 09:57:56-08:00,False
+a6e83bfe76f0d38611a19b1792c59f3263bddd3a,"Smart-case sensitive filtering
+
+Fixes #120",2013-03-01 22:18:43-08:00,False
+c46b9c6b31cf4f790cea00e2b7cdff12eba522dc,Removing outdated sentence from the README,2013-03-08 22:44:23-08:00,False
+005175d3f3e2f7b975260e5411f634406bc80a15,"Filetype whitelist option added.
+
+Also renaming the filetype blacklist option for the sake of symmetry.
+Fixes #178.",2013-03-09 20:32:31-08:00,False
+6d6f53fdfe27ef332c1248185ccb3a9d29623a0f,New FAQ entry for screen flicker on cursor move,2013-03-14 18:33:35-07:00,False
+a2595d6f7ef706f5661701703e08dc7614a81113,"Option to close preview after leaving insert mode
+
+Added the `g:ycm_autoclose_preview_window_after_insertion` option
+(similar to `g:ycm_autoclose_preview_window_after_completion`).
+If set, the preview window is automatically closed when the user leaves
+insert mode.",2013-03-15 20:40:48+01:00,False
+4f12febb44111dcb558afa2df85897145a3e6509,"Clarifying that ycm_extra_conf needs to be changed
+
+Also tweaked YCM's extra conf file so that the flags variable that needs to be
+changed is closer to the top of the file.",2013-03-20 18:31:49-07:00,False
+b00287a6a2e7bae0472f2d374f25e655b74377a9,FAQ entry for Vim segfault in Ruby files,2013-03-22 10:37:48-07:00,False
+b0c7c8e680f5a37d72987ccf1cb970d16b01b0a1,"Note about configuring eclim with YCM in README
+
+Fixes #103.",2013-03-23 11:57:19-07:00,False
+3e10152cbd60948e50a763b32fa2b81b1260d324,"Note about <C-U> being effectively broken.
+
+Related to issue #24.",2013-03-23 16:42:00-07:00,False
+26d81c3c5fee54c585984a736d7262801b9db9e0,"Note about <C-U> being effectively broken.
+
+Related to issue #24.",2013-03-24 14:13:14-07:00,False
+bdc93974aff3e2f7602050ccd6be6d687ad3af6e,Updated docs noting the new Jedi engine for Python,2013-03-24 15:38:45-07:00,False
+bc4e7fb8507982d014ecf825ce3c523fe007b043,"Option to disable YCM-Syntastic integration
+
+Fixes #210.",2013-03-25 19:48:07-07:00,False
+99a699cb030a6a54cf09f16646700358f2f425ba,Docs now state there's no need to install Jedi,2013-03-29 09:52:07-07:00,False
+1f094e50d03ea2655ac8adc8e37e43461cac3466,"GoToDefinition/Declaration commands for C-family
+
+These are accessible through the :YcmCompleter command. The docs have more
+information.",2013-03-31 20:38:29-07:00,True
+cd7f5355fcc9c960534fe0b71379cd56c1f7e74e,More docs on the new go-to-definition/declaration,2013-03-31 20:42:29-07:00,False
+90ab0d07a0dec981680bbbdd60360fe411770011,Replace YcmCommand with YcmCompleter in README.md,2013-04-01 09:55:37-03:00,False
+ac1dc85fd66e77d0c0f93d0675c20877a3e7f5e9,Note about the jumplist mappings in docs,2013-04-01 09:58:20-07:00,False
+74705cc0e00b30bf12d5c48bf9fed06d3fe9f353,Github now serves page from github.io; update docs,2013-04-05 18:02:00-07:00,False
+1b4eb6122c98aef7a8578cda5a968cba6d8c7754,Make caching optional in the omnicompleter,2013-04-11 10:22:16+01:00,False
+882c6b5d18da50ad20bd3b8e02f13ceda20efaca,Note about syntastic var for loclist population,2013-04-12 11:08:04-07:00,False
+7ca11d41f0e213565fc31820c8d70b7534909c7f,Small clarification for docs intro,2013-04-14 22:12:05-07:00,False
+589f157aa63b5c041897d56b517107bad9ac7f8b,"Docs now explain how to turn off ident-completion
+
+Fixes #53",2013-04-14 22:27:27-07:00,False
+02bcc1fe51ee741856b6c9d98eed21e5d8856d19,Minor docs formatting change,2013-04-14 22:36:35-07:00,False
+3b52482d568b64eefcee6390b6c459cc5a19748e,Updating var default in docs from code,2013-04-14 22:40:08-07:00,False
+12c1583ecf81fa2e2749e3152c1aeb8bd7015d29,Proper em-dash use in docs,2013-04-14 22:42:32-07:00,False
+604b79a5a2fc93ceeb3f6e17c0e3da9f3076bc69,Travis CI build status image in README,2013-04-18 23:42:03-07:00,False
+6d0c736d04e0b4f8179c5f3e810b8f549ac056a2,"Making sure that <C-Space> works in console Vim
+
+Fixes #256.",2013-04-19 18:33:48-07:00,False
+e0d39f9bc3f755fe82f9adc0162293b442c08f91,FAQ entry about too old system glibc,2013-04-22 13:43:07-07:00,False
+18427a14a95aed2286f0eeae7601db5ba328347a,Version string in FAQ question now less specific,2013-04-22 13:44:43-07:00,False
+8d20637295ede470afa4bb01fc4663fc994c11ef,User can now pick the root for relative paths,2013-04-22 22:30:10-07:00,False
+7d38fdd258ba0e638d421a932bf2c252a4ba88c5,"Removing some out-of-date instructions from README
+
+Fixes #266",2013-04-23 11:15:24-07:00,True
+a7203d97c8aacf5e9da8872ff2b269e8af75bb41,Small README clarification,2013-04-23 11:17:45-07:00,True
+f4615c00c07545205a9a601dfb44815ab8079cd2,"Separate options for completion in string/comment
+
+We want to turn on completion in strings by default, but not for completion in
+comments.",2013-04-24 23:15:13-07:00,False
+7cef111e01d05f21202098e48d2dde41b15e7ee2,Updated vimdoc from readme,2013-04-30 10:18:15-07:00,False
+bec04aaa047e24763ca5e6f3804976bf451f8492,Updating docs to mention Python GoTo* support,2013-05-05 09:49:37-07:00,False
+d4ca726fac446fccfbbc564717f03ef98592b4e7,Minor README typo fix,2013-05-11 14:15:34-07:00,False
+8fe6b87e459487c52251484579b454d76cb0be97,"More detailed Eclim configuration instructions
+
+Knowing those two things (that you need to run latest Eclipse Juno) and you need to create a new project from vim would have saved me a lot of time when trying to make it all work.
+
+I think it's worth adding this information to the README.",2013-05-15 13:15:42+03:00,False
+d8f3272dd499c543943ee4b9b14315103bb0136e,"Including `:` in the command names in docs
+
+This will ensure the correct tag is used when we process readme to create the
+vimdoc help file. See #330.",2013-05-20 18:18:00-07:00,False
+38faa0e94e1ce68ee55beae883554bb8f45e247c,"Adding the ClearCompilationFlagCache subcommand
+
+With this command the user can clean the in-memory cache of the compilation
+flags that the clang completer uses.",2013-05-24 14:48:46-07:00,False
+48bc4e224f6d48185dc3e963e82caf99c86d7f69,Small README doc rewording,2013-05-24 14:59:42-07:00,False
+80624205f13cf15c454aee51dc595ecaede78f2b,fix 404 in README link,2013-05-26 00:49:49+04:00,False
+454a961318e2aef4b3c6dcbff9a9451b9df1f541,"The identifier completer now reads tags files
+
+See the docs for details. Fixes #135.",2013-05-26 13:33:40-07:00,False
+973064d0bde8121ab8b538f5b60fea7a69d2649e,"Can now seed identifier database with keywords
+
+By toggling the g:ycm_seed_identifiers_with_syntax option, the user can now tell
+YCM to seed the identifier database with the language's keywords.
+
+This is off by default because it can be noisy. Since the identifier completer
+collects identifiers from buffers as the user visits them, the keywords that the
+user cares about will already be in the database, regardless of the state of the
+new option. So the only keywords added will be the ones the user is not using.
+
+Meh. But people want it so there.
+
+Fixes #142.",2013-05-27 00:08:21-07:00,False
+80dd5c2317e377c5a2aa63ba38ef49b37e413132,Listing the ctags options YCM needs,2013-05-27 13:51:10-07:00,False
+8ecbc6e836233d9be7668f8ed8fdd5a3a6d1c818,Fix a couple of minor typos in readme,2013-05-28 12:21:43-06:00,False
+989967506c083298f084be65b9209ce5e628f54a,"Tags file reading is now off by default
+
+As the updated docs now say, this is off by default because it makes Vim slow if
+your tags are on a network location.",2013-05-28 13:46:18-07:00,False
+273170d70f9485f179a2cff5ba6537ca949a482a,New FAQ entry about RHEL/Centos compilation errors,2013-06-09 11:12:51-07:00,False
+ee3ede504054d10076d64f1d3e4b42ed039942e5,"Adding `::` as a semantic trigger for Ruby
+
+Fixes #367.",2013-06-09 11:21:41-07:00,False
+011af9620d8200ab582616d766ebc63b6afcdc0a,Updating a FAQ item on Syntastic,2013-06-10 18:20:52-07:00,False
+972b0a92cbc9a56dd5deac2c7f2b57094374e3ff,Updating docs to state clang 3.3 is preferred.,2013-06-19 22:01:34-07:00,True
+04ca6ec4de076a3480996a351be3e0ccd47a7dfa,"g:ycm_semantic_triggers now only adds new triggers
+
+Fixes #164.",2013-06-29 11:53:16-07:00,False
+6df01471d81c86a99a50a901e999d8b32acf63bd,"FAQ item for UltiSnips key conflict
+
+Related to #381",2013-06-29 13:02:11-07:00,False
+54969849313f2eb5fe49ec9c45a4141e8a9497d9,"Option to set min length for suggestions
+
+Only works with the identifier completer. Fixes #387.",2013-06-29 15:43:10-07:00,False
+ac5b5bfdbe2cafff4da054327ff67672e6f7def9,Typo fix in docs,2013-07-08 10:31:17-07:00,False
+398d06ab80ea11e065c64d46037e9333226c26e9,"Update README.md
+
+Small tweaks to the README to make extended installation steps more obvious. It's not perfect yet, but it's a start.",2013-07-10 15:45:19-04:00,True
+affe3e8d312753ba3ec8f7d476a49c0190a55fb5,Docs now mention the new ycm-users mailing list,2013-07-13 11:39:28-07:00,False
+61a294a33baba6ba4926a862db22ed38eaa63f96,"Update README.md
+
+Added small description for the C# completer",2013-07-16 17:42:46+02:00,False
+1f25d5ae33805a96ff985581879468b95229e68f,Updating README with more info on new C# completer,2013-07-17 19:36:25-07:00,True
+294a3f3338bb8953257d0dad346535b39adf74d7,Updating docs with new defaults for blacklist,2013-07-27 13:09:34-07:00,False
+a267192b506828cf876233e1d0b1fc02e7ea5595,More doc info for `g:ycm_confirm_extra_conf`,2013-08-02 16:12:48-07:00,False
+f2b14557adc1ed644dd4cdf5953589a746286b76,Added missing docs for C# semantic completer,2013-08-12 17:00:05-07:00,False
+f58a3e126d4c8ba64f93ee5a89e992a04cd4e31b,Added new flag (g:ycm_auto_stop_csharp_server) to docs.,2013-08-12 21:58:08-03:00,False
+16d1365d127c51b9039b986370be203536b1e1ae,"Better smart-case query-candidate matching
+
+Previously, ""Foo"" would match ""Foo"" but not ""FOO"". Now it matches both. Bottom
+line, an uppercase char matches only uppercase chars but lowercase chars can
+match either. We used to insist that lowercase chars in the query match
+lowercase chars in the candidate strings IF the query also had uppercase
+letters; this was dumb and a poor user experience.
+
+Fixes #501.",2013-08-12 19:49:43-07:00,False
+5f9021e3e62bc270e3658832c82ef98429cbec46,Typo fix in docs,2013-08-12 19:54:26-07:00,False
+cd6491290f5c95b929defd0381b193e5188b3550,flake fix and readme update,2013-08-16 11:11:32+02:00,False
+cbb43ba4a597472f33528061e21b167b1089fad3,Adding repo analytics,2013-10-07 11:01:01-07:00,False
+d35832da619ffcdc1ecd56476dc2d6f10bbc4e0e,"Updating README with ycmd info
+
+Lots of things changed on the ycmd branch!",2013-10-24 12:31:38-07:00,True
+d6b2331d416464a56b9e086e71289221309f9aef,Mentioning submodule init in full install guide,2013-10-24 15:58:45-07:00,True
+4c88ea5249f4b980181579a2ab428168fdf8ef27,Adding submodule rationale to docs,2013-10-24 16:00:00-07:00,True
+6e782508b36645052d99f82d3eb66920a498c157,"Now possible to sent Vim data to FlagsForFile func
+
+Fixes #612.",2013-10-26 16:22:43-07:00,False
+b04684b8ee78e989508812d61781e9921da4e5f1,Clarifying docs for FlagsForFile client_data,2013-10-27 10:19:22-07:00,False
+b288dce5ba7c44ad45bd6c2900b148bd9bd07519,Minor docs rewording,2013-10-27 10:22:08-07:00,False
+e14ffadbd25298edf1dd642d947cd35d2150b398,Suicide timer docs now state 0 turns off timer,2013-10-29 10:51:27-07:00,False
+0a05ba8c212c6c1e84b6286bf4b2020db7042bcd,Updating README with ft blacklist updates,2013-10-29 19:20:16-07:00,False
+2ce227fc15725b5ce796cb147f439b569fc4e616,add FAQ for internal compiler error #267,2013-11-09 18:06:11+00:00,False
+8ee2ad76a88373a50038e38f41c17a8fa0686dfa,remove link from ICE FAQ,2013-11-09 18:57:56+00:00,False
+450403044bdcaf5a79b7f9c85a8392faaa968921,"Adding new g:ycm_path_to_python_interpreter option
+
+Fixes #663",2013-11-14 10:50:53-08:00,False
+64078f20a0976f1d6aa064ccd51bf50ea26dd8ea,"Added the g:ycm_use_ultisnips_completer option
+
+This can be used to turn off UltiSnips completion candidates.
+
+Fixes #596.",2013-11-15 16:22:20-08:00,False
+44d5747d235e8ef27094920e3337bd4284bb6ff9,"Add possibility to disable identifier completion engine
+
+Setting negative value of 'g:ycm_min_num_of_chars_for_completion'
+disables identifier completion.",2013-11-17 23:05:49+01:00,False
+eb74ed614543a816ef41177838e0ff9b1c2d207e,Clarified the new -1 setting for min chars,2013-11-17 14:37:35-08:00,False
+06b5411fb3e113547008c6479a7f268ad373bd72,"Revert ""Add possibility to disable identifier completion engine""
+
+This reverts commit 44d5747d235e8ef27094920e3337bd4284bb6ff9.
+
+Conflicts:
+	README.md",2013-11-17 14:44:43-08:00,False
+3a1ef4eddbd3ba3ebe38ecc2ca64ec968603ef28,Note in FAQ about C++ standard headers not found,2013-11-18 20:23:39-08:00,False
+8d42f72517cb5343c8ec8d8b038a13940269113e,Linking to issue 303 from docs.,2013-11-18 20:26:20-08:00,False
+cf6211055e96e085f0bed6976cca946deab76da1,"Removing the server_idle_suicide_seconds option
+
+This option existed so that the user can tweak it if they found the default idle
+timeout too short, for instance if they leave their machine on over the weekend.
+
+This use case is now covered by the new YcmdKeepalive system that pings ycmd
+every 10 minutes as long as Vim is running. This prevents ycmd shutting down if
+one leaves their Vim instance alone for a long time.
+
+Thus the old option is useless now; ycmd now shuts down after 3 hours of
+inactivity, which should only ever happen when its corresponding Vim instance
+has shut down abnormally.",2013-11-20 12:33:57-08:00,False
+aeb2c5c227632bc5a8d8ffe9acf1623ad51f1f85,"Adding the g:ycm_auto_trigger option
+
+Toggling this option off turns off the identifier completer and the semantic
+triggers.
+
+Fixes #597",2013-12-02 16:37:59-08:00,False
+1e99f517bb1d7d6a2899276b8ad03adb255265e2,"New entry to FAQ about Vim crash
+
+Happens sometimes when users tab through the completion menu. Related to #593.",2013-12-10 10:52:50-08:00,False
+a3918788c0e3560196bddedbdb50f5e79076e0a5,FAQ item about dropped Syntastic support,2014-01-06 15:24:05-08:00,False
+eca30e356d8f9d129b96bc2145c599d1e5cd607b,Minor README rewording,2014-01-06 15:24:06-08:00,False
+5f9a5bdcfba3ba2253f1f08059a098b0813c4d25,Typo fix,2014-01-06 15:24:06-08:00,False
+4a9b7cb63e00cec02b2c7d752ba4cc9b44d49fe5,"More doc updates since Syntastic support removed
+
+Not done yet, still a way to go.",2014-01-06 23:05:01-08:00,False
+5efd920815ad64bff6c0f77a899098e1bd8fc0e6,Renaming and documenting the new options.,2014-01-08 19:43:21-08:00,False
+34f654e3a429c38b9d0dc6e4983bf5b0229a375f,More doc updates for diagnostics UI,2014-01-08 20:03:42-08:00,False
+63cc559f1a809715a265b2f88523c93626f3109c,Minor doc rewording,2014-01-08 20:04:43-08:00,False
+5216fee8a1e1458df95e70e342515b5738c46d60,Typo fix,2014-01-09 10:59:44-08:00,False
+f8f20b8eeaae3267bc8249af214b765d65876ca8,Typo fix,2014-01-09 13:21:11-08:00,False
+365f67f82c0974e84673c61bb45deb84f7ab0873,Docs now mention line highlight depends on signs,2014-01-09 14:11:15-08:00,False
+2ebea627d939498fca3e4048ad367432a80f0b86,Docs now mention libclang 3.4 is recommended,2014-01-11 12:21:03-08:00,True
+b1bba2e2012efa81444bedafa12ddbdae2cccd93,"Changing copyright headers from me to Google
+
+When I initially released this project, I released it under my own copyright. I
+have since then worked on it in my 20% time at Google (and want to continue
+doing this) and my life becomes much simpler if the copyright is Google's.
+
+From the perspective of how this project is run and managed, **NOTHING**
+changes. YCM is not a Google product, merely a project run by someone who just
+happens to work for Google.
+
+Please note that the license of the project is **NOT** changing.
+
+People sending in future pull requests will have to sign the Google
+[CLA](https://developers.google.com/open-source/cla/individual) (you can sign
+online at the bottom of that page) before those pull requests could be merged
+in. People who sent in pull requests that were merged in the past will get an
+email from me asking them to sign the CLA as well.",2014-01-13 11:08:43-08:00,False
+685b1007b600b77776c41a2701bd145c7de9cdf4,"Blacklist Pandoc file type
+
+Pandoc enhances Markdown and therefore is used for prose, which doesn't suit YCM
+well.",2014-01-14 11:59:31+00:00,False
+b39bc33f568009c8d98dbdac3446d9f23653582d,Mention Vim patch for silent status messages,2014-01-18 15:14:24-08:00,False
+735c57bba8d5443cde851706ef58808e8c480939,New entry in FAQ explaining errors after Ctrl-C,2014-01-29 10:25:31-08:00,False
+1a33f34ec0513196aeb2834e47b28940f3c30a5a,Adding the g:ycm_open_loclist_on_ycm_diags option,2014-01-29 10:59:15-08:00,False
+0102d23bfefe4307607be3b4cf0d237995552c68,Added options to choose whether GoTo commands result should be opened in the new buffer and in which one.,2014-02-23 17:50:51+04:00,False
+0d9c11d3297f88ce4946f89ae27fd42eb339c069,"Adding 'mail' filetype (mutt) to blacklist
+
+Fixes #847",2014-03-01 10:15:25-08:00,False
+40dc235136b8a043fbd84aed0a133d8d84643cf1,Combined same_buffer and buffer_command options.,2014-03-04 14:47:43+04:00,False
+9cf566bd8fc203685a448c190ffc0c22568cbd90,"Renamed GoToDefinitionElseDeclaration to GoTo
+
+The old name still works for the sake of backwards compatibility.",2014-03-21 11:34:00-07:00,False
+90e097efa40c16b7a7376cb008341013d5f0f7f0,"Implementing the new GoToImprecise command
+
+Same as GoTo, but trades correctness for speed. See the docs for details.",2014-03-21 12:37:01-07:00,False
+b9109af709a0fa005ee8099c4add015dbfbc06c4,Added check for Vim 'hidden' option when trying to open result in the same buffer,2014-03-22 14:24:16+04:00,False
+5ed486b8d3a5075f5196d26b0f430e236a3acb37,More strongly condemn use of system libclang,2014-04-02 14:30:39-07:00,True
+81029d9f4ea76f4507a221e78089497cf7ff72ef,"Docs for region syntax groups
+
+Fixes #959",2014-05-09 13:15:15-07:00,False
+fc057697888be597d559b6ec0f0164a9d763f263,Updating Install Guide,2014-05-14 13:16:21-07:00,False
+8e02cedd8cb9f7ed321cdcc6315f07d90c9e87bf,"Fixing links broken by ycmd split
+
+Fixes #983.",2014-05-20 14:07:23-07:00,False
+3a0c3fcfa2172aea6c669e2b5fe3ca096cb1c7ad,"Travis badge now uses master branch
+
+'travis' branch hasn't existed for months.",2014-05-21 13:46:21-07:00,False
+f9d02a747bf29d1db79fcd14742670f4b2af7ed9,Updates to the README for recent C# support changes,2014-05-22 08:45:52-06:00,False
+fa47898369654547c90994fbc3ba1e21653680c3,Typo fix in readme,2014-05-22 12:23:45-07:00,False
+8cc1095642c0e37430f9db39e71c57cafd2f8dda,Add infolog to default ft blacklist in README,2014-05-23 11:46:50-07:00,False
+666cf3859a521aa42874a3f495174d9ddc2d1edb,"Better detection of shortmess 'c' availability
+
+Also noting that the annoying messages during completion go away with Vim
+7.3.314.
+
+Related to #642.",2014-05-28 15:48:49-07:00,False
+da3f03caa836afe7d551c795d57e006d58858f83,Minor rewording in README,2014-05-28 16:12:56-07:00,False
+fa95d7c0f87c228052bcaf326d93ecf420513215,"Bundle name is deprecated.
+
+Bundle name is not used anymore in the Vundle plugin. Use Plugin instead.",2014-06-05 00:13:34-03:00,True
+d4d2d2be35c4cd717a15d1396c2b17cc432cfa31,"Fix ""GoToImplementation"" command name in docs.",2014-06-24 00:22:26-04:00,False
+c05625649d457fd44cddfb8b98b5ce8b9cddf516,"Mentioning how to get cmake to generate flags db
+
+Fixes #1084",2014-07-21 14:56:46-07:00,False
+181f494c0bd141b3de30b323a82bfa4d63184a6b,"Docs now state correct location of libclang lib
+
+The location moved after the ycmd split.
+
+Fixes #1113.",2014-08-04 13:14:24-07:00,True
+c48c92d9ba0d80d1576ff93b157f8918dd5c7cd4,Removed out-of-date sentence from README.,2014-08-28 11:39:10-07:00,False
+fd553d372bf4ce6fb6356045170f918572614c2b,Mentioning YCM_CORES var in FAQ when out of RAM.,2014-08-28 11:39:10-07:00,False
+af0fdef1b91717d74e11718eb0ce9a49b061348a,"Updating docs to mention regex semantic triggers.
+
+This was recently added to ycmd.",2014-08-29 13:29:01-07:00,False
+27891013ab90f6d35906e4cc82c32d2a9bd6aa24,Minor formatting fix for README,2014-09-03 12:53:24-07:00,False
+c76bb46b94be572b9b1e2ebf8b0a4067e2934d38,"Updating docs with correct defaults for option
+
+Fixes #1156",2014-09-07 20:37:46-07:00,False
+c3afdbc45b61dab40ec31aa4076eb843bc30c63a,"Docs now more specific how glob matching works.
+
+Fixes #1166",2014-09-12 10:04:08-07:00,False
+a2cae90f7ba1746bf1209edd6739f87d5914b375,"Now using a libclang based on Clang 3.5.
+
+This is now the officialy supported version of libclang for YCM. The
+changes come as a result of updating to the latest ycmd commit.",2014-09-29 15:53:58-07:00,True
+87b42c689391b69968950ae99c3aaacf2e14c329,"Docs now state Ubuntu 14.04 has good Vim version.
+
+Fixes #1205",2014-10-06 13:36:11-07:00,True
+66c57e0da87f000ad658c6ca37965c96a33b52e9,"add installation instructions for OpenBSD
+
+and document the possibility to use system boost
+instead of the bundled version.",2014-11-17 17:12:01+01:00,True
+9423770d4f2971393f105afedea7cf9e84cdb57e,"Fixing typo in OpenBSD install section.
+
+Also added a note about OpenBSD not being officially supported.
+
+Fixes #1263",2014-12-03 10:41:26-08:00,True
+4e9e5d92da7d9b98f00e16bc4a55407f5f4dd691,"Update documentation with FreeBSD installation instructions
+
+@Valloric: I'm very happy to have YouCompleteMe with clang completion working 100% on FreeBSD 10.1 :) Thank you for this",2014-12-03 21:37:10-08:00,True
+147773ed13be16463e91a92f686e3c7c9ee09ca8,"FreeBSD installation, add system LD_LIBRARY_PATH
+
+FreeBSD 10/11-CURRENT may not install without adding it.",2014-12-04 16:55:19-08:00,False
+e28c709b997f0d15fd0b0f8af9cd84c609d1d9db,"Disable on large file
+
+closes #1238",2014-12-05 10:32:52+01:00,False
+6dc548b346659b7f10c1ffba301b6a4610f61106,"Mentioning Bear for compile_commands.json
+
+Fixes #1291",2014-12-22 10:38:06-08:00,False
+e61813a4b4e85a4e4402c6202087faf73879dd68,Spelling correction automated from Dawson's Spelling Bee,2014-12-31 18:52:15-05:00,True
+fef7704e43e0c9fb3d2f063fb34dad1571414d7e,Fix capitals,2014-12-31 18:53:52-05:00,False
+2e30e59754196f81d849487db0712b9cde3398c2,Table of contents in README,2015-01-19 13:27:34-08:00,True
+5e53301dad8ee7d9a2a653ece4efe1f0a15ba7c5,Adding Intro heading,2015-01-20 12:55:06-08:00,False
+9e58245088bdb3b65e0824466396724844d890ae,document g:ycm_csharp_server_port option,2015-01-23 18:43:26-08:00,False
+7cf0bfc8341ed13c259f86e19594c06c9433461a,Fix up typo and phrasing in README & add g:ycm_csharp_server_port to youcompleteme.txt in doc,2015-01-27 14:36:27-08:00,False
+a07a034da900ca8a5fd167c89949026c3685f4ac,clarify how to check your version of vim is recent,2015-02-06 11:50:28-05:00,True
+6181a531bf63b1d400ca39b0544bd0f31912dd8b,Typo fix in docs.,2015-02-20 11:29:52-08:00,True
+de32351778d00f1b9892018f1f7b373889ca3a03,Updating to latest ycmd,2015-02-27 17:22:31-08:00,True
+3e1cdb58cefdd82c25a31637c07af655b9b63aff,Add link to Options section,2015-03-11 00:23:12-04:00,False
+efac682cd49f43c985e123ac2d6fd194acf57e02,"Clarifying how to use a custom-built LLVM
+
+Fixes #1380",2015-03-17 12:56:37-07:00,True
+821c55fc20230d5de6e8857925d6c553aa33405f,Adding missing period in readme.,2015-03-17 13:20:20-07:00,False
+36c788983ce96abda0a276f36a367dec56944730,"Mentioning YCM-Generator in the docs.
+
+Fixes #1400",2015-03-18 17:19:45-07:00,False
+2215bcdeb58dd0c29d5fd38e44053ca38a64a2c1,"Support completer commands that return text …
+
+This is required to allow the ycmd GetType and GetParent subcommands to echo
+their reults in vim. The apporach is to display any text returned from a
+subcommand in the 'message' property assuming that the command is not a known
+'GoTo' command.",2015-03-19 13:31:24+00:00,False
+acad046d998dc3677b68ebdc0d86c5067ee18336,"Spelling Mistake Corrected
+
+requeired is replaced with required",2015-03-22 03:43:15+05:18,False
+3aedec794400c4d55d0e0477fd79b03602b8f8eb,"small correction
+
+requeried replaced with re-queried",2015-03-23 19:03:46+05:18,False
+3c63d22c59cc2f76ce9b504eb18fd595e60d1f60,"Add new-or-existing-tab as ycm_goto_buffer_command method
+
+resolves #1398",2015-03-26 12:10:46+01:00,False
+2f8109020644ad28e5cd795c29bc1150f87b3cb4,Updating to latest ycmd,2015-03-27 12:59:19-07:00,True
+ec4da3c1af9231ca137bb87d6d28efe3f299bbef,"Removing obsolete sections from the README
+
+No need to mention semantic engine submodule conf because correct
+submodule checkout is mandatory (and has been for years) for YCM to work
+correctly. Not to mention that ycmd is what has the Jedi/OmniSharp
+submodules now, not YCM itself.",2015-04-14 16:21:17-07:00,False
+6996a26fb29ab4918eab532afc8851a85d01fc11,Update docs for Gocode support.,2015-04-15 10:00:44-07:00,True
+16163609acb85ac311aeafe965434bec32890810,Fix typo.,2015-04-15 10:00:44-07:00,False
+9a2bfbfd4a225749725cbff1e2cb34853aa0d871,Improve Gocode documentation.,2015-04-15 10:01:58-07:00,False
+9c6b181f92a20b62025166d4092a528379686221,"Add short blurb for native completers.
+
+Remove missing TOC entries.",2015-04-15 10:13:15-07:00,False
+1331c136116e05174e85c4170e92db934b8e1b51,Add installation with NeoBundle in the FAQ.,2015-04-17 09:15:45+02:00,False
+12930708bb69a91bf87c0701dd36528901411441,Don't link to specific clang version,2015-06-05 10:31:20+02:00,False
+2aa0dd86ecbca4f79b343134a73aa65198d4e65e,"Update MacVim location
+
+New MacVim site is located at GitHub. The repository is at
+https://github.com/macvim-dev/macvim and releases page
+at https://github.com/macvim-dev/macvim/releases",2015-07-07 06:04:03-03:00,False
+0812cd815de3f48ff82c0e57b491e6455a5321a2,"Updating default semantic hooks.
+
+The documentation was updated to be in sync with ycmd @bfcfa21,
+regarding default semantic hooks defined in ycmd's completer_utils.py.",2015-07-22 23:21:36-03:00,False
+337d1c1fb9ce2ed2d6ac9f85362eef2fa3dd857a,Doc update: no need to sign the Google CLA anymore,2015-08-03 16:35:30-07:00,False
+98c4d712b4f0f9cefd6c0c3785b7fdc7ba496a67,YouCompleteMe client support for FixIt subcommands,2015-08-05 22:09:07+01:00,False
+b1ad8bba48a951b85c5a6994e46ba4febd340ad9,Note TypeScript support in README,2015-08-12 00:36:44-04:00,True
+689b4e15a53abdd6b97359c493b8c0d26355c195,"Rewording the YCM readme intro section
+
+It's time to break the semantic language support up into bullets.",2015-08-18 20:11:39-07:00,False
+7d87bc3f8251a2591620a8212ee4a675075ece53,Update documentation,2015-08-23 20:12:24+02:00,False
+dab5ab1d728029b84e122bf833d6e05d304b7810,Use SVG Travis badge,2015-08-28 00:44:51+02:00,False
+9f568be39a36738f649f937e99f37f596a6ccb72,"fixup! Add CompleteDone hook, with namespace insertion for C#",2015-08-31 10:51:23-06:00,False
+9fc26130efe2117327ffb880f1ed23c94bbdf973,"Update table of contents in README
+
+Remove Project Management entry.",2015-09-02 01:54:05+02:00,False
+28e318c0bb890e874090b81574e8b96d7a68c247,"fixup! To determine which completion prompted CompleteDone, look at the new variable if vim is recent enough.",2015-09-10 09:18:48-06:00,False
+391b3df3b7ed0ab2a74d8b218ef095251bf5182b,Update mimimum version in documention,2015-09-10 10:12:59-06:00,True
+df73ca6b663dbf09ce66fcea0dd0b150b9931afd,Update g:ycm_csharp_insert_namespace_expr documention,2015-09-11 17:14:09-06:00,False
+7c2b7b7ef36a016bc85c075dbb1d3f58e43ea67e,Update subcommmands supported for typescript,2015-09-13 13:01:11+01:00,False
+1eafd4981d36b7e2566f6952fafb408e7ddfac4c,Add VimL syntax highlighting to Readme,2015-09-15 14:57:34-04:00,False
+449b6fbb9f3b9885e34f675bdeca89a8d24a06b6,Add super-quick feature summary by completer,2015-09-19 12:41:09+01:00,False
+9750835cf0512c1c325a6725008441962415c1cd,Add AppVeyor configuration,2015-09-22 04:12:46+02:00,False
+3ddc2fcbeebf3474e50e2aac0a9fe515681c8dc3,Update documentation to add GetDoc subcommand,2015-09-24 22:25:27+01:00,False
+2ace4eea880cf283cc026d4f1fed07b527f15a05,Add Windows documentation,2015-10-11 15:22:04+02:00,True
+72fe806dc3428cd49dda1b0fdb8ca84ea58620ad,Add notice to FAQ about ctags and C projects,2015-10-12 19:16:04+03:00,False
+410282830b76df1052aeaf37598d92bad9af94a3,Don't say that language tag is wrong,2015-10-12 19:32:41+03:00,False
+570444fc5a48bd806a7785d6e17a2cb1a3cba87e,Add GoToInclude subcommand to documentation,2015-10-20 15:06:49+02:00,False
+234fd5acb851a62de75be5bd94f4dbdb8fbb490e,Fedora documentation with required dependencies. Works on F22.,2015-10-21 18:19:27-04:00,True
+2084ee2909527c7dd51d105887deac6b0d4f16ba,"Add Fedora entry in README.md
+
+Update Vim documentation",2015-10-23 15:08:48+02:00,False
+de06e22a028d220bf35fde0c31006d1045c14f28,Update installation titles,2015-10-24 20:34:31+02:00,True
+186aa6b6719ecea90379dc0ba436b0abc51ab373,"Remove g:ycm_server_use_vim_stdout option
+
+This option does not work like expected. Logs are not written to the
+console. It also makes the ycmd server unresponsive on Windows.",2015-10-27 18:19:22+01:00,False
+b3c9f3ffc1a41a8aea3d40001e7becf0e7f8597d,Add :YcmToggleLogs documentation,2015-11-08 18:43:52+01:00,False
+e95776890d8c35af2818530fcd3813cd895b7259,"Fix stdout and stderr occurences
+
+Fix stdout and stderr occurences in documentation and contribution
+guidelines.",2015-11-11 17:26:16+01:00,False
+792e0aab690731dceb1e6ec7021741f21e5ab5ca,Update README URLs based on HTTP redirects,2015-11-18 08:58:55-08:00,False
+6ef35bd197e78a14427e7208b1e173a8f5401225,Update Homebrew URL,2015-11-18 12:35:19-08:00,False
+163238992cc5f2656a135c35e63ca4c11325e803,Document YcmGetErrorCount and YcmGetWarningCount functions,2015-12-05 09:12:28-08:00,False
+bb8490e6c7aed511e605aa3679394cf262dfdc9f,Properly namespace vim warning/error getters,2015-12-05 09:24:15-08:00,False
+0c55527a38f3ae2111a0071ec85385a15b23a3c8,Included usage example for error/warning getters,2015-12-05 11:06:33-08:00,False
+570f8aae21968f62e02ebae82899818876b2fe6f,Add basic documentation for Tern completer,2015-12-19 17:41:09+00:00,True
+b7bbe00344be49c15a8d42d9c9ca3b1cd5b17862,Documentation on setting up the .tern-project file,2015-12-19 18:39:40+00:00,True
+8655490a24aa433f78f0ce49e416c106c8a61a0d,Document javascript completer subcommands,2015-12-19 18:39:40+00:00,False
+c090fda4bef5981e98d2b9558b64f518aabcf879,State that tern completer needs installation,2015-12-22 23:35:29+00:00,True
+0162d4ad7157aedb9e864959e4e9910377b1cfa8,Add a FAQ entry pointing at the instructions,2015-12-23 01:17:29+00:00,False
+baba751dab060e43933846bc8d539f53a5c92de7,Correct subcommand usage. Clarify changing project usage,2015-12-23 11:21:43+00:00,False
+702081b0edbef6bdf6a153d578346c5ca7e96e52,"Tidy up language.
+
+- Fix some subordinate clause gymnastics
+- Signpost the tern configuration advice better
+- Signpost the link to the Tern docs better
+- Sort out some bullet-list issues",2015-12-24 11:46:41+00:00,True
+fcf13fe148cba827ea84beca02c8ed974a3f0cc0,fixed readme path third-party with third_party,2015-12-28 01:51:57+01:00,True
+a74a4cbd7a70085010016e1aee1bb393fe5115eb,Add support for the Rust programming language,2016-01-07 08:52:15-08:00,True
+0a4bd8ddf2e9787eee8de5bb0e93f8d9716c91d8,Fix Windows install.py invocations in README.md,2016-01-08 07:28:49-08:00,True
+210db41a42a96a74dd57222a9c1af96995074156,fixup! Update ycmd,2016-01-08 07:49:56-08:00,True
+135923a40abe97dbb78a907ee7fa11d826c59a2b,"Mentioning the need for racer flag in Rust section
+
+This covers users that have already installed YCM before and are looking
+to set up Rust completion. They're unlikely to start reading from the
+Installation section, so we mention the need for the new build flag to
+prevent ""why doesn't it work for me"" confusion.",2016-01-09 10:30:30-08:00,True
+1805b88864254a01853d9a2cabe287593d7bf938,Update Windows generators in README,2016-01-11 13:05:55+01:00,True
+01edabda37d408e83ae88e2fb6f0e7c09391062f,Add notes to readme according to #1891.,2016-01-18 10:21:22+01:00,True
+8ebcdb491abffcfe318aff6b027aad118aab065c,Improve the solution for error R6034.,2016-01-25 10:37:08+01:00,False
+4afcbee4a1b28b299d21da28d6a27ac95915e029,Adress minor improvement suggestions.,2016-01-25 10:47:59+01:00,True
+0efa66893128dafe48caaa806455704e197efbe0,"Adding an explicit Contributor Code of Conduct
+
+Everything in the CoC was true since the beginning of the project, it
+was just implicit and not written down. Now we're making it explicit.",2016-01-26 15:49:58-08:00,False
+5ee7bd2c807384ac51074f8212a4aec5364627b9,Updating TOC in README,2016-01-26 15:54:44-08:00,False
+d6ebef3c8d02147f2988918ca18b0b4f40722d61,Address review comments.,2016-01-29 09:48:24+01:00,True
+581f58add69298b5e2275c0fa0b9ba3c11d685a9,Update documentation of latest python completer,2016-02-03 00:12:00+01:00,False
+2cd3d1b9d36362c8c8375dd50234faad6c205068,Avoid confusion with make command,2016-02-03 17:51:35+01:00,True
+66155c3de269fd1ab7cfeb11eb2a275f910c3efe,Update readme with typescript GoToReferences subcommand,2016-02-06 14:41:03-05:00,False
+716d0c974f6294770ef953966aee775dec1f7959,Update Go documentation,2016-02-07 20:28:41+01:00,False
+308cf4b6534d443e6126b09a5985e448b2e74414,"Remove C# Diagnostic Support documentation note
+
+This hasn't been true since ycmd pull request #44.",2016-02-16 19:27:26-07:00,False
+60b101f3ba7592dbcbcbd886c948cc16af14a439,Add reference to ycmd in README,2016-02-17 20:15:36+01:00,False
+e8de632b9093949695e727b477b5743b6f9eacc8,"Add docs for RefactorRename
+
+Additionally, we restructure subcommands section to organise by
+command type.
+
+There are now a significant number of subcommands offering quite
+powerful features. A flat-list of such commands is not easy for users to
+discover (citation needed). Restructured into:
+ - GoTo commands
+ - Documenation/type information commands
+ - FixIt/refactor commands
+
+This has the following benefits:
+ - features are more discoverable to the user (due to contents page
+   update)
+ - more obvious where to add new subcommand documentation
+ - a place to write notes which apply to multiple commands (such as
+   jump lists, multi-file refactor)",2016-02-21 22:02:33+00:00,False
+fd0c2cc1d8efe7d7f74ee39271be3e14c23ff85c,"Updating to latest ycmd
+
+This includes the using the new API for OmniCompleter.",2016-02-24 17:10:13-08:00,True
+df8a52671d83b23915e0cc4a34864bcac9ab2282,"Fix table of contents
+
+Make headings and TOC entries have the same text.
+Use Title Case for TOC entries.
+Add ""Miscellaneous commands"" and ""Functions"" entries.
+Set ""And That's not all..."" heading in bold instead.
+Move ""Diagnostic highlighting groups"" to a third-level entry.",2016-02-27 18:43:59+01:00,True
+3dbbfc3c256800346d405f3ade3fbae45783da65,Updating docs to state python3 support!,2016-02-28 19:23:40-08:00,True
+ecdb97b71cb0385ee55036c7006207f5f5149408,Fix installation entries and links in README,2016-02-29 20:36:58+01:00,False
+0187c6df5bd7a30cf240b57e29420acbd70b4e7e,Fixing minor typos,2016-03-01 19:30:02-08:00,True
+7b9b5ac6883148115100e3419dda3e035966b7f7,"Updating readme with more python3 info
+
+New entry in the FAQ for ImportError exceptions and the installation
+sections now also recommend python3 dev headers.",2016-03-04 19:48:49-08:00,True
+3b6b949bb33c68f3a64e18757b27b870d1cfef8e,Update README to include --all flag,2016-03-05 21:31:32+00:00,True
+0f10951bdf29b726bc8854ca10028858dc429580,Fix title entry in FAQ,2016-03-07 17:00:33+01:00,False
+e8fa6e2350d2aca09b73f440df107df0f8449def,"Fix confusing phrasing in README
+
+Fixes #2042",2016-03-09 20:00:05-08:00,True
+1828f4787022f1cce5e69472742dc1488364c1d1,Update tern_runtime directory in README,2016-03-10 12:52:26+00:00,True
+c5cf60b7d3b88107638bec3bff51e54c07371301,Fix more confusing phrasing in README,2016-03-20 22:50:26+01:00,True
+dbc2c08af957b0a4bfbd6356bffd97395dc2cb0b,"Update Windows installation in README
+
+Add instructions for Python 3 on Windows. Change link to Vim builds
+for Windows. Always use a capital letter for Python.",2016-03-23 18:51:41+01:00,True
+366b11c7beffbdba314e3ea6f498fba0567877ad,"Add how to build python to avoid startup problems (in particular, pyenv)",2016-03-26 15:24:47+00:00,False
+9e6645f5150104991b19e0a8975cf5db633f6a44,"Rename ycmd python option
+
+- Rename ycm_path_to_python_interpreter to ycm_ycmd_python_interpreter
+- Keep ycm_path_to_python_interpreter backward compatible",2016-03-26 19:15:08+01:00,False
+5a938ec82f5d8b67b980e115bd849731ba3fef14,Add TypeScript RefactorRename to documentation,2016-04-06 05:33:19+02:00,False
+4824b8fd4b7c8738c857d28c79b6131c179d31cd,Update Clang version in documentation,2016-04-07 11:16:01+02:00,True
+e0a3f724e82a14dd43e7de4d1f785e6e5fc3f2a1,"Add warning about Python 2.7.11 bug to FAQ
+
+There is a bug in vim with Python 2.7.11 on Windows. Adding information in the FAQ.",2016-04-20 08:48:46+09:00,True
+68d81e47f01e888f8959c4ca337c937c59d471e3,"Link fixed and format corrected
+
+In response to https://github.com/Valloric/YouCompleteMe/pull/2128#issuecomment-212183780",2016-04-20 10:10:04+09:00,True
+68815a4e4efc2d81827f721b3276bf0ca04440ea,Fix broken links in README TOC,2016-05-16 17:54:22+02:00,False
+efe0fcf00bfcd64fb2b3064327bd45dc4b73ce78,Update go installation details to match others,2016-06-01 15:25:43-04:00,True
+6f418a84d1008803ad89ad7164c4ce78085ea965,Added go-install to other sections,2016-06-01 15:50:22-04:00,True
+93381b1d723fcab2d27eb22fb9f13689c7e02823,Add instructions to install Mono in README,2016-06-11 05:17:49+02:00,True
+4bbda99cc01f76993c99ec31b8a8126eb067df1c,"Minor changes to README
+
+Add capital letters to languages when appropriate.
+Be more specific with the tools needed in the PATH when using the
+--all option.",2016-06-11 05:18:19+02:00,True
+805911b56b9ce204af0552994df45c83e1674bbd,"Use SetQuickFixList for GoTo* subcommands
+
+Open the quickfix window to full width at the bottom of the screen with
+its height set to fit all entries. This behavior can be overridden by
+using the YcmQuickFixOpened autocommand.
+Add a new section for autocommands in the documentation.
+Update GoTo and ReplaceChunks tests.",2016-06-13 00:25:12+02:00,False
+240184eb72ca80154b1dcde400fce1c40debaa46,Document find first executable for ycm_python_binary_path,2016-06-15 23:29:14+02:00,True
+9c287cde91d4de91e0fa682d2b57fc8930ca9b02,"NeoBundle has been abandoned.
+
+Also deleting the super-obsolete Bitdeli badge.",2016-06-18 18:22:06-07:00,True
+cfd4bbd53175233a2e0391c64ca2248c6a58ad1e,Support selecting from the list of FixIts when multiple are supplied,2016-07-11 21:52:41+01:00,False
+77843d7624aa1e1172d31ece76aa326d4fd743d8,Recommend a more recent version for Python bug,2016-08-11 20:08:10+02:00,True
+5cbf76456fdaadc4e017ba64054a18c9c9af4480,"Update Omnisharp instructions in documentation
+
+The /property:Configuration=Release option is not mentioned when
+building the OmniSharp server in the full installation guide.",2016-08-18 18:29:20+02:00,True
+b53ada758f3440bd93f1d3f06cfc07840c824e2b,"Update instructions for FreeBSD
+
+Newer version of clang and llvm is required now.",2016-09-08 11:58:52+02:00,False
+333958c5c4e70e0407d35e8745e953372ff50aa1,Fix FAQ entry in README,2016-09-11 11:14:14+02:00,True
+5dca552d5daee69c064374146bcda9e63be63b20,"Do not depend on UltiSnips internals
+
+Use UltiSnips#SnippetsInCurrentScope to fetch snippets.
+Add an entry in the FAQ about the :UltiSnipsAddFiletypes command.",2016-09-11 17:11:32+02:00,False
+85bdbdb206bf51a0d084816e6347a75e50f19ec8,Bump minimun Vim version to 7.4.,2016-09-16 17:41:40-03:00,True
+5576c9cf0909e732feb94b366bb79cdb633ba448,"Bump Vim version a bit more to 7.4.143.
+
+Reason:
+
+  A fix has been applied to bring back triggering of TextChangedI events.
+
+- https://github.com/vim/vim/commit/e21b6b2a8d526f22ece5ccadafa3a6ff3289d603",2016-09-16 17:41:40-03:00,True
+362e4df713f66e96d15661f25d08b390f835de8b,Better wording,2016-09-17 19:30:54-03:00,False
+1a93583a4ae21bfdaec5e858fe0d849c62cdb81f,Mention all natively supported languages,2016-09-18 15:11:12+02:00,False
+35f594ff1cce33ce43eba231cb6658b19885b9ff,"Update miscellaneous commands in documentation
+
+Remove StartServer and StopServer subcommands from documentation.
+Update the list of languages supporting the RestartServer subcommand.",2016-09-19 15:33:32+02:00,False
+54474c448cee7a9264064b825a373bdb64c17e99,Remove obsolete FAQ entry,2016-09-19 18:36:41-03:00,False
+94a81144af43f96540087525c042656fc13115be,Update ycmd. Update docs for GetTypeImprecise and GetDocImprecise,2016-10-02 18:36:11+01:00,False
+a68f59410f421ce60d5b8f09fa63dbb59c5fc858,"Bump Ubuntu version to 14.10 in documentation
+
+Ubuntu 14.10 has Vim 7.4.273.",2016-10-03 13:00:54+02:00,True
+9d6a17b140dda02e2aed16503ff4d024e1a822b6,"Add coverage support
+
+Use codecov for coverage reports. Add badge to README.",2016-10-12 23:03:37+02:00,False
+bb793826b6aef9d01cf2f35407206d6d5c86ed6e,"Refactor filter spec to filter_diagnostics; update tests, README",2016-10-22 23:31:46-04:00,False
+7e12c127cf8ef3e10349b89a9aefd682869c4dbd,Wrap README.md to 80 chars,2016-10-23 12:29:29-04:00,False
+0acafe7fc73cbe6f7eab5872fb62ffe8ee91829c,"Update README.md
+
+https://github.com/Valloric/ycmd/pull/628",2016-10-27 20:14:49-05:00,False
+9605c1d50a68f819720db7add41fa5326fb8e549,Add Gitter badge,2016-10-31 18:13:36+01:00,False
+b93c1fd47c23ce57b72ba910b5d0a1ed60a057e0,Add client logfile,2016-11-19 18:47:43+01:00,False
+e179e860b4b6aefc5ef10201f1b5bd78a602ee20,Bump Clang version in documentation,2016-11-22 02:13:09+01:00,True
+7f76b03e0e21effd702da174998ac48bb44f43c4,doc: Add FAQ entry explaining how to defer loading,2016-12-13 23:51:40-08:00,False
+caa4291a9adb02ff99a6b4600f0b1d8a294f066b,"Revert ""Auto merge of #2473 - wincent:no-lazy, r=Valloric""
+
+This reverts commit c182c0529b1bc7faa7158ad88fcd5a2b1cf439d9, reversing
+changes made to 48b7ccef76c9f15b8fc0227b5e661eb55e483459.",2016-12-15 21:21:35-08:00,False
+1e3b7bae51cde1d5646bf2eb390c184c9750b013,"Don't use VimEnter initialization except when stating gui
+
+This is another attempt at:
+
+https://github.com/Valloric/YouCompleteMe/pull/2473
+
+Which removed the apparently flawed attempt at ""lazy"" loading of YCM.
+While it fails to get the load out of the critical startup path, it
+*does* serve the useful purpose when starting up gvim of avoiding a
+deadlock situation in gvim.
+
+So, this time, we keep VimEnter, but only for the gui-starting case. We
+update the comment to explain what is actually happening. And we can
+keep the docs about how to defer loading.",2016-12-16 19:21:09-08:00,False
+a8261e986e05666f3bac24339d13a258aceae949,Update readme for compilation database support,2017-01-08 18:02:35+00:00,True
+0d476a01641d0e5a2b24b41c8a149f9e1d23eb5a,"Refactor diagnostic commands
+
+Move s:ShowDiagnostics and s:ForceCompileAndDiagnostics logic to the Python layer.
+Clear message about compilation blocking Vim once it is done.",2017-02-20 18:28:49+01:00,False
+25bff655e15645c621f92f09c89293917006b220,"Indents added in Ubuntu section
+
+Indents added in Ubuntu section (for easier copy&pasting)",2017-03-06 21:49:36+02:00,True
+905c2a5a1d4871397643ac6844fe420b07442db8,Indents added in Fedora section,2017-03-07 16:43:56-08:00,True
+55e7bc1674472ccff6801361bc377eed48ee9fc2,Cleanup,2017-03-07 16:44:42-08:00,False
+93955fc5e5e6a7464d8f8975bdfd9c5d760c0ecc,Trailing spaces removed,2017-03-08 20:48:48+02:00,False
+edf7e600c84537fe090890232518bb94e8ed299d,"Update ycmd
+
+Release notes:
+ - update racerd;
+ - update Tern to 0.21.0;
+ - fix finding node on Debian-based distributions;
+ - add Visual Studio 2017 support;
+ - drop Visual Studio 2012 support.",2017-03-12 12:03:50+01:00,True
+656ddc34e3b366bcbba709d60740a5d2353e47da,Enable diagnostics for TypeScript and update README,2017-03-25 11:22:02-04:00,False
+cfac475fb375ee6a6d5cc2911b14ad8e2995e093,Remove outdated FAQ entry,2017-03-29 18:16:21+02:00,False
+78d04b30bc8493e2352d8f210ba64aa29cc2b931,Fix links in documentation,2017-04-01 20:09:25+02:00,False
+2e5b2e1cef09efb67365e02737424746a62d7d62,Update copyright years,2017-04-06 15:03:40+02:00,False
+de330302b69c2910b285520a2b3538de85d5f00b,Update Visual Studio generators in documentation,2017-04-08 12:43:10+02:00,True
+51cf5f9dde3271f32f3e016df4f3c2666fd3c447,Fix indentation in documentation,2017-04-11 15:48:55+02:00,True
+f7db6a1f361ff48bbe860bc5bc4c755e567e486a,Update autocommands examples,2017-05-05 21:36:47+02:00,False
+9fd6c8e533338057f19fbe946e2b833db4a9de81,Add FAQ entry about YCM not shutting down,2017-05-11 02:25:06+02:00,False
+4e08cde268d5154060e511b58eaf5de1b693f157,Shut down ycmd after 30 minutes of inactivity,2017-05-15 11:20:48+02:00,False
+d44ad0894b8a3e9ece547ef3e56818f69a7460cc,"Display diagnostics asynchronously
+
+Use the timers feature to display diagnostics asynchronously instead of waiting
+for an autocommand to trigger.
+Increase Vim version requirement to 7.4.1578.
+Drop the CursorHold and CursorHoldI autocommands.
+Parse buffer on the TextChanged autocommand instead of CursorMoved.",2017-05-15 23:57:09+02:00,True
+81db2cf7ed7a1f14339c864f823ac9fc710de638,Strip down readme,2017-06-02 22:43:33-07:00,True
+adae16f1d7d255fb4cc2f514c07654f11180d695,Readme improvements,2017-06-03 16:30:28-07:00,True
+90ff7d6a4b0c005ac6346941f74160fc39ce0ed1,More readme improvements,2017-06-03 16:54:05-07:00,True
+f3e4c400385d64c3b09778a14674d312eccb1b8d,More readme tweaks,2017-06-03 16:57:08-07:00,True
+01b581a57c162adfe341be1c8c57c34aa253c277,More readme improvements,2017-06-03 18:32:41-07:00,False
+ac93af38d5e0e58ed1da3722f6c1ac04f4fdf288,"Readme tweaks: bad grammer and writing
+
+Additionally, add a video of the current state.",2017-06-03 23:42:14-07:00,False
+7c54729989d6ea2b2581dc102ac715c510e135a6,"Coexist: iCompleteMe client namespace
+
+This patch allows iCompleteMe and YouCompleteMe to operate in the same
+process. I need this because I'll be using YouCompleteMe for some C++,
+C, and ObjC coding in the same projects as swift.
+
+There is a single vim python process, for all plugins, so it isn't
+possible to have ICM and YCM adding the same paths, or there will be
+collisions.
+
+YCM shares code with YCMD by adding the paths of YCM to the global
+import path.
+
+- Apply import renames
+- Move around folders
+
+Additionally, namespace global variables to prevent collisions.
+
++ Update ICMD for missing file",2017-06-05 07:49:28-07:00,False
+a16c657769293af913c34b04b76d1fee5e799aaa,Readme improvements,2017-06-05 20:58:04-07:00,False
+8b9552fb29f8415aa4c80db01176b799d17a593b,README improvements,2017-06-05 21:09:15-07:00,True
+72014a0628aae9177ad9c2f455206cd3ffa9a7b7,s/Valloric/jerrymarino (#6),2018-05-01 22:38:46-07:00,True
+b8162e3548ee4d0815838352d545a0ea55c7c5e6,Fix typo: Vallorc => Valloric (#8),2018-05-15 18:44:17-07:00,False
+aca1a8b6629f332c2c73a1585bcddbf3f1510f5d,Fix typo in README (#9),2018-05-15 18:44:32-07:00,False

@@ -1,0 +1,40 @@
+sha,message,date,result
+53b68681d941922a584558807a4a8c66a6c67ddf,Added original Adobe project sans JavaDoc.,2015-12-23 13:34:44+00:00,FALSE
+86f4fb4ed2ee86d58137a162e69a867d25783327,Copied existing readme.text.,2016-04-02 15:26:05+01:00,TRUE
+9a481b027121b90f3d4850be3b37accb2f8faf38,"REL - Release 0.18
+- bumped minor -> 0.18 for release;
+- updated model dependency;
+- added 0.18 RELEASENOTES.md; and
+- fixed build badges in README.md.",2016-07-05 09:16:19+03:00,FALSE
+a762c34b00f2686b118bdd3c9e7216ee8481cf36,"DOC - README.md typos
+
+- removed space in `java - jar` command;
+- replaced ""definitive"" with ""industry supported""; and
+- fixed heading issues.",2017-04-10 13:01:41+03:00,TRUE
+1a86148b0dc154eb14c2dfd14a07fe92a1ee747f,Fix broken Markdown headings,2017-04-16 16:42:09-03:00,TRUE
+b4c444fb87430cf39fb1ab00ffd647dedcda97ea,"REL - Release v1.4
+- bumped minor to 1.4 for release;
+- got ready for Maven central publishing;
+- added test coverage publication;
+- updated README build instructions; and
+- updated README badges.",2017-04-20 02:19:10+01:00,TRUE
+e1da3ecfc3ef077d2eb0d8436b6f4ffbe1b535f6,"FIX - Release mistakes
+- added release notes;
+- newline in README; and
+- committed up to date `parent/pom.xml`.",2017-04-20 02:31:53+01:00,TRUE
+1d6c3cc3150862197acd9b2cfb0b7427b499566a,"REL - Release v1.10
+- bumped minor -> 1.10 for release;
+- updated model dependency; and
+- added issue and PR badges to README.md.",2017-11-29 16:28:59+00:00,FALSE
+7401e352c73b4d2b799b8589a665b97830de6cf6,"MAINT : Preprare for veraPDF-library merge.
+- removed `.gitignore`, parent POM, old readme and build service files; and
+- moved `README.md` to core project.",2018-05-08 11:44:14+01:00,FALSE
+97c2f5ec962edecb71c01bca723bf02127a2daef,"RC - veraPDF 1.14.0 Release Candidate
+- updated Java version in README.md;
+- bumped version -> 1.14 with RC qualifier; and
+- updated Maven dependencies.",2019-06-05 09:03:13+01:00,TRUE
+d511ac67716a86cb2a8a831626b443022172a46c,Update README.md,2020-02-11 16:42:11+01:00,TRUE
+fe3212e8fd35e2460ec2eeac4f437dc80414c3be,Update readme,2023-04-26 10:27:28+03:00,TRUE
+bcb410c0ff11c554d6154f5c5f263761f77d6fb7,"Update date regex.
+Update readme",2023-04-26 14:29:47+03:00,FALSE
+72df5184bfd35f39b5c6174f412a7f45ebf9b9e9,Update readme,2023-04-26 16:20:40+03:00,FALSE

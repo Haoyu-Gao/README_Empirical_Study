@@ -1,0 +1,68 @@
+sha,message,date,result
+8fda25621baa73e166259e0f0c7d1539e4d0ca3c,Initial commit,2020-05-12 10:54:55+02:00,False
+023eb14e2c62de73f3564d1971303ad8aaf95607,Initial release,2020-05-12 10:59:43+02:00,False
+a7df1c9dd48b9e2119f51c481445c946ceef57a8,Adds more docs for setup/development,2021-09-20 09:30:15-04:00,True
+ff496f9d50f882033dac8ce78a7fb499c86d2c16,Spelling,2021-09-20 09:33:43-04:00,True
+83f38419fda5babe5d0748c6f6b7bec4277ab7e1,Updating requirements,2021-09-20 09:36:00-04:00,True
+98ff9c0c0ccb17694720ad78a47be4906a9f5ce2,"Updates dev env
+
+* Adds pip req caching for Docker devcontainer build
+* Updates TESTDATA for newest version of pyunifiprotect",2021-10-27 10:33:50-04:00,False
+7e147fcd1e295c7a888c9c49059b9186210793b4,Updates install docs,2021-10-27 10:40:15-04:00,True
+fb52c94163195c7ee6453082a02c67b6727c9439,Forgot README,2021-10-27 10:41:56-04:00,True
+57ee662d3913a70779e870960523c3310addf9b6,Typo,2021-10-27 10:42:25-04:00,True
+01290b1507a91ef5dc8e75f2f2f956535de16c72,Adds note about VS Code in setup,2021-10-27 10:45:48-04:00,True
+b6fe1ff6fb2e2a7129cc51b8501450bf6c5737f4,Updates readme (#93),2021-11-07 15:13:42-05:00,True
+1003449c0b686655b2ee887ecdfdb13fb4db9a45,Removes deprecated unifi_ code. Drop 3.8 support. Upgrade mypy to pyproject.toml (#142),2022-01-04 13:53:52-10:00,False
+ea92368f87b0f4479a8ba77bc1af69d2488fed65,"Various project updates (#174)
+
+* Various project updates
+
+* Fixes CI
+
+* Adds missing file
+
+* Only install new requirements inside of VS Code",2022-05-28 16:18:45-04:00,True
+c8c2b001874faa661bbe3409720d1aa55accc317,"Adds common CLI commands for all UFP devices (#177)
+
+* Adds common interface for all UFP devices
+
+* Tweaks list-ids and adds reboot all example
+
+* Another example",2022-06-03 16:31:08-04:00,False
+d8ffae7ba8e15c739b96f60f36f6b9708735a36f,Various copy updates,2022-06-04 19:24:37-04:00,True
+5880ebc09579643cd6d8b2a4a534458fb7aa785d,Tweak title,2022-06-04 19:26:25-04:00,True
+3ce19efe66aa9e21aeacf0df57526f583616348c,"Fill out Camera CLI (#183)
+
+* WIP on camera commands
+
+* Adds CLI commands for cameras
+
+* Updates readme
+
+* Tweaks to streaming",2022-06-05 13:38:02-04:00,False
+e91cae29e0591c7241a8a6be2caab2f2f61e4fc5,Updates readme,2022-06-06 17:17:30-04:00,False
+75ad6f24653bb47fef162965820037e62a65b8f5,Updates readme,2022-06-06 17:17:45-04:00,False
+715d28262d9a4de17a389f15000a3c781a3c3a02,Update README,2022-06-06 17:19:14-04:00,False
+ef99bba1fa059f3c7576815ac628ea5149d7094c,Initial read only enforcement for fields (#188),2022-06-06 12:48:27-10:00,False
+ed142b3a37a80dc84d9cfa8a10333511af0ab5c7,Bumps version to 3.9.0,2022-06-06 20:16:54-04:00,False
+e1b792146544f165c981aacb373aeeeb47677397,Updates README,2022-06-06 20:26:39-04:00,False
+25ffc1c5fc172a7a8efb3dd900c4c4fb1c9eaaab,Updates README,2022-06-06 20:27:54-04:00,False
+fa691a7d008cb692d9fd748e54471b7c3a5e70dd,Updates examples,2022-06-06 20:29:53-04:00,False
+853338edcfca9d691a35424ad8105eb3993b2aa5,Adds Docker usage example,2022-06-15 23:53:43-04:00,True
+6996a561cf896823260ff526e3e010d9e6644bfb,Fixes save-video example,2022-06-15 23:56:59-04:00,False
+1926da021afcbebc6ae782c40fdd9f34dc20ec75,"Update README for MFA limitation (#213)
+
+* Update README for MFA limitation
+
+* Update README.md
+
+Co-authored-by: Christopher Bailey <cbailey@mort.is>",2022-08-03 22:54:35-04:00,False
+d4653d0be7e8ead324954a6394fd3d498d2b0e79,Updates all github repo references,2022-08-25 12:51:07-04:00,True
+2f720d24024b6321ab2fd7bd74834148d267211a,Updates readme,2022-08-25 13:35:01-04:00,True
+2e24b2fc0b5b01eba9f0cb68ba24299bcf721308,Updates README,2022-08-25 14:13:06-04:00,True
+12f053e3f3917ed81b361eb2bc5ec68381e1d6ec,Updates README for setup instructions without VS Code,2022-09-06 15:55:50-04:00,True
+07fe57fdf0fdd3ccc21a3c9899c568329b8afdd0,Adds docs site (#235),2022-09-11 16:51:25-04:00,True
+a50fc6a65619fd73024c5e8730f7e24b7d60d418,Adds docs site to README/release workflow,2022-09-11 17:11:55-04:00,True
+91f7f7fbf76166f782523bca3364771e4f3deb1f,Add mention of WSL to README,2022-09-12 01:04:07-04:00,True
+3764de3b0e23a2c6ec313404f1fb03b2f79be9b2,Updates docs settings,2022-09-12 01:09:14-04:00,True

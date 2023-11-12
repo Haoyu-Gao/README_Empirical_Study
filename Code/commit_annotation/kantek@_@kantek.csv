@@ -1,0 +1,32 @@
+sha,message,date,result
+f6fc4be8ae97d0371acdbfd889013536c65ce74b,"Add Readmes
+
+Signed-off-by: SitiSchu <admin@sitischu.com>",2019-03-11 00:50:09+01:00,TRUE
+55bd53621d5425bc30b2589879025aae78ed8874,"Update readme with setup instructions
+
+Signed-off-by: SitiSchu <admin@sitischu.com>",2019-04-21 21:38:45+02:00,TRUE
+258861d1fc05d9e4d73e17c6306ad3132f0988cd,"Update readme
+
+Signed-off-by: SitiSchu <admin@sitischu.com>",2020-03-06 02:04:24+01:00,TRUE
+d1a0d9544161fd5842ac1aa4892754a0ce88f774,"Change image
+
+Signed-off-by: SitiSchu <admin@sitischu.com>",2020-03-06 02:10:45+01:00,TRUE
+22813a05172f68a60733b3a804c125adfdb57f9a,"Renamed logo to avoid github cache
+
+Signed-off-by: SitiSchu <admin@sitischu.com>",2020-03-06 02:12:21+01:00,TRUE
+fbea50bf138583ca7a6b9318ff028d6bb81018a0,Update readme with new config,2020-07-20 02:56:23+02:00,TRUE
+cf0c3e199681af6c7c188b0b37c128ed338eb103,Add all config options to the README,2020-07-25 22:30:23+02:00,TRUE
+1930e9f47a49cae796bd6867302a1bf07e833d25,Add source_url config option,2020-07-25 23:05:36+02:00,FALSE
+3b0df7d95c900f7e514840e67147e41970783c88,Uppercase Kantek for consistency,2020-07-27 23:31:58+02:00,FALSE
+5e8636a91a9b945c6d6451bc008d636413af3b3c,Implement new cmd_prefix,2020-08-01 00:18:01+02:00,FALSE
+a7f23228545afc887a07d5200693da4adb40a83b,Add db_cluster_mode config,2020-08-01 01:08:45+02:00,FALSE
+12f8adfaa98c9f032b7b7c84187ae0330aba1910,Update python requirement,2020-08-01 03:00:29+02:00,TRUE
+d1bb68ffcccd24a0aa8f55b0a79a820e615560a8,Add postgres backend,2020-08-02 05:08:45+02:00,TRUE
+e256c721c8dc91edcfb14029c630549cbee1604c,Make arango driver optional,2020-08-02 05:12:44+02:00,TRUE
+f454963da2a3011704c618e3090fe110ff869cf3,Add postgres migration script,2020-08-02 17:35:41+02:00,FALSE
+4d62c41e42b4126157e9934676f694e9a3ea59c6,Remove ArangoDB,2020-08-02 20:41:59+02:00,TRUE
+a0cea60a480d3b2df777ab12c1f549f284bd4ce4,Soft deprecate `cmd_prefix`,2020-08-02 23:51:59+02:00,FALSE
+f55648b1b0cd959b9ec467c32976d4ccb931f912,Add kill_command to config,2020-08-04 00:55:46+02:00,FALSE
+68750e48b0046d6a5e3249bff25a007c5b6dc73e,Add json schema for config,2020-08-04 02:19:20+02:00,FALSE
+570faea4653eb9b4b4cc3e663e459d0a33128990,Update migrant install instructions,2021-10-01 01:24:18+02:00,TRUE
+7792d5590cb77cc9944acd3d8e8739afb1807f5f,Update run instructions,2021-10-01 02:47:43+02:00,TRUE

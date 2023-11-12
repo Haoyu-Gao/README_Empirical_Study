@@ -1,0 +1,121 @@
+sha,message,date,result
+13545b1cf3fc18bb535bd0d5bf2c9db3936f20be,Initial commit,2016-08-26 22:19:24-04:00,False
+79268c1394943e78b47cfdfcab24305343f6a469,README.md modified,2016-08-27 18:28:01-04:00,False
+83f7cc393d6c395f71b30e8eb166db081ae8fdb2,more on code development in README.md,2016-08-27 22:13:38-04:00,False
+c8b8755ab780fef2701164afb34879145dd3cab9,correction of README.md,2016-08-27 22:14:32-04:00,False
+26d3d028dbf888b110de1b80c39534e5780e2b65,table with second-order effects in README.md,2016-08-27 23:01:48-04:00,False
+36d5fdafac3c8b5b301b2f7f87d6f12459c38f10,Update README.md,2016-08-27 23:03:44-04:00,False
+c1220eb1d483cf45a2203ba50bac776c4089849a,links to papers in README.md,2016-09-08 14:14:12-04:00,False
+56a18cb89f8c7eb6307dcbbcbf84ecd704d10cbc,2 more references added,2016-09-08 14:30:13-04:00,False
+cf5a9c1282a0c47cfbf84d7741b8eb21f100dd0d,note on astrometric ulensing added to README,2016-09-15 11:51:19-04:00,False
+e01aa73c3b55e952e062a43527b2dc16f925dc06,more use cases needed,2016-09-15 13:43:17-04:00,False
+f922d1f062be94caf4509477bc1723dab343403c,more tasks to be done,2016-09-17 01:37:35-04:00,False
+763245a4c7392b4c88c9541b887ce06560ffe79e,a link added in README.md,2016-10-15 19:43:41-04:00,False
+5d411ebb9948245605ad30500f45696b5691740e,2 references on caustic size added,2016-10-27 01:39:31-04:00,False
+57edcec74178a7c36b11e1524904e6dc5fd3233f,get rid of old README.md,2017-03-29 16:32:12-04:00,False
+8f749ea9edcc67828814b78907efbfa6df7eecac,new README.md,2017-03-29 16:38:35-04:00,False
+c7bb755270b8303561cbb082f9216d82bbc1e76f,links to examples in README,2017-04-06 20:04:50-04:00,False
+5bae099451f3cfbaed9e8db42e9154ecf74b797e,link to microlensing_source.org,2017-04-07 14:52:06-04:00,False
+8c59b83b7d8098b7076c8e60c2125daacc792028,Expanded README description.,2017-07-14 11:06:54-04:00,False
+f907baf640d8dbaf5bef1cc9a292724a4ec85eb7,Added documentation link,2017-09-09 20:04:56-04:00,False
+31234f87a4b5548469423c794c5b7f7221afd759,release 0.1.0 link in README.md,2017-09-11 14:44:26-04:00,False
+1dba02de4c8296ae0201e63328aeeb44242b54a3,minor update in README.md and developers_board.md,2017-09-12 01:23:18-04:00,False
+06bc836c2ad3c418fa69e7ffeb752aefeddccf8c,instalation instructions in README.md,2017-09-13 15:53:49-04:00,True
+6d54c6c708eb40ef69c416b96b1b492f3c25b161,version 0.2.1,2017-09-19 18:55:08-04:00,False
+569f28d7ea5c0a16f5a94d50ae5104f8534290e4,README update,2017-09-26 03:03:23-04:00,True
+d6e4b0eb043607647ac88140c976066a315e074e,trying to make \mu look nice in README,2017-09-26 03:08:42-04:00,False
+296e36a2c138b2216ef28a35016015da3fb464e7,installation instructions updated,2017-10-16 18:10:04-04:00,True
+8ac30f099135e2db1618bef23fbe916d869ddc3e,installation instructions updated,2017-10-16 18:13:00-04:00,True
+ec9b4236d2335cd7fee8f4a91f895c118d7a7ad6,links to tutorial and astropy in README,2017-11-02 21:54:02-04:00,True
+f4cbc4319453a42730dc830ea71e753b6e4f64ab,release 0.3.1,2017-12-22 13:27:58-05:00,True
+695483b51bd1154325383fb452e602bb9494a42d,README updated,2018-01-06 16:24:09-05:00,True
+d6e6aa905d854cb45b7fbb2e71c5718a582622cc,"Added a note to run py.test. (if the unit tests fail, something is not right with the install)",2018-02-09 11:52:24-05:00,True
+5dd0d300d79e8cfd5361e071c2a453f61c091d21,example 7 added to README,2018-02-21 15:33:38-05:00,False
+340f7c7b5b7c1c63e350af4ac9d8d5f811a3f002,ver. 0.4.0 and sphinx run,2018-02-22 14:19:53-05:00,True
+109c6d92e6ed288533fd7aeb8b7bdcced58382f7,"minor changes in tutorial_fit_pi_E.rst, links to it, and sphinx run",2018-02-22 16:15:31-05:00,False
+0765bf453f43e5018f41d81d719cf877beba1cc5,change of example 6 file name,2018-02-28 17:13:46-05:00,False
+10c0194cb558785bd518cf10008063b7d8589a27,install updated,2018-02-28 22:52:22-05:00,True
+43115130a5d28f636614e60c9a037dd298fae4f6,changing v0.4.0 -> v1.0.0,2018-03-01 00:46:00-05:00,True
+4dd517c52c8413eee86ed550ba393430659ee319,README update,2018-03-29 20:38:25-04:00,False
+258ee33ccc41e84d42ca1c707da340400493a379,version updated for release,2018-03-31 04:20:52-04:00,True
+72b122d93718b502a967961b0ce9540bb29c2f76,Jen's grid fitting example added,2018-04-25 16:47:48-04:00,True
+5d7d8b2f2f0b572de7c94c2f8cc9d1b6cc187946,version update,2018-05-02 15:28:14-04:00,False
+480f45963aca650bdc167aeb1ca8104c2e187315,readme update,2018-05-04 11:18:35-04:00,True
+dd0a07745fb1564a30bdfe29a4fae157ba2fb0a6,updating spinx to 1.3.0,2018-06-21 11:58:30-04:00,True
+0a586452b81b95a44c1a47a6729375356ab10f1d,install update,2018-07-03 17:15:32-04:00,True
+021c546cfd7b4538e98a8ea2d550795cb081cc52,preparing v1.4.0 release,2018-07-13 23:27:22-04:00,False
+a40355fa4bdff4239f74b3b1580bca044f348678,"update of README.md, developers_board.md etc.",2018-07-23 13:22:25-04:00,False
+5b04f54c40be90493f3c95d128ae9a9013fc750d,README.md updated,2018-09-03 11:44:51-04:00,True
+f77ed0954849bf05aed9ebc2ba9aede59d3ac696,README.md update,2018-09-13 15:24:56-04:00,False
+15e79c10bb98c20d8c9844448d254c327bf75584,update and cleanup notes,2018-12-07 18:27:54-05:00,True
+24ed524c712f246cf787657528d7eeac53d1926f,readme updated,2019-01-07 18:37:40-05:00,True
+a25f713d9f9626db258a695dc07b3f7876d75862,latex table with parameter names,2019-01-09 15:26:51-05:00,False
+938634cd03c974d5db7e4e978e1357647b5ad2ef,minor,2019-01-09 15:31:13-05:00,False
+794bf4be70465a379f523a08180b4e9b69425ee0,magnification_methods.pdf added,2019-01-10 20:28:10-05:00,False
+b2ffcd17dfc4a7be02daaedf84c828aeb39da0bc,methods set separately for each source,2019-01-17 19:12:51-05:00,False
+8854988f159f507976a33b43e5cf680abb29334d,methods description file,2019-01-17 20:27:19-05:00,False
+9ef118c73f84f57dbe2dc516ca7ebdeaa763a97a,minor clarifications,2019-01-27 22:28:06-05:00,True
+d5359df4d5941dfd40d0b554723902bf4ffe5b7f,links to hack session codes,2019-01-28 08:05:21-05:00,False
+38653de6a727a311085d0282f68ea2ecfd93cd2d,recent commit propagated  to README,2019-01-28 22:49:02-05:00,False
+753d41cc4615050e20f10d24d3d1efa09727ebb6,next release,2019-01-30 11:08:35-05:00,False
+3f302b168ca0163069f04dca11fe5aba7af151ac,correcting version number,2019-01-30 11:23:55-05:00,False
+0ebbb55b3f719f141340a5e32f83cc0534aacce6,macos notes,2019-02-05 18:20:26-05:00,True
+f27c9220d060c8a27e39f74fb4a7629cd75696cf,example 10 and readme,2019-04-03 20:03:15-04:00,True
+93e6ea606bf5bcf95ebee79d3a4b985c02936f1d,README.md updated,2019-05-07 18:19:10-04:00,True
+a184ca7a1eae1660aa6da0940564c8007a1ca97d,new ADS api used everywhere,2019-05-08 10:25:53-04:00,False
+610f0b8c52445cea6052ebf5f5135ec2e1cc6a0d,adding example 12,2019-07-25 20:16:33-04:00,True
+46845aa852ac902e28101f30998dd920ee6dc3de,Readme and tasks updated,2019-09-22 22:35:50-04:00,True
+aeec631bfb0e9191d28960c64d3be91a8596472c,examples 13 & 14 noted in README,2019-09-28 16:31:52-04:00,False
+1c2fdb9efbbf82fc899a1da56fea3c88bba333e0,correcting path in README.md,2019-09-28 16:38:40-04:00,False
+305fdfeaa1573797e348db1b245ff0e2bbf5652a,changing names and cleaning-up hack session examples,2019-10-23 16:03:12-04:00,True
+7afc39f6274dc385e51da17b8570b30dc1dbd012,README.md and list of examples,2019-11-06 16:49:42-05:00,True
+eb755370abff0f7e2275b9ae8ba64dde47623b4b,updating md files after recent change,2019-11-07 14:16:46-05:00,False
+a6fb187912dd511842d711c9dd6f97ff8a13d123,better error message in MulensData and corrected README.md,2019-11-08 13:57:27-05:00,False
+a2ad37ecf89ef415fb6db0c0740cdaf76c444f30,Jen's comments to example 16,2020-04-29 20:55:08+02:00,True
+6b11b598323cf7559c9f25ff4b37174396b3e1af,windows installation notes,2020-06-24 17:16:10+02:00,True
+3e27a546e5950fcaaca16b5feb4fa93b65f79f56,README.md and developers_board.md,2020-07-28 23:09:06+02:00,True
+0347e5e84fd879df8ff3c9ad6e7fc47fe68beddb,spelling in README.md,2020-07-29 10:33:34+02:00,False
+7b181ee2161cfc2e0ac240f1c0844dee18daff86,v1.16 - improved import of C and C++ code,2020-08-12 16:04:23+02:00,True
+4b689763da7476aabcbafc7d5314e7e9fd8a5a76,minor update of README,2020-10-07 15:58:05+02:00,True
+e9542f423305c22bd4a9444304dfb8281fac584f,README.md for v2.0,2021-08-01 23:05:05+02:00,True
+f189fa33816c138648a98b2c05efb96faebe64c4,minor,2021-09-17 15:51:43+02:00,True
+ecfa8511ab5125c26882ad0faeab6582c3dc80bc,README.md updated,2021-10-15 17:02:40+02:00,True
+fa2912fba84a700055f735d72f7307a8e58b1645,readme_badge,2021-11-18 23:39:01-08:00,False
+7d5f5c35c87615f210ef42d4fa650a0c846ab9d2,added list of citations to recommended acknowledgements.,2021-11-29 12:25:06-05:00,False
+6562ef5efc3a0c821bd256c07deade910388d180,correcting previous commit,2021-11-29 19:54:34+01:00,True
+149c3d0387a134487f53dc98b8eab928333283f4,adding CONTRIBUTING.md,2021-12-01 11:53:27+01:00,True
+48fbd56720eb0720764130b2f02bcc54ba31c1ff,Hide Readme tests passing badge for now,2021-12-01 12:06:53-08:00,False
+d8d50b431d2eb8aa6aac4ef45647082fee677d19,update install part in README.md,2022-01-10 18:53:58+01:00,True
+4bff2edb916858334d9d943d9345aac9b5af1916,updating version number after last commit and some minor corrections,2022-01-11 13:15:59+01:00,False
+f7a385d5002564970ac3dfc0c96697e1e4df34c8,readme updated,2022-01-17 23:02:02+01:00,False
+a6bb8cfc7922ff726b0269edd55a7ce463f38e05,installation info updated,2022-02-11 00:12:35+01:00,True
+cd3137b95839cc746f598cec1fff70c3df124789,updating installation instructions based on Keto's suggestions,2022-02-11 12:52:43+01:00,True
+4e277393a95d23e4dda415e0f53e9b862e70d41a,minor update of README.md,2022-02-14 18:36:23+01:00,False
+1a2d3da606fb0380f1ee0b8e342c054df64c3554,README - adding 2 badges,2022-02-20 22:42:49+01:00,False
+70307c5148301d5fd441814d7430fd1bee2cefed,updating version to test latest changes to github actions,2022-02-21 19:53:02+01:00,False
+1c6c00ea7e1ab641fa717e1220696fafa9cf07c2,noting Github discussions in README.md and CONTRIBUTING.md,2022-03-04 18:26:27+01:00,False
+a15ea81943b11830be8a174a63fd7955f363669e,updating version number for testing automated pypi upload,2022-03-07 18:20:43+01:00,False
+8593e1dfb047084f3b0caceff79dd53bc8e77e33,updating version number,2022-03-07 20:05:28+01:00,False
+6b3f2741dc4c25c1ac6702b5d50494dda4185710,version update for test release,2022-03-07 21:04:29+01:00,False
+752e7774f2f838d7484ab617d9ec794f9e0e75a4,updating version to be consistent with master,2022-03-08 19:01:20+01:00,False
+606cdc2e07101daecbdc3baa631da4ac63a9dec0,minor update of README.md,2022-03-21 17:17:19+01:00,False
+04477754e6afbc1eaf375502e2a87b011914d562,updating version number,2022-04-07 19:46:26+02:00,False
+10df448a122a81d99474d1fdb9c23856cc0d538a,PyPI link in readme,2022-05-10 21:32:05+02:00,True
+a73c9400d2bca99d4939ae8fea42a2dc3c4ff508,v2.10 - adding Event.get_chi2_per_point() adding bad option and default values of np.nan,2022-07-04 18:48:04+02:00,False
+0bfa8d3fcb1aa33860277a8b8350da274275df2a,adding AUTHORS.md,2022-07-04 19:17:02+02:00,False
+2aff631a8a0867ea4df0954751b668aea10e10ab,v2.11: MulensData - .copy() added and .plot_properties docs,2022-10-09 04:04:46+02:00,False
+ff9288e54f5a26103470dff8247512b58cda304a,sphinx run,2022-10-27 16:39:15+02:00,False
+4f5e0091cd81ef702bf02c4ec71d9cacd31fd200,minor commit to force CI run,2022-11-03 11:54:24+01:00,False
+e5fdb6a27ef63bc9769c368c08de15b3247ed670,citations etc.,2022-11-12 20:33:00+01:00,False
+f2b005c7588140026110318d772cdacde1672b49,version update,2022-11-16 19:11:16+01:00,False
+b841fa06a757eb18bbaa60d96667b7e3fb85a09d,README.md - adding 2 badges and correcting merge conflict,2022-11-17 14:04:42+01:00,False
+869bb02c9e5a9de14b79be961459614844a97046,minor commit to force CI run,2022-11-23 16:40:26+01:00,False
+2ee2f59763898943b583b6b3e462cd71ecaad83e,duplicated badge removed,2022-11-25 00:13:49+01:00,False
+c7d81cc2035347b63357e27ba3319a1468630523,badge added to README.md,2022-12-08 13:37:27+01:00,False
+ad5ee572eda82d1039283917f03957c7ae300fe5,MM logo added,2022-12-29 16:46:57+01:00,False
+fc74e9cb7937f2ebda0d5109f9499c2ec8641601,xallarap noted in README,2023-01-06 01:07:03+01:00,False
+d52bb700eff260540fc6cffcf4e71e28f8149a5b,version number update,2023-01-18 00:21:37+01:00,False
+245883af061d6c2031c11899116084849b788e4a,update in README.md to test python-app.yaml,2023-02-05 22:31:04+01:00,False
+55f826e02762b44898925c643342313a2dd3e37c,minor cleanup in python-app.yml; badge in README.md,2023-02-08 21:56:14+01:00,False
+10754b4a648bc72ec8bcbb6154c6d97b96bb0bc8,Simplify pytest command + add a coverage badge in readme file for master branch,2023-02-20 23:39:33+01:00,False
+47df1b55902703964ffd92b37a3b3e12905c9e26,MM version update after merging branch with updated VBBL code,2023-05-18 17:08:51+02:00,False

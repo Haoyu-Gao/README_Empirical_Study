@@ -1,0 +1,39 @@
+sha,message,date,result
+6cd54dc72dcbaf8132b36ea788bffd74dab66e61,Initial commit (project setup),2020-09-14 21:15:33+02:00,False
+00dca1fc3b96d4df617b09fc205a7b0cd38fd08b,Updates README (adds badges and very brief project outline).,2020-09-16 15:51:15+02:00,False
+1e2a2886949250b920bc77825ae8b386c5712b1d,Adds basic instructions (valid for this branch).,2020-09-17 00:42:16+02:00,False
+05a3e2ae77c0d44b1240d84f9355710026d8cd45,Inserts logo to README.,2020-09-17 15:45:39+02:00,False
+32d6feb216b90606e9cc32c307ea3995820a6a58,Updates formatting and sample code down below.,2020-09-18 17:45:48+02:00,True
+4566113e03612fc13540c58eb7e4d51849e0176a,Improves code examples.,2020-09-18 20:05:32+02:00,False
+f5a154ad7f8d7cf59bffef0b741d6c33cd4400a3,Fixes logo URL for PyPI with the next release.,2020-09-20 16:31:23+02:00,False
+26f542c040c0f1816ba7a9522ededd87860f0c82,[DOC] Adds contact information to README.,2020-09-23 17:10:10+02:00,False
+10a63f8daa9e68355f171ecfc71bed3ea6c81e93,[DOC] Links first-time users to the wiki and defines compatible versions of python.,2020-09-26 22:08:44+02:00,False
+5eda873611c43c6533d40bb33da98388f47c22db,[DOC] Fixes example (cf. CHANGELOG @ v1.2),2020-09-26 23:01:35+02:00,False
+b332f875efda1f68e913975cf46e557c5edde463,[DOC] Updates example code.,2020-10-03 21:34:35+02:00,False
+b04fcede4e1e02497bf32bb116278d8f0707a388,[DOC] Updates install instructions for devs.,2020-10-06 14:26:23+02:00,True
+966fb8c2a0b4c290644686e70478e51aaa4ddbff,[DOC] Minor modifications.,2020-10-06 21:50:43+02:00,True
+e327fe9a2b4192a305533f6368c110fbc397fed9,[DOC] Extends preamble of this readme file.,2020-10-06 22:56:43+02:00,True
+8b30be196c80a22d8aa0090985fd58f0d187b61b,[MAINT] Link to the documentation.,2020-10-25 17:49:46+01:00,False
+34b6a8dde5ed46bfe7e61f03897e9fc0ee7323d2,[DOC] Adds CodeQL status badge to README,2020-11-01 21:05:30+01:00,False
+b1429c7a9f3d7d46d176f10b207cb1012f3fce0c,[DOC] Adds repository to software heritage archive.,2020-11-06 12:28:05+01:00,False
+696cbc00f57432b439449c58cc62563006c1fe3b,[DOC] Updates code examples.,2020-11-06 16:31:20+01:00,False
+faef80a4603c77f7ef0d85daf4d4c02d740b5320,[DOC] Updates documentation link (from http to https),2020-11-09 16:52:52+01:00,False
+660d07b2b1f7cb3492cebc99fa09382496421606,[DOC] Fix bug in code example: filename in export is of type pathlib.Path,2020-11-09 18:21:10+01:00,False
+5808e755c4d22c316a072d94152159dbb38cc71a,[DOC] Adds progressbar to sample code,2020-11-12 22:26:20+01:00,False
+16009b745ad613588e40cb8f2a242e366cdbf503,[DOC] Updates the contributors note in README.,2020-11-15 00:08:58+01:00,True
+8f55fa4a3852bdc01bfb6121b5beb6b1d65760ce,[DOC] Adds codefactor badge.,2020-11-18 18:24:47+01:00,False
+5c6e91259ed528e6fbeaccbc869c1abbb987e86e,[DOC] Removes alt attribute to resove line of length warning for this file.,2020-11-19 14:28:46+01:00,False
+fcc5f45ff14106299490091b1b9c08f6f10be09a,[DOC] Adds code coverage bade to README,2020-11-21 16:10:57+01:00,False
+44d0b56e4fb5debb86760782f63374f84ac0235e,[DOC] Updates documentation (Option.UploadDate -> Option.Epos),2020-11-22 21:18:52+01:00,False
+337738019a9a62be8c640ab759dbf7d482f90811,[DOC] Ignore line warnings in markdown and reformat the README file.,2020-11-24 00:39:07+01:00,False
+aa591dc0799b1ab98aa1441bed2eb8b4448cc537,[DOC] Adds target='_blank' to hyperlinks,2020-12-05 13:55:11+01:00,False
+87043bde4eb52eaee3f4cbddaf3c1a737c646cbb,[DOC] Update README,2020-12-27 22:01:43+01:00,True
+a181e9ac704234bc3c8dcc1631b7628b02817fa0,[DOC] Add CLI subsection to README,2021-02-09 11:09:18+01:00,False
+3e60bc10467d7918d1c870f201e0c13731b5e0a6,[DOC] Fix download example in CLI section: missing option,2021-02-15 21:25:56+01:00,False
+94caeb1704778d836e7f87a243db2ce39005d97b,[DOC] Add Chinese translation (simplified),2021-03-24 14:09:03+01:00,False
+053750071607616a4a4452ee236a3becad59afbb,[DOC] Update CLI commands and python versions in badges,2021-05-14 00:01:49+02:00,False
+d7a545c1487688ddf3c187870e2b5a5c6b21ab93,[DOC] Update shell commands,2021-05-14 20:51:43+02:00,True
+fc9328242f74d16040225fe0174709a40db8937f,[DOC] Update link to documentation (new domain name),2021-06-02 19:43:55+02:00,False
+b693885a0a12657523273bbf8233230118e96dfa,[DOC] Update URL in logo to new domain,2021-08-20 19:07:19+02:00,False
+c9af6e252805a5fc0919ae695e314ba394e1ba1f,[DOC] Automatically enable verbose flag in CLI,2021-08-21 22:30:37+02:00,False
+624ed62778efdb5ff2edc8b4185cae5f714f8ec8,Update README for contributor,2022-01-07 19:14:37+08:00,True

@@ -1,0 +1,73 @@
+sha,message,date,result
+987d26ecadc9cf9e4415b712143849309cb46cf4,Add the frist two server RPC methods.,2013-11-13 14:37:27-05:00,True
+a3accc5500143df7d97f491302dc814530209f26,Add a tab to start looking at campaign information.,2013-11-14 20:26:16-05:00,True
+d8c4b37f4d8c33ae8d528835f98c03db0a1d767c,Add license information and an about dialog.,2013-11-18 09:50:10-05:00,False
+d19be4395c3d81e1035ef4b446a8a18d0a0b9c5b,Readme updates and use and RLock for the cursor.,2013-11-20 19:49:32-05:00,True
+a2638b1474b7faf003389a07a54faf0641c59d0d,Add some documentation and fix super(self.__class__ bugs.,2013-11-25 15:02:36-05:00,True
+b507a921fb6557eaf90cb57cf548f092036f26a5,Make some minor modifications to the README file.,2014-01-03 09:12:09-05:00,False
+c020cdf9e00467f73342a6a717e168eb0d603464,Add a basic INSTALL file and move dependencies.,2014-01-03 12:41:59-05:00,False
+29e801dcb74b8c425368c57b7f6b72e7ddc9524c,Use a new and improved 404 html page.,2014-01-10 14:24:41-05:00,False
+f7ec1214bf14f93cb93384074931f9b58a3bda43,Add more documentation for installation and message variables.,2014-01-13 09:03:33-05:00,False
+fe8adff4ba62e4abfb78e471676f987e79626f75,Improve install instructions and add more tests cases,2014-04-19 12:49:10-04:00,True
+a623b341197777328a48028f3352b34fcfdda9c1,Fix a bug in the timeline graph when no data is present,2014-04-21 08:56:32-04:00,False
+c4d57aa7398e6312ccef8028ea754a6c563fd75a,Add some updates to the INSTALL and README files,2014-05-03 13:24:27-04:00,True
+807cb18c34f7e1d647431983235002057aaa3e6b,Update the message template variable information,2014-05-24 13:46:17-04:00,True
+b8a9bc00aacebd40b5993e7f894157522233d3d4,Add the King Phisher logo to the README file,2014-06-05 11:08:54-04:00,True
+d6d89fba2bfba7267e175054bb01254af1f3ac07,Update education html pages to use templates,2014-06-06 10:18:00-04:00,True
+6ef87a8852a82037d8e3530c5536b21a436561a8,Add a missing ubuntu package and an install script,2014-06-12 17:31:06-04:00,True
+a9699e202ce59bea36cb2775035dc6ea496e4394,Finish the install script and update INSTALL.md,2014-06-16 17:04:44-04:00,True
+b41fa04b7752e3475de4a3f596a3a7eef77c105f,More documentation improvements and fixes,2014-06-19 18:25:46-04:00,True
+53cc40b4ef5492c5a79ec9af8bf8e656295d4456,Finish implementing message importing and exporting,2014-09-10 08:57:41-04:00,True
+9314d3324d19bbafa92eb27636ae8ec6a6cb8898,Changes to the INSTALL and README files for new users,2014-11-03 13:17:41-05:00,True
+09e6ec3fc7de2ef9eaa6b7966b207f3e824009b9,We dont need no stinkin badges,2014-11-21 13:13:59-05:00,True
+0668ff0d3586b6d74cde8c42be87fe8022a52373,Change two checkbox widgets to switch widgets,2014-11-24 16:30:25-05:00,False
+0a435b193170b6841a7e0e868a3d142186383e20,Support configuring the client rpc serializer,2014-11-26 10:21:52-05:00,False
+5efba7d250a67ffd55c1ec5b15798833dbeafbd2,Support configuring the gui refresh frequency,2014-11-26 11:05:46-05:00,False
+8f0a875c4521d02bbba0f7a62f8011b01378d869,"Update the README file with a better description
+
+[ci skip]",2015-02-04 18:43:57-05:00,False
+65e9b4f8aa7e140138c653c51283f146eefa1096,Update the README file with a dashboard screenshot,2015-03-10 09:10:53-04:00,False
+a56ad800c38e12e156bd71a2773208ee45a41155,Add a test case for new visits and remove travis badge,2015-08-15 19:06:30-04:00,False
+e3748fb69f05d295dc23d15eaeb588e821ba505a,Remove template data and update the README file,2015-08-21 14:02:49-04:00,False
+d4e7d87520df048e3aae225a19e6655bcfb5be58,Add sender message variables,2015-09-11 10:39:43-04:00,False
+1f3d0ee243dc910bd1add88707d055c61617e3c8,Include the timezone name in error details,2015-10-21 11:41:40-04:00,False
+dd555363c57afc7ae1041665643bd29bfaa221cc,Include an additional features section,2016-02-03 09:28:06-05:00,False
+f77deb2304374f807354ccf20f27e7549fd56702,Update some documentation with years and credits,2016-04-12 09:58:54-04:00,False
+3a388c6068473eb9ce1b02ba9488a481b495a589,Update readthedocs.org links to io,2016-05-03 08:35:02-04:00,False
+794a9b3a5db901614b6717cb6434d97159167707,Add the 1.4 release date and plugin info to README,2016-08-07 02:01:09-07:00,False
+e38b9f93ac81f4473f8450e4781f0fa1c0657826,Added an SPF Check button to the config tab for the client,2016-09-15 14:45:57-04:00,False
+4659c2ab8f3e01ad2a164579325f18188c04f163,Log warnings if the kp postgresql user exists,2016-09-26 16:38:21-04:00,False
+3827075695599a6c1e254783c80729d6d28991aa,Reorganize the README.md file,2017-02-03 16:37:54-05:00,True
+fa0ea7c8a6d5ae31477f4fcb0c75b62219f46f91,Update the shields in the README file,2017-10-11 13:55:39-04:00,True
+04c4a579131ab3f8f30d90c37aba90eafb1116de,Add Bryan Sfara to the Special Thanks section,2019-07-24 16:23:17-04:00,True
+3a7b62fa79a075fa64d019fc7738e459ad10a0ce,"docs: fix a few simple typos
+
+There are small typos in:
+- README.md
+- docs/source/development/windows_build.rst
+- docs/source/king_phisher/server/graphql/middleware.rst
+- king_phisher/client/export.py
+- king_phisher/client/gui_utilities.py
+- king_phisher/client/mailer.py
+- king_phisher/client/widget/extras.py
+- king_phisher/server/pylibc.py
+- king_phisher/sms.py
+- king_phisher/utilities.py
+- tools/development/cx_freeze.py
+
+Fixes:
+- Should read `separate` rather than `seperate`.
+- Should read `password` rather than `passwrd`.
+- Should read `middleware` rather than `middlware`.
+- Should read `worksheet` rather than `workseet`.
+- Should read `styled` rather than `styeled`.
+- Should read `rendering` rather than `renderering`.
+- Should read `output` rather than `ouput`.
+- Should read `minimum` rather than `mininum`.
+- Should read `messages` rather than `messsages`.
+- Should read `message` rather than `messsage`.
+- Should read `executable` rather than `executible`.
+- Should read `chosen` rather than `choosen`.
+
+Closes #470",2021-05-23 11:41:47+10:00,True
+1bbc1bf122a18085b1ea4af20c9af10cc4cf899e,Update README.md,2022-11-07 11:21:41-05:00,True

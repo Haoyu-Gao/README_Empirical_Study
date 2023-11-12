@@ -1,0 +1,73 @@
+sha,message,date,result
+7f5125e34a3d0be9aa7e1f31dcbc98138a9f46f0,Add README.,2021-03-25 21:19:27+01:00,True
+83a3b55563cb96cb64ba095942224df52233c4c2,Add missing configuration settings.,2021-03-25 21:33:50+01:00,False
+44a362ab8de092070ff2481d124f110e043e2a07,Update README.md,2021-03-29 22:10:38+02:00,False
+7a29bb85ebcb03656dc0db22c5d8fe412cdd8548,Add hyperlinks and version specifiers - ci skip.,2021-03-29 22:24:04+02:00,False
+c8ba46cf56f45fd61e4d8147270a6de489f5cf1c,Add smilies :-) - ci skip.,2021-03-29 22:27:43+02:00,False
+197ca89a9c831c78a2ab24f1166fcefa0d573f6d,Add members to automodule - ci skip.,2021-03-29 22:30:25+02:00,False
+e5b9731386d319ad488565240b0456979ebf3f12,Test github actions,2021-03-30 15:39:47+02:00,False
+64172721a8a0888b439a2e7d5d0a639dccb15f7c,Update readme - skip ci.,2021-03-30 18:20:13+02:00,False
+b23d079e100c5018ecae9e2799d4a5e8639caa96,Remove badges - ci skip,2021-04-02 20:58:58+02:00,False
+8fa1c402c077c24c56cbb74c5c62dddf6bf6343e,Change pydantic support to > 1.5.,2021-04-17 18:32:56+02:00,False
+b486718f6a0ba58d83a4654da3fcfabc1a34c8f5,Update README.md,2021-04-23 17:54:17+02:00,True
+bc3d821488a7727f12a2c9c8e6c7b286586ff23b,Add example gif - ci skip.,2021-04-24 21:00:13+02:00,False
+630d79ba132a332b98d064964944b6a12c676104,Update example. Update version to 1.1.0 - ci skip.,2021-04-24 21:06:17+02:00,False
+f1f0321d10f2b83df2e911efe67fc31e3e60747a,Add RTD badge - ci skip.,2021-04-25 21:31:35+02:00,False
+43e4d0f471413ae65c43ee74b673eed25d5d1ba8,Add logo to README - ci skip.,2021-04-26 12:19:56+02:00,False
+1112857fa28582250c467f5d9c4129c93971a5f3,Update readme and index.rst.,2021-05-10 13:16:02+02:00,False
+9063d410e1c1a793b3cac07723cf68135015af34,Update readme with absolute hyperlinks.,2021-07-17 21:33:16+02:00,False
+9cf0066d9b2393ae3d1ac4f33c2d348911fead61,docs: update README.md [skip ci],2021-08-20 19:32:42+00:00,False
+e64ed01830ac661794f481f7172c80bd158646e6,Update readme to include contributors.,2021-08-20 21:36:11+02:00,False
+1cc41b2586249c8a565b372e9c7239a104bed839,docs: update README.md [skip ci],2021-08-20 19:47:00+00:00,False
+c9e006df58fd712073d26ddf0259d356b84bc2f6,docs: update README.md [skip ci],2021-08-20 19:51:45+00:00,False
+bbd2f24fcb6042b6e321138cd11e13b4e3532e5c,docs: update README.md [skip ci],2021-08-20 19:52:47+00:00,False
+c4e9feb57a106b019e55f0d6efa3f260ffde8175,docs: update README.md [skip ci],2021-08-20 19:53:29+00:00,False
+5d478acd58b0b06439ec64128475cca2c4ee7f4a,docs: update README.md [skip ci],2021-08-20 19:53:59+00:00,False
+e2f07729577460471e9ff3bc7f56663f09061757,docs: update README.md [skip ci],2021-08-20 19:54:24+00:00,False
+2d1ba0987680b31c89583b7f1f2d1b63de1e6474,docs: update README.md [skip ci],2021-08-20 19:54:51+00:00,False
+852e56426ab6950a5c2640279312d398b8fac937,docs: update README.md [skip ci],2021-08-20 19:55:24+00:00,False
+1be1b82478e0595dbba8ec6669c758aa1a4a73c4,docs: update README.md [skip ci],2021-08-20 19:56:39+00:00,False
+131a23c99eb346aa67a6b877ab11f28a84640af4,docs: update README.md [skip ci],2021-08-20 19:58:21+00:00,False
+a97fcd4871c92d2c4eaccbfdd28eb7a11690bb61,Change doc link to stable branch - skip ci.,2021-08-20 22:05:26+02:00,False
+43570aadce97489ea9b76e49c9cfcc51beb61636,Update docs link.,2021-08-20 22:08:58+02:00,False
+5838f60d48a291d2eb365821d64df8818e7a2ba8,Link to stable instead of latest.,2021-08-20 22:11:55+02:00,False
+67a0e2e22746b3d3b535cf519273a0b29b6da27f,Update readme - skip ci.,2021-10-02 00:40:42+02:00,False
+ebf7af1c4486ffc66bd385dfd28ddbd09e768008,Reorder badges. Add reference TOC and extend acknowledgments.,2021-10-02 21:33:13+02:00,False
+2ae66e6c5e000be0a5366a363c5a07b206a6ffe2,Reorder batches. Remove doc batch.,2021-10-07 20:46:34+02:00,False
+78635532b51d50f2fb849a9d33fe167e306d8d65,Minor guides improvement.,2021-10-07 21:15:25+02:00,False
+cd34fca365dd95cc1919805ac493617204dd79be,docs: update README.md [skip ci],2021-10-10 14:18:06+00:00,False
+3b69e3dbba4f0658286ac9dce1a90d9f2fa93d9f,Fix contributors batch .- skip ci.,2021-10-10 16:19:17+02:00,False
+9cb64d95a0637d6cb8a1d8fa81292d0023aaf203,Fix broken documentation links - skip ci.,2021-10-13 15:50:37+02:00,False
+c9bc8430e5341863370f27b7d6cb1a2568e14b04,Fix yet another broken link - skip ci.,2021-10-13 15:51:23+02:00,False
+3577e23493a0481497e6e245fa0624f4fdf5fd3a,docs: update README.md [skip ci],2021-11-08 13:07:26+00:00,False
+58ab62dbb07434aa0e935879394ea602cd044bbb,Update badge style.,2021-11-08 14:10:39+01:00,False
+452edd725bd30f70029fc16146a887317b5b8fdd,docs: update README.md [skip ci],2021-11-09 14:49:45+00:00,False
+911a746e9d102a39f8efc3f718fe430d143376a6,docs: update README.md [skip ci],2021-11-09 14:54:32+00:00,False
+328e2c95a98176412cfd5234af6dda9119432583,Fix typo.,2021-11-09 16:01:17+01:00,False
+9b6e69c2113c125fdf05af9b126631b522d174be,docs: update README.md [skip ci],2021-11-10 23:25:50+00:00,False
+b47ed77c88a11030a5487803066e117b11c83e45,docs: update README.md [skip ci],2021-11-10 23:26:38+00:00,False
+08ff7290dfa835590ead77ceaaa565d3b123ed67,docs: update README.md [skip ci],2021-11-11 19:08:50+00:00,False
+04ad3f5cbb020e2e23868fd00688519518e9f0ce,Update README.md,2021-11-11 20:10:06+01:00,False
+edd0490b336fddd72918cde4d8f96dbfbeb002fe,Fix readme badges - skip ci.,2021-11-11 20:11:52+01:00,False
+a3fb41f171ca1a03869d1ed2b1fd47f6b6094d6d,Update coverage badge dropping codacy.,2021-11-12 21:23:21+01:00,False
+318326fcad08c538d9da29d07eb79a6ad3fcc338,Update changelog and bump version.,2021-11-12 21:47:32+01:00,False
+db4d281532091c718e86f8194f3a5a094026d3aa,docs: update README.md [skip ci],2022-01-03 22:06:06+00:00,False
+8732fd2521b8c75187860d9d88c07598f21c3146,docs: update README.md [skip ci],2022-01-03 22:07:15+00:00,False
+20d6c029a5136ed390cd3e385289c3b65f4a2dbb,Update readme and index.rst for new release - skip ci.,2022-01-03 23:10:48+01:00,False
+7f75fd858e97314d6f3337c69d2564d28a7c7923,docs: update README.md [skip ci],2022-01-28 22:17:54+00:00,False
+36ffae3b96fa7be84f0c7fbf74bfee1db7fcfc5a,Fix line break - skip ci.,2022-01-28 23:19:58+01:00,False
+e567ef4e42fadf47268fad396e252d4e029fb480,docs: update README.md [skip ci],2022-04-06 20:14:15+00:00,False
+e7870dbd21daa107d9356719e1f76db818ea9fde,docs: update README.md [skip ci],2022-04-06 20:19:32+00:00,False
+e2cc3e90704ec4dafd8ca15b15823419e1ace88a,Update README.md,2022-04-06 22:20:13+02:00,False
+69e3afdd8ebf14092a26281b3cd6d6edd9a654ed,docs: update README.md [skip ci],2022-04-06 20:35:41+00:00,False
+74d6f8d68900d661b9644fefaa7a9a94fca28110,Update README.md,2022-04-06 22:36:28+02:00,False
+9170326e0cf6bfc0e7208c012f2c592d1d0378df,docs: update README.md [skip ci],2022-04-13 18:36:05+00:00,False
+85a54d5916dbdb4d3703076d108dfc7c2d43cf65,Update README.md,2022-04-13 20:36:30+02:00,False
+9aecfc7a91349e541dab605027e79f5901159fe7,docs: update README.md [skip ci],2022-05-30 19:57:25+00:00,False
+fae5ea5819859b0902dc5b1cc7b811353aaff557,Update README.md,2022-05-30 21:58:13+02:00,False
+3ab13865e26daee134505afa464b4f084e296e32,docs: update README.md [skip ci],2022-06-07 19:50:43+00:00,False
+526a25f97bf33063980cedc16381dac14bb156f0,docs: update README.md [skip ci],2022-06-07 19:51:49+00:00,False
+ee1f2483431ce65978861a7023badfedc3b28e34,docs: update README.md [skip ci],2022-06-07 19:52:50+00:00,False
+21f1f30b4a3d94e5ea0429a245ce56f4cdb462c0,docs: update README.md [skip ci],2022-06-07 19:53:35+00:00,False
+3fc278931ba30e273f150a3e4294b4e6cce863f8,Update README.md,2022-06-07 21:54:30+02:00,False
+5c0f7efdffb8a78196dcfc7af171dcdf468aa52d,docs: update README.md [skip ci],2022-10-12 18:42:57+00:00,False

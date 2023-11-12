@@ -1,0 +1,314 @@
+sha,message,date,result
+a7497732813cff1233667ad41b8a07393c1bcad3,add readme,2012-12-20 14:16:01-08:00,False
+1ce6faa2aa74941b2a9b3f478f62085e30640b49,Add a rough readme,2013-07-08 16:49:34-07:00,False
+939a18deade2490d0693f62ee86bdccbc9485127,README -> README.md,2013-07-08 16:50:54-07:00,True
+06e2f9826fe25904f0c9a30792e1df56b136739e,Update and fix some typos in read me,2013-07-11 15:40:13-07:00,False
+ac0a0f206f0761e283fb89aa205f02255b234ff3,Update and simplify readme,2013-07-22 11:47:39-07:00,False
+87c14759ce42401877f5e61d5349b91dd6ece99a,Fix a typo in readme,2013-07-22 11:50:04-07:00,False
+340b387521de3138bfbdf013c53f5a81a737fe5d,Updated readme,2013-07-30 17:30:11-07:00,False
+acf9eccb5d393700e1171f8ce4024ba1f9fd48b5,Readme updates for recent changes and +author,2013-08-09 10:07:18-07:00,True
+a5a7159b8456db935b9e4cda883152195c075370,update readme,2013-08-22 17:32:55-07:00,False
+35cb20e1a8eb09f1c346246346eb90e5fd29412c,Fix a typo in the readme,2013-09-03 11:51:24-07:00,False
+2249865b029bcac568656ab67998d3706d27813e,updated readme,2013-10-20 13:00:23-07:00,False
+a61cfe640b7912c4109911ad9283f3592fb32fa5,Update read me,2014-03-02 15:30:56-08:00,False
+4e3f6162369c45d9fc1d2c9049452236bbb77ffd,"Fix the gradle build..
+
+gif decoder is being built as a sub project while other dependencies are acquired via maven.",2014-06-21 22:33:36-07:00,True
+0181060403cb0a7a2b344e4b2f55667194f09732,Add gradle snapshot deployment.,2014-06-27 16:41:39-07:00,True
+700284ec94a2c78a6157a31dea1d70d0de51b9f1,Make Volley an optional dependency,2014-06-28 21:02:36-07:00,True
+907ba8ef0b9105e4e9602435f95202479e75cc9d,Add assertions for main thread and fix sample.,2014-06-29 16:03:46-07:00,False
+55fe76154dd6c5af83cd3557f37c0d6368f3c046,Cleanup build and depend on local upload script.,2014-07-05 21:01:50-07:00,True
+9b681c2e88b3722582585a3095cca295f5984098,Update build instructions in Readme,2014-07-08 19:14:28-07:00,True
+5d10501387080d155023a02e821520a3cbd05308,Update readme,2014-08-17 12:16:53-07:00,True
+48fa2540e56843571a008fe5e92b8b343024381b,Add Help/Contributing/Disclaimer readme sections.,2014-08-21 18:47:35-07:00,True
+c4cb69cd2ada92757c158af88d56ccc81ec72ee6,Add travis build status to readme.,2014-08-31 13:59:16-07:00,False
+a3e24e295f5f3f167898c3c898533b8459fff823,"Update readme and set integration versions to 1.0
+
+Conflicts:
+	integration/okhttp/build.gradle
+	integration/volley/build.gradle",2014-09-01 15:51:21-07:00,True
+488573d03a70e39aa948dfe0bb1f4b03accb4875,Update license.,2014-09-01 15:51:21-07:00,False
+3b3414f897b9db21e450b2a511f27606dfdb94d0,Make the SVG sample a functional app.,2014-09-02 09:36:20-07:00,True
+99a1de1974045b7f0f67ed28f2ae34e860abd978,"Add logo.
+
+Huge thanks to Corey Hall for the logo design!",2014-09-04 20:47:55-07:00,True
+28744e4e2c68fae8a897eb9a8a579b24023746b6,Bump version to 3.3.1,2014-09-14 15:55:17-07:00,True
+42db20bed3c2b16f3b6cf3719e5a67023c776dea,Update readme javadocs link.,2014-09-15 08:26:22-07:00,False
+dc155ae8b22d0c59ce19d57f1a7b6eb35a660d47,Set fixed dependency versions using properties.,2014-11-02 14:14:09-08:00,True
+0299bf37b060a03dd6cc4e7d3509804c70e046ca,"Add minimum sdk version to README.
+
+Fixes #234",2014-11-06 07:53:59-08:00,True
+7dcc877541e359e36db33fb46b49746cdd19445f,Update readme.,2014-11-19 19:05:57-08:00,True
+a1c39abfeb14de2ef735d5556fb231ad0e734e62,Remove OkHttp/Volley instructions from Readme.,2015-01-24 09:42:28-08:00,False
+c5a3de7069767c84fadd74979d8e5dbc5390e179,Point to 3.5.0 in Readme.,2015-01-25 14:31:11-08:00,True
+5386deb84cb9bae6b4e2ac9068c7fbb372c6d64c,Bump version to 3.5.1,2015-01-29 18:39:20-08:00,True
+b64ccd6b2e3e6362069feb6664a546519dddc08b,Add irc channel to readme.,2015-02-03 08:48:39-08:00,False
+2c5f63eb5711fa6f3463dc58766375653384ad5a,Update description in readme.,2015-02-03 19:12:49-08:00,False
+7ab34f3902b21268bc9c53a9f436c07f311b2576,"Add an issue template and CONTRIBUTING.md.
+
+Fixes #332.",2015-02-08 17:30:39-08:00,False
+7480e1257d90dad0970408d372e9d5bdef830e87,Bump version to 3.5.2.,2015-02-22 09:29:36-08:00,True
+7497bf0662236014481b02bfa2eb611b0bc8868c,"Merge branch 'master' into 4.0a
+
+Conflicts:
+	integration/okhttp/src/main/java/com/bumptech/glide/integration/okhttp/OkHttpStreamFetcher.java
+	integration/volley/src/androidTest/java/com/bumptech/glide/integration/volley/VolleyStreamFetcherServerTest.java
+	integration/volley/src/main/java/com/bumptech/glide/integration/volley/VolleyRequestFactory.java
+	integration/volley/src/main/java/com/bumptech/glide/integration/volley/VolleyStreamFetcher.java
+	library/src/androidTest/java/com/bumptech/glide/load/data/HttpUrlFetcherServerTest.java
+	library/src/androidTest/java/com/bumptech/glide/load/data/HttpUrlFetcherTest.java
+	library/src/androidTest/java/com/bumptech/glide/load/model/GlideUrlTest.java
+	library/src/androidTest/java/com/bumptech/glide/load/model/stream/BaseGlideUrlLoaderTest.java
+	library/src/androidTest/java/com/bumptech/glide/load/resource/bitmap/ImageHeaderParserTest.java
+	library/src/androidTest/java/com/bumptech/glide/request/ThumbnailRequestCoordinatorTest.java
+	library/src/main/java/com/bumptech/glide/GenericRequestBuilder.java
+	library/src/main/java/com/bumptech/glide/Glide.java
+	library/src/main/java/com/bumptech/glide/load/data/HttpUrlFetcher.java
+	library/src/main/java/com/bumptech/glide/load/engine/Engine.java
+	library/src/main/java/com/bumptech/glide/load/engine/cache/DiskCache.java
+	library/src/main/java/com/bumptech/glide/load/engine/cache/DiskCacheAdapter.java
+	library/src/main/java/com/bumptech/glide/load/engine/cache/DiskLruCacheWrapper.java
+	library/src/main/java/com/bumptech/glide/load/model/GlideUrl.java
+	library/src/main/java/com/bumptech/glide/load/model/stream/BaseGlideUrlLoader.java
+	library/src/main/java/com/bumptech/glide/load/resource/bitmap/ImageHeaderParser.java
+	library/src/main/java/com/bumptech/glide/manager/RequestTracker.java
+	library/src/main/java/com/bumptech/glide/request/ThumbnailRequestCoordinator.java
+	library/src/main/java/com/bumptech/glide/request/target/SquaringDrawable.java
+	third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifDecoder.java",2015-03-04 10:59:17-08:00,True
+b3a98a45f3d3d56ccf86114ce7664fb09f8cfbc5,"Point to PNG image in readme.
+
+Fixes #379.",2015-03-26 07:46:08-07:00,False
+6388a7ca91db184ed142ca8f2ea54d7473908b9c,"Point to PNG image in readme.
+
+Fixes #379.",2015-03-28 08:28:09-07:00,False
+8dbafcd3a80db565761e44942b88170911ab63f5,"Add a proguard section to the Readme.
+
+Progress toward #425, fixes #143.",2015-04-20 07:23:26-07:00,False
+e85cc9522917267d64ebaaba89e3b2f4dab4575f,Remove SNAPSHOT versions for 3.6.0 release.,2015-05-01 11:46:19-07:00,True
+a9379314cf41d1cb68d8f9d8441df453d2f841a9,Update issue template and fix minor issues in CONTRIBUTING.md and README.md,2015-08-05 14:36:36+02:00,True
+f8604a1cc29a5b2e90db119dcfedb0a336acaa3c,Remove aar qualifier since Glide is distributed as jar. Fixes #638,2015-10-17 02:01:08+02:00,True
+cdb9ebe55f06fcb40bd4bebeb531b2823c69726c,"Note moe equivalence.
+-------------
+Created by MOE: https://github.com/google/moe
+MOE_MIGRATED_REVID=106529804",2015-10-30 09:25:13-07:00,False
+c8bd7b909053d8bbec145691f055569117bdf449,"Note moe equivalence.
+-------------
+Created by MOE: https://github.com/google/moe
+MOE_MIGRATED_REVID=106699690",2015-11-02 09:08:53-08:00,False
+128fcd2aa81d8205bf37d1dc2887f3d4e9cf2c5b,"Swap clearing memory cache and pool to prevent re-pooling Bitmaps
+Fixes #687
+
+-------------
+Created by MOE: https://github.com/google/moe
+-------------
+Created by MOE: https://github.com/google/moe
+MOE_MIGRATED_REVID=106713713",2015-11-02 09:09:29-08:00,False
+364a6df1cba83f81229ac69dbdabcc554328cb1a,update glide version in README,2016-01-31 00:42:43+03:00,True
+4e23a45e3125277a21c005b717ca208e06c4e8f5,"Enhancements to documentation
+code style, compatibility section, more links, document issue labels",2016-02-07 12:56:39+01:00,True
+5eef34d9039225950b4999a96cee552781bf8730,"Introduce issue templates ""the right way"".",2016-03-18 20:45:28+01:00,False
+1b3f5c97b03c1e1aecc56fb9ec06f5f37003eb00,"Automated g4 rollback of changelist 116163387.
+
+*** Reason for rollback ***
+
+Broke []
+
+*** Original change description ***
+
+MOE automated commit.
+-------------
+Merge pull request #854 from luxiaoyu/master
+
+fix bug of DiskCacheStrategy.RESOURCE
+
+-------------
+Merge pull request #856 from swankjesse/jwilson_0102_okhttp_3
+
+Upgrade to OkHttp 3.
+
+-------------
+Merge pull request #874 from TWiStErRob/aar
+
+Introduce AAR publish for :library and stop publishing :glide
+
+-------------
+Merge pull request #761 from vanniktech/master_add_consumerproguardfiles
+
+Add consumerProguardFiles configuration. Fixes #646
+
+-------------
+Mer...
+
+***
+-------------
+Created by MOE: https://github.com/google/moe
+MOE_MIGRATED_REVID=116167265",2016-05-17 08:44:48-07:00,True
+db8b549519172702f4c2b1507750b285cffc5184,"Automated g4 rollback of changelist 116167265.
+
+*** Reason for rollback ***
+
+Rollforward with fixes
+
+*** Original change description ***
+
+Automated g4 rollback of changelist 116163387.
+
+*** Reason for rollback ***
+
+Broke []
+
+*** Original change description ***
+
+MOE automated commit.
+-------------
+Merge pull request #854 from luxiaoyu/master
+
+fix bug of DiskCacheStrategy.RESOURCE
+
+-------------
+Merge pull request #856 from swankjesse/jwilson_0102_okhttp_3
+
+Upgrade to OkHttp 3.
+
+-------------
+Merge pull request #874 from TWiStErRob/aar
+
+Introduce AAR publish for :library and stop publishing :gl...
+
+***
+-------------
+Created by MOE: https://github.com/google/moe
+MOE_MIGRATED_REVID=116316494",2016-05-17 08:44:48-07:00,True
+aab4fa3b0c3d9cc7677619dc504ef58bb4ea25fd,"Spring Cleaning
+Mostly javac/LINT/gradle/IDEA warnings, typos, and consistency fixes.
+
+Detailed Global changes:
+ * Fix some JavaDoc formatting issues (e.g. broken links)
+ * Fix some JavaDoc build issues (inner class ctor links were broken)
+ * Fix mis-typed words that caused grammatical issues
+ * Fix Gradle deprecation warning during build
+ * Make samples' build.gradle files more similar
+ * Remove redundant <uses-sdk> from manifest
+
+Mostly test related classes:
+ * Add some generic arguments where missing
+ * Add @TargetApi annotations to test code to suppress LINTs
+ * Reduce the scope of suppressions or remove them completely
+ * Use some specialized mocking/matching methods to reduce uncheckedness
+
+GIF related classes:
+ * Reduce number of magic constants, name them
+ * Add some documentation from the standard for the constants
+ * Remove some meaningless comments
+ * Convert most inline comments to JavaDocs
+ * Add annotations for ints designating color/status/etc (int is too overloaded)",2016-07-14 00:00:29+02:00,False
+14f9810a66c0fba15a6cde202a975355e2581d55,"added note for DexGuard only
+
+https://github.com/bumptech/glide/wiki/Configuration#keeping-a-glidemodule",2016-12-28 00:43:34-06:00,False
+360757e48fdf165bbdb1c7579704f3cb1e71b8eb,"Update README.md (#1912)
+
+* Update README.md
+
+Added a friendly maven central version badge
+
+* Update README.md",2017-05-10 07:16:44-07:00,False
+ab534710686611e09527d9743f1ffafee21cdb76,Bump version to 4.0.0-RC0,2017-05-17 07:42:52-07:00,True
+ca6e8b770a955bbc995b9c759efa645e4838bca5,Update Glide’s readme with v4 instructions.,2017-05-18 07:03:45-07:00,True
+7f24c187dc613bf75fb7d3ddf453c5c08a4a7f67,Proguard - Keep AppGlideModule (#2020),2017-06-09 07:01:57-07:00,False
+b60d2e208c0658283c030e3a73aa7f5371165594,Add documentation link to top of readme.,2017-06-20 08:34:58-07:00,False
+794fec26333e3753398b57e754b1a9244eabb456,Update readme link for docs.,2017-06-20 09:33:52-07:00,False
+8f22bd9b82349bf748e335b4a31e70c9383fb15a,Update readme to RC1,2017-06-21 08:19:54-07:00,True
+b905c1bd93509931193ba788c08e5a73498e1610,Fix a typo in maven dependency in README.md,2017-07-21 07:21:02-07:00,True
+60cfcc538cc94564785826bf8dd09667b7ea25d2,Fix typos in README.md (#2191),2017-07-31 18:55:44-07:00,False
+eb2d54ba034721717075e02677524a1f20ed1adf,Update readme to point to 4.0.0,2017-08-01 09:08:13-07:00,True
+7e1548bb2d6473790b09d72756de12c64841ef50,Remove reference to Glide v3 in readme.,2017-08-10 08:43:33-07:00,False
+31a911e1fd15d4133bc7ee0fde4083894c982649,"Contact lookup by phone number added. (#2233)
+
+* Added phone lookup for local URIs and updated sample to use it. Improved license handling in sample
+
+* Checkstyle fixes
+
+Fixing issues reported by checkstyle on travis
+
+* Code formatting
+
+Updated formatting after code review. Removed line of code that was commented-out. Added comment for permission request.",2017-08-14 17:03:51-07:00,False
+a786126a5afb1438b36386086a51e2df64a0a0e5,Fix minSdkVersion in readme (fixes #2134) (#2323),2017-09-03 23:37:27-07:00,False
+8b86b17d115edd49141309b1cd3a7c7edeb19a8e,Update README version to 4.1.1.,2017-09-06 07:31:37-07:00,True
+3bf2d36175cce7f11bc579c94e99dde113b85144,"Add the Google's maven repo to get the support-annotations library (#2351)
+
+If not, Gradle doesn't succeed. And that doesn't help copypasting (the common way to get Glide :·)
+
+Progress toward #2347",2017-09-07 07:22:19-07:00,True
+8cbfc631e807f974c76e61023da127a197f1fb8e,"Remove unnecessary support lib/jcenter reference.
+
+Progress towards #2347.",2017-09-07 07:26:27-07:00,True
+853c0d94f1ad353048b3d2556b49729ef3534430,"Add compile API version to README.
+
+Progress towards #2354",2017-09-14 16:28:01-07:00,True
+ee557b62a6aed1b365a21e33acbe2e9c0e0580c4,Add link to Simplified Chinese Doc. (#2405),2017-09-18 07:14:57-07:00,False
+ae2b0e3393b89311ad46b254d08436f573daca4c,"Update proguard rules (#2447)
+
+That was wrong class name",2017-10-03 07:00:47-07:00,False
+9018ae6ae935a28a86452bb93c49e8bdcebb3ff5,Set version to 4.2.0 in README.,2017-10-03 09:16:01-07:00,True
+7f7d9cc02e8fc2f2706d71b6d1ae0831c0f6c47f,Update README to point to 4.3.0.,2017-10-31 07:59:28-07:00,True
+b1c70d26bae6971854cf334370e1821572c47aed,Update Readme to point to 4.3.1.,2017-11-06 12:46:14-08:00,True
+d466c51d575fb6a7141ca96ae888a933652c6556,"Replace http links with https in README.md (#2640)
+
+few links are served over http, replacing with https",2017-11-24 10:33:12-08:00,False
+d9cc63a3a85d837135a2fc3e201e6997bbe3b21c,Update README to use new dependency resolution DSL (#2668),2017-12-01 12:23:32-08:00,True
+75631ef45b28583059083b521ec57a0324856509,Update okhttp3/volley notes in readme to point to docs page.,2017-12-02 18:36:09-08:00,True
+ce90ed40867e49b74025f39b8077f8c6b18ff998,Update readme to point to docs pages instead of wiki.,2017-12-03 16:24:29-08:00,True
+0e4c491ae0f250b1806e914f6b39d43761d0673b,Update readme to point to 4.4.0.,2017-12-04 08:59:11-08:00,True
+13a6191b9fed219942abc932059629fafb2387e7,Add a link to the download/setup page to the README.,2018-01-02 21:22:46-08:00,True
+dff420bd6f4a474d178e1e8076a441b602f426f1,Update README to point to 4.5.0.,2018-01-05 10:54:20-08:00,True
+4b26f3d5dc38500ee86a0d2a3581ee92b9f46e8a,"Update readme to 4.6.0
+
+Also removes the old v4 dependency from maven deps, I don’t think it’s
+necessary.",2018-02-01 09:01:24-08:00,True
+46c905b9d4bcfef788dac495bdc7eb547dac493c,Update readme to 4.6.1,2018-02-02 07:43:05-08:00,True
+30941656c9fc1617995bbd9451be7c01bd996878,"Fix proguard rules for ImageHeaderParser.
+
+Progress toward #2917.",2018-02-28 07:28:46-08:00,False
+af81b868940ad280f4997b8db1e460a7d7784ba3,Update README version to 4.7.0,2018-04-10 14:17:05-07:00,True
+e170581de673da0e8d65fe02c4fd0b0b5252e1b9,Set README version to 4.7.1.,2018-04-13 15:51:48-07:00,True
+8de973f4702fa813fcb0d1e2ae621df5d3aa3cc5,Change README version to 4.8.0,2018-08-17 09:10:12-07:00,True
+60af52dccda3ea7f9a14a437e5e7054eb37aadda,Update README.md to 4.9.0,2019-02-14 12:55:08-08:00,True
+1ddd1a2af5ec7b382f0dbc005aecd6149d8d3e8a,Update readme to 4.10.0,2019-09-26 08:49:00-07:00,True
+1382e566c5ce36cd915afbe9177315f5f9961e47,"Add getters to Bitmap Pool for cache statistics.
+
+PiperOrigin-RevId: 271557242",2019-09-27 06:23:11-07:00,True
+4c76832ecc4d80a37b575f31425a78cce6d70e79,Bump version to 4.10.0,2019-09-27 12:45:27-07:00,True
+cd72124f6fd124d88f4fe85d503e6b22e1f84b1b,Bump version to 4.11.0,2020-01-08 07:39:39-08:00,True
+d653fc42efedc0d10bea907fd23ff99856a44ae8,Update README.md with updated proguard rules,2020-05-19 12:57:39+04:00,False
+f2419933e01ecb755d14567267a4e00b4aad2150,"Update README.md
+
+Use jcenter instead of mavenCentral. It is specified by new Android projects.",2020-06-04 17:55:36+09:00,True
+743cb00c7b0a9bfef640df17e732b0d50d5db136,Bump version to 4.12.0,2021-01-29 13:47:20-08:00,True
+0d3204907f09c713e9dcf104e879b4dea8c2f5f6,remove jcenter reference,2021-03-09 00:27:40-05:00,True
+878d148a34825a78ca3c8d9501d16057c18203a9,Bump version to 4.13.0,2022-02-07 14:56:32-08:00,True
+2a43b5aaee314a32ae7128ff64c88f403c231fe9,"Update Glide version in readme to 4.13.2
+
+This matches the latest released version.
+
+PiperOrigin-RevId: 457818563",2022-06-28 14:23:41-07:00,True
+79e726e1b53fbe6e265358edaf0cac9a0023e986,Link proguard-rules.txt in README,2022-08-19 10:30:49+08:00,False
+e220d3e9c15213c25e0efeb53d3a7e77b1cc87d6,Bump version to 4.14.0,2022-09-27 16:17:05-07:00,True
+8a279effe596e1877acf91e58aa27f2655bc4a38,"Internal change
+
+PiperOrigin-RevId: 477864244",2022-09-29 17:42:05-07:00,True
+95c8f811a1a25a9dd893f456dafe2de9deb0f029,"Update Glide's README to point to 4.14.2
+
+PiperOrigin-RevId: 479649841",2022-10-07 12:59:28-07:00,True
+76ba99d4c6bb7e0c2bd64ae083ec0ab51be8cd5c,"Bump version to 4.15.0
+
+Also bumps compose/ktx integrations to 1.0.0-alpha2",2023-02-23 17:01:12-08:00,True
+4992a631fba574c7b380d84b44b2945547f5e0d1,Update README.md,2023-03-09 09:43:24+01:00,False
+abfc4db9d9cb9bed387f147538ea6939279d4835,"Remove a broken build status badge from Glide's README.md
+
+Glide is now built with GitHub actions, not travis-ci.
+
+PiperOrigin-RevId: 520176732",2023-03-28 17:13:49-07:00,False
+67fcf079938ae487f01d9fce69c3b8eef1f24e20,"Internal change
+
+PiperOrigin-RevId: 520180505",2023-03-28 17:31:16-07:00,True

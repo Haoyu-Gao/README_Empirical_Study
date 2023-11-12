@@ -1,0 +1,65 @@
+sha,message,date,result
+55a32e365ee4700c5d51b6f0463f47aadd5f5adc,Initial commit,2018-02-12 12:05:33+01:00,FALSE
+41acee9dbc214ef6818a461e62411b1dd2b96d53,"Add pre-alpha warning to readme
+
+Signed-off-by: Felix Barnsteiner <felix.barnsteiner@elastic.co>",2018-02-19 11:44:13+01:00,TRUE
+9de3c00894d478b9905ac1c9d1a9d2f6761be89f,"Add codecov and travis build status badge
+
+Signed-off-by: Felix Barnsteiner <felix.barnsteiner@elastic.co>",2018-03-20 12:00:46+01:00,FALSE
+c71292b64a1c2d19fc9cf483bf6bd17a6ff0e517,Add documentation (#45),2018-04-03 10:30:28+02:00,TRUE
+be4248b908e4706f0f38879703a263ce07d79350,Fix link to docs,2018-04-09 11:00:29+02:00,FALSE
+3b3feacc2cc70c15c2589b70443a07dde6218997,Add Maven Central badge with latest version,2018-04-09 21:00:58+02:00,FALSE
+65f43131a2d0c9acadc427b70c6ae64bd2d170f3,Add link to discuss forum,2018-04-25 10:39:19+02:00,FALSE
+454f1c14a6a9fc1140d48964e7cb75195c4cc644,"Don't build on travis (#92)
+
+Add ci script to run tests and publish test coverage",2018-05-28 16:53:13+02:00,FALSE
+3a2a23f1ec66dfe91969bc0dd6b7608f2df02dcc,Prepare docs to be published at elastic.co (#94),2018-05-29 11:26:33+02:00,FALSE
+31fc29cfc5c9db1352889d0161580077eea28113,"Link to docs on elastic.co
+
+Signed-off-by: Felix Barnsteiner <felix.barnsteiner@elastic.co>",2018-06-01 09:51:17+02:00,FALSE
+9c2c780e260036903e04c940a187df936e3b37eb,Add better instructions how to build from source,2018-07-02 08:41:39+02:00,TRUE
+d7654665d85bcfc042cd5bd2d6d83ce983f2c041,Use Jenkins' build status badge,2018-07-04 12:19:55+02:00,FALSE
+b61f89712f99a2943d5a7ec1489cc94540bbe038,The agent is beta now,2018-07-05 11:05:51+02:00,FALSE
+292074431097b8b74ac3708a4ee981393e48bfe8,Add links between docs,2018-08-01 13:22:50+02:00,FALSE
+15178cafd76926fdd834addcae47397490ede4f5,Point snapshot link to elastic-apm-agent artifact,2018-08-01 15:56:46+02:00,FALSE
+8a1c3736ec690d09f2cd4e0e23924e76d3947f5d,"Update links to search.maven.org
+
+This site has undergone a major rework and the
+old links don't work anymore",2018-08-10 08:59:49+02:00,FALSE
+3929d2fa8c104e7b08e612713e0f899f3912a686,Add link to download latest snapshot,2018-08-10 09:17:50+02:00,TRUE
+5a42fe370a995d217a61e6449f7bf2f62b4cd317,Remove beta warning,2018-11-14 16:46:15+01:00,FALSE
+42c42d52ad23d0a6d2e35c0746ff4bc82b0b4dd5,"[typo,docs] Fix build instructions (#566)
+
+README was instructing `./mvnw clean install -PskipTests=true` to build/install, but apparently `-PskipTests=true` doesn't work:
+```
+[WARNING] The requested profile ""skipTests=true"" could not be activated because it does not exist.
+```
+A bunch of tests failed on my machine, which seems to be the reason the `-P` mistake bubbled up.
+I got the ""correct"" one from the jenkins file.
+
+Also, even though `maven.compiler.testTarget` is the one asking for JDK 9, skipping tests does't lower the requirement to `maven.compiler.target` (7), so JDK 9 is effectively required, AFAIK, to build from source.",2019-04-09 08:38:06+02:00,TRUE
+fbea034a25de37b3e74c79ff0ea41ce27b5b75b6,Adding license section to README (#628),2019-05-08 10:26:33+03:00,FALSE
+2289d4143d1e0ed965f5c0e04098d6ed6a26c202,Add release announcement instructions,2019-06-18 09:30:08+02:00,FALSE
+44965fcfacddbd958b342696b1c1900033378705,chore: update build status URL (#793),2019-08-16 11:14:09+02:00,FALSE
+8a41dc6796a5b0c2c34cb64e1dd75b444f1db902,add getting help/release notes,2020-02-27 15:32:21+01:00,FALSE
+f68d362de11a55d51e57eea0e29408f2db976b50,fix broken forum link,2020-11-03 09:18:38+01:00,FALSE
+86e51a59bb1b43e1915cceb31172cca5e4d7f3a3,Add link to attach-cli snapshot,2021-04-15 21:54:59+02:00,TRUE
+db644c5526b21a10eddfb169449c9efb1259a80d,Adding link to apm-agent-attach.jar snapshot in README,2021-05-10 09:32:32+03:00,TRUE
+ff2633f6004e77cd0f85470c460e88ce7d719156,Update README.md,2021-06-22 13:41:09+03:00,TRUE
+2a60d89e8d981c34b41cf4fd417eb938662c8873,Neutral naming: main (#2401),2022-01-25 11:02:02+00:00,TRUE
+dc56c2353c705258987066f86811a1db50aa6dfb,fix un-released changelog link,2022-03-11 16:46:56+01:00,TRUE
+b242cc6e8685e2f6195c56dd13e38bdfd050eaa1,update new links for maven search (#3045),2023-03-06 15:11:19+01:00,FALSE
+39680e90041265d6a3d3dc7e40c7d33964f5cb1b,"Update broken agent download link (#3087)
+
+* Update broken agent download link
+
+* Replaced additional links
+
+* Update docs/setup/get-agent.asciidoc
+
+Co-authored-by: jackshirazi <jacks@fasterj.com>
+
+---------
+
+Co-authored-by: jackshirazi <jacks@fasterj.com>",2023-03-31 03:15:20-04:00,FALSE
+969d3cdd9b54f337820c1cfb62e120f384232ebd,"Always compile with java 17, allow different JVMs for testing (#3038)",2023-03-31 09:37:18+00:00,TRUE

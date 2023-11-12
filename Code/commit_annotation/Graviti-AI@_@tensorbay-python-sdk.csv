@@ -1,0 +1,67 @@
+sha,message,date,result
+96365a15f7b87670bc71265a89a91ec38c9db9ad,Initial commit,2021-02-24 19:34:12+08:00,False
+8c00042ae01a513e338457127d09e4a6a70601d3,ci: add pre-commit check,2021-02-25 14:24:20+08:00,False
+b4d9f428fc1e10f26f70c56a8735446e3b16b8fb,"docs: add ""README.md""",2021-03-07 18:53:42+08:00,True
+c150061176613627ade7ec92ca3bdfea97ae65b1,"docs: change the TensorBay link from "".com"" to "".cn"" in ""README.md""",2021-03-07 21:02:40+08:00,False
+ce1e6971a7876a6795607965fe7cec1e4b19c913,"refactor!: rename and remove all functions which ends with ""_object(s)""
+
+Changes:
+- `upload_dataset_object` -> `upload_dataset`
+- `upload_segment_object` -> `upload_segment`
+- `upload_sensor_object` -> `upload_sensor`
+- `upload_data` -> `upload_file`
+- `upload_data_object` -> `upload_data`
+- `upload_frame_object` -> `upload_frame`
+- `list_data` -> `list_data_paths`
+- `list_data_objects` -> `list_data`
+- `list_frame_objects` -> `list_frames`
+- `get_segment_object` -> Remove, use `Segment.__init__` instead.",2021-03-09 13:19:17+08:00,False
+749c6814114f9995d6d9523ac1f8fe217be74dd6,"docs: use black to format the ""Read images from the Dataset"" docs",2021-03-09 13:31:39+08:00,False
+34f6dd6be426381d2e09c98d8c80fa7ac94405b9,"docs: modify ""a iterator"" to ""an iterator"" in ""README.md""",2021-03-09 19:32:01+08:00,False
+c977ee05d4ff7747fd9f16ed21c1303c3660dd3a,"docs: fix ""'module' object is not callable"" issue in README.md demo code",2021-03-22 21:47:15+08:00,False
+c56c43109eb485139cb8e764e67fe759e13412fb,"docs: add dataset commit process in ""README.md""",2021-03-24 16:51:46+08:00,False
+53b1d631fc507df299df41ad14c8c754265f9e73,"docs: add the sphinx full documentation site to the ""README.md""",2021-03-24 17:18:42+08:00,False
+df67a7631dc7c977e06ec9ffe57918c55f12f9d2,"docs: update all graviti official webpages urls in docs and ""README.md""",2021-03-25 17:18:58+08:00,False
+ff9709b0987d2141b17a7c59558e557d214c7f86,"feat(client): use PagingList as the return value of ""list_dataset_names""
+
+PR Closed: https://github.com/Graviti-AI/tensorbay-python-sdk/pull/387",2021-04-15 16:27:12+08:00,False
+f05cfb6738e3ace8b57e3e29f50b4d7df344926f,"docs: get Segment instance from Dataset rather than DatasetClient
+
+`Dataset.__init__` is supported to get a lazy evaluated `Dataset`
+It will be more pythonic to get a `Segment` instance from `Dataset`
+rather than `DatasetClient`
+
+PR Closed: https://github.com/Graviti-AI/tensorbay-python-sdk/pull/486",2021-05-07 20:17:44+08:00,False
+537be408b83dfaffd66545fb2c29590fd64b029b,"docs: add badges from shields.io, github and readthedocs to ""README.md""
+
+PR Closed: https://github.com/Graviti-AI/tensorbay-python-sdk/pull/512",2021-05-10 16:48:39+08:00,False
+ebb8c38da6230450aed0ebf386a6904178114e8a,"docs: add jobs argument to upload_dataset()
+
+PR Closed: https://github.com/Graviti-AI/tensorbay-python-sdk/pull/509",2021-05-11 19:35:08+08:00,False
+8a43e32d4426d23aab80c71972cd6af8155fb7ae,"ci: unify the names of Github Workflow
+
+PR Closed: https://github.com/Graviti-AI/tensorbay-python-sdk/pull/521",2021-05-12 13:42:51+08:00,False
+b03e0e9d9c965e1371c49a93b3f0fea934138360,"ci: add unit test coverage badge
+
+PR Closed: https://github.com/Graviti-AI/tensorbay-python-sdk/pull/522",2021-05-12 17:12:28+08:00,False
+972586cd5fc8c05cee05b146370d649bc312a66e,"docs: add badge for graviti community slack link to ""README.md""
+
+PR Closed: https://github.com/Graviti-AI/tensorbay-python-sdk/pull/666",2021-06-04 15:48:45+08:00,False
+bcda5fe9a80b1f411fdc3d01b8a68a4888d2ae0e,"refactor(dataset): change the default segment name from """" to ""default""
+
+PR Closed: https://github.com/Graviti-AI/tensorbay-python-sdk/pull/620",2021-06-04 15:57:32+08:00,False
+80499613b47850052aab0d05364138709cd84d9e,"docs: describe the v1.6.0 downward compatibility issue in ""README.md""
+
+PR Closed: https://github.com/Graviti-AI/tensorbay-python-sdk/pull/732",2021-06-29 19:45:20+08:00,False
+0fc3d5693686df6682fa849dbffe599322074f0c,"docs: add pepy badge in ""README.md"" to show the package downloads stats
+
+PR Closed: https://github.com/Graviti-AI/tensorbay-python-sdk/pull/798",2021-07-05 17:50:33+08:00,False
+744cca77610592ce3cc96c278338e9b98ed92e7e,"docs: correct the disabled TensorBay website link in ""README.md""
+
+PR Closed: https://github.com/Graviti-AI/tensorbay-python-sdk/pull/1103",2021-11-16 13:18:54+08:00,False
+c17a1923b961e1fddfa03aece918ed452ac9b5b6,"docs: add ""<>"" for descriptive code blocks
+
+PR Closed: https://github.com/Graviti-AI/tensorbay-python-sdk/pull/1198",2022-02-21 10:58:04+08:00,False
+ad228b944101204511cfaf2e24b3c5667ffd02b9,"docs: use "".com"" url to replace "".cn"" url
+
+PR Closed: https://github.com/Graviti-AI/tensorbay-python-sdk/pull/1252",2022-05-10 19:34:06+08:00,False

@@ -1,0 +1,180 @@
+sha,message,date,result
+f88703334062f2dee4dfb7a1281e4febe76632cb,Initial commit,2020-10-30 14:27:14+01:00,FALSE
+4eed96024137795d7d8e5e45eab6b0f67f70b3a2,clean up readme for now,2020-10-30 14:41:08+01:00,FALSE
+9c5ac0dd8c67810ebf6ce1b0d0fdd38fd282f128,Example + README,2020-11-20 13:48:50-05:00,TRUE
+c90b77c88e179e634d07b8ad69f7ce954daae763,Add CLI commands to the README,2020-11-24 14:54:18-05:00,FALSE
+267c0ccf3e7f5aa7b4886401ccb25d978a6ddb1f,Adapt README,2020-12-23 15:09:15-05:00,FALSE
+26eb62c81a340b8a4179811e304d59fb69f59485,Bit of doc,2021-02-10 16:32:26-05:00,TRUE
+889b64deb68103666f6fd5e9d9c556cffdbfc62c,Logo,2021-02-10 17:04:35-05:00,TRUE
+3c496163de6e75695ec267d7b499c64368ebed53,Fix link,2021-02-10 17:05:59-05:00,FALSE
+6c81eb21e05d121259b73a5c226f06b7cbc61e0d,Badges and code of conduct,2021-02-11 14:46:31-05:00,FALSE
+7c0ebc872ecc2ac51ac3c5eb105e849c804fc411,Comment banners and add features,2021-02-11 17:11:49-05:00,FALSE
+adbb58e0f69cb1cc1189ac0a6603aa4547843458,update readme with rewording and example,2021-02-19 16:48:51+01:00,FALSE
+07d74a3bd1dfdad1c6f4385ae3ce08ddbc1568fc,README,2021-02-19 17:15:03-05:00,TRUE
+a9a3c63f6fad0c5790a6e079226aa2d9effd4e1e,Index beginning,2021-02-22 09:03:28-05:00,TRUE
+019f77928b5fff4b5d461b4994576faa523ec8d6,See if this renders better like this,2021-02-22 16:34:12-05:00,FALSE
+31ad71d71bddccee4eb706d03ddb430df5b99949,Missing new line,2021-02-22 16:34:53-05:00,FALSE
+771ee12575ab654b24faed03f278d6eb344499da,With proper +,2021-02-22 16:36:09-05:00,FALSE
+6f44fbde2e455ba39d21ecd7e001cf3879bfc75b,Rework example,2021-02-22 16:43:03-05:00,FALSE
+567e4bb94389afc1f8ae023008b2d2b6f4b33b5d,More doc.,2021-02-22 19:03:25-05:00,FALSE
+fa8ed9baba052c39f1eb1fcba1d70593edfc6072,More doc,2021-02-25 15:53:22-05:00,FALSE
+e0cc1fe6c480bdc5d4f7a8e5914899127498fd26,Copyrights,2021-03-04 19:53:45-05:00,FALSE
+bdbc969453d3e8f52711d085a3971e5328a6ddad,Badges,2021-03-05 16:47:41-05:00,FALSE
+9a4ba4ab900215fc52d4a3fb85a233ed74ad88d8,quick wording proposal,2021-03-05 22:52:08+01:00,FALSE
+68013d06b99167ad17fdd3cf05baa2c5f432b35b,"Fix example name in README (#3)
+
+* Mention which repo
+
+* Actually fix script name
+
+* Update README.md
+
+Co-authored-by: Sylvain Gugger <35901082+sgugger@users.noreply.github.com>",2021-03-05 17:01:14-05:00,FALSE
+cd376747298a7342c6b8d2088f3a85cb57e49b8b,"Update README.md (#6)
+
+fix typo - accelerate should be accelerator #5",2021-03-08 07:43:14-05:00,FALSE
+38c4138de081cb497f24da61b2ffa6db7a04c2b9,Fix typos and tighten grammar in README (#7),2021-03-09 10:59:21-05:00,FALSE
+1320618cf723eed13d43309d3b37fb30037de820,"Readme clean-up (#9)
+
+No need for a device actually",2021-03-09 18:14:49-05:00,FALSE
+8e61853039b3f90388487718c11c5ae3e76d6444,Alternate diff (#20),2021-03-29 08:50:22-04:00,FALSE
+13656cda3879939e21871dccb76507bda0800e2c,Cleaner diffs in README and index (#22),2021-03-30 15:58:45-04:00,FALSE
+de3a54137ac6451bab0940bcd282db44b91cd61b,Typos in the README,2021-04-08 09:09:20-04:00,FALSE
+9f59f393bc3b3e69740ec09c72edaeb0a192667c,Organize diffs better,2021-04-20 17:28:18-04:00,FALSE
+4d8a2f64520f0d6e2613e8a0042f03367ceb2f2f,Documentation links,2021-04-23 09:31:42-04:00,FALSE
+9b0dad4c64c170ab0780ad465ce95019f536bb28,Notebook Example (#52),2021-04-26 17:47:05-04:00,FALSE
+4f376df41ceea6af4a077b7c2dbedc870d21a646,"Support for multi-GPU in notebook_launcher (#56)
+
+* Support for multi-GPU in notebook_launcher
+
+* Quality
+
+* Address review comment
+
+* Update src/accelerate/notebook_launcher.py
+
+Co-authored-by: Philipp Schmid <32632186+philschmid@users.noreply.github.com>
+
+Co-authored-by: Philipp Schmid <32632186+philschmid@users.noreply.github.com>",2021-04-28 11:45:43-04:00,FALSE
+df260fa71af9c23587f6c0a86df5ad17f69822d2,Add distributed multi-node cpu only support (MULTI_CPU) (#63),2021-05-04 08:12:54-04:00,FALSE
+a96fbaaf19e650da101bfadb886ecc1d1b1cb205,Use `optimizer` for consistency (#81),2021-05-13 08:19:23-04:00,FALSE
+f1333b54ad0141d162de6e6f04893ff7fd1f7e36,"Add DeepSpeed support (#82)
+
+* add script with acclerator
+
+* squash
+
+* save progess
+
+* fix some; deepspeed giving error now
+
+* fixed everything
+
+* rebased
+
+* stage2 fix
+
+* fix optimizer cpu offload
+
+* small fix
+
+* fix suggestions
+
+* update readme
+
+* fix suggestions
+
+* extract fp16 state_dict
+
+* remove deepspeed dependency
+
+* add fp16-32 conversion; readme update
+
+* remove run script
+
+* make style
+
+* Apply suggestions from code review
+
+Co-authored-by: Sylvain Gugger <35901082+sgugger@users.noreply.github.com>
+
+* make quality
+
+Co-authored-by: Ubuntu <ubuntu@ip-172-31-71-52.ec2.internal>
+Co-authored-by: Sylvain Gugger <35901082+sgugger@users.noreply.github.com>",2021-05-27 16:50:33-04:00,FALSE
+7e0249c24e74a387f79c8c3086b4ce912aaeff64,Add course banner (#107),2021-06-15 09:57:34-04:00,FALSE
+02ad92a14e9298aad537b6033ba7c8d9628a4729,Use right address :facepalms:,2021-06-15 10:01:20-04:00,FALSE
+75421766d3513bc563b1e8b871dfa2995f3891f7,"Update README.md (#187)
+
+This adds a sentence to the README to remind the user that they can still use the default python launch methods.",2021-10-19 11:17:16-04:00,FALSE
+a5ea2a932ccb7c9c880d2151c7dfcb13a12ecc95,"Add high-level API reference to README (#204)
+
+* Add high level API reference to README.md
+
+Update 'Why shouldn't I use' section with reference to pytorch-accelerated
+
+* Fix typo in notebook launcher
+
+Update 'Launching a training' to 'Launching training' in one instance
+
+* Create 'Frameworks Using Accelerate' section
+
+* Improve README.md formatting
+
+* Remove newlines",2021-12-06 11:42:07-05:00,FALSE
+badfbced27daca333a32d49bf9f29a0b84c1ff98,Update README.md (#249),2022-02-24 15:30:22+01:00,FALSE
+2fcbc81d4bb1fbd5be301069ce319d2b2faac753,"replace texts and link (master -> main) (#282)
+
+* replace texts and link (master -> main)
+
+* replace texts and link (master -> main)",2022-03-14 13:26:07-04:00,FALSE
+1d95ebdaa40ed42d0bb2b41ba5531b49eb8948b1,"Use --no_local_rank for DeepSpeed launch (#309)
+
+* Use --no_local_rank for DeepSpeed launch
+
+* Plus one typo",2022-04-04 17:58:55-04:00,FALSE
+b3e21686dee9ba796d2240ef5c1b654fba6c4bb3,Include fastai in frameworks (#396),2022-05-25 13:42:09-04:00,FALSE
+873dcc63a461558152eec20af991482204e8248f,"Migrate HFDeepSpeedConfig from trfrs to accelerate (#432)
+
+* Migrate HFDeepSpeedConfig from trfrs to accelerate
+
+* update state.py to resolve comments
+
+1. Adds static method to have a simple API for integrating deepspeed config in transformers trainer.
+
+* reverting changes and addressing comments
+
+* Marking DepSpeed and FSDP as experimental in accelerate",2022-06-15 20:44:39+05:18,FALSE
+4484438626a2ad97735ac4d712a310d19b143434,fix link (#645),2022-08-20 14:15:56+02:00,FALSE
+efa8e7f89bf6345353661a713b8752e06e6b3d77,accelerate bibtex (#660),2022-09-01 08:07:57+05:18,FALSE
+4a7268df9c722a0058ec9e9cf34c0e660cc179b6,"update docs (#759)
+
+* addressing comments
+
+* minor doc updates
+
+* Update training_zoo.mdx
+
+* Apply suggestions from code review
+
+Co-authored-by: Sylvain Gugger <35901082+sgugger@users.noreply.github.com>
+
+Co-authored-by: Sylvain Gugger <35901082+sgugger@users.noreply.github.com>",2022-10-15 08:10:49+05:18,FALSE
+733755c94c33d3e5cadd2eb4049c3fe0427c5fb6,"Update README.md (#968)
+
+When use deepspeed, We must import from accelerate package.",2023-01-12 03:18:56+01:00,FALSE
+2694a6c63ad37fc02531dd2f7ca6ea5ede0c44a2,Update integrations (#1063),2023-02-13 13:28:55-05:00,FALSE
+03754c1e026b6e36cad05728aac75b82fac63b20,Update README.md (#1100),2023-02-21 21:21:18-05:00,FALSE
+abc2beb42390afb6ea7185a59cc6fae4610f39cd,"Remove outdated command directions and use in tests (#1166)
+
+* Get rid of launch in docs
+
+* Run instead of Launch
+
+* Proper ddp prefix
+
+* Include note about older torch versions",2023-03-08 14:37:46-05:00,FALSE
+4eaf36e1c44e24ca600fe9ace15168db90022399,docs: add finetuner to ppl who use accelerate (#1224),2023-03-22 09:08:21-04:00,FALSE
+532da3e34203366f88ac8f51078babd7c0de7436,Fix pypi image (#1249),2023-03-24 11:34:36-04:00,FALSE
+2708c1ae31f5c32a0715780c2244c8f24ba1cfc3,"fix: typing issues, and replace deprecated python typing (Optional, Union) to `|` (#1363)",2023-04-27 10:50:53-04:00,TRUE
+f9b2e6769b1279b11335d2b87801fa1ca81bb056,Update README.md (#1493),2023-05-31 09:25:29-04:00,FALSE

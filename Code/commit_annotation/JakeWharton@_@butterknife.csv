@@ -1,0 +1,102 @@
+sha,message,date,result
+8b971011893613245ab662450ee6555c30333c7f,Initial commit.,2013-03-05 00:55:13-08:00,True
+e149e5f436141ce8dfa4d0d9f6c6cddeb01be0b9,More readme stuffs.,2013-03-05 11:24:48-08:00,False
+2945ad001eaa45d60f344c664c7a856f64640163,Apparently we're a serious library now...,2013-03-05 11:26:08-08:00,False
+6b5eacf344b9bac1aa8cac928803dfacf8302719,Empty line.,2013-03-05 15:43:22-08:00,False
+05fee106086278942d96abb2afab891c2bd4e011,"Add view injection and injection using activity support.
+
+Closes #6.",2013-03-06 23:24:45-08:00,False
+a7fb85dfcd361c27be562baffa9b8612cd761f5a,Add ProGuard section to README.,2013-03-24 22:18:03-07:00,False
+3cb069b214c8299d02a7025c538dff2c672da63b,"Revert ""Add ProGuard section to README.""
+
+This reverts commit a7fb85dfcd361c27be562baffa9b8612cd761f5a.",2013-03-24 22:34:42-07:00,False
+4a8e8edc00db12efcd50f1555b24f4ea85cf002e,"Revert ""Revert ""Add ProGuard section to README.""""
+
+This reverts commit 3cb069b214c8299d02a7025c538dff2c672da63b.",2013-03-24 22:35:56-07:00,False
+11af074d452d323a734918e642669de9a49beef4,Add website.,2013-03-25 13:13:05-07:00,False
+d18c579ea67818004eb647320cc2202d3d9d70ae,Logo in readme.,2013-03-25 13:34:11-07:00,False
+39fe7d84f9dc845c6b6f03dea36943987653383f,ProGuard information is now on the website.,2013-03-25 13:35:24-07:00,False
+912fecf86b171f90d5a3b537690c662eff63a6dd,Add @OnClick method injection.,2013-07-09 23:11:01-07:00,False
+6b4ca62ba8b214b9b3376298712176a59e6f205a,Add Gradle dependency example.,2013-11-25 23:01:36-08:00,True
+2eb23f12bb88a08481bbfd78c31c6ace5b549cea,"Update README.md
+
+change Views to ButterKnife",2013-11-28 13:44:30+08:00,False
+ceef7908dc9e26618df36420ea5e83af0cbb2386,Documentation improvements all around.,2014-04-14 23:11:17-07:00,False
+d9967aae168640766255263ead606d3f907d5aae,Prepare version 5.0.0.,2014-04-21 00:03:15-07:00,True
+26da67b5e08f1611e6eec5d2f2d69bcb460c6447,Prepare version 5.0.1.,2014-05-04 22:20:52-07:00,True
+e31ed7dcaa40f4d18681df148f5c39d904127cc5,Prepare version 5.1.0.,2014-05-20 17:24:25-07:00,True
+e471cfa0c93cea7d5171981640581170568e8583,Prepare version 5.1.1.,2014-06-19 18:22:51-07:00,True
+fa6b046b55d30bdddd343244b86cff64030c71c7,Prepare version 5.1.2.,2014-08-01 23:48:27-07:00,True
+f8f53941821f77aa1bab8d5e535084b29037a28d,Prepare version 6.0.0.,2014-10-27 18:26:58-07:00,True
+bac2342500971a3c6664629c3a63ca74d6e4819c,Auto-deploy snapshots from Travis CI to Sonatype.,2014-12-20 03:14:16-08:00,True
+a3d2a698c21ca0af8250bf992c7f640982e67fab,Prepare version 6.1.0.,2015-01-29 22:19:24-08:00,True
+ec778ad8cbb21b68828153c0a4dbfc6b39319ced,"Change verb from 'inject' to 'bind'.
+
+* InjectView becomes FindView
+* InjectViews becomes FindViews
+* ButterKnife.inject() becomes ButterKnife.bind()
+* ButterKnife.reset() becomes ButterKnife.unbind()
+* Previously deprecated Nullable annotation is removed.",2015-03-14 20:06:02-04:00,False
+0ffaf1f3a004bb5eafd39cd960524e5c4adc1dd4,Rename annotations to use 'Bind' verb.,2015-06-27 19:50:27-04:00,False
+08964011a5132a43419603b500aeb3a350113db4,"Combine BindView and BindViews into a single annotation, Bind.",2015-06-27 22:00:11-04:00,False
+712a0145c0b9970d2aa5c6e6ce9de8ee3488190a,Prepare version 7.0.0.,2015-06-27 22:13:30-04:00,True
+5a5c78c0507cb9f11ef0aefc8be806afb97949d2,Prepare version 7.0.1.,2015-06-30 19:20:45-04:00,True
+66e050dd6b16204bcf9012301a95a3601ab4a7a9,Split compiler and runtime library into separate artifacts.,2015-08-01 20:51:58-04:00,True
+aa4500587f7fdda5e6c249752c89deb4224083a8,Update README.md,2015-08-01 22:37:34-04:00,True
+c86113e17ff051ed05655c66c797d8e29b102b49,Next version is 8.0.,2015-09-26 00:41:13-04:00,True
+7a71dc52ce194052437b0aaa9b8eed4f2ba0d82f,Update README apt version,2015-10-12 13:19:21-04:00,True
+f40173d10467ba334293c9884e3bb4b47ee0f2b3,Update README.md,2016-03-14 07:47:05+09:00,True
+959e4ba3f76cb97c4c71340b8cd240e69e08f257,Rename @Bind to @BindView to match others.,2016-04-23 03:46:57-04:00,False
+71722086521cad681db56f0efb47df107b86e251,Make newlines consistent in the code sample.,2016-04-24 13:17:17-05:00,False
+51e063c21b88f1a94a860d92500248bf17eff724,Prepare for version 8.0.0.,2016-04-25 12:50:33-04:00,True
+772fe815e024752f4f466fcb1e439e95102155e5,Missing mavenCentral() repository,2016-04-26 08:08:10+02:00,True
+0e100c3c8eb687b5417c05f33806b0ce50ce738b,Prepare version 8.0.1.,2016-04-27 21:00:52-04:00,True
+226f5baed1d56610a5fdcd6eb12435d635438d8e,"Updated download section
+
+The process of adding the 8+ version to an android project wasn't clear to me so I made clear where to put which part.",2016-06-01 16:42:37+02:00,True
+a821d5163f5a245c276b8ebf21b0cf4a240f2c80,Prepare version 8.1.0.,2016-06-14 17:19:34-04:00,True
+75a1f335fc60c43c9c5d0af68aae990fcdfa6887,Add documentation for android libraries,2016-07-10 17:25:12-04:00,True
+533e212e91c3d2d0d02d376ba1dfb7383550d9bb,Add a note for Jack users.,2016-07-10 17:27:04-04:00,True
+fbcdf4df50c4371aa0e976c370550c635a9f5413,Prepare version 8.2.0.,2016-07-10 18:38:07-04:00,True
+806653257d1ff77cf90bdfdceeca76f3175a56d1,"Remove unnecessary ""to"" from docs for libraries",2016-07-11 13:18:57+01:00,True
+4fee88b5c525840737f4745639420e7b2fff5dc1,Prepare version 8.2.1.,2016-07-11 22:22:17-04:00,True
+92750a42d989ed7f126858890eb849b4308e605b,"Add a repository block to library only section...
+
+...because this is obvious to newcomers. We have it above for the apt plugin stuff so it makes sense.",2016-08-01 00:30:18-04:00,True
+6ddd9be2fd3cf34b58f8dc5d66fc0323d2f8c77f,Prepare version 8.3.0.,2016-08-23 16:42:28-04:00,True
+9607176c1c6730e8bf8a277ff39ce29a8d216e99,Prepare version 8.4.0.,2016-08-26 22:09:30-04:00,True
+716e1f310d0f6a08cc5fbbf1a19577a5ca9708ab,Just use 'annotationProcessor' for instructions.,2016-11-04 10:23:49-04:00,True
+e732bec8bc0c9d37e4cd58aab90f420ac695acb7,Prepare version 8.5.0.,2017-01-23 23:50:04-05:00,True
+6f72a03d5c0e4c13f9b8006a1dc27bcc8b327432,Prepare version 8.5.1.,2017-01-24 11:55:21-05:00,True
+d5e7078785fc676ab4ad2289e9219d4fc101a661,Prepare version 8.6.0.,2017-05-16 12:33:59-07:00,True
+63660d07cb4dd3affa33f2baca76d9a7133260da,Prepare version 8.7.0.,2017-07-07 11:12:25-04:00,True
+5f040ba8abf5ffd92b612f78a01c99569e2eee74,"Prepare version 8.8.0.
+
+(cherry picked from commit 27e5a052eaa9601cb0c7f87675c39dfd30ca9fd3)",2017-08-04 14:22:22-04:00,True
+d19d9ab6bead884798f747face552d6527777597,"Prepare version 8.8.1.
+
+(cherry picked from commit f84051ba6526092ebd9ec302e799598bb8b29731)",2017-08-09 23:50:18-07:00,True
+364293891c9017624f19f5b010d3153c874f7118,Mention kapt in README.,2017-10-10 09:55:40-04:00,True
+dc3de280ec8519be764e2e0b616a1e12708b7905,Replace `compile` with `implementation`,2018-03-08 12:42:59-08:00,True
+8e2a277d8247b2349fdfbeb47797db5e441f78df,Prepare version 9.0.0-rc1,2018-10-10 16:45:30-04:00,True
+8abb6a896c6c9c99134f0cac82e9beb6c9ab87cc,Prepare version 9rc2,2018-11-19 00:27:42-05:00,True
+90790fa0d888757ec37e60b6ed45c3b3e47d81ca,Prepare version 9.0.0-rc3,2018-12-20 00:20:18-05:00,True
+7015fd3e6fa35f2822ba7c9b367c41187a6ef2f4,Prepare version 9.0.0,2019-01-03 17:16:28-05:00,True
+131641954210ab4b83344aacb6cd72c8a7e745fd,Prepare version 10.0.0,2019-01-03 19:29:19-05:00,True
+ce7a29b84d161bae76fd9dc14f4bc1d8e19aebea,"Add the google repo
+
+BK 10's plugin requires com.android.tools.build:gradle:3.1.4 and the google repo should be added to the buildscript's classpath.",2019-01-10 03:24:22-08:00,True
+a71dc4734822fb1f5a6bdac4a4525aca643a9061,Prepare version 10.1.0,2019-02-14 11:23:45-05:00,True
+28782979870304a38aee6774ec25a090ea4a63e4,"Update setup instructions
+
+Include Java8 requirement for the butterknife usage.",2019-03-12 22:09:23+01:00,True
+2409a1dd2fe9b2eb4cacfb8679c2591b65e1ea96,Correct link to Dagger documentation,2019-06-10 08:43:19-04:00,False
+2acac62c7354fee46a5201d50a4712732f6dd1ed,Prepare version 10.2.0,2019-09-12 10:25:42-04:00,True
+41234658847bd7581f8f2afddfd8e3be048ebfcd,Last call,2019-09-12 11:02:01-04:00,False
+88689a73d0ea6d8ab44e87ef215cdf3ad1e81117,Prepare version 10.2.1,2019-12-19 11:17:43-05:00,True
+574ed28042dc30c14a623f0d36e666ff8008d32c,Use view binding,2020-03-24 15:37:44-04:00,False
+ff877af9f25f6c948b216ce3e6ca0d88d352974a,"Update README.md
+
+Align curly brace",2020-06-16 11:35:32+03:00,True
+4cb5a16ec91c0c9edb9a9c851bfb075f7a830480,Prepare version 10.2.2,2020-08-03 10:53:46-04:00,True
+888791b1c9943ade0823d295b3b7839ce5c0fe85,Prepare version 10.2.3,2020-08-12 13:52:43-04:00,True

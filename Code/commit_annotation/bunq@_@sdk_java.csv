@@ -1,0 +1,22 @@
+sha,message,date,result
+14ab21a5f1c06dd0f3e3ffe5f57a69d1f6738a19,Add v 0.9-SNAPSHOT,2017-07-31 22:18:23+02:00,TRUE
+5985a3fdfd1a52aaf10f3c797da43f380dd47cf2,add README.md introduction and contribution guide,2017-07-31 22:20:13+02:00,FALSE
+5049165727a6484ba1c7553c93cdfb5b63581571,add response validation; fix README.md,2017-08-01 18:52:13+02:00,FALSE
+8382489c8824d72a50cc634bd10050526f750302,Update README.md,2017-08-01 19:29:17+02:00,TRUE
+4a5f74f8aa000d3a1ad2c71f9595418ab952768b,cleanup tests and api client; fix PRODUCTION url,2017-08-04 11:34:21+02:00,TRUE
+b04dc53d2af3957dc683486dc1436d39372b6e49,Added tests readme,2017-08-07 12:16:55+02:00,FALSE
+35d94fc9da0c80d3c063e199445e1080d0971167,add missing period,2017-08-07 13:04:34+02:00,FALSE
+0fffdd1720bfddcebc87d9a4c5365a236f4cac23,fix links to examples [#4],2017-09-05 19:42:31+02:00,FALSE
+2ec57160d1f20120e1d8f2f3baccbf8d642f8836,Added readme reference.,2017-09-25 17:53:03+02:00,FALSE
+ce5582e9344bf3302d9fb0c25530ea3377d27655,Copywrtiting :pencil:.,2017-10-05 18:00:10+02:00,FALSE
+3898010b54795ff8d62195e3fccf97424415d2ec,"Update ""Installation""",2017-10-11 10:07:49+02:00,TRUE
+7cdf35b4b77d401f1033195ba6946cfb5e42e3eb,Updated read me to point to tinker for examples. (bunq/sdk_java#81),2018-05-05 12:00:59+02:00,FALSE
+05183ab73675eb5ff667163f7c317ccede31de56,Update Sandbox API key procedure. (bunq/sdk_java#96),2018-06-11 22:11:47+02:00,FALSE
+09ce611ef6fdedf55fcb4ee3b96f0e300d8565e8,Remove plus sign. (bunq/sdk_java#96),2018-06-11 22:18:23+02:00,FALSE
+12f15bd23efaba36411ebc8254a35594c0028fc3,Update according to MR comments. (bunq/sdk_java#96),2018-06-12 21:06:48+02:00,FALSE
+1f31e98aa38c48db2933d92dd83e1e9002f160d0,"Fixed issues, regenerated models and completed PSD2 implementation",2019-09-04 13:57:45+02:00,FALSE
+886dfc83ef0d9329874ae826f79f1c623ce8a285,Updated README with PSD2 section,2019-09-06 11:54:18+02:00,FALSE
+33b3300bf4e9766e46f2d67ad18e23791e7cfb07,Updated code formatting,2019-09-09 10:43:56+02:00,FALSE
+1981d74ce305f5ed1e14210607670fc85177c16f,Updated code formatting and documentation,2019-09-09 11:15:23+02:00,FALSE
+d2d7b63156ef6560ef3c1ed1f639c84e15808ee1,Update README.md,2020-06-22 17:38:38+02:00,FALSE
+41e7bec16cedbeba96d61f99d05a957d75d43a08,Update README.md,2020-06-22 17:43:08+02:00,FALSE

@@ -1,0 +1,359 @@
+sha,message,date,result
+0ffcdc7b73d92e7bbc73e97c0ed31c4be0718fa7,Create README.md,2020-11-16 20:21:31+00:00,True
+b76903dbc33c8181e05aa54178da244ed1c738f7,oh god i found a typo oh GOD,2020-11-19 14:02:21+00:00,False
+eb195bfc583dc1fa4825dc812ce5df308f5144f6,Update README.md,2022-04-17 12:27:19+01:00,True
+9a7be5e6b0c001e6171f7f194deb1acf4d52ac93,"Update map branch (#80)
+
+* Fix NPE when a non-existent player has a home being purged
+
+* Implemented blindness on countdown feature
+
+* Add use-plugin-borders config option
+
+* Description of blindness option has been worded better (you're welcome <3) and removal of an unnecessary line of code.
+
+* Fix CME in CommandManager - make all command changes when finished
+
+* Bump to v5.6
+
+* Fixed teleportation not being stopped when moving along the Z-axis
+
+* Initial commit
+
+* Fix IllegalArgumentException, use GZIP compression
+
+* Added fallback death management options
+
+* STOP throwing errors you fool
+
+* Update CM (#75)
+
+* Update CM
+
+* Add ATConfig, whoops
+
+* I've fixed AdvancedTeleport
+
+probably not though
+
+* And lastly bump the version
+
+* Don't load a config twice
+
+* What have I done
+
+* Fix the war crimes I might've committed on accident
+
+* Fix permissions not applying on 1.8.x as per usual
+
+* Bump version
+
+* Update README.md
+
+* Feature: Improved RTP min and max coords + per world settings + claim plugin hooks (#76)
+
+* Feature: Improved RTP min and max coords + per world settings
+
+* refactor: Implement a cache for the world values
+
+* fix: Clear the coordCache on reload
+
+* chore: Add note in config file about reuse of coords
+
+* feat: Implement Claim plugin support and some other improvements
+
+* fix: Forgot to add the config values to the config thingy + better name for the claim protection
+
+* chore: Add config value and comment for claim protection
+
+* refactor: Remove isTrusted method
+
+* refactor: Use a double array from the begining
+
+* fix: Actually add the config defaults
+
+* fix: Fix lands not being Lands!
+
+* fix: Fix bounds issue order is max, min not min, max in the config
+
+* refactor: Check one last time if the chunks claimed state has changed.
+
+* fix: Fix essentials being uniquely silly
+
+* Update plugin.yml
+
+* Add the metadata table (#79)
+
+* /spawn logic fixes
+
+* Back to fixing /tpoffl every new release :)
+
+* Add the metadata table
+
+Co-authored-by: Niestrat99 <35385996+Niestrat99@users.noreply.github.com>
+Co-authored-by: Racci <tangentmoons@gmail.com>",2022-06-08 21:22:57+01:00,True
+c1e792f242470dec71b5e959778facce5fb6e591,"Revert ""Update map branch (#80)"" (#81)
+
+This reverts commit 9a7be5e6b0c001e6171f7f194deb1acf4d52ac93.",2022-06-08 21:23:50+01:00,True
+9a170e4cc8677a7d0fadb3f9fda70c6481411a39,"gradle (#93)
+
+* Fix issues with the import/export commands
+
+* gradle?
+
+* buildSrc was a lil cringe
+
+* Add property support
+
+* Update dependencies
+
+* Repo names
+
+* update vault as well cos that fool keeps doing my shins in
+
+* Code style
+
+* Update build instructions",2022-09-17 10:52:48+01:00,True
+098f789bbe7a9f7c5dbfe8b57411b7bdcc3fceae,"gradle (#93)
+
+* Fix issues with the import/export commands
+
+* gradle?
+
+* buildSrc was a lil cringe
+
+* Add property support
+
+* Update dependencies
+
+* Repo names
+
+* update vault as well cos that fool keeps doing my shins in
+
+* Code style
+
+* Update build instructions",2022-11-06 22:31:08+00:00,True
+927d4b20aff1659cfe20aa11f410c1dac443a001,"Update map branch (#80)
+
+* Fix NPE when a non-existent player has a home being purged
+
+* Implemented blindness on countdown feature
+
+* Add use-plugin-borders config option
+
+* Description of blindness option has been worded better (you're welcome <3) and removal of an unnecessary line of code.
+
+* Fix CME in CommandManager - make all command changes when finished
+
+* Bump to v5.6
+
+* Fixed teleportation not being stopped when moving along the Z-axis
+
+* Initial commit
+
+* Fix IllegalArgumentException, use GZIP compression
+
+* Added fallback death management options
+
+* STOP throwing errors you fool
+
+* Update CM (#75)
+
+* Update CM
+
+* Add ATConfig, whoops
+
+* I've fixed AdvancedTeleport
+
+probably not though
+
+* And lastly bump the version
+
+* Don't load a config twice
+
+* What have I done
+
+* Fix the war crimes I might've committed on accident
+
+* Fix permissions not applying on 1.8.x as per usual
+
+* Bump version
+
+* Update README.md
+
+* Feature: Improved RTP min and max coords + per world settings + claim plugin hooks (#76)
+
+* Feature: Improved RTP min and max coords + per world settings
+
+* refactor: Implement a cache for the world values
+
+* fix: Clear the coordCache on reload
+
+* chore: Add note in config file about reuse of coords
+
+* feat: Implement Claim plugin support and some other improvements
+
+* fix: Forgot to add the config values to the config thingy + better name for the claim protection
+
+* chore: Add config value and comment for claim protection
+
+* refactor: Remove isTrusted method
+
+* refactor: Use a double array from the begining
+
+* fix: Actually add the config defaults
+
+* fix: Fix lands not being Lands!
+
+* fix: Fix bounds issue order is max, min not min, max in the config
+
+* refactor: Check one last time if the chunks claimed state has changed.
+
+* fix: Fix essentials being uniquely silly
+
+* Update plugin.yml
+
+* Add the metadata table (#79)
+
+* /spawn logic fixes
+
+* Back to fixing /tpoffl every new release :)
+
+* Add the metadata table
+
+Co-authored-by: Niestrat99 <35385996+Niestrat99@users.noreply.github.com>
+Co-authored-by: Racci <tangentmoons@gmail.com>",2022-11-06 22:35:02+00:00,True
+62e728f2827ee3100eb43a96efb33c65f4c57507,"Revert ""Update map branch (#80)"" (#81)
+
+This reverts commit 9a7be5e6b0c001e6171f7f194deb1acf4d52ac93.",2022-11-06 22:43:24+00:00,True
+b0319a31befcdfd21841e5c83701c061f3c4352f,"gradle (#93)
+
+* Fix issues with the import/export commands
+
+* gradle?
+
+* buildSrc was a lil cringe
+
+* Add property support
+
+* Update dependencies
+
+* Repo names
+
+* update vault as well cos that fool keeps doing my shins in
+
+* Code style
+
+* Update build instructions",2022-12-26 16:59:17+00:00,True
+fa4b5bfdc5d7d8a7aae9068156b7df4afe3759b1,"Update map branch (#80)
+
+* Fix NPE when a non-existent player has a home being purged
+
+* Implemented blindness on countdown feature
+
+* Add use-plugin-borders config option
+
+* Description of blindness option has been worded better (you're welcome <3) and removal of an unnecessary line of code.
+
+* Fix CME in CommandManager - make all command changes when finished
+
+* Bump to v5.6
+
+* Fixed teleportation not being stopped when moving along the Z-axis
+
+* Initial commit
+
+* Fix IllegalArgumentException, use GZIP compression
+
+* Added fallback death management options
+
+* STOP throwing errors you fool
+
+* Update CM (#75)
+
+* Update CM
+
+* Add ATConfig, whoops
+
+* I've fixed AdvancedTeleport
+
+probably not though
+
+* And lastly bump the version
+
+* Don't load a config twice
+
+* What have I done
+
+* Fix the war crimes I might've committed on accident
+
+* Fix permissions not applying on 1.8.x as per usual
+
+* Bump version
+
+* Update README.md
+
+* Feature: Improved RTP min and max coords + per world settings + claim plugin hooks (#76)
+
+* Feature: Improved RTP min and max coords + per world settings
+
+* refactor: Implement a cache for the world values
+
+* fix: Clear the coordCache on reload
+
+* chore: Add note in config file about reuse of coords
+
+* feat: Implement Claim plugin support and some other improvements
+
+* fix: Forgot to add the config values to the config thingy + better name for the claim protection
+
+* chore: Add config value and comment for claim protection
+
+* refactor: Remove isTrusted method
+
+* refactor: Use a double array from the begining
+
+* fix: Actually add the config defaults
+
+* fix: Fix lands not being Lands!
+
+* fix: Fix bounds issue order is max, min not min, max in the config
+
+* refactor: Check one last time if the chunks claimed state has changed.
+
+* fix: Fix essentials being uniquely silly
+
+* Update plugin.yml
+
+* Add the metadata table (#79)
+
+* /spawn logic fixes
+
+* Back to fixing /tpoffl every new release :)
+
+* Add the metadata table
+
+Co-authored-by: Niestrat99 <35385996+Niestrat99@users.noreply.github.com>
+Co-authored-by: Racci <tangentmoons@gmail.com>",2022-12-26 16:59:25+00:00,True
+18ae9ef87759f192b85a263b103ac576b2d94260,"Revert ""Update map branch (#80)"" (#81)
+
+This reverts commit 9a7be5e6b0c001e6171f7f194deb1acf4d52ac93.",2022-12-26 16:59:28+00:00,True
+b911bfa5e629b8b1770029ec3eceb3e4f5387a9d,"gradle (#93)
+
+* Fix issues with the import/export commands
+
+* gradle?
+
+* buildSrc was a lil cringe
+
+* Add property support
+
+* Update dependencies
+
+* Repo names
+
+* update vault as well cos that fool keeps doing my shins in
+
+* Code style
+
+* Update build instructions",2022-12-26 19:56:47+00:00,True

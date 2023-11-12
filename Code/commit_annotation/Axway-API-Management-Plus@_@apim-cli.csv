@@ -1,0 +1,154 @@
+sha,message,date,result
+64f3adea2e93cb960d95ec9179173528878c9c3f,Create README.md,2018-09-20 10:02:01-07:00,False
+dd4ba028460875fa82f656c52989c3498bc292b0,Update README.md,2018-10-23 08:08:13-07:00,False
+4e64bd3f7ba5e34a8e5886c61b0acc9d6752dbaa,Added Travis CI build indicator,2018-10-30 22:05:30+01:00,False
+ad9f88c31bb18d1040102e72ab30876457335fe0,Update README.md,2018-10-30 22:06:05+01:00,False
+74e95396b8d6598dfdd5fbb57853f166ad66f157,Update README.md,2018-11-19 18:29:53+01:00,False
+72205edcc546a9db49fd8b14e677dc6c307b3170,Update README.md,2018-11-19 18:31:10+01:00,False
+fdc857119f3b39b67de5842c6099be3383b5dde1,Update README.md,2018-11-21 07:51:03+01:00,False
+fa215148abb4c9e1215e05f80f0513768f79fb36,Update README.md,2018-11-21 21:22:52+01:00,False
+b8e7b172f802e79388423ecd82d9f14fb09115bc,Update README.md,2018-11-21 21:23:25+01:00,False
+27eca82d50bae46b689cf930f139c6c71318afeb,Update README.md,2018-11-22 07:59:01+01:00,False
+af7cc67a96e12fc847dd735709b92a2397da61eb,Update README.md,2018-11-30 08:54:11+01:00,False
+a1a74bc51b07651a5ad4c44286c09eb2238ef798,Update README.md,2018-12-04 08:04:49+01:00,False
+f12b114ae252b16d37dac2f9f948a49b36a22f83,Update README.md,2018-12-04 08:05:29+01:00,False
+94f53586df8262efc7c37bc29fff1fca35185043,Update README.md,2018-12-04 08:07:31+01:00,False
+a5ffd3f1642db3a404af8bb006d6888973b896c9,Update README.md,2018-12-04 20:01:17+01:00,True
+e2e5c1e07b7265d8ee4cd9b05b617b172fef5ddc,Update README.md,2018-12-04 22:06:57+01:00,False
+ce62043a1c13bff94efc79306144cbf7020b88cd,Update README.md,2018-12-11 09:58:51+01:00,False
+6a86ef24804ffc150f6a1cc621f65d220896eafb,Update README.md,2018-12-11 09:59:15+01:00,False
+78bd59742d2e6f4f2db75831332504743fd48f50,Update README.md,2018-12-14 08:50:50+01:00,False
+26a3dcdd0d0c907370e36f56b893ab69d386c223,Update README.md,2018-12-14 12:32:18+01:00,False
+5dc05642be54833c900a351e51cb3aa1add81a0b,Update README.md,2018-12-18 20:37:22+01:00,False
+6923acd4c2d9a62cc53b1a29fc3aa634dc1467bc,Update README.md,2018-12-20 14:21:18+01:00,False
+c3e90cbe6abe71f388ced4c0d7b9e576f4ff4e24,Added history entry for version 1.2,2018-12-21 07:17:17+01:00,False
+74b32c9fc3c01536cb65b540946cded10637f5ed,"Added initially support to handle Client-Organizations
+
+With that, the API-Developer can control himself which organizations can
+consume his API.",2019-01-21 14:21:08+01:00,False
+209eb5a5b2393b5fcbf4337d9fd8656abc93f5c1,"Documentation for the MainClass - Config instead of Contract
+
+Added a diagram to illustrate and document the main classes of the program to help other to contribute.
+Adn started to rename API-Contract with API-Config.",2019-01-25 13:07:17+01:00,False
+e145e0c0ce78e57ca74fb8d453d9e029f5216e2d,Update README.md,2019-01-30 08:15:12+01:00,False
+47bbc8fd6d15e80bba60e3169899be03c4bbcec6,Update README.md,2019-01-30 08:15:23+01:00,False
+a627bb09ebbafd35a88f8f0a7f64e702059708df,Update README.md,2019-01-31 17:53:25+01:00,False
+63eaafeac26a6bff41661f91586d844cd5efb8e6,Now using API-Management 7.6.2 SP2 for Integration-Tests,2019-01-31 17:58:42+01:00,False
+db8c098e2f180725245f3fed474ee2a309cb2ab1,Update README.md,2019-02-07 15:14:55+01:00,False
+75ea7aff25701775311093f2b131e1aa1dfeb0b8,"Preparing rlease 1.3
+
+Changed some of the log messages, better support for Windows, specific ErrorCode for a Breaking-Change",2019-03-08 16:47:58+01:00,False
+e2d64aa9177e8162022bf73e867efee9396412f8,"Small changes, added examples and documentation.",2019-03-14 09:34:34+01:00,False
+55f98e6a4fe5f1cc2dde78e140280f795b9e0658,Bumping version number to 1.4.1,2019-03-20 08:51:40+01:00,False
+c70b36e3b7312db3267d71a66d017dd4880f1348,Added a note for SOAP-Service support. Still Beta,2019-04-03 10:31:32+02:00,True
+1bbe26f2632394f13559da47d97414623ba96351,Some smaller final changes for 1.4.2,2019-04-03 11:40:00+02:00,False
+1d729492e99b10a4816f277bfd7a6de9fb12170e,"Prepare for release 1.5.0 
+
+Added release notes and a deep link on how to contribute.",2019-04-09 20:50:14+02:00,False
+99a56f47f7948226786f9e38dcca546ca6bfc21c,Update README.md,2019-04-12 11:27:22+02:00,False
+04c1de142cd9ed78f5b9da70a906004d2460d603,Bumping version number to 1.5.1 and added a few very small changes.,2019-04-30 19:04:39+02:00,False
+79609107395948f2f4dfc180a490ae83f6ba65f5,Update README.md,2019-04-30 19:19:05+02:00,False
+c6aaa60ee201fedc44dc23cbb527758ba45fa3a3,Improved log message and prepare for next release.,2019-05-27 09:45:30+02:00,False
+eeb1f5d6a426ef7b290ca3c44c22dcdadf1fe8ba,Update README.md,2019-05-29 10:53:12+02:00,False
+c0f81cc40d38abf76ea38c7e74e422c93f939ba9,[skip travis] Add version note 1.5.3 and link to Maven-Central,2019-07-01 21:59:13+02:00,True
+b60222c3ef197ce98313918372397d38e4fb180c,[skip travis] reduced duplicate link,2019-07-01 21:59:40+02:00,False
+a20ff595cc76e0cd32ca703135cf862185b35b62,[skip travis] Fixed typo,2019-07-01 22:00:26+02:00,True
+05843f4e6b24dca3e1d35fff8a625a5dd3baa776,[skip travis] Updated path to overview image,2019-07-09 17:42:26+02:00,False
+2001a2362c3fee5818996a354be0a527bd7dc49c,[skip travis],2019-07-09 21:54:42+02:00,False
+f11b4de4cae582752f5493b6d294ee99c7b43043,[skip travis] added release 1.60 into the history,2019-07-13 09:24:48+02:00,False
+2b382d5516d0836ff6a04b7a1e7acabe44cdacf4,[skip ci] Added version 1.6.1 to the history,2019-08-09 12:18:38+02:00,False
+b1daf8841d06cb4e022c70f2a91ca09046fe53cc,[skip ci] Readme updated,2019-08-12 09:34:59+02:00,False
+683b892f669b1e6764aeaf527c6e4017fc6b46aa,[skip ci] Typo fixed,2019-08-12 09:35:50+02:00,False
+372a9acf72f68e67b956b6a7474ee90958809a10,[skip ci] Link to the branched overview now,2019-08-12 09:39:48+02:00,False
+694a7af13a6751363d1e1381c604d0e1ad2d8848,[skip ci] Added hackathon banner,2019-08-12 17:47:50+02:00,False
+b56017b3a4858a5b0ef823f609281a468913ec1e,[skip travis] Updated readme.,2019-09-23 08:10:18+02:00,False
+c1ae58245436309796ef8562ef11b713d60f2405,"[skip ci] Added 7.7-SP1 into the table of tested
+
+versions",2019-09-24 09:17:54+02:00,False
+974dd20650c9c3917a04690946d3cd28c93dd115,[skip ci] Added version 1.6.3 into version history,2019-09-30 18:06:10+02:00,False
+216911585288d0708dd480188a5aeda053b55765,[skip ci] Updated readme,2019-09-30 18:42:38+02:00,False
+c545690e63e77e8a17c4e45dab219da22cf982c2,[skip ci] Added version 1.6.4 to the history.,2019-12-05 07:48:44+01:00,False
+85972f4035e8648e8275ea4ab03ee9ee2da6c1b6,[skip ci] Added 7.7 SP2,2020-01-12 16:58:42+01:00,False
+a463760d833060cc1984bb3637cd5b09bfbe862c,[skip ci] Now really supporting SOAP-Services as well.,2020-01-13 13:26:54+01:00,False
+69232f3a9e9a2390696e8e3fd652235c56e60d51,[skip ci] Adjusted the number of tests,2020-01-13 13:31:09+01:00,False
+8d22ad1fd5c98eafc5d4ab58ab8ef56f27e65226,"[skip ci] Added 7.7 January-Release 
+
+to the list of supported versions",2020-02-14 11:56:10+01:00,False
+11f39b519807b7caa4ece8b10be7c0fd64a8d838,[skip ci] Added version 1.6.5 to the changelog.,2020-02-27 11:50:22+01:00,False
+555ee141f917dd5c5a51a136ccf8a2e2aee726bb,[skip ci] Typo fixed,2020-02-27 12:17:19+01:00,False
+888866ef8899daae13a97d640d61c397cd5a7c8b,[skip ci] Updated the QA facts,2020-02-27 12:27:33+01:00,False
+be1acff660e456ce18c19087795c355e4a1a5aec,[skip ci] Included a link how to setup Jenkins,2020-03-24 13:10:46+01:00,False
+366d40a8987c53b6e42e24d84c30c53528dce5be,[skip ci] Added version 1.6.6 to the change notes,2020-03-31 08:59:38+02:00,False
+78e72871f3dcc564f09a4931ce976d02d8f3bd5f,[sip ci] Added 7.7-March release into test suite,2020-04-02 20:27:46+02:00,False
+bf7107c6ab99ae468ed9c5169d2f954940518a63,Update README.md for 1.6.7 release,2020-04-27 17:59:57+02:00,False
+656d4eeecbfe90a22938a5cf53413d81c3a2802c,[skip ci] Making a comment March-Release tests,2020-04-27 18:50:20+02:00,False
+4f727b59ad305009cade84d7fa433ba01cecd367,[skip ci],2020-06-03 21:17:33+02:00,True
+4025fc58fba2ae6a2ad65ccf02cc4912742bb910,[skip ci] Added intial documentation,2020-06-04 08:32:58+02:00,False
+32bc81f28f0529857ab78fcefbcd8350da3f2471,[skip ci] Update Readme,2020-06-04 08:54:28+02:00,False
+9e8e9d564f6595eb4e6db02fe68bc20c9222a314,[skip ci] Update readme.,2020-06-04 09:00:21+02:00,False
+481fac7417c9f9f7e4715fd84851629bf534c8ee,[skip ci] Update readme,2020-06-04 09:08:28+02:00,False
+0de3ac18ba56c00a7a311fdc9f2d4611f104cf09,[skip ci] Update readme,2020-06-04 09:18:39+02:00,False
+b3012ba3a4cc27e6ae79aa0601f3bfe91066eb68,[skip ci] Updated readme.,2020-06-04 09:25:43+02:00,True
+e287e03b4802caf9fdfbd63db926fd9de432ed88,[skip ci],2020-06-04 09:26:51+02:00,True
+0a41510f3941c24feb0d92e0628f8d134c6d1ce7,[skip ci] Updated README.md,2020-06-05 12:47:21+02:00,False
+bf93cf731c4ea56739fb80a6d8ef49056e421b94,[skip ci] Updated README.md,2020-06-09 08:22:47+02:00,True
+64196bc6df28c9e2abdfd152b3ea856d1bc26873,[skip ci] Added test branches overview,2020-06-10 14:34:05+02:00,False
+3eddfab222de1aa2191a8230594fc03a64c3154c,[skip ci],2020-06-10 14:50:04+02:00,False
+b34a33798b4ad14022c3d43ce33296e062796f3c,[skip ci] Updated readme,2020-06-10 22:32:24+02:00,False
+c8d311898d805a23d423c14d1903eff34e6f9ae6,[skip ci] Updated readme.,2020-06-15 20:53:47+02:00,False
+7a58cbce73ec761941b2302dee6bea940435c821,[skip ci] Readme,2020-06-15 22:57:19+02:00,False
+bc884b5e7d7c4887b13d1aa51d76fe15c333c93c,[skip ci] Updated readme.,2020-06-15 23:14:05+02:00,False
+b8f31ed21d9bd989a351db5d636cde31a6608c9f,[skip ci] Typo fixed,2020-06-15 23:14:43+02:00,False
+eda3541141952e7a28867289f31b927fd8c2dae0,[skip ci] Fixed a typo.,2020-06-16 07:43:06+02:00,False
+659a6dad4f3d56aa143876f5197804a9a728492c,[skip ci] Try to disable build badge caches,2020-06-16 07:48:48+02:00,False
+324b892ea872500b57520cf44502c8f2b4cbba13,[skip ci] Back to original build badge URLs,2020-06-16 07:49:34+02:00,False
+fc43cfb5fa600b8cef28dd3a41f4b2eadd4b6396,[skip ci] Now using badge status images from shield,2020-06-16 08:05:54+02:00,False
+01aec15659eb7f15c51506fca391d337312d96cb,[skip ci] Improved / Updated documentation,2020-06-25 11:52:39+02:00,True
+d95979136ba554aeae2a5c8532e16f9adf44b357,[skip ci] Link to wiki page fixed,2020-06-25 11:53:55+02:00,False
+77b2dadeae7065433cede2eea13d8ef9a596a581,[skip ci] Added 7.7-July release to the list of tested releases,2020-08-10 14:42:41+02:00,False
+ebd756e7eeaa0c6fd853f0ee19994a9f2e488e96,[skip ci] Prepare next release 1.2.2,2020-09-07 08:54:18+02:00,False
+b22c7e689fbe0db35194660d87526df44cadd6dd,[skip ci] Readme updated,2020-09-24 22:33:58+02:00,False
+c171eedee9dd3fff987cdf10a770b387dbbebfbc,Added Sep release to the list of tested releases,2020-10-06 07:43:46+02:00,False
+1b87966f30805638f1d0fd332ce79e04c155dca5,[skip ci] Updated to travis-ci.com,2020-10-26 14:01:56+01:00,False
+e8d97f1759d8cad9349a497a7d47eaa9b3b3f9ca,[skip ci] Replaced overview image,2020-11-23 18:22:40+01:00,False
+76050ee095f34707ae2c2b81e8b7c8be66bd225a,[skip ci] Adding release 7.7-March,2021-04-16 22:58:02+02:00,False
+7ccfa820a714715f978c395be991e588dfcd752e,[skip ci] Note 2021-March-Release requires 1.3.7,2021-04-19 09:49:36+02:00,False
+cb93a2f0eb146dc36f7d7db782a1fa56392e8082,Added 2021/May release,2021-06-08 17:58:10+02:00,False
+b1f0d0005027070e82d60a572d9f24f5f29ef868,"Added new config field: loginResponseTime
+
+#207",2021-09-03 08:58:28+02:00,False
+d0e34aa430f1265c7907dd1c1cac912ee94d8405,Dropped support for version 7.6.2 - Now 7.7-SP2 is last version to test with,2021-10-06 08:07:35+02:00,False
+3c996b635b77dd2516b385f1426fc930c686ef73,[skip ci] Links to Travis-CI fixed,2021-10-08 14:02:38+02:00,False
+7ef8db9408dbb4f5a5d04c9d33ecec4bfc9f4960,[skip ci] Updated 7.7-SP2-Branch info,2021-11-10 11:54:03+01:00,False
+f3e7c24dffd0761ec2532f47684a12b67484ffad,[skip si] Documentation updated,2021-11-11 08:19:33+01:00,False
+d4fbde693b988a61ef152ed9da19411e1307ae42,[skip ci] Documentation updated,2021-11-11 08:20:50+01:00,False
+da3b782107fcd342e0a288293157cb015a6945ef,Update README.md,2021-12-07 12:24:42+01:00,False
+6b184cb424d21ba217b4253136461b5ea6d5196d,Trigger a build,2022-01-14 09:02:24+01:00,False
+63d5d21af8206f10fdb4015cd95b66f6470997ff,[skip ci] Make more clear which version is required,2022-01-20 15:24:34+01:00,False
+c0f2c0fae7ef38ace26cc4d06f8ea0553a934b1a,[skip ci] Make it even more clearer,2022-01-20 15:25:12+01:00,False
+ae97d593cdc8a50c0c217ea3db64c2ed504e81ee,Update README.md,2022-02-25 07:46:58+01:00,False
+7f80fa3946c613e0e1ca9029b7fe58834a8a26c9,Update README.md,2022-02-25 07:47:31+01:00,False
+bfb710affc6508c3ef11685db0b2537ed313a206,Now using release 7.7-20220530 on develop for IT-Tests,2022-05-31 13:57:15+02:00,False
+ba3f330eb5daeb6961d619d4d29bf58b46665cbe,Update README.md,2022-06-01 09:20:50+02:00,False
+1ecee8e0eeccf1776d7f27b4cef9fb1c1cd0a300,Update README.md,2022-09-23 15:30:59-07:00,False
+524b8f8861d4b3f9a77f6e056cc4a46e8eb6ed9b,Update README.md,2022-09-23 15:35:06-07:00,False
+cb43388ca2e9225a72aedec5ad41e1bac69dbfbc,Update README.md,2022-09-23 15:37:51-07:00,False
+edcc450dbfc40e09ce3ce1e3d824d8ef06e71a80,Update README.md,2022-09-23 15:38:35-07:00,False
+857daad3972bd063e7266b41657c500a73e7f38b,Update README.md,2022-09-23 15:39:24-07:00,False
+0d9d34132f2e3f7eb90b93f1068b35caabbb50fb,Update README.md,2022-12-13 14:28:24-07:00,False
+b34f40931ef3ec1a17c0f9671caeb11bdda8afde,"Update README.md
+
+[skip ci]",2022-12-13 15:03:37-07:00,False
+b14402b55fc159ecae89bc32e4c7a0e832238a8f,[skip ci],2022-12-22 14:23:43-07:00,False
+869a0a6131843507cad21eb67a0b212cab2dc350,"Update README.md
+
+[skip ci] update readme",2023-02-08 22:43:26-07:00,False
+04e01b40d2823716af509d2a793a1a7f59190312,"Update README.md
+
+[skip ci] update readme",2023-02-08 22:44:33-07:00,False
+4329cca8b48d011a8e5b8d18501a8a8c571aff4d,"Update README.md
+
+[skip ci] update  readme",2023-02-28 11:38:23-07:00,False
+9684563f4cca2f4595e73bcb77157a4d3299e292,"Update README.md
+
+[skip ci]",2023-02-28 12:23:02-07:00,False

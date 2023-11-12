@@ -1,0 +1,15 @@
+sha,message,date,result
+8a07d86107fed0e1a706683ad92545b97db1136e,Create README.md,2014-10-15 13:26:56+02:00,False
+b7c203fc783b2dadc4d264b242fd58582b49c780,Add Travis status and link,2015-05-12 17:11:25+01:00,True
+d219c5b635394b144e3f3abef243ffc2674f7eee,Added Gitter badge,2015-05-12 16:39:42+00:00,True
+2735cce8725ef10b8807863e0100019b9ebf5e93,"Update README.md
+
+Adding javadoc.io badge. Unfortunatelly it only works with maven central, so it will not pick the SNAPSHOT release from sonatype",2016-07-27 10:07:47+02:00,True
+56e221a176dd9c9330bb286b41aba10494353662,"Issue149 add default locker to script (#257)
+
+* #217 - CA.search() work even it the CA does not have a parent workflow
+
+* Travis build status based on https://shields.io
+* Add default locker to Script
+* #149: remove new lines
+* #149: Add transactionKey to ItemPath and use it to retrieve data",2018-12-29 15:11:51+01:00,True

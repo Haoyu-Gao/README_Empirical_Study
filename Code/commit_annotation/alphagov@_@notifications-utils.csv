@@ -1,0 +1,57 @@
+sha,message,date,result
+00ad96beb889a8a38ac7b75fbcbbfa318451f073,Initial commit,2016-01-07 12:17:46+00:00,False
+4fb583cd678ded4844b367ae24cdcc962f96458d,"Initial commit:
+
+- sets up test folder / run_tests script
+- bootstrap
+- module config files
+- ready",2016-01-07 12:31:25+00:00,True
+4866a0f88ec61d3185011f64e34af60f64452d83,Removed travis image,2016-01-07 12:43:17+00:00,False
+7d68d0fc630575e8203109b308061ec0a8234f41,Putting travis build status on,2016-01-07 12:46:29+00:00,False
+f20275e27f54b10e9a7759c93f3a215840c01c14,"Use pycodestyle instead of PEP8
+
+PEP8 was renamed to pycodestyle; this issue explains why:
+PyCQA/pycodestyle#466
+
+This commit changes our tests to use pycodestyle instead of pep8.
+
+No changes to our code were required as a result.",2017-02-02 10:54:04+00:00,True
+6404e01b7c9f5c0d58d411ea52f044a553c63641,"Remove Travis badge
+
+We don’t use Travis any more",2017-02-24 16:58:00+00:00,False
+0f7dbf7ed3ffb9c9c28aa720837f665826f02936,"Update email validation to reject commas in local part of address
+
+- Also added a test to check that email addresses with a comma in the
+domain part are not validated.",2017-10-17 09:26:35+01:00,True
+177bc5f27dc7616c536d5ecd528f7c11ab963eb4,Fix a typo and formatting in README,2018-10-03 14:23:42+01:00,False
+22d8ca9391f72af2cc9cf034f93ae89ecfdc26c2,Add link to the docs in main README,2018-11-14 22:20:47+00:00,False
+8f57f624b0f77338f58d3bf80de1a6542e5c3652,Update dependencies,2019-06-03 15:40:15+01:00,True
+09edcb444c558abd951017bc98c8962bb972e032,"remove coverage from utils
+
+we don't use it anywhere",2019-10-30 10:56:45+00:00,True
+813c8cbf205b1536f867e15f55e05f56854233fe,"Make README simpler
+
+The README is overly verbose. I have stripped it down and removed the
+bootstrap script that is doing so very little that I don't feel it adds
+enough value anyway.",2019-11-19 10:26:52+00:00,True
+827c7535e84ddc9a41ade00845fc8c6112494d64,"Update README.md
+
+Co-Authored-By: Chris Hill-Scott <me@quis.cc>",2019-11-19 10:39:53+00:00,False
+6829efb5a1ec96f3934eccd4b9420739bca2beb7,"Remove section about virtualenv
+
+This is covered generically in the Wiki [1].
+
+[1]: https://github.com/alphagov/notifications-manuals/wiki/Getting-Started#development-environment",2021-04-20 17:05:52+01:00,True
+71f0a7b464b0e4dbe2c95b76e2ebc8564ec0efe0,"Remove broken link to nested README
+
+This was removed in [1].
+
+[1]: https://github.com/alphagov/notifications-utils/commit/332fe76d080738b5a2862c2371b81355e92a427f#diff-0b5ca119d2be595aa307d34512d9679e49186307ef94201e4b3dfa079aa89938",2021-04-20 17:08:24+01:00,False
+6930aa6e5bd9f256cd4e682f63a45379b33614d2,"Standardise tasks in Makefile and README
+
+This is consistent with our other repos.",2021-04-20 17:21:23+01:00,True
+ee7e00ebc9d74f1ccb19b6558c1df768760894b3,Standardise name in README,2021-04-20 17:21:25+01:00,False
+5becd3ca913ff24eab1b8eadafe78daf8d83465c,"add pre-commit hooks
+
+remember to install them for this repo with
+`pre-commit install --install-hooks`",2022-11-21 20:02:34+00:00,False

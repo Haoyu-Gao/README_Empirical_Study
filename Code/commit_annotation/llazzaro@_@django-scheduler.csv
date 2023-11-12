@@ -1,0 +1,99 @@
+sha,message,date,result
+d9f47806f8bf858b4188ee34514b749c66cc0ebf,change textile to markdown README,2014-12-13 15:12:19-03:00,True
+db44bf228c655edea94733471312e060e3cf754f,Fix new Markdown readme,2014-12-16 08:38:15+01:00,True
+76f6c918b668371c395578fb99ea42849399c415,Added Gitter badge,2014-12-23 21:18:24+00:00,False
+4ab21897864a5f8f520825daede66dcbb96798bd,add sample project link,2015-01-11 16:11:05-03:00,False
+e1125185dbe09f43dcf8173629f241c979af13f0,add bullets to information,2015-01-11 16:11:45-03:00,False
+81e5a223f013afd3d1d4c55a0d4e58106f5bae61,added doc,2015-04-08 16:41:13-07:00,False
+3d87c5a89b2e972986903d8005780ac5ad784d6a,add code health,2015-06-10 23:13:28-03:00,False
+93368257c345b61a7c65d34bb9ace93aa2712b69,fix #127. added instructions for django-bower,2015-07-11 02:19:08-03:00,True
+9f8c813d5ad631aa9d08d399f18a9a8a0231e238,fix #49 add readme,2015-07-11 13:42:33-03:00,True
+7a7b6a40c9b576bd66bf4b9e3c6e9af87138bad3,update donation addr,2015-07-11 15:39:26-03:00,False
+ca3d84e089dfd5d1e48389618307e9c12b537e60,update btc donation text,2015-07-11 15:40:58-03:00,False
+c871fea0b06f8485357b6c72adfdb6dc35d73041,remove tip4commit image,2015-07-15 21:44:48-03:00,False
+6de7078c75fbac6298a2ccf57afe7767f1d26a52,add metrics,2015-10-12 18:01:53-03:00,False
+bae80e24e57a4f2ffb4c11bc62e026ed7b861287,Missing django-bower as a pip install,2015-11-01 19:29:34-04:00,True
+f8f235598b65a4bf3b673c82537d4a825a020280,"Remove hard dependency on django-bower.
+
+Updated README to instruct users to install django-bower if static
+assets are not already handled.
+
+Fixes #151",2015-12-05 12:36:51-08:00,True
+bdfffe32e043f9e8df4e6e405a09a703aed7ee7d,update install step,2016-01-24 10:19:45-03:00,True
+3ef1be7b02a05217993b88bfe39e096679b0c719,Add read the docs badge,2016-01-30 20:52:30+01:00,False
+a0843225dc9179143d5217ece13f3a854a81f484,add tip4commit btc address,2016-05-16 09:55:59-03:00,False
+fd64b6f92c9fc40b6a22270444c52969476fd938,"Remove deprecated setting CHECK_PERMISSION_FUNC.
+
+Was deprecated in 2014.",2016-09-01 20:02:14-07:00,False
+cd1cf470b5529d4161483bf37b789147e63b6f11,* fixes #236,2017-01-24 16:56:32+03:00,True
+3f1049248204fde915cdb96b257514d8e5edce33,Update README,2017-03-19 23:01:30-03:00,True
+387fd66badfbe2bc021f476c4c26f2d1b4aab6d8,Add support for extending specific classes,2017-04-05 15:30:24-03:00,False
+35f0b8cc2476a2455624beaeba2564a236f63805,Update readme.md and tests,2017-04-05 15:30:50-03:00,False
+849a112f1bce011965661c10a8ae06b0cf39de83,Update `context_processors` import path (fixes #308),2017-04-15 12:59:19+02:00,True
+4f4ea9ad8d6c8301f181e0180a56b8fa953b6bce,add documentation to pull request,2017-06-25 16:42:15-03:00,False
+be9d5eaa006e256edf42ea55bbb5b88def117e77,"Add support for upcoming Django 2.0; drop support for Django < 1.11
+
+Django 2.0 is scheduled to be released later this year. See:
+
+https://code.djangoproject.com/wiki/Version2.0Roadmap
+
+Can begin testing for compatibility and bugs now.
+
+Django 2.0 is not backwards compatible with Django < 1.11, so support
+was dropped. The backwards compatibility is documented:
+
+https://docs.djangoproject.com/en/dev/internals/release-process/#deprecation-policy
+
+Supports schedules documented:
+
+https://www.djangoproject.com/download/#supported-versions",2017-12-03 10:13:36-08:00,False
+8e004edf77a16b002e1cb641a215f6bc4cb358fe,Add Capitalization,2017-12-10 01:22:32-03:00,True
+8bf642fbe02242a62cb63b5d75904594f29ac93f,"Update and improve project links
+
+- Prefer https over http
+- Drop unnecessary utm_* style ""campaign"" parameters to improve privacy
+- Use updated dateutil documentation
+- Drop comment with bogus URL to improve grep
+- For the read the docs badge, use the documented URL, https://docs.readthedocs.io/en/latest/badges.html
+- Prefer readthedocs.io instead of readthedocs.org for doc links
+
+Read the Docs moved hosting to readthedocs.io instead of readthedocs.org.
+
+For additional details, see:
+
+https://blog.readthedocs.com/securing-subdomains/
+
+> Starting today, Read the Docs will start hosting projects from subdomains on
+> the domain readthedocs.io, instead of on readthedocs.org. This change
+> addresses some security concerns around site cookies while hosting user
+> generated data on the same domain as our dashboard.",2018-01-06 08:27:31-08:00,False
+90de9c603a5f52a0329df1534fdf1ba033831c44,"Remove the SCHEDULER_BASE_CLASSES feature
+
+The feature is brittle with buggy edge cases. Use cases can be better
+solved through other methods such as the EventRelation model. Reduce the
+large maintenance burden by removing the feature. Results in cleaner
+code that follows Django reusable app conventions.
+
+Closes #357
+Closes #310
+Closes #306",2018-01-07 10:12:27-08:00,False
+70533ad4abe22a20ab24ba9bb65d9640acb60457,Fix all spellings of occurence -> occurrence,2018-01-07 13:20:15-08:00,False
+5ff161f1fd95f8fb4877131922e01990d4b97288,"Remove broken pypip.in badges
+
+pypip.in is down. See the following for more details:
+
+https://github.com/badges/pypipins/issues/39",2018-01-08 20:07:46-08:00,False
+b6d1d9b5d8d0f9055f1539974df3388317c3cd1c,"Add tox.ini to allow testing the full test matrix locally
+
+tox is a virtualenv management and test command line tool. It is a
+powerful and commonly used tool for running tests across multiple
+environments. This allows locally running the project's tests against
+the full test matrix of supported Python and Django versions with a
+single command.
+
+For additional information on using tox, see:
+
+https://tox.readthedocs.io/",2018-01-13 15:02:29-08:00,False
+6fd7c610bb99fdd8db9a1b7f60b79e71baff7322,Remove donation,2018-02-05 01:11:18-03:00,False
+4f0414b28facc72ac564ae1b196e30508563b8cd,remove code health badge and add pre-commit,2021-05-19 19:28:15-03:00,False
+172700476a2e7fc9db5f65dc590e9260190bccaf,remove travis badge,2021-05-19 20:30:43-03:00,False

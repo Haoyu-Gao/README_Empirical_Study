@@ -1,0 +1,42 @@
+sha,message,date,result
+289752ace8fe7d784c50e3cfa9883aab4a3c6463,Initial commit,2020-08-18 14:21:15-07:00,True
+0e77540c59b9c22654b585b2127ca3f7f2c2ba9f,Update README and docker-compose.yml,2020-08-18 15:06:31-07:00,True
+a9724a68401c37b6df8ebd9ada4fc3f5ba923419,Update README.md,2020-09-15 18:43:02-07:00,False
+d0fdd4abf2b1a3f3c9e8a2df383dc5a63f0dd956,"Update README, fix dockercfg warning",2021-01-13 08:08:47+00:00,True
+1913baf08c978249bc7f07bc59d7722c2ad3b051,Document core_pattern,2021-01-15 01:15:05-07:00,False
+578c904d0050cff64d2b870b4e559435713fbca8,Update README with automated setup information,2021-02-28 23:44:15-07:00,True
+3dc59a339282e36c0c07bcc64882a6b09c9fe508,Cleanup,2021-03-01 00:46:26-07:00,True
+528549909c139527f44f0d93c4c1ab0124b84033,Reword,2021-03-01 00:47:52-07:00,False
+076f7cd3d32528a8a10ccbf60811a2277a0e21d6,Fall 2021,2021-08-18 19:51:50-07:00,False
+b0edc8abcbb91b916d0f7c68e953daecdc335ee5,Update README with setup,2021-08-18 20:01:03-07:00,True
+f2d3dc905ffeb6665712b458b2da398f4bc0f85e,Add build step,2021-08-18 20:02:47-07:00,True
+4291b67347f66d8c8102c95414f90f5d545de0da,Kill and build,2021-08-18 21:59:48-07:00,True
+d6aa3efdb24ac41274695da15c53567dc4e402a6,Update README with challenges structure information.,2021-08-22 15:32:10-07:00,True
+e7538d5b9a5ff21b18b51a70483757273eb7f6ce,Add info about modules.yml,2021-08-22 15:44:59-07:00,True
+81161291c0ea242bf38dc2fb3aba145e2ca59683,Update README,2021-09-20 17:49:18-05:00,True
+8a207ed4030a93ad2824d42883649be436afcd33,Fix grammar,2021-09-20 17:52:26-05:00,False
+c4fbd17079714b3ecb832b4fd7f0a10129b19524,Add git setup info,2021-12-15 14:12:49-07:00,True
+c4b1a2889ee2c0c75495744df6a328d1143dca6c,Update information about current modules.yml structure,2022-01-05 17:49:50-07:00,False
+c1cd5792e25111d4fad57b66a395be7aa5a0f7ab,Simplify example,2022-01-05 17:50:33-07:00,False
+7b1b5d6ec6ad8b622c5048d73630b032a66c8777,Add more setup info,2022-01-20 14:05:56-07:00,True
+e46f4400437dcdb813cbadbba69ecd143c22c234,Change default admin user,2022-01-20 14:23:13-07:00,True
+84d47560ff930d861e6f75751d10f28d51bdbf0a,Lots of dojo plumbing,2022-08-23 11:51:46-07:00,False
+49f94d3087bf72f8b06c138044b9900c1f66f87b,"Support user-selectable ssh port (via env var) in run.sh (#79)
+
+* env-configurable ssh port in run.sh
+
+* doc",2022-08-23 13:20:50-07:00,True
+4a53e210c5b326dfab0f5d945136124e1fb27451,Fix README,2022-08-26 13:23:43-07:00,True
+74d7b2ed6ca50ed80a84a88c9c29c5f524d009aa,Update README,2022-09-08 12:04:43-07:00,True
+8a0fac625bd5a0db3e330686c77acb667ca3aa8e,"embrace the new order: no dojo.sh, just docker dojo",2023-03-24 22:40:55-07:00,True
+246fe3248192c305a5e3c83f2081ab748b034027,update readme,2023-03-24 23:57:45-07:00,True
+e8545b35b6fb82483b28cdd09480b114f1d4a628,"Update outdated README (#159)
+
+* Update README.md
+
+* Update README.md
+
+---------
+
+Co-authored-by: Connor Nelson <Connor@ConnorNelson.com>",2023-04-10 15:31:51-07:00,True
+bbbb038ee3240a06e13de93f5aed10f513c0081e,Running dojo on MacOS,2023-05-21 16:20:33-07:00,True

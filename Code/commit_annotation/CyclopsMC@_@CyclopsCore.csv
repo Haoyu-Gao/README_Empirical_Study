@@ -1,0 +1,24 @@
+sha,message,date,result
+779c2ddb2357e662156d61ff5d15d47cfd7254a3,"Create README.md
+
+[ci skip]",2015-07-24 17:35:19+02:00,True
+0717afa67bb64f1ff2e9dcb33e66a35583bae0ae,Update README.md,2016-03-14 20:11:22+01:00,False
+a4e8cd192ca698c9fecc9a16315384bded7f9b35,Fix Travis branch in README,2016-10-09 09:56:59+02:00,False
+ba01ae3e8c2a4c988f324382a328ee11d5f3ee3f,Add curseforge badge to README,2016-10-09 10:11:52+02:00,False
+d0e7e50e18322c6710deff04e6fbee84e658f34b,Fix Lombok URL,2016-10-09 15:47:03+02:00,True
+e9f35bbf73957a0a512a5d99305f699d601139ba,Update default branch in README,2017-06-18 16:12:10+02:00,False
+4437ec183dc66ad3df729ea5092351f86fdcb839,"Fix curseforge link in README
+
+updated the url for the curseforge project files",2017-11-06 19:10:39+09:00,False
+2bacf04b1ec9b804a7a155e6ed99e50ceeef9362,Update dev build info in README,2017-12-06 20:08:52-06:00,False
+9ffda2bd81239e968200a56bb3073183678c3fa5,Update maven repo,2018-01-04 10:23:00+01:00,False
+43116c8bf458c3f0ae20d96c966bb36ca25ed3e7,Add Discord badge to README,2018-03-20 17:12:27+09:00,False
+daed19594cd37f1b9c254f475c84cfc3e0600fa1,Add test coverage reporting,2019-01-07 20:43:54+01:00,False
+e93948afe3da90ec656d33dbc4ee5cb6ad9da5cb,Update maven link in README,2019-02-05 17:27:54+01:00,False
+c7bc6af6ce26d9e70ad9324dd203ccc0039fbcbc,Fix javadoc errors during building,2019-08-25 14:17:40+02:00,False
+7c4293342f23c27951f365b51dbb39cd2559d4e0,Bump mod version,2020-08-07 12:00:41+02:00,False
+c142bd423dfaab5711441021438c15009f993ebb,Update CI badge in README,2021-01-21 19:19:53+01:00,False
+6b8f4eab784e52d1656c777ee328ed1ccb0a8340,Update usage in README,2021-05-04 20:26:51+02:00,True
+bb15d724d9230860bff60d836a4659ac2c42e6d7,Update link to dev builds in README,2021-08-24 18:12:50+02:00,False
+711da52dfa49ddf06cbde96be4758320d04272bf,Cleanup build.gradle,2021-12-16 17:18:22+01:00,False
+d0765ea16f2749e8e2e88a42aa7ed2a34197beb7,Document cursemaven,2022-03-10 18:17:14+01:00,True

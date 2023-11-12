@@ -1,0 +1,256 @@
+sha,message,date,result
+2f81564ce76689767061fb9910c1a62e31c86ba2,Add long description for pypi package,2022-10-11 17:26:50+05:00,TRUE
+24e6248b22084c6bdb207d7daea14d74a4e74601,Add smapel code in pypi Readme,2022-10-12 15:11:29+05:00,TRUE
+177a268b567641d8de8e72adc334a94a6715df47,Update readme,2022-10-12 15:13:05+05:00,TRUE
+1ec1d170ea995bb442a209aa3441c6ccaa943ea8,Update Readme,2022-10-12 16:01:57+05:00,TRUE
+a0f79879ba004702552ccddb7c97b4c70dc1ec23,remove torch from requirements,2022-10-12 17:00:32+05:00,TRUE
+47628bd0c66b9350d80a18fea21815ab930753cf,merge,2022-10-12 23:35:44+05:00,TRUE
+e1d25a54d2fa32b8d08a3283ea91aff2cae86206,Update build tools link in pypi_readme,2022-10-25 13:51:11+05:00,TRUE
+9521b16d0f0d81a82a7922fdeb19d3132018a37a,Update Readme,2022-10-29 18:39:08+05:00,TRUE
+c4004ef78a9f0176da6287fe6818e2a934b2cf78,Initial commit,2022-10-31 18:33:52+02:00,FALSE
+c326618c6d33970b78f646c0adfd210ac5ddf11d,Create README.md,2022-10-31 18:37:48+02:00,TRUE
+86285cc7d2b3e59131f8535b1779320ade066f5a,Restructure project,2022-11-01 11:18:25+05:00,TRUE
+7052a2360758e4842283400cdd98432ffe7d472a,Change demo commands,2022-11-01 12:12:44+05:00,FALSE
+d09bd66f03a0b6b644ffd1292478dd7884249821,Updated Structure,2022-11-02 14:02:26+02:00,TRUE
+2878181d81ada1dfa7e1bb38db4e60574788385d,Update README.md,2022-11-02 14:07:08+02:00,FALSE
+d88e3d14991c2371773255cfcf36439f06920861,Update README.md,2022-11-02 14:07:47+02:00,FALSE
+ac7c3d36d4dc94dace710a235f181ab0783878d9,Update README.md,2022-11-02 14:17:19+02:00,FALSE
+063052bc4d787ebdb394bc63123cc2572b72cf66,Update README.md,2022-11-02 14:17:57+02:00,FALSE
+4c4736c7706ebded316518affcd423d7409d17d5,Update README.md,2022-11-02 14:30:13+02:00,TRUE
+cbc0520249cd949337e770ae2ed1fe5a903b641a,[Asone] Update Readme.,2022-11-03 15:35:25+05:00,FALSE
+e21266c2b5b88dec91bda7a4231c7c0d20d60cbc,[Asone] Add instructions for tracker,2022-11-03 17:01:46+05:00,FALSE
+8649b0a4b6849feef98c640aae09c9db339ec652,Update README.md,2022-11-03 15:02:39+02:00,TRUE
+0cd93a46d916008a01cb5b08f245647be983b4f0,Update README.md,2022-11-03 15:04:24+02:00,TRUE
+63c40886e7c10db018a9b0c6dbd7e9a2a0890ab5,Update README.md,2022-11-03 15:10:02+02:00,FALSE
+63a4ca0320ce6dbd4a7adea58a32ba55efef960f,Update README.md,2022-11-03 16:02:43+02:00,TRUE
+beb0544a4a3b645c79efbf062bc31dc3b79f8e52,Update README.md,2022-11-03 16:11:10+02:00,TRUE
+1f514b59626f3da088393c81e3d4fccab83ca4a8,Update README.md,2022-11-03 16:28:38+02:00,TRUE
+fd2d070948d027f968472614d0953c5926b6d69f,Update README.md,2022-11-03 16:44:41+02:00,TRUE
+020e6a44851b86a40732d82ee811aeacc3c33f04,Update README.md,2022-11-03 16:47:28+02:00,FALSE
+add3436ba9545f75800d8a2466b426ac14d059a7,Update README.md,2022-11-03 16:49:18+02:00,FALSE
+b878387214f19378a10c3b20eb3669b2eca367c7,Update README.md,2022-11-04 09:48:38+02:00,FALSE
+438ce961a10218544cb29f5c69be04fcc18adea8,Update README.md,2022-11-04 10:22:58+02:00,FALSE
+dbe58728765e16bcfa8854f8b1cc0509b523f505,Update README.md,2022-11-04 11:15:32+02:00,TRUE
+a1be8b4e8c502e96fc2916f90ac12424f4390503,Update README.md,2022-11-04 11:41:09+02:00,TRUE
+cb5f66549fe40898e080798e4c63a5399955ae10,Update README.md,2022-11-04 11:52:41+02:00,TRUE
+a455e900cfb40b5ec0615230225ed559f3a6a3b9,"Update README.md
+
+Fixed the use-cuda argument",2022-11-04 16:06:55+02:00,FALSE
+6f8867a7d5940ba42cbab9d9e6e6bdb6932b3cd0,Update README.md,2022-11-04 16:08:34+02:00,FALSE
+6544061022ff8af30252ddc48a7a31fcf8d5025f,Update README.md,2022-11-04 16:10:11+02:00,TRUE
+11333ba09b72e5993e61e782800c573e6d24c5ee,Update README.md,2022-11-07 10:02:24+02:00,TRUE
+bbc91cd4191675d0f8afe85ed7261b6ec79fc3d5,Update README.md,2022-11-07 10:04:25+02:00,FALSE
+536985e323c195ff16b50b0c69b6dc7c168d9eba,Update README.md,2022-11-07 10:05:46+02:00,FALSE
+5c368bcf27ad94e06dbe3d82a4f4245d413c22bd,Update README.md,2022-11-07 10:07:09+02:00,FALSE
+b16552b3ca43c32fcab6d20e4ddd640bdc599785,Update README.md,2022-11-07 10:07:45+02:00,FALSE
+d0553e8f3d3b515b8025cbba606fd54a95b6d17f,Update README.md,2022-11-07 10:08:38+02:00,FALSE
+207bb73d1fb24028b7597abc4ca7ec27f144781b,Update README.md,2022-11-07 10:16:48+02:00,FALSE
+f8b8388216f9ab44c1d62a9c7dd34b350a7febc6,Update README.md,2022-11-07 10:17:12+02:00,FALSE
+467307997de90eb0fda54cc3f748b71322c9c386,Update README.md,2022-11-07 10:17:30+02:00,FALSE
+c30a135b25dc1ea111d8a41d93e7e0408460eb0d,Update README.md,2022-11-07 10:21:50+02:00,FALSE
+7f72afa540e2e5e80cf50037b42f861cc9b3b101,Update README.md,2022-11-07 10:28:28+02:00,FALSE
+4fc08ef5be77636e954e0bd84d69ec7578505fe8,Update README.md,2022-11-07 10:28:49+02:00,FALSE
+5d78e90e74d1c4bc01d14607d2c0d8b155b05142,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2022-11-07 10:45:39+02:00,FALSE
+b12c0ef9cf3473de4e1fab694a3c3047d1788c0c,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2022-11-07 10:59:15+02:00,FALSE
+3ab71b15e22f12b3a6f5ceae2ef76bd743b205d0,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2022-11-08 08:01:57+02:00,FALSE
+dabf9b4d8d2eb22e0469d167af71f718fe8b4fa2,Update README.md,2022-11-08 18:45:16+05:00,FALSE
+d7dd78cab2a7a9f89bb28e2882a2846d1ce09ddb,"Update README.md
+
+Signed-off-by: Shehryar Malik <shehryar@axcelerate.ai>",2022-11-09 14:59:00+05:00,FALSE
+f2a679206d67ee98585b094e7f9d9bc7b84146ee,"Update README.md
+
+Signed-off-by: Shehryar Malik <shehryar@axcelerate.ai>",2022-11-09 15:00:30+05:00,TRUE
+c2ce9b1c5cfbd7ea6b14b381a967e4bfb17be4a8,"Update README.md
+
+Signed-off-by: Shehryar Malik <shehryar@axcelerate.ai>",2022-11-09 15:01:09+05:00,TRUE
+f357b6d961a9b7e919074f46d6033b63ca40c6ef,"Update README.md
+
+Signed-off-by: Shehryar Malik <shehryar@axcelerate.ai>",2022-11-09 15:02:36+05:00,TRUE
+dafc0956b6187c17e5967123e25768e2ca0520ca,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2022-11-10 10:14:11+02:00,TRUE
+98f8c5719245b05306b4964a6e0a53c9406884bf,[ASONE] Add instruction to use class filtration feature.,2022-11-11 17:04:56+05:00,FALSE
+4eeebeaad72ba6c8ca604f26a04fe39141aa5a66,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2022-11-14 09:15:32+02:00,TRUE
+267b54f5c06c620894959361efa711863def0dfc,"Added Google Colab Version of AS-One
+
+We have added a Google Colab Version of AS-One which you can run on an PC.
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2022-11-14 09:16:52+02:00,TRUE
+c6e020405255d56b11fff68aeb6310a9a36b74c9,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2022-11-14 12:08:16+02:00,TRUE
+1bf0bbab8270b0ffc001923bda83315bc86ac5ba,[ASONE] Add custom weights loading instruction in README.md,2022-11-25 15:35:34+05:00,FALSE
+0608eee5d30d815f0317b4958eed791e50ac4cb0,Update TODO list,2022-11-25 16:54:43+05:00,FALSE
+ed193ab3833fdb201fe5b71ea44b6779040c627c,Add instructions for custom_weights,2022-11-25 17:59:47+05:00,FALSE
+3bd91cd7a883eee4a1f2df4b87f516e23cc511b5,"Update README.md
+
+Updated Google Colab
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2022-11-28 16:45:00+02:00,TRUE
+73c56543381fb5974dfc979005637fd9926c0531,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-01-04 16:05:46+02:00,TRUE
+7b5f300ddbc5dc6684769b3a294cb11d49a03044,Update README.md,2023-01-18 16:21:36+05:00,FALSE
+bdb9a2f66eaa074648b7680aa772fc2defe3e621,Add detector kwarg,2023-01-18 18:35:04+05:00,FALSE
+dc0bab33be8f3c7537229a437bb97c231c9ec331,Update README,2023-01-19 12:47:44+05:00,FALSE
+1686e330afc842e7fde444b43d76ef8c73b2fabf,"Update README.md
+
+Updated for YOLOv8
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-01-19 14:22:13+02:00,FALSE
+05da518310ee8f95b2876b7192377fee4591b0bc,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-01-19 14:22:56+02:00,FALSE
+f85d3e420f12fd8f485080b60b101a898e217f88,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-01-20 08:55:16+02:00,FALSE
+fbef667de5f60c6079a3fea8c396978254648462,Update README.md,2023-01-25 13:37:02+05:00,TRUE
+e0cdd787e2eeb34cedbcf05080bf35dbe0fa6bd8,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-02-01 15:04:21+02:00,FALSE
+f0bd77083541e16a775fc8b23f1f3bc49a8acf21,Rename files and classes,2023-02-23 21:23:35+05:00,FALSE
+dc4500de4e02989cfd52aed7b328d131b8316b24,Update README.md,2023-02-24 19:58:26+05:00,FALSE
+11d443abde985e20efb624f8477a6c95b3f2bddb,Add instructions to run demo_ocr.py,2023-02-28 16:35:58+05:00,FALSE
+5912421995ef1f1d59f37b449cf34fbe975a0b15,Change image extension jpeg --> jpg in detect text,2023-02-28 19:59:26+05:00,FALSE
+3fd918685620fc55b75d1a3376741f693a51b2d9,Change recognizer STANDART--> EASYOCR in detect text,2023-02-28 20:18:58+05:00,FALSE
+b06e71914e993c24b2e7e4d70b5bb434871c00f9,"Add space after ,",2023-02-28 20:22:58+05:00,FALSE
+eadf7a177f4175e8e053264f6e7da6ede8f4873d,Rename image sample_text2-->sample-text,2023-03-01 21:19:02+05:00,FALSE
+72207b4aef1605cc4a60f376ca318c19b679db90,Change jpg to jpeg,2023-03-01 21:32:05+05:00,FALSE
+2d09bff4004e3135e1a74fbc64dba552d69f7930,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-03-08 20:56:47+02:00,FALSE
+fecc9deead83a5da301c7cad6eec93c6f07886ec,Add sample code to detect text on video,2023-03-10 20:51:49+05:00,FALSE
+05df7c119af99e8e478caf613a750900cd88b04a,Add sample code to detect text on video,2023-03-10 20:53:18+05:00,FALSE
+4ab7d90dc9fe62613a7890b2db97bbcc002d6ac5,Update Readme,2023-03-13 20:47:39+05:00,FALSE
+908bb4b516d3e05bd8b890ba3eaf25e8f5dd7926,Add instructions to track text,2023-03-14 15:50:21+05:00,FALSE
+d592628fb0aedb32b817a08eabe7be9a476fb294,Update Readme,2023-03-14 16:08:33+05:00,FALSE
+91fc73e909f1c8fc525bccccea77154b7f5718ba,Add instructions to to track text,2023-03-14 19:39:36+05:00,FALSE
+596c27447a8ab713586c500f6fc5ebe9ee0b0fd3,Add sample code to detect text on video,2023-03-15 13:51:41+05:00,FALSE
+a883570f524b7a876d80da03dbb2d21e96893526,"Replace dt_obj and track_fn with --> detect, track",2023-03-29 11:48:31+05:00,FALSE
+357378e6799b9ea2b1eefdb4e86f58235a30727c,Replace text with ocr in text detector,2023-03-29 12:41:47+05:00,FALSE
+9454e9039fd79ff410a0b03a6b4c88072f408e39,Add sample code to detect text on video,2023-03-29 15:11:45+05:00,FALSE
+30af6634953fcdfa09b507089eae2dcf5dca3e8e,Change default text detector to CRAFT,2023-04-03 20:12:35+05:00,FALSE
+4d2c84799716ac9f16976aa7c4e4fbe9d195dea3,Change dummo video,2023-04-06 15:49:22+05:00,FALSE
+9ba697092291c030b642d7110c636256a57baff3,Change demo video in text detector,2023-04-07 15:00:28+05:00,FALSE
+38bf0f57463d5007186cc15bb615252f14b3236f,"Mark ocsort, strongsort, motpy as done",2023-04-07 15:04:25+05:00,FALSE
+be6cedfb182d23252dd8b58408777e6d0cb057ec,Change sample video for text tracker,2023-04-10 12:09:51+05:00,FALSE
+c99226f8a04d7b2d11d962d58d2a6b79263f8d2d,Change sample video for text tracking,2023-04-10 12:58:52+05:00,FALSE
+44b751df0dc246d613378a8b3b6fb18ea47b12a5,chnage bytetrack with deepsort in text tracker,2023-04-11 11:30:36+05:00,FALSE
+0887ca1c5f19c765209b43a1cbdca0ade2c0780c,Update README.md,2023-04-14 12:34:26+05:00,TRUE
+ad25967d4914d7230cd829ab2a2b044c1e2437e7,Add sample code to test coremlmodels,2023-04-14 13:30:06+05:00,TRUE
+68a70071e80c40def5a2f7c226ef645d1ea8c5d4,Add instructions for macOS,2023-04-14 16:08:51+05:00,TRUE
+58155b7a6fa67f13c66aeb6d8db374265406c02e,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-04-18 21:45:19+02:00,FALSE
+86ec99268c6a58ea8fd88c4f27d036662e11f9d3,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-04-20 13:18:17+05:00,FALSE
+ecd7f394c45ae4b0c65938491601710997d89080,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-04-27 18:09:14+02:00,FALSE
+b025c666737a88a568bae2fa45f45beb5435b7c7,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-04-27 18:11:28+02:00,FALSE
+7c945fed4c56a42bd56dd9753b0138fb5261a457,Add instructions to use pose estimation,2023-04-28 11:42:16+05:00,FALSE
+f0ecc14a06158ee49de13b0a2111f436ad412bf8,Clean installation requirements,2023-04-28 15:06:25+05:00,TRUE
+62ce202175f6626f697b3a327c6626a96f754fd4,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-04-29 23:50:34+02:00,TRUE
+f33859d8ffeb0b8a195368960ce3fc28a7b54710,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-04 08:25:54+02:00,FALSE
+0bd3b3a11abb891662493c20e3449f5814ff8770,"Update README.md
+
+Changed bench marks to Model Zoo
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-04 08:27:31+02:00,FALSE
+fdde9236e05d0c247778e50fa2e4b8146e906b4c,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-09 12:29:04+02:00,FALSE
+efcc3a860edbb0b44df08d6a6a893c7cbaed83e4,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-09 12:29:43+02:00,FALSE
+f746bb4483e7e05366ddf59fa4e5172be37e525a,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-09 12:33:48+02:00,FALSE
+fce0b95423baba2652949aa9bb8b5e29dd10dd43,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-09 13:09:41+02:00,FALSE
+28c1eb83f9fb4a0f396c9a6b996467272c4f2b64,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-09 13:23:23+02:00,TRUE
+a3243f33b3a57a17f2bd581910d7f36ce755663b,Add super-gradient,2023-05-11 00:26:11+05:00,TRUE
+56d4ea7b4f89b223a587fd38f58f94ebc085faeb,Remove extra requirements,2023-05-11 00:27:28+05:00,TRUE
+cab0e8c3c2781cbd920772e1957162824a841328,Add yoloNAS in todo,2023-05-11 00:28:52+05:00,FALSE
+559029696546bd5e9224dfb240fc230c4c2e7638,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-11 13:34:51+02:00,FALSE
+c832464f6f3fd84c58e275b5ccf2bae90e5460ed,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-11 14:47:01+02:00,FALSE
+6069d45a5c27f99fb3471a21af11bd6186a8dc7d,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-11 14:48:11+02:00,FALSE
+180843a385821a400a1b2901978f733b2aa45454,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-15 18:16:28+02:00,FALSE
+1581abb826cdcaa11bcb0275d7e5332254a24c17,All lap in windows installation requirements,2023-05-17 17:46:55+05:00,TRUE
+f8716fb2f0d38a5a5ddc02c074e4a2243d379417,Update README.md,2023-05-17 18:32:32+05:00,TRUE
+8799e20c79a6adc9dc3a47f07b49d73824acb872,Add super-gradient,2023-05-23 18:52:02+05:00,TRUE
+d64ff22c8415c6b6ebf67af0b9e19d770cdf82d9,Remove extra requirements,2023-05-23 18:52:02+05:00,TRUE
+41d3a2af43299b3ac96323e1a95c61ccf6e9cfd0,Add yoloNAS in todo,2023-05-23 18:52:02+05:00,FALSE
+491a70b748e4f772a68f8bcda4c437c73205a21e,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-23 18:52:38+05:00,FALSE
+fc98dd0ce6070cacad8e0d3e91eb4e58d299d319,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-23 18:52:38+05:00,FALSE
+47d4558dccb1cc6079f2242699cbfc0b2422c271,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-23 18:52:38+05:00,TRUE
+e9b392219b59e25e0191773974ac43c5afe8a90c,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-23 18:53:09+05:00,FALSE
+b50c620c8f3d5914d6904945b6deb8763aa13f02,"Update README.md
+
+Changed bench marks to Model Zoo
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-23 18:53:09+05:00,FALSE
+9566d746628fc608a3cdce4d7d4c14db5a97be19,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-23 18:53:09+05:00,FALSE
+687bdbfdcf08f8297723e0438c99fff08594d90b,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-23 18:53:09+05:00,FALSE
+7cd7cd5b6917fea808a48209b50781ba47e18643,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-23 18:53:09+05:00,FALSE
+b4c242d3bea5c92b9939b3aa2dbb334f2247c445,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-23 18:53:09+05:00,FALSE
+6a4cd32136273dd80c5914ca812ef3a529e689d4,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-23 18:53:09+05:00,TRUE
+52458ee36223d8f6516389b8112bf2ec0ab9f52c,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-23 18:53:09+05:00,FALSE
+7a5f9b1a5c95d94fbe68a47250e5f718103ad2a8,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-23 18:53:09+05:00,FALSE
+f460832c3b2ab0906d6d6950ef2fa612a1ccbcca,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-23 18:53:10+05:00,FALSE
+7f80ace42b93a3250b638be5eb4da58c3745b0a9,"Update README.md
+
+Signed-off-by: Augmented Startups <reigngt09@gmail.com>",2023-05-23 18:53:10+05:00,FALSE
+ebd1604dcc0993e1150b354dd8433b98fa37a16a,All lap in windows installation requirements,2023-05-23 18:53:10+05:00,TRUE
+dad2c01d54dd22c054bf11007fd6761f4275cc5a,Update README.md,2023-05-23 18:53:10+05:00,TRUE
+ae25a885c27f6f721641652c9f557ed7486c460f,Add torch,2023-05-23 20:19:50+05:00,TRUE

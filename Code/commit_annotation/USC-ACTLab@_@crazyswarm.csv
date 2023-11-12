@@ -1,0 +1,26 @@
+sha,message,date,result
+1ec513fec3f9917195ae398e8814e8142a1f12b2,add readme,2016-06-28 14:58:04-07:00,TRUE
+5c6cdedebbbfd099751614919fdfc4a143516dbc,updated readme,2016-06-28 16:20:19-07:00,TRUE
+c6f8abdf5c92f20560591503828abf267316bbef,update build instructions,2016-06-28 16:50:52-07:00,TRUE
+c6ece64035177bba72bc202d039f962709223ee5,delete obsolete comments on suhetao EKF,2016-07-05 18:32:08-07:00,FALSE
+f769052eb8772825146ef0b56a6040fb16c3aebd,big README update,2016-07-05 19:02:34-07:00,TRUE
+df706c4b65c7a4c50d485295a53b89bfc1ea7a9e,add crazyradio firmware,2016-07-07 19:35:03-07:00,TRUE
+fe62ab9b860e3edbf0f97fbea80c2d032dc71cd8,update submodules to latest versions,2016-07-12 22:50:25-07:00,FALSE
+4f825095fc35a804c5c789bc985be6fd81e55e7f,script updates,2016-07-26 20:45:49-07:00,FALSE
+e2e1c8eba6956a50ec85e4b448c61d0415a6522e,update description for simulation,2016-08-26 16:30:43-07:00,TRUE
+afa8cd4d492e6a5f19cda9a854ac678ef9eb1fe7,small readme and script update,2016-09-07 12:15:58-07:00,FALSE
+2b852e9aa4d6c75e9252091ef80990d0a29fbd1f,remove unused submodules,2016-09-15 15:34:25-07:00,TRUE
+dee1c79744a18cee784f1ef701aa019a9b30d70b,Update README.md,2016-09-15 16:00:35-07:00,FALSE
+6d8f0f58448bba6b628ac9ba5d5f76972a8768d6,add LICENSE; add readme,2016-09-15 16:37:17-07:00,TRUE
+a6c265a07c3e5b34a7fc977cd54f8616f2ef35ba,improve readme,2016-09-15 16:46:59-07:00,FALSE
+fc03600452a71b002bcf32d4be65d59bb8909f90,fix a build error related to a wrong referenced firmware version,2016-10-27 10:51:11-07:00,TRUE
+e8113fbae17b94c9156a9454672bcfdf3d33587e,add simulator to build.sh and update instructions,2016-11-03 10:59:36-07:00,TRUE
+1ceef592f2300c9ff48822fef8bed3df415ebff9,fix a build error related to a wrong referenced firmware version,2016-11-09 10:49:52-08:00,TRUE
+59afb6839c08c91ad9c062713cee27446eb52db9,updated readme and crazyflie_ros module,2017-04-08 15:53:05-07:00,TRUE
+ae09e7a5ac96d372b77b80b6fff722b5fd19b6e2,point to the readthedocs page,2017-05-30 17:59:45-07:00,TRUE
+a609641981048f0fb2a4dd1936c70b86732c0926,Enable Travis CI,2019-03-28 14:19:58-07:00,FALSE
+d3bbb6ae3218bd7ebc555270844b5d896e4361f3,switch to readthedocs config v2,2020-01-13 15:35:14-08:00,FALSE
+4afb570b1dde4cacf8c5d0e33ac786af5223e9f0,retire Travis CI (#262),2020-10-17 15:06:20-07:00,FALSE
+2dd62cb3597ba093495a20d9ab222d405e7cc77a,add discussions vs. issues pointers in readme,2021-02-20 15:09:33-08:00,FALSE
+fb082e7cc3f0c574cc249909b4330bf2057da766,add maintenance warning and link to Crazyswarm2,2022-12-13 17:27:29+01:00,FALSE
+784650a0145174f1b0463fdf3729a34504e71709,docs: update language info,2022-12-13 17:30:53+01:00,FALSE

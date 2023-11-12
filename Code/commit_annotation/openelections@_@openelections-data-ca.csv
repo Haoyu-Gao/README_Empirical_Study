@@ -1,0 +1,18 @@
+sha,message,date,result
+3e27ad80086374e76a5a5865298210f1df9d106a,Initial commit,2015-08-16 13:38:32-04:00,False
+ed2b8387d97849d3b0feb81d8dad5b7343b56b8c,"Add LICENSE.
+
+Cover code under MIT License and update README.md.",2016-12-10 15:32:05-08:00,False
+6e4322351de3b127ad5caf94fb64cd694da38d85,Add Travis CI badge to README.md,2017-01-15 15:08:22-08:00,True
+2485cb417f06bb230686c6514ef4c9237c656706,"Update build status badge to reflect GitHub workflow.
+
+The tests are now run via a GitHub workflow instead of Travis.",2021-05-06 16:22:05-07:00,True
+784f14bf6771c687251d4b026a7ea81fcd149d82,"Use common collection of format tests.
+
+This allows us to use the same set of tests across all the data
+respositories.  Note that the tests from openelections-format-tests
+don't check for required column headers yet so that test has been
+omitted.",2021-07-06 13:32:49-07:00,True
+1eddf29307b02c2e877e77cf1fea4ba1066719fa,Add badge to indicate status of data tests.,2021-08-19 09:13:04-07:00,True
+5a703fc4acf56516cdb546860fa9c3d997a22134,Improve workflow badge links.,2021-08-19 09:13:40-07:00,False
+41887224350f95c37987a54d046ef8fbdc980317,Bump data tests to version 2.0.0.,2022-04-11 08:11:00-07:00,False

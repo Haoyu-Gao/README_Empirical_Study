@@ -1,0 +1,69 @@
+sha,message,date,result
+30bdeed0711724ee4ec749a658eb8d796a24b541,readme,2016-01-25 22:56:35+00:00,True
+58133546a44ba67d5044e7b1127474eae61a7d74,passwords info in readme,2016-04-07 17:17:23+01:00,True
+dacb03a4647d5184cd1193ec69aca433066eed46,Updated readme with dir info. Refactored build.,2016-06-21 12:29:26+01:00,True
+0b872c1f907e21ff5184bc973ca665db8d9bf5a0,update readme,2017-02-14 18:16:13+00:00,True
+c328e2adb31ea1996ae99d3575506b131187a560,instructions to add run config.,2017-02-14 19:29:06+00:00,True
+17a73dc84d01bbd18f06bf11a015c9bb2093184d,Update doc for building and deploy,2017-11-17 13:05:21+01:00,True
+ddfc140f6992860492ceac3fb9a0dee2606bfca1,"Integration testing: update the documentation-readme
+
+Missing new line",2017-12-04 18:11:42+01:00,False
+b72a9634f88def6e913a8de2c538d31c83116e82,Update of the README,2018-04-19 21:23:32+02:00,True
+89cbb9a081f6e7e9fee7fe11336f1b3e280c83b5,Include Tomcat used for admin,2018-04-22 16:02:08+02:00,True
+3f7c7bede3c65c7889bbe63c0858d4869f2843ba,"Update README file
+
+Combined old and newer versions of the README, building on @gambi s changes.
+I tried to slim it down to the most important parts.
+
+I assume this is work in progress.
+
+Strongly relates to #118, but was too closely tied with !123",2018-04-24 00:51:58+02:00,True
+a57c1d0e06a0587bc4d98b8ff532ef29e91e7295,"Fixed typos in README, added blank lines for MD formatting. Made db_passowrd optional, improved URL parsing for extracting DB_NAME",2018-04-24 10:22:39+02:00,True
+07e263cb4c5da59a560399779eecbdb39a697695,"Updated readme to mention configurations, admin pages, and the possible needs to change folder permissions",2018-04-27 11:12:34+02:00,True
+075fea267c1cd12d782c68abcbf503c3802f7bbd,Update admin page in README,2018-04-27 11:20:04+02:00,True
+efe8c2729d40c06f07f20ab7225bd585c39364de,Added comment to installation,2018-04-27 11:43:35+02:00,True
+8dd6f0737fe29a8b5e144a13831de9e6be52ee1d,Update database setup in README,2018-04-27 12:12:01+02:00,True
+3c8eb12533bda495c2af8ada1a87da1c6ca30c8e,"Implement system tests using docker containers for deploying code-defenders, and selenium and Chrome for the client part.
+Update README with the procedure to setup system tests.",2018-05-10 18:01:16+02:00,True
+cdef54231a9d7cb81de0087e9823b1b7985ada46,Improved README to include FAQ and deployment problems,2018-05-14 12:28:24+02:00,False
+22ee7b98e233f562bc8bcb0dba79cd34f1baa0a8,Use remote selenium inside Docker instance,2018-05-17 11:40:42+02:00,True
+1333bdea114aa3f09cf060bd3959d75ef66e711a,"Update README
+
+code-defenders -> Code Defenders
+And other grammar changes",2018-05-23 15:40:52+02:00,True
+1c8293b843ab7483bfb2eabf63d529bdf24d4e0f,Include FAQ on configuring Tomcat JSP compiler for Java8,2018-05-24 11:45:13+02:00,False
+5f35b88c6211cc19fdf6a8f46af20d82eecb53dc,Update README to match Tomcat9 for Docker,2018-05-26 14:34:02+02:00,True
+80edbc0738500e162a9c4c8956b8d6318efeb9f4,"Change docker image from jre8 to jdk8
+
+Also update READ about folder change.",2018-05-26 14:54:32+02:00,True
+84e59f1703fd87ce5612b40adf392cbd60f83fb1,Enable scalability and persistence using load balancing and data volumes,2018-06-25 13:09:35+02:00,True
+19ff65d04881580afbda002611d26b40aed29bf6,Replace hardcoded URLs with Paths constants,2020-01-23 22:04:44+01:00,True
+c0874724cf7b76778c5dd71f2fbafa9472cc907f,"Improve build script
+
+TLDR: You can now always use `mvn clean deploy -DskipTests` for deploying
+
+This commit will:
+- enforce the required properties for the tomcat7-maven-plugin
+- don't enforce the existence of the config.properties file as maven fails fast
+  without it
+- remove the different handling between deploy and redeploy
+- move property display to the prepare-package goal
+- when using the short `mvn deploy` and `mvn package` commands there now should
+  be no goal executed more than once",2020-03-21 22:30:54+01:00,True
+24487bc86328b3a1f56c47dafe5064b2aa207ed1,Add note about necessary library for database tests,2020-04-06 10:19:54+02:00,True
+2becd44f12696565ace0bedc2c48a5b5803a43cf,Add or update documentation,2020-09-18 19:27:00+02:00,True
+682ed496bcf1c9fed9cc9f5f6691b71502baaf6e,Update and extend installation and configuration documentation,2020-09-21 19:20:03+02:00,True
+f3da5517f7871fbb387038cc8d8c4a0bcd7225b7,Update docs (split subtopics into own files),2020-11-05 19:59:18+01:00,True
+6c4beee639cecae750aade904fea619328b13e99,Add funding ack to README,2020-12-22 07:39:45+01:00,True
+26fc8dc43668b3fd98de0e2f1774c385f6542ac1,Docker compose error on missing container version and update documentation,2021-03-01 12:46:19+01:00,False
+75cb139385b0725de2be77ddf19f99a92429b7da,Little README.md changes.,2021-04-29 16:53:48+02:00,True
+e08b0380f6df457b86db3ea815e1f4ead824b13c,"Consistent naming for example configuration files
+
+The rules are quite simple:
+- File name ending should stay the same (do not append 'example' as suffix)
+- So 'example' should be a prefix
+- The real file name can be optained by replacing 'example.' with ''",2021-07-13 13:11:07+02:00,True
+cff54491277ae0f1c569421eadcbe0a9aabf182a,Add files for vagrant and mention it in the README.md,2022-06-23 13:50:51+02:00,True
+78d27f131b5e2c790df4eb289cae44a4ed2d3fec,Fix typo in the readme,2022-08-25 15:46:53+02:00,True
+d09763bbd35972a8ebcdeb6014d726743a228771,Update documentation and cleanup minor stuff,2022-10-04 14:51:29+02:00,True
+dc1df18f12b75e97fa5955c943818dbdf58f5c61,Update Java version in README,2022-10-22 14:09:53+02:00,True

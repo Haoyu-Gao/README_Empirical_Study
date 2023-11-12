@@ -1,0 +1,84 @@
+sha,message,date,result
+fa35b73a3a29ee1333f9261a0d28663addf6babe,Initial commit,2018-11-04 10:03:49+01:00,FALSE
+e5e98d92b965fbe2e16c5ef4c30dddec4acaa50d,Document usage,2019-03-09 15:13:53+01:00,TRUE
+0b96882d319f1b92246fc3e0dcd15ebe76b10a08,Configure sonarcloud,2019-03-09 15:41:35+01:00,FALSE
+6bdd3a2d9930b0d494dfd68dbdbb87135665d3c7,Fix sonar warning,2019-03-09 15:48:01+01:00,FALSE
+ca01549a35825547ba347f8dde8cb7e90b51ef31,Describe features,2019-03-09 16:17:30+01:00,FALSE
+0d6909e1405bd94aa81fc863de7909c369171ed4,Improve setup description,2019-03-09 16:35:18+01:00,FALSE
+63f30d68c5fb14428b07ac0a9d3d91e9571889b8,Document Java FX ui,2019-10-12 11:33:38+02:00,FALSE
+97fdb1ad07d2965f44c020b25d5e5a8e3a2ffedf,Introduce new directory structure with year folder,2020-03-02 19:34:34+01:00,FALSE
+b186756326e9b2cd0e856c54850f25e8628fc81f,Allow configuring locale,2020-04-13 11:20:47+02:00,FALSE
+fe07d7086878764a77b4e7bdb13040512b11f7df,Update feature list,2020-04-13 19:51:14+02:00,FALSE
+60701cfd999770037abc6b2142064c9504738e3b,Add documentation,2020-05-01 16:41:27+02:00,FALSE
+8c5d054ebcaeda22b7e468469cc0f84c35511c80,Add github action badge,2020-05-03 15:01:27+02:00,FALSE
+e93214a41d61d58d627635abfb56ce412f412f19,Migrate to Github actions,2020-05-30 15:45:32+02:00,FALSE
+a884ca8ed71c320e95039cfb248a6987f8e7721b,Code cleanup,2020-06-06 09:31:02+02:00,FALSE
+5ba809d8eb845cf46a7cba02e7ebb164665b2f8d,Document configuration of projects,2020-06-28 19:52:46+02:00,FALSE
+a73d6d305b30bc1e721b3b2c4b6a68afaa023dfc,Improve readme,2020-08-15 12:38:39+02:00,TRUE
+7d56f979d2afefec063d99a0bf7933e96d8ca39e,Improve readme,2020-08-15 12:42:07+02:00,TRUE
+1e923df2c1ab7fea9d7f2d7de6194b89c3c98662,Mark text ui as deprecated,2020-08-15 18:57:27+02:00,TRUE
+1bb4e26938ddadaab2edf0f4dcf0fff4af8df416,Add option for running UI-Tests from Gradle non-headless,2020-09-20 11:37:27+02:00,FALSE
+e75804313622b0eaa829639c4256428108c510b9,Fix lint issue in README.md,2020-09-20 14:33:49+02:00,TRUE
+c6e454844d470108e8f79be041a9d58cc3da9a57,Add recent changes to README.md,2020-09-26 13:37:57+02:00,FALSE
+90697fbd380b94d27d6338d8b10b907946a6aaad,Add deepcode badge,2020-09-26 16:19:07+02:00,FALSE
+afbdce3ad61551c3fdcaacca41472f9a6b8875bd,#15: freeze end time when stopping work for today,2020-09-27 10:02:09+02:00,FALSE
+a5602b5da8fcfc4a3b5d76d54c8965d917c812ec,"#25 Add screenshot, restructure readme",2020-09-27 10:40:07+02:00,FALSE
+132ab25f39b4256bedb2c6fecaed6147b7f4ce27,#25 Move screenshot to the top and crop it,2020-09-27 10:45:03+02:00,FALSE
+ee949f424ba935fc892b1ed249468f0418c82c8b,"#18, #22: Add version number and platform to build scripts",2020-10-10 12:11:29+02:00,TRUE
+ba3e706007ac88b7142f97307743ffd6193933e0,"#20: Load config from user directory, create default config",2020-10-11 10:35:13+02:00,FALSE
+ba07aa58faab8407e2c68a0a078913710488c48b,#20: Add command line argument for config file,2020-10-11 11:05:26+02:00,FALSE
+d321edea1a5e64c95c56690fcae59a0d4d90f3eb,"#18, #20, #22: add implemented tickets to recent changes.",2020-10-24 18:24:40+02:00,TRUE
+b66e715f92cf98c2c6200a647eb5bae2080d27d6,#5: Add presets for adding interruptions,2020-10-24 18:26:05+02:00,FALSE
+d044773d477331e145642b172f720ef8d0af6be1,Update readme,2020-10-25 16:58:39+01:00,FALSE
+7c50f8930923990a1ec04211dead8a4d7f139161,Upgrade to latest JavaFX 15.0.1,2020-11-01 14:36:25+01:00,TRUE
+acb6847d146dee8dee0e8eea4df997bdb60abf54,Add missing cdk file,2020-11-01 16:00:14+01:00,FALSE
+2929d8daae734bc06d4397d41099f6850225ce9b,Update documentation,2020-11-01 17:41:38+01:00,TRUE
+ae910cd3ab3fe21e15f3bf8adf4f82726ac1b7bb,"Add manifest entries, cleanup build, update webstart documentation",2020-11-08 14:54:25+01:00,TRUE
+af1aa7b4c963956f009ad36f0f218473ca4d94dc,"Add changelog entry, fix linter issues",2020-11-08 15:33:57+01:00,FALSE
+cd6e2b119a664dfba4ac10351b8571bbe8f5cbf2,#40: Keep edit focus when table is updated every minute,2020-11-08 17:05:49+01:00,FALSE
+984179ec4b3fde65dd65fe6d7318ab94b234f192,Update changelog,2020-11-15 17:57:30+01:00,FALSE
+a591ef7bb86357534f5df27dbe29702bc3af1a4d,Move changelog to separate file,2020-11-25 09:11:55+01:00,FALSE
+109c5d5e9ad740b117d76e31a85b247ff12578e0,"Remove deepcode badge.
+
+Produces false positives.",2020-11-29 11:38:01+01:00,FALSE
+fc42e3ef833366576006063cba1ef3817d9a5846,#59: Update configuration,2020-12-16 18:08:54+01:00,FALSE
+52a9aa2c2c16942b187bec110e91f368c343c012,Update release & deployment instructions,2020-12-16 18:25:05+01:00,TRUE
+f6d5e8e05db9fa16432f1ddb4d39070837532c1c,Add feature description and changelog,2021-01-27 10:29:04+01:00,FALSE
+65fb39e3f9afc7b9ace5fa1fda07eea69599deaa,Improve readme,2021-01-27 10:34:45+01:00,FALSE
+9f7e397c380869cd7f96365630fcbf8060f42097,Add instructions for adding favorites in pm-smart,2021-01-27 11:09:27+01:00,TRUE
+3046f5e12014c37c6e5ff18919fa69a79ad84071,Document plugins,2021-01-31 11:38:56+01:00,TRUE
+2d3a70189668ab45b91ff65378bb71f36880ec8d,Add script for downloading plugins,2021-01-31 13:16:27+01:00,FALSE
+bd1cefc49d728b8bbcbdabc0df169d9a44491784,Configure deployment to maven central,2021-02-06 15:01:02+01:00,TRUE
+36fde312235a5503ddf443c5a0767f314af94dbe,Fix sonar badges after project group changed,2021-02-06 18:59:13+01:00,FALSE
+c57fd8e5a657dee12561bb30e3c9ea3d1e712169,#76: Update readme,2021-02-12 17:30:14+01:00,FALSE
+e92d7b1f8a28b8f61776c791d5e659b303ef0c7d,Add instruction to close the milestone,2021-02-20 13:41:10+01:00,TRUE
+1f3e2261f28ed40f06e6c0c63d6226fdd12d3015,#110: Display week day and calendar week in status bar,2021-05-09 18:32:52+02:00,FALSE
+d92d729915c49af2d66be0e5e4ad3f6a2e25a941,157 fixed links in CHANGELOG.md and README.md,2021-05-24 09:43:48+02:00,TRUE
+1c1159f973e6088387325dcfa6f01bde5683fd5b,Prepare release 1.6.0,2021-05-30 21:59:54+02:00,TRUE
+086d34d317a4c0eb091dfad93efa276179f1f3b6,158 updated README.md,2021-05-31 11:22:34+02:00,FALSE
+43f9f359fcc002b4ba57cc8db285f4068a24eb2d,150 updated CHANGELOG.md and README.md,2021-05-31 12:09:00+02:00,FALSE
+18747ad8b6bdc0084498222bd1eb1e515dd99c59,"Update README.md
+
+Co-authored-by: chπ <kaklakariada@chp1.net>",2021-05-31 21:56:56+02:00,FALSE
+d5e63bda90ceafc1d872b99350a39e183a98f640,150 updated CHANGELOG.md and README.md,2021-06-03 13:28:55+02:00,FALSE
+f1940274470f8f44bbae650eb71e4c77def14e75,"115 updated implementation
+
+starts to look better now",2021-06-05 12:48:31+02:00,TRUE
+489b3c80437aecc6ccab45edcaf4479db2841882,"1. Refactored configuration.
+2. More tests.
+3. Added some infos in README.md",2021-06-05 09:12:15-03:00,TRUE
+a7a9ef9d6750d6692ada438ca391ec021b1bfdaa,Fix dependency version,2021-06-20 16:48:43+02:00,FALSE
+5246ef9ae8c3a5d33d99b6bf1968fe4936070df9,Add changelog entry,2021-06-20 18:09:42+02:00,TRUE
+470843b9076aeafbd32ba481a8a1f2588a876d77,Improve documentation,2021-07-19 17:27:31+02:00,FALSE
+5d0f3f716df31f0d08f63789c19491a851357b2d,Added version to archive filename,2021-07-23 08:26:23+02:00,FALSE
+8f68989f5e8396ad09cd3d75bd250dec16987e2b,Improve build instructions,2021-07-23 08:53:10+02:00,FALSE
+202252b6c859f0f816d08f855043063beee78205,Prepare release 1.7.0,2021-07-26 08:01:50+02:00,FALSE
+8c4fb40e1a526024dae922636179961c07b207cd,Improve webstart documentation,2021-07-26 09:07:04+02:00,TRUE
+843d52ffa2a49136f08fea48923fda958b35381c,Adapt internal links,2021-07-26 09:19:29+02:00,TRUE
+3bc067408f593abcef34734cc137948bdb856e89,Rename run tasks,2021-08-01 13:44:53+02:00,TRUE
+fe081806c8eb26f61983c5b17400d8d37b006a7a,Update Java version in Readme,2021-09-25 11:07:19+02:00,TRUE
+52d46c639d09933d70a4fe8197dfd48097d235cc,Upgrade to java 17,2021-09-25 13:54:52+02:00,TRUE
+81422fd8bfd68c0abc7cdc246c2ea9841c4752ff,Configure windows installer,2021-10-24 11:37:19+02:00,TRUE
+5bdf6db77b697874e4c736a02383bfdb01c2abf4,Add installation guide for Ubuntu,2021-11-07 11:35:47+01:00,TRUE
+e7ac12b068737c189450a861dc22a02a5a0a4ac1,Rename develop branch to main,2022-01-22 08:49:37+01:00,FALSE
+e870af101b1a2fabe60af1d851f2b0f29ade5e93,Extract user & developer guide,2022-01-22 11:03:50+01:00,TRUE

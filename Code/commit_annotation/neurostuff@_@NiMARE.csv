@@ -1,0 +1,190 @@
+sha,message,date,result
+ebc4e18ea89400d8e4fd0f4946e2757dd02977b7,initial placeholder commit,2018-01-17 09:47:26-06:00,False
+1ecb2c3833ebe7beb59ffe81ad05cc15b803a33b,PyCIBMA --> NiMARE,2018-01-17 15:07:46-06:00,False
+3b0e6d4ed87e19a505e17f17e4cf4998bbfe16b2,Add additional layer to meta classes and add new methods to dataset.Dataset.,2018-01-18 08:50:38-06:00,True
+175c00ec3b6730e5621f7576da9821cbdf589a48,"Update README and fill in IBMA methods.
+
+The IBMA methods are mostly Python translations of the MATLAB code in
+the IBMA toolbox. Still not sure about the empirical null
+distributions, and the MFX GLM is still empty.",2018-03-24 20:58:34-04:00,True
+6bc972d7844acd0c91855b51c56f995c49838d25,"Large update
+
+- Add Dockerfile and script to create Dockerfile.
+- Fix bug in nimare.meta.cbma.utils.compute_ma
+- Add MFX GLM (still need to convert to workflow)
+- Add multiple comparisons correction to IBMAs
+    - Do not use FWE with empirical null distributions
+- Truncate p-values in IBMAs with empirical null distributions before
+converting to z-values
+- Add dataset with sub peaks in coordinates
+- Add t_to_z function from Dr. Vanessa Sochat’s TtoZ package (with
+duecredit citations)
+- Add new dependencies to version.py",2018-04-16 07:04:17-04:00,True
+b5c48765a972eda28bacf44c17dc3aa14353119a,Update contributing guidelines,2018-05-17 22:01:51-04:00,True
+44039ee5e4231937c677a1f8075159c4aac4ed13,Split ontology annotation and update README.,2018-05-18 17:55:34-04:00,True
+54134adc6fe5fdd855b143dbb12a842b82c3de8d,Update README with additional functionality,2018-05-18 17:58:41-04:00,True
+ba7835743ae7e6905ead0ee20d5af36528913c90,Add link to code of conduct to README.,2018-06-04 13:48:27-04:00,True
+1f99a37c05b60d9a02d7067c08d9914dc1b77ea0,Add skeleton for text2brain encoding.,2018-06-21 10:49:02-04:00,True
+c3c1b6b442bf37adf00265619c2dfa31d8608506,"Add CogAtLemmatizer and skeleton for text2brain.
+
+- Reorganize annotation models into topic and vector models (was just
+topic models before)
+- GloVe model (word2brain) is a vector model (or whatever the
+appropriate name is), not a topic model.",2018-06-23 15:22:12-04:00,True
+cf6227fa35e53b591ff5fe3f82c2c15321ff34c9,"Add badges.
+
+Given that CI, codecov, and RTD aren’t set up yet, these badges are
+broken.",2018-06-24 11:28:57-04:00,True
+b2c04fcc579a9e4c8e9abb721abe9a60ec7eb1d8,Change badge.,2018-06-24 11:29:40-04:00,True
+70a5d016140591c73675adb472573792d31cc5e7,Merge remote-tracking branch 'neurostuff/master' into annotation,2018-06-24 12:03:08-04:00,True
+f5e43bb17511a60eb9f9f41d1d38e9a80316d4cd,Fix README.,2018-06-24 12:06:30-04:00,True
+2645b88242e876b5aacfa3f303866df854f549f4,Add skeleton for parcellation tools.,2018-08-05 10:58:28-04:00,True
+909fabc180239ac89baef70f8a085d8b34a6ba83,Update README.,2018-08-05 11:09:50-04:00,True
+2e651d846cf9e83364102315fa6c8c7c872ca285,Revert changes.,2018-08-28 09:01:18-04:00,True
+af99f33341000682e1e9bfe149476c86e3ddf303,Add class for MAMP.,2018-08-31 10:30:31-04:00,True
+9b54b378aaba8afb3f3f2f60efbff24e04a742e7,Improve installation options,2019-01-18 13:03:40-08:00,True
+870d22468daa5b18390f9472aa1ef50fe0c761df,Fix a typo,2019-01-18 13:26:58-08:00,True
+de00d8c23175e3dd16d87273c6229c606474bdfe,Add badges. (#114),2019-04-22 16:21:07-04:00,True
+afdeec030cdb6dd565e6a815c4f5ebdffac8b446,Slack --> Mattermost (#127),2019-05-29 13:13:19-04:00,True
+3c9bfbc588575415951f6f92fe52531249a55818,"[FIX] Update examples to prepare for release (#185)
+
+* Fix sample_size loading.
+
+* Change output images for ALE.
+
+* Improve README.
+
+* Fix examples.",2019-11-20 09:57:19-05:00,True
+bc92f95a37962034635027d03c6aa90a0c88de90,[MAINT] Add Zenodo DOI badge,2019-11-20 10:52:46-05:00,True
+c2815d0d17df9985d61d09ccf4907c2179df00f3,[MAINT] Add PyPi badges,2019-11-20 11:06:46-05:00,True
+1b0479a8325f78143f94b35ad732ebbee9468222,[MAINT] Add badges to README and RTD (#187),2019-11-20 11:50:05-05:00,True
+da5b587a779022a3ac64588793f3338edb5d1061,"[TST] Add CI step for building docs (#212)
+
+* Add CI step for building docs.
+
+* Add working_directory.
+
+* Install make.
+
+* Fix.
+
+* Update info.py to trigger re-build.
+
+* Add doc dependency.
+
+* Pin Sphinx version
+
+* Install pillow too.
+
+This whole process is very frustrating..
+
+* Dummy commit to trigger build_docs artifacts.",2020-05-11 15:32:34-04:00,True
+3ac1785d8e011e71369dca2238034ad461709a9f,"[REF, DOC] Remove unused base classes and improve docs (#216)
+
+* Add custom ""make clean""
+
+* Add roadmap file.
+
+* Remove CBMAEstimator.
+
+* Improve roadmap.
+
+* Remove more unused base classes.
+
+* Add notebook for working with Datasets.
+
+* Add seaborn dependency. Remove diagnostics module.
+
+* Fix style issues.
+
+* Fix links.",2020-05-19 22:13:20-04:00,True
+e95c2ca94a70f91dcbdaaa81f28014f7482c101a,"[DOC] Remove whitespace from README (#295)
+
+* Small edit to check Checks.
+
+* Update README.md",2020-08-07 12:30:53-04:00,True
+717697035b04ff0244aa4aa170f5aa16a9fba69a,"[REF] Run automated code formatting with black (#296)
+
+* Apply black to package.
+
+Run with black 19.10b0.
+Line length is 99.
+Target Python version is 3.7.
+
+* Fix E231 caused by black.
+
+* Ignore E203.
+
+Apparently PEP8's in the wrong on this one.
+
+* Update flake8 settings.
+
+* Fix long line.
+
+* Fix style issues in tests.
+
+* Add badges for style.",2020-08-08 17:10:07-04:00,True
+2fbbf600af04aa015d0babf366ce9d5502ad6ecc,"Flag peaks2maps for removal in 0.0.13/0.1.0 (#616)
+
+* Add deprecated directive to relevant docstrings.
+
+* Add associated warnings.
+
+* Remove peaks2maps subgroup from installation instructions.
+
+I'll remove the actual group when we remove Peaks2MapsKernel.
+
+* Add deprecation section to release notes template.",2021-12-16 09:56:45-05:00,True
+b6c25a0b90509d5c1cbde0b550287b7860cafe9e,"Switch testing from CircleCI to GitHub Actions (#642)
+
+* Start working on it.
+
+* Update testing.yml
+
+* Remove CircleCI config.
+
+* Streamline new workflow.
+
+* Update badge.
+
+* Replace uses of ""master"" with ""main"".
+
+* Move linting into its own workflow.
+
+* Update testing.yml
+
+* Update linting.yml
+
+* Fix upload-artifacts call?
+
+* Update testing.yml",2022-02-18 11:50:46-05:00,True
+519003f6d00103ed25d846a9d380f15b63d29c79,"Add citation information to documentation (#712)
+
+* Add section to README about citing NiMARE.
+
+* Add citing section to docs/index.rst.
+
+* Add new references to workflow boilerplates.
+
+* Add NeuroLibre badge to README.
+
+* Update index.rst
+
+* Fix version in boilerplates.
+
+* Add NeuroLibre to references.bib.
+
+* Fix?
+
+* Run black.",2022-06-14 12:48:25-04:00,True
+3bd8f30525b827a7b13b642fdb9ccd3ddfa38b07,"Link to NeuroStars software support category instead of neuro questions (#768)
+
+* Link to software support category.
+
+* Add links to GitHub repo.
+
+* Update nilearn URL.",2023-02-06 17:40:30-05:00,True
+866c95e2774a9aa28631b06bc9247b35ec2af849,"[DOC] change readthedocs badge from latest to stable (#786)
+
+change readthedocs badge from latest to stable",2023-04-17 15:31:26-05:00,True
+75d739efb3aa536e489e46b7b83c5aa5c0d88c1f,fix other mentions of latest to stable,2023-04-17 16:29:16-05:00,True

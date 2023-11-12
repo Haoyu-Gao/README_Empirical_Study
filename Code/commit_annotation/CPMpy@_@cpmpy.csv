@@ -1,0 +1,52 @@
+sha,message,date,result
+33278ef3ace9345d520151de04bc440738f63314,initial commit: README,2017-08-21 01:03:09+10:00,True
+45cfbfe53fb9808862bc0f13169becfd91941168,README is in markdown,2017-08-21 01:12:49+10:00,False
+26905cb11711e718b5d22b1f159c3fa1b1bbb0da,fix row mistake in sudoku,2017-08-21 01:15:28+10:00,False
+edf8679f04f432bcea1e205c276f580b8cde48dc,power mistake,2017-08-21 01:18:29+10:00,False
+fa89cf39b264ee9ba89e52e1e2146ab8fc96773a,sudoku: no reg,2017-08-21 01:20:19+10:00,False
+67e28d99bb2304b4f63fc30debf7cd5898f7f178,working prototype,2019-07-17 16:23:21+02:00,False
+2b978f722dc1d593f277679cb80e8ecc20d43fd5,"support element, add agatha",2019-07-18 09:28:27+02:00,False
+83e43def10c835e84aa4e7fcd82dd6f13bf738cd,update models in README to reflect models in .py,2019-07-19 15:01:39+02:00,False
+60fd633d7f7989e4ec0b541822b1e937954aaf14,and update README examples,2019-09-30 08:47:41-04:00,False
+1c6e36da255c8eb0a903cfdd8ecfa3cf8c0bbecf,Update README.md,2019-10-02 11:50:16-04:00,False
+e4d510b2609747bed1026450dc5af600f654134a,"added FAQ, indexing arrays by vars",2019-10-16 16:34:37+02:00,False
+3a868a534a78585394fbb3812fcaadf410a97ff6,add link to workshop paper in readme,2020-04-22 11:20:11+02:00,False
+48d6549e9f952a609974c37d15261b20e28d9129,CPpy => CPm/M?py,2021-02-23 13:44:43+01:00,False
+becd481e43f24f7f262d4e3a071a16aadbb6307c,Renaming cpmpy => CpMPy,2021-02-23 14:14:53+01:00,False
+0c9d0b2f0203fd29374b5dc9f669464321046317,restructuring the repo,2021-02-23 14:19:38+01:00,False
+3a986d6f856f23b31dffe6afab63eee816193b64,"Updated README.md
+
+Changed headers, layout; added links, etc.",2021-02-23 15:47:02+01:00,True
+3e9e7db4be3aa5c533aecc34278ffe571e6d2657,"Updating README
+
+Included license info.",2021-02-24 11:49:07+01:00,False
+500bee0c11a515614d42381d23b005f38934a6b9,"Joint decision to switch to Apache-2.0 license
+
+in line with the license of or-tools",2021-02-25 17:21:38+01:00,True
+ed6b74451036b7dc0ea1297255af5e17daecd564,"rework README, tune sudoku example, notebook",2021-02-25 17:24:37+01:00,True
+1a3a0524b2b3ba28cb70040aa22b0b04bf7e091f,Update README.md,2021-02-25 17:41:35+01:00,True
+d86082cfa06c99f43dc93fe77674ce9a5d0406c3,examples: solve() returns value,2021-02-25 22:34:14+01:00,True
+7cfc29318dc0818dfb74c03842fcad90ecc7b3d5,Further documentation of main,2021-02-26 15:55:29+01:00,False
+23a9899795bf328053670348ebc3f4b5e1caf5e5,Further documentation of main,2021-02-26 16:00:29+01:00,False
+8ba14f409e8faef40a2cf29bbda8b1db97b78a3d,Release 0.5.3: Updating the version and supported python versions,2021-02-26 16:05:10+01:00,True
+fe32a8fe98ced2e1f418eb89f9ab16f05850b107,README: alpha-stage software,2021-02-27 11:34:09+01:00,True
+2c9966aa0f318cf62ff46f8ef3b6b09fa5d9f88f,"variable naming in examples, tests",2021-06-08 10:49:25+02:00,True
+7fe357b42f055e86d257d13fa5a892f286d99c9b,rework README landing page,2021-07-15 22:06:13+02:00,True
+ce54810e3e2fdd94579fb66be314f35733155acb,fix README list,2021-07-19 13:07:17+02:00,False
+64159119e0953ab0b2b5a05a07b19955e14cbbe5,README link update,2021-07-20 13:27:18+02:00,False
+bbe49cf75ac953ccb5797c88391021e3858a314b,"Install on m1 (#73)
+
+* Installation guide for M1 macs
+
+* Fixed some formatting",2021-10-28 15:20:41+02:00,False
+78a34531ae1411305c40d0cc905f5dc29caec4ef,README: link to instal instr,2021-11-20 12:33:01+01:00,False
+98bd62a607d794b847c6f1b2199ea672c770ef34,"Doc updates
+
+- add links to tutorial video
+- refs to binder (fixes #81)
+- small rework of landing page README",2021-11-20 22:44:00+01:00,False
+bd206f265832957c005a61cd6a97711f1c7a176b,README: direct installation link,2021-11-20 22:47:14+01:00,False
+4914f12d44a2878bec8e3ecd04d58477cf6954f3,README: binder link to file,2021-11-20 22:54:46+01:00,False
+0f9d6b126e8cdeb7919340247660802eed7c6a3e,"Update README.md
+
+Adding bibtex citation",2022-07-01 11:57:55+03:00,False

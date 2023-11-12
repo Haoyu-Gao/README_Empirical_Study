@@ -1,0 +1,66 @@
+sha,message,date,result
+376c0066cafc896eb6675657c92c0bdceae0bb9a,including README and LICENSE,2017-03-12 12:21:46-04:00,False
+04c1f718df2a07ce5642aae19a8908df3190ef91,note on Rocket.Chat version,2017-03-12 12:32:25-04:00,False
+8b2acaed33e45ba1ef14e4125743044a231659c0,correction on the description,2017-03-12 12:36:44-04:00,False
+75d6e04d8a63394be9b2054036a7f0c2e19e16e5,- formatted code on README,2017-03-13 08:38:46-04:00,False
+012f7668b210123d45762ade28f36943bbed7139,Use correct module name,2017-03-20 15:05:27+01:00,False
+a3091c2b627ab11f1aab25866e8ecff716f2bf5a,contributing section,2017-03-21 09:25:52-04:00,False
+a9e3738f792a2c27cba6347b21b210d023186a33,typo,2017-03-21 10:01:56-04:00,False
+4c76eaddf582d27fc78d01623fda46c67aa1bf7d,changed version,2017-03-21 13:17:14-04:00,False
+da423a1d2883c3b574a40a955c8388ae3d1daa58,"README updated
+ - instalation
+ - requirements",2017-03-21 14:12:25-04:00,True
+9904e9ebee5be9dc9c0867733d64bf7dade89041,more clear on installation explanation,2017-03-21 16:08:24-04:00,True
+9fff932d9664f5d16eb05a9c88120ce9574519c7,adding proxy support,2017-03-22 09:28:19-04:00,False
+a9f2e9c02e521998fd3dc08d6e28c8c48ca7dde2,"Corrected spelling of ""Instalation""",2017-05-25 10:29:25-07:00,True
+993705d15a05c1267783381ee5b6b9b2a5157cf4,- changed documentation to match new chat_post_message params order,2017-08-02 10:52:47-04:00,False
+544a6e8bb14270300f2ef1e7815d5abc653eb342,"- deleting ugly hack that injected pass when password present
+*this updates the project to be used only on Rocket.Chat > 0.58",2017-09-04 18:57:56-04:00,False
+054422890038e2deed3d935bf0eafee653e76d61,improved readme with best API coverage and new tests,2017-09-15 20:36:59-04:00,False
+f1abebc8d0a76b533ee605f7aa614a872a7c7679,"Fix broken links
+
+The links to the API are broken",2017-10-20 19:13:21+02:00,False
+8eac80ef3281dcaa4daf59483abb1c2882557f70,"Update method to start the test server using docker-compose
+Update version to push to pypi",2018-03-01 11:20:27-05:00,False
+ddd64d8f813f78590cfeeefc49d307675ddfbdfb,Add codacity badge,2018-05-18 13:12:42-04:00,False
+fdbdbc014588e0ef3aff6e27968b8a9c29506026,Add travis build status,2018-05-29 13:37:56-04:00,False
+a64c39467bdb4317014e1d017795c14037636470,"Update readme with new information about contribution, new version of rocket.chat server and new version of requests library",2018-05-29 15:24:35-04:00,True
+4f7c3a6bed9291136e8a67b815c35f59972d3f5c,Add codecov badge to readme file,2018-05-29 16:18:49-04:00,False
+28f75482ba0aec5fbedd5fe3a89729d1af2f44c6,Add say thanks badge,2018-06-05 17:53:07-04:00,False
+2bbb8f63e9d86d094afccf4984006e21c3db9d0b,Add pypi version badge,2018-06-05 21:02:50-04:00,False
+f4857e187b70b6744fd79678164b9f5f1a2172e1,Update Rocket.Chat version in the README file,2018-06-17 12:52:59-04:00,False
+d111fc77967dce3cabb8cd710daf73b94f8e6bf3,"Fix broken link
+
+The fixed link to documentation does not work anymore while the old link works now. Issue #30",2018-06-19 08:00:11+02:00,False
+dfc42b9941f6252aee4383b6c85fdf4fadabb697,Update README.md,2018-06-19 08:16:16+02:00,False
+ec1f44a9d46c457e45522eec3e4a17b0de83543d,Update Rocket.Chat version in the README to 0.66.0,2018-07-09 13:19:40+02:00,False
+d48495dbc02a04b8c06e3a96426564bb4d71ff7b,Update README code example,2018-07-11 15:30:14+02:00,False
+ea0f814ef1635c9e1c87d25b0afb8f547e90d85d,Add sponsors section,2018-07-11 17:39:57+02:00,False
+220f7ee819e1f5c7bf25360f374ba3242c1785c6,Add bitcoin donation button,2018-07-25 02:04:11+02:00,False
+7b175f0b4b155aa447fbfee2623cd08f8064dc61,Add buy me a beer text,2018-07-25 02:11:17+02:00,False
+a1ee5b6b7b7d23cf38d68c36965f2b14ddf0b051,Add arrow icon,2018-07-25 02:12:14+02:00,False
+d07e4412094becf34ce48f63b3b7a96dc105d25e,Update requests version to 2.19.1,2018-07-25 04:02:35+02:00,True
+832e439dc37bec27de6bc745f387f826f6704117,Update Rocket.Chat server version and add donate with ko-fi button,2018-10-09 18:07:29-04:00,False
+40361282296b5e687347bb6c803ec0c8ec45a4a1,Update requests library to version 2.20.1 on readme,2018-11-30 12:21:44-05:00,True
+517c7af166cd6d240a163287902bf611bcafadb2,Add downloads badge,2018-12-28 12:57:44-05:00,False
+54d99359f30dba7545f5196a2092b4d22f046c66,Change rocket.chat version on the readme file,2019-02-04 12:41:40-05:00,False
+d951c8cfa674f74002ae7770abaf9987d5c339c1,Add subscriptions.read endpoint,2019-02-25 17:31:31+01:00,False
+28f1f54aca62fd2ec4cd445b41025b38a9993286,Update server version to 0.73.1 and remove unnecesary port binding for testing mongodb,2019-03-26 18:11:10-04:00,False
+549c1e53667ac7ac717d7b0ecc9c8fb1db0866a6,Add support for requests.sessions,2019-07-23 21:50:33+03:00,False
+690ae00d2659a630ce36c7aa8e0add81cd115070,Update README.md with syntax highlight,2019-11-20 18:09:53+03:00,False
+d50473dd39ce66e7e3511e3cccc776a29143f5fd,Update readme,2019-12-22 15:01:36+01:00,False
+1b1caed289fd566b85b29568e18cba58cfca0ff7,Remove version for the requests library on readme,2020-03-11 15:49:40+01:00,True
+10e173c6107fe45f6fb0d384914d2ff48be91a0f,Remove sponsors section on README,2020-07-09 20:38:33+02:00,False
+a2ede3f5c1619241e728f028005a27eef73146fa,Update readme with the new build badge,2020-11-15 19:05:57+01:00,False
+1223ee07a046c798ab09981ae124add2ce7a83f8,"Remove the ""Say thanks"" shield from README
+
+since it stopped working",2021-02-11 13:33:56+01:00,False
+7653559e8e78efdbf0dc42b66a8be4f2e9d6ac39,Update the rest API documentation URL,2021-03-27 21:33:44+01:00,False
+ef863e3bea17f8e529b4828c14b12cafe0cc9e08,Fix the README.md link to the Channel at open.rocket.chat,2021-10-08 15:50:10-03:00,False
+6e17ff503129763a854be59b0bdd9f44ea561474,Update rocket.chat REST API documentation URL,2021-10-09 21:09:33+02:00,False
+5ef7fba34f140673726d3c8bfb4ac87bc563b93c,Update REST API documentation URL,2021-11-16 23:50:16+01:00,False
+4ed45bf8862e61920cbc13cd694ca6a4c0fae743,Update readme with JetBrains information,2022-04-13 12:31:34+02:00,False
+a08c63d0166c64d62f6ac961c6a1a56fce708bf6,"Rename the docker-compose file
+
+to get rid of the annoyance of writing the file name all the time",2022-08-09 16:13:50+02:00,False
+e5f921c6e8ef25abfcf0eb2822912b9ef4557444,Add documentation about being able to log in using user_id + token instead of user + password,2022-10-07 21:51:37+02:00,False

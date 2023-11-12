@@ -1,0 +1,35 @@
+sha,message,date,result
+a415a2d7b4dfe8238e02461b00260ca04cd83c9e,added readme stub,2017-01-13 16:16:56-06:00,False
+8844521248c026f05bc3a70f0b6a1bc2545352ef,"wrote readme, fixed gitignore",2017-02-02 16:28:57-06:00,True
+c12748c4459f8ec92ab733fd65027594bcacb5d8,fix to previous,2017-02-02 16:31:13-06:00,False
+15cfdf443b487cfa31a54da98cd3e23dd3bce6e0,work please,2017-02-02 16:32:23-06:00,False
+7ee4eb7a8895e6c08b24175caf6df24bff8ae01a,small formatting change,2017-02-02 17:03:10-06:00,True
+6781ea8efaf06addf7939b9f03adf1e634fb7602,cleaning examples,2017-02-03 11:23:59-06:00,False
+17d922999851c8c8f1e368be500367187ca33f2c,renamed functions to comply with convention,2017-02-03 12:27:33-06:00,True
+4ae19e43e914ec353b5f383fc9a7149943c71b46,some progress on docstrings,2017-02-03 16:25:18-06:00,False
+48f69e6cf6395f958dc938e893270881778945d8,fixed typo in readme,2017-02-06 17:04:23-06:00,False
+d6dbad97b0cba4bb1dcb70be758a901ecef77277,more docs changes,2017-02-09 12:48:49-06:00,False
+97921d32b25e4eec866add3b5d8c91411041502b,leaf counter tutorial,2017-02-09 15:29:37-06:00,False
+d52089dd88d8dc9b149ff28455fdd8bf17f2d044,holy hamburger am I tired of writing documentation,2017-02-09 16:24:18-06:00,False
+79388513df8a212b79be7582e85409bd4a6d0e21,added features to readme,2017-02-28 12:15:58-06:00,False
+c9e50f664a22bbb4bf8b946c0722c1dc834da93e,documentation fixes,2017-03-14 16:16:34-06:00,False
+c59eabe5acdd831e04ec1958b5bb1aa184ccf8a5,fixed installation instructions,2017-03-16 16:44:07-06:00,True
+c2b9fe0109e2a38aac1f12f3dd350ad3ebacc9c5,ported to tensorflow 1.0.1,2017-03-21 16:18:26-06:00,True
+18ce94412855d352375463feaa0d6197830f83a1,small documentation fixes,2017-03-29 15:28:03-06:00,True
+6eb409773b0a2c4738fffe757e100f7cd43f84df,added instructions for py 2.7,2017-04-16 15:53:41-06:00,True
+e0507e6fffe6e9dd6d219c6f6d40f8918d6222b6,doc changes,2017-04-18 10:56:19-06:00,True
+0091eb1a3765cdfa9daa6a95a94c2bbf4c6d80db,readme tweaks,2017-04-18 12:02:09-06:00,True
+6e37b9101c22e149e71b603083ccb1f91f652611,link to documentation,2017-04-18 16:19:56-06:00,False
+fb88daa8d2386b724dea1dc260c8831a037cdddc,update readme with git-lfs info,2017-05-14 16:06:15-06:00,True
+aedf6a09cf342e2da597ba75e590febd38ab2467,fixed repo url in readme,2017-06-28 10:48:43-06:00,True
+08dd1ac5060fb2ed30bb3903bc63cbc874f2f746,Update README.md,2017-07-15 11:24:37-06:00,False
+4b4a76a4bd9a917ddd14bf62a309a4b3f4f682c5,documentation,2017-11-23 09:55:43-06:00,False
+3d1be9b6026cf3d153fddfbb620621a08b09aec3,updated readme,2017-11-23 14:37:14-06:00,False
+f11ff443631e06220239539bf538e5366e95983f,documentation changes and additions for new features,2018-02-20 10:00:57-06:00,False
+2600b13af3b7d87acd257b719084e9ccd64db2e0,Update Makefile and Readme to use new installation procedure (i.e. use pip),2019-07-04 14:07:31-06:00,True
+b41132dac9421e932f8951c582a2ab2e595373ef,Remove Git-LFS mentions from README,2019-07-24 13:32:01-06:00,True
+6d0fb5655d867ffb7dc25d37369aee47dc4c731a,"removed Preprocessors, removed plantcv and joblib dependencies",2019-08-05 12:52:07-06:00,True
+e6321c07268ec561b4b83b7713c93a46b9114051,More fully update documentation for multiple Model classes and move classification-specific loader,2019-08-21 16:20:41-06:00,False
+1417026ad8af74d889c5bab01152656d7fd554dc,updates to the readme file,2019-09-05 09:28:07-06:00,True
+bfd0c104cc120402f5455fb09ec32a45935f4969,updated readme for deprecation,2021-01-07 13:13:16-06:00,False
+2cfad2287c4806efc941ea35c0f732102b4c02f0,Update README.md,2021-03-05 09:43:15-06:00,False

@@ -1,0 +1,53 @@
+sha,message,date,result
+db830610d6ffbdab9678eef359a9f915e6ad2ee8,initial commit,2016-01-30 22:03:12+01:00,TRUE
+a543bf9fc2a522684eb8ae8b989181f3f06cecc6,Fix a few typos in the README,2016-01-30 23:16:32+01:00,TRUE
+184539f355482df4699165b88c9ab10f8006ae16,update readme to include possible use cases for Sulong,2016-02-02 10:42:59+01:00,FALSE
+6f00211a000c1d774773e0e8efa6711fc61b9792,include logo in readme and stress that improving performance is work in progress,2016-02-02 11:29:51+01:00,TRUE
+a7dab9b95020855cc02d7f87b76d5e8bcc1be9bf,filter Truffle dumps in the readme IGV example,2016-02-02 15:09:48+01:00,TRUE
+77abdaf9fd7fdfaa8dc8b4ae65f2d625e30d90cc,include Travis CI build status in README,2016-02-28 14:43:57+01:00,TRUE
+1387e237a87e27c7c26b5bf841a179e20a61bda1,"fix README: use git to clone, not mx",2016-03-09 16:27:45+01:00,TRUE
+9eec164387b20c3073a78bae6ee722d1b6ce7141,add external dependencies in the README,2016-03-21 17:29:17+01:00,TRUE
+906280a8d91e98b518bd1291addc13a121f6e5aa,README: create directory for projects,2016-03-23 08:29:18+01:00,TRUE
+98081a27b2d8f7617cc5ed311ef759529eba6dd6,Add instructions about what packages to install on the Mac,2016-03-27 15:15:43+01:00,TRUE
+9a7ad570d8dd03e99787fadf1b00968c66dcfca4,Add instructions to build GCC 4.6 on the Mac.,2016-03-27 19:39:47+01:00,TRUE
+4cccbcf8c99e445566ba8e0375d2bf45e9b7cf56,Update Mac building instructions.,2016-04-04 15:47:07+01:00,TRUE
+428b105f29490533e4817b7d8da3a3432c31fd8f,Fix mdl violations in README.md,2016-04-10 22:11:07+02:00,TRUE
+ce65bd5ada9b0b85cb7fceee7b3aac6c4edeca5c,Document that su-run can have libraries specified,2016-04-13 14:24:28+01:00,TRUE
+85b85c1faec1e27e1549bce39f776b2d6ef4353e,Document intentions for .su files,2016-04-13 14:24:28+01:00,TRUE
+44f78247d7e0325ca63de0774bf3dd47eca8e94c,Scale back ambitions for the linker in the README,2016-04-13 14:24:28+01:00,FALSE
+aa518e05adc852bc8c7fef0a060bc9eef481f0f8,Remove README I didn't implement,2016-04-13 14:25:12+01:00,FALSE
+bbc0b03a07ee22dad2e78b1fda8ab8b993dcaa36,Fix indentation in README.md,2016-04-13 17:11:46+01:00,FALSE
+27475af6db2c7de111c1f3e3bd9d4c4b21740f69,Update README to reflect the recent jvmci/graal-core changes,2016-07-03 10:51:26+02:00,TRUE
+bca3ae90e5be941e80642b5c0939874e0714ff31,Fix OTN JDK 8 link,2016-07-03 19:15:20+02:00,TRUE
+0efade91e6e96f74f80521d38d764fa88552ad54,Fix JDK download link and directory name in README,2016-07-05 14:41:31+02:00,TRUE
+baf7adcb630c3fd2384080c2b53a4947bf995d00,Update README to use the newly available JVMCI JDK 8 binaries from OTN,2016-07-06 09:06:54+02:00,TRUE
+8923104a6f575f07dc370dfee502d6ba92afc4b3,Fix labsjdk link,2016-08-02 14:07:13+02:00,TRUE
+23cf99047766e5376970746026af70fe44739e19,"Add installation documentation to ""docs"" folder
+general documentation was copied from README.md including a little update of the labsjdk version
+furthermore I added distribution specific installation instructions for archlinux",2016-09-12 10:04:55+02:00,FALSE
+cf931d24faab8db8cab173b844d4d5c1cb11bdd6,Update Graal Truffle and JVMCI Versions,2016-09-29 15:38:45+02:00,FALSE
+7fb3a3b24e032fd4c629064c8d95fb8ae1850186,"Update import versions, and use new mx features in `llvm.pipe` project",2016-11-29 16:57:33+01:00,FALSE
+68ea3edb965bd4a3d21917bb86323711becfaf77,Update the README.md to use .bc instead of .ll files,2016-11-30 11:13:06+01:00,TRUE
+22514fa3301fc5ff16c44c4c00092c7d171a9bd8,Update Documentation,2017-05-31 17:51:17+02:00,TRUE
+3761c2e43cb45f473b1f2eada0016c3f6a919fda,Refactor Sulong options and use Polyglot option API.,2017-06-30 16:31:06+02:00,TRUE
+31564e9459bb954df5fdefc5a4366b3b3a7d1e83,Update Sulong Documentation,2017-07-11 15:47:17+02:00,TRUE
+cc3bc4522c35d39bdd8f0286d2835f0bcca56909,Documentation work.,2017-07-18 12:16:06+02:00,TRUE
+c98cac343f1483acd277ee084e8e2eca38f946e7,Fix documentation.,2017-07-18 15:58:43+02:00,FALSE
+324eb4102eab10bce56ef576d251c457395438a4,Fix Some MDL Issues,2017-07-18 16:59:01+02:00,TRUE
+0b89657d82450a45fc1c7f967334bb640dd173dd,Fix Readme.,2017-07-24 08:56:34+02:00,FALSE
+e039242c3b64e7cc48ebdd73c5c499a7d7cd021a,Clarify Supported LLVM Versions,2017-08-25 13:10:45+02:00,TRUE
+7bef3297ab044dcd0128667b342747d6a3c940fa,Document Debugging Support,2017-10-11 13:50:11+02:00,TRUE
+554b7060f0c45905b3f0e7f6449d502f69d17b40,Fix typo in README.,2017-10-24 10:44:27+02:00,FALSE
+c97569f18d9f074330604496205013d0a66623cb,Document LLVM 4.0 Setup on MacOS,2017-10-27 17:07:57+02:00,TRUE
+4b5702b195dd08c07d5f92c4a8ac83305fbe80e7,Add LLVM 5.0 as Supported Version in Documentation,2017-10-27 17:12:36+02:00,TRUE
+7a25425593d5e746c154f909dbedb99898d2fea6,Document need for optimization when compiling bitcode.,2018-01-08 17:14:30+01:00,FALSE
+3ace8d072f4ef0fd2aca44afb6034afc562175c7,Update README with LLVM 6.0 Support,2018-02-26 13:17:00+01:00,TRUE
+2edcbadc8d24c69d0390120c6e2cc4ef37bcf0ba,[docs] Fix SSW Url.,2018-02-26 15:17:19+01:00,FALSE
+868c0d8747e32ed25c389979bd5b1605e7bcb698,Update README.md: Remove libc++abi dependency.,2018-03-19 13:57:24+01:00,TRUE
+71ed3005125ad8d2f99946619fe19918938e97dc,Fix documentation typos.,2018-03-26 17:13:02+02:00,FALSE
+79490cfbc72956fa75cedfb31adacb8693f83c57,Small fix to README and add some build artifacts to .gitignore,2018-07-13 11:50:35+02:00,FALSE
+093993abd8c84e16b3b47cf04e7c730ed81d0963,Remark the use of libc++ when compiling C++.,2018-08-24 13:05:18+02:00,FALSE
+9242eb3a765e9f12837f5ff1a4b1521c5f0e2f9f,Mention how to use mx lli with the Graal compiler.,2018-08-24 13:05:18+02:00,TRUE
+337dce949dad3399bba6e4e0d4e7de51a49569b4,Add notice about repository move to README.md.,2018-09-05 16:57:24+02:00,FALSE
+b0ab1141d0c505f0a92609f02aee301a1b114575,Fix URL.,2018-09-05 17:13:30+02:00,FALSE
+20686f6a72e222ad0a6ebc6ef002a5b353a45fc6,"Make ""repo obsolete"" message more prominent by removing README.md content.",2018-12-05 12:00:54+01:00,TRUE

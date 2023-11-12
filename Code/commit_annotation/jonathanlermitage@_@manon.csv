@@ -1,0 +1,155 @@
+sha,message,date,result
+be1d2198cba2e22634e417c9b8c8105f271a5c4f,"(feat) initial commit: includes user registration and authentication, friendship ant team management, matchmaking initialized",2017-06-01 18:30:33+02:00,FALSE
+ddb3375b4a4515d965e1f9996055e3f49129fdc0,(doc) short project description,2017-09-12 23:33:41+02:00,FALSE
+823387e964ee706330d7c93b9ec78b36ce4a9ed0,(doc) cleanup,2017-10-03 14:50:23+02:00,FALSE
+4f23b41072cdb81a336fd02ec7beff3556f8458b,"(doc) project information: profile, branches, license",2017-10-03 14:50:23+02:00,FALSE
+233c4a02d14d3d7d67657bbaadcbb402a93443b9,(doc) Spring 5 branch (spring5) is now stable,2017-10-22 14:45:32+02:00,FALSE
+eda516038e2b8847b7207617c4687a6b602c45f2,"(feat,lib,refac) Spring Boot 2 and JDK9 migration, code cleanup and refactoring",2018-01-15 00:16:44+01:00,FALSE
+ad9f4d665a14945c929ba3b049d2acdbf67f5dbf,"(doc,refac) code and doc cleanup",2018-01-27 13:20:10+01:00,FALSE
+382af562e91d098329a3f82546419428e8070483,(doc) explain branches status,2018-01-27 14:25:18+01:00,FALSE
+bd1b16a2d696298d5408a0cd98ce59f0dcfefdb9,(feat) AppVeyor CI support,2018-01-27 15:07:43+01:00,FALSE
+9014d28d3279edadabcd431b72939f3e145cc35c,"(feat,refac) Travis CI support, user version API, test Logback xml",2018-01-29 00:49:31+01:00,FALSE
+5c1b195e27669179ab5e1f24529906c578b44a06,"(lib,refac,test) upgrade libs, code cleanup, reduce test contexts creation",2018-02-11 14:09:59+01:00,FALSE
+67758837a85f3605318b8c9842d9992456465386,(doc) add build information to readme,2018-02-18 15:29:02+01:00,FALSE
+37132803b9ea9c838b212a3ad84fd7f5d2725ba7,(doc) explain project goals,2018-02-20 21:30:24+01:00,FALSE
+9f605683a60585a47f21b2f9878c7a2f8b4e7cce,(doc) note about Spring Actuator web endpoints,2018-03-05 20:03:32+01:00,FALSE
+93a6e13210133d2fbd8ae84962c5bdfb468b962b,(feat) CodeCov support,2018-03-07 22:19:32+01:00,FALSE
+04f991f47b71104e99ae4f2eaa09898a87701fa3,(doc) reference to swagger branch,2018-03-18 16:31:51+01:00,FALSE
+44db3e091c561492bab8dc14c97a934378bca810,(doc) reference to redis branch,2018-03-18 22:29:58+01:00,FALSE
+6ec9b11107f028a93093437840ba0e69559bab8c,(doc) reference to redis branch,2018-03-19 00:03:20+01:00,FALSE
+9662682990f1a701e974d2e9bc85d3c0f5fa3aab,"(lib,refac,test) upgrade libs, switch to JDK8, huge refactoring, improve code coverage and quality",2018-04-07 17:31:37+02:00,FALSE
+ffc6ef5b166c00b3c416d1105ee27f032207c098,(test) enable osx test on travis,2018-04-07 17:58:16+02:00,FALSE
+a069f220aa19cca4ef694ebe1c439af2a15a7559,"(doc,test) improve do.cmd: tsc combines tc and sc",2018-04-08 16:17:31+02:00,FALSE
+5f7c0c228fa190e651c005a4e99bf5b63c613dc1,(feat) do.cmd: package and run application with dev profile,2018-04-14 17:34:25+02:00,FALSE
+ce8100f8a0b241faa667170453c049fd8d0149ef,(doc) spring5-redis branch: add a link to latest fix,2018-04-16 00:27:16+02:00,FALSE
+3f84012b4239d34f569534e8c79f2511692c99c5,(feat) bash util script (similar to Windows do.cmd script),2018-05-01 14:16:02+02:00,FALSE
+c389eb3f8ec6ecaef3fbc9559be8bf36e0eaaffa,"(doc,lib) branches status, upgrade libs",2018-05-08 13:36:41+02:00,FALSE
+03b2e65ce78c96ed51c60d7b39c3248d59206d7d,(doc) link badges to branch,2018-05-10 18:22:09+02:00,FALSE
+f1b3600755433b2891dc26a12202f67c3aa9a6d3,(doc) spring5-light branch documentation,2018-05-10 18:24:41+02:00,FALSE
+3f48bb1a2a72643374a3da294f6d97911884b733,"(doc,lib) add banner, update branches desc, upgrade libs",2018-05-18 19:22:08+02:00,FALSE
+c9942770c1ea1166d78fcbbecf55604d67f06bbf,"(doc,lib) upgrade Lombok, should fix jdk10 build and run",2018-05-29 19:03:54+02:00,FALSE
+6d99e71b037c7bf1c6d8421f5233e2e20e003938,"(test) enable oracle jdk10 build on travis
+
+Remove openjdk10 since it's not supported by travis yet.",2018-06-12 13:47:28+02:00,FALSE
+58c6144fa4181553a036cf42765d0d573f21ba35,(doc) reflect latest changes about jdk usage,2018-07-30 14:43:45+02:00,FALSE
+b4d5c1827d57c5e82a2e62e7fea5025c90a3db97,(doc) reflect latest changes about jdk usage,2018-07-31 11:28:14+02:00,FALSE
+dd5130fa5f4bbfb51bc3a14f808280d1901768c9,(doc) fix link to codecov report,2018-08-13 18:45:41+02:00,FALSE
+de7335b2be850ca6a7b683bdbe2b86adc990b594,(ops) build Docker image via Jib,2018-09-17 00:45:27+02:00,FALSE
+f9ef9566a1b09670d2d55b714d75ba7c8665c1d8,"(doc) reorder branches, add a link to spring5-light-docker-jib commit",2018-09-17 00:52:25+02:00,FALSE
+7ca57bd43c1f9c6f4130445a4f4a17fbd2bff823,(doc) add twitter badge,2018-09-27 00:53:28+02:00,FALSE
+d8cab224c9ebce8f6c32361b2425465e58c4adca,(doc) add LGTM badges,2018-10-07 02:08:33+02:00,FALSE
+54fd0e3919744400010a27a22734b5b74098c6ba,"(feat,test) enable Cirrus CI build",2018-10-07 02:32:23+02:00,FALSE
+9238cd022a1ee9114d6712fb5fd60d298d1d2e59,(doc) add docker-compose and jdk11 support in project description,2018-10-13 18:57:56+02:00,FALSE
+b055ae5f3a86c45a37d0ee794f721a79611e54d7,(doc) reformat,2018-10-13 22:03:57+02:00,FALSE
+c41bd7d3d0e38a47d623abe37a2da20754fac0a9,(doc) update branches description to reflect reworked Swagger support,2018-10-14 17:11:14+02:00,FALSE
+ecc8812decf713c714c30d0b9555fb992887a001,(doc) fix branches description,2018-10-14 17:27:34+02:00,FALSE
+7bdc30efdbd8276bd7e42efaa7c18601b25113c8,(doc) cleanup,2018-10-14 18:40:22+02:00,FALSE
+a435bade8f3f272f08e704b62aeec55409323507,(feat) do.sh can now clean up dangling Docker images,2018-10-17 00:29:00+02:00,FALSE
+60650f1f1f894b78c300bc2dbb7a2d365e5e3817,(feat) do.sh can now stop application and remove its containers and images,2018-10-17 00:29:01+02:00,FALSE
+026d9e7b0e3348bc83f8ab6198cc0bcc24e3a667,(doc) add a link to spring5-light-mongo4.0.x branch in README,2018-10-22 22:03:18+02:00,FALSE
+c710bb67b52c26b2ce79ff447a549a4e235be634,(doc) remove deprecated build instructions from README,2018-10-23 00:27:27+02:00,FALSE
+364956e6bf7faf80e7b06a22f386678f5983b6be,(doc) rework branch description and build instructions,2018-10-23 00:32:16+02:00,FALSE
+fccf3870ce4f5693ce5af4fc91348bcc50aa952e,(doc) add a link to spring5-light-batch branch in README,2018-10-26 00:38:39+02:00,FALSE
+0aa7de6165b92062fd5507c4770e90de05e2a94a,"(doc) use ""./do.sh"" instead of ""do"" for Linux, minor documentation fixes",2018-11-16 22:51:02+01:00,FALSE
+11186e63ebe8522048c6e604cb51978654487941,"(refac) rename ""do.sh"" to ""do"" because "".sh"" part is useless",2018-11-19 20:07:45+01:00,FALSE
+af441e2a0aaddc8ccd3ad19d5a13aec4bf0eb3ec,(doc) add link to spring5-light-hsqldb-to-h2 branch,2018-12-01 15:04:39+01:00,FALSE
+3f012fe706b9625ffde6b9f79d76a20cf86f418e,(feat) enable ELK stack + Cerebro,2018-12-09 16:20:19+01:00,FALSE
+3e33a98a9fe36807cf3019e1ea6b913df8b19e41,(doc) add link to spring5-light-elk branch,2018-12-09 16:29:46+01:00,FALSE
+46e1a850a32aa87a3755c35b664f0383e4f273c6,(doc) add ELK to main branch description,2018-12-09 16:33:15+01:00,FALSE
+4063a6cdbb9256b461f34e3565938363088160a8,(doc) removed twitter badge,2018-12-11 00:02:49+01:00,FALSE
+16cfb0b8723e10d755ca462564c4c2eb22a96916,(doc) rework: explain why I use TestNG and REST Assured,2018-12-11 00:21:31+01:00,FALSE
+ce5fc52af6e251782d62b62c8b974a36253fe647,"(doc) typo in readme: replace ""./do.sh"" by ""./do""",2018-12-11 00:33:58+01:00,FALSE
+a8f74b4cceb0c83839d12bf15fe2aba3be102769,(doc) update commits list related to ELK stack,2018-12-12 22:05:11+01:00,FALSE
+c8885d96e6296a002af82f3de7173b7227155caa,"(doc) clarification about Linux and Windows ""do"" script's capabilities",2018-12-23 20:02:00+01:00,FALSE
+48ec51762bac19f35c2ad7ba595f55e4555bacc1,"(doc,pom,test) switch build from jdk8 to jdk11, target jre8 with jdk11",2018-12-26 15:25:40+01:00,FALSE
+f32eae6ebedb02e5b9c12ab529da9e9bde1409d4,(doc) add spring5-light-jre8-with-jdk11 to branches list,2018-12-26 15:31:09+01:00,FALSE
+cb3a6f6f9c69c85c4c311de954e24f3c7852170a,(doc) add link to maven-wrapper's git repo,2018-12-26 23:22:10+01:00,FALSE
+231ce2d0d4da23f83f251153d641297e56f23942,(doc) add link to spring5-light-testng-to-junit5 branch,2018-12-30 16:23:25+01:00,FALSE
+2452d4712e6dae80e762dea9391fcd885b884497,"(doc,feat) add FindBugs support",2019-01-01 00:35:14+01:00,FALSE
+ba5ea50a0ff0ff4076021877c7fa9f70a2d20f0a,"(doc) add link to spring5-light-findbugs branch, typo",2019-01-01 00:39:58+01:00,FALSE
+fba970a519770673dbe6c4016f4d1a0dca47e7a3,"(fix) cli should invoke spotbugs, not findbugs. Also, enable all spotbugs hints",2019-01-01 16:38:11+01:00,FALSE
+1ec6b5d3457472403307ac2c9c69e9125a7a3e17,(doc) update spring5-light-testng-to-junit5 commit list,2019-01-01 23:47:17+01:00,FALSE
+1d76d84c4e57643af849c353399122d0bbc4ee67,(doc) cleanup + clarify branches in readme,2019-01-04 00:48:40+01:00,FALSE
+b59bedb7f7f87f1931a670289f3e58fd9ebff832,(doc) update spring5-light-testng-to-junit5 commit link after rebase,2019-01-04 17:24:16+01:00,FALSE
+a21db57e53598b5fbc29731573073a5d557fedca,(doc) update spring5-light-testng-to-junit5 commit link after rebase,2019-01-04 19:15:22+01:00,FALSE
+287dcc39a1415f67fc1b12db9cd809ffe179d994,(doc) update spring5-light-testng-to-junit5 description after rebase,2019-01-06 03:22:34+01:00,FALSE
+6a92fe119bfbbfa339eb80fef521b7f195c2f74c,(doc) improve branches description,2019-01-06 15:22:00+01:00,FALSE
+fe417423f4121aa2866c5f408024c3d42fe6a2fc,(test) introduce archunit tests,2019-01-13 02:10:06+01:00,FALSE
+e552884e55cad7a12ee0757cc6bf2bb52d7e796f,(doc) reorder branches,2019-01-13 02:12:13+01:00,FALSE
+51cd89475e7b30979ceb1aa9de23fbefab742d03,(doc) update branches after spring5-light-testng-to-junit5 merge,2019-01-16 18:16:09+01:00,FALSE
+bb85cf322153bf2fd2a122fbcfb65033146ac167,"(feat,refac) migrate from mongodb to mariadb, also improve some tests",2019-02-08 18:28:31+01:00,FALSE
+72a6d66b17e3e82a0f3247e33fbac2cff587293b,(doc) fix branches description,2019-02-08 18:48:31+01:00,FALSE
+3be9c034463eee2b0a2a66ce8ad9820968e9a63d,(test) use mariadb on travis,2019-02-11 17:24:41+01:00,FALSE
+e27987ad84d3322b06498567703a87f0bb5e4103,(doc) add link to spring5-light-spring-boot-dependencies branch,2019-02-20 01:01:50+01:00,FALSE
+fb8ee145dc575f07b807178c7a8f226aa7043b36,(refac) migrate to Java 8 date and time API,2019-02-24 18:17:51+01:00,FALSE
+e11d2f66ce58415c7b62ff6f1ccef1f6aad9de30,(test) introduce test parallelization with JUnit5,2019-02-27 17:40:04+01:00,FALSE
+4a8e07940f28c9dcd7899f33cb674914189b3988,(doc) keep documentation up to date with main branch status,2019-03-03 14:27:27+01:00,FALSE
+827ea3152e26e630d104be25d83dcf0242f07a82,(feat) enable GraphQL queries and mutations,2019-03-26 16:06:38+01:00,FALSE
+e42b680a37a11567183183072f4dd18128d78e06,(feat) support Spring Retry,2019-04-04 00:15:18+02:00,FALSE
+6246407d84b131c6d52208ddbc4a9e6aef795007,"(feat) remove GraphQL support, waiting for issues resolution (see GraphQL branch description in README)",2019-04-07 16:49:37+02:00,FALSE
+692830904508818e3e96816124e30f79b921fdb0,(feat) support Flyway db migration,2019-04-07 22:42:35+02:00,FALSE
+286c2988230589dd25041d375c100d701e96bfe5,(feat) add switch to 'do' script to connect to dockerized MariaDB,2019-04-08 02:33:01+02:00,FALSE
+8f39bb5ee06fc5028bf46fc98adbfc25e9dbb62a,"(pom,test) enable jdk8 build on travis",2019-04-16 01:40:40+02:00,FALSE
+9680d29b9fef95dcd4bdc285d4f14b2f1f86b0cc,"(pom,test) separate unit and integration tests",2019-04-22 02:10:38+02:00,FALSE
+ccfa2340841663a3705fea9cae08671cb0cf8026,(lib) switch from Tomcat to Undertow,2019-05-05 13:32:19+02:00,FALSE
+ba14b177a3623fd418cc1d4d5a7d1fb73b5622cd,(doc) support BetterCodeHub,2019-05-09 18:48:25+02:00,FALSE
+4e59051eb782c456b7e02bb84a513af0be121145,(refac) remove DEV role and make swagger UI public,2019-05-12 20:29:19+02:00,FALSE
+a46ee032599d334c58f5f845bddf4f77c1df44cf,(doc) add link to spring5-light-jwt-auth branch,2019-05-12 20:43:01+02:00,FALSE
+3d6b3b9d44850fe91918f217847802fe70782eab,(doc) cleanup,2019-06-01 20:11:55+02:00,FALSE
+3ef9d7060bbbca995b8664455e5f0d15e8dfb82d,(feat) enable MS Azure pipeline,2019-06-07 15:24:38+02:00,FALSE
+6c85d573b1c683b5de8c197090dfd17cb6c10552,(doc) rework Azure description,2019-06-07 15:31:10+02:00,FALSE
+51f091baf57a5f9a28927e0b7595f68fe312fe16,(feat) manage JWT tokens in db,2019-06-19 16:41:22+02:00,FALSE
+ad90094025ab4a4e1e44c92a4576461a6ac7cb59,"(feat) enable Redis or in-memory cache, and cache JWT references",2019-06-20 18:40:02+02:00,FALSE
+06b928b6b3b0b03aa2961e6a42ba4d36142d9424,(doc) add link to Spring Cache documentation,2019-06-20 18:42:24+02:00,FALSE
+03b63f82d84d76bd215aaa1f71065cc1c872b66c,"(feat) add 'fixgit' task to 'do' script, to set executable flag on git index",2019-07-15 21:25:27+02:00,FALSE
+de5bb7d08da7001aca5e3feb8ad46507bbb5d21a,"(feat,ops) enable Glowroot via Docker build",2019-07-18 17:09:04+02:00,FALSE
+91c0c9a923bd793b58a85010fa0c94bf55339a6d,(doc) fix minimum JDK version in build instruction,2019-07-20 14:33:07+02:00,FALSE
+951c0a51cee200f76d25b4ba692dc5d60bb0aa92,(test) get code coverage by integration tests only,2019-07-30 16:01:22+02:00,FALSE
+4d77875ad4d4548fe6d5874bd40a2587a0efb79e,"(feat) add 'do dockerreset' script to stop and remove all containers, then remove all images",2019-08-16 17:07:20+02:00,FALSE
+7c3e7bb110869f38087fcc19e61d46f42ffc498e,(doc) enable oga-maven-plugin,2019-09-11 18:19:01+02:00,FALSE
+1465c1e9ec748715d4f2e4a6b494bb9ee73d5edf,(ops) add 'do' script option to prune docker volumes,2019-10-15 18:21:50+02:00,FALSE
+b441dda9b9b1e2b58fd32d8a2f5fe6b1c81034e7,(feat) use an additional datasource for Spring Batch tables,2019-10-27 23:37:57+01:00,FALSE
+85b0bf6ee12509f096a10652344957895e66f7fc,(doc) typo,2019-10-27 23:45:41+01:00,FALSE
+43a0b9a1f0693b2fe38603a62393b5bde36a924d,(pom) use Maven enforcer plugin,2019-11-10 23:57:27+01:00,FALSE
+8174b40faae3cd9a31c675760aec90bd28d0413f,(pom) use OWASP dependency check plugin,2019-11-11 00:20:05+01:00,FALSE
+a352a8177e996656481fd007d4a5e83c7f1ffec0,(doc) fixed link to OWASP plugin,2019-11-11 00:25:49+01:00,FALSE
+03b290b0c858282f8b3a6de022f19670267ac0cb,(feat) Querydsl support,2019-11-17 12:03:22+01:00,FALSE
+d9b9b960af6bef932ac488e6bae0e4269d82b32c,(pom) generate a Dependency Convergence report,2019-11-28 23:18:07+01:00,FALSE
+381dba8850c0d68cedd2dd9125c4b2c0e9c59a84,(pom) generate OWASP report on demand,2019-11-29 17:54:31+01:00,FALSE
+3abfcf3b5295ba33794ec24b4e45ccb1c58fdbba,(feat) send email and enable Greenmail sand boxed server,2019-11-30 14:18:02+01:00,FALSE
+21b8e5af3654cb273e7d26308d4203c59c99ca39,(feat) enable Async methods,2019-11-30 15:01:43+01:00,FALSE
+5463dd515fed97132a842f02207988b26b4f54c8,(feat) introduce Gatling benchmark,2019-12-06 14:23:13+01:00,FALSE
+b4ad42c6d24cee121b17f1a677cd57db5a730997,(feat) add a command to pull Docker images,2019-12-14 18:57:16+01:00,FALSE
+dea93abbb1a5731c2ff6f3078a130f01d6cb35da,(feat) introduce Mapstruct object mapper,2019-12-19 19:07:20+01:00,FALSE
+e5079267c46cac7f5445e4fa404fd06f1a48c0d7,(test) check transaction rollback,2019-12-21 18:04:01+01:00,FALSE
+e9ad010384584b94dc8a5617913f76a0b9074f2d,(doc) add some Git tips,2019-12-23 16:39:48+01:00,FALSE
+c5bee027a9746031c2f5ef5c8d50a2ed5f9fcaf3,(feat) enable Prometheus metrics monitoring,2019-12-26 16:51:07+01:00,FALSE
+600305078eaf3f59c4c84fccba1aadf0e9a10b26,(doc) add missing Alt for images,2019-12-26 17:59:33+01:00,FALSE
+4d00efeeaa27395cc37f22e0ff20629d6298af4b,(feat) enable Grafana metrics monitoring,2019-12-27 00:17:49+01:00,FALSE
+eb41aca1eb9cc6dfcbc6cf4ea5cd70f79989f1ba,(feat) support PostgreSQL,2020-01-11 18:37:45+01:00,FALSE
+9060843c6209b2b4e3ef1fad4cefd68e8ece1dbb,(doc) better Travis badge,2020-01-20 22:57:28+01:00,FALSE
+a5f0d3bc828f3c2d971aed7a64cdf9b08d924589,(doc) update list of tested JDKs,2020-01-21 22:15:14+01:00,FALSE
+fafac63c1a0adb8debeba6782840f0406b44c930,(pom) reintroduce failsafe to run integration tests,2020-01-22 22:52:54+01:00,FALSE
+e9589da35e116eb108fb8814fa3aa3294980f600,(doc) add link to the commit that reintroduced failsafe,2020-01-22 23:08:21+01:00,FALSE
+102984bf7f92fae2eee1f0000b900cd958f29328,"(doc) add tip about proxy + mvn wrapper, clarify git tips",2020-01-23 18:03:02+01:00,FALSE
+f64844289528afec9b045dcb7e966e71d71eb78b,(feat) show Git information into Actuator's info endpoint,2020-01-26 18:44:52+01:00,FALSE
+5aa3e42231b93e3cd8ff632e47f186ae0fef03f6,(test) introduce JsonUnit,2020-03-20 13:53:16+01:00,FALSE
+52c258f64b58a29047deb38c58c2b7070be55ba3,(doc) fixed typo in Travis badge alt txt,2020-04-02 15:29:28+02:00,FALSE
+3dd8fb687253751b313748caacc9cb48e979ca8a,(test) introduce Java-faker,2020-04-19 19:50:24+02:00,FALSE
+ad3b76b5d53e8ddd4dd87b7af8f3cd7423b2baab,(doc) rework links in MD doc,2020-04-21 01:20:11+02:00,FALSE
+f808fe7a8b98aeb19520cfdad0c12b70a34ab8a6,(feat) improve 'do fixgit' to renormalize files (ex. after changing core.autocrlf),2020-06-01 23:46:07+02:00,FALSE
+b49b7fb91717dab4ebe071ab2a40d655970879aa,"(feat) split 'fixgit' command, see 'normgit'",2020-06-01 23:58:06+02:00,FALSE
+3ab412b5e26ad37acfad71894578da46f563038a,(test) log web requests during tests only,2020-07-01 18:29:38+02:00,FALSE
+b69d06657ba646700facada64b813c1451f0ea0e,(doc) add SourceSpy Dashboard link and badge,2020-09-05 16:19:17+02:00,FALSE
+34894d1d2b530fd9006f52604c7b6b590e3a7cb6,(doc) markdown cleanup,2020-09-07 01:55:22+02:00,FALSE
+3bd53aa6757c57595c5ccdadacf57efdbce1f5dd,(doc) add link to Tips,2020-09-07 01:57:01+02:00,FALSE
+dad6cd2c2f0717db2230f787f71f9cd852bfc884,(test) introduce some e2e tests,2020-10-24 21:45:59+02:00,FALSE
+22e183ccab75d61632f7a80bab30048ad5f76149,(doc) update license path,2020-11-16 00:37:45+01:00,FALSE
+e525611ba35a24d1270390e6420437ac63ccae38,add a command to set bash scripts executable,2020-12-29 22:33:06+01:00,FALSE
+7986a91697a93ceda087e7ba98951e18fcbe6c9d,link to spring-boot-admin branch,2020-12-30 22:14:40+01:00,FALSE
+30ecd5034214590871abcea70f559c6761eaa8c1,PIT mutation testing,2021-03-21 21:10:50+01:00,FALSE
+219e68507be2610d64a61c1e21307746290caef4,springfox to springdoc,2021-11-28 22:04:32+01:00,FALSE
+3348b9073d0fe5f954635c1868836261756124bc,use jdk11,2021-12-01 01:27:40+01:00,FALSE
+488454f132b3599d4bf1c09e2ff95b61949d5108,Spring Boot 3 migration,2022-11-27 22:13:21-05:00,FALSE
+99fc9d2608c25d2ba11c6c8746285375ab3e4acc,doc,2022-11-27 22:15:34-05:00,FALSE
+0b574d1b3809e2feda6c7b8d8f2100769326fa9e,remove LGTM,2023-01-21 23:34:04-05:00,FALSE

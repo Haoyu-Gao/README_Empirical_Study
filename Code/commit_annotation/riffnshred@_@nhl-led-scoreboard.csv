@@ -1,0 +1,173 @@
+sha,message,date,result
+555cd74abf3224a46176ae1bfb31bdaa63a12ee5,Update README.md,2019-05-10 10:33:29-04:00,False
+78df2527acc1ae7c43fd7450852089f04d624f25,Update README.md,2019-05-10 10:35:55-04:00,False
+6e5b9f7f522d7730013684ec74671b5184ed9c8e,"Main scoreboard fonctional
+
+The main scoreboard live game is now fonctional and I added the first README file",2019-10-08 20:56:14-04:00,False
+d4a1b115d81a0793276a6d8d65fb81cc1485dd1b,"V 0.1.0 Release
+
+First official release on Github. Cleaned up the code added comments. First README and intall.h.",2019-10-22 19:49:44-04:00,True
+d6db034dcac03aa8feef335273efebb536d4fd3a,"V 0.1.0 Added Licence
+
+Also delete some unused files",2019-10-22 20:50:14-04:00,False
+2cfc822c568cf7dd9391d4b12d25cc1238eb07bc,Update README.md,2019-10-22 20:52:22-04:00,False
+229b32127f2f5567dcb7c8899c2443671f460d47,"Update to README + Install.sh
+
+Made some changes to README, added Table of team's ID and a Testing and optimization section.",2019-10-22 23:19:04-04:00,False
+b1b0775515856b7b9824f1501194a8cf822a2275,"V 0.1.0 Public release
+
+fixed install.sh and cleaned the main.py. Added the ""Time and data accuracy"". removed a print() statement in data.py.
+
+FEEL'S LIKE SENDING MY KID TO SCHOOL.",2019-10-23 23:15:46-04:00,False
+e8a0115b4dca7e5976f507ddc93eeeccde397476,"Fixed typo !!!!
+
+fixed major typo in README",2019-10-29 19:08:27-04:00,False
+d2682c2f01dae946024edd39df350b8d9084cd09,"Added the requests library...
+
+to the install.sh and the dependencies.",2019-10-31 17:22:45-04:00,True
+26ae538b1e5d47dfd7ce93540f8be79a56ab7ddf,"Took out the ""You want to help"" section
+
+I'm going to wait until I sort out the base system and release V1.0 first.",2019-12-10 16:20:02-05:00,False
+cba38aad22a082ce0d7f59b5338fccdb30042c9b,Clarify that install script must be made executable,2019-12-16 12:40:41-05:00,True
+faa291f7819500b655f29343a5ee50a97e7156ad,"Specify that the Lite (non-GUI) version of Raspbian is preferred
+
+This is recommended by the rpi-rgb-led-matrix library: https://github.com/hzeller/rpi-rgb-led-matrix/#all-raspberry-pi-versions-supported",2019-12-16 12:59:54-05:00,True
+14f52d55ebd7be23120f175100722ee006c8e4dc,"Removes a documentation error that asked you to install the rpi-rgb-led-matrix library a second time
+
+This was already installed via `install.sh` and doesn't need to be installed a second time.",2019-12-16 13:06:38-05:00,False
+319cd2ba56a5b4ce4e84dd8fe4951c7aed5d2ec2,"Added NHL Copyright disclaimer
+
+... for the Logos",2019-12-21 19:17:01-05:00,False
+e1616b735e6507510a331da721018103d5e0debe,Added Contribution disclaimer.,2019-12-22 10:03:51-05:00,False
+2fe05650c0b62259db21c02ce874c86c4bec85d5,Finish the Data section for V1.0,2019-12-28 09:55:37-05:00,True
+ea58df2478dc057d1bb67e58356195444ef7b1e4,board system functional,2020-02-01 16:04:02-05:00,True
+559727da19a800614ce513f06cd95903fdd0181f,Started the documentation.,2020-02-12 07:33:26-05:00,True
+9e08a9b44fea420572daf619711a086ce1f85bc1,Update README.md,2020-02-13 09:45:29-05:00,False
+bcf3f79931490ab2f2b8c8b7f64b90f08531a7f4,Update README.md,2020-02-13 14:11:57-05:00,False
+e3d8fc9def8bb578ab635d0c9b7eb9e844f8c88b,Update README.md,2020-02-13 18:06:18-05:00,False
+aad10d8a384a9683e82c00c433feae1f51a294ce,added the option to enable the dimmer,2020-02-13 18:21:02-05:00,False
+d8f1be8bdb4e95ccc747ebc3b2c33e1d703e4618,Update README.md,2020-02-13 19:04:21-05:00,False
+1c099a0c61f0c224403e86572c236a7263386346,Update README.md,2020-02-13 19:05:47-05:00,False
+923410440184de8db43f8898ff453fc1391a8e84,Update README.md,2020-02-13 19:11:31-05:00,False
+5a860264f5df9465cc9da123de629771260e4d93,Update README.md,2020-02-14 13:29:20-05:00,True
+0525d6c86d411ca776a181340239833ae821f637,Update README.md,2020-02-15 08:03:47-05:00,True
+d40383d8ff2b9b62066a132f3d7aa75f2a79b085,Update README.md,2020-02-15 19:26:16-05:00,False
+55acfeaebe5cf4432cf2ce0a46e1082dd29072b1,Update README.md,2020-02-15 20:32:27-05:00,True
+e4dc89d675c173eb3702a177f056435b7da23414,Update README.md,2020-02-16 08:34:06-05:00,True
+8f4b0bdde21c0ab7075ad4a8369b5b54aef19c44,Update README.md,2020-02-16 12:58:28-05:00,True
+f37fc7d32ae9a19d581f2a0bdcd927a115938287,copied dev files into beta branch,2020-02-16 15:52:28-05:00,True
+88ce4ee66a7965ffbae2df1d08f41637f6391edd,Update README.md,2020-02-16 16:09:18-05:00,True
+8ec10021f3bccbd90f6fb46cdd0cdbeca7991059,added discord button,2020-02-16 17:07:20-05:00,False
+d16a79b1ff25cdea65775469ef1a6692de50d979,Update README.md,2020-02-16 17:10:04-05:00,False
+ad97abd8e3d49209b12d1e6dbd9058688fc377bd,Update README.md,2020-02-19 10:58:53-05:00,False
+1a4d58136af274f50f739c13c569e2adeaf64e79,Update README.md,2020-02-19 10:59:10-05:00,True
+d4164c8149fd7df54379b91cb96b64974ba02dd5,Update README.md,2020-02-19 19:58:21-05:00,False
+4c99dc0e0dea0b56ec85b717a2517dd6a6ea01c3,Update README.md,2020-02-20 17:13:22-05:00,True
+99bb8796f5edb549c647907cf8897772b1facf10,Update README.md,2020-02-21 12:09:18-05:00,False
+3ae0284dcc69bb442605d39bbcd4ac5fe6769dc8,Update README.md,2020-02-21 12:11:44-05:00,False
+f94cbe9df8b4ec635d84df2738e93ad6fa64ef9b,"New time format, Wild card Standings and bug fixes",2020-02-23 08:15:30-05:00,False
+76a9b437259d32bcf658c5eb686fd7e0c0b89a3e,added wild_card for when user select pref standings only,2020-02-23 08:34:50-05:00,False
+575bd7c827d620d630b21c7cbfedeb5aa02e636b,Added documentaton for Supervisor,2020-02-23 16:21:41-05:00,False
+9fda73271a31c6e7cbe6eb44d0ec9eb8b0b46016,Update README.md,2020-02-24 06:49:43-05:00,True
+155358da1f7a4526d828f2ef38a9ace387e316cc,Update README.md,2020-02-24 13:10:24-05:00,False
+08cbebaa954bd7c5cdc3c86822dd1f1c85f15d0c,Update README.md,2020-02-25 22:07:04-05:00,True
+2f9f37b53947a17bfe462e1e9dcbc73cf98a614d,Update README.md,2020-02-25 22:08:09-05:00,True
+d8412f8aef8274dd024ef11f2816be0631351823,Update README.md,2020-02-25 22:15:08-05:00,True
+b06385382849f3359c994cc09865d2366ec712de,Update README.md,2020-02-27 12:18:30-05:00,True
+7129566bdb7dc6ab2e1c1c734f11054ad9eca160,Moved all the standings configuration in one place,2020-02-27 19:09:54-05:00,False
+c694fa78f327157a5cbe189a78c4688c210d3570,"Revert ""Merge remote-tracking branch 'upstream/sbio' into sbio""
+
+This reverts commit 2e1f73ecfaccdc7bac0aa6dcbcbd4a3e09d9e80b, reversing
+changes made to 54e5efaa1dfc54a1c29cbff35248cfd32f243606.",2020-02-28 21:30:35-06:00,False
+b1c93d6b5310a950439d0fb3e602932ede3938e5,added images for documentation,2020-02-29 08:17:00-05:00,False
+bcd68341802ef216a88e770005447a69b7148650,relocated the images and added shoutout,2020-02-29 08:57:17-05:00,False
+7be6b661abea4f060cd04c3b052f08a17f11ac63,Update README.md,2020-02-29 09:00:18-05:00,False
+a6cb07e00b70bfc49cc1b074c4a818034b2bc3fe,Update README.md,2020-02-29 09:07:03-05:00,False
+580484f3884913ea498783a00b4e33f77b525297,Update README.md,2020-02-29 09:17:30-05:00,False
+904ff521428eda836d7859636ff23d3b25471ae3,Update README.md,2020-02-29 09:20:27-05:00,True
+b9f6746783007ca77145c726be41def0025b5408,Update README.md,2020-02-29 09:21:22-05:00,False
+a035c40c55091bff645b4e3a8b9486de6c252936,Update README.md,2020-02-29 10:06:10-05:00,False
+d1e3bc574ee3b4baf3c2254c84685069413346ad,Update README.md,2020-02-29 10:19:29-05:00,False
+c035711ff8bc7bfe569ceb6344a4ffc3e57c1d7e,Update README.md,2020-02-29 10:20:04-05:00,False
+eefd647fe49d627e8215e3cb908a373be9f078a0,Update README.md,2020-02-29 10:28:13-05:00,True
+d6c60eb6fa5c0b452624ffdb088dad9a50a61df7,Update README.md,2020-02-29 15:40:57-05:00,False
+ec56f3e5837b014d0f004f0f755adbc477697495,updated the config and readme,2020-02-29 18:12:58-05:00,False
+f7ca9074dbb7e9e3bdfc0ab1932b984daa735e42,Update README.md,2020-02-29 18:41:27-05:00,True
+b1f338aa61351f04559cc61bb7b597df364fa020,Update README.md,2020-02-29 18:43:31-05:00,True
+b72dbbf8f47f895ae6581b80ec1ce2cd8a598cb5,Update README.md,2020-02-29 18:45:40-05:00,True
+c5db8655b8c3c58d12f5b291a77cd1bf5af2d1b3,Update README.md,2020-02-29 19:21:49-05:00,False
+32516875134f93ec08e6230a895ef5cd456338ca,Update README.md,2020-03-01 08:25:31-05:00,False
+02b55faaf6f8d113f56c5cbf968a3a59bf20b4f2,Update README.md,2020-03-01 16:28:35-05:00,False
+b251e04c549d6a68f4960013b6da85bcfa7a185c,fixed broken link ToC,2020-03-01 16:33:09-05:00,False
+de79026b1edd34ae82560d54e1f5bc0eddfe38c3,Update README.md,2020-03-05 17:32:28-05:00,False
+d497785777b31a714198fc4e96ffb99a0155a9c7,Update README.md,2020-03-05 20:04:17-05:00,False
+dc72750c08584d425f8ee0824bdddc17b1be59a3,"SOG and Next Game, fixed issue#68",2020-03-07 17:29:23-05:00,True
+026d336f4c3959a81caf9721ad8d6057b72e6d32,Update README.md,2020-03-13 08:29:53-04:00,True
+fd12f3209c139709b3e0d1fd1c50d68a41b9c17e,updated readme,2020-03-21 21:44:22-04:00,True
+2e6b90e5f5a91eaeb3595708ffc68a2598a5b3bf,added precision on using flags for anti-flickering,2020-03-22 11:03:24-04:00,False
+5ff33fe2427978b4c0b26cfb096d0d779dfe5e74,"Added new configuration steps...
+
+... and pointed to the button installation and configuration and more details....",2020-03-23 07:36:49-04:00,True
+47f549f6658ac21a04f1fa69ba376a0e3f638dfb,Version bump,2020-03-24 19:09:59-04:00,True
+c8a0ee8d9d1ea9df08dc0b0acd68623cf37f4891,Update README.md,2020-03-24 19:12:23-04:00,False
+dbb7e629316233d370940963217723fd9bd8eba0,Update README.md,2020-03-31 22:39:55-04:00,False
+6039484dd40efebe849f0d4e19bbf4ea54b94a4f,Fix issue caused by change in the API,2020-04-11 19:54:55-04:00,False
+998154c1ec002cb2d5081693dd47889757ffd621,Update README.md,2020-04-11 19:59:08-04:00,False
+a1e243f5170e3eb17e607ca08e01b37463055313,fixed depricated covid 19 api,2020-04-16 20:34:26-04:00,True
+16102f6358f33f222db12f4306bbfb06dcedd8f7,updated readme,2020-04-17 20:00:40-04:00,True
+3b1ab340cfe02b051bc77f6227b8420ecce0c7b6,Update README.md,2020-04-17 21:21:38-04:00,True
+c8f6815e81daa7b1fc8650ae6cd340b02f878749,Update README.md,2020-04-17 22:05:49-04:00,False
+e2ce451c77202a4167cffa2b25c04b6c96e4bab1,Update README with terminal notes,2020-06-16 17:42:39-06:00,False
+2b8b21845d326e8088ecf59ead48464e909fd85c,Update README for terminal mode,2020-06-19 11:53:40-06:00,False
+1d5941939ee99644a95b114cd298408a213a35b2,"Update README.md
+
+Added information about the new weather and terminal mode features",2020-06-27 09:47:55-04:00,True
+ff1c6099419fc7250dbb6dbc78d3bda37a0cca1b,"Added missing Config info to README
+
+Added missing Config info",2020-06-27 11:26:52-04:00,False
+1be2f4b5caaa5168a115881974e51fdad1529c9a,Added update info to README,2020-07-02 20:42:04-04:00,False
+1b5e944ff6a61939263f200784eb26b8584802a5,changed wildcard standings info because of API,2020-07-15 16:59:44-04:00,False
+827f9997b94a357312cab024b9e6dfb01bf0c4dc,Added pip3 to instal.sh. added seriesticker to the nhl_setup.py. Started working on cleaning the documentation.,2020-07-30 22:16:12-04:00,True
+36f5ad00da20af3d6e337d2843ee197d2ff0b9fe,More change to README,2020-07-31 17:06:10-04:00,False
+f20a99629d287c7f0592dfa675b500c9c13d614e,revert README to original version,2020-08-05 14:42:12-04:00,True
+178bf65d63c3c84eab8f9cc7f14cda2976f884b1,Added new features to readme and fixed gif selection in main renderer,2020-08-05 18:05:47-04:00,True
+2bf6874530a010ce5d880ee7d2cb9176d99d517d,"updating documentation, version bump to 1.5.0",2020-11-25 00:09:56+00:00,False
+bf16c759134e6a84e21c3aa5eef5cbbc55260549,Update the documentation with new features,2020-11-27 17:27:52+00:00,False
+0d83978c4471aea3b63a0da623137c720950e8f3,Added photos from the community to the main README,2020-11-28 22:39:20+00:00,False
+ac24933d07488ffd620b4a7b57f3739ced1fc1c1,Added a description and reorganized the top of the documentation.,2020-11-28 22:54:25+00:00,False
+97ebc07052c2f68aaec8402fa452c35e4c28b7a5,Update README.md,2020-12-05 19:50:20-05:00,False
+49ba21d8a0720ac5879eb14b2b63618371f5e3e0,Update README.md,2020-12-05 19:53:14-05:00,False
+c8f95a71cb0fba788f2bab561630ddf9e204ce55,Posted 2021 season warning message in README,2021-01-02 19:56:30-05:00,False
+a5b47108248f8e4670714e294864045cb396e27b,removed text in update title,2021-01-02 19:58:02-05:00,False
+c95ccb98007de1d01cd4eb51c77b69c4ad9406ef,Update README.md,2021-01-02 19:59:41-05:00,False
+108b37e08c8ac460c52d696fce9d233b7a42c1fb,cleaned the goal animation. added instructions to install git in the documentation,2021-01-03 09:56:21-05:00,True
+50ce38222757b549110396f0071416130ff4f628,added  nhl data disclaimer in README,2021-01-14 11:49:15-05:00,False
+f5275a40061882d9f4cc70d9226f4eb6aecf5976,removed sudo from installation and updating section,2021-01-14 15:39:49-05:00,True
+35cd7cbc31e2ffd739e58fea1c333d8163dda402,fixed gradient not being centered on other display size. Added gradient for 128x64,2021-01-14 19:34:02-05:00,True
+59e52fc10c507d0b4050df1d325f66af70e3c7a5,fixed typo,2021-01-16 16:35:42-05:00,True
+d222439535bd45172275471c069df48571309111,added instructions to uninstall the software,2021-01-24 16:08:45-05:00,True
+194a12f2c9f3fd87842b0083ae0d1d22b35a3ece,removed sudo from command exemple for supervisor,2021-01-27 12:58:39-05:00,False
+92b37e86f996f499a7dce67c1389f6ec3b61c3cb,"Cleaning up README - Part 1
+
+Removing and rewriting the main page to keep only the steps",2021-02-05 17:27:38-05:00,True
+c4585d845031e878a2caa02bbfa4768c75f07948,Documentation rewrite. Part 2,2021-02-05 19:08:17-05:00,True
+b4062fb0b9b648425a1ccae7da84746c6ffc3f15,cleaned the goal animation. added new lines to add in the supervisor.conf,2021-02-06 21:32:00-05:00,False
+b62a968ab214f61fa089088cd8ee4d6e141d3408,Added skill requirements,2021-02-12 23:33:22-05:00,True
+9ed65b7226316d1318c459912eddecbf8af0f488,Cleaning up the Documentation,2021-02-28 18:27:42-05:00,True
+a01718c5366363042458d5f25f691f4c2148d2b1,Cleaning documentation 2,2021-02-28 18:30:12-05:00,True
+abc540bc27bdf3b4ed79b14cb753ecfdf5c4e275,Added info about Discussions,2021-02-28 18:54:23-05:00,False
+78deadf38f760bf14962da7c876a41ce0c290685,Removed the discord channel button,2021-02-28 19:30:31-05:00,False
+3ccd1b0ec0fbeca8b80efb7aeaa0f909ed5f6e58,Update README.md,2021-03-01 18:40:38-05:00,True
+a9930bd5a04e9b156e21399ea285f8d9b0b3b31a,Bumped version and added image release badges,2021-03-02 15:21:05-05:00,True
+4301e7f4b939250482fbfce75729008754b62a51,Update README.md,2021-03-02 15:50:12-05:00,True
+077920f1e9ba3480807c8e27b24ca82dc3401814,Removed the step by step and added second methods of installation,2021-03-02 16:11:38-05:00,True
+9497cc45e918a73ebf4746bc73e1870b36420042,Modified info about the image,2021-03-02 17:07:08-05:00,True
+40cd0d0588da9a2c78323cb712389e3854aa9aba,Added notes for 2021-2022 season,2021-08-12 11:23:17-04:00,False
+e93d044dfadbf55f4535c04078d72719f6789acb,fixed typo in notes,2021-08-12 11:28:28-04:00,False
+08204130a441fb01c89b284a23087ea0f6346bbf,Update README.md,2021-10-01 14:56:09-04:00,False
+b46e85ceff00c2f6f1973d8b1599115c9ef0285a,"Update README.md
+
+Fixed a small typo. I don't know if you're participating in Hacktoberfest or not, but that (and the fact that I love your project and built a scoreboard for my brother earlier this year) is why I'm here!",2021-10-02 15:45:38-06:00,False
+9bdbfba66800bc10c39b5acce2fcd19a69e7e1c7,Added details on end of support for the Pi Zero,2021-10-16 11:30:19-04:00,False
+a78a1f770bd1d2d1468b61480ab357b081e7060f,Added link to Pi Zero 2 discussion,2021-11-05 07:02:56-04:00,False
+4c92a31e0ecfe40eef311e01b3f8b09515fa8914,Added current know issue caused by the API,2022-09-10 10:35:57-04:00,False

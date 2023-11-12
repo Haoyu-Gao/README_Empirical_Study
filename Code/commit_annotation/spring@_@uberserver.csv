@@ -1,0 +1,20 @@
+sha,message,date,result
+10cdf91a7574f298aa8ae177752cf2321e054ea4,add readme,2013-09-27 12:01:49+02:00,True
+6e4e0330472bc3e347ba55a317614b9ef93eed82,small fix and README,2015-01-20 17:46:34+01:00,True
+47ba8b249f091cbc097309b9efccfa2adbbea399,XMLRPC service to retrieve userinfo,2015-01-20 17:51:58+01:00,False
+da711c1a3290a9869557dfc84fa0a36621f4fba7,copy and paste start instructions,2015-01-21 00:28:16+01:00,True
+79d12504a8cbe289aea8f2ee9ede45a8d5c4fd16,doc,2015-06-18 08:40:07+02:00,True
+138b883d934671f8e7b587639fa1fbe6f6f4bc79,fix readme,2015-08-09 12:59:21+02:00,True
+23c754cb410dc69f3ac3bc2d95e75621171a0ae4,fix #199,2017-04-08 19:12:05+02:00,True
+e4e3d0d0584f44c1b6b30bdaff140195dc33ecaa,"Detailes Install instructions
+
+Added a more detailed install instructions that uses the requirements.txt file
+
+removed requirements accidentally added by ubuntu bug
+
+
+ignored venv file in the root of the sources",2018-01-31 23:17:50+01:00,True
+db39d213b6ef1de03c9ba67490012ba08b578920,typo,2018-01-31 23:44:46+01:00,True
+9af04cdd7f5e0574af20462aaa4099b16baf9bdb,"Typos
+
+:)",2018-02-01 14:38:08+01:00,True

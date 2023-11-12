@@ -1,0 +1,141 @@
+sha,message,date,result
+e223db1beea8b39177a6fcc97a4b93ec4473b95d,initial commit,2018-03-17 13:29:39+00:00,True
+0d965953e4d368ed898ca2b587379396a3708cd0,add travis batch,2018-03-17 13:36:01+00:00,False
+60b4cd1085be080d2a9348345729f7134a000504,update build instructions,2018-03-17 13:39:00+00:00,True
+043ebea6acb15396916d364773a897181b8de576,extend roadmap,2018-03-17 13:47:12+00:00,False
+44c18a5a5aeff5f6674afa6feeb67f00f3de9241,extend roadmap,2018-03-17 14:02:10+00:00,False
+4edf173f953ce5014e276b4b65a28e9f50285ac4,document and fix rev subcommand,2018-03-17 21:39:40+00:00,False
+11cbadf2c4dc6414e813cb0d431e4abd16e0a6a8,README.md: fix typo,2018-04-04 14:50:24+01:00,False
+2275ef0e38f8ad0853cd2e1970befa398e8d55e9,mypy + github oauth token,2018-04-22 12:39:28+01:00,False
+00d39b009fbf12827105cab09fd527a41ebaa335,"default.nix: add env attribute for development environments
+
+fixes #3",2018-05-28 11:46:06+01:00,True
+99f8aa8f2e27761dc15f65b1a265309a6a3cfa88,"add --eval option
+
+Allows to not use ofborg's evaluation result.
+Fixes #4.",2018-07-02 17:49:30+02:00,False
+6f936b00b3a2c959df8bf5eded29a6df589253a0,README: rewrite eval description,2018-08-06 15:57:26+01:00,True
+48631e83acb3442e7c6bc3807b895491514f79d1,allow to build pull request branch instead of nixpkgs merge,2018-08-07 00:54:10+01:00,False
+09be9be77d39398aef5f6d55bfe2a675b6b61bf0,filter out failed packages in nix-shell,2018-08-08 11:51:07+01:00,False
+904459c12876214c67e5b9ae553f5d74963556fe,filter out failed packages in nix-shell,2018-08-08 22:26:55+01:00,False
+8e67ac1837eec0ff3777baeabe76b9c4f68493d6,hint to cachix,2018-08-30 13:40:59+01:00,False
+3bd5bafa26ad4ec635ca1a142154d3b7c30040a8,parameter to only build selected packages,2018-10-27 17:16:07+01:00,True
+709405fc10fabf24d4072321760114606f7e444c,README: extend features,2018-10-29 14:34:32+00:00,False
+83e30014273c550d1435be7648e310b019919947,"move common flags to subcommands
+
+This is more intuitive.",2018-10-31 10:08:53+00:00,True
+3e408a118a0eaa18092b15e4aa740dbcf12c9fd2,support running tests,2018-11-23 14:45:32+00:00,True
+17a61296e3b523b53eaa6ffac5c0fead78eecd9a,README.md: also mention nixos tests,2018-11-23 15:42:27+00:00,False
+5c216c71bce5c0069e3f7ddc7f0eb4389189b2d6,add option to match packages by regex,2018-12-01 15:23:01+00:00,True
+594f7e6a83236fe6d19a0356eebb80cc09dec806,update roadmap,2018-12-01 21:27:04+00:00,False
+f49ece13add5ce6e67811fbce217e9d9f97db086,README.md: extend features,2018-12-01 21:29:31+00:00,False
+0281f02c19616209f96ee3fa1ed5a97eff531836,symlink package path to builddir,2018-12-01 21:59:37+00:00,False
+ad36825624e259407a82302fe8933b29a18283ea,extend installation documentation,2018-12-03 12:11:14+00:00,True
+53330662277b3254a453375c4d0f74e514fb7d0d,README.md: cleanups,2018-12-03 12:15:33+00:00,True
+b0c5784f37aabe68172daca4851ed51157f29987,README: the kernel is no longer rebuild in tests.,2019-01-21 14:24:39+00:00,False
+eb3badfd5a5ee2b3f92e920ca70422b61dcb7fd4,README: include url example,2019-01-21 14:35:56+00:00,False
+5cf572382a1a0260bf6d4fe90b39c1d9fe3955f5,improve explanation for remote builder,2019-01-23 19:29:50+00:00,True
+2214ca568a7db3118dd5dd4d703a9b3299f90c92,"Implement support for `nix-review wip` to review uncommited changes
+
+This is the only feature that `nox-review` supports and I'm actually
+missing here.
+
+Unstaged (or staged changes with `-s`) will be applied onto the git
+workspace in `~/.cache/nix-review/rev-{base hash}-dirty` using `git
+apply` and tested after that.",2019-03-19 23:31:33+01:00,False
+1ae55cc11e629c918c23e911b7f2add84397a2c4,document `--remote` argument,2019-10-15 11:25:42+01:00,False
+ce9afbe63baf54bd79c684c919e65bdb05d65378,"rename to nixpkgs-review
+
+Fix the naming. This tool is specific to nixpkgs.
+
+Keep the bin/nix-review for back-compat.
+
+Fixes #66",2019-12-05 11:50:41+01:00,True
+5a9014667263bf783b2c91e0d89c5f0be9dc08c2,"Add note about -I argument for nix-build
+
+It took me a minute to figure out why the build failed; this may or may not be
+worth including in the readme, but it could help someone.",2020-02-17 14:09:32-05:00,True
+0dadfb279543ca1d75eb1a3a3acc6382e74ecc19,"Add --no-shell arg for non-interactive nixpkgs-review
+
+Usually we want to interactively review, but in some workflows we may want to
+use `nixpkgs-review` to batch process a number of PR reviews.
+
+This commit adds a `--no-shell` flag which, when passed, will do everything
+except drop into the interactive `nix-shell`, and instead just finish with an
+exit code signaling success or failure.",2020-02-25 23:25:45-05:00,False
+875fd1efbbba8985d4be72559b878b3f39170145,README.md: fix review with comment feature,2020-02-26 12:11:05+00:00,False
+4f5b833c4c72389f2c065df94e20e9c9418f7032,add github action build status,2020-03-30 09:26:56+01:00,False
+370e90a8d20640cc8924dacb4f55a86dadcec57f,"Implement --post-result function for PR review comments (#93)
+
+This extends `nixpkgs-review` with a `--post-result` flag, active during the `pr` subcommand, that will post a comment on the PR review with the results.
+
+
+Co-authored-by: Jörg Thalheim <joerg@thalheim.io>",2020-04-06 11:26:16+01:00,False
+db62f59a5ba09e01e73c26ba0d6ffbb99b4f5eb2,"implement post-result, approve, merge subcommands",2020-04-20 11:49:11+01:00,False
+96820aefeb7e7232c6a93d04473e9fbc8afc4db2,"extend github token support
+
+We now also read existing tokens from hub.",2020-04-20 18:21:53+01:00,False
+2935dd32f73423a6395914c4e58dc6494bb73f8e,add comments command to show issue/review comments,2020-06-23 17:41:00+02:00,False
+f04595408a839a0e34dd2e194eb01003c28449a8,comments: mention in README.md,2020-06-25 19:36:27+02:00,False
+5deffbc5832da1d98e1bf7113494784cc51e2be5,add documentation on mass-reviewing,2020-08-02 08:22:44+01:00,False
+c959f125dd27923a576c85945cfb71d6517757ca,"Proofread readme (#136)
+
+Co-authored-by: Jörg Thalheim <Mic92@users.noreply.github.com>",2020-10-03 11:45:14+01:00,True
+f0b539ec6f282d0d4ef964f4ae4b4baaa62dedcd,Add skip packages feature,2021-01-06 12:37:48+01:00,True
+c630c9f27f2161815a7ca0b42cc1671d08bb3b72,README: fix package-regex example,2021-01-14 07:04:57+01:00,True
+9de34e0883ad45fed6621a13ecd30f7a69a0ee2a,"Mention required scope for GITHUB_TOKEN
+
+Closes #104",2021-01-22 01:26:41+01:00,False
+25f90b61f35873381340b7d6f8e4c5e871756af9,fix a typo,2021-02-13 13:35:46+01:00,False
+64969e5b66f7f06f6c77e366ec3c026e271b0db1,nixpkgs-review: document the `--run` flag,2021-02-21 10:14:14+01:00,False
+184696e14e0d7535a33337c7bc5d841faa68ece3,"Allow to cross compile
+
+Closes #182",2021-03-12 16:47:52+01:00,False
+191f3d34a748be0ca415589d29aaa6fe4ffea6fa,Add --system argument,2021-03-12 18:58:56+01:00,False
+d89dcf354b8a25a69bbf0689b4b68f494de1ed48,"revert 184696e14e (Allow to cross compile)
+
+This does not work yet when evaluating files",2021-03-13 16:57:44+01:00,False
+3e6e154810b33f40b3950d039a2f7fe64d798bc7,README: Note where to find docs for regex matching,2021-03-30 14:23:07+03:00,True
+4f5f329dbb6cfdf98f364757c0cf819a31af736a,README: grammar improvements,2021-05-20 11:02:25+02:00,False
+bcc4d9e5cacf12a8975f828ca3bdc6473fa8eeeb,"README: grammar improvements
+
+Co-authored-by: Sumner Evans <me@sumnerevans.com>",2021-05-20 16:26:16+02:00,False
+eeafaabf05941da749a6f50f91577e64024627de,README: Fix typo in flake command,2021-06-07 21:25:03+07:00,True
+662fc7d680f2cd9c65e509163ffdd9ff7746e009,"README: update test command
+
+fixes https://github.com/Mic92/nixpkgs-review/issues/204",2021-06-10 05:43:15+02:00,False
+cd7cdbd292ba53ac09337cd67d5dbe5aeeea30ae,docs(readme): add node that gh is also supported for token,2021-11-13 15:08:16+10:00,False
+5a10101d94f0c30e78cc70e4a98fd5bbb32f297d,Add documentation for --sandbox,2021-12-14 10:45:32-03:00,False
+c3247d4558a345ce7cce13998b2424cf34f6da44,Remove : from README.md,2021-12-20 11:50:58-03:00,False
+7124e735e4fc424f327005579ab5a48776ddd1ab,README.md: fix typo,2022-02-26 17:22:19+08:00,True
+8222685cfa452c6d2f2f7df2b59b6a99233ee36e,Update README.md,2022-04-21 15:26:04+02:00,True
+584ab95cf14d4efd8eb2e2855466cc8001dbcda5,README.md: fix `--system` position,2022-12-14 00:03:32+01:00,False
+0e02b4f412b1002028bac2d023d6422d1f3ffd65,"feature nom: add Readme
+
+Signed-off-by: Florian Brandes <florian.brandes@posteo.de>",2023-02-11 13:59:43+01:00,False
+5907ff11b40d07c245f324c394e45dbc21288762,"Apply suggestions from code review
+
+Co-authored-by: figsoda <figsoda@pm.me>",2023-02-11 18:03:14+01:00,False
+1b5b888d7a2389477c3657515cf98dfdca5cf3c6,"change behavior to use `nom` by default
+
+Now, nixpkgs-review will check for `nom` in `PATH` and
+use it by default. If it isn't found in `$PATH` it will
+default to `nix`.
+
+This can be overridden by the `nom-path` flag, which will take
+either the path to `nom` (or a similar build utility) or an empty
+string.
+If an empty string is passed, it will default to `nix`
+
+Signed-off-by: Florian Brandes <florian.brandes@posteo.de>",2023-02-12 12:02:09+01:00,False
+abdcbec8742a2ab90e8dd84d30423953ccb892b6,"change `nom-path` to `nix-flavor`
+
+the argument will now take either `nix` or `nom`.
+Will default to `nom`, if available.
+
+Signed-off-by: Florian Brandes <florian.brandes@posteo.de>",2023-02-12 18:42:21+01:00,False
+0acb078b0324199ac70530072b05271d7101b989,"change flag to `--build-graph`, change nom url
+
+Signed-off-by: Florian Brandes <florian.brandes@posteo.de>",2023-02-13 15:02:16+01:00,False
+2d943b646d6ba3c6ebbd7a03f0b6fb5ce48b845e,readme: document --print-result,2023-02-24 19:49:24-05:00,False
+a1471739a5391961238450cb9801850f1d47264e,readme: mention --extra-nixpkgs-config,2023-03-01 16:43:27-05:00,False

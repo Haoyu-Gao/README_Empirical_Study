@@ -1,0 +1,110 @@
+sha,message,date,result
+e55416433fcfa9f91b33175727fac245c934f246,Initial commit,2016-09-27 12:37:35+02:00,False
+db3020e9a2c3919f05ab3e48567fc9b0b441a0de,Modified readme.md,2016-10-13 11:49:30+02:00,False
+352759b46ae98766742d82353bd1141717925275,"Update README.md
+
+Former-commit-id: c645a8138c210c9b71d611fb5cf0188eb1580a58",2016-10-27 12:10:10+02:00,True
+3a73cff3fca5fa0cdbc872bb45d95760b911449a,"Licenses reworked, now its GNU GPL compliant. Disabled velocity of particles option in Execution Parameters.
+
+
+Former-commit-id: 16575327a2b903749b356d5f50c9e4700d093fe0",2016-10-27 13:00:02+02:00,False
+daa5b7ee1e1be12e3ee4c61806d7db509e0efa35,"Updated readme. Ensured dsphfc and macro folder are in path when needed. Updated gitignore to not include *.pyc files
+
+
+Former-commit-id: f10c051ecb4882d76a89faaa8c186901fa457aa8",2016-11-16 10:34:17+01:00,True
+2218e9334ae011aaebfe634d4dafc0a5a46b1eab,"Changed software name and added a few changes
+
+
+Former-commit-id: 4e50360169f675616fe4be1d7bebcc4e3dc5c343",2016-11-23 10:18:13+01:00,True
+caac76c556d6c7af104bc038e1499c999722a429,"Ported properties to OOP. Corrected some typos here and there.
+
+
+Former-commit-id: 79163dbabaa6f7b638f2a3656e0345e2071c2a73",2016-12-12 10:59:38+01:00,True
+514d4751c84f3b3b95d00f7bd8300523e9684227,"Implemented Case Limits resizing based on import data (on Import XML).
+Note that, for DesignSPHysics saved cases it will be always a little larger when imported, due to security oversizing on save.
+Added compatibility with previous DesignSPHysics documents (not based in property objects, but in lists).
+Changed readme to refer to new webpage url.
+Corrected some wrong info.
+
+
+Former-commit-id: 785b4e19871ee2171ea57237500c75891118325b",2016-12-13 12:05:42+01:00,True
+02a383832baddf761b2da332fde63c1f22a4bf74,"Update README.md
+
+Former-commit-id: f7fac06ba7a599761df7155a68de57ae3d1c23fc",2017-02-09 10:09:25+01:00,False
+45d49d8147ad21c682d8002017479063f31c73a4,"Update README.md
+
+Former-commit-id: 3ed9a7677b7a253feaae04c5786796948e9edb3f",2017-02-09 10:10:42+01:00,False
+02d4f7e1c9690cb8b08b6a1355dda0a7dcba9b79,"Update README.md
+
+Former-commit-id: 99075f773cc94d829ab53ae0040d0df40545a1e0",2017-02-09 10:11:03+01:00,False
+78925becfdc88d42ba4d331200de8c51dea1b5b8,"Update Readme with screenshot. Fixes #1
+
+Former-commit-id: 70aa32130f3ee66310a3f7db6f660f2fe8d58088",2017-02-09 10:15:09+01:00,False
+10baad066ce9db69cfa87032cc10bc28b99a6750,"Changes on readme and license
+
+
+Former-commit-id: f71b6f5577cd46863f62465f6b3e6d1b16e6c248",2017-06-22 12:46:26+02:00,False
+9f81db36d4972eea9179dce63a4ee33bae61d5f7,"Changed installer to the new package format. For now not working in Linux. Changing that soon
+
+
+Former-commit-id: e6e5996d3c15da9566e8375015effe1f9055d3de",2017-07-13 13:23:46+02:00,True
+e188e3b2426e90c9aac1f17dafb9a37179e60f01,"Build for China training day
+
+
+Former-commit-id: e7409ea90b0fb90f47a98eea4a730eedd24ee6d4",2017-10-03 13:57:13+02:00,False
+e49ee6efc1bf14854bd2cfe15ab1b4a441e3a730,"DesignSPH general typos
+
+Most are user-facing. Used `codespell -q 3` to find them.  
+
+Former-commit-id: 1bf34901334494c1883033cdf5a5ecf3954a7267",2017-11-09 10:39:10-05:00,True
+1bb2abfd041f94012a9ad8d26e92c19d357e090f,"Fixed an error displaying the output of the simulation.
+
+Also changed the README file a bit
+
+
+Former-commit-id: 8ca00a1299b2981f836b0017942441718ef44687",2018-01-08 10:20:49+01:00,True
+f4b1ed9c4a9f260c919a6fe6ac80cf16c7d94e39,"Adds CONTRIBUTING. A few code and comment changes.
+
+
+Former-commit-id: a10ece22543d4d390ff29414d0f8ede6a04a556a",2018-07-31 12:16:44+02:00,False
+a4a18a257e503eea8566502b13e125e1053cb60b,"Add an option for manually install a release version in README.md
+
+
+Former-commit-id: 201a1f210c5fe86847d1c5f9694e0d6b4158fb26",2018-09-20 16:34:32+02:00,True
+43a352366e39fab3ce099ecfefa1dd565a50934a,"Adds text constants for help messages
+
+Also adds a custom QLabel implementation with hover event.
+
+Changes some bits like minimum required version and some details
+in the README.md file.
+
+
+Former-commit-id: 34cfaa50ad599060605d2ee9ec605f5031893d6f",2018-10-10 18:27:55+02:00,True
+7d99ff1210ad61b145227a79b80026327be93c80,"Big changes
+
+Updated the copyright in some files.
+Updated binaries and libraries.
+Cosmetic changes in Coupling CHRONO.
+Updated Execution Parameters, removed unsupported options and added ""Simulation Domain"" option.
+Added option Faces in DSPH Object Properties (in development).
+
+
+Former-commit-id: 86172f8365f2edf91181a25e69e83ab73134e333",2019-04-10 18:54:42+02:00,False
+e62e81c94d604ef3216f7e94d4e2ce932868eaf6,"Change version
+
+
+Former-commit-id: b60381d9c056bbb9d0882490f3072d6576debfc9",2019-06-04 16:58:08+02:00,False
+8ee45a89a108f28ec4aeced30657f804777695bd,"Various typo fixes
+
+Found via `codespell -q 3 -L ang,mot,serie -S *.svg`
+
+Former-commit-id: 3b47935a2c125ba26ed4a1960ae6dc72a1a9c3fb",2019-09-29 16:33:26-04:00,True
+89e3a51c9a665e27d59a8a0fb51a7b79e2b364a5,"Docs: Updates README and CONTRIBUTING
+
+Former-commit-id: 873a7c17d91e8fcffecc810299568dc6d1ddb4bf",2019-11-07 10:01:05+01:00,True
+4fd20a8fba9444b0f17632616698a2ff445b6c19,"Meta: Updates the screenshot on the README file
+
+Former-commit-id: 4c131610cc02999571b4076812b91d2a762524d3",2019-11-21 13:54:12+01:00,False
+3ecde4de9ebbd62dbe472b80bb42e0ea93d334ef,"Meta: Adds LGTM badges and tracking to the project
+
+Former-commit-id: c989b67a8f0ea88fdfd8f63dc67b87be1040a549",2019-12-11 10:34:06+01:00,False

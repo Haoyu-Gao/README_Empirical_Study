@@ -1,0 +1,55 @@
+sha,message,date,result
+ea14664c6a79be6eb376f066df9b3c6a474e84b2,Adding original files from https://code.google.com/p/poca/,2015-05-31 14:52:42+02:00,False
+ddc6b1428acef1c815327aeaf51b38148cce2bde,Updated readme install and dependency,2015-09-08 21:54:02+02:00,False
+b34b82b50abc720f7abb2f17ce572402515693b3,updated README with dependecy info,2015-09-09 11:09:53+02:00,False
+290ad89ee12131a57092bf3bb0556aec6e7ece3e,README: Actually we don't use pysqlite in this branch,2015-09-09 11:15:20+02:00,False
+e348644609ec5181df6192a860d03ec543ee39a3,README turned markdown,2015-09-09 11:37:41+02:00,True
+e35a1ae9b4b9dae371a1e714b01d67011515ed20,fix markdown,2015-09-09 11:39:59+02:00,False
+b2213914c11ed61e51bdf1d6d9b198969967556c,fix markdown 2,2015-09-09 11:41:24+02:00,False
+8deced3e05d3ecb19848c91fc9d231d3709247d6,no eyed3 dependecy currently,2015-09-09 11:49:03+02:00,True
+3f4b6a901cfd378ea06442c2e49b676bb461c6df,"readded id3 tagging using mutagen, not eyed3",2015-09-09 21:17:52+02:00,True
+331650abf5326d9cf22322a97c87c5163217b9ac,Updated readme with functionality progress and dependecies,2015-09-10 09:57:44+02:00,True
+42fb1e4ee171f04b28f3c30a0bc697f27ae85a7b,readme updated with progress and future plans,2015-09-10 10:08:38+02:00,True
+b8804e47fa8ea64163a994253aefba4672444fb6,0.1.9 version numbering and future plans,2015-09-10 10:32:26+02:00,False
+ac757e5f43472f9ae7f32855387835aae9583dac,added file renaming as a goal for 0.3,2015-09-10 13:08:47+02:00,False
+cfd9e6550a2cfaadd234775a6ffb19a2f0eb124c,README.md updated to reflect 0.3alpha status,2016-02-28 17:00:15+01:00,False
+e537af51244f1d514ced06c6733f81f9397a9d1f,Update to README to reflect current alpha development status,2016-02-28 17:05:04+01:00,False
+66641b1090d17aff083a14a197688333fa7bc1f5,Getting rid of 'unwanted' class; updating example conf to 0.3alpha,2016-02-29 09:57:22+01:00,False
+a63a42f851a0346c646278b23977c7749235e3a1,updated README.md to reflect non-alpha status,2016-03-01 22:05:51+01:00,False
+1b652c18f1d83ff61b9e4f1849bdb3b70a206b0f,updated README.md,2016-03-05 19:23:13+01:00,False
+ac1d903488b569e1311032441a5f921388eefa31,first beta of py3; functioning port; limited testing,2016-03-07 21:24:41+01:00,False
+58b286f49c38d6b17f1ab1a66f47512d6a1d93a5,updated readme.md to reflect new python 3 reality,2016-03-07 21:31:40+01:00,False
+f598d5ca8c8780f6963adadf3576c918b6e6ed8d,bad markdown on code snippet,2016-03-07 21:32:30+01:00,False
+247ec91b55054b0dcd27d2197087a9ad43b1a3e4,cleaning up py3,2016-06-22 15:51:21+02:00,False
+02339ffa84ed934888602b8b59606889fc1843de,updated man and readme,2016-08-24 01:04:17+02:00,False
+71f82464bfe2c71729b2b895fb0250898c92cf2e,Updated docs (README and man),2016-08-30 21:23:08+02:00,False
+95d32b602cfef3b449720fa7bddbd1ed52098e14,trying out the asciinema 'embed',2016-08-30 22:11:52+02:00,False
+deb0f3ce14be902c114e9974a6cbc9bd1d1d22ea,adding support for user agent spoofing,2016-09-20 12:03:00+02:00,True
+f6ebbc29db81d300065af373e8fe50d76d029bbe,v0.6 release,2016-09-24 11:58:20+02:00,True
+a79e5ce85eed07871cf7354974c75f977bdcc7a2,Added minor features to readme.md,2016-09-24 12:21:10+02:00,False
+032df360c477ce94e5747b87ff4dd0b5458e0c6b,Added more wiki links to Frames and Development,2016-09-24 12:42:23+02:00,False
+e7de4b19b4f565c5a64308ffb38c066822a955e1,updated readme.md,2017-02-10 10:42:44+01:00,False
+4d41e7ca32da44a2be64e02140320e7da98166f1,v0.7 release,2017-02-13 14:11:29+01:00,False
+fc8323e2de2fb7923cdda97c43c28d7db14d9bad,updated readme.md; fix #51,2017-05-19 10:26:15+02:00,True
+d9f602f07684022482e9a741339393c65d461aa0,0.8 release,2017-05-29 11:06:33+02:00,True
+1b2d1976012af94257e7375071c5c22cda7dab02,Updated README.md for 0.9 release,2017-06-14 10:07:41+02:00,True
+dd0b940e300f26a42536f572523a8dd46e6c2044,added audiosear.ch feature to readme,2017-06-14 10:13:14+02:00,False
+7bba793f78768048dcfb433c46a800b6ed47b398,defaults on readme,2017-06-14 10:15:29+02:00,False
+ff861a4b774f7e7c239d5bde3c9783da779dc51a,Updated README.md to 0.9 information,2017-07-18 18:17:35+02:00,True
+3dd10dee678348a6e375adc84797af71479f1da0,Upodated README.md to v0.9,2017-07-19 10:44:12+02:00,False
+fac022d0656980c3f05b47bd829bd3012e7239bf,Updated Asciinema recording; fix #76,2017-07-19 11:40:14+02:00,False
+5a179207147b90953d304319ce19f6fbc168ce58,"update readme, new asciinema vid is still missing",2017-11-14 10:49:12+01:00,True
+9baf320ad8e60b647fe1d860af89daf74a73f332,Updated readme,2017-11-17 08:54:06+01:00,False
+47c8336fda370c01fef5e64e3847c30b57479db9,README polishing,2017-11-17 08:58:08+01:00,False
+900c0b8d22a52112c1856dc695c2df3de92e6d89,README polishing 2,2017-11-17 09:01:43+01:00,False
+2f0ee95d1d8364a8f28987c5ecdd628ca20e65ee,upgrade notice,2017-11-18 22:21:23+01:00,True
+4c256d8020489d37b318c24ea3ff244d779a0abd,beta 5,2017-11-20 22:56:09+01:00,True
+64b0040edaccd5a3bd0dd24bb0ee7fe5e15bd639,readme.md h2 fix,2017-11-20 23:08:59+01:00,True
+87c1cac98e521945da547fa9da1bbc6ff0bc68c9,python 3.4 requirement,2017-11-22 18:51:58+01:00,True
+3b2c8bceb80fc040847a0d100c52a2d475ac6ecb,"upgrade notice in rst, docs reference in readme",2017-11-25 16:03:34+01:00,False
+b04ba6d38467bc38400d70724356541ab362e384,index.rst based readme.md,2017-11-26 12:14:49+01:00,True
+a3e28007a0a9fbe80b5be0ccf5b118bb9bca62ed,wrong order installation instructions,2017-11-26 12:43:13+01:00,True
+36630156871030b0d07db0e86cd541c08063b2c8,updating markdown readme with asciinema link,2021-06-19 14:13:42+02:00,False
+b12b5e3dbecc998f8e09404e3097b359c50491c5,Updating README to 2021,2021-06-19 15:41:10+02:00,True
+595dbd92e79c6c9666036831e5b77db554b8a472,documentation of requirements. fixes #142,2021-06-19 21:31:49+02:00,True
+59fcb9d633456b7ec0b58a076b94d0322beb293b,fix #145,2021-06-26 14:22:50+02:00,False

@@ -1,0 +1,349 @@
+sha,message,date,result
+c34fdab107e572bdbea9d764202baf59b46c03f8,initial commit,2022-01-26 20:30:15+01:00,FALSE
+b7d7f5a9c3b21dbb95bb2399e824fd362897a75c,[skip ci] Adjusted build badge in README,2022-01-27 11:30:42+01:00,FALSE
+606e3f66b47242b3e525cb5519451c5dc081780d,[skip ci] Replaced nnansters by nannyml in README.md,2022-01-27 15:32:33+01:00,FALSE
+ef57602d349737d1d5fb658e70a17cb3dc1e30d1,Update coverage badge URL,2022-02-04 16:02:44+01:00,FALSE
+91a9afc4b49d40244303e577d8e2a28ab2cffec6,Delete old doc setup artifacts,2022-02-25 16:15:57+01:00,FALSE
+9d78eccf8dfe8742684e7cbd251c6412a9acdcfa,Replace ReST README by Markdown version (twine check failing on RAW sections),2022-04-11 10:06:02+02:00,TRUE
+b12c745e170979e603983555b071a26d89279270,[skip ci] Fixed incorrect link to multivariate input drift docs on README.md,2022-04-11 23:38:07+02:00,FALSE
+aabee0634d7be27f076fa39249ca6082f656906c,[skip ci] Add missing code to quickstart in README.md,2022-04-12 13:35:32+02:00,TRUE
+75cb88706dfd91108c0e99b8d8ac2b4bc3c9886e,[skip ci] Updated quickstart,2022-04-12 15:07:14+02:00,TRUE
+6e7014734c737f09d8c154541b0617bbf6bab5bc,"Readme update (#57)
+
+* Read me overhaul, first draft
+
+* Minor polishing of readme overhaul
+
+* spell checking
+
+* adding links",2022-04-24 23:19:31+02:00,TRUE
+e1c6c36620c1317616f9f655cc8ad4beef70eafb,"Rebase documentation updates and merge back to main (#61)
+
+* step_plot.py shows example of hover label template
+
+* Documentation restructure, ready for content re-working
+
+* Sync updated stuff from main branch
+
+* First data drift changes
+
+* rename to monitoring performance
+
+* hyperlink fixing
+
+* data drift docs - draft
+
+* add ypred to synthetic
+
+* review code in drift pages
+
+* add contributing guide to docs
+
+* trying performance estimation
+
+* fix doc linting issues
+
+Co-authored-by: Bobbu Abadeer <bobbu@nannyml.com>
+Co-authored-by: Niels Nuyttens <niels.nuyttens@nannyml.com>",2022-05-05 20:40:49+02:00,FALSE
+bb91894b22193c8c9cea015050dce2901e0597c2,"Updated the README: added a gif and emojis, updated copy of all sections, restructured feature section, updated feature descriptions, added some images and brought some consistency in the quick-start code snippet (#64)",2022-05-09 09:39:42+02:00,TRUE
+e49f979db64b65617978eacb77f4aa8b95630db8,update readme,2022-05-09 19:04:50+03:00,TRUE
+d59f22ae43f37478b8f53f105a658ac1eb977e66,fix contributing link,2022-05-10 13:03:59+03:00,FALSE
+12f3a5bd2b8a50d8e15c66b825831d093cba95b6,rename method for binary classification synthetic dataset,2022-05-10 20:29:09+03:00,TRUE
+7b924b7256659af11cb08428c0dd9ee5ba780e76,Include badge for read the docs build status,2022-05-11 17:21:56+02:00,FALSE
+8ab4a7fcd62472a14b415446833719d1d911355f,[skip ci] Point to readthedocs in README.md,2022-05-11 17:28:54+02:00,FALSE
+43ec6b09ce9b2dfc311cb946b715f9dd0a28b297,Update links to docs in README,2022-05-12 14:38:58+02:00,FALSE
+8ac3a4cddeb4baedc78b2a6cbd767c0345008d24,Restructure tutorials section,2022-05-12 17:11:52+02:00,FALSE
+1b0af3f4e1887bbfe8eab14d95f2659073281fd7,doc updates,2022-05-13 15:42:38+03:00,FALSE
+18cf89ff14ad6cf4c518b2190beb4f58417e2217,Update link to release notes,2022-05-13 16:39:14+02:00,FALSE
+a57ffd7685d436b4404d5bf74713eb99d65c380f,Update README.md,2022-05-13 16:39:59+02:00,FALSE
+87031b02ee13d47dc728e5127b7a79c5bb7e23dc,update readme links,2022-05-13 23:42:21+03:00,FALSE
+18dff06649d12756c12e38ebd299d17cd147470c,"Readme update (#70)
+
+* new gif and logo with signet
+
+* Update gif name
+
+* Lowercased gif name
+
+Co-authored-by: Wiljan Cools <wiljan@nannyml.com>
+Co-authored-by: PieDude12 <86422883+PieDude12@users.noreply.github.com>",2022-05-14 23:57:20+02:00,FALSE
+af6102f70f89a24f29cd4812d5fe7ccde61f3fe0,Update README.md,2022-05-15 12:14:31+01:00,FALSE
+dd0338796e7b8dbff5c0187156a5cfaa4e296cdf,[skip ci] Fix README quickstart,2022-05-16 01:32:20+02:00,TRUE
+a957d0377b38ef34eb7d214a824eb3cf320b5431,Fix: added warning about the appropriate version to use the quickstart code with (#71),2022-05-16 14:27:12+02:00,TRUE
+3f9f7c51021b1ecebeb8b64526064dc38deb487f,[skip ci] Update use cases in readme,2022-05-16 16:53:20+02:00,FALSE
+82f0c144463a9609908e846c90ea2d45ff0bcee8,[skip ci] language,2022-05-16 16:54:41+02:00,FALSE
+01895265b72a477504f6f3ecd62756fb3b64964f,Adjust badges in README,2022-05-25 16:05:19+02:00,FALSE
+9faf97b3d0af929236c69033ca1e0e9825344008,Updated the release version on README.md to latest release version,2022-05-28 18:08:44+05:18,FALSE
+5b0ced1de0812afad899fca466cecfd7d1bfb586,"Updated README.md
+
+Signed-off-by: NeoKi <ksavant577@gmail.com>",2022-05-31 15:17:39+05:18,TRUE
+5cd3d364f0473ce5b41746df50a65c7e30ba00da,"update readme, new ver",2022-07-07 14:43:29+03:00,FALSE
+23ff7f7e8837cdf80f0353c60fb230fbd45a09b4,fix readme link,2022-07-07 14:46:06+03:00,FALSE
+1a173462320de50c372d1dee24307b891f0d5516,Added roadmap link to readme,2022-07-10 22:33:28+02:00,FALSE
+e1c38c5d7b60f3812bd0047e88a71684f8e74ec9,use bit.ly for roadmap link,2022-07-11 15:41:52+03:00,FALSE
+0df7df345e0b6fecff0e0ef1fea106c3a0f7bb77,update quickstart in README,2022-07-12 11:15:53+03:00,TRUE
+3a657fca0655fc942ab1bf06e69f976830f7e9db,[skip ci] Updated README.md,2022-08-16 20:39:03+02:00,FALSE
+97e7283298faec3e7c89bf6eccbb684eb3f18513,[skip ci] Updated README.md,2022-08-16 20:40:35+02:00,FALSE
+79609babc82469b137874d214803801782a38f88,[skip ci] Update readme,2022-08-17 10:09:53+02:00,FALSE
+171c2c160efecef0469f4f53af7293234ed71ccd,Update README.md,2022-08-30 14:16:25+02:00,FALSE
+8dbc6bf1c7c983f421795ad4d11f3ea26d12dba1,"[skip ci] Updated README
+
+- Include conda badge
+- include conda installation instructions
+- Updated all image links to work outside of Github hosting (e.g. dockerhub)",2022-09-02 10:13:03+02:00,TRUE
+18dd32c6d711cfb3a594ffd4d77db9817e6e3b1d,"[skip ci] Updated README
+
+- Include conda badge
+- include conda installation instructions
+- Updated all image links to work outside of Github hosting (e.g. dockerhub)",2022-09-02 11:45:25+03:00,TRUE
+d0e2a7d38a3ab738af0f82da3700e033edcec17e,Release prep,2022-09-07 11:43:33+02:00,TRUE
+b9be7f30728c722cf46de9ea95e5042c5767e0a6,[skip ci] Updated README: mention DLE,2022-09-08 11:47:01+02:00,FALSE
+cdeb7be3faf57490c03481410e3fb8c75ffca5a0,Updated README.md (#118),2022-09-09 19:59:00+02:00,FALSE
+e1a963d9b5b7dc033562e4c77288f0261ba3e7dc,[skip ci] fix broken image link,2022-09-09 21:41:48+02:00,FALSE
+181f75bdcd8f238e3dae1cce2fa6fb320b767377,Bump version: 0.6.1 → 0.6.2,2022-09-16 16:58:32+02:00,FALSE
+2ef024e0e4bdf0152db347609e201b20f9819a12,"Feature/optional timestamp (#121)
+
+* Adding chunk index to calculation / estimation results
+
+* Adapted step plots
+
+* Adapted joy plots
+
+* Adapted stacked bar plots
+
+* Added tests
+
+* Update quickstart docs to not use timestamps
+
+* Add tests for runner.py
+
+* Clean up temp dirs after testing
+
+* Move chunk date assignment to inheriting classes (each chunker should decide to support dates or not)
+
+* Display ""unified"" chunk index (taking reference data into account) in hover
+
+* Updated docs warning about using / not using timestamps in the corresponding code samples
+
+* Updated CHANGELOG.md
+
+* Bump version: 0.6.1 → 0.6.2
+
+* Hopefully fix weird build error due to random rounding??
+
+* Fix linting issue
+
+Co-authored-by: Niels Nuyttens <niels.nuyttens@nannyml.com>",2022-09-16 19:03:09+02:00,FALSE
+e1c867922874e31923829e9dbcfb08d99d843456,Bump version: 0.6.2 → 0.6.3,2022-09-22 14:57:20+02:00,FALSE
+c4b57874026421bb962d8c5f179778fd413a2850,Updating Readme to match with website quickstart (#131),2022-09-22 15:53:09+02:00,TRUE
+78e9c0af6b06132f76e91d0e5c7abd19f98b631c,Update README.md,2022-10-11 14:25:35+02:00,FALSE
+2334fe4154c4c7e63e9dacb1ad9520b84ad91394,"Univariate drift / results rework (#136)
+
+* Implementation for jenson-shannon divergence
+
+* Added 'metrics' module + abstractions
+
+* Added DistanceDriftCalculator to Runner for CLI and all Writers
+
+* testing univariate distance notebook
+
+* Implement result.filter, set default value for metric to 'jensen_shannon'
+
+* WIP - Refactored data reconstruction results
+
+* add UnivariateDriftCalculator to inits
+
+* 1. Add reference implementation
+
+* WIP - Refactored data realized performance calculator
+
+* 2. Add example notebook for JS
+
+* WIP - Refactored CBPE
+
+* WIP - Refactored DLE
+
+* 3. Add tests (and modify example notebook)
+
+* WIP - Docs update + some small fixes
+
+* 4. Add how-it-works docs, WIP2
+
+* Fix issue with repeat 'calculate' steps and concatenation in results
+
+* WIP - Fix continuous distribution plot
+
+* WIP - Additional docs for univariate drift
+
+* Update docs + fix some plotting issues
+
+* how it works univariate drift update
+
+* change base of JS distance to get limit 0-1
+
+* Add docs for ""working with results""
+
+* Naive fix for repeat names when converting results from multilevel index
+
+Signed-off-by: Niels Nuyttens <niels@nannyml.com>
+
+Signed-off-by: Niels Nuyttens <niels@nannyml.com>
+Co-authored-by: t-dbhasin <t-dbhasin@microsoft.com>
+Co-authored-by: Nikolaos Perrakis <nikos@nannyml.com>
+Co-authored-by: Nikolaos Perrakis <89025229+nikml@users.noreply.github.com>
+Co-authored-by: Niels Nuyttens <niels.nuyttens@nannyml.com>
+Co-authored-by: Jakub Bialek <jakub@nannyml.com>",2022-11-04 16:36:28+01:00,TRUE
+0a8b77a0392e79da6c836f1282972b097ceddcc5,"Update quickstart section of README.md
+
+Signed-off-by: Niels Nuyttens <niels@nannyml.com>",2022-11-07 14:30:41+01:00,TRUE
+99e0595f5072c7e48ab9bcc696cb046e0a744cec,"Add ligtgbm install to installation section of README.md / Quickstart
+
+Signed-off-by: Niels Nuyttens <niels@nannyml.com>",2022-11-07 15:51:25+01:00,TRUE
+f2c49f88a3aaa15c8db2d3d91df870d0063ca7b7,Bump version: 0.6.3 → 0.7.0,2022-11-07 15:53:14+01:00,FALSE
+049df545fcffbee49879ea91aa0cd040d79c6aa2,Removed the drifts made obsolete in 0.7.0 version (#140),2022-11-15 22:06:00+01:00,FALSE
+f39c331c7c6661474f6a0d0d488d989a897cfc75,Bump version: 0.7.0 → 0.8.0,2022-11-23 00:16:31+01:00,FALSE
+cfab0cf6718d92815e2e3c2e8db9ca2217bc2ea2,"Update README.md
+
+Updated read-me with latest release information and added more regression emphasis in support our regression launch",2022-11-23 01:02:25+00:00,FALSE
+a6ba46609e1b6cfef7370e2e1ae6e9fb41608715,Updated the links (#156),2022-11-23 18:24:34+01:00,FALSE
+9c452df90796ee35ab9d3ef1608969a3e355a244,[skip ci] Bump version: 0.8.0 → 0.8.1,2022-12-01 23:42:57+01:00,FALSE
+46c3dccf0cf9c63a3cc2b953e19b26c59ce4c3a1,"Update NannyML documentation (#170)
+
+* Many Updates to Univariate Drift Comparison
+* Update Univariate Drift Tutorial
+* Update Readme, fixing incorrect images for drift
+* Remove unneeded drift images
+* Fix PCA How it works page showing outdated code.
+* Fix realized regression performance docs and relevant readme plot
+* Remove unneeded realized performance images
+* Fix quickstart re  #171
+
+Co-authored-by: cartgr <carterblair@uvic.ca>
+Co-authored-by: Jakub Bialek <jakub@nannyml.com>",2022-12-15 21:09:46+02:00,TRUE
+068c57e8d119c1b10c5b3237d4b97aee36468e0d,Fix broken documentation image link (#174),2022-12-20 19:12:12+01:00,FALSE
+8e8c6063b7304a48966f6d2673945165bf476cbb,"Bump version
+
+Signed-off-by: Niels Nuyttens <niels@nannyml.com>",2023-01-24 11:45:46+01:00,TRUE
+046f4cc16b87c5ecfb91b09bd3371ea60d49e5f7,Bump version: 0.8.2 → 0.8.3,2023-01-31 14:18:32+01:00,FALSE
+7cbc762a96af7d66c8096c5cad883578cefad8eb,Bump version: 0.8.3 → 0.8.4,2023-03-20 13:44:22+01:00,FALSE
+c1385b94629ff7ff79d71fea97b2475f3159a750,Updated the quickstart as per the latest (#256),2023-03-21 07:39:10+01:00,TRUE
+16fd2783269d8c5e74e2b3488c8b854568a60ce0,Bump version: 0.8.4 → 0.8.5,2023-03-29 20:37:39+02:00,FALSE
+d59d1da71b972dd7c3546da57a2121611ff8e365,"QA of How it Works and Glossary Section (#271)
+
+* Fix typos and standarize col names
+
+* Fix typos
+
+* made sentece more general to PE methods
+
+* fix typos and use bold for col names
+
+* wip
+
+* standarize col names and fix typos
+
+* fix admonition block
+
+* Description of custom thresholds
+
+* Stadandarize col names and ref to classes
+
+* QA for monitoring realized perfomance
+
+* delete unnecessary dependencies
+
+* qa of performance estimation
+
+* remove extra class references
+
+* fix small typos
+
+* fix typos and ref the correct attribute
+
+* fix grammar
+
+* not use code for this that is not code
+
+* remove blue references on new plots and fix admonition
+
+* add commas and standarize None references
+
+* Add explicit reference instead of 'here' reference
+
+* update link reference text
+
+* Fix typos from glossary
+
+* typos and grammar
+
+* add citing nannyml section",2023-03-31 10:08:00+02:00,TRUE
+d0eab38a3538f296f7654713cc7b7e9faee4742c,"New quickstart + real world dataset (#278)
+
+* notebook preprocessing ma employment dataset
+
+* add new datasets and function to load them
+
+* add new dataset import to inits
+
+* add label term to glossary
+
+* add utils function for table printing
+
+* separate installing nannyml in docs
+
+* add images
+
+* quickstart draft
+
+* datasets placeholder
+
+* update quickstart draft
+
+* update init to get us census ma dataset from nml
+
+* update quickstart notebook
+
+* update quickstar notebook
+
+* WK feedback to quickstart
+
+* wip commit
+
+* add option to skip notebooks - US census data would be downloaded each time we test notebooks, we dont want that
+
+* update notebooks and dataset docs
+
+* inc feedback
+
+* update quickstar
+
+* save before merge
+
+* bring display import back
+
+* update on feedback
+
+* update quick
+
+* update
+
+* update quickstart images
+
+* update static paths for quick
+
+* feedback iter 3
+
+* update readme, add missing cels in quickstart
+
+* update
+
+* grammar check
+
+* typo fix
+
+---------
+
+Co-authored-by: Niels Nuyttens <niels@nannyml.com>
+Co-authored-by: santiviquez <santi.viquez@gmail.com>",2023-04-18 13:35:36+02:00,TRUE
+902811bb71e5bbbab728789786169674da2a5273,[skip ci] Minor link fix (#284),2023-05-24 10:09:37+02:00,FALSE
+131866447c44d5d2553e767706572a8a3305554f,[skip ci] Bump version: 0.8.5 → 0.8.6,2023-05-24 10:43:58+02:00,FALSE

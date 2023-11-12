@@ -1,0 +1,264 @@
+sha,message,date,result
+2be1a5219cbcac2ff55c390a5ae8a55d4d012b60,Initial commit,2013-07-24 10:12:51-07:00,False
+c1ddfc0af32512b925ec056717b10716f7d49750,Update readme,2013-07-25 19:18:15+02:00,True
+4b6635cdb8f72acf4aa470dd20ee1d6bc3b63ca6,Update readme,2013-08-22 15:44:31+02:00,True
+fb7056412082c4bf2205fb51a25a2c76f2a373ce,Update README.md,2013-08-22 15:45:38+02:00,True
+1deb2aec876686f4f5269ffc1bcf325a260508ad,Update README.md,2013-08-22 16:13:34+02:00,True
+08ee4a74865cf3781deeeeb706efc5e049014984,Update README.md,2013-08-22 16:13:45+02:00,True
+6fe8bbebb617f3f156a1c4c0cf1e51de4bb5c7a0,"Add tests and refactor code
+
+Need to make the repo public to use travis for continuous integrations
+test.
+Fix #3",2013-09-30 19:56:03+02:00,False
+3faf11787783a9f979353e2c9df7e637ce0426ad,Update README.md,2013-12-11 19:42:38-05:00,True
+8954f14cb98af4948aa0f753a18fd8eca1d93b75,Rename MetricReporter to Reporter (as it's not just a metric reporter anymore) and update readme,2014-01-16 17:37:59-05:00,False
+0c5f6d1af3872ac8404b4c0d152d05f792a65ff8,Fix readme and add a link to the doc when metric limit is hit.,2014-01-17 12:42:43-05:00,False
+65be7cd2be396dc4d00ca5bc281d46b128e56a62,Update README.md,2014-03-11 17:09:25-04:00,False
+7483ba149527024c26725bd5029ff99e10586242,Add a changelog,2014-03-13 17:51:05-04:00,False
+dbff0324d3cee8e5458b0d55c87a1b69b15b09b2,Update README.md,2014-03-20 19:40:02-04:00,False
+d20167d8f575dff7aefe25a7e778be5192a3a7b0,"0.8.0
+
+* [FEATURE] Wildcard support on domains and bean names. See [#57][]
+* [IMPROVEMENT] Memory saving by limiting MBeans queries to certain
+* scopes. See [#63][]
+
+[#57]: https://github.com/DataDog/jmxfetch/issues/57
+[#63]: https://github.com/DataDog/jmxfetch/issues/63
+[skip ci]",2015-07-29 11:15:49-04:00,False
+beb58fb4af4dd204c5a1d125e5342ba166bc6c85,"Update 0.8.0 changelog
+
+[skip ci]",2015-08-25 15:37:28-04:00,True
+c5d34a1defe7d12407fa9d2c049030631e6fe07a,"0.9.0
+
+[skip ci]",2015-11-03 10:05:13-05:00,True
+dfc1f1dbd1462a5bc3d3030b835a16585ee64f58,Release 0.10.0,2016-03-23 16:25:42-04:00,True
+b194e2f441d49791906a8cac73ca8b1835bc0a59,"0.11.0
+
+[skip ci]",2016-05-13 14:35:16-04:00,True
+9d52bc1fa19e0d09ade0e9f5a741919848c0afd7,"0.12.0
+
+[skip ci]",2016-09-07 20:05:45-04:00,True
+735acbf9c7553156ca9dffea4fe2ffd9253b8ab3,"[changelog] 0.13.0
+
+[skip ci]",2017-03-03 16:00:18-05:00,True
+fdd5488495471ccf209928e434c50aabfe3c17f8,"[changelog][pom] 0.13.1 release (#136)
+
+* [changelog] adding release notes for 0.13.1
+
+* [0.13.1] version bump.
+
+* [changelog] fix actual release version.",2017-04-18 12:09:18-04:00,True
+057c5137068c76fb1a2ccf5f78fb9afcde819b04,0.14.0 release (#141),2017-05-31 17:06:40-04:00,True
+91f65ee2d602a87568abb27075473654d4b78f5f,"0.15.0 release (#144)
+
+* 0.15.0 release
+
+* [changelog] updating with PR145.",2017-07-11 17:46:13+02:00,True
+fcac319c2071a3b957877473f6221951c58fd2b4,0.16.0 release (#153),2017-08-21 15:47:01-04:00,True
+d2d6b734feeadf5b3825a58ca0ab5a946eccce26,0.17.0 release,2017-09-20 16:36:49+02:00,True
+198a441d59eff19a2dea7bdf2a1d929297b3da4b,[release] prepare for 0.18.0 (#157),2017-10-10 18:49:00-04:00,True
+a8a42cc75abbd6dbaed9e53d0cffe8aa80c6c42b,"Use new url for java-dogstatsd-client
+
+https://github.com/indeedeng/java-dogstatsd-client says:
+> This project has merged with datadog/java-dogstatsd-client. This repository primarily exists for historical purposes. Please file issues and pull requests at datadog/java-dogstatsd-client.",2017-11-03 00:30:23-07:00,True
+8da9864d2e75fc561dd5fea5e236bb79f644cf60,Updates changelog/pom/readme for release,2018-03-19 10:14:23-04:00,True
+d4d471ec35b1b8dc62a63602be59adb6b15d33b0,release 0.20.0 (#172),2018-04-24 15:34:16+02:00,True
+8efbc04846ea2187616201dc2e77fe66e90e7eb3,[release] 0.20.1 release (#175),2018-06-26 13:01:19-04:00,True
+2c52e8e2f7ffb35d7af1ac021c5ff0c76f61425c,release jmxfetch 0.21.0 (#189),2018-10-10 17:43:27+02:00,True
+47860853052f06b583fbf7731bf7301d9b26e599,release jmxfetch 0.22.0 (#192),2018-10-19 16:40:32+02:00,True
+c2bfd8822850ba7493c3b3f02225f39172a3103b,release jmxfetch 0.22.1,2018-10-23 12:06:31+02:00,True
+fd22234afd482f69099f6ab2e55b1990e7f7a299,"[release] preparing upcoming 0.23.0  (#200)
+
+* [release] 0.23.0 release preparation
+
+* [pom] we weren't actually pinning surefire.",2018-11-30 19:24:48+01:00,True
+c80e106a81ddfe9327ed78cd93d427100cf7cdba,[release] 0.24.0 release preparation (#202),2018-12-10 14:44:52+01:00,True
+1c1c4faec8d9a585b887e6fe6b71e83c440defb6,Release jmxfetch 0.24.1,2019-01-09 13:57:38+01:00,True
+e22b9ff6c23e1f7a38523c1d0b8bfe67c9179d56,[readme] Move travis badge to travis-ci.com,2019-01-23 20:17:30+01:00,False
+ee37ab3e7db99d173548428fe2d3027af6ffe685,[readme] Update Travis badge link,2019-01-23 20:25:29+01:00,False
+1679fd2de0bcf4e19c3ecec5f6533731e895e1c2,Release jmxfetch 0.25.0,2019-01-23 20:42:31+01:00,True
+6166bd2453f0e747a9ef515debf80107ac5e1bf9,"[maven] `Checkstyle` + Google Java Style = ❤ (#98)
+
+* [maven] `Checkstyle` + Google Java Style = ❤
+
+JMXFetch uses [Checkstyle](http://checkstyle.sourceforge.net/) with
+[Google Java Style](http://google.github.io/styleguide/javaguide.html)
+to enforce coding standards.
+
+To perform a `Checkstyle` analysis and outputs violations, run:
+```
+mvn checkstyle::check
+```
+
+`Checkstyle` analysis is automatically executed prior to compiling the
+code, testing.
+
+More information: http://checkstyle.sourceforge.net/
+
+* trigger ci
+
+* [travis] running java matrix with separate lint step
+
+[travis] remove previous JDK matrix
+
+* [checkstyle] fixing multiple lint issues
+
+* [checkstyle] setting custom config
+
+* [checkstyle] additional fixes after merge",2019-01-30 16:38:30+01:00,True
+4cfb06b8b915c05366036c49873026235f886e0f,[release] jmxfetch 0.26.0 (#209),2019-02-13 18:02:21+01:00,True
+ace2b06f8130f3d475363bd08b703ab9b4a4d4dc,[release] jmxfetch 0.26.1 (#211),2019-02-26 13:26:59+01:00,True
+c86d6b3d2ac951856027d2e5a6188cdeac42dc40,[release] jmxfetch 0.27.0 (#215),2019-03-04 11:51:16+01:00,True
+5c753bbd467e7d803108a89210607919458729f0,Bump version to 0.28,2019-04-29 16:08:53+02:00,True
+600544b96e740ee2c82531fb92d6abc2a0d675f9,"Review fixes
+
+* add generated code info to readme
+* rename log fields to lombok default
+* add field and use switch for laconic log method",2019-05-09 16:43:11-07:00,False
+8d4ca615d6f218c753dfcf80b656ecb0c98a4099,Release 0.29.0,2019-05-22 15:27:43+02:00,True
+2598d785220e4cf5c39550d75a9b27762be4a650,"[docs] Use Agent 6 github repo link (#236)
+
+Because it seems strange to mention the old repo in our Readme and
+in the package description that's publicly available.
+Also update the pom description to match the Readme description.",2019-06-21 15:55:07+02:00,False
+76fedaf6f3ed5506a519941c50266d127f2824c3,Prepare for release of 0.30.0,2019-07-08 20:35:19+02:00,True
+9277cf8e942fddf425a742e7eb058ddf5c6b4a3e,0.30.1 release (#242),2019-08-09 16:49:59+02:00,True
+6cad965cfe8994732371d2b4c8cef462ed2607d4,"Release 0.31.0
+
+Adds changelog",2019-08-21 15:17:09+02:00,True
+176b59d605ce9f44f3e76ffddae2111d20eab15d,release 0.32.0 (#246),2019-08-26 17:21:15+02:00,True
+f16117c73170ecaef89ac66480668fb250b7f5b7,release 0.32.1 (#251),2019-09-27 17:53:40+02:00,True
+146db2ffb47fac113b327b77e11ebf1806e15c0a,Release 0.33.0,2019-10-10 14:41:07+02:00,True
+02a614c300c23e07d93dfcf68f131d433b8a467a,Prepare release 0.33.1,2019-11-29 12:15:16+01:00,True
+06092cbf595ef1ce97fbf4d6f0dbcfc275461954,"[release] prepare for 0.34.0. (#259)
+
+* [pom] bump version to 0.34.0
+
+* [changelog] add changes + readme update",2020-01-13 11:57:05+01:00,True
+e7f4cfbb51de26bda0e8f86bb2f51c1ce76a3eea,[release] 0.35.0 changelog + maven changes  (#276),2020-02-24 10:40:33+01:00,True
+7fb409fd5aaf7a7460bf0f463c52e792dc3e72c5,[release] 0.36.0 changelog (#286),2020-03-31 19:45:46+02:00,True
+a05c3659755ea617e645d8f016549940955b2268,[release] 0.36.1 changelog (#290),2020-04-02 15:24:39+02:00,True
+ed87e765ac39569457415b505b89296adf23cfc7,[release] 0.36.2 changelog (#295),2020-05-15 20:57:41+02:00,True
+95f68b29832f5944937e762f718ca597191eb51d,Releasing 0.37.0,2020-06-16 13:08:52-06:00,True
+c150360c58e471da3d0243547d1abf1786937491,[release] Bump version to 0.38.0 + Changelog (#307),2020-06-25 15:47:45+02:00,True
+00e2ee770b75a596f206174545e9228a156eddee,[release] 0.38.1 bugfix release. (#310),2020-07-07 18:10:45-04:00,True
+b65da31846ec6ebed5c3377078a8684c0da19d2a,0.38.2 release (#312),2020-07-17 17:06:49+02:00,True
+4eb8a31c342c53b5b2f80ff926ba0fc2420eae40,0.39.0 release (#324),2020-09-03 15:28:11-04:00,True
+75d28801be697241b7741a503b01f1a2cd151fde,0.39.1 release (#329),2020-09-18 15:59:14+02:00,True
+59bf1915ae31127d67058f86cf6bf786fc7c4a10,"[release] update pom, changelog and readme. (#332)",2020-09-22 17:47:29-04:00,True
+a9abc606dd351c0e478c07c83719d2f88111ec47,0.40.0 release,2020-10-28 12:56:49-04:00,True
+1d736a38309b628a00b47433e48a7f0ba00b7c8a,"[release] updating changelog, pom and readme for 0.40.1 (#337)",2020-10-30 14:51:04-04:00,True
+9bbcdcd12f1ce8f2131563b648ea33b4bd69c674,[release] preparing for 0.40.2 (#341),2020-11-13 04:51:57-05:00,True
+355a95cde533e021fc6b19b3002e9bafc45ea9a2,"[release] 0.40.3: updating changelog, readme and pom (#344)
+
+* [release] updating changelog, readme and pom
+
+* [changelog] fixing details",2020-11-19 12:48:49-05:00,True
+9cd2a64c2a2764815548e3522ab74d9d9e3e539d,"[release] 0.41.0 updates to pom, readme and changelog (#347)",2020-12-14 07:45:12-05:00,True
+91cb034510bd98f0aa0fca760ec7c98dcfe1d448,"[release] preparing pom, readme and changelog for 0.42.0 (#350)",2021-01-24 13:22:34-05:00,True
+d5266be5298cdea0411fbc0bd7bac23c8a28862d,"[docs] Added info to README about how to test deployments
+
+This was needed as the deployment local tests is not trivial to set up
+without context. By having this here, we can ensure that it will be easy
+to do again.",2021-03-18 13:52:23-05:00,True
+16ae9179ffa47131dfac967665f82823f27cd7a7,"[build] Skip signing of artifacts for Travis/CircleCI builds
+
+We don't need to sign the artifacts when doing testing so we added a
+flag to activate a special profile if we are really releasing things.",2021-03-18 14:56:00-05:00,False
+c40d6ff0c8b90c0d6fc4e535e43ead28a87cddc4,"[release] Preparing pom, README and CHANGELOG for 0.42.1
+
+This release has no user-facing changes but it is required for us
+to test end-to-end publishing to Sonatype.",2021-03-30 14:19:13-05:00,True
+b731c581befd5e91dd55ae555149278141bd42e0,Prepare 0.43.0,2021-04-16 14:51:24+02:00,True
+ca8946556dfb0e1745c2ff8a423a4dba2d247500,[release] preparing for 0.43.1 (#361),2021-04-27 17:42:13-04:00,True
+364ae6816b6310a6966cb89089d55c3872266649,Prepare 0.44.0,2021-04-30 18:31:07+02:00,True
+e29eeef9b44564d7655a785cc56c329bae739c35,"[release] JMXFetch v0.44.1 (#366)
+
+And fix release year of changelog entries",2021-05-31 15:09:15+02:00,True
+fd33670b66666411378047a7e8834bcb10d24a99,[release] JMXFetch v0.44.2,2021-07-08 13:03:01+02:00,True
+9316603670182c366cb8762b887e2241c11e5854,[release] updating pom.xml + changelog + readme (#371),2021-08-24 17:13:30-04:00,True
+d0178e202a4b48db17249d5779911835b368866e,[release] prepping for 0.45.0 (#377),2021-12-09 13:38:37-05:00,True
+c1130040f977b76d931e1da31ba5597ccbf2d2c1,[release] preparing for 0.45.1 (#379),2021-12-13 13:01:00-05:00,True
+3fe0d88e305d308755afb263557d0a73c79cd7aa,[release] updating pom + changelog + readme for release 0.45.2,2021-12-15 14:34:15-05:00,True
+1827be8bdb0a9e44581aa33224a559b7ce47c36c,[release] preparing 0.45.3 for release,2021-12-22 13:39:39-05:00,True
+b6f96ecd6665d59cfd581f9e8b9775323e7dd5ee,[release] preparing 0.46.0,2022-03-14 17:15:32+01:00,True
+40880ca2bf30635bebccaf5e0baff23ad2257064,[release] preparing 0.47.0 (#399),2022-09-13 15:56:52+01:00,True
+2c856498aa6674410e1126a9ead19f64718d99f6,[release] preparing 0.47.2,2022-12-08 10:54:12+01:00,True
+4a434fa1a9a328d44a4b14e80f2b0b9992c70940,[release] preparing 0.47.3 (#408),2023-02-03 15:49:13+00:00,True
+8fa9f01e6765ac4715f700eae7ec90ec67630ecf,[release] preparing 0.47.4 (#410),2023-02-13 17:24:39+00:00,True
+706b7ec48404674d73b4693a40a2267795a52711,[release] preparing 0.47.5 (#414),2023-03-10 12:27:26+00:00,True
+c9241219e94333375e4135f92f8f5c7375e6c629,[release] preparing 0.47.6,2023-03-29 20:53:22+00:00,True
+cdaa75d4caa245ac8f018e7f34548ab56469fb68,[release] preparing 0.47.7 (#421),2023-04-03 11:58:53+01:00,True
+27e12862a22009a75f8d82639ad1e4bd5399871e,[release] preparing version 0.47.8 (#430),2023-04-14 08:30:04+01:00,True
+b03f5d512605117d70a90690730fe8aa5ec556be,"Creating 0.47.9-SNAPSHOT (#435)
+
+* Creating 0.47.9-SNAPSHOT
+* Bumped Maven in CI to 3.8.7
+* Bump maven-gpg-plugin and nexus-staging-maven-plugin
+* maven-deploy-plugin to 3.1.1
+* Bumped Maven to 3.9.1
+* Enabling SHA-265 and SHA-512",2023-05-02 17:42:52+01:00,True
+e20eabda87e6ea294b499c4abd92dd35896c936c,"Adds testcontainer based JUnit tests (#433)
+
+* Uses testcontainers to spin up solr instance and collect metrics from it
+
+* Cleans up naming and util functions
+
+* Adds failing test attempting to emulate network failures
+
+* Enabling Docker in CircleCI (#434)
+
+* Removes solr based tests and adds new container-based test using jmx-failure-server
+
+* Adds misbehaving-jmx-server for use in container tests
+
+* Builds docker test image on the fly from local sub-project
+
+* Remove unused tcp proxy dep
+
+* Removes supervisor process to simplify things (not being used at the moment)
+
+* Adds an interface to control and query the current beans registered in the server
+
+* Renames metrics -> metric and some other small refactors
+
+* Adds dynamic bean control per test
+
+* Apply Carlos' docker image recommendations
+
+Co-authored-by: Carlos <carlos.roman@datadoghq.com>
+
+* Unifies instance initialization to all be literals
+
+* Consolidate into existing TestCommon
+
+* Removes un-used attributes and some naming cleanup
+
+* Remove unused dependency
+
+* Document beans endpoint
+
+* Removes extra concat and un-needed imports
+
+* An example of a JMXFetch config and one using AD with Docker labels (#439)
+
+* An example of a JMXFetch config and one using AD with Docker labels
+
+* Update tools/misbehaving-jmx-server/README.md
+
+Co-authored-by: Scott Opell <me@scottopell.com>
+
+* Update tools/misbehaving-jmx-server/README.md
+
+Co-authored-by: Scott Opell <me@scottopell.com>
+
+---------
+
+Co-authored-by: Scott Opell <me@scottopell.com>
+
+* adds mvn test instructions for docker-desktop
+
+---------
+
+Co-authored-by: Carlos <carlos.roman@datadoghq.com>",2023-05-19 10:34:52-04:00,False
+ec5bf72e0f555466dfd89b52e2147016957afddd,[release] preparing version 0.47.9 (#442),2023-05-25 11:39:46-04:00,True

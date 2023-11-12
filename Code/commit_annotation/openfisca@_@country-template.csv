@@ -1,0 +1,65 @@
+sha,message,date,result
+53a64429f22773fe15e795c4e12965cb9008afeb,Create README.md,2017-03-06 23:57:08+01:00,True
+2b4dd140336ab016dbe2886acbda174ef5f582b4,Fix whitespace,2017-03-07 07:57:45+01:00,True
+8f34210a2c08cf4173de0b39459ac6d2374e1550,Fix the git command to clone the repo,2017-03-07 07:59:00+01:00,True
+ca5586bbd8d42dd40e231ef4bae9fd82694e538d,"Unify bootstrapping code blocks
+
+Make variable dependencies clearer",2017-03-07 08:07:41+01:00,True
+2580d1ebab0bcef51dc4ec5b6ad15f2fd9c0aee4,"Define only one variable in user setup
+
+Avoid inconsistencies",2017-03-07 08:10:15+01:00,True
+b3527f0face47efc1a9464a7f0b6b45993b9bf42,Simplify sed commands,2017-03-07 08:13:57+01:00,True
+a9afb28fc38fe681b7c439aef02466824004e6db,Remove origin after cloning,2017-03-07 14:37:43+01:00,True
+93ab6737d32f8c7531a014c670d915e2e433321b,Repair instructions,2017-03-07 15:00:49+01:00,True
+03e0a28a7730f01bb77026140986dc7cda072a83,Add api extra require,2017-04-20 13:57:19+02:00,True
+d8d41c26036150fbc8bb3d70d9c2a6d145438e6a,Unify whitespace and casing,2017-05-16 17:57:11+02:00,True
+a27a80b06ee90f698ede209d4bc9534130ad3e6d,Document the modelled example,2017-05-16 17:57:11+02:00,False
+11c74e853f874254c73e7d11848e5dca66476b5e,Update bootstrapping script,2017-05-17 19:34:09+02:00,True
+945ff2bed9cb63053d64310606d1c70aa2de35fe,Fix typos,2017-05-17 19:34:09+02:00,True
+61f6659022de95cf9f7314e57b37d0c1816e6439,Add story for reform,2017-05-31 22:06:54+02:00,False
+4f8a4ae8482daf9afece94571c50793e98c025b0,Remove references to country template in Makefile,2017-06-13 18:00:57+02:00,True
+b4a3ee363decf7bfea274f56f0bb53b7d71f8915,"Don't reference this package as being a template
+
+As we expect most users to keep everything as is",2017-06-13 18:02:40+02:00,False
+5aa47c5faae3687f94b8f49c346a2cad9b7898b2,Give instructions for packaging and installing,2017-06-21 20:09:24+02:00,True
+5bfe2984cbb0390109564f6a820e5de54e052013,Clarifies the two different install procedures,2017-06-21 20:09:24+02:00,True
+187d79df5ad12353caf5991f1f78f7dfe710341b,Add instruction on downloading Python2.7,2017-06-21 20:09:24+02:00,True
+d92de7add8ecc9d6d69f11cb6072826cb10100a2,congratulate users on install completion,2017-06-21 20:09:24+02:00,True
+c770b0e3e02c13b7565e9aac49a5c906a94dd1f1,Clarify how the install is organized,2017-06-21 20:09:24+02:00,True
+fab0a74875f24b69ce9e8ac76e3567448be11e82,Clarifies distribution instructions,2017-06-21 20:09:24+02:00,True
+64cc0d4b432d486e2d405fcdad23e688e1d7aacf,Update README.md,2017-06-21 20:09:24+02:00,True
+8aed2085fc74733aa62e2f7115ec46b267a6c557,Clarify packaging info link,2017-06-21 20:09:24+02:00,True
+84310b3df5e93d1ea8ac84ba12e9624d1ffd5689,Make punctuation more coherent,2017-06-21 20:09:24+02:00,True
+8b3972152287c2bc6123b3fe0bc5fd9ce80eaf5f,Remove openfisca-country-template references,2017-06-21 20:09:24+02:00,True
+d5ad1a878a7ccf6afc1c0504a3ad38da56d58ad1,Clarify install procedure,2017-06-21 20:09:24+02:00,True
+9a47f0b911828be76861b0610af6d6a6bf0e03f7,Update doc URL,2017-08-30 23:26:58+02:00,True
+dc41dd8efe4487ba2b3698c6041a1c0a13045212,Update Readme,2017-10-26 19:13:38+02:00,False
+5c648655b25c058ecea52145a5f21edcea58b2ef,Change link to documentation,2018-04-12 11:19:04+02:00,True
+3e39300302fdd06256b08f43b15a7d794dc9495c,"Simplify installation procedure
+
+Merge two steps instructions into one
+Use long options",2018-05-29 18:34:07+12:00,True
+ae5eea4b98a47fb57e9ccf851ed46198a6d83b78,Switch openfisca.org URLs to HTTPS,2018-05-29 18:34:07+12:00,True
+9fa8e97ac9cfbc1f004e5ad7d1ce9e5e73f21195,Remove trailing whitespace,2018-05-29 18:34:07+12:00,False
+ef83780591e8e3ec7757cf8d89ccaeb4e432407c,Simplify setup wording,2018-05-29 18:34:07+12:00,True
+7b604a19b6e76451e8886892e6fcf72715529249,"Extract bootstrapping script
+
+Increase resilience
+Initialise Git repository",2018-05-29 18:34:07+12:00,True
+32aeb85ebeed637521d3e0b448e8342ef5004fe1,Make bootstrap variable name more explicit,2018-06-07 11:23:58+02:00,True
+73f2278c723e46a9962823b4a926aa10809a4f95,Rename 'test' dep to 'dev',2018-08-15 11:49:38-04:00,True
+06b28921c8048e84e7b1df46d6e1d3fc987bdaa6,Use Python 3.7 in CI and Readme,2018-09-30 23:47:05+02:00,True
+94afc848fd06ed9fa6c0f29ff44d7792686a5a9d,Update doc links,2018-11-20 18:02:04-05:00,False
+4223e437ac5d6c254e8203cf13b8944ff13bb587,Update readme to use python2.7,2019-02-16 09:47:46+13:00,True
+aba73693f15a608bed1b34cd5491c73f8eed754c,Add copy-pasteable curl request for sending situation example JSON data to web API,2020-01-31 09:08:08-06:00,False
+22657c55eb95c88593099db75303325d9f9be436,Document make serve-local,2020-02-10 11:23:02-06:00,True
+a442db4e0d39f18e131b09dd7aa34644f1b22978,Specify the bootstrap script doesn't create a repo,2020-08-04 07:54:31+12:00,True
+64920f7d6be05f0fc3c67121fbf86f62ccfcd5b4,Replace a new with the,2020-08-04 07:54:31+12:00,True
+e387bd7b780a7b9fefc8590f73e12613b1c398fd,Fix step 2. instructions,2020-08-04 07:54:31+12:00,True
+f52f218890672bfa512e4e059153406284fd7ff7,Add step 4. to push code to remote,2020-08-04 07:54:31+12:00,False
+83ccca512b821d8eae1798a60eb2c5504e0302de,Raplace virtualenv mentions with venv,2021-10-20 09:54:21+02:00,True
+79ab8d9f3cd146a120be9bac6819b590a2b616a3,Replace Python 2 mentions with Python 3,2021-10-20 10:04:09+02:00,True
+8085f9a76bf68b6416a7ea0694cbb00d918f0a8e,Add pip install warning,2021-10-20 10:15:00+02:00,True
+dba333f357442665dbf770033757a4557e21aed4,Fix lowercase letter,2021-10-20 10:16:15+02:00,True
+1d3440b89c23a0f37a9a15e11ed929a024695b47,Replace virtual environment with venv in comments,2021-10-20 10:21:03+02:00,True
+c9f1895c4a24a374cabc3fdab391bf1985802d90,Add spaces in comments,2021-10-20 10:25:27+02:00,True

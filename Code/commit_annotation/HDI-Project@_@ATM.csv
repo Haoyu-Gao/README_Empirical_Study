@@ -1,0 +1,125 @@
+sha,message,date,result
+24ba7668344089b42746e260b5be16180df6c4e3,repo initialization,2016-10-14 14:03:51-04:00,True
+27b92d6bb9c988a5e754c576d608b877f56cc155,Update README.md to be setup on day-desktops,2016-11-14 16:06:56-05:00,True
+9122530eb7b48e5b30f2560b36224d39156b911c,"Update README.md
+
+Include setup information for both types of python installation (regular and anaconda)",2016-11-22 14:38:59-05:00,True
+7b8aba1e35cae9c7078e957b507bdca6886f35bd,update README file,2016-12-23 12:13:35-05:00,True
+89c00ed10a3c8b94165efe601342efbaf013ecd5,"Update README.md
+
+Point to documentation on github pages.",2017-01-06 13:53:03-05:00,False
+a45f1f6dba277bb9b63796f0950ba6c7df01327f,Update README.md,2017-04-23 18:05:47-04:00,False
+64924458effd4face107bd9847697d50670581c7,remove manual conversion of max_features from float ratio to int -- classifier will do this internally with error handling,2017-07-20 18:13:29-04:00,False
+278ef0b359efb323382ac0f5fa984a73aa589277,Update README.md,2017-07-20 18:14:36-04:00,False
+d0412c57d1cfa2c0b20d9e68cbb658cedc0ae2ce,Update README.md,2017-07-22 19:16:31-04:00,False
+c8a607f5e663aa7856e8be5361aed10ecf7f861e,"Update README
+
+Make note about DBN clearer.",2017-08-08 08:27:14-04:00,False
+f8f448b5fd020f3684d9b7984fb14d79db5d8e50,delphi -> atm EVERYWHERE,2017-09-13 14:56:09-04:00,False
+1520e465b9695b7c495042cc00594238144db200,atm -> btb,2017-09-21 23:02:13-04:00,False
+e531976f05b3f468cbe6ca214165db4fb1a02836,delphi -> atm EVERYWHERE,2017-09-21 23:07:02-04:00,False
+c0dad8f1821b21b5c88ea12a4c13cd51140e9fb9,atm -> btb,2017-09-21 23:07:02-04:00,False
+b3f2e66951946ff03eb2ae65ed759dd90c67481d,bug fixes,2017-09-22 12:53:14-04:00,True
+c09a1d2bc338c1a9050a60e139d9d6dc628ce608,update readme,2017-09-22 14:26:01-04:00,True
+a0481aabd508e9971df269ff4ef599a7cde4e4cf,update readme,2017-09-22 14:27:29-04:00,True
+a8f874dd8835240b1923174a22837ba28d1fa7f7,update readme,2017-09-22 14:29:01-04:00,True
+2f0a69c90a8bf88c7a60b2ca06f7590f4192c3f4,update readme,2017-09-22 14:30:01-04:00,True
+c70382a06ddc7a60c0bfee8306eff76340411854,update readme,2017-09-22 14:32:06-04:00,True
+c341510bbf2b507ddddf26c200d3272c828c3751,update readme,2017-09-22 14:33:04-04:00,True
+09c243fd233f07b3cbf40d239d21ec7e90a071e0,update readme,2017-09-22 14:35:29-04:00,True
+1cac21ef1db90d5730dbd415d2d0391eecf618d2,update readme,2017-09-22 14:36:31-04:00,False
+ccdf2b0cc0739be8bb44913716c575856fd7eb9b,update readme one more time,2017-09-22 14:38:30-04:00,True
+f4b8994fe740edde7da22c1b19fafb4d17cf371e,"make everything sqlite-compatible and update readme to that effect;
+fix some bugs in database.py;
+several fixes in the selection/frozens files.",2017-10-23 16:41:31+09:00,True
+4d6e4c9cedc1e89218324dc644b2616331aba7ba,replace btb.selection references with hyperselection references,2017-10-27 13:47:39-04:00,False
+a289beb75fa52dd9e6ab05980d7612fe58646855,"rename btb -> atm
+remove algorithm column from learners (redundant)
+update Learner class in database to reflect that and older changes
+use btb instead of hyperselection",2017-11-02 20:32:17-04:00,True
+65dc4c5ace9193b10338d9e162650564582f5f0a,update readme,2017-11-02 20:34:05-04:00,True
+c434c8de2dc55e9d030131cfd17dd1ecbcfa360f,update readme again,2017-11-02 20:34:49-04:00,True
+ca58387fb273321aab4916bbc6fd455f9ddcfd09,Update README.md,2017-11-05 14:39:30-05:00,True
+d75e4c5c89dc25ffed3ed6af4308c0e55379f4b4,quick update to README,2017-11-06 21:17:29-05:00,True
+c4503959d9f2d9230747f9af075ed40954c16b30,update readme with instructions for test_btb.py,2017-11-07 12:16:12-05:00,True
+0fae5713502b7d0d8727899bfde3b914d48c4996,"update readme, improve output from enter_data, and update util functions in database.py",2017-12-04 15:39:20-05:00,True
+528143dd9b8e906ec125d836d726081b8cc6b44d,update readme,2017-12-04 16:00:50-05:00,True
+8fd2a98ada3d6860b0a2d9650ba14a8193f87107,Update README.md,2017-12-19 01:31:16-05:00,True
+6060082eb2e62e2fdaea03d18385588f5f56e309,Update README.md,2017-12-19 01:37:09-05:00,True
+cc59f2cca5a923b6d69d6e2f0fda41d2985326fd,Update README.md,2017-12-19 01:40:57-05:00,True
+2b9389d83ddbfbc3ede71a52c036533aaa60cfe9,Update README.md,2017-12-19 01:42:47-05:00,True
+7b094bd06fcf66300914e7b3675f8522cdea7cbf,Update README.md,2017-12-19 01:44:20-05:00,True
+f4e4af6f1cb44737b9fcc3278d429c4dd3561c3d,Update README.md,2017-12-19 01:45:53-05:00,True
+e642ba959156067db493e45901c84e4ad0a996cc,Update README.md,2017-12-19 01:49:13-05:00,True
+6eda686d0264bdb92534af5ee1f4d6a1ca48997c,Update README.md,2017-12-19 02:03:28-05:00,True
+4ce6bf2dbd1f0c6b8fb44de5a1840461aa68e955,Update README.md,2017-12-19 02:13:48-05:00,True
+e02421001ff54ed95f2cb34bff45017ef4dbe0c2,Update README.md,2017-12-19 02:14:52-05:00,True
+744f28747e48075e5c4ef2dd32fa27336fba345b,Update README.md,2017-12-19 02:17:43-05:00,True
+ddafea30977e4ec729ce0c6df466de75146e775e,Update README.md,2017-12-19 02:20:42-05:00,True
+46b99b668f1c81f2bb4245c82461c73e01ed777c,Update README.md,2017-12-19 02:26:18-05:00,True
+21aae8374b6096e95879bd4f7e11b5974345fba2,Update README.md,2017-12-19 02:31:08-05:00,True
+f583a1e39dca70a24687372ca1a35f5ea6b188c2,Update README.md,2017-12-19 02:35:44-05:00,True
+86599384a7920d2df7a9f7ffa8befe84ff4ea1ee,Update README.md,2017-12-19 02:49:21-05:00,True
+854e0641ba3072a157fdfe5ddb71e5fdc757447e,Update README.md,2017-12-19 02:52:08-05:00,True
+47a93b7415d132bdd9841974f90714ec9058ac12,Update README.md,2017-12-19 02:56:25-05:00,True
+7a2eb48c1484d110b35dbb5a2547d52fd8c20b79,Update README.md,2017-12-19 02:58:55-05:00,False
+36e7d9459ad101564732af703d18424172894890,Update README.md,2017-12-19 03:07:20-05:00,False
+f1619cda720e06b246b6253292f8b5c431639d5a,Update README.md,2017-12-19 03:13:19-05:00,False
+47780edb5d5a127105553dc9863985a2898a4999,Fix link for openml webpage in Readme,2017-12-20 11:29:57-06:00,False
+aaaf01d9d4ca7b3654b45e101b542709aadc289b,"some updates to README, and make worker not wait by default",2017-12-21 21:05:13-05:00,True
+6a978b3ab3f98bb90746c2209f4e7bb5af09d6a6,Installation should specify NOT to use python 3,2017-12-25 10:10:12-06:00,True
+bef7eeb65aa16dcab572fd5c44ca76733f02e90a,Add related projects to readme,2017-12-26 20:35:10-05:00,False
+7ed389f30926a9906ed3dff8b444ce35ee46f5fa,Update README to warn people about volatility more explicitly,2017-12-29 23:41:48-05:00,False
+5b0381f7dae75d01675bb06cdc8f1a3f4ade79f5,update README for formatting/word choice,2017-12-29 23:50:45-05:00,False
+028537a7ee7461ab2d8e4e14fce78d9bb039a3b7,many updates to README,2017-12-30 01:38:13-05:00,False
+a292d68f7904497c9d7251f1079c06400afb9e5b,quick fix to README,2017-12-30 01:40:30-05:00,False
+527ed466c06a803ecbf3d3c225f23d2727096240,quick fix to README,2017-12-30 01:40:55-05:00,False
+298b14ddee8456e9ebb387843aa31e9c145d3801,formatting for README,2017-12-30 01:44:23-05:00,False
+8349a27c59be500b2ebe6de6f3867883914e9136,README formatting,2018-01-02 16:06:48-05:00,False
+3b95ec25cf9b5fc3738117f726ccb66b96b6b74c,modify readme.md for checking I do it ok,2018-01-04 20:04:21+01:00,False
+24b5352e72bfcd941a82e04a592830bc75bed8f9,fix grammar,2018-01-10 11:08:26-05:00,False
+d1e25ca09890fe4fdbaee41c0c9e68f800027fa8,add libmysqlclient-dev dependency,2018-01-26 13:57:20-05:00,True
+b32f9f6791551a1426ff1ce2f301ac382ffebc2e,move config and data directories to atm/,2018-01-29 15:58:34-05:00,False
+814d0de3c270cc595971ef44f09171bf956589c8,update paths,2018-02-02 16:24:22-05:00,False
+3bf1d905be71af5076db8a8a68f47500f8f120ed,update README to reflect new scripts,2018-02-06 03:19:37-05:00,False
+e22dbc7894abcdaba3c27ab0a37d83b286e55fb2,add badges,2018-02-10 00:00:30-08:00,False
+a458b4735f0b7758557c88fa17634fa1afae7adb,badges v2,2018-02-10 00:03:58-08:00,False
+f930c786242e4bd1343894d2ac0ed4796decf7c8,badges v3,2018-02-10 00:04:28-08:00,False
+6f24354e16c50ccba3059f2d3a295e94f6527b63,update badges,2018-02-11 01:20:08-08:00,False
+9b201ec5ed4ae7c230cb911d76c3dfdf6cf38c45,fix line break,2018-02-11 01:20:28-08:00,False
+87fae1a3ada5abd2a4181c5abd5d8f1c09f036f8,update readme for Python 3,2018-02-12 13:57:35-08:00,True
+a8d1ee0b081eb9deecb8a6cb1a38b33028975164,Update README,2018-03-01 00:11:22-05:00,True
+d9600fbd50343c246d4522af08f5043341db476f,update README to clarify libmysqlclient-dev requirement,2018-03-02 10:19:38-08:00,True
+144ef1832c6f58d9680bf99a2aa8f6f60cf0f8e1,Note that default config is atm/config.py,2018-03-05 17:28:51-05:00,False
+03f468fc55f6a2b805965a67941ddc4f389096c6,Fix typo,2018-03-05 17:30:20-05:00,False
+93af5f17c1fff46a927ca3f4486ca0ca716449dc,Small edits,2018-03-05 17:33:03-05:00,False
+820a42ccc9b8dfaba8ba3b176f70a029502e8d26,Update README.md,2018-04-29 20:11:21-04:00,False
+937d42ae7334c6b450105039c79ffe61e55533d8,Clean-up README.md,2018-05-05 12:16:20+02:00,False
+5b09334e1879872bdbe63958fe0041ac0ffb2181,Update README.md,2018-05-12 17:42:34-04:00,False
+785589c38b041dabc559195f3e139df24ff7c1f5,Update README.md,2018-12-16 11:56:16-05:00,False
+9693bae1a15ee0250dd2c4c932cc6b5d0765bec9,Update the installation instructions,2019-02-22 17:12:39-05:00,True
+fecfcf8e46f0d4f0f743e65d3b4dace5e9142339,Change alt value,2019-04-01 14:55:08+02:00,False
+439bc0236887e66488cfbf68090f386b53265bd1,Adapt README to new cli.py,2019-04-01 17:18:09+02:00,True
+ce4b893aabfe32af110f4b0560afe9487143bd8e,Removed config.py citations,2019-04-01 17:29:44+02:00,False
+a0d09f02a8f6af83f52231cfe4f02e545709f1b0,Add link to API.md on the README.md,2019-04-11 22:01:22+02:00,False
+02ab6450ecd469e0cf3a502ffc4cb034d3e740c7,Added travis badge.,2019-04-26 12:26:14+02:00,False
+288927d954cb5c4761fafcc9ad1cbf1e89f50130,Update links to docs,2019-04-28 23:01:57+02:00,False
+984713cc4c432241f309efa1889612c9830d47cd,Changed connector to pymysql,2019-05-08 16:57:21+02:00,True
+09276d6294eedeba8a49de31017355e72132dd33,Fix typo.,2019-05-08 16:59:06+02:00,True
+ab8d5ab5b5d241d0e3edbbba2f8faa657058c6c4,Update DB setup instructions,2019-05-09 20:01:33+02:00,True
+78d31b05547663eb62d5677eaae1766a650f2c9f,Update installation instructions,2019-05-09 20:15:15+02:00,False
+13131feb668de39a0d19fd1582d59e5f2294b12b,Update README with the new functional api.,2019-05-21 16:45:19+02:00,False
+779c9a850ac9596b5b6c3e5a8d842f9e3b48edb0,Update removed dataset.,2019-05-21 16:57:08+02:00,False
+8fd068979256369a0d5b50b7073c3bc56956a772,Updated README and added Custom Usage.,2019-05-22 16:07:56+02:00,True
+e1705cf746554be2b83fe6f57c64c7423d4dbe30,Update on loading / saving classifiers,2019-05-23 10:22:42+02:00,True
+b0eb27c54a9b7d27b68f94c92fa6f234542a2d6d,Update documentation to new API.,2019-05-24 16:25:05+02:00,True
+238ef3c2727e1756252192a35f22219fd4004215,Added whats next.,2019-05-27 10:07:14+02:00,True
+a0d7b41274350f55250859e13fce5718156f93cc,Finish Python functional API and revamp docs,2019-05-28 19:32:57-04:00,True
+633e61a59664dc28963e2fe926aa431c2deb4349,Fix typos,2019-05-29 09:53:23-04:00,True
+7884e118b7d28ef2b5775cd4eea9b217d5a90c23,Fix docs links,2019-05-29 10:09:47-04:00,False
+5fbfba9632b03dddba46f5f44bf2da1e79d2d0c0,Fix on getting demo data,2019-05-29 18:39:10+02:00,True
+8da5ab11b324827aafe4d459c3207e725cffe6ad,Update the data download instructions,2019-05-29 13:09:50-04:00,True
+3baa5b2f3aecc16bad29f6c78529bb0042f5b155,Changed wget for atm download.,2019-06-20 10:50:21+02:00,True
+56cb61957560ada6428d76ba95ac3ac95c71a3a0,Update README.md,2019-07-14 19:02:48-07:00,False
+d7cebcd1b95c216327d84d1e18a57681d5ee5078,Update README.md,2019-08-07 17:24:10+02:00,False
+a36b4d17ad922c3118d6bba432ebf050fbbc01ab,Update development status and requierements.,2020-02-21 16:37:23+01:00,False

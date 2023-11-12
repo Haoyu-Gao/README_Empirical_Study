@@ -1,0 +1,54 @@
+sha,message,date,result
+a2e1eb9448c17d1ced28340e7b34b56887ee513a,Add readme,2020-07-06 20:37:07-04:00,False
+a2e979f8472b145fb732a838f8155e3dd1807d8b,Updated menu system. Move panel working,2020-07-14 08:13:35-04:00,True
+d2036c13af5dcf9efd58b9411854aae0ea43fe08,Moving development into master,2020-08-01 14:38:09-04:00,True
+9bf714c7bbaad649d774ec0e479be1c1d5577239,Documentation updates,2020-11-02 13:58:47-05:00,True
+00c77151da70d0c356bc366c0c10280f9e977244,Documentation updates,2020-11-02 14:01:49-05:00,True
+9cdc1af14c0cf476e41488c916e25d4875d6458d,Documentation update,2020-11-03 15:15:45-05:00,True
+498f028c270ad6eefeae4c7da2f24f973969cfb2,Updates to installation process. Removing manual install text,2020-11-08 23:36:07-05:00,True
+d29c0ab0636c9fcca9fe934a1e06899268139f4d,Documentation updates,2020-11-14 11:28:52-05:00,False
+2f25ef2040cc1ec92ea4bb4d4e133b10ed593c63,Documentation updates,2020-11-22 19:27:03-05:00,True
+f0f458124108ff2fa10a85c95b1759d2879a778b,Documentation updates,2020-11-22 19:41:29-05:00,False
+ecc4c5ac4cc89a12ca0b03dc2eeeccd1035eb0bf,readme: Include more links/info,2020-12-08 23:35:45-05:00,False
+717e4ee90286b4d042880c974bf211c577950500,readme: updates to hardware,2020-12-18 15:43:39-05:00,True
+5e31e3cfa6c6dcdf1d113470f9540b8f57520a9e,"Multiple printers (#85)
+
+* screen/printer_select/splash_screen: Updates to allow changing between moonraker instances
+
+* Updates to multiple printers
+
+* settings: Display printer endpoints
+
+* Update macros to be on a per-printer basis
+
+* files: Changes to clear out file cache on printer switch
+
+* job_status: Redo page for action bar
+
+* splash_screen: Change icon
+
+* websocket: Actually close the websocket
+
+* printer: Fix error case
+
+* splash_screen: show buttons update
+
+* readme update",2021-03-05 18:30:59-05:00,False
+84ca1ded7cec03a67b21e60694f71841df8e364b,readme: fix broken klipper link,2021-03-14 14:27:03-04:00,False
+344df0a8696529e5faa8f726b1922c3bdb7794a3,docs: Update to use mkdocs,2021-03-14 17:02:05-04:00,True
+47e233928e655a7cc2b8ed23eca1a5d25efd49e9,docs: Remove screenshot from readme,2021-03-14 23:39:09-04:00,False
+496850faec5d652d079732e22a75b08cdd298ac5,readme: Update documentation link,2021-03-15 20:28:01-04:00,False
+f3e7941acf8d7af9230fd10f291002ee910e0946,readme: Update docs to readthedocs,2021-03-23 00:28:20-04:00,False
+698b86ac1c433d38cfe9aef793d955bbec56df5f,Update main_panel image and include in main README,2021-12-09 08:52:25-05:00,False
+964ae7986fbf0dbc91e77aa8c6c068f10b9667df,"Docs: Add Bulleye fix (#367)
+
+Also configuration file clarifications, and other minor updates.
+
+Co-authored-by: jordanruthe <31575189+jordanruthe@users.noreply.github.com>",2021-12-17 12:41:29-05:00,False
+8775221b5f59977359f882664485f5c1aa8d0887,"Update Docs: add Thumbnail info, add xorg.log, optimize and organize images (#447)
+
+* Update Docs: add Thumbnail info, add xorg.log, optimize pngs
+
+* Organize images in subfolders",2022-01-17 01:12:19-05:00,False
+a754cdc23953574673575e5e9b06f37f360ba5ee,Update docs: re-add the manual method of changing gl driver,2022-01-21 16:45:23-03:00,False
+a84cb63f8b73b17c6648a111aaf521722efdddab,readme: add docs build status,2022-04-11 08:02:31-03:00,False

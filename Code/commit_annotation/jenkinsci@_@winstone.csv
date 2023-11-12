@@ -1,0 +1,92 @@
+sha,message,date,result
+9fd040262e90d67aa92da9bca590545f2519a667,Added README,2016-02-21 09:32:09-08:00,True
+27a165d6801b63604dbaf5d4cde0d375dc548121,Minor formatting improvements,2016-02-21 09:32:59-08:00,True
+9a50fcca45bbad7f2263ad287e6ee1fde24eb498,Update README.md,2017-01-03 10:35:50+02:00,False
+17d63641943f0c420fe16ca1a5afc090df01ad08,"detail on dev
+
+Signed-off-by: olivier lamy <olamy@apache.org>",2017-04-28 11:11:13+10:00,False
+0ae43799e6957694e0ea53b178626fbee37cef6d,"get rid of spdy
+
+Signed-off-by: olivier lamy <olamy@apache.org>",2017-05-04 10:24:02+10:00,False
+2f1476b2dd77a2eacd96423eea2a8fda7d2ab5bd,"README: Update documentation to reflect Winstone 4 state
+
+The previous documentation is just incorrect for the new release: we use Jetty 9.4 && do not support SPDY anymore",2017-06-08 09:37:34+02:00,False
+67e49ebd823e7d70e898e338aa0a415c089efff5,"improve readme with details on new http2 configuration option
+
+Signed-off-by: olivier lamy <olamy@apache.org>",2017-07-20 10:54:10+10:00,False
+93a5ce1f2091e6a88997a87e8f7b42649cbaab8e,Update README.md,2017-07-23 21:55:59+02:00,False
+0ec8c5a75d5520cc5510c9f1c162e25abbd2f335,Add link to alpn vs jdk version,2017-07-24 21:01:23+10:00,False
+95694412413b82d39189baaa9ce020bf809c429f,"Update README.md
+
+fix link",2017-07-24 21:06:27+10:00,False
+3b185766bdb4709de1e8bb42374e585adca4398b,grhh fix typo,2017-07-24 21:07:05+10:00,False
+2d37e5da4cfbaf72f25925184411bdf32e5dfe7e,README.md: fix typos,2017-07-27 10:39:50+02:00,False
+6bbc6fd23ae4de73d0ad1b6b0faab8f22a91f7a5,correct spelling mistake,2017-09-01 09:51:20+01:00,False
+5ac4a32947be1977649b879babfa1ee91abe0866,trivial README edit: delegated *to* Jetty,2017-11-02 13:23:43-05:00,False
+15941f8e757eb8e0614b30ac5326724a7820dca0,[JENKINS-49596] - noting and documenting 4.1.1,2018-02-22 12:00:28+01:00,False
+a18027d72ab9e38652e25920caead985dac24e39,[JENKINS-49596] - Increase the default session eviction timeout to 30min,2018-02-23 13:15:14+01:00,False
+69078734ee918d1fd0b3fea61a1af0775d8136db,typo,2018-04-26 22:27:34-04:00,False
+52c42a9578727385486e48f2768d37094c278088,"update README as well
+
+Signed-off-by: olivier lamy <olamy@apache.org>",2018-04-30 20:50:02+10:00,False
+889a3cacd0bfcb851a90254a15f872eb41dd7065,"[JENKINS-52358] fix broken http/2 support (#53)
+
+* [JENKINS-52358] fix broken http/2 support
+add an extra lib directory option to be able to add alpn processor
+
+Signed-off-by: olivier lamy <olamy@apache.org>
+
+* update help and readme with new option
+
+Signed-off-by: olivier lamy <olamy@apache.org>",2018-08-23 08:13:48+02:00,False
+74775cc02ef92feaf247e45a32b193e45800805a,"[JENKINS-53239] Use default Jetty QueuedThreadPool (#54)
+
+* [JENKINS-53239] Use default Jetty QueuedThreadPool and get rid of BoundedExecutorService
+
+Signed-off-by: olivier lamy <olamy@apache.org>
+
+* cleanup
+
+Signed-off-by: olivier lamy <olamy@apache.org>
+
+* changes after review
+
+Signed-off-by: olivier lamy <olamy@apache.org>",2018-08-29 22:24:02+02:00,False
+1433d7f48f571fe1ee0821aa7ceb43cef91ef453,"add note for java9+ http2 support
+
+Signed-off-by: olivier lamy <olamy@apache.org>",2018-11-29 12:10:51+10:00,False
+cb4ef06355a1b7de278e9d8835108320cbcb4729,"[JENKINS-56591] make cipher exclusion configurable in Winstone (#60)
+
+Signed-off-by: olivier lamy <olamy@apache.org>",2019-03-20 07:41:58+10:00,False
+b71c6e95e2ec9c3753a56337dcdcc0c86d394be1,Fixing up the changelog.,2019-11-01 16:30:04-04:00,False
+b5c7abb230f35e34fb62427477cf6068568afe22,Add ability to redirect http to https (#98),2020-03-20 10:30:02+10:00,False
+77dc48cef979d4503b6de18d3b19b70db4544ea9,JDK-8239027 is in JDK 8u252,2020-04-24 17:31:40-04:00,False
+4754da67bf797b906a5c858b2de63b97ac609543,"Upgrade Jetty to 10.0.11 (#181)
+
+* disable sni host check per default
+* add sni option documentation and add sni required option as well
+* do not build with java 8
+* default http compliance same as jetty9
+* use jetty bom
+* remove enforcer exclusions not needed anymore for bytecode check
+* exclude jetty-annotations from the dependencies as it is not needed
+* jdk17 profile not needed anymore
+
+Signed-off-by: Olivier Lamy <olamy@apache.org>
+
+Co-authored-by: James Nord <jtnord@users.noreply.github.com>
+Co-authored-by: Tim Jacomb <timjacomb1+github@gmail.com>
+Co-authored-by: Basil Crow <me@basilcrow.com>",2022-06-24 14:29:01+10:00,False
+01f4a10f73f02158cb4d5edbbffa52bb7a70e92b,Remove ability to load PEM certificates (#232),2022-06-24 19:12:27-07:00,False
+62610b74fbcadb1caf13892349995a333a55c8b1,Update `README` (#239),2022-06-30 09:40:18-07:00,False
+e8ded362b02fdf5383549738bcfbec0e086b88dd,Remove outdated HTTP/2 documentation,2022-09-19 15:33:19-07:00,False
+3e8d002be03f82a9d2cfeb697e578f6980315637,Remove unused JSP options (#287),2022-09-27 09:17:19-07:00,False
+1a093e3aadcf8a24bc011c4d476547007dec6b5d,Remove dead references to `executable-war` (#288),2022-09-27 12:56:58-07:00,False
+488a05341744aefa9c64f6909f0fbbcbf66fa696,Align HTTP keep-alive with Jetty default (#296),2022-10-20 10:50:47-07:00,False
+e909bb58af22fd4e74fbc75b355cf502bc1605b6,"De-duplicate file-based logging implementations (#295)
+
+* De-duplicate file-based logging implementations
+
+* Propagate log level to console handler",2022-11-20 00:58:04+01:00,False
+45d8ac28adf5a6a5192e29a83f739d010221ba04,`--debug` should only control Winstone log level (#307),2022-12-21 12:28:49-08:00,False
+0ae159951b90dd61cc5a03ec9ef8d2b53e275e7a,Add `excludeProtocols` command-line option (#312),2023-01-20 00:26:58-08:00,False

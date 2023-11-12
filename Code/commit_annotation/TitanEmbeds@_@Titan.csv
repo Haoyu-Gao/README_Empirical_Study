@@ -1,0 +1,25 @@
+sha,message,date,result
+e5c45d4c3fe04ae09f356179079b3475c3a6655c,Initial commit,2017-01-15 02:59:58-08:00,FALSE
+43c758ce8780557e29db4df6c17feae628ad6989,Add current required pip packages to the readme markdown,2017-03-31 07:37:14+00:00,TRUE
+7ec1ac676009dd9996322cf78b65c2ea97b874cd,Add mysqlpython to readme,2017-03-31 07:48:14+00:00,TRUE
+f5d53dd89a1426b6647ec39f25a642a8bcb71b08,Fixes and Handling nick mentions to usernames,2017-04-05 07:31:42+00:00,TRUE
+f8838b0af2efb35c7cb6c0e862048f2bce9d30bc,Wrote README doc,2017-04-06 03:50:55+00:00,TRUE
+9801aafb588d2b02983ca9d9591234b484452373,Add a disclaimer,2017-04-08 13:57:37-07:00,TRUE
+581d2b42c95dc46649192f6ec56f0350af2fa015,"Update readme to include Python version and websockets requirement.
+
+uWSGI is good too.",2017-05-01 18:23:18-07:00,TRUE
+2623724b0b2a350e156ea4249b58fcf19350b0e5,Fix readme typos,2017-05-01 18:26:09-07:00,TRUE
+a6766b20080c4366992a0972747dcf2fd7a995d4,Initial structure for discordbot addition,2017-05-02 18:37:24+00:00,TRUE
+d5e5650322e2766e23c4b00fce0ae5de3072b123,Add alembic instructions to readme,2017-05-30 20:49:50-07:00,TRUE
+228ebe668405b021d29dcf0c91ee5ca927ab3099,"Add website url to the readme
+
+Because the discord dev gave our github url instead of our website. So this link should lead people to our site from the github page.",2017-07-10 04:37:52+00:00,FALSE
+fb8cfe3abcfbbf95abe31341ac7596f4906fde51,Converted webapp portion to python 3.5. Resolves #32,2017-08-19 00:33:50+00:00,TRUE
+871c8fc22fb07c5707495d07395503e8e6f474a6,New .com domain!,2017-09-01 04:45:35+00:00,FALSE
+2422ec0e281355a4787fea20b477465a5e9504ac,Add ansible link to readme,2017-10-06 16:13:49+00:00,TRUE
+b32fcd8b349ce3d99d0c61b3f2a335b861982a0f,Add crowdin links and query parameter lang,2017-11-16 03:25:29+00:00,TRUE
+173a9a4861c729f8660f73fc4fad438499279221,Add discord bots.org widget to readme,2018-01-05 09:43:36+00:00,TRUE
+74508d4e953f4a1cec8db1adc09435ac36a1a187,Fix Discord capitalization in README (#68),2018-01-09 17:13:22-08:00,TRUE
+de94f87c456ec4a713e24911243a881e72c9f030,"Fix gino bugs, reimplement ban and revoke cmds, enforce postgresql",2018-07-10 19:06:54+00:00,TRUE
+7fec01090c751c041ccaa132a8acbd230bb0f16b,Update readme installation instructions and add browserstack,2018-08-04 07:29:54+00:00,TRUE
+6c48efb6c60b07477e6603a6c1cfa96465f406d0,Minimum python 3.6,2019-03-17 09:38:19+00:00,TRUE

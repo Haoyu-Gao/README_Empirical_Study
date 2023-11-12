@@ -1,0 +1,26 @@
+sha,message,date,result
+a39eed29530bb543ef5c2f9f0b3b3754123abdcb,README.md file added,2018-02-05 12:53:37+01:00,True
+f3848d2a3064dbdc3bcca9e76bbbb74a3609a4c3,Badges added,2018-03-13 21:29:30+01:00,False
+2a180303a863a99c99ad3ece5cb1ecd774aa11d6,Update build badge.,2018-03-22 11:16:38+01:00,False
+62c5dbb7223543383efc05a85bc806830d9a8f0c,readme + event relation extraction changes,2018-06-28 22:46:53+02:00,True
+81452f5ac5e1a27457b626e03c03dd1db88848de,Hanle IOB separater in the writer.,2018-07-24 10:47:59+02:00,True
+34bccb5a5da8915030b74b4d711cf31d15a08ba0,README update,2018-07-26 12:55:56+02:00,True
+3931802e11d5adce1bd096a94d7d2b69458f2e17,Update readme,2018-08-30 11:04:51+02:00,True
+aa60414c6accbc6a60e0806da84812f6a1554bf4,Add info about NER NKJP model,2018-09-07 12:14:32+02:00,True
+e36472bc4bfce694d2b122136f31e66166c059f7,README update,2018-09-12 10:54:00+02:00,False
+6a06a1afa27cc5a29a05b4d85b0ba8090222c3ea,Papers added to README,2018-11-15 14:43:41+01:00,False
+6db51fa97deaa955ce5ddc6e0f42d4366c94a1e9,Reference to WCRFT2,2018-11-15 14:53:47+01:00,True
+bd774b9876d346209f4ec5f457f0005a578c61b1,Description of Liner2 service based on RabbitMQ,2018-11-15 18:25:17+01:00,True
+89c43ad42893977ded9515c7df782a5b82ba27ab,README fix -- added closing tags,2018-11-21 12:41:29+01:00,False
+cc206eb05716b13bfe698eb79063a4be3814033a,Readme update,2019-01-03 21:01:01+01:00,True
+09e585911f7b3c54c1914e8705ef6ec2162f727a,"Update README.md
+
+Mirror link to PolEval 2018 model",2019-02-25 10:04:54+01:00,False
+894fe9a13e72eec37cd02dab42bf10b33233cd80,Dockerized service based on RabbitMq,2019-04-08 13:19:30+02:00,True
+e2b1d75f692dd89936b27cb160dcbc10aa53f056,Timex model added to README,2019-06-10 11:51:26+02:00,True
+313a2c4988c31208c79c600bcc8e7fbe398ca910,"Redundant installation instruction removed, contribiutor added",2019-06-10 12:18:02+02:00,False
+aeb54a5f8ef6ebc0e02089d1fdbfae542f8a0abb,Extended liner2rmq.py to process a file,2019-07-02 12:00:51+02:00,True
+7a1e3bfba7b14d30c13b7b11df08cad6975b2a16,Separation of timex and event models,2019-07-16 13:52:02+02:00,True
+61e5b685f17652cab4f35ee394b4f7b5f12accf2,"Update README.md
+
+Version update.",2023-05-15 15:51:35+02:00,True

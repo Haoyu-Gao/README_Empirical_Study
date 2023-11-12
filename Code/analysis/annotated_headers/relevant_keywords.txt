@@ -1,0 +1,14 @@
+instal
+build
+start
+requir
+depend
+setup
+environ
+docker
+download
+prerequisit
+deploy
+window
+linux
+maven

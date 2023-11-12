@@ -1,0 +1,110 @@
+sha,message,date,result
+02a519324298c38ec78763e691241a1aaf873028,Implement CSV data reader,2015-06-14 16:17:49+01:00,FALSE
+f309ee44b24595cde808dee02f2fb7f2e6c31104,Merge TestResult into Test,2015-06-16 19:19:45+01:00,FALSE
+d3e8d7295e893abf73c7844969347cbd21bbe28b,Handle empty and missing xml elements on schema or code level,2015-06-16 19:40:21+01:00,FALSE
+de270dbb2fb74222b828cdd5f4cbddc3a5b35e30,Update README.md,2015-06-17 20:21:59+01:00,FALSE
+c19a8eb7d77e7add8bda0eae24997531ee6cce39,Add readme,2015-06-21 11:03:23+01:00,TRUE
+a282c520ffed3f2b8a02d5983b3075c13e4a75a3,Update README.md,2015-06-21 11:04:14+01:00,FALSE
+30d34895e1a8460514345d471c9cc35cf7345b44,Include in readme info about new build process and add link to released jar,2015-06-22 00:51:55+01:00,TRUE
+3dcf77a2c7eba3408b125d77746d8ef07d77f06c,Fix typo,2015-06-22 00:53:49+01:00,TRUE
+0bad6771b29de20e77dc87d24b3bf1b4ad0b543e,Add build status,2015-06-26 20:18:56+01:00,FALSE
+80cb032e5856f2629d6cf3d1aca05129d33b4ff2,Fix broken Travis link,2015-06-26 20:54:49+01:00,FALSE
+4791504fb1db3188259f97baaa0bef5191c9e0ee,Add test coverage,2015-06-26 23:01:42+01:00,FALSE
+ff4d83edc5aea13f9d3a5769b7e7f70a049e8da8,Prepare for release 0.2.0,2015-06-27 14:42:08+01:00,TRUE
+7cf4a5fa8a6614577ca30c3510eebd4251ed4aa7,Implement nth percentile test,2015-06-29 21:41:53+01:00,FALSE
+c729e3e9053720c56a76fc5b6602da5afe4c457c,Add more detailed info about upcoming features and testing,2015-06-29 22:10:31+01:00,FALSE
+3754b0ea9eb0dced27063c3a280e0f542c60bfde,Update readme and debug CI failures,2015-07-01 20:05:20+01:00,FALSE
+5709273e9ab2ebeae0f3045229528614b96e020f,Set branch to master for build radiator,2015-07-01 20:09:51+01:00,FALSE
+7188a61756030fc28c2b93aaac78bb0bbb673f52,Set branch to master for build radiator,2015-07-01 20:14:08+01:00,FALSE
+85ea3cef0a73e7e14b3d6a07c9628f3ce35d6135,Update README.md,2015-07-05 13:38:52+01:00,FALSE
+aed5993df531935b7fcf260911bb76c9017d8c31,Update README.md,2015-07-05 13:40:30+01:00,FALSE
+fb351fe0f490ad71f8c6f91214af15164753f855,Add unit tests for global-scoped PassedTransactionsTest,2015-07-06 20:32:11+01:00,FALSE
+9b9de58b03a8c98856a02b6018f8d95ca972ce7a,Refactor sh tests to make them more atomic,2015-07-06 21:58:12+01:00,FALSE
+24d031423d2f3c0aa245036ea1790ddb2feadff3,Update readme,2015-07-10 20:51:19+01:00,FALSE
+8765ee9373bc9ee31c2548cd350cf79a7b9bee76,Update README.md,2015-07-10 21:16:11+01:00,FALSE
+72b95e3d074e300fc87613defcd0bc7b818f0984,Update README.md,2015-07-10 22:25:54+01:00,FALSE
+755ea29dfd1b87971310e62d31556bf19712706f,Update README.md,2015-07-11 10:39:21+01:00,FALSE
+06aa44e8c36b3c822e5e9cde202e8b496207cacb,Update README.md,2015-07-11 11:37:10+01:00,TRUE
+f55f2b420620989e3b6d01691254ecb7c5eb2a68,Update README.md,2015-07-11 11:39:05+01:00,FALSE
+ec3b1d845cb0e2aa577c504369cdd6f43cdd2a9d,Update README.md,2015-07-11 11:40:51+01:00,FALSE
+407ac339f48b1f4bef020e4c4623559f06ab6e74,Update README.md,2015-07-25 12:34:46+01:00,FALSE
+44c56f74850e131274266d2fbd963fd6e2135530,Add throughput test,2015-08-01 22:20:22+01:00,FALSE
+5b18cb5f851243ff72384876e5a8fd956025611a,Add info about current release being 0.5.0,2015-08-02 13:04:46+01:00,FALSE
+6430e6fc062f9df2c7c5c0481ea327d34abbabed,Update README with latest release version,2015-08-23 13:48:28+01:00,FALSE
+aef5300a3684237c517e8f750e067b013babc809,Add info to readme about most recent version being 0.6.1,2015-09-12 13:41:14+01:00,FALSE
+9f58894b70da3a327b52896cc049a87ee836d9ad,Version 0.7.0,2015-09-19 13:44:36+01:00,FALSE
+d7d4d70b7c58f0e5c6efee4de471860fdd554d47,Update current version in readme,2015-09-20 22:56:36+01:00,FALSE
+8fe47069e8f328d75ab72a550828bb575da75384,Amend current version section in readme,2015-09-29 20:58:11+01:00,TRUE
+176ef2bfd3ee95c64ab48fa207a77a2928b9973d,Update readme with info from wiki,2015-11-15 12:16:35+00:00,TRUE
+1208fb462fcf9dc92ca31256f5e37dffca1fe5f7,Fix typos in readme,2015-11-15 12:24:16+00:00,TRUE
+602a430ad53d37952003797d7774f4fe34ff244d,Add info about V2,2015-11-22 17:33:14+00:00,FALSE
+f6b0242e2bb1f73c64e9ba70a345b5e4ef506849,"Add info about ""Configure JMeter to Save Relevant Data"" guide",2015-11-28 12:54:08+00:00,TRUE
+c1f6be6f84e7bb9a0ed847a78f313ca5cff82c43,Restructure readme,2015-11-28 14:15:48+00:00,TRUE
+95d88ef9049dc495e6fd6c253ca1ea750da5fb78,Update readme,2015-11-28 14:19:45+00:00,TRUE
+2ae43037e0d01d7a36b775c05339945559259b14,Update README.md,2015-11-28 14:23:19+00:00,TRUE
+2619e2cf193a9d00e75119485dd21dc8fb1135cc,Update README.md,2015-12-27 10:21:32+00:00,TRUE
+c6d8f8e5c4e859cc5b187f2fdbea6a775d4b119b,Add info about V2,2016-02-23 21:07:22+00:00,TRUE
+b70301d3afb9683aa05a31e3f685ab690724a109,Fix formatting in readme,2016-02-24 20:46:11+00:00,TRUE
+15087a5d08579870354a09c1dce08a66d05a7a39,Update README.md,2016-02-24 21:38:53+00:00,TRUE
+564f5536cc17b245d22b878a62b7387066028e45,Update README.md,2016-02-24 21:48:45+00:00,TRUE
+77e53d3774b3e8f6d0429610597b3aa7f2fb03fa,Add Maven Central label,2016-02-26 21:45:08+00:00,FALSE
+68f30c2e6181b183b4a3698d3934bd80233e1ff8,Add Gitter badge,2016-02-27 00:19:16+00:00,FALSE
+51bca062effe664cf09b50d79091c2e10c405ca1,Add Gitter integration,2016-02-27 00:29:26+00:00,FALSE
+ab4b1d28f1a37c28cb91b0934e5efbb406ad1ae2,Update README.md,2016-02-27 16:30:28+00:00,TRUE
+2ac5f371250d3e43d608ff1b5d3f11d0b11dcb6e,Update README.md,2016-04-16 12:09:27+01:00,FALSE
+4f590b8ce54a1a64a456d1b169e549566ba34028,Update README.md,2016-04-25 20:45:07+01:00,FALSE
+f8be7d3aeec959a03b91938e71c6a15aba5f5f6c,Drop integration with TravisCI & Coveralls,2016-04-25 20:54:06+01:00,FALSE
+9f19749c114861037148c6dfd82af9d98619710f,Mark Java API as experimental,2016-04-30 13:03:31+01:00,TRUE
+c0b38d3c8bedf4f74ea665bd5cc374df1f2a70c4,Add codecov badge,2016-04-30 15:45:50+01:00,FALSE
+3849171811b358aa5bfb032e0712a4a15ba92912,Update README.md,2016-04-30 17:58:50+01:00,FALSE
+dcf0e7a1a6eab54d5d1a78233d5bb01907a5d344,Update README.md,2016-04-30 18:03:22+01:00,TRUE
+8062117c7a5b6443d8ac8beb7676092b2556df59,Update README.md,2016-04-30 18:08:23+01:00,TRUE
+7a0b505277b48f32b5a14d65c809458506c468aa,Update README.md,2016-04-30 18:10:36+01:00,FALSE
+95aa05725f3d95c7db31d4b266a183340d1b7247,Update README.md,2016-04-30 18:19:08+01:00,TRUE
+1e79afb8f409f410f79b4402e01510a03d44c4e2,Update README.md,2016-04-30 18:55:12+01:00,FALSE
+c5a1766863de0477dfd7197f62359c7d778c8d67,Update README.md,2016-04-30 18:56:45+01:00,FALSE
+12d411f16311ae7809e8eafe9d1524f29eb03581,Update README.md,2016-04-30 19:27:44+01:00,FALSE
+d6c6aaa44a37fbcaedfd1a7613de89e9378329de,Move Philosophy and Design Assumptions to wiki,2016-05-01 10:04:54+01:00,FALSE
+0aa3a83bf8705de2926d6c0efe0ff817c5e72cae,Move quick start guide back to readme,2016-05-01 10:16:07+01:00,TRUE
+eadbe42120ea32c6fcda55bcdd389d9378ff8c61,Add info about JUnit XML reports introduced in 3.0,2016-05-01 10:51:07+01:00,FALSE
+ef0fbadad4c534f8375a9f96f2affd35d4cd4151,Update README.md,2016-05-02 19:31:03+01:00,TRUE
+84e57e4e44ba4d3b4f815def61ffb4f958624d33,Remove Java API from readme,2016-05-22 14:15:29+01:00,FALSE
+0319c8ee0a2b2e8fdc1137e4713563b79eac13ad,Remove obsolete link from readme,2016-05-22 19:44:58+01:00,FALSE
+dcca811a2b4fb4f5064e293aef929b7789e63605,Minimalistic readme,2016-05-28 17:48:35+01:00,TRUE
+3f94af9bb105a1f63c5c4e3dc8cf1d63d8ab37dd,Readme update,2016-05-28 17:53:58+01:00,FALSE
+877f04624fb11f5f655435874c9893a8cd386409,Update README.md,2016-05-30 13:21:28+01:00,FALSE
+a9b553e38b0024b19cfff038628541e701ed4077,"Create a multi-module Maven project containing Lightning, JMeter Maven Lightning Plugin and associated end-to-end integration tests",2016-06-15 17:46:25+01:00,TRUE
+a7ce76fa15825ffe10a99c06dbdcb911d3c005ef,"Move Lightning Standalone Java JAR to a separate module, keeping only core library in Lightning module",2016-07-26 22:01:18+01:00,FALSE
+4c6ed023ab4961ef937dd9547f66d8999c846339,Update main readme,2016-07-29 19:55:46+01:00,FALSE
+3740a266f9b79c65bd062f966d1874987928575c,Update README.md,2016-09-05 13:40:21+01:00,FALSE
+fba54171a72cc9ed364d2471b91a99adbde4f0c3,Update lightning-core badge link,2016-09-06 10:48:24+01:00,TRUE
+e7f205d710c927289202c397d3a32bf9a13d0712,"Moving repo
+
+- new groupId and package names
+- rename lightning-parent project to lightning
+- update license details
+- update developer info",2016-12-24 21:25:58+00:00,FALSE
+e6d2a26583a7e08da70be44c069b110bc6a243ec,Drop gitter and codecov badges,2016-12-24 21:36:14+00:00,FALSE
+34328d2e6b347cd74d45d973ac59ddff46208a0f,"Drop Snap-CI badge, we use Jenkins now",2016-12-25 15:07:12+00:00,FALSE
+6140a10b33e91b2a579039724dd93abf81cbbf51,Update website url,2016-12-25 20:13:24+00:00,FALSE
+4011c08c40f30fb2030eaf0aa97bbfdc0c4ee492,Update README.md,2017-02-14 20:43:35+00:00,FALSE
+4284bdd36ce78cef517601f0dbe2a3f5c60a35b7,Update README.md,2017-02-14 20:45:18+00:00,FALSE
+cd13db936395c0f5f43bc12d1f2475384dcbc2a0,Update readme,2017-02-14 22:25:55+00:00,FALSE
+567cb38984c75011ad3a5085175d6bd17916ca59,Update README.md,2017-02-15 12:05:23+00:00,FALSE
+dd2e1023eaecdfc223988b7fa9feedd21b4d0e73,Introduce Maven Invoker Plugin,2017-06-23 21:09:09+01:00,FALSE
+1988eeafc22d7a6e4f19115f40a7cc22f232c6f3,Drop separate integration test project. Gradle TestKit should suffice.,2017-06-23 22:10:46+01:00,FALSE
+24aed04539e2d96a8d75a18e7cc5b43d9e0bbd34,Drop standalone integration tests which we don't run anyway because of problem with nohup on macOS-based Jenkins,2017-06-24 20:51:22+01:00,FALSE
+64574da9ed36767f2a78e695654c8325d242d3db,Explicitly specify region when working with S3,2018-02-11 10:29:16+00:00,FALSE
+f6729d56a5a52f1e92a3376584e45d206fb6982d,Add volume test for Lambda function,2018-02-11 11:14:24+00:00,FALSE
+cb2785fc09b1572d536fc663bbf7572e1c4ee21d,Update readme,2018-02-12 19:44:03+00:00,FALSE
+f864a07addeb998cf2e202d82f3aaea9adb69ea8,Amend groupId and related.,2018-03-30 18:34:37+01:00,TRUE
+3099e0820b88b9842c1ce383ef73697821f65bb0,Add badge,2018-10-30 11:17:40+00:00,FALSE
+a0b7bfb8d1272fcb29b3000f8a1ffc40c9c69562,Add Gitter badge,2019-05-21 14:39:13+02:00,FALSE
+2f1a1ea048bc17d9c93589f51cd096c2ce974cc9,Migrate badge to travis-ci.com,2020-09-03 20:58:32+02:00,FALSE
+e3dffdc744fa8b42b0c453e57e9fd35cb5d85552,Migrate badge to travis-ci.com,2020-09-03 21:36:23+02:00,FALSE
+2eebd2669dcffe42862ad93d1adbfb5bd50da757,Drop gitter,2020-10-30 20:47:20+01:00,FALSE
+431deb915841f3deb6e0bf6fbe8b427b408de3df,Drop aws lambda and gradle plugins,2020-12-22 17:49:35+01:00,FALSE
+0d3c8d91e30f3b49892cc10f4ece7d91c399a4fd,bye travis,2021-01-07 21:05:16+01:00,FALSE
+3885d4078707ae598e4ace73248aa678efa0b958,Update README.md,2022-03-19 19:16:46+00:00,FALSE
+34873559e19600dbc9793463d57de62f8c5db418,Discontinue project,2022-12-30 10:36:16+00:00,FALSE
+a03409dd920514261f308fdf49ce512f094c53b5,Drop badges,2022-12-30 12:45:54+00:00,FALSE

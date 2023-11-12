@@ -1,0 +1,36 @@
+sha,message,date,result
+ac94416a9e92d78d011796a56f6464a343ea7688,readme for github's viewing pleasure,2012-06-14 21:49:08-04:00,TRUE
+dd4513f95481a7d2232ad520f1ee580d4f9e0f13,messing with links in the readme to see what github wants to display,2012-06-14 21:51:02-04:00,TRUE
+c0711bb167217a16235a75c21f36a6595691f1a8,update doc references,2012-06-14 22:16:36-04:00,FALSE
+f153916879a550cb0dc5079dc0a60068c28dedf7,"copy of my cheetah-mode, tweaked README, made release 0 for spec until we're ready to actually release again",2012-06-14 23:03:46-04:00,FALSE
+5addcac9ced12763e2bd7f81a75a033609759d40,requirements section,2012-06-14 23:09:49-04:00,TRUE
+77756b01039c38fbba695db6e508be360cbf12c9,comment on the likely future project renaming,2012-06-25 10:58:28-04:00,FALSE
+07f5e27103fe41fc15aff0a50b5645a3405c5994,the great javaclass to javatools renaming,2012-06-25 17:03:00-04:00,TRUE
+e855bc8c8a928ca64c9279bad9e0609dc53f6a25,updated requirements to include PyXML,2012-06-26 23:41:32-04:00,TRUE
+92defcc9d94a1891031f2f308633f23605f92ef7,be friendly,2012-06-26 23:51:00-04:00,TRUE
+a48b40f3c35964af35f4f187e10909b7c834057a,"patchgen is obsolete and fairly useless, removing from master",2012-07-09 13:52:56-04:00,TRUE
+9755ab41fb1ddffc08e448892c13197b914246b9,RFC on future setuptools migration,2014-04-24 10:06:43-04:00,FALSE
+d04d2d6b0db05c96d6362d85d979de14cb1e7158,Update README.md,2014-06-28 13:25:18-04:00,FALSE
+daa8b8d43cde9e8e0821b8d873bacf3e11a5cca2,rewritten README,2014-07-29 11:05:12-04:00,TRUE
+675987d5991502ba2bdbe8e62a71d3b532f36c65,"Added option ""-s""/""--sign"": KEY.SF and KEY.RSA files are added to an existing JAR.
+
+- ""-s"" must be followed by three mandatory arguments:
+    * certificate file
+    * private key file
+    * JAR key alias (we use 'KEY' in the text below).
+- Signature file KEY.SF is created from the MANIFEST.MF.
+- Signature block file KEY.RSA is created from KEY.SF with external call to OpenSSL.",2014-09-05 20:04:28+03:00,FALSE
+bdd6bd8fd61b27ab46fbe2d4a6a006ed063574b9,"Verification of JAR signature moved from manifest to jarutil.
+
+Refactored signing tests, updated README for tests, cleaned up test files.
+Added test for verification of manifest checksums.",2016-02-10 20:54:42+02:00,FALSE
+8da64c5d3e240fd943e7ffc370b2a1d8546de70a,M2Crypto used instead of system calls to openssl,2016-02-10 22:29:19+02:00,TRUE
+4f59107aa15656cb7075a2d3f0a1c65106784ed2,"remove mention of pylint cmd, mention flake8 instead",2017-03-31 11:56:38-04:00,TRUE
+272b4e771e1ec35456f85d212bb058f3892cc86d,"Declared support for Python 3
+
+- Travis CI tests for Python 3 added
+- Trove classifier in setup.py updated
+- README.md indicates support for Python 2.7, 3,5 and 3.6",2018-10-12 16:30:00+03:00,TRUE
+000ebff91cd735b6c7970acb529d9664200cf69d,Update README.md,2018-10-12 10:13:29-04:00,TRUE
+b8b7ace1740f66df109b8e7d1cc7c762e2b12844,add a travis status and original git repo link,2019-06-21 10:44:21-04:00,TRUE
+aad7122329d5cfa95ace64a069c26ee02e140452,tweak,2020-06-21 06:46:53-04:00,TRUE

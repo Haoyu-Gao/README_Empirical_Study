@@ -1,0 +1,239 @@
+sha,message,date,result
+9765c79d151df4d997dd71c7e8b084b237c3069b,Initial commit,2015-03-01 01:08:16+00:00,FALSE
+42a6afac646a0fbab1b0105bd97b1d0802174ff1,Update README.md,2015-03-01 20:01:38+00:00,TRUE
+0653407dcd183ac840bb390f7daf8049df5815fa,Linkage,2015-03-01 20:21:19+00:00,FALSE
+65a389a25f009804f230cf2da71f7756311fd554,More linkage,2015-03-01 20:22:34+00:00,FALSE
+642fd617c8311c4a33a31ad11b7cb4227fbaea4b,Acknowledgements,2015-03-01 20:27:19+00:00,FALSE
+4da0a25e39e126200b129df865552824f2cef4bc,backticks,2015-03-01 20:32:50+00:00,FALSE
+c18e9d5536324ee018b5e88505ba5cf3cb7c1f14,Update README.md,2015-03-01 22:50:24+00:00,FALSE
+e83c8fab36c4c62bfcb203e76d352ae4bc80180e,Update README.md,2015-03-01 22:54:21+00:00,FALSE
+1ccd5c06c44ebc810c8b34e3bf40bdf6dd411f89,Update README.md,2015-03-01 22:55:28+00:00,FALSE
+eb0df66aba5049ccaccda278b1774a8195c739a8,Update README.md,2015-03-01 22:56:24+00:00,FALSE
+6cd967d43389cf656b7bfd87d29cfc541dfcc67a,Linkage,2015-03-01 23:01:42+00:00,FALSE
+51497d4a5e1e32189c99891aadabf6b7ea4bb6cf,Update README.md,2015-03-02 21:30:38+00:00,FALSE
+6e484497ebafa6547835a538cc1c2a8be3c7d7d2,fixes #1 using id instead of name,2015-03-07 20:45:57+00:00,FALSE
+1f3b07502da0d895876ff9a41e627ad59b93a309,better wording and linkage,2015-03-09 08:36:02+00:00,FALSE
+aa01671ffef64eca41211735052de97c339d07ed,Update README.md,2015-03-09 22:31:54+00:00,FALSE
+3b7a8b705021825fa8c6841e46a388b6fac170de,Capitalisation,2015-03-09 22:32:49+00:00,FALSE
+93057e6be206ed95ff3136758f38f5d36c5a8668,Capitalisation 2,2015-03-09 22:33:51+00:00,FALSE
+c16620c55f1937f3df00a0c841262d5c34b07dbb,Update README for definitions within definitions,2015-03-16 12:24:00+11:00,FALSE
+c8e799ba40748a86bd6e09d1c4d61ecb46e13019,Update README.md,2015-03-18 21:45:28+00:00,FALSE
+776590545238270593e3f4907445e35a4f9710d2,now it is class based and allows multiple versions,2015-07-27 18:02:07-03:00,TRUE
+c23e3b51c075219a12e37cb6cabe3f5193d112db,fix some smells,2015-07-28 17:04:17-03:00,FALSE
+737e670c4bc792a79cb86f01a31e15639eec4ee3,landscape,2015-07-28 17:06:40-03:00,FALSE
+653736cd7393d51bce0b04b3b001e0b5f75cf201,added demo application with swagger UI,2015-07-28 19:15:21-03:00,TRUE
+25469b99576b7804c18a80cdb1232c98be32dda0,Update README.md,2015-07-28 19:50:24-03:00,FALSE
+d2740b005690516e0f2635efc3a4fbec712cc97f,Update README.md,2015-07-28 19:51:23-03:00,FALSE
+66d838d21f79f8ae04d253bdb2a532ac263fce8e,Update README.md,2015-07-28 19:52:47-03:00,FALSE
+a433e69fb7aa3e14651074fde3c47ba3c696f9d5,Update README.md,2015-07-29 10:54:57-03:00,FALSE
+bb7b901dc27de0518e8c5bee4bb337023dac533b,changed to lazy initialization,2015-07-29 11:19:52-03:00,FALSE
+facd7c6d41e6e91cde607605176826e70b27bd7d,using shiftpy,2015-07-31 17:23:56-03:00,TRUE
+7045cf1fbd396cfd2d3d7cdffbceccfd755cba93,Update README.md,2015-08-03 09:27:19-03:00,FALSE
+71f43938ef5bd5cd7d5728cb20b4258464c8bde4,Fix #2,2015-08-04 19:52:12-03:00,FALSE
+1bba6bce9d223ec71f7fc6098cfdd75ef7bb6da4,Update README.md,2015-08-05 11:58:17-03:00,FALSE
+f224e24d58f35e9f996a4768ee0ea612178b6661,readme,2015-08-12 16:02:09-03:00,TRUE
+0b9997ef86ff9a4dfe7143fe28537e4b400bc2c6,validate data usinf yaml defs,2015-08-31 17:36:48-03:00,FALSE
+2d35ef65df236439f91ea298cde8773acd922b1f,Fix #5 allow the replace of html sanitizer,2015-08-31 17:52:24-03:00,FALSE
+25d3ca8d0eae31d366ce896ea0325c56e8028a59,Fix #7 handling multiple endpoints and methods in a single function,2016-01-11 15:34:42-02:00,FALSE
+e4d4e47a9fd44e2bf31ec62eb99a691ea2bad2c0,Fix readme,2016-01-11 15:37:57-02:00,FALSE
+3b00afc2b6a540cc57ad46c2169d22360ec9868f,added Markdown parser,2016-01-11 20:17:29-02:00,FALSE
+7854ebee388613cd67ed06b8e8363fcaf461b4f4,added info about json-schema validation,2016-02-25 16:37:00-03:00,FALSE
+16f2379e294b2c415955f7b54feb404bd4ad81af,Fix typos in test API's implementation notes (#26),2016-06-29 16:30:09-03:00,TRUE
+eb69ce346e0425adfb51f35bcf80f6da9e4aff2e,"Added support for dispatch request View (#34)
+
+* added support for dispatch_request
+
+* updated README docs for dispatch_request
+
+* Fixed the indentation for README file
+
+* added import statement in README
+
+* refactored code wrt pep8 support",2016-10-11 15:40:59-03:00,TRUE
+9879efd48ff3f46c9b9e38be72f938a0caec0066,"remove default cors headers (#32)
+
+also make the config headers overwrite the existing headers",2016-10-11 15:51:55-03:00,FALSE
+16aca32ca191500f83702ad41e741e64f4c1188f,add docs for definition decorator,2016-11-19 14:49:24-08:00,TRUE
+f5279f3d9b2a72c77402aeb6f39c2144e1bf346b,update for changes to definition filter,2016-11-20 21:54:49-08:00,FALSE
+84a85a13e78d80ce3db9eae88110c1f12cb19040,"Updated example app so definitions appear rather than NULL (#33)
+
+* Updated $ref to properly read from the definition
+
+* Updated $ref so definition appears properly
+
+In the example app ""$ref = ""#/definitions/User'"" results in NULL value. Updating to ""$ref = '#/definitions/should_be_v1_only_post_post_User'"" displays the definition properly.",2017-03-22 12:49:30-03:00,FALSE
+b261442b8dd95e2e01f9e16135c4b4c782e19c65,Update README.md,2017-03-23 15:43:48-03:00,TRUE
+6eeacf31d5707e78db8035cd5780d385c7f98cb4,Update README.md,2017-03-23 15:46:57-03:00,TRUE
+8bc955bf2542750d553f5568473377863b1e76e8,Update README.md,2017-03-24 00:27:49-03:00,TRUE
+33a302888385c62c3f0b632888ecbf2df7e0cbe1,Update README.md,2017-03-24 00:27:49-03:00,TRUE
+18fc39b3c67fe5184a231dcd57017fc198a3b772,Definitions fixed to respect swagger 2.0 specs,2017-03-24 17:04:45-03:00,TRUE
+c2b660fa7c745286d1222d55c34cd524a20c7919,Schema validations and new README,2017-03-26 00:09:05-03:00,TRUE
+29efba55a5d4d64f549bdf98ff36ef3be26e46c2,README updated,2017-03-26 00:20:52-03:00,TRUE
+f9348aa93b1e4602ed7178336d6c33b37d51c2b8,added logo,2017-03-26 00:49:36-03:00,FALSE
+10111e5bf1028c162a69652fff7a7ae7b667d531,"Fix small typo
+
+[ci skip]",2017-03-27 16:01:48+01:00,FALSE
+fde42c58cdcde84c58200809d782827d699b95b6,Added FlaskRESTful to readme,2017-03-29 17:14:48-03:00,TRUE
+f4487b5272d6843c3020079a8f1925d8e588542c,We got tests!!!,2017-03-29 21:53:44-03:00,FALSE
+9eaed605479abc8a31dfa19a26a8ad0b184b38c7,Added better tests and coveralls,2017-03-31 18:42:55-03:00,TRUE
+2b60a97495b5c85d7af9355f1ce829343a8b258f,"Styling fixes, notes in README and 0.6.2 release",2017-03-31 19:29:11-03:00,FALSE
+30531ef5d5ea480f0185a93177db054a9c5e8588,Add wheel and released 0.6.3 with HOTFIX,2017-04-01 11:08:03-03:00,FALSE
+294c8720efe7f8ed5e78a9e6264b4b0f45549467,Fix #78 demo app deployed,2017-04-01 16:07:33-03:00,FALSE
+a65f79625bc45d1da6dcc102b0d3ef87aa931fa9,"added missing closing brace
+
+makes copy-paste working again",2017-04-26 12:44:31+02:00,FALSE
+88eb5c5d1b99208aa3c5826b8509190688e0bdd3,Instructions on custom configurations (#114),2017-06-20 22:22:34-03:00,FALSE
+30ed39fd823354fb6cfbe90cf562c89f4bb1d6c6,"Enable/Disable Swagger UI through config (#118)
+
+* Remove hardcoded specs_route from conftest
+
+* Enable/Disable Swagger UI through config
+
+* Make it backwards compatible
+
+* Disable Swagger UI example
+
+* Update README",2017-06-21 23:25:37-03:00,FALSE
+316cc6ea11423dbaa2a7ea07795cf0ea37c4f173,Fix views registering when Swagger UI is disabled (#121),2017-06-22 14:36:04-03:00,FALSE
+10a48ae415625c1af9c261f5d27503b310ce73db,"Support validation against specs in docstrings (#123)
+
+* Support validation against specs in docstrings
+
+* Update README
+
+* Tests",2017-06-26 12:54:19-03:00,TRUE
+2323203c1b032b311766c900906f5fa498e1b70d,Emend README incorrect example template (#125),2017-06-26 19:11:49-03:00,FALSE
+c9c5e491d4b35d4823c31a38bce7af6aafc7c485,"Get defined schemas as python dictionaries (#127)
+
+* get_schema
+
+* tests
+
+* Documentation
+
+* Python 2.7 compatibility",2017-07-01 12:36:32-03:00,FALSE
+506521a94b6986976624f7bd68b6874d57ec464e,"Custom validation functions support (#129)
+
+* Custom validation functions support
+
+* Further tests
+
+* Emend README",2017-07-01 16:23:42-03:00,FALSE
+6d17aa4257db70709db22a461784053fe06718d5,Document Validation Error Handler,2017-08-07 10:03:50-03:00,FALSE
+3d815905c91cefb20b7b648c8981c3ce98c37cf7,docsting spelling mistake fix: now (#151),2017-08-30 20:22:29-03:00,TRUE
+801e91434280e7785870194cee128cdd586bb8c8,"Fix two small typos (#154)
+
+* Fix typo
+
+* Update restful.py",2017-09-11 13:00:57-03:00,FALSE
+6710a6e05217ae89810a445ee3f1bd6e672688a1,Fix #158 support for LazyString and released 0.7.0,2017-09-28 19:36:54-03:00,FALSE
+7dc513506c3c946df728bb1a07805da09f4129db,"reverted the automatic set of json_encoder released 0.8.0
+Thanks to @SBillion who noticed that this would break things if user
+has another custom JSONEncoder already set.
+Now the user should set it explicitly.",2017-10-04 10:33:49-03:00,FALSE
+6ef172e7026d81086678b385ff6bbed20b650c95,Add support for NGINX Reverse Proxy,2018-01-26 10:09:58-08:00,FALSE
+f830485f5b4623b7337ab1e8f5050dbd3b0b503a,Fix README.md error,2018-04-03 23:59:11+08:00,TRUE
+51bf02c74651b1a33b5789d8825ae691c8e23789,"Release 0.8.2
+Fix markdown readme on PyPI - requires new setuptools",2018-04-27 16:20:03-03:00,TRUE
+38156aaeb8f714763a4b350f7d506884566dd863,Added Dockerfile for demo_app.,2018-08-16 20:57:33+10:00,TRUE
+11de49a7baa246c3be1f0d681d0f2ed504225e23,Added some docs for external doc_dir and parsed MethodView.,2018-08-27 13:07:21+10:00,TRUE
+829a98bb1a967d52ae93555579830ae73c05003b,Added doc on external JS and CSS url config.,2018-09-19 09:34:33+10:00,FALSE
+42e5946c521c1c7a0f38f8a2397a2aeb2cda269f,typo in the README,2018-11-20 22:18:31+01:00,FALSE
+fef154f61d7afca548067be0c758c3dd71cc4c97,Add top contributors list,2019-03-13 16:37:20-03:00,FALSE
+346c54cba7bbebe50a4ce5dd74987b7d79038d3c,Set OpenAPI version in callbacks example and add usage instructions for OpenAPI 3 in README file,2019-05-04 07:15:45-03:00,FALSE
+6731f0d77e58b3c08ba675ec11fc529b5fcfbe56,Add missing comma,2019-05-04 07:15:45-03:00,FALSE
+26a5f401ed93c76d4051f706f409c262a5140a07,typo,2019-05-04 07:26:16-03:00,FALSE
+22d5e53758fb3abc2010ad2a367d08201b5678df,Fix travis Status Image,2019-08-14 15:59:46-07:00,FALSE
+0181d0738fd73e42ffed02c9f57a7b48d66f6fec,Typo fix.,2019-09-26 13:39:50-07:00,TRUE
+ed834350822cd70e0e95ed2daf6c930fc47b6b5d,Easy usage Marshmallow and flasgger,2020-04-28 12:55:52+03:00,TRUE
+b6b5612c1975aed661d36214cd9e7918cc45fdfb,Add use func validate from utils,2020-04-30 13:15:06+03:00,TRUE
+acbf620b31a8a50eade14705908499d8a937f13a,"Freeze 0.9.5 for release
+
+Signed-off-by: billyrrr <billrao@me.com>",2020-07-31 16:45:01-07:00,TRUE
+ba6ca6233611378704d490b1fa6045d5e803b150,Add table of contents,2020-11-18 16:13:17+02:00,FALSE
+1695c0f94f0b5ac46a849e4ee097b8ac5907c133,Fix indentation in readme example (#480),2021-10-09 07:33:04+08:00,TRUE
+b107abf5002711f2844c87b87634774a2ba99064,change cian -> cyan (#502),2021-11-02 01:38:51+08:00,TRUE
+bc43b283ab2807633ab299ccc0c24042ae614aa7,"Remove top level definitions, move #/definitions to #/components/schemas if configured to openapi3 (#504)
+
+* Add a simple notation for new contributors
+
+* Replace all definitions to component/schemas.
+
+* Add utils form definitions to components/schemas
+
+* Fix all tests
+
+* Avoid deleting not existed attribute
+
+* Remvoe test code.
+
+* Remove redundant openapi_version. Fix typo
+
+* Fix openapi3 test.
+
+* Fix pep8 styles
+
+* Add test with #/components/schemas
+
+* Remove test code.
+
+* Remove not necessary codes which decrease coverage.
+
+* Revert back the required check for definitions.
+
+* Only openapip3 tests should be changed. Revert others",2021-11-23 18:58:05+08:00,TRUE
+beb9fa781fc6b063fe3f3081b9677dd70184a2da,"Fix openapi3 request parse validation (#505)
+
+* Add a simple notation for new contributors
+
+* Replace all definitions to component/schemas.
+
+* Add utils form definitions to components/schemas
+
+* Fix all tests
+
+* Avoid deleting not existed attribute
+
+* Remvoe test code.
+
+* Remove redundant openapi_version. Fix typo
+
+* Fix openapi3 test.
+
+* Fix pep8 styles
+
+* Add test with #/components/schemas
+
+* Remove test code.
+
+* Remove not necessary codes which decrease coverage.
+
+* Revert back the required check for definitions.
+
+* Only openapip3 tests should be changed. Revert others
+
+* Fix request parse for openapi3.
+
+* Add tests for parse openapi3 request
+
+* Update readme for tests. Also tried to test if travis CI using pip 21.3.1
+Previously pip 20.3 has a bug might failed in pip
+
+Co-authored-by: billyrrr <billrao@me.com>",2021-11-23 19:19:08+08:00,TRUE
+05e1af4c723c8d975fc37cd88c6af41387dd12e3,"Fix the wrong code block separation in README (#516)
+
+* Fix the wrong code block separation
+
+Part of ""Getting Started"" section was misplaced in a code block
+
+* Added missing ""install"" sub command
+
+* Collapsed two code blocks into one
+
+* Make the note to stand out a bit",2022-01-21 12:17:15+11:00,TRUE
+f0ae244605cdcf3e8a00763dc887dfbb714e2113,"Update README.md
+
+Recommend using beta flasgger version",2023-05-14 15:32:51-07:00,TRUE
+3c16b776f4848813209f2704b18cba81762ac030,"Spelling. (#458)
+
+Co-authored-by: billyrrr <billrao@me.com>",2023-05-18 10:18:52-07:00,FALSE

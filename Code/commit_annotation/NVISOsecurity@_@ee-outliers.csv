@@ -1,0 +1,62 @@
+sha,message,date,result
+dc3dae407cc7fe32c81711125c9700fac15f0260,initial commit,2018-12-11 09:52:36-06:00,True
+8ebe82ac04ae7fbe2eefd238e3bcba89e8a09c66,closes #32,2019-01-15 10:25:31+01:00,False
+eabf1cd705aa14550b47303e3d0a8d61d6c147e7,document flake8 use,2019-02-06 15:42:55+01:00,True
+7d027da9102d2d65aa2ecf8f8160e161ef916d06,updated readme for checking dead code,2019-03-26 13:49:41+01:00,True
+b9ef83b96cb0676c597c42e511075912a6f1f44c,ack section in readme,2019-04-10 12:57:11+02:00,False
+b555f438082a20cc5a3b31a6a387cbcec5edff21,documentation,2019-04-10 16:32:46+02:00,False
+060e1645ce5d8a337b92e63bc8c3e3aba73127a5,documentation,2019-04-10 16:34:43+02:00,False
+8423336451520d1d21354a40666917cc7a4e6eb1,Add information about schedule format,2019-07-01 16:13:54+02:00,True
+d8af060b4c0a316ec364856449b0be27b92d7d7e,Begin to split README into different files,2019-07-29 09:58:33+02:00,True
+4369b055343d421c8a281dc899d89f3967f0c55a,Split README,2019-07-29 10:12:47+02:00,True
+d7b206c3fc26e2b09afab22f8fc9c2cf562af501,Add link,2019-07-29 10:31:22+02:00,False
+5654c0879184c2c4c3e29f68ee22f069c2f319b5,Add link and fix typo,2019-07-29 10:42:37+02:00,False
+babab17861ecaafb6e5ef379d15d46ced29e9a80,Update some text content,2019-07-30 14:21:17+02:00,False
+5b1b5e9cb5bffddc6ca79c843ad59ff573063cbd,"Update ""installation"" to ""getting started""",2019-07-30 15:17:21+02:00,False
+a724be69a8168b0445f2f43d84cab9175012a8cf,Fix link in README,2019-07-31 11:23:55+02:00,False
+a1b6d269c9d087bbeb84b821b87da7ceda27894a,Fix small bug + add link,2019-08-05 14:18:54+02:00,False
+4d3421a044fcb8ace7bb1b660a3dbec600e68bc7,Fix typo (fo -> for),2019-08-06 09:28:32+02:00,False
+ae0b3a6da2a8829d5fab757d34ef1fd3195c8e8a,Add UML link to README,2019-08-07 14:12:00+02:00,False
+f06f11e8455ef77354718d801bdd8beb84d85718,Add link to Notifications,2019-08-12 14:04:53+02:00,False
+e57a3d711bfc81e802894c2ca16cc866c5bc571b,Fix typo,2019-08-12 14:06:01+02:00,False
+073c55aca2c07300d97bb99788ce33a64b20255e,"Updated documentation
+
+- Update first page
+- Added example models",2020-03-31 21:35:42+02:00,False
+4fce9b8e277271eb2d0bfeea97d1f9a6e51c3b55,Update README.md,2020-03-31 22:09:44+02:00,False
+b5f3320fdc45d40d26023b4ff8e206d83116e361,Update README.md,2020-03-31 22:15:24+02:00,False
+15b2fae490534c1826235d1d41a8da807873f85c,Update README.md,2020-03-31 22:16:01+02:00,False
+62eac1eccec5e631132aea10a285dc77cc703f8c,Update README.md,2020-03-31 22:16:31+02:00,False
+1d66f76bf34392a04c9a8b5ff77ddfc6d1d89c07,Update README.md,2020-03-31 22:26:50+02:00,False
+260c9b307b03e8310abb2de0ed8dec48b8959385,Update README.md,2020-03-31 22:27:35+02:00,False
+19a1568d6a17b742df3d4d486e6616eebb5fbdef,Update README.md,2020-03-31 22:31:09+02:00,False
+ec8ac9ddcbe00ec77ceb272bc685f19fc572ea51,Documentation updates,2020-03-31 22:38:42+02:00,False
+80c7155e68122d6b52d2855e368e198d4b312b33,Adding images,2020-03-31 22:42:52+02:00,False
+9406e9d2eafd65b3f0c932362a5bb71a183f2580,Update README.md,2020-03-31 22:46:51+02:00,False
+37917f02c703ff17ee9c0e6902cab8c5d4208773,Update README.md,2020-03-31 22:47:31+02:00,False
+956998670ddebfe904c24b0ee2a6cd15414ce7d2,Update README.md,2020-03-31 22:48:16+02:00,False
+585e07bb919d755047548b90321ae6004bab5979,Update README.md,2020-03-31 22:48:41+02:00,False
+f4890bdfa671d374a35a769d08d861f73aabdc52,Update README.md,2020-03-31 22:49:13+02:00,False
+289f5ce58de39fcfbae8fe4cc65763fff84c4e10,Update README.md,2020-03-31 22:49:58+02:00,False
+6a011ddcc7c7c00f13f81408ec043fb6a722fce3,Update README.md,2020-03-31 22:51:01+02:00,False
+441dceaa0b476298db11e79b568c6df359df7fa2,Update README.md,2020-03-31 22:51:28+02:00,False
+ff2d41092ce13fd0b5122bdde9be823b2c75a6ab,Update README.md,2020-03-31 22:51:54+02:00,False
+20155afabd463167dea9e6cdfa66bbd5201418eb,Documentation updates,2020-03-31 23:05:12+02:00,False
+bd10ad50b1f6e73ee71f3e7be403a6a3c753a8f0,Update README.md,2020-03-31 23:07:34+02:00,False
+31c0796c0e5a0b60d203e5a9d3bddeec2770b5d6,Update README.md,2020-03-31 23:09:44+02:00,False
+274ce75dcd104c9d680702c0be440832ea973aff,Update README.md,2020-03-31 23:13:53+02:00,False
+08af9e9708d510f8ecc505aad1e1c57e02e3b037,Update README.md,2020-03-31 23:14:18+02:00,False
+241f0224ca8f160705123a8e75bc29be20de308d,Update README.md,2020-03-31 23:15:46+02:00,False
+047e2f23b9abcfa2c52f5fb450d2cccfc3f3b778,Documentation updates,2020-03-31 23:32:50+02:00,False
+90700b44ba68875e575082d83b21e82f37a8c7d6,Update README.md,2020-03-31 23:33:39+02:00,False
+558e89db871c6da4edf17c03b6753350bd977d17,Update README.md,2020-03-31 23:38:29+02:00,False
+d50b0ba47300bbd1bcefd832825669e8f3a96ca1,Update README.md,2020-03-31 23:40:16+02:00,False
+abc7bc72e698812c4c533e4e6a00a1120cbd466c,New version,2020-03-31 23:46:56+02:00,False
+914487c63a0f53d64b61c10bbff2172a278d8c46,Update README.md,2020-04-01 19:36:09+02:00,False
+0e2d77c52e6ff95c63d83f4462807abd50e275e8,Use_cases repository creation + move examples repository inside use_cases repository.,2020-04-02 13:44:29+02:00,False
+836da304742e0523a6697d7a7274be4d71059e4e,Bump badge to 0.2.13,2020-04-09 10:49:29+02:00,False
+f213c97b84c2cffd3425302a941a5e4c9fc8470a,Update version badge and tests badge,2020-07-31 16:16:43+02:00,False
+6b0c0339e4b4244d05a3f2bd3d026d4958fa55a1,release 0.2.17,2020-08-10 15:40:55+02:00,False
+bef969d1e32e3a89d03d01f101289c59331cc3c3,Prepare release 0.2.18,2021-05-31 16:12:02+02:00,False
+b33109d02a80ddf836b12c1d677f31e0be806215,"Update pillow dependency and update version.
+Linked to the dependabot vulnerability: https://github.com/NVISOsecurity/ee-outliers/security/dependabot/requirements.txt/Pillow/open",2021-06-14 11:31:56+02:00,False

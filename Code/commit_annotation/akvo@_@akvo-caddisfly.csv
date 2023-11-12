@@ -1,0 +1,14 @@
+sha,message,date,result
+5119cba011b7d18be72260244c986131cd4e183d,First Commit,2014-10-08 03:07:27+04:00,TRUE
+b2efb20156e90d6b50b0c7c0a6d02ef30e56765c,Code refactoring,2015-06-02 23:02:10+05:18,FALSE
+8b1d0dbbaeadc6e3e038e247ea713abd8d40f38c,Moved app project to subfolder,2015-07-16 11:44:52+05:18,FALSE
+9beb1e45414166908c7cad327d48e56a59909206,"Change alpha to Beta, Fix:High level message, Fix:EC Sensor -1 result, Fix:Result double precision",2015-07-27 11:55:53+05:18,FALSE
+2d0ae61371a4fd6db06cb53aa1c9cae64328960e,[#90] Organize string resources,2017-01-30 23:47:48+05:18,FALSE
+a4f355e914d76e06641bf5ee9119fcb5dc6a70eb,Update Readme,2017-02-06 01:03:56+05:18,FALSE
+16f23edddd764bdb4131acde304e50300a479be6,Refactoring and tests,2017-02-06 14:20:20+05:18,FALSE
+0403728c6f5aaeebb80749d77dc082299878f6c0,Add Codacy badge,2020-01-28 14:38:46+00:00,FALSE
+49a29184d6b725da8f21fbfa107e4567948b7a36,Update README.md,2020-01-28 15:41:07+01:00,FALSE
+ad3a6d8169c0d750d9eeb81e9ecd7c6ddb2a98a3,"Code and file cleanup, Code inspection fixes",2020-01-29 12:56:58+05:18,FALSE
+11b62c956b4658de17aacbdb1e745a957b622b1c,Update README.md,2020-01-29 11:59:55+01:00,FALSE
+03e5aadeab1e25ad3de0a915a5211ef95305dbc6,Update README.md,2020-01-29 12:03:48+01:00,FALSE
+2a468ea4546ce662b300fd2774955594fa3e169a,Update README.md,2020-08-03 09:28:20+02:00,FALSE

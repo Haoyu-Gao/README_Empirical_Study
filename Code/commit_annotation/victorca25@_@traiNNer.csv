@@ -1,0 +1,201 @@
+sha,message,date,result
+77b525f9c74973d38dd73ceb6c1f5b0dd34b82ae,Initial commit,2018-04-20 02:58:01+08:00,FALSE
+4b9931ece13002a758f03ceac9e4d5fa9dbe1fd7,update README,2018-04-20 20:30:45+08:00,FALSE
+c0ee830be422995fc71fbc139d03f76ff3a3c2e7,README,2018-04-20 20:34:29+08:00,FALSE
+d904fbf2d24fdf1ed4395726d9aff88face63427,srgan initial,2018-04-21 22:35:58+08:00,FALSE
+afe795b79d7fd45898038f172a18bb1366705fe4,clean others,2018-04-26 21:03:43+08:00,TRUE
+775dae6692ab524a51b84d15b84bf2460c42207b,update README,2018-04-26 21:41:07+08:00,FALSE
+10841c880b430e7162d5cf117169c7ee5f9c1c4c,update README,2018-04-26 21:45:22+08:00,FALSE
+7f8b74084d0158da13c8cdffa554e8fbecd943af,updata README,2018-04-26 21:47:04+08:00,TRUE
+f86aa0059b035f2ea47d53b156db4beae7d1cbc5,update README,2018-04-26 21:57:08+08:00,TRUE
+2471c7af1150156da62b0cadb9fb217ca1cff9f8,update README,2018-04-26 22:24:51+08:00,FALSE
+de3ba707e538aa1d8395376a9fae5e20c9c4ef40,check before release,2018-04-26 23:20:10+08:00,TRUE
+c622f9b90865c7ec8dee015df6208e417288b1c7,README add acknowlegement,2018-04-26 23:28:59+08:00,TRUE
+40e74a4e445125df96d512a1ddf3654a04456c21,README modify heading,2018-04-26 23:31:17+08:00,TRUE
+c0b885ebae98b7a7b6ab50976bb78d01752bcd43,Update README.md,2018-04-30 16:20:21+08:00,TRUE
+22d9d7261e5e7c982db63808de2a57185fcdb186,add Pretrained Models description,2018-05-06 00:58:15+08:00,FALSE
+fe07119f8353783eb3462d0c83e266297ec1306f,Update REAMDE.md,2018-05-07 10:06:59+08:00,TRUE
+1dc09d7d28b284e437e5681b55a9a2028d59d318,Update README.md,2018-05-07 10:46:59+08:00,TRUE
+9ff885f029695d67d4ca99d20718d88d3d9a53de,Update README.md,2018-05-30 23:54:58+08:00,FALSE
+dcd3772327ca8165eac5ce272cab40b06e81e3d5,Update README.md,2018-06-12 01:22:37+08:00,TRUE
+61ae37d139f50dc5a93e3bd18385659db1c5f441,Update README.md,2018-06-12 01:28:00+08:00,FALSE
+95068d76717bea1b046c6891f9e745d39e2747f5,Update README.md,2018-06-13 15:36:07+08:00,FALSE
+686d96c47466a7ffa3b4244f5cdf3dbd642e6607,Update README.md,2018-06-15 17:10:30+08:00,TRUE
+6db03d8af7064fe7767d4e89cdb349989e3be4f3,pytorch 0.4,2018-06-16 16:50:33+08:00,FALSE
+c5141f2eac2cc50f3afb1d1d28536780517446d5,Update README.md,2018-07-31 21:33:58+08:00,TRUE
+76d03d569a7dff6506ad941b6692b94a2add902e,Initial commit,2018-08-30 13:43:12-04:00,FALSE
+b948a1155978eae5607cc5416b13eaf1426c8e49,updated readme,2018-08-30 13:56:12-04:00,TRUE
+08b76d9d78c22e7aea998479d5355173fb566cc9,more benchmarks in readme,2018-08-30 13:58:56-04:00,FALSE
+5883e2c2f47c8d377832195661f95735f1873b90,added gitignore,2018-08-30 14:06:24-04:00,FALSE
+49d7e6e6142c867076e55b352971bd63c4a467c6,updated readme,2018-08-30 14:17:55-04:00,FALSE
+446635e8b96e308644940f0a3fae971f7e3a8735,updated readme,2018-08-30 14:23:06-04:00,FALSE
+0379a39df196b1d2734580533ed7981d72aec9c0,updated readme,2018-08-30 14:24:14-04:00,FALSE
+57ce513c40bcf57be976995784052d2eccf6fd7c,updated readme,2018-08-30 14:24:44-04:00,FALSE
+21ae633c400445de0d2bda069d1d24a296a4ad2e,updated readme,2018-08-30 14:25:58-04:00,FALSE
+269dd917a90f8cffadc5fa773dfd580d5a4487f1,Update README.md,2018-08-30 14:32:22-04:00,TRUE
+4e8fc78de6c0b2f8a1c4c84b3255563536d2b961,add code structure fig,2018-08-31 17:25:05+08:00,FALSE
+528a917115f53a59281fe27924f1836cc8892d04,Update README.md,2018-09-04 16:45:55+08:00,TRUE
+bad572e5839bdfce147cc799128f626d574238ae,Update README.md,2018-09-05 14:23:31+08:00,FALSE
+2916081aa02eb58645efa77b16e651f0c16c5d59,Update README.md,2018-09-09 23:21:16+08:00,FALSE
+c8989368fa76c7c855d933db4d482e483c3c9ebb,Update README.md,2018-09-11 16:27:12+08:00,TRUE
+18ebc3f808ec0a5cd955054db2b7aaf6cc97966a,Update README.md,2018-09-13 17:40:47+08:00,TRUE
+1212c0cdb8fee804353e259a8b0550520aff0631,Update README.md,2018-09-13 20:09:34+08:00,FALSE
+3196a65de6e464dfcef83c85ea1b8e72edfed00e,Update README.md,2018-09-13 22:58:15+08:00,FALSE
+c3178ea2fecdf7bdc3a93e6e52b4ce549dbc47ad,Update README.md,2018-09-14 11:12:34+08:00,FALSE
+48f02c3977fe3dd261feaf6869a231facc7fb42a,Update README.md,2018-09-22 17:09:51+08:00,FALSE
+c8344f304275b3b8b3aad333458500964e37b995,Update README.md,2018-09-23 21:01:02+08:00,FALSE
+056aaa53fba806ee45e2536d0a171480b9442eed,Update README.md,2018-09-25 22:15:39+08:00,FALSE
+64f05f6dc65597a86c5184ace6ad2f2e9047af17,Update README.md,2018-09-25 22:55:09+08:00,FALSE
+d1b4201cdee74d63bd21e0974bcf8366273a9f46,Update README.md,2018-09-28 17:49:12+08:00,FALSE
+af7dcc8d35a9c78a961446218154931a959620e8,Update README.md,2018-10-06 16:15:39+08:00,TRUE
+72a12ce36927d739645b3a06a323ec4ac010d37d,Create README.md,2018-10-15 22:57:34+08:00,FALSE
+305e007607a2aec28d8e78a65557c1ba5b526b54,Update README.md,2018-10-15 22:57:53+08:00,TRUE
+5579cda9d82b90dcaf64639b66b02e4a1607ce76,Update README.md,2018-10-15 22:58:49+08:00,FALSE
+cd095081574a5c9e0f7ca4048c067ebbdfeca474,Update README.md,2018-10-15 22:59:11+08:00,FALSE
+fe4098332a0dde0e313a5426e1b13f9a841793f1,Update README.md,2018-10-15 22:59:37+08:00,TRUE
+f83c436da9c94a5dca7d537d03b7c6e749fb36c1,Update README.md,2018-10-15 23:32:07+08:00,FALSE
+18c93fb20b12830ad356f8d5d61449cc172e895f,Update README.md,2018-10-15 23:32:44+08:00,FALSE
+44f97c01f03fc76a23be2c8038ac9411c08900ff,Update README.md,2018-10-16 09:20:31+08:00,FALSE
+a846bee22816949291e4455c87792702be0a6e8f,Update README.md,2018-10-16 09:57:23+08:00,TRUE
+100a7ca28f77d69a2edc851353eb1c8b0194118d,Update README.md,2018-10-16 09:59:57+08:00,TRUE
+aabd9f4998c30f8e41ba554279efa0c3772fa81d,Update README.md,2018-10-16 10:02:33+08:00,TRUE
+b8b945f5b1dea331379e4c90180f8fbd52b0a426,Update README.md,2018-10-16 10:03:03+08:00,TRUE
+38c041a6c738b2bda8c600da644a1a80cc865d5c,Update README.md,2018-10-16 10:03:30+08:00,TRUE
+0278a21e89c17d7a9a528849edf2c1f46ac6fedb,Update README.md,2018-10-16 10:04:07+08:00,TRUE
+ebb0a68cdb6af38750960bdaeb1aa6c99c9e0d45,Update README.md,2018-10-16 10:05:21+08:00,TRUE
+1a3ab012e59bac64a03ed2644e5d7ca263fb6df9,Update README.md,2018-10-16 10:08:17+08:00,TRUE
+c56070972d37e06e1c204e6a5a0f68e160468ebc,Update README.md,2018-10-16 10:10:09+08:00,TRUE
+b15d5d6165077f030509e8fe33371b688f0647f2,Update README.md,2018-10-16 10:31:04+08:00,TRUE
+ca2cefcae50f303f5353a363c415dd37516d5d13,Update README.md,2018-10-16 10:38:29+08:00,TRUE
+52aa1c53af9c0e42350cfe2c07a959c19fdea629,Update README.md,2018-10-16 10:39:10+08:00,TRUE
+1386bd844370774644299495bd0ccc40d4826475,Update README.md,2018-10-16 10:43:18+08:00,FALSE
+71873c78b9c21d4c32b6d51757cd995baa6fc21d,Update README.md,2018-10-16 10:43:33+08:00,FALSE
+dab75a733e72d5c6dda11d423b4c501743e576f8,Update README.md,2018-10-16 10:43:51+08:00,TRUE
+0bc4ecdd8263048cd670529eebd4f0134ce92c76,Update README.md,2018-10-16 10:50:34+08:00,FALSE
+4430c7ae5d220ab4a6fc794f71d2fa07e11bc932,Update README.md,2018-10-16 10:50:55+08:00,FALSE
+c08182d40db206bd3710ed1df7c4ab835aa224e7,Update README.md,2018-10-16 10:51:50+08:00,FALSE
+af936b80d92a17e11c0ec87970ece975e2c26f06,Update README.md,2018-10-16 10:52:27+08:00,FALSE
+a17f1e1293e6459f496b54a66185c63f0e9677c7,Update README.md,2018-10-16 10:54:32+08:00,FALSE
+948c93a690e5da3ab40bb999216bda3c66d5471c,Update README.md,2018-10-16 10:55:07+08:00,FALSE
+2f8e561035bf552a35cc908ea624daaa7a6b9675,Update README.md,2018-10-16 10:55:23+08:00,FALSE
+0c426f90454ef538ede88494a5b1ee26475b6be1,Update README.md,2018-10-16 11:10:59+08:00,FALSE
+6edc18bfafa68a42605e18f27610e2b4c7bb3390,Update README.md,2018-10-16 11:14:01+08:00,FALSE
+4d4f7bd8d3af7a709f420988ba904f59661eb6f9,Update README.md,2018-10-16 11:20:33+08:00,FALSE
+7482ec298d7c604496cc2bae72352543e9961e1e,Update README.md,2018-10-16 11:20:54+08:00,FALSE
+52e26f5e8fe915453f1d6781290d7a6e94f2f147,Update README.md,2018-10-16 11:22:59+08:00,FALSE
+6ad1ba93047e05065ab9e0a573d266c363360190,Update README.md,2018-10-16 11:23:22+08:00,FALSE
+8814250b7427f62da878ced90118725180444f88,Update README.md,2018-10-16 11:23:38+08:00,FALSE
+7f4e64b712bcf677add3b8b806d68c34765f6bf6,Update README.md,2018-10-16 11:24:51+08:00,FALSE
+f78e910cf6b5cb77aeccfe255ec5be886228f2ea,Update README.md,2018-10-16 11:27:51+08:00,FALSE
+34a894618a05565064db02ebc9d73487c504aeba,Update README.md,2018-10-16 11:34:39+08:00,FALSE
+9892b66d0fcf574510c35774e720f2ad48bfa492,Update README.md,2018-10-16 11:35:13+08:00,FALSE
+6e0b235ff5dc0fef4447857e812a2056b2aefc77,Update README.md,2018-10-16 11:35:47+08:00,FALSE
+e562c036bfb20c46b587c1c8f0603f7c0a2923d1,Update README.md,2018-10-16 11:39:55+08:00,FALSE
+ccc887a75b849ffa249631ed795233de4ea63707,Update README.md,2018-10-16 11:40:29+08:00,FALSE
+383bbade2f9dcc13ef9ed26e0a185bbe0b701e44,Update README.md,2018-10-16 11:40:44+08:00,FALSE
+1f9f18e61fe4d1da433fa2955ee136b024f8373b,Update README.md,2018-10-16 11:41:27+08:00,FALSE
+7375f83183cfd07c2dda6556895b5090323edcec,Update README.md,2018-10-16 11:42:33+08:00,FALSE
+67187879f556c043e2ce189da44537ec52fc5e4b,Update README.md,2018-10-16 15:40:17+08:00,FALSE
+bb3f3c18d3a9ab21ecf941a87f33b9409254f29b,Update README.md,2018-10-19 09:20:07+08:00,TRUE
+1ab40990c2183df13d5b5700d5a5cc2ba5c87c83,"Update README.md
+
+update readme",2018-10-19 09:37:56+08:00,TRUE
+fe11a973223a10ce75d0e9a063cb8873e4997594,Update README.md,2018-10-19 09:38:28+08:00,TRUE
+c80746affb3c3c6e28ac9c8cea90202f5123df06,Update README.md,2018-10-19 09:47:51+08:00,TRUE
+2a8a81c30c6d5e2dcbda5d903efd9bfb93b9a06e,Update README.md,2018-10-19 09:48:47+08:00,TRUE
+d88f8ca5c9339db8e3ae5addf8f3fc5f551fef75,Update README.md,2018-10-19 09:53:57+08:00,FALSE
+a427d38a8bb8d47917611cdb81f4fe95cc3c43ae,Update README.md,2018-10-19 10:34:44+08:00,FALSE
+349e901eace86696f5e305ea5fa4a63f2c0b6af3,Update README.md,2018-10-19 10:36:17+08:00,TRUE
+7fd4464ab704ff73d314e82b7b2bc08330eb1c6b,Update README.md,2018-10-19 15:55:05+08:00,FALSE
+71ea9e7aa7c208bc8b41f6682c42907f2f04acaa,Update README.md,2018-10-19 16:05:19+08:00,FALSE
+7ac387ee0e7672045881b5243cb358c2cbe5d1b1,Update README.md,2018-10-19 16:07:08+08:00,FALSE
+d4b95cf09c5901e24cd096dd17ab41c7a6c3d32c,Update README.md,2018-10-21 19:40:58+08:00,FALSE
+0a17aacc348c5e92356f0f35787fb7359f644195,Update README.md,2018-10-21 19:41:19+08:00,FALSE
+e80f311e6d43d0354554734cea5050afce0693b2,Update README.md,2018-12-03 00:47:33+08:00,FALSE
+4f3889667b5bcab16711c69d75db9754945ff212,Update README.md,2019-01-08 23:31:02+08:00,FALSE
+28a022adaed56be78f3edc35aaad046d5bb00c6a,Update README.md,2019-03-14 15:04:57+08:00,FALSE
+36984e8bb1cd4269397bb15361a4221d26d4235a,Update README.md,2019-04-04 12:20:23+08:00,FALSE
+93534825eaf014ce2f29cf9cf93c961aa158b6e9,fixed hw wh bug in random crop,2019-04-26 12:52:50-04:00,FALSE
+b2654300380f522a333711acdcad58331da33b73,"Update README.md
+
+update the whl file",2019-06-16 15:41:17+08:00,TRUE
+b3bdc038c69fcb77a1c6d89f49907707ec34c05e,Update README.md,2019-06-30 11:46:20+02:00,FALSE
+3d2feaff5741ca0d6e82e7f78fb0ad0b7ef230a8,Update README.md,2019-06-30 12:02:40+02:00,FALSE
+bd47d6841e819aa6355b58932a218aa9735ec155,Update README.md,2019-06-30 12:25:35+02:00,FALSE
+3b06678fdb0811ce826d5132d742a02d08b7ce78,Update README.md,2019-06-30 12:36:51+02:00,FALSE
+649f7e708c01ea7c44032b5b0cad5f6e047a885f,Update README.md,2019-06-30 12:39:06+02:00,FALSE
+7fe60b012113b3afa092b0817528d2c46dbe7636,Update README.md,2019-06-30 14:30:03+02:00,FALSE
+3619457bbb3fc4430c3767648f56f0658b195d45,Update README.md,2019-06-30 22:40:00+02:00,FALSE
+1acd3fee414a17c3732ecf8e61e7deef7795f35c,Added PartialConv2D info,2019-07-02 12:04:32+02:00,FALSE
+23b3cead8c468ce346c595e622f4ab978c83b468,Update README.md,2019-07-02 12:32:17+02:00,FALSE
+f1654db4d5f40db1495eeb130d88ad1dc4efe080,Update README.md,2019-07-09 11:24:46+02:00,FALSE
+7e85e9b0a910e2f92910b6b9ff52743e277add2c,"Update README.md
+
+New todo tasks",2019-08-02 11:18:46+02:00,FALSE
+bd2dab7ff9466ed052207a9cdd980bd4abdf420f,Update with PPON information,2019-08-04 21:13:14+02:00,FALSE
+2baa3988bb3198ff71a5c820a5ba0fa5b91d6be3,Update README.md,2019-08-04 21:14:40+02:00,FALSE
+8fe5d47490a68e167e7ac69f2237a2ea72768d95,Update README.md,2019-08-04 23:35:22+02:00,FALSE
+fd6751380515378c8c3b908b8298154990b0ade7,Update README.md,2019-08-09 09:47:04+02:00,FALSE
+bdaeb6a6a58ba062c410a6a5e92c689c7d2909d1,"Updated to reflect the fixed StepLR_Restart
+
+StepLR_Restart fixed by https://github.com/BlueAmulet",2019-08-09 20:20:15+02:00,FALSE
+c3bd430ce0bcdcdf885c4b941534074936437185,Make lmdb dependency optional,2019-08-30 21:57:12-06:00,FALSE
+591360095ca90b4382069c8f05cbf8c2e4744f32,Make lmdb dependency optional,2019-09-04 14:29:34-06:00,FALSE
+d6faf2b97181d530291b8201d1f4f898a87f194b,Update README.md,2019-09-12 20:33:54+08:00,FALSE
+1c19141ab0854a9a183290720caf728a7f48e479,Update README.md,2019-09-18 21:57:30+08:00,FALSE
+49ef080b0f1e5868addb6b60d7ce9bb390c2f313,Update README.md,2019-09-18 22:18:25+08:00,TRUE
+68f34505f3186908928bedeb2037e9c831a67939,Update README.md,2019-09-19 16:43:19+08:00,TRUE
+9bacbd1be81f1392bbfdb9f30c96a971c1062561,Change format and fix some typos,2019-09-29 23:36:06+03:18,TRUE
+68903ac2d1c53824c9f4277968b5f19373ef2167,shorten link descriptions and typo,2019-09-29 23:48:16+03:18,FALSE
+4cf69382f05bf77bb2d08024fe88b9bf28266b24,Update README.md,2019-10-03 10:32:57+08:00,FALSE
+fd9bc4b8d7135443e2157ddceb597575775be63a,Update README.md,2019-10-03 10:33:43+08:00,FALSE
+7e27c23b8dd36915dea15db878da0a9a992738c5,Update README.md,2019-11-06 18:49:18+01:00,FALSE
+620f1f4881173faa0fc8f884087ee20359754765,"Update README.md
+
+Updated readme for pip",2019-11-14 17:43:00-05:00,TRUE
+fccd4bc1a288eba6a584540b5e3e80ce28c73176,small fixes in readme,2020-07-27 21:07:55+02:00,FALSE
+315acb19699798c846b05003df2d81cc05e43668,"re-added the sample benchmark Notebook, might be useful for testing",2020-07-27 21:54:19+02:00,FALSE
+4fcf04b098eacf410bf61be8d3c21a014259c77b,"commiting new loss builder, to be reused in all models",2020-08-03 17:14:57+02:00,FALSE
+feda162c994bcb6b14d59f090a8852d2985e770a,adding the optimizer and scheduler builders and the modified model and training files to make use of all the changes. Updated the train options file with all the new options,2020-08-15 18:18:53+02:00,FALSE
+451895e211608019852b956e3bd0cb25530eeb01,added using discriminator feature maps for feature loss as an alternative/complement to other pretrained classification networks like VGG or LPIPS (using the discriminator_vgg_128_fea discriminator model),2020-08-16 15:05:40+02:00,FALSE
+3fb5851af3a411df153f0b0e5873f3b2de324a3d,update readme with more info on changes,2020-08-22 11:54:45+02:00,FALSE
+9db716dcf5b2b78bb69b4045e3bfcd101829fbab,"multiple fixes for compatibility between pytorch 1.6.0 (Colab) and 1.3.0, Automatic Mixed Precision (AMP) properly integrated and tested, one temporary fix while AMP bug is being investigated",2020-08-29 12:52:05+02:00,FALSE
+57577667067c99194098ce034a97d0bef028620d,mention added support for YAML in changes,2020-08-29 16:38:23+02:00,FALSE
+33c7696e2c04515d2d70e616fd6860edc322e355,"mentioning patchgan in readme and added correct paper reference, added yaml recompiler to parse scientific notation like json",2020-09-03 18:19:31+02:00,FALSE
+e018779f2eeed23826f9f2814a8071801522c5a4,"now possible to read blur and noise augmentations as a dictionary, list or single string",2020-09-09 19:56:14+02:00,FALSE
+8d5a30448ff1769585a0943ffb693424909b5024,modifications and new options for the color transfer script,2020-09-26 12:18:55+02:00,FALSE
+1f5db1ccca1d2c1a81867934b18267da7c5252eb,mention PAN in readme,2020-10-08 19:47:22+02:00,FALSE
+18405a917bf4098ca1d907ec8980c2a5fd59723c,updated SAPAN pretrained model,2020-10-11 11:34:45+02:00,FALSE
+9271ae9eaf23d0c9eb7a8b22765d406f57760b57,"WIP commit of the video SR architecture based on SOF-VSR. Includes network, model, dataloader, loss, inference and training codes. To be tested.",2020-11-08 14:16:06+01:00,FALSE
+84b901902d393deb0080210be95c8bfae44b333b,update readme,2020-11-08 14:43:03+01:00,FALSE
+2340ea0af57c9132a22344a4e141d4223f8fb113,stricter frameskip check to prevent list out of boundary,2020-11-09 18:12:55+01:00,FALSE
+a1d1a9c8092197f4e221bb94730f760d860ab853,"merged dataset tester code into existing test_dataloader.py, added WIP PBR dataloader for testing",2020-11-14 15:12:43+01:00,FALSE
+90ea98071ae81d8087c9fa51be48be197d4513e5,"modify video dataloader, network and model to work with 3ch images, add option to use different image upscaling networks with the HR optical flow estimation for video",2020-11-23 08:34:49+01:00,FALSE
+ae4fd867bdb33fe50e973bda66cffbe87bb646eb,"WIP: initial commit of the RIFE architecture, simplified into a single nn.Module for testing",2020-11-25 19:09:18+01:00,FALSE
+7eab33e9c63a5d49d8603991feb72d2329f51328,update readme,2020-12-01 08:55:52+01:00,FALSE
+f27eb624e2589647a2baf2c1f6b3e2050f68f17e,update readme,2020-12-01 08:58:25+01:00,FALSE
+b7148b947015a78d95f73bb6be04964f46432262,update readme,2020-12-01 17:25:19+01:00,FALSE
+74b1043819b3d74a4de60e8967379aaa22117c47,add Stochastic Weight Averaging (SWA),2020-12-02 18:02:58+01:00,FALSE
+832f881dacad893b6675b2b53aac824a06c67401,add option to freeze initial discriminator layers for faster training/transfer learning using pretrained discriminators,2020-12-09 08:30:58+01:00,FALSE
+d0b5cfe3c61fc7a1110d40341bb8a2bbf11502d0,small fix in readme,2020-12-09 08:47:32+01:00,FALSE
+935c719edd9f05c1553879163b7b413c7fdef1ac,Add 3D convolution for Video ESRGAN architecture,2020-12-22 19:31:20-06:00,FALSE
+701c6bc38a93a376b00591463d4d361733d79b6d,Added pretrained EVSRGAN model to README,2020-12-22 19:51:40-06:00,FALSE
+e3b82cd43b318e552369cc4b9d58e85be21ea2a3,"added SR3D architecture using Conv3D and temporal feature maps, removed the conditional slicing in RRDB",2020-12-23 21:56:41+01:00,FALSE
+94aa7c0d41c8e8528ae4473fb1b8128290c647d6,add DVD to readme,2021-01-01 13:06:19+01:00,FALSE
+959b6c6c0e8907d2dfbbfa87a5eb7b9609cf3001,Reformat with remark-lint,2021-01-02 17:17:43+00:00,FALSE
+9fda30a090ff7a8ac543b96329d66fa9bb0afcd5,"Update readme files, Add badges for Python ver, License, DeepSource, Issues, and PRs Welcome",2021-01-09 20:01:31+01:00,FALSE
+26c88047f152b7c191a63fed07450e89a88a7946,add mention of chop forward and link to DVD pretrained models in readme,2021-01-09 20:13:15+01:00,FALSE
+50915224c3c82d80a4abb4193a098dc501a7b65f,include detailed instructions to use KernelGAN estimated kernels for training,2021-01-28 18:48:50+01:00,FALSE
+a63438d69362ebac2277d44fe3edd146512fe6a3,"add SRFlow architecture, model, train and test options files and Glow required files. Updated readme and archs doc",2021-02-07 18:08:41+01:00,FALSE
+fc717b24d1f243b89ec264787ab1c4113e3d2c57,add more documentation for SRFlow,2021-02-07 20:25:41+01:00,FALSE
+a8cc23ee4fa4be79c91b23b4b00886a80e4bba18,"update (some) transforms to use common classes (more TBS), add cv2 k-means based color quantization (RandomQuantize), add option to compress images with webp or jpeg, expose bilateral filter transform, add ApplyKernel for convolving with arbitrary kernels (motion, KernelGAN, others), add simple and complex motion blur transforms with randomly generated motion kernels (RandomMotionBlur, RandomComplexMotionBlur), adopt process in chunks, CLAHE and use of function wrappers from albumentations",2021-04-14 18:12:01+02:00,FALSE
+b4ce1cd00a867e48055cbb33a9781bbddede7d28,first round of updated documentation,2021-06-11 19:23:09+02:00,FALSE
+536bf5e4084b88fcbebdbf80f1c156c614e55bdd,second round of updated documentation,2021-06-12 11:54:00+02:00,FALSE
+11d9900c177b3b292a5e429de451b319db2616f9,"update train and test instructions, add sponsorship options",2021-06-13 18:19:26+02:00,FALSE
+823856ec81b84bd8c32254b9f4d73a1f3b1fc755,"small update for video and pbr dataloader to continue working, updated lr_downscale types in video training options file, other small fixes",2021-06-16 17:41:01+02:00,FALSE
+ea6610888733404b31534b1463a684c50b0dea54,"add Superpixels augmentation, support for CV2 and skimage superpixel algorithms (multiple slic, seeds, felzenszwalb), custom label2rgb adaptive function, 3 segmentation reduction options (selective search, k-means cluster, RAG), update gamma_adjust function and add RandomGamma transformation, add functions for srgb<->linear transformations",2021-06-19 12:57:51+02:00,TRUE
+3503338768e15ed6c1fe3bfeaa8ed8cf4880953c,"added workaround to disable Intel Fortran Control+C console event handler installed by scipy, updated readme",2021-07-01 19:17:26+02:00,TRUE
+66ec08a9cbdf58210304d8f6a6c1dbf73826b4e8,"update files to reflect new repo name, from 'BasicSR' to 'traiNNer'",2021-07-24 15:36:33+02:00,FALSE
+38d8c4807673ff8cba7b49c7b1bcc949285a61ba,"added even image size correction to camera unprocess pipeline (for mosaic operation), added scale factor for Poisson noise type by extracting the correlated noise from the corrupted image and readding it with the scale factor, adapted sinc filter augmentation",2021-08-14 11:31:43+02:00,TRUE
+84faf37f511a2b451b9ac7deb8e1f0d6f1b0763f,"update change to sr_model module, minor documentation updates",2021-08-16 18:28:51+02:00,FALSE
+511329139ba07d6ccf7b9ae379bd608cb7053b7e,add AdaTarget option for adaptive model output generation and initial required changes to use. Small doc updates,2021-08-26 19:01:01+02:00,FALSE

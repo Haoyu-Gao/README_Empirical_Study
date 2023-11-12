@@ -1,0 +1,47 @@
+sha,message,date,result
+3db890aa005a24242af7424a8c267c87df73f749,"Update the README file to describe the project, use github-friendly markdown format, update broken links, etc.",2014-01-28 14:26:34+01:00,True
+143d6623470bce62e3c94310e09031f0b93b9a12,minor README update,2014-01-28 20:52:25+01:00,True
+e34eed2cb8d6e67455ef4464278afccf312155f5,Adjust doc.,2015-08-18 10:43:08+02:00,True
+3881aff2de2cc0232e6dbfba3c354a4e07912019,Remove obsolete EULA; also correct LGPL name in README.md,2015-09-01 23:08:49-04:00,False
+690bcbc4c6a853a6bb397b4fbb9e2332abb7e3d9,Add tomcat8 directory to project structure section of README.md,2015-09-21 09:54:21-07:00,False
+76fe4d0b982988ce5611909c86bcdedb090e3265,MODCLUSTER-494 Update .gitignore and README.md after the split,2016-04-27 19:47:44+02:00,True
+d458eb2840321c2a2c71d590024b92363307c7d3,MODCLUSTER-496 Drop support for legacy JBoss AS versions (sar module),2016-05-10 23:36:25+02:00,True
+d36b3fb429bcf35aa28be611c8fa045c32e36790,MODCLUSTER-479 Add support for Tomcat 9 (milestone 4 release),2016-05-30 19:21:59+02:00,False
+e92bfaec804ace6fd03f3732a7b488b665054408,MODCLUSTER-493 Add support for Tomcat 8.5; merge into one module also supporting Tomcat 9,2016-05-31 20:31:23+02:00,False
+255410784f941464a79f2b7d59ab88a9231ebf39,MODCLUSTER-482 Drop Tomcat 6 and JBoss Web (AS7) support; merge catalina and catalina-standalone modules,2016-06-01 22:48:48+02:00,False
+f40a44e1861f2ec643eac94eb96a2adc60f3bc50,MODCLUSTER-482 Rename common 'catalina' module to 'tomcat',2016-06-10 13:49:38+02:00,False
+6a88ed61ccbedffe4b27f34bfe923004661df777,MODCLUSTER-516 Move /container-spi module into /container/spi module,2016-06-17 16:16:55+02:00,False
+7e7dcbfef3bd357f682c3c67039c9d8544272d4b,"MODCLUSTER-439 Overhaul distribution profile
+
+Goals:
+
+* create a distribution archive *per* tomcat version
+* create separate demo distribution
+* create assembly component to be shared across tomcat assemblies
+* allow building for a specific tomcat version
+* above including building -PTC9 which rebuilds tomcat85 sources with tomcat9 jars
+* include jars in the lib/ folder and standard text files for licence and installation procedure
+* provide executable demo scripts
+* support files viewable and usable on windows
+* improve README.md file",2017-08-14 18:25:12+02:00,True
+8f158b34ca39808f0a09ae758476e7eae3826dc3,Fix readme links and indention on Listener example,2018-01-30 08:31:34-05:00,False
+3e878bb7742e025bc2d94fa59d9315ccd57888d8,Update README.md,2018-01-31 10:16:16+01:00,False
+4331626930a40c734ef0ed22d517a4463d00174f,MODCLUSTER-654 Documentation 2.0: remove documentation sources from the main repository,2018-10-24 19:50:20+02:00,True
+77c0a864e09beef0302010a1e26fc70d945d7fca,Update README.md,2018-10-31 12:40:33+01:00,False
+191f5ddbfef5f2809db591e14ddd84c18a692fff,Update README.md,2018-10-31 12:41:11+01:00,True
+0951f31e8932f94dc1392a798b461a9a81cf206a,Update README.md,2019-04-14 01:57:20+02:00,True
+469760de725041d2952a948c014683b0c5536e88,Update README.md,2019-08-21 16:17:40+02:00,True
+dc102eeb4c91e8fe4eb1290aac306bb1627b7dc9,Update README.md,2019-08-21 10:24:43-04:00,True
+ace0ea6e146024ec35ddde2b649ceece317b0cc8,Update README.md,2020-03-19 19:57:01+01:00,True
+a7afc19a1ef15c02045e9e56cbc719952121b386,MODCLUSTER-715 Add support for Tomcat 10.0,2020-04-06 17:51:11+02:00,True
+52b6c7c80f63523e399a20aeef23db9b0720bd4c,Update README.md,2020-04-24 23:14:11+02:00,True
+0f944daaba9b0a931ebe33e1296586a30d2bb7e8,Update README.md,2020-05-11 17:51:53+02:00,True
+4c4df3f31f60faed2216a564e730648b5871359c,CI: Create CI workflow for GitHub actions; remove Travis CI setup,2020-12-07 19:09:00+01:00,True
+17e815157582c63d5e5eef99dbaaf4aa6a2e474e,Update README.md,2021-05-26 13:29:51+02:00,True
+99455123f9d0ae7deccc9937c465f8e7c00fa9fd,MODCLUSTER-528 Re-think catalina/tomcat dependencies so as it is possible to build without tomcat7 API,2021-11-08 15:08:00+01:00,True
+e14957460202a0b0006800db07312a9c18357d7c,Rename tomcat modules to more descriptive names,2021-11-08 20:59:09+01:00,False
+e7ec766ccd2bc2271c4bda6ce19a7a1c8fe254db,MODCLUSTER-740 Switch build to require JDK11 and compile into 1.8 target,2021-11-24 22:35:33+01:00,True
+ae6b92c75f00a7dd31dec1ca6fdea9ee7814512a,Update README.md with working minimal configuration: use 8080 connector instead of ajp which is commented out by default and set advertise interface name which is required for multicast.,2021-11-29 18:08:26+01:00,True
+eb43cd19409ac82651e373e12817b2c49f3012de,MODCLUSTER-751 Add code coverage reporting to Maven build,2022-04-05 12:06:02+02:00,True
+0595e43c9591ef3ba836b68b42909587ba6c06b4,MODCLUSTER-737 Add support for Tomcat 10.1,2022-10-20 10:41:22+02:00,False
+add49a991bfa07fa9fac42caa426f859fd659b4f,Update README.md,2022-11-21 18:15:38+01:00,False

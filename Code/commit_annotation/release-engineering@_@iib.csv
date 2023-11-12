@@ -1,0 +1,249 @@
+sha,message,date,result
+40a5535da4e2e43e983e311c26cc0556abb660a8,Initial commit,2020-02-05 09:53:04-05:00,False
+0f77ee59b14510f6e3288458c692ce90c0dc5a56,"Pin the dependencies using pip-tools
+
+Since this will be deployed on RHEL 8 and several of the required
+dependencies are not packaged as RPMs, let's use pip-tools to
+ensure the installed dependencies are deterministic (pinned versions)
+and relatively secure (hashes).",2020-02-17 13:51:42-05:00,True
+ef66b2ff043893ea57aac0332466f442c77a8657,Verify that the pinned dependencies are not vulnerable using safety,2020-02-17 13:51:42-05:00,True
+41d101c08edd132a9a096857016049f0e0f61a93,"Stop managing authentication to the container registry
+
+The authentication should be handled by configuring ~/.docker/config.json
+instead.",2020-02-24 15:39:18-05:00,True
+d51e2193132781a8c29ae350914b1106dfa2bcbb,Document the development environment,2020-03-04 15:36:04-05:00,True
+a15c725679124db10e2bd9b975e26ec425641a7c,Document the coding standards,2020-03-04 15:36:04-05:00,False
+d0c6acc21ed2a3a5960e1a0c60006fd5ad8119c8,Document how to run the unit tests,2020-03-04 15:36:04-05:00,False
+2cd3b65303b56f5e942101a17bb42dee9863cb78,Fix the title of the read me,2020-03-04 15:36:04-05:00,True
+4486629e87f53163fc206afd36f22f48b5232deb,Document the configuration options,2020-03-04 15:36:04-05:00,True
+5d53652234a4c18e2e63aa26a3c2e1145d6d5d8d,Generate the Read the Docs documentation,2020-03-04 15:36:04-05:00,True
+f1874eb2c3059eb07c307af815ac2c0d883594c8,Add links to the external documentation,2020-03-04 15:36:04-05:00,True
+2dfaf1becfeb2a6611003dd3cd449cebd1a2db83,"Allow IIB to specify a different registry to use for the index image
+
+This will allow IIB to use the registry directly, but tell users to
+use the registry proxy. This makes it so that IIB is not reliant
+on the registry proxy.",2020-03-06 13:23:27-05:00,True
+5af2492e0820d4ac4dff324efc1cacb171fcfad3,Add retry decorator for critical commands,2020-03-06 14:59:41-05:00,True
+cb4e58316a76489c79014fc6aa8627f5ec5f2562,Add timeout to skopeo commands,2020-03-06 17:30:48-05:00,True
+310417107045ac7783d7af2d74a185009977f59d,"Add the overwrite_from_index parameter
+
+This allows a privileged user to instruct IIB to overwrite the
+from_index image that was provided with the built index image.",2020-03-26 17:22:56-04:00,True
+956252a7f6077da0199f9891eb454447877d32e6,Add a configuration to force privileged users to always have overwrite_from_index set to True,2020-03-26 17:22:56-04:00,True
+926d067c5040e49011b068e927eaa8b2661d8228,Fix markdown linting errors,2020-04-13 13:33:11-04:00,True
+581e48b4cdcf8b156081fe90729f16672c68455e,"Allow customization of celery queue by username
+
+Ticket-ID: CLOUDBLD-476
+
+Signed-off-by: Luiz Carvalho <lucarval@redhat.com>",2020-04-14 15:43:50+10:00,True
+66428833d87bb3e7de31f764c5b52e32123f5056,"Explicitly set the test requirements in requirements-test.in
+
+Using two separate files to generate a compiled requirements file
+confuses dependabot.",2020-04-23 10:49:46-04:00,True
+08bcc003f98104f1d6c45b0bcd476a3644e773e4,"Pin to digest during regenerate bundle images
+
+Ticket-ID: CLOUDBLD-523
+
+Signed-off-by: Luiz Carvalho <lucarval@redhat.com>",2020-04-29 12:21:24-04:00,True
+5b89a173a26ec40346482cdb15aeedf5f2190501,"Publish state change messages to an external AMQP 1.0 broker
+
+This commit adds support for publishing request state and batch
+state change messages to an AMQP 1.0 broker for external consumers.
+
+In addition, an instance of Apache ActiveMQ is added to the
+docker-compose development environment so this functionality is
+used during development.
+
+Resolves CLOUDBLD-522.",2020-05-04 11:04:31-04:00,True
+2cddc92f00783b7625e56d625257d520f862559b,"Fill in spec.relatedImages when regenerating bundles
+
+This also keeps IIB from pinning pull specifications when
+spec.relatedImages is already set. A request will fail if
+spec.relatedImages and the RELATED_IMAGE_* environment variables
+are set in any of containers in the ClusterServiceVersion file.
+
+Resolves CLOUDBLD-524.",2020-05-05 11:52:23-04:00,True
+21af49ea1bfad920751d37a7d66b2e433a3bae66,"IIB Greenwave Integration to gate on bundles in ""add"" requests
+
+Refers to CLOUDDST-328",2020-05-05 13:33:47-04:00,True
+b5bc38da86a69aa244116bf9e160e9b63433e0bb,"Make message publishing failures nonfatal
+
+This is more relevant when considering the changes in PR #78.",2020-05-07 12:04:37-04:00,True
+a577162c667d27cce7a9ebe736b71a3800ca2118,"Support adding annotations to a batch when using the regenerate-bundle-batch API endpoint
+
+Resolves CLOUDBLD-924",2020-05-11 15:49:37-04:00,True
+7317d45356ac157f101ffe4c31c716408f1b2405,"Add a suffix to the operator name based on an organization configuration
+
+Related to CLOUDBLD-525",2020-05-15 14:43:12-04:00,True
+5dabbaa1462c858d880f7cda9fa2c32a355ec498,"Replace the registry on pull specs in a bundle based on an organization configuration
+
+Related to CLOUDBLD-525",2020-05-15 14:43:12-04:00,True
+fe07afff417b165deaa949e1f022a81857c40207,"Annotate ClusterServiceVersion objects based on an organization configuration
+
+Related to CLOUDBLD-525",2020-05-15 14:43:12-04:00,True
+62c791082a569bfa194d396aa343cf62a2609ef5,Use a sublist in the read me to improve readability,2020-05-15 14:43:12-04:00,True
+36c50a68a99aa3cb07092a5934b7ee599ec02410,"Add the requests array to the batch state change messages
+
+This array is a JSON object with the keys id, organization, and type.
+
+This is to help consumers determine if they need to further
+investigate the batch.
+
+Resolves CLOUDBLD-1124",2020-05-20 15:31:31-04:00,True
+3dc160da746b0a5f407e4e7d2601c029e06fbedf,Remove request_ids from the batch state change messages,2020-05-20 15:31:31-04:00,True
+72f03c254f0a8bb67e62349633f6cbbb46fff040,Rename the the type key to request_type in the batch state change messages,2020-05-20 15:56:18-04:00,True
+868d9434e7fe724d96bcff0fc46ddfb7883d743a,"Update name to reflect scope increase
+
+Discussed some in CLOUDBLD-527.",2020-06-10 15:53:49-04:00,True
+73346ac25cc0ff26374c2654ec1f000caaf44c97,Add a Note to README explaining why the name change was done,2020-06-10 15:53:49-04:00,False
+0b047e579049c2d8156410f7119101f640498a6c,"Create logs per request
+
+* CLOUDBLD-591
+
+Signed-off-by: Luiz Carvalho <lucarval@redhat.com>",2020-06-11 09:05:56-04:00,False
+0c1cd254c9029c8cf471e4934b22c036e865250b,"Use the overwrite_from_index_token when pulling the from_index image
+
+This allows IIB to interact with index images it does not have
+access to by default.",2020-06-15 13:05:15-04:00,True
+dd96009162830d521344ae2cc1aedaee6056466f,"Document SERIAL: and PARALLEL: prefix in queues
+
+Signed-off-by: Luiz Carvalho <lucarval@redhat.com>",2020-08-05 12:31:14-04:00,False
+5415f92fd309dd3bcd7da8af1b7a186db9d80871,"Inspect index image to check if bundles are present
+
+The already-present bundle images are gathered by fetching the database
+from the index image, serving it as gRPC, and getting the bundle data.
+Requested bundles are filtered to only include those not present in the
+index image. If no such bundles exist, the task will be marked as complete.",2020-09-17 14:12:08-04:00,False
+f75925a08e3c984ee82c560099c21ebaa9aa1557,"Set com.redhat.iib.pinned label to regenerated bundles
+
+* CLOUDBLD-2532
+
+Signed-off-by: Luiz Carvalho <lucarval@redhat.com>",2020-09-17 14:16:08-04:00,False
+c33e799fdd75f5359d1c05dd894a82ffe5322f19,"Add IIB_BINARY_IMAGE_CONFIG to IIB and make binary_image param optional
+
+This commit introduces a new config variable called IIB_BINARY_IMAGE_CONFIG
+which when specified, doesn't require the user to specify binary_image param
+while submitting requests to IIB.
+
+Refers to CLOUDDST-2761",2020-10-13 15:05:02-04:00,False
+24830d188619a79416a6346b8f7694a262964227,"Document usage of Makefile and podman-compose
+
+Signed-off-by: Luiz Carvalho <lucarval@redhat.com>",2020-10-14 11:44:24-04:00,True
+51010d188451473a783435cd0a3c17ec7525de35,"Change IIB to use index image specified by digest in its operations
+
+Index image can now be specified by digest, which removes a possible
+discrepancy between the image specified in task's metadata and the one
+actually being used.",2020-11-11 09:28:19-05:00,False
+b8c0b4e443844a119fc8940382a81f1f34147470,"Adding dogpile.cache for caching skopeo_inspect
+
+- added dogpile.cachce configuration
+- added caching for skopeo_inspect method when pull spec contains digest
+- updated all requirements files and setup.py
+- added unit test for testing skopeo_inspect cache
+- added memcached to Dockerfile-workers (dev env)
+
+For more information refer to [CLOUDDST-116]",2021-01-14 16:36:40+01:00,False
+decb70346470be6bebf662ae893bff1d7d76c959,"Change format of iib_organization_customizations worker config variable
+
+iib_organization_customizations now has the ability to specify the
+order in which the customizations must be applied to the bundle
+image.
+
+Refers to CLOUDDST-5691",2021-04-23 14:11:05-04:00,False
+2194a105fdf0306fe71ceaecbe9149e837d503bd,"Add image_name_from_labels customization
+
+Refers to CLOUDDST-5692",2021-05-19 12:18:27-04:00,False
+effe51a1d5a5575ab442aa52cb26fb2c03e03e71,"Add support for enclose_repo customization to regenerate-bundle endpoint
+
+Refers to CLOUDDST-5693",2021-05-20 14:05:47-04:00,False
+36d7403a66b0f4b63a924167c778468e3493a6ba,"Remove the support of privileged users
+
+For all users, overwriting index image is only allowed when overwrite_from_index
+is True and overwrite_from_index_token is set.",2021-05-27 11:29:12-04:00,False
+af46b6724fb1328104c00f3abdcbc0c67d0931e6,(docs) troubleshooting the dev environment,2021-07-07 11:49:51-04:00,True
+0f86cc6044080485cceb0fdc1babb9ffc8104b03,"Add related_bundle_images API endpoint
+
+This endpoint fetches bundle images from the relatedImages section
+of the bundle CSVs in regenerate-bundle requests
+
+refers to CLOUDDST-6892",2021-08-02 10:48:00-04:00,False
+e8789e183af3462e116afb82563a21da6dbd61da,"Add resolve_image_pullspecs customization for pinning
+
+Refers to CLOUDDST-10231",2021-11-04 14:51:34-04:00,False
+f263e2d9958229f0e3b6128c444b513400e24c03,"Remove x509ignoreCN workaround
+
+Signed-off-by: Luiz Carvalho <lucarval@redhat.com>",2021-11-18 12:51:28-05:00,True
+03390c67114196416f745b58ffb7455f95f3342d,"Implement retries for buildah bud commands
+
+    - Retry mechanism for buildah when receiving HTTP 50X from registry
+
+Refers to CLOUDDST-10213",2021-12-14 13:56:55+01:00,False
+acb945d9c52046afdc7dc9c4e18ed2de9ea46a9f,"Add support for AWS S3 buckets for artifacts storage
+
+User can now choose if they want to utilize local storage or AWS S3 buckets
+for storing artifacts like logs. For iib-web, local storage is optional when
+S3 bucket is configured. For iib-workers, local storage is mandatory when
+S3 bucket is configured. This is because IIB uploads the files to the S3 bucket
+from local storage. Existing functionality of only using local storage for
+artifacts remains intact.
+
+Refers to CLOUDDST-7333",2021-12-15 16:36:24-05:00,False
+7ee0a8e3fc5fcd9d87ef98fd888553d3698b5677,"Increase iib_api_timeout, iib_retry_delay and iib_retry_jitter default values
+
+This will ensure that IIB backs off for a reasonable time before retrying
+and will also retry on timeout errors.
+
+Refers to CLOUDDST-14454",2022-08-02 16:10:22-04:00,False
+eaf8565976a2bf765b8eb641f767364f83140940,"Adding ability to create single-active-consumer queues.
+
+- add iib_sac_queue in config
+- setting 'x-single-active-consumer' as queue_arguments (RabbitMQ)
+
+[CLOUDDST-15267]",2022-09-08 08:21:54+02:00,False
+ac06440b219f656436b07b61ca915c8d84fde359,"Better variable name - iib_sac_queues
+
+- add 's' to iib_sac_queue -> iib_sac_queues
+
+[CLOUDDST-15267]",2022-09-13 11:55:00+02:00,False
+34042fbb3d6e5868a1e636c72e0a370f7e29ea7e,"Add recursive-related-bundles endpoint
+
+Refers to CLOUDDST-14678",2022-09-14 10:02:30+02:00,False
+18ce7a17ada48c59f9658644a3675fd6a7418b68,"enable customizations for podman-compose
+
+Signed-off-by: arewm <arewm@users.noreply.github.com>",2022-09-14 14:04:02-04:00,True
+4f518bce8557159db4096554906ce54741a15353,"Revert ""enable customizations for podman-compose""
+
+This reverts commit 18ce7a17ada48c59f9658644a3675fd6a7418b68.",2022-09-15 09:01:24+02:00,True
+5d22b0d5143d179164dcea7de7942af7f84869a9,"Create helper tox scripts
+
+Make the process easier to migrate the underlying database and update
+requirements files.
+
+Also updated the package dependencies to support building on aarch.
+
+Signed-off-by: arewm <arewm@users.noreply.github.com>",2022-09-27 17:04:23-04:00,True
+79529786bb4bf71dfd821a5419a4f910b89956df,"Add bundle_replacements parameter to regenerate_bundle worker
+
+Continuing to add support towards the specification of specific bundle
+replacements to perform when calling the `regenerate_bundle` API.
+
+In order to apply the bundle_replacements, a `perform_bundle_replacements`
+typed customization needs to be set for the organization.
+
+Refers to CLOUDDST-14790
+
+Signed-off-by: arewm <arewm@users.noreply.github.com>",2022-09-27 17:04:23-04:00,True
+0b62b6e5768952631a0db13b9dbf2ee926822113,"Provide correct path to compose files
+
+In #421, I modified the
+context and paths to both go up a directory. That was an error. I should
+have just modified one.
+
+This provides the context to be the root directory so all paths are
+relative to that.
+
+Signed-off-by: arewm <arewm@users.noreply.github.com>",2022-09-27 17:23:10-04:00,True
+6ba014d223fe7c36db98ca7400d2c98490024b44,README.md updated,2022-11-14 20:03:39-05:00,True
+3a6bfeb26e875da27e16d4fa20f4e6faf16fd6d7,"Changing loading of user queue to accept new structure
+
+CLOUDDST-18197",2023-05-02 16:41:41+02:00,True

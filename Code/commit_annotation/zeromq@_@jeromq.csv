@@ -1,0 +1,80 @@
+sha,message,date,result
+b4d07b1c5a3e575253c3507a59fcea458a398308,Initial commit,2012-08-01 02:28:37-07:00,False
+a7a2444ee3da99bd2ce223c3cbb86e3e176b262a,pass test monitor,2012-08-17 17:23:14+09:00,False
+952b73eaea0ed0c7f716e72995aaba2734215ca0,pass timeout test,2012-08-20 18:32:28+09:00,False
+430ab6a9d697cff39a11bb991b1f9b30928f749f,change project groupid from org.zeromq to org.jeromq,2012-08-21 16:13:29+09:00,True
+6316d3cc088a85d053009f675f5363eef54422e7,Use thread interrupt to escape device,2012-08-21 21:04:58+09:00,False
+5b5edfa756a02d44cccaac5cd497bebc60f4e10c,enhance socket termination,2012-08-22 16:10:55+09:00,False
+38d6cbb18d4d580c987a69023add2e241787ab7d,resolve jdk7 issue,2012-08-23 17:28:51+09:00,False
+ec56572a711348cdefbdcceac97ba05c3e42aaca,add tasksink guide,2012-08-30 14:39:06+09:00,True
+fcb07fd34630c54e212c9edefce1080ddd71a3d7,add more guide example,2012-09-04 15:12:05+09:00,False
+48b3cd0faedd6d91858fca6787aa730f306a4be0,"Update README.md
+
+Added reference to C4 and made minor spelling fixes.",2012-10-19 15:37:02+09:00,False
+e772e53a2c235bc8c6dd1098979e233daaa374d5,update pom and readme to apply moving to zeromq/jeromq,2012-11-02 14:03:56+09:00,True
+b181713384fbf920b8b8b21284cd53424821046b,generate ant build files,2012-11-20 09:49:31+09:00,False
+ecccb554137a520cc45a5385c1709d396e256833,remove persistence related code,2012-12-04 13:35:27+09:00,False
+3249bfa213678359424524d057086fc86769b341,update README about 0.2.0 release,2012-12-07 18:30:00+09:00,False
+a6b284f0b5e7f5fb3a16bf79d39d019f706ccf0a,add a pom helper for the latest sonatype snapshot,2013-05-27 12:52:06+09:00,False
+b800bcd82bca18dbcde8dbbff7fc118064e8e227,Add build status icon,2013-11-03 18:08:22-04:00,False
+a2b8a6df9d6c1f3c56472864988db4371fc911d8,"Change groupId to zeromq
+
+Preparing to release to OSS sonatype",2013-11-03 18:19:45-04:00,False
+2f7535c29776b5e0beeb3023f65727a12f0d267d,Prepare for release,2013-11-03 18:40:23-04:00,False
+5f63efbd632d2dad4bd460f799ed7d54e63cf39b,Update README.md,2013-11-03 19:01:10-04:00,False
+c939d883f780278734f62eb49cbeca8b9f508e2f,Update README.md,2013-12-10 16:01:26-04:00,False
+2d658f57a7e2408e3d3b61b32e0e4b0cf21bb6d3,Update README.md,2014-06-18 00:20:50-03:00,False
+4bbd1618f70f553e26dfe2cee3b085c35709f57c,Update README.md,2014-06-18 16:47:19-03:00,False
+054a614deb0c1dfc4bb0a4376706cea9150724c7,typo readme,2014-06-20 20:12:51+02:00,False
+34759d19da8a8388426c0b61f7ef6f559069fe78,Fix issue #176 - Remove auto-generated ant build files,2014-07-23 15:17:41-03:00,True
+217dfecd0c4eb46c2a331613fe413d912247034f,Port JeroMQ to be based on libzmq 3.2.5,2014-10-19 17:06:20-03:00,False
+f35934a73af44ac728d48ebbd386bee054e53c74,Fixed typo in Features section.,2014-12-15 20:44:32+01:00,False
+b3c74634d42bdbe1109ae61e69ca1855e6430870,Aligned punctuation and capitalized first letter in sentences.,2014-12-15 20:53:23+01:00,False
+24350f3faaa9282ce43469d66e4bdec79b753501,Fix issue #243 - Add a copy section in the README specifying the license,2015-03-05 11:24:02-04:00,False
+ccbea33e54d5e0c2cdd9decca36a07c1f5d46985,Update README.md,2015-07-15 14:44:31-03:00,False
+45870895658b06dd8335ee542fdae236f6a9e5a2,"Revert ""typo readme""
+
+This reverts commit 054a614deb0c1dfc4bb0a4376706cea9150724c7.",2016-03-05 11:50:49-04:00,False
+839d310ff38faa07e38de41f5caf97878ce25b69,fix link to performance wiki page - closes #340,2016-09-07 21:14:46-04:00,False
+db323ca544e758ac423f8cc131e9ac3083ae7e2e,update license reference in README,2016-09-08 09:08:06-04:00,False
+a86d88bc040275ccf4eacc853aabb613b21edb68,include copyright in README,2016-09-08 11:40:16-04:00,False
+75865b2960d4807f1a488318e80198900cf26d34,"Add maven central badge
+
+For advertising latest deployed artifact.",2017-01-02 22:51:39-05:00,False
+9df03e0ffa28628844fc02941837f92650671380,whitespace tweaks,2017-02-11 13:43:40-05:00,False
+d318e76c213f0af435fa5d3d22efe303ed7bab39,organize Maven vs. Ant build info,2017-02-11 13:55:40-05:00,True
+67cda8fdca1d511b927faf7ea8a19d3ee058df8c,update copyright year :tada:,2017-02-11 13:57:42-05:00,False
+a83eb53ac24ac9cdb319036806da8ab5c0bfceea,wording change,2017-02-11 14:34:08-05:00,False
+162e87338b0292971726d03c09ce83459e7f1a26,add a CONTRIBUTING.md,2017-02-11 14:34:59-05:00,False
+eda8758b7a7b6ad96c30678c8dbb6242ba11c7e1,update to 4.1.7,2017-04-26 21:46:06+02:00,True
+859e37ba55b75fe63bbed93fb96d175c13020c84,"Add javadoc badge to readme
+
+The magic of www.javadoc.io!",2017-04-26 22:52:25-04:00,False
+891f76899401458581cddfea2d9bf79de0da522e,update of README regarding unsupported features,2017-04-29 00:04:10+02:00,False
+2584f7a6dec3a0b4a5abf1f59fbf85d1a492e936,Update README.md,2017-06-29 09:02:00-04:00,False
+dee64b8e3ac8cac7d2d49768a1cbbd7dfbb63f52,Update README.md,2017-06-29 09:03:47-04:00,False
+2ba5509b6270ea489293862d92d34fab32858f8a,Update README.md,2017-09-12 11:18:24-04:00,False
+637cb8d7356f7bbd9ad00ccbfa22ddc5d7e6a306,add coverage status (coveralls.io) badge to README,2017-09-13 09:53:05-04:00,False
+d22c5b574280ce587b4be69e59b11d03cbea4d89,Update README.md,2017-11-17 14:22:42-05:00,False
+fd532e51339287c7375797ff98c1979a70671dfd,first cut at 'getting started' documentation,2018-05-05 15:34:48-04:00,True
+cd277cbd8b7348be3248e08fa8f8741518796dd1,README update regarding Thread.interrupt restriction,2018-05-05 23:44:43+02:00,False
+2f2899388e9c3e80038d3f60d6bfa18054f0c954,simplify string concatenation in Getting Started code snippet,2018-09-01 20:05:46-04:00,True
+eba431706d5cb561d4407df7ce25604f28a68503,Bump versions for upcoming release,2018-10-30 13:19:52-04:00,False
+7016aacfe7cd6419a755f6309bb52837c4cf5c63,Update README.md,2019-02-18 21:26:43-05:00,False
+5a49fcc9598cfbd2c75f4537a8dd28bc1cc7abf2,Update latest version in README.md,2019-04-17 09:13:22-04:00,False
+9d8180256cc39a113eb3dd1a26a2dcf38e856e5d,update copyright years,2020-01-17 07:43:50-05:00,False
+74f5018bed7b8c1dc7b90b53b2d2edded8012f7b,Fix #788 - Update README to remove build status icon,2020-05-10 11:12:32-04:00,False
+6525cce02aac20de15fdf6a11524ffbe22e00b44,Fix #788 - Update README to use CircleCi badge,2020-05-10 11:14:43-04:00,False
+233937a1d2992053122fbeb8aedf538b4e680920,"Update README.md
+
+Update the the latest release and snapshot",2020-05-10 15:02:00-04:00,False
+b09db1a16efa710c41c392d944ade7e9cd829b8d,"Update README.md
+
+Add Sonarcloud badge",2020-05-10 20:08:00-04:00,False
+274b081c6884d04bb6854ecef3ab348bdc151cc8,Update deprecated createSocket usage in README,2020-09-30 12:56:40-04:00,True
+13dee33117f9d28deb518c66b4fe66fff3d184bb,Remove obsolete hint in regards to the zguide,2020-10-04 11:58:16+02:00,True
+a5b412bd0d49c595e67a408e3b0a8d9dde8e883b,Update README.md,2022-12-03 16:44:37-05:00,False
+ab09780601515ccd006291602361d59e63851d65,"Keep alive handling was not really working.
+
+Updating README.",2023-01-01 21:58:04+01:00,False
+58eeec118e2a62e8abbb353675d7c185b0777bc1,A branch to prepare for 0.6.0.,2023-03-19 10:56:47+01:00,False

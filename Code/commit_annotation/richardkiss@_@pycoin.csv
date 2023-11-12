@@ -1,0 +1,47 @@
+sha,message,date,result
+9a841dd7914f2467c5d970559d3f9dfd285e948c,Initial check-in of pycoin-0.1.,2013-06-24 12:33:10-07:00,False
+25838100c650c6ad135c95a54dcce3c282ae9aa0,Now supports Python 2.7.,2013-07-03 00:58:08-07:00,False
+5072b93614ced57a98ebdbe512fa86efec2e9548,Version 0.13 release.,2013-07-07 14:25:50-07:00,False
+a13d13f150d7ddf2a2eba2417076e36233b50fe9,"Version 0.20 release. Improved signing and verifying code. Add an
+UnsignedTx class.",2013-07-10 00:35:19-07:00,False
+ce6d08bf8188801044fb4f2997fb94d089bffd9d,"Add ""bu"" script. Rename to ""sec_to_public_pair"". Other minor changes.",2013-07-28 23:23:50-07:00,False
+1af8966e9e13d7c518b7fb56ca9897cb8f290a6d,Prep for 0.23 release.,2013-08-10 23:11:17-07:00,False
+ca998c5569ef265ee5a64c19f99cec9359ba165a,Fix typo.,2013-11-22 18:31:26-08:00,False
+99feff209d2e1977caf92338219ea903da2698f9,Release version 0.26.,2014-02-11 14:11:16-08:00,False
+80f6f5d0d464bc44e714447e72d6ba2b2d6368b1,Add BIP0032 warning about public keys.,2014-04-20 01:08:36-07:00,False
+185cb5ba1cb1126382bbda55d48bdbc7b72b48b0,More changes for 0.4 release.,2014-04-27 19:16:54-07:00,False
+a35608a251192e15686f033082fb6254f19b03fc,Drop support for 3.2. Update README.,2014-04-27 22:18:12-07:00,False
+319d62f860cddddf06f515145e43846d3d4c42ee,Add GreenAddress to list of users.,2014-04-29 12:50:20-07:00,False
+c3b6b0d7cf96944dd9b86a3a00ec6c33411def7c,Tweaks to text.,2014-04-29 22:43:49-07:00,False
+b9a9f550326d0e18a9337cba81e27739b4bcd7e9,Rewrap README.md.,2014-05-06 22:54:40-07:00,False
+7fdec82632118d402fbc66d9a1509c0bcb3e8f1d,"Expand netcode to 3-letter codes, add Blackcoin, related changes",2014-05-06 23:52:03-07:00,False
+4d0919260402e05e83ba331c80af83022ca76e60,"Update README.md
+
+Add link to pycoinnet.",2014-06-17 20:08:24-07:00,False
+bf44a65e39285cf2805409fa9f4fd29e933e17d5,Clear out issues in https://github.com/richardkiss/pycoin/issues/45,2014-06-30 11:28:46-07:00,False
+e4bdb2e7f9638d619f93344e4c6d36f2f53e6e2e,Add info about using OpenSSL.,2015-09-13 14:34:53-04:00,False
+eb6525633d8abb947b66c9b2aea2788359c97272,Add Wall of Coins to the list of users.,2015-12-07 19:57:28-08:00,False
+03ee54781966bdbc3788ac596bdb9bbbeb489629,Add support for Python 3.5 and remove support for 3.2.,2016-01-21 17:18:38-08:00,False
+a5000962d2123c3e428e34d07b6dbf20e4886455,"Fix README.md documentation problem.
+
+https://github.com/richardkiss/pycoin/issues/160",2016-01-21 17:26:49-08:00,False
+d784e8a254c423bfcdb3d1398944df7c42ec4714,Rework how service providers work.,2016-02-29 17:52:29-08:00,False
+b488f191579daa8edbb71af1e09f28a6dbc4da47,Update CHANGES and README.,2016-09-21 17:31:11-07:00,False
+d4e5795380bd2bc68837cecf630dbcdfb2edebaf,Add Blockonomics to README.,2016-09-21 17:31:23-07:00,False
+bc3178659899dde92566c4803eb7e9f73634a9cd,Update markdown in the README,2017-03-21 23:35:39-07:00,False
+67455e4f7262616aec78943ee893691f82eeec8a,More documentation tweaks. Remove ChangeTip.,2017-03-23 17:13:57-07:00,False
+3dad10eabd34af2bf526b46577a267ed4390bd21,Remove support for blockr_io.,2017-09-07 14:22:29-07:00,False
+c82ffb0bdc2ab2e5417bcd41c2e2e3b95259e6b9,Drop support for Python version < 3.5 (except 2.7). Fix tests.,2018-02-13 13:09:18-08:00,False
+a2eb444ce281e6869d42844cc7b0e3c2ff781d59,Fix tests.,2018-07-01 13:56:00-07:00,False
+16ed3b010e3ad9862ec9b2cd4f1c0f5b07521bba,Update doc about bitcoin testnet provider,2018-07-18 09:53:08+08:00,False
+acbc70dbf8feb538e42fb959d4fea0fea72055cc,"Test python 3.7, but not 3.5.",2018-07-22 17:06:01-07:00,False
+171a9cd9b0b06ea298062942fe19802a5da61990,Update README and CREDITS.,2018-09-23 14:43:58-07:00,False
+0ced68e6c226bd22d5395c9c41a9b235e33d2728,Update README with codecov info.,2018-12-30 12:44:12-08:00,False
+d1e467bfea5278986932c67b3aea15d262423469,Use codecov.io.,2018-12-30 13:27:23-08:00,False
+de525455007a566df1bcf22a3b76efa1a2234d97,Improve docs.,2019-04-28 23:21:14-07:00,False
+5ae05f8375deaf6fcb91758fcd3134208df5c38b,Add zulipchat link.,2019-06-30 19:51:42-07:00,False
+11f60a7cb7e74e2280ee50f5a3e958becf45500c,"Fix readme, network.keys.private() renamed to .wif",2019-12-12 10:33:21-08:00,False
+354c0dacb8e358c5ded99cd06d818efe48f63620,Update README with updated API.,2020-02-23 12:13:03-08:00,False
+f2e0e03fabc7c39a253651562141014f10acdfb6,"Replaced stale Travis badge with GitHub Actions
+
+The stale (failing) badge on the README was not very reassuring on the status of this projects. That's a pity, since it seems well maintained and build correctly!",2022-06-03 09:07:49-07:00,False

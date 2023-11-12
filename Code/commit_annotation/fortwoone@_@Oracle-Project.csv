@@ -1,0 +1,10 @@
+sha,message,date,result
+092db0bc8906c0f2e5805ff4621ee0322e6b4360,[+] added README,2021-11-12 23:28:42+01:00,True
+126dd0a47187c6d977ebdfad0025da9b32b1b71d,[~] added rights mention in README,2021-11-12 23:38:01+01:00,False
+680298c471c549aed6f7fbe96a7b2e5b583c35ce,"Modifications d'ordre esthétique, collisions des PNJ, évènement de l'Anneau Amitié",2021-11-13 21:01:28+01:00,False
+9f34fef0a19db0d5333e11695feb6bb24b7713cc,Corrected a typo in the control section,2022-01-04 12:57:46+01:00,False
+97703257cad256f66b8350a0519cf31b627ef32c,"Shadow Hag tests (WIP, luring behaviour), version compatibility change, small HUD bug fixes",2022-02-06 20:42:30+01:00,True
+5860b7f5e83b5e19b6285cd54618e52aab470fac,"Level 4's miniboss, Biggoron's Sword while jumping",2022-07-02 21:08:28+02:00,True
+2f82dee2c674b30b2cdcb89550d26f0314d2bdd4,"Game optimisation (WIP, text rendering system (working on prompts, checking dialogue display in the new implementation))",2022-09-15 20:52:46+02:00,False
+480ea3f20728fa09c01643693deb3418cbe6e6a7,Final logo on the README,2022-09-15 21:06:17+02:00,False
+4b36d305eaa7b77d3d641d8eba97de6f45b984b2,Update README.md,2022-09-15 22:33:56+02:00,False

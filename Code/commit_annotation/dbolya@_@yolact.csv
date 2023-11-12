@@ -1,0 +1,71 @@
+sha,message,date,result
+207ef5f57191c006cd48b28c6bc7bbd6139cd66c,Initial commit,2018-06-26 14:41:32-07:00,False
+79d8ff95fe2f12ab3cc362cf10b687dc04bac4cb,Test commit do not review.,2018-06-27 16:34:18-07:00,False
+8ecadad0ceb9cd6a315b224bba82e32510941e8a,Updated ReadMe to log the modifications we're making to SSD.,2018-07-18 17:26:46-07:00,False
+5f7823fe59cfb30787c604e1885598fa02446359,Updated banner in the readme to look better.,2018-07-18 17:32:38-07:00,False
+7b2e7e43093218a4ed8a19338298d2d841752c72,Completely changed everything about the project (ie implemented the things in the readme). I have no idea if any of this works or why the maximum batch size I can fit in memory is 4. This is still in progress.,2018-07-20 21:12:02-07:00,False
+e192780315e9b6ebcbf11fd5498205130711b10a,Updated the readme to include preliminary usage information.,2018-08-29 21:11:46-07:00,True
+f9f3e93f6e214313ad2bdc85784609a177f303b9,Fixed ReadMe (Added one package and moved cython to its own line).,2018-09-10 19:58:28-07:00,True
+eda029402730f014c5816bb23f2adb1c54ae094c,Created a script to mix different datasets together without having to copy images. Also added config settings and readme instructions for trainval35k and minival5k.,2018-09-11 22:09:24-07:00,True
+297091c4efacbab1b3bd5e16305ac6f8ea6c62e6,"Completely changed how we structure our training data. Instead of keeping the data in two separate folders (train2014 and val2014), we keep them all in the images folder together. Also images are now stored with 2017 filenames instead of 2014 (so %012d.jpg instead of COCO_train2014_%012d.jpg, etc. To account for this, I redid the COCO data downloading script, and we now treat the 2017 annotations as trainval35k and minival5k.",2018-09-14 21:23:29-07:00,True
+d0fb99a610c64440d295b14e8c56ba7f080fce42,I put the precise data size in the Readme. That'll probably help someone out.,2018-09-14 21:55:22-07:00,True
+be8caabc50e1d385489f829708cf1aeb098cbd55,Added resnet 101 GN support + 3 configs for it.,2018-10-16 22:53:49-07:00,False
+2f6422f98d221cb784289a7cf09a3c140044fb49,Cleaned up the readme and added some example images.,2018-12-12 23:38:07-08:00,False
+743149cbfdb22b91ee8b3243c58e855e4b37d0b0,Updated readme for Pytorch 1.0.0,2019-01-26 22:53:17-08:00,True
+72a40465f6e50fe1c86d72f6e4db19039f6de22f,Changed the default batch size to be 8 because why did we keep it as 32 for so long?,2019-02-11 18:25:38-08:00,False
+9c7d003695139b547e801477d8ea61087c788128,Updated images on the readme.,2019-03-12 22:37:00-07:00,False
+f263d1be5f7586c41c46c8f6f5deb2b920c66a7a,Cleaned up some stuff and removed that extra layer from tweaked_scales2 because it didn't actually do anything. Remind me to turn strict weight loading back on layer.,2019-03-20 17:21:30-07:00,True
+d6c26ff6e135da1d55feed4ca8cd34c0b5d4b08a,Updated the README because apparently we're publishing now.,2019-04-05 15:39:49-07:00,True
+5c40986b9ba4023d2eb46487bfbda5c9d7b4b7bf,what happened to the table,2019-04-05 15:41:24-07:00,False
+d8228f2de8fb4e80a936072ff28b9c98a0375c7d,Added a temporary config that I want to test.,2019-04-05 21:51:28-07:00,False
+de8ddb87fb5829e3f28df83baca797f51385b0de,Uploaded all the weights to Google Drive.,2019-04-06 18:35:28-07:00,False
+022cd3e7c23ff4395bdbb75b2c884e00fc0e934a,Added citation and contact info.,2019-04-09 19:51:57-07:00,False
+dbb5651dee018f10648a69460ea1d313608bf224,Added mirror links to the readme.,2019-04-29 21:47:45-07:00,False
+a0d9f6eb4a123988c362abd802c57390828420b0,Added webcam support.,2019-04-29 22:12:09-07:00,False
+d8ddaa1a157f8d162db54751a7ff4373614515b5,Added support for custom datasets! This might have broken some things so be on the lookout.,2019-04-29 23:42:53-07:00,False
+ad167c0a72169b68a0e68ea7bcd0e6b0b9e53834,Updated readme and fixed a bug where --video would crash if no detections were found.,2019-05-13 11:53:29-07:00,False
+b39f6d913d7cb70b6a55c5d9cd59f6ba066e8de6,Added labeling instructions to readme,2019-06-25 08:04:13-07:00,False
+866ecf4cecd8cfbd1a8f6cde29f0a4a93558e433,Updated the readme and fixed a 1.0.1 bug.,2019-10-25 02:39:36-04:00,False
+530415ff8a3f8f97b8deb58508ea74c84ea147b2,Changed citation and fixed wording.,2019-10-25 06:32:05-04:00,False
+2d5bef153506c3a8313e2e3a043a64c939ca37ee,Fixed the links in the Pascal SBD section.,2019-11-09 09:31:45-05:00,False
+ef56a8d1ed5daf4c8d3973f098180bc9b3b09bcd,Release YOLACT++,2019-12-06 10:53:33-08:00,True
+33912fb1056fedbbcac8c9cd1b1e357bbb12df7d,YOLACT++ clean up and full release.,2019-12-16 21:13:16-05:00,True
+117921a0b2a82cf7b2fefca3d0055acaf8e934c1,"Dependencies installed through anaconda environment.yml (#280)
+
+* allow Anaconda to manage all dependencies
+
+for easy setup.
+
+allows to run
+`conda env create -f environment.yml`
+and have working all dependencies for the project
+
+* temp fix for torchvision bug
+
+needs Pillow < 7.0
+
+* document additional requirement: nvidia-drivers
+
+* add dependency for KDE - PyQt5
+
+* Readme: mention conda env method for installing dependencies
+
+* fix cuda GPU versions
+
+add note on matching CUDA package install
+
+* Rewrote the README changes to flow better.
+
+* conda: review feedback: torch-gpu>=1.0.1
+
+as 1.0 is not enough, some needed feature in 1.0.1,
+conda has 1.2, 1.3.1 versions anyway.
+
+* conda: add cuDNN, use pytorch channel
+
+all versions of CUDA+cuDNN+cudatoolkit+pytorch now match and work
+(are compiled) together, on host only needed to have/install
+nvidia-driver
+
+Co-authored-by: Daniel Bolya <dbolya@gmail.com>",2020-01-24 17:03:49-05:00,True
+57b8f2d95e62e2e649b382f516ab41f949b57239,Update the citation of YOLACT++,2020-09-24 09:56:58+08:00,False

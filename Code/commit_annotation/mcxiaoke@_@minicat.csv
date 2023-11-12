@@ -1,0 +1,32 @@
+sha,message,date,result
+e013b0adea7fdc4d172e2c18e427488fcdbc896e,add readme,2013-05-08 00:11:14+08:00,False
+c0ec6ff79a64d0864b79fa7e3be849d0ddcf66a5,add license,2013-06-09 23:23:54+08:00,False
+40c0fb47ef1b5680665c8be932e0342e5ed32efd,update readme,2014-07-02 15:39:28+08:00,False
+9bd4a44db144a9f9cd94f60b82aa6dff99045bf7,Update README.md,2014-07-06 18:44:59+08:00,False
+a60d695c45693bd4bb205ec676b499e15da6bdcc,Update README.md,2014-07-06 18:47:52+08:00,False
+02880ee6ba3b060f701f793999bc57a4b4e169fa,Update README.md,2014-07-06 18:48:41+08:00,False
+37d603faeab15a806c4eaefb098d61b7e67f076c,"fix gradle build, update readme",2014-07-07 13:11:59+08:00,False
+db7ee58c421790681ebc06c893d54c9e95a32ab9,"update readme ,add gradle.properties sample",2014-07-07 13:30:51+08:00,False
+e67fc1d0563d5bfb650fe2ec2ff98ad3c2d4e6e9,Update README.md,2014-08-12 13:09:14+08:00,False
+bbd9e444c741f5ae7fed24d3d1956d192b3635e8,Update README.md,2014-08-12 13:10:32+08:00,False
+e2c78a5570ce4516b4297ca5305cc9e7c57696bb,Update README.md,2014-08-19 16:05:07+08:00,False
+56985f098d1ce9754917f490ba36e4bf84a764b7,Update README.md,2014-08-21 10:49:54+08:00,False
+53e2ea567e42e059dcda9ad32a1eef5accdf7908,update readme,2014-12-01 14:48:49+08:00,False
+722c3883af06cddf629c8fd1e6eadbb21bd1aac0,fix readme,2014-12-01 15:14:35+08:00,False
+0d27bfa3c1d48a0d3cf97ed435edc94f6d109b2d,release 1.3.1,2014-12-02 15:55:08+08:00,False
+b9dd1dd848702fd99761a95b43e7364368612aae,update readme,2015-03-05 11:57:47+08:00,False
+57e9c9596e73a7f02548bc8713da5fc06081d441,fix gradle build and update readme,2015-08-06 11:43:36+08:00,False
+77e508629a1f060ef25aa566a2038e89b3754012,"release 1.3.2, uploaded to play store",2015-08-19 13:07:35+08:00,False
+23ee1020a7d453238f2aaded48271c5ef8c07135,update readme,2015-08-19 13:13:22+08:00,False
+188832c06e91b29c29154701a94727e5a0b5e998,update readme,2015-11-27 17:35:34+08:00,False
+501a8adc5fc293b5dbc151f9750132e9c5d1fb78,Update README.md,2016-02-06 11:41:19+08:00,False
+8307278efd4cb92f42ac55e071214b03f95c10c5,version to 1.4.0,2016-03-09 17:09:36+08:00,False
+8bcd4e8e6b12a26d227a7f79bb4feaa78ba58be2,"add apk, update qrcode and readme",2016-03-09 17:41:35+08:00,False
+0ae5fa02f1668a0a8979777cffbb64e6274f65c1,"update readme, release 1.5.0",2016-03-10 14:06:38+08:00,False
+86a1dcd19a7958cd4077311c49e1d8e27b8e5383,"update readme, release 1.5.1",2016-03-11 10:42:39+08:00,False
+4919fd32da0aa4ed350dd3527ac1ae6f46777261,"update readme, release 1.5.2",2016-03-11 14:38:31+08:00,False
+20c7ca5b4609ec4144cf07e57cbbbf78b775a53b,"fix click thumb not working ,release 1.5.3",2016-03-11 17:41:41+08:00,False
+3f6c7e50141d484d35ce2a85361a04e5ecc379a6,release version 1.5.4,2016-04-21 17:24:14+08:00,False
+20bbfb42eb11bce17439f7415710aac08fd30075,"minor fix, release 1.5.5",2016-04-22 17:59:41+08:00,False
+43ea7bd79400dcc5abb518c375cd759712b4fcd1,Update README.md,2016-04-23 12:09:19+08:00,False
+7eb699eb1aeacbe267ad34aeaf4ea9500cc159f6,Update README.md,2017-04-05 17:55:24+08:00,False

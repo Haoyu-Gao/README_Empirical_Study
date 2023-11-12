@@ -1,0 +1,82 @@
+sha,message,date,result
+601b1183762cfef09b2b635ec4cd6e13267ba6c8,Initial release,2015-01-25 19:31:27+09:00,True
+25135836e8d36b9ee7e9a9af73dcfad70c72c38b,Add instruction to use this library with Gradle,2015-01-26 14:02:31+09:00,True
+b1338d0098e889a81260fcb116f3777674acbb92,Add banner of the Android Arsenal into README,2015-01-28 01:40:26+09:00,False
+1a1a30fa66c9392039b04cf5b848b854a1a04e03,Update README file,2015-02-02 13:13:28+09:00,True
+78af88807b757c0ef5a2967d1ef2cc2511c35c28,Update demonstoration video link,2015-02-03 18:52:36+09:00,False
+7905bb0966595e0b854b95bf357b0dbbf1b10dcb,Fix a typo in README,2015-02-04 20:38:09+09:00,False
+6b761bf1841883d38677668a75567a662ebf767a,Update README,2015-02-10 23:39:54+09:00,True
+bb8e00b14ef0b5c0f76a379e62ac2dab2e211cab,prepare for 0.6.2 release,2015-02-23 16:36:29+09:00,True
+2ab6180b01648a0c545c01b9441fbba2bd2dea9d,Bump version 0.7.0,2015-05-11 00:37:44+09:00,True
+e1bb859d44c3e0f1aa9abf2888b5e6acc560af82,Bump version 0.7.1,2015-05-20 23:33:11+09:00,True
+d3e6b28ef0df62a7cc5168913e3f78c4698a95e4,Update README and RELEASE-NOTES,2015-06-18 00:22:23+09:00,False
+a3afcb7e11a775c1dae1972802a484586843f3bf,Fix the instruction of Gradle script written in README,2015-06-25 18:10:02+09:00,True
+e311e99095ca7ae410fcb38c30caaec12f946e34,Prepare for release v0.7.3,2015-07-27 11:32:31+09:00,True
+c631d6c38ccc43698a5fb24188d233068d041391,Prepare for release v0.7.4,2015-08-01 16:05:11+09:00,True
+bc7713f64e3ab2bf565bd2f55e1c13ad3e1da0de,"Improve the getting started section, mention the AARLinkSources plugin",2015-09-10 08:20:00+09:00,True
+95c16e04fd3fa8d899ab26faa712af6a38fcab35,Tweak README file,2015-09-10 08:23:57+09:00,True
+ae5d5be65e9e1c7d4b07d846bf30b7217af7c6ac,Bump version to 0.8.0,2015-10-03 16:46:13+09:00,True
+b9fe6b27313e8b0ab31c8911f425ca012e8cd616,Bump version to 0.8.1,2015-10-12 23:18:06+09:00,True
+3020d0ff821c155fb86aff942e67a2f7a5316b68,Bump version to 0.8.2,2015-10-17 21:55:22+09:00,True
+bd3e7a79acd788a8e6d644f9048b8a8bb4f407f7,Remove notice about Snackbar from README,2015-10-25 13:52:09+09:00,False
+e997b9acade593629dbfcb70b1244629805d7d57,Bump version to 0.8.3,2015-10-26 23:51:40+09:00,True
+f01d88232091448f12e08c790805b39434e46ff5,"Remove the section of AARLinkSources in README. (#139)
+
+Android Studio 1.4 has native source.jar resolving feature,
+so AARLinkSources plugin is not required any more!",2015-11-03 16:43:05+09:00,True
+c1956339d7370f9e2e415f8d71f167a9bb53028a,Add jCenter latest version badge,2015-11-03 17:36:13+09:00,False
+88dcc9e8e4491b0e82455c24f964e5a6f3780cbd,Bump version to 0.8.4,2015-11-04 23:35:57+09:00,True
+acad25b01f7211f45b1e3a8f9860bcb40c0344dd,Prepare for v0.8.5 release,2015-11-23 21:48:52+09:00,True
+ac3b4e65df9bd38b9d5864cad6368c0e3b578957,Update Google Play DL badge,2016-02-01 07:05:50+09:00,False
+37bdceafe1c9348e6a2d1b78962dc26e9df647a3,Prepare for v0.8.6 release,2016-02-08 08:24:29+09:00,True
+af78b276766a725e9eb33adc8bec1f020383a5d6,"Add ""Other example"" section to README",2016-03-27 01:17:17+09:00,False
+c98df59852f14bc8e14045693b983aa29fd6e929,Prepare for v0.8.7 release,2016-03-27 09:48:17+09:00,True
+eb6c9454bd04c1525da2b56acbf215f9491619ce,Fix example url errors in README.md,2016-03-28 22:01:34+08:00,False
+d9264bb4e992762c2ce90a6a2f99c4d3228add40,Add StaggerdGridLayoutManager demo,2016-04-03 12:25:29+09:00,False
+7acb96ca855022bbe32db03c410166744ce0ecd5,Add onCheckCanDrop() method demo,2016-04-10 20:12:11+09:00,False
+331e95aa00115d6efdbe7b6f124a2bae0334ceb7,Prepare for v0.9.0 release,2016-05-08 13:31:08+09:00,True
+0a6c6a1216445a713d094f3638465f451b87e84c,Prepare for release v0.9.1,2016-05-17 23:28:38+09:00,True
+abaf1da47986bf610de3dae64528c17e983b8298,Prepare for release v0.9.2,2016-07-03 20:09:22+09:00,True
+9558bd4c64220673758bdd6b6176676600e9acaa,Bump version to v0.9.3,2016-07-31 12:48:14+09:00,True
+c253ef247079973b1e42549c94e77f8bd831fd3f,"Make dragging item appearance controllable (#193, #292)
+
+These methods are added to RecyclerViewDragDropManager;
+
+- void setDraggingItemScale(float scale)
+- float getDraggingItemScale()
+- void setDraggingItemRotation(float rotation)
+- float getDraggingItemRotation()
+- void setDraggingItemAlpha(float alpha)
+- float getDraggingItemAlpha()
+- void setDragStartItemAnimationDuration(int duration)
+- int getDragStartItemAnimationDuration()
+- void setDragStartItemScaleAnimationInterpolator(Interpolator interpolator)
+- void setDragStartItemRotationAnimationInterpolator(Interpolator interpolator)
+- void setDragStartItemAlphaAnimationInterpolator(Interpolator interpolator)
+
+Also, the `DraggableItemAnimator` is added. Using this ItemAnimator
+gives better item animation if using drag and drop feature.",2016-08-14 15:51:33+09:00,False
+99d4afe9c92259d94833856946b7b4a7da718646,Bump version code to v0.10.0,2016-10-24 23:35:00+09:00,True
+c295d89b85f79c4b0984357e85d640b84e4246cc,Bump version to v0.10.1,2016-11-27 00:00:01+09:00,True
+07ed9c7d8aeb76a9055b5a8e734b1ef955f77060,[README] Change syntax hilighting mode to Gradle,2016-11-27 10:46:42+09:00,True
+a93cd05132c75fbcce2efd48ba2f0296bb78e270,Prepare for v0.10.2,2016-11-27 10:46:57+09:00,True
+8c0fd19be2471e1c1c47579b7ca2bfda1ab1b334,Added method count in README.md,2016-12-07 09:16:12+05:18,True
+a38643fea206b980d6f47101f3eb45b770452c28,Added method count in README.md,2016-12-10 23:54:01+09:00,True
+67251caffbaa6647ddc7fc0b95ba4f50511deb7c,Bump library version to v0.10.3,2017-01-21 18:34:28+09:00,True
+2b59665fb09a1c59caf794b9f239d35526b5667e,Bump library version to v0.10.4,2017-02-25 17:03:28+09:00,True
+11134851b5592a42385f1f12b893eff6b0e79bc2,Prepare for release v0.10.5,2017-03-25 13:26:01+09:00,True
+8a604c8e0292faa2b49e743e28bb21642c71f8db,Prepare for v0.10.6,2017-05-06 15:01:33+09:00,True
+bdc792988a374ddb5f178f95574a1c44c97e1b47,Add a mention about pre API level v14 on README,2017-09-18 18:03:22+09:00,True
+c21ffddec6c914a99ed7134d84353370f6f59052,Update README,2017-09-18 21:21:03+09:00,False
+37bfd27837e8973978e577e1b1122a8b081c820c,Update README,2017-10-09 23:57:29+09:00,False
+5db7aaa64eb7301162eef4ec977217cd7e8abafe,one missed reference to api level 9.,2017-10-17 16:24:44-05:00,False
+fa8a672a419cb76e4cc0d9ccd65c272590b61256,Update README (clean up and add official site link),2017-10-29 15:28:06+09:00,True
+6c6235abaf1b9f00a8bd7a9367f2ebee328d3293,Bump version code to v0.11.0 (29),2017-10-29 19:52:19+09:00,True
+7113256bd353e689832339745a3dd7bc3af65b35,Update gradle configuration syntax on README; compile -> implementation,2017-10-29 20:49:25+09:00,True
+c199ebc686a69173ada32a186da690c2a2aaa3f2,Update methods count badge,2017-10-29 20:57:19+09:00,False
+d8e170050eb976bb1e0f2b60d55e55c75bb2ff02,"Remove methodscount badge and related code
+
+Unfortunately, http://www.methodscount.com has been terminated
+and fat-aar-plugin is not compatible with the current build system.",2018-10-07 14:56:29+09:00,False
+c350a08d8c88e40d7d6f77284c757c32996bd2b8,Bump library version to v1.0.0,2018-12-16 18:54:07+09:00,True
+5213b003748cc2010d73d8c6c3193deb2bbf023e,Update README (migrate to Maven Central),2021-02-07 21:56:41+09:00,True

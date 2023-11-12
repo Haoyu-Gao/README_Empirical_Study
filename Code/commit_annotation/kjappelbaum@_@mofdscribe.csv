@@ -1,0 +1,41 @@
+sha,message,date,result
+11fc6284644a38f305e930501917ece6501ae50d,feat: initial commit,2022-03-18 09:17:03+01:00,True
+61377bdd612243a75f76aee78082e2e95fccae4f,wip: adding some more boilerplate,2022-04-17 18:43:33+02:00,True
+27811b1af01b4ff4879112ceda879edd9983ab6c,"wip: basic racs scaffold done, linting",2022-04-20 09:15:19+02:00,True
+1cbad676d88554f89b2dfeeb67bc3b5905668f0c,feat: racs seem to work,2022-04-20 13:42:11+02:00,True
+111a83d58bc59b2e5282572e686e92396fa0bd8f,add logo,2022-04-24 14:13:26+02:00,False
+710b31f36ccbe52b7040ad31ba20bcc4e397b19e,add logo,2022-04-24 14:16:06+02:00,False
+3f4097e89db604aacd72863d2734387f5c2e662d,larger logo,2022-04-24 14:16:44+02:00,False
+2f3d91ea6303e75944e042036c93de31828d2b88,larger logo,2022-04-24 14:18:03+02:00,False
+8edd55fe042666fcfd9b5775a7c25c6788ba41c9,fix: closes #38,2022-04-25 13:49:54+02:00,True
+befe6d4103fafec8c1981c05664840d2b31999b9,fix: tda issues,2022-06-04 11:26:07+02:00,True
+b77f302eba493a62b2845758314cc11bcf2c6202,chore: removing lint,2022-06-16 13:46:34+02:00,False
+ba89a4d11ef2ef1f41c38826d5e2af69c6c77828,wip: working on docs,2022-07-31 11:38:47+02:00,False
+b4352edb3b91167ee75bfe8609485f1c9216131f,chore: installation instructions,2022-08-02 09:31:50+02:00,True
+1f2a88d780198bb6e94c7220408ea538f5856307,"docs: add note about cgal
+
+#277",2022-08-04 04:35:44+02:00,True
+0f5c1e6f92e6ff715ffcf28a261ec39f9e2bc415,"feat: fixed subsample, remove lint",2022-08-04 15:27:51+02:00,False
+882b9098dcd71fc50f0b220a6bf4a44de4aa4964,Fix tutorial import for RACS,2022-08-05 21:45:11-07:00,True
+6200f3578755668d2d27e3278e0b2d5f381ef932,Shorten getting started import for RACS,2022-08-05 21:48:15-07:00,True
+01ef6851485d473c78c8756983c887ae136f1203,Change `IStructure` to `Structure` in README,2022-08-05 22:36:08-07:00,True
+a43d33fd47636afae0c5b666e85d69b0f7fb6146,"docs: add note about OS
+
+closes #278",2022-08-06 13:24:43+02:00,True
+009c52edffcea13b0e78ac973eba62a86ea30109,"docs: add commitzen badge
+
+[skip ci]",2022-08-08 13:10:49+02:00,False
+9301a2cd3e42d8126c1c34208b75828bdabf5a2d,"Clarify install instructions (#346)
+
+Co-authored-by: Kevin Jablonka <32935233+kjappelbaum@users.noreply.github.com>
+Co-authored-by: Kevin Maik Jablonka <kevin.jablonka@epfl.ch>
+
+[skip ci]",2022-08-29 20:22:44+02:00,True
+15a313bc1940caff2636de68efae3bef3018a9f6,"docs: add ChemRxiv
+
+[ci skip]",2022-09-01 10:57:07+02:00,False
+b3650ca4316a9b17810bf797abc63a97cd75adda,"docs: add cgal note (#277)
+
+[skip ci]",2022-09-12 12:53:56+02:00,True
+437b5739ce4d18ccf7934f2e9280a3960d99c7f4,docs: update installation of diode,2022-09-12 14:06:27+02:00,True
+73a9242e8ad59fd996745f5e9d677e8df1909b42,change default logging level to `info` (#415),2022-12-19 00:34:40+01:00,True

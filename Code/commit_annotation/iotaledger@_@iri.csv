@@ -1,0 +1,165 @@
+sha,message,date,result
+f52d16723c78502110dde4b9662676707174aa94,Initial commit,2016-10-25 00:06:06+02:00,False
+c24a84d32baafae7bbd16d11ce62181dc5529df6,"fixed mavenization, refactoring of API",2016-11-01 16:24:08+01:00,True
+2a615c407ad9fd547eae901c96504f0a581a6e70,Small fixes to readme,2016-11-02 16:59:53+01:00,False
+c8f8b19f6ff8a786da9f89548a80ac1a6b1845a0,"Upgrade to 1.1.1 (#7)
+
+New snapshot file, updated milestone, upgraded to 1.1.1",2016-11-27 00:37:31+01:00,False
+a0a14030a5a9f567e7a29028161f9086a46729b9,Update README.md,2016-11-29 21:58:12+01:00,False
+d9e7d84e854157d4ea8665ae38c6f9192784b791,Testnet readme,2016-11-29 23:49:49+01:00,True
+154be61d42cd1786f39714a4e53713c096827e32,Updated milestone,2016-11-30 17:54:24+01:00,False
+7d70aebe8720c062de160aa6508e9b160a081264,added flags specifications to Readme,2016-12-02 23:16:18+01:00,False
+d69f9ed4715e37730bc79786370159ad4c80c432,updated Readme,2016-12-02 23:26:10+01:00,False
+cabeed54834fe2fce740434a7d5fba678817722f,Fixed conflict,2016-12-07 00:59:37+04:00,False
+b427f791eeb931e4595487d2019197dbfb9bf4db,Small fix to readme,2016-12-07 01:00:58+04:00,True
+3ec1b6b53060793398471648ed44d57fa122c18e,Add Travis badge to README,2016-12-10 15:34:10+01:00,False
+1e4909a366a4fd05da77f0f13c18a34738baccc4,updated Readme,2016-12-12 13:20:01+01:00,False
+702d85730b5a6ce0881e990d1bffde39cbeeb9af,1.1.2.1,2016-12-12 19:38:54+01:00,False
+a83d3e2b86147360958f0f9d219d00baade953a7,Updated README,2016-12-14 12:08:24+01:00,False
+66e2f8ff2a1ea69ed59bdadb2e57bfe299db5ae4,Updated README,2016-12-14 12:12:16+01:00,False
+dc8fced95eff0b3c2d2645af47850ccf47f941a7,Updated README,2016-12-15 11:51:32+01:00,False
+577f2ad2db561a4044cbf9a81beae15da599d2ab,Version 1.1.2.3,2016-12-23 13:41:09+01:00,False
+632a20f32cc590b447b43b28d4aeb5e5fc72bf23,"1.1.2.4 (#36)
+
+* Enabling (--remote) access.
+
+* Updating PearlDiver
+
+* UTF8 logo. Support for Repeater.
+
+* Fixed regression on attachToTangle
+
+* API statement log counter
+
+* fixed debug parameter bill
+
+* Version 1.1.2.3
+
+* Threading issues in PearlDiver.java (#35)
+
+* Thread safety and thread coordination
+
+* Update PearlDiver.java
+
+Indentation with spaces instead of tabs
+
+* Obviated the bitIndex loop
+
+* Updated milestone counter and snapshot (#45)
+
+* added a new flag (--remote-limit-api) to restrict remote api access
+
+* fixed responsechannel handling
+
+* added pd unit test to dev
+
+* Update pom.xml
+
+1.1.2.3 -> 1.1.2.4
+
+* Update README.md
+
+* Update IRI.java",2017-01-17 10:57:10+01:00,False
+56c4d673a650be6ebfa8fcc16fcd14b1b192e07a,"New version number for ""Latest Milestone Tracker"" bugfix.",2017-01-20 15:36:03+01:00,False
+c2bd2fcc4808aff743857afdf1676b0694258b7d,Testing pull request #53: Filter out tips below depth on transactionsToApprove by paulhandy,2017-01-20 22:59:24+01:00,False
+94fc00cc5194c61a9011680b31452dce8af01380,Changes to TipsManager.java by CfB,2017-01-26 11:53:02+01:00,False
+9956d79ff83c22b967f148d528a3cb7c39e6ae0a,see changelog.txt version 1.1.2.4-4 testnet,2017-01-27 14:13:52+01:00,False
+312ad29542baee7719e402de85c681405bd4539c,version update,2017-01-28 11:44:18+01:00,False
+ca033f107734f2d4bfbd115d937408aed8690646,Update version number,2017-01-29 20:59:48+01:00,False
+58ae3409b0eb697a8828d442657b02b083b95bca,Cash depth info. Limit transaction validation to depth+1.,2017-01-31 10:41:24+01:00,False
+8aa7ac3ec6567b42122b1120e2af66aaa92ca9d2,"Reduced Logging, Simplified PearlDiver Thread Synchronization",2017-02-03 08:24:49+01:00,False
+78741d9d0c74f890e0fccf657c7113fd58c7e90d,Handle temporary not solid condition,2017-02-03 10:48:15+01:00,False
+a68fe98a7330a512898f517cc0de9c449e0f15d6,Merge with dev branch. Fixes in tip selector.,2017-02-07 11:21:49+01:00,False
+f1e7a4c571b8d6d4cabab17e9d9a44e9b4cca0ff,Version number 1.1.2.7,2017-02-08 16:06:06+01:00,False
+52ce0b0ddcf124590cf6329daa7711e21cafecd1,Update version numbers,2017-02-10 21:25:29+01:00,False
+dffcaa018190145fb8afd2ad20f0e1af83df9357,Added timestamp filter,2017-02-12 18:02:23+01:00,False
+2152a31374b81239695d584dbe57cb291671191f,Updated version number to 1.1.2.10,2017-02-14 10:32:24+01:00,False
+6f24a5b78e37228c7b8193bda3bcea8fee61b89e,Upgrade to version number 1.1.3.2,2017-03-13 17:04:52+01:00,False
+0f476430299482e3d8e6ea1098174cbf12d83e8c,Testnet Release 1.1.3.3,2017-03-30 08:06:35-06:00,False
+e07c1899fd2355d6fcc48adb8c1bc091c98e8c66,updated tags to 1.1.3.4,2017-03-30 15:28:11-06:00,False
+91e8dc62be6a53fa1539eeb0346c58776012eb91,Incremented tag,2017-04-01 12:19:22-06:00,False
+d541fdafecea71d0fbac1ecf0caf8be83beef4fa,v1.1.3.6 for Persistent Milestone Snapshot,2017-04-11 23:14:08-06:00,False
+ec2e8897a30270d92fba8c31d16b99be46d845a8,Version number 1.1.3.7 / Some adjustements of README.md,2017-05-10 18:27:54+02:00,True
+49fd46bd9953a92045a35abcca4ccd725bec3c2a,Updated readme,2017-05-10 20:58:28+02:00,True
+64fadbed80c5e54276bf473aa24fd8476a869da0,Quick changes,2017-05-10 21:02:46+02:00,True
+7434ad25187ae31df0d8d9f5b15081bf767c4d7c,Example INI file.,2017-05-10 21:04:01+02:00,True
+894ced1c8e1126e2859450e80832f6e26f57a851,Bumped version # to 1.1.3.8,2017-05-12 10:50:40+02:00,False
+61b4e83a6b45b90b023ce2b57c19e66abde960e8,Bumped version to 1.1.3.9,2017-05-16 11:20:33+02:00,False
+6a48f362a2ecc0891fd6124829cb9b92679493bd,Updated flags,2017-05-17 15:50:29-07:00,True
+00e8f2a7cd1b1ac0a850be6794221b09ffe2f238,Updated to 1.1.3.10,2017-05-20 09:55:30-06:00,False
+bf6229bbd4d5e7d58b2f025b9cb409ff1c3ca9de,v1.1.4,2017-05-31 13:58:07-06:00,False
+4d09e77f480068531d672a011ef5be2fc568b3d0,Add instructions for running IRI,2017-05-31 23:29:49+02:00,True
+37eb5260ef54841169f58625301dad8c9ace3376,v1.2.0,2017-06-09 11:12:39-06:00,False
+67631cea6ad5446339ebcb27e3ecb6e2d42184fb,Update links,2017-06-28 01:07:49+08:00,True
+f2ee9b01b74e422927ba2a096dba8614b115015a,version 1.2.2,2017-06-28 09:06:14-06:00,False
+9dae9eab88afa0951ab1c3ecb6ed9d954ec7954e,updated readme doc,2017-07-07 17:30:56-06:00,True
+42f419267c56266c723885a0e3f13f60c417e0f1,updated readme doc (#218),2017-07-07 17:33:26-06:00,True
+1856dac31625269041a57ab3e7ac9897c72f1c11,updated readme version,2017-08-08 15:58:34-06:00,False
+b31ac5acf667c348f494f9802dfa3e79041a9225,updated readme version (#261),2017-08-08 15:58:55-06:00,False
+163ba47c2d08986fcfc08ef105f22aabd326fb38,readme: updated ini description,2017-08-08 16:08:53-06:00,True
+8b179d26795eb8f710c6245ccea68db7cd98ffc8,v1.3.1,2017-08-09 19:05:25-06:00,False
+25d79dffb60e235b49697669f8027c2d31c3257f,readme: updated ini description,2017-08-12 07:31:06-06:00,True
+5b846ba1e1ed8c8ebad0dd874401ae1a94cb3156,v1.3.1,2017-08-12 07:31:07-06:00,False
+996b4031521691e7bbe63eda6eda3bea10eeb194,docker: updated readme,2017-09-05 15:19:27-06:00,True
+945c326edbc00b86d74b7308d9c54784f184d68f,re-add readme updates.,2017-09-12 02:19:32+03:00,True
+c0d9f7caef483b97fc87cfce6a7d05097cbc2026,removed commented milestone deleting block,2017-09-12 08:28:26-06:00,False
+21ec4447cbb0e4d2c7ce32ca44c2cc3e364ad306,"wording fix-up
+
+not sure if that is the correct fix, but reads better",2017-09-17 14:41:59-06:00,False
+9e6a570f9f18be5dfa3239ae029c5a556a652f8c,v1.4.0,2017-09-23 03:46:34-06:00,False
+2be30cfa4e777d140bca2e9d48d56a37813c8334,v1.4.1,2017-10-23 14:28:47-06:00,False
+acfbc76f39c785aa0914f8bcb6745f34d8f6511b,Update README.md,2017-11-10 14:42:21-08:00,True
+03ac9c4897c9716a0ad1400a48fb5f341df1e2b2,"add --dns-resolution-false flag to readme. 
+
+- Appended --dns-resolution-false Command line option description to the readme.",2018-01-06 12:21:23-08:00,True
+cb69f467744db4c52429b647824da5863c6501f3,v1.4.2.1,2018-01-29 01:51:45+01:00,False
+373db72f30bea7214a27bd30d9367c287713b370,"Replace Slack with Discord
+
+Replace Slack link with Discord link",2018-02-08 22:30:36+01:00,True
+d90bfb127b425abc0e59235b39044d930efc0880,"Add IOTA forum link
+
+Add IOTA forum link",2018-02-08 22:34:05+01:00,True
+fee959ccbce5da0289cb54451994a0482c52305c,v1.4.2.2,2018-02-23 21:21:55-08:00,False
+1bd5932556c5eb4417b873a8a2a117857b61c6c9,"Docker: useless `-p` (publish)
+
+You don't publish ports if `--net=host` (`--network=host`) is used",2018-04-02 16:54:29+03:00,True
+be5027d0e8f6c0484fb8e335d4d7ec8a4fdf036e,Add readme repo status badges (#622),2018-04-12 01:11:32+03:00,False
+43b739729e721e18de4726310f7f33d53c97033b,"edit readme (replaces old) (#731)
+
+* chnages as per reviews
+
+Signed-off-by: footloosejava <32090281+footloosejava@users.noreply.github.com>
+
+* Added backk codacy and build status icons at top
+
+Signed-off-by: footloosejava <32090281+footloosejava@users.noreply.github.com>",2018-04-26 11:15:51+03:00,True
+6f8d3dceb1bddcfd2be2e86f0ee3224bd77d739b,Update version in README (#754),2018-05-14 10:23:54+03:00,False
+dda05dd31fc2d09af550df02dd02a80a9d5d836f,version bump v1.5.0,2018-06-20 12:30:33+03:00,False
+ea341ac74ceb79459d1f4f80d6a6933d5fb94c53,Create README.md,2018-07-07 01:54:01-06:00,False
+122d5c99ced20c76c1fb3338e114714b7b97ec73,"Contributing guidelines (#947)
+
+* Adding contribution guidelines
+
+* Linking contribution guidelines from readme",2018-08-27 08:12:57+03:00,True
+5375f8229b9c696c1ec14901be9101d319ab6a14,Update README.md,2019-01-15 09:22:14+02:00,True
+bfcce42dd8e39629f7ded88c19058a05c78aad4a,Documentation: readme links fix (#1355),2019-02-27 14:49:03+01:00,True
+a800ece3315fd58a639ce16adb5f06e5c020bfb2,Documentation: Updated discord link (#1516),2019-07-14 12:01:47+03:00,True
+80e317126a17d85795534d288cf1a5bc7d7e290e,Documentation: Updated links to official documentation (#1560),2019-08-04 09:48:16+03:00,False
+7ee5b4a73a734bac84732ed2e60bd6ab06a6aec4,Documentation: Update README.md (#1617),2019-09-14 16:35:57+03:00,True
+6a39b56204d4bb704e5bbab241396ca9c666379a,Update README.md,2019-10-11 15:56:09+02:00,True
+3c3360ac35ef23bf4e400aae29b4202f9445c159,Linked to proper docs for config params,2019-10-11 16:16:29+02:00,True
+83395b33c05eae7d04368ad075cb3cad5bbacfaf,DB_PATH value changed to default in README.md,2019-10-14 10:06:02+02:00,True
+c6aa3157f6c16e308e7c093771d0d8608717de59,"Documentation: Update README to use latest template (#1756)
+
+* Update README to use latest template
+
+* Update README.md
+
+* Update README.md",2020-02-20 21:58:02+02:00,True
+8282e9ae2ab5d1e926f7201f88e2dfd52722ddff,Documentation: Removes references to JavaScript (#1767),2020-02-26 17:29:24+02:00,True
+9d969981dc2121575289bbe36584553afa996d2e,Fix: typo (#1782),2020-03-04 22:46:08+02:00,False
+acfc37c0a408daf8acf0b911d5f90e88d8044057,"Update readme to encourage users to use hornet (#1870)
+
+* Update readme to encourage users to use hornet
+
+* Update guide",2020-08-03 10:24:39+03:00,False

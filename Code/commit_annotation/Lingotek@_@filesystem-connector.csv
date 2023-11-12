@@ -1,0 +1,55 @@
+sha,message,date,result
+c155acaeb97272ac0d3e681fddc7748ad033deed,README.md edited online with Bitbucket,2015-10-19 19:41:23+00:00,True
+00122eda014ccd50caa7047a6cecaa01574135c4,"auth stuff, api log level",2015-10-23 11:42:52-06:00,True
+e265ca2562ef12ff500222787cbebe9325365752,updated README and other text,2015-11-10 16:31:04-07:00,True
+9d3cda3bcab1ca445c90e6c94e695ed0c1db7707,updated README with video,2015-11-10 16:38:39-07:00,True
+279b36980930d4a8c4a7a381080f955abf4cc4ae,README.md edited online with Bitbucket,2015-11-10 23:40:54+00:00,True
+920b2cd1af96f2ba2ad07d710dcf8902490f0883,README.md edited online with Bitbucket,2015-11-11 15:52:22+00:00,True
+84fcd427bb89eb11050cf88ce350cc9c196ab338,Update README.md,2015-11-13 16:36:05-07:00,False
+fd1167c3a4e6ec66e7f3d4ef651da9a962383088,Update README.md,2015-11-13 16:38:16-07:00,False
+b3f552087baf9b7f8e0d97197fe9b21d1a68467a,Update README.md,2015-11-16 11:05:10-07:00,True
+c49aa242719455522bc06d609803b974672278c3,Update README.md,2015-11-20 11:27:03-07:00,True
+72fc9a339f68734ee0ade3d1480d5d25a5507811,Update README.md,2015-11-20 11:28:29-07:00,True
+b56c6768a39cc054c1e512e166773b89b4b6134e,Update README.md,2015-11-20 11:29:47-07:00,True
+4d466d6308c343237f4d64d3976f054c9c3e2e1d,polling for watch cmd,2016-01-27 17:07:55-07:00,True
+a603cf446a440d8ed5964ff4da44f0719b8631cd,Updated the product name to Translation Utility.,2016-03-29 10:01:20-06:00,True
+69e1789808f4ac1ffdcaf92984727667ede45b79,Update README.md,2016-04-13 14:10:31-06:00,True
+b3a2fd40a23c3a61f1fc18c7a3a75bac3cad1fa4,Updated name to Lingotek Filesystem Connector,2016-04-25 09:39:22-06:00,True
+9fa240b9804ad53fb6021f228604a08165d10776,Minor README update,2016-04-25 09:42:49-06:00,True
+6a73b8f3790d9fb7ad00b50355ae3b5ea815d471,Update README.md,2016-06-06 11:52:49-06:00,True
+ef422af80e854ff1a6f2d7517860453931f3278e,Update README.md,2016-06-06 11:53:10-06:00,True
+2332f222b64c47969244f06f7e091dacce2c7d4b,Update README.md,2016-06-06 11:54:36-06:00,True
+0ddfbebf8c34c1526e1ef50a8bc43dc0e5adf849,Update README.md,2016-06-20 16:31:30-06:00,True
+5efcdd25c0dc79a2bee55a607710c3e78b610538,"Update README.md
+
+updated tutorial video link for 'watch'",2016-06-20 16:51:08-06:00,True
+f3887daf647d7bc9fe82b5af6a52a35ebd8ea8fc,"Update README.md
+
+fixed video URL",2016-06-20 17:02:25-06:00,True
+6e6c049b800a5c612debc5e4b312d7afa1da185a,Update README.md,2016-07-15 10:12:03-06:00,True
+226b31121f5c331aafed00992307a65cafc1e0a8,Update README.md,2016-07-15 10:15:04-06:00,True
+348cd2a0fd438f134a9b9fd38eb9be4f2027e41b,Update README.md,2016-07-15 10:16:01-06:00,True
+7f20770a0a61c886095187dce2e2195a916232fa,Update README.md,2016-07-15 10:16:24-06:00,True
+f2c0d8b2ca476387de9aba127cfd92166389ad85,update README.md,2016-07-15 10:45:28-06:00,True
+5c960bd8534334934e0b15cbc1a1ae8f5d77215a,"Update README.md
+
+Moved the link to other helpful installation notes to a more visible location in the document",2016-09-19 11:32:45-06:00,True
+24f885d532e6b4e905d2428e384c24c1cbba22b0,Update README.md,2016-09-19 11:35:31-06:00,False
+7c269e9b103dcb4b82b8bc989371b0389f3b294f,Update README.md,2016-09-19 11:35:58-06:00,True
+44f0da46d470e59850189f1dbd60b6b7221e3f15,Update README.md,2016-09-19 11:37:03-06:00,True
+0196a99932954c2b5568b3275ba943ac78b7f6fd,"Update README.md
+
+Added note that python setuptools is required and directions for installing/ updating.",2016-09-19 11:42:47-06:00,True
+093ca02ea8d00dd335f9d825259c667baa12b8b3,Update README.md,2016-09-19 11:50:28-06:00,True
+6e67dc90fdbfb5af1d5de106eee9b10057ed2b13,"Update README.md
+
+Moved the link to other helpful installation notes to a more visible location in the document",2017-01-19 11:30:39-07:00,True
+0c4af996a3be3c99e46f9c7ae48cde790b94a3d8,Update README.md,2017-01-19 11:30:39-07:00,False
+c88fb66c0847ca3cb66d3d59f0e3460fa72a753d,Update README.md,2017-01-19 11:30:39-07:00,True
+4d95b12675ad4d997cac5367ba22467f1fc49cb4,Update README.md,2017-01-19 11:30:39-07:00,True
+9bc0094e76ddaa2ec621dd85f461e2375decf83b,"Update README.md
+
+Added note that python setuptools is required and directions for installing/ updating.",2017-01-19 11:30:39-07:00,True
+215050ba77e905aefd6f34b4aa1bcbb8b8d1e2b1,Update README.md,2017-01-19 11:30:39-07:00,True
+4ae4fe294836ac3391bc9e3335c2c3b779ccdcd9,"updated version tags to 1.3.4, added release notes",2019-05-10 10:11:23-06:00,False
+b442f579e4eaf037c42e04540036ed79d35dd9bb,fixed typo in README link,2019-05-10 10:24:56-06:00,False

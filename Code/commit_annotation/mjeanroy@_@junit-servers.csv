@@ -1,0 +1,33 @@
+sha,message,date,result
+65bd4bea207f30d93a249472b0df4b3b141e241e,doc: add README,2014-08-19 14:06:50+02:00,False
+c86b4e27fe872c2132b8913b604b9184da993d39,doc: update README,2014-08-19 14:10:26+02:00,False
+29801402f7398c77a2ed5017705447efff6e08f3,docs: update readme,2014-09-08 21:23:58+02:00,False
+464049d26d16f08298c007a09aa671b7c9fff24b,Update README.md,2014-09-08 21:28:05+02:00,True
+6f9874d2adf8bfe8486451624c63e021e4612435,refactor: use configuration and builder object,2015-01-13 23:06:08+01:00,False
+5233200da8e080b3c368818907ea2fc1de9660ca,Update README.md,2015-01-18 21:27:56+01:00,True
+73ccd0237b66823ff0f62dacf2014c622c9b9e48,refactor: rename annotations,2015-01-23 15:24:10+01:00,False
+18cd694727191f717b72b9dbdb9ea4629750d93d,doc: fix README,2015-06-01 22:01:44+02:00,False
+838bce70c7afbc969cff2850c50af89105425465,docs: update version,2015-09-29 11:52:52+02:00,True
+a76bb2d067c04188a3638ea441ba07834e866e3d,chore: add badges to README file,2017-06-11 18:38:43+02:00,False
+6a9015ef17d3304e1f3a1a10e70a55670650ff46,add support for parent classloading and jetty jsp example,2017-06-12 00:07:31+02:00,True
+e3385d317d6b9ac46e20e2c281201b9369e344d4,feat: add tomcat support for overrideDescription and parentClasspath configuration,2017-06-18 11:24:16+02:00,False
+0210570e0c4173749c547de4394da1ac2186f5d6,chore(docs): update README.,2017-06-18 16:02:12+02:00,False
+66a4c5c28c8aec8f78d001d8d35f0a135405fd12,chore(docs): fix README.,2017-06-18 16:03:12+02:00,False
+bfdb00ba851f9335a314a3aeb300788681e40d65,docs: update version in README,2017-06-20 10:49:51+02:00,True
+ba89a9a2ad94c9c5426485c656a25a1dfdc1ebfd,"feat: allow preserving tomcat base directory on server stop (#6)
+
+* feat: allow preserving tomcat base directory on server stop
+
+Keeping content of the base directory can sometimes be handy,
+for example when third party application packaged as war is required
+by the server under test. In my case it is gitblit which is unpacked
+by maven in generate test resources phase and then gitblit is started
+via junit-servers for my application integration tests.
+It is much more efficient to preserve tomcat directory between restarts
+(even when some small housekeeping is necessary) than copying over
+megabytes of jars to temporary directory between gitblit restarts.",2017-07-10 21:54:02+02:00,False
+ad9067c37ac61199777f28f94176ec89537d480a,docs: update README,2017-08-10 20:52:20+02:00,True
+ae9371f84cc467bc1c9a3f8c174bf46af2786ac2,docs: update README,2018-08-23 15:02:08+02:00,True
+e4c530faca64a2d35f84a5555110493c2ced5c2d,chore: rename jetty module to jetty-9,2022-12-18 14:27:11+01:00,True
+9899f3a2bd97615f3eab6bbce2a3085ae5212c42,refactor: rename modules from '-tomcat' to '-tomcat-8',2022-12-19 16:46:46+01:00,True
+55b178ddaaef0f6cdefa3226a92b4dbd3249882e,Update readme,2022-12-26 21:05:14+01:00,True

@@ -1,0 +1,77 @@
+sha,message,date,result
+7fa9a55a1ee4a15f2e8e13c71f87c8d73cef1ddc,Initial commit,2022-10-14 13:02:01+02:00,False
+9d9c7960c9bd493d59218c00991692235255269a,some progress with musicbrainz,2022-10-14 15:23:47+02:00,False
+c92ae213cf2fe0f4663a00d787c1c8ff4456d355,added documentation for the fetching of metadata,2022-10-26 08:14:05+02:00,True
+4a042e40f0885df829486db7dcedfc0b1749cea8,added documentation for the musify autocomplete api,2022-10-26 08:42:50+02:00,True
+5cb2dff5c3741dd993b524b7e292fa0b3e91ae2d,started refactoring completly,2022-10-26 17:37:20+02:00,True
+64477d61fa9ccea7b3f29199979326e47f55fb23,asddasd,2022-10-26 17:42:11+02:00,True
+8e1c375a61efc1633113d9f486b874c3db62da97,"Revert ""started refactoring completly""
+
+This reverts commit 5cb2dff5c3741dd993b524b7e292fa0b3e91ae2d.",2022-10-26 17:47:28+02:00,True
+ecc0c72cea5671114a52a1fdb7b60ce111d82252,bugfixes,2022-11-06 23:01:03+01:00,True
+8801ce18872f9e3cabe5094296ac0ba1f9d23276,fdsafafdaf,2022-11-07 15:04:08+01:00,True
+b6071c586379e3c8b34f37660fe3cfd6d78a14e0,added documentation for the lyrics fetching,2022-11-14 15:54:36+01:00,True
+9a83ef6ed6171d0649befbfc7af7544168a947d4,continued dox,2022-11-14 16:44:36+01:00,False
+c6d0acff9bb3219f96fa368fef9e3c6b71188e56,restructured slightly and addet skript to upload to PyPI,2022-11-15 00:27:03+01:00,True
+9ff398e3bc4a11cdcce024c82230a6a1f847dff8,documenting the use of the tool,2022-11-15 10:52:54+01:00,True
+594fabbed6e43d37ebbe393610cbc599d6ed4dc5,new build and upload,2022-11-15 13:36:45+01:00,True
+031838bc210ee6c51eeab56c3b5b33c8a07288a5,new build and upload,2022-11-15 17:01:17+01:00,False
+dd3ab8c3795e1a0180d70026cea3d975e0801148,new build and upload,2022-11-15 18:19:46+01:00,True
+4f2373e168c8db9b1dda74aa54c0e8465e2f56af,documented new module structure and fixed up readme,2022-11-16 10:30:00+01:00,True
+92b48a8f139fe0741775f6be36c4bcc0313f659d,improved copyright,2022-11-23 08:37:56+01:00,False
+eb1791bf9ee7d2b0d59caaaa7c36a4ea86a68b30,documented more,2022-11-23 19:15:55+01:00,True
+7c00bd4c841e02d1e254138f41bbd8edc7eaf370,"Update README.md
+
+added notes for WSL",2022-11-23 20:07:31+01:00,True
+cc775c5006327e051d5dabcd641540fdc1a7232b,"Update README.md
+
+sda",2022-11-23 20:08:48+01:00,True
+5edc621e6b8e27980adb4c6f01d83f004f41dd18,"Update README.md
+
+sad",2022-11-23 20:09:56+01:00,True
+e825b87a916d5dbb71b480c5e9063f550042a86b,"Update README.md
+
+sdad",2022-11-23 20:11:11+01:00,True
+398811f1c590dfbb1573e4254f216f363db38ad4,"Update README.md
+
+adfsads",2022-11-23 20:12:38+01:00,True
+f35c0076cb239bb89da3686ec3647b5614e9dd1e,Update README.md,2022-11-23 20:13:16+01:00,False
+2f56c8881f48ca26993fb597cf0da11268792f2d,adsf,2022-11-24 09:20:44+01:00,False
+749b6f9eb8a5493531c571f8b9ba8e16c4498c01,readme,2022-11-24 12:10:00+01:00,True
+0d7fd4496c5191db9e52cb7e779298c17d55aa25,updated readme according to previous refactoring,2022-11-24 14:51:37+01:00,True
+068918feda97f25efb07b09ef7c08d05decf54e9,refactored some more,2022-11-24 14:56:51+01:00,False
+63b814c22823ff2006372c763763865557f7f136,refactored some more,2022-11-24 14:59:34+01:00,False
+9f6a365a5eace42a30888a4f0908261efceeee79,temporarily finished the documentation,2022-11-24 15:42:50+01:00,True
+3355483417acbccd97b3cb133f44a4dcd3038d7e,cleaned up readme,2022-11-24 15:55:50+01:00,True
+3840b3ea0603d7a035c95c04ab0f9679303e5717,added toc,2022-11-24 16:03:53+01:00,False
+ec3619ae8b70859590d4098f124f613eca3842f2,fixed broken link in readme,2022-11-27 10:14:55+01:00,False
+54f2352a9ed85113f996bb716877519cf5bc46f5,updated readme,2022-11-29 12:23:36+01:00,False
+94a0ad653737763317dd70b066a035d0803b805d,updated readme,2022-11-29 12:29:52+01:00,False
+87f4e661480faa5401e41c0d8ca0a00ce70cf131,added length do db,2022-11-29 14:16:36+01:00,True
+a39b5c5f7cf20c729c0cbb933787a49a8788dc28,"Spelling fixes
+
+I love the idea of this project, I just found some minor spelling mistakes in the README :)",2022-11-29 15:09:29-08:00,True
+54a4be29ea5a43bb893718dc4b0e55572c60747c,fixed readme + id3 timestamps,2023-01-13 14:37:15+01:00,True
+d9925aea536651472206845af7ee985cd58d4a8e,fixed readme,2023-01-13 14:39:43+01:00,False
+c28abdd999b7dfa9a0cb195a5d66b78069d4e9ad,started new documentation,2023-01-23 16:57:00+01:00,True
+65ccdee2cb674adcd0fec45ca8a95da9ffd3797c,yes,2023-01-30 23:54:21+01:00,False
+5b25aa2cc12b82bf517ac9b1a36fbfd0f090eae1,added contributing info,2023-02-06 09:44:11+01:00,False
+1f3487af64a1c35489ae551269cde8f8754a3d1e,extended readme,2023-02-07 12:00:54+01:00,True
+9878cdbfc9135a37b68f2a204dc947ed948492b0,updated readme,2023-02-22 18:56:28+01:00,False
+04c5266f43aed7ff81d2c2fb4e1999e5c276e2ce,fixed logo,2023-02-23 12:17:41+01:00,False
+4178994d4878ffad863e69ba186ab9a848d5609b,documented the underlying Data Model.,2023-02-27 14:21:19+01:00,False
+6f830adb85866a8b1541a11349a38cc41e5f97e8,Update README.md,2023-02-27 14:23:56+01:00,False
+8926704b583d2ef8e93d88eaaa2ee5a0373b12b4,Update README.md,2023-02-27 14:29:09+01:00,False
+af5949220abbb5d2fb5e365339d7aa3ceb5b225c,Update README.md,2023-02-27 14:29:27+01:00,False
+04ee037f452cc887ee02a6cd98ada737f8dd4774,Update README.md,2023-02-27 14:49:12+01:00,False
+18ca904dbf2c278d2706ad6b39dac6dd94ae3806,started flow chart,2023-03-09 16:14:38+01:00,False
+c01dfd00d9c75ad57e63cdaeaa8df7bd2ffa2f85,refactorings,2023-03-09 22:14:39+01:00,False
+53f1254231301c6d8f198ef1548504164670aa40,doesn't throw exceptions,2023-03-10 10:54:15+01:00,False
+3a7f3aee6ee9f52c245505c8d0d09c0ea91eb3a9,flow chart,2023-03-10 11:09:05+01:00,False
+be454bb91a9fea99ab4ac44d337cec39f54b2415,continued documentation,2023-03-10 12:36:28+01:00,False
+b56dcc59531eea89731139628c6a4a10dc9e9e31,Added basic pyproject.toml and started on unit tests,2023-03-12 14:16:44+00:00,True
+85c38ea7d577bbe5f9e0ce075f13ea06f1e24872,continued documentation,2023-03-13 13:58:24+01:00,False
+652a9cfb3b88828b2ef2c7b01d21a0194d0dc5ff,Update README.md,2023-03-13 13:59:15+01:00,False
+73e90e467e69506fd30d7b0118a3aa97a00a7a90,seperated old implementation from readme,2023-03-13 14:14:25+01:00,True
+d685827fb5d02873900295e8a7edcdd0ed119288,edited readme,2023-03-24 10:45:00+01:00,True
+6d2a7469fcdb9259396f87d49271d26f4b1d8914,modified diagram,2023-03-24 19:07:37+01:00,False

@@ -1,0 +1,60 @@
+sha,message,date,result
+6e8c6b8df3295464aa6b6304558f5326ebb1cb53,Some updates,2013-11-08 17:16:48-05:00,True
+5dfe7eb6e8a506886aefaead9bb51b11c1c67360,"updating the README file. Saved the old one, for now",2014-07-29 09:58:32-04:00,True
+81ea5fb3b9cc0ce55dbb72ec53a37c8f63509563,README formatting ...,2014-07-29 10:00:36-04:00,False
+0e18cec1aa8d88c990a1d47842e4a08ba1ba6a2c,I am now testing whether 'fit_par_file' contains a section. This should fix #6.,2014-07-30 16:42:46+02:00,False
+29228a02d3965551ac9a7dc7c61c93b4343e12b9,Fixes issue #8.,2015-01-23 19:16:12+01:00,True
+0c585269c5858bd7c52f29083df290994eeca8a1,Small fixes,2015-02-02 14:33:28+01:00,True
+7243bea724cb764e4a7ef15be2dffef40c05e09b,"Bug fixes and changes in plotting style
+
+Fix bug where selecting for N nuclei selected for HN nuclei as well
+Change plotting style of CPMG and CEST profiles
+Add residuals to CEST and CPMG plots",2016-09-29 18:02:24+02:00,True
+90c65eced7a0116005cb0689fb04c687ffe9def6,"Bug fixes
+
+Fix bug regarding the fitting protocol
+Fix bug affecting the conversion of parameter names to associated section style name when the parameter name contained the minus symbol (e.g. multiple quantum terms named like G23N-H).",2016-11-02 18:01:59+01:00,True
+70c09b9c48a9d58a1a5cfad3d193966a0cdda0e2,MAINT: require matplotlib 2.x and update style,2017-03-30 15:00:47-04:00,True
+4f1b592275fcee25410f56c01acdb34c7d8efe64,MAINT: update required packages and Python 3,2017-03-30 15:00:47-04:00,True
+c3161e1d71d04197e1593bfe97fccd5004bb62c8,Update .travis.yml,2018-09-13 17:37:22+02:00,True
+13c7e299117f5c5ac1c3b7cd3a811f82db3d17a7,Update 'Prerequisites' in README.md,2018-09-16 22:59:08+02:00,True
+421ef40917f452b0c7e469169582a23504101280,Update README.md,2018-09-17 14:09:41+02:00,True
+5eef76efea5f83871d3f8315cb1d064031bd34d2,Add Codacy badge,2018-09-17 13:50:15+00:00,False
+61272a31e02bc816a3c25958d4c2615f9c52b534,Update README.md,2018-09-25 16:03:51+02:00,True
+10e45255cf47238db806e5ae55de588adb4be428,Update Trvis badge in README.md,2018-09-29 16:02:40+02:00,False
+ca24d7b7fa737d622ec70956944f5bd8dd2de11c,Drop support for python 3.5,2018-10-11 17:32:08+02:00,False
+c2cc26447091e576b1349e8432f9a07458c077f0,Reformatting,2021-07-20 18:34:16+02:00,False
+d7d7a3c404c521cfad20a71cffcb707179b1e5e9,"README.md edited online with Bitbucket
+- Latest version requires 3.8, not 3.7",2021-07-20 18:34:20+02:00,True
+352d2805d2a28759f612951deed76d30d0ad6997,Update README.md,2021-07-20 18:34:21+02:00,True
+df1c55324cbca9cc633badf8e1fa9dc64f46102d,"Add the first version of the website (with documentation) (#65)
+
+* Add the first version of the website/documentation
+
+In addition:
+
+- Remove experiment description and config files
+
+Since sample configuration files of the experiments and the experiment
+descriptions are now available in the website, they have been removed
+from the main chemex code base.
+
+- Add DNA/RNA atom names and scalar coupling
+
+- Add circular shift to D-/cos-CEST plots
+
+- Correct some examples
+
+- Correct `statistics.toml` formatting
+
+- Move from Levenshtein to rapidfuzz
+
+- Fix bugs due to new Rich version
+
+- Change license to GPL version 3
+
+* Add GitHub actions for the website deployment
+
+* Correct links in the documentation
+
+* Add github action to publish to PyPI",2022-09-13 17:33:10+02:00,True

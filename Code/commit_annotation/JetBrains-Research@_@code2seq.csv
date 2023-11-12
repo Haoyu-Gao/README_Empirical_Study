@@ -1,0 +1,15 @@
+sha,message,date,result
+bb8e1555867546088174437efe4c65e333c48604,Initial commit,2020-06-23 11:43:55+03:00,False
+fd66b1170d7f3789ef7628d25ed820446c9baebc,Add badges to README,2020-06-24 12:22:06+03:00,False
+7cc2099296c8c6f29e62517e870e778d30dc9405,Add JetBrains Research badge to README,2020-07-02 20:46:00+03:00,False
+df43a55b0a4ce10b03a3a3a1e4415ccabaa2c3ac,"Added to readme ""Work in progress""",2020-08-20 11:54:16+03:00,False
+6009998de7e4e93e07a418c1ccd5dd14b1ab294a,Add instructions to run scripts in README,2021-01-13 13:44:44+05:00,True
+b98dac5e6e4f876a3da0feafe99931af445735ad,Update config structure,2021-02-26 17:19:19+03:00,True
+7f13b714e3a40e0b373cf8a5fcdc0f299010404c,Update readme of repo,2021-03-01 19:20:47+03:00,True
+c3449dc65836604c58ee9d20cb2538029b4c47f0,"Refactor data modules, update requirements.txt, move configs to root",2021-08-17 00:36:42+05:00,False
+3b269f10431ade17535352fd7a6c22f180d78079,"Refactor model modules, change entrypoint",2021-08-17 17:01:04+05:00,False
+2ad9c72c89d9f24fc1633bd3059fc9e29f8dfd7b,"Rename global package to src, update configs",2021-08-18 13:34:34+05:00,False
+4afdf8c2df52151f9bf569fcf0f434ae97593456,Back rename,2021-08-18 13:40:05+05:00,False
+381a6f1f6af3c9dca3b3e630e9ae4215343962d8,Update version,2021-08-22 13:17:57+05:00,False
+42b6c8abac3e49fbcd4c4427043c21584e643563,"Add checkpoint links to readme, update code example",2022-01-11 18:31:39+03:00,False
+62c95d07c0d941d3de1d8913c109610f3aa6daff,Add info about dataset miners,2022-01-11 18:37:06+03:00,False

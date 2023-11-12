@@ -1,0 +1,33 @@
+sha,message,date,result
+10d6984f8f85cec615aeaa5ff74ed944cf6b1dbf,first commit,2013-01-13 21:08:35+00:00,False
+06b8fa96f6f78922e061190d5969a857017dffe2,Added a project explanation to README.md - finally!,2013-10-09 15:59:24+02:00,False
+004d60d187af572ba4dea532861d43e8ff35a0cf,Updated all references to the correct Book title name,2013-10-24 08:08:36-04:00,False
+a6f478266f2be83b6694224a74948f0d94e273c7,Renamed projects (project name only) in line with chapters.,2013-12-21 14:13:35+00:00,False
+30ddbf064e888bdd362081e5cd457216cb13641b,Fixed project name formatting.,2013-12-21 14:15:46+00:00,False
+9067816f57f1a6cbd03423e70c4913ff31c1047e,Added links to book and authors,2013-12-21 13:05:28-05:00,False
+51fac148ecae3b5befa00068610b850151dbf6ec,Added Java and Maven prerequisites.,2013-12-22 14:25:42+00:00,False
+6594fc6f699ac2ada404420502e436ea85d9955b,polish,2013-12-22 10:24:15-05:00,False
+22db6257de6a259233efa91a29675f379cc4f414,Updated code to run with Camel 2.17.0,2016-03-31 12:53:49+01:00,False
+17b44337ab1f4c1c8095553c24005a38f885d3a3,Upgrade to Camel 2.18.1,2017-01-14 09:06:36-05:00,False
+5705c396b080c1fbbb6cc4d11e4296963031d427,Updated to Camel v2.18.2,2017-02-05 09:37:19-05:00,False
+4aa53b7f7ab41d2b6b9bb9ccf3782282f76fadaf,added @christian-posta to Copyright,2017-02-07 06:03:55-05:00,False
+de745c3b7fbbcfa70793eb02d3bf9ea2148782bf,Added build status,2017-02-25 09:20:11-05:00,False
+8b72ff4ca0a0df6454294d2a9d073a642a3393d1,Added build status icon,2017-02-25 10:37:49-05:00,False
+99235ef9d91717d72f279d9862f7a85326cefe03,Update README.md,2017-02-28 14:08:53-05:00,False
+e797734f9771adf2c56cadedf72a4254ac5b8c40,Updated README,2017-02-28 14:17:08-05:00,False
+672fa6732360bb6bafe4d4a132788141f3c26e6d,added @christian-posta to copyright,2017-04-22 10:50:16-04:00,False
+78fac6f084cb3b85120bb49aa806d45140d6a82f,Added build status icon,2017-04-22 11:04:29-04:00,False
+f62a0e31a76cc7c1b1bb956439d98384507475aa,Cleanup backport of 2nd_edition changes,2017-04-22 11:26:34-04:00,False
+fd2fa670bce4ec46934446e68527239cf18131f6,Updated README,2017-04-25 07:28:59-04:00,False
+a92f7dbccc17adf38811aa60b33f2d97085db528,cleanup,2017-04-25 08:22:00-04:00,False
+21095e3b66174b4a472250830bfcf8d94f0d3149,Fixed link,2017-04-25 08:38:35-04:00,False
+0333c1010cb7c8413dc945d8b22dbb26c40698a5,Fixed link,2017-04-25 08:47:49-04:00,False
+8694afe3213af3bc25a4d713aef93a724fa36525,Fixed link,2017-04-25 08:56:44-04:00,False
+da9068146e61d3a3ed7e09d5b9559aaef4af01e9,Fixed link,2017-04-25 08:58:41-04:00,False
+f2d03eea1e87dd5c98ad5e8c178cdf38cb739bac,Fixed link,2017-04-25 08:58:54-04:00,False
+773ccefd4c07d70d87dd194584423b45d84dbc4d,add waffle.io badge,2017-05-25 07:28:15-06:00,False
+9f8b5fc0af6329c78e8f7b8f65076cf5f6e9f9e4,Update README.md,2017-05-25 09:29:33-04:00,False
+6f016a44c8a4e29afafd7a72ad40d791d9133a1c,Update README.md,2017-05-25 09:29:43-04:00,False
+1e37709222e9bcc6f09bd3b4eb0ac30981848589,Updated to latest master snaphot,2017-07-05 08:02:11-04:00,False
+53e17985d3102bc1db2bba7632120971df9d54d1,#94 Renamed project directories/modules to include chapter number prefixes.,2017-08-23 13:13:04+01:00,False
+28885d743efcf0ff6598fea5aafa3078d12a2497,#94 Build fixes; removed redundant README text,2017-08-23 22:30:39+01:00,False

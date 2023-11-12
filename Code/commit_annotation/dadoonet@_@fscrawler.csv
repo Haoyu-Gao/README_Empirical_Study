@@ -1,0 +1,2635 @@
+sha,message,date,result
+2d2ef5e2f70b9f9400541c3a2b8b80f9a71aa061,Initial commit,2012-06-08 19:14:45+02:00,False
+8978b291f99f2059320c55c580700bceba442b88,Add cloudbees build status,2012-06-13 22:37:23+02:00,False
+110999f3e7b8e48c10d08d3102d7107f1637d9db,"We don't have to manage multiple feeds as we can create as many rivers
+as we want",2012-06-14 18:12:17+02:00,False
+109db6919e381bb424f7a511a8bbfd04f9b33bc9,Add more documentation about usage,2012-06-15 16:05:06+02:00,False
+330478ad5dd36c208ae89379d19cea57c681776f,Fix typo,2012-06-15 16:08:05+02:00,False
+1587b55fef6b6957917c560c691b832a76754347,Fix Typo,2012-06-15 16:10:30+02:00,False
+d466b271d4cc45caa4adab786dfdccf015e1049a,Add link to Put Mapping API,2012-06-15 16:12:48+02:00,False
+66e26ec59b7905e1371998e21f0f94166373c7c2,Add a warning on usage,2012-06-18 21:20:48+02:00,False
+8cfbdf2598957cd843275bc3995207e6aca7dbe3,Update to ES 0.19.8,2012-07-10 11:32:03+02:00,False
+8b85686166eec901733b5c278c42d90632216b22,Prepare 0.0.2 release,2012-07-16 22:34:15+02:00,False
+d14e8e3dfc23aff176dfc77e65c50032731350d9,"We exclude now the attachment plugin from the fsriver plugin. Users may
+install it before creating the river plugin. Fix #3",2012-08-08 22:53:21+02:00,False
+aae86ed537cd6dc4e7da86e92bb4fa76bd951bb8,Add License,2012-08-09 08:07:02+02:00,False
+efe58d73f6614d8b490495992375aa36d1856274,Move to markdown format,2012-08-09 08:22:35+02:00,False
+3fd7696d8ccc37b0d3ae7ff60c495a185bd1bc6a,Move to markdown format,2012-08-09 08:25:34+02:00,False
+a2752edfccb75a470706a90d6db73cf5bc2f74a0,Move to markdown format,2012-08-09 08:31:20+02:00,False
+ca1fbe959a053d9a93238f2995f148eab442246c,Update to Elasticsearch 0.20.2 and mapper 1.6 Fix #6,2013-01-24 13:55:07+01:00,False
+170ef73a76934c7b19dd734c2d3e7316857a1c35,Add support for native Json files. Fix #5,2013-01-24 15:57:31+01:00,False
+deef872db7327afdd701d9f78e9f8ac3ad7eccc8,Fix github download issues,2013-02-12 11:12:57+01:00,False
+46ef78b6d081432623bd32dbfcebbef59c46ceaa,Update to Elasticsearch 0.20.4,2013-02-12 11:24:02+01:00,False
+7da0561d501d60e7029afa3b9004861db8f33363,Release 0.0.3,2013-02-12 15:00:24+01:00,False
+87cace8d1ee3bead2eee6b574816434db003af07,Update for windows users,2013-02-20 20:02:54+01:00,False
+1a19f857143e3a3f645a3bc4f277034ada939c84,JSON docs option is from 0.0.3 version,2013-02-20 20:04:47+01:00,False
+dd115c195af1b066096896f4de1152d31b2cfde5,Update to Elasticsearch 0.21.0.Beta1-SNAPSHOT,2013-02-25 14:41:50+01:00,False
+6b607dcfa1de0eaec1a69b5b335ae9bebcb65049,"Update to Elasticsearch 0.90.0.Beta1
+Closes #9",2013-03-14 17:58:32+01:00,False
+2fb04c6f32d6338978fac8124f3ed10376681089,"FSriver error when ""_source"" is disabled
+Closes #10",2013-03-15 12:16:10+01:00,False
+3f595fd2ccc2a26cf10b85f777805a0037e4fc9f,"JSON support: use filename as ID
+Closes #7",2013-03-15 15:10:16+01:00,False
+357bea2164d30fb0dc1b4db266d705aa26bcfe59,Add test trends,2013-03-15 15:13:11+01:00,False
+a3650937fd69351db2c112318d093d63222a22e2,Prepare 0.1.0 release,2013-03-15 15:40:45+01:00,False
+138321c0550c3e0c0725b4f76c0591351728b0f5,Fix typo,2013-04-05 18:41:21+02:00,False
+5b82ec52df530b698760a7a694264bb8f77b20cf,"Add filesize to indexed document
+Source: https://groups.google.com/forum/?hl=fr&fromgroups=#!searchin/elasticsearch/fsriver$20size/elasticsearch/uks2Zbc4iKU/e1DL9MYrht8J
+
+We want to add the filesize as an attribute of the generated document.
+
+It will be added by default. Can be removed using `add_filesize: false`.
+Closes #18",2013-04-08 11:23:58+02:00,False
+6cbd3d1572d75ba5f81c39a65bc8264a3a26b2e9,"Modify Indexed Characters limit
+I think that I could define in the document itself a value for `_indexed_chars` as an optional setting for the FSRiver:
+
+* `indexed_chars : 0` (default) will use default mapper attachment settings (`index.mapping.attachment.indexed_chars`)
+* `indexed_chars : x` will compute file size, multiply it with x and pass it to Tika using `_indexed_chars` field.
+
+That means that a value of 0.8 will extract 20% less characters than the file size. A value of 1.5 will extract 50% more characters than the filesize (think compressed files).
+A value of 1, will extract exactly the filesize.
+Closes #17",2013-04-08 16:46:28+02:00,False
+45bcac930ee6b7212be9acf010f9332325329233,"Add documentation on how to store extracted content
+Closes #11",2013-04-08 17:09:47+02:00,False
+1130e96f9141b351dbf14210bd110c00ae40e170,"Suspend or restart FSRiver
+If you need to stop a river, you can call the `_stop' endpoint:
+
+```sh
+curl 'localhost:9200/_river/mydocs/_stop'
+```
+
+To restart the river from the previous point, just call `_start` end point:
+
+```sh
+curl 'localhost:9200/_river/mydocs/_start'
+```
+Closes #21",2013-04-24 00:14:55+02:00,False
+f365ba5bb95474a62d33cc73058b0afb641709eb,"Store content-type by default
+We want to store `content-type` field by default.
+Relative to #14
+> ""file.content_type"" : ""application/vnd.oasis.opendocument.text""
+Closes #22",2013-04-24 11:25:53+02:00,False
+20460d7996120f1ef160f8c8f0da568a1eefbb1a,Update mapper-attachment to 1.7.0,2013-04-25 12:32:47+02:00,False
+047c0a2014463863c8dda87e7982e0c5660af015,"Update to Elasticsearch 0.90.0.
+Closes #23.",2013-04-29 15:48:44+02:00,False
+89250d947771da2adddf2666d3f360d7cfd38663,Preparing release of 0.2.0,2013-04-30 10:06:32+02:00,False
+2f3537338a2280946ea768da1f1bd2dfa09de1aa,"Enhance documentation for indexed_chars
+
+Closes #24.",2013-05-15 09:09:31+02:00,False
+cf29ba8689b1f4c9978e698441b90e5253170c90,"Add SSH Support
+You can now index files remotely using SSH:
+
+* FS URL: `/tmp3`
+* Server: `mynode.mydomain.com`
+* Username: `username`
+* Password: `password`
+* Protocol: `ssh` (default to `local`)
+* Update Rate: every hour (60 * 60 * 1000 = 3600000 ms)
+* Get only docs like `*.doc`, `*.xls` and `*.pdf`
+
+```sh
+curl -XPUT 'localhost:9200/_river/mysshriver/_meta' -d '{
+  ""type"": ""fs"",
+  ""fs"": {
+	""url"": ""/tmp3"",
+	""server"": ""mynode.mydomain.com"",
+	""username"": ""username"",
+	""password"": ""password"",
+	""protocol"": ""ssh"",
+	""update_rate"": 3600000,
+	""includes"": [ ""*.doc"" , ""*.xls"", ""*.pdf"" ]
+  }
+}'
+```
+
+Closes #12.",2013-06-14 23:50:26+02:00,False
+2fb49e184897a8b1255a2b0c3b61a4670b686cdc,Update README.markdown,2013-06-19 15:57:39+02:00,False
+01403c4e2f3560f46bdbe86b9ba343a6e8fb420f,"Update to elasticsearch 0.90.3 and mapper 1.8.0.
+Closes #28.",2013-08-09 16:39:05+02:00,False
+27875d07bc9ed68a18f575cb54b1f05154405292,Preparing 0.3.0 release,2013-08-09 17:20:02+02:00,False
+4c66314cfa8da1f5b3594b4a82f18e5125024a1c,documentation should show install 0.3.0,2013-08-10 18:45:20+02:00,False
+fe28ad8ae235ff852aa4d58567079d7af5e13a98,"Update to Elasticsearch 0.90.7
+Closes #36.",2013-11-21 23:26:24+01:00,False
+bd131114fa9ac680576ee5282ae710fa9ccb4f0c,"Option to not delete documents when files are removed.
+Adding a new option `remove_deleted: false` that won't remove documents when files are removed.
+Closes #35.",2013-11-22 00:48:26+01:00,False
+6670a4f55095f2d7b3b945fb7f5acc1dbef07be8,"Replace mapper-attachment plugin by Tika
+
+If we want to have a finer control of JSon documents we generate, we need to remove the attachment type (mapper-attachment-plugin that is) and replace it with Tika.
+
+It will allow to support features like `""store-origin"": false` which basically won't require to  encode in Base64 the content but only will generate json values for extracted content.
+
+We need probably here to keep the original format of generated Json documents for bw compatibility.
+
+Closes #38.",2013-11-22 15:12:47+01:00,False
+6079e0438103c439971a4507a346bac461660163,"Store origin URL in documents
+
+We would like to have the original URL (full path file://mydir/mydoc.txt) stored in a `source_url` field.
+It would allow to index only content without the need of storing the `_source` document itself.
+
+Closes #37.",2013-11-22 17:27:22+01:00,False
+385fcb583e8058673cb69191ee8f01b9fa5fe703,"New json document mapping for docs
+
+With issue #38 closed (replace mapper-attachment-plugin by Tika), we can now cleanup the JSON structure we generate when indexing documents with FSRiver.
+
+In 0.3.0 version, the JSon mapping is the following:
+
+```javascript
+{
+  ""doc"" : {
+    ""properties"" : {
+      ""file"" : {
+        ""type"" : ""attachment"",
+        ""path"" : ""full"",
+        ""fields"" : {
+          ""file"" : {
+            ""type"" : ""string"",
+            ""store"" : ""yes"",
+            ""term_vector"" : ""with_positions_offsets""
+          },
+          ""author"" : {
+            ""type"" : ""string""
+          },
+          ""title"" : {
+            ""type"" : ""string"",
+            ""store"" : ""yes""
+          },
+          ""name"" : {
+            ""type"" : ""string""
+          },
+          ""date"" : {
+            ""type"" : ""date"",
+            ""format"" : ""dateOptionalTime""
+          },
+          ""keywords"" : {
+            ""type"" : ""string""
+          },
+          ""content_type"" : {
+            ""type"" : ""string"",
+            ""store"" : ""yes""
+          }
+        }
+      },
+      ""name"" : {
+        ""type"" : ""string"",
+        ""analyzer"" : ""keyword""
+      },
+      ""pathEncoded"" : {
+        ""type"" : ""string"",
+        ""analyzer"" : ""keyword""
+      },
+      ""postDate"" : {
+        ""type"" : ""date"",
+        ""format"" : ""dateOptionalTime""
+      },
+      ""rootpath"" : {
+        ""type"" : ""string"",
+        ""analyzer"" : ""keyword""
+      },
+      ""virtualpath"" : {
+        ""type"" : ""string"",
+        ""analyzer"" : ""keyword""
+      },
+      ""filesize"" : {
+        ""type"" : ""long""
+      }
+    }
+  }
+}
+```
+
+We can see that we have different levels of metadata and some of them are redundant.
+Also, we use `keyword` analyzer instead of not indexing at all fields or using no analyzer.
+
+The new structure will be:
+
+```javascript
+{
+  ""doc"" : {
+    ""properties"" : {
+      ""content"" : {
+        ""type"" : ""string"",
+        ""store"" : ""yes""
+      },
+      ""meta"" : {
+        ""properties"" : {
+          ""author"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes""
+          },
+          ""title"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes""
+          },
+          ""date"" : {
+              ""type"" : ""date"",
+              ""format"" : ""dateOptionalTime"",
+              ""store"" : ""yes""
+          },
+          ""keywords"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes""
+          }
+        }
+      },
+      ""file"" : {
+        ""properties"" : {
+          ""content_type"" : {
+              ""type"" : ""string"",
+              ""analyzer"" : ""simple"",
+              ""store"" : ""yes""
+          },
+          ""last_modified"" : {
+              ""type"" : ""date"",
+              ""format"" : ""dateOptionalTime"",
+              ""store"" : ""yes""
+          },
+          ""indexing_date"" : {
+              ""type"" : ""date"",
+              ""format"" : ""dateOptionalTime"",
+              ""store"" : ""yes""
+          },
+          ""filesize"" : {
+              ""type"" : ""long"",
+              ""store"" : ""yes""
+          },
+          ""indexed_chars"" : {
+              ""type"" : ""long"",
+              ""store"" : ""yes""
+          },
+          ""filename"" : {
+              ""type"" : ""string"",
+              ""analyzer"" : ""simple"",
+              ""store"" : ""yes""
+          },
+          ""url"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes"",
+              ""index"" : ""no""
+          }
+        }
+      },
+      ""path"" : {
+        ""properties"" : {
+          ""encoded"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes"",
+              ""index"" : ""not_analyzed""
+          },
+          ""virtual"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes"",
+              ""index"" : ""not_analyzed""
+          },
+          ""root"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes"",
+              ""index"" : ""not_analyzed""
+          },
+          ""real"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes"",
+              ""index"" : ""not_analyzed""
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+Closes #39.",2013-12-12 16:05:23+01:00,False
+58244ad4fe877f59565a0c9e4c52238530d59fe4,"Add option to store original file as binary
+
+In addition to #39, we don't store original file by default as it was the case previously.
+
+So we need to add a new option to allow it explicitly: `""store_source"":true`.
+
+Default to `false`.
+
+Closes #40.",2013-12-13 00:44:43+01:00,False
+7a7968ca081d3895e6edca758164255ba0c5c3ba,Preparing release of 0.4.0,2013-12-23 14:28:47+01:00,False
+6287a325ec7a3d67bea54239831dce931d137adc,"file.filename should be not_analyzed
+
+`file.filename` uses `simple` analyzer which breaks content into tokens on non alphanumeric characters, for example with a dot.
+
+It makes searching on filename not working when doing exact match (filename with extension):
+
+```
+GET /mydocs/doc/_search
+{
+  ""query"" : {
+    ""term"" : {
+        ""file.filename"" : ""annualcompensation_20132014.pdf""
+    }
+  }
+}
+```
+
+Closes #53.",2014-03-09 16:45:10+01:00,False
+fdfd48d08d7080c0c28097c3277d0d39269ee80f,"Add plugin release semi-automatic script
+
+Closes #54.",2014-03-09 17:25:29+01:00,False
+3bef1a049d1e4d0b4ba1676a0fd9c599c368c9d2,"An exhaustive list of all the configurations is needed in the doc
+
+Closes #42.",2014-03-09 18:35:09+01:00,False
+435ab4c78dba37d4e8316a5416e15494913b591c,"Add SSH port setting
+
+You can now set SSH port when indexing documents over SSH:
+
+```sh
+curl -XPUT 'localhost:9200/_river/mysshriver/_meta' -d '{
+  ""type"": ""fs"",
+  ""fs"": {
+	""url"": ""/tmp3"",
+	""server"": ""mynode.mydomain.com"",
+	""port"": 22,
+	""username"": ""username"",
+	""password"": ""password"",
+	""protocol"": ""ssh"",
+	""update_rate"": 3600000,
+	""includes"": [ ""*.doc"" , ""*.xls"", ""*.pdf"" ]
+  }
+}'
+```
+
+Closes #50.",2014-03-09 18:53:54+01:00,False
+42091118f20fce262fc161ef1aed8ff3d1a51fd2,"Change release date format
+
+Related to #54",2014-03-10 11:45:37+01:00,False
+9c8dc6a87d6a9d4aaa864a69453426ed1aaaa634,"Update to elasticsearch 1.0.0
+
+Closes #48.",2014-03-10 12:04:33+01:00,False
+fdc99fc2c5c82cd7b0f1877c19a3ad93de39ebd3,Update release process to deal with documentation,2014-03-10 13:29:35+01:00,False
+a3378de858c8dae483a61f5e13c52c44056d83f6,prepare release fsriver-1.0.0,2014-03-10 13:55:35+01:00,False
+937333be747c36ee233cf24a9bd5e87984214727,prepare for next development iteration,2014-03-10 14:01:53+01:00,False
+d97cf3490a729445edf0222c585155949efcf1cd,"Docs: make the welcome page more obvious
+
+Closes #73.",2014-08-11 10:44:23+02:00,False
+8459c6b6cd2bc741585021f3b95586f1393b0ed2,"Docs: add debug information
+
+Configuring `logging.yml` is not something obvious. We need to document it.
+
+Closes #77.
+
+(cherry picked from commit ce3ca8b)",2014-08-11 16:04:29+02:00,False
+6e7c609ccbff40e89639898dcd4ed76e501dfe55,Update for elasticsearch 1.2,2014-08-11 16:16:24+02:00,False
+53b6eb700dcd736c9033870d225d835f7da392ca,"Update to elasticsearch 1.3.0
+
+Closes #74.",2014-08-11 16:36:00+02:00,False
+9b862443780f7f6628aa5704403cffa797bc05f0,"Update to elasticsearch 1.4.0
+
+Closes #76.",2014-08-11 16:36:07+02:00,False
+8a01d687b5d2b8d3b3874486bbc4ce2c1f1a8298,Rename to README.md for release tool,2014-08-11 16:44:59+02:00,False
+525b40bf2bbafd5ae8bf832a022324df25cd959d,"Remove build status from branches
+
+Graph is now disabled so we only keep status badge",2014-08-11 17:01:14+02:00,True
+13c8d865b5a37dbba2075a5bebaaae87e17e7a13,"Support for ssh key instead of password
+
+Closes #55",2014-08-11 17:52:02+02:00,True
+a39c28cf9eb110eacf63e9ada9c1a4bf569c19f2,"Docs: use SENSE like examples
+
+Closes #80.",2014-08-11 18:01:34+02:00,True
+ab6e3e8c48aa8bf0cf35a8759d430e252371f1cf,"update_rate parameter uses TimeValue instead ms
+
+Until version 1.2.0, `update_rate` parameter was using only ms as a value.
+
+We can now support ms but also `TimeValue` format such as `10s`, `1h` or so.
+
+Closes #83.
+
+Empty fs river definition throws an error
+
+A recent changes ( #12 ) broke the default empty river:
+
+```
+{
+  ""type"": ""fs""
+}
+```
+
+Closes #84.",2014-08-11 23:10:17+02:00,True
+ad054d456f463528a5d894259eb06068e7364ac2,Fix typo,2014-08-11 23:13:44+02:00,True
+91390cfdcdf9dcab0f5a1bb76c02b824e79a11aa,update documentation with release 1.2.0,2014-08-12 11:24:37+02:00,False
+76a9f9c703f49536e08e6465e726cdd96d444305,Update build status badge,2014-08-12 12:40:52+02:00,True
+fe9e4ce63c52ee229d56abcbb783ef6750938c12,update documentation with release 1.3.0,2014-08-12 13:14:05+02:00,False
+fcc36e534bec7ef99071e0347bfe8fa008cbae4e,update documentation with release 1.3.1,2014-08-19 21:28:58+02:00,False
+e7dc2d50e19231631b8edd9c138b47260e403e63,"Update to elasticsearch 1.4.0
+
+Closes #88.
+
+(cherry picked from commit 3e0efc5)",2014-09-18 22:29:56+02:00,False
+566e06083fb25202ea140b40370630752ba89bc0,Deprecate plugin,2015-06-25 13:58:34+02:00,True
+a90c9c9a8858c35946073f06490043fb56c05de4,Fix typo,2015-06-25 13:59:16+02:00,False
+5145d48058a1a2cfb932a5a8bd33fb1d66333f74,"Mutate FSRiver to FSCrawler project
+
+This project has moved to a standalone application which crawls your file system and index new files, update existing
+ones and removes old ones.
+
+This crawler helps to index documents from your local file system and over SSH.
+
+```sh
+fscrawler job_name
+```
+
+FS crawler will read a local file (default to `~/.fscrawler/{job_name}.json`).
+ If the file does not exist, FS crawler will propose to create your first job.
+
+Once the crawler is running, it will write status information and statistics in:
+
+* `~/.fscrawler/{job_name}.json`
+* `~/.fscrawler/{job_name}_status.json`
+* `~/.fscrawler/{job_name}_stats.json`
+
+It means that if you stop the job at some point, FS crawler will restart it from where it stops.
+If needed, you can manually edit / remove those files to restart.
+
+You can also run:
+
+```sh
+fscrawler
+```
+
+It will give you the list of existing jobs and will allow you to choose one.
+
+`--help` displays help
+`--silent` runs in silent mode. No output is generated.
+`--debug` runs in debug mode.
+`--trace` runs in trace mode (more verbose than debug).
+`--config_dir` defines directory where jobs are stored instead of default `~/.fscrawler`.
+
+The job file must comply to the following `json` specifications:
+
+```json
+{
+  ""name"" : ""job_name"",
+  ""fs"" : {
+    ""url"" : ""/path/to/data/dir"",
+    ""update_rate"" : ""5s"",
+    ""includes"": [
+      ""*.*""
+    ],
+    ""excludes"": [
+      ""*.json""
+    ],
+    ""json_support"" : false,
+    ""filename_as_id"" : false,
+    ""add_filesize"" : true,
+    ""remove_deleted"" : true,
+    ""store_source"" : false,
+    ""indexed_chars"" : ""10000""
+  },
+  ""server"" : {
+    ""hostname"" : null,
+    ""port"" : 22,
+    ""username"" : null,
+    ""password"" : null,
+    ""protocol"" : ""local"",
+    ""pem_path"" : null
+  },
+  ""elasticsearch"" : {
+    ""nodes"" : [ {
+      ""host"" : ""127.0.0.1"",
+      ""port"" : 9300
+    } ],
+    ""index"" : ""docs"",
+    ""type"" : ""doc"",
+    ""bulk_size"" : 100,
+    ""flush_interval"" : ""5s""
+  }
+}
+```
+
+Here is a full list of existing settings:
+
+|               Name               | Default value |                                 Documentation                                     |
+|----------------------------------|---------------|-----------------------------------------------------------------------------------|
+| `name`                           |               | [the job name](#the-most-simple-crawler) (mandatory field)                        |
+| `fs.url`                         | `""/tmp/es""`   | [Root directory](#root-directory)                                                 |
+| `fs.update_rate`                 | `""15m""`       | [Update Rate](#update-rate)                                                       |
+| `fs.includes`                    | `null`        | [Includes and Excludes](#includes-and-excludes)                                   |
+| `fs.excludes`                    | `null`        | [Includes and Excludes](#includes-and-excludes)                                   |
+| `fs.json_support`                | `false`       | [Indexing JSon docs](#indexing-json-docs)                                         |
+| `fs.filename_as_id`              | `false`       | [Using Filename as `_id`](#using-filename-as-elasticsearch-_id)                   |
+| `fs.add_filesize`                | `true`        | [Disabling file size field](#disabling-file-size-field)                           |
+| `fs.remove_deleted`              | `true`        | [Ignore deleted files](#ignore-deleted-files)                                     |
+| `fs.store_source`                | `false`       | [Storing binary source document](#storing-binary-source-document-base64-encoded)  |
+| `fs.indexed_chars`               | `0.0`         | [Extracted characters](#extracted-characters)                                     |
+| `server.hostname`                | `null`        | [Indexing using SSH](#indexing-using-ssh)                                         |
+| `server.port`                    | `22`          | [Indexing using SSH](#indexing-using-ssh)                                         |
+| `server.username`                | `null`        | [Indexing using SSH](#indexing-using-ssh)                                         |
+| `server.password`                | `null`        | [Indexing using SSH](#username--password)                                         |
+| `server.protocol`                | `""local""`     | [Indexing using SSH](#indexing-using-ssh)                                         |
+| `server.pem_path`                | `null`        | [Using Username / PEM file](#using-username--pem-file)                            |
+| `elasticsearch.index`            | job name      | [Index Name](#index-name)                                                         |
+| `elasticsearch.type`             | `""doc""`       | [Type Name](#type-name)                                                           |
+| `elasticsearch.bulk_size`        | `100`         | [Bulk settings](#bulk-settings)                                                   |
+| `elasticsearch.flush_interval`   | `""5s""`        | [Bulk settings](#bulk-settings)                                                   |
+| `elasticsearch.nodes`            |127.0.0.1:9300 | [Node settings](#node-settings)                                                   |
+
+You can define the most simple crawler job by writing a `~/.fscrawler/test.json` file as follow:
+
+```json
+{
+  ""name"" : ""test""
+}
+```
+
+This will scan every 15 minutes all documents available in `/tmp/es` dir and will index them into `test` index with
+`doc` type. It will connect to an elasticsearch cluster running on `127.0.0.1`, port `9300`.
+
+**Note**: `name` is a mandatory field.
+
+Define `fs.url` property in your `~/.fscrawler/test.json` file:
+
+```json
+{
+  ""name"" : ""test"",
+  ""fs"" : {
+    ""url"" : ""/path/to/data/dir""
+  }
+}
+```
+
+For Windows users, use a form like `c:/tmp` or `c:\\tmp`.
+
+Let's say you want to index only docs like `*.doc` and `*.pdf` but `resume*`. So `resume_david.pdf` won't be indexed.
+
+Define `fs.includes` and `fs.excludes` properties in your `~/.fscrawler/test.json` file:
+
+```json
+{
+  ""name"" : ""test"",
+  ""fs"": {
+    ""includes"": [
+      ""*.doc"",
+      ""*.pdf""
+    ],
+    ""excludes"": [
+      ""resume*""
+    ]
+  }
+}
+```
+
+By default, `update_rate` is set to `15m`. You can modify this value using any compatible
+[time unit](https://www.elastic.co/guide/en/elasticsearch/reference/current/common-options.html#time-units).
+
+For example, here is a 15 minutes update rate:
+
+```json
+{
+  ""name"": ""test"",
+  ""fs"": {
+    ""update_rate"": ""15m""
+  }
+}
+```
+
+Or a 3 hours update rate:
+
+```json
+{
+  ""name"": ""test"",
+  ""fs"": {
+    ""update_rate"": ""3h""
+  }
+}
+```
+
+You can index files remotely using SSH.
+
+Let's say you want to index from a remote server using SSH:
+
+* FS URL: `/path/to/data/dir/on/server`
+* Server: `mynode.mydomain.com`
+* Username: `username`
+* Password: `password`
+* Protocol: `ssh` (default to `local`)
+* Port: `22` (default to `22`)
+
+```json
+{
+  ""name"" : ""test"",
+  ""fs"" : {
+    ""url"" : ""/path/to/data/dir/on/server""
+  },
+  ""server"" : {
+    ""hostname"" : ""mynode.mydomain.com"",
+    ""port"" : 22,
+    ""username"" : ""username"",
+    ""password"" : ""password"",
+    ""protocol"" : ""ssh""
+  }
+}
+```
+
+Let's say you want to index from a remote server using SSH:
+
+* FS URL: `/path/to/data/dir/on/server`
+* Server: `mynode.mydomain.com`
+* Username: `username`
+* PEM File: `/path/to/private_key.pem`
+* Protocol: `ssh` (default to `local`)
+* Port: `22` (default to `22`)
+
+```json
+{
+  ""name"" : ""test"",
+  ""fs"" : {
+    ""url"" : ""/path/to/data/dir/on/server""
+  },
+  ""server"" : {
+    ""hostname"" : ""mynode.mydomain.com"",
+    ""port"" : 22,
+    ""username"" : ""username"",
+    ""protocol"" : ""ssh"",
+	""pem_path"": ""/path/to/private_key.pem""
+  }
+}
+```
+
+This is a common use case in elasticsearch, we want to search for something! ;-)
+
+```json
+GET docs/doc/_search
+{
+  ""query"" : {
+    ""match"" : {
+        ""_all"" : ""I am searching for something !""
+    }
+  }
+}
+```
+
+If you want to index JSon files directly without parsing with Tika, you can set `json_support` to `true`.
+
+```json
+{
+  ""name"" : ""test"",
+  ""fs"" : {
+    ""json_support"" : true
+  }
+}
+```
+
+Of course, if you did not define a mapping before launching the crawler, Elasticsearch will auto guess the mapping.
+
+If you have more than one type, create as many crawlers as types:
+
+`~/.fscrawler/test_type1.json`:
+
+```json
+{
+  ""name"": ""test_type1"",
+  ""fs"": {
+	""url"": ""/tmp/type1"",
+	""json_support"" : true
+  },
+  ""elasticsearch"": {
+    ""index"": ""mydocs"",
+    ""type"": ""type1""
+  }
+}
+```
+
+`~/.fscrawler/test_type2.json`:
+
+```json
+{
+  ""name"": ""test_type2"",
+  ""fs"": {
+	""url"": ""/tmp/type2"",
+	""json_support"" : true
+  },
+  ""elasticsearch"": {
+    ""index"": ""mydocs"",
+    ""type"": ""type2""
+  }
+}
+```
+
+You can also index many types from one single dir using two crawlers scanning the same dir and by setting
+`includes` parameter:
+
+`~/.fscrawler/test_type1.json`:
+
+```json
+{
+  ""name"": ""test_type1"",
+  ""fs"": {
+	""url"": ""/tmp"",
+    ""includes"": [ ""type1*.json"" ],
+	""json_support"" : true
+  },
+  ""elasticsearch"": {
+    ""index"": ""mydocs"",
+    ""type"": ""type1""
+  }
+}
+```
+
+`~/.fscrawler/test_type2.json`:
+
+```json
+{
+  ""name"": ""test_type2"",
+  ""fs"": {
+	""url"": ""/tmp"",
+    ""includes"": [ ""type2*.json"" ],
+	""json_support"" : true
+  },
+  ""elasticsearch"": {
+    ""index"": ""mydocs"",
+    ""type"": ""type2""
+  }
+}
+```
+
+Please note that the document `_id` is always generated (hash value) from the JSon filename to avoid issues with
+special characters in filename.
+You can force to use the `_id` to be the filename using `filename_as_id` attribute:
+
+```json
+{
+  ""name"" : ""test"",
+  ""fs"" : {
+    ""json_support"" : true,
+    ""filename_as_id"" : true
+  }
+}
+```
+
+By default, FS crawler will create a field to store the original file size in octets.
+You can disable it using `add_filesize' option:
+
+```json
+{
+  ""name"" : ""test"",
+  ""fs"" : {
+    ""add_filesize"" : false
+  }
+}
+```
+
+If you don't want to remove indexed documents when you remove a file or a directory, you can
+set `remove_deleted` to `false` (default to `true`):
+
+```json
+{
+  ""name"" : ""test"",
+  ""fs"" : {
+    ""remove_deleted"" : false
+  }
+}
+```
+
+When the FS crawler detects a new type, it creates automatically a mapping for this type:
+
+```json
+{
+  ""doc"" : {
+    ""properties"" : {
+      ""content"" : {
+        ""type"" : ""string"",
+        ""store"" : ""yes""
+      },
+      ""meta"" : {
+        ""properties"" : {
+          ""author"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes""
+          },
+          ""title"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes""
+          },
+          ""date"" : {
+              ""type"" : ""date"",
+              ""format"" : ""dateOptionalTime"",
+              ""store"" : ""yes""
+          },
+          ""keywords"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes""
+          }
+        }
+      },
+      ""file"" : {
+        ""properties"" : {
+          ""content_type"" : {
+              ""type"" : ""string"",
+              ""analyzer"" : ""not_analyzed"",
+              ""store"" : ""yes""
+          },
+          ""last_modified"" : {
+              ""type"" : ""date"",
+              ""format"" : ""dateOptionalTime"",
+              ""store"" : ""yes""
+          },
+          ""indexing_date"" : {
+              ""type"" : ""date"",
+              ""format"" : ""dateOptionalTime"",
+              ""store"" : ""yes""
+          },
+          ""filesize"" : {
+              ""type"" : ""long"",
+              ""store"" : ""yes""
+          },
+          ""indexed_chars"" : {
+              ""type"" : ""long"",
+              ""store"" : ""yes""
+          },
+          ""filename"" : {
+              ""type"" : ""string"",
+              ""analyzer"" : ""not_analyzed"",
+              ""store"" : ""yes""
+          },
+          ""url"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes"",
+              ""index"" : ""no""
+          }
+        }
+      },
+      ""path"" : {
+        ""properties"" : {
+          ""encoded"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes"",
+              ""index"" : ""not_analyzed""
+          },
+          ""virtual"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes"",
+              ""index"" : ""not_analyzed""
+          },
+          ""root"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes"",
+              ""index"" : ""not_analyzed""
+          },
+          ""real"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes"",
+              ""index"" : ""not_analyzed""
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+If you want to define your own mapping to set analyzers for example, you can push the mapping **before** starting the
+FS crawler.
+
+```
+PUT docs
+
+PUT docs/doc/_mapping
+{
+  ""doc"" : {
+    ""properties"" : {
+      ""content"" : {
+        ""type"" : ""string"",
+        ""store"" : ""yes"",
+        ""analyzer"" : ""french""
+      },
+      ""meta"" : {
+        ""properties"" : {
+          ""author"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes""
+          },
+          ""title"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes""
+          },
+          ""date"" : {
+              ""type"" : ""date"",
+              ""format"" : ""dateOptionalTime"",
+              ""store"" : ""yes""
+          },
+          ""keywords"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes""
+          }
+        }
+      },
+      ""file"" : {
+        ""properties"" : {
+          ""content_type"" : {
+              ""type"" : ""string"",
+              ""analyzer"" : ""not_analyzed"",
+              ""store"" : ""yes""
+          },
+          ""last_modified"" : {
+              ""type"" : ""date"",
+              ""format"" : ""dateOptionalTime"",
+              ""store"" : ""yes""
+          },
+          ""indexing_date"" : {
+              ""type"" : ""date"",
+              ""format"" : ""dateOptionalTime"",
+              ""store"" : ""yes""
+          },
+          ""filesize"" : {
+              ""type"" : ""long"",
+              ""store"" : ""yes""
+          },
+          ""indexed_chars"" : {
+              ""type"" : ""long"",
+              ""store"" : ""yes""
+          },
+          ""filename"" : {
+              ""type"" : ""string"",
+              ""analyzer"" : ""not_analyzed"",
+              ""store"" : ""yes""
+          },
+          ""url"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes"",
+              ""index"" : ""no""
+          }
+        }
+      },
+      ""path"" : {
+        ""properties"" : {
+          ""encoded"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes"",
+              ""index"" : ""not_analyzed""
+          },
+          ""virtual"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes"",
+              ""index"" : ""not_analyzed""
+          },
+          ""root"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes"",
+              ""index"" : ""not_analyzed""
+          },
+          ""real"" : {
+              ""type"" : ""string"",
+              ""store"" : ""yes"",
+              ""index"" : ""not_analyzed""
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+FS crawler creates the following fields :
+
+|         Field        |                Description                  |                    Example                  |
+|----------------------|---------------------------------------------|---------------------------------------------|
+| `content`            | Extracted content                           | `""This is my text!""`                        |
+| `attachment`         | BASE64 encoded binary file                  | BASE64 Encoded document                     |
+| `meta.author`        | Author if any in document metadata          | `""David Pilato""`                            |
+| `meta.title`         | Title if any in document metadata           | `""My document title""`                       |
+| `meta.date`          | Document date if any in document metadata   | `""2013-04-04T15:21:35""`                     |
+| `meta.keywords`      | Keywords if any in document metadata        | `[""river"",""fs"",""elasticsearch""]`            |
+| `file.content_type`  | Content Type                                | `""application/vnd.oasis.opendocument.text""` |
+| `file.last_modified` | Last modification date                      | `1386855978000`                             |
+| `file.indexing_date` | Indexing date                               | `""2013-12-12T13:50:58.758Z""`                |
+| `file.filesize`      | File size in bytes                          | `1256362`                                   |
+| `file.indexed_chars` | Extracted chars if `fs.indexed_chars` > 0   | `100000`                                    |
+| `file.filename`      | Original file name                          | `""mydocument.pdf""`                          |
+| `file.url`           | Original file url                           | `""file://tmp/mydir/otherdir/mydocument.pdf""`|
+| `path.encoded`       | BASE64 encoded file path (for internal use) | `""112aed83738239dbfe4485f024cd4ce1""`        |
+| `path.virtual`       | Relative path from root path                | `""mydir/otherdir""`                          |
+| `path.root`          | BASE64 encoded root path (for internal use) | `""112aed83738239dbfe4485f024cd4ce1""`        |
+| `path.real`          | Actual real path name                       | `""/tmp/mydir/otherdir/mydocument.pdf""`      |
+
+Here is a typical JSON document generated by the crawler:
+
+```json
+{
+   ""file"":{
+      ""filename"":""test.odt"",
+      ""last_modified"":1386855978000,
+      ""indexing_date"":""2013-12-12T13:50:58.758Z"",
+      ""content_type"":""application/vnd.oasis.opendocument.text"",
+      ""url"":""file:///tmp/testfs_metadata/test.odt"",
+      ""indexed_chars"":100000,
+      ""filesize"":8355
+   },
+   ""path"":{
+      ""encoded"":""bceb3913f6d793e915beb70a4735592"",
+      ""root"":""bceb3913f6d793e915beb70a4735592"",
+      ""virtual"":"""",
+      ""real"":""/tmp/testfs_metadata/test.odt""
+   },
+   ""meta"":{
+      ""author"":""David Pilato"",
+      ""title"":""Mon titre"",
+      ""date"":""2013-04-04T15:21:35"",
+      ""keywords"":[
+         ""fs"",
+         ""elasticsearch"",
+         ""crawler""
+      ]
+   },
+   ""content"":""Bonjour David\n\n\n""
+}
+```
+
+You can use meta fields to perform search on.
+
+```
+GET docs/doc/_search
+{
+  ""query"" : {
+    ""term"" : {
+        ""file.filename"" : ""mydocument.pdf""
+    }
+  }
+}
+```
+
+You can store in elasticsearch itself the binary document using `store_source` option:
+
+```json
+{
+  ""name"" : ""test"",
+  ""fs"" : {
+    ""store_source"" : true
+  }
+}
+```
+
+In that case, a new stored field named `attachment` is added to the generated JSon document.
+If you let FS crawler generates the mapping, FS crawler will exclude `attachment` field from
+`_source` to save some disk space.
+
+That means you need to ask for field `attachment` when querying:
+
+```
+GET mydocs/doc/_search
+{
+  ""fields"" : [""attachment"", ""_source""],
+  ""query"":{
+    ""match_all"" : {}
+  }
+}
+```
+
+Default generated mapping in this case is:
+
+```json
+{
+  ""doc"" : {
+    ""_source"" : {
+      ""excludes"" : [ ""attachment"" ]
+    },
+    ""properties"" : {
+      ""attachment"" : {
+        ""type"" : ""binary""
+      }
+      // ... Other properties here
+    }
+  }
+}
+```
+
+You can force not to store `attachment` field and keep `attachment` in `_source`:
+
+```
+PUT docs
+
+PUT docs/doc/_mapping
+{
+  ""doc"" : {
+    ""properties"" : {
+      ""attachment"" : {
+        ""type"" : ""binary"",
+        ""store"" : ""no""
+      }
+      // ... Other properties here
+    }
+  }
+}
+```
+
+By default FS crawler will extract only the first 100 000 characters.
+But, you can set `indexed_chars` to `5000` in FS crawler settings in order to overwrite this default settings.
+
+```json
+{
+  ""name"": ""test"",
+  ""fs"": {
+    ""indexed_chars"": ""5000""
+  }
+}
+```
+
+This number can be either a fixed size, number of characters that is, or a percent using `%` sign.
+The percentage value will be applied to the filesize to determine the number of character the crawler needs
+to extract.
+
+If you want to index only `80%` of filesize, define `indexed_chars` to `""80%""`.
+Of course, if you want to index the full document, you can set this property to `""100%""`. Double values are also
+supported so `""0.01%""` is also a correct value.
+
+**Compressed files**: If your file is compressed, you might need to increase `indexed_chars` to more than `""100%""`.
+For example, `""150%""`.
+
+If you want to extract the full content, define `indexed_chars` to `""-1""`.
+
+**Note**: Tika requires to allocate in memory a data structure to extract text. Setting `indexed_chars` to a high
+number will require more memory!
+
+You can change elasticsearch settings within `elasticsearch` settings object.
+
+By default, FS crawler will index your data in an index which name is the same as the crawler name (`name` property).
+You can change it by setting `index` field:
+
+```json
+{
+  ""name"" : ""test"",
+  ""elasticsearch"" : {
+    ""index"" : ""docs""
+  }
+}
+```
+
+By default, FS crawler will index your data using `doc` as the type name.
+You can change it by setting `type` field:
+
+```json
+{
+  ""name"" : ""test"",
+  ""elasticsearch"" : {
+    ""type"" : ""mydocument""
+  }
+}
+```
+
+FS crawler is using bulks to send data to elasticsearch. By default the bulk is executed every 100 operations or
+every 5 seconds. You can change default settings using `bulk_size` and `flush_interval`:
+
+```json
+{
+  ""name"" : ""test"",
+  ""elasticsearch"" : {
+    ""bulk_size"" : 1000,
+    ""flush_interval"" : ""2s""
+  }
+}
+```
+
+FS crawler is using elasticsearch transport client to send data to your running cluster.
+By default, it connects to `127.0.0.1` on port `9300` which are the default settings when
+running a local node on your machine.
+
+Of course, in production, you would probably change this and connect to a production cluster:
+
+```json
+{
+  ""name"" : ""test"",
+  ""elasticsearch"" : {
+    ""nodes"" : [
+      { ""host"" : ""mynode1.mycompany.com"", ""port"" : 9300 }
+    ]
+  }
+}
+```
+
+You can define multiple nodes:
+
+```json
+{
+  ""name"" : ""test"",
+  ""elasticsearch"" : {
+    ""nodes"" : [
+      { ""host"" : ""mynode1.mycompany.com"", ""port"" : 9300 },
+      { ""host"" : ""mynode2.mycompany.com"", ""port"" : 9300 },
+      { ""host"" : ""mynode3.mycompany.com"", ""port"" : 9300 }
+    ]
+  }
+}
+```
+
+**Note:** the `cluster.name` does not have to be set as it's ignored.
+
+Closes #116.",2015-10-30 14:28:05+01:00,True
+aa5d4387f7828cbf91b1c1583d7e9a7fd3f91918,"FSCrawler requires Java 1.8
+
+Closes #121.",2015-10-30 15:32:47+01:00,True
+cf2a56c92ae32391febf98bc089e8906c4c9d251,"Examples not base64 but MD5
+
+In the readme the example document includes
+
+     ""path"":{
+        ""encoded"":""bceb3913f6d793e915beb70a4735592"",
+        ""root"":""bceb3913f6d793e915beb70a4735592"",
+        ""virtual"":"""",
+        ""real"":""/tmp/testfs_metadata/test.odt""
+     },
+
+It says that `path.encoded` and `path.root` is base64 yet those values aren't base64 but `MD5`.
+
+Closes #115.",2015-11-10 11:43:56+01:00,False
+58a2644cd7387f84c72177bfc11ae2f49ded2006,"Store only metadata of files in a directory tree
+
+If you don't want to extract file content but only index filesystem metadata such as filename, date, size and path,
+you can set `index_content` to `false` (default to `true`):
+
+```json
+{
+  ""name"" : ""test"",
+  ""fs"" : {
+    ""index_content"" : false
+  }
+}
+```
+
+Closes #103.",2015-11-10 18:02:38+01:00,False
+7ba48d30c0401f907380f4b43693e11a24656aa0,"Add Travis CI
+
+Closes #125.",2015-11-10 18:12:03+01:00,True
+e9fe589fbc8c588b887fcb116d3b1851d1fe9a6d,"Remove text related to rivers
+
+Closes #132.",2015-12-12 13:12:01+01:00,False
+6bbcf37f9f2c618512d1e0252385946a8bfe61d8,"Exclude and Include is applied also on directory names
+
+If you exclude `.ignore` filename, it should actually also be applied to directory names.
+
+So if you have a dir called, `/whatever/.ignore/`, its content should be ignored.
+
+Closes #139.",2015-12-30 15:58:20+01:00,True
+117bd9a7657a0d5cb894b347e101d79af8954b75,"Update README.md
+
+With a fresh single node install of ES 2.2, the json exemple is OK if we replace
+""port"" : 9300
+by
+""port"" : 9200.
+As port 9200 is the default http port and port 9300 is the transport port, is that means that fscrawler doesn't use transport? (I'm a newbie to ES).
+If so  lines from 874 to 889 should be corrected too.",2016-03-11 09:59:53+01:00,True
+b9c6027dd322f35bf684ece0ae9298d722a6bf21,"Add ""how to download FS Crawler""
+
+Closes #146.",2016-05-25 09:34:20+02:00,True
+85a8c4f68a00df09aa83e3573f16c92bb52c3511,"Add owner & group of a file to ES index
+
+Closes #151",2016-05-27 18:50:59+02:00,False
+ec8c95b6ab8242b37659ba68fd9b12833fd13533,"Add `attributes_support` option.
+
+In #152, we add some attributes.
+This commit will add a new `attributes_support` to make that optional (default is no attributes generated).
+
+I also revisited the tests as count has been deprecated in elasticsearch.
+
+Closes #157.",2016-05-27 18:50:59+02:00,True
+52e65d1b379a6b8fa32325b69c8d837a71c11ac8,"Fix invalid Index mapping in README.md
+
+Using the index mapping straight from ES
+
+Closes #153.",2016-07-04 14:22:58+02:00,False
+702113634ce7e116816a261eaf2f3b39c9cecb3b,"Change project version to 2 digits: major.minor
+
+Closes #170.",2016-07-04 15:02:03+02:00,False
+c76c07599253cceecc0e54b08f15ad77b6b5619c,"Add link to old docs
+
+Follow up for #170.",2016-07-04 23:37:58+02:00,False
+c38df14be4aabadd93d58d591d7f81748b4b8c98,"Copy automatically at startup resource files to fscrawler config directory
+
+Follow up for #167
+
+Copy automatically at startup resource files to fscrawler config directory. Then fscrawler will read maping files from this directory instead of the classpath.
+And add in the README that people who want to overwrite existing files with new mapping template should remove the mapping templates in config dir and restart
+
+Closes #168.
+Related to #166.",2016-07-05 01:07:00+02:00,True
+13c80144876f717d6ffa47ed1e1bea850f07ad1f,Fix doc link,2016-07-05 01:10:08+02:00,False
+0a544252940e890ec61aa007bc083851b7798fbe,"Let the user specify its own mapping file per job
+
+Closes #169.",2016-07-05 12:14:34+02:00,True
+620f2521c9815d0e440fc8fc667ac5369e9e4c06,"Split tests into unit tests and real integration tests
+
+To be able to test the same code against multiple versions of elasticsearch, we need to externalize our integration tests.
+
+Which means:
+
+* Download the right artifact we want to test, like `elasticsearch-2.3.2.zip`
+* In pre-integration phase:
+   * Unzip it
+   * Launch `bin/elasticsearch`
+* In integration phase, launch all `*IT` tests against this cluster
+* In post-integration phase, stop the external cluster
+
+To accomplish that, we need to:
+
+* Rename integration tests from `*ITest` to `*IT` so it conforms to Maven guidelines
+* Remove usage of elasticsearch `TransportClient` in our tests as it's a binary protocol
+* Keep the possibility to run tests from the IDE (for debugging purposes). So if anyone wants to run tests from IDE, he will have to launch manually a cluster running at 9400 REST port. Like with `bin/elasticsearch -Des.http.port=9400`
+
+Note that we removed tests against a 2 nodes cluster. This test is useful if the goal is to test the REST Client failover and load balancer mechanism but as the goal is to move to the official REST client, there won't be barely no need anymore to test an external library when #172 will be in.
+
+This fix also fixes all the stuff added in #165.
+
+Closes #175.
+Closes #165.",2016-07-06 16:46:59+02:00,True
+ccc665f0cbc107deb06cd3610af24cf0f3e199d6,"Update to Elasticsearch 5.0
+
+This commit adds support for elasticsearch 5.x series.
+Note that it works as well with 2.x series.
+
+You can tell maven to run integration tests by deploying another version of elasticsearch:
+
+```sh
+mvn install -Pes-2x
+```
+
+By default, it will run integration tests against elasticsearch 5.x series cluster.
+
+If you want to test against a locally running cluster from your IDE, you need to start elasticsearch with:
+
+```sh
+# elasticsearch 2.x
+bin/elasticsearch -Des.http.port=9400
+# elasticsearch 5.x
+bin/elasticsearch -Ehttp.port=9400
+```
+
+Closes #171.",2016-07-06 19:02:31+02:00,False
+1269f541716d97764b830c8faf3a11a931f0620e,"Add support for elasticsearch 1.x series
+
+We used to support elasticsearch 1.x with previous versions of the fscrawler.
+Now we can probably try to support 1.x at the same time we support 2.x and 5.x.
+
+Closes #176.",2016-07-06 19:51:35+02:00,True
+775b3f3ff13f56f0a798aa9fcfa416eac0918439,"Add how-to release documentation
+
+Closes #181.",2016-07-07 00:11:45+02:00,False
+e90f96554b2ef955cf48e5eb95f22d07aa9558d4,"Add more extracted metadata from Tika
+
+Tika supports many other metadata than the ones we are using.
+We should try to support more and may be try to make that generic enough.
+
+Closes #178.",2016-07-07 14:49:56+02:00,True
+a55a78a48c09eec3ca87e24730af8ea9c52638f8,"Add Randomized testing framework
+
+Let's use [Randomized testing framework](https://github.com/randomizedtesting/randomizedtesting).
+
+In case of failure, it will print a line like:
+
+```
+REPRODUCE WITH:
+mvn test -Dtests.seed=AC6992149EB4B547 -Dtests.class=fr.pilato.elasticsearch.crawler.fs.test.unit.tika.TikaDocParserTest -Dtests.method=""testExtractFromRtf"" -Dtests.locale=ga-IE -Dtests.timezone=Canada/Saskatchewan
+```
+
+It also exposes some parameters you can use at build time:
+
+* `tests.output`: display test output. For example:
+
+```sh
+mvn install -Dtests.output=always
+mvn install -Dtests.output=onError
+```
+
+* `tests.locale`: run the tests using a given Locale. For example:
+
+```sh
+mvn install -Dtests.locale=random
+mvn install -Dtests.locale=fr-FR
+```
+
+* `tests.timezone`: run the tests using a given Timezone. For example:
+
+```sh
+mvn install -Dtests.timezone=random
+mvn install -Dtests.timezone=CEST
+mvn install -Dtests.timezone=-0200
+```
+
+* `tests.verbose`: adds running tests details while executing tests
+
+```sh
+mvn install -Dtests.verbose
+```
+
+* `tests.parallelism`: number of JVMs to start to run tests
+
+```sh
+mvn install -Dtests.parallelism=auto
+mvn install -Dtests.parallelism=max
+mvn install -Dtests.parallelism=1
+```
+
+* `tests.seed`: specify the seed to use to run the test suite if you need to reproduce a failure
+given a specific test context.
+
+```sh
+mvn test -Dtests.seed=E776CE45185A6E7A
+```
+
+* `tests.leaveTemporary`: leave temporary files on disk
+
+```sh
+mvn test -Dtests.leaveTemporary
+```
+
+Closes #186.
+Closes #187.",2016-07-07 17:01:47+02:00,False
+cde4fb2dd96144dfe8c0bc519956f3d623d56828,"Remove reference to _stats.json document
+
+Related to #128.",2016-07-08 16:50:16+02:00,True
+c7562ac7f95aa1dff422e67db21055bf6576bba9,"Move _status.json file in job directory
+
+We have seen in #169 that we can have a directory named `~/.fscrawler/{job_name}` which can contain the default mappings.
+Let's move status file from `~/.fscrawler/{job_name}_status.json` to `~/.fscrawler/{job_name}/_status.json`.
+
+Existing jobs with legacy format (2.0 version) will be renamed at startup.
+
+Closes #193.",2016-07-08 20:00:01+02:00,True
+9497dd5381ae182e2743d87e0b367f5a61556b88,"Move mappings root directory to ~/.fscrawler/{job_name}/_mappings/
+
+Follow up for #193
+
+Move mappings root directory from `~/.fscrawler/{job_name}/` to `~/.fscrawler/{job_name}/_mappings/`.
+
+Closes #194.",2016-07-09 10:32:11+02:00,True
+ed1b93cd39442db5983201a5a781ba81217556d6,"Add FS_JAVA_OPTS JVM option
+
+We need to support setting memory either from the command line or by using a `FS_JAVA_OPTS` system variable.
+
+Closes #134.",2016-07-09 11:08:05+02:00,False
+62489e6792809c10fa811bc842ab8525c32e827e,"Index file hash/checksum
+
+If you want FS crawler to generate a checksum for each file, set `checksum` to the algorithm you wish to use
+to compute the checksum, such as `MD5` or `SHA-1`.
+
+```json
+{
+  ""name"": ""test"",
+  ""fs"": {
+    ""checksum"": ""MD5""
+  }
+}
+```
+
+Closes #192	.",2016-07-09 13:40:04+02:00,True
+899c8bf3248cdf4a8da4308f7ee6a5bae4ab69dd,Release of 2.1,2016-07-26 19:23:12+02:00,True
+84dfa01c10f8a1099cdbc8666b6e3e21f1e4e08f,"Add field file.extension to the output
+
+Having the file extension indexed would allow for easy grouping of file counts by extension. I see this as perfect for media libraries and systems that should add files at a given rate that can be visualized.
+
+Closes #201.",2016-08-06 19:05:31+02:00,False
+9610c7c35f3d40489492d9041f82b25ad9029633,"Add xml_support setting
+
+Adding a setting `xml_support` like the `json_support` one. If set, we would treat all documents as XML files, will load them using Jackson and generate a JSON from that.
+
+Basically convert existing XML to JSON on the fly.
+
+For example:
+
+```json
+{
+  ""name"" : ""test"",
+  ""fs"" : {
+    ""xml_support"" : true
+  }
+}
+```
+
+Closes #185.",2016-08-07 20:29:43+02:00,True
+85792c63c9adb9328c0aa782904179ea1a4399a4,"Add details about version when we add a new feature
+
+People using 2.1 could be surprised that a new option is actually not supported although documented.",2016-08-07 20:52:22+02:00,True
+07af11a84d21b0657112f2c9b5e508e5c191dc16,"Support for Basic Authentication - Shield/X-Pack
+
+Note that we test against 2.x and 5.x versions.
+It's hard to test 1.x version as it would need a manual download instead of
+relying on maven artifact coordinates.
+
+Closes #144.",2016-08-08 15:49:42+02:00,True
+a11ad4d7e08caae43bd62e724a6ac33d138390bb,Fix README layout for fscrawler options,2016-08-08 16:10:10+02:00,True
+62db092f205bd9c1de4260a7cb6a3428679db709,Fix X-Pack link,2016-08-08 16:12:13+02:00,False
+87438f53e553afe0653f95adbce20caa8dc5d97e,"Don't store password in setting files
+
+Follow up #144
+
+User should be able to define username and/or password from the CLI instead of storing that in a JSON file which is readable.
+
+Closes #207.",2016-08-08 23:04:34+02:00,True
+6f32a091132df749b7d62cd773b9d5d95462b619,"Automatically deploy SNAPSHOT
+
+Closes #214.",2016-08-10 16:34:00+02:00,True
+fd99be45532d4b98c8cc2ef2df4cd0831e7c2291,Add OCR integration doc.,2016-09-12 16:27:05+02:00,False
+cbb8c0f4e7a03e6e20a09c9f044ba67e5265a2f7,"include only applies to filenames not to dir names
+
+But `exclude` applies to both filenames and dir names.
+
+Follow up for #222
+
+Closes #206.",2016-09-14 18:03:37+02:00,True
+d36ae6efc5530822b1a92fded404d63b795c6f0a,"Add more documentation for update_rate
+
+Change the example duration
+
+Closes #225.",2016-09-14 18:06:04+02:00,True
+3ed24690b736d57de042d2fd5497c013fe3fa7a3,"Add support for run only once
+
+Sometimes you would like to control externally (using a crontab) for example, how often you want to scan an index a hard drive.
+Also, you might want to do it only once so you don't need to ""watch"" for changes.
+
+In such a case, waiting for a message in logs is far from being ideal.
+
+Let's add a new option `loop` which defines the number of runs we want before exiting:
+
+* `X` where X is a negative value means infinite, like `-1` (default)
+* `0` means that we don't run FSCrawler. Well... Not sure what could be the usage. May be checking that the configuration file is correct?
+* `X` where X is a positive value is the number of runs before it stops.
+
+If you want to scan your hard drive only once, run with `--loop 1`.
+
+Based on https://github.com/dadoonet/fscrawler/issues/223#issuecomment-245300835
+
+Closes #227.",2016-09-14 19:34:09+02:00,True
+86ca509de6a6ee15488362caf6dcf2139ec2fda2,"Add support for run only once
+
+Sometimes you would like to control externally (using a crontab) for example, how often you want to scan an index a hard drive.
+Also, you might want to do it only once so you don't need to ""watch"" for changes.
+
+In such a case, waiting for a message in logs is far from being ideal.
+
+Let's add a new option `loop` which defines the number of runs we want before exiting:
+
+* `X` where X is a negative value means infinite, like `-1` (default)
+* `0` means that we don't run FSCrawler. Well... Not sure what could be the usage. May be checking that the configuration file is correct?
+* `X` where X is a positive value is the number of runs before it stops.
+
+If you want to scan your hard drive only once, run with `--loop 1`.
+
+Based on https://github.com/dadoonet/fscrawler/issues/223#issuecomment-245300835
+
+Closes #227.",2016-09-14 19:35:14+02:00,True
+55dd04bc8ee6e28386d5e298cbdeb23c0a8c5185,"Add documentation about indexing on HDFS
+
+Closes #63.",2016-09-16 18:11:13+02:00,True
+0abfb8e4559be7a218e15cb0076080940a7479f3,"Add support for update mapping
+
+It can happen that we introduce a new field in fscrawler. See for example #201.
+
+If documents already exists, the new mapping for the new field won't be applied.
+
+To manually upgrade the mapping before sending the first documents, use the new `--upgrade_mapping` option.
+
+The following command will upgrade the mappings related to the `job_name` job and then will run normally:
+
+```sh
+bin/fscrawler job_name --upgrade_mapping
+```
+
+If you just want to upgrade the mapping without launching the job itself, you can use the `loop` option:
+
+```sh
+bin/fscrawler job_name --upgrade_mapping --loop 0
+```
+
+Closes #205.",2016-09-16 20:35:39+02:00,True
+41a3cda1c57a04eeb76542ea37aca9b504b26bb4,Add link to Tika supported formats,2016-12-21 23:09:56+01:00,False
+791c03ed8d0d8caa4d3973aed7955621204bf35b,"Update to Tika 1.14
+
+Closes #248.",2016-12-22 00:16:04+01:00,False
+2aa85dcae49ac1f35d2c50e25354bfcc11e977e7,"Allow running tests against a remote cluster
+
+Related to #233
+
+We want to be able to run test using `-Dtests.cluster.host=127.0.0.1 -Dtests.cluster.port=9400` or any other address/port.
+
+Closes #254.",2016-12-23 18:13:01+01:00,False
+c815fc58bb37f5bf651e88973c13217786f2b183,"Add support for HTTPS
+
+Closes #236.",2016-12-23 18:46:44+01:00,True
+c143c65e5d02b7a1539d453fa339969cc85e9633,"New option: do not index folders
+
+Closes #155.",2016-12-24 13:21:00+01:00,True
+b1d08a90bbf424674392c80419bd66590c004938,"Optimize document and folder mappings (and save lot of disk space)
+
+Closes #183.",2016-12-25 22:28:04+01:00,False
+124decfd8d4b29648f8f8a6faea842ffc4b59bc8,"Optimize document and folder mappings (and save lot of disk space)
+
+Closes #183.",2016-12-25 23:05:51+01:00,False
+85b9b4c6798d29161b84901771c9b3e65e81289d,"Support ingest pipeline processing
+
+From elasticsearch 5.0.0, people can define an ingest pipeline to process the data before it actually gets indexed.
+
+Closes #234.",2016-12-30 11:50:02+01:00,True
+d65148d8d3f5ad478444dcc56ebbdff0c8ce1a44,"Fix `testProtectedDocument221` test
+
+For #221 we added a file which is failing against an elasticsearch cluster < 5.0.
+The document is not indexed and the BULK operation is failing.
+
+It fails with:
+
+```
+        ""error"": {
+          ""type"": ""mapper_parsing_exception"",
+          ""reason"": ""Field name [PTEX.Fullbanner] cannot contain '.'""
+        }
+```
+
+Closes #256.",2016-12-30 18:24:18+01:00,False
+85b3735916ea2189fbd4b6d4f54238bc5d92d3cb,"Multi-language support for indexed documents
+
+You can now ask for language detection using `lang_detect` option:
+
+```json
+{
+  ""name"" : ""test"",
+  ""fs"" : {
+    ""lang_detect"" : true
+  }
+}
+```
+
+In that case, a new field named `meta.language` is added to the generated JSon document.
+
+If you are using elasticsearch 5.0 or superior, you can use this value to send your document to a specific index
+using a Node Ingest pipeline which has been introduced with #234.
+
+For example, you can define a pipeline named `langdetect` with:
+
+```sh
+PUT _ingest/pipeline/langdetect
+{
+  ""description"" : ""langdetect pipeline"",
+  ""processors"" : [
+    {
+      ""set"": {
+        ""field"": ""_index""
+        ""value"": ""myindex-{{meta.language}}""
+      }
+    }
+  ]
+}
+```
+
+In FS crawler settings, set both `fs.lang_detect` and `elasticsearch.pipeline` options:
+
+```json
+{
+  ""name"" : ""test"",
+  ""fs"" : {
+    ""lang_detect"" : true
+  },
+  ""elasticsearch"" : {
+    ""pipeline"" : ""langdetect""
+  }
+}
+```
+
+And then, a document containing french text will be sent to `myindex-fr`.
+A document containing english text will be sent to `myindex-en`.
+
+You can also imagine changing the field name from `content` to `content-fr` or `content-en`. That will help you
+to define the correct analyzer to use.
+
+Language detection might detect more than one language in a given text but only the most accurate will be set.
+Which means that if you have a document containing 80% of french and 20% of english, the document will be marked
+as `fr`.
+
+Note that language detection is CPU and time consuming.
+
+Closes #162.",2016-12-31 01:17:22+01:00,True
+5d97feb8db591ff7e356b4b18e695df74c452925,Fix doc rendering,2016-12-31 01:20:16+01:00,False
+07f26c6ddf15544d0b0d20db77113409310f3f7a,Note that lang-detect is from 2.2,2016-12-31 01:21:27+01:00,True
+28bed6bcd8b2a97e1279f21376b7a8b148aca115,Fix link,2016-12-31 01:21:55+01:00,True
+cd7bc6c154752e83890b1666960036d09f8183ee,"Add a REST Layer
+
+FS crawler comes with a REST service available by default at `http://127.0.0.1:8080/fscrawler`.
+To activate it, launch FS Crawler with `--rest` option.
+
+To get an overview of the running service, you can call `GET /` endpoint:
+
+```sh
+curl http://127.0.0.1:8080/fscrawler/
+```
+
+It will give you a response similar to:
+
+```json
+{
+  ""ok"" : true,
+  ""version"" : ""2.2"",
+  ""elasticsearch"" : ""5.1.1"",
+  ""settings"" : {
+    ""name"" : ""fscrawler-rest-tests"",
+    ""fs"" : {
+      ""url"" : ""/tmp/es"",
+      ""update_rate"" : ""15m"",
+      ""json_support"" : false,
+      ""filename_as_id"" : false,
+      ""add_filesize"" : true,
+      ""remove_deleted"" : true,
+      ""store_source"" : false,
+      ""index_content"" : true,
+      ""attributes_support"" : false,
+      ""raw_metadata"" : true,
+      ""xml_support"" : false,
+      ""index_folders"" : true,
+      ""lang_detect"" : false
+    },
+    ""elasticsearch"" : {
+      ""nodes"" : [ {
+        ""host"" : ""127.0.0.1"",
+        ""port"" : 9200,
+        ""scheme"" : ""HTTP""
+      } ],
+      ""index"" : ""fscrawler-rest-tests"",
+      ""type"" : ""doc"",
+      ""bulk_size"" : 100,
+      ""flush_interval"" : ""5s"",
+      ""username"" : ""elastic""
+    },
+    ""rest"" : {
+      ""scheme"" : ""HTTP"",
+      ""host"" : ""127.0.0.1"",
+      ""port"" : 8080,
+      ""endpoint"" : ""fscrawler""
+    }
+  }
+}
+```
+
+To upload a binary, you can call `POST /_upload` endpoint:
+
+```sh
+echo ""This is my text"" > test.txt
+curl -F ""file=@test.txt"" ""http://127.0.0.1:8080/fscrawler/_upload""
+```
+
+It will give you a response similar to:
+
+```json
+{
+  ""ok"" : true,
+  ""filename"" : ""test.txt"",
+  ""url"" : ""http://127.0.0.1:9200/fscrawler-rest-tests/doc/dd18bf3a8ea2a3e53e2661c7fb53534""
+}
+```
+
+The `url` represents the elasticsearch address of the indexed document.
+If you call:
+
+```sh
+curl http://127.0.0.1:9200/fscrawler-rest-tests/doc/dd18bf3a8ea2a3e53e2661c7fb53534?pretty
+```
+
+You will get back your document as it has been stored by elasticsearch:
+
+```json
+{
+  ""_index"" : ""fscrawler-rest-tests"",
+  ""_type"" : ""doc"",
+  ""_id"" : ""dd18bf3a8ea2a3e53e2661c7fb53534"",
+  ""_version"" : 1,
+  ""found"" : true,
+  ""_source"" : {
+    ""content"" : ""This file contains some words.\n"",
+    ""meta"" : {
+      ""raw"" : {
+        ""X-Parsed-By"" : ""org.apache.tika.parser.DefaultParser"",
+        ""Content-Encoding"" : ""ISO-8859-1"",
+        ""Content-Type"" : ""text/plain; charset=ISO-8859-1""
+      }
+    },
+    ""file"" : {
+      ""extension"" : ""txt"",
+      ""content_type"" : ""text/plain; charset=ISO-8859-1"",
+      ""indexing_date"" : ""2017-01-04T21:01:08.043"",
+      ""filename"" : ""test.txt""
+    },
+    ""path"" : {
+      ""virtual"" : ""test.txt"",
+      ""real"" : ""test.txt""
+    }
+  }
+}
+```
+
+If you started FS crawler in debug mode with `--debug` or if you pass `debug=true` query parameter,
+then the response will be much more complete:
+
+```sh
+echo ""This is my text"" > test.txt
+curl -F ""file=@test.txt"" ""http://127.0.0.1:8080/fscrawler/_upload?debug=true""
+```
+
+will give
+
+```json
+{
+  ""ok"" : true,
+  ""filename"" : ""test.txt"",
+  ""url"" : ""http://127.0.0.1:9200/fscrawler-rest-tests/doc/dd18bf3a8ea2a3e53e2661c7fb53534"",
+  ""doc"" : {
+    ""content"" : ""This file contains some words.\n"",
+    ""meta"" : {
+      ""raw"" : {
+        ""X-Parsed-By"" : ""org.apache.tika.parser.DefaultParser"",
+        ""Content-Encoding"" : ""ISO-8859-1"",
+        ""Content-Type"" : ""text/plain; charset=ISO-8859-1""
+      }
+    },
+    ""file"" : {
+      ""extension"" : ""txt"",
+      ""content_type"" : ""text/plain; charset=ISO-8859-1"",
+      ""indexing_date"" : ""2017-01-04T14:05:10.325"",
+      ""filename"" : ""test.txt""
+    },
+    ""path"" : {
+      ""virtual"" : ""test.txt"",
+      ""real"" : ""test.txt""
+    }
+  }
+}
+```
+
+If you want to get back the extracted content and its metadata but without indexing into elasticsearch
+you can use `simulate=true` query parameter:
+
+```sh
+echo ""This is my text"" > test.txt
+curl -F ""file=@test.txt"" ""http://127.0.0.1:8080/fscrawler/_upload?debug=true&simulate=true""
+```
+
+By default, FS crawler encodes the filename to generate an id. Which means that if you send 2 files
+with the same filename `test.txt`, the second one will overwrite the first one because they will both share
+the same ID.
+
+You can force any id you wish by adding `id=YOUR_ID` in the form data:
+
+```sh
+echo ""This is my text"" > test.txt
+curl -F ""file=@test.txt"" -F ""id=my-test"" ""http://127.0.0.1:8080/fscrawler/_upload""
+```
+
+There is a specific id named `_auto_` where the ID will be autogenerated by elasticsearch.
+It means that sending twice the same file will result in 2 different documents indexed.
+
+REST service is running at `http://127.0.0.1:8080/fscrawler` by default.
+
+You can change it using `rest` settings:
+
+```json
+{
+  ""name"" : ""test"",
+  ""rest"" : {
+    ""scheme"" : ""HTTP"",
+    ""host"" : ""192.168.0.1"",
+    ""port"" : 8180,
+    ""endpoint"" : ""my_fscrawler""
+  }
+}
+```
+
+It also means that if you are running more than one instance of FS crawler locally, you can (must) change
+the `port`.",2017-01-07 17:56:09+01:00,True
+346c123e058712bee1327780c6a21f2bedfbc215,"Add new option to restart FS crawler
+
+You can tell FS crawler that it must restart from the beginning by using `--restart` option:
+
+```sh
+bin/fscrawler job_name --restart
+```
+
+In that case, the `{job_name}/_status.json` file will be removed.
+
+Closes #267.",2017-01-14 14:02:26+01:00,True
+150f1d433d18477e40c8a10ce5e9e2719dfac615,"Use path analyzer for directory fields
+
+This is introducing a new `_settings.json` file which contains index settings always depending on elasticsearch version you are using.
+
+Settings define now a `fscrawler_path` analyzer:
+
+```json
+{
+  ""settings"": {
+    ""analysis"": {
+      ""analyzer"": {
+        ""fscrawler_path"": {
+          ""tokenizer"": ""fscrawler_path""
+        }
+      },
+      ""tokenizer"": {
+        ""fscrawler_path"": {
+          ""type"": ""path_hierarchy""
+        }
+      }
+    }
+  }
+}
+```
+
+Which is used in mapping:
+
+```json
+""path"" : {
+  ""properties"" : {
+    ""encoded"" : {
+      ""type"" : ""keyword""
+    },
+    ""real"" : {
+      ""type"" : ""text"",
+      ""analyzer"": ""fscrawler_path"",
+      ""fields"": {
+        ""keyword"": {
+          ""type"" : ""keyword""
+        }
+      }
+    },
+    ""root"" : {
+      ""type"" : ""keyword""
+    },
+    ""virtual"" : {
+      ""type"" : ""text"",
+      ""analyzer"": ""fscrawler_path"",
+      ""fields"": {
+        ""keyword"": {
+          ""type"" : ""keyword""
+        }
+      }
+    }
+  }
+ }
+```
+
+You can still search for exact values using now `virtual.keyword` and `real.keyword` subfields.
+If you search in `virtual` or `real`, the path analyzer will be used.
+
+Note that we can do it the other way around as well.
+
+Closes #271.",2017-01-18 20:56:39+01:00,True
+038b55a3f504bc4044aaca6627e4b0911c732c09,"Add fielddata for path fields
+
+When using a 5.x cluster, we can not aggregate on path fields in 5.0 because:
+
+ * they are analyzed, so no doc_values
+ * fielddata is false by default
+
+With that commit, people will be able to run:
+
+```
+GET docs/doc/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""folder"": {
+      ""terms"": {
+        ""field"": ""path.virtual.tree""
+      }
+    }
+  }
+}
+```
+
+And get
+
+```
+{
+  ""took"": 1,
+  ""timed_out"": false,
+  ""_shards"": {
+    ""total"": 5,
+    ""successful"": 5,
+    ""failed"": 0
+  },
+  ""hits"": {
+    ""total"": 7,
+    ""max_score"": 0,
+    ""hits"": []
+  },
+  ""aggregations"": {
+    ""folder"": {
+      ""doc_count_error_upper_bound"": 0,
+      ""sum_other_doc_count"": 2,
+      ""buckets"": [
+        {
+          ""key"": ""/subdir1"",
+          ""doc_count"": 3
+        },
+        {
+          ""key"": ""/subdir2"",
+          ""doc_count"": 3
+        },
+        {
+          ""key"": ""/subdir1/"",
+          ""doc_count"": 1
+        },
+        {
+          ""key"": ""/subdir1/subdir11"",
+          ""doc_count"": 1
+        },
+        {
+          ""key"": ""/subdir1/subdir11/"",
+          ""doc_count"": 1
+        },
+        {
+          ""key"": ""/subdir1/subdir12"",
+          ""doc_count"": 1
+        },
+        {
+          ""key"": ""/subdir1/subdir12/"",
+          ""doc_count"": 1
+        },
+        {
+          ""key"": ""/subdir2/"",
+          ""doc_count"": 1
+        },
+        {
+          ""key"": ""/subdir2/subdir21"",
+          ""doc_count"": 1
+        },
+        {
+          ""key"": ""/subdir2/subdir21/"",
+          ""doc_count"": 1
+        }
+      ]
+    }
+  }
+}
+```
+
+Related to #272.
+Closes #273.",2017-01-19 11:20:42+01:00,False
+3dce6602c3b334071f19f885f77eee9b632a0755,"Remove trailing / character in virtual path
+
+While working on #273, I saw that we are adding a trailing `/` character in `path.virtual` field.
+Which then gives ""bad results"" when doing aggregations on it:
+
+```json
+  ""aggregations"": {
+    ""folder"": {
+      ""doc_count_error_upper_bound"": 0,
+      ""sum_other_doc_count"": 0,
+      ""buckets"": [
+        {
+          ""key"": ""/subdir"",
+          ""doc_count"": 1
+        },
+        {
+          ""key"": ""/subdir/"",
+          ""doc_count"": 1
+        }
+      ]
+    }
+  }
+```
+
+We remove the last `/` as the real path name is `/subdir` in such a case.
+
+It now gives:
+
+```json
+  ""aggregations"": {
+    ""folder"": {
+      ""doc_count_error_upper_bound"": 0,
+      ""sum_other_doc_count"": 0,
+      ""buckets"": [
+        {
+          ""key"": ""/subdir"",
+          ""doc_count"": 2
+        }
+      ]
+    }
+  }
+```
+
+Closes #274.",2017-01-20 10:59:44+01:00,False
+8a1146c1364361fd0b7afa1115386b30df9f8017,documentation for loop moved to under --loop instead of under --rest,2017-01-23 10:55:43+02:00,True
+5afd4763913e6331e96ae383fcfaaca1c0d95279,add link to repo with dockerfile usage of fscrawler,2017-01-23 15:17:25+02:00,True
+b29d8db366c0efe21b71cffb73d3694f861e332f,"Reorganize the documentation
+
+The documentation should be reorganized and we should follow our settings:
+
+* Installation guide
+  * Download fscrawler
+  * Upgrade fscrawler
+* User guide
+  * Getting Started
+  * Searching for docs
+  * Crawler options
+  * Starting with a REST gateway
+  * Supported formats
+* Administration guide
+  * CLI options
+  * JVM Settings
+  * Job file specification
+    * Local FS settings
+    * SSH settings
+    * Elasticsearch settings
+    * REST service
+* Tips and tricks
+* Developing on fscrawler project
+* License
+
+Plus some examples.
+
+Closes #281.",2017-01-24 13:02:23+01:00,True
+a50d2478f32d9d6b5bfbae51e358ba5f90c9ac82,documentation of local FS settings missing index_content and default for indexed_chars was 0,2017-01-24 18:54:17+02:00,False
+cb5833f48e2e01dc43d46859d7b511a41b0fddd9,"Define a default exclusion list with files starting with `~`
+
+Until now we were hard coding what is needed to excluded as known temporary files.
+This commit makes that more flexible by defining a default exclusion list which can be overriden and
+only defaults to files starting with `~` instead of files containing `~`.
+
+So `excludes` is now set by default for new jobs to `[""~*""]`. In previous versions, any file or directory containing a
+`~` was excluded. Which means that if in your jobs, you are defining any exclusion rule, you need to add `*~*` if
+you want to get back the exact previous behavior.
+
+Closes #291.",2017-01-30 16:34:26+01:00,True
+ed138c7287099f28c866238e96c8ba68784a6018,"Support `filename_as_id` for any type of file
+
+Instead of supporting `filename_as_id` only for xml and json, we now support it for whatever file.
+Note that it can cause some issues to the user as elasticsearch can't accept any kind of `_id`.
+
+But it's on user's responsability to activate this option.
+
+We can think of replacing on the fly any non valid character with a `_` for example but let's do that in another PR.
+
+Closes #282.",2017-01-30 17:22:20+01:00,True
+1acbd76e98702cbdc101f4f21d636702a4e440a5,"Add new `add_as_inner_object` option to add metadata to json/xml documents
+
+The default settings store the contents of json and xml documents directly onto the _source element of elasticsearch
+documents. Thereby, there is no metadata about file and path settings, which are necessary to determine if a document
+is deleted or updated.
+New files will however be added to the index, (determined by the file timestamp).
+
+If you need to keep json or xml documents synchronized to elasticsearch, you should set this option.
+
+```json
+{
+  ""name"" : ""test"",
+  ""fs"" : {
+    ""add_as_inner_object"" : true
+  }
+}
+```
+
+Closes #237.
+Closes #241.",2017-01-31 16:45:25+01:00,False
+85c647d2c4b9d01c5e983e2137c34735293835a6,Update docs for release of 2.2,2017-02-03 09:30:10+01:00,True
+262db2e71f2ac8699b034971c3ef8a83ea996540,Fix links typo,2017-02-20 16:22:45+08:00,False
+d534a3277f93103365d745a2b2a86827d1157f5d,"Add continue_on_error option to continue on error while crawling (#330)
+
+By default FS Crawler will immediately stop indexing if he hits a Permission denied exception.
+
+If you want to just skip this File and continue with the rest of the directory tree you can set `continue_on_error` to `true` (default to `false`):
+
+```json
+{
+  ""name"" : ""test"",
+  ""fs"" : {
+    ""continue_on_error"" : true
+  }
+}
+```",2017-02-24 16:56:27+01:00,False
+461b5ea47e2a45268a08d3511d2f912448276e19,"Add documentation about `JAVA_HOME`
+
+Closes #289.",2017-02-24 23:38:49+01:00,True
+5ee4acb70db28d742c1a71a7ba6df57b800b2582,"Reverse order of releases
+
+So we put the most recent first",2017-03-12 09:47:46-07:00,False
+2b573aed46ec485a0740df8b5f6df12a57af9c4a,"Folder mapping has name field that is never used
+
+Closes #352.",2017-04-26 18:12:07+02:00,True
+cdafe0024a2b9ee1061aa3d20fb0a5b83abfc726,"Inconsistent use of 'path' real properties for folders and files
+
+Closes #353.",2017-05-05 13:36:48+02:00,True
+9f2bf20cb12fa47604b5eaf636b506090cc84967,"Remove path.encoded field
+
+Closes #366.",2017-05-05 14:17:21+02:00,True
+f5b6178dc0377f670ba63feff6acf77fda87dfb2,"Add documentation regarding http content length limit
+
+Typical error is
+
+    Error while indexing content from [path]: entity content is too long [134161442] for the configured buffer limit [104857600]
+
+Closes #345",2017-05-06 00:01:58+02:00,False
+2d2846a8ee1289068ceef29f80d9603d81a73134,"Add OCR support for PDF documents
+
+Closes #373.
+Closes #314.",2017-05-19 12:54:18+02:00,True
+69f4d08ff8d3d209118eaecd018d706ca74e04fc,"Timestamp ""last modified"" and ""indexed time"" shifted + 2h
+
+We now store all data in elasticsearch with the right TimeZone (UTC that is).
+
+Closes #350.",2017-05-19 15:33:56+02:00,True
+868ccf7268a06f0348f9991974b0858ffc2801a9,"Update to Apache Tika 1.15
+
+Closes #378.",2017-06-02 13:31:08+02:00,False
+f7fcd12416bed38cb21aefaeb047e705abc2fc0f,"fixed JSON, missing comma added
+
+Signed-off-by: Roland Häder <roland@mxchange.org>",2017-06-15 14:19:34+02:00,False
+ad76a151bc5c68764223d35de685f91dc5873e8b,Fix file-checksum link,2017-07-03 11:58:13+02:00,False
+98723cf529b4dc827fda43aaeb7a170acf6b7baa,"Ingest pipeline should be applied to doc index only
+
+As seen in https://github.com/dadoonet/fscrawler/issues/392#issuecomment-312421066 FSCrawler 2.2 uses the same pipeline for docs and folders. Which is wrong because you are not manipulating the same objects.
+
+It causes bulk rejections for folders:
+
+```
+11:13:57,119 DEBUG [f.p.e.c.f.c.BulkProcessor] Error for job/folder/2388303e676399fcc46c92243c3b125d for null operation: {type=exception, reason=java.lang.IllegalArgumentException: java.lang.IllegalArgumentException: field [content] not present as part of path [content], caused_by={type=illegal_argument_exception, reason=java.lang.IllegalArgumentException: field [content] not present as part of path [content], caused_by={type=illegal_argument_exception, reason=field [content] not present as part of path [content]}}, header={processor_type=gsub}}
+```
+
+Closes #395",2017-07-05 16:21:58+02:00,False
+f21789127c21b088e707a916e1a575e879f5affa,"Update to Elasticsearch 6.0.0-alpha2
+
+In order to be compatible with the coming 6.0 elasticsearch version, we need to get rid of types as only one type
+per index is still supported. Which means that we now create index named `job_name` and `job_name_folder` instead
+of one index `job_name` with two types `doc` and `folder`. If you are upgrading from FSCrawler 2.2, it requires that
+you reindex your existing data either by deleting the old index and running again FSCrawler or by using the
+[reindex API](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-reindex.html) as follows:
+
+```
+POST _reindex
+{
+  ""source"": {
+    ""index"": ""job_name"",
+    ""type"": ""folder""
+  },
+  ""dest"": {
+    ""index"": ""job_name_folder""
+  }
+}
+POST job_name/folder/_delete_by_query
+{
+  ""query"": {
+    ""match_all"": {}
+  }
+}
+```
+
+Note that you will need first to create the right settings and mappings so you can then run the reindex job.
+You can do that by launching `bin/fscrawler job_name --loop 0`.
+
+Better, you can run `bin/fscrawler job_name --upgrade` and let FSCrawler do all that for you. Note that this can take
+a loooong time.
+
+Also please be aware that some APIs used by the upgrade action are only available from elasticsearch 2.3 (reindex) or
+elasticsearch 5.0 (delete by query). If you are running an older version than 5.0 you need first to upgrade elasticsearch.
+
+This procedure only applies if you did not set previously `elasticsearch.type` setting (default value was `doc`).
+If you did, then you also need to reindex the existing documents to the default `doc` type as per elasticsearch 6.0:
+
+```
+POST _reindex
+{
+  ""source"": {
+    ""index"": ""job_name"",
+    ""type"": ""your_type_here""
+  },
+  ""dest"": {
+    ""index"": ""job_name"",
+    ""type"": ""doc""
+  }
+}
+POST job_name/your_type_here/_delete_by_query
+{
+  ""query"": {
+    ""match_all"": {}
+  }
+}
+```
+
+But note that this last step can take a very loooong time and will generate a lot of IO on your disk.
+It might be easier in such case to restart fscrawler from scratch.
+
+As seen in the previous point, we now have 2 indices instead of a single one. Which means that `elasticsearch.index`
+setting has been split to `elasticsearch.index` and `elasticsearch.index_folder`. By default, it's set to the
+crawler name and the crawler name plus `_folder`. Note that the `upgrade` feature performs that change for you.
+
+fscrawler has removed now mapping files `doc.json` and `folder.json`. Mapping for doc is merged within `_settings.json`
+file and folder mapping is now part of `_settings_folder.json`. Which means you can remove old files to avoid confusion.
+You can simply remove existing files in `~/.fscrawler/_default` before starting the new version so default
+files will be created again.
+
+Instead of overcomplicated things, we are going to keep the index name
+for actual documents to be by default the job name. Only the folder index
+is appended with `_folder`.
+
+This is making things easier for upgrade as basically you don't need to
+reindex documents and also it prepares the future.
+
+In a next version, we will change the implementation an probably we won't
+need anymore to store the folder names so we won't have to keep a
+`job_name_folder` index around. We will just have the `job_name` remaining.
+
+This commit also adds tests against 6.0 version which you can run with `mvn install -Pes-6x`
+
+Closes #383.",2017-07-07 16:21:07+02:00,True
+e11783513ec2bce44517902dea9202bef5bde311,"Remove support for elasticsearch 1.7
+
+Related to #297
+
+We still have mapping templates for 1.x series. Which we don't need anymore.
+
+Closes #401.",2017-07-10 17:51:03+02:00,False
+7a3f30671d7ec76caa35312d76b6c50b80b604c2,Move dev guide to CONTRIBUTING.md,2017-07-10 18:12:38+02:00,True
+6ec160e782f904ef9ffc3e8fb068158de688c9bc,Update documentation for 2.3 release,2017-07-10 19:54:24+02:00,True
+ca36636bcf55334c46a727be7ad84b845957e25a,"Documentation about user mappings is wrong
+
+Closes #408.",2017-07-26 18:37:14+02:00,False
+c0c15dc83be56472add689f2c66c1e4f77b07c28,"Update to Tika 1.16
+
+Note that `audio/x-wav` is now detected as `audio/vnd.wave`.
+We explicit exclude TesseractOCRParser.
+
+```
+11:11:23,309 WARN  [o.a.t.p.o.TesseractOCRParser] Tesseract OCR is installed and will be automatically applied to image files unless
+you've excluded the TesseractOCRParser from the default parser.
+Tesseract may dramatically slow down content extraction (TIKA-2359).
+As of Tika 1.15 (and prior versions), Tesseract is automatically called.
+In future versions of Tika, users may need to turn the TesseractOCRParser on via TikaConfig.
+```
+
+We also need to provide `sqlite-jdbc`:
+
+```
+11:11:23,332 WARN  [o.a.t.p.SQLite3Parser] org.xerial's sqlite-jdbc is not loaded.
+Please provide the jar on your classpath to parse sqlite files.
+See tika-parsers/pom.xml for the correct version.
+```
+
+We also need to provide `JBIG2ImageReader`:
+
+```
+11:11:23,255 WARN  [o.a.t.p.PDFParser] JBIG2ImageReader not loaded. jbig2 files will be ignored
+See https://pdfbox.apache.org/2.0/dependencies.html#jai-image-io
+for optional dependencies.
+```
+
+We also need to provide `TIFFImageWriter`:
+
+```
+TIFFImageWriter not loaded. tiff files will not be processed
+See https://pdfbox.apache.org/2.0/dependencies.html#jai-image-io
+for optional dependencies.
+```
+
+We also need to provide `J2KImageReader`:
+
+```
+J2KImageReader not loaded. JPEG2000 files will not be processed.
+See https://pdfbox.apache.org/2.0/dependencies.html#jai-image-io
+for optional dependencies.
+```
+
+Closes #406.
+
+Also fix that `pdf_ocr:false` should disable OCR entirely which is not the
+case yet.
+
+Closes #410.",2017-07-31 18:58:29+02:00,False
+66908d6a0d173eff4c05315fc4192cd9a2368cf2,"Make logger externally configurable
+
+Closes #394.",2017-07-31 21:13:53+02:00,False
+3afd814161670d5817f90d363b7a5babd49f84d0,"Add support for language setting for tesseract
+
+This introduces a new type of settings `fs.ocr` which for now
+only exposes `language` but in the future we can easily implement
+other settings like tesseract path, min/max file size settings,
+timeout and so on.
+
+Actually all properties that we can set from [TesseractOCRConfig](https://github.com/apache/tika/blob/master/tika-parsers/src/main/java/org/apache/tika/parser/ocr/TesseractOCRConfig.java).
+
+So if you have installed a [Tesseract Language pack](https://wiki.apache.org/tika/TikaOCR), you can use it when
+parsing your documents by setting `fs.ocr.language` property in your `~/.fscrawler/test/_settings.json` file:
+
+```json
+{
+  ""name"" : ""test"",
+  ""fs"" : {
+    ""url"" : ""/path/to/data/dir"",
+    ""ocr"" : {
+      ""language"": ""eng""
+    }
+  }
+}
+```
+
+Closes #398",2017-08-02 13:37:05+02:00,False
+1a66966991bb360398481f1aaa7a8d95206773dd,"Add support for more metadata OOTB
+
+We add support for:
+
+|         Field        |                Description                  |                    Example                  |                                                          Javadoc                                               |
+|----------------------|---------------------------------------------|---------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| `meta.format`        | Format of the media                         | `""application/pdf; version=1.6""`            |[FORMAT](https://tika.apache.org/1.16/api/org/apache/tika/metadata/TikaCoreProperties.html#FORMAT)              |
+| `meta.identifier`    | URL/DOI/ISBN for example                    | `""FOOBAR""`                                  |[IDENTIFIER](https://tika.apache.org/1.16/api/org/apache/tika/metadata/TikaCoreProperties.html#IDENTIFIER)      |
+| `meta.contributor`   | Contributor                                 | `""foo bar""`                                 |[CONTRIBUTOR](https://tika.apache.org/1.16/api/org/apache/tika/metadata/TikaCoreProperties.html#CONTRIBUTOR)    |
+| `meta.coverage`      | Coverage                                    | `""FOOBAR""`                                  |[COVERAGE](https://tika.apache.org/1.16/api/org/apache/tika/metadata/TikaCoreProperties.html#COVERAGE)          |
+| `meta.modifier`      | Last author                                 | `""David Pilato""`                            |[MODIFIER](https://tika.apache.org/1.16/api/org/apache/tika/metadata/TikaCoreProperties.html#MODIFIER)          |
+| `meta.creator_tool`  | Tool used to create the resource            | `""HTML2PDF - TCPDF""`                        |[CREATOR_TOOL](https://tika.apache.org/1.16/api/org/apache/tika/metadata/TikaCoreProperties.html#CREATOR_TOOL)  |
+| `meta.publisher`     | Publisher: person, organisation, service    | `""elastic""`                                 |[PUBLISHER](https://tika.apache.org/1.16/api/org/apache/tika/metadata/TikaCoreProperties.html#PUBLISHER)        |
+| `meta.relation`      | Related resource                            | `""FOOBAR""`                                  |[RELATION](https://tika.apache.org/1.16/api/org/apache/tika/metadata/TikaCoreProperties.html#RELATION)          |
+| `meta.rights`        | Information about rights                    | `""CC-BY-ND""`                                |[RIGHTS](https://tika.apache.org/1.16/api/org/apache/tika/metadata/TikaCoreProperties.html#RIGHTS)              |
+| `meta.source`        | Source for the current document (derivated) | `""FOOBAR""`                                  |[SOURCE](https://tika.apache.org/1.16/api/org/apache/tika/metadata/TikaCoreProperties.html#SOURCE)              |
+| `meta.type`          | Nature or genre of the content              | `""Image""`                                   |[TYPE](https://tika.apache.org/1.16/api/org/apache/tika/metadata/TikaCoreProperties.html#TYPE)                  |
+| `meta.description`   | An account of the content                   | `""This is a description""`                   |[DESCRIPTION](https://tika.apache.org/1.16/api/org/apache/tika/metadata/TikaCoreProperties.html#DESCRIPTION)    |
+| `meta.created`       | Date of creation                            | `""2013-04-04T15:21:35""`                     |[CREATED](https://tika.apache.org/1.16/api/org/apache/tika/metadata/TikaCoreProperties.html#CREATED)            |
+| `meta.print_date`    | When was the document last printed?         | `""2013-04-04T15:21:35""`                     |[PRINT_DATE](https://tika.apache.org/1.16/api/org/apache/tika/metadata/TikaCoreProperties.html#PRINT_DATE)      |
+| `meta.metadata_date` | Last modification of metadata               | `""2013-04-04T15:21:35""`                     |[METADATA_DATE](https://tika.apache.org/1.16/api/org/apache/tika/metadata/TikaCoreProperties.html#METADATA_DATE)|
+| `meta.latitude`      | The WGS84 Latitude of the Point             | `""N 48° 51' 45.81''""`                       |[LATITUDE](https://tika.apache.org/1.16/api/org/apache/tika/metadata/TikaCoreProperties.html#LATITUDE)          |
+| `meta.longitude`     | The WGS84 Longitude of the Point            | `""E 2° 17' 15.331''""`                       |[LONGITUDE](https://tika.apache.org/1.16/api/org/apache/tika/metadata/TikaCoreProperties.html#LONGITUDE)        |
+| `meta.altitude`      | The WGS84 Altitude of the Point             | `""""`                                        |[ALTITUDE](https://tika.apache.org/1.16/api/org/apache/tika/metadata/TikaCoreProperties.html#ALTITUDE)          |
+| `meta.rating`        | A user-assigned rating -1, [0..5]           | `0`                                         |[RATING](https://tika.apache.org/1.16/api/org/apache/tika/metadata/TikaCoreProperties.html#RATING)              |
+| `meta.comments`      | Comments                                    | `""Comments""`                                |[COMMENTS](https://tika.apache.org/1.16/api/org/apache/tika/metadata/TikaCoreProperties.html#COMMENTS)          |
+
+Closes #422.",2017-08-08 14:37:19+02:00,False
+61edac639fca692027a874364299673e33f0a309,2.4 Release,2017-08-11 18:09:11+02:00,True
+50a08e5c7b8a98553e17443575b957381e12a0c3,"Add more quality metrics (sonarcloud, versioneye...)
+
+Closes #429.",2017-08-26 15:32:46+02:00,True
+504d6ee7ee8e0bf3b5800b6e6aa9e3f4af380940,Add more badges,2017-08-28 16:55:11+02:00,True
+c33e552f5b2988a8298e3892bed01fab48cb85a7,"Don't use `_source` but only stored fields
+
+A bug was causing a lot of data going over the wire each time FSCrawler was running.
+It was likely throwing an ""entity content is too long"" Exception.
+
+That is caused by the fact we are trying to find deleted documents by reading existing data in elasticsearch.
+The problem is that we have been doing so by searching data with `fields=_source,file.filename` in case `file.filename` was not a stored field.
+As people can index very very big documents, getting the full `_source` back could cause a response bigger than `100mb`.
+
+To fix this issue, we changed the default mapping and we set `store: true` on field `file.filename`. If this field is not stored and `remove_deleted` is `true` (default), FSCrawler will fail while crawling your documents. You need to create the new mapping accordingly and reindex your existing data either by deleting the old index and running again FSCrawler or by using the [reindex API](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-reindex.html) as follows:
+
+```
+# Backup old index data
+POST _reindex
+{
+  ""source"": {
+    ""index"": ""job_name""
+  },
+  ""dest"": {
+    ""index"": ""job_name_backup""
+  }
+}
+# Remove job_name index
+DELETE job_name
+```
+
+Restart FSCrawler with the following command. It will just create the right mapping again.
+
+```sh
+$ bin/fscrawler job_name --loop 0
+```
+
+Then restore old data:
+
+```
+POST _reindex
+{
+  ""source"": {
+    ""index"": ""job_name_backup""
+  },
+  ""dest"": {
+    ""index"": ""job_name""
+  }
+}
+# Remove backup index
+DELETE job_name_backup
+```
+
+Closes #432.",2017-09-13 16:24:46+02:00,True
+48d20c3d8ea14a2e63c049c6062a8dd3d40cef92,Update links to sonarcube,2017-10-27 00:51:51+02:00,True
+0f33907c220d6ead8d8c065fd1b581b493c1ce8a,Move to Gemnasium,2018-01-10 17:50:19+01:00,True
+86ae47799f79d9b30db516d5dd7ec3c71cbd82c1,"Update to Tika 1.17
+
+Closes #478.",2018-01-12 16:56:52+01:00,False
+08a35462329363a2f454e62f92e17cab3c150d25,"Add more tests about moving files
+
+Closes #379.",2018-01-14 11:24:44+01:00,False
+14529020c2d16d0c463707697076b82dc32755e1,"Fix ignore folders documentation
+
+It appears that we are documenting that to ignore indexing folders in elasticsearch, we have to use the `fs.ignore_folders` setting.
+But this setting does not exist and is actually `index_folders` with the opposite meaning.
+
+This commit fixes the documentation.
+
+Closes #327.",2018-01-14 11:48:54+01:00,False
+d9feb32cdb52610c7db5d48c89ede7e8136e2fd8,readme: add note that fs settings also affect rest,2018-01-18 13:30:50+02:00,False
+e361d7b7f8a90a3800035016d5130c7938921fb6,"Allow setting Tesseract path to executable and data
+
+## OCR Path
+
+If your Tesseract application is not available in default system PATH, you can define the path to use
+by setting `fs.ocr.path` property in your `~/.fscrawler/test/_settings.json` file:
+
+```json
+{
+  ""name"" : ""test"",
+  ""fs"" : {
+    ""url"" : ""/path/to/data/dir"",
+    ""ocr"" : {
+      ""path"": ""/path/to/tesseract/executable""
+    }
+  }
+}
+```
+
+When you set it, it's highly recommended to [set the data path for Tesseract](#ocr-data-path).
+
+## OCR Data Path
+
+Set the path to the 'tessdata' folder, which contains language files and config files if Tesseract
+can not be automatically detected. You can define the path to use
+by setting `fs.ocr.data_path` property in your `~/.fscrawler/test/_settings.json` file:
+
+```json
+{
+  ""name"" : ""test"",
+  ""fs"" : {
+    ""url"" : ""/path/to/data/dir"",
+    ""ocr"" : {
+      ""path"": ""/path/to/tesseract/executable"",
+      ""data_path"": ""/path/to/tesseract/tessdata""
+    }
+  }
+}
+```
+
+Closes #495.",2018-02-19 20:43:45+01:00,False
+c1b010e7ceb7ac513c59c165ed7e4f3323a6b45c,"Raw fields should be considered as text/keyword
+
+As elasticsearch will by default to automatically guess the type, you could end up having conflicts between
+metadata raw fields: a field which is first detected as a date but is getting for another document a value like
+""in the seventies"". In such a case, you could imagine forcing the mapping or defining an index mapping template.
+
+This commit provides now a dynamic template for `meta.raw.*` fields:
+
+```
+      ""dynamic_templates"": [
+        {
+          ""raw_as_text"": {
+            ""path_match"": ""meta.raw.*"",
+            ""mapping"": {
+              ""type"": ""text"",
+              ""fields"": {
+                ""keyword"": {
+                  ""type"": ""keyword"",
+                  ""ignore_above"": 256
+                }
+              }
+            }
+          }
+        }
+      ],
+```
+
+It adds more tests about the `raw` field option.
+
+Closes #439.",2018-02-23 15:21:55+01:00,True
+ec4b36fc979d6cb5d54bd48022d12d8fca187af7,"Update badge links
+
+Gemnasium service has been removed
+Sonarcloud changed the APIs",2018-06-16 06:56:57+02:00,True
+71f0b89d768f98b84ead3d49a78ec41db5127574,Split main badges and sonarcloud badges,2018-06-16 09:31:30+02:00,True
+c6403a91e2a1ea988664d436a16bb184f42dfd82,"Update Readme.md file - SSL connection procedure
+
+New changes proposed in Line#1713 through Line#1741 above",2018-07-06 14:20:12+05:18,False
+a179fe59887d5afe97b9c4fdc1e14ea674d1b790,Fix content for SSL,2018-07-06 23:17:32+02:00,False
+0f0697eca13f4c908ac5ec6446a762a81bd29b57,Fix indentation,2018-07-06 23:19:36+02:00,False
+fcfc37dbd220474c8e217baf18c18f5237282b88,"Restructure documentation with https://readthedocs.org
+
+Closes #445.",2018-07-06 23:28:01+02:00,False
+cf11463042911e323070b98cb178f91d8e6b31a2,Add badge for docs,2018-07-06 23:28:05+02:00,True
+e6bffda921893e809d30e71e1aa38647082a8332,Update the README file,2018-07-06 23:28:06+02:00,True
+e3ded81de6cf33417e5766692cce1395bbb579c1,Fix year,2018-07-06 23:55:23+02:00,False
+583db01d82d0654b64667f795fba6630ca0254a3,Move the license to the documentation,2018-07-06 23:57:18+02:00,True
+66d6e31b023b6c7d2d38b5e20fa249b64aad8d93,SNAPSHOT documentation moved,2018-07-06 23:58:26+02:00,False
+2e09d4c0777095d2aa72c7ae9d7ef8d67c73a319,Fix SonarCloud badges,2018-07-07 14:44:42+02:00,True
+b02353c2d37d8fbea73974aa00482965b67381c4,Fix link to release,2018-08-04 17:55:25+02:00,False
+50b8c7e226dab4a48d492119635849f63e6b2b44,Add LGTM.com code quality badges,2018-09-03 12:19:55+02:00,True
+09894496f4824380a06f5a727a417c2ef98271c4,Add JetBrain link,2018-11-14 14:59:17+01:00,False
+aea8cca79147450d7866f2b4fadc3271d1f6cba1,Update documentation for 2.6 release,2019-01-09 19:38:21+01:00,False
+3f6cd5e602a4cb582c2fefda1d08fabf00c8f15e,"Add support for Elasticsearch 7.0
+
+We can start supporting Elasticsearch 7.0 in FSCrawler.
+
+TODO: replace deprecated methods (don't use types anymore).",2019-01-29 22:00:58+01:00,False
+64ee01c9f2ef478da718a9870f5e65d06d149b8d,"Remove support for Elasticsearch v5
+
+Closes #799.",2019-11-27 14:04:36+01:00,False
+4fec6a9c53be4c2353db1b21e8697758ee50cb86,Update the maven badge to show the 2.6 version,2020-04-03 15:57:27+02:00,True
+cb8587192ad7526319f96878cb4f087e196fd564,"Add Github Actions
+
+Let's start to build the project with Github Actions",2021-06-22 15:57:13+02:00,True
+eee3e1cc01cff8407359426aff632b977f4d9df6,Fix the build badge,2021-06-22 15:57:13+02:00,True
+042cfe431aa1a9d56fe3f8d09ce040d68eacb087,doc: ftp support,2021-07-26 14:44:15+08:00,False
+d3c782703f81be68fa1b74b357a397c587498d5a,Remove bold for the 2.4 version,2021-07-29 18:06:31+02:00,False
+d3b8b76b29fa47917ad653e695de6c2be3d771ef,fix: ftp permission & tests,2021-08-01 18:37:06+08:00,False
+c0f2f97f8880bcda8be3136f17f5757f90f90337,Update documentation for 2.7 release,2021-08-05 13:18:24+02:00,False
+200364643fc8f08c978d88f09dca431ca27abb1a,Update documentation for 2.7 release,2021-08-05 13:21:09+02:00,False
+08380f94dabe9f6e471916ff558b7646650d449d,Add documentation about the 2.8 release,2021-12-14 08:49:35+01:00,False
+ff9c07cb17d0c724f863e19344d08b7046091eb0,Update after release,2022-01-10 19:30:23+01:00,False
+7916385db846641d7032bfec1327a244c3671cdd,"Create codeql-analysis.yml (#1493)
+
+* Create codeql-analysis.yml
+* Move away from LGTM",2022-09-07 16:39:39+02:00,True
+f8f7c4e28afdb9b34bbaa370fd6cd2a63abb5678,ci: add Gitpod integration,2023-02-03 19:42:46+01:00,False

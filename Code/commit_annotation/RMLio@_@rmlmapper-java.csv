@@ -1,0 +1,109 @@
+sha,message,date,result
+3d6dc5186957d13ad91180461732a5907ee60b80,fix #13,2018-05-08 11:43:02+02:00,True
+bca22e453bbc8324f8c573c07bee04550464149f,function inclusion added to readme,2018-05-14 11:09:29+02:00,False
+51b46e0ff3c1547be12d851418d1f0686c152b22,fix #18,2018-05-25 08:03:20+02:00,False
+f79c842a84271bbb76dc9d5cda2424e9cc5351ef,updated readme,2018-06-13 17:55:41+02:00,False
+f0b1909bff52c1fd3ff4d93f65342afe097002a7,Added dependencies,2018-07-18 13:59:21+02:00,True
+54efb8fe31a9018eff35369d30a47cd23a911d02,added uml diagrams + updated readme,2018-07-27 10:36:16+02:00,False
+7fd1b9d6a36eda4829972e09ff9ff8636d2d61dc,updated readme with testing info,2018-08-07 14:43:38+02:00,False
+c78f54c11eaf4930e5c3c41a0530b3d40acecc50,Update README.md,2018-08-07 15:25:37+02:00,False
+cbbfc58b7220ed57bca52892420d11a441b212a8,Update README.md,2018-08-07 15:42:59+02:00,False
+389cc94b4c6cc3b3566fd2953f3e0770a0ac312d,updated readme,2018-08-07 16:25:54+02:00,False
+261267b173fcfc6e516cfe18db61becc6b3cedfa,updated readme with testing problems,2018-08-08 14:40:14+02:00,False
+fb3afcc03a5f5d47f51171824dbb943b5917e984,updated readme,2018-08-08 14:41:09+02:00,False
+2bab445632f8fd12e9a02563eb1b17568d775d3f,"update version to 0.2.0, readme, and changelog",2018-08-09 14:47:06+02:00,False
+9e1292ea2243c5eed0fd57cc4a095a00c8ae7936,update readme,2018-08-09 14:54:36+02:00,False
+3eaceac5f8f0153108dffaf7d33d8d1bf5c3e9bb,updated README and added config file example,2018-08-09 16:57:14+02:00,False
+56839d4a6e0dcaa8f2f35bead2b674fb354918e5,updated README,2018-08-24 14:03:07+02:00,False
+9a64f3eef483a6d4de8304a43e19d8db9025ea05,prepare release v4.0.0,2018-09-03 13:23:33+02:00,True
+e70cece068e3920ce42fbd990bb19f2eebe8ed12,updated changelog and readme,2018-09-27 14:45:39+02:00,False
+00b4dc4e423cf225563076cb74a00fd7107266fe,fix deprected doc,2018-10-01 16:35:38+02:00,False
+04e6faeb254a7ea4230d0d795ab6f9e972253763,fix #84,2018-10-15 11:17:07+02:00,False
+a9001bd302a619ee8376d78d53d42f921b0c1d4d,v4.1.0,2018-10-15 11:37:34+02:00,False
+9aec908055750f51bb53b336d8daa3a4c8b09f26,improved CLI documentation,2018-11-12 15:16:59+01:00,False
+8fbc27d9ffba0c09899732a188bbf8cec8983049,v4.2.0,2018-11-14 10:52:30+01:00,True
+133ca7c16af4286e85c05926a5db7728f9d1760c,fix #90,2018-12-05 11:34:41+01:00,True
+bceba02af98e18c7bc023445cb379b4ba611bd55,version bump,2018-12-17 15:44:21+01:00,False
+8512429140d62947d7a99b591838f277ed76c3cc,"turtle output in main, fixes https://github.com/RMLio/rmlmapper-java/issues/23",2019-03-15 13:34:16+01:00,False
+697ed1ae88b42da570badea2b59539568f3a81a7,updated changelog,2019-04-23 12:51:26+02:00,False
+08c9e29792d3b16075c35da01d5fc6dacf76aa03,linting,2019-04-24 14:07:39+02:00,False
+484fe9fc5370374aa67456a51289223db41b3926,"removed unused imports and commented code, fixed metadata generation",2019-04-24 15:05:57+02:00,False
+adf4714519f3a56fe8c0c7d88440599c4411ff6a,basic javadoc in /docs/apidocs,2019-05-03 16:51:44+02:00,False
+925d86ec95c28ed01be416ccb02f60e509ccc862,removed useless DataFetcher class,2019-05-16 11:37:00+02:00,False
+da63f32841c99089ab56f33131d33ec1aa5f7a1f,updated README,2019-05-16 13:09:54+02:00,False
+6750c85e3caca16b29097a0bd055dae105b33070,"Revert ""removed useless DataFetcher class""
+
+This reverts commit 925d86ec95c28ed01be416ccb02f60e509ccc862.",2019-05-16 13:10:03+02:00,False
+c7593ac2657c38dd42b1942d5c8977b1527a0f63,Fix typo and leftovers from merge conflict,2019-06-17 13:04:06+02:00,False
+8d1f7d2c13cb0f31484311f35d42b658d5643805,bump version,2019-06-17 17:23:36+02:00,False
+a3adfbec805fb568ca4f5065478def4cec7dfae1,Update readme.md,2019-06-17 17:29:53+02:00,False
+36f83c42fd534c795d0a95e96c3c514b806461bc,Add Dockerfile,2019-06-28 13:39:20+02:00,False
+8437b57d9c62424282396d160c80f831c8ca89cd,Add toc to README,2019-06-28 14:40:49+02:00,False
+ed236e0ec6fb41f9c70c50d8325d442da37816fc,fixing argument tests,2019-07-04 08:47:43+02:00,False
+0027fd87b7388f5019f0436a611b1f23f90ecc6d,"added readme snippets as tests to make sure it's always up to date with
+the latest release",2019-08-05 11:33:42+02:00,False
+f5c72e8d81501f44cc1152a38e4c22c37610e05e,Remove opencsv library,2019-09-11 15:25:08+02:00,True
+131f9a2e9900c7bed56d2ef9b03d399ded70e1ee,add url encoding on sql query. String escaping when handling (triple quoted) query string multiple times is very brittle. url encoding solves this issue.,2019-10-29 09:30:36+01:00,False
+f9c28ab34ed08781ae86328dc8c3bbc2b44c44cd,added commercial info RML.io,2020-01-09 15:04:06+01:00,False
+f2dd5579306f36490ac8815992a7b41ac8be4ae9,"fno spec compliant, with remote GREL functions",2020-02-18 17:51:25+01:00,True
+32398c9cb81b18233ac3b4010628d107ffd68566,reverted to old grel prefix,2020-03-03 11:24:52+01:00,False
+914c33a91c5656606f0a8cf6c0ac5488f6616916,Add Oracle JDBC driver via classpath,2020-03-11 14:41:49+01:00,False
+bfb93a910cd98aab5a5885c51c7c5b78b4e0422e,add single test script,2020-05-12 10:54:30+02:00,False
+85314c59a86e10fb9f2cec85ae9545d562581420,updated readme,2020-07-20 17:31:57+02:00,True
+85db84ccb2e17f9596bb1aa7066d917c9a6169a3,Fix #94,2020-09-14 13:14:26+02:00,True
+ca29c8e18717b802e32b62bb17ec3725b5bba344,v4.9.0,2020-09-15 08:25:34+02:00,True
+f8c99d58f501ecf3175315b525231bbae823cefb,Added badge,2020-09-18 14:17:41+02:00,False
+eff85b78a5b6715b5e81d5aeef3d751a353a76e2,Fix #106,2021-03-05 14:34:09+00:00,True
+d524d89566822ce94289696108c6d92794b5f9bd,Fix https://gitlab.ilabt.imec.be/rml/proc/rmlmapper-java/-/issues/178,2021-03-17 13:47:43+00:00,False
+89cc99f97586bdf297eb79f9b07da0f6cb442d0a,readme: link to Dockerhub. Fixes #180,2021-03-17 15:44:09+01:00,False
+789bb9aea8b41935a264461d4b19e12fb4743438,readme: add remark about duplicate removal and serialization format,2021-03-23 09:18:53+01:00,False
+faea37716165dcee13236f0a0d5893012e84971a,update documentation,2021-04-27 09:05:07+02:00,True
+91bc5dc2ad8c219b5c124ba0ea4696039083ebc1,README: add new features of Web of Things,2021-05-05 06:33:09+00:00,False
+f0eb7b6b45e96b2ba58c3abde0638a66b8e4cc85,README: document Private Security Data files,2021-05-05 06:33:09+00:00,False
+85602a1fe27afade0f23c2c95e68de7dd59f88ab,"README: fix Markdown rendering and links
+
+Docs are now at https://javadoc.io/doc/be.ugent.rml/rmlmapper",2021-05-05 16:13:40+02:00,False
+926a39c861ca390f46229c5ce79df96868b4a184,"Main: add CLI option to run mapper in strict mode.
+
+- In strict mode, the mapper will fail when it cannot convert a record to an IRI-safe triple.",2021-07-19 13:29:45+02:00,False
+3de82c30d1e3c19fc6a30bf866b024835a6c26bd,Main: change short CLI option for strict mode to -strict,2021-07-19 13:29:45+02:00,False
+931e9a078c6f2303919ad207c27f118f0614e922,"Main: remove `-strict` shorthand for strict mode
+
+Only --strict will be accepted. Also added null safety to Main.checkOptionPresence for options that have no short version",2021-07-19 13:29:45+02:00,False
+a127a383a6840d777c8a2cacdc478ac6b96b5c5b,"Main: add argument to explicitly set Base IRI for generated terms
+
+(R2)RML spec requires an executing environment variable to dictate the Base IRI, not the @base directive of the mapping file. The Main.main method now only uses the @base directive as base for generated terms when no explicit base IRI is set in the CLI, and strict mode is not enabled.",2021-07-20 13:00:20+00:00,False
+6c1956802b7224aa123f002d76b85938aab3b56f,"HTMLRecordFactory: add CSS3 selector support
+
+Support CSS3 selectors as reference formulation.",2021-07-27 15:15:48+02:00,True
+23c02be70844793b19142bb8ebc06f581a754382,"CSVRecordFactory: Add spreadsheet support
+
+Add XLSX and ODS file formats for reading spreadsheets as CSV files.",2021-07-27 15:29:20+02:00,False
+89b69f17c759db379c869522bb742ce4af6f49eb,"README.md: clarify that the releases contains complete jars
+
+As discussed in issue 174",2021-08-10 10:49:27+02:00,False
+4802e26f5955219f0a3729fabc6d98f984c56416,"README: add RML Questions repo
+
+We collect all questions now at https://github.com/kg-construct/rml-questions",2021-10-26 09:38:21+02:00,False
+03d4db62613eedb14a9b26a38bb214a8bbfcefb3,"RELEASE: update notes for releasing new versions
+
+- Docker images need to be generated and pushed.
+- Deployment to Maven Central must be done as well.
+- Alpine Linux Merge Requests instructions.",2021-12-01 13:15:57+01:00,True
+78e1ecf0cd9af59fd7044e00da1fab079f55e639,records/CSVRecord: rewrite with OpenCSV library,2022-01-17 12:47:28+00:00,True
+b61d4d75f77db64e031c504c251a6be570a31b4c,"README: add quick start guide
+
+Make it clear for people how to easily start using the RMLMapper.",2022-02-03 13:02:26+00:00,True
+98a70ef1e171f10745278beefdcba8878e7a0297,records/CSVRecord: rewrite with OpenCSV library,2022-04-05 09:21:18+02:00,True
+ca1ef327cc3cd7d89b2553d10bcf5e35ecd9c587,"README: add quick start guide
+
+Make it clear for people how to easily start using the RMLMapper.",2022-04-05 09:21:18+02:00,True
+a52f1d716810a8a35cc5d99efc799a9082b024ad,"functions_idlab.ttl, aaabim_java_mapping.ttl, pom.xml, README.md: FnO implementation mappings have class fno:Mapping instead of fnoi:Mapping, so changed all occurrences and updated `function-agent-java` and `grel-functions-java` to the newest versions which also fix his issue.",2022-04-05 10:52:47+02:00,False
+4ec88646f5496c22d169196f1087f1461a22083f,README: add Saxon license declaration,2022-06-20 16:45:24+02:00,True
+be2d879ed235bff21cca7361b34fbfd3bed2620c,Updated documentation,2022-06-22 07:49:53+00:00,True
+be884f8c9faeb3456f5b8ff894b0253efbd6a997,"tests: refactor RDB tests to use Docker
+
+Dockerize all tests for RDBs to make test more reliable and easier to run",2022-08-01 12:12:58+00:00,True
+fc83894306dafce32613ef3c239efc1996d36ba4,Port all tests to Junit 5.,2022-11-17 11:25:20+01:00,False
+c10615235e7feedf84737f5e8cde88f51f576e86,README.md: typo in 'Adding as dependency' instructions.,2022-11-17 11:39:08+01:00,False
+f488c4ac770c237a3f3978e1411af4aca400d20e,README.md: updated list of dependencies,2022-11-17 13:34:46+01:00,True

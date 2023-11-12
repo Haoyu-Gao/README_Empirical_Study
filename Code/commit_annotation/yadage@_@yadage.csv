@@ -1,0 +1,52 @@
+sha,message,date,result
+7e3bcba3448071708e719ad3436d2f7692bb9460,first commit,2016-03-09 19:50:39-05:00,False
+34fba96be0ce8b969771568b50e475fe19d276f2,docs badge,2016-03-09 20:05:23-05:00,False
+c598cbfe53bcd0efaf6b6885c1da5cbedab19361,build badge,2016-03-09 20:05:55-05:00,False
+63882c2946020b3280ecb2db25c4d17f80371cb5,:),2016-03-09 20:08:30-05:00,False
+f9653c345bed2431c43482c0d99eb65aa3852814,go,2016-03-10 20:37:22-05:00,False
+25600bf57264d0ae489284d22019041907e26f88,Update README.md,2016-03-12 22:39:46-05:00,False
+0dc6540ab23f1fe7687351a1a1cb9bd8eb24b14e,README update,2016-09-04 15:21:22+02:00,False
+b3ecaeb38ba4e4cd6e14e08011e3d0c14b4aaaea,eval instructions,2016-09-11 19:03:35+02:00,True
+c6fdabd624caa1791f40f97e70c207314be6f125,eval instructions,2016-09-11 19:04:09+02:00,True
+a2ba71676287ea831b23bfef57b3c4b2e2924433,Update README.md,2016-09-11 19:36:21+02:00,False
+650679d038a630468476ff78937d629a6c4a22ad,Update README.md,2016-09-20 14:37:46+02:00,False
+226a3a3be2b05c2bbec034b132dba1e3118ef6de,Update README.md,2016-09-27 12:01:26+02:00,False
+40bbf3dbce034096fe0b8aa1d939f5af7d7b6cb4,Update README.md,2016-10-08 19:09:50-04:00,False
+898cd9d2f8d453b6b8cdf8aef6e0d10937bdbabd,Update README.md,2016-10-12 18:15:22-07:00,False
+3edee2845489e45fc3a407d2aab036d21ef5ca79,#NAME?,2016-10-20 04:32:08+02:00,False
+8b0ffd0a1e5d0b2c724fa53f419532ef18f02a69,#NAME?,2016-10-20 05:15:32+02:00,False
+b9933a05e4d7dedd2a1705af5b91f4d28e12d053,Update README.md,2016-10-20 05:16:08+02:00,False
+20093415bd07715d733a1faf590c1b08cb0e7921,Update README.md,2016-11-22 23:00:32+01:00,False
+5cb9da1f3cc6a6ad04dcc69e3edfb1b84c502954,Update README.md,2016-12-06 16:36:43+01:00,True
+8ea23231e1abbe7d45abb5b9aeab8089290b8e47,Update README.md,2016-12-06 16:37:07+01:00,True
+15888f8f8c06aa50a0e0ed1c2d52b9a31b726345,Update README.md,2016-12-06 16:38:53+01:00,True
+4a1f25189119aa5f8076a3dac48fcfd463893633,Update README.md,2016-12-06 16:39:58+01:00,True
+64809bdb6005835681603de6cc348a7e1b8a72a4,Update README.md,2016-12-06 16:40:27+01:00,True
+1f13bbe6e2aaaefe65fddf755d3b783d675c7dee,Update README.md,2017-01-05 12:54:20+01:00,True
+9cbb9541d425d9099129568fbe05428eacdbf4cb,Update README.md,2017-02-21 00:44:41+01:00,False
+73d5c64bfaf1c9b3f2f8c40c081c58d430a697da,Update README.md,2017-02-21 00:45:48+01:00,False
+af7815874b0889d6a1f45c59cb0cc3af5053a30f,coveralls,2017-06-12 00:35:44+02:00,False
+e2181577f767f4610f3a8bea6743e4d6fc1667fc,contributing,2017-06-12 18:56:57+02:00,False
+13100aa4a0b7eedb82acb4d8a1d2412eb4c721ca,contributing,2017-06-12 19:05:49+02:00,False
+229cb29ad51534592a96e5a5f362b9b118cf207f,Create README.md,2017-06-13 11:13:09+02:00,False
+cb781d807ed877107c286a8fe67dfb956dd27056,Update README.md,2017-09-03 13:00:23+02:00,False
+ea2098dbf0468146665c3a1f595f231b6a199e6b,badge,2017-09-19 17:57:11+02:00,False
+e8e2de75c85765460c23125f11baeeee55acfc44,"allow expression targeting a single step as first class citizen (#68)
+
+* allow expression targeting a single step as first class citizen
+* fl8
+* README",2018-08-02 22:41:36+02:00,True
+2d517927cc8e7818ccfec438c222b6f76ce3c708,Update README.md,2019-02-11 14:38:47+01:00,False
+b38ca8c0e3ce52dce26388f10b0f901d4749c6f4,"nicer defaults (#77)
+
+* nicer defaults
+* README",2019-02-14 13:53:59+01:00,False
+075e9537ec3f078968bcd8523f3858dd8e646472,black,2019-06-22 13:18:13-04:00,False
+8d5be7bbf82b868f4ccf9370aae042f884d0b94d,README links,2019-06-22 20:30:21-04:00,False
+19a67f06ad8cc5b92f5053dd21b7843ab4160836,"feat: Migrate to GitHub Actions and adhere to code linting and checks (#97)
+
+* Move from Travis CI to GitHub Actions
+   - Drop testing of Python 2 for Python 3.6, 3.7
+* Move to Codecov, LGTM, and CodeFactor for code quality reports
+* Fix pyflakes
+* Apply and adhere to code style Black",2020-05-29 22:25:42+02:00,False

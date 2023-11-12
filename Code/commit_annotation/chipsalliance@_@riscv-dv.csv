@@ -1,0 +1,157 @@
+sha,message,date,result
+9c6d040b5f0e4e9c0a52b9e2c01e5a87f8dc5851,Initial release of RISC-V instruction generator,2019-01-23 00:12:23-08:00,True
+667743dcfbd26b99b1af146b004a6c9f3c2cade5,Fix some typos in README,2019-02-07 00:39:32+01:00,True
+a83318dc7e4ad13f963bffd5ebf509976bbe2388,Add ISS support for risv-ovpsim,2019-02-16 21:17:11-08:00,True
+f738e2ff572ad8ee8a04e5bc93414434c832766d,Update REAMDE - add link for the user group,2019-02-16 21:32:44-08:00,False
+4fa77f7eb2efa267d5dabe34dc09addaaaac33a5,Fix typos/grammar in README,2019-02-22 13:15:55-08:00,True
+9a78d65f6fd0bdc1c00d723a790c6dc74a7f804b,"Revert ""Fix typos/grammar in README & code comments""",2019-02-22 22:28:37-08:00,True
+e4c3172a5e85978ffe6a47722ebf297cf50e4e39,Add illegal instruction and HINT instruction support,2019-05-08 19:22:33-07:00,True
+87288bc81afc824ce9c9ce8ada3e637bd3181673,Document support for Questa,2019-07-24 16:05:46-07:00,True
+ad283b434b6025442f746efd0afef986c00e7950,Fix typos/grammar in README,2019-07-26 11:16:38-07:00,True
+bb20e411e10cd199029e03a6afdece2ac2110d1c,Update README file for the new flow,2019-08-01 00:16:13-07:00,True
+2d9015fa310becdfb38e4494aaf09330401522b0,changed formatting of generator option table,2019-08-01 13:15:28-07:00,False
+db2a5dffd0cc6ae58d240dae10e2c337a3f88b4d,Fix README #54,2019-08-01 15:49:21-07:00,True
+8816e5accdb6e21da20132c9dc62ba186526b3c3,Fix typo in README,2019-08-01 15:54:24-07:00,True
+1c5700e743b1b78b2e9834fb0f68dd9f46182b5f,Update the README.md to match command reference from --help,2019-08-01 18:03:58-07:00,True
+b91832748ecab6f7d748cf4e5c8c973e6b87001c,minor update to README.md,2019-08-02 22:47:50-07:00,True
+080c809301ad9e1270617c67fc31d93e34f5303a,"documentation, and small fixes",2019-08-08 13:28:34-07:00,True
+57c18be97906455a90069e86fbeaf1749be4df8b,refactored test generation logic,2019-08-08 16:50:24-07:00,True
+049fa68369b6a90d2b95934a3063ea7dd903e88b,"Support SAIL-RISCV ISSi, update README",2019-08-14 23:16:08-07:00,True
+3be3ab986d020248fcda180ae59213411bcea52b,Add basic debug test functionality,2019-08-15 17:06:51-07:00,False
+3c538f39b539d5803a31fda44907153e7d2c3460,"Add debug sub-programs, and extra options to generator",2019-08-20 17:37:38-07:00,False
+e91c722636209122f3b689e57ff20d5a1a0fe3e4,"minor fix, update README for A extension support",2019-08-23 23:29:19-07:00,False
+d174e1e54bd68843e5ed3460c89b36126de797c3,Remove the old flow,2019-08-23 23:35:42-07:00,False
+24d5bc9615a256f4c52f72ee92ae8f17ed16b9ec,Update readme (#137),2019-09-08 13:36:57-07:00,True
+13c9a601b5f63cdbd3800318af92b8da1676649a,Update README for illegal/hint instruction (#155),2019-09-12 22:56:09-07:00,False
+6fba48a4114cfaddfbada31ddb487a2f064205b5,Fix compilation issue (#161),2019-09-16 08:54:30-07:00,False
+f290bf8f9d0825db9a9165890ba2fd4f911fd5d1,Update README (#162),2019-09-16 09:06:02-07:00,True
+0d2b5b7b8b1cdbce74d9e123a427052b12accd7b,Add user extension support (#163),2019-09-16 13:20:03-07:00,False
+a716eea2305af16c7478d6eb2e3379ae11fcbcf2,Update README,2019-09-25 11:38:18-07:00,False
+a9edb84762a6eacf3dd44b1e73510652985531b7,Update README for the coverage flow (#187),2019-09-27 11:24:39-07:00,False
+cfd95c9e9649ef110032b4ee4a6016abc69d08e4,Fix typo in README (#189),2019-09-27 13:16:36-07:00,True
+4fd8695838765db7e05337e84ffeaf5d3108d40d,Add a debug mode for functional coverage (#191),2019-09-27 15:22:19-07:00,False
+47a794a8e18e02048988c237d14524e4f0b68a7f,Add more functional covergroup (#199),2019-10-01 09:00:18-07:00,False
+b489cbecde5d4a85c759bb9b5859f7839935e63f,"Fix non-compressed instruction test (#203)
+
+* Fix non-compressed instruction test
+
+* Update README",2019-10-04 08:20:23-07:00,True
+1c55c114226c6ff3cdfcd9371763403bb36293d9,Minor README typo (#219),2019-10-15 22:59:20-05:00,False
+83ea88e5e0f1b21278f766a32eefca30ffa13bce,Update spike setup instruction for commit log (#226),2019-10-16 09:23:09-07:00,False
+2707df9e41fac5f80ee481e7f8223e07086d7a66,"Fix timemout, misc update to README (#228)",2019-10-16 12:56:19-07:00,False
+c089276797340728d9b67cf5f6d8127d1c6e9735,"Add pre-defined target: RV32IMC, RV64IMC (#230)",2019-10-16 23:20:45-07:00,True
+038fbe9c9200164cc812a143548d1e41ae589373,Refine README structure (#231),2019-10-16 23:29:09-07:00,True
+ea9cc1be541bceeda748745f7b2d593ae66efccf,Add alternative command options for directed instruction stream (#254),2019-10-23 22:05:45-07:00,False
+33b1441daadbadabc2b2a5089de577433f999d88,Update README to clarify the flow setup instructions (#265),2019-10-24 22:07:44-07:00,True
+ee278b913a1a030b419e4eadbee2f968fbded709,Replace setting directory with a default target (#278),2019-11-01 20:35:49-07:00,False
+5f54bd07960f3b89862bcb4f20350f3f86ea5de0,code block highlight (#279),2019-11-01 20:44:38-07:00,True
+761d3f65398cacc4bb0ddc3598de9960419f3db0,Add handshake documentation,2019-11-04 09:44:42-08:00,False
+a7570b7e68aae4df9256c63edc42a92de5ad51cc,fixed line widths (x2) and check error returns for any questa simalator (#293),2019-11-10 08:14:13-08:00,False
+9052a37cd8dd4f3898f11e3b9611c748f654f136,Integrate whisper(swerv-ISS) (#301),2019-11-12 10:28:57-08:00,True
+4375908227918b4af25c93b686f0d8c73fc03bcb,Adding support qrun simulator (#324),2019-11-24 07:45:13-08:00,False
+bce290ee9cc2b191e3f4bebe8983b00b20fdf2c6,Add requirements for install dependencies (#325),2019-11-25 14:40:06-08:00,True
+82a949cc7184984f26de5734a7c45125a34b441c,"Add support coverage flow for qrun, and minor fix for cov.py (#335)
+
+* Ignore ucdb file of coverage
+
+* cov.py: Minor fix for removing redundant code
+
+* README.md: Add --isa for the example
+
+The example does not work. It complains about requirement --isa:
+ome/danghai/hhoangda/riscv-dv/yaml/simulator.yaml --so -o newtest --cov -tl /home/danghai/hhoangda/riscv-dv/yaml/cov_testlist.yaml --isa  -v -tn riscv_instr_cov_debug_test --steps gen --sim_opts ""+num_of_iterations=20000"" --target rv64gc  --log_suffix _0
+Wed, 04 Dec 2019 04:24:40 lib.py:122   INFO     usage: run.py [-h] [--target TARGET] [-o O] [-tl TESTLIST] [-tn TEST]
+              [--seed SEED] [-i ITERATIONS] [-si SIMULATOR] [--iss ISS] [-v]
+              [--co] [--cov] [--so] [--cmp_opts CMP_OPTS]
+              [--sim_opts SIM_OPTS] [--gcc_opts GCC_OPTS] [-s STEPS]
+              [--lsf_cmd LSF_CMD] [--isa ISA] [-m MABI]
+              [--gen_timeout GEN_TIMEOUT]
+              [--end_signature_addr END_SIGNATURE_ADDR]
+              [--iss_timeout ISS_TIMEOUT] [--iss_yaml ISS_YAML]
+              [--simulator_yaml SIMULATOR_YAML] [--csr_yaml CSR_YAML]
+              [--seed_yaml SEED_YAML] [-ct CUSTOM_TARGET]
+              [-cs CORE_SETTING_DIR] [-ext USER_EXTENSION_DIR]
+              [--asm_test ASM_TEST] [--log_suffix LOG_SUFFIX] [-bz BATCH_SIZE]
+              [--stop_on_first_error]
+run.py: error: argument --isa: expected one argument
+
+* Move creating output directory into lib.py
+
+* Add coverage flow for qrun",2019-12-04 06:22:40-08:00,False
+e5d076ef3c5ff24f1849544a24d299fd191e39af,refactor debug ROM generation,2019-12-09 10:35:45-08:00,False
+1779f047ee26c5af7e1dd2d090c335088bc7e42a,"Fix the link for yaml/base_testlist.yaml (#343)
+
+* README.md: fix the link for yaml/base_testlist.yaml
+
+* Ignore the stacktrace log when it is crashed",2019-12-09 12:56:54-08:00,False
+bf87ce653761c7d1665461bb2de1d885f90af16f,"Support running specific multiple tests (#346)
+
+Fixed #345",2019-12-09 16:04:35-08:00,False
+563ed72b44512008c206e4905500bd327be1c2ee,Update README to add contact info for the collaboration request (#347),2019-12-09 17:40:20-08:00,False
+323f2fd5034413e86520136ec7af7df0dcefed18,Support running regression with hand-coded assembly tests (#365),2019-12-19 23:56:16-08:00,False
+1582b1b3a109ab218e8f845692c2bb19333bec2c,Fix typo (#366),2019-12-19 23:59:49-08:00,False
+5909549dca9bc486f90fd39b0dd34fdb9271a700,Fix error in README (#368),2019-12-20 00:22:21-08:00,False
+5607f1132f78efb8d09c881412cffaee32a41877,"run.py: Enhance passing argument for gen function (#382)
+
+* run.py: Enhance passing argument for gen function
+
+Fixed #373
+
+* run.py: Using default value for parser.add_argument
+
+* cov.py: Enhance passing argument for collect_cov, and run_cov_debug_test function
+
+Fixed: #373
+
+* cov.py: Using default value for parser.add_argument
+
+* Fix typo and alignment",2019-12-23 17:31:26-08:00,False
+e84633c2b5423de619bf368817826d9a7e30e485,"Support flexible running directed assembly tests (#386)
+
+* Support flexible running directed assembly tests
+
+Fixed #385
+
+* run.py: Do not create /asm_tests for running directed assembly tests",2019-12-24 09:17:10-08:00,False
+9328d319677355d9923685736fd3f015c220cddc,Switch to new CSV format (#395),2019-12-28 16:02:51-08:00,True
+93baa4a05123c21984b18b00a23f0c23650426be,"Refactor the code for cov.py (#416)
+
+* cov.py: Refactor the code
+
+Collect_cov is too long. The patch splits it into 2 parts in terms
+of build_cov, and sim_cov
+
+* README.md: -d debug is deprecated in cov.py. Removing it from README",2020-01-03 13:37:38-08:00,False
+8b2e7f9705e7a57b3b39eee88f71d0136516dae6,"Python package (#419)
+
+* Python package
+
+* README.md: Update README.md for python package
+
+* .gitignore: Remove untrack file of python package
+
+* Adding MANIFEST.in for including files in source distributions",2020-01-03 21:45:45-08:00,True
+d4eec438856920ec3d74831f090449983d50f172,"Update information about instruction for running scripts (#420)
+
+* riscv-dv requires python >=3 for install
+
+* README.md: Update information about running script
+
+Fixed #418",2020-01-04 08:15:31-08:00,True
+1b54b466bd9d45826bbded555b51f39fad93dc3d,README.md: Update the information relating to usage (#426),2020-01-05 09:12:44-08:00,True
+338691201baf63662d57351f853e63c80bc3fc10,integrate directed asm_tests with yaml flow,2020-01-08 09:43:13-08:00,True
+db2999cc4dc6a5a28d04985203d538fda680090b,"Move document from README to docs, add HTML preview for the new doc (#448)",2020-01-20 22:17:38-08:00,True
+f2f7935ae484833c01c89bc3fa7fc0ba9a180cb1,add path for the prebuilt document (#469),2020-01-31 09:36:19-08:00,False
+54d2d05ca513899f1da2b3ec1257b93bf6cd1792,"Add style check
+
+1. verilog_style/build-verible.sh to install the tool
+2. tool reports uncorrect syntax error on some files, list them at
+verilog_style/exclude_filelist.f and skip checking on them
+3. usage
+  - install command: ./verilog_style/build-verible.sh
+  - style check run command: ./verilog_style/run.sh",2020-02-04 16:25:42-08:00,True
+6a51dc456c538abe43539ed66a8de9cf09602aaf,riviera 2020.04 beta initial support,2020-04-07 11:44:36+02:00,True
+ed5cf930ab4c5c42af30c0a4f59ae7b030b36e59,Add CHIPS Alliance work group information to the README (#633),2020-07-05 14:05:56-07:00,False
+940abb98264e8c0ccce0056c0e893e3c87478e96,"[lint] Remove trailing whitespace
+
+Signed-off-by: Marno van der Maas <mvdmaas@lowrisc.org>",2022-08-18 12:35:58+01:00,False

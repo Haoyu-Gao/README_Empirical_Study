@@ -1,0 +1,262 @@
+sha,message,date,result
+2940f739888991195c50cc0ac0fdba5a86dee961,Initial commit,2019-06-25 22:14:57+02:00,False
+eebed5075e683bb94d55df520541a68512555777,Added Clustered Columnstore Index as default table materalization,2019-07-01 11:02:48+02:00,False
+5c8aa267cf40fe3fa54705e22fa02f66de296074,Up to version 0.1.0 :-),2019-07-04 15:01:06+02:00,True
+6f5b07b48f2483d7854d8c07e0a3218057ed1b1a,Updated readme,2019-07-04 15:16:03+02:00,False
+5e7a46626493c3fd4e0b45686bf663610a60f9bd,Implemented and validated all schema tests,2019-07-04 23:48:21+02:00,False
+bc1488abe817210e77a5cdc0ce77cc483a33e69f,changed how tables are materilized to support CTEs in select,2019-07-08 09:23:41+02:00,False
+bb3152be63fcd5b629973578d1bffc2998e70f09,Ephemeral: NOW SUPPORTED :-),2019-07-08 10:42:38+02:00,False
+2445deb86af1a2dfe9b27f67011ccaf54f369397,added to pypi,2019-07-16 08:44:50+02:00,True
+0a0d627ab8f3ccf97b526daf481075246fc6ff49,updated readme,2019-07-16 08:49:04+02:00,False
+fda32c15ea19c1774036dd27e252e4a8c00ce7c6,minor changes to support integration-tests,2019-08-14 09:32:39+02:00,False
+d0e1d4cbdaa0b5debce00b368e6ed323bfc34b19,Updated readme,2019-08-16 08:55:46+02:00,False
+fbe338ff1634c6963d2a06de492e985916f28868,changed connection lib to pyodbc,2019-09-05 17:29:52+02:00,True
+5d62657c28fdc88d7994b33188b4f35c48bbc437,updated readme,2019-09-05 18:19:21+02:00,False
+5e6d3cf41e6dfb1da57613ebdc36164ed6765956,Removed dbt.compat and bumped version,2019-12-04 14:15:53+01:00,False
+b558b7e3059e81a86b002807c0a8144988dc4c38,Updated readme,2019-12-09 20:26:39+01:00,False
+64b7a64d95cf931913e3510246605d3daba0deb0,Release v0.15.01,2020-01-13 13:46:09+01:00,False
+85d9ee31ba12d42afd63eda780e2dd990e9e1964,Fix Release v0.15.0.1,2020-01-13 15:13:02+01:00,False
+936f400ccba9ae5f547d26f0ecfaff694907e3e6,Updated readme and version to 0.15.1,2020-01-28 08:39:22+01:00,False
+8aed7b528896bd45c37466cce2e0386e9b484ab3,Add note about necessary ODBC headers,2020-01-31 08:18:30+11:00,False
+0212dfb4e44fd4ca1d3df47fcc5907500a694bd4,Bumped version to 0.15.2,2020-02-11 11:58:59+01:00,False
+45bf73ab972b9eb117cefadf2350a44007fb2576,Bumped to v0.17.0,2020-06-12 09:48:24+02:00,False
+95b4b8af3a5074edaa5afe6b2f2aa9f6399e82ff,Fixes #31. Bounded dbt core requirements for v0.15.,2020-07-02 23:16:20+01:00,False
+1ae9cae708dce9f923073d9876d5158bb4eb7c96,vulnerability now,2020-07-14 17:37:11-07:00,False
+8a45ef2d264004153d4692e8b2fefe020dc4e550,windows integrated,2020-07-23 13:12:48-07:00,True
+f2a0acd303a15aeb544500efbc4cf3e359e9b792,some options aren't available,2020-07-23 13:18:29-07:00,True
+284e9002856fa50c2cdbff87b74c2b8c600b55a5,typo,2020-07-23 14:31:08-07:00,True
+6c757c3cd0ad5141a80f82c2ff3b5ba4c7bd685f,"PaaS is CTAS (#10)
+
+* add dist and index config to table mats
+
+* doc overhaul",2020-07-23 16:30:12-07:00,True
+8e131f6aa9cb2138436829e13729db1db092077b,Added [] for USE database sql,2020-08-03 10:51:31+02:00,False
+05b4323903d57623fd93d28da9a78238723695fd,Bumped version,2020-08-19 14:21:08+02:00,False
+086be8af7d3ce10283643e48a4a74c61aca3e12c,Updated README.md and set supported version in setup.py,2020-08-25 15:30:38+02:00,False
+74a6110f804d1f3f7f5bf5b1c99406214f240639,add Active Directory authentication and SP,2020-09-03 13:07:28-07:00,True
+08060c81cdf83b5957bdb548a7fa580ca981b9ba,Updated README.md,2020-09-15 09:37:28+02:00,False
+998988a3f917106859347f50e1714b24b458408b,clarify auth methods,2020-09-17 22:46:53-07:00,True
+c3dca6aae3b2327ded2302af3768122daf8c74c9,"Update README.md
+
+Added a description of Azure SQL requiring tires greater than S2 for column store index to be created in README file",2020-09-18 14:24:52+05:18,False
+d04d44e5d005d0dcae526ec38d25ebccb47c182d,Updated README.md and blackified the code.,2020-09-22 08:31:40+02:00,False
+d53f7d33e76a340769b28fe73ba1478af95581ac,"update to v0.18.0 (#12)
+
+* Fixed macronames.
+
+* Bumped to v0.17.0
+
+* Bumped to v0.17.0
+
+* Bumped to v0.17.0
+
+* Fixed a bug in relations_without_caching
+
+* Fix in seeds macro. Solves #30
+
+* Added [] for USE database sql
+
+* Added [] for USE database sql
+
+* Fixed some errors from previous merge
+
+* Updated README.md and set supported version in setup.py
+
+* Fix for snapshots
+
+* synapse doesn't require a use statement
+
+* update setup.py
+
+* synapse doesn't support merge
+
+* experiment
+
+* partner programming
+
+* psuedocode patch for synapse shortfall w/ tmp tbl
+
+* whitespace & format
+
+* fix breaking change from dbt-core 0.16.0
+
+* Update snapshot.sql
+
+Created a common Exec Macros and removed the separate  insert and update macros to overcome empty batch SQL job error
+
+* sqlserver-specific materialization
+
+* default works fine
+
+* temp staging table is now a view instead of temp
+
+* programmatically insert columns
+
+* call and clean up only once
+
+* break out to match dbt-core paradigm
+
+* columns ennumerate correctly don't need to log
+
+* increment version
+
+* align dest col order with source col order
+
+* add staging for external tables
+
+* bump version
+
+* doc changes
+
+* give Nandan credit!
+
+Co-authored-by: Mikael Ene <mikael.ene@gmail.com>
+Co-authored-by: Mikael Ene <mikael.ene@eneanalytics.com>
+Co-authored-by: NandanHegde15 <67547199+NandanHegde15@users.noreply.github.com>",2020-09-23 15:21:36-07:00,True
+790998a526dc710709738d43843f28b5d37bb89f,"Pull AD auth from dbt-sqlservr (#13)
+
+* Fixed macronames.
+
+* Bumped to v0.17.0
+
+* Bumped to v0.17.0
+
+* Bumped to v0.17.0
+
+* Fixed a bug in relations_without_caching
+
+* Fix in seeds macro. Solves #30
+
+* Added [] for USE database sql
+
+* Added [] for USE database sql
+
+* fix pyodbc connection string for custom port
+
+* Fix for snapshots failing on dbt > 0.15.0
+
+* Fix for snapshots failing on dbt > 0.15.0. Removed materialization snapshot completly to use the standard one.
+
+* Bumped version
+
+* Fixed some errors from previous merge
+
+* Updated README.md and set supported version in setup.py
+
+* Fix for snapshots
+
+* Updated version in setup.py, applied fix for connections.py port
+
+* hotfix for v.0.16 change (see dbt PR #2037)
+
+* add Active Directory authentication and SP
+
+* offical release is now out
+
+* required for AD auth
+
+* Updated install_requires to the now released version of dbt 0.18.0
+
+* added support for named instance
+
+* There was a type in the last PR. This fixes that.
+
+* typo
+
+* Set install_requires to approximate version of dbt 0.18.0
+
+* Fixed typo and mail address in setup.py
+
+* Fixed typo and mail address in setup.py
+
+* Updated README.md
+
+* Update dbt_project.yml
+
+Remove deprecation warning from dbt v0.17 config file changes
+
+* clarify auth methods
+
+* Windows Login used to display Auth as SQL
+
+* Update README.md
+
+Added a description of Azure SQL requiring tires greater than S2 for column store index to be created in README file
+
+* Updated README.md and blackified the code.
+
+* Updated setup.py with correct version
+
+* format with black
+
+Co-authored-by: Mikael Ene <mikael.ene@gmail.com>
+Co-authored-by: Mikael Ene <mikael.ene@eneanalytics.com>
+Co-authored-by: Vitor Bellini <vitorbellini@gmail.com>
+Co-authored-by: Langsbo Anders <Anders.Langsbo@bilia.se>
+Co-authored-by: Jared Noynaert <5920864+jnoynaert@users.noreply.github.com>
+Co-authored-by: Nandan Hegde <nandan.gajanan.hegde@gmail.com>
+Co-authored-by: NandanHegde15 <67547199+NandanHegde15@users.noreply.github.com>",2020-09-23 16:40:29-07:00,True
+ca486f6eb7c01d067fbeb673e9b25e8edbab734b,"Enable & pass dbt-adapter-tests (#16)
+
+* needed for integration testing
+
+* drop_relation never worked?
+
+* align arguments with dbt-core
+
+* TSQL does not support DROP SCHEMA ... cascade
+
+* align arguments with dbt-core
+
+* USE is not supported on Synapse
+
+* align args with dbt-core
+
+* limit is not supported in T-SQL
+
+* typo
+
+* add custom test methods from Base Adapter
+
+* document T-SQL support discrepancies
+
+* required for customized test methods
+
+* typo
+
+* `+` is T-SQL's string concatenation operator
+
+* 3.6 support now in master
+
+* accurate testing information
+
+* ephemeral and incremental tests are working??
+
+* dropping conda in support of Docker and pip
+
+* changelog",2020-09-25 16:02:30-07:00,False
+d390b84f7e69b5211c8a9bbf0a2ad4f6c30f8fd2,only reference dbt-adapter-tests now (#17),2020-09-28 22:25:31-07:00,False
+716fa6ceddf3ee3b8290bf5c162d338f2a1f42ad,enable connecting from within Docker container,2020-10-29 19:02:20-07:00,False
+54d10b77b86aac6fd956428c0293ce1a48f0e9cb,Updated README.md and bumped version,2020-11-04 13:26:59+01:00,False
+2e2318bd557ef8b66d8ae9e3ac32386b0b04db70,update changelog,2020-11-10 11:43:19-08:00,False
+cf3c32be0e66a1ff4a5a9cbce7da229274c7a8fc,fixing error in readme,2020-11-11 09:18:48-08:00,True
+f8426b1b2e780d5359b84dac24a67a30734e8ad2,document new params,2020-11-23 23:07:44-08:00,False
+b097c0854fad3555e47a8b88e56aaaf7e77a4fff,cleaner explanation,2020-11-23 23:11:28-08:00,False
+7d67996b11404f2ea10cff76a0190e3d1f5e3678,"This, roughly",2020-12-15 14:11:09-05:00,False
+d0b6b3fc2770df28251dcd5be86eb9124cb2d11d,Fix for passing the snapshot adapter test. Fixes #61,2021-01-04 13:26:21+01:00,False
+1b8f085827e5e2617670018b5f6ae89593eec14d,Fix for passing the snapshot adapter test. Fixes #61,2021-01-06 11:44:00+01:00,False
+2a4cc02b7823f7a0869e8ab0b37019d9cff38403,Add CLI explanation to README,2021-01-06 11:44:00+01:00,True
+8057bea9531b822eea0d8c45feb71c3d9264f50c,more details on docs,2021-01-06 11:44:01+01:00,True
+e970ee49ddce455e2d638aec2cf2dfb1f366949a,more updates and credit,2021-01-06 11:44:01+01:00,False
+d2409fb6b1f2a99753b41b86a9245a9a27eb0272,Upper case letter at start of sentence,2021-01-06 11:44:01+01:00,False
+d08901a91447955ac5379565b1d3689766920e46,break out changelog,2021-02-04 17:13:54-08:00,False
+ee5f41348ba361c657cd53e2d5ff84d65ab34b8e,refer to dbt-sqlserver's auth docs,2021-02-04 17:14:10-08:00,False
+38e35b6f474a4f91bc3d5c66c9e86fe8358e5bb2,clean up,2021-02-04 17:23:06-08:00,True
+279934743ef187dd1ddc926f9ae7eaf2f1f5a41b,self-reference,2021-02-04 17:24:02-08:00,False
+074d3fe1dac94db5b632b6565519325debc07102,Add example of how to create an ordered CCI,2021-05-27 17:37:26+01:00,False
+e422aee670cd8083746d1b0f84f608bea5f2e508,dev setup,2022-05-22 11:19:43+02:00,False
+68fd8ebeade958ba098b572f63f397af205458bb,update readme,2022-06-06 11:35:29+02:00,True
+004d7ba298f17671a5c7421a77cd16e92dd25eb3,wording,2022-06-06 11:47:22+02:00,False
+223fe9c04d1f18f505dc7bb1bbdaae90583b8f98,fix dead link to docs,2022-06-06 23:03:24+02:00,False
+1072bf8d74836c78726ab4a31ac602edd172a611,typo in link,2022-06-06 23:04:59+02:00,False
+4a4ad0cc80e57861b06668a801635fcbf66b3ceb,provision test users,2022-09-24 22:52:33+01:00,True

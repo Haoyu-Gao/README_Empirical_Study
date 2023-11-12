@@ -1,0 +1,40 @@
+sha,message,date,result
+fd55405fbe3a08b5036ce4b2d9d91e41b0740cba,Initial commit,2013-10-16 15:13:10+02:00,False
+cce4d1b4350835373504911dc2974b13b7e78835,Update README.md,2013-10-19 11:08:42+02:00,False
+1d75828927818975b6353ae29a0199e02f0b069c,Updated .gitignore.,2013-10-20 12:58:29+02:00,False
+67e20192e3c7835bb1e732ace3da374f4ad09f9a,Update target forge version in readme.,2014-01-18 20:12:36+01:00,False
+fc8cf4fcfe85a715a96fedeee25bae7add16a514,"Updated readme, mostly ready for open sourcing.",2014-02-08 13:58:12+01:00,True
+a09228f71e8dd5150c5a9589889ce0b44df2baf6,Images are also licensed now.,2014-02-08 13:58:59+01:00,False
+e53439049ffbccb6062e16c2662620a14903f0dc,Updated readme and info file for first release,2014-02-16 15:16:49+01:00,False
+088aba858f02f2dc6b1ded29bea6838634abc898,Update README.md,2014-05-07 22:01:17+02:00,False
+62a871f96e06e2abf5c726f417aff574564f21ef,Update README.md with CI info.,2014-08-03 13:09:21+02:00,False
+49e25d8c34e1eef4d06c5368585cf77543c93267,Cleanup readme.,2014-08-03 13:14:05+02:00,False
+9ca181d2c36b9ac5907e71c073d952db5a6241b6,Update README to 0.5.0,2014-08-09 15:43:05+02:00,False
+24a9e0adb6583032fab13c35f351450d7ed529d5,Update README to 0.7.0,2014-12-20 22:28:04+01:00,False
+58801474f31809d3858384bca2810cb213715631,"Update build instructions
+
+Added build instructions to the README file for IDEA.",2015-01-28 00:29:28+01:00,True
+d8a07da0061c1147ad7dd8eb67c0ce44211ab026,"Cleanup deployment jars. Push all artifacts to Curse and Maven.
+Clean up javadoc errors and warnings.",2015-02-25 18:26:50+01:00,True
+7e4d8d171cbb9618812ec63010cb39fb3532c749,"Cleanup build file.
+src/api/java will now automatically be marked as source folder from within IDEA.",2015-02-25 18:37:16+01:00,True
+9ece3b9a3beb637b41e8b543022c7ab583a81470,Bump mod dependency versions.,2015-04-10 17:14:37+02:00,True
+f56b736da30f5201eab4b23bb334d9b4490bfe4d,"Add default energy values for items, blocks and fluids to EE3.",2015-05-14 21:33:18+02:00,True
+bb51868da342182d7f38ab7c087d11fd4ed13b59,"Update README.md
+
+[ci skip]",2015-07-24 17:39:58+02:00,True
+690c1bfce3e403a79d75a117c7341d97f3abe6bf,Update information on repo location,2015-08-22 13:51:36+02:00,False
+f19dd948fb1d6756dca3dc3c694b24d748f158fc,Update information on repo location,2015-08-22 13:58:35+02:00,True
+4603b5d092306ced356c900368dc854ffc4ee162,Update README.md,2016-03-14 20:14:41+01:00,False
+8038f16fd7825e34e63e96630c3daff47ff769b9,Update README.md,2016-03-14 20:15:33+01:00,False
+07e472ad842d1d674bd1bced329542107324f87d,Fix Travis branch in README,2016-10-09 10:02:27+02:00,False
+b5b3e1db0a6971db62abf2f6248cca2c7ae716d8,Add curseforge badge to README,2016-10-09 10:23:29+02:00,False
+5974f46db1593f0c5762ae8ee883e682c12b7a61,Update default branch in README,2017-06-18 16:13:43+02:00,False
+4dc9a03e78e2b101751bb9a52ebfcb9c7ebcab22,Update gameplay link in README,2017-06-18 16:14:25+02:00,False
+47e42f059d2c6afce4281763ec7a2d16443414f2,Update dev build target,2017-12-06 20:30:38-06:00,False
+b5b1b90825148057b31ed89d0a17f9617f26ea72,Update maven repo,2018-01-04 10:46:03+01:00,False
+4e4ff00d4fcd85a956c3c4a2a000c91d7da506da,"Update issue templates, bots and README",2018-05-10 15:37:57+02:00,False
+ba2e0ec2bf80d5709f11fbe7c48e5a87f63fbc6e,Update to MC 1.15,2020-10-31 14:22:42+01:00,False
+1269e516b0dfa038e55086086bfc835787d2789a,Migrate to GitHub CI,2021-01-21 19:33:58+01:00,False
+24a83035090bf8b1e12b0fb3926b80eb97c0a9d7,Update badge to Maven repo in README,2021-05-04 21:10:08+02:00,False
+ecec459a4cae41ea765112945bbcee22563707af,Update link to dev builds in README,2021-08-24 18:14:03+02:00,False

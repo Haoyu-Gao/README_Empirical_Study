@@ -1,0 +1,135 @@
+sha,message,date,result
+0a896c96e64c0c2ea1531fa522ff1a3338e2a7a7,Initial commit,2013-08-23 02:29:21-07:00,FALSE
+169e57cb19ec7b4346299f300044146683f1958a,Added basic instructions,2013-09-14 19:15:41+01:00,TRUE
+11762ffd4fcf5bd17b1f44f1670895260bc2fe20,Added Karaf support,2013-10-07 13:11:13+01:00,TRUE
+d50156aed17b9590fc57c79598ab3838a8890ef9,"reset repo for new apiman development (prototype code saved to ""prototype"" branch)",2014-01-27 12:07:15-05:00,TRUE
+5e7f77d3b9b67dd1ce4642c493ee069cb810fd7f,updated the readme,2014-03-12 16:58:38-04:00,TRUE
+004fa87c20670e18365bec96f9ff631fa7e07153,update the quickstart instructions,2014-03-12 17:00:22-04:00,TRUE
+d6d9bfc4b9613df361c6fcc2b907de1671157f83,"Update README.md
+
+Add link to contributor guidelines.",2014-06-23 14:11:54+01:00,FALSE
+dbcceb6f34f03e74fbcca2e8ba18e736d3dd5d97,OSGi support for apiman-rt-*,2014-09-08 15:22:35-04:00,FALSE
+3eadb8c5e0c53e4a77807315442228e54e023cea,Added support for WildFly 8,2014-09-09 13:42:33-04:00,TRUE
+8349cadc3753c02202c6445795a7f62bfc449bcc,created an infinispan implementation of the gateway runtime registry,2014-10-31 14:07:51-04:00,TRUE
+95a9f98d25eafd82af0e410d3a250b3476c6937b,Initial commit,2014-11-12 07:19:51-05:00,FALSE
+2143994f7cf133a51e8eb5df8130e71fafbffde6,added a dockerfile for running apiman on wildfly8,2014-11-12 07:46:55-05:00,TRUE
+0492df62aa6a487e530ad89f13e381c8381ba33f,Initial commit,2014-11-12 09:39:05-05:00,FALSE
+e9ff82f927f65afce62d2a97a780a58b9e0d0c0e,updated remote URL with the new path in the README.md,2014-11-18 09:06:50+01:00,FALSE
+44eb4702a02408056bf5678b1cb68b83dea3ad77,refactored the modules using the new groupId and a slightly modified file hierarchy,2014-11-19 15:00:03-05:00,TRUE
+98d802dbe073a324ff2e52f171540a6a0c8a9155,refactored all package names to be io.apiman instead of org.overlord.apiman,2014-11-20 10:08:15-05:00,TRUE
+3863ae7837a309cec498278fc36a4f98e42ec461,Initial commit,2015-01-08 10:32:40-05:00,FALSE
+766ad154b8f657e58c736c3670614a07a26dd265,testing CI,2015-02-11 14:10:13-05:00,FALSE
+4d12eb71120fc887ef277e1a0aa781a03f88eba7,"Update README.md
+
+It's not longer true that we have a seeder.war, is it?",2015-03-28 12:49:27+00:00,FALSE
+32455e816ed388b483c2aab45e0aa09802c641fd,updated the look and feel of the apiman login theme,2015-04-10 08:00:39-04:00,FALSE
+11b8cf6239444132bcbd2c377e58d0b9aa593ee0,updated and documented the apiman eclipse formatter settings,2015-05-06 08:50:58-04:00,FALSE
+a11857655e999b1d04afb5e51bd6815f5b42858d,Updated apiman README.md quickstart WF version,2015-07-10 17:38:23-10:00,FALSE
+23d9626383e5044dfce6e99281dec8aebf505426,Initial commit,2015-08-25 13:48:19-04:00,FALSE
+843c7bec5efb493afe17ef58057e2b63cfc7363a,Initial commit,2015-09-03 19:11:39-04:00,FALSE
+3881991a676c7212c654ad303711ea93e991aff8,APIMAN-619 - Build settings for Java 7 and earlier clients,2015-09-08 21:03:42-10:00,FALSE
+e7cd37d432169c882613f522387db5ac28ddf634,APIMAN-619 - Build settings for Java 7 and earlier clients,2015-09-08 21:19:44-10:00,FALSE
+62927d8d0c86d47fde5199c2105db93c58ab6d85,"APIMAN-619 - Build settings for Java 7 and earlier clients
+
+Fixed a typo.  When referring to JDK, use correct JDK version numbering.",2015-09-09 09:27:56-10:00,FALSE
+cfc0c8c77d8dde33e5d77480e1841b43456389cc,Update README.md,2015-12-02 15:15:26-05:00,FALSE
+c0b0fac9c8149778a5227b2954c93a66e6756dbb,Update README.md,2016-02-10 18:58:20+00:00,FALSE
+2f57ae0992ffc01bb6b5c70bfda4b023ca898315,chore(travis) Cache node_modules in updated location.,2016-05-06 19:24:29+01:00,FALSE
+c23ae0831e2bf1d4376840c465907111bd871c33,chore(server-all) Update to WildFly 10.1.0.Final (#515),2016-12-13 10:41:11-05:00,FALSE
+ef839add37a54d2cafcb41f2de33aee75d03314d,Update README.md,2017-02-09 20:24:24+00:00,FALSE
+e9c5aa37fe0d2267213b425660f10d9dde7bc890,"Update README.md
+
+Fix typo in `origin/master`",2017-05-30 19:56:20+01:00,FALSE
+ffa36b2b60a3dbae4e90c05a3563288bd1fa5be3,Update README.md,2019-03-27 10:40:08+01:00,FALSE
+d242ba194b7e636912ae07c7cc617bb2ac0dd275,initial commit,2019-08-14 13:15:50+02:00,TRUE
+bd8b48382d44d25aa508ecd746560173b585de4f,GW-278: Review Changes,2020-01-10 14:56:36+01:00,TRUE
+e8ae20303a5d05a1b8f93257e923ee103b259e98,GW-384: Add Intellij run configurations,2020-07-06 09:30:45+02:00,TRUE
+4d0c11f58c59fff3dd91419b07f31bdd3c804a70,Fix #879: Add docker requirements to README.md (#883),2020-08-11 12:58:16-04:00,FALSE
+ed1115e7ecb58dc08d40bc7a521e7ea613f125fb,Update README.md,2020-08-26 08:30:48-04:00,FALSE
+015c0a14258a6af939474981fa904415b20e9868,"Update readme and fix scripts  (#894)
+
+* Remove accidentally committed field-mapping for elasticseach
+
+* Change some little devenv things and update README.md
+
+* fixup! Change some little devenv things and update README.md",2020-08-26 08:32:10-04:00,FALSE
+85b623b45e8241ef20dab060a46e2a4de852cb06,Update README.md,2020-08-26 11:18:33-04:00,FALSE
+c7368cb73b8d241ea75c7bc2c0e0a849c6cb8ecc,Initial commit,2020-09-29 14:22:26-04:00,FALSE
+f3dc5aca3432d9ce9b5033da80a308e7a3380d2c,Update README.md,2020-10-01 12:09:43+02:00,TRUE
+e8cc5343590d04a7df186d11f6d6effe5ed263a5,First version of Apiman Developer Portal,2020-10-09 13:03:39+02:00,TRUE
+79c7ffde837b0420eb3f8db581575a99325a38bb,Update README.md,2020-10-09 15:56:22+02:00,FALSE
+c1043fe5796554378a96fac9930051c230b48e44,Update README.md,2020-10-09 15:58:39+02:00,FALSE
+5c85f0e1a19e13804f7dc2a1634ac0525b6a57ff,"Add backend for the new developer portal (#914)
+
+* Add developer portal
+
+* Change sidebar design
+
+* Update README.md
+
+Co-authored-by: Benjamin Kihm <benjamin.kihm@scheer-group.com>",2020-10-14 08:47:04-04:00,FALSE
+280d95a77249fad3fbb5048ec7a4fd446eb2ade9,Update README.md,2020-10-19 10:58:27+02:00,TRUE
+37b5f6911b40005b4fa6458145fa2eb4d397e5d9,Update README.md,2020-10-22 08:36:29+02:00,TRUE
+2ab176605cce008025fbfacd84094dc8797b41f3,Add build bage,2020-12-10 08:48:14+01:00,FALSE
+7bca4e0949481cda492fc2bd2aa3e0fd3303b682,"feat: Basic support for custom logo, css, and favicon",2021-03-15 15:29:52+00:00,TRUE
+982cfe9226a90bb476d26d5eece93ce7ab7bb6f2,chore: add Cypress runner status to README,2021-05-29 17:59:12+01:00,FALSE
+5ac9e14ffba30d26d5cde89df4633534421f881e,docs(readme): remove specific-version Wildfly references,2021-06-14 12:45:50+01:00,FALSE
+7725cc737b3d591e0c17fef325e8dd3218993cff,docs: update README to reflect more modern git workflow,2021-06-17 17:07:12+01:00,FALSE
+3e6ee95a78d23c8cf94f85bf82a76307b2876b5e,docs: update instructions and notes to get started,2021-07-02 13:15:20+02:00,TRUE
+c2331bd15d97e4ff3a89b0dd8b4924a86fba0569,chore: add status badge,2021-08-03 08:54:46+02:00,FALSE
+d43f8d9cb7942fb0b6c4d404033ab5b13d7a85e3,"feat: standalone Docker images for WildFly, Vert.x, & Tomcat
+
+Update README to provide a high-level overview (benefits GHCR page).
+
+Closes #42
+
+Co-authored-by: bogdanmic <mic.bogdan@gmail.com>",2021-08-05 13:13:59+01:00,FALSE
+1711bfe8b1f498467ff05e580eed97489f82ec77,initial commit,2021-08-24 06:42:51+02:00,TRUE
+2335c686b00b5c83a14a829720737a9cd3dc8e38,readme: diagram of components,2021-10-28 17:01:25+02:00,TRUE
+7e6252d7f0e8745cf245e52e66f0e34874f142ea,feat: replace environment variables in config.json5 during docker image start,2022-02-23 09:41:44+00:00,TRUE
+8f4c514007226d98410d2f96c2fda418c9265b59,docs: add note about Apiman 3.x to README,2022-02-26 16:40:14+00:00,FALSE
+3ba0432a0419a1108bc874eb34f774f5f60459c9,docs: update readme with screenshots,2022-03-18 15:40:40+01:00,TRUE
+570d26279f2e2b5e711723eee53629eda7886a36,docs: add ci status badge to readme,2022-03-21 14:04:45+01:00,FALSE
+2aa7e3b374dbfa34236770dfd23cf3f11fdff93a,docs: update local development guide,2022-04-22 15:29:55+02:00,TRUE
+2dba72ba622767479c0b15f0d6b8709251f53b27,docs: readme update as 3.x is on master now,2022-05-08 23:20:24+01:00,FALSE
+7c4a0502c6e411c0ae80e21cb0fc6ef5a72f3bc3,"test(ui): added more cypress tests
+
+We added a bunch of new features to the API Management and the API Developer Portal, therefore we need Cypress E2E tests to ensure that the features work as expected.
+
+The following tests were added:
+* Visibility tests for '/home', '/marketplace', '/api-details'
+* Infinite scrolling test on '/marketplace'
+* Register button test on  '/applications'
+
+In addition to this we added a Cypress section in the readme and provided npm scripts and run configurations to run the tests easily.",2022-06-10 13:47:12+02:00,TRUE
+a8ed3da60870b31d436f0fdf99153aac71f7da2e,docs: update README,2022-07-08 20:24:07+01:00,FALSE
+1ad411dde8ad8bf6c07fc8095505daeecc3d466c,docs(README): remove errant full stop,2022-07-08 20:24:39+01:00,FALSE
+6b35300cdfa43a8e3ec0e2b32f824dd596c20084,docs(README): fix typos,2022-07-08 20:25:45+01:00,FALSE
+8e672d7dca29617bd76c170bf02d4c2557de53e7,"feat(distro-wildfly): create developer portal UI WAR & add to WildFly distro
+
+* Add devportal as submodule (for now tracking a special branch, but we'll change to main later).
+
+* Update CI to handle submodule.
+
+* Update docs to indicate that init of git submodule necessary for build. Hopefully we can remove
+  this restriction later by bringing the portal into the monorepo.
+
+* Add Maven metadata so we can build everything in one shot, including portal's Angular build.
+
+Closes: #2230",2022-08-08 17:37:17+01:00,FALSE
+debb5a39f19a3b8f055be8d936bb2b57b2e0220b,docs(readme): fix formatting errors,2022-08-09 12:17:05+01:00,FALSE
+7e9b1cbf45d292e2e604931ab5d491ec1672f86d,"test(ui): additional cypress test
+
+Added more Cypress Tests, migrated to Cypress Version 10",2022-08-10 14:59:52+02:00,FALSE
+5e558912c0ad1da58fb24921bfaf9781b95897ef,"chore(config): add husky to the project
+
+Added a pre-commit hook with husky to the project that runs all linters before the commit.
+The hooks automatically get installed via the prepare script during `npm install`.",2022-08-25 13:34:48+02:00,TRUE
+5850da903e619a7ff6e225da9065e53bab265d3b,refactor(distro): assume port 8085 for Keycloak to avoid clash with Vert.x Gateway API Verticle,2022-08-26 19:59:40+01:00,FALSE
+69c280a8ea1f6caa26b580874d781b52304ea7c2,docs(readme): update for new Apiman website,2022-12-01 14:01:21+00:00,FALSE
+14edc4ef767ae487f6711f0a973097194bd01f4e,docs(readme): change title,2022-12-01 19:03:33+00:00,FALSE
+e381da6831337824d6648efa4a0d640c5b8ff323,docs(readme): correct link to Apiman Blogs,2022-12-07 18:14:29+00:00,FALSE
+0ca1aa9d1dcf75de34b995360939037476d7158b,test(ui): add more cypress tests,2022-12-20 18:31:32+00:00,FALSE
+9163953c027cef1f11387978501a6eaa8a06b7e0,docs(readme): add monorepo section,2023-01-13 21:17:53+00:00,FALSE
+b03d16762bab086af46969b96cacb3dbeeef3bc6,docs(readme): put quicklinks section nearer top of doc,2023-01-13 21:19:08+00:00,TRUE
+a210d08be06f6666c667b3d276ad04c1fd0d8677,"docs(readme): no more submodules, yay!",2023-01-26 17:49:53+00:00,TRUE

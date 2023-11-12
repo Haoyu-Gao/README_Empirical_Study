@@ -1,0 +1,39 @@
+sha,message,date,result
+78c15091f6fb720bcfefb61f63ce5ecb2ee80341,Create README.md,2015-05-13 16:27:32+02:00,False
+9528e00b1551dc5c5361bc868e8eff628a303c61,Experimental linux update,2015-05-19 01:57:59+02:00,True
+886488d909dd5f44550bf19c91fc761c4df9a37a,Update README.md,2015-05-19 01:59:39+02:00,True
+4562ef5b0d6035b000ca7d8b88c4f3e17867e4b9,"Revert ""Update README.md""
+
+This reverts commit 886488d909dd5f44550bf19c91fc761c4df9a37a.",2015-05-19 12:58:35+02:00,True
+d98357b613506f0a9d4da109520086a68af2abc6,fully revert README.md changes(to be done later),2015-05-19 13:06:20+02:00,True
+260f3e4ea4270139e6ac39a1959d4c54f56ef349,add maintainers to readme,2015-05-20 16:48:48+02:00,False
+d2cefe20f1ace27b454b43f5c98f4e78d5c5dcd2,fix formatting in readme,2015-05-20 16:49:07+02:00,False
+35de6c270bd3e5f39e811e8b34be7a589ec63a17,Update README.md,2015-05-20 16:52:50+02:00,True
+0f96b133aa7cab5b2f9e01636588b7ab969ad785,link to maintainers in README,2015-05-20 16:56:21+02:00,False
+e4faedcd2f976d3a3f05530844aaec9d0e11c99d,add reference to java8 in readme,2015-06-01 13:13:24+02:00,True
+f63f9ea5bb65a04f244d4d671e2a4e6d12c6f6e6,add contributing section to readme,2015-06-01 13:16:16+02:00,False
+dcba646f974f3037cff895de89cdbdb4cce9784c,Update README.md,2015-09-28 08:43:33+02:00,False
+7fe246e4cff33113685aa7d87cbf44fa68da6dea,add buttons to each cell in exceptionlist,2015-10-18 18:19:04+02:00,False
+6a0477fcb67d274e761519d8e0c9bb5bae0f7538,add deletebutton,2015-10-18 18:32:21+02:00,False
+10bc53a4e43c0b284b3c7231aad4f17aeb337f17,replace update/delete assets with material design assets from Google,2015-10-19 17:50:08+02:00,False
+614710f3d1fba3ac9b607bcd908fb1879223d2b1,add travis badge to readme.md,2015-10-20 20:57:26+02:00,False
+6ddd9b32fdd3508971ab6caf0ffd86435197b128,add VersionEye dependency bagde,2015-11-06 21:36:45+01:00,False
+6fcedc81382e29fcea1609c7568720d90ad61d76,make badges point to website instead of icon,2015-11-06 21:40:50+01:00,False
+a0f55be82603ae1ae3171e41d45c257b1dc76c37,Update README.md,2015-11-08 04:20:40+01:00,False
+2758a63443a095db17d07a958c12707adbdd7268,Update README.md,2015-11-09 03:23:33+01:00,False
+17569cbac967e7b072113fa62ff7e4fac0c4fcc7,add attribution for YourKit licensing.,2015-11-24 16:36:08+01:00,False
+993d8a27215bfd22b08e5669fe54eddf12c2855b,Add Gitter badge,2015-11-28 00:45:14+00:00,False
+ecc131f12186ae84204ae116319f0c029222c97e,Move gitter badge to top,2015-11-28 01:47:39+01:00,False
+22f29c57ca43d1916952c3a98d2411b28c84b35a,"Remove tracking parameters from Gitter badge
+
+Sorry, @gitter-badger",2015-11-28 01:49:01+01:00,False
+72c706ebf325540fc344d574c55ddb3995f1113b,Update README.md,2015-12-01 12:04:22+01:00,False
+a95427360974bb6dfbe27376d62e95ef01d07852,Update README.md,2015-12-01 12:05:04+01:00,False
+1454c68f398c1c42d88dd411cca09b077aa565ff,Update README.md,2015-12-08 20:54:03+01:00,True
+d7a41400874e72b33eddec3408cbe7d4208dd6f2,updated about section,2015-12-10 03:03:13+01:00,False
+c6f7557ec9ded6c169db38cd837c6e418a9dba91,adds install instructions to readme,2016-02-05 23:43:17-08:00,True
+0c7e25e92ff8d8fb7384ac1056baa506340fb10a,updated installation section with brew info,2016-02-06 14:01:58+01:00,True
+c29bbad31a8422f2b113b39afe2f6923cc61d501,README: Update `brew` instructions,2016-02-15 16:50:55-05:00,True
+f4da38796b46e653585bef36b7f93af7f40c07f1,"change build cycle, update readme",2016-08-28 04:02:05+02:00,True
+a9425cbaa59f8d4a1573867b2f36b6375874a25c,Update README.md,2016-12-17 07:18:36+01:00,True
+413d52245b1e6ced7dc6146a8f873d63582c6ecc,Update README.md,2017-03-26 05:27:31+02:00,True

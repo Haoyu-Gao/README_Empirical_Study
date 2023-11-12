@@ -1,0 +1,100 @@
+sha,message,date,result
+3d07669cad73b8f4b68643cace205d5c61394d8a,initial commit,2015-02-12 22:33:02+01:00,FALSE
+5692ed865225961a825840e6b8d482373d0b8eaf,added travis build status,2015-02-12 22:47:56+01:00,FALSE
+fc3807d13abdd6800d8a3d32c7e5b35360e1a3c0,"Create README.md
+
+Replacing RST with Markdown",2016-03-27 00:34:26+01:00,TRUE
+bd22e2d7cd4cd207ffaec557cd6567c1b2f5507a,Update README.md,2016-03-27 00:41:29+01:00,TRUE
+738109fd20c13e9ec012d2a7ec7ae3569abed9bb,Update README.md,2016-03-27 09:19:00+02:00,TRUE
+30b64a25faa382812f5c355e9f3e5df45848f25d,Added pypi version badge,2016-03-28 22:54:24+02:00,TRUE
+5f145a34473cb9aa658c8b535c3d399f8498110f,Update README.md,2016-05-19 10:02:13+02:00,FALSE
+7f7ed9cbfe8ff02e556e22604c57c2a053430729,"Convert readthedocs link for their .org -> .io migration for hosted projects
+
+As per [their blog post of the 27th April](https://blog.readthedocs.com/securing-subdomains/) ‘Securing subdomains’:
+
+> Starting today, Read the Docs will start hosting projects from subdomains on the domain readthedocs.io, instead of on readthedocs.org. This change addresses some security concerns around site cookies while hosting user generated data on the same domain as our dashboard.
+
+Test Plan: Manually visited all the links I’ve modified.",2016-05-31 19:58:46+01:00,TRUE
+9fff82ef03dc8534587471ac1c8ba23e6de15426,Updated REAMDE,2016-06-23 22:40:31+02:00,FALSE
+9550ac73d93b526e27c2f81cacb9d02922a04d0d,Update README.md,2016-11-08 09:43:46+01:00,TRUE
+8d3a98faf14bf8624126c7beb4d588295c5de055,Updated README - Requires django-haystack>=2.5,2016-11-14 10:57:05+01:00,TRUE
+c847c36c1672c9afc8b1a94db122a7251087da1c,Fix read the docs link (#97),2017-04-18 09:02:36+02:00,FALSE
+2093d572f0b5caeac49c33c93310e6396a3f9414,"Clarify serializer example (#108)
+
+(AN: my misinterpretation of this line cost me at least 4 hours in debugging time. I'd love to spare others from my fate!)
+
+By calling the serializer PersonSerializer, there's an implicit assumption made by the user that this is the same serializer that should govern the list/detail views (if they exist) of the Person model, but this clearly isn't the case.
+
+By changing the name of the serializer to PersonSearchSerializer (as a tutorial I found did), it becomes immediately clear that the Haystack serializer is not supposed to be the same serializer as the serializer for the model throughout the rest of the API.",2017-08-18 23:21:36+02:00,FALSE
+8044b569eb370bcb5e2d51c9219510a7304f35de,"Updated settings.cfg and requirements.txt
+
+Signed-off-by: Rolf Håvard Blindheim <rhblind@gmail.com>",2018-01-06 17:38:14+01:00,TRUE
+afc837ea1682597065b5eafaf37c03d1623808ba,"Django2.0 not supported by django-haystack yet
+
+Signed-off-by: Rolf Håvard Blindheim <rhblind@gmail.com>",2018-01-06 18:03:46+01:00,TRUE
+33c545f9b7773f5789fa1a7435154afd1ebf1c35,"Updated README
+
+Signed-off-by: Rolf Håvard Blindheim <rhblind@gmail.com>",2018-03-20 23:42:53+01:00,TRUE
+5f23d6dda166cae47f6f56dd67dee869aad972da,Updated README,2018-08-14 23:31:50+02:00,TRUE
+ceabd0f6318f129758341ab08292a20205d6f4cd,Add Django 2.2 in Travis and tox configuration (#136),2019-04-12 02:26:11+02:00,TRUE
+12595d84daae4f5863dd307e16e5c46037edab6b,"let there be colour (#137)
+
+Thanks :)",2019-05-09 13:23:41+02:00,FALSE
+1a0f05ae6daf548639dd9b985c7fd6e3c3b1b4d8,Updated README file with new urls for build status,2019-08-05 13:49:38+02:00,TRUE
+aa4c72f4f5ce3cdbb6ef55e4b42c90bc6ad1bfdd,"Add support for DjangoRestFramework 3.10.x (#145)
+
+* Change djangorestframerwork supported version
+
+* Use  action decorators instead of deprecated decorators
+
+* Drop python2 support",2019-10-13 16:23:09+02:00,TRUE
+782e8fb39d5a35cd62de34a41c16dfea0e9f1afa,"Update Django, django-haystack and djangorestframework versions (#153)
+
+* Update Django, django-haystack and djangorestframework versins
+
+* Restore version
+
+* Use basename instead of deprecated 'base_name'
+
+* Drop support for django <2.2 , Add support for ES5
+
+* Remove py4-django3 from matrix, fix before_install
+
+* Remove python 3.4
+
+* Install es5
+
+* Force Yes when installing es5
+
+* Update Haystack engine
+
+* Remove ElasticSearch5
+
+* Support Python3.8
+
+* Add pypy3.6
+
+* Pypy3.6
+
+* Change Django support to <3.1",2020-06-16 20:23:07+02:00,TRUE
+6ff951b9d3fcba0704f891c964bf09374438d530,"Support Py3.9 + Django3.2, Drop Py3.5 (#159)
+
+* Support Py3.9 + Django3.2, Drop Py3.5
+
+* Fix Django 3.2 tests",2021-04-13 10:14:02+02:00,TRUE
+10e4337be2d72c13ce112779936449db033f1991,"Upgrading the support to include Django 4.1.2 (#183)
+
+* Django-Haystack update
+
+* Django version  update
+
+* Django version  update
+
+* Pipfile.lock update
+
+* feat: Improved the documentation
+
+* feat: Improved the documentation and Pipfile
+
+Co-authored-by: 13KuntalRoy <roykuntal1213@gmail.com>
+Co-authored-by: martin_appevolve <martin.anev@appevolve.com>",2023-01-03 05:45:27+01:00,TRUE

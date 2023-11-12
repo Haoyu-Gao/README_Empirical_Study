@@ -1,0 +1,38 @@
+sha,message,date,result
+a8e05379ab7fc3129005620364e9f763be5dd328,Initial Kafka push test,2016-09-21 11:46:04+02:00,True
+9930c45bfb60e0fb464bfa541204ff34df840236,Updated README with code style section,2016-09-21 13:09:25+02:00,False
+5a25f7938e13f9bec93bb179b55ec53bb55c121e,"Run RestProducer in separate thread, so MockDevice timeouts work",2016-09-27 13:50:47+02:00,False
+d1057c49e8389d15d969dde54ee12517d0b3119d,Initial commit,2016-10-07 12:46:07+01:00,False
+47482bc4f126ec90676b54277eae73847f32db15,"New README
+
+Updated README file",2016-10-07 13:44:45+01:00,True
+8c6c90f53464fca6ae74ad8b767a6e2e93702f78,Update README.md,2016-10-07 13:45:27+01:00,True
+bfb25e95bd17b567b6a652621dcf085a5e7549f3,Update README.md,2016-10-07 13:47:14+01:00,True
+22b461909af6459bb2e628a0f90f8bf8875745eb,Removed non-working code,2016-10-26 11:46:07+02:00,True
+af7e12e8c7c77d531a66754ef9339bf6c1ea065e,Kafka Streams generalisation and final E4 integration,2016-11-25 01:24:03+00:00,True
+7ae7cced82e38352d3c07a0112337faf1b010be4,New ReadMe,2016-11-25 10:44:45+00:00,False
+dc28de6b7ee0d34fe089590f14d261d4de57212b,New config file based on YAML and new execution flow,2016-11-27 18:58:54+00:00,False
+62b199f8253f90b8557f8b8fd5e59f0ad7a1b39f,Fix README,2016-11-27 19:01:51+00:00,False
+58fe66e2567571e28d27e83620c87ee3da36ff8e,Added Travis Badge,2016-12-07 08:32:50+01:00,False
+498eb2289d27fa419a3a1d6b76e7d7b983a34cbb,Added codacy badge,2016-12-19 11:40:00+01:00,False
+6489699d633d1967362642b2bddc7320185536ec,reformat empaticaE4 to empatica,2017-01-03 14:10:52+01:00,False
+6c354ead1c0c7c13bad9d3b8f64b018178d68272,Ordered the README and added Battery Monitor,2017-01-04 16:31:07+01:00,False
+929e0608234e4c313d707251b3034a00a0dfc022,Documentation update,2017-01-24 17:10:15+01:00,True
+336f62277597d13b35ed773fe228228998832b7e,Updated documentation,2017-01-25 16:13:56+01:00,True
+6043f38a35878e878d33845a8bc68fde65ad5a66,Fix styles,2017-01-25 16:16:34+01:00,True
+d73fbce66efe3739fc6f347602d9c160e12c31df,"Update README.md
+
+Follow a more standard README approach (dependencies, installation, usage). Also simplified the extension section for the new simplified API.",2017-02-09 10:02:13+01:00,True
+1eee877600289f8a69d5d4c68cfc207dfe8ec4fe,Update README.md,2017-02-09 10:03:07+01:00,True
+3b8f914a6805ef6d89f3bd42df8f6d080426e084,Added sending mock data from a file,2017-02-09 16:35:28+01:00,False
+17d280f842ec0db86b6693349209da695e9fd68e,Merged all stream group implementations.,2017-02-13 08:52:26+01:00,False
+43b14978b981f3316ed74223483db6c0601692d6,Update README.md to Confluent 3.1.2,2017-02-14 12:13:47+01:00,True
+acacf0019b09d5209a15627a56feddd963b43a5d,Documented phone usage event lookup cache size,2017-07-25 11:38:01+02:00,False
+1e4a424c1f64c7883de5931d51aac450008654ef,Simplified docker-compose setup,2017-07-25 15:11:00+02:00,True
+e6581c780a8440c2a01d304f6834d067814264fa,Merged some bugfixes,2017-09-26 14:54:12+02:00,False
+c35588940b2124016eaa8a84879eddd3b7c08415,Use new radar-schemas structure,2017-09-27 16:06:49+02:00,False
+4ed1520ce46d6b1cecfdb9ef6e99de34340711c5,Updated dockerfile and refactored gradle build files,2018-01-02 14:23:05+01:00,True
+ee32ef73c1270ba89e363733c6cd74309c14b9fe,Bumped version and updated documentation,2018-01-29 12:37:22+01:00,True
+fa258f62d083f8d3d3b7691bb1359a63238fcd52,Update travis url,2018-03-07 11:40:02+00:00,False
+a68638625a770c19f2fc8174e88adec3c978141c,Change RADAR-CNS to RADAR-base,2018-04-23 17:37:46+01:00,True
+6d62144a753bdbb4e425a3567ac09ed83a1c0b59,Updated README,2018-09-06 14:46:39+02:00,True

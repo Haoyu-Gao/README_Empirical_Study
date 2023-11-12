@@ -1,0 +1,119 @@
+sha,message,date,result
+92a5eb26c435a9cf208bdc2cf886587ef073f90d,Initial commit,2012-09-26 10:40:06-07:00,False
+6c9f4a1a04845c3728b9f0414b8087b9c2adff2d,"Added discretely distributed random stats for player
+
++ Player initializes with discretely distributed random stats
+* commands if-else-then statement to switch statement",2012-10-13 17:29:50-07:00,False
+c5ee52fd88f596eb7118d013fccaa3e58138f2d7,Edited README to create new branch.,2012-10-13 21:14:23-07:00,False
+9815b0ce4dc6fdefd6502c999fc21589a958d22d,More README changes.,2012-10-13 21:25:41-07:00,False
+639421d17b0d5fde300fae86242aae228b3f8af4,Updated username,2013-08-11 18:16:20-07:00,False
+73099583acbe37e5dfa831a55a08917ecf6ab802,"Depreciated project
+
+As no one else from the original project seems to be contributing any more, I have decided to depreciate this repo, and create a new fork that can be found on my profile page.",2013-09-24 20:07:49-07:00,False
+4057675e5b3b53eead6b99817d908e79be5af26d,Update README.md,2013-10-28 10:24:02-05:00,False
+4b8b8317ef864b342083ac76196af3062dba032c,Update README.md,2013-10-28 10:24:29-05:00,False
+34460e162379a884ff36d1d64d9e7e01b423036f,Update README.md,2013-10-29 13:39:48-05:00,False
+e079c7f413ad5c290a1668d1820e7e8c36eda56a,"edited README: description,instructions etc., cleaned up files according to an semi-arbitrary standard",2013-10-29 23:12:54-07:00,True
+0fd83bcea6fe9490c8006a21363128f17f5da702,"Update README.md
+
+30OCT2013 - projectdelphai cleaned code to new project standards. 
+          - Added projectdelphai as a contributor.
+          - Created milestone for completing menu system.",2013-10-30 10:51:26-05:00,False
+ea1c0af7a0837d261cf9c0883540c344c92912c7,"Update README.md
+
+Formatting of Changelog section.",2013-10-30 10:52:36-05:00,False
+fb1d3ad18bdfca4a0676c3bb689800a4bfff0492,"Added Menus.java
+
+Created class Menus.java that will handle the menus for the program.",2013-10-30 11:04:50-05:00,False
+7cd98180e21195db1164d54c4a219e68da90f95e,"Update README.md
+
+Not too great at formatting these files, hopefully this gets it.",2013-10-30 13:19:37-05:00,False
+b260945f292b1b2041f603366c35b123385ce03c,"Update README.md
+
+Changed ""created milestone for completing menu system"" from header to normal bullet point",2013-10-30 11:35:34-07:00,False
+16b9a61e2a803d438d73417a25272077587faef2,"removed xml traces, cleaned up JSONReader, fixed Menus to work with JSONReader, fixed invalid menus.json",2013-10-30 21:54:53-07:00,False
+eb5676790759e2f4c2354046941fa48290c85d8a,added changes for use with apache-ant,2013-10-31 23:26:53-07:00,True
+5fbac5a0976542c71c7c23d56665dac797a3c126,edited README to show how to properly display stdout through ant,2013-10-31 23:43:42-07:00,False
+dfbdb453c9c2258ac82a25a017b76ef54845b345,"Added CageHN to list of contributors.
+
+Added CageHN to list of contributors and also allow CageHN to merge pull
+requests.",2013-11-11 11:39:19-06:00,False
+4e11576d4660beeac644cafced229bdfb977b64c,added basics for proper items,2013-11-14 00:15:22-08:00,False
+7fab5919cde40eb0430f1a65064e1a3c97df5405,"cleaned up the code a lot
+
++- changed the variables from public to private in Entity class
++- created setters and getters in Entity class
++- added the singleton pattern in the player class so that only one
+player can ever be instasiated except when loading
++- changed accessing public variables of Entity to accessing them
+through accessor ""get"" methods.
++    - Instead of player.backpack it's player.getBackpack()
++-cleaned up code in all the menus (PlayerMenu, DebugMenu...)",2013-11-16 23:03:19-06:00,False
+71979a6523505a47bf793f6605e4f8a0b011cdb0,Just gonna add my name to the contributers :),2013-11-22 22:46:21+01:00,False
+5527c5a7d4873b4b149694be488c45ad383f45e3,added moving methods,2013-11-27 20:45:46-08:00,False
+20b563c32ad1cd14a7b8629c2c82b4d062108c06,updated contributors in readme,2013-12-15 11:32:33-08:00,False
+7b4cad53a644856bb15fc9e8ea00d20232b79dc8,can now equip/dequip weapons,2013-12-17 19:56:25-08:00,False
+663acdb4ddf13d4fa5e58b88001d0dae9bf2a214,"Update README.md
+
+Some things in the README were incorrect or outdated, this should fix it.",2013-12-20 11:39:05+01:00,False
+3d822e01be93d84a977ca0c021b795fef35fb292,added monsters to rooms,2013-12-20 13:19:44-08:00,False
+0865ca62da3435f81e53cf05bb5e5078e3ff0e7e,"began shortening commands, removed changelog since it isnt really used",2013-12-20 20:58:32-08:00,False
+db272b5770187bc88494696a99d8a14c3447689a,finished shortening commands,2013-12-23 13:41:38-08:00,False
+9c5d2358ff57ec782ee0ae626739308b4dafdc48,updated readme,2013-12-24 22:31:30-08:00,False
+7c0238c78a82ea5cdb4ce7167fadc6e757aa0a7e,"Revert ""Merge branch 'doc' of https://github.com/shkesar/JAdventure into shkesar-doc""
+
+This reverts commit f51286ad0715e105959082a850858b97f8a322a0, reversing
+changes made to 55dbb14fa0a621051420e494f1396e595455e8df.",2013-12-25 13:49:54+01:00,False
+5c865691b3a2b7cc2040e0af62c806ee3a5f41b6,made changes to readme again since it was wiped over with merge,2014-01-01 18:51:11-08:00,False
+b692b6c264cf3399e42edc75b8adff67b5ffc5c6,"Changed rock-fish to current username (tamul)
+
+My GitHub username was rock-fish, but I recently changed it to tamul. I've just updated the original contributors section of the README.",2014-01-03 19:36:05-08:00,False
+e76020db3bd14570626e27c847b771bf1bb5297e,"added notice about issues vs. pull requests, added to list of contributors",2014-01-04 19:20:59-08:00,False
+f922ec7fd3b1200581de9eff2fa323213adb7d03,Added banner for JAdventure,2014-01-09 12:14:08-06:00,False
+978573f5ea015989240b798c1500e42b2f88aedd,"Grammar/Spelling & output bug
+
+Fixed some grammar and spelling. Also fixed the input that was causing
+""Prompt:"" to display twice at first.
+
+Fixed formatting
+
+Further spelling corrections",2014-01-27 15:21:46-05:00,False
+e40bbe5119119d86e6e2948e70739006c361049f,"Grammar/Spelling & output bug
+
+Fixed some grammar and spelling. Also fixed the input that was causing
+""Prompt:"" to display twice at first.
+
+Fixed formatting
+
+Further spelling corrections
+
+Fixed the Prompt error and other stuff
+
+More grammar/spelling and error fixes. :)
+
+lining up",2014-01-27 22:41:26-05:00,False
+ec9e075dcbeef3ab9c8b92789352d7ee3894cdfa,#10 Adds sections: Status; Developer are Welcome,2014-07-17 21:50:11+02:00,False
+40340cf48aad4733b2528c8cbf6cba6e5c66312e,#10 Adds sections: Status; Developer are Welcome,2014-07-17 21:54:33+02:00,False
+1ecf4bc78f81651ce9b204d59745db07f3fc35cf,#10 Changes section Contributors to heading level 2,2014-07-17 21:56:10+02:00,False
+ed8e0308f200d63b785fe533b710894575b1a9da,#10 Changes section Contributors to heading level 2,2014-07-17 21:59:09+02:00,False
+5acb32d8222771736886f054004c42193d699a52,Fixed Typo in main README.md,2014-09-19 09:06:32-06:00,False
+3d46e6a0ab572f3eee384fa1fb147584b6f98a9a,added la and fixed typo in README,2014-09-29 13:03:16+02:00,False
+0831ee34ad1ab16d6a63ac254ec8ef6a19d4023a,"added view command for player details, added unequip option for BattleMenu, updated README",2014-10-05 12:47:29+02:00,False
+99a205b81ff6a6d4e284400bf2ca5926b1e39fa2,updated README,2014-10-05 12:52:25+02:00,False
+632bce7be128418b19f84885133050bfc2c7d5bd,Adds project collaboration IRC channel,2014-12-10 22:19:15+01:00,False
+058d85b11cc8a5656063810e4d58ad358c1b602e,Few details updated,2014-12-11 17:33:08+01:00,False
+cf462b601f1839bbb6b6563f00a0813013676df8,edited spelling/grammar,2014-12-11 11:29:12-08:00,False
+ed91b06babcd25086a1152c5e0b0fa64961623f5,Improve project description,2014-12-19 21:46:30+01:00,False
+626333916990858cd58c91aa3905be647a174591,Improve project description,2014-12-20 12:04:40+01:00,False
+9bd2f06d3a601e3f3630e5e132c712db6c892fc6,added spaces in commands. Fixes #200,2014-12-28 14:18:26+02:00,False
+e0486fa6f4b298a132e3864d35e22594a05680fd,added website info and fixed format to fit 80 character width,2015-01-02 10:38:30+02:00,False
+39f784f2473c9158c298cfa7e1f184dc9cad8615,updated readme to include Ivy information,2015-01-10 20:01:37+02:00,True
+bdaa5e8afe77196257251a2f670c04b992abb005,Update README.md to include new Maven build method,2018-05-29 13:26:06-04:00,True
+8f6a1da3c31ef74f70ae10fac0ac3fc9c26bfb4e,"Clearly explain how to run the program
+
+Clearly explain how to run the program
+Help those who use Maven for the first time (Like me...Be able neither to cry nor to laugh...)",2018-06-06 16:52:50+08:00,True
+6e09114febcb5d643e8a3358e9c520b560d45fdf,fix formatting,2018-06-07 14:00:37+02:00,True
+e207ff22ce736d646c800fc23c0a47c8ce02b049,"Add additional information
+
+Myself as a contributor and the new method for downloading the game",2018-06-07 12:25:07-04:00,True

@@ -1,0 +1,47 @@
+sha,message,date,result
+f6cad8503cb9357195a12a0c32777222aa87b7c3,Initial commit,2021-02-12 16:38:09+01:00,FALSE
+1e3696cc69455a0677ca580e183001090a702246,"Added setup.py
+Updated requitements.txt
+Changed README type to rst",2021-03-02 16:23:18+01:00,FALSE
+1f21d30077ac70a3ed27b9c6471d58296f191c35,📝 Switch docs to pdoc,2023-02-11 13:47:52+01:00,TRUE
+81dfeb4a31d938e4f4681ee344d69a1129ddd737,📝 Update doc_index image and url,2023-02-11 14:12:00+01:00,FALSE
+112c21e1f30a0a490e50e711b60eb83db9d4c7ee,🎉 Add centralized CLI and crafting script,2023-02-11 16:59:55+01:00,TRUE
+d94a4496664c8f1288695c3175ce49c9beb4b389,📝 Add solving_behaviors documentation,2023-02-12 11:22:05+01:00,FALSE
+e2d2db2baf2f802b782c7ba9d0c2bc050e094201,"📝 Reload README image
+ :fire: Remove HumanDemo.gif",2023-02-12 11:42:26+01:00,FALSE
+3c7c63f316edc821e73a4736e82bb98cc4b93ffc,🚚 Restructure docs image path,2023-02-12 11:46:26+01:00,FALSE
+b28877300c25960d8a4ded9614e6e80cece89c0f,📝Add doc link,2023-02-12 11:47:42+01:00,FALSE
+4b0dfd41634e476e873bcb8537c988feb40f97f2,📝 Add MineCrafting demo in README,2023-02-12 12:35:07+01:00,FALSE
+d672fc35f200856bb04589c0b0bcd6e66ac7ef8e,📝 Add gui indication,2023-02-12 12:37:07+01:00,TRUE
+3d4ba531448216ca7f940c4d527213a97c6fddfd,":hammer: Refactor CraftingEnv and World
+Isolating state-related behaviors in CraftingState
+Add transformations to World
+Crafting env now takes a World as input",2023-02-13 12:07:04+01:00,TRUE
+0ef2db81e38690421f104d55547647183b4fbc53,✏️ Fix typo in README,2023-02-14 18:11:19+01:00,FALSE
+d4790e51ed87827d1d15ad0a008a70348f8f3906,📝 Update documentation,2023-02-14 22:36:35+01:00,TRUE
+e96824156bd033afe47f056a5328eabc4dd83898,✏️ Remove typo,2023-02-14 23:03:45+01:00,TRUE
+c66516fab4b303308444b659408998eb4eb5b763,📝 Add markdown links,2023-02-14 23:16:54+01:00,TRUE
+2bf4b47557b94ed0efc2d6e72951228ef30534a4,📝 Improve README structure,2023-02-19 14:51:20+01:00,TRUE
+78d6e0ed544c0e1b28487e59b503e3eb8c870621,🎨 Update minecrafting demo with new UI,2023-02-19 17:44:36+01:00,FALSE
+fef8a0b53a90caf2e82275c6c49d1c81602ea017,📝 Build from source,2023-02-19 18:44:52+01:00,TRUE
+0b0ac8730631dc40b382c55ae618d88afc78ff62,📝 Update README build from source,2023-02-19 18:58:33+01:00,TRUE
+998dd372722c768817e0296a315f744ff168785b,📝 Add PyPi badges to README,2023-02-20 15:17:33+01:00,TRUE
+a645fda89e791174e75c8ec92a8f547f6677cd37,✏️ Fix typo in ImportError,2023-02-20 16:15:49+01:00,FALSE
+44547cfc984cf3a3dd4e61d7ff3d732b6fa6c1fd,✏️ Fix small README typos,2023-02-21 18:27:38+01:00,FALSE
+905c50c3e899207c0e979ff53ef6adec9c9836cd,👽️ Update relative to sb3contrib action_masks API,2023-02-23 18:10:38+01:00,TRUE
+fc811c3bb7c3cd15660290aaa822e62ad4e4c8de,✨ Fix missing end-of-files line,2023-03-05 15:29:42+01:00,FALSE
+268d6c062d70b77075e5b01b97d6d2f88d66b58a,✨ Remove trailing whitespaces,2023-03-05 15:46:57+01:00,FALSE
+13df30fb3d5aa9228932f35c72cfe2ac4efa57f5,📝 Add Ruff badge in README,2023-03-05 16:46:39+01:00,TRUE
+1f2e794dd2220d9131ff3adcc0a67c2f789e2b3a,🎨 Organize badges for better look on README,2023-03-05 16:48:33+01:00,TRUE
+350219c6b617c094d0289e2ab3266364a4bf8840,🎨 Organize badges for better look on README,2023-03-05 16:49:41+01:00,TRUE
+44ed93e976c0d115f0c71f44d3bde0322fb438f6,"📝 Update README
+Fix broken images links
+Update CONTRIBUTING",2023-03-18 00:51:20+01:00,TRUE
+e998fe8d66047119a0c03ea03f7eec6c7c834401,📝 Update README,2023-03-18 01:44:42+01:00,TRUE
+bfc9482ad53764f0520b30ecd2e23cc6c52c898b,📝 Fix missing indentations,2023-03-19 19:09:41+01:00,FALSE
+52e77c978b3b18414c0efa40d24e0631b0556880,📝 Fix indentation in README,2023-03-19 21:26:22+01:00,FALSE
+47a6141dd7c3d7ecfd01ecba9f21730908e4c167,🔧 Refactor problem building to take state as input,2023-03-19 21:53:07+01:00,FALSE
+fd0a38369d1d2211f560923643130461197abd4c,🚚 Big renaming Crafting -> HierarchyCrafting / hcraft,2023-03-21 05:30:10+01:00,TRUE
+47ba1665edf7814192c051e2c7d14d3ec0152797,":hammer: Big Transformation refaction with Use & Yield
+Also it now includes MIN operations as part of 'Use'",2023-03-24 21:29:39+01:00,TRUE
+4434bd811a7561fe4dbe9bc031dd3463d5972342,📝 Add No feature extraction section in README,2023-03-26 04:22:00+02:00,TRUE

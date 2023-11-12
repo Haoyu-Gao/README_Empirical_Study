@@ -1,0 +1,833 @@
+sha,message,date,result
+5b6c85e46974785400e95a31ecb916333777c767,"init
+
+hotfix: correct weights for kernel",2019-05-04 21:42:18-07:00,TRUE
+68beab742db4dabb6a8b471e3c1b003edd125671,tests,2019-05-04 21:47:16-07:00,FALSE
+99943486065ccc92a6346e4f4911a51b27be1c87,"Complex conv kernels (#25)
+
+* informative errors
+
+* hybrid
+
+* test for conv_types
+
+* test conv types
+
+* README
+
+minor fix",2019-05-04 22:07:57-07:00,FALSE
+f6e8ecac7adad65c9656e8099246745f050cb819,network_metadata,2019-05-04 22:07:57-07:00,FALSE
+5673cddb97ca27a2fa21520d6b8fb4591941ab08,"sparse nonzero avg unpooling (#26)
+
+fixes for unpooling functions",2019-05-04 22:07:57-07:00,FALSE
+9ce2c365fba38b93dcd1d2e08f324a1e9085ec6e,"Refact (#30)
+
+* README
+
+* WIP
+
+* Compilation done
+
+* ME
+
+* Example fix
+
+minor fix
+
+better print
+
+Refactor (#33)
+
+* Sparse tensor (#31)
+
+* sparse tensor support
+
+* sparse ops, and minor changes
+
+* WIP
+
+* WIP: sparse convolution
+
+* sparse convolution forward and backward done
+
+* conv transpose
+
+* update ops
+
+* minor
+
+* sparse pooling
+
+* WIP: test pool
+
+* pooling fw/bw done
+
+* pooling, broadcast fw/bw
+
+* test cleanup
+
+* minor fix for broadcast sparsetensor init
+
+* minor fixes
+
+* error fixes
+
+* broadcast fixed
+
+* fix broadcast",2019-05-04 22:07:57-07:00,TRUE
+f075f47a65e6c1700288e0e774c1ef7d5c884568,"example update
+
+example update in README
+
+README updatE",2019-05-04 22:07:57-07:00,TRUE
+d18aa39ab1b11c56f20f0d2440d84089f0d63aa7,"Aten and pytorch 1.0 support (#34)
+
+* Aten init
+
+* build, import done
+
+* coords manager
+
+* WIP: in out map
+
+* coords key into separate file
+
+* convolution
+
+* Convolution
+
+* convolution
+
+* WIP: Python rename
+
+* coords key and manager test
+
+* minor
+
+* convolution cpu done
+
+* WIP GPU conv start
+
+* coords data reference types
+
+* GPU conv
+
+* Makefile compilation and GPU
+
+* cleanup
+
+* CPU/GPU convolution done
+
+* conv transpose
+
+* minor fix
+
+* WIP: Pooling CPU/GPU
+
+* pooling
+
+* Global pooling
+
+* unpooling
+
+* minor
+
+* thrust removed from convolution.cu
+
+* pooling done
+
+* Pooling transpose and broadcast rename
+
+* broadcast
+
+* minor functions
+
+* fixed python setup
+
+* aten example
+
+* remove cffi
+
+* README installation update",2019-05-04 22:07:57-07:00,TRUE
+a88e2fc78c5781722af6bef6e20a32009df8567c,"dimension upto 7, cleanup
+
+minor fix
+
+hot fix",2019-05-04 22:07:57-07:00,TRUE
+2b9caea1855e6136caee035baa25bf58d74d0338,Installation README update,2019-05-04 22:07:57-07:00,TRUE
+0ed829027d45f42ad3b22bfa7e567a564f7de8cc,anaconda installation,2019-05-04 22:07:57-07:00,TRUE
+d6e5c2a1339a8f6d420bea9c4171855dec5da655,Update ATLAS installation,2019-05-04 22:07:57-07:00,TRUE
+6a9b5c58dda9a87ffb44ba3a96315eb5465ccf81,"conda installation with openblas, fix #39
+
+README update",2019-05-04 22:07:57-07:00,TRUE
+e5055c5f97e55f6742e061aada1f61c51fb52364,"more nonlinearities
+
+Update README.md",2019-05-04 22:07:57-07:00,FALSE
+e2f14fbdac5af7c9f0d62ae50700cf613d570e8a,"better print for num thread setup
+
+update README",2019-05-04 22:07:57-07:00,FALSE
+8250e5a785a8eea3e2e10c958cb2faeda41e6898,"setup for installation, readme update",2019-05-04 22:07:57-07:00,TRUE
+da9d073a69c267d16cfb9cc75369f3698c9ec32d,"gradcheck reorganization
+
+minor readme update",2019-05-04 22:07:57-07:00,TRUE
+d1c34ac58c725054aed7a191346da3855912a999,"Doc (#64)
+
+* curated lists of functions
+
+* WIP: Convolution
+
+* Convolutions",2019-05-04 22:07:57-07:00,TRUE
+ae5ccfecd8268bcd2f1a4de754ce1586832d1881,"tensor_strides, removed adap_dilation",2019-05-04 22:07:57-07:00,FALSE
+66d513777e06b831719a725ec6267fb60045ff42,"Docs (#70)
+
+* broadcast
+
+* WIP
+
+* minor fixes
+
+* version update
+
+* pooling updates
+
+* minor
+
+* template init
+
+* multi-gpu
+
+* fork me",2019-05-04 22:07:57-07:00,TRUE
+3a2c868b7d65fd1aec4cac83dd8af98b7c34e654,documentation updates,2019-05-04 22:07:57-07:00,TRUE
+08f886037fa5cebca502608f29d31146cc5a5533,use atlas for CBLAS,2019-05-04 22:07:57-07:00,TRUE
+3c825e19dcaca61b79ff9d41293b82d5b9e4ca24,benchmark,2019-05-04 22:07:57-07:00,FALSE
+24da2d3ee3948ad9fbdf1cb21341a6ac32d201e1,sparse tensor and convolution documentaion updated,2019-05-06 16:05:32-07:00,TRUE
+4ec50f9a9116c1d7b8c9fb6693cce78d1af09800,"added misc classes and interop, updated conv, pool, normalization",2019-05-06 19:14:27-07:00,TRUE
+18618afb44bbf4807a0a87f7131e123431c90715,image added to readme,2019-05-09 18:37:16-07:00,FALSE
+2dbd571b4cce9fb465cdd1deaebef67577455a12,readme cleanup,2019-05-09 19:00:59-07:00,TRUE
+5f2889e61ed8bb374f7bd1a0b78c8b2e05f26aaf,updated indoor segmentation and fix multi-gpu and readme,2019-05-10 18:16:18-07:00,TRUE
+6c5233d6a5c5720afbedb96b7840ef59c462e558,"resolves #1, switching to openblas",2019-05-10 18:17:53-07:00,TRUE
+a1cdcba68ef925bfefed2fe161f62e1ec78573b9,documentaion updates,2019-05-10 21:26:15-07:00,FALSE
+243cfe5dfc10721b64970f5a32219bb81fc79269,doc updates,2019-07-03 09:13:19-07:00,TRUE
+0446730e72174124a87fee97432450ff31f07ad7,"pooling, braodcast with Itype memman",2019-07-06 18:06:24-07:00,FALSE
+a469b8efc0c7c4d0aade17d23d66717f7decf1f8,"fix example execution commands, minor updates on docs",2019-08-29 04:39:18-07:00,TRUE
+1ece298c80b7ce27c3c41a797a1004586f6fd815,"Vectorized coords (#87)
+
+* WIP: PyCoordKey with vec coords
+
+* WIP: Compilation successful
+
+* tests.coords
+
+* fix region_iter, CPU_ONLY build
+
+* Fix pruning, pooling
+
+* Analytics for docs",2019-09-04 16:44:29+02:00,TRUE
+56751eccd7b7dd5d08f7cdfbd595d6ab5fc3415a,minor readme update,2019-09-27 20:06:00-07:00,FALSE
+829bcbd2b3b3eb5690d121f369c0394bbedf2b64,"Update pytorch==1.2, minor",2019-10-25 02:39:22-07:00,TRUE
+b2f5b12a4a3a2b4b8409a902b1c6d160b1cbb78d,revert back pytorch 1.3,2019-11-05 12:46:17-08:00,TRUE
+9d5ff2d9f338cb4cdf1b7aae4cb4c341b1cb48a8,"pytorch 1.2 ELU, batched_coordinates int convertion",2019-11-17 13:30:10-08:00,TRUE
+a5aa95078ad69bec93705d0d553b1451c7b4eb2b,"torch handle update, minor test fix
+
+commit 3b763b68213ff242d4bece3b1e2f0111a9b27393
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sun Nov 17 15:32:22 2019 -0800
+
+    strided conv open3d update
+
+commit 65a50bc65466c43fc1b215094de7818c560e381c
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sun Nov 17 15:26:18 2019 -0800
+
+    added libs
+
+commit 4f2d267e517b6c9d0dcb9f6071668f8d90fce258
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sun Nov 17 14:59:42 2019 -0800
+
+    update blas/sparse handles
+
+commit 0e47221052fee7c44d71680bec464c5aadba954c
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sun Nov 17 14:42:00 2019 -0800
+
+    WIP",2019-11-17 15:38:38-08:00,TRUE
+992c014ec2e270ae16ceae1c2604c1c43e9e9a64,CUDA version upgrade in docs,2019-11-19 16:16:13-08:00,TRUE
+d029f28262bc50194e49668e4cc38a745d6f88d0,"Update makefile, scratch memory, error checks
+
+* convolution peek error
+
+* contiguous scratch memory
+
+* update sm50 nvidia arch
+
+* contiguous resize
+
+* README conda installation
+
+* cblas
+
+* getLastError
+
+* cblas
+
+* changelog",2019-11-20 11:41:59-08:00,TRUE
+e260dc49041e4b7b01d69a1ba388af5b57784d1c,"TBB coordsmap and v0.3
+
+Squashed commit of the following:
+
+commit 27ce186a951971cf26efbea165c741f81e4c0986
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sun Dec 8 01:18:33 2019 -0800
+
+    guides, pooling.py notes, changelog
+
+commit 1817c184374b9c476e5dc6119786e423a63aa15c
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sun Dec 8 00:52:54 2019 -0800
+
+    docs, changelog, WIP guides
+
+commit 32c90de6c7a4747fbbc7dcd08061f437383640c5
+Merge: 9ddb189 3974b2c
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sun Dec 8 00:25:30 2019 -0800
+
+    Merge branch 'master' into tbb
+
+commit 9ddb189e7223028552c66e9d48ff7f8dcb205264
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sun Dec 8 00:21:10 2019 -0800
+
+    tbb install instruction
+
+commit 3d48508b712704aebe2e3cbb2be60d719a6561db
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sun Dec 8 00:15:47 2019 -0800
+
+    restore setup make
+
+commit b17fac9a916326a3d2cd2323a2d775d464a17ce1
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sat Dec 7 23:54:46 2019 -0800
+
+    fix stride map
+
+commit 6cc052b472324a289008d8fff2277e103d53a79a
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sat Dec 7 22:06:41 2019 -0800
+
+    warning for pooling when stride==kernel size
+
+commit bf40c303ee4d78d6825ed9ea522093c1bc3825d6
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sat Dec 7 22:03:34 2019 -0800
+
+    rename kernel map generation
+
+commit 77337955f6900e2433b51d125c562bc34c0f66b8
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sat Dec 7 17:18:28 2019 -0800
+
+    fix dense
+
+commit df0cd2e940729f3b91e38d914b68c2518dbb354e
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sat Dec 7 15:53:18 2019 -0800
+
+    transposed strided kernel map
+
+commit 6b5958e709cbfb02039932ba9fa2cf3ef2f32f98
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sat Dec 7 01:49:17 2019 -0800
+
+    pooling with kernel size flag
+
+commit a41295882cafc7f9cb9bffe893d1cfde0c3db079
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sat Dec 7 01:12:21 2019 -0800
+
+    hot fix
+
+commit 1c4a8cb3c247b704dc8d689386da1fbb128c088e
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sat Dec 7 01:01:55 2019 -0800
+
+    pooling map
+
+commit c32cb2d4c301dc701e08c107106509ea38ef1fe3
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Fri Dec 6 23:24:40 2019 -0800
+
+    const modifiers
+
+commit 3b83f5cb5171e19e70ddd6e271d6e8eee8e428e4
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Fri Dec 6 17:51:34 2019 -0800
+
+    WIP strided_map
+
+commit a4bbb930dd9b48ab286b75254f8251d69b1338d1
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Fri Dec 6 17:33:40 2019 -0800
+
+    updated strided map
+
+commit 5befa0df0b8fe903faa10fe010deadeb9c10fb80
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Fri Dec 6 16:03:50 2019 -0800
+
+    restore setup
+
+commit 06bc9096e08d97249fd1a9eed82d9252728b923f
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Fri Dec 6 16:01:52 2019 -0800
+
+    pruning fix
+
+commit c021af81a3dc9519186f7c7c4f5af3a2a2c806a6
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Fri Dec 6 15:58:39 2019 -0800
+
+    fixed broadcast
+
+commit ea451fc6ac5c80fa99408cc1c0e74cca67dfce73
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Thu Dec 5 19:28:10 2019 -0800
+
+    initialization timer
+
+commit 4b928472495351769ef3254a443eef3d80860c26
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Thu Dec 5 15:16:27 2019 -0800
+
+    convolution, kernel_map fix
+
+commit 90098d3e963bd1a4491c4027b7aec1b0b172683f
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Thu Dec 5 13:17:13 2019 -0800
+
+    coords creation pass
+
+commit a29827c1d4a421c48834ccf9ca70fba92797df62
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Thu Dec 5 11:03:50 2019 -0800
+
+    coords working
+
+commit f1e798a2814fa90a9cfe5954ec63f3ae1bd51b47
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Wed Dec 4 22:01:35 2019 -0800
+
+    import successful
+
+commit 2cfdcc372daccd00ca5e6f08cb2a4bdf49a48b95
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Wed Dec 4 20:21:35 2019 -0800
+
+    compilation successful
+
+commit bcb38821a13537bd159059b834276ea62502e357
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Wed Dec 4 18:16:54 2019 -0800
+
+    start compilation
+
+commit 5753958ded6f8aa7cf79ce05aa71c67de4f908d9
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Wed Dec 4 13:53:23 2019 -0800
+
+    kernel map setup
+
+commit 532fdfa8c9cc981641d36df5399b9a400d3e8c59
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Tue Dec 3 20:28:29 2019 -0800
+
+    kernel maps
+
+commit f50f0de34daabce72c02208bfd486f80992ce4db
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Tue Dec 3 17:09:14 2019 -0800
+
+    WIP kernel map
+
+commit bf876f910427aec4046753e9142a5220ef422f1c
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Wed Nov 27 17:17:47 2019 -0800
+
+    minor fixes
+
+commit a6c523e411eace3f69447e91ad57bd2534e0774a
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Wed Nov 27 17:05:46 2019 -0800
+
+    pruned coords
+
+commit 498d6aa1595fcb3b58a6f8be95fe68fc60f54566
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Wed Nov 27 14:54:31 2019 -0800
+
+    transposed strided region
+
+commit 67b452a148e3b69e37e1acfda409aa6ebff2464e
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Wed Nov 27 01:43:41 2019 -0800
+
+    strided region
+
+commit 23bfab6c844eeaa1d29c6c3ceada78bd010d4b63
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Tue Nov 26 18:13:23 2019 -0800
+
+    coord initialization and strided coords
+
+commit e64772ef4fb81e3e98126c762c5ded0f76e4130c
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Tue Nov 26 01:00:18 2019 -0800
+
+    WIP
+
+commit 1e510c83d8e2f42a156d55d859fb077bee8bb9c6
+Merge: 8d324d7 6901b4a
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Mon Nov 25 23:10:03 2019 -0800
+
+    Merge branch 'master' into tbb
+
+commit 8d324d73fa8290b13e369a238f965d68e3b3b8d3
+Merge: 318be15 152639c
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Mon Nov 18 02:07:23 2019 -0800
+
+    Merge branch 'master' into tbb
+
+commit 318be1596610d31b14f8c2cf37ef0b977b9eb457
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Tue Nov 5 12:45:38 2019 -0800
+
+    WIP
+
+commit 123a58536f8d54998e7dbb9903a70ea059c53205
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Mon Oct 28 23:10:38 2019 -0700
+
+    tbb types",2019-12-08 01:28:05-08:00,TRUE
+c14862e81b1a4778036c1ecaea93f1a39fa13a4e,"Latest TBB installation instruction, GCC version",2019-12-10 20:32:07-08:00,TRUE
+f809fcaeeda64e938370112f1768a8f5546bf2e4,"minor fix in quantization, typo fix",2019-12-12 16:49:42-08:00,TRUE
+13569fa679d65c507e2f0d7384c30a43895c678c,faster coordsman,2019-12-15 01:37:48-08:00,TRUE
+355758aaffe8266daca39b6e433ff3aa742c31fd,pip installation,2019-12-25 02:43:55-08:00,TRUE
+b0095789482073cbbee41d3e5e5b60e8cd10af6a,"conv on coords, minor setup.py & doc updates
+
+Squashed commit of the following:
+
+commit 2ffc9e69616b5d7f7e1e54d472916169f73887a0
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Thu Dec 26 02:39:29 2019 -0800
+
+    Convolution on coords
+
+commit 670cb7c2bc6a780a86d4c62d9c9610ab446cf324
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Thu Dec 26 00:13:03 2019 -0800
+
+    removed extra lib dir
+
+commit 165e9e2299527242957c48444afd33d63e296855
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Wed Dec 25 18:20:51 2019 -0800
+
+    windows guard
+
+commit 2aaa56af68279d8aeacc16d6b6fba5fe02b177ee
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Wed Dec 25 16:22:23 2019 -0800
+
+    library_dirs
+
+commit 91bd765727e134424331b90fa927a17e1444db4b
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Wed Dec 25 15:54:22 2019 -0800
+
+    PyPI
+
+commit 0b93d3557de1c43d6542180388970c33b302bf5f
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Wed Dec 25 02:53:22 2019 -0800
+
+    minor grammar",2019-12-26 03:36:36-08:00,TRUE
+235b8159a5945b7e357bb21a7f1b269f733df072,"BLAS configuration, minor Makefile updates
+
+Squashed commit of the following:
+
+commit de81c762e27c1ca1620e5de02e01531bf61cf2a7
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Mon Dec 30 01:20:07 2019 -0800
+
+    cxx optional
+
+commit 7f8e9d33673d7e09db2b9624891a3f6dc077bf53
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sun Dec 29 02:25:09 2019 -0800
+
+    update gitignore
+
+commit c3f41650544bc9a20a58f738eb6cea28bbff8b40
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sun Dec 29 02:20:16 2019 -0800
+
+    openblas compilation fix
+
+commit 2e17bac4cb883f42d1ec767fad7b0f4b996622ed
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sun Dec 29 02:02:09 2019 -0800
+
+    fix minor compilation error
+
+commit 6d1be0eecd129d3789bedc4e1fce119da020894e
+Author: Chris Choy <chrischoy@Hyuns-MacBook-Pro.local>
+Date:   Sun Dec 29 01:46:44 2019 -0800
+
+    gitignore update
+
+commit d39c7ffeecccfbe5bff812bccf7d026486dac4c9
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sun Dec 29 01:44:13 2019 -0800
+
+    BLAS support
+
+commit 94f3b9969bcd06e54f1f1a8b64781d6db32225aa
+Author: Chris Choy <chrischoy@Hyuns-MacBook-Pro.local>
+Date:   Sun Dec 29 00:20:51 2019 -0800
+
+    mac build",2019-12-30 01:21:13-08:00,TRUE
+b2101dfc683285080a74f7c93e38cbe733bf6221,"union with ref wrap, const vars in coords man
+
+Squashed commit of the following:
+
+commit 961c403beee9d0027b36ef3e498d82437533f4f8
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Tue Dec 31 22:23:22 2019 -0800
+
+    readme update
+
+commit 2f95dfb9c4b06066295b93a7500679f469dfd113
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Tue Dec 31 15:45:08 2019 -0800
+
+    union map with reference_wrapper
+
+commit 9e9bb48d55698e815fe4051a4a1145681be82666
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Tue Dec 31 12:07:54 2019 -0800
+
+    vec init, const keys, maps",2019-12-31 22:36:10-08:00,FALSE
+48c3915d8de61b6804577d35aeb8f98800ee6928,"get_coords_map, minor readme",2020-01-02 19:52:04-08:00,TRUE
+2f9839622e6786ea2c91e1458bc963b60aa8a78f,"sparse tensor binary ops (+-*/)
+
+Squashed commit of the following:
+
+commit 40bdbf7513c938cd4a9eddb1e1fd03a04a6ef8f6
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Mon Jan 6 14:44:54 2020 -0800
+
+    sparse tensor binary ops
+
+commit b8ad2bc33465cad6353be3446ce45aaad2773ff3
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sun Jan 5 14:57:48 2020 -0800
+
+    sparse tensor addition for arbitrary coords, global sparse tensor operation mode
+
+commit 9e2d23ac14bdb5571b4c4a9e135b85e17edfbd65
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sun Jan 5 11:58:58 2020 -0800
+
+    expose get union map
+
+commit 36a6205053ddfed760f8f089689156c76d1c0290
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sun Jan 5 02:32:14 2020 -0800
+
+    namespace
+
+commit 4c6748a25fce43ecd3c2b3e87b9e88864fd4384c
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Fri Jan 3 18:58:16 2020 -0800
+
+    minor
+
+commit e4f1a31520dd03b66bac3af7c8f7255010367792
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Fri Jan 3 13:22:33 2020 -0800
+
+    python types",2020-01-06 14:48:55-08:00,TRUE
+5e5c9b98e9cb269d3696744e64de3b885286af91,"doc updates, conv/pool stride=1 use incoordskey
+
+Squashed commit of the following:
+
+commit a630e624d9d295e68f55f6aee8937e1f10b7e38d
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Fri Jan 10 16:55:44 2020 -0800
+
+    changelog updates
+
+commit 995651a2c532cb66013ebba119d0b29775badab0
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Fri Jan 10 15:53:09 2020 -0800
+
+    AVG, SUM global pool
+
+commit f4b72ad0593aabaa6a282f97fb309e641f569c6a
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Fri Jan 10 16:44:41 2020 -0800
+
+    stride == 1 keeps the coords for conv
+
+commit 788d5c0672b88762fe405f54604a765625f42861
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Fri Jan 10 15:53:19 2020 -0800
+
+    coords gpu guard
+
+commit 2ece091192113e8bc3f2644246090c47489bac1d
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Fri Jan 10 15:52:58 2020 -0800
+
+    terminology
+
+commit d9883044d1090e4196b1b56c73f9b1aaa4998ea9
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Thu Jan 9 16:07:42 2020 -0800
+
+    cat, union with variadic inputs
+
+    cat, union with variadic inputs
+
+    cat fix
+
+commit 8e2e47d8a3bd17cce170850b92c321dc303f5765
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Wed Jan 8 17:28:54 2020 -0800
+
+    convolution basics
+
+commit 3ccea9dd16362fc2a0cf282c76a43dd95377c57e
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Wed Jan 8 15:52:46 2020 -0800
+
+    _get_coords_key with tensor_stride arg
+
+commit b14774e8afd20b01a81c124347cade34fc54a44f
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Tue Jan 7 19:49:45 2020 -0800
+
+    removed redundance oncoords hist
+
+commit a28dc5bd23cf9608d286a7f514b646e3c21e6cc4
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Tue Jan 7 18:45:52 2020 -0800
+
+    forward added
+
+commit 8ea4ef8ca1a4be5beeff0d7bfb9aeeb81aed769f
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Tue Jan 7 17:53:00 2020 -0800
+
+    minor doc update",2020-01-10 17:43:28-08:00,TRUE
+714f93054682531066cd3360ed67dc1cf0b31693,convolution visualization,2020-01-18 00:34:48-08:00,TRUE
+c52ba2f0eb13aff1f24aede62db8259366b0aef5,readme update,2020-01-22 08:07:50-08:00,TRUE
+c8a4bbfe0bfcc5e6cda79e977d7bc9b6e49a0e7a,minor doc fixes,2020-01-26 23:05:34-08:00,TRUE
+d44df12c177cd9b25bdaebd2c809a7a72926df28,"kernel size 1 logic, doc updates",2020-01-27 07:33:46-08:00,TRUE
+5d8dbebf0cfbd064be5969c6f3a2b576ad799287,generalized conv doc updates,2020-01-28 21:47:17-08:00,TRUE
+6a932ca00b4624b6f18dbed982a82ea8979be756,"global pool, broadcast without arg, minor",2020-01-30 22:25:24-08:00,TRUE
+fb27a69f81f28fa9652d341b3aa8f0a3269ceca0,"completion and VAE
+
+commit 238a07892ce1a415776b396fef342e7e71316c39
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sat Feb 22 01:23:42 2020 -0800
+
+    doc updates
+
+commit b2401cd8090fab9eb6792bfbc747eca85e5e615f
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Sat Feb 22 01:18:13 2020 -0800
+
+    vae example
+
+commit aad09b01bf5be2564206da2133e807555f830e4d
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Fri Feb 21 17:01:39 2020 -0800
+
+    completion example",2020-02-22 01:24:44-08:00,FALSE
+c6c868f0fc6389e9d6f6148707b2cb2ea81913be,Update README.md,2020-03-04 23:03:48-08:00,TRUE
+b8a65a4528b39c6297bf25f39af928d1da594a2f,doc updates,2020-03-05 23:14:07-08:00,TRUE
+d173e0ada610d50a613d10a4991772e5289a6093,makefile python to env var,2020-03-05 23:32:46-08:00,TRUE
+7d7432c61ae1748238e42e262291a1118ca18792,minor readme update,2020-03-08 15:18:43-07:00,FALSE
+d13fb45079a2df9d04fe51f391c4e3a92fd22680,def page updates,2020-03-08 16:21:22-07:00,FALSE
+d212be80322ff035590eb1a053ffb5d7e896f013,"v0.4.2
+
+Squashed commit of the following:
+
+commit 48044e6c46a23337c7f64fd9b1c3075433ceb5b4
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Fri Mar 13 20:52:57 2020 -0700
+
+    minor updates
+
+commit 0084e80c00df63f12561cd63c4503dd5bf413d10
+Author: Chris Choy <chrischoy@ai.stanford.edu>
+Date:   Fri Mar 13 17:30:02 2020 -0700
+
+    minor doc updates",2020-03-13 22:29:16-07:00,FALSE
+711dba40b068cf43903cc16775d2308238be2be0,GPU kernelmap to long type (fix #125),2020-04-11 10:57:29-07:00,TRUE
+ded4c0c42ae50482f44f909a37fef16af16c36ec,Add OpenMP num threads note,2020-04-24 12:19:17-07:00,FALSE
+41713433a78fdad7f8a29cf96779c058b76106d8,minor doc update fix #126,2020-05-01 14:23:00-07:00,FALSE
+411b5ebdf16c598ba57bece89b6a2729b56c45ea,"additional installation args, fix #135",2020-05-07 14:22:43-07:00,FALSE
+be5c3c18b26d6a62380d613533b7a939a5458705,fix CPU only build with memman,2020-05-19 18:45:14-07:00,TRUE
+7087411269605b8cb5b9f61246d474f507ca3781,memory management doc,2020-05-19 20:30:38-07:00,FALSE
+9608902dfed629e4b7fceae02750ef902785905d,0.4.3,2020-05-29 03:31:10-07:00,TRUE
+423f526c0cd0d8791f766e81ae70ee728d00c2cb,update github url,2020-07-09 16:49:16-07:00,TRUE
+2bb627e9e395419ac9f0289c3517b1c0c00500bd,Added Sparse-NCNet (#189),2020-07-24 10:27:54-07:00,FALSE
+ebe9304ff622e14a43a0111f808fafb72f864a4c,README updates and v0.5 news,2020-08-18 08:23:49-07:00,TRUE
+21f3930d8bb7d27e844b21aeaf7c1a444576d853,updated speed comparison,2020-09-29 14:50:42-07:00,FALSE
+3933ddcc206963b1fdc3d7be07fe1c1952305b5e,citations for generative convtr,2020-12-15 13:08:07+09:00,FALSE
+1ed36aa660b56225a01dee9fd2b45462860d5697,update pytorch requirements,2020-12-15 13:08:07+09:00,TRUE
+693ac415e10e030f4708fae0642c54d36a2cfea8,"README requirements updated, minor",2020-12-15 13:08:07+09:00,TRUE
+cab49b46587dbc717d10e187adea197a4bbd771e,remove gradcheck import for torch<1.7,2020-12-15 13:08:07+09:00,FALSE
+5cea6df2b896bf4ee51a35630d946407e59ee1e4,fix union valid_row_offset (fix #279),2020-12-25 12:59:50+09:00,FALSE
+0a8a4ed6b6c6e3e6517b234d1e287c51b0b37cfc,stride map with string id,2020-12-27 14:02:14+09:00,TRUE
+1b10a8e30b89e0fe28bfe488af8f4328a1688dd7,minor installation instruction update,2020-12-30 20:04:07-08:00,TRUE
+c54f3cce14b117382fdf849a211168de078df9eb,"cuda support warnings, minor updates",2021-01-06 20:33:36+09:00,FALSE
+6db3c49f960fd832a26fdbb4717b4bb87010ec97,CUDA 11.0 issue (#290),2021-01-07 18:03:06+09:00,TRUE
+27ee281502b1ba9b340ecc63ed7fb4deb02f6767,pooling doc updates,2021-01-08 21:42:03+09:00,TRUE
+21f6ea285bd64c50da90664ffa304a88438dcc19,"stride map, minor updates",2021-01-20 04:55:16+09:00,TRUE
+56e458cb83c6bfe34cf9009723faeb9ea2853849,blas include dir fix,2021-01-20 18:06:52+09:00,TRUE
+7a4d88e40c12955ef120cd6a28d7748de2921f00,update pytorch requirement to 1.7,2021-01-31 17:12:32+09:00,TRUE
+258433ebb0c30056e468ee7b7df4576559a5396c,"ModelNet40 classification with PointNet, MinkPointNet, MinkFCNN",2021-02-23 21:03:52+09:00,FALSE
+edd3ab2428e6c2e7e153b8ad34b35041b045d0aa,Readme update for unstable pytorch 1.8,2021-03-14 09:19:23+09:00,TRUE
+49d170d4a3b970c4362581d42949ef6cb5b5177b,conda cudatoolkit update,2021-03-26 08:23:48-07:00,TRUE
+35c94e755cd89a5357d3a92bafb372eeba4817b4,"dispatcher cleanup, pytorch requirement update",2021-03-26 11:53:14-07:00,TRUE
+6f91a72434f78342a6d533e9ad12efccf7f58347,pytorch 1.8.1 support with gpu_storage,2021-04-06 19:02:07+09:00,TRUE
+93e4db79504ab18501af6cf29453408f2d043325,pytorch 1.8.1 installation instruction update,2021-04-07 07:51:14+09:00,TRUE
+5dfb99076da1213db93197ea5a6079ac62d3b8be,Force ninja for installation (issue #208),2021-04-07 11:37:22+09:00,TRUE
+73fe866cdb5605bf925a4ef1cafd47c108fbc822,installation instr updates for issue #330,2021-04-08 10:26:32+09:00,TRUE
+bd649f5887c8e994661e7a5e6e713ead6446f462,GCC version requirement update,2021-04-08 18:48:36+09:00,TRUE
+3fd51aaa436a3306654baec296d1666e88e6aba1,O-CNN reference,2021-04-12 18:02:35+09:00,FALSE
+4f117d36caa5cc8103ee8a0b0ae5b07fe93d7a5f,badges pypi stat and slack chat,2021-04-26 16:55:09+09:00,FALSE
+92f24db88c6d819688f6c576dd9c14d41a1da817,Removed has_bias references from tests and examples (#356),2021-05-25 19:05:09-07:00,TRUE
+4e5566305ac8674540ad43d8c0c0f04023df872e,thrust OOM issue readme,2021-06-01 11:17:41-07:00,FALSE
+8a9dae528f47e33d6f48820cbdfe6f8e7fab12ef,"fix outdated code in examples and update comments (#374)
+
+* update comments
+
+* fix minkunet example
+
+* fix convolution example
+
+* fix sparse_tensor_basic example
+
+* fix reconstruction example (fix #370)",2021-07-13 12:00:23-07:00,TRUE
+4ae8451e29c762beb6ab822b3e66624d3d5e33a6,Update README for pytorch 1.9 installation,2021-08-06 23:39:19-07:00,TRUE
+c854f0cbc9ae9256c9b7112ca2e77253df86eda6,docker installation instruction,2021-08-11 11:58:06-07:00,TRUE
+12663c78cc0ba9846b1a490bd9214e439a2a4e5f,specifying cuda compute capability in README,2021-11-10 17:18:20-08:00,FALSE
+405b39cb7e68c2ec1b4ac8c4b4ca9fa6fcfcb2fc,docker build fix,2022-10-26 13:08:42-07:00,TRUE

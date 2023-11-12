@@ -1,0 +1,45 @@
+sha,message,date,result
+7c17c1d7bd183ba05a4a8d1a68e1d6760e3a0bdb,Initial commit,2019-08-16 16:46:28+08:00,False
+22934d8fe084ae0fe611418fe5431671db9eaf33,Initial commit,2019-08-16 16:46:28+08:00,False
+f421d8589ff6c02ea52ca93f44be2c0c3f9799bf,Update README.md,2019-09-17 11:59:43+08:00,False
+f768b6e66f4583197aab00669ece6d4c002c6b0c,Update README.md,2019-09-17 11:59:43+08:00,False
+809cbdc93bac0f89ef23c6c1be50b73007185754,Update README.md,2019-09-17 12:00:56+08:00,False
+5f3653db2b6ab20b63a5bcfaf4d8d109d1cb39fa,Update README.md,2019-09-17 12:00:56+08:00,False
+ff55dad190c70e2f6c686a41059359beebfb8a09,update README and arg names,2019-09-18 15:37:08+08:00,False
+c63a2e7c32a5e862c2af19115b3f830dcc400b4f,update README and arg names,2019-09-18 15:37:08+08:00,False
+ff6285c37d719be7149ba3f7bf49a98256a613d9,refine readme,2019-09-18 21:41:51+08:00,False
+e9bab7d15061c28d6b1149cc2b7663add76a4a6b,refine readme,2019-09-18 21:41:51+08:00,False
+1b151cf217671e8af146a693143db50e4693866d,refine readme,2019-09-20 12:15:10+08:00,False
+5912970dfee1686de9b4306e71a73e9e6e85552b,refine readme,2019-09-20 12:15:10+08:00,False
+b9e87a1c25d2834bd053970bd7a17cac87344d13,add docker scripts for benchmark,2019-09-24 21:33:41+08:00,True
+e447fffdbb552ad11da4cadf8ff2a4cabde105c8,add docker scripts for benchmark,2019-09-24 21:33:41+08:00,True
+b1884e51b5e39f62dcf46fa0af3fd965d50d664b,change python -> python3,2019-09-24 23:04:34+08:00,False
+2a19c966b1f4e03a88e5a0c4b50d9fa90622fe6f,change python -> python3,2019-09-24 23:04:34+08:00,False
+1c152823bdd03b3f73f68f255855fec0d6e2331e,refine  data dir,2019-09-25 20:06:35+08:00,False
+1d775d1e5dbabd43876fea47656d41117abe8eb7,refine  data dir,2019-09-25 20:06:35+08:00,False
+34076bbede035d6a9f7aa036f08781dbcb256f45,extract_result,2019-11-07 14:34:11+08:00,False
+7efd0a63e3177ac9a7ac2827b2a49d290777e42e,extract_result,2019-11-07 14:34:11+08:00,False
+8f9e02ba22ae1ec4174298217d8ae4c9d19029fd,Update README.md,2019-11-19 17:38:23+08:00,True
+ac3bbf001ecba9794972ca5d9615e10bacfea320,Update README.md,2019-11-19 17:38:23+08:00,True
+a57b907ae77d2066a4f665fdb94a8ad3cd2eae34,Update readme,2019-12-13 16:50:25+08:00,False
+5d37ec5e100672e1ff4c81152bd617c1f96a97d5,Update readme,2019-12-13 16:50:25+08:00,False
+40d7640430ff3a51a918a398e8f0048b4a7277e1,update cnn and bert for of-develop,2020-06-09 01:14:06+08:00,False
+dbc7f776cdae5b194f6734fd07ec7d88c5cc8aa4,update cnn and bert for of-develop,2020-06-09 01:14:06+08:00,False
+96a56136ca41773fe6d95b7177377c89d239b975,add readme,2020-06-09 20:54:54+08:00,False
+1582064992178d2dd201f8f250ea1241fec7b8dd,add readme,2020-06-09 20:54:54+08:00,False
+34728b6ee7c6148b665a06e6837d62d3eb230dd8,refine cnn_benchmark for apply resnet builder,2020-06-15 21:40:11+08:00,False
+7f39d49c575c006209421ea9bac559dcaf9360c0,refine cnn_benchmark for apply resnet builder,2020-06-15 21:40:11+08:00,False
+719601947fd7d548af7ed83c0038804dce654079,remove old dataloader and placement,2020-06-22 15:05:08+08:00,False
+150c4ef94afc45695d277bd625229272a6b7493d,remove old dataloader and placement,2020-06-22 15:05:08+08:00,False
+4568102035bd8055e3aab559ef1a230eb9e1d83c,refine README.md,2020-06-28 18:43:34+08:00,False
+dbcb77d929e01815f1c61c112c54748e0cf4cb49,refine README.md,2020-06-28 18:43:34+08:00,False
+24bce17bba133db5342b4a0ba38488d9996f7214,remove useless things in mainfolder README,2020-06-30 13:40:05+08:00,True
+ab25b4d5b771ad092af23402e0640666b66fa4e7,remove useless things in mainfolder README,2020-06-30 13:40:05+08:00,True
+a826e1549d7b6a97612456735a9bf756e1f3d0ba,update readme,2020-07-31 10:12:05+08:00,False
+3549b216a76715f378bdca29ec7598fabfeaf84f,add mobilenet v2,2020-07-31 11:13:16+08:00,False
+508cf8edc393d950653385232a12b756be8abe33,update readme,2020-07-31 12:21:36+08:00,False
+f92ee719d9d4390dfadca21cebe5c4fc166ca237,test,2020-07-31 12:48:35+08:00,False
+1f9979462a882b87b68d3603141b4cc38022727e,use related url,2020-07-31 12:54:34+08:00,False
+c835374c2d672a6a28393f6e951b31d666686dd9,modify README.md,2020-08-10 15:53:36+08:00,False
+edb4ce2ec528731f5151e0da4dd88c5981d5b82a,correct,2020-08-10 15:55:02+08:00,False
+d5ba78d96eaa3a27f3abccc2236b5c2a05c439bf,update readme,2021-05-13 15:36:12+08:00,False

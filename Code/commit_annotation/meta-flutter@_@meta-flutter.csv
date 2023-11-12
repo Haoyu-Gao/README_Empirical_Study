@@ -1,0 +1,132 @@
+sha,message,date,result
+06c5c319cae713b7ee3797f9a3d8c9e351454a39,Create README.md,2020-03-28 16:53:59-07:00,FALSE
+4dd2627092f33925d01356af4bbf7f0986e53e7f,"Engine is building, and config to replicate",2020-03-30 19:40:53-07:00,FALSE
+24b51adeef474cd91b9da77e32504763143c19cb,building engine and package,2020-03-31 18:14:51-07:00,TRUE
+15d4d14071cec16372ccf4487e19c34114d1ab31,engine builds and flutter-wayland,2020-03-31 22:34:32-07:00,TRUE
+16b1e9344e041988248879addc1fe73fcc7810d7,Update README.md,2020-03-31 22:55:18-07:00,TRUE
+1bac4f5c6a7d3e5550ec0c503aea6d962d0d4673,SDK 1.17.0 and Gallery example,2020-04-05 12:00:44-07:00,FALSE
+37e3ee9c6041ece87da2038c84b1a7e9d7ec8896,Update README.md,2020-04-17 22:44:15-07:00,TRUE
+ed7be75d660cc4a11b059cb0126df8ea078eb55f,Update README.md,2020-04-17 23:01:37-07:00,FALSE
+431794651dd019e063e3bd42312b49c0209f996b,Update README.md,2020-04-24 18:32:54-07:00,TRUE
+cc9b4d408aaa28d51baaca0ec2d57fc1ec032adc,Update README.md,2021-04-15 10:59:20-07:00,TRUE
+d7bcfd6b3f8c9afe9f30205bc95fd34dc5ebc716,Update README.md,2021-04-29 14:55:12-07:00,TRUE
+eaf55983208c919156c4c8a0107b1500d120a2e0,Update README.md,2021-05-17 15:32:55-07:00,FALSE
+417cb48130ef3c20cd25a3c1caf92e1060912983,Update README.md,2021-05-17 16:07:58-07:00,TRUE
+ba5727953613b512db4522ec07b657c49f4dec7e,Update README.md,2021-05-19 09:21:01-07:00,FALSE
+f9be200ce3a95c8f4132f6e8b55fde57be1feae3,Update README.md,2021-05-19 12:08:43-07:00,FALSE
+990c2b9dc68253e9b373bd8e9ce6682b1cd01368,Update README.md,2021-05-19 16:45:05-07:00,FALSE
+d9016312844779d5d80c698754471e187f0d08a3,Update README.md,2021-05-19 20:37:02-07:00,FALSE
+08ad11fe9009b4443d791624d82ffc3b02a70b5e,stm32p157 work,2021-06-01 19:57:25-07:00,FALSE
+3a7610b3f07607e71c432745d903884577fd13c0,Update README.md,2021-06-07 14:31:59-07:00,TRUE
+8fa2860dc412bcc1d976a4087f9fd2babc4b15e4,Update README.md,2021-06-07 15:18:56-07:00,FALSE
+4607fd18400f711acacaf076e06262647258f9c7,Update README.md,2021-06-09 09:49:53-07:00,FALSE
+cdceb12ee28315ae85479e8243107f06143de19b,Update README.md,2021-06-09 09:53:21-07:00,FALSE
+d2843b04278459583c41bf085d84a29d16978b45,Update README.md,2021-06-09 23:08:54-07:00,FALSE
+757367469e240e4d8d4fec183d67e397f134bc4b,i.MX,2021-06-16 14:11:35-07:00,FALSE
+7b898663673cea57761bf79f451d8ed7d4ab6c3d,add steps for raspberry pi image build,2021-06-18 07:56:21-07:00,FALSE
+4ce74de18341c1ee288aee02a2607df4c1ea45d6,Update README.md,2021-09-21 18:41:06-07:00,TRUE
+542d14e2822e715ebf1fb1f31e2108e19b7671da,"Default all apps to use Clang/LLVM/compiler-rt
+Update README.md
+
+Signed-off-by: Joel Winarske <joel.winarske@gmail.com>",2021-11-10 10:21:50-08:00,TRUE
+97a7d792447787627a0ed31fc30aa94aa8202ee7,"wrap up
+
+Signed-off-by: Joel Winarske <joel.winarske@woven-planet.global>",2021-11-10 17:20:11-08:00,FALSE
+f46462f3e4b3f6d31c43756eef61fa6bba0b6e4f,"Refactor
+
+- flutter-app.bbclass
+
+- Unified paths for all embedders
+
+- remove flutter_wayland and dependent recipes
+
+- Sony viddeo player plugin",2021-11-17 11:36:09-08:00,TRUE
+a4890916a47d3e6ec66ea550a6ae1e5ca1fda7c9,"Dunfell changes from AGL refactor (#31)
+
+Signed-off-by: Joel Winarske <joel.winarske@gmail.com>",2021-12-08 15:16:17-08:00,FALSE
+8e0399eac8bdddc2adaf8c6353e140235edb907b,"Parity with dunfell (#72)
+
+* Parity with dunfell
+
+Signed-off-by: Joel Winarske <joel.winarske@gmail.com>",2022-02-23 21:17:00-08:00,FALSE
+50635c7a4f2d94472314a069edfa66a7ca0066ad,Update for honister,2022-03-11 12:42:39-08:00,FALSE
+2bd15fe324e188611443043ba208e121c6e181a9,"LTS changes from Dunfell (#88)
+
+* LTS changes from Dunfell
+
+* gn fetcher
+* pull SDK as pre-built opposed to using git
+* pub cache for flutter apps
+
+Signed-off-by: Joel Winarske <joel.winarske@gmail.com>",2022-03-18 16:02:48-07:00,FALSE
+d3b9cf4e65bc9d3ea43fec466490a426eacd1ace,"Kirkstone CI (#94)
+
+Signed-off-by: Joel Winarske <joel.winarske@gmail.com>",2022-03-29 15:44:47-07:00,FALSE
+3c9c95194761a969d359e71337d2dc7820658da5,"bbclass implementation for flutter runtime type (#139)
+
+-Replaces explicit recipe names with bbclass implementations
+ `release` becomes `runtimerelease`
+ `profile` becomes `runtimeprofile`
+ `debug` becomes `runtimedebug`
+-Roll ivi-homescreen
+
+
+Signed-off-by: Joel Winarske <joel.winarske@gmail.com>",2022-07-24 16:36:03-07:00,FALSE
+71e0e33eac419a0a2adef36ff6abb409cb71b993,"Readme + CI updates
+
+-update readme
+-remove all references to ivi-homescreen (now using flutter-auto)
+-increase stm32mp15x max rootfs size
+-add additional recipes to stm32mp15x rootfs
+
+Signed-off-by: Joel Winarske <joel.winarske@gmail.com>",2022-08-25 07:42:07-07:00,TRUE
+fdbd48ce7080c7770f007100396ded54900b38c4,"add readme to tools folder (#161)
+
+* Tools README.md
+* Point main README.md to tools README.md",2022-08-25 11:49:04-07:00,FALSE
+f3eb5aea2c3aa3fbfdc7784f2bec64ee1b539ec9,fix typo,2022-09-12 08:19:12-07:00,FALSE
+51bab8de8e78d7a8373a4af80fce8026c72feb9e,"Flutter SDK 3.3.9 (#224)
+
+Signed-off-by: Joel Winarske <joel.winarske@gmail.com>
+
+Signed-off-by: Joel Winarske <joel.winarske@gmail.com>",2022-12-03 11:36:32-08:00,FALSE
+24168d615494fb1e7191f8b77f550d77c3d1faa3,"update readme
+
+Defaults to stable not master.",2022-12-03 11:40:27-08:00,FALSE
+e16f43edef033368fdbe209f650ca01f3d9a0e2a,"Remove FLUTTER_RUNTIME variable (#233)
+
+* Remove FLUTTER_RUNTIME variable
+
+-Removes BBCLASS extensions that implement FLUTTER_RUNTIME
+ Uses PACKAGECONFIG key/value to determine which variants to build
+-Packagegroups for flutter apps
+-Container image example
+-Wonders Flutter App (requires Beta channel SDK)
+
+* dart-sdk
+
+-enables external Clang toolchain
+-resolve need to symlink /lib64 for 64-bit builds
+-add riscv32/64 support
+- dart-sdk may require symlink `ln -sf /lib /lib64`
+
+Signed-off-by: Joel Winarske <joel.winarske@gmail.com>",2022-12-26 17:04:11-08:00,FALSE
+9c06f6743fcb3f986ebef5d0e747027baca1fd2f,"Update README.md (#236)
+
+Signed-off-by: Joel Winarske <joel.winarske@gmail.com>",2022-12-26 22:13:49-08:00,FALSE
+d09548125a642995f276aba3f92a969834492844,Update README.md,2022-12-26 22:23:29-08:00,FALSE
+5b03d0af7cc2f01b730dd27aa75d981e8b9bd9ab,"FLUTTER_APP_RUNTIME_MODES
+
+-allows setting runtime mode per app
+-Deprecates use of FLUTTER_APP_SKIP_DEBUG_INSTALL
+
+Signed-off-by: Joel Winarske <joel.winarsk@gmail.com>",2023-03-17 08:00:47-07:00,FALSE
+949a5637c554f0637649b25872819f4de89b1c92,"APP_GEN_SNAPSHOT_FLAGS
+
+-allows setting gen_snapshot flags like `--no-use-integer-division`
+
+Signed-off-by: Joel Winarske <joel.winarsk@gmail.com>",2023-03-17 08:09:11-07:00,FALSE
+cac4ad5f6e14fae8f9c272ae3a43f5662fb1d488,"Document safe.directory step for SDK usage
+
+Signed-off-by: Joel Winarske <joel.winarsk@gmail.com>",2023-03-17 08:24:30-07:00,TRUE
+5932b301626037ebd6c3a7fe47f39c342fcebdb1,remove build badges,2023-04-03 16:57:24-07:00,FALSE

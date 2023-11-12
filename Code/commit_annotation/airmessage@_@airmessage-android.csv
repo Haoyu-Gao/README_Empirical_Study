@@ -1,0 +1,199 @@
+sha,message,date,result
+81b741eeb9191ed560f23b82f5674328d82948f2,Initial commit,2018-01-27 21:22:13+00:00,FALSE
+65d43959d91deb564da02b2bbed8026bfd25d9b4,Delete README.md,2018-07-27 18:11:17+00:00,FALSE
+edf2776d9a0f685d4728d6b003f3d66aebdaa0cf,Add README.md,2021-04-06 09:01:56-04:00,TRUE
+eaf9b46a952a323f45f58ab7a288b5593b846c1f,Update secrets and README.md,2021-04-06 17:18:51-04:00,TRUE
+dba64f3154fbed07266e0eaed5753f30c830afeb,Update README.md,2021-04-30 10:17:23-04:00,FALSE
+9efd0364c6de3ef4ce04a00b80fde8dd249b9cbe,Add debug google-services.json file,2021-05-05 07:47:56-04:00,TRUE
+b74cccac1b2a2babf3968127a14c0e9dea06243a,"Squashed commit of the following:
+
+commit 47961d153b152f4847b62d02d9c956096e48b5a1
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Sat Sep 11 12:20:03 2021 -0400
+
+    Fix reference to signingshared/shared.keystore in gitignore
+
+commit 11823255aac391e197bd70ea79b7dacffc678e31
+Merge: 9b21442 7ae4aa0
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Mon Sep 6 12:08:25 2021 -0400
+
+    Merge branch 'develop'
+
+commit 9b214426e112c2bb92de70880304eefa72f92559
+Merge: 0e68118 3f1ffea
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Wed Sep 1 15:28:10 2021 -0400
+
+    Merge branch 'develop'
+
+commit 0e681185013fd4a6b196170e7c131c3a7bfa5d15
+Merge: 93eaf44 fa23005
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Sun Aug 15 12:40:27 2021 -0400
+
+    Merge branch 'develop'
+
+commit 93eaf447378d216ffe0608be5f13e6975b6b0d84
+Merge: da26024 8234aac
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Tue Aug 3 18:12:58 2021 -0400
+
+    Merge branch 'develop'
+
+commit da260247a8ce2ca719feeb96ccf186f97991f0df
+Merge: 8235ea0 9c2d104
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Wed Jul 21 07:09:26 2021 -0400
+
+    Merge branch 'develop'
+
+commit 8235ea0ebf90e6dd732284f34d458349b3569bf1
+Merge: 65ae442 afb74a6
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Fri Jul 16 16:11:24 2021 -0400
+
+    Merge branch 'develop'
+
+commit 65ae442ca364be94d332d571acc8a8f2b6b1c218
+Merge: 19fa6ed eb8a668
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Sat Jul 3 19:39:59 2021 -0400
+
+    Merge branch 'develop'
+
+commit 19fa6ede61e88f215fa83b4ca1620727435cac66
+Merge: 731409a 7a4247a
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Sun Jun 20 09:17:19 2021 -0400
+
+    Merge branch 'develop'
+
+commit 731409a23baafd14024ffc0ca316ccc2d5f02bbe
+Merge: 3691660 b2617ad
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Thu Jun 17 17:48:12 2021 -0400
+
+    Merge branch 'develop'
+
+commit 3691660b019668e26872171a3e7f5a30563bf0a0
+Merge: ee32276 ed73c8b
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Fri May 28 18:44:41 2021 -0400
+
+    Merge branch 'develop'
+
+commit ee32276a90d29b6ea9dea30a77493b5755e47859
+Merge: 2f08259 398ed82
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Mon May 24 11:38:12 2021 -0400
+
+    Merge branch 'develop'
+
+commit 2f08259ddf073363deb35276217eef34c40b7f81
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Sun May 9 11:34:39 2021 -0400
+
+    Use shared keystore for debug builds to enable Google sign-in access",2021-09-11 12:20:18-04:00,TRUE
+73126f2f9ecba14314a07dea71a3f26951940cca,"Squashed commit of the following:
+
+commit 2032966f9cefa8ad32035065d1ff02da8043ffa4
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Tue Jun 28 20:28:14 2022 -0400
+
+    Upgrade dependencies
+
+commit 9e9a920cf650a1101395160516bdebcefef28e3b
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Tue Jun 28 19:45:56 2022 -0400
+
+    Use sorted messages for MLKit
+
+commit 2941efdc1648a138e2648b87771cbd8290f62322
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Tue Jun 28 18:50:37 2022 -0400
+
+    Fix merge flavor separation
+
+commit 2f7d8641ccf653f5394f24fb11b8bcf0e028b9bc
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Tue Jun 28 17:50:08 2022 -0400
+
+    Fix full build errors
+
+commit 7a10a30a0e1cd1dc06fffbbf9378d079ec7898f5
+Merge: 0fd72bc f2b6952
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Tue Jun 28 16:04:26 2022 -0400
+
+    Merge branch 'develop' into foss
+
+    # Conflicts:
+    #	app/build.gradle
+    #	app/src/full/java/me/tagavari/airmessage/connection/comm5/ProxyConnect.java
+    #	app/src/full/java/me/tagavari/airmessage/service/FCMService.java
+    #	app/src/main/java/me/tagavari/airmessage/MainApplication.java
+    #	app/src/main/java/me/tagavari/airmessage/activity/Conversations.java
+    #	app/src/main/java/me/tagavari/airmessage/connection/ConnectionManager.java
+    #	app/src/main/java/me/tagavari/airmessage/connection/comm4/ClientProtocol6.java
+    #	app/src/main/java/me/tagavari/airmessage/connection/comm4/ProxyDirectTCP.java
+    #	app/src/main/java/me/tagavari/airmessage/connection/comm5/ClientProtocol1.java
+    #	app/src/main/java/me/tagavari/airmessage/connection/comm5/ClientProtocol2.java
+    #	app/src/main/java/me/tagavari/airmessage/connection/comm5/ClientProtocol4.java
+    #	app/src/main/java/me/tagavari/airmessage/connection/comm5/ClientProtocol5.java
+    #	app/src/main/java/me/tagavari/airmessage/fragment/FragmentCommunication.java
+
+commit 0fd72bc5e10cf495656e8c3214e669f7cae5361a
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Sun Oct 17 09:31:57 2021 -0400
+
+    Include build flavor in support email details
+
+commit 76de94986496e71d6f3ba37a9bfc0f57987897f0
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Sun Oct 17 09:31:44 2021 -0400
+
+    Move more manifest references to full flavor
+
+commit 8adfc5f188332810d4ecc6722a34bfd173937cb5
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Sun Oct 17 09:20:36 2021 -0400
+
+    Update onboarding strings on FOSS builds
+
+commit 5487ada184e8ea94d3c7373fa7e27262f8fa98b1
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Sun Oct 17 09:07:07 2021 -0400
+
+    Hide the reset button in preferences on FOSS builds
+
+commit 6a51866c733cf7bf94d518bb083a8641f48a7046
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Sat Oct 16 21:04:22 2021 -0400
+
+    Always hide attachment map view on FOSS implementations
+
+commit 20a7bd1f890b525f87c79d3a365c4400ab3e3662
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Sat Oct 16 20:59:23 2021 -0400
+
+    Fix GMS location services context
+
+commit 2ce034da034a788ab2308e188a190ea13cc70ce0
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Sat Oct 16 20:49:56 2021 -0400
+
+    Finish FOSS separation
+
+commit 89ff3e263687db8b38ae98c3590d4e60862d61fd
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Sat Oct 16 18:39:12 2021 -0400
+
+    Split attachments Google Maps implementation
+
+commit a7b0e644f61062586bdff463b4d513b75671fabd
+Author: Cole Feuer <13751213+tagavari@users.noreply.github.com>
+Date:   Sat Oct 16 15:38:33 2021 -0400
+
+    WIP foss flavor",2022-06-29 09:41:50-04:00,TRUE
+bc5bfe586923a70e6741203670d3a581dd2942b8,Update README.md,2022-08-05 13:57:55+02:00,FALSE

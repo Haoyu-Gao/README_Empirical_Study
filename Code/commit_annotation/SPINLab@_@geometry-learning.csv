@@ -1,0 +1,167 @@
+sha,message,date,result
+55eba78688780ab6c15a2aa5830906d9a0a81ef2,Initial commit,2017-07-20 09:02:17+02:00,FALSE
+c1535cdabf6c7681511b4bf550f793ccba9ce6fb,First working data prepping script (but too slow),2017-07-25 15:05:46+02:00,TRUE
+376b26a6b2a0107e856700ef6b9d50eb255a0f90,Refactor to performant data wrangling,2017-07-26 13:01:33+02:00,TRUE
+2fd489be88b229c08a2852217405ac2e004d763e,"Refactor, clean, doc",2017-08-01 15:42:36+02:00,TRUE
+efc06aee48188a500a7af40125f98ef010d75bec,Update instructions,2017-08-28 16:28:21+02:00,TRUE
+5af30ab2be8d8d45fc4d45504c31b70a5eee99e1,Document,2017-09-05 14:59:28+02:00,TRUE
+ffbd6daa0a02c80cb2ceeba6a804e44b89015e62,Document,2017-09-06 16:52:37+02:00,TRUE
+b72927c46ae0795651d3bfb182433c86e2989fbf,Refactor,2017-09-22 15:28:53+02:00,TRUE
+02019b520d18491ccf2fe998f8197e6328dbdcb6,numpy archive description to table,2017-10-05 07:43:03+00:00,FALSE
+aa7bc60b0fb0049ccd02d7c2692fbd6bf74f6c32,improve docs,2017-10-05 13:59:32+00:00,FALSE
+c679bef62b5cdfd08a3dd937490b9779a2be7f0e,Refactor to more generic form,2017-10-13 13:08:03+00:00,TRUE
+2c62f0171ec4859e49d7d275ffc3fe7445c33f62,"Refactoring, tuning, logging (#16)
+
+* refactor
+
+* refactor
+
+* update docs
+
+* update docs
+
+* build script, test version
+
+* build script, test version
+
+* build script, test version
+
+* tune
+
+* execute with python
+
+* tune
+
+* comment
+
+* comment
+
+* account for working dir
+
+* imports
+
+* refactor
+
+* refactor
+
+* decent learning rate, early stopping
+
+* early stopping, archive
+
+* extract slack notification
+
+* extract slack notification
+
+* Try & debug NaN
+
+* random bivariate gaussian test config
+
+* bivariate gaussian test config
+
+* notify, early stopping, tune
+
+* drop mse metric, correction on slack notify
+
+* slack notify
+
+* fix notification
+
+* improve logging for job execution queue
+
+* tune
+
+* improve logging
+
+* tune
+
+* history
+
+* logging
+
+* logging
+
+* refactor
+
+* logging, archiving
+
+* refactor
+
+* logging, refactor
+
+* logging, refactor
+
+* fix
+
+* refactor
+
+* drop unlikely to work model
+
+* fix
+
+* fix loss
+
+* fix output size
+
+* update triangle toy dataset
+
+* default covariance scattering off
+
+* refactor
+
+* refactor, tune
+
+* fix, tune
+
+* fix, tune
+
+* fix, tune
+
+* refactor
+
+* refactor
+
+* tune, refactor
+
+* refactor
+
+* refactor
+
+* fix
+
+* default covariance scattering off
+
+* version
+
+* fix path
+
+* refactor
+
+* refactor
+
+* refactor
+
+* refactor
+
+* refactor
+
+* refactor
+
+* refactor
+
+* refactor
+
+* refactor
+
+* refactor
+
+* refactor
+
+* fix use of localized mean
+
+* housekeeping",2017-10-20 15:26:13+02:00,FALSE
+0f6e824a73c29fb6d7e99188dff00ff24e7c8061,"Document, refactor data preprocessing",2017-11-28 17:33:36+01:00,TRUE
+e8f7a349714226ffb31f14b4d0e6d5cee71b8269,document,2017-11-28 17:36:23+01:00,FALSE
+480cf9a316bd01f5f1acf2f27e65f588cfe64be5,update project description,2018-01-11 10:15:04+01:00,TRUE
+beb5a9c96657c11bf6afcb3445f1c9a4df204d09,Document archaeological features data,2018-01-23 17:18:09+01:00,FALSE
+fff191b517ba73da4e4fe71e54b9b0c0d49dcedd,dependencies documentation,2018-01-26 19:02:54+01:00,FALSE
+6691d0c7aa80aba568c6ec76231d008e62580e8f,use gamma instead of degree (copy paste error),2018-04-30 08:45:34+02:00,TRUE

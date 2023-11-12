@@ -1,0 +1,195 @@
+sha,message,date,result
+11853ba86d548f4928c54bf9abb9a23f00cd0c49,first commit,2018-03-08 22:39:35-05:00,False
+d7b068fb5e173b3d70fd470a1c74e037508c078e,Add docs to README,2018-03-18 12:53:01-04:00,True
+967dc8db3b26fa69ae5a8a71a862970a71585082,Full stream/table replication support,2018-03-21 13:14:28-04:00,False
+42baab385d8345af468da2d3c620992364df177f,"Improve documentation
+
+- Add in links to various technologies
+- Start documentation about running locally",2018-11-01 09:45:15-05:00,False
+78512db63e50782d869740fd29e860e30e78ac64,"Update README.md, known limitations
+
+Known limitations no longer needs to include json schema types as arrays.",2018-11-05 10:22:58-06:00,False
+1d7ea48d0d1d8a9d925028accffe493204fb2d54,"Init docker dev setup
+
+Get local development setup to be as simple as:
+
+```
+docker-compose up -d —build
+```
+
+Additional bonus: now matches CI setup.",2018-11-05 11:20:45-06:00,True
+ea5a880db7f1185baf37423cbd5b8ac5707e626f,"Support for JSON Schema refs
+
+Added in simple support for JSON Schema `$ref`s.
+
+This support does not include:
+- circular dependencies in any fashion (self included)
+- URI’s or broken paths to the referenced schema. This _must_ be present in the single schema passed in",2018-11-06 08:22:36-06:00,False
+fc51ebea0b23737ff1db2e29739b395e7d09460a,Add Singer data collection and sponership info,2018-11-06 14:50:44-05:00,False
+66b078041f9a13db9bf3d6083a003f22934fd699,Fix data collection language,2018-11-06 14:59:16-05:00,False
+5fac7ac48fcffc82f22d33f257874f8aa35a9d4e,README: Update to include Invalid Records,2018-11-12 11:53:48-06:00,False
+63bf5b086c7c8b1dbb70b0dc2ad42569469eba62,README: Table with JSON Schema defining configuration file,2018-11-12 19:17:21-06:00,False
+913c35e8b80346d949809eb6b135e45c08fcd6cd,README: supported versions,2018-11-13 14:14:04-06:00,False
+f40c0203a3da265e02226dcf143f5acc31bb629f,"Update README with best practices (#25)
+
+Motivation
+----------
+
+The README had a small spelling error and also suggested running the
+`target` and `tap` in the same virtualenv. This updates it to be a bit
+more in keeping with current best practices.",2018-11-13 16:28:47-05:00,True
+925011b18bb63143d47b3e4c449e543b541d61ab,README: Warn about default null,2018-11-15 08:26:21-06:00,False
+67b9c948a710d9a5c39b204a4ed455a55f8e7744,"Feature: Simplify running pytest, reduce fetching cached dependencies",2018-11-15 10:15:19-06:00,True
+4d9c55dcc1cbd3efb417cf8d8a28b312c5b2f44f,README: Update for latest known limitations,2018-11-27 15:09:25-06:00,False
+bfe4c2341b231ac942050342d6852d46425fe3e0,README: Update identifier resatrictions,2018-11-27 17:24:05-06:00,False
+4151ebb1e6c02178971646e2897ea2654575a15d,README: identifiers -> names,2018-11-30 11:01:20-06:00,False
+5ee57375d7c2278918af0ca075f9c4de8b9d7704,Fix: Documentation did not match up with default value for username,2018-12-18 11:04:12-06:00,False
+363aaaaa520e6e33bcdd4a872235c680402a3e34,README: Link to other docs files,2018-12-27 10:49:26-05:00,False
+6058803b4035817f672dac9316ebd3cfabcedfc7,Add pip install instructions,2019-01-09 10:47:03-05:00,True
+2dae504df39aab0e31bce01b59501a3553e56727,README: PyPi badge,2019-01-09 11:38:37-06:00,False
+ba85a4d4fada84da942ed201118196a22dc34199,README: Dependencies badge,2019-01-16 09:10:27-06:00,False
+4ecdb15cf5241440f4d52927f049e4992edda7bc,Feature: logging_level config option along with query level timing logs,2019-01-25 13:41:37-06:00,False
+b4aa7544cc87adb815cbf9322be8328be8f79a0e,Housekeeping: Update README,2019-02-20 12:42:04-06:00,False
+9e505a686443123a90a885453eb3ce7de4de3e20,Refactor: Auto format README.md,2019-03-25 11:29:33-05:00,False
+5b9953afeb50e729d542f773b3ac3ba6963d4a78,README: Document venv,2019-03-25 11:30:30-05:00,True
+b21bc129b18c2aa6143d4a1766420c0dafc3bbf2,Added collaboration and contributions section (#105),2019-04-04 22:21:12-04:00,True
+a7872ff700c546afae1c0e506ef887a4e5d954e9,Readme: Update supported PSQL versions,2019-05-30 12:39:33-05:00,False
+dc4ed8f85cbbca798d81f90c9dae7447c645636d,"Enable Configuration of SSL (#124)
+
+* Enabled configuration of SSL options when connecting to Postgres
+
+* Added documentation re: Postgres SSL options to the readme",2019-06-11 11:24:49-04:00,False
+0bad70093a60571f9d2ec883e9919ba437b4f385,"windows equivalent to run target (#126)
+
+* added syntax for running in windows
+
+* multiline for windows
+
+* fix",2019-07-25 17:38:52-04:00,False
+3c15836e682a63fce09b6bf62c04c6b88841407e,"Send STATE records to stdout
+
+This will pass all `STATE` records to stdout.
+
+The command could now be:
+
+`tap | target >> state.json`
+
+And the resulting state file would look something like this:
+
+```
+{ ""users"": 1 }
+{ ""users"": 2 }
+```
+
+With this approach, if the end user only cares about the latest
+`STATE` record, they can manually handle updating their state file:
+
+`tail -1 state.json > state.json.tmp && mv state.json.tmp state.json`",2019-07-31 09:55:08-04:00,True
+112aa98f279cde56537bbbf49385e5a9247a71a0,Make state support / eager flushing an opt out config property,2019-07-31 09:55:08-04:00,False
+71e4266dc9c807bbff8ff7174f80e16a2d22d814,"Emit STATE messages as they are safe to emit when all dependent buffers are flushed
+
+In order for orchestrating systems to properly keep track of the STATE of Singer streams, target-postgres needs to emit the STATE messages it receives from the tap to stdout for the orchestrator to persist. This keeps target-postgres Singer-spec compliant and lets users pass that STATE back into the tap to incrementally load from any big sources.
+
+The Singer spec however does not specify what exactly is in STATE messages, so, they can relate to any or all of the active streams. That means that target-postgres doesn't and can't know which records that it may have buffered in memory are ""covered"" by an incoming STATE record. If target-postgres eagerly emitted the STATE record to stdout, but didn't flush all the records, the system becomes open to inconsistency. If the STATE message were persisted by the outside orchestrator, but then the process crashed later, the buffers in target-postgres process would be lost and data dropped. The implementation prior to this commit suffers from this bug, see https://github.com/datamill-co/target-postgres/pull/120 for more discussion.
+
+This commit prevents this bug by ""late"" flushing buffered STATE messages when all the records that arrived prior to that STATE message have been flushed. STATE messages are ""delayed"" until the records that came before have all been put on a buffered stream and then flushed. target-snowflake implements this here: https://gitlab.com/meltano/target-snowflake/blob/master/target_snowflake/target_snowflake.py.
+
+This is accomplished by keeping a low watermark of the least recently arriving record for each stream, and upon flushing a buffer, checking to see if there are any unflushed STATE messages that have become safe to flush because they are below that watermark. The way to think about this is as a ""safety cursor"" that lags behind the incoming stream, pointing to the point in the stream where all records before that point have been saved to the database. Some records ahead of that point will likely have been saved, as different streams records may be interleaved or arriving at different rates, but because of the whole ""states are on one timeline different than each stream"" thing, the STATE message has to wait for all prior records to be flushed.
+
+This is implemented using the StateTracker class, which wraps a bit of business logic around the old streams dict that is used to hold the BufferedSingerStream objects.",2019-07-31 10:28:26-04:00,False
+1034b384cf4ab2ff00681dab97b2dbc8b7ba80a3,Refactor: Place venvs underneath a single folder to make caching simple in CI,2019-08-22 14:32:19-04:00,True
+4df5ed48979cb6ed35fa85165af939af207c5740,"Document the config params that govern row batching (#148)
+
+`max_batch_rows`, `max_batch_size`, and `batch_detection_threshold` were all config properties that existed prior to this change and are threaded through into the BufferedSingerStream to configure it's batching behaviour. This adds docs for those params to the README.
+
+In addition, this makes the default for the `batch_detection_threshold` configuration value dynamic so that it adjusts to be proportionally the same relative to the `max_batch_rows` if `max_batch_rows` is adjusted and `batch_detection_threshold` is unset. I think it would be surpising for a user if they adjusted `max_batch_rows` to something low like `1000` only to find that the detection check was made by default every `5000` rows, giving an effective `max_batch_rows` of `5000`. The value is still configurable as it has always been, but after this change, if `max_batch_rows` is set, `target_postgres` infers a reasonable value for the batch detection threshold by taking the max of (1/40 * `max_batch_rows`) and `50`.",2019-09-17 13:18:11-04:00,False
+bc7729ef019590f4bbb2071b1e17ed0af2f08947,"Add indexes to columns used when upserting for faster loads of big tables
+
+This fixes #123.
+
+`target-postgres` leverages the database to do a lot of the heavy lifting for deduplication phase of run. The big query that selects the most recent row to insert into the final table joins the existing table and the temporary table using the sequence keys and the primary keys, and to do that efficiently, we can add an index on all those columns which gets used for the join. We add a compound index on all the primary keys of the table and the _sdc_sequence column so that it covers the whole join condition, and we make sure the primary keys are the first keys of the index so the index is more likely to be useful for downstream consumers as well.
+
+The DELETE deduplication query looks like this:
+
+```sql
+DELETE FROM ""public"".""cats"" USING (
+    SELECT ""dedupped"".*
+    FROM (
+        SELECT *,
+               ROW_NUMBER() OVER (PARTITION BY ""public"".""tmp_1a07aa57_fa76_4062_bf80_48f84851832f"".""id""
+                                   ORDER BY ""public"".""tmp_1a07aa57_fa76_4062_bf80_48f84851832f"".""id"", ""public"".""tmp_1a07aa57_fa76_4062_bf80_48f84851832f"".""_sdc_sequence"" DESC) AS ""pk_ranked""
+        FROM ""public"".""tmp_1a07aa57_fa76_4062_bf80_48f84851832f""
+         ORDER BY ""public"".""tmp_1a07aa57_fa76_4062_bf80_48f84851832f"".""id"", ""public"".""tmp_1a07aa57_fa76_4062_bf80_48f84851832f"".""_sdc_sequence"" DESC) AS ""dedupped""
+    JOIN ""public"".""cats"" ON ""public"".""cats"".""id"" = ""dedupped"".""id"" AND ""dedupped"".""_sdc_sequence"" >= ""public"".""cats"".""_sdc_sequence""
+    WHERE pk_ranked = 1
+) AS ""pks"" WHERE ""public"".""cats"".""id"" = ""pks"".""id"";
+```
+
+and before this commit the EXPLAIN looks like this:
+
+```
+""QUERY PLAN""
+""Delete on cats  (cost=63.06..78.86 rows=3 width=198)""
+""  ->  Hash Join  (cost=63.06..78.86 rows=3 width=198)""
+""        Hash Cond: (cats.id = cats_1.id)""
+""        ->  Seq Scan on cats  (cost=0.00..14.20 rows=420 width=14)""
+""        ->  Hash  (cost=63.05..63.05 rows=1 width=208)""
+""              ->  Hash Join  (cost=47.22..63.05 rows=1 width=208)""
+""                    Hash Cond: (cats_1.id = dedupped.id)""
+""                    Join Filter: (dedupped._sdc_sequence >= cats_1._sdc_sequence)""
+""                    ->  Seq Scan on cats cats_1  (cost=0.00..14.20 rows=420 width=22)""
+""                    ->  Hash  (cost=47.20..47.20 rows=2 width=202)""
+""                          ->  Subquery Scan on dedupped  (cost=32.50..47.20 rows=2 width=202)""
+""                                Filter: (dedupped.pk_ranked = 1)""
+""                                ->  WindowAgg  (cost=32.50..41.95 rows=420 width=170)""
+""                                      ->  Sort  (cost=32.50..33.55 rows=420 width=162)""
+""                                            Sort Key: tmp_ba182dd2_f462_4dea_b27f_22d6ec0b77e1.id, tmp_ba182dd2_f462_4dea_b27f_22d6ec0b77e1._sdc_sequence DESC""
+""                                            ->  Seq Scan on tmp_ba182dd2_f462_4dea_b27f_22d6ec0b77e1  (cost=0.00..14.20 rows=420 width=162)""
+```
+
+and after this change, it looks like this:
+
+```
+""QUERY PLAN""
+""Delete on cats  (cost=6.62..18.31 rows=1 width=118)""
+""  ->  Nested Loop  (cost=6.62..18.31 rows=1 width=118)""
+""        ->  Nested Loop  (cost=6.47..18.00 rows=1 width=128)""
+""              ->  Subquery Scan on dedupped  (cost=6.32..9.82 rows=1 width=122)""
+""                    Filter: (dedupped.pk_ranked = 1)""
+""                    ->  WindowAgg  (cost=6.32..8.57 rows=100 width=90)""
+""                          ->  Sort  (cost=6.32..6.57 rows=100 width=82)""
+""                                Sort Key: tmp_1a07aa57_fa76_4062_bf80_48f84851832f.id, tmp_1a07aa57_fa76_4062_bf80_48f84851832f._sdc_sequence DESC""
+""                                ->  Seq Scan on tmp_1a07aa57_fa76_4062_bf80_48f84851832f  (cost=0.00..3.00 rows=100 width=82)""
+""              ->  Index Scan using tp_cats_id__sdc_sequence_idx on cats cats_1  (cost=0.15..8.17 rows=1 width=22)""
+""                    Index Cond: ((id = dedupped.id) AND (dedupped._sdc_sequence >= _sdc_sequence))""
+""        ->  Index Scan using tp_cats_id__sdc_sequence_idx on cats  (cost=0.15..0.29 rows=2 width=14)""
+""              Index Cond: (id = cats_1.id)""
+```
+
+So, the hash join becomes an index scan! Horray!
+
+Other options would be to add multiple indexes with one for each of the columns necessary, but I think that the compound index is better as it's only one to maintain, and Postgres isn't very good at the bitmap index combination thing. I tried in this setup but Postgres 11 locally still only used one index.
+
+The concern with this change could be that data loads actually get slower, especially for small tables, because PG spends time maintaining an index that doesn't actually make much faster. I think this change should still go in despite that risk as I think operators of target-postgres are most sensitive to the speed of loading big tables, not small ones, as that's what is more likely to break or consume undue resources.",2019-09-17 19:09:51-04:00,False
+1f0c19760a68003126344f67df6e8c1f43ad3bc0,"Add an initial_sql config option to execute arbitrary SQL upon boot (#136)
+
+* Add an initial_sql config option to execute arbitrary SQL upon boot
+
+This lets users execute some SQL before target-postgres spins up and does it's thing. This is useful for SQL like `SET ROLE` or setting up encoding business, and I think will end up being generally useful for other stuff I haven't (and don't need to) predict.
+
+For me, this was prompted by needing to `SET ROLE` on Google Cloud SQL. On some postgres deployments, target-postgres may be running as a user with limited permissions, or as a user different than the downstream consumer of the data. In these instances it's important that the table owner of the target-postgres created tables is controllable, especially in deployments where the superuser isn't in the developers control, like Google Cloud SQL. `SET ROLE` is the only way to really control the table owner of the created tables so that other users may be able to grant permissions on those tables outside of the normal `target-postgres` lifecycle. See https://stackoverflow.com/questions/2276644/list-all-tables-in-postgresql-information-schema for a more thourough description of the pieces at play here.
+
+* Rename initial_sql to before_run_sql and add after_run_sql SQL hooks",2019-09-23 19:50:36-04:00,False
+fa7bcfc4a60748545a63a4a662713997aa26a25c,README: Update to document allOf support,2019-09-30 13:50:33-05:00,False
+b3f9e8f9b1846ad84e67dc3cb596f18d3207efc0,Automatically source the virtual env when entering the development docker container,2019-10-02 10:03:47-04:00,True
+3148bd85095e4b1439372e81399f66c4ce0da7cc,README: Bump postgres versions to latest,2019-10-07 10:13:59-05:00,False
+b2c23d9431851f56a53705a871ff106dd8528d48,Feature: Support postgres 12.0,2019-10-07 10:22:25-05:00,False
+ac3cd3ef1732e2d4bb4c68e0c0db3cd5d9cf9c5f,README: Run prettier on raw md,2019-10-07 11:03:01-05:00,False
+45b7892e681bce3bb5b8d49f8e287b34a9c56555,README: Supported postgres versions to latest,2020-02-13 10:03:33-06:00,False
+c69dd81668079c18c44453b5d964b4b813fceb2a,Bump: All versions to latest,2020-04-18 09:01:02-05:00,False
+c5a2944ba2faa18cb9074475827f12e3b3e34340,add libpq dependency,2020-12-30 22:12:50-05:00,True
+e0004e5fe758844378dcd50e0227a3dae2e83a89,"Add SQL files for before/after hooks (in addition to SQL strings) (#200)
+
+Co-authored-by: Eric Boucher <eric.p.boucher@gmail.com>",2022-04-16 18:25:55-04:00,False
+279cb62d2a80b1bd8e8ab1191e7a1d17c19383a8,Add option to set pg application_name (#215),2022-04-27 15:24:36+02:00,False
+aac8d50ce024815eb9c0a5338168c41d2b931672,Upgrade dependency management and versions (#224),2022-11-26 13:22:54+01:00,True

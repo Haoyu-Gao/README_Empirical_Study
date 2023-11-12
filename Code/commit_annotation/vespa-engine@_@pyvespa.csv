@@ -1,0 +1,14 @@
+sha,message,date,result
+578fa8a10353b1a4e946dccc91e762fa7697452d,Initial commit,2020-06-10 12:48:29+02:00,FALSE
+5148ae02fd0a2597e75fbd279bfdabc8430d1a61,Update README.md,2020-09-08 14:31:22+02:00,FALSE
+b1ff5d60ac7e82f3f68a8a5767dc0e704c91253e,Update README.md,2020-10-28 13:47:07+01:00,FALSE
+0ab01caba1465f6031cc3d54369fc2c834a3102b,Update README.md,2021-06-21 08:04:36-03:00,FALSE
+8b7d6eec28884e150bd276e5e3132c304c8e0ad4,add license section,2021-10-21 05:34:49-03:00,FALSE
+3fb6cf3ef1f31a9d6352551c7b8285d1c7aa013c,add manual release instructions,2022-04-04 21:24:29-03:00,FALSE
+2c51a5689601d5140f1a5d28e191c28fbe941538,"Fix breaking API - introducing optional namespaces
+Add global PORT variable  to test",2022-04-25 11:19:00+03:00,TRUE
+1e4ec04b891ed92e6ab37c38e8f6467960e709e4,update readme to reference to screwdriver.yaml,2022-05-24 13:37:33-03:00,TRUE
+b06cab3465ac56b54dfeffce4fba2d7514dbf29b,add black as default code standard,2022-06-03 11:50:16-03:00,FALSE
+ae72c4eb4506d7e8e5dbfcbba039c46733a4850b,Clean up readme,2023-02-07 15:55:46+01:00,TRUE
+75e19a18fb84885caf8bf4a560063c66e4858616,Improve packaging text + url,2023-02-28 15:33:20+01:00,FALSE
+157f63d637b3ac44be15900987669ddf64032811,Improve readme,2023-03-21 17:08:19+01:00,TRUE

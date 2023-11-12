@@ -1,0 +1,24 @@
+sha,message,date,result
+de475d24abe50ebbac74a9b6e802f58387c1cf0b,oops,2012-05-03 18:34:59+10:00,False
+bcc8bf33e4795ea62e71f63df5e4b60a0f022820,Minor readme update,2012-05-03 21:20:12+10:00,False
+365e3f09a5b2e7dcd783c26cb7ab39d21754d49e,minor,2012-05-03 21:21:21+10:00,False
+b944aa7a7955a034f66560d7f98de44e090a9688,Add ability to configure port,2012-05-11 17:03:06+10:00,False
+4761bacfaf3f2c5050b66ae54e5e992b4018dfc1,Fix up Hibernate4 support,2012-05-12 12:30:57+10:00,False
+768cb0b7e23f1e182402923c95348207ecfb3757,Update readme version,2012-05-12 12:47:02+10:00,False
+7d885137e6def9734204605a7f579595b8642b12,Remove references to JBoss Maven repo,2012-05-12 12:49:21+10:00,False
+7fcbaafd08f88c021e69fb30102cbff8b17be450,Change test case name,2012-05-15 08:52:15+10:00,False
+4244c684a41f88a3867a0a04cda8228e3856561e,Rename readme,2016-09-09 09:53:59+10:00,False
+00255fbbbf1dde3dd501a0f1ad5626bf4738cde1,Remove Seam 2 mention,2016-09-09 09:29:25-04:00,False
+822a816456796eb20bd18e11a5c3f70549c0dfd0,Minor,2016-09-11 09:22:52+10:00,True
+351349f822ca9003d75c2367224c12fd524053f9,Update the readme,2016-09-11 11:53:47+10:00,True
+0746e5a74b0e48ee7a5690255eeead41361d4333,minor,2016-09-11 11:55:38+10:00,True
+167eced2a12c5733f79c0c878ef042f18965e068,More travis CI fixes,2016-09-12 13:42:45+10:00,False
+c1e409417c6a20b8a2b3fa845703f4c289a3fc22,Fix #10 update maven xml snippet,2016-09-12 17:53:21-04:00,False
+b5f82807b886856c4244efb1913f0e555e4f591a,Minor readme change,2016-09-13 09:14:13+10:00,True
+74b5f1f7a89dd3778f0f7c2c0c770261bc0992c8,Fix #21 disable the Fakereplace server by default,2016-09-13 10:30:56+10:00,True
+f236476066375045dcb29135f7e2b775de839588,1.0.0.Alpha4,2016-09-13 10:55:26+10:00,False
+2fcd444a07abab7a1ec5684c3fa045d11b1c7023,Document no-index param,2016-09-22 13:36:25+10:00,False
+9fccde542cf25799b8c6919bbf39c941cb0319e2,Remove maven plugin to make environemnt implementations simpler,2017-07-17 14:11:41+12:00,True
+cfa1fbff8f392ae90512a88f0b639697de3bdb4f,"Some clarifications like ; as package-separator, formatting...
+
+and fixing small typos",2018-09-24 22:57:57+02:00,True

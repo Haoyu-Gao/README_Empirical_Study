@@ -1,0 +1,162 @@
+sha,message,date,result
+124c267fc809b4bc9c130d60dffc8f266fc9e0e7,"adds readme
+
+git-svn-id: file:///svnroot/spoon/trunk/spoon-core@2236 b1f50995-73fd-43b8-8ca2-fbc405a04e82",2013-10-21 05:14:09+00:00,False
+568958e4f65a348a1a5e2fd8dfd0bbe739653832,"modifies README
+
+git-svn-id: file:///svnroot/spoon/trunk/spoon-core@2352 b1f50995-73fd-43b8-8ca2-fbc405a04e82",2013-12-30 15:33:38+00:00,False
+771dc50e9dea2e668c7cd3657442c57acbf6ccbf,"sets the format of README to markdown
+
+git-svn-id: file:///svnroot/spoon/trunk/spoon-core@2353 b1f50995-73fd-43b8-8ca2-fbc405a04e82",2013-12-30 15:36:01+00:00,False
+66035e8071ef9e5f5226381ee4f1fc611853b800,"says the pull requests are welcome
+
+git-svn-id: file:///svnroot/spoon/trunk/spoon-core@2354 b1f50995-73fd-43b8-8ca2-fbc405a04e82",2013-12-30 15:44:29+00:00,False
+eeb1ab1a7202ef0de936ad28e2afa8785fdf015a,"adds a list of contributors
+
+git-svn-id: file:///svnroot/spoon/trunk/spoon-core@2355 b1f50995-73fd-43b8-8ca2-fbc405a04e82",2013-12-30 15:50:16+00:00,False
+e24266fce020ee24e8581af12d95e833e97ebdd7,"adds Matias to the list of contributors
+
+git-svn-id: file:///svnroot/spoon/trunk/spoon-core@2356 b1f50995-73fd-43b8-8ca2-fbc405a04e82",2013-12-30 15:52:09+00:00,False
+9f1fec98b7c8443f15b70beddb780469d38d516f,"adds Favio to the list of contributors
+
+git-svn-id: file:///svnroot/spoon/trunk/spoon-core@2357 b1f50995-73fd-43b8-8ca2-fbc405a04e82",2013-12-30 15:55:47+00:00,False
+6c12cf0fe2292f5da9e1b729a5a95a30f4ba2412,"adds Carlos to the list of contributors
+
+git-svn-id: file:///svnroot/spoon/trunk/spoon-core@2358 b1f50995-73fd-43b8-8ca2-fbc405a04e82",2013-12-30 15:57:08+00:00,False
+55ecef9f3246d527273e5dd54496963d535858ba,"adds a reference to the Spoon Maven plugin
+
+git-svn-id: file:///svnroot/spoon/trunk/spoon-core@2362 b1f50995-73fd-43b8-8ca2-fbc405a04e82",2013-12-30 16:17:43+00:00,False
+8d71776881a4fd0d439ef04f0409e21d7d1dd32b,updates the list of contributors,2014-09-29 22:02:48+02:00,False
+92dd6b5685e3d35ccc54ab053df5165071dfc9b2,updates the list of contributors,2014-10-06 09:43:16+02:00,False
+400c945b6388a1a925249db9158fe466231d3cfb,adds a link to SpoonLabs,2014-10-22 10:12:10+02:00,False
+6c32b94ee979dec7f86169bbd4d7a4d05a4509f9,"Update README.md
+
+Add Gérard Paligot to contributor list.",2014-12-09 14:11:08+01:00,False
+9cdc7d24024a3c47cbeaa5ab10503b83dd086c81,Updates list of contributors in pom and readme,2014-12-09 15:05:47+01:00,False
+6c77ae8be09c516f0a146e996475d3b3f8c1ca43,Adds build status of travis in the readme.,2014-12-10 13:44:33+01:00,False
+3335accca8fa701b7a9522fccecde2d7cc30458a,updates Readme,2015-01-12 16:45:32+01:00,False
+e1671f014390ca47681936c2fbf6a987c043cd26,Updates readme to show all activities around spoon,2015-04-07 11:49:38+02:00,True
+59aa70f0693c288c102ddd8caadec0c8303ce6d3,docs(readme): Updates spoon versions,2015-06-16 17:36:54+02:00,True
+21711fcee4131b7dd1568f0320757f83aaccd729,"Eclipse project cleanup
+
+* Eclipse project file removed as without the
+.classpath file the imported project is erroneous, the .classpath file
+is subject to evolving 3rd party libraries therefore added instructions
+to generate a valid Eclipse project using Maven.
+* Added instructions for generating the correct eclipse project files
+using maven.
+* Added git ignore for the eclipse generated class files in the bin
+folder.",2015-08-18 21:32:44+01:00,True
+5efab3be734e0cc589dc97b3b410de44f878110f,updates readme,2015-09-09 17:31:06+02:00,False
+c16af55e218033700309cbecc77270431c8d3513,doc: Updates version of spoon.,2015-09-22 11:50:17+02:00,True
+8a8d22f4d0faae9bf62e685f68358b383a92e3cb,chore(appveyor): Adds the configuration for appveyor.,2015-11-03 10:56:00+01:00,False
+64902f306335b1962acfda0505d8275136014d36,chore(coveralls): Configures project for coveralls.,2015-11-05 14:16:50+01:00,False
+9949b01ba457d0b042216d1b70e18f20cbcad7eb,chore(maven): Adds a badge for maven central.,2015-11-05 14:18:27+01:00,False
+513727bddc9d5031ec1523c483b4f46744f46346,doc(version): Updates spoon version in documentation.,2015-11-16 13:49:44+01:00,True
+566204c63e2b3a9f77f76dd0e0ee2c97bcf7b14f,doc(version): Updates spoon version in documentation.,2015-11-18 14:33:42+01:00,True
+2eb3c89c0bd3d4545bd324476d795e011827e664,doc(version): Updates spoon snapshot version in documentation.,2015-11-24 17:18:17+01:00,True
+27b45c11284939224413a6712d8f7ee7a198e987,"doc(usage): Specify usage for gradle user.
+
+Closes #420",2015-12-08 14:19:40+01:00,True
+eb5733a6795e24405f0f3e05f149af4d591dbc4d,"doc(jenkins): Adds a link to the Jenkins of Spoon.
+
+Closes #325",2015-12-09 11:29:00+01:00,False
+add973fe11ea2a3018f8124dc88ae162c00f9639,docs(ecosystem): Updates ecosystem section in the documentation.,2016-01-19 14:28:02+01:00,False
+f4116f881811ec1007adf00e44eadff81ee1fd07,docs(version): Updates documentation to Spoon 5.0.0.,2016-01-25 10:21:54+01:00,True
+8469f667497d112f86cefb489c9eff90ef2fdae1,docs(version): Updates documentation to Spoon 5.0.1.,2016-02-03 17:31:31+01:00,True
+3bb6950e02220837e3cbbe33c7d7df26cba84215,docs(version): Updates documentation to Spoon 5.0.1.,2016-02-12 10:05:59+01:00,True
+264f6dff463201a32fff1b4c52c990c8f3d83b3b,docs(version): Updates documentation to Spoon 5.0.2.,2016-02-12 10:09:27+01:00,True
+420d5a995278d191487021335302a5ad7c9e4cf8,docs(version): Updates documentation to Spoon 5.1.0.,2016-03-21 16:31:39+01:00,True
+eab7c43a4622f27e6d1fa2839bbe9fb888991844,[ci skip] Added myself as a contributor (as requested),2016-04-22 09:33:11+01:00,False
+22015595d5d46cf151584edd164cbec923a5859b,docs(version): Upgrade to 5.1.1.,2016-06-22 17:19:43+02:00,True
+e63348db5cfcfeaf5e8e9b40d04bdeb067a5008a,docs(version): Updates documentation.,2016-06-30 10:57:32+02:00,True
+4c59176d7d67162b2e2a76b05df1235bb5658ab5,docs(readme): removes AppVeyor badge (#763),2016-07-27 14:24:01+02:00,False
+baf8e86a5751c76b817315d56235f7f495ddf9e5,doc(release): update release number (#831),2016-09-20 09:43:31+02:00,True
+10c9549cfd3a5e0427250e4988c51d08f27bd93e,Adds c2spoon in the Ecosystem of Spoon (#842),2016-09-22 12:07:40+02:00,False
+d68a46c10a08f86fb18713520cd4465a40cf8d68,doc: add missing paper information,2016-10-11 00:03:17+02:00,False
+a8824efbfe044632a26d793bd7e8063eba18dde3,chore(release): update version number in documentation.,2016-10-28 09:02:14+02:00,True
+8200a66bfe7a89c7bb2590da906e0ec0dc156e3f,"doc:update README.md (compiling, ecosystem, contributors) (#1089)",2017-01-06 09:55:00+01:00,True
+e55e7908e44765adeab355e21b09e652251d36a6,doc: Prepare internal doc for the new release (#1109),2017-01-12 15:06:23+01:00,True
+a6a394d63ec5b6b50946a36722be31da46ab7ca9,doc: adds hyperlink to the Spoon paper,2017-01-18 22:38:42+01:00,False
+7b219f4310e73f3518a839c9041395c75c3bf138,doc:update ecosystem (one single file to maintain + added syringe) (#1147),2017-01-25 17:55:17+01:00,False
+e9bcf090d528f05b7b6052c5e80480430842f6e4,doc: announces the OW2 membership (#1151),2017-01-30 09:20:44+01:00,False
+68a70ef310e5ade761b3baddb5b8cb16e7252843,doc: update doc with release 5.6.0 information (#1227),2017-03-16 15:27:16+01:00,True
+4ed677be67e2ce3025b16b339b22cebbdcec9fde,Update release numbers in documentation (#1351),2017-06-01 10:11:36+02:00,True
+05d7a10bd6cb1d7ba6eef231beaf8bfb34acfb27,doc(release): Update release information in documentation (#1471),2017-07-11 15:18:34+02:00,True
+3ccd1790a203b2ebe63cd0af796da9dac6760a14,doc: Update version number after the new release 5.9.0 (#1517),2017-09-06 14:47:46+02:00,True
+51c9a94fa6429fbc31842af476173a52faecf4f4,"feat: add a static method to getting started with one single line of code (#1559)
+
+* feat: add a static method to getting started with one single line of code
+
+* up
+
+* up",2017-10-02 09:45:21+02:00,False
+8ccb59452667d9c63e5cd3a31bbca5cea1203664,doc: Bump version number after release 6.0.0 (#1732),2017-11-22 20:47:43+01:00,True
+5f1cda00b396420fe10d4d3e031688f2ebb7429a,doc: Bump Spoon number in doc (#1790),2017-12-22 08:20:03+01:00,True
+ce731456700645dd30a0f834389635fc3dee073a,doc: Update documentation after release 6.2 (#1899),2018-03-08 15:23:48+01:00,True
+e6b98e8038e6470aac9d0bf9f824cf2dee4b2225,chore: deploy snapshots on maven.inria.fr instead of gforge.inria.fr for better availability (#1900),2018-03-13 22:52:22+01:00,True
+04ad79ab8f80185bacd738d45b13b6fb8cd008b1,chore: fix typo in snapshot repository URL (#1910),2018-03-15 18:56:25+01:00,True
+64e24c0e7a7ed33ecc4f5b5eefbda69de2aecb4f,chore: Change README to encourage usage/contribution (#2030),2018-06-06 11:35:42+02:00,True
+7eab38ccce3c7d3b6f06c79960c11c221f79f4cc,chore: Add SonarQube dashboard link (#2044),2018-06-08 19:05:32+02:00,False
+b4c464990c5503f28fbcfbfefd47f9d078ce9a98,doc: Add Youtube Links of Spoon presentations on Readme (#2082),2018-06-19 10:57:03+02:00,False
+5f58be884784ca7d6264fe5960073293550259d9,Update README.md to state Java 10 support (#2091),2018-06-21 17:20:52+02:00,False
+40a0fb86e82001588adbea764d3bc4ce2287d0ea,doc: update version numbers after release 7.0.0 (#2166),2018-07-04 12:08:25+02:00,True
+21a5527fdaaf25d958f2c86a2e3a0391e1111203,"refactor(MavenLauncher): improve the maven launcher and remove unused files  (#2437)
+
+* refactor(MavenLauncher)
+
+* vanity
+
+* removes parameter m2repository as it has become useless
+
+* override last modified date when classpath is evaluated but has not changed
+
+* doc(MavenLauncher)
+
+* untrack .tmp files and cosmetic
+
+* fixes a bug when compiler plugin exist but has no configuration child, and add read default profile if it exists to get source version
+
+* fixes a bug which made InheritanceModel incorectly read properties composed of the concatenation of a string and another property
+
+* re add deprecated MavenLauncher constructor and add a forceRefresh option
+
+* style",2018-09-06 22:37:13+02:00,False
+9049b1fe5a9dd4eba70c846cb4ba8f84fcaf8662,chore: bump info after release of 7.1.0 (#2648),2018-10-12 13:36:10+02:00,True
+baf80cc8cf2e62eda8fdef9611b9de2187610b3b,doc: getting started for external dependency (#2752),2018-11-08 20:16:27+01:00,True
+88f909d2e5596591532d6fa8e8f59a6e5474f1a0,"refactor: Excluding decompiler related features from spoon-core (#2766)
+
+Attempt to implement #2747
+Related to #2737",2018-11-26 16:41:14+01:00,True
+9219db0396db17a1490ada00f9c691f8cb74aea3,"doc: remove all hard coded version numbers to simplify release (#2786)
+
+baby pr for #2779",2018-12-04 09:03:41+01:00,True
+d8bd8e4267cb80b92c88554b1c0706ed64b1b5a4,Remove deprecated `mvn eclipse:eclipse` in README (#2903),2019-03-09 07:55:36+01:00,True
+385bd200300b5ba448ac6fb84f5b43b22dd83cae,community: update the list of contributors (#2912),2019-03-18 14:14:55+01:00,False
+22bcbf75ef93de92e5e7ab3cda61f0c0b3cc7ec5,doc: fix jenkins badge (#2924),2019-03-29 11:58:17+01:00,False
+42322362fdcad732e7d77b6dc061d3bb9c4f23a6,chore: Add Sonar Quality Gate badge (#2935),2019-04-08 12:50:54+02:00,False
+eb156641b86ada9a1fb6203884686a5f4fcd21e2,feature: Add support for Java 11 local variable syntax (#3029),2019-06-22 07:17:45-07:00,False
+23edd389429eb05916f29e9747aafe54c005d639,"doc(README): add ""Professional support""section (#3252)",2020-02-17 09:54:17+01:00,False
+16b2fa6ff187fa940acc7768d6c3195bc7fd050e,doc: unify homepage of https://spoon.gforge.inria.fr and Github (#3265),2020-02-24 16:56:41+01:00,True
+611b526a03f918e431cab46fa29abfb20a562488,doc: clarify readme + fix javadoc (#3378),2020-05-23 12:33:51+02:00,True
+e9ff6f4b6c107209af95a1fe2b115d8c8cdc5a6f,doc: add supported java versions (#3375),2020-05-23 12:34:06+02:00,False
+d9046916f88166fe0b7d756e26aae537807631c0,doc(README.md): Referencing changelogs for 8.1.0 and 8.2.0 (#3511),2020-07-29 15:47:14+02:00,False
+a7281d24b389b31bd2a0587c4cdf66a9fae4df57,doc(README.md): add link to the 'Spoon User Manual (#3503),2020-08-12 13:33:48+02:00,False
+bbef6a23b4d420812d28fadc34fc25fad970d6c8,doc: fix bug in rendering of home page (#3636),2020-10-06 17:20:42+02:00,False
+8a2cce96f45d74d6cc6b3d678947cee28cfdf991,doc: Fix Travis badge link in Readme (#3681),2020-11-10 09:49:43+00:00,False
+941ce17b4295a5c9e6e067418498d51abf077561,"fix: add license information (#3846)
+
+Co-authored-by: Martin Monperrus <martin.monperrus@gnieh.org>",2021-03-18 08:18:06+00:00,False
+06138051c586fcabaad63b73db5d506cb63b5ea0,chore: Remove all traces of Travis CI (#3883),2021-04-20 08:20:05+00:00,False
+c3ed4be2a825588c8253418caa4905336c4e985f,doc: update list of contributors (#3900),2021-05-06 11:56:34+02:00,False
+ff22d36fc96a404e8749c015be8783f6b1651cea,doc: add new releases to README (#4114),2021-08-23 13:11:09+00:00,False
+8dbd68fc7a34957fa59e41d1edae4ba148ad7531,doc: Update supported Java versions in README (#4234),2021-10-19 06:27:38+00:00,False
+a9aa2296f4858baa6188955b9be63a849135d8de,doc: Document Java version requirement (#4295),2021-11-19 11:19:53+00:00,True
+28df6951a2898b92a8b4286286e313dfed3a68ae,doc: add the last two releases in README (#4708),2022-04-24 22:18:51+02:00,False
+d54343ee6a644bb1aed4523cc76044037cf5e8da,doc: Add reproducible build badge to README (#4712),2022-04-28 20:20:36+02:00,False
+5ec2409c8132e99494726e01a0797d9f6c463a56,doc: Clarify stance on supported versions (#4794),2022-07-10 19:06:37+02:00,True
+119da571a0f37a2b80518db5704bd6bedd1fe13a,doc(readme): Fix typos in README.md (#4811),2022-07-26 19:16:14+02:00,False
+f6776625d4eae5ae09ccfe77cfba3a724d3ef700,doc: remove spoon-user-manual.pdf link (#4854),2022-08-23 15:03:09+02:00,False
+529475a7ea652a8a9c844431fbe9b02dee2ffe7b,doc: update contributor list (#4910),2022-09-21 15:49:27+02:00,False
+21628a10a7be6f370d70b67f866f250f5b425897,doc: document 10.2.0 in README (#4973),2022-10-22 20:33:20+02:00,False
+67a2e87b079b1dc6f444ff3b4c9c9352c5129cee,doc: update supported java version in readme.md (#5065),2023-01-08 19:02:14+01:00,False

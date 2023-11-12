@@ -1,0 +1,18 @@
+sha,message,date,result
+1a59ac1e9ebf574bdef7fa0caf70ba1e78dac93e,Initial commit,2021-07-16 15:55:55+08:00,False
+f775ad588375ebd92a66981789fdf292ea855a80,doc(*): instructions to build tree-sitter,2021-08-01 10:40:09+08:00,True
+908f6fe7b974aa274d0d939a0ccd9c272acf00f1,doc(*): docker for environment configuration,2021-08-04 19:34:24+08:00,True
+9ae0c6645ca4b17b73829ab6faae3b53aafcaea9,doc(): tips for docker on 2080Ti and 3070 machines,2021-08-04 23:02:38+08:00,True
+ff2d573d1d7bfcd661f31e1f05492febb943b800,doc(): new doc(unfinished),2021-08-16 14:04:56+08:00,True
+1037059f04b44e9a69d5e972a02686b2d06b5fd6,doc(): finetune checklist,2021-08-16 17:05:20+08:00,False
+33ef966dbeac6e509f543ed439b0dcf1fa4fd340,doc(): update checklist,2021-08-18 16:04:35+08:00,False
+b0e0c6311ef9350b4f7459f1934f5273585c8d9e,doc(): checklist for attack,2021-08-21 16:51:59+08:00,False
+283bd98ce8c9246787fbacc9dd4a4171a6cb6c6f,doc(): checklist,2021-08-24 14:18:40+08:00,False
+a8be0bad7990b5503de1cdc8a6d6d1d498cac971,doc(): finish original mhm,2021-08-24 16:11:04+08:00,False
+13d169890f70be98d2a206fe8cebca0c0b233113,doc(): add todos,2021-08-24 22:02:49+08:00,False
+ed596ea7c4343eded14e2ed8fd019b186294e339,doc(): add todos,2021-08-24 22:03:12+08:00,False
+1350675b9afa33f8fed731d67acbb13407c0c794,doc(): update todos,2021-08-25 22:31:18+08:00,False
+59807d7a784d3870c81fe12d12685bc3c59af488,merge,2021-08-25 22:36:34+08:00,False
+f31e891239245bab128b2fbafc105603d5fffa69,doc(instruction): env config and models,2022-01-23 11:47:42+08:00,True
+dba20518f9a58993f668850c88a013bacf44f065,doc(instruction): datasets and results,2022-01-24 13:19:41+08:00,False
+7e09a86e1d8ec3b6402f8de7cbffc8d7c29dbeb3,doc(instruction): further explanation of results,2022-01-24 13:47:33+08:00,False

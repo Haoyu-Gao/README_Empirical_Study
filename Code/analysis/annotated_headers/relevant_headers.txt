@@ -1,0 +1,66 @@
+installation
+dependencies
+install
+docker
+system requirements
+installing
+setup
+building from source
+installation guide
+build
+building and running
+install it with
+initialize required settings with docker container
+deployment
+using docker
+installation instructions
+maven
+gradle
+optional dependencies
+virtualenv
+linux and macos
+manual installation
+compilation
+build docker image
+setting up a workspace
+building the application
+macos
+ubuntu
+setup database
+setup frontend
+setup backend
+setup dashboard
+note - if you are setting this up on an instance in your own cloud (aws/gcp/heroku etc.), please ensure the following for good security practices -
+clone repo and open in vscode
+start dev container
+dockerhub
+build image
+adding as dependency
+system dependencies
+python dependencies
+running a local mongodb instance
+using mongodb atlas or a remote mongodb instance
+requirements
+getting started
+building
+prerequisites
+quick start
+download
+quickstart
+linux
+windows
+running
+how to use
+run
+get started
+pre-requisites
+prerequisites:
+installation on amazon ec2 gpu instance with ubuntu
+arch linux
+run the tests
+setting up the mail server
+nix-env (nixos linux)
+option 1. download from github
+clone repo
+setup testing
+starting the app

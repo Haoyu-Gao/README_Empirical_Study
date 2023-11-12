@@ -1,0 +1,7 @@
+sha,message,date,result
+d98f1ab4b10a1d42de49724814a63a72a9762c20,Create readme.md,2015-06-17 11:54:00-04:00,False
+5ad15604eeec5b09cd0599bd3148dc0e6a9ffb14,Update readme.md,2015-06-17 11:59:45-04:00,False
+e7363054023b7d178fa7c1dd61ef0c928935a25b,Update readme.md,2015-06-17 13:13:56-04:00,False
+ee2d2b9e8a6efc34154f369a5cc62c1a2f7a4063,Update readme.md,2015-06-17 13:16:33-04:00,False
+bb8b912cd01abd3ac2d70375e7d4de2211631639,Support for Travis continuous integration,2016-04-29 23:32:02+03:00,False
+ee98ad5262d15bb19f0bfe2e9dc31b4fc8880175,Add buttons to get the app ;),2017-02-15 13:41:01+01:00,True

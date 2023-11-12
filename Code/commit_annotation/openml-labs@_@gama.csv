@@ -1,0 +1,92 @@
+sha,message,date,result
+b7d7bb60297d0d5dec6ef53aede8e4af000a5cd7,Initial commit,2017-12-22 14:22:00+01:00,False
+dace1895ccd18ee5e9853a23664aa2c844d0e49a,Moved issues to readme,2018-01-15 14:46:59+01:00,False
+b605d91eb6fd1d76ac62c5c6d7680cb77b7ea4e1,Formatting (linebreaks).,2018-01-15 14:47:50+01:00,False
+df7cb21f099f6987aa34123b56a23a3335a12b41,Updated TODO log to reflect from_str now works.,2018-01-17 19:02:32+01:00,False
+c88c16a7e5436ec8ca80893eafdf02bb2b5bd680,"Now check if the pipeline compiled correctly before evaluating it, and if not return worst fitness. Need to decide if and how to negate this issue (probably on creation).",2018-01-17 19:20:49+01:00,False
+a7661e4d7532d946b7475d4be63944236981d100,Committing some ideas I wrote down a while ago.,2018-02-28 15:58:02+01:00,False
+f6ad3626e08c946e5ba30d02431f66111a5b8ac3,"Update README.md
+
+Updated README with new name and updated lists.",2018-03-07 14:01:30+01:00,False
+88f126cd0dc349c8fa081cfc13cc8942b5f05e7d,Added white spaces so lines get separated,2018-03-07 14:02:32+01:00,False
+af2d119dcda784d8ee02b845b0621b50ade2c1ae,Updated list. Decapitalized some words.,2018-03-09 16:24:26+01:00,False
+1320dea8ffa682fc3a425decee08d6ee6292852a,Added Regression to TODO,2018-03-12 16:20:35+01:00,False
+fe6e04832293c10d92ae7b6231d11a55a5789b29,Added spacing for line break,2018-03-12 16:20:59+01:00,False
+7e2497d5b43e429f875748a4135aa5f50a4aaaf9,"Removed reached goals, updated where necessary.",2018-04-16 17:01:31+02:00,False
+a9e53d97daad75672115c0d1d3c441b767b0b3e6,Added and updated,2018-05-15 16:22:47+02:00,False
+90c16e46792fbe3d663da3a0920137bce7d38003,white spaces,2018-05-15 16:23:23+02:00,False
+87fde368e845167c9fc93eddde2fc464fd3a1dff,-lists +install instruction and minimal example.,2018-08-26 20:59:50-07:00,True
+d795c23eb5599daa803ac282ef1b135bacb94f64,Update to reflect WIP status,2018-09-28 14:34:37+02:00,False
+e8282d60c7611fad405ee416b9d88a61db7735ab,Add build status badge,2018-10-01 11:03:34+02:00,False
+c891d90e8aaa306d0292d2edb6ba339a3982fea0,Codecov badge [skip ci],2018-10-01 11:56:27+02:00,False
+496c516ef80af603d73fa1dfd6e50daced95a0db,CI is set up,2018-10-02 16:33:17+02:00,False
+550bf29b522048f1d16810f1cec8384b08fd9010,add link to docs,2018-10-13 14:59:47+02:00,False
+2b326ab8b913e6ddbba2f6c0fbf89311a5ccca98,Example now uses maximum number of cores.,2018-11-19 10:19:07+01:00,False
+9c4a5a39adc9bd02adbe4cae829a7ea3fb24f5e8,"[skip ci] Fix example, add links to docs.",2019-01-16 19:06:30+01:00,False
+15ec077b566f005b992da04dc445b4e6c1515960,[skip ci] Update to reflect new example uses breast_cancer dataset.,2019-01-16 19:09:59+01:00,False
+fb9f749e6607bdd72e9c2c0183d49bed79a8f294,"Add introduction, set code block to python.",2019-01-17 10:31:25+01:00,False
+cde7a380fcdfd5dcf8c7bca26ef0941ff6cc13ee,Specify master branch for images.,2019-01-17 10:41:57+01:00,False
+6d260de7d1b5254b61b1f8a7821d816cec062d46,More info on used algorithms.,2019-01-17 14:15:49+01:00,False
+c9637b0da624bb551d0f63232b3a7c45ade1f0cb,[skip ci] add joss badge,2019-01-30 13:12:09+01:00,False
+3f0b90075b5041733000061498e25c7a3ea0ea22,[skip ci] Add citation guideline.,2019-02-01 22:05:49+01:00,False
+7d274496c4481137e70f6507156ff8be5cc04f0c,:pencil: correct the readme. probably can use overhaul.,2019-09-03 10:15:21+02:00,False
+ff13b974e423f1e2f9c255048cf8d6665326ab92,:pencil: Update readme and setup for PyPI release.,2019-09-16 17:21:59+02:00,True
+0e4cba18280c36f3bd8cb76af9931c8674beb40b,":pencil: update hyperlink to visualization gif, set version back to 2019.08.0.",2019-09-17 14:56:16+02:00,True
+a3e7fa62c1ffdb60cee35d95e04d22c2992ac9d7,Fix broken link in README,2020-07-05 23:00:07+02:00,False
+0d68c11098a28a51ae2f518f3fbc6ac57d860183,"Fix broken links
+
+Thanks @crispchris",2020-10-12 14:45:30+02:00,False
+356dc89d5ad4b60c46c6aeb28aee47f0da64f4b2,"Update outdated examples
+
+These examples still used the `keep_analysis_log` hyperparameter.",2021-01-11 15:20:47+01:00,False
+4235613319789dc2fe4fc7a70d5fa33b12cdda23,"Changei G of GAMA from Genetic to General
+
+To align with the second paper and communicate the goal of being an
+automl package with configurable search strategies.",2021-01-14 15:02:32+01:00,False
+cea2d62aa9c0f2155d530cfa954d11adfeb47ce9,"Replaced links (#118)
+
+Update links to new repo location.",2021-06-08 17:23:22+02:00,False
+07d2f716c55c7edb7d2aaa3d6fb485bb774041d3,Update more links to old repo location,2021-06-09 15:13:18+02:00,False
+1d4182c662e29179ae52136442f654003f82645f,"Add logo to docs (#129)
+
+* Add logos
+
+* Use logo in doc and favicon
+
+* Add logo as title
+
+* Notify users of added logo",2021-10-12 20:07:46+02:00,True
+113062c65bf25a35b39ad9fe159cb2a8df13ec18,Fix link to GAMA logo,2021-10-12 20:09:10+02:00,False
+cd84e7868312322bcdf8c369e1dc7c2ad02035b4,Update citation information (#134),2021-12-23 11:41:01+01:00,False
+1432638e26a70f4e6029265a59893d120e540ee1,Update citation to Springer-provided,2022-05-09 20:01:59+02:00,False
+c73e6837401b7016537478838d329bf76796e3f1,DOC: Add license to readme (#187),2023-01-30 15:06:37+01:00,False
+2827a2aafe95cc31ab73fd7ac8ab32e28fa238e3,"Updating devtools, removing dashboard (#192)
+
+* Move tool configurations together
+
+* Removed unused imports, pass ruff linter
+
+* Remove the GAMA Dashboard
+
+* Bump black
+
+* Bump mypy
+
+* Replace flake8 with ruff
+
+* Move mypy configuration to pyproject.toml
+
+* Remove optional requirements for Dashboard
+
+* Bump pre-commit
+
+* Fix an issue introduced by the new eps penalty in sklearn 1.2
+
+The default value changed from 1e-15 to ""auto"" that is equivalent to np.finfo(y_pred.dtype).eps.
+
+* Explicitly add datetime format for parsing from log
+
+* Load data as pandas dataframe
+
+Because some pixels were inferred as categorical.
+See also #193",2023-04-29 19:55:16+02:00,False

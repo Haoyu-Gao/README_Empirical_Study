@@ -1,0 +1,214 @@
+sha,message,date,result
+1b10524ac6b25b025fe3f65257d25850f5ff6026,"Add README.md file
+
+Currently, only have the command lines of the commands there. Add some
+text later (hopefully).",2018-03-05 21:33:37+01:00,False
+cf7307419926c2ba52c41b88513935cf66db814c,"Add dependencies to README
+
+Tell the world what it needs to run this tool.",2018-03-05 22:31:14+01:00,True
+0ca22385eee2b46dcaa1f45628e2e58ef02de0eb,"Run apt-get Travis command with sudo
+
+This should fix the permission denied error...",2018-03-05 22:37:25+01:00,False
+a0d5aec1789ae16478945d0a3984ef7cb75cd8b3,"Do not run pip3 as sudo
+
+pip3 correctly downloads and installs packages, but installs them in the
+wrong directory. This should work now.",2018-03-05 22:56:38+01:00,False
+efea63cbfee2b3f9ca782b8078816898bc319991,"Pretty up README file
+
+Auto-generate README from the help texts within the command line to
+always have consistency there. Also wrap the command descriptions to
+look properly formatted.",2018-03-06 21:32:05+01:00,True
+74416592023470e545ecc289ba237e2b6f13679b,"Graph example
+
+Include image of Graphviz vizualisation.",2018-03-06 21:42:04+01:00,True
+a87a9c403bd2135e2156f59af69da81a121afe72,"More documentation
+
+More doc is better than less doc.",2018-03-06 21:50:13+01:00,True
+1ba6c6c283daf0b29582d12a7be3ccd2bb824185,"Allow buildchain command to output on stdout
+
+Instead of requiring an output file, make stdout the default and
+optionally allow writing to the given file name.",2018-03-20 19:29:05+01:00,True
+25f706a61baaeedd93c83a1be587ccfa2e1337b2,"Refactoring of OIDs and start of forging facility
+
+Refactored OID databases spread across multiple modules into the OIDDB
+module and started implementation of the ""forgecert"" facility (not yet
+exposed on the command line, work in progress).",2018-03-22 16:36:39+01:00,True
+c862761299947b9d23a87a60bea04e5d50a75fcf,"Add given certificates to trustpool by default
+
+By default, add all certificates to the trustpool when a PEM is given
+in ""builchain"" mode. This makes creating a certificate hierarchy easier
+when piping the output of ""openssl s_client"" into ""buildchain"" because
+the intermediates that the server delivered will automatically be
+trusted.",2018-03-22 16:42:43+01:00,True
+bd5a6e9eb66f928cad27ab2e5c53b6a42b6860d1,"Further work on X.509 forging
+
+Forging facility further extended, but not working yet. Also, further
+refactoring of code and cleanups/consolidation.",2018-03-22 20:05:09+01:00,False
+d0f5059de666f15e596882247d5bcf4a26f417b7,"Make forgecert facility public
+
+It's wonky and hairy, but it works somewhat. Release it.",2018-03-22 23:13:55+01:00,True
+f0fe078134111982a1afd29dd1dbd37fd555b3aa,"Put new functionality into readme
+
+Run upd_readme to get new recalc-keyid functionality into the README.",2018-03-23 21:11:40+01:00,True
+b2e2c8ed82da76f1b3706c67b4781f4084c5d081,"Mention new pyasn1_modules requirement in README
+
+README now mentions versions of pyasn1_modules that are a prerequisite.",2018-03-24 17:22:47+01:00,True
+017787f79ec6bafc4ce87e1f64ddaeb31a10458c,"Auto-detect file format in graph mode when implicit
+
+The behavior of the command-line format/output paramete was misleading
+and led to users creating broken files (e.g., a file ending in "".png""
+that contained dot-syntax). We can do better by determining the format
+by auto-detection, but still have the possibility to do a user override
+if they wish to do so.",2018-03-27 20:02:20+02:00,True
+4bd819628cd37e86d96c37e4af1f9787f20feb11,"Updated documentation
+
+Update documentation to reflect the newly gained options regarding
+hardware tokens.",2018-07-13 22:34:22+02:00,True
+5ca7e9b305d63bc7f1a5a73a539ef9d75052357b,"Fix hardware token support and update documentation
+
+Hardware support was broken because of refactoring, now it's fixed
+again. Documentation also extended by an example of how to use it.",2018-07-14 12:51:54+02:00,True
+e0513d3eca3ca273a8ec0199817b5b519a059c2e,"Abbreviation for IDs when dealing with HW tokens
+
+Added ability to specify hardware token ID or label easier on the
+command line without having to remember the full PKCS#11 URI syntax.",2018-07-14 18:04:18+02:00,False
+ec2953428e13d87d2b0084eaacf1f2c2354336d4,"Added the createcrl command
+
+Added a ""gencrl"" command to easily generate a CRL for a given CA.",2018-07-19 23:07:00+02:00,False
+5677da2504b07890b91632068332b82fd710a271,"Allow buildchain to generate PKCS#12 files
+
+Add an option for easy generation of PKCS#12 files. This way, you only
+need to specify the certificate and private key that you want to end up
+in the certificate, and buildchain will take care to select the correct
+CA chain for you and embed it into the PKCS#12 file.",2018-07-22 18:23:17+02:00,False
+6535a5b2702012f7e23f66403d14fe4bbee33bac,"Harmoize generation options
+
+Have options for templates, etc. appear in the same order for all
+commands and allow similar options for similar commands.",2018-07-31 20:16:33+02:00,False
+52aa193537d45d7a206ab7418b87781fc523afe0,"Clarify instructions regarding dependencies
+
+When testing, opensc and pkcs11-tool is required. Clarify this in the
+docs. Also Ubuntu Bionic now includes a fixed version of pyasn1_modules,
+so change the comment also regarding this.",2018-07-31 22:12:50+02:00,True
+b0e81b594f793132475411594d78a7f7ff83b300,"Clarify documentation
+
+One dependency for the PKCS#11 tests was missing. Also write them out in
+a nicer form so that it's easier to install them all on Ubuntu systems.",2018-08-01 00:43:16+02:00,True
+e1ca291fc37a1b009f1d836678bce8a4abb21273,"Update README with changed command line
+
+In a previous commit, have changed the default hash function and added a
+parameter to genca, but never updated the README docs. This fixes the
+missing update.",2018-08-06 20:20:14+02:00,False
+7315c4e6f37af2f84556b52309a88d9fa8b536f6,"Finalized scraper module
+
+Finished up the scraper module: Fixed a few bugs with incorrect ASN.1
+deserialization, added a bunch of new options (e.g., ignore nested DER
+structures such as public keys within certifices; customize search
+options; added machine-readable logging output). Option now public and
+visible, documentation added as well.",2018-08-11 00:34:51+02:00,False
+9800fd608025df24eb5992f435589e5ba4b4d3e4,"Added the shorthand option to write JSON for scraping
+
+For consistency reasons, added the ""-w"" shorthand for ""--write-json""
+also to the scrape tool.",2018-08-11 11:54:02+02:00,False
+261ef081d449c6d51fdc360ec1420b05b6a6a331,"Added CRL testcases
+
+Check that the CRLs are generated correctly (have the correct number of
+entries and the hashfnc and validity argument actually work). Also fix
+copy/paste typo in help page documentation.",2018-08-16 22:36:26+02:00,False
+b113331dadc995dd94a4dd179146ca50c2deac56,"More test coverage for genbrokenrsa and additional features
+
+Broken RSA key generation supports now the Euler and Carmichael Totient
+function (phi(n) vs. lambda(n)); the former is still preferred. Also
+increase test coverage for RSA and make sure that generated keys work as
+intended (they're still broken, deliberately so, but the math works out
+fine). Interesting find: when gcd(totient, e) != 1, it's insufficient to
+re-choose q, since p could be the culprit. Therefore, we choose new q
+and choose new p to be old q.",2018-08-17 23:01:02+02:00,False
+f112a8e8ff9b93bf9b31c9a95ffd94b68bd51639,"Add ability to generate gcd(n, phi(n)) != 1 RSA keys
+
+When generating keys normally, gcd(n, phi(n)) is typically 1; this is
+not a necessary prerequisite, however. It's possible to specifically
+create keys for which this does not hold and there's now an option to
+generate specifically such keys.",2018-08-18 14:19:09+02:00,False
+bdc2952f99ac725640755729cf19f26065a87c11,"Implement automatic prime generation on exhausted PrimeDB
+
+Previously, the user had first to manually create primes using the
+externally provided tool and then run the ""genbrokenrsa"" command. Now
+there's an option where, on an exhausted prime database, the prime
+generation helper is called as an external process automatically to
+generate the correct prime type.",2018-08-19 12:41:56+02:00,False
+6163ceccc55e16e93409dd14e9a870f7e7ed042f,"Updated the ""graph"" tool to be more useful
+
+Actually what I wanted is to be able to visualize different aspects of a
+PKI. This patch goes in that direction, but it's not complete yet. It
+can visualize expiration date and certain aspects of the PKI (general
+certificate type, key type, signature type), but the ""security""
+visualization which is probably most interesting is still missing --
+it's dependent on finalization of the ""examine"" facility.
+
+Well, first gotta properly refactor Ed25519/Ed448 certificates and clean
+up all the Cryptosystem/KeySpecification stuff.
+
+For this particular patch, grabbed the ""AdvancedColorPalette"" from
+pygpufractal and made some minor changes to it.",2018-08-20 00:27:23+02:00,False
+d1ed3a749d5bbab9a96d7612507b030774ba7876,"Implemented ""hashpart"" command
+
+During ongoing implementation of the EdDSA code, I needed a way to brute
+force hashes inside binary blobs. Since I've implemented this very thing
+a couple of times before, I thought it would be nice to have this
+properly as part of the toolchain. It has been added as the ""hashpart""
+facility. Originally there was multithreading support, but using
+multiple threads significantly slowed down computation (GIL issue?). So
+in this commit, it's completely removed again.
+
+Note that this has been split off into two commits artificially and
+after the fact that EdDSA was refactored. So there's some minor overlap
+in __main__.py code, causing this commit by itself not to work -- it
+will fail many tests. However, I can't be bothered to retrofit this and
+will commit it like it is.",2018-08-21 21:40:00+02:00,False
+8877db4b4cef1e368311e2140022ca9ae757e5ae,"Updated Python variant now supports new hashes
+
+This display will vary from installation to installation, because it
+actually asks Python what hashlib hashes are supported. Still update the
+README.",2018-08-22 23:00:40+02:00,False
+e10e4213ce9bced96f5c6950aa98819a4f7bd1ec,"Add x509test test corpus
+
+The x509test project has some excellent test certificates, we use them
+directly and will test the examinecert facility against them.",2018-10-14 16:16:13+02:00,False
+1dbeca33a9ceee46da68014500430ffaf3b29c30,"Add option to hashpart to specify maximum offset
+
+Sometimes we don't want to run until EOF, but only search up until a
+specific offset in the file. This option allows us to do exactly that.",2018-12-21 17:39:36+01:00,False
+ff34c4ae7bc66a32a2d4b44c468df08b1c7aa86b,"Go live of examinecert functionality
+
+This functionality was present in x509sak for about a year now, time to
+put it live now.",2019-12-22 13:11:02+01:00,False
+3e53fb76f8259c7c469b4954c6db1c2ca6bb6d2d,"Spell check of README and code
+
+Ran an aspell pass over the README and generated included code as well
+and fixed some typos.",2019-12-22 13:18:14+01:00,False
+e9998bae290de9136bac1ccd74ec7bc20779b34b,"By default, do not generate prettified JSON
+
+When running millions of testcases, this really blows up the output.
+Output just the terse representation by default, optionally allowing for
+pretty JSON output as well.",2020-01-01 11:49:06+01:00,False
+6c776bbea1e081bfcb358572a7ab6196950bb873,"Added new genbrokendsa facility
+
+Want to create non-verifiable generators for DSA signatures, let's just
+expose the whole functionality from the command line.",2020-01-04 14:05:51+01:00,False
+b1f31372ecd260b7de6b5b838d37fdf8fcae212e,"Migrate to travis-ci.com
+
+travis-ci.org has shut down, so we migrate to travis-ci.com.",2021-07-19 23:47:51+02:00,False
+9ab13e51691c7037a90aa076040dee95dbbf9a04,"Fix Travis-CI link
+
+Also make the link point to travis-ci.com instead of travis-ci.org",2021-07-20 00:05:41+02:00,False
+53038e01db17efdf3c0f970e023e34abaecfac2d,"Fix Travis-CI banner
+
+We have a failing build and I just noticed the Travis link is broken.",2021-10-26 22:00:47+02:00,False
+b80fb165df44f85fd42d520e3e8d36498a03fbce,"Release x509sak 0.0.1
+
+Official version v0.0.1 released on PyPi.",2021-10-27 00:28:15+02:00,False
+e3f1d128e021b8b9ba2ea16ccb9edbd230d360f3,"Release v0.0.2
+
+For the stupid reason that I did not prefix my tag name with a 'v' I now
+need to bump the version up one bit so I can re-upload on PyPi.",2021-10-27 00:32:28+02:00,False

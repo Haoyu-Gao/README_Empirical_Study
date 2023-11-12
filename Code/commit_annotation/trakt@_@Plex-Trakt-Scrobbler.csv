@@ -1,0 +1,58 @@
+sha,message,date,result
+9b05e1cd3b422ce5e59e2722fcf046ccbffb2272,Added a read me file,2012-01-03 13:52:25+01:00,FALSE
+b44f3efa1eff9f5a3ad62be281216cbb77120185,"Addec skeleton that currently is broken.
+
+Planning to add logsucking script to shared folder, the rest of the
+functionality should be in the __init__.py file",2012-01-05 17:48:58+01:00,FALSE
+5638c60bfccfee87dd65ae95d592c3ea8951d56a,Removed junk and updated description,2012-07-10 22:00:28+02:00,TRUE
+6de4ecfd92dd176e3ee123deeeb4de8900818adb,Removed leftovers.,2012-07-10 22:12:23+02:00,TRUE
+d951e74c5e74dde2f9caefb8be6d059fc1acddd0,update docs to reflect change needed in PMS,2013-02-17 17:51:11-05:00,TRUE
+d757104790c55156928fa8b3f9abe5130b68f391,Update README.md,2013-02-18 10:43:02+01:00,TRUE
+990ba99dee177fc8d0ed7bd258faa4eaaa92d6c4,Update README.md,2013-02-18 10:43:40+01:00,TRUE
+ac22d777418baa49ccf0910c0fec7e99043a6f71,Make gui strings dynamic and add autosync.,2013-02-18 21:56:57+01:00,TRUE
+84dfa021c914cba4a993543c581a019dd3c2fc3d,Update README.md,2013-02-18 21:59:17+01:00,TRUE
+4f63c8d1d1d479d005923a6df7bbda6f6a80cc42,Update README.md,2013-07-05 23:31:53+02:00,TRUE
+24710fe15408b65f2ebe7a327c3245dfb70d4400,Updated README.md - Bugs should be reported to the github issue tracker.,2013-10-23 00:25:27+13:00,FALSE
+1b373de6fdba08495d007711861fa020efe1f863,Updated README.md - Bugs should be reported to the github issue tracker.,2013-10-23 00:29:22+13:00,FALSE
+c7ae9a4a217ca130f5dd9cfac60d2e48da6128cb,Updated README.md - Bugs should be reported to the github issue tracker.,2013-10-23 00:29:56+13:00,FALSE
+3c9661db6e4e1069f06e68f4e726c84bd37dfb79,Updated README.md - Bugs should be reported to the github issue tracker.,2013-10-23 00:32:36+13:00,FALSE
+304425b7f72905cc4af17991f87c39cb29852606,"Updated README.md to be a bit more clear and provide downloads to master, beta and develop branches.",2013-12-01 16:42:39+13:00,TRUE
+3f4eba9ce71a91d25fbe446085a4063400f589f2,Added waffle.io badge to README,2014-02-19 22:45:39+13:00,FALSE
+857019bdbec4d47ef8b103c0902a9bc10f2b261b,Added waffle.io badge to README,2014-02-19 22:46:52+13:00,FALSE
+6ccc27474119353359bfb4a23508772092fee5e4,Updated waffle badge on README,2014-02-20 17:30:29-07:00,FALSE
+810dd98aae93edfc7d8d43645588d1ce8294bb61,Updated waffle badge on README,2014-02-21 13:49:54+13:00,FALSE
+196f23762e0e46a97cecddf53e3d684cbcc9c06a,Updated [README.md],2015-03-23 14:34:38+13:00,TRUE
+862fff19982db5a0e9a50113adc1bb073af50528,Updated [README.md],2015-05-26 11:46:16+12:00,TRUE
+a518bdedd984b3efef6151763662eef98f901c3f,Updated badges in [README.md],2015-05-26 11:47:37+12:00,FALSE
+e03bb84832562a5c2f20e0e976200bff841f1576,"Added [CREDITS.md], with link from [README.md]
+
+TFP-32 #resolve",2015-05-26 11:49:28+12:00,FALSE
+9dbcb879387af22707b918568deb2c467dfe22f6,"Added badge for scrutinizer, changed to flat-square style",2015-06-29 14:11:19+12:00,FALSE
+c0b347ffef1c10fe8f8531ea8ad35c9f053aca56,Cleaned up [README.md],2015-06-29 14:30:06+12:00,TRUE
+fea585c16dc06945eaf5705dc5dd3321518cfdb1,Added badges for scrutinizer coverage and build status,2015-06-30 02:12:57+12:00,FALSE
+45b2217cd8b3e38fab994cc7fa5d7746536bae97,Added requires.io badge to [README.md],2015-09-01 16:56:52+12:00,FALSE
+a27323615caeac26014a5633938a4a871191ebd9,Added gitter.im badge,2016-01-17 17:47:26+13:00,FALSE
+06bf6f900a2012c9b68236639d2423cc33a6e378,Updated [README.md],2016-01-23 23:35:52+13:00,TRUE
+d0ed0bd6afe1ba2ae069b456dee7d1aaffff0b3e,"Added ""KB"" link to [README.md]",2016-01-25 15:30:40+13:00,FALSE
+0298f68873d9317351500d21daa15f2b7168195e,Added donate link for PayPal,2016-03-14 21:57:52+13:00,FALSE
+c9a55f833d136535c93c23856e5d01e8c8fd0eea,Added license badge to [README.md],2016-06-12 15:35:00+12:00,FALSE
+9622f67648b349c68e4df8092c2e6494644668ff,Updated title in [README.md],2016-06-12 15:45:58+12:00,FALSE
+2c8e7fbc352064946dc68cb988df4c6153c1c0b1,Readme update,2017-11-01 23:38:57+01:00,FALSE
+fdd83f8735e121ef13c3021785a9dcfa19de17d5,Removed donation links from [README.md],2018-03-05 10:17:14+13:00,FALSE
+aeb0bfbe62fad4b06c164f1b95581da7f35dce0b,"use external IDs from new agent if available (only for scrobbling) (#571)
+
+* use external IDs from new agent if available (only for scrobbling for now)
+
+* create taggings DB model (prep for sync)
+
+* create tags DB model (prep for sync)
+
+* (sync support) first attempt to make DB use external IDs, fallback to guid
+
+* some fixes (still broken for sync)
+
+* Sync now working for movies (TV groundwork still pending)
+
+* Finished sync preparations (hopefully) for Native TV agent
+
+* Update README to include min reqs for native agents",2020-08-31 13:29:06-07:00,FALSE

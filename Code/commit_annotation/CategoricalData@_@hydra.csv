@@ -1,0 +1,29 @@
+sha,message,date,result
+a556a4aae6cf4bb0198724809a3dc54117381f50,Initial commit,2021-09-18 00:47:03-07:00,FALSE
+44ed6486a90fb2ec1ace23b14811248ae8deae25,Initial Haskell project structure,2021-09-18 08:03:26-07:00,FALSE
+a80f5926000e69d0d0d1d098aa16abf4578a40af,Initial Scala (sbt) project structure,2021-09-18 09:19:29-07:00,TRUE
+12d964ae2c9a110a014858ef5f4b9a2624e113aa,"Separated Hydra-Scala and Hydra-Haskell into individual subdirectories, with separate builds. This makes it easier to work with the builds individually in an IDE",2021-09-20 11:45:05-07:00,FALSE
+38929697458d16b39b129e1b270e4e0bf38094f6,Update README.md,2022-06-02 18:56:41-07:00,FALSE
+f8abecf2477035034fe3c21db89dbf3d5521dad1,Update README.md,2022-06-04 06:54:40-07:00,FALSE
+0db9bcf876e73bef2d87e499720567ec15fa2fee,Update README.md,2022-06-17 19:55:12-07:00,FALSE
+030ef9fb13f8be4fb3b9a9f8f6038875c807e7f5,Update README.md,2022-07-11 11:56:22-07:00,TRUE
+f94a2483fc259ad9e06df1a10e2be7b5e335a995,Update README.md,2022-07-11 13:09:11-07:00,TRUE
+74f65ba8de5e8a5a6d5f27fb728e279c2fa57e70,Distinguish between 'core modules' and 'all modules' in the graph I/O utility,2022-07-18 11:20:30-07:00,TRUE
+57d720cf1fb0246a32c84d25330728a05c094a10,"Compile Hydra-Java with Java 8, and publish to local repository",2022-08-25 21:54:44-07:00,FALSE
+5be7eecddcd6c469aab23ef35642bf714fbf72cd,Update README.md,2022-09-13 10:49:07-07:00,FALSE
+8fe95a0ab128bfe43ebfcdbb5dd95a39d1b3c519,Update README.md,2022-09-13 11:06:06-07:00,FALSE
+0ca7c30efe146743b65b9f61de3d7bb6d4927e97,Attach inferred type recursively to terms,2022-09-22 15:28:00-07:00,TRUE
+0aa7d1cc9dfac8aff568f789b2d2cf402a506e39,Update the README,2022-10-27 14:00:30-07:00,FALSE
+27cae6553f682e37cb7d1dcf30a38cbbf5024f61,Resolve merge conflict,2022-10-28 17:08:13-07:00,TRUE
+39d9beb5b90255a772cfd9408ad1d3d33b595c37,"Add a provisional stream constructor, and rebase",2022-10-30 14:31:51-07:00,TRUE
+31c964ff836cfeb127bb264d86e9fedb58c45580,Create implementation-specific README.md and LICENSE files,2022-11-20 22:17:49-08:00,FALSE
+fec60815921608af5bdd758d46a001c64672b463,Minor tweaks for the Hackage release,2022-11-21 06:43:16-08:00,FALSE
+43d9fcc0f70eac61222a997569f2b05c98bde6d8,Minor tweaks for the Hackage release,2022-11-21 06:50:40-08:00,FALSE
+8bf5bd5c09fdac3bd3ed49feba88b765230fcab8,Bring Scala code generation to a reasonable stopping point,2022-12-04 08:19:21-08:00,FALSE
+7b2de56ba8cdcfa6507e4ab2a38550cfed2be4d3,README tweaks,2022-12-05 07:10:39-08:00,FALSE
+1ab65a1b9edd6e253d2e3cca3a6ed51d4c4a3cac,Update the README,2023-02-25 22:28:56-08:00,FALSE
+5d30ae57810b175e003ad7bcb40ba146290d9350,Update README,2023-03-17 17:32:00-07:00,FALSE
+b865fb752dc222cd9d4609f10836fc0a44e3dad1,Tweak README,2023-03-21 11:28:37-07:00,FALSE
+fe5bb9e3d28bfb467bed204f1656d91c4aaa9d5d,Update README,2023-04-04 14:20:25-07:00,FALSE
+3913fe6a5f4b41fe6f3b970cb81d92edf1743df2,Link to the Property graphs wiki page,2023-04-06 12:23:29-07:00,FALSE
+8bc4fce6572a90ab7abbb590af9546f275889eec,Minor tweaks to READMEs,2023-05-01 06:53:17-07:00,FALSE

@@ -1,0 +1,85 @@
+sha,message,date,result
+719cce1ae6f02f0372764a3ac8d06a58fd836183,Initial commit.,2018-04-10 11:08:04-04:00,False
+0452d0033a142fb3e12a229c817b7122336ef713,Add the CircleCI badge.,2018-04-10 11:26:25-04:00,False
+2f2016273c606bf0e36480be2b63e171c0074b11,Add a simple features.xml and setup instructions.,2018-04-10 11:41:50-04:00,True
+172a2dadf5036522328bb62bba656e78ca82dbb5,Retrieve alarms from Kafka.,2018-04-10 13:36:49-04:00,True
+10f8da7798a41df8241797df7448d57a79a1402f,Working version with event feedback.,2018-04-11 14:16:21-04:00,True
+45698b869eb7030dfabfe047d7ce3bd107d816d9,Add more details and fix NPE.,2018-04-20 15:52:33-04:00,True
+21dc2b850b873450f65285f17c9d92a61900b359,Touchups.,2018-05-03 23:27:19-04:00,True
+dfe0aa6c423d7a80d3e064bb1994e6caf1e79b25,Playback state changes on the graph.,2018-05-04 15:34:24-04:00,True
+4fe87e67a4b329d354d833ddcc373e6ca0bcf39f,Move the JAXB model out to another module and extend the XSD to support alarm and incident definitions.,2018-05-08 10:29:09-04:00,False
+732bb1a6331c437f5386100ea2f0dcc2c0969cdc,Get stuff to load in Karaf again.,2018-05-23 17:09:55-04:00,True
+912269a8f8c227f087c74b65cb64ac86e142058c,Wire in the main engine.,2018-05-24 12:39:51-04:00,False
+ee74d07cad8b078ffa62ec2a3c2f5b126fff6e36,Send events over Kafka to OpenNMS instead of via REST.,2018-08-28 14:18:10-04:00,False
+8e800e91b6aa7ee17ec2462c6f1fbb385832fad3,"OCE-4: 1+K Active/Standby redundancy (#28)
+
+* 1+K Active/Standby redundancy for OCE
+
+* Minor refactor of the expiring map
+
+* Minor refactor of the ActiveStandbySituationProcessor
+
+* Implemented review feedback
+
+* Implemented more review feedback",2018-09-13 17:08:27-04:00,False
+b367a9a38ceb121833a7c68bd936d51c76c1acc7,"OCE-16: Migration 'incident' to 'situation' throughout the codebase (#34)
+
+* OCE-16: Initial migration 'incident' to 'situation'
+
+* OCE-16: correct overzealous name conversion
+
+* OCE-16: address merge conflicts",2018-10-25 15:05:18-04:00,False
+0366649df27c0d69dc554d0819cd9eb155891b99,Update more references to use Kafka.,2018-10-29 11:19:34-04:00,False
+d17bdbaded44c3ee0d29320cfd850183b74d0461,"Add RPM packages and include an installation guide.
+
+Squashed commit of the following:
+
+commit 1463a933fa9a2035a0195919259e11e9a793f874
+Author: Jesse White <jesse@opennms.org>
+Date:   Mon Nov 5 15:27:36 2018 -0500
+
+    Update docs with more information.
+
+commit f5ab5c03cfccf0ef1c47208e1cfba923ea7290dc
+Author: Jesse White <jesse@opennms.org>
+Date:   Mon Nov 5 14:59:39 2018 -0500
+
+    Add link to packages.
+
+commit 2bded7cb6470bfbc75032d5cd6bc9e0429f7f346
+Author: Jesse White <jesse@opennms.org>
+Date:   Mon Nov 5 14:48:51 2018 -0500
+
+    Add dependencies to fix build ordering.
+
+commit 3be120c331e318e16d86100effff5b84078a6ac4
+Author: Jesse White <jesse@opennms.org>
+Date:   Mon Nov 5 14:32:18 2018 -0500
+
+    Build and attach the RPMs to the build.
+
+commit 38e78a6f238dca0c43511bd8ff79f4a707985b34
+Author: Jesse White <jesse@opennms.org>
+Date:   Mon Nov 5 14:24:47 2018 -0500
+
+    Update the instructions.
+
+commit 8d070b0514d9f4e3db30b1251699f4a876e29f2c
+Author: Jesse White <jesse@opennms.org>
+Date:   Mon Nov 5 12:54:50 2018 -0500
+
+    Remove the manual feature start in favor of Karaf-Feature-Start=false.
+
+commit 1e4a9cdf3f981ad16a8ebfa7a478ca0b5b34caee
+Author: Jesse White <jesse@opennms.org>
+Date:   Mon Nov 5 01:02:36 2018 -0500
+
+    Packaging & installation guide (WIP)",2018-11-05 15:30:57-05:00,True
+289ff5a6f801717a3f2ddb634de3a6714d429caa,Swap build and install.,2018-11-05 15:32:39-05:00,False
+f60ee67a6c0c4185c4045937c95c5dce2ea688c4,Add some performance notes.,2019-01-03 16:00:32-05:00,False
+d5d0b29255d7a555a61b42a59ebf74675f30aecc,OCE-47: Add a release checklist,2019-03-09 20:06:46+01:00,False
+59c53d8562935b1155a772b11d099f952c5236a9,OCE-47: Add factorypath file to .gitignore and enable deploy for OCE-47 branch,2019-03-10 13:01:40+01:00,False
+4c5ef5092650ad5ab65134960e91fa69d331b0cb,Some installation instructions.,2019-03-11 14:22:24-04:00,False
+4bd21ec02fbcd8503f47c58e72e592625bac6ef9,More docs.,2019-03-11 16:11:24-04:00,True
+f634856cb72fcf0b8cbbf6a3a7fdde90c2eaf44f,Moar docs.,2019-03-11 16:56:33-04:00,False
+5bf3c23315866f1b2eb69de7daa5dddc3b560493,OCE -> ALEC,2019-04-12 11:40:33-04:00,True

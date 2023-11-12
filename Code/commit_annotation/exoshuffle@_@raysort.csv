@@ -1,0 +1,129 @@
+sha,message,date,result
+d57a05a776a50b666534cc914bbe177295bbe7eb,Create README.md,2020-09-24 16:56:56-07:00,False
+0f8614eedf26fc2fdc8dfbd3e963c9191132acd7,"Port code from ray-project (#2)
+
+* Port code
+
+* Move things around
+
+* Manual Prom service discovery file creation",2021-11-20 13:47:49-08:00,True
+ec1c09a57715f829e46cee2ff0029924145c3013,Reorganize requirements,2021-12-02 06:09:18+00:00,True
+148b08cb6edc7abe505d7cafbb4b8c6daa7ab0b7,Update README,2021-12-17 21:46:38+00:00,True
+5fe64bcf7a057592667219427cb69112df85cd27,Update README.md,2021-12-17 13:47:51-08:00,True
+be5ea21001cc4db8bc7e67e6c1f56bcfa14dc232,Update README.md,2022-01-17 10:59:40-08:00,True
+7948434782c66dae3270b8d64319ec31120044d5,Update README.md,2022-01-17 11:23:22-08:00,True
+fe2469dbe15998cf41cad6bc14801ce67ccee50f,Use GB instead of TiB,2022-01-20 06:15:02+00:00,True
+a270953e22f4a719ac4f9e4c16a7d632a58db1a8,"Make --use_object_store the default; Add Magnet (#17)
+
+* Use default max_io_workers
+
+* Rename and Magnet",2022-01-28 23:49:13-08:00,True
+4db492f4e6628a482313ba10a5eacc706dd6db7f,"Add in minor troubleshooting steps (#24)
+
+* Add in minor troubleshooting steps
+
+Jotting down some things I had to run during setup for documentation.",2022-02-13 12:18:31-08:00,True
+be496a90ff02a468ba0d5d36163e4ad062de178e,Add instructions to configure Ray,2022-02-14 10:26:31-08:00,False
+166ffc93d4988aafdf97b6952de2013125bdeee5,"Simplify cluster setup scripts (#25)
+
+* Cluster setup scripts
+
+* reorganize files
+
+* remove some files
+
+* Update README
+
+* Add _ prefix to terraform dirs
+
+* newline
+
+* nits; remove empty workflows",2022-02-14 14:08:19-08:00,True
+d6f8b2286c5f7eace63c13da955cd26e41db3260,Update README.md,2022-02-15 13:47:29-08:00,False
+b7ed57ca677047ff0d6ad24bc4cb31b831821886,"Add instructions to create and mount a new volume (#28)
+
+* Add instructions to create and mount a new volume
+
+* Resolve PR comments
+
+* Mount synchronously",2022-02-15 19:26:03-08:00,False
+522d67babc2f5962b084ba2cdcc09c040b5f1fea,Update README.md,2022-02-16 11:29:41-08:00,False
+d308d6f5176cfece8c38348ae775e766a8649466,Update README.md,2022-02-16 11:32:44-08:00,False
+ebd33c6428c4269f0818467eb0c9bb8e61b77a78,"Enable S3 spilling for Ray (#30)
+
+* Enable S3 spilling for Ray
+
+* Rename args
+
+* fix tests
+
+* fix
+
+* minor fix",2022-02-16 22:39:46-08:00,True
+ee8675a3f3dc404d1bf4f1c114e224565e964972,Update README and dependency versions,2022-03-02 19:28:39+00:00,True
+13301842b64d867482eadd76077a37da023ac4f3,"Spill to multiple s3 directories (#32)
+
+* Modify `cls.py` script to support spilling to multiple S3 directories through the `s3_spill` argument.
+
+Co-authored-by: Frank Luan <lsf@berkeley.edu>",2022-03-13 19:17:38-07:00,True
+7c4840d59a88f1fa49ee0fb08e95aff9a4dbfd0f,"Fix codeblock typo (#33)
+
+Delete extra backtick",2022-03-13 22:53:30-07:00,False
+0a16f31b0886a3418fc9934c33380652bb9398f3,Change /mnt/ebs0 to /mnt/data0,2022-03-17 23:33:24+00:00,False
+afbb601f3c19f40f460875c2f0fac59cd015a43e,Add Grafana instructions,2022-03-28 10:21:48-07:00,False
+e4535b22808ee26d91a414a6fbb6adab6a8a029e,"Centralized configuration (#55)
+
+* Centralized configuration
+
+* args -> cfg
+
+* fix configs
+
+* bump ray version
+
+* fix
+
+* configure cluster name from cfg
+
+* nightly
+
+* fix
+
+* add ft
+
+* fix ft
+
+* make s3 tests faster
+
+* fix ft
+
+* add readme",2022-05-21 13:33:12-07:00,True
+60d4f713c49bb78497473b25ed5dc42aba4af099,Update config in README (#56),2022-06-02 11:20:56-07:00,True
+dacfd753775b9eee8ff5f100dd44182a9c62e582,"Add script for autoscaler configuration (#63)
+
+* Rename folder to autoscaler and add template
+
+* Add autoscaler scripts
+
+* Update gitignore
+
+* Update template
+
+* Add wandb api key to env
+
+* Linting
+
+* Use string templates over envsubst
+
+* isort
+
+* Add back import
+
+* Remove unused import
+
+* Update README",2022-07-04 15:31:50-07:00,False
+0584ced854e582297577adfcfbaaedf6569e2b15,Standardize cluster naming (#81),2022-07-25 23:30:37-07:00,True
+48f405aab852ac1f1ed2fab5cd3f5c8bcd1675f9,cls.py now uses cluster name instead of config name; change  to lsf,2022-10-18 06:46:39+00:00,True
+b95f5fee44f7d9936452efc55a5a342fe036cce3,Add instructions for creating an S3 bucket using terraform script (#121),2022-12-07 19:51:09-08:00,True
+da54c78a82b9a1692be4610c6faad87d85ceef1c,Update AMI,2023-01-08 23:35:58+00:00,False
+5fa9e3340a5d3d4026c8accf1ab68cdc573f041d,Fix AWS AMI image,2023-01-12 01:32:18+00:00,False

@@ -1,0 +1,155 @@
+sha,message,date,result
+e4b5e24c08b2ad9540c7834432e527dae04deeba,Initial commit,2018-05-04 23:36:42+03:00,False
+b1bd99a49e25fd23449d52e53cb2743c1d21fa65,initial commit,2018-05-04 23:40:21+03:00,True
+bb36211dd93332b59c629aa0b2dd8a659e0b35ab,Update README.md,2018-05-04 23:41:11+03:00,True
+69744a89e9545538b2e4070772432d8b7f3bf8c7,Update README.md,2018-05-04 23:50:13+03:00,False
+2e20fccda1f87654eb3a039c951a0b79c61b9521,Update README.md,2018-05-04 23:50:25+03:00,False
+d51b6e5ba031b5ff2e90b082a9d5546019268e70,Update README.md,2018-05-04 23:50:41+03:00,True
+5e2aaa76a122f5c042f86b43ef7f0388c503cde2,small change to README,2018-05-06 20:08:03+03:00,True
+e2b880f53368d826480923c4e31e9d2247b1c76e,Update README.md,2018-05-06 21:01:52+03:00,False
+926ca65b510d166957ff9c405e8eb1d61446ddb1,Update README.md,2018-05-06 23:28:41+03:00,False
+02a8b1c1494cc7ee1b75706898a63d2694fcb106,and now with the saved file,2018-05-07 23:15:58+03:00,False
+ea71f5cbed2088d5e33ccd55045eec79354927d2,updated README,2018-05-07 23:42:55+03:00,True
+a720b16d98d5714ee48de97d21ded9e87acfce38,Update README.md,2018-05-07 14:39:00-07:00,True
+94004c5b9c869ca1e96bf09edbc01d1d9b2ed60a,"v0.1.8 Feature Update & Bug Fixes
+
+- Improved the way that reporting handles change in labels
+- Made templates.py completely redundant as part of the wider effort to make the entire pipeline completely dynamic in the sense of not relying at all in string labels
+- Fixed a bug in spear_reducer that locked the changes to learning rate only
+- Changing the name to Talos",2018-05-11 18:10:21+03:00,False
+849af32202019c511dc9509cefdb8505357c75d0,Update README.md,2018-05-11 18:15:06+03:00,False
+172aadaf98c8e6e8ca09bc8134c62db6a48c5da5,small fix to test script,2018-05-11 18:26:58+03:00,False
+c049175f3e96ec6e3f8d69141f2a197f4245dc5a,fixed an issue in Performance,2018-05-11 18:33:18+03:00,True
+5bb4649235ce274e6dd42ad14d12d8ad47d46f97,cleaned up Readme and some fixes,2018-05-11 18:38:38+03:00,True
+d3564c933e7f000754fea1857de2a2a806b934ed,Update README.md,2018-05-11 19:11:11+03:00,False
+d0c88c9ae1faf5056e2f8189a0595081d9320b32,Update README.md,2018-05-11 21:33:25+03:00,False
+0b61658228baf7015e644593153ff42c17e3e120,Update README.md,2018-05-11 21:37:28+03:00,True
+45307653eb31c396ddf34b3894f87a4b33c5fc03,Update README.md,2018-05-11 21:53:45+03:00,True
+92f3f2a299958318792512b54a0d09bedd4c108a,Update README.md,2018-05-11 22:24:05+03:00,False
+dc391ee566e9dd513dcfce6b5670781681979ca7,Update README.md,2018-05-11 22:24:40+03:00,False
+de26927de0cfbf740a4866a8200db0c6b904716d,Update README.md,2018-05-11 22:27:40+03:00,False
+02a3ee79673f28848a686e7173d26dceae957043,Update README.md,2018-05-11 22:28:45+03:00,False
+2a9f0733eae021c0927e6840b526169d6cf74048,Update README.md,2018-05-11 23:17:46+03:00,False
+069acadf2880cbb93c98b3ea3737f5dd98e10591,Update README.md,2018-05-12 19:51:30+03:00,False
+f0a3f759111e54035481faf9352578eac95642c0,"v0.1.8
+
+- added shapes
+- exposed all Dense layer parameters from hidden_layers() layer generator
+- changed data folder name to examples
+- cleaned up the namespace
+- fixed issues in the Reporting with the way the function names are handled
+- added a breast_cancer model to examples
+- added iris and breast_cancer params to examples
+- renamed the /examples to /notebooks",2018-05-12 22:07:23+03:00,False
+1b97d42620c40db1e858c60c6a6b47061bde65d4,Update README.md,2018-05-13 11:16:58+03:00,False
+3781e037c41198a7fee05254b47dc72d4881936f,Update README.md,2018-05-15 20:31:01+03:00,False
+debef51717da3f3a4575761929117a0642359800,Update README.md,2018-05-15 20:31:34+03:00,False
+aa7c7882dc34d76f0a84496f7b24f598e10199ed,Update README.md,2018-05-16 09:59:04+03:00,False
+b7afdb6c21196b8df5b105f3e5702bcf0f0b2f48,Update README.md,2018-05-16 10:03:13+03:00,False
+1349841ef084bb1984d41323b00482e84c9b2cab,Update README.md,2018-05-16 10:20:07+03:00,False
+e68d1375693dc387a3528c11697ab3eeb4caef1e,Update README.md,2018-05-16 10:25:37+03:00,False
+f797a94c058e137366e6876d14d5445962f5771a,Update README.md,2018-05-16 13:54:20+03:00,False
+030f8c59c883ca9c52ac07236e843eaffcc47e80,"Updated README.md
+
+A broken link was fixed",2018-06-01 18:17:44-03:00,False
+b75aadd55b7fd7b8e4e9fa9e52ad3f07fe020054,updated readme,2018-07-31 12:19:39+03:00,False
+98f89b99bfbe4658c754518b1165a082b1fbb893,"a major refactoring of the package
+
+- refactored Scan() and the way how parameters and reducers are handled
+- added an example iris model to examples/
+- renamed notebooks to examples",2018-08-05 19:43:04+03:00,True
+7540674beae988f296938bb21b87f035c0634ceb,fixing the notebook URI,2018-08-17 13:33:32-03:00,False
+62bfec8d3578aa1d382707eea9e4e2945cffac66,"added stratified grid_downsampling
+
+- added stratified sampling
+- added latin hypercube sampling with sudoku constraint
+- added latin hypercub e
+- commented several functions
+- moved shuffle as an option in sample_reducer
+- added 'random_method' parameter to Scan()
+- cleaned up and modified README.md
+- added latin hypercube sampling with sudoku constraint submodule
+- added the new features to tests",2018-09-01 13:20:08+03:00,False
+c12e66db309f69945086f2b12c9836f63e984b53,"added 9 different random sampling options
+
+# the new Randomizer() supports:
+
+- Quantum randomness (vacuum based)
+- Ambient Sound based randomness
+- Sobol sequences
+- Halton sequences
+- Latin hypercube
+- Improved Latin hypercube
+- Latin hypercube with a Sudoku-style constraint
+- Uniform Mersenne
+- Cryptographically sound uniform
+- Reduced testing script rounds to 5 from 10
+- FIX: a bug in sample_reduce that prevented stratification from working
+- TODO: need to think how stratification works with various randomizers and if it makes sense to have a separate option or random_method as it is now
+
+Also updated the README.md",2018-09-05 13:12:04+03:00,False
+565da94e55770fbfd17b88032c31e9bd0d3eda11,publishing the official documentation,2018-10-04 21:55:59+03:00,True
+9ff51ad272b4c6b8935c235fc849a14cca7dcd42,added a flowchart to README,2018-10-04 22:31:11+03:00,False
+98da4888981b7125ef5b94d41e780acb4c9fc673,"fixed the example notebook links
+
+- changed the README.md links for example notebooks
+- cleaned up output cells from one notebook",2018-10-05 23:04:17+03:00,False
+4f7a1d5c041c149cb7b52e0d72fdf046915d93ef,"completely renewed README.md
+
+The goal is to make the README.md as human-readable (and I guess website-like) as possible. This is a major push towards that.",2019-01-07 11:45:12+02:00,True
+9e64e78c66aed419a01f0bcde746252a2deba50c,"Added few things to README.md
+
+- made install code snippets bigger
+- one new example",2019-01-07 11:52:11+02:00,False
+f0dce799bc4d72238fa95b142636dd87212b7d65,small edit to README.md,2019-01-07 11:52:50+02:00,True
+1fd6c3d872cce229c0338be0a871aa0b25d3a248,"pepified
+
+Now 100% pepified.",2019-01-07 12:26:02+02:00,False
+9a092ae5c812faa7f6cbdf5bf7d469c236749a01,fixed readme broken link,2019-02-16 09:35:51+02:00,False
+4446306aa62e75b20565153746d321111cc11829,"v.0.4.9
+
+- fixed the case where reporting correlation could not handle custom metrics
+- layers exception checking is streamlined
+- custom error messsages are now handled much better
+- shapes.py is completely rebuilt and now called network_shape.py
+- fixed an issue that would have effected multi-array input shuffles
+- validation_split now uses import from new version of wrangle
+- README.md typo fixes and other improvements
+- fixed Scan() doctrings",2019-02-20 12:46:21+02:00,False
+a9fbe3550af3511ff53b51e3327ec9f090e46849,added sample reference for citations,2019-04-11 10:57:44+03:00,False
+c960fc1eff34d33a377c8c5a2701877d55dda148,improved README.md,2019-07-03 09:50:29+03:00,True
+158aecb8028dd4a8dd1669858f8e501d29dca83c,improved README.md,2019-07-03 09:51:38+03:00,False
+89e6c8804ebb9a3e0c3c74029bfca90be32ebd2f,improved README.md,2019-07-03 09:52:47+03:00,False
+9aeef748afdb5063a310d4c2eba349aac2c0592b,improved README.md,2019-07-03 09:53:23+03:00,False
+eed709edfb0064b7dc940d470fa305a683b7ec15,"new docs, optimizer rehaul and AutoML
+
+- there is now a new sub-module `autom8` inside which several AutoML features live
+- `AutoParams` automatically generates a parameter dictionary and streamlines its manipulation before experiment
+- `AutoModel` automatically creates a input model for `Scan()` which is fully wired for use with `AutoParams` or other experiment with comprehensive search
+- `AutoScan` leverage `AutoParams` and `AutoModel` to reduce the whole experiment into a single line of code
+- `AutoPredict` takes the results of `Scan` (or `AutoScan`), picks best model candidates, evaluates the candidates, picks the winner, and makes predictions with it on input data
+- the new docs are now completed
+- added `local_strategy` to reduction strategies, which allows making changes to the parameter space from local system while the experiment is running
+- added `pearson` and `kendall` reduction strategies
+- streamlined the way custom strategies can be added
+- completely rebuilt `correlation` strategy, including the underlying statistical approach
+- added a helper function `cols_to_multilabel` for custom reducers
+- added a new generator `SequenceGenerator`
+- removed redundant files from the repo
+- tests are updated in regards to the changes but not yet new features",2019-08-02 16:55:27+03:00,False
+3742bd2fdd7d29a2301b5f0fa929fbf77b460d51,Update README.md,2019-08-03 19:03:55+03:00,False
+fd71a76e48433ba72d1eac2f010c3a8b01ed2a40,"Docs update to v0.6.3
+
+- to avoid confusion, changed the namings inside `local_strategy.py`
+- updated docs to v.0.6.3",2019-08-25 14:09:33+03:00,False
+0d459dd47aa915e45773e4447954c663f3962287,removed daily-dev reference,2019-09-14 18:29:15+03:00,True
+aa3e105d913a36b1a697aecef1d1a42333fef92e,fixed codacy issues,2019-09-19 19:29:57+03:00,False
+898dc76270090dc6ace3b08df8f01adf437dbf05,"Updated README.md
+
+Fixed link for GitHub issue tracker",2020-10-20 14:35:49+02:00,False
+56a100310e9d40097b18720f1046819b538a874b,Updated to v1.0,2020-11-09 16:31:35+00:00,False
+8527b97cad3c7490d76a0f4f88869bbea3b13ba5,Update README.md,2020-11-21 12:10:47+00:00,False
+21452f07b281017c7035ac4a84a011b1b82b170e,Update README.md,2020-11-21 12:15:30+00:00,True
+7724bb50e2222c592cf35fe46556844d73c10da2,Update README.md,2020-11-21 16:34:56+00:00,False
+bdd4fb327d20007f818e8bac8a475568e6a3ccb6,Update README.md,2020-11-21 16:35:26+00:00,False
+3e1d400705ef042f314a88ed6c4ad7115bd3c93c,Update README.md,2020-11-21 16:37:12+00:00,False

@@ -1,0 +1,119 @@
+sha,message,date,result
+e409f7c84657bf5ec140bb765aa24464c138b8e5,Initial commit,2021-09-22 13:57:22+05:18,False
+f52b3f126585261bf53a32fec599c5c613ab7608,docs,2021-09-24 14:46:53+00:00,True
+3843c2b745e19ca9ba3df1e8e383e18a1ecb2051,docs:Update the documentation,2021-09-24 20:43:29+05:18,True
+adcd64e1c8897bf28c956ba7b73c5b7262002833,docs:Update readme,2021-09-25 00:30:45+05:18,False
+6f8eca069e69be1fdb1a34159ea3f4ed457518bd,docs:Update method docs,2021-09-26 08:09:02+00:00,False
+de35c67e5e10f743a1ec2af9c4270b2b59fbffa4,docs:Update method documentation,2021-09-26 13:30:47+05:18,False
+1309c087b7b7aa5ade183c2800a0789d1529b6ab,docs:Update readme,2021-09-30 16:37:36+05:18,False
+2409ee1375aa59a66f014a565295372bc92b5d0f,fix:Disable image draw upon instantiation(#6),2021-10-03 10:53:23+05:18,False
+36a9f04ec0a6fc2742e61e0fd9a5c77aaef286b4,Update README.md,2021-10-07 23:11:19+05:18,False
+7360e1aecbc20ad56cfae3f9c9bb25c0adebdcf7,fmt:Formatted all files with `black`,2021-10-08 16:51:23+05:18,True
+26ad036f86aabced8b0b5e799426107af0e485bf,docs:Update documentation for the new changes,2021-10-09 17:00:43+05:18,True
+a6a4ec027e2bc46027a5d9192027d208a2f6e6fa,Updated README (Changed project name),2021-10-31 19:50:40+01:00,True
+d5da414e5eb4ff524685af2535340d46cfeae7a6,Updated README and contribution guidelines,2022-01-01 08:11:25+01:00,True
+f76b6826a53adaedada2f5d102101f3cdb768332,Added screenshot and demo video,2022-01-01 08:50:40+01:00,False
+4fba85dc5f712d18e997f6adaf77fd9990ab5a52,"Updated README
+
+- Fix: Removed image height constraint.
+- Change: Removed Video Demo, wasn't working.
+- Change: Clean-up.",2022-01-01 09:13:12+01:00,False
+cd5549d38c09b3c27f5600637c1f53d77f8c56f9,Changed license and updated copyright info,2022-01-01 13:12:40+01:00,False
+7131b13de31113fdad950a45969740318e72c07e,Updated README,2022-01-02 10:01:26+01:00,True
+7cb6c6c298e128c7998c8a5112f14468f8a4d233,Updated README contibution info,2022-01-03 23:59:32+01:00,False
+3271d7c6a9c32e28b828d53da89079092792183f,Updated README and contribution guidelines,2022-01-29 17:34:36+01:00,True
+3000ec950a2e0f032d0ec27af1dc1d6604291171,"Setting up for release
+
+- Add/Change: Updated `setup.py`:
+  - Set upper bounds for package dependencies to avoid breakage.
+  - Updated classifiers and keywords.
+- Change: Updated package installation step in github workflow.
+- Change: Updated changelog.",2022-01-29 18:08:59+01:00,True
+6f7bfa02570f86e71745b6298fbd44784a8a7286,"Updated Requirements and Supported Terminals
+
+- Add: Indicated partial support for Windows.
+- Change: Updated list of supported terminal emulators.",2022-01-29 21:01:31+01:00,True
+926b4d1433a7b572bdc6236b4642153787b14aad,"Changed package name; Bumped package to v0.1.1
+
+- Unable to upload to PyPI as `term-img` due to a ""similar name"" response.
+- Bumped to 0.1.1 because 0.1.0 had been uploaded with the old package name (for a badge) in the README.",2022-01-29 22:43:21+01:00,True
+3c2bafed0fc33d28a876f1fbba4b6474d2b8b708,Updated contribution guidelines,2022-03-29 10:25:45+01:00,False
+06896e806ee202c7e2651a4079a85601ecc75cd8,[docs] Updated README,2022-04-14 18:06:03+01:00,True
+f232cdfa1ae7af71f6ab9e3e746d40fea8ada3ce,[docs] Updated README,2022-04-14 21:50:47+01:00,True
+3b007b2f3f8915c44f94f165f449e7c7ec306221,"[docs] Added demo video, Updated screenshot",2022-04-18 13:47:06+01:00,False
+ef909a19d3faf6820ef72d3b0c849b5d74443beb,"Renamed project, CLI executable, user directory
+
+- Change: `term-img` -> `term-image`.
+
+The name `term-img` clashes with that of a slightly similar project written in JavaScript.
+The new name also tallies with the package name on PyPI.",2022-04-20 12:19:47+01:00,True
+e8eb9330cac1ad6beb8db8d45e47d359083c14f8,"[docs] Updated the package name in the docs
+
+- Change: Updated the README.
+- Change: Updated the docs.
+- Change: Updated docstrings and comments.",2022-04-20 22:31:17+01:00,True
+79cd30e6f0608d72e6e162307892e7ba01cbb9ba,"Updated README
+
+- Add: Added docs build status badge.
+- Change: Updated WIP section.",2022-04-27 00:09:06+01:00,False
+e04fac1bcb797fd30e46964571eb65364b509976,"Updated README, Changed demo image",2022-06-02 13:56:38+01:00,True
+340d73d317594707a098ddfd590a4d68938b02d2,Updated README,2022-06-04 14:09:37+01:00,False
+c10e4c50f4d1587b9118f15ca20889a2c939443d,[docs] Updated quickstarts and library tutorial,2022-06-24 23:07:41+01:00,True
+2beac3999ccaca991b143162b657ce635c019efc,Updated README,2022-06-25 05:14:47+01:00,True
+2ac6ef8e2d298552e1657fd650c4916570a0590d,[docs] Updated requirements and terminal support,2022-06-25 16:25:14+01:00,True
+730db1eb56422565a12ed4c4340f57a8a544ae9a,Added Credits and Donation sections to the README,2022-06-25 17:47:38+01:00,False
+24385ada31df97af01af3eac32acc219ab686909,[docs] Added a Gallery section,2022-06-25 19:11:43+01:00,False
+551762866b8d477720bfd0674e9d0568c3ce49a6,[docs] Updated README and planned features,2022-06-26 22:21:17+01:00,False
+32cab2379d2edf916c4096a10e72f1590e326559,Updated the README and fixed a typo in the docs,2022-06-26 23:38:34+01:00,True
+098c82b612c94caa0490d8812f87c910bced6819,[docs] Updated the README and planned features,2022-06-27 01:13:54+01:00,True
+dbb32161fdd28848ef8d6f6e0f043fe0765d022b,Updated README badges,2022-06-27 03:08:25+01:00,False
+3b5a2f56c6d6dc95c246ae09cd3f91129e4a15bf,"[lib,docs] Removed all deprecated features
+
+- Change: Removed all deprecated features.
+- Add: Added a notice concerning the API status to the README and docs.
+
+Now adhering to the Semantic Versioning specification for major version zero for the sake of rapid development.",2022-07-12 19:16:27+01:00,False
+bc900a1082b9d190735a36d13a466e47df381bb2,Added study break notice,2022-09-07 00:57:02+01:00,False
+b397fca4a5b13e36805a7c84e1e634d681371dd9,Update on study break,2022-12-14 16:15:40+01:00,False
+59736c17ee898121143b738290d0cfae60e792bc,"chore: Update README
+
+- Change: Remove study break notice.
+- Change: Update CLI/TUI configuration info.",2023-01-09 10:54:58+01:00,True
+1c106ab6444d64d4359c6576940f06e6de5cea02,chore: Update README for CLI/TUI removal,2023-02-01 17:03:34+01:00,True
+12694156826fbd58e1937f2d08b7064bf0bd049d,chore: Add notice for separation of the viewer,2023-02-01 18:25:14+01:00,False
+70124c1836fa95b10ad1d155ae4d572651fa6a9d,chore: Update wording in README,2023-02-01 22:45:33+01:00,True
+abca69a2cc50f60aa16d982a8f11ccd294ce50bf,chore: Add project logo to README and docs,2023-02-01 23:05:48+01:00,False
+2e46e86afbffd19fc92b81666e5dddff1292aa23,chore: Add docs and tutorial links to README,2023-02-02 00:13:11+01:00,False
+941f3e990928eb503c3bba91034b60b330673af6,chore: Rewrite contribution guidelines,2023-03-05 22:50:21+01:00,False
+2cf02491c42eee9f6c094a737b092b669c7d1379,docs: Isolate known Issues and Planned Features,2023-03-06 14:03:12+01:00,False
+cf57056d8a7fc35cf4a0f815751e27f2c9b1d5e9,"docs: Update links to the documentation
+
+- Change: Update links to re-organized documents.
+- Change: Link to ""stable"" version instead of ""latest"".",2023-03-20 14:11:17+01:00,True
+964f7915b8a9fece823fafa1967617f0375130b8,"docs: Re-organize ""Getting Started"" documents
+
+- Change: quickstart/ -> start/",2023-03-25 21:58:05+01:00,True
+a524773d6a1cf769c964637b86d602614270e20c,"chore: Revert changes to doc links in the README
+
+- Change: Make links in README point to the current stable docs.
+  - Will update when about to bump project version.",2023-03-25 22:14:10+01:00,True
+8918aa2eacb42a667758149429f1d29f103fd647,"chore: Update image viewer project name and link
+
+- Change: `Term-Image-Viewer` -> `TermVisage`.",2023-03-29 15:48:35+01:00,False
+5d3728d2044cf1e49ce4bb2d6b1c4c8fe373a3c0,chore: Use symbols for emojis instead of markup,2023-03-29 17:16:56+01:00,False
+31541b7ce090ae3d0f4d1ef8d1e1c942fb561459,chore: Update links to the docs in README,2023-03-30 15:00:55+01:00,True
+0671cda1db631534acc5c4dbfa5fc1215a253235,"docs: Update installation steps
+
+- Change: Use `pip install git+https...` for development version.",2023-03-30 17:06:25+01:00,True
+268145298f5c00908a3aaa6d916719ddaf432033,docs: Update instantiation and drawing tutorials,2023-03-30 17:11:52+01:00,True
+a1d3cd54169b980534155861ee85423b7a04c81f,chore: Update README,2023-03-30 17:18:28+01:00,False
+d38d3644db30c6920f08b86e9c928b27f862c69f,"chore: Update README
+
+- Change: Remove unnecessary HTML paragraph `align` attributes.
+- Change: Update installation steps.",2023-04-22 04:17:22+01:00,True
+4b137993f6cbb77644c5c39b6d96ca4d06dbf64e,chore: Update twitter share badge on README,2023-04-23 17:30:17+01:00,False
+29736781f1de6677b76300c0623949c22b1d0fc5,chore: Add funding info,2023-04-27 17:27:56+01:00,False
+30c2da2f681ce8cc279b2a6ba82d099c685ea4c9,chore: Remove donate link at the top of the README,2023-05-06 12:28:00+01:00,False
+343172deed4b07689940ff9c4c1ee730466b5462,chore: Correct tautology in README,2023-05-21 01:29:51+01:00,False
+92ff4b2d2e4731be9e1b2ac7378964ebed9f10f9,chore: Change project logo,2023-05-21 01:35:54+01:00,False
+dae5ee16b1fb2e9964d239a87ecc032cbda20bf7,chore: Use new project logo in README,2023-05-21 01:39:44+01:00,False

@@ -1,0 +1,103 @@
+sha,message,date,result
+09bcd533a01f4a398a589630c9aeaba56b9c7d05,first commit,2013-11-07 17:31:54-02:00,FALSE
+ce713121b5457a4e1cb03b39dbc65d2ce75b2399,"Improved js selector.
+Updated readme.",2013-11-07 19:44:33-02:00,FALSE
+bc5f9bebbbb6abeb88a4d53cedaf03e3432adc23,fix link to demo page,2013-11-08 15:30:07+09:00,FALSE
+0e354a3789b1baf4465fee14f34697960abcd08c,"Refactor and use twistd to run the server
+
+I wanted to add a bit more structure before proceeding to add new
+twisted resources.",2013-11-13 19:27:24+09:00,TRUE
+9b7b1172765a3de09267f30adb903429cd4066fd,"slybot integration and adding extraction to fetch api
+
+This also improves the scrapy initialization and configuration.",2013-11-19 16:13:35+09:00,FALSE
+0c7b0ce471e23f38ef18113baa40fa2974342fbd,"Add project to the api request path
+
+This will unify the way projects are specified at the API level and will
+make it possible to do check project access in a unified way.",2013-11-21 17:23:54+09:00,FALSE
+b1fd49df9c438695f2a0b9637c2bc7fbecd3c4f3,"Add spec API
+
+This api can be used to fetch the specifications of slybot spiders.",2013-11-21 19:26:21+09:00,FALSE
+9ffc1a032f68bb52645d5347627a9fbf9d3fa395,"Saving of specs
+
+This implements saving of slybot specs. It also improves general error
+handling.",2013-11-22 19:14:36+09:00,FALSE
+c54716f41cfa4920ee9da4db806cddc2ac0bcecb,"Generate a list of spider names when spec/spiders is called
+
+Closes #2",2013-12-03 15:44:13+00:00,FALSE
+30b3033fabecaa41ab6a0360059214b0bf840076,add fingerprint to fetch response,2013-12-04 18:27:31+00:00,FALSE
+ab9f5bd18394b4c7aa7697534d7e8c9aab2d5eaf,#NAME?,2013-12-10 20:40:18-02:00,FALSE
+8cf962bca5bef7848ee527d1a043f98503bc42d7,Update README.md,2013-12-10 14:51:45-08:00,TRUE
+5e50a2ab18ccf8ea7015fdd20baf277914a1c27d,#NAME?,2013-12-11 12:01:38-02:00,TRUE
+3b7c3afaf8917d15adc5d9607dc927a92f3d5115,#NAME?,2013-12-11 12:05:50-02:00,FALSE
+b0e482e22a1ad27af807adab3b2e69e2517c7de4,#NAME?,2013-12-11 18:07:49-02:00,FALSE
+5963458755ecd4f7f43b46d94701d400d9fef1aa,add slyd tests,2013-12-24 10:44:17+00:00,FALSE
+6e58c996fc098b09bc29d48200652fb20aac9fb7,"change how links are returned and document
+
+Refs #4",2014-01-07 12:14:32+00:00,FALSE
+a9cdbfc1b6b84d756283689f2664047ffce83e60,"Add move and delete for spiders
+
+Closes #6",2014-01-08 19:26:21+00:00,FALSE
+63cffe036b8867e44c1efe0e769d715d578802d4,Update README.md,2014-01-22 06:19:22-08:00,FALSE
+e583a0a9a8bda9470106065374e9ea4cd4f98ba3,Update README.md,2014-01-22 06:28:21-08:00,FALSE
+5296f745c6d28d064dd01155c48246bc3a32d2f8,Update README.md,2014-01-22 06:30:17-08:00,FALSE
+a6deb7c8a693e73e5429800386361e276336612f,Initial commit,2014-03-21 07:24:31-07:00,FALSE
+14ed0bf5631de6c3ca1c6ac24d59625d3376ef02,Prepare as2 to merge into portia,2014-03-21 12:31:08-03:00,FALSE
+6d3ca0e1b71b149fd0b9303a7e5cc43ecb5ed0ae,Removed readme and gitignore,2014-03-21 12:32:20-03:00,FALSE
+de1f59e16544dbb731f77d7ac562790c2f0b0266,Create README.md,2014-03-21 11:38:49-07:00,FALSE
+1a568d72731609d64c34dbfb5d2f40daa6028683,Update README.md,2014-03-24 10:23:52-07:00,TRUE
+cbf5e86020fd108907a6fdc6304bcd5719207b55,Update README.md,2014-03-25 06:28:09-07:00,TRUE
+a5ddd8d01a86b0edd275abf74b5ec87cb1c43ad2,Fixed a typo.,2014-04-01 10:20:34-07:00,FALSE
+a4fd1c802168841a68f0f460e4efd872bcfc1ebb,"README: fix path to requirements.txt, re-order sections giving prominence to installation & usage",2014-05-08 15:48:55-03:00,TRUE
+526298d99211e9067af3d293b34310bf82dfbfba,Update README.md,2014-05-13 13:09:31-07:00,FALSE
+f8f787daa862cf43529a8c9917d076db4c0a8545,"installing from requirements.txt requires sudo on Mac
+
+Also, since we ```cd slyd``` already, we don't need slyd/requirements.txt",2014-05-14 22:33:43-04:00,FALSE
+ee1247182ba1c1aebab83c041629c4b1ac6cc615,Update README.md,2014-05-15 23:32:39-04:00,TRUE
+a4743e4ac58e99f9f4bf54c9cf09a9754db22935,Added instructions to run portia with vagrant.,2014-06-02 14:06:35-03:00,TRUE
+c54ee25ddadb264f0b3cfca1c4ff588c1b92527a,DOC: add prerequisites section,2014-06-20 23:01:53+02:00,TRUE
+b88d8a7c0ca262193b997596e395ca8cafc1c638,update README doc for deployment with scrapyd,2014-09-09 10:12:08+02:00,TRUE
+71df985f33a7a66ff03366e3cc5649a3aa8ef411,fix scrapyd docs,2014-10-15 09:36:33+02:00,TRUE
+92f9c0fd1e2e4a57f55d93f01318b8be48d5e746,Updated README with new documentation,2014-10-29 08:28:46+00:00,TRUE
+1277f1794c053ad32338e69ad3b102c7871a6119,Fixed links and removed anchors,2014-10-29 21:47:47+00:00,TRUE
+d14a43e6e9f25373815ee37465135eea2d410a4d,"DOC: typos+scrapyd  docs
+
+corrected some typos and re-added latest scrapyd doc from https://github.com/scrapinghub/portia/commit/c2463bdd1a6bc2f190d485984963a452223ab317",2014-11-05 13:51:27+00:00,TRUE
+1d310eb6ee9badc23e3db7d0c3c12e52831e0223,DOC: minor typos in README.md,2014-11-05 10:42:48-05:00,FALSE
+29d9e704653f46521b800109e0c331f7af80ec82,#128 Update docs to warn users not to run scrapyd in their project directory,2014-12-16 16:58:34+00:00,TRUE
+fba586e3d01e5436127a92fb216fe6a942f2f1c7,single requirements.txt file,2015-01-26 17:07:58-02:00,TRUE
+d76540d1ebf84570c75d297568d5bb8ea0beb2da,single requirements.txt file,2015-01-28 15:43:43+00:00,FALSE
+d228b5b36dd87c8c0d9ae2b1451768d13d14f51e,Update README to describe new features. Update provision.sh script,2015-01-29 16:02:08+00:00,TRUE
+1bbc8bfb712df6bc41c0a225d686480305032293,Update Installation instructions,2015-02-02 09:47:21+00:00,TRUE
+6d0eb35636e3ffcb5f7a030ce9df4b23078b5f62,Added dependencies in readme,2015-02-25 16:04:42+01:00,TRUE
+355b45b093aab42e4c88540b96534d4f50ab1a08,added zlib,2015-02-25 16:25:34+01:00,TRUE
+776278d182c3c7c66f9ed7ea0154312a356547b3,fixed indenting,2015-02-25 16:26:46+01:00,TRUE
+a4a6add7a56019a00ac013fe143dc4b7c931bbb0,"added dependency, moved instruction
+
+moved clone command to respective install methods, because `Running Portia Locally` defines own cloning step",2015-02-25 16:51:24+01:00,TRUE
+49ab331115d9bd167569f555f0b6f9457063a220,typo fix in README.md,2015-02-25 21:25:01+05:00,FALSE
+cd8314ac6aca6e8ab3ab17e2cc5d950120a742e9,added dependency,2015-02-25 18:33:07+01:00,FALSE
+abd25ffbe05b7aebbe6ab55883497624057b5cd8,"Moved dependencies to local install
+
+Made it explicit that dependencies are for ubuntu and debian",2015-02-26 12:23:36+01:00,TRUE
+c49c060aadcc33ec85a2e768d48214fbd2612aa0,Update README and fix typos,2015-02-26 17:09:32+00:00,TRUE
+7931447c5a050aa9a2e45b70b58600c29e47acf5,Port App to Ember-Cli. Start Plugin System. Adds #133 and #136,2015-02-27 21:55:25+00:00,TRUE
+fc3e4d7f94ad462b2bc3cd996efc72ce5bcae009,Update README. Update tap to use old path. Remove unneeded files,2015-03-08 11:19:59+00:00,TRUE
+b32c58f27341a56c6822c708f499b68fc8e06711,Update README. Update tap to use old path. Remove unneeded files,2015-03-10 18:22:12+00:00,TRUE
+116ed154b384dfb03d03c831fc162d5745b5ad36,Update README. Update tap to use old path. Remove unneeded files,2015-03-12 12:13:59+00:00,TRUE
+12eeff12241c902883cf74e4cbcc0437d4e0039c,Added documentation for field types,2015-06-04 16:19:59+01:00,FALSE
+66b954e2a98078cf023b7a897f9f6e268be06c5a,Replaced line delimited list of safe html's whitelisted elements with comma delimited list,2015-06-04 16:25:30+01:00,FALSE
+101c0dae3430fd3a5224c34608fcfb215544b0c9,Fix install scripts and documentation for JS support,2015-08-05 16:01:55+01:00,FALSE
+1eb18ddd3a3e90d975b0935c4d45c189a8a05c07,updated docker run command,2015-08-08 13:16:05-05:00,FALSE
+a483169b856be8bdbc733926c49941a06cf218e6,Update docs for annotating meta data,2015-09-04 12:56:44+01:00,FALSE
+1a1683fc7e17f0386dff2c30ad2b15cdf8f1eb49,Update docs for crawling with JS enabled,2015-09-04 17:32:18+01:00,FALSE
+eadff87ea95538430d4d27d1049e6f94c854b9ed,Removed redundant info from README and linked new docs,2015-09-29 11:05:00+01:00,TRUE
+6302eb09fa1378f0f7e84caa8cf9ce756f763752,Update README.md,2016-02-17 15:49:25+00:00,FALSE
+bd63296f000206ed5b890c7e26798f7a21446bf0,Update README.md,2016-02-17 17:34:04+00:00,FALSE
+e205df5568fd6d07aa1552ff42fe7df729dcb841,"Small README update
+
+Noting that this is more or less a WYSIWYG web scraper. I know that I would have found this great tool a little sooner if that search keyword was included (a little SEO tweak I guess). Closes #111",2017-01-10 22:33:13-06:00,FALSE
+c5ff01872135a4da1d14d85e5f1a27c296a2a0a2,Update install instructions,2017-02-24 09:59:40+00:00,TRUE
+2df52c48ed7c209f6eb30eabe5cdd3f6265bbc3e,Update README.md,2017-02-24 09:59:40+00:00,TRUE
+654049484020d3b5c5868d4be4c21431397214cf,"initial commit for portia-dashboard
+
+Author:    siegfried415 <wang.yong@neusoft.com>",2018-01-22 11:14:58+08:00,TRUE

@@ -1,0 +1,1625 @@
+sha,message,date,result
+4f166aadbb6098d2a0c4c55d5097e39a557a8ed1,Initial commit,2019-06-13 19:38:35+08:00,False
+5ddfed3276b7381c7e3d180645730f61022062c9,feat(build repo),2019-06-14 16:35:30+08:00,True
+28cb5f2e41553402d1cc73648e51c9615cd66345,feat: add LICENSE,2019-06-14 17:13:48+08:00,True
+eb3d01d6d70c83b67d278015d704d9c44a84c2e7,fix(Client): catch not connected bug,2019-06-14 18:05:25+08:00,True
+78df4c170b7df680e248f08d3f7b689dcb8b497d,"edit README, adding more examples",2019-06-14 19:02:14+08:00,True
+df7c9633011a7e71ea07a4e4a0feeedbf336649d,"feat: configurable, support non-binary inputs",2019-06-18 11:59:30+08:00,True
+c6e21258162b9efc005af828a15c0ef7adeee477,exit(readme): update readme,2019-06-20 16:05:51+08:00,True
+670d64584fea12bae4a99a1674525145729ead9a,Update README.md,2019-06-20 17:06:55+08:00,True
+e45564602cea7597961cafb1cee4fa13576aca82,fix(README): fix IndexType in README,2019-06-23 10:30:02+08:00,True
+11a905f480c4b66710764d57abdba03cf70ecde9,update readme,2019-06-26 17:01:04+08:00,True
+e57e33c3cffa696e2fe494e32416cfe3a742a372,python3.7 tests done,2019-07-09 16:18:01+08:00,True
+fe63d7d96e65531740782aa362ba4e0fc0335a6d,Update README.md,2019-07-10 14:19:36+08:00,True
+93ff501cd94a2289a0335e117f9ad5a0c5929fd6,Update README.md,2019-07-10 14:20:18+08:00,True
+44d6e1aa8af13401067b21f6d3e8f95d7f6badba,Update README.md,2019-07-10 14:27:38+08:00,True
+26116f8db89cd856d36b1ee13a755ff90868accb,update readme,2019-07-11 18:18:41+08:00,False
+85cc7b6c7c5ca382013cdcf489ec0371b3f0684c,fix readme codes bug,2019-07-12 09:21:08+08:00,True
+22bf1ed1472199ff72d5308a54219a0a7c9d282c,(issue#70): enhance README,2019-07-17 16:57:35+08:00,True
+f0ec68659b062c97ead7baaaae29334a07cae80e,MS-247: add note for pymilvus version,2019-07-18 11:02:14+08:00,True
+641a0301f21f115b2c86d2540abdbec17287295f,move project from yangxuan to mine,2019-08-13 19:50:57+08:00,True
+84afe2495b56ff0f12394a821c6ca1b22709cb7d,update readme.md,2019-09-10 14:04:07+08:00,True
+7496c8a758feca2adddd81f4b812a76f53616c15,update readme.md,2019-10-15 15:40:33+08:00,True
+c132d97caf95772e2d6a9b04087bd2fd80c315bd,add travis icon in readme. d,2019-10-16 11:40:50+08:00,False
+30df81f4e13b230c8aba9ead65c09a8eae18cc49,fix bug when run test_exceptions tests,2019-10-16 19:29:40+08:00,False
+059b7d444dcb8201c96c0f54da708f3dc9862eb2,update README.md for v0.2.4,2019-11-04 14:45:13+08:00,True
+d46c23edc52326f4f78dd9a16579ea72e13d5ce3,remove Indextype PQ,2019-11-04 15:08:01+08:00,True
+d21658b00e9a0ed0772ec4269b64d3b9312e36ec,update readme.md(modify example),2019-11-04 15:16:24+08:00,True
+1e8b85a9b4450d2549d37299f7a6a4713673daef,modify readme.md,2019-11-04 15:18:10+08:00,True
+2e09e1f51948dc91c01d183c49b8ea5bb571ffe8,add milvus v0.5.1 contrast,2019-11-04 16:25:06+08:00,True
+f43f7903b85556dcea70a4a7ec3f4d623b22f729,update readme.md,2019-11-04 16:33:25+08:00,True
+59d850482faca2020ba7a8c7ecb01371f4718f2c,update readme.md,2019-11-13 20:06:46+08:00,True
+cf80b79349c37ca7227e959685d53edce3b83ad3,update readme.md add doc link,2019-11-13 20:44:38+08:00,False
+a7177fefb2a136409345bd6fcd0d16ae09b8e109,remove chinese in readme.md,2019-11-13 21:24:18+08:00,False
+813b5db1b6c94dd6c2e5293811ff2669f1d35d6b,update doc adding version notes,2019-11-25 20:56:28+08:00,False
+a3771f8f27835e75613d6314ce2e4a3d66307877,cleanup,2019-11-29 15:36:35+08:00,False
+029daf610a7f1b87b55c9affaa76b688e263011d,prepare for v0.2.6,2019-12-07 14:15:54+08:00,True
+3e445c2691704a8fe335c9c4db44eb1d9b370522,update readme,2019-12-23 09:37:13+08:00,True
+cc8b2145e8ddb69ef52af3d4c1d1b9b96be02d7a,fix incorrect description (fix #136),2020-01-16 14:18:42+08:00,True
+b619be7af08d270c8208b5bd15badd424ee2f447,Prepare for v0.2.7,2020-01-16 14:36:10+08:00,True
+723974020e59e439ff920bdf307c79eaf6813d0c,"Add new metric type and binary vectors support (#139)
+
+* rename NSG to RNSG & add docstring & optimize
+
+* update readme
+
+* adding http handler
+
+* complete binary index
+
+* add method in stub
+
+* updating
+
+* add http handler
+
+* add binary example
+
+* http handler done & test case pass
+
+* add http handler
+
+* optimize param check
+
+* fix bug
+
+* add requirements
+
+* update requirements
+
+* http  handler
+
+* add bin index proto
+
+* Prepare for binary index (-test 0.2.49)
+
+* add binary vectors
+
+* fix incorrect description (fix #136)
+
+* Add binary vectors support (fix #138)
+
+* Prepare for v0.2.7
+
+* remove import GRPC handler and HTTP handler in main __init__.py",2020-01-16 15:06:57+08:00,True
+c2cef236296ee8f5dffb1beb23ac83afad483697,"Update README.md
+
+Reorganized the information.",2020-02-18 14:42:04+08:00,True
+cd1da6bacf50bdf3960cc73732c24d43e8bac733,"Update README.md
+
+Fix some style issues.",2020-02-21 11:01:24+08:00,True
+48277bb7a804aef7ab6606d4a356b78b71cd3f40,"Update README.md
+
+Add TOC.",2020-02-21 11:02:17+08:00,False
+35eede020eca6395b3f9689e361b58845454e4da,Update README.md,2020-03-06 14:01:46+08:00,True
+cf058871b3489116d0f99c5a3a6d37a1dee08364,"Update README.md
+
+Update for pymilvus 0.2.8.",2020-03-09 20:13:56+08:00,True
+20c7030d425e09a0f877b03f3a128a7a42bf076e,"Update README.md
+
+Change “table” to ""collection"".",2020-03-09 21:15:58+08:00,True
+96d9276e5940ff3feb3d74bdd15e286c14bef372,"update python doc link
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>",2020-03-10 19:05:45+08:00,False
+044eff4fd9e9835d54d7679b1f3b159acc98cf97,Update README.md,2020-03-11 11:58:19+08:00,True
+111f5c07ebd945f4cb40500eea57532fc18bb1fa,"fix typo in README.md
+
+Signed-off-by: yhz <413554850@qq.com>",2020-03-11 14:23:14+08:00,True
+c8ce03d1829f1a4ed35319160136e5c62a5a50c6,"fix incorrect demo in readme (fix #168)
+
+Signed-off-by: yhz <413554850@qq.com>",2020-03-11 21:33:15+08:00,False
+14a56a8469e0160b1e1672c84668a2369bb350f4,"update readme
+
+Signed-off-by: yhz <413554850@qq.com>",2020-03-11 21:41:41+08:00,False
+bfd6e55283739520ddc80af35ea94fdacc8b2102,"Prepare for v0.2.9 (fix #170, #171, #172)
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>",2020-03-29 19:31:00+08:00,True
+d1da792256f4c101444b9aa951864408a787c0df,"update readme
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>",2020-04-15 14:24:01+08:00,True
+f3e1324f758549c61d1ffb62271d77b2cd6f4053,"Update doc link
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>",2020-04-15 20:53:03+08:00,False
+bb799829492e99f73e7ee8a14a8a1fa0813f0c18,"Prepare version 0.2.11 (#210)
+
+* add new api search_by_ids
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update example
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* fix typo
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* fix search by ids error
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add search_by_ids test case
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* use connection pool
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* async api pass
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add async examples
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Fix TypeError raised in inserting vectors with async set true (#200)
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add timeout for async APIs
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add API close
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* optimzie code
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* remove terminate() in pool
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* deprated connect
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* get collection info failed when info is null (fix #201)
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* fix
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update http handler
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* ..
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* filter -1 result
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Update APIs names
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update future done not raise exception
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Fix excepted exceptions if async invoke with timeout (#207)
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* remove api compacity
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add more params in pool
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add pool try_connect and pre_ping params
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* remove parms recycle
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update for http handler
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update example
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update readme
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* rename project name
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Prepare for v0.2.11
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update async example
+
+Signed-off-by: yhz <413554850@qq.com>",2020-05-15 17:44:40+08:00,True
+4a55d480d9d1ad72750290d6d6400e31a7ccc553,"Improvements to README (#212)
+
+* Add FAQ section to README
+
+* Fix title/ref in README",2020-05-28 10:00:51+08:00,False
+f35ae3f8f507e15060bd23f53b3843862482dc14,"Main 0.2.12 (#217)
+
+* add new api search_by_ids
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update example
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* fix typo
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* fix search by ids error
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add search_by_ids test case
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* use connection pool
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* async api pass
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add async examples
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Fix TypeError raised in inserting vectors with async set true (#200)
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add timeout for async APIs
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add API close
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* optimzie code
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* remove terminate() in pool
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* deprated connect
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* get collection info failed when info is null (fix #201)
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* fix
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update http handler
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* ..
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* filter -1 result
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Update APIs names
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update future done not raise exception
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Fix excepted exceptions if async invoke with timeout (#207)
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* remove api compacity
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add more params in pool
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add pool try_connect and pre_ping params
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* remove parms recycle
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update for http handler
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update example
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update readme
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* rename project name
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Prepare for v0.2.11
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update async example
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Ready to develop v0.2.12
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add attribute name in stub
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Prepare version 0.2.11 (#210)
+
+* add new api search_by_ids
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update example
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* fix typo
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* fix search by ids error
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add search_by_ids test case
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* use connection pool
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* async api pass
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add async examples
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Fix TypeError raised in inserting vectors with async set true (#200)
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add timeout for async APIs
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add API close
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* optimzie code
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* remove terminate() in pool
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* deprated connect
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* get collection info failed when info is null (fix #201)
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* fix
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update http handler
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* ..
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* filter -1 result
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Update APIs names
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update future done not raise exception
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Fix excepted exceptions if async invoke with timeout (#207)
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* remove api compacity
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add more params in pool
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add pool try_connect and pre_ping params
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* remove parms recycle
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update for http handler
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update example
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update readme
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* rename project name
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Prepare for v0.2.11
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update async example
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update exxample
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add retry
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* .
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Ready to release version 0.2.12
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>",2020-05-29 15:11:20+08:00,True
+ef2aa4a2ed76b030d7cc55a6d91a9cdb095ea20e,"Add sdk statistics badges (fix 220) (#221)
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>",2020-05-30 21:21:53+08:00,False
+8fd6d9825622e54a1e863fa12ee2004129d3a541,"V0.2.13 (#225)
+
+* Update doc link
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update example
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Start to develop v0.2.11
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update for hybrid
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add hybrid api
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update hybrid insert
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add hybrid search
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add search hybrid
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update hybrid searach example
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* fix error when rpc timeout
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Update hybrid api
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add new api search_by_ids
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update example
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* fix typo
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* fix search by ids error
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add search_by_ids test case
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* use connection pool
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* async api pass
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add async examples
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Fix TypeError raised in inserting vectors with async set true (#200)
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add timeout for async APIs
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add API close
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* optimzie code
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* remove terminate() in pool
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* deprated connect
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* get collection info failed when info is null (fix #201)
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* fix
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update http handler
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* ..
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* filter -1 result
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Update APIs names
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update future done not raise exception
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Fix excepted exceptions if async invoke with timeout (#207)
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* remove api compacity
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add more params in pool
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add pool try_connect and pre_ping params
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* remove parms recycle
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update for http handler
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update example
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update readme
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* rename project name
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Prepare for v0.2.11
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update async example
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Ready to develop v0.2.12
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add attribute name in stub
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Prepare version 0.2.11 (#210)
+
+* add new api search_by_ids
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update example
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* fix typo
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* fix search by ids error
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add search_by_ids test case
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* use connection pool
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* async api pass
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add async examples
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Fix TypeError raised in inserting vectors with async set true (#200)
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add timeout for async APIs
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add API close
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* optimzie code
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* remove terminate() in pool
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* deprated connect
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* get collection info failed when info is null (fix #201)
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* fix
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update http handler
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* ..
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* filter -1 result
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Update APIs names
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update future done not raise exception
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Fix excepted exceptions if async invoke with timeout (#207)
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* remove api compacity
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add more params in pool
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add pool try_connect and pre_ping params
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* remove parms recycle
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update for http handler
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update example
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update readme
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* rename project name
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Prepare for v0.2.11
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update async example
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update exxample
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add retry
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* .
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update grpc codegen for hybrid usage
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update hybrid api
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* examples
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Add new API called 'reload_segments' temporarily
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Ready to release version 0.2.12
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Add sdk statistics badges (fix #220)
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Merge
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Return 2-D empty result if response is empty
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Fix http get entity by id issue
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Add single connection pool
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Add SingleScopedConn
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* ..
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* enlarge timeout to 30
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Set default pool is sightenthread
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Add keepalive time
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Remove __del__
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Preprepare for v0.2.13
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Prepare for v0.2.13
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Remove surplus grpc import
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Update example and readme
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Ut pass
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>",2020-06-13 20:02:08+08:00,True
+d6a986e732efa5dba8253905640d6a81ca9e10d2,"Update README.md (#234)
+
+Updating the readme to fix typos",2020-07-09 19:03:58+08:00,False
+24582e35a1fc0503c2963372d4ef58efd60f9ef3,"Prepare for v0.2.14 (#238)
+
+* Update doc link
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update example
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Start to develop v0.2.11
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update for hybrid
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add hybrid api
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update hybrid insert
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add hybrid search
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add search hybrid
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update hybrid searach example
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* fix error when rpc timeout
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Update hybrid api
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add new api search_by_ids
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update example
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* fix typo
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* fix search by ids error
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add search_by_ids test case
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* use connection pool
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* async api pass
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add async examples
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Fix TypeError raised in inserting vectors with async set true (#200)
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add timeout for async APIs
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add API close
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* optimzie code
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* remove terminate() in pool
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* deprated connect
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* get collection info failed when info is null (fix #201)
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* fix
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update http handler
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* ..
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* filter -1 result
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Update APIs names
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update future done not raise exception
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Fix excepted exceptions if async invoke with timeout (#207)
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* remove api compacity
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add more params in pool
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add pool try_connect and pre_ping params
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* remove parms recycle
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update for http handler
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update example
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update readme
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* rename project name
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Prepare for v0.2.11
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update async example
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Ready to develop v0.2.12
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add attribute name in stub
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Prepare version 0.2.11 (#210)
+
+* add new api search_by_ids
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update example
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* fix typo
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* fix search by ids error
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add search_by_ids test case
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* use connection pool
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* async api pass
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add async examples
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Fix TypeError raised in inserting vectors with async set true (#200)
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add timeout for async APIs
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* add API close
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* optimzie code
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* remove terminate() in pool
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* deprated connect
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* get collection info failed when info is null (fix #201)
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* fix
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update http handler
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* ..
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* filter -1 result
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Update APIs names
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update future done not raise exception
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Fix excepted exceptions if async invoke with timeout (#207)
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* remove api compacity
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add more params in pool
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add pool try_connect and pre_ping params
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* remove parms recycle
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update for http handler
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update example
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update readme
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* rename project name
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Prepare for v0.2.11
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update async example
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update exxample
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add retry
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* .
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* update grpc codegen for hybrid usage
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* update hybrid api
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* examples
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Add new API called 'reload_segments' temporarily
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* add
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Ready to release version 0.2.12
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Add sdk statistics badges (fix #220)
+
+Signed-off-by: Yhz <yinghao.zou@zilliz.com>
+
+* Merge
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Return 2-D empty result if response is empty
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Fix http get entity by id issue
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Add single connection pool
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Add SingleScopedConn
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* ..
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* enlarge timeout to 30
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Set default pool is sightenthread
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Add keepalive time
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* P test V0.3.33
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Fix has_partition bug in http handler
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Prepare for v0.2.14
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Prepare for v0.2.14
+
+Signed-off-by: yhz <413554850@qq.com>
+
+* Remove hybrid example
+
+Signed-off-by: yhz <413554850@qq.com>",2020-07-20 16:31:34+08:00,True
+efa75f069dc1162683c76defb9524b73181ea7ce,"Update Readme
+
+Signed-off-by: yinghao.zou <yinghao.zou@zilliz.com>",2021-01-07 09:55:28+08:00,True
+f54e9cb174fcf3fe566d0527a061cf968d956c64,"Prepare for v0.4.0
+
+Signed-off-by: yinghao.zou <yinghao.zou@zilliz.com>",2021-01-21 13:28:31+08:00,True
+b13094d8c398cccc7609298969f6f6f239436bd7,"Update Readme (#409)
+
+Signed-off-by: yinghao.zou <yinghao.zou@zilliz.com>",2021-01-21 15:15:18+08:00,True
+0df13666a2c833f1767b811ee95c2d3b339b1738,"Update milvus version constract table (#421)
+
+Signed-off-by: yinghao.zou <yinghao.zou@zilliz.com>",2021-02-23 09:50:32+08:00,True
+310df359f15f821d60c1ca47c402684b8a071cef,"Format readme (#423)
+
+Signed-off-by: yinghao.zou <yinghao.zou@zilliz.com>",2021-02-25 14:30:12+08:00,True
+0ef9fa7f9f6f85c3d4bf5a905ec4a6d78ca1ac60,"Update README version tabls (#430)
+
+Signed-off-by: yinghao.zou <yinghao.zou@zilliz.com>",2021-03-08 11:23:02+08:00,True
+a97043d68733f899254d2dcdc7c8f1b27f161447,"Update README (#439)
+
+Signed-off-by: yinghao.zou <yinghao.zou@zilliz.com>",2021-03-09 10:11:52+08:00,True
+f2ceb2ac4a71531f4a1016899d2c5b537115180e,"Add CI and Mergify (#459)
+
+* Remove many unsed code
+
+Signed-off-by: yinghao.zou <yinghao.zou@zilliz.com>
+
+* Update third-party package require
+
+Signed-off-by: yinghao.zou <yinghao.zou@zilliz.com>
+
+* Remove numpy code
+
+Signed-off-by: yinghao.zou <yinghao.zou@zilliz.com>
+
+* try test
+
+Signed-off-by: yinghao.zou <yinghao.zou@zilliz.com>
+
+* Add git ci code
+
+Signed-off-by: yinghao.zou <yinghao.zou@zilliz.com>
+
+* update gitignore
+
+Signed-off-by: yinghao.zou <yinghao.zou@zilliz.com>
+
+* Add mergify
+
+Signed-off-by: yinghao.zou <yinghao.zou@zilliz.com>
+
+* Update mergify logic
+
+Signed-off-by: yinghao.zou <yinghao.zou@zilliz.com>
+
+* [ci] Update format
+
+Signed-off-by: yinghao.zou <yinghao.zou@zilliz.com>",2021-03-25 16:51:18+08:00,False
+d87798e7c5f50f96423d4f25caf29c1587d22ba3,"Add IndexType and MetricType in documentation & Support cross-referencing (#468)
+
+Signed-off-by: yinghao.zou <yinghao.zou@zilliz.com>",2021-03-25 16:51:18+08:00,False
+d61550c45572d75b2b6da29c577bbcad4d8320bc,"Update readme Compatibility versi9on (#471)
+
+Signed-off-by: yinghao.zou <yinghao.zou@zilliz.com>",2021-03-26 03:16:40+00:00,True
+0e683abb3e02be9731fac81819c9efee331f969f,"Fix GitHub Actions and update README (#479)
+
+Signed-off-by: Xiangyu Wang <xiangyu.wang@zilliz.com>",2021-08-15 18:26:26+08:00,True
+74d164d99c13bae29bbb0ea9163727f47b92c082,"merge pymilvus v1.1.0 release into 1.x (#501)
+
+* Update support versions (#491)
+
+Signed-off-by: Xiangyu Wang <xiangyu.wang@zilliz.com>
+
+* Force using http/https scheme with http-handler (#497)
+
+Fix: #496
+See also: https://github.com/milvus-io/milvus/issues/5030
+
+Signed-off-by: yangxuan <xuan.yang@zilliz.com>
+
+* Bump jinja2 pygments and py (#498)
+
+Bumps:
+- jinja2 from 2.10.3 to 2.11.3.
+- pygments from 2.5.2 to 2.7.4.
+- py from 1.8.1 to 1.10.0.
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+* Prepare for 1.1.0 (#500)
+
+Signed-off-by: yangxuan <xuan.yang@zilliz.com>
+
+Co-authored-by: Xiangyu Wang <xiangyu.wang@zilliz.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",2021-08-15 18:26:27+08:00,True
+33a2fb5bb1fbb7473488303350b6532eb0e066d5,"Add support for milvus 2.x (#510)
+
+Signed-off-by: dragondriver <jiquan.long@zilliz.com>
+
+Co-authored-by: dragondriver <jiquan.long@zilliz.com>",2021-08-15 18:28:06+08:00,True
+c38448833cfbb67df43db7d8599abc60e4c97b5e,"Add README (#519)
+
+* Add README
+* Update version in __init__.py
+
+Signed-off-by: Xiangyu Wang <xiangyu.wang@zilliz.com>",2021-08-15 18:28:06+08:00,True
+7b7e115646ddc214baef83fb7f5cba2e20e4e356,"Change recommended version of pymilvus (#530)
+
+Signed-off-by: yangxuan <xuan.yang@zilliz.com>",2021-08-15 18:28:06+08:00,True
+023208f5d26e8e4d4537341a955f94c210d64939,"Update PyMilvus version on README.md (#584)
+
+Signed-off-by: yangxuan <xuan.yang@zilliz.com>",2021-08-15 18:28:08+08:00,True
+43e8df82718a4cf3b75c3c78b1e77cafc4fd9220,"Fix recommended version of PyMilvus (#585)
+
+Signed-off-by: yangxuan <xuan.yang@zilliz.com>",2021-08-15 18:28:08+08:00,True
+218778a2ff818f3ac8b618810a9f5ae157f37c85,"Add slack channel link into readme (#593)
+
+Signed-off-by: Xiangyu Wang <xiangyu.wang@zilliz.com>",2021-08-15 18:28:08+08:00,False
+4aab898a72c84c38af913f5071e8625aa845808a,"Add rc2 for README (#607)
+
+Signed-off-by: xiaocai2333 <cai.zhang@zilliz.com>",2021-08-15 18:28:08+08:00,True
+683d1b7580800e33955b8c74d67d0314c2beecd6,"Add rc3 for README (#629)
+
+Signed-off-by: Xiangyu Wang <xiangyu.wang@zilliz.com>",2021-08-15 18:28:09+08:00,True
+c89be9be031b48e3997a104e83f242e9e8b928f0,"Change recommended pymilvus version to rc4
+
+Signed-off-by: XuanYang-cn <xuan.yang@zilliz.com>",2021-08-15 18:54:52+08:00,True
+a177fd12300291b2d2b70b99b65a4dbc97da1aa1,"Change newest version to rc5 (#674)
+
+Signed-off-by: XuanYang-cn <xuan.yang@zilliz.com>",2021-08-31 12:03:56+08:00,True
+be04324e1fdf75099277e4a32bf4c2951d77aed3,"#Updated README.md (#686)
+
+-> Updated Documentation URL.
+
+Signed-off-by: RahulMistri <rahulmistri1997@gmail.com>",2021-09-02 10:23:57+08:00,False
+05b5d9b66e6465b7cd9d3d517bc1c1839f19afbe,"Update version in document (#705)
+
+Signed-off-by: zhenshan.cao <zhenshan.cao@zilliz.com>",2021-09-10 20:27:58+08:00,True
+dbcc5aa6005d86aab89792b7f0015b32b7d9b8e0,"[skip ci] Add Milvus x Hacktoberfest banner (#729)
+
+Signed-off-by: Claire Yu <wuchuanzi.yu@zilliz.com>",2021-09-23 18:39:49+08:00,False
+fff6b967e3abd736460161d7c0ecf8db6a11e47b,"Update the documents for 2.0.0rc7 (#750)
+
+Signed-off-by: Xiangyu Wang <xiangyu.wang@zilliz.com>",2021-10-11 20:58:23+08:00,True
+c9f015a04058638a28e1d2a5b265147cda0b0a23,"Change docs for 2.0.0rc8 (#794)
+
+Signed-off-by: XuanYang-cn <xuan.yang@zilliz.com>",2021-11-01 15:48:02+08:00,True
+290d76fc9b5d3153c7c0fffee218a2acb51b8938,"Remove hacktoberfest banner (#835)
+
+Signed-off-by: XuanYang-cn <xuan.yang@zilliz.com>",2021-11-29 11:55:12+08:00,False
+24abb0e48a94e18446c940dbdba191ec73de1f5f,"Update version in documentation (#852)
+
+Signed-off-by: zhenshan.cao <zhenshan.cao@zilliz.com>",2021-12-31 19:36:16+08:00,True
+cfbc33e2df459ac154439f261df080ab00fd30a6,"Prepare to release pymilvus 2.0.0
+
+Signed-off-by: XuanYang-cn <xuan.yang@zilliz.com>",2022-01-25 17:56:43+08:00,True
+027fa27be56033a396e085f6169a1deb9fd60882,"Update README.md (#874)
+
+Fix documentation.
+
+Signed-off-by: Yuchen Gao <103244284@qq.com>",2022-02-08 11:37:41+08:00,False
+c15c1f0a9e7c406a78fc9bf2ae47b881887ebf84,"Fix readme bug (#900)
+
+Signed-off-by: XuanYang-cn <xuan.yang@zilliz.com>",2022-02-25 10:49:49+08:00,True
+175e2bfa1a1a4b49cba916de627a7ad821c269f2,"Enable gitsubmodule for milvus-proto in pymilvus (#975)
+
+See also: milvus-io/milvus#15653, #909
+
+Signed-off-by: XuanYang-cn <xuan.yang@zilliz.com>",2022-05-05 20:03:47+08:00,False
+c4fd1c45c6994c3261ff2ee82ff9b33f585e4837,"Add check milvus proto action (#1032)
+
+Signed-off-by: XuanYang-cn <xuan.yang@zilliz.com>",2022-06-15 19:08:06+08:00,True
+15d41ab661be59475e94b966720c9a8a2f90dff2,"Extend grpcio version requirements range (#1033)
+
+To run pymilvus, we only need `grpcio`
+To generate python files from protos, we need `grpcio-tools`
+
+This PR:
+1. Removes `grpcio-tools` from install requirements
+2. Extends `grpcio` versions
+3. Provides the compatible version ranges of `grpcio-tools` and `grpcio`
+
+See also: #1030, #943, #946
+
+Signed-off-by: XuanYang-cn <xuan.yang@zilliz.com>",2022-06-16 10:28:07+08:00,False
+e6e7e0ebff13130c20eb2f68efad56b226852c94,"Add bulkload example (#1036)
+
+Signed-off-by: groot <yihua.mo@zilliz.com>",2022-06-17 09:28:08+08:00,False
+1477ce8bbce69d7111fb810df6f0ab07d310d040,"Prepare to release pymilvus2.1.0 (#1073)
+
+Signed-off-by: XuanYang-cn <xuan.yang@zilliz.com>",2022-07-22 14:06:26+08:00,True
+4fcbdf312c28fd65cfebe70e166dac6f1306664d,"Fix readme link (#1124)
+
+Signed-off-by: XuanYang-cn <xuan.yang@zilliz.com>
+
+Signed-off-by: XuanYang-cn <xuan.yang@zilliz.com>",2022-09-01 14:50:54+08:00,True
+7100fa02fc322d8de08ace4c6a09e4688135414c,"Update Readme to the latest pymilvus version (#1232)
+
+Signed-off-by: yangxuan <xuan.yang@zilliz.com>
+
+Signed-off-by: yangxuan <xuan.yang@zilliz.com>",2022-11-21 15:13:08+08:00,True
+2e99fcf22c7e659d1833ebba6f966d9d7842b49f,"Fix broken link (#1338)
+
+Signed-off-by: leykun10 <leykunejigue@gmail.com>",2023-03-28 14:35:56+08:00,False

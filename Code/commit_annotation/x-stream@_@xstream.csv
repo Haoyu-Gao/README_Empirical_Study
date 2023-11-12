@@ -1,0 +1,14 @@
+sha,message,date,result
+6b320b84de4b8632960d38d3d64249bfc59fa76f,Update README. Add travis badge.,2015-05-15 21:35:26+02:00,True
+3ae87734fff6ed7d8667d521d92e29813001a08c,README title,2015-05-15 21:36:33+02:00,False
+269e577f26548f55aa437245d760ffc0b5ce0940,Add build status for 1.4.x branch.,2015-07-23 00:14:23+02:00,True
+482ccac3f5f6efcd330784d49897ca9f7e4512ae,Fix breanch name..,2015-07-23 00:16:24+02:00,True
+cbb572a932ce90f30c493a1e180e5ad6c9b0e8c0,Reformat.,2015-07-23 00:35:43+02:00,True
+580c902cc5ad25f5ebf27ff20042578d7dacd9a8,Fix format.,2015-07-23 00:36:27+02:00,False
+48227644181075922c9d4175ecf8373cb5fccbca,"Line, not header.",2015-07-23 01:02:52+02:00,False
+4991d42a5fcf96d520f9af84f47641fb3b004fe4,Fix format.,2015-07-23 01:03:50+02:00,False
+5984399bfbd7cebb716e7bd30cd3079f70a1e355,Add coveralls.io.,2016-08-09 00:33:32+02:00,False
+2dc04acddf2e9d114b3cbbdcbbe02952c2d8b352,Fix new line.,2016-08-09 00:36:11+02:00,False
+29bb62e935b250da942aedce5971575e7089cfb6,Update README. Add links in Markdown version (closes #89).,2017-05-26 22:43:28+02:00,False
+3da7c49560c87bafc91fbd0393b5606402e6b6f7,Recommended is MXParser now.,2021-12-28 23:50:55+01:00,False
+6cdd6567b28d2fb8d6e02d00236457f1e270fcb4,"Remove Travis, add GitHub action.",2023-01-02 00:33:37+01:00,False

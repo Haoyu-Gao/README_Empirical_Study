@@ -1,0 +1,330 @@
+sha,message,date,result
+add3537447c0e7a5953e063c97f016817cb97fb9,"import source files, forgetting about 938 prior commits",2020-06-18 09:13:19-06:00,TRUE
+b505197af1f4ec0e5eef5842bf7ad615539ad448,documentation changes,2020-06-24 15:03:21-06:00,FALSE
+72b6ee5cf3bb393f0b8a8e11c2b81f7b4307b4e3,"Remove Build Status from README
+
+This should have been removed as part of the migration. The build status
+in the README will be reimplemented using GitHub Actions and
+https://shields.io",2020-06-24 12:31:01+02:00,FALSE
+d2d1f26e7b8b795fa195a7a469b2b613b675e676,update documentation,2020-06-24 12:55:35+02:00,FALSE
+3b8f6862433978166b5b9ae34e6c04c097c4b9e4,"readme: update example and describe namespace, removing rule-category",2020-06-28 12:52:45-06:00,FALSE
+afe5dba92ae42b6ef663240817b39df603ec38f6,document signed vs unsigned,2020-06-30 22:11:57+02:00,FALSE
+cb7b2c961847b7a96297f376cb8b2c1a0badcd6c,readme: typo,2020-06-30 22:27:40-06:00,FALSE
+767a76d8147fdb4b1c6849415c5515cb663d9bd3,"Allow to add a description for every feature
+
+Enable associate context for all features. This was called symbol before
+and only enabled for `number`, `offset` and `bytes`.
+
+This is not enabled for strings with regular expressions, as they are
+not a feature.",2020-07-02 11:31:31+02:00,FALSE
+681feebf356d9d80bfb970c2136cb846eb6c1b10,"Adapt description implementation to new output
+
+As the `__str__` method is not used anymore in the output, the
+description implementation needs to be adapted.",2020-07-02 16:50:07+02:00,FALSE
+81741b49f7be843585e6c59559820ef7ef87e8dd,"Support inline descriptions for count
+
+```
+count(number(2 = AF_INET/SOCK_DGRAM)): 2
+```",2020-07-02 16:50:22+02:00,FALSE
+e14af6a30ae190cbf8e995b30f7aaa70411f6f98,readme: update download text,2020-07-02 16:37:51-06:00,TRUE
+60f072f0255ee86c1f7e1191b8e20895a4e7e70b,readme: update download text,2020-07-02 16:40:30-06:00,TRUE
+8958e886de6d2f5da1d6c0fdc6bda689eda10437,readme: move rule format into capa/rules,2020-07-02 17:56:26-06:00,FALSE
+545236cdc2cbec01cd75b2b11a8774ae3e462802,readme: simplify example,2020-07-03 11:43:47-06:00,FALSE
+0bc5e4a4f93def08a0771edc4715beb458bb02a9,readme: add rule example again,2020-07-03 11:47:29-06:00,TRUE
+86bf376b19d99c631ed8856742a89b15f688f1b7,readme: add links to further information,2020-07-06 14:15:40-06:00,TRUE
+7cb1e03710262be53ee9686d4aebf4e6441cb895,readme: tweak example formatting,2020-07-08 10:58:55-06:00,FALSE
+be919dcb8d6ace3be884a9da80b71a99e8a96703,update README,2020-07-11 14:19:25+02:00,TRUE
+4dd1343f661804a1e25d1d7f93abd01262d6f5be,doc: update links,2020-07-13 21:52:57+02:00,FALSE
+b123463a9cc313d431784d20a9a161cea57ab869,"Add rules number badge to README
+
+This number will be updated when synchronizing the rules submodule using
+a GitHub action.",2020-07-14 16:02:55+02:00,FALSE
+47e6b2bd7dbd62f832f0053a9da6340563baa695,readme: use logo,2020-07-14 09:03:34-06:00,FALSE
+391145195dfe4621dc37b35c21d8cda5e06b6f93,readme: add link to contributing guide,2020-07-14 10:50:49-06:00,FALSE
+cc2777cd5734da117e6039b2a5ca90a932633399,readme: add screenshot and text about the IDA plugin,2020-07-14 11:04:08-06:00,FALSE
+6868796bd9f28bb894dd666f442e70ca84bd0732,readme: formatting,2020-07-14 11:04:36-06:00,FALSE
+2294c5ef8508629019ee58e4cd498ba6a5299728,readme: update example explanation,2020-07-14 11:11:57-06:00,FALSE
+56fcbcb020970a6e615521626ad10ab2c2ea8f70,readme: wording,2020-07-14 11:13:00-06:00,FALSE
+862d74029227825a6a3f12e631c330d6880830b6,readme: comment out links to nightlies until those are setup,2020-07-16 08:14:36-06:00,TRUE
+0a0de53fe42b8001969486d39834230eb7a1b1f2,"Add license badge to README
+
+Use https://shields.io/category/license",2020-07-16 16:29:52+02:00,FALSE
+a02ed5c3679aaa23ffb32bf4a828ee53f9ec497f,Update README.md,2020-07-16 18:19:41+02:00,FALSE
+cc2929ca8a64c90599db92953809dbd4cae0db1e,readme: fix url,2020-07-16 14:43:35-06:00,TRUE
+81f943d39fc6f6be6b707c204412a33b56b64d88,"Add CI status badge to README
+
+Add a GitHub action status badge for `CI` to README.",2020-07-16 22:57:11+02:00,FALSE
+c2c56ba40db2da8cd91d3d22f7db6703e5f4954e,Sync capa rules submodule,2020-07-19 21:56:31+00:00,FALSE
+9b873aeba75945464769f3c01a5c7168605aee04,Update README.md,2020-07-22 09:18:33+02:00,TRUE
+85ff03215ec84cb6ee309175187cd883bc1e5c6e,"Update CI badge in README
+
+- Give it a better name after rule linter and tests have been added to
+CI.
+- Change the URL to only show result of commits pushed to master",2020-07-22 19:36:54+02:00,FALSE
+a660690b129b5efad11a31ec63858ad0c4e27c6a,Sync capa rules submodule,2020-07-22 18:45:07+00:00,FALSE
+ea7bd3d262cdfe9ba5e254e7fe0ddd2555a310a4,Sync capa rules submodule,2020-07-22 21:39:32+00:00,FALSE
+bc9b93394dce6b7bafa91e77d2b82eabf8e1892d,Sync capa rules submodule,2020-07-23 17:01:26+00:00,FALSE
+be6a22c254f6dc3d30d28db30ec7592e8f7892a8,Sync capa rules submodule,2020-07-23 17:50:07+00:00,FALSE
+583f3f74ecfb6f3b430ba05408b5cb2f2a5c4b3b,Sync capa rules submodule,2020-07-23 19:33:32+00:00,FALSE
+25ae7e9dda3fc5e9e747bc396d1ccb85f3a6517e,Sync capa rules submodule,2020-07-24 21:51:31+00:00,FALSE
+a735f29ea9b480b0dbf46a18dfc8f59d7896eb9a,Sync capa rules submodule,2020-07-27 21:06:34+00:00,FALSE
+c10a9efea2dc3b33a96e3e57346227fcabafaf82,Sync capa rules submodule,2020-07-28 16:03:04+00:00,FALSE
+c8d16350b4056b47c6713a12f11606775d38743c,Sync capa rules submodule,2020-07-28 16:42:45+00:00,FALSE
+afbc461852aa532af2a366d91fd02d31a8050230,Sync capa rules submodule,2020-07-28 19:59:43+00:00,FALSE
+4707307a057da8d1f939d6c34d2113901882e6dd,Sync capa rules submodule,2020-07-29 15:58:06+00:00,FALSE
+c26c8d5d5a8ec3fe6ace46b0f01cf68d806d5c27,Sync capa rules submodule,2020-07-30 17:16:42+00:00,FALSE
+c704d0b901800dcfc54f57700617a42b9d2fbf1d,Sync capa rules submodule,2020-07-31 20:02:59+00:00,FALSE
+62e9ef4b5ed5df69eb2134b1693040a5688c146f,Sync capa rules submodule,2020-07-31 21:18:14+00:00,FALSE
+dfc827e6bbb336d6939f042d385e1c32234865e8,Sync capa rules submodule,2020-08-03 16:05:28+00:00,FALSE
+1c9f8c2ad5131b88ba2f14a948b7e611c4991dc0,Sync capa rules submodule,2020-08-03 18:50:43+00:00,FALSE
+c982c2d04e15954699072f2b7726f4cd123abbb0,Sync capa rules submodule,2020-08-03 20:04:39+00:00,FALSE
+e5921e9267efe4d9c8f5798dceac95587a56c104,Sync capa rules submodule,2020-08-04 14:35:08+00:00,FALSE
+1c3da73324b2354afdd1718349c5eb7b67ab0eb2,Sync capa rules submodule,2020-08-05 03:18:55+00:00,FALSE
+f7cd52826e9e7bdab809f92fa7152263468aa94b,Sync capa rules submodule,2020-08-05 18:51:51+00:00,FALSE
+7a18fbf9d4b7a80d4b39f2838c7542b08c6087ed,Sync capa rules submodule,2020-08-11 07:19:00+00:00,FALSE
+db85fbab4f58e86382ff4facf0851beb897097ff,Sync capa rules submodule,2020-08-11 14:54:42+00:00,FALSE
+199cccaef9c7d608fd8baee63c7618b9116ddaaf,Sync capa rules submodule,2020-08-12 23:27:17+00:00,FALSE
+35086d4a69762aa856a85437fd11988c3f923bd7,Sync capa rules submodule,2020-08-13 16:06:21+00:00,FALSE
+e3e13cdb11533d40ac98f2def1fd0df8c6ebedf5,Sync capa rules submodule,2020-08-13 18:51:28+00:00,FALSE
+8be1c84fd2e795658c22b28f719fb78786497beb,Sync capa rules submodule,2020-08-25 16:35:30+00:00,FALSE
+528645c0d23718bdb9cf6e22828d2f46d551e594,Sync capa rules submodule,2020-08-27 13:53:01+00:00,FALSE
+d47d14919621e4a82e8a3c484d8db0c7b7a64e87,Sync capa rules submodule,2020-08-27 16:08:48+00:00,FALSE
+96eaf311d05df58f8fea6a77f469c7fd5ae65382,adding support to run explorer as IDA plugin,2020-08-28 17:38:13-06:00,FALSE
+3bac5e7e43961967caf1f7382f3e7329d5f2c4af,Sync capa rules submodule,2020-08-31 21:01:16+00:00,FALSE
+b386933a04ace36afc9607b1c03f051643386024,Sync capa rules submodule,2020-09-01 18:13:40+00:00,FALSE
+7de0a5414aa92250e21d15940d6ecff78cb18041,Sync capa rules submodule,2020-09-02 18:26:38+00:00,FALSE
+60442753461fad31ac24165174b0cac6d3fb8efa,Sync capa rules submodule,2020-09-03 18:51:13+00:00,FALSE
+7846ffa81890c27bfce66cdd6f9ee3ed8a50936e,updating ida plugin documentation,2020-09-11 13:15:32-06:00,TRUE
+ffae162955e0b56f63d5ef33c13f3545cc034c86,updating plugin documentation,2020-09-11 17:05:24-06:00,FALSE
+01bf7b3bd3bc6d620611050aa2e8cf7b59e36b23,Sync capa rules submodule,2020-09-17 18:07:50+00:00,FALSE
+d2e05f03cc7d9a0c99f02825af67dbfe3c83751c,Sync capa rules submodule,2020-09-17 18:34:36+00:00,FALSE
+9708c8977225258cf06b691fadca2b793705e0d5,Sync capa rules submodule,2020-09-18 14:26:29+00:00,FALSE
+6bca2112676c7b4d922868eed938434059b22d97,Sync capa rules submodule,2020-09-18 18:37:14+00:00,FALSE
+5e2e31647442bca06d70c9914e6be174b4e7dda7,Sync capa rules submodule,2020-09-18 20:47:00+00:00,FALSE
+98298a3b2d0df981781bad08b76a5f7d41f3ca0c,Sync capa rules submodule,2020-09-21 18:03:51+00:00,FALSE
+b2caad9b4b846de66f5bcc83b0b64745e7014bf7,Sync capa rules submodule,2020-09-22 18:49:29+00:00,FALSE
+2a6aeae7630d2baae41f8a85bf8311c8d32821d1,Sync capa rules submodule,2020-10-05 17:02:21+00:00,FALSE
+459af7ab1bdb1b5c121b21336690dee4f325c0e1,Sync capa rules submodule,2020-10-06 02:36:03+00:00,FALSE
+155de6f2b9550b9afc38d29907f9d77d95b82e7b,Sync capa rules submodule,2020-10-06 16:30:56+00:00,FALSE
+b442fbb19c7c03e42c691768505c69e76c5f713e,Sync capa rules submodule,2020-10-07 20:58:02+00:00,FALSE
+49e7d75ce5e5837e4387430091be46bd164169cb,Sync capa rules submodule,2020-10-08 15:53:20+00:00,FALSE
+3572de058b115fe2db649a280de68c56dde48a47,Sync capa rules submodule,2020-10-08 18:16:59+00:00,FALSE
+f85b6fde7b8e694b1712fdb0f299bc90bddd3813,Sync capa rules submodule,2020-10-16 16:05:56+00:00,FALSE
+39d95b2fd2f1b1333e68cf5c80449a0c8a854ca4,Sync capa rules submodule,2020-10-21 10:21:54+00:00,FALSE
+c65ef12783e865fe3f62adc80a86d6ba1f453e3a,Sync capa rules submodule,2020-10-22 04:02:25+00:00,FALSE
+e6d75ee7c45b189d1d1d7498d8700ea5524810e0,Sync capa rules submodule,2020-10-23 16:46:53+00:00,FALSE
+04ea03caf6bfec04e346f4597766e48c42f710e9,Sync capa rules submodule,2020-10-23 18:50:52+00:00,FALSE
+da7dc793e7abeb074982d9cf641aac06ce838cf6,Sync capa rules submodule,2020-10-27 15:12:51+00:00,FALSE
+84698462f3d272081e340ef2946d4cb79ffd8ee1,Sync capa rules submodule,2020-10-27 15:13:25+00:00,FALSE
+1c47877a8c4d70715d8270bd6ea4f7116009d5e6,Sync capa rules submodule,2020-10-27 15:14:22+00:00,FALSE
+ee3ab9477479333a8c1b95f929f91a9d6dd8ae23,Sync capa rules submodule,2020-10-27 15:15:04+00:00,FALSE
+868ceb25bf4b55ff6111d75dee5ec77a0c8aad76,Sync capa rules submodule,2020-10-27 15:15:30+00:00,FALSE
+eef8f2e781dc5fcbaaa0397716d81b6047e23748,Sync capa rules submodule,2020-10-29 03:50:40+00:00,FALSE
+76a04dfe25f1e65e6e72911c557df2d19924920b,Sync capa rules submodule,2020-11-03 13:20:30+00:00,FALSE
+7abe66e3dedac7d45738c125db04f49784e03572,Sync capa rules submodule,2020-11-16 06:40:23+00:00,FALSE
+5d30be31e0ae693a6d8ac69f99f6284273fc4e19,Sync capa rules submodule,2020-11-16 09:44:08+00:00,FALSE
+ce63628d3ddd9c8f8ec6cd1fa02dd1cb5dcc83f4,Sync capa rules submodule,2020-11-19 15:43:59+00:00,FALSE
+337d2cfa6d13083a9b0ce5c76b671735c94b17ee,Sync capa rules submodule,2020-12-02 15:12:27+00:00,FALSE
+8155207bea82792fe846630af7ee01d5623c677f,Sync capa rules submodule,2020-12-02 15:13:30+00:00,FALSE
+a1ae8d54a6636b655f23779df03ed8ab075b537a,Sync capa rules submodule,2020-12-02 15:24:15+00:00,FALSE
+af4889894a2b996abbdbfa61cacb9f6957e034fe,Sync capa rules submodule,2020-12-04 08:31:42+00:00,FALSE
+70368b3f1e255305250ff84c4c7b60312217ca20,Sync capa rules submodule,2020-12-11 10:42:16+00:00,FALSE
+9ab7b9a0334a25545016ad21c7a3bffcfe6fe7a3,Sync capa rules submodule,2020-12-16 20:47:34+00:00,FALSE
+5323f2fc312dd0d3ce654b18a875a1da6516176c,Sync capa rules submodule,2020-12-17 17:14:43+00:00,FALSE
+01d976d7f740051853410fdde6da94ddd521a3d5,Sync capa rules submodule,2020-12-22 13:17:37+00:00,FALSE
+625583f5ab1aa21772522a1a66bde1003b9d2c76,Sync capa rules submodule,2020-12-23 12:44:25+00:00,FALSE
+b7a8d667b9afa6e6b6d5a757e8c2c88a04d7e1c9,Sync capa rules submodule,2021-01-04 12:51:43+00:00,FALSE
+a6c946e6c98e4e51dc111dbb6a77ee4248d77815,Sync capa rules submodule,2021-01-07 13:59:20+00:00,FALSE
+762f48957c6f1fd961bbda13069462e0a7185858,Sync capa rules submodule,2021-01-08 15:16:32+00:00,FALSE
+2b385ead7f0e83cad6acf4834bfb713aa8e1a7a8,Sync capa rules submodule,2021-01-12 18:30:11+00:00,FALSE
+b5c2fb02594164e243b76a22b3027cc50471f907,Sync capa rules submodule,2021-01-28 16:06:09+00:00,FALSE
+93c5e4637b7a16736c388f41e4ab2425b80acea6,Sync capa rules submodule,2021-02-03 15:15:51+00:00,FALSE
+1063f3fcdabc2c684f2ef7f4a5956b734f584076,Sync capa rules submodule,2021-02-03 18:13:29+00:00,FALSE
+6e33a22676ece340587e71b278cd86ec891d73a3,Sync capa rules submodule,2021-02-08 17:48:52+00:00,FALSE
+ea42f76cffc47f0ff4be19aab9fac466acbff233,updating README related to capa explorer,2021-02-12 14:18:30-07:00,FALSE
+b704dd967bdc6e5af8ece7090d7c9a5a8a92f6a2,updating README related to capa explorer,2021-02-12 14:32:08-07:00,FALSE
+685f06582db94866e145b325275a3bd72ade7cde,Sync capa rules submodule,2021-02-17 15:18:16+00:00,FALSE
+9db7ed88aaa21aff836e5d82c45460bcaa305568,Sync capa rules submodule,2021-02-18 21:36:08+00:00,FALSE
+944a670af0215a7bdbd06d0592ea841c33682d70,Sync capa rules submodule,2021-02-19 17:17:33+00:00,FALSE
+669f6dcf9836064a91c1b1a003394b47620d85bc,Sync capa rules submodule,2021-02-23 15:23:19+00:00,FALSE
+acf3b549de61127093c591909d00c2a1d359ec20,Sync capa rules submodule,2021-02-23 15:29:20+00:00,FALSE
+2f6a6e4628a4b96842ad45455f34aecdc7b2b303,Sync capa rules submodule,2021-02-24 08:07:52+00:00,FALSE
+939b29bf60b1b495583994f879a3eaa2123cc17d,Sync capa rules submodule,2021-02-24 23:00:34+00:00,FALSE
+cff7d4bad49425fdde900967eec27cb76879b2a1,Update README.md,2021-03-15 11:54:11+01:00,FALSE
+b2ab8ab54cf9bc5dce9cfc223441f38760882ba1,"doc: Improve README badges
+
+- Add a link to the `PyPI - Python Version` badge. Otherwise it opens
+the image when clicking on it, which is inconsistent with the other
+labels. I arrived too late to point this out in:
+https://github.com/fireeye/capa/pull/477
+- Add release badge with last release version. This may help users to
+realize that a new version has been released.
+- Add downloads badge.
+- Order labels by color.
+
+Closes https://github.com/fireeye/capa/issues/196",2021-03-15 16:47:15+01:00,FALSE
+30a83fa382c809d45a611288f803a82ed4e0fdff,"doc: Fix broken link in README
+
+Introduced in https://github.com/fireeye/capa/pull/478",2021-03-16 16:37:33+01:00,FALSE
+c945eaf80474cee50832c213ebee979c77f4ca09,Sync capa rules submodule,2021-03-18 20:41:05+00:00,FALSE
+a2ff87af8afbe5b0f23a35250e239ffa1b43db23,Sync capa rules submodule,2021-03-22 15:45:10+00:00,FALSE
+195bae903f8ae528eb75ec39113f1320446fd366,Sync capa rules submodule,2021-03-23 12:25:20+00:00,FALSE
+5d1c6f54cdd1c75b3a097ad554ac8cae3880add9,updating capa explorer README,2021-03-25 14:30:28-06:00,FALSE
+744228a03eada1b5676f9304b5bb7a73a51697fa,Sync capa rules submodule,2021-03-25 20:48:41+00:00,FALSE
+bddb5fbd2f74c8ae52c0e3b54778baa572ee4e8f,Sync capa rules submodule,2021-03-26 11:17:46+00:00,FALSE
+dabd2174d4757e4cc7df07641ba966d5240aaa6e,Sync capa rules submodule,2021-03-29 16:25:18+00:00,FALSE
+5e84a16ebae25c33bc2a72217e9c182296deecd7,Sync capa rules submodule,2021-04-01 16:44:59+00:00,FALSE
+f01044e4533d24f70402833a2a032b3f319d872d,Sync capa rules submodule,2021-04-09 11:19:42+00:00,FALSE
+f54b697187b807b697837d0b66426ccfa6659da5,Sync capa rules submodule,2021-04-23 22:50:16+00:00,FALSE
+c4a0c3d54ad3ed9275d46c2cd2f98b8b29af3626,Sync capa rules submodule,2021-04-26 16:18:28+00:00,FALSE
+fbe307d26a35676fde39cce3a15ed61ca0c9b11d,Sync capa rules submodule,2021-04-26 16:20:38+00:00,FALSE
+ddda87373de3bd1ba35ada06b96987423ac729ce,Sync capa rules submodule,2021-04-30 20:35:46+00:00,FALSE
+614a6caee65cbe87ab6e1029c561eb5ddee5828d,Sync capa rules submodule,2021-04-30 21:05:57+00:00,FALSE
+272471e158542af7bacededb947c0b59458c3597,Sync capa rules submodule,2021-05-03 22:42:41+00:00,FALSE
+b1b34db0b6316202c542e8d88c55b97034d0cd0e,Sync capa rules submodule,2021-05-04 13:43:40+00:00,FALSE
+3a883807e563a549e00ab2456d6cba7522c5a3be,Sync capa rules submodule,2021-05-06 18:07:01+00:00,FALSE
+be11223e4b284bc65b7c5e20d7e3910558bcdf61,Sync capa rules submodule,2021-05-07 15:06:52+00:00,FALSE
+8f9f792930cf38934078b9756e1206af2c52cc1f,Sync capa rules submodule,2021-05-17 08:36:26+00:00,FALSE
+abeaac06759a60b79341c08ad1e9bd1ab3935a0d,Sync capa rules submodule,2021-05-17 10:14:49+00:00,FALSE
+760867b81e951515e8aacfd4aabae83ccba41dd2,Sync capa rules submodule,2021-05-17 15:00:45+00:00,FALSE
+72da8f3aed35261e9acd5807b9e3eac59ae51228,Sync capa rules submodule,2021-05-21 07:12:57+00:00,FALSE
+bd9812cee44b96374029a36cb37a6045ac4497e9,Sync capa rules submodule,2021-05-24 15:22:21+00:00,FALSE
+a79a547682afbf1212d4b49d1197c752fa43524f,Sync capa rules submodule,2021-05-24 15:25:44+00:00,FALSE
+342497b72fbb056feba78314f6897d616c47a29f,Sync capa rules submodule,2021-05-26 07:31:49+00:00,FALSE
+f0fb5fb346bc0bd812fef3a401672f1c1a0daf4f,Sync capa rules submodule,2021-05-26 21:03:50+00:00,FALSE
+8f1ce68e96619e22ea406ee4cee3595426102c31,Sync capa rules submodule,2021-06-01 17:51:43+00:00,FALSE
+700259eab6794a38e4a42b02c8b82fcd2f8a25e0,Sync capa rules submodule,2021-06-07 07:45:04+00:00,FALSE
+c3ba6a90252a83d2bd343d98ac517f3e4d106896,update readme,2021-06-07 10:26:41+02:00,TRUE
+f9bad7e5e4b88ac7f526c2a1bbe5be7a11a613ec,Sync capa rules submodule,2021-06-08 14:17:39+00:00,FALSE
+23354ec4525a0283bb0d79b18cd0350fd53ea92d,Sync capa rules submodule,2021-06-09 09:19:50+00:00,FALSE
+0f15895b36ed2735901c28a7e90fe8434260290f,Sync capa rules submodule,2021-06-10 14:42:56+00:00,FALSE
+03b15ce28977ffcc617d3c67c9dff20de7ee6196,Sync capa rules submodule,2021-06-21 14:30:00+00:00,FALSE
+58aa3e33bf647929bd7ab03b66901133223e506a,Sync capa rules submodule,2021-06-24 00:33:45+00:00,FALSE
+c56bfdca67da09d28e6966a4c509ff71cf31dbbc,Update README.md,2021-07-19 21:10:20+02:00,FALSE
+9f6f18466ab09720c99663ed4243c6064a2eb2d4,Sync capa rules submodule,2021-07-22 06:56:23+00:00,FALSE
+8b572dc63fc65705b40b6b79622e61a3b8384c1f,Sync capa rules submodule,2021-07-26 21:48:37+00:00,FALSE
+cc54bdddc6c90864288b57ec58c88764b0c6bfe5,Sync capa rules submodule,2021-07-29 18:44:43+00:00,FALSE
+1fbd4937bc8f69b122cf3dcb7f1e40e34ee328cf,Sync capa rules submodule,2021-07-29 19:33:40+00:00,FALSE
+dd7a48a00c2aaecb4bf5945a368d4a23f8ae4766,Sync capa rules submodule,2021-08-09 19:52:39+00:00,FALSE
+23bf28702fd3c53691f1c943e8abddb523ba6033,Sync capa rules submodule,2021-08-17 14:23:23+00:00,FALSE
+98208b8eeca7b5034cdc10b1d8a9c1187497cda9,Sync capa rules submodule,2021-08-18 20:50:11+00:00,FALSE
+15c69e3b7d6e718f8aa84dda0e416aed09ea5640,Sync capa rules submodule,2021-08-18 21:15:01+00:00,FALSE
+1549b9b5067a34b263c9b5ef54d47d4a47b22f55,Sync capa rules submodule,2021-08-24 15:47:44+00:00,FALSE
+7d2e550b84ddfaa962a156e113e1a1439465c49c,Sync capa rules submodule,2021-08-24 16:35:30+00:00,FALSE
+fd7cff61097d0a61c25fbd83f7404e126348af06,Sync capa rules submodule,2021-08-25 20:34:00+00:00,FALSE
+5b806b08dd99b87c73e957f484eb683e939654a1,Sync capa rules submodule,2021-08-26 15:12:14+00:00,FALSE
+bbe47d81e9791ae1d654167803d5d0c54c7981b3,Sync capa rules submodule,2021-08-30 16:30:52+00:00,FALSE
+9f777ba1525e9e0a48b5e421d3afe4d0f83b5c3e,readme: reference ELF support,2021-09-14 09:22:33-06:00,FALSE
+a7fe76c336feb28578606aeb8d1f5cda73c04a9f,Sync capa rules submodule,2021-09-14 15:25:46+00:00,FALSE
+144ed80c568d0a361df56b78a1e9b1b744c44cff,readme: add reference to third blog post,2021-09-14 21:14:44-06:00,FALSE
+8de69c639aab22053d8ca6a975af86e92fbc1a02,s/fireeye/mandiant,2021-09-29 12:55:16+02:00,TRUE
+2f59499087877b02705cdb55bb585a9c521a73ec,Sync capa rules submodule,2021-09-30 14:01:54+00:00,FALSE
+e5ed7ce0d34cb4ba774a2b0a0ead35def72d52f1,Sync capa rules submodule,2021-10-25 03:39:00+00:00,FALSE
+b7cd5fec7649eb2b547a33477b6925b2470e9d0f,Sync capa rules submodule,2021-10-25 19:26:56+00:00,FALSE
+433dfd8fa945f3c31ff64a01e5574ae7333545ca,Sync capa rules submodule,2021-10-27 15:34:46+00:00,FALSE
+ffbb841b03eb82c387a738f55ac18da02a799a9f,Sync capa rules submodule,2021-11-02 18:47:18+00:00,FALSE
+3b0974ae3e64eefe9fe40b3bcbe12fcc43580ce7,Sync capa rules submodule,2021-11-29 23:46:52+00:00,FALSE
+107c3c0cf95aac82552b46112fc554b91b3f3124,Sync capa rules submodule,2021-11-30 22:06:21+00:00,FALSE
+38038626d4544aee159ca6c825eebbc793b47ec8,Sync capa rules submodule,2021-12-03 15:29:28+00:00,FALSE
+448b5392be9d6567908b1226a63958f71c8cab75,Sync capa rules submodule,2021-12-06 17:56:26+00:00,FALSE
+4f7f06d31656d33cead2e86d3985f6b3eb428b86,Sync capa rules submodule,2021-12-06 17:57:11+00:00,FALSE
+7e96059fb5fed88123ca823fe79dc4d50592478f,Sync capa rules submodule,2021-12-06 17:58:59+00:00,FALSE
+21fd6b27e20e1839e1223bfc7a87a16b0dd4cb1d,Sync capa rules submodule,2021-12-13 18:48:16+00:00,FALSE
+d67223c3213afdd25f317a16d8ddd7dd39a4bf3a,Sync capa rules submodule,2021-12-14 21:46:38+00:00,FALSE
+bda76c22ec0c37af4e98f53673e198471fcaf3ae,Sync capa rules submodule,2021-12-14 21:52:49+00:00,FALSE
+a221db8a59e9561ecbc68726c641344bc009239d,Sync capa rules submodule,2021-12-20 12:48:22+00:00,FALSE
+bbb97da3fcce9948a93b2091b6a0685cd3f62840,Sync capa rules submodule,2022-01-24 17:10:29+00:00,FALSE
+0d38e3065c9c96da882bdd6484f0069bda4eb42e,Sync capa rules submodule,2022-03-16 09:43:58+00:00,FALSE
+3b86ccc1a4dfd4a0a66a5870c21e50197e80a2ec,Sync capa rules submodule,2022-03-23 17:57:09+00:00,FALSE
+eaf978da0a134e7865244cc0b718c0a0cd2b6a7f,Sync capa rules submodule,2022-03-24 09:43:38+00:00,FALSE
+73f1eb9c3077f4f11a817dbb7102bcf4484736db,Sync capa rules submodule,2022-04-06 18:08:02+00:00,FALSE
+4c84a77053d7a69604dda03449c86ed93c6e6514,Sync capa rules submodule,2022-04-07 07:50:51+00:00,FALSE
+8f2c9cbd11e22827145005df9f7c34edbb182cbc,Sync capa rules submodule,2022-05-20 14:36:37+00:00,FALSE
+09d444222ad2633c7e081065ad6bcd6885539642,"readme: fix blog links
+
+closes #800",2022-06-28 10:27:31-06:00,FALSE
+f2281b8e6e17d50f1d7822f8682a28e359939dba,Update README.md,2022-06-28 18:33:42+02:00,FALSE
+0e6a050921a9b60650916a2d3013a8dec9667157,Sync capa rules submodule,2022-06-28 20:04:14+00:00,FALSE
+45c39cfd7a6f566820c2401e0dc33acce20f66a9,Sync capa rules submodule,2022-06-28 20:11:57+00:00,FALSE
+ecd88680ddec459290b789ab484dcd7459e37b50,Sync capa rules submodule,2022-06-28 20:26:53+00:00,FALSE
+82e8f8f090c1de18ae71a5aab02fd93848d4474f,Sync capa rules submodule,2022-06-28 21:34:02+00:00,FALSE
+998364d5007540c4b2d18b6886fcdd694d172402,update documentation for .NET (#1074),2022-06-29 08:22:48-06:00,FALSE
+2f792427f9ddc7bc14d083236baaa39a61faab0d,Sync capa rules submodule,2022-06-29 17:55:13+00:00,FALSE
+36eabc1c39e0575f454167e8b81b40c858cfbf9c,Sync capa rules submodule,2022-06-29 23:22:05+00:00,FALSE
+7bd49b56c4685bb82ad8cf3897466a23fad71aad,Sync capa rules submodule,2022-06-30 15:17:33+00:00,FALSE
+ec81768fb503948ee52d303d43aeb46ff1869b50,Sync capa rules submodule,2022-07-05 15:37:24+00:00,FALSE
+21efdd2e0ea09a32db872724f211abe092880fea,Sync capa rules submodule,2022-07-06 19:36:29+00:00,FALSE
+0fbea7551327b106a6e8513aec496251a4411d15,Sync capa rules submodule,2022-07-07 17:38:22+00:00,FALSE
+e63a9c801b9053273d3b33af62e6fd8530861bb5,Sync capa rules submodule,2022-07-07 19:40:55+00:00,FALSE
+28f32eebfcee75995b29a47896e6aac94cc589c5,Sync capa rules submodule,2022-07-07 21:24:45+00:00,FALSE
+63e0d903c7d3f6b6505271c522637a36fc75fbc6,Sync capa rules submodule,2022-08-09 10:35:39+00:00,FALSE
+e564466ac8d38c1242ef39130b491c4883e2dd4d,Sync capa rules submodule,2022-08-09 10:50:59+00:00,FALSE
+2e6671ff91c2468ead2ae1bf815c2fa2c4bd0c85,Sync capa rules submodule,2022-08-15 08:39:57+00:00,FALSE
+c5f768accc66a9be51682838ac940e92eb261eb2,"Update document and version set in PyInstaller (#1140)
+
+* doc: update v4 resources
+
+* tmp
+
+* fix: set version #1136
+
+* format: black
+
+* comment version substring replacement",2022-08-15 11:10:17+02:00,FALSE
+44843ea977ad77f42cdc3a186a0e088c456a381d,Sync capa rules submodule,2022-08-29 16:50:20+00:00,FALSE
+70e6d83259294ab10bc18268101f00e6cd4919cd,Sync capa rules submodule,2022-10-03 15:28:44+00:00,FALSE
+ac71676d79abcf0e8d8bf47ff86cb16f9f8129f8,Sync capa rules submodule,2022-10-07 15:40:27+00:00,FALSE
+0d8c6cc0fd986564233e2263e39bf553b464ebba,Sync capa rules submodule,2022-10-13 14:37:09+00:00,FALSE
+5196caabb53c9ee3a4565d345f40e499b2b367e9,Sync capa rules submodule,2022-11-22 12:35:27+00:00,FALSE
+bd84ee83a59420637153943be9780359ada6a802,Sync capa rules submodule,2022-12-07 19:10:53+00:00,FALSE
+b6911f8ad23326632fd7216870af937bd2fa6de0,Sync capa rules submodule,2022-12-12 14:39:26+00:00,FALSE
+1dd5a8dbf2f6293a072f94f33c5db99d1369f49b,Sync capa rules submodule,2023-01-02 17:31:53+00:00,FALSE
+565b002bfeea91e7feefd9e9d94f97bcbc1de7e8,Sync capa rules submodule,2023-01-02 17:33:19+00:00,FALSE
+974d79f2be35eb89becb2abbd845e251bd4e61bc,Sync capa rules submodule,2023-01-03 10:42:41+00:00,FALSE
+c959506ae9a470a6e436959e3f55bf65c680656f,Sync capa rules submodule,2023-01-03 14:58:40+00:00,FALSE
+5de0324441f9f32cecbc8fecd41e9c3d47a4a532,Sync capa rules submodule,2023-01-04 16:59:55+00:00,FALSE
+1af90b9db37af4528a112842794f971baae46816,Sync capa rules submodule,2023-01-05 09:55:12+00:00,FALSE
+64ebf14256fc71e5301e6adfccd6f8e0d71b4456,Sync capa rules submodule,2023-01-05 10:55:44+00:00,FALSE
+93acf9feb4198b79b2dc73d10b5a9c9e6da31349,Sync capa rules submodule,2023-01-09 08:50:03+00:00,FALSE
+2a61e357de7dcba5c616bd1edd6d5f443568acb2,Sync capa rules submodule,2023-01-09 13:08:27+00:00,FALSE
+810e2d70d3a7c1d19caad07a9146e33783cebf47,Sync capa rules submodule,2023-01-09 13:38:25+00:00,FALSE
+2ab057a24d08a06bd1b32b46068b74b50f19b087,Sync capa rules submodule,2023-01-12 13:15:35+00:00,FALSE
+35e6df6f6b9be33ec10cea7f5b1ce38db879bca6,Sync capa rules submodule,2023-01-18 15:10:43+00:00,FALSE
+26662e99de08ccb1399c328359bdb074a4bb0094,Sync capa rules submodule,2023-01-19 12:11:19+00:00,FALSE
+67717761bda73220f19f5439bc069d47d401724b,Sync capa rules submodule,2023-01-20 12:15:02+00:00,FALSE
+a58e9e4df34eea02d02808164b51df6f2cf26d1b,Sync capa rules submodule,2023-01-23 13:53:42+00:00,FALSE
+8857f92f7cf3abaf8907313fdd0dbf889df51df4,Sync capa rules submodule,2023-01-26 08:15:31+00:00,FALSE
+bbc0afd08355b587bca90cff25d3fcd636dd6855,Sync capa rules submodule,2023-01-27 08:56:49+00:00,FALSE
+6591b574a04bef8764565b5829a3a243ce3b2528,Sync capa rules submodule,2023-02-01 14:13:20+00:00,FALSE
+6589b2044bfc1aecef19b11af2290e8da91957c5,Sync capa rules submodule,2023-02-01 15:29:00+00:00,FALSE
+faceca6fec783c1603b96b4628b509b739c71714,Sync capa rules submodule,2023-02-02 08:12:15+00:00,FALSE
+6070479e0ac86fd96d12a38ce60c89427a923408,Sync capa rules submodule,2023-02-06 17:12:33+00:00,FALSE
+cbac0e0d3b4509560c4523f34e8b5d0e0a40e9f1,Sync capa rules submodule,2023-02-07 09:59:16+00:00,FALSE
+26655315c71abc3e4bb34469bf2c0e9b2275ce48,Sync capa rules submodule,2023-02-07 14:48:39+00:00,FALSE
+3dfb7beb6bcb73959c714a24b01566b969efc4f9,Sync capa rules submodule,2023-02-07 15:56:56+00:00,FALSE
+3f40f471042256f9cb7a4e61e9825f1101cae95d,Sync capa rules submodule,2023-02-08 08:57:54+00:00,FALSE
+f6e58ea212a4e1c2ed01556319cb1ead975cb657,Sync capa rules submodule,2023-02-10 10:08:30+00:00,FALSE
+15a276e3a51acb4ef8a11124e5c810dcdae8218f,Sync capa rules submodule,2023-02-13 09:47:05+00:00,FALSE
+4ea3475d2b8c327ce4baef8d54e00ce194ac94ec,Sync capa rules submodule,2023-02-13 09:50:39+00:00,FALSE
+4ccf6f0e69a35edf83f8d93a0e698009282daee4,Sync capa rules submodule,2023-02-15 10:57:23+00:00,FALSE
+4b472c85644efefd8b463c8b450d635d30014c5f,Sync capa rules submodule,2023-02-15 15:16:41+00:00,FALSE
+6e5302e5ecd17dfb59b261080bb559a443bc97dd,Sync capa rules submodule,2023-02-15 16:46:14+00:00,FALSE
+5e600d02a88cbf2f0fbfc60ac14f9ccf263c3ada,Sync capa rules submodule,2023-02-20 08:05:09+00:00,FALSE
+02f8e57e66bce6a67a8cf1554b0754f7ac4aaa3c,Sync capa rules submodule,2023-02-21 10:46:20+00:00,FALSE
+17f70bb87caf7238f4c88d5d8445c24381c34353,Sync capa rules submodule,2023-02-23 08:47:24+00:00,FALSE
+bd7cf8cdd1c6c2f9f4abd93e1b38e378ee07e3ba,Sync capa rules submodule,2023-02-28 10:41:07+00:00,FALSE
+be6bb879f372a5f50f414a1f005a7545532347ae,Sync capa rules submodule,2023-03-01 15:50:20+00:00,FALSE
+4fd6f17ced98841508d527f8bb3f5f4c7c39b7e5,Sync capa rules submodule,2023-03-14 07:34:15+00:00,FALSE
+201330295cadb624936cc507ed08078b556b081d,Sync capa rules submodule,2023-03-14 16:25:56+00:00,FALSE
+85fb9aa99f81a0cab9ab4330b048db4376f1e78b,Sync capa rules submodule,2023-03-23 07:48:11+00:00,FALSE
+4c5a16a1db4d4494926b084495b83dd21fae57bd,Sync capa rules submodule,2023-03-23 07:49:17+00:00,FALSE
+af1500825af9454e716b05548360d45393c87295,Sync capa rules submodule,2023-03-28 07:20:10+00:00,FALSE
+b5f274bf56a29c8af86ad72d844c021f081370de,Sync capa rules submodule,2023-03-28 14:07:51+00:00,FALSE
+06c71a7f2bc7ecac84a56401c209b2f05ec35242,Sync capa rules submodule,2023-03-31 17:40:58+00:00,FALSE
+0002b05418a90f2a526af435e743c001dae2ac8f,Sync capa rules submodule,2023-04-03 17:08:37+00:00,FALSE
+467c19be9790472af48d40dce6de8a633c380d46,Sync capa rules submodule,2023-04-19 17:01:01+00:00,FALSE
+7b0fac27dc17039df606313010d9f9f69da69818,Sync capa rules submodule,2023-04-25 19:19:19+00:00,FALSE
+a90eda50a723feb0506b36adde6914cd2e1bf9fa,Sync capa rules submodule,2023-05-11 08:06:38+00:00,FALSE
+e068ce7bc9239ff06b8f7ff565b4a248df9e9692,Sync capa rules submodule,2023-05-26 08:34:57+00:00,FALSE
+99e81e1d8fa5ce905cea284ba3ce0e23842c90f5,Sync capa rules submodule,2023-05-30 14:31:43+00:00,FALSE
+d3c44a82633ca2ee5cae2182197dc3706bd7c0be,Sync capa rules submodule,2023-05-31 18:16:12+00:00,FALSE

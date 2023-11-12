@@ -1,0 +1,27 @@
+sha,message,date,result
+07af78fe6808ee77ab05f3209dad5018667d8505,Initial commit,2015-10-01 20:58:36+02:00,False
+4b45e0aee2f52b8aa34b3866f5a3b3ef6467e6ad,"initial commit, very basic structure",2015-10-02 21:55:26+02:00,True
+e81b1ae306820436227f5771eef5a6f27a2537db,update readme for demo,2015-10-05 10:49:35+02:00,True
+6eef8c6520bffc15be6eef046f0857c391696d1e,add dev setup instructions,2015-10-05 10:56:49+02:00,True
+94df588061fc25c9b1d5f49db4c242ffc9d05019,add more boxes to variant,2015-10-12 07:55:15+02:00,True
+39e040b79b7463cd162f5008a2e64148d3a52f99,update badges,2015-10-12 21:38:11+02:00,True
+6c168c983bc5176107cb9f671ec46a0d381da7e7,update README,2015-10-21 22:52:14+02:00,True
+160f4eec4ae5814395f5bf1702a6cf1123a0972c,update readme with online demo,2015-10-27 08:23:36+01:00,True
+4ee55f9089d41a217d16af55ca4a906b8cfbc13c,fix typo,2015-10-28 20:42:04+01:00,True
+d46b2f62daab6bb3637eae922eb115c049b4682f,Updated README.md for new structure,2016-01-31 21:18:25+01:00,True
+ba85f2166506380295df82bdad9991ffb2c9dfc4,Updated README,2016-02-01 10:08:45+01:00,True
+4ad6d805386c54f5b2ba1df281d9fad6a5344e6f,Add info about testing Puzzle,2016-02-08 11:29:52+01:00,True
+c19420ed5fa6f438c77ad2ea93e974dc7ecd785d,Fix broken link and add @robinandeer suggestion,2016-02-08 11:44:50+01:00,True
+bceaeb164cccfd39c5f7462d29b65c92223e07d4,Modified puzzle view command in README,2016-02-11 15:36:27+01:00,True
+30de1e01b19212b2f5d9a8e28cf34d35d2a4b8f7,add favicon,2016-02-12 16:36:53+01:00,True
+fe914f3a7c515f11899b350584195da295db7c85,"Update travis url
+
+Build fails even if a PR fails",2016-02-14 09:38:31+01:00,False
+d4ab6147820efabbbf070e7b753f74b1ad9315b4,Update README.md,2016-02-27 11:06:08+01:00,True
+e735f0c0357c8ed7ca8414991cbe563342ca2617,Updated README,2016-03-06 21:39:57+01:00,True
+5eecad4858252bbe1c8b172cea4fcc24df0d0bf9,Updated links in docs. Added link to docs in README. Added link to downloadable gemini database with SV:s. Added hapmap vcf with sv:s,2016-03-09 14:33:08+01:00,True
+6370cd20d22b5832ade6525e77e5cc11ae4bfa4a,"Added intro to how to look at sv:s. fix #138, fix #139",2016-03-09 14:36:04+01:00,True
+72f169060a088812e70d50460f1b0ea3450d9843,Updated docs and README,2016-03-11 13:47:20+01:00,True
+c1d978068c1d92fe7d242f5dc4921d56ae402bcc,add gitbook,2016-04-06 14:54:42+02:00,True
+4c3fd8bba63fd96fe6bcf93a5e578d0ebfd9c233,update README,2016-07-07 17:06:22-04:00,True
+9476f05b416d3a5135d25492cb31411fdf831c58,add notice about move of focus to Scout,2017-05-17 15:03:10+02:00,True

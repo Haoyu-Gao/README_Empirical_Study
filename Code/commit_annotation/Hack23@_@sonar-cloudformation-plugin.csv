@@ -1,0 +1,88 @@
+sha,message,date,result
+f9893a735a2d26ba53f43108fc6e6562f73afb02,Initial commit,2019-05-22 23:31:01+02:00,False
+2a61793c3e6157a7c799ad479f023200d0c661b9,badges,2019-05-23 21:14:05+02:00,False
+de038f32ade90f9fe4a8eec39b2585b900b1289b,fix badges,2019-05-24 22:36:45+02:00,False
+ce3e57786b0941c99e28041516bc448b6a98b11f,badges,2019-05-24 22:43:52+02:00,False
+8a842681fc8908469909b5e7e853901d733055fc,badges,2019-05-24 22:46:32+02:00,False
+e832cde967674fe7d603daeec8efc303ed6b8fd9,badges,2019-05-24 22:49:32+02:00,False
+d80dc13e6f6a9316a27b3ffafecf4611cac9e031,badges,2019-05-24 22:53:58+02:00,False
+d46915cd0dbc46659210637b3fdc1665e1ed5bf7,badges,2019-05-24 22:55:41+02:00,False
+a4a8c8553da27046971a86f0f02485b6928425c7,basic doc,2019-05-25 22:43:34+02:00,False
+11ce68e2d27179d11335a2abc6a58708b23b9f50,prepare basic support for cfn_nag_scan format,2019-05-31 12:50:42+02:00,False
+7ea2e908cd4c4537201a6b850c50c35b14185894,"rename sonar-cloudformation-plugin, rename packages",2019-05-31 12:58:03+02:00,False
+4149655c565bd198a485c4d20ec443f067975f23,add badge for latest version in maven central,2019-06-02 09:04:33+02:00,False
+b1b1faac76d8a93a8f48c19365a9b7d4ac007c0d,cleanup,2019-06-02 20:03:29+02:00,False
+4c57b6bcb5f417dd155222fe7f9cec88f074f04b,correct property value,2019-06-03 17:56:33+02:00,False
+9d567ceb76db5efaad15cbb49fed44eab6559453,"Add license scan report and status
+
+Signed-off-by: fossabot <badges@fossa.io>",2019-09-08 05:12:42-07:00,False
+8fd62a1297a3fb955b307d3361288260dbe7305e,add fosa status,2019-09-08 14:33:34+02:00,False
+1f9ee00b223204c5ca5c81270f8d091de35c12f2,--output-format=json default output changed,2019-09-09 20:20:53+02:00,False
+34462bd18e581995b4f2aa1d22d7daf00cbd5155,only one license summary,2019-09-09 20:25:35+02:00,False
+d0e71489ed011a9ed800eeb0dbd0013d40205a2c,fix badges,2019-09-28 16:26:13+02:00,False
+12f40d0463e4d7818ad375e8f9120331c6236da7,fix badges,2019-09-28 16:40:06+02:00,False
+cd5f695c1d1d316b85288d76b0d2473b531a5893,fix badges,2019-10-24 22:34:41+02:00,False
+1efab36739b5d92a4178e8e54be586af810a052d,cwe mappings,2019-11-01 02:02:23+01:00,False
+6ea888bc330e02ee328d6de243894772adf4ed9d,fix readme,2019-11-22 22:16:46+01:00,False
+11c4d7898a1e19a90ad91b1523ea5ae6651ef413,demo links,2020-01-09 01:22:05+01:00,False
+2dca3835ab005b3f9f8caca7daaf1320cc006b0a,cleanup demo links,2020-01-09 01:23:55+01:00,False
+18f7bddf01496c3ddb2af094533516867ef369f8,https://github.com/Hack23/sonar-cloudformation-plugin/issues/100,2020-02-04 21:20:44+01:00,False
+695138369df47c0f606800bd886d5b4db3f4ddc3,"support cfn-nag rules : W61 EMR SecurityConfiguration should enable and
+properly configure encryption at rest and in transit.
+W63 EMR Cluster should specify SecurityConfiguration.
+W64 AWS::ApiGateway::Stage resources should be associated with an
+AWS::ApiGateway::UsagePlan.",2020-03-06 20:19:01+01:00,False
+873391701340d1dc093e6c961864006e922d3786,prepare https://github.com/Hack23/sonar-update-center-properties,2020-03-22 23:19:28+01:00,False
+48447f12a2c953f2f372e9db414626f4f2d5f877,update links,2020-03-23 00:02:34+01:00,False
+291cb746bf16e260ba676c8a24b99e9e40a8ed07,requires yaml plugin at least 1.4.3,2020-03-24 22:04:38+01:00,True
+fa92879e418f388d2ea2c54911db9fe9c262e027,update doc,2020-03-25 21:22:37+01:00,False
+4222b68bd68917276b5158206a64c77e9282c1b2,fix badges,2020-03-26 22:48:26+01:00,False
+f3833c1d6ab105dd102a98ded495051be77e2dde,large license badge,2020-03-26 22:51:29+01:00,False
+1c99e9b0c12d7e207124b146c6b412dc0947c9c5,cleanup,2020-03-26 22:53:39+01:00,False
+23c46c5c9753c6c34c1c0da5930ddfd1bb3f997c,sourcespy badge,2020-04-29 02:31:07+02:00,False
+b7756f307969dbb01d8f14d12357240e6cd1173e,"Update README.md
+
+https://github.com/Hack23/sonar-cloudformation-plugin/issues/181",2020-08-29 08:39:06+02:00,False
+7caff9d17119c0a1dfea2ca6507da0106c7d7b1e,https://github.com/Hack23/sonar-cloudformation-plugin/issues/136,2020-10-29 18:55:31+01:00,False
+ec3c76a08ea1ffbff7f521e2a3671563a6d05cc8,"Add support for cfn-nag rule W78 DynamoDB table should have backup
+enabled, should be set using PointInTimeRecoveryEnabled.
+https://github.com/stelligent/cfn_nag/issues/463, waiting for
+https://github.com/stelligent/cfn_nag/pull/495 to be merged and
+released.",2020-11-25 21:18:27+01:00,False
+87694bff0fe4b2321e5cad68eaef9c26a5b62c09,update custom rules and about quality profiles,2020-11-25 22:25:32+01:00,False
+77e6c02f64b9384d5ae8af7ceb6ad6d04ed6d2de,add,2020-12-23 01:13:38+01:00,False
+4d3514af9324780766e5a4b5f6568a6f713218b4,add missing rule : W79 ECR Repository should have scanOnPush enabled,2021-01-01 01:02:24+01:00,False
+64fa9dfeb2adca29c0260fdf5b220efed9f7413f,prepare support for https://github.com/stelligent/cfn_nag/pull/510,2021-01-04 22:31:53+01:00,False
+8a81703295516f5acecc3c48ee06904bf136e0e6,"add cfn nag rules ""W89 Lambda functions should be deployed inside a VPC,
+miss VpcConfig property"",""
+W90 ElasticsearchcDomain should be inside vpc, should specify
+VPCOptions""",2021-02-18 15:09:54+01:00,False
+14a18a7897f6ebfdd57cc94b4ced3ebe077e4997,"cfn-nag rule ""W92 Lambda functions should define
+ReservedConcurrentExecutions to reserve simultaneous executions"" tag
+800-53-SC-5 SC-5 DENIAL OF SERVICE PROTECTION
+https://nvd.nist.gov/800-53/Rev4/control/SC-5",2021-02-18 22:52:07+01:00,False
+5c946f15c16adf8eaafc6d97bd50b5092512a2f3,fix cwe link,2021-02-18 23:13:22+01:00,False
+937c3cc9d4c8c12833ea7bf7c3a35e82aea9f1bf,update doc with checkov support,2021-03-21 22:28:02+01:00,False
+b71400ff786dbfde55031670f0289a67d2671a4e,checkov wip,2021-03-21 23:03:07+01:00,False
+3552d341428ef4d8ddaedb3c3fdc61e52906d2ff,"Add sonarcloud badge
+https://sonarcloud.io/dashboard?id=com.hack23.sonar%3Asonar-cloudformation-plugin",2021-05-11 21:13:36+02:00,False
+419a892d441c412184fdfe0cf4fef424c06a32a4,wip https://github.com/Hack23/sonar-cloudformation-plugin/issues/276,2021-05-23 17:50:44+02:00,False
+aa3cbb81e56a1f1010a3da7089f277fe99d5a9fe,"update link to
+https://www.hack23.com/sonar/code?id=com.hack23.sonar%3Atest-project-with-reports&selected=com.hack23.sonar%3Atest-project-with-reports%3Asrc%2Fmain%2Fconfig",2021-05-28 00:02:01+02:00,False
+ba77b40a444215273207742f5acf8b5b9a1f0d08,"Add reference to
+https://mvnrepository.com/artifact/org.sonarsource.config/sonar-config-plugin",2021-07-25 14:00:39+02:00,False
+1464911257464e95ceeac34bc74bdf91202bbdc5,update doc,2022-01-18 18:28:21+01:00,True
+cd3e53ffe7cb3a6466b3bf7d6b356e556bfabdd2,fix doc,2022-01-18 18:36:03+01:00,True
+29e7b77010c4b85ad8b3e9eca2339e89848fb42a,update links,2022-03-10 23:48:41+01:00,False
+734b74ff13c7ff812ad252b35fa266a631c2055a,Update README.md,2022-11-29 12:06:04+00:00,True
+d97724bfbb3e138d3bbafecf88af22c2f07389d1,Update README.md,2022-11-29 12:09:11+00:00,True
+3dbb5aba9ce510e49e452830790dbbf1b6861ebe,How to install profiles into sonar with docker example,2022-11-29 13:08:15+00:00,True
+a1dadaeafde3e740d790da7787143d1569a05c75,Update README.md,2022-11-29 13:09:19+00:00,False
+4b13c44df2658f393b0ca38ee4d5f5ee9940ae88,Update README.md,2022-11-29 14:46:55+00:00,True
+d6725e40ed054d0e4e52b6a395edf8286995a856,Update README.md,2022-12-01 01:53:04+01:00,False
+821f5e7c58ad6c7cca077fd2ac5575d14b3062e5,Update README.md,2022-12-01 01:56:44+01:00,False
+a6a00bbe4b106a74eb8766f0a6bbc7ddf0f41a9b,Update README.md,2022-12-01 01:57:55+01:00,False
+e5b489dc4bddde639f580691646b1365e12b48cd,"Update README.md
+
+remove demo links",2023-04-08 12:11:15+02:00,False
+33c55462ed9978a6c2a03816763a91604c12c2c6,Update README.md,2023-04-08 12:18:55+02:00,False

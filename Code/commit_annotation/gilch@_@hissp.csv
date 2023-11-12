@@ -1,0 +1,156 @@
+sha,message,date,result
+975d5951ab5e715565b7cd3c21a63ef5cbc461b0,Initial commit,2019-05-05 15:20:45-06:00,False
+e6658109eb31bab47d9fc09ddf7d855a30aeea08,Add README rough draft,2019-05-10 18:26:27-06:00,False
+9b2b01be5714a20e888d69a56fe6c15409e3fb3f,Update README rough draft,2019-05-15 18:59:36-06:00,False
+cf2ceccaebe231e373663b6478149db049c542db,Update README rough draft again.,2019-05-15 20:07:49-06:00,False
+fdb3b0b5e84b6818b730c5eca49adaa405f90810,Update README rough draft again.,2019-05-18 12:53:11-06:00,False
+d4380a17caf8c6a5674531c53b792b4a73f079b4,"Add keywords, and use them for kwargs syntax
+
+Use .. instead of / for qualified symbols
+
+Spell out lambdas and use \ instead of # for reader macros,
+for better emacs compatibility (Python has no char type.)",2019-05-18 14:49:09-06:00,False
+f8136bb10335cb02c32758feca8f87be02987822,Update readme rough draft,2019-05-18 14:52:30-06:00,False
+fece44eb01f07cf4f4e1eac07b11d6ae2b961ecd,Rename macro namespace (from `!`/`xBANG_` to `_macro_`),2019-05-18 15:08:45-06:00,False
+dc175d21fbb6ce97d8dfeca193e9a24bfcc11f44,"Add TODOs to readme
+
+update rough draft",2019-05-18 17:13:48-06:00,False
+c67e34ac87168a38bde537abe33158c2024243a6,update todo,2019-05-18 23:13:40-06:00,False
+25deed2910e1f997ce32aee48b12afc363345a42,Allow stacked reader macros without whitespace,2019-05-20 21:51:09-06:00,False
+78f042f872b2b0e07d0fa290c49a94cc698a25d5,"Bake in basic reader macros ,@ ' ` , without \",2019-05-20 22:15:27-06:00,False
+299eef5d4466b83297de2b46b1f19fc4c6e6f476,Implement automatic qualification of symbols in template quote,2019-05-22 09:31:05-06:00,False
+404a280a48f53dc9df087e4349af92d8f3c33bd4,Update README,2019-05-22 10:58:13-06:00,False
+b57beddac9d958cdfee122eb571f93de589541c1,Add more compilation documentation to the TODOs in the README,2019-05-22 22:31:45-06:00,False
+938a7a5eab1658a90be7c0431d224c06f074cded,Add docstrings to FAQ,2019-05-22 22:38:11-06:00,False
+dff5622f35c67f290acdb764f5c4f8b94ac76a81,Clarify how to transpile multiple modules in a package,2019-05-22 22:43:13-06:00,False
+c3fc090cc708678d24df903bceeddfadcd9a5594,Rework transpile() for use in __init__.py,2019-05-22 23:01:48-06:00,False
+04c240d6959feb6c23f8e1c7463c2c9c8dbb3fc6,Fix transpiler extension bug,2019-05-23 09:26:49-06:00,False
+5402c923c04a7e93234794a1cd4d2873c67b61da,"Cleanup README
+
+Add Table of Contents",2019-05-23 23:05:13-06:00,False
+19760958362f8c8b5264d1d66e12b67ea2d8644b,"Change reader macro syntax to use a trailing backslash instead
+
+Update readme for new reader macro syntax",2019-05-24 12:45:17-06:00,False
+6b44163373ac74225dbfd7e87b65e3b8d40290d4,"Change REPL prompt
+
+README fixes",2019-05-27 10:27:36-06:00,False
+481ad80be8db5a4434f64d8b476bf77cade7d94f,Add more syntax highlighting to README,2019-05-27 10:41:06-06:00,False
+495a1590f370ad458e4bf1de148d0b632ed41f1d,Rework README and make doctests pass,2019-05-27 13:23:38-06:00,True
+1cbed62c54f99f0d4a18cab246dec4f46abfdf59,Add new prompts to FAQ,2019-05-27 13:47:40-06:00,False
+981687194851bef15eb3f303003bf6a205cd34ec,em-dash,2019-05-27 13:58:07-06:00,False
+9344d80a11de6fba89d9a52ba6e91cdc3d056ed5,"Update no-default kwonly example from : to :_
+
+Add some lambda commentary",2019-05-27 14:18:54-06:00,False
+0f1fd301a6ea8fc8ee077d5d6652e9cd9a283e9f,Explicitly support text macros,2019-06-01 17:30:13-06:00,False
+198a7a40d23ae8b7c30e00f927cd82dfcaa005dc,Implement tests for Hissp REPL examples in documentation,2019-06-02 14:12:43-06:00,False
+c475b5e8336e0e3181cee90bd09bf0e54a993463,"Change `pydocstring` fences back to `python` for GitHub compatibility
+
+It's too bad they can't support the same markdown.",2019-06-02 14:12:49-06:00,False
+207b176de42e2c09ec48e2f367618c99a1ee4bf2,Fix some README errors,2019-06-02 17:52:04-06:00,False
+846850ea1f89e9578f94e9d30093c9b242ee3d58,Get Lissp working in .rst doctests,2019-06-08 16:40:07-06:00,False
+8f8808ff850a67759dff1b9980aefbb9639de236,Fix doctests. Fill in Macros section more.,2019-06-09 19:52:04-06:00,False
+aa457550b636fbff847766c290c0592de06fccb2,"Change :_ to :? everywhere.
+
+It actually was :? originally.
+I tried it with :_ and ultimately didn't like the change.",2019-06-09 23:28:08-06:00,False
+e11170d3f2fdc17494e3673630ddeb2b11577072,"Change reader macro character to ``#``
+
+The ``\`` was confusing Emacs.",2019-06-14 22:53:57-06:00,False
+3a145403803c7b56e15e056fff8d07975a1c959a,"Fix issue with compile-time local imports
+
+And update tests for it.
+A macro may use a variable from the same module later.",2019-06-15 22:09:32-06:00,False
+a14770c19dae8165266ca81d5d54ad15752ea06e,Allow ``xAUTO..._`` to match any number in document tests,2019-06-15 23:28:24-06:00,False
+b5b105ae33a15a8cad92524be7ace469330b0816,Final cleanup for PyPI package release.,2019-06-29 15:07:22-06:00,True
+d10b26ba29509f8964f99b025ea57ecc81247d32,"Add badges
+
+The Gitter badger was supposed to badge the readme.
+It forked the repo, but that's it. No branch, no push, no PR.
+Bad badger. I'll badge it myself.
+
+I'm also adding the readthedocs badge.",2019-06-30 19:58:51-06:00,False
+c031a0121b5392e1bf1ae4ca6cdcb3f6f65d242b,Remove conduct section from readme,2019-08-05 23:03:19-06:00,False
+a0bbd7d2b3bba108a24da642f97ea2dd08f5f92c,"Remove contributing section
+
+Including the TOC.",2019-08-05 23:15:05-06:00,False
+ceef4656bd01674c37e6fdda72002ad236e4e827,Update README.md,2019-09-08 14:05:05-06:00,False
+9e85725fd158e55192b76c1abc49f1ee7b9286d1,Document new features,2019-10-06 13:26:20-06:00,False
+4f47392b4b0ec6e46797e987ebd7ea8f3303f4bc,"Pickle in text mode by default
+Special-case Ellipsis compilation
+Speed up some Hypothesis tests
+
+Binary strings are represented as text in the compiled output,
+so binary mode is not actually smaller.
+Text mode is also more human-readable.",2019-10-20 21:40:21-06:00,False
+9b07c62fdd7cbbb5cae3ce7affd5927f8a755bc1,"Pretty-print collection literals in compiled output
+
+And bump required Python version to 3.8+",2019-10-20 22:26:51-06:00,False
+2bb0c0794da280a4a9d4649c71f0eba5cd15fc02,"Readme update
+
+Change to ""control word"" terminology to match Hebigo,
+and avoid confusion with Python keywords.",2019-11-09 23:21:34-07:00,False
+98d16f2df2a6f1b145c10e19e408c98214a7972f,Add method call syntax trick for macroexpand to FAQ,2019-11-10 16:28:07-07:00,False
+fca619dbeb0a6dfa3b338b1489e1afd913e467d8,"Update README.md
+
+clarify ambiguous wording",2019-11-11 16:55:56-07:00,False
+359bea62ace69f9d1cebed4d29b5cdc7cd99440b,Add codecov badge to README,2019-12-01 21:23:57-07:00,False
+e1591d81196ccc37c2ec57b4697ab909e3070235,Fix typo in README.md,2020-06-27 08:48:50-04:00,False
+0e7b341aa17e4406cef50c2356e9aabb82c83352,Update README.md,2020-07-21 23:43:39-06:00,False
+046f1346d363d5dd46a92a4836944d0cc04f60fc,revise-macros,2020-10-25 17:13:27-06:00,False
+5f1d051d95ddfe4d4ec40a50c90e16e37c8e9635,"add quickstart
+
+associated corrections",2020-11-19 21:18:39-07:00,False
+bcc9bc9d73e15701da9110293bb4b570ebfdef41,fix some faulty markup in README.md for sybil tests,2020-11-19 21:18:42-07:00,False
+5116915dadfbaa7d9da0f05f5092c6a699888d63,Move README FAQ to Sphinx docs,2020-11-20 13:58:16-07:00,False
+156ef0895e144f05d3ccd48cac9066c2b5fdefba,Add (-):issp logo to index.rst and README.md,2020-11-25 22:31:07-07:00,False
+2f5f1b9936a84624d16b7862e0b446d6e6f3a55d,Update docs for improved REPL continuation handling,2020-11-30 14:16:06-07:00,False
+572f5757576a448339daea3576ba164aca21d610,"Rename the Lissp parser to ""Lissp""",2020-11-30 21:45:40-07:00,False
+bde5d39bfc17f673526b6099ade76253913f965f,Rework README.md from FAQ,2020-12-29 23:51:29-07:00,False
+eb632f6c2fca250f7e92e4acdee2fc053bf7589f,Use a two space indent in Hebigo example,2020-12-30 19:10:52-07:00,False
+3f124f0e42911ffb1850dd3dcb7fcdd9fba07450,fix readme typos,2020-12-30 20:02:22-07:00,False
+1234ef0e2e9f1cb341e8f943465c67cd854a0b05,rework readme links and headers,2020-12-30 20:04:54-07:00,False
+36c6fc30e1f187c15ff143988bb2847fce8d9ad8,"Clarify initial reference to ""Lissp"" in README.md",2021-01-04 14:36:52-07:00,False
+136ecf16d7ac3a4793a76a49d428fbbd7cb61c00,copy edit README.md,2021-01-11 01:28:25-07:00,False
+83337b3fa69fac0a6746a3dff3ae050bafbbb7b9,Final edit pass,2021-01-16 16:42:27-07:00,False
+0baf34d360b59a5b0adaf3e15caea1c838f8e3bc,Update for packaging,2021-01-16 19:42:03-07:00,False
+8737d0ba35e2641c7c7606edb6bcf4aaee698939,"Force utf8 encoding of README.md when read in setup.py
+
+And add em dashes.",2021-01-18 18:42:16-07:00,False
+4bfa473877b02b2a63b800fb37732813745b3c47,Improve compiler's indentation of multiline paired arguments,2021-01-21 22:05:31-07:00,False
+e44bb5a85228e863c84be27b71a5104422a670d4,reorder README.md to emphasize examples,2021-04-25 11:49:33-06:00,False
+c4084774b7a9ee9ee0ec2395a9c132638cc32177,rework README.md and fix TOC,2021-04-26 22:42:40-06:00,True
+ce1d2bdd71d9d369db9a47f9739241cb7bdc8778,rework Hebigo example in README.md,2021-04-26 22:42:40-06:00,False
+884bd3e4be553ec30cc99553033ebc4ee6e55673,"Apply suggestions from code review
+
+Fix typo in macro tutorial.
+Make docstring in README example consistent with source.",2021-05-01 23:42:27-06:00,False
+4d0803ad74b359f4c53f626bb412383070d2df8c,"Update README.md
+
+fix parentheses for the example with Hebigo macros in Lissp",2021-05-15 11:54:36-06:00,False
+1b59054e36b01b54c7385258537c38a222de7b63,clarify install instructions,2021-09-12 01:43:23-06:00,True
+5b54039e6dd15763dab72ef64360e7639e332235,Add black badge,2022-02-06 15:58:44-07:00,False
+1b525b57ba5528881c7483cd69be5aeb3751bd25,Update copyright,2022-02-06 16:29:39-07:00,False
+32bc86fd5fc77c4170acbd8432ad2a9fbf61d03b,"Rename macros module
+Import utilities into package level
+Add interact wrapper utility",2022-02-10 23:49:29-07:00,False
+e53a081b08fbb52226528324bd120ef4b77e2b8e,basic cleanup,2022-02-12 00:55:03-07:00,False
+9b5b82373270215c38dd2120ab5d39efcbc04cf4,Fix install URL,2022-07-29 17:13:24-06:00,True
+ba3e0ad05ed3b2e35b95873b542d755ab4efdb17,Use better example,2022-07-29 17:13:24-06:00,False
+9a181cb775db73b4625e2701408ce2d14d7c40e0,Rename lissp_whirlwind_tour.rst,2022-08-17 20:09:57-06:00,False
+ae5d0185bd1da60624b63e7dfec8b6f3b98a1d78,Remove unnecessary .git,2022-08-17 20:14:42-06:00,True
+9bd804d6cf049ca6c331b030c40e6e0e4c83ad20,Update readme examples,2022-08-21 16:56:32-06:00,True
+9a58544159229f45932bad159a699c857ac4bdfe,Add macros section,2022-08-21 18:16:38-06:00,True
+61bc8ba32d58ec47a320cd67e16afc508a292c29,Add link comments in temperature app,2022-08-21 20:46:49-06:00,False
+9dec81c36f0e5abb723fb95076af0322748f896e,Adjust wording,2022-08-21 20:46:49-06:00,True
+8863fe9d7e5eb8092636fc22c88e4895af609c27,Fixes from code review,2022-08-21 22:46:27-06:00,True
+fbadb8e1eb9142beb6d08d4cf9bf3612a8a9e1f3,Simplify Lissp readme example,2022-08-27 12:46:00-06:00,False
+753957279ea738b9f84bfbed9dca4b7381cf3a31,"Add ""Hello, World!"" to install confirm",2022-09-08 00:11:39-06:00,True
+354bcaadf6cc348addc799db115a3fc6bff8f901,Fix typo in README.md,2022-09-17 18:21:09-06:00,True
+7a2deae6c444c67d1528a4477de639bf4e157c3f,"Eliminate attrgetter- @# overload
+
+Use X#X.foo.etc instead. It's only two more characters, the same as get#.",2022-09-20 21:15:54-06:00,False
+8184f86683eace540c7090af7cb4631eb0da5e9f,Rename &# to O#,2023-02-05 16:19:46-07:00,False
+b8488b52ded561793a81c7738b88be063a32e1ba,"Update comma style for readerless
+
+I developed this style after attempting to write about a page of code in readerless. Putting the commas at the start of the line instead improved readability quite a bit.",2023-04-23 23:01:16-06:00,True
+ab8c0e98f684c7e16dac3c12d9a56bd9d7d52b6f,.update for hidden doctests,2023-05-11 20:04:17-06:00,False

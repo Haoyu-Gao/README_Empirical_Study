@@ -1,0 +1,619 @@
+sha,message,date,result
+d0391642e30a6529bfc46b57851b1b06490c83c6,Initial commit,2015-09-21 08:35:25-07:00,False
+bc990a77088225fd782780aa1994f01ed3ca90d5,"README file
+
+Added proposal",2015-09-23 18:23:57-07:00,False
+2769412109611cff29d6922cc4b85774202e5bdd,Pip install and installation notes,2016-02-29 11:31:51-08:00,True
+88ff4c99b2b166a07d387ac4e2173fffcfcd1cfd,Markdown formatting,2016-02-29 11:33:19-08:00,True
+1df0dbe55a84b940d76ea565bc60e8c51313ecc8,working,2016-02-29 14:25:53-08:00,True
+f95f59784ab535232b9e4a0dc8324d4a5f09f788,README.md modification,2016-02-29 14:45:54-08:00,True
+09d7589d5933b699b119af2f4843e39b2cefd4b8,README edits + screenshots,2016-03-01 13:12:20-08:00,False
+b852a491bdaf28ad79fd23ca1e251b65e5313aee,"README updates, architecture section, contributing section",2016-03-01 14:43:16-08:00,False
+3b05ef1edd07f1e57e6decd85018dc7c38ab8611,Wording,2016-03-01 14:47:22-08:00,False
+66c732ba8dc824aa5e9442d2496a3703282da7bb,Remove 'Ipython',2016-03-01 14:48:43-08:00,False
+2d0a54c92f6f3263de0bbcfeea5517d31a42bc92,Help screenshot,2016-03-01 14:59:53-08:00,False
+c30aee6629692a57420e5b8b71f540a8c3c6b196,"Sparkmagic, autovizwidget, and hdijupyterutils (#243)
+
+* Refactor from agu
+
+* Fix travis
+
+* Adding nosetests for all projects in the repo
+
+* Ignore vscode tasks
+
+* Changing setup.py urls
+
+* Move exceptions and constants first take
+
+* Separate logging, configuration, constants, and events from hdijupyterutils and autovizwidget
+
+TODO: sparkmagic
+
+* Remove plotly hack
+
+* Separate logging, config, events, constants for sparkmagic
+
+* Add sparkevents changes
+
+* Fix base64 configuration
+
+* Fixed configuration unit tests (but one) by making _overrides global. This won't work...
+
+* config 2 work
+
+* Fix configs
+
+* Create SparkLog
+
+* Fix ensure_file_exists
+
+* Really fix fsrw
+
+* Fix emitting events
+
+* Fix events for autovizwidget
+
+* Address comments from PR
+
+* Making plotly version less restrictive
+
+* Fix autovizwidget with ipywidgets>5.0
+
+* Last fixes
+
+* Fixing README
+
+* Fix dev install installation steps
+
+* Add unit tests to README",2016-06-02 16:48:44-07:00,True
+9236d753ec559df5336dca8d53bc4407b6694f7b,"Add magics in ipython kernel sample notebook (#245)
+
+* Add example to autoviz
+
+* Change order of visualizations
+
+* Add information to README
+
+* Add magics in ipython kernel sample notebook
+
+* Address feedback so far
+
+* Addressing notebook file feedback",2016-06-09 19:43:57-07:00,False
+3791afbfdd37ca11d9bfed9fcc0fe7556e95aa41,"Add Pyspark and Spark Sample Notebooks (#263)
+
+* Add example to autoviz
+
+* Change order of visualizations
+
+* Add information to README
+
+* Add magics in ipython kernel sample notebook
+
+* Address feedback so far
+
+* Addressing notebook file feedback
+
+* Delete remotespark notebook
+
+* User error on sql query should not be DataFrameParseException
+
+* Add Pyspark and Spark sample notebooks
+
+* Remove kernel explanation",2016-06-21 14:49:01-07:00,False
+deaa794d01756b18ffae430c134ee87c10b08fdf,Move server extension to sparkmagic package,2016-08-30 18:32:03-07:00,True
+f8be80e97a5afb87868a2ddb620b69af2d48aa00,Move server extension to sparkmagic package,2016-08-30 19:07:29-07:00,True
+b9d155f37240ebb27dcb22804b3b07946d6aacd5,Fix API documentation,2016-08-30 19:09:12-07:00,True
+77bcc7eed24041cff04322ee1665c77f8ea708b4,Add unit tests,2016-08-31 14:46:12-07:00,True
+e2dc72f478a6ddb0914095beba0159dbdab64f43,Add cluster change event,2016-08-31 15:27:48-07:00,True
+0ccd82dc973512be9e117ddfe66bb809ca68ca22,Fix teletype and make tests reliable,2016-09-06 12:31:21-07:00,False
+b5cf41dec090129e704e25be56ff9dab2e271aff,bump version,2016-09-27 16:40:56-07:00,True
+a4a35239b7409ace2661e2d7069517e12653f092,"Added PySpark3 kernel. (#292)
+
+* Added PySpark3 kernel.
+
+* Addressed feedback.
+
+- README.md
+- Removed version from __init__.py.",2016-11-03 20:15:48-07:00,False
+a455634209d64b9e18926addfbf627d21a7a9b4e,"Add SparkR kernel
+
+* SparkR kernel in Jupyter
+
+Add SparkR kernel and corresponding tests",2016-12-16 14:26:46-08:00,False
+ba60462aceab7dc4fd7738955c7bc2e5790dae74,"Merge master to release 
+
+* Print a warning message early if detected resource limitation at session startup.
+
+* Addressed review comments.
+
+* More change after comments.
+
+* Message change after comments.
+
+* Fix unicode as commented.
+
+* Fix default heartbeat configuration (#299)
+
+* Add SparkR kernel
+
+* SparkR kernel in Jupyter
+
+Add SparkR kernel and corresponding tests",2016-12-16 14:33:29-08:00,False
+af02a33612a2fbfd351b78fc0296f451be80ca8c,"Revert ""Merge master to release"" (#302)",2016-12-16 15:04:18-08:00,False
+3c66b3954dcfc09b2a30fc58e299ec2a96cedc8a,"Merge master to release (#304)
+
+* Print a warning message early if detected resource limitation at session startup.
+
+* Addressed review comments.
+
+* More change after comments.
+
+* Message change after comments.
+
+* Fix unicode as commented.
+
+* Fix default heartbeat configuration (#299)
+
+* Add SparkR kernel
+
+* SparkR kernel in Jupyter
+
+Add SparkR kernel and corresponding tests
+
+* Update version",2016-12-16 15:56:13-08:00,False
+67fcf744b94f5c96eea26a8729a0f004576cdcf0,"Server extension allows optional kernel name parameter and creates new kernel if needed (#313)
+
+* first take at adding kernel name
+
+* working
+
+* clean up code
+
+* started unit tests
+
+* first take unit tests
+
+* fix method to mock
+
+* finished tests
+
+* bump versions
+
+* update readme
+
+* remove extra dot
+
+* fix python 2 return and yield",2017-01-05 11:22:16-08:00,True
+e0d70ee39740a681ea11a29fcda248885d5027c2,"Merge master to release (#316)
+
+* Print a warning message early if detected resource limitation at session startup.
+
+* Addressed review comments.
+
+* More change after comments.
+
+* Message change after comments.
+
+* Fix unicode as commented.
+
+* Fix default heartbeat configuration (#299)
+
+* Add SparkR kernel
+
+* SparkR kernel in Jupyter
+
+Add SparkR kernel and corresponding tests
+
+* Update version
+
+* Add missing comma (#307)
+
+* Fix indentation (#310)
+
+* Server extension allows optional kernel name parameter and creates new kernel if needed (#313)
+
+* first take at adding kernel name
+
+* working
+
+* clean up code
+
+* started unit tests
+
+* first take unit tests
+
+* fix method to mock
+
+* finished tests
+
+* bump versions
+
+* update readme
+
+* remove extra dot
+
+* fix python 2 return and yield
+
+* Port commit on release not made on master so that branches can be automatically merged now (#315)
+
+* Fix indentation (#311)
+
+* Print a warning message early if detected resource limitation at session startup.
+
+* Addressed review comments.
+
+* More change after comments.
+
+* Message change after comments.
+
+* Fix unicode as commented.
+
+* Fix default heartbeat configuration (#299)
+
+* Add SparkR kernel
+
+* SparkR kernel in Jupyter
+
+Add SparkR kernel and corresponding tests
+
+* Update version
+
+* Add missing comma (#307)
+
+* Fix indentation (#310)
+
+* Remove extra line",2017-01-09 07:44:14-08:00,True
+aa04f19ec44f6298fd4cd9c095b8aa57598db826,"Sync with parent branch (#7)
+
+* Fix indentation (#311)
+
+* Print a warning message early if detected resource limitation at session startup.
+
+* Addressed review comments.
+
+* More change after comments.
+
+* Message change after comments.
+
+* Fix unicode as commented.
+
+* Fix default heartbeat configuration (#299)
+
+* Add SparkR kernel
+
+* SparkR kernel in Jupyter
+
+Add SparkR kernel and corresponding tests
+
+* Update version
+
+* Add missing comma (#307)
+
+* Fix indentation (#310)
+
+* Server extension allows optional kernel name parameter and creates new kernel if needed (#313)
+
+* first take at adding kernel name
+
+* working
+
+* clean up code
+
+* started unit tests
+
+* first take unit tests
+
+* fix method to mock
+
+* finished tests
+
+* bump versions
+
+* update readme
+
+* remove extra dot
+
+* fix python 2 return and yield
+
+* Port commit on release not made on master so that branches can be automatically merged now (#315)
+
+* Fix indentation (#311)
+
+* Print a warning message early if detected resource limitation at session startup.
+
+* Addressed review comments.
+
+* More change after comments.
+
+* Message change after comments.
+
+* Fix unicode as commented.
+
+* Fix default heartbeat configuration (#299)
+
+* Add SparkR kernel
+
+* SparkR kernel in Jupyter
+
+Add SparkR kernel and corresponding tests
+
+* Update version
+
+* Add missing comma (#307)
+
+* Fix indentation (#310)
+
+* Remove extra line",2017-01-09 18:47:09-08:00,True
+610c916fb58125ed0ef029e061bd2eb68900ee91,"Adding a working Docker setup for developing sparkmagic (#361)
+
+* Adding a working Docker setup for developing sparkmagic
+
+It includes the Jupyter notebook as well as the Livy+Spark endpoint.
+Documentation is in the README
+
+* Pre-configure the ~/.sparkmagic/config.json
+
+Now you can just launch a PySpark wrapper kernel and have it work
+out of the box.
+
+* Add R to Livy container
+
+Also added an R section to example_config.json to make it work
+out of the box - and I think it's just a good thing to have it
+anyway, otherwise how would users ever know it was meant to be
+there?
+
+* Add more detail to the README container section
+
+* Add dev_mode build-arg.
+
+Disabled by default. When enabled, builds the container using your local
+copy of sparkmagic, so that you can test your development changes inside
+the container.
+
+* Adding missing kernels
+
+Was missing Scala and Python2. Confirmed that Python2 and
+Python3 are indeed separate environments on the spark
+container.",2017-06-01 14:30:41-07:00,True
+8b1e6bc81c3b6883207cb4fc5ec21c6c2a0a0706,"Kerberos authentication support (#355)
+
+* Enabled kerberos authentication on sparkmagic and updated test cases.
+
+* Enabled hide and show username/password based on auth_type.
+
+* Updated as per comments.
+
+* Updated documentation for kerberos support
+
+* Added test cases to test backward compatibility of auth in handlers",2017-06-07 11:03:53-07:00,True
+e50712862e0e78c6ea419c0f1b4fe311a69396f3,"Update README.md
+
+Change layout and add build status",2017-06-07 11:11:59-07:00,True
+6422a2bb68fa001eef5eeee17f43302b40b9c33d,"Release 0.12.0 (#373)
+
+* Make location of config.json file configurable using environment variables (#350)
+
+* Make location of config.json file configurable using environment variables
+
+* Update minor version to 0.11.3
+
+* Fix column drop issue when first row has missing value (#353)
+
+* Remove extra line
+
+* initial fix of dropping columns
+
+* add unit tests
+
+* revert sql query test change
+
+* revert sql query test change 2
+
+* bump versions
+
+* move outside if
+
+* Adding a working Docker setup for developing sparkmagic (#361)
+
+* Adding a working Docker setup for developing sparkmagic
+
+It includes the Jupyter notebook as well as the Livy+Spark endpoint.
+Documentation is in the README
+
+* Pre-configure the ~/.sparkmagic/config.json
+
+Now you can just launch a PySpark wrapper kernel and have it work
+out of the box.
+
+* Add R to Livy container
+
+Also added an R section to example_config.json to make it work
+out of the box - and I think it's just a good thing to have it
+anyway, otherwise how would users ever know it was meant to be
+there?
+
+* Add more detail to the README container section
+
+* Add dev_mode build-arg.
+
+Disabled by default. When enabled, builds the container using your local
+copy of sparkmagic, so that you can test your development changes inside
+the container.
+
+* Adding missing kernels
+
+Was missing Scala and Python2. Confirmed that Python2 and
+Python3 are indeed separate environments on the spark
+container.
+
+* Kerberos authentication support (#355)
+
+* Enabled kerberos authentication on sparkmagic and updated test cases.
+
+* Enabled hide and show username/password based on auth_type.
+
+* Updated as per comments.
+
+* Updated documentation for kerberos support
+
+* Added test cases to test backward compatibility of auth in handlers
+
+* Update README.md
+
+Change layout and add build status
+
+* Bump version to 0.12.0 (#365)
+
+* Remove extra line
+
+* bump version
+
+* Optional coerce (#367)
+
+* Remove extra line
+
+* added optional configuration to have optional coercion
+
+* fix circular dependency between conf and utils
+
+* add gcc installation for dev build
+
+* fix parsing bug for coerce value
+
+* fix parsing bug for coerce value 2
+
+* Automatically configure wrapper-kernel endpoints in widget (#362)
+
+* Add pre-configured endpoints to endpoint widget automatically
+
+* Fix crash on partially-defined kernel configurations
+
+* Use LANGS_SUPPORTED constant to get list of possible kernel config sections
+
+* Rename is_default attr to implicitly_added
+
+* Adding blank line between imports and class declaration
+
+* Log failure to connect to implicitly-defined endpoints
+
+* Adding comment explaining implicitly_added
+
+* Pass auth parameter through
+
+* Fix hash and auth to include auth parameter (#370)
+
+* Fix hash and auth to include auth parameter
+
+* fix endpoint validation
+
+* remove unecessary commit
+
+* Ability to add custom headers to HTTP calls (#371)
+
+* Abiulity to add custom headers to rest call
+
+* Fix import
+
+* Ad basic conf test
+
+* Fix tests
+
+* Add test
+
+* Fix tests
+
+* Fix indent
+
+* Addres review comments
+
+* Add custom headers to example config",2017-06-23 11:44:08-07:00,True
+b3eb4fa37e758154e5f5c0a21a06fd2dbf8fe691,"Update Livy link in README (#400)
+
+* Update Livy link in README
+
+* Update README.md
+
+* Update README.md",2017-08-18 08:26:09-07:00,False
+87f69c781b1485d02a698aaf091383398bf561e9,ISSUE#413 - samples,2017-10-23 22:33:14+02:00,False
+83f05597dba0cb798bb3dc096e0d5bfb280193f9,ISSUE#413 - allow user to limit the data sent,2017-12-03 14:30:55+01:00,False
+be04dc0646fa9ca8a3cc76cb2991807b1abaa31a,ISSUE#413 - remove dev-only code,2018-02-04 18:25:03+01:00,False
+b37523e693afe3dc046d00c04c41fd94c53d8525,Links fixed in README,2018-08-13 09:54:56+02:00,False
+89ecb504440f21d989869ead241e021a89f4722e,"Release v0.12.6 (#481)
+
+* Add python3 option in %manage_spark magic (#427)
+
+Fixes #420
+
+* Links fixed in README
+
+* DataError in Pandas moved from core.groupby to core.base (#459)
+
+* DataError in Pandas moved from core.groupby to core.base
+
+* maintain backwards compatability with Pandas 0.22 or lower for DataError
+
+* Bump autoviz version to 0.12.6
+
+* Fix unit test failure caused by un-spec'ed mock which fails traitlet validation (#480)
+
+* Fix failing unit tests
+
+Caused by an un-spec'ed mock in a test which fails traitlet validation
+
+* Bump travis.yml Python3 version to 3.6
+
+Python 3.3 is not only EOL'ed but is now actively unsupported by Tornado, which causes
+the Travis build to fail again.
+
+* Bumping version numbers for hdijupyterutils and sparkmagic to keep them in sync",2018-09-18 23:30:50-04:00,False
+6b46996390384a685658b88f9a9cf2fe96d2d7a9,Add Gitter badge (#482),2018-09-19 09:31:11-04:00,False
+7577f4f35c62958378be1c3d09587f4919b9b1e6,"delete obsolete pyspark3kernel (#549)
+
+* delete obsolete pyspark3kernel
+
+* Update README.md
+
+* Update setup.py
+
+* Update test_kernels.py",2019-06-27 14:26:48-04:00,False
+4f46950c34bf82b414f2bc4b020b9f54fd6e00cf,Note new feature.,2019-07-12 14:55:00-04:00,False
+b771129465ed97824cf6337c983d1fd4e083ed7e,Add documentation for JupyterLab.,2019-07-19 14:24:37-04:00,True
+8c9b41d7d92a7c8c366e9f5850632fc6c72b73f9,Update with new PRs.,2019-09-24 16:43:37-04:00,False
+7fd20c57ab17b833f4b893b967f764b5e67cc3e3,Link to new notebook.,2019-09-27 14:06:45-04:00,False
+83dd808ff29aeb97099b3b5165801e8e93b714dc,Use JSON true instead of Python True,2019-10-03 15:16:13-07:00,False
+bac95d5eb5391b243bce8dc51944ae3c956ea0d4,Update README with all_errors_are_fatal,2019-10-29 08:18:44-07:00,False
+aae815d8951eb96c88dc2d44a292ca6370b9588d,Always raise SparkStatementException on spark errors and remove references to spark_statement_errors_are_fatal,2019-11-25 10:37:53-08:00,False
+63da90ae4287f65856a1406c6d1203c3f34cb1da,"New conf option 'cleanup_all_sessions_on_exit' (boolean)
+
+Default: False
+
+The existing 'shutdown_session_on_spark_statement_errors' conf allows ensuring that livy sessions are shut down only in case of a Spark error.
+
+This new option helps ensuring that livy sessions are not left behind also when there's a non-Spark error, or if the notebook exits gracefully but user forgot to do cleanup.
+
+Also added docs to README on how to set conf overrides programmatically.",2019-11-29 00:30:27+02:00,False
+42da1cdfdc73054217e6d30f084138bf63d86789,add readme about the custom kerberos auth configuration,2020-01-10 11:21:13-03:00,False
+7967131e72d5c90ae573a6b269ffad1184e54002,update readme,2020-01-11 09:20:01-03:00,False
+961084aac2f462ac056fc1597c9f32e3e2dbb627,Fix Broken Link in Readme.md,2020-02-06 12:55:21-06:00,False
+5069bdbbd94ee2d220d236ab8df231235075d43d,Fix typo,2020-02-07 08:58:32-08:00,False
+813bf067727b2fead0a905b795265f1d510e0f8c,"Update README.md
+
+Fix one installation step",2020-04-17 18:28:23+05:18,False
+38bb0dae1c601cb3b38471aaad9f98ab6dfce2a1,"Pluggable auth dev (#1)
+
+Add support for custom authentication classes
+
+Added a base Authenticator class that all custom authentication classes will extend. The base Authenticator is analogous to the ""None"" auth type Sparkmagic supported previously. The Basic and Kerberos authenticator classes extend the base Authenticator class and will replace Sparkmagic's existing implementation of Basic Access and Kerberos Authentication. All authenticators have a get_widgets() function that creates the widgets that authenticator needs in the endpoint tab of the %manage_spark widget. Instead of creating widgets for all the different auth types, AddEndpointWidget just loads all the Custom authentication classes from the configuration file and initializes them. Removed the username and password attributes of the Endpoint class and changed the auth attribute to be the Authenticator instance instead of the current implementation which uses a string (""None"", ""Basic_Access"", ""Kerberos""). Changed the auth attribute of the ReliableHttpClient to be the authenticator instance of the endpoint. Each custom authenticator implements a call function that takes a Request object as an argument, and attaches the authenticator's authentication to the given Request object. Added an initialize_auth function to utils.py which accepts a parsed arg_string from a magic command and returns the instance of the authenticator that was specified with the -t flag. Changed all the subcommands in remotesparkmagics.py to add/cleanup/delete the endpoint with the Authenticator instance returned from the initialize auth function.
+
+Allowing custom Authentication classes makes it easier for others to add their own custom authenticators without having to upstream a change to Sparkmagic in order to use Sparkmagic with their own authentication type. If several other people wanted to add their own authentication types, this would quickly get out of hand. Another way people to add additional authentication types to Sparkmagic would be to make their new authentication changes into a Sparkmagic fork, but this takes a lot of time and effort to maintain.
+
+Adding support for custom authentication classes to Sparkmagic will allow others to add their own custom authenticators by creating a lightweight wrapper project that has Sparkmagic as a dependency and that contains their custom authenticator that extends the base Authenticator class.",2020-08-19 14:46:44-07:00,True
+03946c19f7518717337f77eb399291dd821653af,add documentation to README.md on how to write and register custom authenticators,2020-08-19 14:46:44-07:00,False
+1ee004888a8c0802a73790913d35cb8ad7695c03,Update README,2022-04-27 11:28:34-07:00,True
+84cc93001a4089d2744510f4108c5bab3e420566,Add black icon to README,2022-04-29 11:21:01-07:00,False
+ebe7f0613d4ba3399268ab30f618c5829c74f189,Add a link to Lighter project,2022-10-31 09:39:18+02:00,False
+2ec1d5f782228cf2d00be7a91b436af76d650975,fix: remove nosetest ref from readme,2022-12-31 17:20:43-08:00,False
+3a4d932bff0140b3c7231fdf0bd505f90b2fd8ea,feat: add poetry to README,2023-01-01 13:52:17-08:00,False
+6001a42d616ab1fdcaa3bb03fe561bc296f70c47,feat: add note about numpy/pandas bug,2023-01-01 13:59:58-08:00,False

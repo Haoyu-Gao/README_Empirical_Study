@@ -1,0 +1,47 @@
+sha,message,date,result
+c8c3e184c1dc683d8d9d1ad079b0c2b2c6c5f5e9,First public release,2017-06-24 19:30:35+01:00,TRUE
+3d45fb7919aad7eaefbbabe6639b978af0f6c589,Update documentation,2017-07-01 23:15:48+01:00,TRUE
+0ffb03981f0814f7f32609e680c20b96e47eb363,Add change log and FAQ link to documentation,2017-07-03 00:43:29+01:00,FALSE
+61b1460123f5e6bf7c27c7328cd4644a4767ae92,0.2.0,2017-07-04 17:27:28+01:00,TRUE
+29a412067948ba99fe26b6c299f4a8169bd6cbd7,Fix line wrapping (closes #5234),2017-07-06 15:25:41+01:00,FALSE
+89f2f933daf4334bf192dd4f373577cbff3550c8,Add tablet screenshots (closes #5236),2017-07-06 15:39:13+01:00,FALSE
+1e81fa77be539fffc3acf43889b2c3b35ddc4f34,Update documentation,2017-07-28 21:13:35+01:00,FALSE
+654aba4727f0fb4ee27505fe1ec1f76567bd69b0,0.4.0,2017-09-11 22:48:18+01:00,TRUE
+39d32d277134f7bdbc2ebcf3753e4a0108310e71,Add public repository update script,2017-09-15 17:19:33+01:00,FALSE
+235812c7c2ea4ffded601a5516f127fe4f6498cb,Fix dir() issues on Android,2017-09-21 15:35:46+01:00,FALSE
+04cdaf86982861a992881e8e5b4c5cfc2a52d3fb,Fix implicit relative import (closes #5304),2017-10-24 19:27:11+01:00,TRUE
+f472883dd6949f58b086eb1df8ec8d2e393dd3bb,"Fix Gradle tests on Linux (refs #5184):
+Build still won't work on Linux, so if launching the tests from Gradle, comment out the line ""dependsOn assemble""",2017-10-31 10:29:31+00:00,TRUE
+a6daf3e3a85d07800d3319bc634cdb163337c8c5,"Support Android Studio version 3.0 (closes #5180), and move demo and product projects to that version",2017-10-31 14:43:10+00:00,TRUE
+299d1fce523c8e9531b1b072d5bcf423c27f8165,Change minimum API level from 9 to 15 (closes #5282),2017-10-31 17:26:42+00:00,TRUE
+41b42d176a34b7e2ca5acc19a81b435e2acfc493,Update documentation,2017-11-04 15:04:37+00:00,FALSE
+3eb78bb9068611a727f3dba86a8ddc4ae3453c5f,0.6.1,2017-12-11 18:27:17+00:00,FALSE
+31f5c5be2ba768994f37004f483537bd0df85b40,Speed up extractAssets (closes #5258),2017-12-16 17:36:48+00:00,TRUE
+532190dcc40bf906817404865b2618a874b5ac40,Add build variant for demo app,2017-12-22 18:41:11+00:00,FALSE
+1e67b611f4f516b6b1d8e2666b71272e89cf2ef9,1.2.0,2018-01-07 21:08:45+00:00,FALSE
+e9a892054f109d8627fb480e802fca7e4aa06cb3,Update documentation,2018-01-16 15:02:16+00:00,TRUE
+38c362dabb4d4fc91507e0230988211aa670b78c,Update documentation,2018-01-26 18:06:42+00:00,TRUE
+98203290984235bd475c11a52b636ba839bb9919,Add stand-alone console app in public repository (closes #5344),2018-02-28 16:35:25+00:00,TRUE
+5b2881dc23766b5f60eca77d479cbb3851c82842,Update documentation,2018-03-06 15:20:32+00:00,TRUE
+b1289e6be529dfd82504f4c730dce2b96340b7f7,Finish making functions cdef,2018-03-08 23:06:58+00:00,FALSE
+73b30e0acffcc681e5f94745eee0317181da63d8,2.0.0,2018-03-15 21:03:23+00:00,TRUE
+819216d56c46420bedf7043bbc2176bbb9d11b8b,Update documentation,2018-03-22 22:44:19+00:00,FALSE
+3144266212f7aa18f079441056ab02f264b49d03,Update documentation,2018-04-26 15:19:08+01:00,FALSE
+66453aae761be79286191ad2f084dfa7682e3e64,Update documentation,2018-04-29 21:21:06+01:00,FALSE
+4b3d41e6ad8a68efc4e9667fc3cb94d1770b4d99,Don't include build machine packages in post-install `pip check`,2018-05-04 21:28:18+01:00,FALSE
+4840d75effabd38d4daed84e8be4f92221f5ece4,Update documentation,2018-05-15 16:23:02+01:00,FALSE
+5be6c863797da612f4306f554ae3df7a6743c0af,3.1.0,2018-05-30 14:43:47+01:00,FALSE
+0f8274e67e4b010607989ab2efcf703dddf43765,3.2.0,2018-06-06 17:59:03+01:00,TRUE
+532a7d88a86c49d4e2e270e5dde2d3e34545a57c,Update documentation,2018-06-11 11:14:49+01:00,FALSE
+adbbb90486ec5c7c712ac1c8f2fc1c9842cbfe6f,Make update_public.sh also update Chaquopy version numbers and create chaquopy-hello commits,2018-06-20 18:18:44+01:00,FALSE
+c8aa5006298949bdc303d80f4121e2aa105880cf,Update `target` build process after testing in clean environment,2018-07-05 11:04:55+00:00,TRUE
+e5b609766e31515a7aca252efea34bb52cef913a,Update documentation,2018-07-17 17:41:17+01:00,TRUE
+9c9b9c4118f835c7d1123096629ab6c9ff0661aa,3.3.2,2018-08-02 10:06:29+01:00,FALSE
+02f84cfa0d21eda8a54a9c6cc1de0f0700fce3e8,Rearrange and update READMEs  /  Simplify pkgtest build.gradle,2018-08-04 12:15:52+01:00,TRUE
+30e47ab97afdef57c9c78a619bd75b993b827b19,Update ***REMOVED*** release process,2018-10-19 18:56:01+00:00,TRUE
+7423cb2ccabd10407124cc92c1a66652017ccea7,More ***REMOVED*** release fixes,2018-10-19 20:36:25+00:00,TRUE
+8a38b67661644d4b918c8230bad6f20c162df3f9,Update piptest to Android Gradle plugin 7.0.2 and Java 11,2021-09-05 13:52:54+00:00,FALSE
+3e7012e57c25be5699f3553073f345455f0d3385,Add MIT license notice,2022-07-20 17:18:57+01:00,FALSE
+d64acc109f90ada863e51e2b9d93384ad99f9f30,Update documentation,2022-07-24 21:33:52+01:00,TRUE
+a6e7135254e67696a686c05fdcad5bfae11e8554,"Update documentation, add bundle.sh",2022-08-20 16:33:01+01:00,TRUE
+af1b5e37ab2bca64af5c11689db297f13e63c5b3,Stop updating separate demo app repository,2022-11-06 14:16:35+00:00,FALSE

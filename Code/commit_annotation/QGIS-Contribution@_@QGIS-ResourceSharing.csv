@@ -1,0 +1,133 @@
+sha,message,date,result
+141cb4f44e2235c76e5099ac4f9ad2a0b7759dd0,Add badges.,2016-06-12 11:54:04+02:00,False
+d7752075af9d8f01cfd354b430028710b3419b93,Update readme.,2016-07-22 11:23:02+02:00,True
+a5facc52bbf4688e8edcefb51dcb8fc72cd12cd0,Update readme.,2016-07-23 00:24:01+02:00,False
+3ed4da56f34145d0ae0e7f347c8f9f21879e6d97,Update the readme.,2016-07-27 08:37:33+02:00,False
+f0c252a44b300b8cd24a0ab848775a58aec6440f,Update URL to other services.,2016-07-27 17:18:54+02:00,False
+d3a0e82952ae47c9c7a46ca8ff6259e5a53dc781,Update readme.,2016-08-19 12:44:49+02:00,False
+8ef75f5a709f2a6d88a4a627f1bce1ff8dd743c7,Simplify,2018-12-04 16:52:42+01:00,False
+a8b12fbad0163ee0aa0990dfc2775395d294418f,Update README.md,2020-02-19 10:42:02+07:00,False
+a94de927fccc5a2d573eec0c275eb652039880b1,Update documentation github pages,2020-02-22 13:24:58+07:00,False
+f36a833103f982170e398f6a0d42036ae5d27e7c,Update the doc to new name,2020-02-22 13:41:33+07:00,False
+6cb9e8a67444d822bfb71ca576adc56013c84355,Update README.md,2020-02-23 16:48:41+01:00,False
+4e8119bf5de839b2b6b545a3dfbd9de630c179dd,Update README.md,2020-02-24 01:01:26+01:00,False
+2b3d3ac8b35356df2f59f4dfce867e48239b01c2,"Remove svg uninstall (#107)
+
+* Remove SVGs on uninstall
+
+* unset selected on uninstall
+
+* testing
+
+* testing
+
+* testing
+
+* testing
+
+* testing
+
+* testing
+
+* testing
+
+* Remove SVGs on uninstall
+
+* unset selected on uninstall
+
+* testing
+
+* rebase fix
+
+* testing
+
+* rebase fix
+
+* rebase fix
+
+* rebase fix
+
+* testing
+
+* Some more updates
+
+* Cleaning
+
+* testing
+
+* testing
+
+* Fix svg counting, add installation summary to collection details
+
+* Enable SVG path update on removal of the last SVG file
+
+* Fix line continuation
+
+* fix
+
+* fix
+
+* fix
+
+* fix
+
+* fix
+
+* fix
+
+* increase GUI consistency after install / uninstall
+
+* testing
+
+* update web_view_details on uninstall
+
+* fix svg remove error
+
+* remove blank line
+
+* set svg search_paths
+
+* handle removal of the last installed collection
+
+* use correct collection ID
+
+* testing
+
+* update _selected_collection_id
+
+* include collection statistics docs
+
+* removings some comments
+
+* some adjustments
+
+* update metadata.txt
+
+* update comments
+
+* show_collection_metadata after collection install
+
+* Keep resource statistics whe reloading repositories",2020-04-10 10:05:43+02:00,False
+9d8dbeea7a23db5248177e7d4d52b84199ba3a26,"Minor change: point to HTTPS url for documentation (#163)
+
+* Point to HTTPS url for documentation
+
+* Update README.md
+
+* Update README.md
+
+Co-authored-by: Håvard Tveite <havard.tveite@nmbu.no>",2020-10-13 16:38:53+02:00,False
+4b5b9b0017b6864dce8bfd720a397a4190c899fb,"Minor change: point to HTTPS url for documentation (#163)
+
+* Point to HTTPS url for documentation
+
+* Update README.md
+
+* Update README.md
+
+Co-authored-by: Håvard Tveite <havard.tveite@nmbu.no>",2020-10-13 18:44:46+02:00,False
+bdd3d58963d25cfea24fea25e2b91ee147b3580d,Apply pre-commit fixes,2020-10-28 18:01:00+01:00,False
+f611b25510ef24f7920406c59774eabe67205a6e,Add some badges reflecting the contribution guidelines,2020-11-24 19:27:22+01:00,False
+6b08107a5bbcc50718aa52db9b13f6231ee72f8d,Add badge,2021-06-11 14:12:54+02:00,False
+acd64c0233773010f58dedec8f9102fc174727cf,Fix link to contribution guidelines,2022-02-06 01:32:36+01:00,False
+18144a6358de639bdc653cdba021c04f947a47f4,clean up,2022-04-28 20:16:37+02:00,False

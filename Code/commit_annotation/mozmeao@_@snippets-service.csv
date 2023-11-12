@@ -1,0 +1,49 @@
+sha,message,date,result
+c897a5c61b1bb7b5bb6988692a5c430ed76d001d,added a readme.,2010-12-28 15:40:48-08:00,True
+3c81e3d271afd6bba47e9b8e693ccf0859958100,Packaging in Zamboni.,2010-12-28 15:45:06-08:00,True
+5610113748f9121c80da6015d2a9ac44bf7eac78,Check out vendor library recursively when starting.,2010-12-29 15:39:49-08:00,True
+f1445eaa32093467b385206a7918a34911b92756,"Recursive clone to check out initially. To start project, fork and branch to master.",2011-01-03 15:54:18-08:00,True
+678e6b0fc4ccb5b71437fef22c6418ba29c2edcb,"Added commonware, used X-Frame-Options middleware.",2011-01-03 18:20:27-08:00,False
+8f658fef36913222d314af3a5f2cf014c130b8bc,Moved some documentation from README to sphinx. Closes #6.,2011-01-04 16:09:10-08:00,True
+81775bc1a3dece3b8dbc421ff5bc17c8e185b430,Docs auto-built on readthedocs.,2011-01-04 16:25:53-08:00,False
+e9bcb86494f211020d492dc648dc4524178772d9,Shorter URL for docs.,2011-01-05 14:38:22-08:00,False
+ce47f278c605f198740b7a5bfb57651f259c7130,uhm.,2011-01-06 18:01:58-08:00,False
+8b5dfa458b0532a334d6985e609444efd39e70bf,docs now live on github.,2011-01-20 13:04:18-08:00,False
+adc50d9f098c6329fe9d716b8c920c20a16238b0,point to playdoh docs on rtfd.,2011-06-09 15:42:36-07:00,False
+2af6f54e0cc8ac06d5dd6945008d0f7633455ab6,Add basic docs.,2013-05-06 14:49:06-04:00,False
+08cef3c2355eb755a36775bfe1ab526c47ee1644,Add link to documentation to README.,2013-05-06 15:11:04-04:00,False
+ff3ff8b20b16c8b5c26300361dc86b9a8206c1aa,Test web hooks.,2013-05-06 15:20:48-04:00,False
+f293e3eb56ce93ac4a34f8e25f8c6b34bef6ae49,Update README.md,2014-10-29 19:19:52+02:00,False
+a8cd853f4b1df877fb8a6ac349b267736e34896f,Add a readthedocs build badge to the README file.,2014-11-06 15:58:35-08:00,False
+bed603b1287e66918ddfe7186ea2e2becad4c5a4,Change docs badge style to match travis bagde.,2014-11-06 15:58:35-08:00,False
+968fd069b759e67c8cd4eaa806e800d8eb91ff18,Rebase on sugardough.,2015-12-04 11:04:33+02:00,True
+b814fb5f23b517c7161bf94ade86078d7de17356,Fix travis badge.,2016-02-08 16:28:41+02:00,False
+3157fa69d0a48825d3e5dc435ce075a6ec0c603b,Add coverage.,2016-02-08 17:51:03+02:00,False
+e80e817b13f650c37f59d79076048d289a23f173,[docs] Add what's deployed link.,2016-04-01 13:36:31+03:00,False
+c47d3f61e4e4470e4117f63df67dfce88238dd5c,[docs] Add documentation link.,2016-04-25 12:25:25+03:00,False
+bd8804e88f1fa1c3081dbe8653a45482d727c83a,Rename mozilla -> mozmar in README,2016-07-18 10:30:39+03:00,True
+037945933672af678488f2ba94e9fa53c97bec0d,Update whatsdeployed link to include tokyo and virginia.,2017-06-13 15:42:37+03:00,False
+5e242a32c906987f2168b66aee01a590d6079cf1,Rename org to mozmeao.,2017-07-18 16:05:44+03:00,True
+c257330fb00803b10a5c77d7be807f326959ba93,Add Treeherder link.,2017-07-18 16:20:40+03:00,False
+396dcb0d65b014010fce0e590325fc1d6ab027ba,Update whatsdeployed.io URL.,2017-07-27 11:29:36+03:00,False
+7e2d90035abc4957facf6911841388f00f0cb8e3,New whatsdeployed URL without EU-West.,2017-08-22 14:58:06+03:00,False
+76ace24f46e0ebc6a438236179d5dba46bf53749,Update README.md,2018-06-07 11:44:42+03:00,False
+dd1c125dd7a68ed7bb3c1563522f19885a29fbb6,Updates local Docker instructions to include setting up Django admin,2018-07-18 09:29:35-05:00,True
+44c921c9a75561c5303176bf41f96b77b8bf0422,[Issue # 779] Update docker development environment.,2018-11-05 12:57:39+02:00,True
+e1d940672998aa4b2a6082fefb297b70a8cd7a82,Add therapist.,2018-11-05 13:01:04+02:00,True
+21eaba79e5892a3a3570e7f5072664535908eecc,docs: Add section for TLS certs.,2018-11-12 12:26:04+02:00,True
+4a6f4bbff45ba1d1e2067cdc2c8676d1f6c404d9,docs: Add docker compose clean and rebuild commands.,2018-11-13 16:22:49+02:00,True
+0e0d0dff22ec353cefd577bcdacf7f660afec446,"Create a separate requirements-dev file with only dev reqs.
+
+ - Use Dockerfile ARGS to control the inclusion of the dev packages in the
+   building process.
+ - Make docker-compose to include the file by default.",2018-11-13 16:22:49+02:00,True
+b928048d3b80886584ef185b0fa64ed7ad42767d,Set product_details storage to ./product_details and update docs.,2018-11-15 12:36:36+02:00,True
+ca55cd5d986419221e0634f26606a0932621d2b8,[Fix #840] Update development docs with create_countries and locales info.,2019-04-22 13:12:36+03:00,True
+7e1783776397c78bbb7f4b717ec45775c7c06067,[fix #953] Remove MariaDB dependencies and references.,2019-04-22 13:19:15+03:00,True
+e4030a265995a7ec89d345ba889fab38f3329602,Add links to CD/CD Pipelines.,2019-07-15 10:12:17+03:00,False
+a958bbe38dc2275f3356ed17f9df235d19fc8f35,Update what's deployed links,2021-01-04 11:50:40+02:00,False
+d5d31dbb2d94a0518b88f88587e0e71db54cb11b,"Setup fixups (#1535)
+
+* Update README.md to include env setup step and remove reference to (non-existent) create_locales() helper
+* Update docker-compose.yml to build images with Apple Silicon support, which should fall abck to Intel",2021-12-06 09:50:12-05:00,True

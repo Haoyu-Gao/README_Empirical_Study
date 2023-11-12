@@ -1,0 +1,28 @@
+sha,message,date,result
+4a8c5bde0e99c948a26f81ce67aae6f7d364b305,Initial commit,2021-10-22 10:42:52-04:00,FALSE
+09d865cb2c2b1c7cf934168b9561a22ad1a971b1,"add styling config file, conform to styling",2021-11-11 09:44:45+00:00,FALSE
+d1d3b9dddf496224b325d3d3830c47778fe18108,rough setup & usage guide,2021-11-11 16:45:00+00:00,TRUE
+0e7ddb489ace405b2daede572df7855a1b76cff3,conform to styling,2021-11-16 12:03:28+00:00,FALSE
+424dfbf4cdc0271a38df8516bab30b934d29d649,"fix package setup, fix imports",2021-11-16 19:53:20+00:00,TRUE
+c65847ddee6c405b0eaf663ed438952f81c2b701,Documentation updates,2021-11-18 08:03:31-05:00,TRUE
+21f85e96492c52ef82c6e523ae3c8d0b9572d38e,style fix,2021-11-18 08:11:46-05:00,FALSE
+545238149c5bea4e48f593cf3bacfdb48da4a113,update instructions for reporting examples,2021-11-18 13:33:26+00:00,FALSE
+6da96e170acc6ae42abe47b3e6734f9e485c951f,fix style,2021-11-18 13:33:53+00:00,FALSE
+2c6a990de62f5709d5a37d2308866f80e22eaca3,Bump rev and fix docs,2021-11-18 08:53:51-05:00,FALSE
+32852b108111d62f061661f43d5950b9b181e58a,Update README.md,2021-11-18 08:55:12-05:00,FALSE
+95139c07f489b7c146ee729f4342fd24521a02f9,"update readme command examples, update version",2021-11-23 15:03:27+00:00,FALSE
+39cca1cfcc403adad737341a8cf0a5c5bb3a3f2a,add CLI usage page,2021-11-27 14:27:50+01:00,FALSE
+d7008e70fef5995395b0acb3a79e5ec1ee7ab0b8,Update README.md,2021-11-27 14:35:57+01:00,FALSE
+e8f9fedfebd8f2647a4603cb4369b88fcf098840,update CLI commands and setup,2021-12-01 14:20:34+01:00,FALSE
+399991c89286e04123f9de4d19838e859efd60f2,small docs update,2022-01-02 23:38:02-08:00,FALSE
+411ec4d6a8f8ee848e3d109d5bca79b65ae23927,Update CLI usage,2022-01-22 09:36:55-08:00,TRUE
+4012164df1db2f72c6a2524fa7818ce34d07057f,Add small package description,2022-01-22 10:10:03-08:00,TRUE
+d6d32062ecf4ae7488f21b9fcf15f44e72e35405,"Update README.md
+
+update links to gitbook (w/ repo name change)",2022-05-31 09:04:02-04:00,TRUE
+a1ddaed468f1af4a4e4b44791f73ca5030b37df4,Update docs,2022-07-01 17:24:42+02:00,FALSE
+bdc5b69d53dbce70bcc1237f4209a9005bb68995,Update README.md,2022-07-24 16:58:09-04:00,TRUE
+1e15f8297732aca2794a8de2c548d5c8b5d4be08,Update README.md,2022-12-15 16:28:03-05:00,FALSE
+d293900468d740128bc2c85bc04cebb08bd45d63,Update README.md,2022-12-15 16:28:34-05:00,FALSE
+4f9083fac7f30b631f031ada55a803f1f94b00c0,Change link title,2022-12-29 15:34:29-06:00,FALSE
+1190f028cb9c27083c237a04e536766620a8ddd1,Update command examples w/ account flag,2023-01-11 08:31:22-06:00,FALSE

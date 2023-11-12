@@ -1,0 +1,1040 @@
+sha,message,date,result
+f8a98ed4ef5d9665f9878e68b53c8f4bd0b57cf1,README.md edited online with Bitbucket,2014-11-07 03:04:10+00:00,True
+935bc5abb1df04f4b22562971fff3780606b9fac,README.md edited online with Bitbucket,2014-11-07 03:04:10+00:00,True
+d1b351a201a07dc452802193e1d9abbd58dea714,README.md edited online with Bitbucket,2014-11-07 03:12:50+00:00,False
+2444f17268df7bc2182bee162c4bb2cbdab436df,README.md edited online with Bitbucket,2014-11-07 03:12:50+00:00,False
+cef10456ebca5caa4f78ceb3a25d4e125212915b,README.md edited online with Bitbucket,2015-04-21 23:32:33+00:00,True
+b958c4e00c398e938015f3722c33c61ff39e8609,README.md edited online with Bitbucket,2015-04-21 23:32:33+00:00,True
+c895ba6df6b281bb65349b6d1df29ff05e67385c,README.md edited online with Bitbucket,2015-05-24 10:15:18+00:00,False
+7e582c5f60606b12a15ce2ba4d909473e590458a,README.md edited online with Bitbucket,2015-05-24 10:15:18+00:00,False
+4b6e05d11cd22b23c9ec058eabc48bcccbe9f29c,Update readme to have wercker status in it,2015-09-09 16:59:25+01:00,False
+8fcacd7126d884a589cf0b7b1e960f29db8b5642,Update readme to have wercker status in it,2015-09-09 16:59:25+01:00,False
+9964d33cc0752a294bdb689daf6de5f0b747f0d8,"Update wercker in README.md
+
+[ci skip]",2016-03-16 14:32:38+00:00,False
+3067dcdda5ffd554eab62f1b483ce64efdcaaa82,"Update wercker in README.md
+
+Only show builds from master
+
+[ci skip]",2016-03-17 17:31:14+00:00,False
+7d14429d849bcd8ab8e67f91be79949bdda9d659,Update status badges,2016-07-11 12:38:43+01:00,False
+fc6db5bff20bbe466acf6cc6f4234691798ee116,"Heroku Staging Setup (#250)
+
+Heroku Staging Setup
+
+Includes data generation",2016-07-13 23:19:31+01:00,False
+3ce191aaf20d0a3f0abcc6ab81bcd1eb58ab0941,"Update README.md
+
+Small adjustment to make GitHub markdown display the table.",2016-10-23 12:26:35+01:00,False
+1f4e53ad27108cc024364fb6348f0b1c93aaad08,Add dependency badge to README,2017-05-10 23:40:48+01:00,False
+fdce2fa53d24de5452d201a1018b5c180b7c0e2d,"Update selenium, use chrome for tests, and use sauce-labs for CI integration tests",2017-05-15 21:46:00+01:00,False
+c0fe1764953552bb358254647442b876dd8337a6,Add docker dev instructions,2019-07-14 23:04:12+01:00,True
+1480ae17faaea25c3e2356fecfa5b51c9b8f2ab6,CHORE: Update README.md. It was about time.,2020-01-13 20:24:16+00:00,True
+3be06a7b250788f7317d3b4955220081e87f5572,"Create initial asset audit framework (#403)
+
+* WIP: Basic work on audit
+
+* WIP: Audit modal works
+
+Need to get the ID search working.
+
+* WIP: Javascript shenanigans for asset audit search
+
+It's not clean but it works..
+
+* Improve audit search bar
+
+Optimise for APM!
+
+* Filter asset audit list by never-audited
+
+* Added cable functionality to audit form
+
+Also improved styling
+
+* FIX: Revert partialising of asset search
+
+* Various UX Improvements
+
+Also rearranged asset detail/edit to be more space efficient
+
+* FIX: Remove assets from to-be-audited table when audited
+
+Previously required a page reload
+
+* Improve sample data generator
+
+Does reversion properly and sets colours for asset statuses
+
+* FIX: Gracefully handle 404s in audit search
+
+* FEAT: Add buttons for some common defaults on audit form
+
+TODO: Partialise those fragments and add them to the edit/create forms too.
+
+* FIX: Fix asset sample data command when run alone
+
+* FEAT: More handy buttons
+
+* FIX: Stop quickbuttons being tab-selected
+
+If someone's tabbing through, they won't be needing the buttons...
+
+* FIX: Hide asset detail buttons for basic users
+
+* FIX: Migrations
+
+* Start tests for audit
+
+* Some deduplication for testing code
+
+* Improve asset audit testing
+
+* Remember to test the tests Arona
+
+* Potentially make modal tests more consistent
+
+* FIX?: Up WebDriverWait timeout for modal tests
+
+* FIX?: What about this way...
+
+* Remake migrations
+
+* Fix README badges to point to right branch
+
+While I'm here eh :P
+
+* Use aware time in audit
+
+* Fix migrations again
+
+* Fix for my fix...
+
+* Modify audit exclusions to properly prevent data loss
+
+* pep eiiiiiight",2020-04-14 21:11:09+01:00,False
+3414204209343b17c71d21dd04a11d700536dc7f,"Refactor buildsystem to NPM/Gulp, port to BS4 & rewrite RIGS tests accordingly... (#412)
+
+* Start to seperate versioning into its own app
+
+* Start reworking invoice things
+
+* Reduced overall font size a touch
+
+* Improvements to generic lists
+
+* Tweak some colours to be a bit less OTT
+
+I need to work out if I can seperate background and primary colours like BS3 did
+
+* Improvements to event table mobile
+
+* First pass at mobile-ising the generic list
+
+* Item table fixes
+
+* Fixed fullcalendar print css not included
+
+* Asset list table improvements
+
+* Tweak asset list to be more in line with other lists
+
+* Versioning template improvements
+
+//TODO Rather than have seperate asset templates, convert 'id' into a template variable
+
+* Tweak versioning templates to allow ID overrides
+
+Asset specific templates begone. Still need to bring back the ID formatting for the Rigboard.
+
+* Asset form fixes
+
+* Use the right autocompleter.js...
+
+* Breakout (most) user stuff to separate module
+
+The model remains in RIGS for now, as it's pretty painful to move...
+
+* Python Format/import opt
+
+* Test Refactor Part 1 - Shuffle things around
+
+* Fix migrations
+
+TODO - need to ensure moved models are *moved* rather than deleted and recreated!
+
+* Start on new tests
+
+* Initial work on event create test reimpl
+
+* Init other tests, more rigs test faffery
+
+* Desaturate theme colors even more
+
+Much closer to BS3
+
+* Fix event item adding
+
+Bit too heavy handed with the deduplication there Arona
+
+* Initial refactor of event item testing
+
+* Upgrade bootstrap-select
+
+* Updated bootstrap-select for BS4
+
+* Initial port of duplicate testing
+
+Needs the latter half rewriting once we have an EventDetail POM
+
+* Refactor date validation test
+
+So close to killing test_functional.EventTest!
+
+* Deduplication of testing code
+
+* pep8
+
+* Fix some tests
+
+And some things that were actually borked
+
+* FIX: Prevent setting access time after start time 
+
+Cherry pick of d274ea46064058059e22c8fda2af28cfb360ee67. Will close #405.
+
+* Refactor calendar tests
+
+* FIX: Don't show asset buttons/history for basic users
+
+* Really ought to get a pre-commit hook for pep8...
+
+* Fully replace test_functional
+
+* Dedupe generic search logic
+
+* Fix the remaining tests
+
+* Ensure submit button is scrolled to in tests
+
+* Fix asset creation test + actually verify its results
+
+* Make CI use latest (stable) chromedriver rather than some ancient one
+
+Since Travis uses the latest stable chrome, should always match. Bash oneliner \o/
+
+* Of course | is part of YAML syntax, of course...
+
+Maybe this works.
+
+* Update python version
+
+Trying to get CI to match my local environment as much as possible...
+
+* Minor test futzing
+
+* Well that wasn't clever of me
+
+* That was even less clever of me
+
+* Revert to old submit wait behaviour
+
+* What about if I did this
+
+* Try disabling chrome cache
+
+* Added screenshot recording of test failures
+
+* Fixed RIGS tests not being run
+
+* Fixed Pep8 - I promise I'll make a pre-commit hook sometime!
+
+* Very initial work at togglable darktheme.
+
+Dammit @alexdaniel654 just when I had my scope creep kinda under control. It'll be v. nice to have though...!
+
+* More dark theme wangling
+
+* Fix some asset template things
+
+* FIX: CI Locale Issues
+
+* Fix sample command
+
+* Initial work at integrating the risk assessment
+
+#136. No clever database structure as yet...
+
+* FIX: Don't set every boolean input to radios
+
+* Different approach to RA linking
+
+* Move text definitions to somewhere more authoratitive
+
+* FIX: Undo breakage causing autopep8
+
+o.O
+
+* Expand detail template
+
+* Use correct view for RA history
+
+* Initial work at coercing activity feed into showing RAs
+
+Also shows Asset/Supplier on the homepage feed.
+
+* Refactor activity feed template logic
+
+Yay for removing arbitrary if/else chains!
+
+* Initial work on caching activity feed
+
+Server side that is. Ref #162.
+
+* Start RA list template
+
+* Refactor RA creation stuff, again
+
+* Add H&S Details to Event Detail View
+
+* Display venue notes in event detail
+
+Notes are no use if nobody reads them. Not sure on this one.
+
+* Add ability to filter event archive by status
+
+Closes #168.
+
+* Fix lingering naive time
+
+* Use locmem cache in sqlite environments
+
+Otherwise the tests just lock up totally. Should close #162
+
+* Update dependencies
+
+Mirrors/supersedes 0e67da82e2d3e886eb2ffda112adab9a04ab9371
+
+* Add global ctrl/meta-enter shortcut for form submission
+
+Wants rewriting for better efficiency, but hey, it works!
+
+* Update dependencies
+
+* Fix for a situation that should be impossible
+
+* Fix navbar alignment
+
+* FEAT: Improve 'omni'search
+
+- Partialised template
+- Added to assets header
+- Added ability to search assets/suppliers
+- Improved selection logic
+- Have it display current query
+
+* Move closemodal into PyRIGS
+
+* Fix tests for search improvements
+
+* Dark mode colour improvements
+
+* Fix table colors for dry hires
+
+* further darktheme fixes
+
+* Remove the dark header from light theme
+
+* Fix reload loops when CSS/JS is changed
+
+* Move dark theme SCSS to separate file, fix inactive pagination styling
+
+* Genercise detail pages
+
+* Testing something re notes
+
+I wonder if I can make that global, rather than per-template...
+
+* Dark theme palette shenanigans
+
+I just can't decide
+
+* Match darktheme palette to forum darktheme palette
+
+Why reinvent the wheel.
+
+* Make supplier detail use the generic template
+
+* Disable mobile event table PoC for now
+
+* Remove the defaults from the RA fields + make them required
+
+* More RA fixes
+
+* Fixes to revisions for RAs
+
+* Add bootstrap 4 test page
+
+* Bunch of dark mode fixes from test page
+
+* Do not use Django 'required' for radio selects
+
+As this requires them to be True, whereas we just need to require that an option be entered.
+
+* Properly fixed popover darktheme
+
+* Fixed search for events
+
+* Style fixes to asset list
+
+* Start RA 'mark review' feature
+
+* Add reviewing to revision history, fix RA editing not working
+
+Also actually commit all the files, that helps
+
+* Fix Power MIC being lost on RA edit
+
+Why it is subtly different to the Event Update behaviour? Who knows
+
+* Invalidate RA review if it is edited after review
+
+* Start work on event checklist
+
+* Add a button for creating and instantly voiding invoices
+
+Handy dandy for when you have loads of cancelled events, like say, a pandemic
+
+* Mooooore status chips, mooore
+
+* Initial shenanigans on storing my overly fancy EC form
+
+* Proof of concept for JSON parsing/storage
+
+\o/
+
+* Add new line functionality for vehicles/drivers
+
+Might it have been easier to create 'dummy' models like with EventItems? Probably...
+
+* Alter rig_count to not include un-checked-in dry hires
+
+* Insert a divider between still-out dry hires and actually upcoming events on rigboard
+
+* Initial work on new checklist handling. No more JSON!
+
+* Versioning module now does magic
+
+Automatic creation of views/urls for anything registered with reversion, with a small amount of hackage to preserve legacy stuff. (and the DAMNED asset IDs!) I would never get distracted...
+
+* Cleanup
+
+* Event checklist crew works
+
+Mostly - its not happy with timezones
+
+* Medium event power stuff done, barring worst case stuff
+
+* Misc fixes
+
+* Validation of power reqs
+
+* Worst case points on checklist
+
+* Templating improvements to RA/EC stuff
+
+* Do event table color logic at python level
+
+* Audit template fixes
+
+* Restrict versioning to one level of depth for speed
+
+Also fixed the template for nested changes
+
+* Event properties internal/authorised always return a explicit boolean rather than sometimes None
+
+* Use template filter for notes
+
+* Fix list templates
+
+TODO: Sensible place to define the 'expected answer' stuff.
+
+* Fix cable table template
+
+* Rethink rigboard color logic again
+
+Also revert some broken stuff
+
+* Test fixes
+
+* Modify auth test so it doesn't try and test for external authorisations
+
+Cause that's not a thing
+
+* Why does this work
+
+Bloody overzealous autoformatter...
+
+* Formatting...
+
+* Initial work on RA tests
+
+* Pages/start of tests for EventChecklists
+
+* Much better coverage of H&S things
+
+* Cleanup & Squash migrations
+
+* Fix wrong variable name in settings.py
+
+* Fix broken invoice list template
+
+* Add revision history to invoices/payments.
+
+Also patches previously introduced reversion permissions hole.
+
+Supersedes and closes #337.
+
+* Various misc fixes
+
+* Fix for my fix
+
+* Curse youuuuu pep8
+
+* Invoice template improvements
+
+* Minor fixes
+
+* More tweaks
+
+* More fixes
+
+* Major improvements/fixes to authorisation templates
+
+* Add ability to mark event checklists as Large Event
+
+This just disables the checks to allow the rest of it to be filled out for large events, though I expect paper forms may still be used...
+
+* Remove database ID from generic list
+
+* Put power threshold values in a collapse
+
+* Use template filter for consistent removal of 'None links'
+
+Plus cleaner template markup! More HTML-in-Python tho, which always feels a bit CSS-in-JS
+
+* Tweak asset list markup
+
+* Begin to change add buttons success -> primary
+
+Also change search primary -> info to avoid clash
+
+* Begin to improve event checklist on mobile
+
+* Asset detail template improvements
+
+* Fix #326 (again)
+
+* Fix errors being squashed
+
+* Fix rigboard validation tests
+
+* Initial work on BS4 button templatetag
+
+Newfeatureitis strikes again
+
+* Allow multiple event checklists per event
+
+TODO: Status chip now needs rethinking
+
+* Minor event detail fixes
+
+* Fix tests
+
+* Rework button tag
+
+* Mobile fixes for search
+
+* Fix event checklist on mobile
+
+* Redo light theme palette
+
+* Switch rigboard new button to primary
+
+* Kill off excess whitespace on rigboard
+
+* Rigboard Timing display tweaks
+
+* Fix tests
+
+* Properly handle eventauthorisations in new versioning
+
+It's not great, not terrible...
+
+* Prevent creating duplicate revisions on event
+
+Potential fix for #322 - I couldn't reproduce even before this change...
+
+* Template improvements
+
+* Minor test fixes
+
+* Revert ""Prevent creating duplicate revisions on event""
+
+Apparently it was too strong at preventing dupes...
+
+This reverts commit cce0ad0f9f744c15c46cd6c2c61fedd4f2a643ba.
+
+# Conflicts:
+#	RIGS/models.py
+
+* Better approach to generic list templates + other deduplication
+
+* Also apply better approach to generic detail pages
+
+* One of these days I'll remember to test BEFORE pushing...
+
+* And now the same for generic forms
+
+* Display tick/cross rather than true/false in boolean version diffs
+
+* Upgrade dependencies
+
+* Fixes fixes fixes
+
+* Fix dependency hell
+
+Probably
+
+* Correct handling of spaces in paperwork filenames
+
+Also normalises display of Invoice IDs. Partial fix for #391.
+
+* Buggerit millennium hand and shrimp
+
+Knew I was gonna forget to fix the tests
+
+* FIX: Set duplicated event status to provisional
+
+Closes #398.
+
+Flip flop. Flip flop.
+
+* Update polyfill for datetime-local
+
+Bloody Firefox. We love to hate you. Proper CSS of the fill to come, SoonTM.
+
+Closes #391
+
+* Curses!
+
+* Minor typo fixes
+
+* Initial pass at soop-consult confirmation screen for RAs
+
+* Fix migration
+
+* Make venue/date editable on EC
+
+For multi venue, multi day events
+
+Defaults to date and venue set on the event. Also made power MIC default to that set in RA
+
+* Clearer logic for RA inverted fields
+
+* (probably) fix tests
+
+* Give keyholders supplier edit perm
+
+* Generic list only displays edit button if user has perm
+
+* Same perm check for generic details
+
+* H&S Details takes up free space on non-internal events
+
+* Remove flash of content when loading new rig page
+
+* First pass at clearer display of asset list filters
+
+* Fix tests / default to headless tests
+
+(fingers crossed)
+
+* Fix autocompleter.js to properly disable edit links again
+
+* Move status color logic back to template
+
+Cause that somehow makes it work better??
+
+* Display note icon on event detail page
+
+* Fix caching
+
+* Put rounded corners back where they belong
+
+* Remove lingering use of 'page-header'
+
+BS removed that style
+
+* More search and replace for BS changes
+
+Thought I'd got them all. Clearly not!
+
+* Remove enforced linebreak on status chips
+
+* Fix horizontal-ness on some forms
+
+* Remove animation on prefers-reduced-motion/low referesh rate devices
+
+Also normalises handling of asset list cable table & improves its use of space on large devices
+
+* Make version changes badges more readable
+
+* First pass at making the calendar less crap
+
+* Fix event table success logic
+
+Yay for copy paste fails >.>
+
+* Use borders rather than block colors for coloured tables under darktheme
+
+* First pass at porting calendar from FC V3 to V5
+
+Two major versions and all they did was rename a bunch of names...TWICE.
+
+* Rework version name method to avoid blank names on eventchecklist vehicles/crew
+
+* Fix cable test
+
+* Made radio button focus much more obvious on dark theme
+
+* Implement Jerb's wording changes
+
+* Fix one test, break another...
+
+* Fix recent change stream list mutation issue
+
+* FIX: Do not naively cache event table
+
+Not that easy, it turns out. Duh.
+
+* FEAT: Implement #413 show associated assets on cable type detail pg
+
+Closes #413
+
+* Allow H&S for non-events
+
+* Update emergency contact number
+
+* Improvements to profile detail page
+
+* Implement some of Jonny's suggested changes
+
+TODO:
+- Define event size at RA time, pass through to EC
+- Have later power questions be context dependent
+
+* Test fixes
+
+* Add space for power/rigging plans to be linked to RAs
+
+* Start move of event size logic to RA from Ec
+
+* Javascript required shenanigans for RA power
+
+* More moving of event size logic
+
+* Fixing tests for new logic etc
+
+* Why does this work
+
+Indeed, it may not
+
+* FIX: Stupid typo in versioning.py
+
+* Further minor fixes to versioning
+
+* Add icons to H&S menu items
+
+* Should fix calendar breaking in production
+
+* Small alignment fix in asset list
+
+* Squash migrations
+
+Co-authored-by: Matthew Smith <psyms13@nottingham.ac.uk>",2021-01-23 22:22:37+00:00,False
+8ad629a47e0f0dca558e7a3aa1746c83174b1e03,"Replace Travis with Github Actions (#416)
+
+Closes #415
+
+Also enables coverage tracking of Django templates, hence the ~30% drop in coverage!",2021-01-25 01:20:12+00:00,False
+2bf017578608d93ba1a96df578a38887c4bee39c,"Toolchain/Dependency Upgrade (#418)
+
+* Upgrade to heroku-20 stack
+
+* Move some gulp deps to dev rather than prod
+
+* npm upgrade
+
+* Fix audit time check in asset audit test
+
+* Attempt at parallelising tests where possible
+
+* Add basic calendar button test
+
+Mainly to pickup on FullCalendar loading errors
+
+* Upgrade python deps
+
+* Tends to help if I push valid yaml
+
+* You valid now?
+
+* Fix whoops in requirements.txt
+
+* Change python ver
+
+* Define service in coveralls task
+
+* Run parallelised RIGS tests as one matrix job
+
+* Update python version in tests
+
+* Cache python dependencies
+
+Should majorly speedup parallelillelelised testing
+
+* Purge old vagrant config
+
+* No Ruby compass bodge, no need for rubocop!
+
+* Purge old .idea config
+
+* Switch to gh-a artifact uploading instead of imgur 'hack'
+
+For test failure screenshots. Happy now @mattysmith22? ;p
+
+* Oops, remove unused import
+
+* Exclude tests from the coverage stats
+
+Seems to be artifically deflating our stats
+
+* Refactor asset audit tests with better selectors
+
+Also fixed a silly title error with the modal
+
+* Add title checking to the slightly insane assets test
+
+* Fix unauth test to not just immediately pass out
+
+* Upload failure screenshots as individual artifacts not a zip
+
+Turns out I can't unzip things from my phone, which is a pain
+
+* Should fix asset test on CI
+
+* What about this?
+
+* What about this?
+
+Swear I spend my life jiggerypokerying the damn test suite...
+
+* Does this help the coverage be less weird?
+
+* Revert ""Does this help the coverage be less weird?""
+
+This reverts commit 39ab9df836abd0ea27158cc44ce764ce9f45047c.
+
+* Use pytest as our test runner for better parallelism
+
+Also rewrote some asset tests to be in the pytest style. May do some more. Some warnings cleaned up in the process.
+
+* Bah, codestyle
+
+* Oops, remove obsolete if check
+
+* Fix screenshot uploading on CI (again)
+
+* Try this way of parallel coverage
+
+* Add codeclimate maintainability badge
+
+* Remove some unused gulp dependencies
+
+* Run asset building serverside
+
+* Still helps if I commit valid YAML
+
+* See below
+
+* Different approach to CI dependencies
+
+* Exclude node_modules from codestyle
+
+* Does this work?
+
+* Parallel parallel builds were giving me a headache, try this
+
+* Update codeclimate settings, purge some config files
+
+* Well the YAML was *syntactically* valid....
+
+* Switch back to old coveralls method
+
+* Fix codeclimate config, mark 2
+
+* Attempt to bodge asset test
+
+* Oops, again
+
+Probably bedtime..
+
+* Might fix heroku building
+
+* Attempt #2 at fixing heroku
+
+* Belt and braces approach to coverage
+
+* Github, you need a Actions YAML validator!
+
+* Might fix actions?
+
+* Try ignoring some third party deprecation warnings
+
+* Another go at making coverage show up
+
+* Some template cleanup
+
+* Minor python cleanup
+
+* Import optimisation
+
+* Revert ""Minor python cleanup""
+
+This reverts commit 6a4620a2e5d2919a9c02d03ba4fc44fc9dd1da2a.
+
+* Add format arg to coverage command
+
+* Ignore test directories from Heroku slug
+
+* Maybe this works to purge deps postbuild
+
+* Bunch of test refactoring
+
+* Restore signals import, screw you import optimisation
+
+* Further template refactoring
+
+* Add support for running tests with geckodriver, do this on CI
+
+* Screw you codestyle
+
+* Disable firefox tests for now
+
+That was way more errors than I expected
+
+* Run cleanup script from the right location
+
+* Plausibly fix tests
+
+* Helps if I don't delete the pipeline folder prior to collectstatic
+
+* Enable whitenoise
+
+* Can I delete pipeline here?
+
+* Allow seconds difference in assert_times_equal
+
+* Disable codeclimate
+
+* Remove not working rm command
+
+* Maybe this fixes coverage?
+
+* Try different coverage reporter
+
+* Fix search_help to need login
+
+* Made versioning magic a bit less expansive
+
+We have more apps than I thought...
+
+* Fix IDI0T error in Assets URLS
+
+* Refactor 'no access to unauthed' test to cover all of PyRIGS
+
+* Add RAs/Checklists to sample data generator
+
+* Fix some HTML errors in templates
+
+Which apparently only Django's HTML parser cares about, browsers DGAF...
+
+* Port title test to project level
+
+* Fix more HTML
+
+* Fix cable type detail",2021-01-31 04:05:33+00:00,False
+54b44404bab00d2c876a5c26b8792cb067698558,"Fix various minor issues (#545)
+
+* Add absolute URL to power tests
+
+* Update to target Python 3.10
+
+* Return user to current page when clicking 'mark reviewed'
+
+* Add units to power test record detail and form
+
+I'm a bad scientist (coz I'm an engineer)
+
+* Allow a higher value in PSSC fields
+
+* Default venue to event venue in EC/PT
+
+* Fix population of initial venue values for EC/PT
+
+* Add link to create power test from EC detail
+
+* Do not set power plan field to required on RA
+
+""This might be a problem if the risk assessment is being done by one person and the power plan by another.""
+
+* Default power MIC to MIC
+
+* Implement some suggestions from the Doctor
+
+* Prevent checking in to cancelled events and dry hires
+
+Will close #539
+
+* Exclude dry hires from H&S overview list
+
+* Add ""ex VAT"" tooltips to asset purchase price and replacement cost
+
+* Automagically clear and focus ID field when audit modal closes
+
+Closes #533
+
+* Delete unused things
+
+* Allow two decimal places in cable length, show training item IDs in selectpicker
+
+Will close #540
+
+* Fix #524 500 Error when viewing qualification list for items nobody is qualified in
+
+* Update README.md
+
+* Add a guard against nulls in recent changes
+
+Maybe fixes #537 I'm unable to replicate locally
+
+* Turn down verbosity of CI tests, fix tests, potential speedup
+
+* Squash migration
+
+* Add encoding to open
+
+* Update to v3 upload-artifact
+
+Resolves a deprecation warning",2023-05-29 11:50:04+01:00,False

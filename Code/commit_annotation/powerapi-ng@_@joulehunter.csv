@@ -1,0 +1,153 @@
+sha,message,date,result
+1c64e19200b2629fddbf32cff44721e11468613f,Initial commit,2014-03-13 17:54:13+00:00,TRUE
+95c215b2c2ed6d2f3a678b0848e1ac7aa209dd21,"Update README.md
+
+Fix the screenshot markup",2014-03-13 17:58:11+00:00,FALSE
+2ddaa85754d4c4f76c11bdab05eacee8eb329dfb,Update README.md,2014-03-13 18:00:07+00:00,FALSE
+a3ef7a8a1a4f9dbbacfbb24c3d979205b28da25b,Update README.md,2014-03-13 18:32:10+00:00,FALSE
+ed7ed3658412c7ec3678bf2489651a8a677723c9,"Update README.md
+
+Fixed standalone code sample",2014-03-14 10:33:18+00:00,FALSE
+ccdb5cc60b8c19c33b564eedda150665ab0e5669,Updated README,2014-03-27 13:20:42+00:00,FALSE
+b2088d9d68f13296f92a43f05e2e6760392e045c,Updated readme,2014-03-27 15:30:54+00:00,FALSE
+cef3095c3832cb00524944b9a0848bd393f77fae,Update README,2014-04-07 11:41:40+01:00,FALSE
+2edc0f479908e6315a5d748c2841dceca9581de4,Tweak README,2014-04-07 11:46:31+01:00,FALSE
+7cccfd2ab6f8f21cbab028442d539b01920be54c,Update README,2014-04-07 13:17:13+01:00,FALSE
+aebb6e8a768ec74b77d7b5bc1b82ff3fdc397122,Update README,2014-04-07 13:22:01+01:00,FALSE
+096c80d6de780409890afdbe05d9488814ff700c,Update README with command line API,2014-04-07 18:46:12+01:00,FALSE
+3b6ea8e6cf7d0bda9031f5b79917379c0669f1aa,Update README,2014-05-26 10:23:04+01:00,FALSE
+31557999f9385a0c6229b62302480c185c0f859f,Fix README formatting,2014-05-26 10:27:32+01:00,FALSE
+a8b9e31030eb80fe2525dfdf15a946ebb59403e7,Update README.md,2014-05-26 22:43:09+01:00,FALSE
+dd98fc6f10597b911ebf61f5eec0b463abf1cd65,Add screenshot link to README,2014-05-26 23:07:09+01:00,FALSE
+236ac107af3d321b3573f8269b0d663390fe0529,Update README,2014-06-04 17:48:43+01:00,TRUE
+05f673d18e8a552599f0c0c1a4ba7f2e073d2b2b,Update README.md,2014-06-30 19:26:55+01:00,FALSE
+c4e92b40881d0f81a93e673d4eb13734377334fb,"Update README.md
+
+Add TOC
+Fix #19: add information on PYINSTRUMENT_PROFILE_DIR",2014-08-06 12:46:59+01:00,FALSE
+7b1ec8edcd55f29d623f7a104bfefc2126148fe2,"Update README.md
+
+Add changelog
+Minor fixes",2014-08-07 12:25:06+01:00,FALSE
+b78979fb28f660aa98f942c270005679ceec4e29,Update changelog,2014-08-20 15:22:25+01:00,FALSE
+357672c377505de45e4becfc72cc64cdbfc5595f,Update README.md,2014-08-20 15:27:26+01:00,FALSE
+593f720a5e517d1cbaa1afe1dae42c48f21d2340,"Update README.md
+
+Don't think we're so young any more!",2016-03-14 10:32:26+00:00,FALSE
+b2085ba008769c4b99b194c7acbac3247ffbb0dd,"Update README.md
+
+The package is on PyPI these days!",2016-11-14 19:05:24+00:00,FALSE
+be6b81886e384d6b8e6114034fca8c3a132eaeba,Fix table rendering in README,2017-04-30 15:38:00+01:00,FALSE
+a7a7b380295e4b1ad651fe45423cc987a123cf8d,README updates,2017-10-21 19:13:44+01:00,TRUE
+3d76ce25055818758bbabbc3eb731274c1d045cb,Update README,2017-11-18 14:09:59+00:00,FALSE
+2bfd04cd95a7e20f707112286e0113f1dd29c22b,update README markdown table,2017-12-01 15:41:12+08:00,FALSE
+7098a8695159b6ee7168599f5ad12721b5f15a46,Improve usage docs in README,2017-12-15 16:14:42+00:00,FALSE
+aed6d9744f29f8d876adf91d0e10e3f4ee53e71f,Readme tweaks,2017-12-15 17:15:11+00:00,FALSE
+15b94a63693837b97daea60e717ae835f77b7635,Fix typo in README,2017-12-15 17:40:16+00:00,FALSE
+041c8e731d6f9f6f526eba24943a1ebaa6bba01c,"Update README.md
+
+Fix version number typo",2018-01-04 22:08:14+00:00,FALSE
+37bbf8135e9489cfb111ee6266ed9516143a08de,Update README.md,2018-01-04 22:08:52+00:00,FALSE
+891616c855ec952f9c8ace3baba40d9914b3e68e,"Update README.md
+
+add intro para",2018-01-04 22:14:13+00:00,FALSE
+6cb4a5d14b3c943557c48845aeb3ac37f982b9a2,Update README.md,2018-05-20 13:42:05+01:00,FALSE
+9e9ba64ed4516575ef72ce8eae433c2c14e17b1c,Add information about profiling Flask application,2018-07-07 10:24:31+02:00,FALSE
+326c493463bac109b4310d553e16ec4e17e32cd6,Add link to Flask section,2018-07-07 10:27:47+02:00,FALSE
+2360c4fa00454d0f70a3903e9ced44f510c02564,Update README.md,2018-07-17 18:09:17+01:00,FALSE
+42e16de507316fd338a408bb349e5782eecadab5,Update README.md,2018-07-17 18:10:23+01:00,FALSE
+0333fbe738acdf98de8f60b2f5bede58d1732737,"Update README.md
+
+add a couple badges",2018-07-18 13:22:51+01:00,FALSE
+e30126adf2feb01ad5cde42fd4e27791a969848b,Update changelog,2018-07-18 13:32:59+01:00,FALSE
+a0eaae6f72c82c34c1edec2bf03e3b9ffdd8b368,Update README.md,2018-07-18 13:42:03+01:00,FALSE
+6448ccb22a896fc079e7c7c322ef81954113ff27,Update changelog,2018-08-04 15:59:26+01:00,FALSE
+e02b4d81991b337cb43a5988ec485801a35f3c05,Add contributing instructions,2018-08-14 09:26:49+01:00,FALSE
+20115a409455593637f80157eeb7feb867d1e36a,Readme updates from help text,2018-08-25 22:33:20+01:00,FALSE
+505159996a78937adb30fddfddf5807bd85d43a9,Update changelog,2018-08-25 22:39:17+01:00,FALSE
+ec10b98d59bbfc425555aa96bf123cbc1c9dacc8,README update,2018-08-25 22:47:54+01:00,FALSE
+1e59c0f6720cdded072e53c2bfe4f252532dedc0,Update changelog,2018-08-25 22:51:21+01:00,FALSE
+eecf7ad64474fe0caba9c24cfa59118ac79ff2cf,"Big refactor to remove renderers and replace with processors
+
+-   `Recorders` have been removed. The frame recording is now internal to the `Profiler` object.
+    This means the 'frame' objects are more general-purpose, which paves the way for...
+-   Processors! These are functions that mutate the tree to sculpt the output.
+    They are used by the renderers to filter the output to the correct form. Now, instead of
+    a time-aggregating recorder, the profiler just uses timeline-style recording (this is
+    lower-overhead anyway) and the aggregation is done as a processing step.
+-   The upshot of this is that it's now way easier to alter the tree to filter stuff out, and
+    do more advanced things like combining frames that we don't care about.
+-   Importlib frames are removed - you won't see them at all. Their children are retained, so
+    imports are just transparent.",2018-08-26 18:15:26+01:00,FALSE
+0c8035ad38568d8bd31ed4428e568f59b0d17c83,Add note about running with Python 2.7,2018-08-26 19:35:48+01:00,FALSE
+c912d98d23d1742cfd6138ccecc3b9a35d6f08b2,Update changelog,2018-10-20 23:53:13+01:00,FALSE
+4b8ae6ca9e1cbea23af3cd7f6394f33c59a9c3e1,Readme and changelog update,2019-01-09 21:18:43+00:00,FALSE
+7ed3b383f09ce405cc4485767ddd366562dd3b98,Add a note to the README that setup.py build is required,2019-01-11 17:00:39-07:00,TRUE
+eff96fc0b35debedfe1ecfb0b1b73f3891f48752,"Update README.md
+
+Quick rearrange",2019-01-13 16:51:49+00:00,TRUE
+961f24a85c2db5786dd9fbcd4e9f41edca8bda0e,Update changelog,2019-02-03 21:50:07+00:00,FALSE
+cc4f3f6fc1b493d7cd058ecf41ad012e0030a512,Update changelog,2019-04-06 15:23:00+01:00,FALSE
+35f99151fc01322467a69a2bd9d0d2cc137577d7,Update changelog,2019-05-20 09:21:47+01:00,FALSE
+a046f9438f8a320a67375342a5df796ce0d7b5ab,"Update README.md
+
+Fix unused part of TOC",2019-10-26 15:22:20+03:00,FALSE
+e795cb98dc67b60c12271645d5e9b2e3435f019d,Add show callback used for determining whether the profiling page should show or not in Django,2019-11-26 12:44:58+01:00,FALSE
+c75818877867ceb0faaeddc643689740c29fff5d,Update changelog,2019-12-07 15:43:00+00:00,FALSE
+04df8b74655841eb2783353b3760e1a48141475d,Update changelog,2019-12-22 19:07:47+00:00,FALSE
+810063200856e072ef6377da9c09c7bb691b1e6a,Update changelog,2020-02-17 21:47:05+00:00,FALSE
+57417c794c93ecccb7398c1476aa9f5b377e6bdd,"Fix #87
+
+Describe HTML renderer in Profile a specific chunk of code section of README",2020-04-09 09:04:38+05:18,FALSE
+fa416e6592f1905fb2c7456bef9251a79a8dc80f,Fix typo,2020-04-11 12:05:50+01:00,FALSE
+f0b573cdb4378cb8e373c7bba5edb8bba32fbc5f,Update README.md,2020-08-21 12:05:30+01:00,TRUE
+90e46cd9a6c60b37b9ffd4964ed4f347e6938001,Update README.md,2020-08-21 12:06:53+01:00,FALSE
+7c6a1c4a2c94804727d170f438ef81981e65eed6,Update README.md,2020-08-21 12:08:15+01:00,FALSE
+b25c53ceb7507401de9fe522eb91cd8c6a2382b6,Update changelog,2020-09-09 19:09:28+01:00,FALSE
+cfed8771a4d6af1ff64d3c1913bc1a049c995a9f,Update README.md,2020-12-16 10:17:14+00:00,FALSE
+5bb7c6d8978f75cb0edd29612b6d23fbfe6543c0,"Add known issues section to README
+
+Fix #109",2020-12-17 17:36:48+00:00,FALSE
+7c0a9c5db912efdbbccb6d85265ed7cca4b61b54,Update changelog,2020-12-17 17:44:46+00:00,FALSE
+81bc453b908d8494d09c2a752a8daf82034a9b0d,"docs: fix simple typo, envronment -> environment
+
+There is a small typo in README.md.
+
+Should read `environment` rather than `envronment`.",2020-12-31 19:56:53+11:00,FALSE
+ab6556f335bb1d3a903add2b7980d854fb375c49,Specify that node 12.20.0 is supported for contributing and setting up your development,2021-02-14 15:00:44-07:00,FALSE
+aba8966821cbe47baf173a6807a085545e2f3fe5,Update changelog,2021-02-19 09:59:41+00:00,FALSE
+fc4510e42c4bc1b20056f936d0638cfebae1d4bc,Update supported Python versions at top of README,2021-03-21 15:44:10-04:00,TRUE
+9dd208d8c72b4cf63a70ca77e9d50157bdc1cb3a,pre-commit fixes,2021-03-31 23:40:53+01:00,FALSE
+7eadc622300b342cdecc5cdd51670672eea1df45,Test commit,2021-03-31 23:42:15+01:00,FALSE
+6ec59dc1ce2eeed7d8658667d5f48b6a1e05080e,Readme and CI update for git-repo bundle,2021-03-31 23:53:45+01:00,FALSE
+435e3771151072815cdd157c35a6174b675a6657,Update readme with details of the compile js step,2021-04-01 18:47:55+01:00,FALSE
+9ce6e0bef119894ed8cea1998c69e0b1137a4616,Update README.md,2021-04-01 19:33:10+01:00,FALSE
+dd4a22693bf2d91230e0e05151bb5266e58eb103,Fix pre-commit error,2021-04-01 19:39:47+01:00,FALSE
+3c631301f2ff54cf5cd5ccc346f550f9a9453ea2,Update readme,2021-04-03 20:34:30+01:00,FALSE
+8dcf9b016abe8b57bde9262fd6381a1f36295095,"docs: update code example with interval
+
+Add details on how to use the `interval` input to Profiler()",2021-04-09 10:39:07-04:00,FALSE
+d282fc7f271ac011cc7ef6a5594666300b0e1458,Update README.md,2021-04-10 16:02:00+01:00,FALSE
+eabf0bc258e4b65f3452d2011e764216b4242db2,Update changelog,2021-05-03 10:03:44+01:00,FALSE
+7076cdf2994897f3066e3f2a6587b30f6df71b54,More docs improvements,2021-06-25 13:05:26+01:00,TRUE
+f7d006d527a96bf933d2ae80e1b6011c0602745a,Docs and comment update,2021-07-12 09:08:46+01:00,FALSE
+d576d49f27003328a8b7bb0c965dc28806bf5b7c,master -> main renames,2021-07-25 18:18:17+01:00,FALSE
+4b227600b59cdfd24aa8295102bad634926bf93d,Tidy repo,2021-07-25 18:22:51+01:00,FALSE
+65dd9cb44bc1558df0a01ea6881938c9821113d5,Update changelog,2021-07-25 18:50:36+01:00,FALSE
+f745b42b42ab48ea80bedfe1a4e60f9eed7efe49,Fix readme link,2021-07-26 09:14:25+01:00,FALSE
+98b1fc2120522abd8c95cc78e43d764eb08b3f47,Tweak,2021-07-26 09:15:00+01:00,FALSE
+90c6883a0e707c01bb053239a1b4f7b2153db2e0,Update changelog,2021-07-27 09:45:50+01:00,FALSE
+a0bba435be83e880c866148cd591924cd786608a,Bump version: v4.0.3,2021-08-16 08:46:57+01:00,FALSE
+9c9db39bc62dd4736055de97ab31953524ace86a,Change README title and add WIP message,2021-09-22 17:28:08+02:00,TRUE
+c230f345efb7fe651006a85d377278e02dea267b,Replace pyinstrument with joulehunter,2021-09-23 13:46:19+02:00,TRUE
+5fc1a8d1d5f3db995211e232f47be0875ad84311,Clear README.md,2021-09-23 13:49:29+02:00,TRUE
+ca222b2af91f27b38ff41f2883473a9083938265,Add screenshot to README.md,2021-09-24 11:54:14+02:00,FALSE
+29ffd4def5fb822123cfb6356a73599017d66627,Work a bit on README.md,2021-09-24 12:05:40+02:00,FALSE
+4a2e0ccd2c04b174222825942ea7f0fa70fcd8aa,Finish README.md,2021-09-24 15:05:50+02:00,TRUE
+f02cbeb03dbf5cbe961ee5389ddd224f139c5e56,Add compatibility section to README,2021-10-01 17:28:49+02:00,TRUE
+494e59e8673339e58912465c25a713b9b462d2e1,update : readme,2021-10-04 00:09:48+02:00,TRUE
+65cfbda0520e9d81b1e04bd8300968ea5e5953e3,update : readme,2021-10-04 01:41:48+02:00,FALSE
+828691c0cb5f26f23d8a9057ab30389987d0cb54,add : requirements,2021-10-04 02:05:50+02:00,TRUE
+17d35c1c7e01b9a22417c6574a9198aef9aa297c,Add manual install and fix typo,2021-10-11 10:26:02+02:00,TRUE
+6b4e7f9d7105fecdb60e3ad8a49877fb1237d3ea,Add code chunk profiling instructions to README,2021-10-27 15:41:55+02:00,FALSE
+c8c2e07d6900f32d4f3bb3038e0e41776fc38f69,Add Flask and Django usage instructions to README,2021-10-29 17:20:29+02:00,FALSE

@@ -1,0 +1,16 @@
+instruction
+instruct
+guide
+guideline
+guidance
+install
+installation
+integration
+integrate
+deployment
+deploy
+delivery
+deliver
+testing
+test
+build

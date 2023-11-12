@@ -1,0 +1,12 @@
+sha,message,date,result
+a1f14a1a40fface9820ec72ea5145c5f9add075f,trivial: add readme,2014-11-26 16:49:51-08:00,False
+6a4fc801253d3c2edea4897049554495e894a5bc,add badge + wiki link,2014-11-26 16:56:11-08:00,False
+529b09ccbe4b8b6401060056380f64d2c0210b67,"Add ""contributing"" section to readme.",2015-02-05 23:31:33-08:00,False
+327d0233255d0a2c2806c3337daac97e8580905c,[FIXED JENKINS-29776] Add Job DSL support for Promoted Builds Plugin,2016-03-14 20:31:45+01:00,False
+48915eddde210d8b99d1c17ad2c283b5d6682e8b,README: Delete the obsolete build status,2017-10-10 19:11:31+02:00,False
+11de8a52b17028a0d68495a27a875102e3e87dee,Implement job dsl support for promotion build wrappers,2019-04-25 16:46:00+02:00,False
+19c085eb3c94bccbb77dfebb7563fa3a44015bdd,Link with the Chat Channels,2019-06-06 21:58:16+05:27,False
+9e2d5ab2c89710dd7fe9d79d17a9d99a36bf935a,Update the chat link,2019-06-13 03:22:04+05:27,False
+7317087351e238be5e958b3c4385692d0557766b,Add badges to README,2019-06-21 01:18:11+02:00,True
+162697b41452911bf10da078bb319cea8dec325a,Remove Contributing from README,2019-06-21 01:20:02+02:00,False
+d4a0ac72fc282bf7466c95a93c15f60f2e7927f5,Move Changelog from Wiki to GitHub,2019-10-08 00:36:13+02:00,True

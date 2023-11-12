@@ -1,0 +1,141 @@
+sha,message,date,result
+258c3e16bbbe5a48ee5f128306e9b57cce38813c,Initial commit,2014-01-16 18:09:45+02:00,True
+a70359a4ea867c047e99d8d0626e1fd226ca0b95,Update README.md,2014-01-16 18:11:41+02:00,False
+036ddef73f6bcc4450a14888de3b559e23937e7b,"big improvements
+
+hazelcast to localcache
+periodic collector for localcache
+batch analysis for cassandra
+mvdl for field and filter scripting
+many more improvements…",2014-05-21 18:17:51+03:00,False
+3972c29506ee4ad7b55698a5dc12d0bc02ea1bb1,completed non-group tests & refactorings,2014-09-28 19:34:55+03:00,False
+1f4a28caeac91bd37634850a599bd401cfe40734,completed tests & implemented merged time series,2014-10-11 00:52:19+03:00,False
+4cd42770ab4dfe1d289ea5856cea18724d648a6d,"switched from vert.x, hazelcast to netty, kume. yay!
+
+everything will be great, just keep working",2014-12-31 01:19:01+02:00,True
+65e9f09b6bea4c1ccdfbee8b2965beb57835de04,refactored readme,2015-02-15 11:35:20+02:00,True
+021741be9d8ed61936b5f0d022117743db689075,transforming arbitrary json data to avro data,2015-02-18 00:53:42+02:00,False
+5e0c69917c6bb1d50f2d48f30473cc122a39e4d9,fix typo in readme,2015-04-10 07:55:21+03:00,False
+ef53270853d8943f846e53a88c44e8b0362f0049,add waffle.io badge,2015-04-18 16:57:06-06:00,True
+85afce2bd84879caa8f059f25300ae588e2f9f4f,Added Gitter badge,2015-05-08 15:15:45+00:00,False
+d23e77445a7b503913537005d79ed41dbf0af4fb,"added heroku button
+
+the project needs documentation asap.",2015-05-10 22:58:11+03:00,True
+4752d626b8e4d858f4dbbe281dcab046e9166a69,readme fix,2015-05-10 22:59:11+03:00,True
+4e2e6a41bd5cff45d3c98e3aa68fe4ca4d479d38,readme indentation fix,2015-05-10 22:59:58+03:00,True
+dc6687e3357d75f3f8e048a762d9d4345a0d3c08,added badges,2015-05-11 00:10:39+03:00,False
+a86c619ce53338c18dcc2a56ba29776b17e75e02,use variable for versioning,2015-05-11 00:18:39+03:00,True
+4888e45301fe32b786e7b9b98ee2b956b5352a9a,added travis,2015-05-11 00:29:50+03:00,False
+6976fdad85ae5bb28d8bf5df8f30842127f1592d,Update README.md,2015-10-08 21:27:10+03:00,True
+ce2c1097b38de7c0df628bcf817b98422a47015a,Update README.md,2015-10-08 23:27:09+03:00,True
+50e5a4daf87dcd8f7250f9cfa4d6de9be663ad09,Update README.md,2015-10-08 23:43:22+03:00,False
+8e589cf003cc49b17412c31c315e74f8c7649898,Update README.md,2015-10-08 23:44:16+03:00,False
+b28cde9b9c954666adac976a7e30fec41dd33c1d,Update README.md,2015-10-09 00:59:26+03:00,True
+04bc7dc66640c3ce4f259d474cdb1b98ef6954ab,Update README.md,2015-10-10 20:20:04+03:00,True
+12271d02b05ca1ac0ee404791ecd441d9cce5b7d,Update README.md,2015-10-10 20:22:03+03:00,True
+12762eaea3fb3afd018b45e2cf6a71e8b58f062b,Update README.md,2015-10-10 20:29:37+03:00,True
+90aaff52aabd37cc9d680cd0ee8af9c46c2dd5ef,Update README.md,2015-10-12 03:33:31+03:00,True
+734efe1e64d3d325d36b5e365b8b65d3512d309f,Update README.md,2015-10-12 03:34:37+03:00,False
+c65de6f8938a59413d401b56146c376e64cc429e,Update README.md,2015-10-12 03:34:50+03:00,False
+9a107c5d6d08178f3e48b85b5293fc51057c01d1,Update README.md,2015-11-13 10:50:40+02:00,False
+99f19041d98d8220bc0279b911ce94a021b016e5,Update README.md,2015-11-13 10:51:28+02:00,False
+785e8f146ee15f658477d183b276559321a6cb7e,Update README.md,2015-11-16 18:00:27+02:00,False
+d7e3c9d19b0a010d7ba9f1191e3f786b0d23cecb,add support for olap table,2016-03-10 14:36:13+02:00,False
+bf1c87f4e2bedb9beecc3bc228c4296182c74183,update repository address,2016-04-03 23:49:02+03:00,False
+916f8ad9695643fc9f8d40d8d9bb9ed6eb55ef12,[WIP] Added ClickHouse deployment type,2016-06-24 23:31:47+03:00,False
+29d9fb2d09f41250ebf0a6d2c38eeff66a63b114,Fix bug in login service,2016-06-26 07:27:10+03:00,False
+e32a92e99792ab534b36599ebc441d57926b43e5,added docker compose,2016-07-19 15:55:01+03:00,True
+12a23f859fc8e2dd9e866ce420062e5963363d21,update netty-rest version,2016-07-20 01:14:28+03:00,True
+fef046648eda5a974dc3c2cf2a5d0ca3e0d6cfdd,fix swagger version,2016-07-20 02:38:17+03:00,False
+63281ddef9b31a697d41063cf696db4ac199a09b,start postgresql and rakam containers explicitly,2016-07-20 05:24:09+03:00,True
+adbc12cf776fef481e64dc0d4e5ecd1786aa3863,configured flyway and added google login,2016-07-24 10:54:30+03:00,True
+d0cfe3c9c05de8f1c3380186b0adc360d20c1795,added docs for cloudformation and custom deployment,2016-07-24 18:41:09+03:00,True
+ad0beb958b6ddfab890ea4dc2118204579a2e90b,fix bug in user merge function,2016-07-25 23:42:07+03:00,True
+01e924b2cb838deaadae651b2eecc439964d5c83,added timezone field,2016-09-04 00:54:36+03:00,False
+28c7afd9b0165b88a9b7814928a680a13328779f,update license & readme,2016-09-20 13:57:17+03:00,True
+c5bb8229453b463721caeb6d6b75dd71442bb872,add link to readme for registering rakam api to rakam bi,2016-09-20 15:10:39+03:00,True
+f5ab881d1646c3eb755fac8f8567e33dac55bab7,fix docker file issue,2016-09-20 16:28:56+03:00,False
+9059b27167dc09ec93e0e543e75fbacebfa6bd18,use RAKAM_CONFIG prefix instead of RAKAM_,2016-09-20 17:10:38+03:00,True
+562f74accd870641f6d1ee56d5dad45e4f56d142,updated welcome email & added cloudformation templates,2016-09-24 20:30:12+03:00,True
+39e941c9e495a1f27a35c632f91243badfb46487,workaround for kcl bug,2016-09-25 01:14:07+03:00,True
+a8a4fa9f74b7687b4ac13cde6b79e8420290acfa,update jdbc pool name,2016-09-26 20:34:24+03:00,True
+6c408613d6bb7d90a126cf2dfd09757258383479,Do not fail if the value cannot be cast,2016-09-27 15:01:32+03:00,True
+f3b4557356b0d8181f65f3c9d68a97faee455040,fix bug in docker-compose.yml,2016-09-28 12:48:35+03:00,True
+1be815ca9d456b85351ade2faafe03c03d0e6843,corrected the readme. Ref #35,2016-09-30 17:56:12+05:18,False
+7e07276ff96e0c8ff8fa318bbcbbf3c65e80e0a0,update readme,2016-10-04 15:39:29+03:00,True
+a4cba64542f4a1dc5aced6250784066d9bfe0242,put yourkit reference in readme.md,2016-10-15 04:02:44+03:00,False
+0ab707452c52782260f1d6d6f7dd3f47497aa08c,Add text for YourKit reference,2016-10-21 05:13:37+03:00,False
+fd99d3942a9b2fb5dc9ebabe178e42d68570c75d,Update README.md,2016-10-21 05:17:22+03:00,False
+f37861e4e915fb43bc04a66177f8e9a3ab4aeaa7,Update README.md,2016-10-21 05:18:16+03:00,False
+38f52bd6582891371fb57f6735bc7bafc9904a88,Update README.md,2016-10-21 05:18:56+03:00,False
+3614c4513139fb792a1ccd2b956d7461791ba2d1,Update README.md,2016-10-21 05:19:16+03:00,False
+36be06c66d2a8b44c21623458c00b0c5cf1be785,Revert Kinesis partition key type,2016-10-25 00:25:35+03:00,True
+8b0eaecbfffe2b038b7bf40e0022e22590a6e35f,Update README,2016-11-08 16:59:58+03:00,True
+5279cfc920923582602949b6b53da913988c6ca6,Update README,2016-11-08 17:03:10+03:00,False
+74c6729b53f86a1f22c96ee5c1f5557a46cb7ce6,update README,2016-11-08 17:08:46+03:00,False
+e7fda6522dd64fd9c9953b95464cc7d49bb41af8,Fix formatting issue in README,2016-11-08 17:11:07+03:00,False
+5c825382d07dd3bb02a0785430aa87af528f5a84,Fix typo in README,2016-11-08 17:12:07+03:00,False
+9ad3b100f7679b3307246b10222271fe77405e05,Fix bug for write operations,2016-11-08 20:26:30+03:00,False
+d712180ce4b0ea0daceae8e5848be0a87667e076,Update README.md,2016-11-21 13:36:46+03:00,True
+7ca9d6d9f3d96914ae40724d5387edc563cc5bfe,Update README.md,2016-11-24 02:08:32+03:00,False
+b5115a680979697614bdf80d43e5791450aa9c5d,Update README.md,2016-11-24 02:08:51+03:00,False
+523b8c40f7fa61ebc9acbca253bac3c73e14613d,Update README.md,2016-11-24 02:10:13+03:00,False
+b43f569a9696448d4495c8df45185344063f060c,Update README.md,2016-11-24 02:10:27+03:00,False
+986f5dcb7162216e8ff37b8f7978ab169a77bd8f,Update README.md,2016-11-24 02:13:32+03:00,False
+436b9a163091f2e53c876f35f3b1d4bdf5c1041c,Update README.md,2016-11-25 03:06:46+03:00,False
+91909bf46406b75f7c4524a633f5977bf72b8f79,update postgres version to 9.6.1,2016-11-25 19:32:54+03:00,False
+cabe50f42c66425c68b1bc49230dd2c25d00aac0,"changes on Readme language
+
+no no",2016-11-25 18:37:47+02:00,True
+d1d72b19e0cdbcc82be0783ed816812596a96cf1,full sentence linking to api documentation,2016-11-26 22:12:14+01:00,True
+da3cfa9fe2970222cd88aadeef3b451735c8b660,"Update README.md
+
+Small typo changes",2016-11-30 15:07:46+02:00,False
+6fdf966fb59ce23ec28ccf1cd1ddbd47f7460921,add Digitalocean one-click to README.md,2016-11-30 23:36:52+03:00,True
+aa3bdd0b81eea4c9ae0d2a1fe891906cad680362,Add one-click deployments to top of README,2016-11-30 23:48:01+03:00,True
+56284fab9886dfa17f29fce735b49b0908a5a86c,Update README,2016-11-30 23:49:52+03:00,True
+c1a087e5c1903adb56f523e2654661c29aba4d3c,Update README,2016-11-30 23:53:08+03:00,True
+cf69504134b0ff90e0ec43b5bf609ffe734fb8b3,Add empty spaces,2016-11-30 23:55:38+03:00,True
+5a8017bd67bb38f41818b7c948dd4009bee0ae33,Add more empty spaces,2016-11-30 23:56:31+03:00,True
+bfc004ee33bf906dd3aee7c9a5e63e8a8c4e04eb,Resize Heroku image on top of README,2016-12-01 00:32:01+03:00,True
+83cdfde20b4ef08e6dfec0fa324986c92e83a132,Add documentation for Digitalocean,2016-12-01 00:38:40+03:00,True
+51eb72e238b7249b9701e1ff6a88751f4bc6e347,Update README,2016-12-01 01:17:57+03:00,True
+fbb937f71d7db54ed4065b15c00cba25f21e34fe,Update README,2016-12-01 01:19:21+03:00,True
+e889a47d50c43e70ebd0de3a617e94a9475fe353,Remove Gitter,2016-12-01 01:26:06+03:00,True
+0d9934b68b58dc482b438461296485059e6fe908,Implemented custom event mappers with JS,2016-12-02 13:58:03+03:00,True
+3c9d40ec4fb7a29ab4ea928e3e599fdd50d5ca33,Update README.md,2016-12-03 12:33:27+03:00,True
+38eb69853047bdaca47c54c5f1055141634ea9af,Update README.md,2016-12-03 12:34:04+03:00,True
+bbd9379eab14f3480d3893f81e0fe40ba5a48f4a,Remove unused code,2017-01-29 03:46:01+03:00,True
+1c1cb56483c82d399fd3701d9b1761c1cca505e3,Update README.md,2017-02-03 22:36:44+03:00,False
+47da5cc5e37e0111538e4d351bfb145ad851a0b3,Update README.md,2017-02-03 22:38:37+03:00,True
+029ab346a410c138081497ad61c6b3a1d16b2a47,Fix formatting issue in README,2017-03-03 06:54:10+03:00,True
+6877dd2175b2ca73dd7f91f04e42a8172bb92b2e,Fix naming,2017-03-22 02:33:15+03:00,True
+a7a897e177541f7b95dc09b7351745f0107d8234,Validate checksum in batch endpoint,2017-04-18 00:51:12+03:00,True
+2d54c9b3a675f09a94fe97c79ff55090a8fa05b9,Parametrize site url,2017-04-27 19:00:35-07:00,True
+7a5ab2a6f9c6950ded1b080932da450154ec76de,Update README.md,2017-05-27 14:27:58+03:00,True
+81ccccf35130b62e494735b2ac5853e98708739f,Update README.md,2017-05-27 14:28:59+03:00,True
+b7064d36398d96a5ccf3564a34c4b6b1beb2d2c0,Update README.md,2017-05-27 15:12:23+03:00,True
+83d138419dc70a8ba75626f9d9caad6e8f5a6efe,Fix event explorer timezone issue,2017-06-22 23:55:37-07:00,True
+ae51b91cc759036f1ded0dbeaaff6910b23c3c6c,Update README.md,2017-08-10 18:33:20-07:00,True
+0c723b8e8ba78f992f1b479a9a7c7d93b2ca6daf,Make postgresql url configurable,2017-08-10 23:03:52-07:00,False
+ffa16e75b5d968adbd49c778b8a7e3611c0ef33d,Fix bug in funnel query,2017-10-01 17:41:08-07:00,False
+329b4468a64ca3b956f7d3fe1c2104922a84424e,Update README for Rakam UI,2017-11-01 14:14:09-07:00,False
+c5202ed798287d2be38f38ce004756a8ac554948,Add message for dash usage in environment variables,2017-11-02 15:46:24-07:00,True
+1316d56c14a6315d0c826b5578bc6e3a9f56692d,Update Postgres 10.1,2017-11-21 01:22:29-08:00,False
+2cded1ca81d5f772164baa5b283212db5f7a3082,added healthcheck to rakam-api container in docker-compose.yml to fix bug where rakam-api could not find postgres container,2017-11-21 11:49:14+01:00,True
+501ea3b6783a15f4cf7bc9bfb21b9c4441096bd9,Update README.md,2017-12-04 12:41:08+03:00,True
+c8797b4d8e6ead5f4004a27442f77d2e6859416c,Update README.md,2017-12-04 12:44:40+03:00,True
+a04b7b85906243d41b9c826fe846dc780c4097f2,Update README.md,2018-01-16 18:27:26+03:00,True
+6fb9a75d5daaf0dc262b44f6a3872dd432c37e3a,Update README.md,2019-05-30 18:33:55+03:00,True
+5d1115eb2dcb3a537ff33fcdddb8facc586a3fdf,Update README for Postgresql 11,2019-06-25 20:18:00+03:00,True
+af710f409866f7d0766bc8afc4ca8ec7677ebf7a,Update doc links,2019-07-17 01:41:27+03:00,True
+a575928234dfa5cbeecc2dea6de327c4fb05d7ac,Update README.md,2019-11-18 13:16:06+03:00,True
+819b056030e09b7fcfd18d826fd793e23348aa5e,Update README.md,2019-12-17 04:39:58+03:00,True
+c422b12cdd3188261411f2164a96ae69be765ee1,Update README.md,2020-01-09 15:05:20+03:00,True
+82b64d69454b3cee65e08ba0f592d98fa89dc9fe,Update README.md,2020-01-09 15:05:41+03:00,True
+95e14fa559aa27aeb138f6978e444e93771de1a8,Update README.md,2020-01-09 15:12:31+03:00,True
+47a665f3004492c82d9ca0c306debdf8259ea192,Update README.md,2020-01-09 15:13:30+03:00,True
+991ae27042b6bc80ba8ce9cb37e9a23a8ce79b45,Update README.md,2020-01-09 15:14:30+03:00,True
+7eece61cfd28ba0fc48a36b45d49ac45fd6ad288,Update readme to PG 11,2020-11-20 18:43:52+03:00,False
+e7f0edf85c47179eb7377c0da251289cdae20651,Remove Slack link,2020-12-02 01:22:04+03:00,True
+3a7a503b765ed36f72516d57d1abc3247e1c33ca,Update README.md,2020-12-02 01:22:18+03:00,True

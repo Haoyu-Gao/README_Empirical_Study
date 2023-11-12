@@ -1,0 +1,24 @@
+sha,message,date,result
+0d4b76a1352fe977ad415f512e6339a616433881,Initial commit.,2009-12-31 12:23:11-08:00,False
+72c4c61809353ecf06ab7be9d78a07d5a93893db,Added empty README.,2009-12-31 17:50:32-08:00,False
+e2769589fd6bd533ed81a18609f5cbe19363beed,Add installation instructions to README,2013-01-15 14:30:02-08:00,False
+5a4dabf94ee9cd6d809c31d98a62befff57f7425,readme as markdown,2013-01-15 14:36:37-08:00,False
+b53e957dddb578acf8c7e958c51be5c147f19f77,Update readme,2013-01-15 19:11:25-08:00,True
+c7bbe02d9a0f230be647581debc70b8ad02093ad,Add link to xapian project in readme,2013-01-15 19:13:57-08:00,True
+47f48eb2034a2cb77caadb8470d021709d3cee05,Improve setup instructions,2013-01-16 10:33:14-08:00,True
+649c5efc5f1cdf6c2b2125f999124b8aed252c2d,readme formatting,2013-01-16 10:49:44-08:00,True
+fdf94793a99b3247cae047987532942a54bd2fc8,"Update README
+
+New reqs: lessc and watchdog
+No longer needed: previously existing psycopg2",2013-02-01 12:32:47-08:00,True
+071ff58d82c30886ce80df9e982b4320a7065e54,Replace xapian with elasticsearch,2013-09-28 13:45:55-04:00,True
+e9944c9cf5c538a5f6d0aec011d41f95d3da06c4,Update README & setup for our New Node Future,2014-03-12 13:37:16-04:00,True
+de2bb8bc91ec7de1698bd1020830b14c4eb333cb,Only test IE10+. Update README.,2014-03-21 15:50:46-04:00,True
+568586f3f1ea7cdc0a27ff76280e2e890b75b511,Remove reference to now-unused watchdog program in readme,2015-08-21 14:58:22-04:00,True
+190d7a3b4235d62e22681fb62cacd321b02df046,Update readme,2015-09-26 13:51:51-04:00,True
+9459a5653ef8d28de0bf107895a869efcf38e7f3,Update readme,2015-09-27 18:23:42-04:00,True
+9528ddba543da355c177a0299851aa7d2a8c0cf7,"Add JSONField on topics, and clarify that Postgres 9.4+ is required
+
+9.4 adds support for JSON fields.",2016-03-16 20:51:39-04:00,True
+e29895b1dc335c875348ae314931ae5e28a2df55,Update readme,2016-05-23 13:23:35-04:00,True
+b6b40088b4a773d777bd3110009ca54a0925368d,Update readme,2016-06-27 22:09:42-04:00,True

@@ -1,0 +1,207 @@
+sha,message,date,result
+6f1c15e0a82e822a7ab1f345fca7df0eabebc890,add github readme,2014-02-27 13:01:29-05:00,False
+22212120ca903016846e8314998f549c77529bea,changing to README for github,2014-03-11 07:42:50-04:00,False
+f53a6405fd4bafbf4dcd490233cade53a414f3e0,prepare for 3.3.2 release,2014-03-20 12:28:39-04:00,False
+1c7c2818d072908528ff94b2eea3cfc9736fd793,post 3.3.2 release bump to 3.3.2.1 snapshot,2014-03-20 12:39:49-04:00,False
+cb979e4775ce2f7cc7327bd9584fa4a8f4c8b59f,preparing for 333-beta1,2014-03-26 14:03:05-04:00,True
+abb4ee229a2c152e0fdb7f426318663b9728258d,#24 add checksum enum and simple negotiation code,2014-06-26 09:32:17-04:00,True
+0d0cfe77d068398f561925747a6b3afd6a92c7f6,Update README.md,2014-07-03 09:04:41-04:00,False
+3e3858712af78375e5c973d3112212ee8cdf888d,Update README.md,2014-07-03 09:04:55-04:00,False
+80d15f3e0eca682cec53acfbffcef698936141d3,Update README.md,2014-07-03 09:05:51-04:00,False
+b942b21d228e5f58f58703d1871ea97fc67c5b26,Update README.md,2014-07-16 08:01:03-04:00,False
+c3603c1cc3ea8c66eecb65f8e82d269e50096c0b,Update README.md,2014-07-17 14:19:14-04:00,False
+3b44c762579631037af30a5a7931697910add2c6,Update README.md,2014-07-21 08:33:08-04:00,False
+259e235491b4cf371ea1a591c834a0bd2e37c3ac,Update README.md,2014-07-31 12:59:31-04:00,False
+5248af1f2606126744304f0f3471c38ed3471c2d,"Update README.md
+
+add dev name for coverity",2014-08-29 07:43:16-04:00,False
+1a8aee67ba33528061af9d6a6c108c522281a4aa,Update README.md,2014-09-16 09:44:54-04:00,True
+0d3a3b2f07c7066d0a49703232f741bc5e4aff2e,#23 fix readme,2014-09-17 14:44:17-04:00,True
+fc00c46a0ee3bdca9b45b3c718b4dd97a4e4a29d,Update README.md,2014-09-17 19:52:11-04:00,False
+9424cc69edd1a8dbfb0e8cf187522138971d01c4,Update README.md,2014-11-03 11:34:33-05:00,False
+b59ac3415d1d8607965d3e54c767ee00bfbba87e,#55 add inherit/nohinherit in collectionAO as admin,2014-11-05 13:04:28-05:00,False
+cb145fcbdae3a8d44c0d1d53460174113a5151cf,#56 align version numbers,2014-11-06 14:16:53-05:00,True
+a1e0145b896a291c85b35e3ac23b5b90eabe5666,#58 some cleanups and merging,2014-11-07 08:01:05-05:00,True
+2df4d4515183458d08f433d31e6992265550058e,#52 fix open flags processing for output streams,2014-11-07 15:24:56-05:00,False
+d4d4a5e223f6b32b2b5a59d82974ee2543799dfa,#60 addl data in metadata queries,2014-11-11 12:56:51-05:00,False
+477b2dce3d36cc9807e92be1caaafba5ed7eba44,#62 propogate resource in move and copy,2014-12-03 13:43:06-05:00,False
+a9f6fe4447d33b2ab5981ee2b8c9b90fb9535cfe,#67 connection tester,2014-12-18 10:01:48-05:00,False
+da9f58cd113fc8a99b11480d1a1087a0bb4e279b,#68 fix specific query for sharing,2015-01-22 12:14:55-05:00,False
+fbd86102ba8949dfabbeac7a4c7dbdfc6c1cf4c5,#73 fix for Dennis,2015-02-17 15:45:24-05:00,False
+d9d15d9fc5cb7a6b81fb084c505ad5430df7e8b2,#71 tighten up error traps in failing parallel transfers,2015-02-18 17:34:22-05:00,False
+013580dc884b95c68aa72d36a22f2c48c6492ff4,#73 streaming and postProcForPut,2015-02-20 09:11:17-05:00,False
+543607171f0eb454f9ba2f176d1b984271d5d536,Update README.md,2015-02-20 16:40:32-05:00,False
+7128d3ecdbbef4ca36c1abeb2de9bc5d80b339b3,Update README.md,2015-02-21 10:22:05-05:00,False
+d6bcb2e847ab2a3067497e3ce453a26079136087,Update README.md,2015-02-21 10:36:37-05:00,False
+46edfebc40292bcc3447bcdf0c4d2aaf81096b0a,#76 fixes and realign version numbers to 4.0.2.1-SNAPSHOT until full release,2015-02-23 08:52:12-05:00,False
+e641c5c14adda1903330e8a6204bfcaa633368c8,"#77 streamline and clarify roles of irodssession, irodsprotocol manager in connection lifecycle",2015-02-26 13:49:15-05:00,False
+c814787cfdb6327e9d704e12775e6ee3099760a8,Update README.md,2015-02-27 10:05:13-05:00,False
+ae47a49a17b5b662eb8a4752d4bf8ef458426b29,#77 started with a restart manager and objects that hold restart data for long files,2015-02-27 13:40:33-05:00,False
+6c7edf5bf1271946a605c1285f4b6500e22ff405,#91 fix overwrite of transfer options parallel max by jargon.properties,2015-04-08 11:00:47-04:00,False
+e75fae3c9c1f18afd6f929722855fb7c10163a05,Update README.md,2015-04-21 11:17:26-04:00,False
+73295a4f321147e2a800998d65127dfeae3f491f,#101 update pom and readme for new milestone work,2015-04-24 12:09:08-04:00,False
+c87520f772a8d03cd671684b910fd9819fe42d7f,Update README.md,2015-04-24 12:17:54-04:00,False
+9bd05581e736d34e3062614328e3f6982434096c,Update README.md,2015-04-24 12:22:16-04:00,False
+8a1fdf6292c5d61d70d23289388e818949613d71,Update README.md,2015-05-07 08:31:21-04:00,False
+ec4266f3474d603660fbd9bd3131891c41224ce3,Update README.md,2015-05-07 11:09:31-04:00,False
+43bfa23484e572fca47f1bc0939c358f7620c151,#106 update packing instruction for iRODS 4.1 replicate,2015-05-07 12:04:29-04:00,False
+c3c3e2cd1ffd2bcedf282434eb33df92e145b4a6,#107 fix api number for copy data obj,2015-05-07 12:35:49-04:00,False
+b5f084c69560972bbbc4f04bb9bda07d2dd4e2fe,#107 update copy API number,2015-05-07 13:09:17-04:00,False
+392342119fce1dc06f352622e12b3cb7295f8fc1,#108 remove resource group semantics for 4.1+,2015-05-07 15:36:26-04:00,False
+363074fa84ff70fea85e7123e5740ffe9fcb34a1,#109 fix exception handling,2015-05-07 15:52:48-04:00,False
+8b37547dcbf1d78940b9f7eaac5f1a9744223a87,#89 added checksum utils,2015-05-13 13:45:35-04:00,False
+f96047b71a664868e5f3c2346e9ba3032d04d1f9,#61 fix misc variance in exceptions for 4.1,2015-05-18 13:14:30-04:00,False
+88afa7cb1b72fb755ff9a045065643b308c9b849,Update README.md,2015-05-20 07:47:00-04:00,False
+5e71755234698082a97861a57b615280ed175cb6,Update README.md,2015-05-20 07:47:14-04:00,False
+bdde33c4c77ab00cd9b47fdd51e2beaa93f7161b,#121 fix for stand in dirs causing a problem in webdav code,2015-05-22 07:50:52-04:00,False
+ccfc2c4bb48fb2de4d93cc79d2021d29f1f648ce,#61 prepare for release,2015-05-22 14:29:58-04:00,False
+82b882d7f3e6f3487f3ea5c85169f92275b6b637,#123 add ability to get listing entry from an irods path,2015-05-26 09:32:30-04:00,False
+559bddc03f4e8d08af274bdb5839728aa5ba67f0,#61 set up for rc,2015-06-01 09:27:29-04:00,False
+8f4e89ecf558756d71d6eb33e18d5da4d63bb6c8,"#126 file exists method now works with stand-in directories for root, zone, home to account for strict acls",2015-06-03 14:01:22-04:00,False
+f0a81cafc349f076fd311e8d2f8288e15a95bb1a,#87 update comment,2015-06-09 17:22:52-04:00,False
+142e9b9768aadc13595ec1fedf52131c1c226130,#61 release prep,2015-06-12 09:35:32-04:00,True
+53611233bf3b6a8ae33feeebc5014a4cdf40e22e,#61 setup next mx release,2015-06-12 10:50:40-04:00,False
+07619baf39231796587695613c9c3785465c3bab,#140 move coll semantics for cloud browser,2015-08-14 09:53:16-04:00,False
+8f33c22e80a684115b197404a42389f29a483578,#147 added rename to dto,2015-09-15 08:21:31-04:00,False
+b73f1b7765383c78196864babbecb69279220b18,#148 fixes for path guessing,2015-09-15 11:46:02-04:00,False
+e93a5e6465b802d3846b5e49c775705a0d6db154,Update README.md,2015-09-24 09:31:21-04:00,False
+27ce22022de9a1744fb021780e9287001d9e6868,Update README.md,2015-09-24 09:34:40-04:00,False
+e62065fe768652b9b36f81904f0db679516f837c,#152 fix for federated queries data objects,2015-11-02 13:56:53-05:00,False
+fe5952510385cb1d09d2f018f780e5b667649019,#142 bug test case passes,2015-11-09 08:47:57-05:00,False
+fd6c19a6857e0bf1ece703b6fb15271e4b5597d0,#137 incorporate patch,2015-11-09 08:56:34-05:00,False
+64d026d8775f87fea2dfaef6f153cf3589a8a728,#37 add checks for trailing slashes in collection paths,2015-11-09 10:20:16-05:00,False
+8129a71204b5cdbc46fca7dc91ed9fb240d9ffb4,#31 add create/perm check to get and put,2015-11-09 13:17:26-05:00,False
+dd5bf3d095874237dbadaba0531b4a0ea6fc200e,#1 update readme for RC1,2015-11-09 14:42:15-05:00,True
+003c5a5dc8a8e6d220ff87576cfde6b08549fb94,Update README.md,2015-11-10 07:10:12-05:00,False
+93bf907192d0f67c2489c00ac52a3bb6480299c0,#1 deploy 4.0.2.4 release,2015-11-19 09:01:09-05:00,False
+850739caa3ab906e419c7c432182163719ad4a9f,#61 advance to next milestone snapshot,2015-11-30 08:45:40-05:00,False
+4845a46b6ff50b0ad867cc4d1213d1bec8be9201,#161 fix for move,2015-11-30 14:09:38-05:00,False
+4150007002c8e4ab77e526590b9201dc9cd207bb,#165 update readme,2015-12-17 07:46:09-05:00,False
+43c4ede6cb615d531b4f23c5ecfc527324dc5d6a,#166 cleanups and add file to string and vice versa,2015-12-17 12:19:32-05:00,False
+d6e66bd5343b0f90800e6af4b65f3386cc7b911b,#173 add test works ok,2016-03-22 13:34:24-04:00,False
+4b80bd5b004cf472ec71f813d8400277a1ff6bc3,#61 jagron 4.0.2.5,2016-04-05 09:17:26-04:00,True
+3bbf045aadd8405446d5d2f09388ef0a1b416d37,#178 take out non-distinct data from avu query,2016-05-23 10:03:54-04:00,True
+7547acaa448d9819f1bb734320f64d53c04c54e5,Update README.md,2016-06-01 10:03:52-04:00,False
+ca1e01a9af1f3856e07740e75218c5bbd55fd947,#61 4026 rc1,2016-06-08 15:05:29-04:00,False
+07b616f20b66fef020562c5d58e28d62ecc122f3,#61 4026 release prep,2016-07-13 09:36:35-04:00,False
+2d3358f608cd3c3d57ac80c326c98b2d52fe1b6c,#61 advance to new snapshot,2016-07-13 11:28:15-04:00,True
+e455b4453e6ae7d6d08766fffa8c7e95e09cb2cf,#61 update to snapshot,2016-07-13 15:53:45-04:00,False
+c039efb6896c14b53336114e07ac07d4d874a98c,#197,2016-10-06 15:44:28-04:00,False
+0d3ab6c8b39624b4ff4c0d9120fbcc155c97ee6f,#150 remove extraneous exceptions,2016-11-07 16:09:59-05:00,False
+46af5c40a90f44bba4682d81ea5bd996f6c48cfa,#51 remove old wso support,2016-11-07 16:25:58-05:00,False
+f01d872c53e4bacee7e7dac11f12d800c51dcbbc,#1 edit readme,2016-11-07 18:25:39-05:00,False
+108165a6a3f610d515caa7c85e0ca491dba509ef,#149 adding speccol pi structures,2016-11-08 13:26:26-05:00,False
+65e22cb9993d30083083806e8cdd3b8353b077a5,#149 speccol fixes,2016-11-09 08:51:23-05:00,False
+c06b1be318a264083f26e17187e2a25815815e52,#203 revised and refactored with new version comperator and tested v 4.1.19,2016-11-14 09:53:28-05:00,False
+4bd08600bc5b645cea2813c07fb8656f3af04044,#170 add unit test and ignore it until iROD fix,2016-11-16 13:33:26-05:00,False
+a72394e33cc94e73e6aab2209ea7c80a9b081d32,#189 testing patch,2016-11-16 14:12:47-05:00,False
+726612be192954d92421bbefe570263b8f85dac9,#189 testing patch,2016-11-17 10:35:02-05:00,False
+63a08e7f0dc7b4b584a0360e7cec5a71d96eb2d5,#4 add readme for issue,2016-11-29 11:57:20-05:00,False
+9a0939a967aff643eddcef01be131132430b307d,#200 setup for testing of issue,2016-11-29 11:59:09-05:00,False
+ca9a87bbcf33b009aff6c11caac482590fc49f9a,"#203 update version to match milestone, merged ssl code and tested",2016-11-29 17:40:44-05:00,True
+02046e66461ea9b2fabeeab8846968ad7b6c5c59,#203 added unit test (passes),2016-12-06 09:47:35-05:00,False
+50b6bebe3752602d2e84a4fe9f6867244525329e,#202 added unit test (passes),2016-12-06 09:51:07-05:00,False
+fde18c711ab21032585f688bdfd6a6ba9114cc8e,#199 setup for testing issue,2016-12-13 08:44:33-05:00,False
+317c95b1a1b4a02546d5986c229c603426678eeb,"#199 added new authenticate method that preserves cached connections if called multiple
+times in a session",2016-12-15 14:06:53-05:00,False
+cae1fb532a9d34c2d99addfde9bc78570a88e589,#194 added checksum to output stream,2017-01-03 11:09:00-05:00,False
+93bf5653cbcf1a6b3098b53b57586a269fb47bba,#195 fix semicolon in pam password,2017-01-03 15:14:09-05:00,False
+c98e32e7a1e409fbfe23652435d668b0197348d1,"#196 replicated error, pending iRODS resolution",2017-01-04 09:49:22-05:00,False
+28204050e0e86d29468d3c817092f4c739b11e55,#135 fixed typo and improved result set debug logging,2017-01-05 09:32:41-05:00,False
+e198973d2086f2a8bb7fed7a6e4b1d3f6ab03007,#196 added patch specific query specific_query_patch-bug196.sh,2017-01-05 14:36:49-05:00,False
+47ee269e1e5dcb5a0ee354390d6adca3f093cd91,"#216 removed delete w/force from tests as an interim solution, requires more investigation",2017-01-06 09:22:47-05:00,False
+5c6af475c9e70e9a9583e82b6db08f96eaae73fd,"#1 added test case, passes",2017-01-06 10:39:12-05:00,False
+2234c2b9aba052784755ac7ad23f11ae0663c344,#61 testing for rc1,2017-01-06 12:36:38-05:00,False
+d48dede7119d44a06e1ab42e2d514e0325e9d098,#215 add'l fixes for handling SSLEndInp,2017-01-18 16:31:35-05:00,False
+9fc405e39f11279e4120bd1bbf1f9586eaf6a622,#222 added verification test,2017-01-19 09:56:33-05:00,False
+546e50e4e1c9c149e35d20ee85c90c88669b0d0a,#61 prepare for rc2,2017-01-23 09:55:16-05:00,False
+e48c0a031f496512c407fa705a2c9371631bbf35,#61 fix string to enum for ssl,2017-01-24 07:25:29-05:00,False
+19555d321d25378d2a5cb574e20d76a0eb0df23d,@227 replicating test,2017-02-06 13:52:50-05:00,False
+a1eeadb0b500f491eb609dc28190dddea9251f63,#228 adding unit test,2017-02-07 08:56:22-05:00,False
+f180e4de9b710bbfc5095f61d356bb00e9bc5908,#61 4.1.10 release activities,2017-02-09 07:05:46-05:00,True
+3658fba523f2781f2d51a8a21223f8d8377d58e0,#61 move to 4.2.0,2017-02-09 08:30:57-05:00,True
+199e6015f3980aac5d1d062040ea9d2fa664ff20,#203 javadoc fixes in progress,2017-02-16 09:39:07-05:00,False
+ddceb16ed67ae957c10b3774dfe3f9f6684b851e,#232 prepare for adding unit test to replicate,2017-02-22 15:16:09-05:00,True
+042f2d1392cd2cc2b1706ead218f527bccc8e38d,#232 replicated in failing test,2017-02-22 15:31:14-05:00,False
+eec8213845d160a9ee73ad1c75baa0a591b29fa0,#233 upgrade user and group queries,2017-03-06 12:03:01-05:00,False
+6512822cbcd586a45b629bd30919d6977b7ae91e,#235 fix user groups for cloud browser queries,2017-03-17 08:52:04-04:00,False
+3a1323fc57ca14e69a6acd280f6f5239a59debe4,#243 fix flush performance issue,2017-04-19 08:44:24-04:00,True
+b9b66d2520b68f8a45d22a812df6d616051b830f,#61 update readme for pool,2017-04-19 10:42:19-04:00,False
+1ecdcc6a514084f5eeac23256174e3e979a8e375,"#61 fix conflict in README
+
+fix conflict cruft",2017-04-20 14:39:13-04:00,False
+5c607fe12e6ce66c66b25d279a9ae8ef52cfd9bc,"#61 format
+
+fix minor format",2017-04-20 14:39:39-04:00,False
+ec7a086526193c9a9541314f32c9b2958519e4a5,#61 release push,2017-05-09 14:23:01-04:00,False
+5083eacf328785c2b11e194139124012f5207064,#61 version set,2017-05-09 15:08:37-04:00,False
+2b5f9f7f6d369ed911e0cfa3d7b01f4a21ca6869,#216 work in progress,2017-05-11 14:42:43-04:00,False
+6c5b5d2afd8cf18a969639e62d15f4aff4049517,#255 added create group method,2017-09-18 13:38:43-04:00,False
+f8b096803d1e9db2cd8da16ed7375e33704c3a8c,"#259 misc cleanups of null checks, etc",2017-09-29 08:28:11-04:00,False
+15a84d138578ed3659cbcb383feecea02004b4c9,#262 test of file move bug,2017-10-25 08:13:41-04:00,False
+a73749026433b3984dfea14cba26011b47cbdda1,#268 implement client hints,2017-10-31 17:09:05-04:00,False
+09066574c596ff1b2d5c7eed2960e274eb53deef,#271 temp fix for mysql spec queries for group,2017-11-07 08:08:59-05:00,False
+08e01f5fb6f363c7db9660208873ecff346ed5d6,#175 add resource hier handling to ResourceAO and related,2017-11-09 08:47:22-05:00,False
+627a39d6c28c1b3d972a6d40c8d9d903e9e5387f,#250 support set,2017-11-13 11:17:32-05:00,True
+b7f5923a3d6fec0ad5e115353afd0f81aad107c2,#250 cleanup tests,2017-11-13 12:30:15-05:00,False
+e7f9c126f3cd041f8c1375f1ba17139d87dc8f97,#275 add path guessing for metalinx issues,2017-11-15 13:47:54-05:00,False
+376095dbf6c15a7f2303bb54bff51e4321436844,#2 add renameTo(File),2017-12-15 16:26:12-05:00,False
+350396a27c120911387aeb390160ba7cc094ed1d,#192 add resc id,2017-12-18 06:56:28-05:00,False
+019d73653d37994ae798db7ee68dbc85aade13e1,#176,2017-12-18 07:08:10-05:00,False
+fb131e9aeb6dce745807296ef2d5e2b2359d758c,#220 no overhead after 4.2,2017-12-18 09:04:10-05:00,False
+211fa8393aab9322132a0acf9745c515dd6cb28e,#61 release prep,2018-01-04 16:24:30-05:00,True
+6a93b03ed4c7c1883bb7993c041d063ecbb7419a,#61 turnover version,2018-01-04 20:32:32-05:00,True
+35c824f2390442b4907d30c65f9406691b1e3b6c,#61 fix readme for dev,2018-01-05 07:40:21-05:00,False
+370af1bfe814f80926b61e20cae63a5893a76a7b,#280 wip,2018-01-10 12:29:54-05:00,False
+e4faa59d6384fbb9a029f6c0f9885fc91c966bbf,#288,2018-02-14 13:26:06-05:00,False
+8c68a65f469d875b177de71940f44111f89bb2a7,#291,2018-03-24 08:45:53-04:00,False
+314090a0f2c1c480257036cb9d1af32b81ddbfcd,Fix jargon issues broken link,2018-04-16 16:48:49+02:00,False
+13fec2b364c8723640c546bf01abc3291481001a,Fix broken link to jargon Github home page,2018-04-16 16:53:32+02:00,False
+4c9469371ce1fa962ee055fc6a327f60d010ad7c,#296,2018-04-16 17:00:18-04:00,False
+be09ee3ee93f8ecc800d3fc794d3103f03733b12,#279,2018-05-10 09:17:48-04:00,False
+ef5ab76b64d039f3bf7409de3feed363662c7ad1,#300 code cleanup/format,2018-05-24 10:09:29-04:00,False
+cbeb0892ff5601d69b8c864d54d0004c7022db87,#302 setup,2018-05-25 10:47:30-04:00,False
+43b89aa1941afa64efb5d3265434b52b832c4b5d,#304,2018-06-11 09:31:51-04:00,False
+ef411702cd2bee8cab1dc6417dba512a4ec2676b,#61 align version for metadata template work,2018-07-03 11:28:26-04:00,True
+48db765691f529bc8de17a71b1a4562a3e727d46,#61 revert version change,2018-07-03 12:50:08-04:00,False
+2658533e2cee43eae35080dea7e57f5ea9f941d1,#61 align version for metadata templates train,2018-07-03 13:13:52-04:00,True
+fb46814d6beba982b8c1a7434745bea8d8a2f076,#209 cleanups,2018-07-05 10:00:19-04:00,False
+c4584e45eb866433d410bc3c0b1334fdbece7329,#209 code reformat and release prep,2018-07-05 12:13:22-04:00,False
+1603487e4e16dc2fee82c895a69771d584ab4a3c,#61 prep for 4301 snap,2018-07-05 12:28:05-04:00,False
+c91b1753c152720623057c9ee59029d10f2278af,#313 fixed,2018-07-18 14:00:21-04:00,False
+aa3ccc73265b636f228de66e2fa3658bdc9fc798,#314 indexing,2018-08-16 12:38:16-04:00,False
+81edf9f7c6264e163f7913d874ea39b629d6f179,Update README.md,2018-08-21 13:29:40-04:00,True
+88388d1203d6ed83c871070f60011b3f52839a67,#315 remove old user-profile submodule,2018-09-25 14:13:46-04:00,False
+4dc0dbb9f9e98482925c1e53d371b99c1682ee27,#316 update misc dependencies,2018-10-24 17:08:57-04:00,False
+cb20608b56606552bc026a51a74ce43cebe1afb5,"#317 update pooling, remove AbstractIRODSMidLevelService and clean up hierarchy",2018-10-26 13:04:57-04:00,True
+ef6679cab40c3302d42853fbbb8810959cc49181,#310 version consolidation,2018-11-01 11:17:38-04:00,False
+8ee69ad0f74ef0d6f3e0505ccef862302fb6cddf,#318 and #314 add jmx bean to jargonprops,2018-11-06 10:42:21-05:00,False
+6bf4ed2585c2afb6946abc8df1b414f3d6db8746,Update README.md,2018-11-06 10:56:21-05:00,False
+64d0b87ae7e9f5355cd67d8d9c9ab089788911ad,#309 update readme with issue,2018-11-07 09:49:34-05:00,False
+f05a5a360d8633badb3a415e0f5a830dfbaf3ee9,#319,2018-11-07 13:02:13-05:00,False
+6e7a3654c739062e4d76fed72b4de7e1cce9b7fe,#320 update test rules,2018-11-14 14:53:38-05:00,False
+9a95d4b318d14e6b5587f390cb87d6e47fb7c34b,#253,2018-11-15 12:30:41-05:00,False
+08bd42abdf5952a474d43a5eba24f690871deb21,#254 implement case insensitive user and group search,2018-11-19 13:53:49-05:00,False
+4b5cef5669ffbb29d4005821d94a8a8a8b19ebd7,#264 list candidate rule engines,2018-11-30 16:19:16-05:00,False
+7a961da23760fdd37af8b6b31673fefc3f435272,#308 add NULL parent resources in query for Oracle iCAT,2018-12-07 09:49:08-05:00,False
+bb31a72e63b1cf31c864657725e2bda19b051024,#324 checksum enhancements for ga4gh DOS,2019-01-07 14:44:16-05:00,False
+f45da029238e3a658ba07149c6a0f8eeaa638d0c,#326 implemented,2019-02-07 14:07:54-05:00,False
+6f0d0d6361136f4bdc8ab342ec1363883ac160c3,#301 fix bundle size count,2019-03-01 14:37:50-05:00,False
+55135f4ed5eda61e4ed307b72f912cc2f599df3b,#61 merge master into dev,2019-04-10 15:54:53-04:00,False
+c92488ab9b4b41d7fbd6b641259276c6bbc0f3cc,#310 version changes,2019-04-15 15:32:19-04:00,False
+01971b8e59f11bddf8b12a988398bba6815d6942,#61 version bump,2019-04-16 08:59:42-04:00,False
+bfffb25b318fd9d6af49ee32fdeaebe496b1ad91,#61 bump version,2019-11-13 14:25:19-05:00,False
+7d0ad8793e198c5e82fff2328e925a3d500cab3c,#61 release activities,2020-01-24 16:46:30-05:00,True
+a1b72e60440cb417729820c9e2c4f084990f9b82,#61 post-release,2020-01-27 11:14:30-05:00,False
+4ccba2581356e9fd79b7b6f8d312d447884ad9ee,#61 4302-release,2020-11-13 13:05:29-05:00,False
+8ebbb19e6e9b2012a88def6576a2c7e8a3f2b3d7,#61 version rollover,2020-11-17 09:01:39-05:00,False
+8ee0d5e1b8bcd60570ec1b0ace1985f8d53ae4af,#61 4321 release,2021-02-26 15:18:33-05:00,False
+d80e06f955e92c25f7cfd75c06a543252c9bf640,#61 version rollover,2021-03-24 10:40:47-04:00,False
+5a525e30e403f9c70f4e1e74ca3c54e504d83925,#61 prepare for release,2021-05-25 11:40:17-04:00,False
+9a584875998395fa68952d4ee150c26421f864ba,#61 version rollover,2021-05-26 10:23:46-04:00,False
+df0b570a65606a2c099024e7b2e8747ce7aa2ae0,#61 release prep,2022-01-25 15:58:10-05:00,False
+d6a9337ae41474a488c74a9e4b2a26ce8e25468a,#61 4325 snapshot rollover,2022-02-04 10:06:34-05:00,False
+540d57efe02212b40280fa510b7743ad4a377201,#61 4325 release for nfsrods,2022-02-14 09:34:37-05:00,False
+52101d8641f28d197126a2bef146ce17dc2f90a2,"move to maven packages in repo, move to next snapshot",2022-04-27 15:41:59-04:00,False
+fce053cea8ee507154d1b22bbfb93374685aa589,move dev to 4330,2022-04-28 14:14:40-04:00,False
+df120ac527034988dd7a91ca4bf616429fe817df,4.3.3.0 release prep,2022-12-15 10:41:48-05:00,False

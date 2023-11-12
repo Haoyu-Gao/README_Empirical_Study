@@ -1,0 +1,31 @@
+sha,message,date,result
+82613602635fb23d63f7dadacd461f37e2a6d3a3,Initial commit,2018-12-03 17:13:25-05:00,False
+ed25624f8c01fdf23c30dccd78925539e6515c30,Migrate text classifiers with example files,2018-12-03 22:44:02-05:00,True
+eb857a9717e177f1a33ca59a8ab18ee8aec4d19f,Add decision tree option to text classifier,2018-12-13 08:34:54-05:00,False
+c490a2aee06478612a3cc20cf79dea9f61214003,Fix readme formatting warnings,2018-12-13 08:46:43-05:00,True
+b9cd9b55677982621fdce1a91cf1e35fe444dd9f,Refactor drug_review_scraper,2018-12-21 14:56:38-05:00,False
+64451fc9b298cf6a912eba7643cc8682e52f2bdc,Fix scraper csv output and update readme,2019-01-04 13:47:21-05:00,True
+cd38588e1cc4a47d5b8c5cb26902d83e4e0068f2,updated installation instructions and examples,2019-02-01 15:33:08-05:00,True
+1b0f03644b74f76b7d685b60686935fdbb6f1db7,changed instructions from forking to cloning,2019-02-01 15:48:51-05:00,False
+2a10da1c7239976a3b20c6c32d69f468cbe35df4,Update readme,2019-02-03 11:29:06-05:00,True
+8094ba903c5e89349b5482ec4f45a8bfc6bdc52b,Fix linting warnings in readme,2019-02-03 11:34:19-05:00,False
+092267616026f05c3884d95f48c8f9226f45c17f,minor fixes and updated README,2019-02-13 14:24:29-05:00,False
+e77dbd32961b9f112f57d296ab1f5e7a14e24253,Updated readme,2019-02-16 17:44:13-05:00,False
+593c94dbac15684b364f26a9f1957146ff2366b3,added authors section to README,2019-02-22 12:06:36-05:00,False
+6eb9d09833c8ccb9ff031f3eba8872b3a6f3c050,Fix linting warnings and test example,2019-02-24 17:18:30-05:00,False
+21c7933a6d155f893a893e73d0a413804af59a5f,Finish writing tests and update example,2019-02-28 14:17:21-05:00,False
+7b371ae13a6882928a62bb9866b8541ac9642438,Fix linting warning,2019-02-28 14:22:43-05:00,False
+835152b229eea48985e03e0cff7fa089e8d92266,Update readme,2019-04-05 11:22:18-04:00,False
+6d146579174a8e3c551786e0b9f357f29e01a7b8,Some updates to thge readme,2019-07-29 15:04:09-04:00,True
+c51ee72c1d5f43c862e7c240f8f3fa9835420e3e,Installation and Running documentation in the readme.md file including a medinify program diagram from the google drive,2019-09-20 11:49:25-04:00,True
+e6741ce67da680d4bcfc7df7cfaad2f32da5a7c0,Updated readme,2019-09-20 13:47:55-04:00,False
+ce359d1aa8ddc349836a1a1abe4d3bc2b8da2d28,Update README.md,2019-09-26 16:13:55-04:00,True
+486c949390f4fb8361116dbbcc31024c349e7a8b,Update README.md,2019-10-11 12:19:26-04:00,False
+68b5ef5b097898e9ded954da91a1cb43352bf3b7,Update README.md,2019-10-11 12:34:32-04:00,False
+45e30d853b322545a8a2dd2450fafbecd19f384f,Added lab banner to README,2019-11-05 12:06:40-05:00,True
+8555fe30466f38f69e2d7041a660aa50c4b5e1ae,Fixed image position in README,2019-11-05 12:07:33-05:00,True
+979f31ff2933e93613b3c2a00c62d39adb021d6e,Updated readme,2019-11-06 02:19:32-05:00,True
+9e0994a15900e5e707c05ad7c7a7dca39084c262,Fixed readme format issue,2019-11-06 02:20:55-05:00,True
+fca56126999e9d38bc0719e507d2b9be10c8bff1,Fixed small readme type,2019-11-06 02:40:41-05:00,False
+5917dc8e040d4b8d886035eac4c25930bd595b05,Update README.md,2021-06-28 12:13:14-04:00,False
+f410aa163915f085fb2151c43b16c47080f85ce1,Update README.md,2021-06-28 12:35:38-04:00,True

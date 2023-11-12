@@ -1,0 +1,85 @@
+sha,message,date,result
+122aa887284e37c88ba55a989dde9c5a3ad3bbc7,Initial commit,2014-09-02 14:36:02+02:00,False
+7df90d1c6ddccccd1c956ad2af211980360ef9e1,Adds link to OpenTOSCA to readme.md,2014-09-10 14:33:29+02:00,False
+347bda172429ff3bf3304e429d1e01a95c35c752,"Add build status badge
+
+[ci skip]",2016-02-14 14:28:09+01:00,False
+8e72300b226411e4b8500ba37da9d1dc5d72e8f5,Update README.md,2016-06-10 16:13:33+02:00,False
+17d2572dee2efb57e039d8eaef957570a0bd1783,"Update of README.md
+
+Adds additional info to setup the container in eclipse",2016-08-01 17:51:14+02:00,False
+88e081461bc318e33aeed2ead19307474bf59db6,README updated: build & run using Docker,2016-08-17 11:44:38+02:00,False
+95dacf6b80394f5eb64161ea4039e0636e8d4200,Link to Docker Hub added,2016-08-17 11:47:34+02:00,False
+c1ecdbfa6a666cf7c09dc8fa615f28217f4cb60d,Update README.md,2017-03-22 09:10:13+01:00,False
+50e70041fd5134670e73559649acbe0607b6ed8a,README update,2017-05-10 09:33:50+02:00,False
+d73bdc87e6bfb25b70fd4159482078a786564097,Refine instructions at README.md,2017-06-28 14:02:42+03:00,False
+f49005f3547dffabb96025613915ec4e30996af6,Update README.md,2017-08-04 13:52:48+02:00,False
+61f133742651bbbb5fff66a0eb7e8eb814fc063c,"merge commit
+
+Signed-off-by: Kálmán Képes <kalman.kepes@iaas.uni-stuttgart.de>",2017-08-12 19:33:46+02:00,False
+392f0e296c4487cfd7748302bfbcb3db6ebc7c90,Update README.md,2017-08-23 16:10:37+02:00,False
+8e49a92dee9a2502c90741c0c0fcbc304a71bd59,Update README.md,2017-08-23 16:11:07+02:00,False
+279f0468938a3c1a7b410826ec5043d79c81cb50,Update README.md,2017-08-24 08:44:17+02:00,False
+14032cd8e40d0c5750b4899da485101a67bd5696,Fix for the badge order in the readme.md,2017-10-26 19:20:28+02:00,False
+ffa585c8680cc19c1d66d17a2ae8f4820dfa8e94,Haftungsausschluss aktualisiert,2017-12-15 11:17:02+01:00,False
+8e8aad9b46579d08b0ed5855f73af6bafc71aae1,Added reference to code style config in README.md,2018-02-21 16:21:50+01:00,False
+e7bd86a64e1c8861cebe124e36f86dcfa5af8bdd,Update README.md,2018-05-15 10:30:58+02:00,False
+b29cb6c46855e967cbdc3b958ede03290db2f722,"Move Container to Winery Model for Tosca interactions (#78)
+
+Co-authored-by: Michael Wurster <miwurster@googlemail.com>
+Co-authored-by: Benjamin Weder <benjamin.weder@iaas.uni-stuttgart.de>
+Co-authored-by: Lukas Harzenetter <lharzenetter@gmx.de>
+Co-authored-by: Kálmán Képes <kalman.kepes@iaas.uni-stuttgart.de>",2020-06-18 16:49:08+02:00,False
+4edd6fbf56326d79af78b7d14e57ac75d937a97b,"updates README with info how to setup code in Eclipse (#147)
+
+Signed-off-by: Kálmán Képes <kalman.kepes@iaas.uni-stuttgart.de>",2020-07-15 11:07:28+02:00,False
+8fb18a9bd6f30d5577e33bf7632857c611fc1b5d,"adds info to README how to start the runtime via maven
+
+Signed-off-by: Kálmán Képes <kalman.kepes@iaas.uni-stuttgart.de>",2020-12-18 09:34:11+01:00,False
+9e121f99292efb42472d67d39e2ab08f8d8f17cd,adds info about lombok installation,2021-01-13 15:40:10+01:00,False
+d07df7987be8dc4811ba036cfaf0d0b327dc7556,"Fix/restbus part2 (#175)
+
+* fixes typo in github action
+* fixes rest bus 
+* camel route adaptions
+* updates readme.md
+* increases timeout of github action
+* configure doc builder in management bus REST plugin to use default error handler
+
+Co-authored-by: Michael Zimmermann <zimmerml@users.noreply.github.com>",2021-03-22 16:59:15+01:00,False
+30a84170e17011bcc8ff19c8a9f2046f5d90a0d5,"removes lombok from project (#177)
+
+* removes lombok from pom.xml, java classes and readme.md
+* increases github action timeout",2021-03-23 15:39:16+01:00,False
+c98c9917ba5d56692d4b9d58b98d8c022af6a2a6,Adapt status badge after change from Travis to Github action,2021-03-25 09:17:36+01:00,False
+8a79713e591678bb3bce9f045aa666dd8f9bc8df,"changes documentation theme to fix issue adr them
+adds more info README.md
+officially sets master to dev branch",2021-08-12 10:11:24+02:00,False
+eb46303b06ca703cfa61baa137caffc1602daa55,"Enhance versioning of container proj and winery dependency, automate creating tags (#199)
+
+* updates maven proj version to 3.0.0-SNAPSHOT
+* updates README.md
+* adds workflow to create stable branch and tags automatically when a new version is pushed to master",2021-08-19 17:20:00+02:00,False
+3564392434fe8ebdf1cfecf206c99064310f14e0,"refactors some code (#201)
+
+* refactors some code
+* adds jococo for coverage reports
+* adds acks to README",2021-09-03 13:53:38+02:00,False
+1a3cce73df0e54001c96b20a346137d6d134758d,Add code quality batch (#248),2022-02-17 16:37:52+01:00,False
+602c83ace9c64f2b997aa07875b2d3d766e13c58,"migrates tests to new test repository (#246)
+
+* migrates tests two new test repository
+* fixes issue with nullpointers with termination plans as the artifacttype was sometimes null
+* refactors handling plan generation, checks now which plans have to be generated
+* changes tests to use locally checked repository to safe time and data
+* updates README
+* refactors loading defs to speed up plan generation
+* refactors checking imports in plan generation
+* refactors some logging to be less verbose
+* updates MyTinyToDo sql test to test freeze, defrost and backup plan generation
+* adds methods to ModelUtils for later integration with proper freeze and defrost test
+* fixes issue with not setting the planinstance of a service instances in rare cases
+
+Signed-off-by: Kálmán Képes <kalman.kepes@iaas.uni-stuttgart.de>
+Co-authored-by: Benjamin Weder <benjamin.weder@iaas.uni-stuttgart.de>",2022-02-18 14:25:27+01:00,False
+c32b996281519bc0d891d87145c5f3b684faf9de,add resus project to acks,2022-08-26 15:24:58+02:00,False

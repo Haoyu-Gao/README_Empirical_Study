@@ -1,0 +1,27 @@
+sha,message,date,result
+b21d365c0a169518c63219156c667a4ac7f26c18,Initial commit.,2017-08-09 18:22:30+01:00,True
+7a04e74effc88d3e2fe0e4562c99a18d06a099b2,"Update the readme to point to the newest mini games.
+
+PiperOrigin-RevId: 171961307",2017-10-12 16:21:34+01:00,True
+1e66d0a52dbabb3ddb2134c894f5e389bc6e30ba,"Update the paper link to point to arxiv.
+
+PiperOrigin-RevId: 175825985",2018-01-11 13:55:38+00:00,True
+518c6a3561577356d9673c5fc47bd984ebebed3d,"Update the documentation to mention the new environment features.
+
+PiperOrigin-RevId: 181488735",2018-01-11 13:55:38+00:00,True
+63fbc917dcf0e95754062900a1e9b32a0233dedf,"Add a script to run the tests.
+
+PiperOrigin-RevId: 183998520",2018-01-31 17:45:36+00:00,True
+e1f8eac7c70e1faf4474ebda0b9fec13633f3333,"Simplify from source installation example.
+
+PySC2: Import of refs/pull/255/head
+PiperOrigin-RevId: 232492984",2019-02-26 15:23:58+00:00,True
+68578b4e1138dfe1035f4d86228044694cd9c6b1,"Update the PySC2 documentation in line with recent changes.
+
+PiperOrigin-RevId: 421575061",2022-01-13 16:45:23+00:00,True
+71ecc7c62af90d165eacd143bc7ff789a426eaeb,"Update the default install directory.
+
+PiperOrigin-RevId: 460440503",2022-07-13 12:16:01+01:00,True
+21c44008d379269e0caa7479f7ebab82d553ea04,"Fix the key for saving a replay in the readme.
+
+PiperOrigin-RevId: 460440713",2022-07-13 12:17:18+01:00,True

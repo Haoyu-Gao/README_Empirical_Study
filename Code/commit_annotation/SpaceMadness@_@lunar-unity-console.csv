@@ -1,0 +1,109 @@
+sha,message,date,result
+6e50e6cc5015ada1b70dfc877bbd74463b856748,Create README.md,2015-08-12 00:32:26-07:00,True
+bf8a2e445e9cbebd4aa6a8f724dbfe4537717e1c,Builder progress + UI fixes,2015-08-12 22:24:22-07:00,True
+4180de92599e832a3cd28dd12b36abda045a462e,"Update README.md
+
+Added 'Platform Support' section",2015-08-12 22:30:09-07:00,False
+eea45253d6e0ba8430e60013c57ced61ffa9110d,"Update README.md
+
+Adde ""Bug Reports"" section",2015-08-12 23:03:24-07:00,False
+882f2d3869662e238ff6f12483aacf845a7a2ec4,Update README.md,2015-08-12 23:06:18-07:00,True
+e3b1b7c20f820dc1a0439362decf1ac0bb74adf8,"Update README.md
+
+Added Asset store link",2015-08-25 12:19:31-07:00,False
+6091d5982d8aa2edc0930c2f949f58959a4e141b,"Update README.md
+
+Added Android support section",2015-09-30 17:24:00-07:00,True
+08c43fb5ea2706dba23e8875d4e0440da539fe2c,"Update README.md
+
+Minor updates",2015-09-30 17:26:19-07:00,False
+4c77efb4a0ded2ca4369d9a2f49f4e72d60d3017,Added BDD-style testing,2015-10-02 20:07:35-07:00,True
+e91c93d39fb2f1976698d7996d4ab41a05375c08,"Update README.md
+
+Added 'Build Automation support' section",2015-10-02 20:40:46-07:00,True
+e21ed89e761e25369a240c17fcad6adf40ea2ed8,Update README.md,2016-02-03 20:43:43-08:00,False
+aeda62deba9a8946a0c2f800d8921cdac391cd4d,Updated README,2016-04-16 12:31:33-07:00,True
+25c98f1ef33449749b583d8e1adc9c13237d4dfb,"Update README.md
+
+Added TOC + some minor changes",2016-04-17 13:14:31-07:00,True
+f96e298724e9d9d683656fa192e11b9a250233a5,"Update README.md
+
+Added 'Social Media' section",2016-04-17 13:19:33-07:00,False
+bb2e0346dd767b7fbfc5065b19c5834ded2e68a8,"Update README.md
+
+Updated 'About' section",2016-04-17 13:25:29-07:00,False
+03518c4aed5d2c3d690e8682f2189f1e4759caed,"Update README.md
+
+Added more screen shots and fixed some text",2016-04-17 14:21:04-07:00,True
+31915b74c8a303f4ef42b2ac8e7c356107da30df,"Update README.md
+
+More screen shots",2016-04-17 14:29:14-07:00,False
+05ca986d3db75cf0f2d7e2136a9773c21ba661b8,Update README.md,2016-04-17 14:50:44-07:00,True
+c0c3e1d3eb5e94b863953723bff572f6be61047f,Update README.md,2016-04-17 14:51:59-07:00,False
+ec80fb42a6d334f79d02d297b27075c2a0d47af9,"Update README.md
+
+Added logo image",2016-04-17 19:51:54-07:00,False
+746aa1fa3b77338c9f26f3e1260873ccebab0433,Update README.md,2016-04-17 21:02:42-07:00,False
+2582958de8d1a69f7897387566ded7d39fb256f2,Update README.md,2016-04-17 21:50:49-07:00,False
+fadc9f52685586e8d1757d33c71ec895be703708,Update README.md,2016-04-18 22:29:01-07:00,False
+e00e20f2687a0ecaa8fc79cc7afd7c79d48c376d,Update README.md,2016-04-18 22:42:18-07:00,False
+d28e440ce6661baa79523c014486265ea988577b,"Update README.md
+
+Fixed ""Stack Trace Frames""",2016-06-15 23:53:00-07:00,False
+4bdcc9aabd17e2ff8fcff9a667d5ab33e65c9010,"Update README.md
+
+Added ""donate"" section",2016-07-27 02:36:16-07:00,False
+601cd4502d4ede29039e117b43a814900e9f38b6,Update README.md,2016-07-27 03:18:00-07:00,True
+5798cddf424a3355b3d8c03189514ad7b6ea9139,"Update README.md
+
+Removed ""Donate"" section (it doesn't work anyway)",2016-08-18 00:53:37-07:00,True
+85db03b0209f6e038a76c660ee623635f85e2ef9,Update README.md,2016-08-18 21:31:18-07:00,False
+94dd062dfee0fa71d14ff3ab460c5fdfdab763b0,"Update README.md
+
+Fixed ""Stack Trace Frames"" section",2016-08-27 18:36:28-07:00,False
+12347de09df4e96fd17589cb9b5861236cb76b25,"Update README.md
+
+Updated images and instructions",2016-08-27 18:47:06-07:00,False
+3b9634fcc81740f00adac1e5039edb006a419577,Update README.md,2016-08-27 18:55:26-07:00,False
+cca1e168baab2d04293d4a8890942e4251a548bb,Update README.md,2016-08-27 18:55:46-07:00,False
+826229d32f358a5996a50e3200c0703f9ca80918,"Update README.md
+
+Updated images",2016-08-29 20:22:37-07:00,False
+baa1710f4821c97350977631338bcb49e1eb4bfe,Update README.md,2016-09-19 00:57:17-07:00,False
+2b7b2c1a149533f04db52c87aa23aeef52429831,Update README.md,2016-09-19 00:59:28-07:00,False
+eef51e2c46ea8be361110f486fd7f7217b5eff16,"Update README.md
+
+Updated 'Unity Cloud Build' section",2017-01-21 15:34:41-08:00,False
+25e04dc79ada1917be5f5711df4bd8c10a594b7f,"Update README.md
+
+Updated 'Unity Cloud Build' section",2017-01-21 15:39:06-08:00,False
+d42e9cbfce83d7e22414200b45603e2fd49391b4,"Update README.md
+
+Added 'Quick Actions' section",2017-01-21 15:42:42-08:00,False
+02830b2a7cedca6b7fb7d68ac910607980e6d3d2,"Update README.md
+
+'Quick Actions' progress",2017-01-21 15:47:35-08:00,False
+32b8bc6e80250262ad9246957ce177ce5929e5f4,"Update README.md
+
+Updated few version numbers",2017-01-21 15:54:13-08:00,False
+0337f3125066543f6446c77dae5dadd43521b3a7,[ANDROID] Actions progress,2017-01-23 23:52:08-08:00,False
+8498dc1dc6e2a3acafc85e5c3c2ffca41d47892d,Update README.md,2017-02-01 20:26:47-08:00,False
+0c748c15a9ce8ea7abc9032441a987c884d5fecf,Update README.md,2017-02-17 00:17:48-08:00,False
+c4a3998d8b31012fe0452aaeabaa5bca78cf6664,Update README.md,2017-02-17 00:22:23-08:00,False
+22762dbd2433a16445856ee5531dcf3b5516776e,Update README.md,2017-02-17 00:26:43-08:00,False
+ee72f8bb32bd04c603cc9c059284bdf268edbb0f,Update README.md,2017-02-17 00:36:27-08:00,False
+9d8d836d4f8e8f9f467ad142fe75b4925ca27094,Update README.md,2017-02-17 00:39:12-08:00,False
+70c3b9694111ddd20f343a02da384603e177f20f,"Update README.md
+
+Fixed Asset Store Link",2017-02-23 08:32:39-08:00,False
+8f7c14f2ab71f2866d060b28ad3f06d967463b6b,"Update README.md
+
+Fixed API Guide link",2017-02-23 08:49:08-08:00,False
+a078a6213dd024e565bc7226e1014fb481384f6f,Update README.md,2017-02-27 21:44:41-08:00,False
+b46de9d83d45fa720283047d39e5c5b44f05eb07,Update README.md,2017-08-30 10:39:41-07:00,False
+b6ca5abeeebad91997882db59956ad4dcdc32e40,Update README.md,2018-05-23 13:26:56-07:00,False
+a83a4fd1e21f0e67168d0bec2f8def8a97b20c77,Added travis config,2019-01-18 19:30:35-08:00,False
+76341ec8639115700e500ca97f0bde24e8f4a866,Update README.md,2020-08-26 21:02:23-04:00,False
+5b358a644fd4d5fa00ad6802af3388950515370c,"Update README.md
+
+Fixed asset store links",2020-09-04 11:04:01-04:00,False

@@ -1,0 +1,412 @@
+sha,message,date,result
+38ca4de449562cddecd474675d26d1bd29d46763,Initial README.md commit,2021-01-12 20:26:59-08:00,FALSE
+f30dee8905bcae128d60ea75ceaf0405abc85ce1,Add minimal build instructions,2021-01-14 08:32:09+01:00,TRUE
+ad27b859dc47fd83e1629a45d72eed7a6a7ee16e,Add doc on startup,2021-02-02 14:43:17+01:00,TRUE
+112599c76fc47bb9053110502f561853373b18ce,Enable build profiles and add one to create a runtime that uses the FS Vault,2021-02-24 15:08:10+01:00,TRUE
+3c78079486e31422d511ec2acf2e214b6bea3804,"Dockerize runtime and setup CI/CD (#7)
+
+* added basic docker file
+
+* pass vault, keystore and password as env vars
+
+* github actions: first attempt
+
+* refactor actions
+
+* actions: use multiple steps, use java 11
+
+* added checkout for the docker job
+
+* actions: run jobs sequentially
+
+* updated README
+
+Co-authored-by: Paul Latzelsperger <paul.latzelsperger@beardyinc.com>",2021-03-30 10:36:11+02:00,TRUE
+a2afd3acc8e09568bc5d24c8e6378cb3d7bf2775,"Refactored the build to use BOMs (#11)
+
+* moved all demo-related dependencies into a separate distribution (=module)
+
+* updated CI build
+
+* split build into two jobs
+
+* updated the checkout action of the action to v2
+
+* cleaned up runtime build file
+
+* updated README and improved demo distribution
+
+* enable java code scanning
+
+Co-authored-by: Paul Latzelsperger <paul.latzelsperger@beardyinc.com>",2021-04-01 10:32:09+02:00,TRUE
+5d674d2f5c48b4b6e7da31aac8263e52efa77abc,"Feature/36 create genesis script (#37)
+
+* initial version - provisions SP, keyvault and storage
+
+* added role assignments, etc.
+
+* configurable resource suffix
+
+* fixed failing test
+
+* updated azure vault test
+
+* prevent @BeforeAll of integration tests from runnint when not on CI
+
+* added AKS deployment to the genesis script
+
+* refactored and stabilized the genesis script
+
+* added some abort conditions
+
+* re-deployed itest env, updated clientid for ServicePrincipal
+
+* updated README
+
+* nifi app reg uses client secret now
+
+* removed compromising log lines
+
+Co-authored-by: Paul Latzelsperger <paul.latzelsperger@beardyinc.com>",2021-04-16 17:36:18+02:00,TRUE
+9409b1c76ad08733a065de9f9353fdf0ae0a52da,Remove CLA,2021-07-29 18:11:03+02:00,TRUE
+0b994155db501f699cc35a138948bfee96f5449e,"Restructured code
+
+removed empty file
+
+updated build pipeline
+
+fixed module names in build pipeline
+
+fixed module names in build pipeline
+
+introduced new annotation for integration tests
+
+added integration test steps
+
+re-activated atlas test
+
+fixed setup of azure test
+
+disabled azure vault test
+
+restructured build
+
+moved nifi processors to samples directory
+
+added secret value
+
+fixed type
+
+fixed nifi processor paths, added docker file",2021-08-02 16:02:50+02:00,TRUE
+30a6412f0114e32a6a3f407c80067005df2be87e,Updated package names to 'org.eclipse.edc',2021-08-03 09:02:38+02:00,TRUE
+512dd03695fd44c02f9b86a197002be934747ff9,Update README.md,2021-08-05 18:09:07+02:00,TRUE
+dd0585a69042f2ac7923efbcb19b4fd55190b977,added basic launcher,2021-08-12 15:26:51+02:00,TRUE
+5dc1e1b7e7f45d36cb926747749331ea11ba9de5,added more readme,2021-08-12 15:26:51+02:00,TRUE
+51ebd56d615a2baccda38d56c6bed76450b20bd8,replaced Contributing section with a reference,2021-08-12 15:26:51+02:00,FALSE
+f59a0702cdb74e9fc99579aba2509db98f6dd54f,"Update README.md
+
+Co-authored-by: MoritzKeppler <moritz.keppler@posteo.de>",2021-08-12 15:26:51+02:00,FALSE
+fd119f1703d48c8b24e1d490efd759e4fd27f090,updated with PR comments,2021-08-12 15:26:51+02:00,TRUE
+05deb4032b6fb32f3d3b2e7215b5ece9f31be793,updated intro and launchers section,2021-08-12 15:26:51+02:00,FALSE
+e09a9546cedbeeec2febb8d6c3111f159c006c8d,"Update README.md
+
+Co-authored-by: MoritzKeppler <moritz.keppler@posteo.de>",2021-08-12 15:26:51+02:00,FALSE
+314a927bda19d1e13ae360e5757cdb9b60f24e3a,PR comments,2021-08-12 15:26:51+02:00,FALSE
+963e10ef215bc55b2c98fe4ff0c783ba52b330f9,PR comments,2021-08-12 15:26:51+02:00,FALSE
+05d0f26e43f03d10c48674b1e6be63f07f919078,"Update README.md
+
+Co-authored-by: Stefan Ettl <72562218+stefan-ettl@users.noreply.github.com>",2021-08-12 15:26:51+02:00,FALSE
+49aab156cd45c7e78a63c158007c64b19b69bd18,"Update README.md
+
+Co-authored-by: Stefan Ettl <72562218+stefan-ettl@users.noreply.github.com>",2021-08-12 15:26:51+02:00,FALSE
+773c3cf0cb60702a654d07dbfb71739e6ca2a9cc,update gaia-x homepage,2021-08-25 14:56:48+02:00,FALSE
+1d2696e54d61e7517264425457630aaeb663de6e,"Initial Documentation (#28)
+
+docs: provide initial structure
+create basic structure, add diagrams and glossary according to state of our discussion
+
+Co-authored-by: dpinsel <0c609020fdb18cdddd9becb8e5eb1ef5f999a84c>
+Co-authored-by: MoritzKeppler <moritz.keppler@daimler.com>",2021-09-03 14:53:56+02:00,FALSE
+b05b140b6db34a02cbaa51b6467b68f242c5733f,"docs: remove Microsoft related notes (#57)
+
+remove trademarks, security and support notes
+add link to contribution
+
+Signed-off-by: Moritz Keppler <moritz.keppler@daimler.com>",2021-09-08 07:53:35+02:00,FALSE
+483cd584945ca044aab4f622bd6e4037c4f6d782,"Feature/60 create onboarding experience (#61)
+
+samples: add onboarding guide
+Co-authored-by: Paul Latzelsperger <paul.latzelsperger@beardyinc.com>",2021-09-09 19:32:40+02:00,FALSE
+e9f13a3a10aaa5a91adde99a2a988dc07cdcb571,"Create and apply checkstyle xml config (#77)
+
+* removed atlas and nifi
+
+* removed wrong settings entry
+
+* created and applied initial checkstyle config
+
+* Added checkstyle to github actions
+
+* moved checkstyle to its separate job
+
+* run on every commit
+
+* fixed checkstyle also for test classes. disabled javadoc check
+
+* run unit tests only after checkstyle
+
+* fixed comment f. checkstyle
+
+* updated pipeline
+
+* add constant naming check
+
+* added code style
+
+* added documentation about the style guide
+
+* run checkstyle in nofilter mode
+
+* added checkstyle plugin
+
+* added link to styleguide to CONTRIBUTING.md
+
+Co-authored-by: Paul Latzelsperger <paul.latzelsperger@beardyinc.com>",2021-09-17 10:45:45+02:00,TRUE
+37f050fd1bfa812e37dbee983be6e8857f5290c8,"Work on architecture and coding documentation (#175)
+
+* Add docs
+
+* Implement feedback from Andrea
+
+* Update docs based on feedback
+
+* Update docs based on feedback
+
+* Update docs based on feedback
+
+* Update docs based on feedback
+
+* Update docs based on feedback
+
+* Update docs based on feedback
+
+* Wording cleanup
+
+* add link to arc principles
+
+* add link to archuitecture principles
+
+Co-authored-by: MoritzKeppler <moritz.keppler@posteo.de>",2021-10-22 13:56:20+02:00,FALSE
+77e2f818b66d7a67f8221c49075867cdb05e18e9,"Automatic swagger generation (#522)
+
+* Added Gradle tasks to generate and merge OAS yaml files
+
+* added CI job to generate swagger yaml
+
+* downgraded to swagger-jaxrs2 version to 2.1.11
+
+* Update build.gradle.kts
+
+Co-authored-by: Florian Rusch (cluetec) <97295414+florianrusch-cluetec@users.noreply.github.com>
+
+* Update openapi.md
+
+Co-authored-by: Florian Rusch (cluetec) <97295414+florianrusch-cluetec@users.noreply.github.com>
+
+Co-authored-by: Paul Latzelsperger <paul.latzelsperger@beardyinc.com>
+Co-authored-by: Florian Rusch (cluetec) <97295414+florianrusch-cluetec@users.noreply.github.com>",2022-01-20 08:51:18+01:00,TRUE
+0a52b9196b618df63035809481d996c84fb8377d,Helm chart with minikube tests (#432) (#701),2022-02-23 10:17:17+01:00,FALSE
+5b165bd39f0187337893d66736c08f870f2de2db,extensions: Remove ION extension (#664),2022-03-02 10:35:16+01:00,FALSE
+daea498c2e6463a667fdc8f7ba420c184f6ee4f2,docs: update README.md (#847),2022-03-08 10:54:17+01:00,FALSE
+b5a5d34d873669daf596963d69c00bc5eb2f556a,"DataManagementApi: Use management api in samples (#733)
+
+* DataManagementApi: Use management api in samples
+
+- Add default config into basic launcher
+- Add data management api into sample 03 and add some documentations
+- Update samples above sample 03
+- Reorder extensions in settings.gradle.kts
+- Fix typos in README.md
+
+* DataManagementApi: Add missing empty lines to end of some files
+
+* DataManagementApi: Fix 04.0 integration test
+
+* DataManagementApi: Add management api to sample 04.3
+
+* DataManagementApi: Update copyrights
+
+* DataManagementApi: Add configuration option for mgmt api into helm chart
+
+* DataManagementApi: Try to fix helm chart integration test
+
+* DataManagementApi: Updates basic launcher Dockerfile
+
+* DataManagementApi: Reformat & update copyright
+
+* DataManagementApi: Fix/update README.md
+
+* DataManagementApi: Fix/update README.md
+
+* Sample04: Fix merge conflicts
+
+* Update CHANGELOG.md",2022-03-14 15:33:04+01:00,TRUE
+4ce631aaecfbdc727841a4e5493a61caa988337b,docs: update readme (#1311),2022-05-16 16:36:50+02:00,FALSE
+05af5e45745fe897d2d0c20095fe2e30d8d00c2c,"docs: restructure documentation (#1307)
+
+* chore: move documentation files to subfolders
+
+* chore: restructure toc of documentation directory
+
+* docs: update documentation
+
+* docs: update CHANGELOG.md
+
+* chore: apply feedback",2022-05-23 14:14:53+02:00,FALSE
+9f06946f48a68af2801361df5723f9e766b93547,"Chore: prepare publishing Maven artifacts to OSSRH and MavenCentral (#1354)
+
+* add use gpg command
+
+* Update build.gradle.kts
+
+* Update build.gradle.kts
+
+* select repo url dependin on SNAPSHOT
+
+* changed OSSRH url
+
+* attempt to include java code
+
+* set pom to every publication
+
+* added documentation
+
+* added module list
+
+* Update README.md
+
+Co-authored-by: Julia Pampus <72392527+juliapampus@users.noreply.github.com>
+
+* Update README.md
+
+Co-authored-by: Julia Pampus <72392527+juliapampus@users.noreply.github.com>
+
+* Update README.md
+
+Co-authored-by: Julia Pampus <72392527+juliapampus@users.noreply.github.com>
+
+* updated modules file name
+
+* trigger CI
+
+* add clean-recreate on the modules list
+
+* use absolute path for modules.md
+
+* trigger CI
+
+Co-authored-by: Julia Pampus <72392527+juliapampus@users.noreply.github.com>",2022-05-25 14:05:45+02:00,TRUE
+1cf88a515bc7048907fc045dc6474ff9682dcd2e,"refactor: remove basic launcher (#1360)
+
+* refactor: remove :launchers:basic
+
+* docs: update CHANGELOG.md",2022-05-25 14:40:12+02:00,TRUE
+ebde7680c7d99c29297787f819c736046b5afcda,"Feature: use the Nexus Publish plugin (#1428)
+
+* add nexus publishing plugin
+
+* set urls explicitly
+
+* fixed url
+
+* added doc to README
+
+* removed edcVersion variable
+
+* Apply suggestions from code review
+
+Co-authored-by: alexandrudanciu <80531692+alexandrudanciu@users.noreply.github.com>
+
+Co-authored-by: alexandrudanciu <80531692+alexandrudanciu@users.noreply.github.com>",2022-06-08 15:04:50+02:00,TRUE
+97b4d5fcde54d2af4172529f39ebd367780b986c,"refactor(docs): restructure documentation directory and framework (#1882)
+
+* docs: update root markdown files
+
+* docs: add toc to extensions, launchers and samples
+
+* docs: restructure documentation
+
+* fix(docs): update links
+
+* chore: apply feedback from reviewers",2022-08-29 08:27:01+02:00,TRUE
+e25e01a8e368c2baa558a3a3f54e4fa9125d9af9,"feat: policy structure review (#1968)
+
+* rename existing policy modules
+
+* cleanup readme
+
+* Move PolicyDefinition class to the policy-spi module
+
+* Introduce policy-engine-spi and policy-engine modules
+
+* Rename package",2022-09-16 11:02:19+02:00,FALSE
+cfe13f3129d093989b4a8856cb26968d78767df3,refactor: remove module list (generation) (#2110),2022-10-18 14:59:23+02:00,TRUE
+c2bc86f0e4eafbf925e145b69ef5de9d3cd0a359,"refactor!: update package names (#2127)
+
+* refactor: update package names of classes in all modules
+
+* chore(build): update root project name
+
+* refactor(extensions): rename :micrometer:micrometer-core to :metrics:micrometer-core
+
+* refactor(spi): rename :transformer-spi to :transform-spi
+
+* refactor(extensions): rename :provision modules
+
+* refactor(extensions): change :policy-store-cosmos to :policy-definition-store-cosmos
+
+* chore: update metaModelVersion to 0.0.1-20221024-SNAPSHOT
+
+* chore: update openapi files",2022-11-02 09:06:16+01:00,TRUE
+a134132d928525b34b4b9dc9c3a92c0ef5121f24,chore(README): restore logo (#2158),2022-11-02 13:47:05+01:00,FALSE
+b4f64f104faed3f2c0e44da4700d671ddac9503a,feat(Readme): add badges to the README (#2172),2022-11-08 14:03:10+01:00,FALSE
+f4913e535eb97ec21f2f554e9d2ba8c3e4ae1ba9,"docs: Update maven badge to the new group id (#2176)
+
+Update maven badge to the new group id",2022-11-09 08:43:08+01:00,FALSE
+0cc8386e49c242f700ee6e18fb14a4d823400fa3,feat(README): adds snapshot and nightly build badges (#2239),2022-11-25 14:37:01+01:00,FALSE
+c74dbc58febbc93b6ceb02f1b3fc0f8c8a91181f,chore: fix docs link (#2247),2022-11-28 11:08:36+01:00,FALSE
+3cc3101736cb3403b410760076920de11914eea4,"chore: Update references from `dataspaceconnector` to `edc` (#2254)
+
+Update references from dataspaceconnector to edc",2022-11-29 15:32:49+01:00,TRUE
+d8d5e4e0482ac7db067ba4ea76b60e08f1d0ceb0,fix: jenkins badges (#2304),2022-12-07 12:31:10+01:00,FALSE
+44a6ad15c7f2cc96c0e082c808f5384f887da63b,"refactor: introduce `EdcHttpClient` and replace `OkHttpClient` with it (#2305)
+
+feat: introduce EdcHttpClient and replace OkHttpClient with it",2022-12-12 08:43:31+01:00,FALSE
+6f36e428ce01c643920ef8162a031951d5291eb3,"fix(docs): resolve markdown syntax errors (#2338)
+
+* fix(docs): resolve markdown syntax errors
+
+* docs: change name to edc connector",2022-12-13 13:56:48+01:00,FALSE
+308000355705748bec04db3ec66182ab75a2e43e,"chore: remove samples from connector repository (#2362)
+
+* chore: remove samples directory
+
+* chore: replace links to samples
+
+* chore: update onboarding.md
+
+* chore: inline onboarding.md into README",2022-12-20 16:54:44+01:00,TRUE
+22d3ed8512e02d03d7ebbcfcbfa26a052ca2bac0,build(badges): fix build badge (#2380),2022-12-23 08:41:23+01:00,FALSE
+b50830e5eaaf6b3e1cc2e8950982d10b8d837185,build: call new Build-Component jenkins job (#2470),2023-02-07 16:19:07+01:00,FALSE
+b8a6143b26e6d85e35d34bff65b1d55c0069d7b9,"refactor: Remove helm chart and related tests (#3032)
+
+refactor: Remove helm charts and related tests",2023-05-17 17:06:48+02:00,FALSE
+edb35971c00b9c1007018c5325b0cc5fc5b2b1ba,refactor: remove deprecated ids moduleS (#3042),2023-05-20 12:36:17+02:00,TRUE
+2ded962d1ae67184c83c3ab724852424f7292e7d,"chore: update snapshot version to 0.1.0-SNAPSHOT (#3108)
+
+* chore: update snapshot version to 0.1.0-SNAPSHOT
+
+* articles are important
+
+* trigger-ci",2023-05-26 12:11:38+02:00,TRUE
+e7b81ef7d90a6e5efe5e093b22fb2a944ab0228d,Bump version from 0.1.0-SNAPSHOT to 0.1.1-SNAPSHOT [skip ci],2023-05-30 20:07:57+00:00,TRUE

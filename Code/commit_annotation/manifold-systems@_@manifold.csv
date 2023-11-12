@@ -1,0 +1,191 @@
+sha,message,date,result
+876fd7bf77f4539e48df9365f18a4621bf5b8104,Initial commit,2017-06-06 19:37:24-07:00,FALSE
+5227e9861bef35d87d845e0789f421f01fbb407c,Update README.md,2017-08-17 13:34:57-07:00,FALSE
+7c510b9a4b64c00438307fd936b09397cb098c04,Update README.md,2017-10-09 14:47:11-07:00,FALSE
+c99e13aca6cd016d4dfe6fade7be1fc6a58bd05b,Update README.md,2017-10-09 14:49:08-07:00,FALSE
+a80d9703ffe61280a8f2d67205d8dcb8c11d8073,readme.md,2017-10-09 15:37:28-07:00,FALSE
+0bbe748a6f1a6dc5e2fd1d6937987a96b9e91fa9,readme.md,2017-10-17 18:38:36-07:00,TRUE
+773f6872fbc5cc3d2c0ab9288adbd86b220e3c9b,readme.md,2017-10-17 18:40:53-07:00,FALSE
+e5459ddce75e676a586ef25d475e34200480d725,readme.md,2017-10-17 18:46:36-07:00,FALSE
+79d4e6b7c2ba198a666546d0b8496c9e2db5eb17,readme.md,2017-10-17 18:54:19-07:00,FALSE
+137b06dabc993d6d7b3eda8637a6c69267b164c2,readme.md,2017-10-17 19:01:45-07:00,FALSE
+50123dc8c42c32291cb65b40af46183050993a2a,Tweak Gradle doc sections for now,2017-10-18 11:04:19-07:00,FALSE
+89a18beecab0dab478855ffbb16235662591d368,rel 0.1 -> 0.2,2017-10-18 18:59:09-07:00,FALSE
+a742189fcffc9ea5fbae8edb9aef60deb3829838,Fix typo; add forking compilation for Gradle,2017-10-20 15:50:29-07:00,FALSE
+1d8614f680f41cd7211237d27e62482673ca7a8d,Update docs with static links to latest release versions,2017-10-20 15:58:15-07:00,FALSE
+5b73698d5d2646b9fdf1d8e1c4a6bd3b53bd5c41,docs (minor),2017-10-20 16:09:58-07:00,FALSE
+326b74a996e65fbb00aecff95c4caf49c9c9832c,readme.md minor,2017-10-21 01:24:07-07:00,FALSE
+972c78f492ad3d52c0ebdacc29310146cdf4f831,readme.md minor,2017-10-21 11:34:41-07:00,FALSE
+bb0edfbd91c92d2598307fa451f22eddf76cff81,docs minor,2017-10-22 13:01:00-07:00,FALSE
+91c02da6a96bf29f5c9724c662c98961a136cf6e,update docs for Java 9 support,2018-01-17 18:50:22-08:00,FALSE
+cf39357a2afb491da0f25f9e66d80e3a5f5f1484,minor docs,2018-01-18 20:20:35-08:00,FALSE
+0153c9004fc0921eee6b894f2f41ee67f5c96015,Add note to README on how to modify the project version number,2018-01-20 17:47:55-08:00,FALSE
+e29453f95a73b1d911dc6ebbf4521c545987933f,fix broken gif,2018-01-28 15:23:49+01:00,FALSE
+b9b0a1f226eb195c0b1361919884de8db79c884b,minor,2018-01-30 08:53:58-08:00,FALSE
+60323ebfece99054a14a48087cf231454ceea984,more java 9 docs,2018-01-30 09:40:10-08:00,FALSE
+66da1fb4eed300b10b6560bb278f1cef82c093e7,minor,2018-01-30 10:23:14-08:00,FALSE
+09b25fdbb04c9a489b1fdabf4bf328e5c005bce2,update readme,2018-03-15 18:21:51-07:00,FALSE
+e44ca7af34cfd737534be44edf08562b3ff75967,"Manifold Templates changes
+- renamed ""Manifold Templates"" to ""ManTL"" (Manifold Template Language)
+- renamed extension from ""*.mtf"" to ""*.mtl""
+- related docs changes",2018-05-06 16:26:05-07:00,FALSE
+7c6e7af7598d897998f296f27dc50c6a4faf3d96,fix image urls to add docs prefix,2018-05-19 12:23:28-04:00,FALSE
+16e6768046adb780c071c0226c6439f3c1cd6459,add width value quotes,2018-05-19 12:50:26-04:00,FALSE
+52c534d2a220fb6a494a342442720d83d265796a,doc changes,2018-09-17 23:33:36-07:00,FALSE
+36eb32dd349870232059a7c6dd422e2bf6b7ae3c,doc changes,2018-09-18 19:06:53-07:00,FALSE
+2f55a0d2f780dc694b961db9f9b7bc2ab63ae660,doc changes,2018-09-18 19:07:14-07:00,FALSE
+3117feda98d0d0701661310900971e14525d187f,doc and website changes,2018-10-07 18:09:46-07:00,FALSE
+ad94fd13af61e16682f5679b77f00edf1286b457,doc and website changes,2018-10-07 18:33:46-07:00,FALSE
+608a772f9ea73ae7d977709a85350b92e545b871,doc and website changes,2018-10-07 22:46:33-07:00,FALSE
+a31c1d180e3d9feb412b12485e094aefc1690729,Update README.md,2018-11-23 00:29:55-08:00,FALSE
+755c4b0316b8f7cdb6fa0eff32cb28a6b3e972d7,jailbreak docs,2018-12-08 11:37:47-08:00,FALSE
+70bd913408ce3ee7be8b8b22a1c4a189f1f8f4d2,docs,2018-12-08 13:23:06-08:00,FALSE
+1e384548045f5fc57da636113a8342924fa4f814,jailbreak docs,2018-12-08 13:26:26-08:00,FALSE
+83c4a95187d2150b2de1917af9f7ef2e59d7f1d7,"Manifold ext changes
+- 'JailBreak' -> 'Jailbreak'",2018-12-11 11:40:47-08:00,FALSE
+779d8df3cb01382b92ef2f039de17f194530006e,docs update,2018-12-11 12:04:02-08:00,FALSE
+4cd21cf3eedcacb1a7b4fceed3b7afc6bd0ae851,docs update,2018-12-11 12:15:29-08:00,FALSE
+0d9f4714cbff2f0b7742fdbdef8375b98aa509b6,"Manifold JSON/YAML changes:
+- refactor JSON/YAML API, added fluent methods for load(), write(), etc.
+- documented changes
+- other json schema related fixes/changes",2019-01-27 15:40:55-08:00,FALSE
+050f974d44cdd06f7399a6f503d7eb19c06c6087,docs,2019-02-02 16:57:40-08:00,FALSE
+4b67bf612476813eadf0987230ffd5d44f272dc7,docs,2019-02-02 18:04:45-08:00,FALSE
+6e95aedfdb3ec886aeb7aeb894dbdbbdaaf818a6,docs,2019-02-02 18:07:05-08:00,FALSE
+1582189b2dfb3ed88b295f072b46f35010b7052f,docs,2019-02-02 18:12:39-08:00,FALSE
+1027f81ee8c49435cd1b763025a6d37f04ec89a9,docs,2019-02-02 18:18:38-08:00,FALSE
+58d3589a60943f8f0ff8b8f5338a40bfeb777707,docs,2019-02-02 22:20:31-08:00,FALSE
+8e7e1c347ae2af8a695c5aac295cacdb48941f65,docs,2019-02-02 22:27:04-08:00,FALSE
+1830f41996c959cace560b004d3b2375d3c5483d,"Manifold Ext changes:
+- Structural interface improvements
+-- Provide a solution to eliminate the first-time load/cast overhead for a structural interface. Enable a structural interface to provide its own proxy factory via new optional parameters to @Structural(factoryClass, baseClass)
+
+Manifold JSON changes:
+- JSON array types are now concrete types and define a component type named <array-name>Item
+-- Thus a JSON array declared as ""Users"" has type ""Users"" and, if not a $ref, its nested component type is named ""UsersItem""
+-- Before this change there was only type ""Users"", which was made the name of the component type
+-- The ""Users"" type is an interface and extends IJsonList<UsersItem>, which in extends List<UsersItem>
+-- An array property has the following representation:
+--- Users getUsers();
+--- void setUsers(List<UsersItem>);
+--- The parameter type is contravariant, which is useful when building up lists separate from the API
+- Added `request(URL)` static method on all JSON API interfaces
+-- Use to conveniently navigate an HTTP REST API with GET, POST, PUT, PATCH, & DELETE
+- IJsonParser no longer wraps lists in bindings with single ""value"" property -- returns JSON List as-is now
+- Fixed bug dealing with not preserving insertion order of oneOf/anyOf union types
+- Several other bug fixes along the way",2019-02-15 22:06:12-08:00,FALSE
+f613a52ee1ab0beb3cd553bcce11eba735b72bd8,docs,2019-03-17 20:22:11-07:00,FALSE
+799b70299b9af99c0610a3b0825674fd3b860f83,checked exception suppression docs,2019-03-29 17:31:23-07:00,FALSE
+1508610971d4c9342a27454dd34e302ce35c4608,docs,2019-03-29 17:56:23-07:00,FALSE
+fc1370ae810e98d795e49bca2f5a022f61c21bd1,docs,2019-04-05 15:24:07-07:00,FALSE
+44cd9af00f37ca91fe356f047015a5eea1d0e749,docs,2019-04-05 15:30:30-07:00,FALSE
+191f906a8e049cf6b37b84a72ef434a398685943,docs,2019-04-05 15:39:43-07:00,FALSE
+8fa4b16e841bf722a465bc3411e755c704f9a684,docs,2019-04-05 15:43:30-07:00,FALSE
+3f30b857f5d94e817467ebcc58cda63604332c50,docs,2019-04-05 15:44:36-07:00,FALSE
+a6daa2278751b5e2840d6f17f872f9a970ca9fdf,docs,2019-04-05 15:54:27-07:00,FALSE
+5b150005bc4553dd6cd041361778066242f72781,docs,2019-04-05 15:56:46-07:00,FALSE
+40317264e2c7cbbd46d07438d8dba86f49f20e38,docs,2019-04-05 15:59:18-07:00,FALSE
+5d3e0ad2de5b09d5a1164fb7f7df5cf8ea53b8ab,docs,2019-04-05 16:16:36-07:00,FALSE
+3193aebb15564bd01cafa43efcb8c8d79c3a2e61,docs,2019-05-04 00:20:55-07:00,FALSE
+69ad14df6293a5fee5c55987127474f93cfac6e3,"fixed some errors in docs (#73)
+
+* Update README.md
+
+* Update docs.md
+
+* Update docs.md
+
+* Update docs.md
+
+* Update docs.md
+
+* Update introduction.md
+
+* Update manifold-templates.md",2019-05-06 14:13:35-07:00,FALSE
+017a3d6790d24898a0ead7aa09b569bcd1588f41,"Update readme (#72)
+
+I believe this should have been http:// 
+:smile:",2019-05-06 14:14:47-07:00,FALSE
+3f782dd78cecf6bcf0c7cf83c529d2ab1e7bf388,docs,2019-05-17 18:21:24-07:00,FALSE
+e8ffae0f6732c28e7fa48e48810fe4c99537025e,docs,2019-05-27 22:19:36-07:00,FALSE
+b262d08bfdf91a504ed8f2c96e3f71c0298ff86f,docs,2019-05-28 10:56:37-07:00,FALSE
+36f90f10e8c8ddcde68ccab3091042690b01e59f,docs,2019-06-22 12:32:46-07:00,FALSE
+3487dde7f73eb97ae15a424ef77f7205ee132f2f,docs,2019-06-22 14:53:32-07:00,FALSE
+5f826b4bd763a492adb01e60d5b28ba200abee20,docs,2019-06-22 14:57:26-07:00,FALSE
+252347f4b9892b82cf2d3dad81151cc34859e783,docs,2019-07-23 15:43:27-07:00,FALSE
+8a058e4d77df3fabebe4f49dd655f9ad4ae37094,docs,2019-07-23 15:44:35-07:00,FALSE
+b9002484bc776bcd2a0eae1a2d8b4cc2812d30f9,docs,2019-07-28 13:29:52-07:00,FALSE
+9e2c7c75ef5bf1b0f74a3f73e8d61b14e6460d52,"Manifold project-wide changes:
+- Refined project readme.md files, standardized them, and overall shifted documentation focus more toward Manifold’s individual projects and away from the current monolithic docs
+- All manifold projects are defined as ""automatic"" modules now, with explicit names via ""Automatic-Module-Name""
+- DEPRECATED: -Xplugin:Manifold arguments: 'strings' and 'exceptions'
+-- replaced with dependencies: manifold-strings and manifold.exceptions
+-- manifold.api.templ -> manifold.strings.api
+- API changes
+-- clash: manifold v. manifold.util: manifold.util -> manifold.api.util
+-- class: manifold.ext  ''                         -> manifold.ext.api
+- Removed bootstrap plugin, no longer necessary
+- Manifold JavacPlugin is now a self registered Plugin service",2019-08-11 21:13:15-07:00,FALSE
+239d064f44d8c925d55631b1d9cd11db7e1d58c0,docs,2019-08-14 11:33:48-07:00,FALSE
+16590cc89e2c8eb6481aa7120b10606fa4b9874b,docs,2019-08-14 11:57:35-07:00,FALSE
+2c28a7a06db0805aa7e60f37dd93348bf6392be4,docs,2019-08-29 10:56:01-07:00,FALSE
+5f2abc9a811be24fac541e99d4ea11688329f05d,docs,2019-09-08 09:36:58-07:00,FALSE
+23ec8772f89b5ad71ad344916ef9f6940d95978f,docs,2019-10-12 15:10:54-07:00,FALSE
+56cf648bf3c159537a29884c42e97c36fd78e92c,docs,2019-10-12 15:28:46-07:00,FALSE
+b88076b964aabb291987fc59a14be5c8a5fe45b2,docs,2019-10-12 15:31:46-07:00,FALSE
+f24e0940e6927162a340127423f73c52d4abe63d,docs,2019-10-12 15:59:20-07:00,FALSE
+e7db96c474bef5869e89618313e120fc37a5b02f,docs,2019-10-12 16:32:41-07:00,FALSE
+446f13833b9a4a8de9fb116e3ff6581e18978676,docs,2019-10-22 10:42:47-07:00,FALSE
+3ce73c7d5eeae87740c47a023d775241da38d323,docs,2019-10-31 12:39:50-07:00,FALSE
+235addcd35685ada1a7cd38774b9aedede153214,docs,2019-10-31 16:38:32-07:00,FALSE
+4bbca0189f4d70672bf57cdb7d334998e120ad74,docs,2019-11-01 16:19:40-07:00,FALSE
+ca17ca994834804fc863728c253c6600814ad1e4,docs,2019-11-20 15:28:17-08:00,FALSE
+5d17178e9bd4936116fa42af14bc25b66b88d176,docs,2019-11-21 17:07:06-08:00,FALSE
+c1ef53b0190d586dff8d06cf90d433b2a8daa6d2,docs,2019-11-27 11:59:30-08:00,FALSE
+7edb3fbf41a04d610f39b08039ad5a0e8a67ab85,docs,2019-11-29 13:30:51-08:00,FALSE
+0876d95db28145c0de4368a04454b25710b25438,docs,2019-11-29 13:47:32-08:00,FALSE
+5abfceb5f97b3b08807cabeeb534be9d48fe5ba9,docs,2019-11-30 16:33:33-08:00,FALSE
+298444d07d52b7315ab07e10069e4171258fc92a,docs,2019-12-03 00:43:46-08:00,FALSE
+9d0d76f5f89ee6bcd6febc324134ad977f704a1d,docs,2020-04-25 20:40:40-07:00,FALSE
+6a8163a39bdb245c365d12b0a66886fa93a291b2,add links for new Slack group,2020-04-30 17:07:44-07:00,FALSE
+afadb614c7998dd7536f3555dd2a7195c1402c92,More changes and documentation toward https://github.com/manifold-systems/manifold/issues/181.,2020-06-08 22:18:37-07:00,FALSE
+2c4845b749f63266ce927eb5a1e72a1304df8e7c,docs,2020-06-09 02:05:11-07:00,FALSE
+4d89ff9f56de789928a9c59c2230064ac3d0d91c,docs,2020-07-16 17:35:41-07:00,FALSE
+b0ac77a51eabbb2f8932488cfd3c23a8f24afc5e,docs,2020-08-12 19:57:45-07:00,FALSE
+a6461cf234e5f97bd33315cf92cf958cc5746c1c,Fix typo in README example URL (#211),2020-08-30 13:12:06-07:00,FALSE
+e2d65209aa52a3b22eabbb5fcfbe41feaa86df95,Fix typo ) -> } (#199),2020-08-30 13:14:05-07:00,FALSE
+5ce12e89aab5ba02ec5a5ddf0a9b623957742c29,docs (Java 15 support),2020-09-16 11:20:26-07:00,FALSE
+623cfb8d4cf9a4575b0041ea1e1edf285568d457,minor,2021-01-18 23:05:39-08:00,FALSE
+03d68983e3547f0328068a6f8fff111ebd77d5d8,docs,2021-01-20 14:31:12-08:00,FALSE
+f9cc292a3caa1c5fad5f11536f1e266ab5d381e6,docs,2021-03-19 03:11:33-07:00,FALSE
+616f3237ca2eb03e0a5553a1f37768b5930fee6f,docs,2021-03-19 11:30:11-07:00,FALSE
+f88adc6aa04934fef11345f813bd046d08745145,docs,2021-03-19 11:31:09-07:00,FALSE
+b9a39e5e74fc91e94ee20c92eaf410445ae5aaf2,docs,2021-03-19 11:34:10-07:00,FALSE
+9cbd3cdf716488d17449da2ff66781ba17d622bd,minor,2021-03-22 10:58:30-07:00,FALSE
+a06d4b7f2e65c8a78e5b7204052275a4ab5b1811,site update for properties,2021-03-22 14:21:56-07:00,FALSE
+406f9c0c0b25ef9c90892f1de8aa0e433fdfc1c3,site update for properties,2021-03-22 14:25:09-07:00,FALSE
+dc16d8cd1f3460bc418700e9806023f1c754146c,site update for properties,2021-03-22 14:28:07-07:00,FALSE
+30ecf865f39107233b6a9b3038e87eb8d86fbf85,fix typo,2021-03-22 18:38:52-07:00,FALSE
+7ff45617097c4cdefac6b62a5b6befbff409dcd5,minor,2021-03-23 11:09:50-07:00,FALSE
+2590a6c570171c65519e07cc0af444304b564774,site docs,2021-03-23 11:31:04-07:00,FALSE
+4d007d1033fa19b0dde8c8745fe97ebc840748ad,site docs,2021-03-23 11:58:52-07:00,FALSE
+fdad97bff8644cf75c1ee1fdca8034dbc5d7fbc1,site docs,2021-03-23 12:04:40-07:00,FALSE
+aa61fe37e96f844e44761a90fd7289e02a845a63,site docs,2021-03-26 21:37:33-07:00,FALSE
+d53029c1390636ebddeecf4bdb3cfa8affade88e,docs,2021-04-14 21:11:16-07:00,TRUE
+052e78aa9135ea2edb4474fa7787693a6f4a6267,docs update for jdk 17,2021-10-09 22:37:52-04:00,TRUE
+29a13befd6b5157b0f37063a09af3400d420406f,minor doc update,2022-01-14 15:38:31-05:00,FALSE
+90d4527cf774ccabae7c3b97eab2c9aeee1df3ac,minor doc update,2022-01-14 18:36:27-05:00,FALSE
+a35a0d9dec667b5b3eda5cba5956bdf44c60c18f,minor doc update,2022-01-14 18:38:00-05:00,FALSE
+d2fd99ed2769c691f749fa51cc7c05a043f68eb8,minor doc update,2022-01-14 18:39:39-05:00,FALSE
+61aaaf8e719e86ac21d6f0ce6f192c50840bf964,"revise check for manifold-ext-rt usage, minor doc update",2022-01-24 23:46:29-05:00,FALSE
+fd3836c38c97d266475ad0b7332f74ae149525f2,minor doc update,2022-01-25 02:00:16-05:00,FALSE
+f52e998fc72ceafdddfd5ef75b7f41d0da0038e2,update readme with new feature info,2022-06-17 13:29:56-04:00,FALSE
+ba74f668d3caf0e730f11ee59facd17c4eaf1140,"update for tuples, auto, etc.",2022-06-17 14:09:48-04:00,FALSE
+e16a472bbf81c05524d81eff24f5f9716bda84a9,indicate java 18 support,2022-06-17 14:28:21-04:00,TRUE
+b558fadc9b3064dcefc9c884c80f18e398457f54,Fix plugin reference (#343),2022-07-21 22:52:16-04:00,FALSE
+20397da0bac2dec1cb97fb366dff87fadb1c2dce,update docs wrt support for jdk 19,2022-09-22 00:29:42-04:00,TRUE
+04867744fe0f5c6dcfae17c528b30e4a8cdef1ef,Update README.md,2022-12-13 11:44:37-05:00,FALSE
+1a493e64bcd192fd164a7609e57090d7e544f712,docs,2023-02-15 21:24:15-05:00,FALSE
+8b1bc136c6997570508c1677668713ad1770ec03,docs,2023-03-03 23:51:38-05:00,FALSE
+7b29d94facdb6c85ce75ecf0d05d1ba485efb078,doc update,2023-04-29 15:26:27-04:00,TRUE
+2a1291f92b88e0b911e75a0d4b2b479391c1d62f,doc update,2023-04-29 15:29:26-04:00,TRUE

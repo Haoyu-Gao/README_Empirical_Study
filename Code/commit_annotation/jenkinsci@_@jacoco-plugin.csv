@@ -1,0 +1,42 @@
+sha,message,date,result
+43443ec26b1b2dcf0e093be169530ada4b8a583a,Create README.md,2013-08-26 14:18:05+02:00,False
+89d4a618657469ff3ad0994dd26eeb8f9eb669da,Add note about dependency on JaCoCo 0.7.5 or newer,2015-11-22 22:00:09+01:00,True
+34c6e87a6aa69b5d11855098822ae9db75808aa6,"Update README.md
+
+Add build-status indicators and copy a paragraph about contributing",2016-01-14 20:34:53+01:00,False
+371e8b29d5359c3ccb063da50e7f76199c9ff78d,Describe ways to contribute,2016-01-16 09:54:51+01:00,False
+6b118b854559d4c60fa9a62f68887a9253125893,Update README.md,2016-01-16 10:06:07+01:00,False
+f97e4735254211297e6947a823e459dc14a591fa,Remove link to github issues which is invalid now,2016-02-02 07:21:59+01:00,False
+e6840032119215525a927b9f0275f5b54a9d1b12,"Adjust README, add build/test steps",2017-03-16 08:04:51+01:00,True
+c834a4fa7b63689cff1a7260ba02a3cd43ced1b7,Add release-badge,2017-03-22 20:46:16+01:00,False
+9bfcb6127b72ee1c5fda002a9c4e62dd979efd15,Try to update Build-Status badge,2019-05-18 14:31:58+02:00,False
+a1d36d8cac9500e6f96fe394aca0ca1865e463c4,Adjust URL to ge the open JIRA-issues for this plugin,2019-09-24 20:07:29+02:00,False
+b84491df1a13c4c767787c3b55c74ee72aba80ed,Fix Jenkins job link,2019-10-19 09:58:05+02:00,False
+62a9b671f56741197a0a4a3d7166d6395240c2f9,Start converting docu from the wiki,2020-01-25 13:24:50+01:00,True
+ee5575698071af4bfba4d5fda9eabd022fa58ac5,Update changelog for 3.0.5,2020-01-25 13:26:44+01:00,True
+5d8499720a53c318f5fd78335e010abddca3cc85,Add some more badges to the README,2020-01-25 13:32:54+01:00,False
+5a4ad342af6839856d80efa561fdf7b727734a26,Add changelog for 3.0.6,2020-05-29 15:04:41+02:00,True
+4677816c9a61b2440c73307b48f5b691085251f6,Add 3.0.7,2020-06-22 19:46:05+02:00,True
+eaa0ef65b57edfd9e47815b50d52023ecb243e14,Update README.md,2020-09-17 09:18:44+02:00,True
+07dd38d70d81ecea0c9d752d8cff5a77d858cebb,Add chapter for how to release and some changes for upcoming 3.1.0,2020-11-13 08:08:26+01:00,True
+58d8d6327c8d5580d6d5d07561a7b0c4312ef36f,Add some more links for how to release,2020-11-13 08:21:10+01:00,True
+570042eab635f40a0274d6b365afad99a32fcfef,Start releasing 3.1,2020-11-13 08:22:28+01:00,True
+e980317b94c6ee82691c07ba1163a5920d671080,Fix version in release notes,2020-11-13 13:03:31+01:00,True
+c182485a16b589e1d52df3cb5f18e97c79f33d5b,"Update README.md
+
+fix: remove useless carriage return",2020-11-18 18:01:52+08:00,True
+df1eff2160444cf32358c87f73602788bca7fa55,"Adjust README: 3.1.1, adjust steps to release",2021-01-23 12:59:28+01:00,True
+19840d112b220fe61ed2ddf3d958b3529e3ac5e7,Slightly adjust formatting,2021-01-23 13:00:36+01:00,False
+25026282dc1200f9548ddf394b5ef3745549fb3b,Add release-notes for 3.2.0,2021-05-13 11:48:47+02:00,True
+9d91202213b1f6c40158afb7a1002e6a55e96164,List changes for 3.3.0 and adjust info about contributing,2021-06-17 12:11:09+02:00,True
+77417fae58b3f3800b6f01cef53715ed6aacf41a,"Link to releases for changelog
+
+To not continue to duplicate this content.",2022-05-09 10:00:25+02:00,True
+12dcb25d9529efd6894b11960cb8e3c20468a0ea,Remove mentioning findbugs in the README,2022-11-07 09:18:33+01:00,False
+298f4b1ef74608acbef4540e132472935123e4a1,"Update release instructions slightly
+
+Needs Java 11 because some third party libraries are Java 11 only now
+
+Specify minimum Maven version",2023-03-24 12:26:00+01:00,True
+cfe0fa7df60dad5b072aaa34b96198826e200a68,Add snippet to show how to use this plugin in a pipeline/Jenkinsfile,2023-04-11 10:19:24+02:00,False
+b61691fa8b610cd0bedaf14f221d04d22fe69c5b,Add link to configuration-options,2023-04-11 10:20:04+02:00,False

@@ -1,0 +1,172 @@
+sha,message,date,result
+e77ffcffa5344a84065e4b965ba959550d316d29,Initial commit,2014-03-06 11:03:48-08:00,False
+71510d55727b3a6ac05855199ce4fb5d6d7696c2,Update README.md,2014-03-06 20:59:10+01:00,False
+cabeb98e693fb4ba07d05d92aea8dbb56f694b5d,Migrate from Google Code,2014-03-10 21:08:46+01:00,True
+3bbb1551d17a68e1c2c5ac593fc7d12a9c6c9beb,Fix links in intro.,2014-03-10 21:11:17+01:00,False
+e16533d6726b1185edcc0b51648fc1864c658ebf,bold,2014-03-10 21:14:54+01:00,False
+9d2851ea55157cc4f825a49892c2bc126993d672,Link to migrated wiki,2014-03-21 06:28:34+01:00,False
+148351d9076cdd5b975d5dda388eaef6fb965949,Link to migrated wiki,2014-03-23 21:53:35+01:00,False
+85ebdcdb533b28c8598e0df46ea0d023c92be3b1,Migrate change log to github.,2014-04-16 17:40:04-04:00,False
+f1156b7132b5f839e696d418c79f3fb07737e65b,Updated some links.,2014-04-16 18:38:14-04:00,False
+fa773cf09d0cc6eef4d12001a1615ee0373aa1f6,"Remove ""is being"" from ""migrated""",2014-05-27 06:35:42+02:00,False
+99d6895e5d7b37cc43dd795ac2622b8d456a26bc,Add a link to discussion group,2014-09-02 09:55:36+02:00,False
+067c81c9d868677bc7b325c3d588fb7c2e270580,Add link to javadoc,2015-02-26 19:35:39+01:00,False
+8a545d8813d20b95bf282affd3e52a13db01e6e7,Create README.md,2015-03-26 22:38:45+01:00,False
+3a4b7df8dd5750ce23f60a9027c7ab268549f7f8,Update README.md,2015-03-26 22:40:49+01:00,False
+e40894c868f9146bb19a563f6b20326d349f7a0b,Update README.md,2015-03-26 23:08:34+01:00,True
+1aebf11e7f39f6cf17dee23b8ee68e72f83c20ad,Update README.md,2015-03-26 23:15:29+01:00,False
+8c2e68135d0d4020bb62d277621e0a5286783243,Update README.md,2015-03-28 13:55:06+01:00,False
+ef8cfeb9400186e3d6f3b053750ee184ad2935aa,Update README.md,2015-03-28 14:15:52+01:00,False
+48e3c1d6806f2fe79725da03cdc501f5e48b3521,Update README.md,2015-03-28 14:18:42+01:00,False
+50cd84fda28e3652a58ec533263cda59dc8dc025,Update README.md,2015-03-28 14:20:17+01:00,False
+e97eecb3843aa138c05a3582cbcf021d99d0ad14,Update README.md,2015-03-28 14:23:02+01:00,False
+256cf8d6c32dbc95ed904e73d3f2c9253b636c30,Update README.md,2015-03-28 14:28:41+01:00,False
+f99a42e6490c0c588295279c1a96bfe2dd7d9366,"Update README.md
+
+Added examples",2015-03-29 15:26:33+02:00,False
+75df94f038e969d8a6431773f16de58463102c2b,Update README.md,2015-03-30 23:09:37+02:00,False
+c368f85f37c497f08a206daf3fdbe59b433fe9d0,Update README.md,2015-04-08 13:38:26+02:00,False
+51025d9534a87bb3cc837ce5b8c7a98a558d1b25,Update README.md,2015-04-08 13:39:29+02:00,False
+12c70896f094855397e1786a0f30cd49ad90af95,Update README.md,2015-04-10 16:05:35+05:18,False
+e07d94765fac830ea0f603495b995c6706a373cb,"Update README.md
+
+Fix #150",2015-08-13 16:22:49+02:00,False
+cd201fa59f1d38d595b58e5c5e8facf9e271c453,Removal of an LGPL Licence constraint,2015-09-16 13:40:32+02:00,False
+c959a5a0e6826787f2036e707a1459c16db437e5,Update README.md,2015-09-16 13:41:31+02:00,False
+fbbcfd0645f0c781a219f15f89f9034090164b80,Update README.md,2015-10-18 09:48:35-04:00,False
+c69ad18eb500e103dcc2ebeda2ce97b7d0ad13a6,updating the readme,2015-11-12 18:31:53-05:00,True
+da0ac46394610e632951b29a8fd91a1705dc3ae4,Update README.md,2015-11-12 18:32:38-05:00,True
+dcd485ff5dba5d9f820479937f7bba275d6de7ae,Update README.md,2015-12-05 18:30:33-05:00,False
+67a37c6cac98b1bf0ba5238492332da6eab77c41,Update README.md,2015-12-07 20:15:04-05:00,True
+f9266fb9d34a8a111ec1d712a33b39477403d508,Added modern screenshots. Corrected markdown syntax for improved compatibility.,2015-12-09 09:08:34+01:00,True
+743b87bb8ac3736581f3ea220d44a3580c3730b6,Update README.md,2015-12-16 22:41:35+01:00,False
+85e094a2b596a120cb3822f7a27522beafdb61bf,"Tweaked ReadMe.
+TravisCI only builds on new pushes?",2015-12-22 10:04:03+01:00,True
+4382ac81e20289c855338fd483c39ff3a2fe621a,Further testing of Travis,2015-12-22 10:29:11+01:00,False
+fb8a9d476468863e29ca8568223a715173545a64,adding travis build status image,2016-01-03 16:25:43-05:00,False
+acf5a4e68f1ea20c5ff4fe646b6d5772094c2b71,adding travis build status image,2016-01-03 16:26:30-05:00,False
+20749b69f89edd73da5b7ae184259b18906771a8,Revamped readme to be more concise.,2016-01-14 10:30:18+01:00,True
+f5e7488b4001f7c184e0c11bfe11e46b94321eb0,Update README.md,2016-01-16 21:22:23+01:00,False
+cfa77b3b11c1ffff9d2cb0cb5afcc1c550ebb4b0,Update README.md,2016-01-18 18:08:17-05:00,False
+e26ce87613c6a47a5225b5572b6e6c71894c8fd7,Update to version 5.1,2016-01-24 22:26:22+01:00,False
+65ec725021c4a6c4a176c2aa23dec01d841e7ae4,Remove reference to Google Code,2016-01-25 06:54:13+01:00,False
+287a213cba22531d2f4757f01fd3dac4de701775,preparing for merge to osmdroid,2016-01-25 10:16:32-05:00,False
+b503856bda435758a26fa34f0542f02548d74571,"NOJIRA, readme update, adding the maven central badge",2016-04-26 20:06:37-04:00,False
+271acdf07010c31054d5fae64c5b9d6ea0fa1372,Update readme to version 5.2,2016-04-29 07:21:48+02:00,False
+c2d0469bc39cef2908aece0716213d9c443775e9,Missed another reference that needs updating to 5.2,2016-04-29 07:23:16+02:00,False
+d01f3ea7cffea8fcc2a98ee5d0745be9a68650a2,Add a line break,2016-04-29 07:24:39+02:00,False
+f4d084b59db2b970019ba05e7391af2d96fb498f,#351 adding distribution package and readme updates,2016-07-10 00:03:27-04:00,True
+170a77d4324f6f03a017073e7bc93bad9c108d05,Update README.md,2016-08-15 18:00:59+02:00,False
+2cb50cc8319a4ad95307e9d165d4c48c08667bb4,#372 updating readme,2016-08-17 19:47:01-04:00,True
+2506c0fa7a1b32eb38c5853bf3ef521f415659a3,nojira readme update,2016-08-20 08:41:34-04:00,False
+ac5e9a947f480bc86b703e97ba228d80abe32f09,updating readme for the 5.4 release,2016-09-06 18:27:22-04:00,True
+224af0b3a8bc625401ba305203e87617d963de6e,nojira readme update,2016-09-08 21:17:21-04:00,False
+8b8f1b4f4474f532b26d60ab384da7aabcf7e3a8,readme update,2016-09-13 18:29:57-04:00,True
+013dff0aa9727a19cc9063a50389266012288234,readme adding playstore download link,2016-09-13 18:50:58-04:00,False
+d5d1e1621798345159b64a6e806daaf7e4f49e9f,readme adding playstore download link,2016-09-13 18:51:24-04:00,False
+4b1f4145bbd8f7bc66e218823551829cae7ddc2e,Use markdown,2016-09-14 14:11:52+02:00,False
+50178d67a79250efbb60a2b0af33cf0be45bd19b,adding contributing,2016-10-05 21:30:34-04:00,False
+fa4b619955f9c8bd0bfc5f344a408e6b55af123e,adding contributing,2016-10-05 22:03:27-04:00,False
+80f4616b218968d355362225803776299b75c535,Update version after release,2016-10-10 22:21:57+02:00,False
+9e6dc7a378d1ec953f1d472348f66b440236c890,api level (#447),2016-10-19 17:44:05-04:00,False
+3662f99dee162e80e282b224e5f5017526a3bdb6,"update README.md (#449)
+
+change url gradle-fury",2016-10-19 17:44:15-04:00,True
+47e54d61ddf3e05e482e7923b698260a53120726,Partial merge of PR #463,2016-12-11 09:21:28-05:00,False
+afbbed0b4c42a064c23629c355eeb3785bc910a5,prepare for 5.6 release,2016-12-12 18:44:30-05:00,False
+54cef7d53fc6091260e3c6729adc4470bfc808b2,"v5.6.1 republish due to strange sonatype to central error, no code changes from the previous version",2016-12-17 19:06:29-05:00,False
+343f660cf5f7fd69dbeec2ebc83c294cca75bc3f,readme updates,2016-12-22 18:57:36-05:00,True
+4c92aad9c73b3d1aec6119c45e19d17c3e26c48c,readme update,2016-12-28 21:42:24-05:00,False
+6fe2c1c8667a7adca3210cd801e8529b21def2f2,readme update,2017-01-15 10:35:37-05:00,False
+cd7525a28f582ff968e590782b6f114ecc7f211c,readme update,2017-01-15 10:36:14-05:00,False
+c6c36b2a8bc46a70a425fe7783c19a420a6cf9ee,prepare for next dev cycle,2017-01-16 12:58:29-05:00,False
+032d06e5bb757c4dc1696acc297ec1901916323a,prepare for next dev cycle,2017-02-04 20:09:00-05:00,False
+da7ed8ed6eac8bbd90084904ba00b86c115a3bf4,readme update,2017-07-01 15:57:29-04:00,False
+48dae4414dfdbcfcc5a324ffcb54b07931253357,"nojira, links to some youtube videos",2017-08-20 17:29:20-04:00,False
+006b24405f9f382863d9cd5c3bda7f50f2634bde,readme update,2017-12-16 10:08:54-05:00,True
+71def45c9c40d0bc7d367b3bd1373583b12da198,#824 readme update,2017-12-25 09:34:37-05:00,True
+eb387df42fbce3a9e32ce0654aeaa4a0dccc055d,readme,2018-01-06 08:23:49-05:00,True
+6e75e4a445028811daef78980faafd2b0e3d59cb,minor readme updates,2018-01-21 14:37:03-05:00,True
+c05cd4e9131a7a582b6b4a356b8b99a725c8bdce,prepare for next dev cycle,2018-02-17 09:18:27-05:00,False
+4ef81ae0d68bd3f062f4c763f9653300bc3ef2f1,prepare for release,2018-02-18 15:08:33-05:00,False
+a38f56f5d5880aec234a65e8ebbc1a7acf0c1783,Update README.md (#1021),2018-05-01 18:33:36-04:00,True
+03ddedf60729e95b3680adabe42ebefbb954c90a,readme,2018-07-16 16:42:57-04:00,True
+a16b390ecf7229f7eca7a3ddb18163e80c7f67fe,updating readme,2018-10-08 17:35:54-04:00,True
+ed6aed9a08602cdcfa12b15d48e0f12d348bd4e7,readme,2018-11-24 15:29:16-05:00,True
+027875216f1b1cd586a2e5b5a188a725e5c11678,readme update,2019-03-24 09:54:33-04:00,True
+74f2e9fc0d109b6f6615846672803e3d855c09d6,"NOJIRA readme updates. updates build tech to v28 which is now a requirement for play store
+NOJIRA disabling travis avd tests as its worthless now....
+#1406 possible fix",2019-09-28 11:53:08-04:00,True
+38d3189c8d8d05fe4db2b19979de770fcdef18ec,readme,2019-09-28 16:29:24-04:00,True
+173f55e479d1f27a4e4f8e2a7b073971dfd17fe7,next dev cycle,2019-11-24 18:11:25-05:00,True
+482f6c12249a03985decdef2840c1778f691a90f,readme update,2019-12-14 10:47:37-05:00,True
+5257331de3e23f110c93c6cdddda930fd34991db,release 6.1.6,2020-03-07 14:46:59-05:00,True
+f664d1c30337c968aa5ea4c9ec2e54c88d0c2f05,readme,2020-07-21 20:22:11-04:00,True
+b45ec914a94e1c912432436f3d5a1a13705fb5f3,readme,2020-07-26 13:36:16-04:00,True
+84f6a1169a2ed88846f4ee1afd2c43c1c438aa72,"Linking project overview dashboard to README (#1589)
+
+Adding a link to the README header. The linked dashboard describes overall repository structure. The goal is to help new developers explore project and understand architecture/dependencies. Direct link: https://sourcespy.com/github/osmdroidosmdroid/",2021-01-30 13:49:18-05:00,True
+272dbf5632859b639b3c13dd921ba126d830c651,NOJIRA readme,2021-01-30 14:42:55-05:00,True
+c189cb238ca3b6fb0f442e83c8ea4c184ec222bc,"Update README.md
+
+Fix a (very confusing) 404",2021-05-05 10:17:42-05:00,True
+65a52fa78204961e35f1838f4bd972c465a2537f,next cycle,2021-08-01 19:01:51-04:00,True
+0b84050b5fdd832fa8e37d59e8a9dac20cd55a18,"Feature/#1776 build tech upgrades/build process improvements (#1793)
+
+* Update gradle wrapper to 6.8.3
+
+* Remove incompatible build instructions
+
+* Replace deprecated findbugs with spotbugs
+
+* Remove jDepend, there is no close approximation replacement
+
+* Update left shift to be doLast
+
+* Add compileSdkVersion to projects
+
+* Update travis configuration to support more recent build tools
+
+* #1776 made some progress with the build tech update
+- dist zip is not hooked up
+- maven central publishing definitely needs to be redone, from scratch
+- mil-sym-android was on bintray but that is dead now, so if you attempt to build this branch, you'll check to check out and build that repo
+
+* #1776 javadocs are now generated from the aar (although a bit of a hack)
+
+* #1776 moves apk signing config to a new file
+updates 2525 renderer to a version that is on central
+
+* #1776 first successful test publish of snapshots and a release run (FOR AAR's ONLY)
+caveats, dependency declarations in the poms are done by parsing build.gradle files which is super risky considering the massive variations for writing them. exclusions aren't applied yet
+
+* #1776 all jar, war components are now published. Found a number of security issues identifed by sonatype lift when publishing thus the many dependency updates. At this point, i think it's good enough for PR and hopefully for some assistance to resolving the on device unit testing stuff that's broken and the one or two unit tests that stopped working and is now commented out. Wiki release procedure document needs to be updated as well
+
+* #1776 reverting previous disabled functions that failed for unknown reasons during the upgrades. seems to work ok now though
+
+* #1776 removing the old projects from version control, they have been incompatible for nearly 4 years now
+
+* #1776 no longer needed since we no longer have any closed source libraries
+
+* #1776 removing the quality plugin, none of the operations in there still work with the newer android stuff
+adding in  @hannesa2's github action scripts to ci osmdroid again
+
+* #1776 no longer needed submodule reference, updating ci build
+
+* #1776 borrowing more from fury, should resolve ci issues
+
+* #1776 borrowing more from fury, should resolve ci issues
+
+* #1776 borrowing more from fury, should resolve ci issues, got it this time
+
+* #1776 removing the checkstyle, qualty plugin was removed
+
+Co-authored-by: Al Sutton <al.sutton@alsutton.com>",2022-05-05 18:52:28-04:00,True
+32d2fdddffd27dd6eb363785bc3bbae297429b32,"more release prep, minor release script documentation updates",2022-05-14 10:33:03-04:00,True
+2cbf2805b488a1f0826c6507de94f850ecde8d46,prepare for release,2022-05-14 11:57:53-04:00,True
+c796c398c8333164658ef8ec0ac88e3dd614f0f7,next dev cycle,2022-08-22 19:44:10-04:00,True
+5cc6407fb6ce56b79586cc47b7a4f168895230f9,readme,2023-03-28 21:05:13-04:00,True
+d4dde39a02e37c93e5552b540949d8a4a3543b41,"change compile to implementation (#1880)
+
+compile is deprecated from new version of graddle",2023-03-31 18:33:10-04:00,True
+b835629098c5ff006973ef4628d10b2c08a2e559,next cycle,2023-03-31 19:43:21-04:00,True

@@ -1,0 +1,35 @@
+sha,message,date,result
+d3d03dcbd7b6138dde273df68b0ab0487d86be5a,Add basic README,2011-07-29 10:27:03+02:00,False
+3a66070b00301165d51ab6e5f0feac6b2b5c7a0c,More specific language about what information the guide offers.,2011-07-29 19:24:48-03:00,False
+7ae4fc0d30d484d525afb67ed8f8825e30a3fc55,Update readme,2013-05-03 08:44:14+02:00,False
+7cb10c2021278ca97cf120d42e9adde5f0f98c81,Update README.,2016-03-09 09:31:45+01:00,False
+fde71e27063ae759e83f41c6092868f474ecbb1d,Swtich master branch to 2.1.0-SNAPSHOT version.,2017-07-10 08:50:42+02:00,False
+37e5dfc058b28a4b188f1221f735d43f8ccd4414,Add Travis badge,2017-10-04 10:07:54+02:00,False
+4bf12cecea1cc7805672367b21ac682d6795d0f3,"Update readme version
+
+Signed-off-by: Scott M Stark <starksm64@gmail.com>",2020-04-16 23:03:16-05:00,False
+f2b3885b8cf8b599520df5b27a9a7a0dcac41624,"Link to the GitHub pages hosted TCK user guide
+
+Signed-off-by: Scott M Stark <starksm64@gmail.com>",2021-04-09 00:48:17-05:00,False
+e5e08e01d155c51b883a62e0c2ba6b90d4c15785,"Merge from master and get working with weld master
+
+Signed-off-by: Scott M Stark <starksm64@gmail.com>",2021-05-31 22:54:38-05:00,False
+7466007dda61f3d9e28b72ee66f6c0eafe5cb979,Document the current source layout,2021-07-28 14:07:40-05:00,False
+87865b2335239accdf76452da0b0434ad75a8306,Add README.adoc,2021-11-23 16:40:52+01:00,False
+e3d0858d6b6a9f4c3f4f625d3ced2cc581943e36,"Update for latest released and staged dependencies
+
+Signed-off-by: starksm64 <starksm64@gmail.com>",2021-12-10 22:48:41-06:00,False
+22d9a76199356b8da8827ed76f415ef1ff45f107,"Disable the tck-audit profile by default so that the org.jboss.test-a… (#388)
+
+* Disable the tck-audit profile by default so that the org.jboss.test-audit dependencies are not seen by default in the TCK test artifact dependencies.
+The build needs -DgenerateSource to run with this change
+* Update the action build set for tck-audit activation
+
+Signed-off-by: Scott M Stark <starksm64@gmail.com>",2022-06-21 09:55:39-05:00,True
+6af034d04522c18f0821f413456a844c8a63fee5,"update README.md to https://jakartaee.github.io/cdi-tck/
+
+Signed-off-by: Scott Marlow <smarlow@redhat.com>",2022-07-11 10:03:12+02:00,False
+e1925109757ae0fd1d8c45c477b34e75e0b135ce,"Revert ""Disable the tck-audit profile by default so that the org.jboss.test-a… (#388)""
+
+This reverts commit 22d9a76199356b8da8827ed76f415ef1ff45f107.",2022-07-11 13:36:53+02:00,True
+c45cb45852d21b62a704e5643a9613df0267ede3,Update README to preserve useful bits from reverted commit,2022-07-11 13:36:53+02:00,True

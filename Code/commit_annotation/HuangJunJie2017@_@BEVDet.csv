@@ -1,0 +1,2097 @@
+sha,message,date,result
+d1aac35d68a203955a32bca4635429f620fc08dd,Initial commit,2020-04-14 21:21:42+08:00,TRUE
+cd8d40795c0ea913da2b7dbf673ea0502cfaf4ff,Refactor docs,2020-06-21 00:25:44+08:00,TRUE
+140af75d571764107065e6c56254085b8a252bd2,Freeanchor,2020-06-28 18:21:52+08:00,FALSE
+1d005956a18b25640e9ff68cfe448c5de8bf7058,Update model zoo links and readme,2020-07-03 21:44:37+08:00,FALSE
+908f1882ee5853178bf002cb393a1fdd3e9107b1,Fix doc tweaks,2020-07-08 15:05:42+08:00,TRUE
+5d9682a27c4581d5724401873a62fa3019b53f4b,Update docstrings,2020-07-08 22:47:22+08:00,FALSE
+f0b23ecba69f24ea2f757cf413a0943853819780,"Update configs/pointpillars/hv_pointpillars_secfpn_sbn-all_4x8_2x_lyft-3d.py, configs/regnet/hv_pointpillars_regnet-400mf_secfpn_sbn-all_4x8_2x_lyft-3d.py, configs/_base_/datasets/lyft-3d.py files",2020-07-09 18:21:35+08:00,FALSE
+300832c7fa0254b876e44533e739d57d607afabe,Add Github Action,2020-07-09 23:49:01+08:00,FALSE
+f842ff96daeff8e4fb953a0688bfd47b3e651b97,"Refactor format configs (#14)
+
+* update build configs
+
+* Update model links
+
+* Update doc
+
+* Update install
+
+* clean workflow",2020-07-13 19:37:13+08:00,FALSE
+f0c164792206600bc197e0b5796b524a75879155,"Refactor readme (#17)
+
+* Refactor readme
+
+* Add links
+
+* Fix link error
+
+* add table caption
+
+* Refine readme
+
+* Add missing plus
+
+* Be specific of comparison",2020-07-14 08:52:03+08:00,FALSE
+6c63a6817dbbe8fdaaf44bbcf9a81cb2b68860d5,Clean citation and contact (#44),2020-07-27 19:22:50+08:00,FALSE
+dde4b02c18d7695bb23ad0eef3d14e006a52c0a1,"Fix all warnings in pt1.6 (#72)
+
+* Fix (torch.nonzero): Fix  warning of torch.nonzero and bug of nms_iou
+
+* Fix contiguous warning of tensor
+
+* Update CI with pt1.6
+
+* update build action
+
+* recover ci
+
+* Add force cuda
+
+* Use mmcv-full==1.0.5
+
+* Fix nonzero warning
+
+* Update CI config
+
+* update links
+
+* fix unit tests
+
+* fix unit tests
+
+* Lock pytorch version in CI
+
+* Lock pytorch version in CI
+
+* Lock pytorch version in CI
+
+* Try specify torchlink
+
+* Try specify torchlink
+
+* Only add 3.7 for CI
+
+* fix synctax error
+
+* Use 1.3.0
+
+* Use 1.3.0 and specify mmcv
+
+* give up 1.3
+
+* fix cublas issue
+
+* fix cublas issue",2020-09-01 17:54:12+08:00,FALSE
+b28cbf7125fa3646a1aefb15dcb5c9359c9e664d,"[Feature]: Support nuimages dataset and provide baseline models (#91)
+
+* [Feature]: support using nuimages for instance segmentation
+
+* Update performance and start benchmark
+
+* Change default path names
+
+* Update performance
+
+* Update mmcv version
+
+* Update model links
+
+* Update model links and fix unit tests
+
+* rephrase",2020-09-07 20:28:01+08:00,FALSE
+b684c1d53033d7decc03420efe0bc08ab17a517c,"[feature] add 3dssd benchmark (#104)
+
+* add h3d backbone
+
+* add h3d backbone
+
+* add h3dnet
+
+* modify scannet config
+
+* fix bugs for proposal refine
+
+* fix bugs for test backbone
+
+* add primitive head test
+
+* modify h3dhead
+
+* modify h3d head
+
+* update loss weight config
+
+* fix bugs for h3d head loss
+
+* modify h3d head get targets function
+
+* update h3dnet base config
+
+* modify weighted loss
+
+* Revert ""Merge branch 'h3d_u2' into 'master'""
+
+This reverts merge request !5
+
+* add readme.md
+
+* modify readme.md
+
+* Update README.md
+
+* Add experiment details
+
+* Update README
+
+* update readme
+
+* reformat
+
+* Update information in model zoo
+
+Co-authored-by: zhangwenwei <wayne.zw@outlook.com>",2020-09-18 11:59:15+08:00,FALSE
+579b0799da2357ce075b02b7271c9fdf27a5abf6,"Bump to V0.6.0 (#118)
+
+* Add gitlab CI back
+
+* clean isort
+
+* Update gitlab CI version
+
+* Update mmcv install
+
+* fix unit test bug
+
+* waymo
+
+* Use new flake8
+
+* Update mmdet3d/core/evaluation/waymo_utils/prediction_kitti_to_waymo.py, tools/data_converter/waymo_converter.py files
+
+* Add baseline configs for waymo
+
+* fix linting
+
+* yapf reformat
+
+* update waymo results
+
+* Update waymo model zoo and docs
+
+* Bump v0.6.0
+
+* Fix a minor bug when converting waymo data
+
+* Fix cmds in the waymo doc
+
+* Fix setup.cfg to pass isort test
+
+* Fix waymo configs
+
+* Update model zoo link & doc
+
+* update version date
+
+* clean ci
+
+Co-authored-by: wangtai <wangtai@sensetime.com>
+Co-authored-by: Tai-Wang <tab_wang@outlook.com>",2020-09-20 21:04:09+08:00,FALSE
+1cd50481e972b69b3d3d3cb4f4ada21a88edd338,Update version file (#119),2020-09-20 21:11:43+08:00,FALSE
+0369fa50ae7f67c629f35bb085e59ba5e0e5ef17,"[Enhance] Doc update related to waymo (#128)
+
+* Update docs and add hints for waymo
+
+* Change the title of waymo tutorial
+
+* Move waymo into the tutorial part
+
+* Delete original waymo.md
+
+* Update waymo.md
+
+* Update index.rst
+
+* Update get_started in readme.md
+
+* reorganize docs
+
+Co-authored-by: zhangwenwei <wayne.zw@outlook.com>",2020-09-24 11:29:40+08:00,TRUE
+f05828b01a487bce979e13dc59dfc21bc445fce0,"Bump to v0.6.1 (#161)
+
+* Update v0.6.1 change log
+
+* Update version.py
+
+* Update init file to be compatible with mmdet
+
+* Changelog refinement
+
+* Sync modification in New Features
+
+* Sync modification in Highlights
+
+* Changelog refinement
+
+* Update README.md for v0.6.1
+
+* Update a newest [fix] PR",2020-10-11 18:00:18+08:00,FALSE
+e813610f79f85b532ed9b2ccc7a814a59c2991f7,"[Feature] SSN benchmark on Lyft (#174)
+
+* Add ssn config on Lyft
+
+* Update readme of pointpillars
+
+* Update SSN readme
+
+* Update model_zoo.md
+
+* Update README.md
+
+* Fix a minor typo in the nus regnet config
+
+* Update README.md",2020-10-21 16:57:51+08:00,FALSE
+9fef99cc935c75a684e5768d170f3a4594ab7c83,"[Enhance] SSN benchmark on nuScenes (#182)
+
+* Add ssn benchmark on nuscenes
+
+* Update preliminary nuscenes results
+
+* Update model_zoo.md
+
+* RegNetX-SSN updated
+
+* Add ssn regnet benchmark on Lyft
+
+* RegNetX-SSN on Lyft updated
+
+* Modify the batch size in the ssn regnet config name
+
+* Memory of RegNetX-SSN on Lyft updated
+
+* Model and log links updated
+
+* Model and log links updated",2020-10-30 16:19:07+08:00,FALSE
+ad5fbf5941c44ac70bffad4ba1999ecbd3f8d1bb,"Bump to v0.7.0 (#186)
+
+* Update README.md
+
+* Update __init__.py
+
+* Update changelog.md
+
+* Update changelog.md
+
+* Fix a minor typo
+
+* Fix minor typos
+
+* Update changelog.md",2020-11-01 17:16:31+08:00,FALSE
+b54cd1695af81484264d1069c74e24814e730b9a,"Bump to v0.8.0 (#209)
+
+* Update changelog for v0.8.0
+
+* Update README.md
+
+* Update version.py",2020-11-30 20:46:50+08:00,FALSE
+d006848769d8c4e0334cd1c8a5717682aae6798b,"Bump to v0.9.0 (#252)
+
+* Update README.md
+
+* Update version.py
+
+* Update getting_started.md
+
+* Update __init__.py
+
+* Update changelog.md
+
+* Update README.md
+
+* Update news for nuScenes detection challenge
+
+* Update README to be compatible with refactored doc
+
+* Update an installation subtitle
+
+* rephrase
+
+Co-authored-by: ZwwWayne <wayne.zw@outlook.com>",2021-01-04 10:43:34+08:00,TRUE
+c2261db081b32900e99240bc5d0591d89f81843d,"Add nuImages entry in README.md (#266)
+
+* add nuimages entry in readme
+
+* rephrase",2021-01-14 11:49:58+08:00,FALSE
+1b39a483263825ac5a3e57fdf07d380adb7aa16d,"Bump to v0.10.0 (#291)
+
+* Update README.md
+
+* Update getting_started.md
+
+* Update version.py
+
+* Update changelog.md
+
+* Update numpy requirements
+
+* Update runtime.txt
+
+* Merge minor items
+
+* Add support for SemanticKITTI dataset",2021-02-01 15:45:05+08:00,FALSE
+a347ac75dfcc4767909bc9185c111448f526c3da,"[Enhance] Modify readme (#310)
+
+* Modify README
+
+* modify the mmdetection to mmdetection3d in CONTRIBUTING.md and add model zoo link before demo in getting_started.md
+
+* arxiv->Arxiv
+
+* Add model zoo link",2021-02-21 20:41:11+08:00,FALSE
+7b947e041fa2fa0ab342e4848b2b7f2de8387a53,"[Enhance] Add chinese version readme (#316)
+
+* Add chinese version readme
+
+* Delete useless words
+
+* modify the link of dynamic voxelization
+
+* modify readme
+
+* remove it
+
+* remove it
+
+* modify chinese version readme
+
+* delete the wrong whitespace
+
+* Modify chinese readme
+
+* Modify chinese readme
+
+* modify chinese version readme",2021-02-24 14:23:36+08:00,TRUE
+e3662725b6e44fc5343ecfeadbdc87a324824513,"Bump to v0.11.0 (#324)
+
+* Update README.md
+
+* Update README_zh-CN.md
+
+* Update getting_started.md
+
+* Update version.py
+
+* Update changelog.md
+
+* Update changelog.md
+
+* Update changelog.md",2021-03-02 21:53:46+08:00,FALSE
+f0ba0ce2903a880f5de46afd6c7559f801965bcf,"Update Bibtex (#368)
+
+* Update README.md
+
+* Update README_zh-CN.md
+
+* Update README.md",2021-03-20 15:22:53+08:00,FALSE
+28828eef884326372beadc876858ecffd4feaaa0,"[Enhance] add citation format  (#374)
+
+* add citation format
+
+* add CN version citation format
+
+* delete 's
+
+* delete 's
+
+* modify citation title",2021-03-22 16:44:52+08:00,FALSE
+391a56b6af48f5056a769c4cd18dfac2a67c6c06,"[Feature] Add ImVoteNet model zoo (#384)
+
+* add model zoo
+
+* change bibtex and more doc",2021-03-26 22:03:23+08:00,FALSE
+dabf0a2614fb9c353577c1437065fc523fa47495,"[Fix] Fix typos and errors (#386)
+
+* fix link to convert_votenet_checkpoints.py
+
+* remove redundant space in docstring
+
+* fix typos
+
+* fix link and latex citation in README
+
+* fix link error for publish_model.py
+
+* fix link error for regnet2mmdet.py
+
+* fix link error for files under tools/misc/ folder
+
+* fix link error for files under tools/analysis_tools/ folder
+
+* fix latex citation in README_zh-CN.md
+
+* fix typo and a link to mmdet",2021-03-28 22:23:26+08:00,FALSE
+e38131857b0ee7e20a15e890b3ca6d80c42d80a1,"Bump to v0.12.0 (#397)
+
+* Update README.md
+
+* Update README_zh-CN.md
+
+* Update getting_started.md
+
+* Update changelog.md
+
+* Change pdf to abs link and revise the highlights",2021-04-02 17:22:00+08:00,FALSE
+e1682ff626bf6565c911776f51b89c059a45e7b4,"[Enhance] Fix tags & Add MMGen to README & Add QR codes (#477)
+
+* add QR code & add MMGen
+
+* modify tag to comment
+
+* update re-expression",2021-04-23 13:37:01+08:00,FALSE
+43f5f42759b4226919761b635489ba2abd1b0ff9,"[Fix] Typos in .gitignore & error in customize_runtime docs (#497)
+
+* typos in gitignore
+
+* modify customize_runtime docs
+
+* update MMGen description
+
+* replace mmdet with mmdet3d
+
+* add MMOCR",2021-04-28 17:10:51+08:00,FALSE
+e9d84fe592a0251935b4ff14a892acabb3cf6aa3,[Feature] FCOS3D benchmark on nuScenes (#482),2021-04-30 18:58:39+08:00,FALSE
+b255d16b9f8a19a8f1065a1ae6c88fd2a03dc325,"Bump to v0.13.0 (#509)
+
+* Bump to v0.13.0
+
+* modify version.py and be more specific in changelog.md
+
+* space before brackets
+
+* specific pytorch 1.8 issue
+
+* version in getting_started.md
+
+* fix bugs
+
+* add few bugfix
+
+* Update changelog.md
+
+* Update changelog.md
+
+* Update getting_started.md
+
+* Adjust the orders of bug fixes
+
+* Update getting_started.md
+
+* Update changelog.md
+
+Co-authored-by: twang <30491025+Tai-Wang@users.noreply.github.com>",2021-04-30 22:32:43+08:00,FALSE
+705487828ec5605721b93697c3d6b60d8a5bc9a0,"[Doc] Add compatibility doc based on #470 (#504)
+
+* Add compatibility doc based on #470
+
+* Update zh-CN readme
+
+* add VoteNet ckpt conversion and fix relative path
+
+* fix another relative path under docs folder
+
+* fix typo
+
+* beautify docs and change order in compat doc",2021-05-10 12:09:51+08:00,TRUE
+7f3a16a3e30267d90aa911e5714686b7112da0a6,"[Enhance] Benchmark PN++ on ScanNet and S3DIS (#541)
+
+* add configs for pn2 on s3dis
+
+* fix bugs
+
+* add README for PN2 segmentor
+
+* update configs file after experiments
+
+* update README
+
+* add base schedule files for seg configs
+
+* rename pn2_seg config files
+
+* update pn2 links in README
+
+* add metafile for pn2",2021-05-18 23:44:30+08:00,FALSE
+fe570be78dacedf25ad98c486d833d810350270d,"Bump to v0.14.0 (#606)
+
+* Bump to v0.14.0
+
+* remove the parameter label_weight",2021-06-01 14:45:29+08:00,FALSE
+1f79fc7b150f1a4b1d6cbb104ca5152b4c708d51,"Bump to v0.15.0 (#692)
+
+* Bump to v0.15.0
+
+* fix typo, specific bugfix, install version
+
+* fix LoadMultiViewImageFromFiles
+
+* compatibility about mmcv version",2021-07-02 16:18:29+08:00,FALSE
+a1e04538295b02d42fc59bb7ed58c59c98220174,Change waymo link in `readme`. (#701),2021-07-06 15:39:39+08:00,TRUE
+2f95eb70fae90a5edc0d81e4f20fbfdcf324242f,release groupfree3d models on scannet (#710),2021-07-12 13:19:21+08:00,FALSE
+77964873d81a0eda0d5c4f551df2ba09198db408,"[Enhance] Support mim (#782)
+
+* support mim
+
+* remove ops
+
+* add ops info into MANIFEST.in
+
+* remove demo in when creating .mim
+
+* refine setup.py",2021-07-28 16:36:20+08:00,FALSE
+5258fe9a7baad4fd022537eb0be3a47f109f7272,"[Enhance] Benchmark PAConv on S3DIS dataset (#809)
+
+* add cfg
+
+* add eps format
+
+* update README
+
+* update model zoo
+
+* add paconv readme
+
+* add metafile
+
+* hack drop_ratio
+
+* use base schedule cfg
+
+* remove paconv cuda
+
+* monor fix
+
+* remove paconv cuda config related
+
+* update paconv benchmark
+
+* update model link",2021-07-31 14:13:55+08:00,FALSE
+a876a472b6906c1c3189fc9865568149139a75aa,"Bump to v0.16.0 (#810)
+
+* Update README.md
+
+* Update README_zh-CN.md
+
+* Update getting_started.md
+
+* Update getting_started.md
+
+* Update version.py
+
+* Update changelog.md
+
+* Update changelog.md
+
+* Update changelog.md
+
+* Update changelog.md",2021-08-03 14:07:05+08:00,FALSE
+5363189ce3709e6e1390b05ae74d8e6c1bbb5cc8,"Bump to v0.17.0 (#898)
+
+* Update README.md
+
+* Update README_zh-CN.md
+
+* Update version.py
+
+* Update getting_started.md
+
+* Update getting_started.md
+
+* Update changelog.md
+
+* Remove ""recent"" in the news
+
+* Remove ""recent"" in the news
+
+* Fix comments",2021-09-01 22:12:04+08:00,FALSE
+720caedf4885f90de44b753fe2d32579dd45635b,"[Feature] Support DGCNN (v1.0.0.dev0) (#896)
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* fix typo
+
+* fix typo
+
+* fix typo
+
+* del gf&fa registry (wo reuse pointnet module)
+
+* fix typo
+
+* add benchmark and add copyright header (for DGCNN only)
+
+* fix typo
+
+* fix typo
+
+* fix typo
+
+* fix typo
+
+* fix typo
+
+* support dgcnn",2021-09-24 16:52:35+08:00,FALSE
+f1107977dfd26155fc1f83779ee6535d2468f449,"Bump to v0.17.1 (#978)
+
+* Update version.py
+
+* Update getting_started.md
+
+* Update getting_started.md
+
+* Update README.md
+
+* Update README_zh-CN.md
+
+* Update README_zh-CN.md
+
+* Update README.md
+
+* Update changelog.md
+
+* Refine v1.0.0.dev0 notes
+
+* Refine v1.0.0.dev0 notes
+
+* Refine v1.0.0 notes (chinese readme)
+
+* Refine some expressions",2021-10-08 16:07:15+08:00,FALSE
+180ad0426cd8f7b58c321c0823fcdf1a805c4756,"Update Group-Free-3D and FCOS3D bibtex (#985)
+
+* Update bibtex
+
+* Update bibtex in the README
+
+* Update bibtex in the Chinese README
+
+* Update Group-Free-3D bibtex
+
+* Fix to be compatible with bibtex grammer",2021-10-08 17:09:54+08:00,FALSE
+6b1602f1904861e392c3c92009f0efa596bc7880,"[Feature] Add SMOKE benchmark (#988)
+
+* add metafile and readme
+
+* fix typos
+
+* refine some typos
+
+* fix some typos
+
+* add smoke in readme and model-zoo
+
+* change dlanet to dla
+
+* change dlanet to dla in metafile",2021-10-11 14:12:17+08:00,FALSE
+fc514fdc1418c5d404c202f0c3dba557330ddc62,"[Feature] PGD Benchmark on KITTI (#1014)
+
+* [Refactor] Main code modification for coordinate system refactor (#677)
+
+* [Enhance] Add script for data update (#774)
+
+* Fixed wrong config paths and fixed a bug in test
+
+* Fixed metafile
+
+* Coord sys refactor (main code)
+
+* Update test_waymo_dataset.py
+
+* Manually resolve conflict
+
+* Removed unused lines and fixed imports
+
+* remove coord2box and box2coord
+
+* update dir_limit_offset
+
+* Some minor improvements
+
+* Removed some \s in comments
+
+* Revert a change
+
+* Change Box3DMode to Coord3DMode where points are converted
+
+* Fix points_in_bbox function
+
+* Fix Imvoxelnet config
+
+* Revert adding a line
+
+* Fix rotation bug when batch size is 0
+
+* Keep sign of dir_scores as before
+
+* Fix several comments
+
+* Add a comment
+
+* Fix docstring
+
+* Add data update scripts
+
+* Fix comments
+
+* fix import (#839)
+
+* [Enhance]  refactor  iou_neg_piecewise_sampler.py (#842)
+
+* [Refactor] Main code modification for coordinate system refactor (#677)
+
+* [Enhance] Add script for data update (#774)
+
+* Fixed wrong config paths and fixed a bug in test
+
+* Fixed metafile
+
+* Coord sys refactor (main code)
+
+* Update test_waymo_dataset.py
+
+* Manually resolve conflict
+
+* Removed unused lines and fixed imports
+
+* remove coord2box and box2coord
+
+* update dir_limit_offset
+
+* Some minor improvements
+
+* Removed some \s in comments
+
+* Revert a change
+
+* Change Box3DMode to Coord3DMode where points are converted
+
+* Fix points_in_bbox function
+
+* Fix Imvoxelnet config
+
+* Revert adding a line
+
+* Fix rotation bug when batch size is 0
+
+* Keep sign of dir_scores as before
+
+* Fix several comments
+
+* Add a comment
+
+* Fix docstring
+
+* Add data update scripts
+
+* Fix comments
+
+* fix import
+
+* refactor iou_neg_piecewise_sampler.py
+
+* add docstring
+
+* modify docstring
+
+Co-authored-by: Yezhen Cong <52420115+THU17cyz@users.noreply.github.com>
+Co-authored-by: THU17cyz <congyezhen71@hotmail.com>
+
+* [Feature] Add roipooling cuda ops (#843)
+
+* [Refactor] Main code modification for coordinate system refactor (#677)
+
+* [Enhance] Add script for data update (#774)
+
+* Fixed wrong config paths and fixed a bug in test
+
+* Fixed metafile
+
+* Coord sys refactor (main code)
+
+* Update test_waymo_dataset.py
+
+* Manually resolve conflict
+
+* Removed unused lines and fixed imports
+
+* remove coord2box and box2coord
+
+* update dir_limit_offset
+
+* Some minor improvements
+
+* Removed some \s in comments
+
+* Revert a change
+
+* Change Box3DMode to Coord3DMode where points are converted
+
+* Fix points_in_bbox function
+
+* Fix Imvoxelnet config
+
+* Revert adding a line
+
+* Fix rotation bug when batch size is 0
+
+* Keep sign of dir_scores as before
+
+* Fix several comments
+
+* Add a comment
+
+* Fix docstring
+
+* Add data update scripts
+
+* Fix comments
+
+* fix import
+
+* add roipooling cuda ops
+
+* add roi extractor
+
+* add test_roi_extractor unittest
+
+* Modify setup.py to install roipooling ops
+
+* modify docstring
+
+* remove enlarge bbox in roipoint pooling
+
+* add_roipooling_ops
+
+* modify docstring
+
+Co-authored-by: Yezhen Cong <52420115+THU17cyz@users.noreply.github.com>
+Co-authored-by: THU17cyz <congyezhen71@hotmail.com>
+
+* [Refactor] Refactor code structure and docstrings (#803)
+
+* refactor points_in_boxes
+
+* Merge same functions of three boxes
+
+* More docstring fixes and unify x/y/z size
+
+* Add ""optional"" and fix ""Default""
+
+* Add ""optional"" and fix ""Default""
+
+* Add ""optional"" and fix ""Default""
+
+* Add ""optional"" and fix ""Default""
+
+* Add ""optional"" and fix ""Default""
+
+* Remove None in function param type
+
+* Fix unittest
+
+* Add comments for NMS functions
+
+* Merge methods of Points
+
+* Add unittest
+
+* Add optional and default value
+
+* Fix box conversion and add unittest
+
+* Fix comments
+
+* Add unit test
+
+* Indent
+
+* Fix CI
+
+* Remove useless \\
+
+* Remove useless \\
+
+* Remove useless \\
+
+* Remove useless \\
+
+* Remove useless \\
+
+* Add unit test for box bev
+
+* More unit tests and refine docstrings in box_np_ops
+
+* Fix comment
+
+* Add deprecation warning
+
+* [Feature] PointXYZWHLRBBoxCoder (#856)
+
+* support PointBasedBoxCoder
+
+* fix unittest bug
+
+* support unittest in gpu
+
+* support unittest in gpu
+
+* modified docstring
+
+* add args
+
+* add args
+
+* [Enhance] Change Groupfree3D config (#855)
+
+* All mods
+
+* PointSample
+
+* PointSample
+
+* [Doc] Add tutorials/data_pipeline Chinese version (#827)
+
+* [Doc] Add tutorials/data_pipeline Chinese version
+
+* refine doc
+
+* Use the absolute link
+
+* Use the absolute link
+
+Co-authored-by: Tai-Wang <tab_wang@outlook.com>
+
+* [Doc] Add Chinese doc for `scannet_det.md` (#836)
+
+* Part
+
+* Complete
+
+* Fix comments
+
+* Fix comments
+
+* [Doc] Add Chinese doc for `waymo_det.md` (#859)
+
+* Add complete translation
+
+* Refinements
+
+* Fix comments
+
+* Fix a minor typo
+
+Co-authored-by: Tai-Wang <tab_wang@outlook.com>
+
+* Remove 2D annotations on Lyft (#867)
+
+* Add header for files (#869)
+
+* Add header for files
+
+* Add header for files
+
+* Add header for files
+
+* Add header for files
+
+* [fix] fix typos (#872)
+
+* Fix 3 unworking configs (#882)
+
+* [Fix] Fix `index.rst` for Chinese docs (#873)
+
+* Fix index.rst for zh docs
+
+* Change switch language
+
+* [Fix] Centerpoint head nested list transpose  (#879)
+
+* FIX Transpose nested lists without Numpy
+
+* Removed unused Numpy import
+
+* [Enhance] Update PointFusion (#791)
+
+* update point fusion
+
+* remove LIDAR hardcode
+
+* move get_proj_mat_by_coord_type to utils
+
+* fix lint
+
+* remove todo
+
+* fix lint
+
+* [Doc] Add nuscenes_det.md Chinese version (#854)
+
+* add nus chinese doc
+
+* add nuScenes Chinese doc
+
+* fix typo
+
+* fix typo
+
+* fix typo
+
+* fix typo
+
+* fix typo
+
+* [Fix] Fix RegNet pretrained weight loading (#889)
+
+* Fix regnet pretrained weight loading
+
+* Remove unused file
+
+* Fix centerpoint tta (#892)
+
+* [Enhance] Add benchmark regression script (#808)
+
+* Initial commit
+
+* [Feature] Support DGCNN (v1.0.0.dev0) (#896)
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* fix typo
+
+* fix typo
+
+* fix typo
+
+* del gf&fa registry (wo reuse pointnet module)
+
+* fix typo
+
+* add benchmark and add copyright header (for DGCNN only)
+
+* fix typo
+
+* fix typo
+
+* fix typo
+
+* fix typo
+
+* fix typo
+
+* support dgcnn
+
+* Change cam rot_3d_in_axis (#906)
+
+* [Doc] Add coord sys tutorial pic and change links to dev branch (#912)
+
+* Modify link branch and add pic
+
+* Fix pic
+
+* [Feature] add kitti AP40 evaluation metric (v1.0.0.dev0) (#927)
+
+* Add citation (#901)
+
+* [Feature] Add python3.9 in CI (#900)
+
+* Add python3.0 in CI
+
+* Add python3.0 in CI
+
+* Bump to v0.17.0 (#898)
+
+* Update README.md
+
+* Update README_zh-CN.md
+
+* Update version.py
+
+* Update getting_started.md
+
+* Update getting_started.md
+
+* Update changelog.md
+
+* Remove ""recent"" in the news
+
+* Remove ""recent"" in the news
+
+* Fix comments
+
+* [Docs] Fix the version of sphinx (#902)
+
+* Fix sphinx version
+
+* Fix sphinx version
+
+* Fix sphinx version
+
+* Fix sphinx version
+
+* Fix sphinx version
+
+* Fix sphinx version
+
+* Fix sphinx version
+
+* Fix sphinx version
+
+* Fix sphinx version
+
+* Fix sphinx version
+
+* Fix sphinx version
+
+* Fix sphinx version
+
+* add AP40
+
+* add unitest
+
+* add unitest
+
+* seperate AP11 and AP40
+
+* fix some typos
+
+Co-authored-by: dingchang <hudingchang.vendor@sensetime.com>
+Co-authored-by: Tai-Wang <tab_wang@outlook.com>
+
+* [Feature] add smoke backbone neck (#939)
+
+* add smoke detecotor and it's backbone and neck
+
+* typo fix
+
+* fix typo
+
+* add docstring
+
+* fix typo
+
+* fix comments
+
+* fix comments
+
+* fix comments
+
+* fix typo
+
+* fix typo
+
+* fix
+
+* fix typo
+
+* fix docstring
+
+* refine feature
+
+* fix typo
+
+* use Basemodule in Neck
+
+* [Refactor] Refactor the transformation from image to camera coordinates (#938)
+
+* Refactor points_img2cam
+
+* Refine docstring
+
+* Support array converter and add unit tests
+
+* [Feature] FCOS3D BBox Coder (#940)
+
+* FCOS3D BBox Coder
+
+* Add unit tests
+
+* Change the value from long to float/double
+
+* Rename bbox_out as bbox
+
+* Add comments to forward returns
+
+* Support PGD BBox Coder
+
+* Refine docstring
+
+* Add uncertain l1 loss and its unit tests
+
+* [Feature] PGD BBox Coder (#948)
+
+* Support PGD BBox Coder
+
+* Refine docstring
+
+* PGD Head initialized
+
+* Refactor init methods, fix legacy variable names
+
+* [Feature] Support Uncertain L1 Loss (#950)
+
+* Add uncertain l1 loss and its unit tests
+
+* Remove mmcv.jit and refine docstrings
+
+* [Fix] Fix visualization in KITTI dataset (#956)
+
+* fix bug to support kitti vis
+
+* fix
+
+* Refine variable names and docstrings
+
+* Add unit tests and fix some minor bugs
+
+* Refine assertion messages
+
+* Fix typo in the docs_zh-CN
+
+* Use Pretrain init and remove unused init_cfg in FCOS3D
+
+* Fix the comments for the input_modality in the dataset config
+
+* Fix minor bugs in pgd_bbox_coder and incorrect setting for uncertain loss, use original init
+
+* Add explanations for code_weights
+
+* Add PGD README
+
+* Adjust the unit test for pgd bbox coder
+
+* Remove unused codes
+
+* Add mono3d metric into the gather_models and fix bugs
+
+* Update README.md
+
+* Update links
+
+* Update links
+
+* Involve the value assignment of loss_dict into the computing procedure
+
+* Fix incorrect loss_depth
+
+* Update README.md
+
+* Update README_zh-CN.md
+
+* Update PGD in the model_zoo.md
+
+* Update PGD in the model_zoo.md
+
+* Update metafiles
+
+Co-authored-by: Yezhen Cong <52420115+THU17cyz@users.noreply.github.com>
+Co-authored-by: Xi Liu <75658786+xiliu8006@users.noreply.github.com>
+Co-authored-by: THU17cyz <congyezhen71@hotmail.com>
+Co-authored-by: Wenhao Wu <79644370+wHao-Wu@users.noreply.github.com>
+Co-authored-by: dingchang <hudingchang.vendor@sensetime.com>
+Co-authored-by: 谢恩泽 <Johnny_ez@163.com>
+Co-authored-by: Robin Karlsson <34254153+robin-karlsson0@users.noreply.github.com>
+Co-authored-by: Danila Rukhovich <danrukh@gmail.com>
+Co-authored-by: ChaimZhu <zhuchenming@pjlab.org.cn>",2021-11-01 11:11:00+08:00,FALSE
+99ad831a8b04a7f5622c366d8e60745f92a62008,"Bump to v0.17.2 (#1021)
+
+* Update getting_started.md
+
+* Update getting_started.md
+
+* Update version.py
+
+* Update README_zh-CN.md
+
+* Update README.md
+
+* Update changelog.md
+
+* Fix a typo",2021-11-01 11:12:22+08:00,FALSE
+c06c0189a5fe343722722659c9e72230b8283f07,update_readme (#1067),2021-11-24 17:29:25+08:00,FALSE
+5f1366cef0b8d82269f762ada3d23a67205077b5,add fewshot in readme.md (#1085),2021-12-01 22:37:35+08:00,FALSE
+f95d1e53e417c5b8e9c08d32018fb72710c086cc,add mmhuman3d in readme (#1094),2021-12-03 16:33:30+08:00,FALSE
+c01715c70d49b44bbf75c4b79ef3cc693b2d291d,fix mmhuman3d reference (#1100),2021-12-06 16:56:48+08:00,FALSE
+940e429438b535a09466dc330849f33b230d183b,"Bump to v0.17.3 (#1083)
+
+* Update version.py
+
+* Update getting_started.md
+
+* Update getting_started.md
+
+* Update README.md
+
+* Update README.md
+
+* Update README_zh-CN.md
+
+* Update changelog.md
+
+* Update changelog.md
+
+* Update getting_started.md
+
+* Update getting_started.md
+
+* Update the upper bound of mmcv version
+
+* Update the upper bound of mmcv version
+
+* Update the upper bound of mmcv version
+
+* Update the PR number
+
+* Remove the PGD docker PR (merged into v1.0.0.dev0)",2021-12-06 22:19:12+08:00,FALSE
+13f002d75330c80dfedbdc792cf4f9d72735609f,"[Fix] Fix docs link (#1121)
+
+* [Fix] Fix docs link
+
+* Fix English doc conf link
+
+Co-authored-by: Tai-Wang <tab_wang@outlook.com>",2021-12-21 18:01:08+08:00,TRUE
+d2b93f61e80566c08ac017d9db4d518ce3b9c4f2,"[Enhance] add mmrazor, mmselfsup and mmdeploy in readme (#1145)
+
+* add mmrazor and mmselfsup in readme
+
+* add mmdeploy
+
+* update mm_deploy description",2021-12-30 17:34:29+08:00,FALSE
+6e1e5d1a06cbe2f1db5a2502f1e76a522b9e9c92,"Bump to v0.18.0 (#1148)
+
+* Update README & getting_started & changelog & version.py
+
+* resolve comments
+
+* Update the required maximum version of mmcv-full
+
+* Update changelog.md
+
+* Update getting_started.md
+
+* Add highlight in changelog.md",2022-01-06 00:24:51+08:00,FALSE
+292eb31d84d39ee0037447ef90c5ee6398d54248,update imvoxelnet citation (#1153),2022-01-06 00:28:53+08:00,FALSE
+f3a907e546fc02b8b59e89e599640717560f3569,add OpenMMLab website and platform links (#1176),2022-01-17 16:03:28+08:00,FALSE
+f45977008a52baaf97640a0e9b2bbe5ea1c4be34,"Bump to v0.18.1 (#1218)
+
+* bump to v0.18.1
+
+* fix comments",2022-02-09 17:06:15+08:00,FALSE
+b420cd1d7a7fc0a6d94030fd36e2eae75d13a261,"Bump to v1.0.0.rc0 (#928)
+
+* [Refactor] Main code modification for coordinate system refactor (#677)
+
+* [Enhance] Add script for data update (#774)
+
+* Fixed wrong config paths and fixed a bug in test
+
+* Fixed metafile
+
+* Coord sys refactor (main code)
+
+* Update test_waymo_dataset.py
+
+* Manually resolve conflict
+
+* Removed unused lines and fixed imports
+
+* remove coord2box and box2coord
+
+* update dir_limit_offset
+
+* Some minor improvements
+
+* Removed some \s in comments
+
+* Revert a change
+
+* Change Box3DMode to Coord3DMode where points are converted
+
+* Fix points_in_bbox function
+
+* Fix Imvoxelnet config
+
+* Revert adding a line
+
+* Fix rotation bug when batch size is 0
+
+* Keep sign of dir_scores as before
+
+* Fix several comments
+
+* Add a comment
+
+* Fix docstring
+
+* Add data update scripts
+
+* Fix comments
+
+* fix import (#839)
+
+* [Enhance]  refactor  iou_neg_piecewise_sampler.py (#842)
+
+* [Refactor] Main code modification for coordinate system refactor (#677)
+
+* [Enhance] Add script for data update (#774)
+
+* Fixed wrong config paths and fixed a bug in test
+
+* Fixed metafile
+
+* Coord sys refactor (main code)
+
+* Update test_waymo_dataset.py
+
+* Manually resolve conflict
+
+* Removed unused lines and fixed imports
+
+* remove coord2box and box2coord
+
+* update dir_limit_offset
+
+* Some minor improvements
+
+* Removed some \s in comments
+
+* Revert a change
+
+* Change Box3DMode to Coord3DMode where points are converted
+
+* Fix points_in_bbox function
+
+* Fix Imvoxelnet config
+
+* Revert adding a line
+
+* Fix rotation bug when batch size is 0
+
+* Keep sign of dir_scores as before
+
+* Fix several comments
+
+* Add a comment
+
+* Fix docstring
+
+* Add data update scripts
+
+* Fix comments
+
+* fix import
+
+* refactor iou_neg_piecewise_sampler.py
+
+* add docstring
+
+* modify docstring
+
+Co-authored-by: Yezhen Cong <52420115+THU17cyz@users.noreply.github.com>
+Co-authored-by: THU17cyz <congyezhen71@hotmail.com>
+
+* [Feature] Add roipooling cuda ops (#843)
+
+* [Refactor] Main code modification for coordinate system refactor (#677)
+
+* [Enhance] Add script for data update (#774)
+
+* Fixed wrong config paths and fixed a bug in test
+
+* Fixed metafile
+
+* Coord sys refactor (main code)
+
+* Update test_waymo_dataset.py
+
+* Manually resolve conflict
+
+* Removed unused lines and fixed imports
+
+* remove coord2box and box2coord
+
+* update dir_limit_offset
+
+* Some minor improvements
+
+* Removed some \s in comments
+
+* Revert a change
+
+* Change Box3DMode to Coord3DMode where points are converted
+
+* Fix points_in_bbox function
+
+* Fix Imvoxelnet config
+
+* Revert adding a line
+
+* Fix rotation bug when batch size is 0
+
+* Keep sign of dir_scores as before
+
+* Fix several comments
+
+* Add a comment
+
+* Fix docstring
+
+* Add data update scripts
+
+* Fix comments
+
+* fix import
+
+* add roipooling cuda ops
+
+* add roi extractor
+
+* add test_roi_extractor unittest
+
+* Modify setup.py to install roipooling ops
+
+* modify docstring
+
+* remove enlarge bbox in roipoint pooling
+
+* add_roipooling_ops
+
+* modify docstring
+
+Co-authored-by: Yezhen Cong <52420115+THU17cyz@users.noreply.github.com>
+Co-authored-by: THU17cyz <congyezhen71@hotmail.com>
+
+* [Refactor] Refactor code structure and docstrings (#803)
+
+* refactor points_in_boxes
+
+* Merge same functions of three boxes
+
+* More docstring fixes and unify x/y/z size
+
+* Add ""optional"" and fix ""Default""
+
+* Add ""optional"" and fix ""Default""
+
+* Add ""optional"" and fix ""Default""
+
+* Add ""optional"" and fix ""Default""
+
+* Add ""optional"" and fix ""Default""
+
+* Remove None in function param type
+
+* Fix unittest
+
+* Add comments for NMS functions
+
+* Merge methods of Points
+
+* Add unittest
+
+* Add optional and default value
+
+* Fix box conversion and add unittest
+
+* Fix comments
+
+* Add unit test
+
+* Indent
+
+* Fix CI
+
+* Remove useless \\
+
+* Remove useless \\
+
+* Remove useless \\
+
+* Remove useless \\
+
+* Remove useless \\
+
+* Add unit test for box bev
+
+* More unit tests and refine docstrings in box_np_ops
+
+* Fix comment
+
+* Add deprecation warning
+
+* [Feature] PointXYZWHLRBBoxCoder (#856)
+
+* support PointBasedBoxCoder
+
+* fix unittest bug
+
+* support unittest in gpu
+
+* support unittest in gpu
+
+* modified docstring
+
+* add args
+
+* add args
+
+* [Enhance] Change Groupfree3D config (#855)
+
+* All mods
+
+* PointSample
+
+* PointSample
+
+* [Doc] Add tutorials/data_pipeline Chinese version (#827)
+
+* [Doc] Add tutorials/data_pipeline Chinese version
+
+* refine doc
+
+* Use the absolute link
+
+* Use the absolute link
+
+Co-authored-by: Tai-Wang <tab_wang@outlook.com>
+
+* [Doc] Add Chinese doc for `scannet_det.md` (#836)
+
+* Part
+
+* Complete
+
+* Fix comments
+
+* Fix comments
+
+* [Doc] Add Chinese doc for `waymo_det.md` (#859)
+
+* Add complete translation
+
+* Refinements
+
+* Fix comments
+
+* Fix a minor typo
+
+Co-authored-by: Tai-Wang <tab_wang@outlook.com>
+
+* Remove 2D annotations on Lyft (#867)
+
+* Add header for files (#869)
+
+* Add header for files
+
+* Add header for files
+
+* Add header for files
+
+* Add header for files
+
+* [fix] fix typos (#872)
+
+* Fix 3 unworking configs (#882)
+
+* [Fix] Fix `index.rst` for Chinese docs (#873)
+
+* Fix index.rst for zh docs
+
+* Change switch language
+
+* [Fix] Centerpoint head nested list transpose  (#879)
+
+* FIX Transpose nested lists without Numpy
+
+* Removed unused Numpy import
+
+* [Enhance] Update PointFusion (#791)
+
+* update point fusion
+
+* remove LIDAR hardcode
+
+* move get_proj_mat_by_coord_type to utils
+
+* fix lint
+
+* remove todo
+
+* fix lint
+
+* [Doc] Add nuscenes_det.md Chinese version (#854)
+
+* add nus chinese doc
+
+* add nuScenes Chinese doc
+
+* fix typo
+
+* fix typo
+
+* fix typo
+
+* fix typo
+
+* fix typo
+
+* [Fix] Fix RegNet pretrained weight loading (#889)
+
+* Fix regnet pretrained weight loading
+
+* Remove unused file
+
+* Fix centerpoint tta (#892)
+
+* [Enhance] Add benchmark regression script (#808)
+
+* Initial commit
+
+* [Feature] Support DGCNN (v1.0.0.dev0) (#896)
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* support dgcnn
+
+* fix typo
+
+* fix typo
+
+* fix typo
+
+* del gf&fa registry (wo reuse pointnet module)
+
+* fix typo
+
+* add benchmark and add copyright header (for DGCNN only)
+
+* fix typo
+
+* fix typo
+
+* fix typo
+
+* fix typo
+
+* fix typo
+
+* support dgcnn
+
+* Change cam rot_3d_in_axis (#906)
+
+* [Doc] Add coord sys tutorial pic and change links to dev branch (#912)
+
+* Modify link branch and add pic
+
+* Fix pic
+
+* Update v1.0.0rc0 changelog
+
+* Remove v1.0.0.rc0 changelog
+
+* Init v1.0.0.rc0 changelog
+
+* Fix minor typos in the zh-CN index.rst
+
+* Add master updates in changelog v1.0.0
+
+* Update changelog_v1.0.md
+
+* Update changelog_v1.0.md
+
+* Update changelog_v1.0.md
+
+* Adjust the order of logs
+
+* Update the number of developers
+
+* Add v1.0.0.rc0 changelog
+
+* Delete changelog_v1.0.md
+
+* Add RoIPointPool3d back
+
+* Change openmmlab pre-commit hook rev
+
+* Add links for compatibility doc
+
+* Refine details
+
+* Update README.md
+
+* Update highlights
+
+* Update README_zh-CN.md
+
+* Update getting_started.md
+
+* Update getting_started.md
+
+* Update version.py
+
+* Fix the released version name
+
+* Fix version name
+
+* Update version name
+
+* Update version name
+
+* Update version name
+
+* Update version name
+
+Co-authored-by: Yezhen Cong <52420115+THU17cyz@users.noreply.github.com>
+Co-authored-by: Xi Liu <75658786+xiliu8006@users.noreply.github.com>
+Co-authored-by: THU17cyz <congyezhen71@hotmail.com>
+Co-authored-by: Wenhao Wu <79644370+wHao-Wu@users.noreply.github.com>
+Co-authored-by: dingchang <hudingchang.vendor@sensetime.com>
+Co-authored-by: 谢恩泽 <Johnny_ez@163.com>
+Co-authored-by: Robin Karlsson <34254153+robin-karlsson0@users.noreply.github.com>
+Co-authored-by: Danila Rukhovich <danrukh@gmail.com>
+Co-authored-by: ChaimZhu <zhuchenming@pjlab.org.cn>",2022-02-18 20:09:17+08:00,FALSE
+e6d0e214c3d2fe7db4db33b54e3f8de89e29b480,"[Enhance] Update model and backbone table format in README.md (#1283)
+
+* update_table
+
+* update
+
+* change method to architectures
+
+* adjust the format
+
+* fix a type",2022-03-02 17:23:49+08:00,FALSE
+c2fbf216402b5af2264e637fc5fa8485b5bf635e,reorganize project names in readme (#1272),2022-03-03 20:06:40+08:00,FALSE
+9ae003e4f9a83533009eaf5cf13acd27bef84e7a,fix README typo (#1292),2022-03-04 16:29:02+08:00,FALSE
+34d3838e5fe5af35a442c057bc7e658de67de343,"Bump to v1.0.0rc1 (#1365)
+
+* Update the version of mmdet3d
+
+* Update changelog.md
+
+* Update getting_started.md
+
+* Update getting_started.md
+
+* Update README.md
+
+* Update README_zh-CN.md
+
+* Update the mmcv version in mminstall.txt
+
+* Update the mmcv version in readthedocs.txt
+
+* Remove the mmcv version constraint
+
+* Update changelog.md",2022-04-02 18:19:01+08:00,FALSE
+f747daab633c62f679660a524522a04fb713eecf,"[Fix] update part of model links (#1369)
+
+* update model link
+
+* update ssn
+
+* update info in changelog, reamde
+
+* fix comments
+
+* update table",2022-04-06 21:00:30+08:00,FALSE
+fbc3369b266fa39ae47d4553ebe95468dada1de3,"[Docs]Update Chinese document for speed benchmark (#1379)
+
+* fix README typo (#1292)
+
+* [Fix]fix init_model to support 'device=cpu' (#1275)
+
+* fix init_model
+
+* Refine warning message
+
+Co-authored-by: Tai-Wang <tab_wang@outlook.com>
+
+* fixed docs/zh_cn.getting_started (#1298)
+
+* [Doc] Add documentation for multi-node train with pytorch original ddp (#1296)
+
+* update mn_train
+
+* update
+
+* Fix typos
+
+Co-authored-by: Tai-Wang <tab_wang@outlook.com>
+
+* add multi-machine dist_train (#1303)
+
+* Update Chinese document for speed benchmark
+
+* Fix inappropriate expressions
+
+Co-authored-by: ChaimZhu <zhuchenming@pjlab.org.cn>
+Co-authored-by: VVsssssk <88368822+VVsssssk@users.noreply.github.com>
+Co-authored-by: Tai-Wang <tab_wang@outlook.com>
+Co-authored-by: Subjectivist <xuejiapeng_upc@163.com>
+Co-authored-by: Enze Xie <Johnny_ez@163.com>
+Co-authored-by: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>",2022-04-13 17:01:35+08:00,FALSE
+c20b6cb637fa31b88b1c7b523116f4f606010094,"[Docs]Add deploy docs (#1373)
+
+* add deploy docs
+
+* fix docs
+
+* format docs
+
+* fix docs and readme
+
+* fix readme
+
+* fix docs
+
+* fix docs
+
+* fix lint tag
+
+* fix docs",2022-04-14 10:48:35+08:00,TRUE
+4422eaab6b9924b67e714af3006934b4049af199,"Bump to v1.0.0rc2 (#1448)
+
+* Update versions in the docs and version.py
+
+* Update changelog.md
+
+* Update changelog.md
+
+* Remove model update
+
+* Refine the changelog
+
+* Add highlights
+
+* Add highlights
+
+* Update the upper bound of mmcv version
+
+* Update the upper bound of mmcv version",2022-05-01 20:43:12+08:00,FALSE
+cf922153ebc0fa24d65b585a08c77f1cab60364f,[Docs] Replace markdownlint with mdformat for avoiding installing ruby (#1489),2022-05-18 19:30:08+08:00,FALSE
+7d0011d220b2ea055ec684683c65692343a1267e,"Bump to v1.0.0rc3 (#1543)
+
+* Release init
+
+* v1.0.0rc3 changelog
+
+* Update SA-SSD in the model zoo
+
+* update SA-SSD model zoo
+
+* Update model_zoo.md
+
+* Update model_zoo.md
+
+* Create README.md
+
+* Update README.md
+
+* Update changelog.md
+
+* Update faq.md
+
+* Update pure_point_cloud_dataset.md
+
+* Update index.rst",2022-06-14 16:40:14+08:00,FALSE
+e46cd22577549321305a7181736891a9fed189e1,"[Enhance] Add FCAF3D benchmark on ScanNet, SUN RGB-D and S3DIS (#1701)
+
+* add fcaf3d benchmark
+
+* update readme
+
+* add fcaf3d download links",2022-08-08 14:44:07+08:00,FALSE
+337a956ef7f90e78e2031b6bdcbde23f463cb360,"Bump to v1.0.0rc4 (#1674)
+
+* fix parta2 bug
+
+* add changelog
+
+* fix version
+
+* fix changelog
+
+* fix changelog
+
+* fix comments
+
+* fix release day
+
+* fix changelog
+
+* fix changelog",2022-08-08 15:20:53+08:00,FALSE
+9a4e8eb338da1e523c569a8d56ccd9f72283d2a1,init commit for dev2.0,2022-11-25 14:45:18+08:00,TRUE
+3777d913357d88b323288a20d30722c4ddd6162c,minor fix,2022-11-25 16:20:28+08:00,FALSE
+ceacfc057b7003f2441e01be8a0fbc8e8dae53d9,update README.md,2022-12-02 09:37:15+08:00,TRUE
+6c75bb4efca8f21d33ff7ccf007953a267f472d0,update README.md,2023-01-12 14:57:54+08:00,TRUE
+d28b49f97e47760332645c982933030f1e0e9a8f,add example configs of bevdet4d,2023-01-28 15:40:31+08:00,TRUE
+8a5f66781dec5483254ee00a2e904ba7bc357c03,minor fix,2023-01-28 16:03:23+08:00,FALSE
+e57a515b41c95526b641c4adc7b126fef7ea6b3f,fix a timeline bug,2023-02-02 11:09:07+08:00,FALSE
+309fc5543b529b6d6661a8d6a2bee0f7495608ed,use one head,2023-04-09 17:09:19+08:00,FALSE
+34614245ef3cd85620dbb739f5ec86d9eaaca937,fix a timeline bug,2023-04-10 10:08:51+08:00,FALSE
+5180123114f21f1ada3f1d6562aeba8f3a367a1d,support stereo depth estimation,2023-04-27 15:49:52+08:00,FALSE
+2c044540f882791a7e8e44af717946b6a6e8ca34,Support occupancy prediction task,2023-04-28 15:53:29+08:00,TRUE
+1501a3f532493b4d954789e24f0c0c72bcafe63e,fix training occupancy with bev flip augmentation,2023-04-28 23:11:52+08:00,FALSE
+5c9fc44076b0716a5bf662355ccf6eeca831986a,update get_start in readme,2023-04-30 12:06:08+08:00,TRUE
+e18eae68f114979954dc3c06b5af203c2f4e0764,Improve the occpancy baseline by enlarging the input size and using long-term temporal fusion,2023-05-07 10:19:04+08:00,FALSE

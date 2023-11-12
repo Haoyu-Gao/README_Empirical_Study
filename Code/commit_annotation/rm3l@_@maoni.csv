@@ -1,0 +1,289 @@
+sha,message,date,result
+5db9d0b878a7e73d6edb630c4b52cec25f291db9,Add new directory,2016-05-09 06:50:18-04:00,False
+04ee0724dc51827c70baabece62744f44c915896,"Declare the Maoni activity in the library manifest
+
+- It is now possible for callers to specify handlers (via the MaoniBuilder, which leverages a Configuration singleton instance)
+- Add a beautiful parallax image header
+- Pave the way to open-sourcing the whole project outside",2016-05-12 00:47:44+02:00,False
+7afca8d629b5b4ba7fea664117a41431f4c919f1,Update README,2016-05-15 00:32:13+02:00,False
+39dbd48bde9ad06aa9d8397cf144aaf37a0a4579,Update README,2016-05-15 00:41:37+02:00,False
+b53f4a8e58df0a08934027eae2054ee0b777d4e5,Update README,2016-05-15 00:47:15+02:00,False
+e311e5c7220aedc36d628a6bf5928dd05b4b617c,Update README,2016-05-15 01:21:30+02:00,False
+8cbd98a831ffd21d3720cbcacbe551e0f90f9b66,Add Travis Build Status Image to README file,2016-05-16 08:16:43+02:00,False
+46ab9389b0e01a828d412b4f0aedf9dec2bf0395,Update README,2016-05-17 12:21:53+02:00,False
+c451ef23e6d12389315f8a52d01f325d8e4516a1,Version bump,2016-05-21 16:45:34+02:00,False
+45e8b3b8aa47bfac0702a9d5e071882789fd7a51,Update README,2016-05-21 18:16:24+02:00,True
+4bd60daf127cff882602beefb023f9fb70a3616d,Update README,2016-05-21 18:38:01+02:00,True
+315751ce72a7d7f3130ab716fef0ae960b5edf45,Update README,2016-05-21 18:46:14+02:00,True
+0a04d1b943348a4bacbf9960d1b23cd6177079a5,Update README,2016-05-21 19:45:09+02:00,True
+6e265dcdcd7eebff62fd41ec2019ca4a1bbe108d,"Update README
+
+Add simple example to get started with the defaults, and move ""Screenshots"" section higher in the text",2016-05-21 20:31:41+02:00,True
+fd5dbc12bd3c1a03bb16d8850fa21af6b8ac1286,Update README,2016-05-22 17:51:47+02:00,True
+eed567b396b93b69a099ef0125cb441d395c0859,Update README,2016-05-22 22:38:27+02:00,True
+99aefce897edba642ae28cb773d8097667fdd5e6,Add support for translations and sync via Travis CI,2016-05-23 00:46:58+02:00,True
+ae529af77e0fb4c7f6a9a8cfbf2fca8e235229ab,Update README,2016-05-23 14:02:27+02:00,True
+aca96188cd479039c7b328b86f822850f3b4ded9,"Update README
+
+Update instructions for build.gradle",2016-05-23 23:52:05+02:00,True
+0b2847c2d0494c3843700b8be911d5fd8150e02b,Update README,2016-05-24 00:13:58+02:00,True
+f70eaf087aeb4504eebc3176cdd112bf40151c53,Add Coveralls Coverage status badge,2016-05-24 01:15:45+02:00,True
+892449c43af67835bed497b47df3d6c38c73a4a6,Add Coveralls Coverage status badge,2016-05-24 01:20:24+02:00,True
+3000249ef9c4929f89dd6a3d14b717c51c129b19,Add badges in README,2016-05-25 21:28:02+02:00,True
+d5fbf0d0d6ff30dcae06fa4c4bd89ea7a2f606c6,Fix Play Store URL for sample app,2016-05-25 21:44:12+02:00,False
+b9d8cc9f276eb811e6a679eee89016ea81206df6,Update max age for retrieving badges in README,2016-05-25 22:14:21+02:00,True
+d93052113b8dc733e6330e5a9bc0f99093e4b0a7,"Let callbacks decide whether or not to finish the Maoni activity upon a click on the 'Send Feedback' button
+
+This contains a breaking change in the callbacks API.",2016-06-06 22:11:49+02:00,True
+7a3fac075f9df69c982ffa3735c9dbafc98b3c1b,Update README,2016-07-06 02:07:16+02:00,False
+3144c35e9dec4c09ea01351ae9403bfc39f57041,Add Android Arsenal badge,2016-07-19 07:50:36+00:00,True
+ca66282ce840694ada084dfc133d2f2d49ee313b,Add Android Arsenal badge,2016-07-19 07:52:04+00:00,True
+eb194e2eb2bdf205a190863a4c7f9b5240770cdf,"Version bump: 2.0
+
+This contains breaking changes in the API:
+- The Feedback.Device class has been removed, in favor of a separate DeviceInfo class, which contains everything related to the Device",2016-07-31 14:40:07+02:00,True
+94c95e86de26d58cf170c800a452b4ab1398d324,Update badges in README,2016-07-31 18:44:49+02:00,False
+82438ca846a434a63ec6b69c6ababc26aded3ba0,Add Github badges,2016-07-31 18:50:47+02:00,False
+c6af9c83b26f07f6bdc6f244497e981e716e5958,"Temporarily revert to 1.3.0 in README, waiting for artifacts to be effectively available on Bintray / JCenter",2016-07-31 23:54:43+02:00,True
+1ed1953d3169b3ac582010a1fb2b649a36f15c1a,"Update README to version 2.0
+
+Artifacts are now available in JCenter",2016-08-01 16:07:22+02:00,True
+ce7c450a1127ad6e95a10db84ed6bef1cea104f4,"Drop 'maxAge' param from Github badges HTTP requests
+
+This allows to retrieve them at every page refresh",2016-08-01 19:43:23+02:00,False
+04d801ce563480e5a12e20990cefbbc95d68a351,Add Q&A badge,2016-08-02 17:10:46+02:00,False
+96cd6719f03113afb97eaa3f467db362d31be666,"Prepare for version bump
+
+- Maoni 2.0.1
+- Sample app 2.1.1",2016-08-02 22:22:12+02:00,True
+3dee8e0e256204fda86461ac6e143d79c6c057a3,Reorder badges,2016-08-02 22:26:03+02:00,False
+423a77d4d2fb942aa967f3c74abcf1d413b492b6,[README] Update code snippet,2016-08-04 21:11:27+02:00,True
+03aad44388fe80c92dd5521a6b8381515fc69f2e,[README] Update code snippet,2016-08-04 21:13:37+02:00,True
+4bf443dd643654d794c3ce338e90c9c48ab841d1,Version bump: 2.2.0,2016-08-10 23:40:22+02:00,True
+419ba4b9209ba936ccd385e9bb2f3af6458559af,Highlight the fact that app logs are also captured,2016-08-11 00:57:37+02:00,False
+f14f08e7e9f04e20673385b976caf21d2e8f8af4,"Version bump: 2.3.0
+
+Update README.md accordingly, with new screenshots demonstrating the 'Highlight / Blackout' feature",2016-09-10 00:31:34+02:00,True
+a2db04832c48cc4a5e4ec1cc4ba435b04a4535c1,Version bump: 2.3.1,2016-09-10 09:42:31+02:00,True
+2fa5e3cc2d9eca4b902b784c0ec045d9b62007b5,Add showcase GIF animation to README,2016-09-10 14:48:08+02:00,False
+09e0d19fad7a8ca654e5f4d9e37a25c2b8b932d7,Initialize separate repo for maoni-email,2016-09-10 15:45:42+02:00,True
+5d4211067e69b98c5c92592ddf675c38fd591713,Update README,2016-09-10 15:51:32+02:00,False
+a940636a66cdc14be7f789fbdcda8010b897baba,"Move maoni-email to a different Git repo
+
+https://github.com/rm3l/maoni-email",2016-09-10 15:56:59+02:00,True
+9ddd8658e2c245631bcda9533027f850460bc2f1,Update README and dependency to maoni-common,2016-09-10 16:10:29+02:00,False
+bd648f7ceb0481988947bf156474817586583572,"Update list of apps making use of Maoni
+
+- Add 'DD-WRT Companion Tasker Plugin' app",2016-10-03 00:16:44+02:00,False
+f76632e3b5be8798e37ac62d48b4db23d07a439f,Add Gitter badge,2016-11-07 12:52:01+00:00,True
+2b9795462dbf583de9c02b25294899d385a01d1b,Add Gitter badge,2016-11-07 12:53:57+00:00,False
+ec77baa519ea0bd37bb1213369eaca5aaca41e93,Update Gitter badge position,2016-11-07 13:55:19+01:00,True
+08746c157653c61a60d8b97086a79944ea2896e2,Update Gitter badge position,2016-11-07 14:03:51+01:00,False
+07c35a4c49be28ea9f46917703516b6747bde7ad,"Update README.md
+
+Fix typo and links",2016-11-20 11:29:47+01:00,True
+3f0fc783b1899c42b0a8dabf20d4c5e1720d983a,Add project,2016-11-27 15:49:08+01:00,True
+365222329ff7fccea21be901b5a033b27b976187,Update README.md,2016-11-27 15:53:50+01:00,False
+70af953af4060904f1e3adf73b438cded581d6b1,Add 'maoni-doorbell' to the list of callbacks,2016-11-27 16:13:19+01:00,True
+00fabfbf02ccee57905402aa52686448efa6085b,Version bump: 0.1.1,2016-11-27 22:51:51+01:00,True
+f6399bd70f66867d18b1760be785dbf0083e74c7,Add CodeClimate config and re-organize badges,2016-12-04 22:20:34+01:00,False
+44be6cadadc01461e58df6ffdebf6dde00a6bca4,Update README,2017-04-23 17:52:48+02:00,True
+ba6040cfca398ac4b42678b7f4e486b8d9193683,"Remove Codewake badge
+
+It appears to be a source for Spammers instead",2017-04-24 22:57:56+02:00,False
+a8c7020330de24c2a1b34e562e0420dfc5c371e3,Version bump: 2.4.0,2017-04-24 23:10:42+02:00,True
+b1e22929487865a364d34b7075e0bb7b4513b9fc,Version bump : 2.4.0,2017-04-24 23:21:48+02:00,True
+ddb410a15b3477a91ff088d20b8b87f8a5fb4beb,Version bump : 2.4.0,2017-04-24 23:26:00+02:00,True
+b9be1dc9c5f5d64818e5e7298b6cff1ca8eafe57,Update README,2017-04-24 23:41:37+02:00,True
+beea633fc97aa0c3cdf683da0169b58833a23d21,Update README,2017-04-24 23:42:54+02:00,True
+30e9a63ecf2e8e51f3036d55515c99d2a2597a0c,Add README.md,2017-04-27 01:23:16+02:00,False
+8815f0ae0b8efbdbbd50ffbae73fe8ac20fb45de,Update README.md,2017-04-27 01:32:48+02:00,True
+4e2b7ca9500cb0041987826b870561f85a705d3d,Update README.md,2017-04-27 01:35:56+02:00,False
+ab3128f583ef47ea320c1d5158beca414cc69851,Update project version: 2.4.0-alpha1,2017-04-27 01:46:17+02:00,True
+006da9a30ab6d4ca18e163faddde1b66b2fa1fd4,Update project version: 2.4.0-alpha2,2017-04-27 01:55:38+02:00,True
+69ff5e3a68ac0823d61ce29098dc3677cceb71d3,Update project version: 2.4.0-alpha3,2017-04-27 02:23:32+02:00,True
+80603533af784762cfc9794ce639589952a287db,Update project version: 2.4.0-alpha6,2017-04-27 23:53:27+02:00,True
+31dc60b99e6d9d33fa7a03cf93106ae44179c409,Update README.md,2017-05-02 00:27:19+02:00,True
+d010a7501ff454375cffe24eb06d4d7fc2ec1bc5,Update project version: 2.4.0-rc1,2017-05-02 00:29:15+02:00,True
+e97fc9f73adec1d04f91b8ae26f8f3d7daf01400,Add maoni-github to the official lit of callbacks for Maoni,2017-05-02 00:51:25+02:00,True
+7db61d6050bd7cefe986b9fcddfb6f418aec79be,Update project version: 2.4.0-rc2,2017-05-02 00:53:28+02:00,True
+469bdf5f21effcf884f316f73c09f618a1810107,Update README,2017-05-03 23:18:45+02:00,False
+8c8cea354a51eee574f62b51436b54db58d1e27c,Update README,2017-05-04 16:40:30+02:00,False
+03d8a0488f89cec0a78d7549810290d452270451,Update project version: 2.4.0-rc7,2017-05-07 01:08:29+02:00,True
+d2ecaf8de260208534e724f3fcc35ae21a720ca5,Version bump: 2.4.2,2017-05-07 16:12:23+02:00,True
+fc3f77e6e683a18d768c43105f48ba98aa39d2f3,first commit,2017-05-08 00:36:01+02:00,True
+ef134e31759a2b32b8da9d1c3bf2df63a9242522,Update README,2017-05-08 00:50:36+02:00,True
+aaa21a1ecfd9618534c021d71d856a5bd4805502,Update project version: 2.4.2-rc1,2017-05-08 14:38:26+02:00,True
+3e4928a38785029e4cc6b0e2a022db093e26377e,Upgrade project version: 2.4.2-rc1,2017-05-08 14:58:46+02:00,True
+b3d75e9c4cd2a7e3c8ab21039d1369d1b7244d98,Upgrade project version: 2.4.2-rc2,2017-05-08 15:54:25+02:00,True
+340c89c9d1b2e42748ec3c8501591f18a7ab17b2,Upgrade project version: 2.4.2-rc3,2017-05-08 16:01:29+02:00,True
+bfbeb353c30bffcc622730adf8b45737de4ab3d7,Upgrade project version: 2.4.2-rc4,2017-05-08 22:12:05+02:00,True
+79e976ff7d2df8354f719b0538556fcc6e7820d4,Version bump: 3.0.0,2017-05-08 23:54:32+02:00,True
+e7aa62ae6ef72071faa3bd44283428d3674dc2e7,Add common listeners to README.md Overview section,2017-05-09 14:52:49+02:00,False
+40d0a8053a26303fc2d74adaf6ed3e9f3b9da89e,Version bump: 3.0.0,2017-05-09 23:11:39+02:00,True
+f369441503770a2dd3c2340e7dbd6183f118790f,Version bump: 3.0.0-1,2017-05-09 23:22:58+02:00,True
+e27532599c5526fe59adcc15a2d71eef1be1fda5,Version bump: 3.1.0,2017-05-09 23:57:23+02:00,True
+96b64a28844cf36b262b7e26d77c8d1a55c25405,Update README.md,2017-05-21 11:44:16+02:00,True
+5c969b1687817ff82a87e2d0081221b7631fd64c,[CI] Update status badge: use the one from CircleCI,2017-06-25 22:21:15+02:00,False
+b8faf09a6e93e9e55a3be28e682f1dc49bf3a223,Update Code coverage badge,2017-06-28 00:28:06+02:00,False
+ccf80f4bbfafaee68e21598190bda81dad5214dc,Fix href link to project dashboard on Codecov.io,2017-06-28 23:18:27+02:00,False
+45f2997ea75fd86775bbd4d3f15ca93f51588acc,first commit,2017-07-04 23:37:59+02:00,True
+7b299ef1d0cfba40ce0d0ec8c1caec7541c70b48,Upgrade version: 0.1.1,2017-07-05 00:26:48+02:00,True
+892371f027115a9d222924aa97ee5690f24c0d0a,Upgrade version: 0.1.2,2017-07-05 00:39:31+02:00,True
+4aed1aea1e78db28cb775230d153f167b2f79099,Upgrade version: 0.1.3,2017-07-05 00:43:58+02:00,True
+a5f234d5d2361db0f94aa6c83ae86c1bef1ef041,Add maoni-slack to the dependencies,2017-07-05 00:58:03+02:00,False
+83cab33ed6163988e88d2699f363234a4582642d,Update README,2017-07-05 14:25:04+02:00,True
+ac8b1723d711965ec8daab0be1477e20edb80e0d,Upgrade version: 0.1.4,2017-07-08 14:45:26+02:00,True
+c892988bcda0f85d3a9d3906abf0ad04b816dcf9,Update Touch To Preview text in sample app,2017-07-08 14:58:36+02:00,True
+1f0c76197b21cbf775fcfba1ece6019b80a5f8d8,Version Upgrade for Maoni: 4.0.0,2017-07-08 16:30:23+02:00,True
+57139936d18e1fe2760553048fd921762fce62ca,Update README,2017-07-08 16:33:59+02:00,False
+83ab273b6567d7799013f631df074392ad990334,Update README,2017-07-08 19:27:25+02:00,True
+1cc4d096489b79683bd96c42e809b56929ebde44,Update tabulation in README,2017-07-17 12:39:39+02:00,False
+19709eced2cf973e190ea2c097ea7ec4b6c2a12a,Update tabulation in README,2017-07-17 12:40:07+02:00,False
+22cd72ee6b6c10d1e6dae820aab4f334fba32928,Update tabulation in README,2017-07-17 12:40:36+02:00,False
+108d8c862748893033c2d0bc138537996eabaa57,Update tabulation in README,2017-07-17 12:41:03+02:00,False
+cc5ce30359bc31a84a327751e1d5b6d895f173d8,Update tabulation in README,2017-07-17 12:41:21+02:00,False
+3d540abd39ab4187aeed6e7cbafc1a4c02afea51,Update tabulation in README,2017-07-17 12:41:38+02:00,False
+2d5c60adc2151562af217af6fd4ed928ee74dcb7,Update version in README,2017-08-08 01:43:01+02:00,True
+2e54baa2fdeb7b45c17778a5a6eef7e637988c22,"[Fix #7] Fix issues preventing the project from being built from source
+
+- skip passing release signing info when not needed
+- add more detailed instructions for building from source",2017-08-16 00:56:35+02:00,True
+3312084af92dc77960215d011df5e4a6fe413252,Add CodeSponsor badges,2017-10-29 16:56:57+01:00,False
+9439286a7566a1968546be4e508a36aaccac4964,Update CodeSponsor badge,2017-10-29 17:00:33+01:00,False
+a315e8fe81512fbf7d701d490596c46b4ecf11dc,Add CodeSponsor badge,2017-10-29 17:02:04+01:00,False
+b01e340c47d52a91489fc8e18a04aebf62945dc4,Install Yelp's pre-commit hook framework,2017-12-11 23:28:11+01:00,False
+b9dffa6daf485250a1b6389a17b2bcac88f5cdf1,Install Yelp's pre-commit hook framework,2017-12-11 23:31:24+01:00,False
+a1d8b3cd6a5b837ff1a791d9e8bde5e0e098ce23,Install Yelp's pre-commit hook framework,2017-12-11 23:35:33+01:00,False
+12673c4f5b65c8058fd6daff4f0788004132e440,Install Yelp's pre-commit hook framework,2017-12-11 23:36:37+01:00,False
+546eea2e3bf621c1a43298acf633a88558b24fd1,Install Yelp's pre-commit hook framework,2017-12-11 23:37:39+01:00,False
+7977274963eff5925f13483a91bd6048ed7a1177,Install Yelp's pre-commit hook framework,2017-12-11 23:38:49+01:00,False
+eb0d60ea2275cfad489283340af3131e471ec0e4,Update badges,2017-12-11 23:51:00+01:00,False
+09275579e9591acdff2314f29c1182da58698b40,Version upgrade: 4.0.2,2017-12-11 23:55:35+01:00,True
+9aaf229d0442370632aabfbd7f524b5ab38c5691,Drop CodeSponsor link,2017-12-12 09:58:37+01:00,False
+b5263e3a28018e02d488411b04d5aa1f2098445d,Drop CodeSponsor link,2017-12-12 10:00:20+01:00,False
+7522274db4b2c481810a3cc26094bf6e5afc91bc,Version upgrade: 4.1.0,2018-01-09 00:16:38+01:00,True
+c120b0415d64f55bae841c6169ffe0be9337a0a5,Version upgrade: 4.1.1,2018-01-09 00:30:54+01:00,True
+667d02f42264188a34f7157cda709e9528422295,Version upgrade: 4.1.2,2018-01-09 21:06:49+01:00,True
+ce2878fc710394331651b5211f423782e015025b,Version upgrade: 5.0.0,2018-01-09 23:12:29+01:00,True
+05db17bfcedd2ad1a220855856fa1bbe4eecaef5,Update README,2018-01-12 21:25:37+01:00,False
+f9642f828dfa771a72668d5cb890eeacb7bcb11c,Add list of contributors,2018-03-03 00:30:14+01:00,False
+caef00c8904f576bc88b4983d881866eab7db86f,Update list of contributors,2018-03-03 00:32:31+01:00,False
+26218e01f6d2ccce32bc4761158d486b3d892ca7,Update Build Tools version to use for building the project,2018-03-03 00:38:44+01:00,True
+d3849249bb90b273870157254d6eb5a6e408280f,Version bump: 6.0.0,2018-03-03 22:35:58+01:00,True
+cbe6406785c2908ebcf2206db28289052935701d,Version bump and change versioning format: 3.1.0-maoni_6.0.0,2018-03-03 23:07:13+01:00,True
+40b175d1090510d8a5fd51d36aa1a11f3aa8972b,Version bump: 1.0.1-maoni_6.0.0,2018-03-03 23:33:01+01:00,True
+08cf9dc7cee90cdb065d472ff97a273288adeb10,Version bump: 1.0.1-maoni_6.0.0,2018-03-03 23:45:47+01:00,True
+3846f937a1cf79fda0bc0da034f73cefe1e13d56,Version bump: 2.5.0-maoni_6.0.0,2018-03-03 23:54:29+01:00,True
+85677f764e6ee21ed2f71cfcd2540eb7001939ca,Version bump: 2.5.0-maoni_6.0.0,2018-03-04 00:06:54+01:00,True
+a0f63e19e459dac53a2bf35b129450697c6dc726,Bump version: 2.6.0-maoni_6.0.0,2019-05-04 08:20:47+02:00,True
+75a9366622deec4f1b05f9707b0040ccb369da0f,Add instructions for publishing to Bintray,2019-05-04 22:42:12+02:00,False
+0d3762897e4cd905aa203aecea13d23b2f294768,Add instructions for publishing to Bintray,2019-05-04 22:50:07+02:00,False
+6d98fd485ecc1f8232132f4a5b6f98a1e53b6257,Add instructions for publishing to Bintray,2019-05-04 22:53:00+02:00,False
+ed2b1ea37117f096b6854a4f7e21ebc2c1737fc2,Add instructions for publishing to Bintray,2019-05-04 22:56:18+02:00,False
+14ec9d386f89f218cc803912aea100e55b01bfa0,Add instructions for publishing to Bintray,2019-05-04 23:01:24+02:00,False
+e090b14dc92161e845a8989d72f19691ed9c8467,Add instructions for publishing to Bintray,2019-05-04 23:04:07+02:00,False
+112286e4de982141dec23a2ac7a83b71c49602c8,Fix URLs in README,2019-05-09 07:47:31+02:00,True
+7cbf5697bc56d4ecd48f86011f5bfcd668cf3915,Fix CodeClimate badge URL,2019-05-09 20:23:34+02:00,False
+ab3bcf4bc668c41c68ec344c4f425fbba9f05b43,Fix repository URL,2019-05-13 00:27:29+02:00,False
+4a775ffa15f3f823f28927622892e30dce3a6802,Bump version : 1.1.0-maoni_6.0.0,2019-05-13 00:39:15+02:00,True
+05027262bdc4b7e92aeb492d8057756e78fa601e,Requested MR changes.,2019-05-13 09:43:54+03:00,True
+960a53ee2b1bdd6d1729e6204da58381aaed7521,[#60] Add instructions for file sharing using AndroidX,2019-05-13 21:11:34+02:00,True
+3737b6a577aec0f88e9382e57fe92c2675d5c434,Update list of contributors,2019-05-13 21:27:37+02:00,False
+bfa1e0682b36ca7860885bddc9ab2b18da7b4021,Update instructions for building from source,2019-05-13 21:59:25+02:00,True
+f4e1d85ac8f91db833b4e9157ff5a45e7f92cac5,Update README,2019-05-13 22:14:26+02:00,True
+9eacada81ae03f6a48a5ff1122fed6edd41fd4aa,Update README,2019-05-13 22:15:32+02:00,True
+e700a5aadb0e6974d0b65175ed131760816eaeeb,Use latest 'maoni-common' and bump version : 1.2.0-maoni_7.0.0,2019-05-14 22:52:22+02:00,True
+7e0a42c2335c2b752904995cf3d775d9684b3069,Remove Gitter badge for now,2019-05-23 23:55:25+02:00,False
+9e3de22ede45fb1d85e9c262090647ea9c24c97f,Fix Badges URLs,2019-06-16 22:18:09+02:00,False
+0ff4ba1b22d8b9d4f2d504254a0c8db9752ebc51,Fix badges URLs,2019-06-16 22:20:10+02:00,False
+71037cc64620579e1c166c425433c9d77e35e6d5,Fix badges URLs,2019-06-16 22:22:46+02:00,False
+6c660b3e2bc3425b440a6885c9c835246bfe42d6,Fix badges URLs,2019-06-16 22:24:50+02:00,False
+44addb173a03e6c0fced7fadb46f6c455816b5d8,Bump version: 8.0.0,2019-09-01 18:55:19+02:00,True
+4f35f74d3dcb536135a37cddb05d29fbb91051d9,Update README,2019-09-01 23:15:50+02:00,True
+1b2e51ff4d31c210f37d3f13fc4b602ce966f78e,Bump version: 8.0.1,2019-09-01 23:15:50+02:00,True
+f107b899b624aa0316146bdaa6276cfcf9f5a529,Bump version: 8.0.2,2019-09-01 23:27:12+02:00,True
+8bbac4e4f5f716cc215ecc83b3bcef81b95259d4,Update list of contributors,2019-09-01 23:48:56+02:00,False
+69e1940508030dcb5b0407e0acb415df9128a182,Update links to callbacks in introduction,2019-09-02 08:23:02+02:00,False
+fa1d3ff2bea3a7b78950f727105131546107ba97,Bump version: 8.0.3,2019-09-07 15:33:58+02:00,True
+d2d3c068dcad62ccbc24e0d9f5eb9c154217a530,Bump version: 8.0.4,2019-09-07 16:16:53+02:00,True
+90027661fbae48c2b0377d2e117921def6127a14,Bump version: 8.0.5,2019-09-07 17:18:29+02:00,True
+6decbca8eee5f0013e3bab575614af6ac2f3387d,Update README,2019-09-07 23:27:23+02:00,True
+8248b66e9066fae8be1e45b77af87b75650c963d,Bump version: 8.0.6,2019-09-07 23:29:48+02:00,True
+215976ea81c576da6d45fd669455d04e605aec07,"Update READMEs
+
+'@aar' suffix is needed when importing 'maoni' and any of the default callbacks.",2019-09-07 23:41:17+02:00,True
+8a8dbf5ee3b33795843e08a5667b7fbbe91f0962,Update instructions for publishing,2019-09-08 16:53:43+02:00,False
+cb9f4bbdc347d4658c480435c5499ba8567ec375,Bump version: 8.0.9,2019-09-08 16:53:51+02:00,True
+0326ca3e39b785661e505e3194393983ea83134f,Fix missing transitive dependencies in artifacts published to JCenter,2019-09-08 21:08:30+02:00,False
+b1e51dfade2231fad42f4f9d3564f30e5df05dbc,Bump version: 8.0.10,2019-09-08 21:34:56+02:00,True
+0b472ac2c40d163cba3164a3ca81e614f37d1512,Add Dependabot Status Badge,2019-10-26 00:19:42+02:00,False
+cc1ce6ecc44d1810348050090c7e25d5a7d84b5d,Relocate repo from 'maoni-app' organization to 'rm3l',2020-02-01 22:54:52+01:00,False
+2e74729b0e8b1055d651ae508e0821c25c6376f9,Update Maoni default message,2020-02-02 13:52:54+01:00,True
+e006f73314450a2e2525d6b0cdb80d0e65ef6e47,"Version bump, from 8.0.10 to 8.1.0",2020-02-02 13:53:30+01:00,True
+f9490303949d7154bfee193f8ceed058d4b31e2c,Fix ToC in README,2020-05-14 00:38:37+02:00,False
+bc8786400a1d76b662db15054aeaca5932569c85,Bump version from 8.1.0 to 8.2.0,2020-05-14 00:42:07+02:00,True
+cad7c71f32be1b4ff6a5ffe2fbf4efaa8e71896b,Update README,2020-05-20 00:36:41+02:00,False
+7f69d49b1fb0a03951946a9c87fd2a5b2ca8352a,Bump version from 8.2.0 to 8.3.0,2020-07-29 14:23:03+02:00,True
+93e673eb2dc7db558334e6ea6d9581ae0fb6bb60,Bump version from 8.3.1 to 8.3.1,2020-07-29 15:04:32+02:00,True
+4c4f6a767910ca5b6d775460848e0d0fdee09b3f,"Bump version from 8.3.1 to 8.3.2
+
+Looks like Bintray is having few issues causing partial updates, hence
+the patches that follow up here.
+See https://status.bintray.com/",2020-07-29 15:11:13+02:00,True
+8ec9a8c2b015afcfcf35bc91e4a40fb3bcbacb5f,"fix(#151): Remove Dependabot status badge
+
+Fixes #151",2021-03-03 11:21:34+01:00,False
+61a72c2704dc1ff58fe85f584b26e1b2361c24af,feat(#217): Use Workflow status badge in README,2021-03-06 23:27:49+01:00,False
+eb1d63dff93cec5078c3de15305291ac224c4d86,chore: Add more status badges to README,2021-03-06 23:45:15+01:00,False
+903b7dd647991272062a46a67ceb125a7e11a060,chore: Add more status badges to README,2021-03-06 23:45:44+01:00,False
+44f9670826bc33a13beca7a04fbd976433f25360,"feat(#213): Add Gradle task to publish to MavenCEntral (via Sonatype OSS)
+
+Task is: `./gradlew javadoc publishToSonatype closeAndReleaseStagingRepository`
+
+Reference: https://getstream.io/blog/publishing-libraries-to-mavencentral-2021/",2021-03-07 00:01:30+01:00,True
+e5de973c87d0ab4691c46e95f9f38eb657fb3573,"chore(#213): Make version badge point to Maven Central, not Bintray",2021-03-07 00:01:31+01:00,True
+8477a15cb25558a486f4b2f2c682158a1f50dd90,chore(#213): Update README,2021-03-07 00:15:33+01:00,False
+54a1bbc2b56990cc4f0d10ee4385426bb00d9817,chore(version): Bump version to 8.5.0,2021-03-07 00:23:01+01:00,True
+517a55a6dc1efe2f6ab22d21a57a1e09c7d98380,chore(version): Bump version to 8.5.1,2021-03-07 00:34:40+01:00,True
+15167db42e4ab91f8461cfb9a6153af85a52bb1d,chore(version): Bump version to 9.0.0,2021-03-07 21:53:16+01:00,True
+5ca437a48404ee8bee74bb131c5e2ea7840c627b,chore: Update README,2021-03-07 22:06:00+01:00,False
+9fb101b4336fe3dfc802ec89ea6048463152fefb,chore: Update README,2021-03-07 22:27:40+01:00,True
+277786f238b24c3407d9d1d7322b07a42d456f10,"docs: Init all-contributors
+
+Command: `node ~/.config/yarn/global/node_modules/all-contributors-cli/dist/cli.js init`",2021-03-24 23:51:05+01:00,False
+c9e954a5a6809fcc1f63c29e82c23fb4e8cd5054,docs: add @MariusVolkhart as a contributor,2021-03-24 23:51:41+01:00,False
+bf8e2e13668df3cb1adb45a86a7437928325253c,docs: add @Kalabasa as a contributor,2021-03-24 23:52:58+01:00,False
+bb2f0999d4a78ba210feb50f7035e670fc34aa8f,docs: add @isacastillor as a contributor,2021-03-24 23:57:43+01:00,False
+3498b049d0bf93cc7177fa686710618a165054d9,docs: add @omersurer as a contributor,2021-03-25 00:00:58+01:00,False
+2a80839c467e502b34e8e85e3558c30f4ffd2728,docs: add @ihtiht as a contributor,2021-03-25 00:03:44+01:00,False
+8207daee81d5e2b9dbc74742d0fe2e20425a3a2a,docs: add @naofum as a contributor,2021-03-25 00:05:24+01:00,False
+0db52aa60dbf6f7439dbee62f78ebf50af97339b,docs: add @fuzeh as a contributor,2021-03-25 00:06:43+01:00,False
+90d66702367cc7d3f29ecf6379e120ad7b64e364,docs: add @Apsimati as a contributor,2021-03-25 00:14:06+01:00,False
+c9136ba77e6ca0a1020dc3930b37df5db49ecff9,docs: add @ddinchev as a contributor,2021-03-25 00:15:14+01:00,False
+17b4bddf10933513a82da5ba00ea79ab2acc90ab,docs: add @vlad-roid as a contributor,2021-03-25 00:17:13+01:00,False
+c7a262efd4f4b38cd0a48f1b638d08a3c4ec2cee,docs: add @gmiklos-inst as a contributor,2021-03-25 00:17:48+01:00,False
+d35f43f4d1b7ac4e656ba0a3da375d4c9992e711,docs: Update contribution types,2021-03-25 00:26:15+01:00,False
+c322e13808019a5622a4d9cfa47b8c07f2681ea4,docs: Update README,2021-03-25 00:28:02+01:00,False
+85210fca1dab656731aaa6c7bc044c8ac7f1402b,docs: Update all-contributors badge,2021-03-25 00:30:11+01:00,False
+fe60cdf696ced112861734de9b84aa42e448bc84,"docs: add dennisdeng2002 as a contributor (#225)
+
+* docs: update README.md [skip ci]
+
+* docs: update .all-contributorsrc [skip ci]
+
+fix #224
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",2021-03-25 00:47:28+01:00,False
+63f4968b9c842fd64082ee19a28c4f025ca61c8b,chore: Bump version to 9.1.0,2021-03-25 00:54:26+01:00,True
+277d52310ab1bbed6490c21f75ce387ad26773ef,Update README,2021-07-21 18:12:57+02:00,False
+1b800c20ed21fb4d3c63eee4aa4e1fd4fe7f2c53,Update README,2022-04-11 22:25:52+02:00,False
+3653a968315746073b581be7e41fe9e7bde896bb,Bump version to 10.0.0,2022-04-23 00:13:17+02:00,True
+547ced70528299080b7df8d6b6c78ac10fe0e32b,"Document temporary workaround when importing transitively
+
+Importing each dependency non-transitively (as suggested in #253)
+might require users to specify each dependency
+indivifually, which might quickly feel cumbersome.
+
+ref #253
+ref #294",2022-04-23 01:22:44+02:00,True

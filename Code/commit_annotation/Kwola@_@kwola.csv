@@ -1,0 +1,61 @@
+sha,message,date,result
+d7f18b0dda195b6a5ac59a142a92ea5f6e637057,Added in a readme to the code repository.,2020-02-29 16:10:22-05:00,False
+39904ff717aca26daf06d4d0af4af7fcf95c3216,renamed readme to a markdown file.,2020-02-29 16:11:49-05:00,False
+89432f1c3bbd7ccbac9d3bfef18b79cf72a97e71,Updated our project README.,2020-04-02 12:28:26-04:00,True
+4c040d95225cfad9801827dbe5385c603990c9a8,updated some of the readme instrucitons.,2020-04-05 14:19:18-04:00,True
+8c2c2103c02631811dd943d076628a5c0be04836,Added in Affero license to the codebase.,2020-04-06 12:26:11-04:00,True
+8d19b0c0420fb893a603c1e3f7d19663a71b75d4,Fixed imports across the kwola packages to use relative imports.,2020-04-06 13:12:40-04:00,False
+a6724e1b964b2e06c03e2636e98beb70c34c3474,Improved the README dependencies installation section.,2020-04-06 13:42:55-04:00,True
+c6f03747ca305a0ae074c84588771869726abb90,Added in a docker example to the README.,2020-04-06 13:47:48-04:00,False
+60217cd477c33849e57f0caebf8b907ea91bbf00,Added in docker to the list of installation dependencies.,2020-04-06 13:56:47-04:00,True
+b2cee4d9650531e71e5f8485dd9b5cff64e1c712,Updated the Kwola installation instructions to refer directly to installing the package from pip instead of using the git repository.,2020-04-06 18:17:14-04:00,True
+1d792a888e7f796f77201170819b85f82a191e72,Cleaned up some of the console / terminal commands created by the package.,2020-04-06 18:29:45-04:00,False
+9008304ed1b0bdf6856a0fae4a732eca6619c2f1,Added in FFmpeg into the list of dependencies in the installation instructions.,2020-04-06 20:17:24-04:00,True
+3e766db5ce1baeb7070474df9c8fcbd662b1b2ac,Added a screenshot into the readme.,2020-04-06 21:06:52-04:00,False
+52368a17461da9944cae9b1a379203f82f6a5d19,tweak readme.,2020-04-06 21:08:28-04:00,False
+cb1351c6d13b5c1ba7a023d0bf42864c3193791c,fix install commands to have sudo prefixes.,2020-04-06 21:18:27-04:00,True
+f0ee032ef29a2ba20ee9295924380a5054988b91,eliminated unneeded command.,2020-04-06 21:18:59-04:00,False
+c27bc24350d4fa2de44d918fa6e729f4078ea358,Update README.md,2020-04-07 09:38:14-04:00,False
+c8680431b9ad6db397279c3eae2c0208ce357127,Updated the README instructions to include instructions for installing a c compiler. Also changed the install instructions to use a python virtual environment so we don't get any package version conflicts.,2020-04-08 09:52:10-04:00,True
+33ca3bc12f9fb2f334c043d2668709b9f4229e99,Added in the virtual environment to the kwola usage instructions.,2020-04-08 09:54:09-04:00,False
+dcf6dc1b14252a966da26d93e38fa5248f790a66,Added in a missing line to the readme.,2020-04-08 10:28:26-04:00,True
+453459997503be4b6739f773161799f1ab12a797,fix typo on readme.,2020-04-08 10:29:57-04:00,True
+5e74498dabb926ce8ad5728c6b492fd3df9926e6,Changed the naming of the kwola folder from results to run.,2020-04-10 10:15:22-04:00,False
+5a8b451205065cbd9687df5858df31f38782ce5a,Update README.md,2020-04-11 14:38:58-04:00,False
+a6e8ffca850c6d2797a3eca3c576b9033aee9efa,Update README.md,2020-04-11 14:40:05-04:00,False
+ab559c6848be9c60b2209210048bdb9254f0e7fa,Fixed the whitespace on the readme file.,2020-04-12 11:49:33-04:00,True
+b24c809b2823e67b93ea24adadbeba03c702cf10,Improved the headline description in the readme.,2020-04-12 11:52:39-04:00,False
+b1c938366162c4249fac116d848105ab89a00e33,Improved the headline description in the readme.,2020-04-12 11:54:05-04:00,False
+7b08c9ead4975f7d855b26a28d63ef02fd878828,Update README.md,2020-04-13 13:51:17-04:00,True
+af88c82fc01f257566694474c4c5fddd87d4e4d0,Update README.md,2020-04-13 14:06:27-04:00,True
+078acc31ba960824da45fa86a1eba578110d690f,Update README.md,2020-04-13 14:14:08-04:00,True
+4f746d8a9a51dff8ce544eeba7beac58c6ce1cfb,Update README.md,2020-04-13 14:45:32-04:00,True
+b498bb568b99ecbf1d0e1e9e463dbec928719b7c,"Update README.md
+
+updated instructions for macos",2020-04-14 11:19:32-04:00,True
+9100a98fe3479448b242910dee3f7f6250847804,Update README.md,2020-04-14 12:42:39-04:00,True
+65fd722ab2240f95ac5fac2b314209e455dccc51,Update README.md,2020-04-14 13:40:18-04:00,True
+15e9963f82551bbadda1277b47f7238b9beccc60,Couple of small improvements to the messages being printed.,2020-04-15 13:39:41-04:00,True
+89f88ee17ea61e4be39dc699313e8f10f5469cbd,Improved the readme.,2020-04-15 13:45:31-04:00,False
+b875a97545e6630f0772a1c18ad3da3d5fe32059,Minor tweak so that the kwola init script doesn't ask you if you want to tune any configuration settings prior to launching kwola.,2020-04-15 15:43:50-04:00,True
+0dd93a5d203a7a9bb596a191f9b693e13ffcdb4f,Update README.md,2020-04-15 23:56:31-04:00,True
+6b62e1adc94b0b9f373812b50f63f1ea9b7efb69,Added in the test commands into the README.,2020-04-17 23:40:34-04:00,True
+ef9a5b27aabf883051f4e59d9fb27a638d9e0821,Added in a new kwola testing command which will ensure that you can train the neural network correctly.,2020-04-18 00:51:11-04:00,True
+77b8510cbd70d1a955108f7e1c5992fde7832c4c,Added in some info to the readme and incremented the version number.,2020-04-18 00:54:29-04:00,True
+f5e63fcef8c60330d0c101ed87efedcbfc0b8c22,Added in a command that can be used to test whether kwola can interact with ffmpeg successfully.,2020-04-18 01:34:49-04:00,True
+eb891dd8555f3c70a79574bd3166b4b8b9733857,"Renamed the selenium test command to be called the chromedriver test, emphasizing which part of the installation sequence its related to.",2020-04-18 12:28:58-04:00,True
+668b5e6202118c91b9d4b5f2a6bcabb3cf3067c6,Update README.md,2020-04-18 13:52:41-04:00,True
+616e2dbd1bf816ae8f724f9d15f1c70d5b9cc02b,Update README.md,2020-04-18 13:54:35-04:00,True
+b8c6db3ac2224b87ee61e56f47f25979184b56ff,"Renamed the chromedriver test command to remove the word local, which is totally superfluous.",2020-04-18 14:18:51-04:00,True
+08a048374acbc2eb25ed5fe7a5ff956c506d159b,Added a version check to the python package.,2020-04-18 15:30:30-04:00,True
+ff40d7b7b3a397fee45d5d5b1f097c730fb837c9,Implemented a tool to help you install the proxy certificate that will allows kwola to decrypt ssl traffic. Made a few other small fixes to issues that were uncovered thanks to the new thorough test suite.,2020-04-18 17:24:29-04:00,True
+a003313e976028539f19b7087d254c1097e1e7a7,Added in mention of the full test suite to the documentation.,2020-04-18 17:27:23-04:00,True
+108dae6ac62431ef173ed2c022b6856e3f6eaa5b,Update README.md,2020-04-21 14:33:18-04:00,True
+3189447d9d6e71baabd1a2d61672317a21ed5f95,Update README.md,2020-04-21 14:36:25-04:00,True
+ce7814054a48ab8913d9b218f5bfef5ea371ee1f,Added in more explicit instructions into the readme for installing the TLS certificate for your MITM proxy.,2020-04-29 21:01:50-04:00,True
+149493a7a57eb1abc4f9d6fca7128f6fa2f7c0bb,Update README.md,2020-05-01 12:33:35-04:00,False
+98381574aa5592b0445c258a1864e6d6135342ec,"Updated README for python3 on Ubuntu 18 LTS
+
+Added command to install python3 dependencies on Ubuntu 18 LTS; python3-dev (provides Python.h required for compiling), and python3-venv to satisfy some of the later instructions.",2020-05-03 12:58:05-04:00,True
+f15a0e3564461132ff173b25dd80146f96e92451,Incremented version number for release. Also typo fix.,2020-05-07 17:26:50-04:00,True
+d04d00db851fc100f1513ddf3d25b57a0e6c2a35,Update README.md,2020-05-13 08:55:56-04:00,False

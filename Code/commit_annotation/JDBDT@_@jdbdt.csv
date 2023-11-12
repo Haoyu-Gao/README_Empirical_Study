@@ -1,0 +1,100 @@
+sha,message,date,result
+2462e821e7cdea6c1feeedc8075fea50e5e06f85,Initial commit,2016-03-03 23:21:00+00:00,True
+fa015bab3a5f86494b87e513a2af0dfafebb9052,README.md: updated,2016-03-08 16:13:25+00:00,True
+b9d8df36c70accfbc6d0d9b2b4da330f15249caf,README.md: adjustment,2016-03-08 16:13:55+00:00,False
+c3b81c49b0117a6c12e26143a1be8936d5db50b1,README.md: adjustment,2016-03-08 16:15:15+00:00,True
+d2933a6f68444bc6e268f9be0f2e49b95a087da0,PostgreSQL now also tested,2016-03-08 20:14:15+00:00,True
+937de4ee6ae025baf419f292663f614663e20de0,README.md: fixed typo,2016-03-08 20:15:26+00:00,True
+6cedfc68abb273f06052caf40a1c4d4fb9e95ee3,README.md: build status info,2016-03-08 22:23:39+00:00,False
+86f3b43bc433c5ad06cb8170be6775e0e92ffafd,README.md: fix,2016-03-08 22:24:26+00:00,False
+48ca6edc22964dc0d97e71641017cffd56a9dc05,README.md: fix again,2016-03-08 22:24:55+00:00,False
+1cabdea01ba3a33dd3c610fd5398cf6acee87d63,README.md: fixed for good,2016-03-08 22:33:39+00:00,False
+0caf4ddfb79c60070f8d10644bdad1000da67d1f,Testing with MySQL now,2016-03-08 23:54:55+00:00,True
+ec6ff4913775c68911ea64a9617a5d7684985b5c,README.md : updated,2016-07-19 16:19:56+01:00,False
+64219d4fd0d0864cb302a162c55b4f1a4650dc00,README.md: revised,2016-08-10 09:49:01+01:00,True
+5c5de0ae012e194a99b3e1d802cb00b1eed87976,"README.md: clean-up, Maven Central ""badge""",2016-08-12 18:24:19+01:00,False
+1e8e0a732cb9140ec716844b6e0b6e9906e8a6fb,README.md: small adjustment,2016-08-14 22:06:54+01:00,False
+1a6ed97f4cff4bf662b73d7d87031c8ca32a67da,README.md: updated,2016-08-16 14:51:44+01:00,True
+868fa7789262e45393ec59b4912074545c3dd7f4,README.md: change log,2016-08-16 14:59:44+01:00,False
+5904bb74a8132c858d21b0a8dbb38186fca1b9b8,Post-release clean up,2016-08-19 17:02:10+01:00,False
+718863182be434da5985b81639e17179abb0f36c,Post-release clean-up,2016-08-19 17:19:32+01:00,False
+fe20ddb4ef21a67635a49711f3bf93cdec0ee011,README.md: change log update,2016-11-29 15:20:30+00:00,False
+bad7c639367e19436109afd08513ac994eb01d8d,Post-release cleanup,2016-11-29 16:25:25+00:00,False
+5beca3ee9de0af132ad52ffb209f8738440964b7,README.md : update,2016-12-02 10:14:11+00:00,True
+87f704129a4cdbfa4adae59229421bc0f22169db,README.md: slight adjustment,2016-12-02 10:17:25+00:00,True
+056cb8d3fb797b6d5ddeadbddaf9c1422ca5820b,README.md: preparing release 0.4,2016-12-26 17:26:22+00:00,False
+102204770b447a192e160fb47c29c2dabd552c25,Post-release clean-up,2016-12-26 17:35:28+00:00,False
+82d271701e3fd55e5c83783d8742c4e85da0bea2,README.md: info on upcoming version (0.5),2017-02-22 18:21:37+00:00,False
+170d3ee050460710549b7acb3ec957069b530a4a,README.md: post-release cleanup,2017-02-22 18:30:05+00:00,False
+196110a096af32762021215d2140d550cb98272e,"* JDBDT: changed, populateIfChanged
+* Improved handling of statement reuse",2017-02-26 22:53:42+00:00,False
+d9841e30b27748ed675a91f2063dc743fdef94d9,README.md: small adjustment,2017-02-26 23:11:40+00:00,False
+1644e29542894cbee761d372951905a053b2d5ef,README.md: small fix,2017-02-27 01:53:10+00:00,False
+1dd8ff0a24ff672637c661f1d6457604eebf102a,README.md: update,2017-02-27 03:03:52+00:00,False
+b4212d279c14a3d59300dcb37fd25adfe97748b3,README.md: preparing release 0.6,2017-02-27 03:05:05+00:00,False
+830e67e51ca1bf7c35c702b323518e44270a76a0,README.md: GitHub release badge,2017-03-04 14:17:44+00:00,False
+bd81ac225afc1340b262768af93d1072b7fbeb23,README.md: revised,2017-03-06 21:58:44+00:00,True
+c6f769d9a5c5f83182a734b709e3f4139d976fcd,README.md: updated change log,2017-03-11 02:26:14+00:00,False
+fc63359e4ceb4744e4b519eb58ecc3e48cdf4e91,README.md: adjusted,2017-03-11 02:57:45+00:00,False
+86dc088a39c468383dc015f2fdff8ad48b980987,Post-release clean-up,2017-03-11 03:02:40+00:00,False
+f4bf2d5df2335cd1b504fa2261f3fdabd2db467b,Post-release cleanup,2017-04-08 19:11:19+01:00,False
+f8e06e5ff85e90463dc612d1ef34022722c1e9c8,Preparing next release,2017-04-29 18:31:36+01:00,False
+4da65dfe3ff867b2163e6034e79c5e6b8378551e,Preparing next release [skip ci],2017-05-07 23:28:38+01:00,False
+6cf5290979233e494185429c7f6f620e646eb895,Fixed typo [skip ci],2017-05-07 23:45:34+01:00,False
+25a1b48612cd5f88c99519c3883adbee6c5779e2,README.md: change log update for release 0.11,2017-05-13 21:50:31+01:00,False
+3c92625aba7c026b174e8caed4c3978f52fc8a20,MIT license now used - closes #14,2017-05-18 14:37:36+01:00,False
+4b1921cee58f9f7c17448531da935c019073d5cb,Reference to use of EPL before 0.12 [skip ci] #14,2017-05-18 14:42:13+01:00,False
+3a0249da28e5cc76d494b086d765d2ea933219e2,README.md: small adjustment [skip ci],2017-05-24 14:25:43+01:00,False
+7dfac60c3a0e397971d4abda2fdc2a22702d7f70,README.md: preparing release 0.12 [skip ci],2017-05-26 18:42:50+01:00,False
+ed64264bbb8e4e802d7e6317e9f95a159d1365e5,README.md: AppVeyor badge [skip ci],2017-06-01 04:24:52+01:00,False
+c41f9e8d40dc30376648b1bcf2f5c856362e6257,README.md: change log reference to #18 [skip ci],2017-06-01 05:21:33+01:00,False
+f7d1c344fe3f47c5b7ae896ce1ea6e12d6504a9e,README.md: updated change log - closes #19 [skip ci],2017-06-01 13:29:29+01:00,False
+87b5c8074640476b3f4b8617d588c259da99489f,README.md: change log update - closes #20,2017-06-01 21:05:31+01:00,False
+0118c301152d75c56fc00d02805a6acfa9680b7a,README.md: small fix [skip ci],2017-06-01 21:06:42+01:00,False
+0e5f2ffc039c460360818bad94c4c280e7c3300d,README.md: fixed typo [skip ci],2017-06-01 21:07:14+01:00,False
+08d3c8134e038ba02cda208b388ab945be92be12,README.md: updated change log - closes #24,2017-06-07 01:52:37+01:00,False
+2034f567fec26b96306e311132c6a2dafaccb9fd,README.md: change log update - closes #22 (at least for now) [skip ci],2017-06-07 02:02:54+01:00,False
+138acbb20d41009de97c6a0870dd72484f773591,README.md: small adjustment [skip ci],2017-06-07 02:06:19+01:00,False
+bef2fb87cb5b3ef4ee8514d040f4035945987a7a,README.md: change log update - closes #23,2017-06-07 13:56:15+01:00,False
+fa450a487670997b289ca662ee8a27a2e646b665,README.md: Change-log update [skip ci],2017-06-16 01:04:29+01:00,False
+426e47c5a90b14ecbcbb314b5b453dbb7682c4e4,README.md: change log update [skip ci],2017-06-26 01:14:55+01:00,False
+1611e9b23f2b64f7786aa2c5b3075d2bad344f64,README.md: change log update [skip ci],2017-06-26 02:24:50+01:00,False
+fe120bec07457115fa1f6785b28a12ecefa7a1dc,README.md: change log update [skip ci],2017-07-04 19:58:14+01:00,False
+53d9eed1d92b3e8b62d33d743722a430d67ecf75,0.13-SNAPSHOT => 1.0.0-SNAPSHOT,2017-07-08 22:31:51+01:00,False
+8798d0f9c6fad0a5e7024dd601ad04f32096ad06,Preparing release 1.0.0 [skip ci],2017-07-08 22:37:13+01:00,False
+b75afd605e3d5e607610adad27502ede705fd150,README.md: Coverity badge [skip ci] - closes #29,2017-09-16 16:05:17+01:00,False
+0ffdf6f6f6e1cacced88042ba2fbba2ed40b553b,README.md: updated change log for 1.0.1 release [skip ci],2017-09-16 16:12:38+01:00,False
+ea1dd2c46e574f5d8af3c53f72910ff38bc415e9,README.md: small adjustment [skip ci],2017-09-16 16:13:47+01:00,False
+c4d816a941096993115890267ff3bd2447741fbc,README.md: updated change log [skip ci],2017-11-23 02:00:16+00:00,False
+a5d34e4f52a257b73ec5c523712a4f2d2b2cdffa,README.md: license badge [skip ci],2017-12-03 14:23:21+00:00,False
+707ca6035d9748fa3c181fdedb9e574d7ace53b5,README.md: fixed required Maven version [skip ci],2017-12-03 14:26:24+00:00,True
+3d26c84dc737df8ca59f4d74dd80f2d36cd7ebe6,Slight adjustment [skip ci],2017-12-29 21:47:47+00:00,False
+252fadb08efa4b29a154f6571a4908fc4bcc17e7,Change log update - preparing release 1.0.3,2017-12-29 21:53:30+00:00,False
+5cc0a61a26eb560b54c434c5b8a16116504ba5be,Updated source for Maven Central badge [skip ci],2017-12-30 14:57:56+00:00,False
+e9018c4970293f30e42aa1f7d7cedc5f85e4aa90,Updated copyright dates [skip ci],2018-01-06 19:10:49+00:00,False
+66af65d23794928802a94c54c67d0065c0d60ea6,License link changed [skip ci],2018-01-06 19:13:31+00:00,False
+df0851a0d92d74f4ff93d0097addbee3da0b2303,Link fix - use http rather thank https [skip ci],2018-01-06 19:14:46+00:00,False
+ac274fcd43f0c4183153df607ed9a225062d96b0,README.md: simplified change log [skip ci],2018-01-22 22:45:43+00:00,False
+512e51cac759b38c284b01a3faf4d1130c541afc,README.md: fix [skip ci],2018-01-22 22:47:02+00:00,False
+d11415ecfd23eaf13b4864df3f69edcaae670bc9,README.md: small fix [skip ci],2018-01-22 23:00:30+00:00,False
+5dbb26d51ad78eccad2b7ad342b12d9b00f14177,Handling transfer of ownership - #36,2018-02-16 20:28:49+00:00,False
+b8dc072b082660d9da8c1f605be3ef6cf9f1a944,Updated changelog for upcoming release 1.0.5 - #35 [skip ci],2018-02-17 11:40:35+00:00,False
+e70bf13dc2ebe0d50ddb4be94ed286a4c053d851,README.md: Fixed typo [skip ci],2018-02-17 11:50:22+00:00,False
+8eeab7983e7be15e099c16f5ca31ce67acfc679c,README.md: adjusted AppVeyor link [skip ci],2018-03-13 22:26:58+00:00,False
+61e0331264d277f5d109dc368da31c37956f0043,README.md: updated change log for next release [skip ci],2018-03-14 16:54:02+00:00,False
+74b627b567e5069403a45585fe18071379e1cfdd,Post-release cleanup,2018-04-15 16:05:29+01:00,False
+e589dc51b78700c3659ebe5fc2a8678f688e295e,README.md: updated change log for next release [skip ci],2018-06-11 23:18:46+01:00,False
+77e0a22f52053e88b76792c3dfcb3aa24eae4779,README.md: preparing release 1.1.0 [skip ci],2018-08-14 18:59:10+01:00,False
+a5c44fd39a6c961cf511a061cca52a5d66d44570,README.md: small adjustment [skip ci],2018-08-26 13:40:32+01:00,False
+9b3715dfe0645b83b34e4fee60f2fbb3302f2337,README.md: small change log adjustment [skip ci],2018-08-26 13:43:50+01:00,False
+022aeb504366ef6cfd3acc3ba83d538c98ba05c7,"README.md: change log update, in preparation of next release",2018-09-04 14:35:02+01:00,False
+762cf5e1b23cc38638962e7e475be791628eed15,Post-release cleanup [skip ci],2018-10-06 22:17:57+01:00,False
+03a6559444aec35fe635b610d229dad0cec147c5,README.md: updated change log before release [skip ci],2018-12-11 20:34:27+00:00,False
+695914e0ee184a4f57194bbfa27ce9cf95c08272,README.md: preparing next release (1.2.1) [skip ci],2018-12-22 12:18:01+00:00,False
+16e837377931ec6b3436992070d4d0d2415a99c0,README.md: updated change log,2019-01-23 10:29:22+00:00,False
+839b93490cf6e433d9e07ab3f6393afb6d27a920,README.md: removed Coverity scan icon [skip ci],2019-01-23 10:34:28+00:00,False
+42c6739b0ebfba1b8e1b8eb94ea716b7ef128b16,Post-release cleanup,2019-03-01 19:58:02+00:00,False
+9cc55b3d83fb7ee6173e8f5af3241f9b2980414d,Post-release cleanup [skip ci],2019-04-16 00:45:52+01:00,False
+4febb50fa119e8a33adfc601ccde4519b9d509ca,README.md: updated change log [skip ci],2020-10-12 18:35:53+01:00,False
+1a4bf9727472ab0397486f092c9509972fb36156,README.md: updated change log [skip ci],2021-01-27 19:18:33+00:00,False
+48b6ea5a935851d5373b3741850a1bc371f1c3b2,Post-release cleanup [skip ci],2021-09-25 12:50:54+01:00,False

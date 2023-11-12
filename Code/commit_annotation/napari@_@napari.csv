@@ -1,0 +1,422 @@
+sha,message,date,result
+2eb15729ad62eaedba3c10f6f93124caaf474695,Initial commit,2018-08-12 18:12:29-07:00,False
+e1ea68859edf366bfd68cf0d12a5f718d9303693,readme populated,2018-11-02 16:04:36-07:00,True
+63adbe5c70420b9748072ccf47628145489580c0,note on readme about stability added (#76),2018-11-29 11:55:03-08:00,False
+59aa8a5e37ec63d47c7057ade098fb34f9828f16,"Improve GitHub contributing resources (#72)
+
+* update README
+
+* update contributing guidelines
+
+* modify PR template",2018-12-08 20:01:29-08:00,True
+8769191812507bba3ae33f1812ce95db365a6e19,"Rename Napari-GUI to napari (#151)
+
+* Rename gui/napari_gui to napari
+
+* Rename napari in setup.py
+
+* Update examples to use the new name
+
+* Update README to use only 'napari'
+
+* Remove mention of plugins in README.
+
+When we have implemented the first plugin, we can add it back in.
+
+* Remove various versions of napari-gui in repo
+
+* Remove old style napari.yml file
+
+* Fix Cirrus config",2019-03-03 15:16:43+11:00,True
+8907e45e0a302538c1419ba4a29ce63f16674b06,"Update shields on README (#169)
+
+Fixes #168",2019-03-09 08:36:51-08:00,False
+ee8ce15e978c3d5182c4a7e35e673b06f1a1829c,"readme updates (#192)
+
+update the readme to be more friendly to newcomers while still appropriately caveating the very early state of the project",2019-04-01 14:26:41-07:00,True
+4e16e612406030f199a5c8fe40ea831f01f1202c,"updated screenshots (#244)
+
+* update existing screenshots
+
+* add screenshots for shapes and labels
+
+* fix list of future directions",2019-05-03 14:45:49-07:00,True
+4948e0302df3d704e8d913f6dfe6ea05b8f2587d,theme setting (#253),2019-05-10 11:31:43-07:00,False
+e28442cae6f10cf4e93a260fa2ede2a05a0f0afd,tiny theme related fixes (#258),2019-05-14 14:11:31-07:00,False
+a0060cf3fe038f17e69ff598c16e287c4d641d93,Refactor viewer syntax (#290),2019-05-23 18:11:10-07:00,False
+01b8ff014a48f25e2e3e4666e27c1e367d4abe11,"Black formatter PR (#282)
+
+* rtd theme, globaltoc added on side bar, warnings are only for docstrings
+
+* contributing guideline update on dev-docs
+
+* fix sphinx-apidoc command on CONTRIBUTING.MD
+
+* merge conflict resolution
+
+* initial black pr commit
+
+* black integration and corresponding documentation
+
+* pre-commit requirements version fix
+
+* Update CONTRIBUTING.md
+
+Co-Authored-By: Kira Evans <contact@kne42.me>
+
+* fix on black integration and its documentation, removal of formatted code as discussion ended
+
+* black version fix
+
+* max line length added to pyproject.toml
+
+* contributing guideline update upon review
+
+* Update black info on CONTRIBUTING",2019-06-05 18:29:18+10:00,False
+0260520c1d6b45c4adfbb871f6018d68c530ae5c,Change layers.Markers to layers.Points (#348),2019-06-19 12:37:49-07:00,False
+6c1575ab3d40bc50c8f0bbc2a0b79a36da9f56c3,Rename app_context gui_qt (#392),2019-07-06 08:58:25-07:00,False
+18041f51129f3726607e1e4afc5b0aade00bb3ef,modified multiple images overlaid figure (#399),2019-07-09 12:55:22-07:00,False
+5c0c7ad718d2c5ea8ffbc262893d797dbea2a2db,update readme for alpha release (#402),2019-07-10 13:38:56-05:00,False
+d1c99e30686b630590b5260f88627d7d86d6e0c1,switch to pyside2 (#412),2019-07-13 23:59:38-05:00,False
+9e5ad5766377354a89bbaf388149c3598d6a1e55,move tutorials to napari-tutorials repo (#425),2019-07-18 19:05:57-07:00,True
+a1e0e848e59eaac478a716f9e1216f21a96c05b5,"use codecov (#455)
+
+* use codecov
+
+* add codecov badge to README",2019-08-23 18:59:53+10:00,False
+fb8ad527cc38977fea20c0276b9bc846d7c27a21,DOC: specify that IPython needs to be started with `gui=qt` (#525),2019-09-12 13:26:41-07:00,False
+7dfb308f9c05cc4abcdf84dbdcb3c0eee48e8381,add multichannel (#528),2019-09-13 15:20:33-07:00,False
+315ca2a85d81b76ae6e4c476638a184ad42686db,add view_* methods at napari level (#542),2019-09-23 20:31:17-07:00,False
+b41f25e422d850615cd87bbdb344fa08381e395e,update readme for 0.2.0 release (#557),2019-10-01 14:00:34-07:00,True
+2b7210260fe29509f32410e7fd0afe14d00b96ba,add code of conduct (#374),2019-10-14 18:19:26+01:00,False
+346dbdad9c9506bbcf39403cce2ca29d5f268331,"Move docs (#602)
+
+* move docs
+
+* move gen release notes",2019-10-19 14:17:23-07:00,False
+e28d412774d24b6c538f8cfa96796a3dcf65a938,fix_qt (#677),2019-11-11 09:30:58-08:00,False
+112097fc35446d0ac9eceba74d3db82a0cfacbce,"Zenodo badge (#743)
+
+* add zenodo badge
+
+* edit citation",2019-11-28 16:57:01+11:00,False
+b4eec93934d5791e7e85769924b4e27ddce513a9,clean up info box (#750),2019-12-02 17:15:45+11:00,False
+d48dbd9afac9539224c7b7e9d3c29c88b67603c3,change language around windows (#779),2019-12-09 13:58:28-08:00,True
+69f6afb42bbbf645fb943188b1494ecd5fd97fa6,"add governance model, mission and values, core dev guide (#655)",2019-12-18 15:56:15-08:00,False
+c01024f151546f7a2ada9727572efb3e65fa4f0f,"Sphinx docs restructuring (create space for dev-focused prose) (#942)
+
+* sphinx reorg
+
+* update links in readme
+
+* remove warning, open page on docs build
+
+* remove concepts and plugin from TOC for now
+
+* remove concepts
+
+* move md to developers
+
+* add release notes, remove private
+
+* make the logo soooo small, you can barely see it ;)
+
+* add back apidocs
+
+* put announcement paragraph back",2020-02-05 14:17:56+11:00,False
+208163e45e805370a404900c5fb9846126cfd07d,Fixes broken tutorials links (#946),2020-02-05 07:44:31-08:00,True
+fa122dc87e10019b50bf0dfac4d273561b194ad5,remove confusing 'in-depth' descriptor (#949),2020-02-05 21:30:16-08:00,False
+c1d5427b7bc392ea91d9ad8f01a5ea33ec026365,Roadmap for 0.3 releases (#1095),2020-04-15 09:20:27-07:00,False
+6816dccd1c360d031fc149b59f22a46b6c1b86ad,"Packaging and setup.py refactor (#1324)
+
+* merge in changes from setuptools branch
+
+* update napari-svg
+
+* fix cov task
+
+* remove E741
+
+* Update README.md
+
+Co-authored-by: Juan Nunez-Iglesias <juan.nunez-iglesias@monash.edu>
+
+* add back requirements folder as aliases
+
+* add informative error message if no qt backend
+
+* update install directions
+
+* add [all] option with pyqt5
+
+* change version when not installed
+
+* add author email
+
+* more docs updates
+
+* remove pip-check-reqs
+
+* trim fsspec and backcall
+
+* add fsspec to test requirements
+
+* back to old requirements patterns for devtools
+
+* don't change name of test.txt
+
+* seperate check manifest
+
+* update docs
+
+* move detail about pyside/pyqt
+
+* formatting
+
+Co-authored-by: Juan Nunez-Iglesias <juan.nunez-iglesias@monash.edu>",2020-06-02 15:59:03-07:00,True
+6496afe91658b9a99a47c104772006f52bc5a56d,"Fix docs version, reformat and add explanations (#1368)
+
+* add windows path
+
+* test clone depth
+
+* add default container
+
+* clone depth 200
+
+* fetch tags before install
+
+* final
+
+* add explanations, move docs
+
+* remote plugin change",2020-06-17 13:32:06-07:00,False
+27add844e1c8193341f1ed92a3c8aa63229b45b6,drop Python 3.6 (#1652),2020-09-28 09:39:02+10:00,True
+e0092ac4427cb9371f30f0cda87dcf6b4b71467f,"doc: Fix top-level links referenced in README.md and published on napari.org (#1750)
+
+This commit fixes links to mission and values, governance, and related pages
+by implementing changes suggested in #1702.
+
+This fix is similar to ba72fc2f3 (Fix 404 links in documentation and
+remove warnings in docs build)
+
+Background: Following commit ce154d62e (Build docs action (#1638)), documentation
+is built and published to a dedicated documentation repository (https://github.com/napari/docs)
+associated with URL https://napari.org/docs. This takes precedence over
+the publication of the top-level README.md as GitHub pages associated with
+https://napari.org. This commit addresses this problem by directly linking
+to page published at https://napari.org/docs
+
+Suggested-by: Nicholas Sofroniew <sofroniewn@gmail.com>",2020-10-21 09:41:38-07:00,False
+d3ea593824247fa47f5b7bef5c3b15088cc94cfd,"Update installation readme (#1758)
+
+* Update README.md
+
+Co-authored-by: ziyang <zliu@chanzuckerbreg.com>
+Co-authored-by: Juan Nunez-Iglesias <juan.nunez-iglesias@monash.edu>",2020-10-23 12:05:21-07:00,True
+ed34af845176adf9183d77b0e21c7a53e1a0f322,Fix image.sc badge link to forum (#1828),2020-11-03 23:41:05-06:00,False
+df5eaca37df556bbcea07f8301cb8af9c20814e7,tox tests on github actions (#2051),2021-01-01 13:08:30+11:00,True
+b36cfdca2572bb0fc6e17a4e6849aa375acde505,Update install instructions to work with zsh default Mac shell (#2258),2021-02-13 14:58:49-08:00,True
+78abf1f7a67b7ff53c29656d2078b6a3e12fa196,"Fix broken links in README (#2275)
+
+* Fix broken links
+
+* Remove out of date roadmap link",2021-02-16 09:57:19+11:00,False
+932bf1058e7e33d967362251e4b0ab0e92e7fb93,Deprecate gui qt (#2533),2021-04-14 23:08:46+10:00,False
+a09f710f67a25cc3df058149b467554720ee3941,Add link to top level project roadmap page (#2652),2021-05-04 12:17:51-07:00,False
+283501fbfefd9166fceddf239741957c526d1142,"Add binder to repository and badge on README (#3244)
+
+* Add binder configuration and badge on readme
+
+* Add files to manifest ignore
+
+* Update naming",2021-08-25 17:56:41-07:00,False
+b233a83f45a14aba3cc0d0694d5b7acb8d4dcee0,"Update references to master to point to main (#3351)
+
+* Update GH workflows to point to main
+
+Note: the docs repo has *not* been renamed because it is
+automatically updated and renaming it unpublishes the gh-pages
+site.
+
+* Update master refs in README to main
+
+* Update benchmark refs to main
+
+* Update docs references to master to main
+
+* Remove references to master in code; also for vispy",2021-09-07 09:44:07-04:00,False
+63ce8c87d45befbbbe6fb0062f5473fe8b204874,"Update README.md (#3396)
+
+* Update README.md
+
+Use double quoters for crossplatform installations
+
+* Update README.md",2021-09-20 11:04:55-05:00,True
+1287e618469e765a6db0e80d11e736b738e62823,Update formatting in README.md (#3482),2021-10-14 18:35:19-07:00,False
+66c9ad63b1b8f4c839168bc5ef43b7109f5abbba,Add links to napari repo in README (#3484),2021-10-17 20:36:36-07:00,False
+6dbe451a953fecaf38fbc716f6abc24dd3de70d4,update install version (#3678),2021-11-22 16:53:18-08:00,True
+b572012f38046278078201e6880f278b8b6a12c0,"Support python 3.10 (#3702)
+
+* py310 tests
+
+* pin torch test version
+
+* add 3.10 to setupcfg
+
+* gate tensorstore
+
+* cleaner
+
+* switch to pyqt5",2021-11-27 10:25:55-08:00,True
+5d74bb93f60387186a66d34c5d193c44713ddfe6,Remove excess installation details from README (#3833),2021-12-20 20:07:51-08:00,True
+09930fe649201d00a0702531d3420e4873831152,"Readme install update (#3862)
+
+* Remove excess installation details from README
+
+* Update installation guide in the README",2021-12-22 02:40:23-08:00,True
+6b7955c2fe7f96e06d2620658b888e046fec24ad,"Link ""development status"" button in readme to explanation of ""Alpha"", ""Beta"",... (#3885)
+
+* Link ""development status"" button to explanation
+
+* Link to relevant section on the Wikipedia page
+
+Co-authored-by: Kevin Yamauchi <kevin.yamauchi@gmail.com>
+
+Co-authored-by: Kevin Yamauchi <kevin.yamauchi@gmail.com>",2021-12-28 05:02:06-08:00,False
+ad633338d4013abc36d5de771b17320171fec9c0,"Use cells3d image in README example (#3823)
+
+* Use cells3d image in README
+
+* Use napari view_image instead of open_sample
+
+Co-authored-by: Juan Nunez-Iglesias <juan.nunez-iglesias@monash.edu>
+
+* Use napari view_image instead of open_sample (part 2)
+
+Co-authored-by: Juan Nunez-Iglesias <juan.nunez-iglesias@monash.edu>
+
+Co-authored-by: Juan Nunez-Iglesias <juan.nunez-iglesias@monash.edu>",2022-02-22 09:37:48+11:00,False
+5889a8332301efc823a011d9e93952e5917b0900,"Uniform install instructions. (#4206)
+
+* Uniform install instructions.
+
+Use the same `-c conda-forge` everywhere.
+See https://github.com/napari/napari.github.io/pull/334 as well
+
+* add pip everywhere
+
+* Revert ""add pip everywhere""
+
+This reverts commit 6a9853f940dd8aa0a59a981c5a7c5b4cde4a2767.
+
+* remove pip from readme",2022-03-11 20:36:12-05:00,True
+e5eae16795b97b8223966f795bb2f0ba6ab1df8b,"Fix README links Contributing Guide, Mission&Values, Code of Conduct, & GovModel (#4269)",2022-03-16 07:24:00-04:00,False
+57c3c348022ffc362f8712ec844dadb0579b7276,"Add and/or update documentation alt text (#4375)
+
+Co-authored-by: Andy Sweet <andrew.d.sweet@gmail.com>
+Co-authored-by: junxini <98626158+junxini@users.noreply.github.com>
+Co-authored-by: Draga Doncila Pop <17995243+DragaDoncila@users.noreply.github.com>
+Co-authored-by: Melissa Weber Mendonça <melissawm@gmail.com>
+Co-authored-by: Nathan Clack <nclack@gmail.com>
+Co-authored-by: melissawm <melissawm@gmail.com>
+Co-authored-by: Juan Nunez-Iglesias <jni@fastmail.com>",2022-04-15 12:29:47+10:00,False
+5fc26cc00d64d389ca077fc6f8d1fcda2da9181c,"DOC Fix Broken links in the governance section of README (#4408)
+
+* fix link to team
+
+* typo",2022-04-25 20:08:05-07:00,False
+ead5e5051aa0bb850b52e72cfed2bcd5c26b877b,"Add CZI as an Institutional and Funding Partner (#4524)
+
+* add czi
+
+* Update team.md",2022-05-13 11:08:14-07:00,False
+23c85bfd76a0eb40622eb2dfeb4efdc19cf1c58d,"Make references to examples link there (#4767)
+
+* docs/index: fix references to main branch
+
+* Make references to examples folder link there",2022-07-03 14:11:48-04:00,False
+d28381d88b8ead6efd0aabb01c1cafc368846a87,Fixing readme typo (#4791),2022-07-08 11:37:36+02:00,False
+e90c7f882bd6cb4b280fc8834189ccfc1f4ee4a0,Re-add README screenshot (#5220),2022-10-15 18:02:42+11:00,False
+ed26f412892c1e5fdb4d39cb4ebc749e56573403,"Update screenshot in readme (#5452)
+
+* Update README.md
+
+* Update README.md
+
+Co-authored-by: Peter Sobolewski <76622105+psobolewskiPhD@users.noreply.github.com>
+
+Co-authored-by: Peter Sobolewski <76622105+psobolewskiPhD@users.noreply.github.com>",2023-01-11 17:53:31+01:00,False
+1477132b30170bc959bc2cdcc9c0895fb11563c8,"MAINT: Follow Nep29, bump minimum numpy. (#5532)
+
+Co-authored-by: Peter Sobolewski <76622105+psobolewskiPhD@users.noreply.github.com>",2023-02-17 14:18:48+01:00,False
+ef1ca42839b5820c9acb7894715880f92ebcd895,"Update README to display CZI logo for dark and light GitHub themes (#5800)
+
+# Fixes/Closes
+- Closes #4752
+
+# Description
+- Currently the CZI logo on the README is not clear with the GitHub dark
+theme. Updated the README with HTML to display the CZI logo based on the
+GitHub theme. The GitHub documentation linked below describes this
+feature.
+  - Light theme:
+<img width=""381"" alt=""image""
+src=""https://user-images.githubusercontent.com/871137/235832510-23ed854b-893c-42b3-84f0-a6ccc5003ad5.png"">
+  - Dark theme:
+<img width=""396"" alt=""image""
+src=""https://user-images.githubusercontent.com/871137/235832478-ba70b9b9-98ce-4b91-878a-39a45a36c1a0.png"">
+
+# References
+- [GitHub Docs - Specifying the theme an image is shown
+to](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#specifying-the-theme-an-image-is-shown-to)
+
+## Type of change
+- [x] Bug-fix
+
+# How has this been tested?
+- [x] Verified on personal fork/branch that README correctly displays
+the logo for both light and dark themes.
+
+## Final checklist:
+- [x] My PR is the minimum possible work for the desired functionality
+- [ ] n/a I have commented my code, particularly in hard-to-understand
+areas
+- [ ] n/a I have made corresponding changes to the documentation
+- [ ] n/a I have added tests that prove my fix is effective or that my
+feature works
+- [ ] n/a If I included new strings, I have used `trans.` to make them
+localizable.",2023-05-08 13:51:51+02:00,False
+d4ba4a08313775b7a7fc2c1a71f80f82503c8d37,"[MAINT, packaging] Remove support for briefcase installers (#5804)
+
+# Fixes/Closes
+Closes https://github.com/napari/napari/issues/5506
+
+# Description
+
+The Briefcase bundles have not been working for a while (at least in
+some platforms), nobody is testing them either, and our development
+efforts are mostly directed to the `constructor` installers.
+In this PR, they are removed to [avoid CI
+waste](https://github.com/napari/napari/issues/5660) and permit deleting
+some strange code paths for Briefcase workarounds.
+
+# References
+
+## Type of change
+- [X] Removes / deprecates code
+
+# How has this been tested?
+<!-- Please describe the tests that you ran to verify your changes. -->
+- [x] No CI jobs for Briefcase
+- [x] Tests pass without the extra Briefcase workarounds
+
+## Final checklist:
+- [X] My PR is the minimum possible work for the desired functionality
+- [x] I have made corresponding changes to the documentation:
+https://github.com/napari/docs/pull/147
+
+---------
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Grzegorz Bokota <bokota+github@gmail.com>",2023-05-24 18:36:28+02:00,True

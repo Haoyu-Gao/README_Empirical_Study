@@ -1,0 +1,16 @@
+sha,message,date,result
+6b23a664f9e89970a0f8e3009505f55bc1849ad2,Initial release,2018-06-18 00:28:23-07:00,FALSE
+80236bb80e2011aacc16dbd0510c8e51d01aa4d4,Add links to online documentation,2018-07-11 22:29:57-07:00,FALSE
+71558157f2e4f028c52979eff88eac21409ff184,Update README for release 0.2.0,2018-07-24 09:43:03-04:00,TRUE
+ce2aa38e358c8151d502114c94adffda688fa05e,Update version numbers in README,2018-07-25 11:11:18-04:00,TRUE
+512b0b66fe23ac4dd192f0fff5e211f79a5c41a5,Update README for 0.3.0,2018-08-16 11:12:40-07:00,TRUE
+db746428115c49f96d58a22be4af0e44874ba374,Change README to 0.3.1 and add Maven Central instructions,2018-08-31 00:10:29-07:00,TRUE
+c245f42a99bebba7fb59077e02498d6be88a0575,Bump version numbers after 0.4.0 release,2018-11-03 17:20:42+01:00,TRUE
+0b2c0fc4534e6facbfaf1c0cfa63b3cae4cfa38e,Bump version numbers after 0.4.0 release,2018-11-04 09:49:38+01:00,TRUE
+e4fe06a663b53b674403af4dae1c60b51b0a8618,Update links,2018-11-06 15:24:25+01:00,FALSE
+02e585ea39bd77e58f96b0b7100ffc08e3eac789,Syntax-Highlight XML,2018-11-08 10:11:53+01:00,TRUE
+770038beb43195e9879197051d15183d153de7cd,Syntax highlight shell,2018-11-08 14:57:07+01:00,TRUE
+622909c6eae98e18248fafe6e3c8240db186861a,Bump version numbers after 0.5.0 release,2018-11-26 21:11:27-08:00,TRUE
+50120059924430c30ce39bb47274fb86f2098f81,Update download links. Prepare to move to the 1.0.0 builds,2019-01-16 11:38:18-08:00,TRUE
+37fffc5086a6d5c41dab8cbbe6404228c13f4408,Add move notice,2019-04-03 10:55:07-07:00,FALSE
+6bb7cf2162beffc84d6b479473a103994f006ced,Add note about move in preparation to archiving this repo,2019-04-22 12:07:33-07:00,FALSE

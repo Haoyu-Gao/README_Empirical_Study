@@ -1,0 +1,1088 @@
+sha,message,date,result
+3aef6b1624f02f32e0220a7cb40220795baded5e,Create README.md,2013-09-23 16:04:45-07:00,FALSE
+00b460c3d5466f34435ad865f11efdc9eb86098b,Update README.md,2013-10-24 14:55:13-07:00,TRUE
+4887b46799d3701837405317e00e8085d14a5b30,clean up sample for new api,2013-10-24 15:53:59-07:00,TRUE
+d07fc5c456bb95905a4ab5244e7e1601e90b897e,Update README.md,2013-11-14 11:21:20-08:00,TRUE
+c319922cda6a7da3390d2ad16507f2348c74a0c9,Update README.md,2013-12-16 11:11:29-08:00,TRUE
+c8ae9a46f6b11bc0d903a838a81b77171fd280ee,Update README.md,2013-12-16 11:12:51-08:00,TRUE
+ed41726b1fd7b29c99f1311a86056d850f0275b1,"Update README.md
+
+Settings related part is old.",2014-01-27 11:57:08-08:00,FALSE
+c197d4816ec48fe67f342662ce9bb73118807c62,ReadMe update for launch,2014-01-28 11:35:22-08:00,TRUE
+6b6c05365262a5f36c7f38377936f8cc79ab17a9,Update README.md,2014-01-28 11:35:58-08:00,TRUE
+38f796f2f448a62d24d2d1e50d7d34d245c08675,Update README.md,2014-01-28 11:49:12-08:00,TRUE
+eeea10c292f8ec5967b43c6ad24df1e5799faab7,Update README.md,2014-01-28 11:51:48-08:00,TRUE
+c7591a9c7eb55738ef419cbc9b0e5d6fc843610c,Update README.md,2014-01-28 11:52:45-08:00,TRUE
+099f9e7553ce727845c1b4f306187d184c77d9f1,Update README.md,2014-01-28 12:03:54-08:00,TRUE
+a5dcd535370a8b636ae0b6ffbcf2496b896bb1e3,"Update README.md
+
+rename ios to android",2014-01-28 12:13:26-08:00,TRUE
+55a00e8b4591bd406ee7099092232ea58cdd43f3,"Update README.md
+
+add travis CI icon",2014-01-28 17:18:19-08:00,TRUE
+48b68afa1d61fb000f30c0aa140c23b22392e649,"Test Coveralls
+
+Not an actual change.",2014-02-11 13:23:40-08:00,FALSE
+0577592a5cdf19670dfca2e7530b446b75ac9f30,update for maven usage,2014-02-25 16:09:28-08:00,TRUE
+4ed73e2824109e6dc9c4307abcd2231b23a4df8c,"Update README.md
+
+update readme file to start build for dev branch.",2014-02-27 09:47:02-08:00,TRUE
+0a144fbe57541ea2f19e7e3fe3db3df7a43e9840,Update README.md,2014-03-05 17:27:51-08:00,TRUE
+5491662c195415da20531a8ed6a00814585334d7,"Update README.md
+
+explained mvn usage to get libraries such as gson and support-v4.",2014-03-07 11:57:05-08:00,TRUE
+744973c15f5b61bd7ce5e1414eb63e4443d225c3,travis does not work with latest android sdk using maven-android-sdk-deployer,2014-03-07 14:52:02-08:00,TRUE
+2da3ce24c2ebe9fb9d198dafba712d1b84463a8d,"Update README.md
+
+explained mvn usage to get libraries such as gson and support-v4.",2014-03-07 16:18:14-08:00,TRUE
+d6ca781d7bf062bb43dfc7d26025cb5d1cebd386,"Update README.md
+
+add reference to android developer site about adding a library project",2014-03-07 17:29:59-08:00,TRUE
+0018c519e8893a4c28c3981ac141afc638edd2af,Update README.md,2014-03-07 17:30:22-08:00,TRUE
+d911a5c3c9a769ac4355be9ff4f304d1dda15441,maven sample app description,2014-03-07 20:15:21-08:00,TRUE
+0e2ba16fbf48dd907aa71e83929ac7c0df15fee6,"Update README.md
+
+Update for authority url info",2014-03-20 11:37:57-07:00,TRUE
+629c9d37aa3d6158b98ab7eac63717ed2212c0fc,"Customization of authentication activity
+
+Most users don't know that they can customize resources in android.",2014-04-18 10:15:15-07:00,TRUE
+a6daefb647e8e0d6ae492b5abafbc45ffe048f83,"Update README.md
+
+""will"" was missing the ""w"" making it ""ill"".",2014-05-05 10:36:10-04:00,TRUE
+6e92b54ddf9d103af6cac4f706618801bf11add7,update README.md,2014-05-05 12:13:56-07:00,TRUE
+6d78645b319c93dc8a2c469baa4fadad28d93804,update readme file,2014-05-05 12:15:40-07:00,TRUE
+1421d30a53c61437cfa7aa597a0b8782e1d85716,update readme for promptbehavior,2014-05-07 12:09:12-07:00,TRUE
+230b7d80cd6adf79c7b2f77105116fd1bc0e5be1,"add SDK usage options
+
+add instructions for maven support issue
+add link for wiki page related to Android Studio and Maven usage",2014-05-07 15:56:10-07:00,TRUE
+81764d0afea8d50911dc99987e81a34150d0a751,Update README.md,2014-05-08 15:31:46-07:00,TRUE
+48857a458739603762eb8f4cf2e77976953ddcfe,"Revert ""Update README.md""
+
+This reverts commit 81764d0afea8d50911dc99987e81a34150d0a751.",2014-05-08 15:36:41-07:00,TRUE
+c3a1b1cff4f8bb52a3fedb542be3a1c38cc3b5b8,Use the newer groupId and artifactId for support library which matches Android SDK maven repository,2014-05-10 22:02:07+05:18,TRUE
+9a1b62625d89a04da69be88a72edfa8322fe88c6,"Update README.md
+
+update readme for proguard issue",2014-05-14 17:31:32-07:00,TRUE
+3936d5729fa253240f34468e85ecc8b21e2b4cc4,remove change from ADAL. Explain issue in Readme. Show usage in sample app,2014-05-19 12:24:27-07:00,TRUE
+4067abfe169dbecbe17f1f04e6150e6829c4de65,update readme to describe setup without maven,2014-05-19 13:18:46-07:00,TRUE
+5bddd3ab23507fee8c589ce24f504b1ebf25cc6b,clean jar files before copy for libs folder depencies,2014-06-12 13:10:29-07:00,TRUE
+1d3a81ed6395ffe4bc96ca056c51f4aa7a9d696a,Replace ResourceFinder with Android internal contextual Resrouces.getIdentifier which does not conflict with proguard,2014-06-14 00:56:40+05:18,TRUE
+d620a0f7399fc601aa0ef968730a193943b55885,"Return inner exception in sync call
+update readme for acquireTokenSilent",2014-06-24 14:14:52-07:00,TRUE
+8bdc5842fb1f7e38aabbc69ec19fcec7e00e0a70,"update version, readme file for information about acquireTokenSilent, fix exception handling",2014-06-24 14:21:13-07:00,TRUE
+68d8352522b011e6e0f0729df1161688196f2ecd,"update pom files to use same android-support file as dev
+update readme to run sample app with mvn",2014-06-26 15:46:02-07:00,TRUE
+99be9de2ddbea4808078018347ee19aa5ca6c91a,"Update README.md
+
+Add more info for encryption. Move non-maven description to top.",2014-07-02 22:05:46-07:00,TRUE
+cd13038cba76f1069ca364a8f15f5298eaba8681,update readme for release,2014-07-10 13:36:29-07:00,TRUE
+1f2501c78c00c1c3d24776e1a4e436f88fdf530f,"Update README.md
+
+reorder for numbering",2014-07-10 13:43:51-07:00,TRUE
+729558444c0bb01f91f90fa529ebad8cb7e67153,Update README.md,2014-07-10 14:58:53-07:00,TRUE
+54d20ce988c19ff3b542e7749bddae212e0ea7ab,Update README.md,2014-07-10 16:19:19-07:00,TRUE
+95be7d2ac2ab6574835b930867cc2594e2aa3b17,Update README.md,2014-07-10 16:20:21-07:00,TRUE
+dd9679186f1f2614b79146907055e8615e36b15f,"Update README.md
+
+Re-organized Quick Start and updated pointers to sample",2014-07-14 00:01:55-07:00,TRUE
+1d2755ec8b78aab9107b149c802c9a0cd15d42bf,Cleanup,2014-07-14 01:41:05-07:00,TRUE
+da86209ccc317b2dddba630851361577ace0ca79,Minor updates,2014-07-14 02:10:29-07:00,TRUE
+ff95d054e2e608f79f949046c99830ec365c6e36,"Update README.md
+
+fix readme issue.",2014-07-14 10:29:09-07:00,TRUE
+d3064e9e9b92cb75fb24009d47267886b4fc7dc5,"Update README.md
+
+put back old readme",2014-07-14 12:52:06-07:00,TRUE
+79b1d30b0e78b13f65ed030dee159f6641174ab8,"Update README.md
+
+fix numbering",2014-07-14 13:19:10-07:00,FALSE
+e874e4c11e6f744e0c442cb94fb2db8202b252b9,Updated README to add Sample documentation location. Also cleaned up source code location.,2014-07-15 14:19:42-07:00,TRUE
+df44f44c031b1fecfc800754d9363d8ce535340b,"Update README.md
+
+Updated for Stack Overflow",2014-08-22 14:04:55-07:00,FALSE
+9e8c9b2750e3986890507d3e492aa1a53024a219,update readme file for activity name. Update adalerror field.,2014-09-04 10:29:01-07:00,TRUE
+8d73e72c02459928d9f56cbce10f2dc29e150776,"Update README.md
+
+update readme for broker",2014-10-06 09:36:21-07:00,FALSE
+71ed3b7ef3e959332bf6f6d0edc4801fe973a59d,"Update README.md
+
+update for broker",2014-10-09 14:46:40-07:00,FALSE
+d68810864e30bd9d63a9cdd28b3f91da6030c2ba,"Eliminate Warnings: Remove unused import (java.net.URI)
+
+Eliminate Warnings: Remove unused import (java.util.Locale)
+
+Eliminate Warnings: Remove unused import (java.util.Calendar)
+
+Eliminate Warnings: Remove unused import (java.lang.annotation.Target)
+
+Eliminate Warnings: Remove unused import (java.math.BigInteger)
+
+Eliminate Warnings: Comment out unused TAG variable in
+AuthenticationResult.java
+
+Add default English string value for app_loading (like we do for
+broker_processing).
+
+Update README.md with info about app_loading and broker_processing
+string values (to be overwritten by client applications if they wish to
+have non-English values)",2014-10-22 15:29:56-07:00,FALSE
+7dce405c018670b127483f491a6ac797cedab2f7,Update README.md,2014-11-04 12:34:07-08:00,FALSE
+5b9e919822083a72cbad4c79cf429d702fabdbe5,update gradle instructions,2014-11-04 21:48:43-08:00,TRUE
+2edbdff457342e2d840f72fd80fa5537551e30c1,update version and readme,2014-11-11 15:27:46-08:00,TRUE
+5b6690ffd4926d130d7996e5a0d007fd4f04aa7a,Update README.md,2014-11-11 16:23:08-08:00,FALSE
+846461eb8ebcee451ebf7b0e5959c0300883e496,update readme for logger,2014-12-05 08:39:03-08:00,FALSE
+de4d1789c943f1b1b125e9582b69273cbc5491ff,update readme,2014-12-05 12:34:31-08:00,FALSE
+e0e81d276166224891a2986842cc1c1909833f0b,add changes from rrandall,2014-12-08 12:14:28-08:00,FALSE
+244753cacf1e895f218d2cdba81b4b038e932e90,add logcat example for debugging.,2014-12-08 14:19:10-08:00,FALSE
+47be651fa1429f9ed9daa9f7acbff25f0564e32d,remove debug level from logger in readme,2014-12-08 16:28:46-08:00,FALSE
+d955139aff08e5ac691cb93d7076ed6651a6ee1b,remove logcat details from readme,2014-12-08 19:23:30-08:00,FALSE
+d59712c38b0b9609e8d0a6f036f4abb9893ebbc3,update changelog and readme,2014-12-23 14:09:33-08:00,TRUE
+7bb8c71d01228bc4cc48eb60b82978f513958b2a,release version 1.1,2015-01-21 12:00:00-08:00,FALSE
+6e34474956a23d41fa3e77bb7d3f30a239b9d19b,Update README.md,2015-01-21 14:00:06-08:00,FALSE
+638f5e6033da9a2042227f01daa6cdd00b16b02f,update versions on the readme file,2015-03-11 09:14:39-07:00,TRUE
+c0239ca00e6e7bb72129951308b1c4d99e453d45,update version 1.1.5,2015-05-15 13:49:32-07:00,TRUE
+1156d12df959475c23fd4670b37c2f46020ac644,Closes #384,2015-05-18 09:16:12-07:00,TRUE
+e3a797243532b6126105bd6cce8e04e4b73a6c7c,Fix alignment of code blocks in README.md to match the previous paragraph because lolgithub.,2015-07-29 23:29:20-07:00,FALSE
+23f96d2388c2fcaab6683136b9d4277c24cce2bf,Including fragment example in the README file,2016-01-19 20:06:27-08:00,FALSE
+cd2fae80ed697d9c5577e920bd3fc49f957db66a,Update recent vers to 1.1.11,2016-01-25 11:14:43-08:00,TRUE
+a7d79ab123d95238d1e9405f99f0696c5d8a298e,Update version for 1.1.12 release,2016-02-10 16:17:11-08:00,FALSE
+40397e377dd49f3b6f27d1d7c669974f11c604cf,local temporary commit,2016-02-18 22:42:43-08:00,FALSE
+821e8788eed50d7268b5a9d4f4b7f13a5fefaf1e,"Revert ""local temporary commit""
+
+This reverts commit 40397e377dd49f3b6f27d1d7c669974f11c604cf.",2016-02-19 16:00:28-08:00,FALSE
+ea39f50d44a401f1e9a0647853df446270f6c1d2,update version for 1.1.13 release,2016-03-02 15:07:50-08:00,FALSE
+bf84b05c62985ca443961714c8927b4d75ed0c65,Update Version for 1.1.14 release,2016-03-04 18:28:33-08:00,FALSE
+7f65c6defe5e989655e83b03c50a97e46e179838,Update README.md,2016-03-04 20:18:48-08:00,FALSE
+96cd347e6329fc666db85b349c2e626163e10da2,Update Version for 1.1.15 release,2016-03-15 15:00:44-07:00,FALSE
+2565f1c65ad6cda59aa035f475f46800f8831652,update version for 1.1.16 release,2016-03-17 12:38:17-07:00,FALSE
+149dfcbdb2add878e0920345c2e3bfdee9b9cac4,"update readme with how to generate secret key
+
+update samples with speaking to broker
+
+update readme
+
+update readme
+
+update readme
+
+update readme
+
+update readme and sample add for authentication via broker",2016-04-05 00:53:24-07:00,FALSE
+519ba30d5bd3d510e712041a66e98a2375f28df4,address comments,2016-04-06 23:02:54-07:00,FALSE
+9b496c0e503e57405ed4c6bab6c398d6d41eaaf5,address comments,2016-04-06 23:12:19-07:00,FALSE
+5e276305a78ec385b0e19332791989d1df9bd6f0,Update README and added flag for sending package name as well.,2016-04-16 17:20:24-07:00,FALSE
+05fd8dfcb7254b3e8caf93a55a34e5d0d60546f8,update version for 1.1.17 release,2016-04-19 12:10:26-07:00,FALSE
+2da7ad7de96d4262b18564d70e5ef28000bd483a,version update for 1.1.18 hotfix release,2016-04-24 18:03:24-07:00,FALSE
+0a116ec54a4550e3b38fdcddd11cf799499a0ad6,version update for 1.1.19 release,2016-05-05 19:27:02-07:00,FALSE
+427d026b27d691088646d08305c240e981da7ebe,version update for 1.2.0 release,2016-05-19 19:13:30-07:00,FALSE
+6054c03b79c439fff84b15397898494fe291d01a,storageHelper refactor: resolving merging and refactor code,2016-05-23 02:05:04-07:00,FALSE
+55aeb4fa327b01716de042fabf8d0a7cf0fbf855,Update README.md with security header,2016-05-25 14:14:08-07:00,FALSE
+2166c31de13f39d247aca5b6c68a23e97cc22815,Update README.md,2016-05-25 14:15:03-07:00,FALSE
+7a0dca7ecf694a22cb34cbd5617da05d1fd5d4c6,Update README.md,2016-06-29 17:41:05-07:00,FALSE
+513c1f066dffdb4991f9bd9df55addfa2c992861,Update README.md,2016-06-29 17:41:47-07:00,FALSE
+cce7f7491b1a791ffc33c6c521a4b6ea7a74aa10,version update for 1.2.1 release,2016-06-30 15:43:43-07:00,FALSE
+5d8cec81d3ea46964b31a2d27055ef45c2d25cd7,version update for 1.2.2 release,2016-08-11 14:38:58-07:00,FALSE
+964c6940615e47dfc6e7f4b58cc760b0782ad299,version update for 1.10.0 release,2016-09-06 17:43:38-07:00,TRUE
+b521f7168e3c00e0a43b6b12692ba9262c8a5d75,adding Versions section to readme (#716),2016-09-08 14:38:56-07:00,TRUE
+f4e02266bfa74af8a2eb16fdb1c72251b0d9f84f,version update for 1.10.0 release,2016-09-08 22:23:29-07:00,TRUE
+b022d433997258be03be6043db087b64ecf04cd8,Pesomka/update readme (#717),2016-09-08 22:23:30-07:00,TRUE
+a0799d0b0e20120a2aed4ed28624142de30df61d,Update Readme.md for Quick Start - Gradle Build,2016-11-17 13:27:10-08:00,TRUE
+b6a30684f0bec5374472a0c6aaff3917203e9560,Update Version for 1.11.0 release,2017-01-12 15:29:37-08:00,FALSE
+04c6793a0ee5cc13ab097d0e66423a75716e3b94,Add support article regarding cert downloads,2017-02-16 14:52:26-08:00,TRUE
+ea274dff4978adce1e22608a6e18460bcf56c06b,Preparing for release 1.12.0,2017-03-11 00:58:00-08:00,FALSE
+899e31ad7e7d89dc391e40bbf0fdade66e13e264,Fix broken Markdown headings,2017-04-17 01:08:09-03:00,TRUE
+32e451e2356111d7d3de6ee395e12b667a91a2d6,Added build status on Travis and VSTS to the README.,2017-05-03 15:05:02+01:00,TRUE
+3559a80b91fc3fc4f64ca6c6b4c2fa61d4dd447c,Update README.md,2017-05-17 14:39:29-07:00,FALSE
+3063a16f9241509f03e385c2a7ee301db941adf8,Closes #855,2017-06-06 15:23:49-04:00,TRUE
+7af5c74a259b4e172b9c2baaa6ac7bbac9634a27,"Introduces Telemetry to the README
+
+Closes #826",2017-06-06 16:47:30-04:00,FALSE
+2427d8dffbe7cf29301eeca2d4ff1355d29e6f58,Correct spelling 'Indentifiable' -> 'Identifiable',2017-06-07 09:16:25-04:00,FALSE
+8f63c65d22a3fe3b35f4acd2cdc73ec16db14fd8,'event data' -> 'event data (telemetry)',2017-06-10 15:50:10-04:00,FALSE
+ad3074145f9810c34a2fc67b6eb6b1a6793cf21c,Adding more information around aggregation,2017-06-10 16:28:06-04:00,FALSE
+093d968988ed178de8748d4cef3a9af71adf28aa,Updating README text to include hyperlink and delegate detailed information to the Wiki page,2017-06-14 10:44:07-04:00,FALSE
+aaadc10f440bc057bf57a5dea8594a80b3e3044a,Closes #865,2017-06-15 13:02:28-04:00,FALSE
+04d037ec1bc8d0b36a9dda4091151fabe27cf088,preparing for 1.12.1 release,2017-07-11 15:18:23-07:00,FALSE
+33ae611648a9baed8ee678d6608da6c0d3bd2bc4,Closes #915,2017-07-26 11:11:40-04:00,FALSE
+845ee2fa9a6c4a03c86e60b83b308caef796d307,Fix typo in permission name,2017-08-04 11:10:05+02:00,FALSE
+e5aaa530a7f5820eb3f572ffb576b9c0bd3ab58e,Fix typo in permission name,2017-08-07 12:20:15-07:00,FALSE
+072d81b2c2f07dffeaae143fe4fc2d9a6f853339,update it to 1.13.0 in readme,2017-08-10 11:10:48-07:00,FALSE
+729704e2337623e16014b41291e40fdc246204f8,version update on readme to 1.13.0,2017-08-10 11:41:37-07:00,TRUE
+994fe1323db416182b404329465b67b9d680d1c7,add section for handling doze mode,2017-08-10 19:37:23-07:00,FALSE
+b02fb92f8c9dd74dfee68e582ab3eea0109ffa4c,add section for handling doze mode,2017-08-11 11:17:09-07:00,FALSE
+39a381c55acb7d5ccda2021b611de3597089886b,version update for 1.13.1 release,2017-08-11 11:24:58-07:00,TRUE
+599b179e67d216fa6df5385908c359959d431dd7,update readme 1.13.1-RC1 to 1.13.1,2017-09-08 16:56:05-07:00,TRUE
+bf374110436d9e9824347b855a791bb80bde08d6,update readme 1.13.1-RC1 to 1.13.1,2017-09-11 13:02:52-07:00,TRUE
+eb9eb272a55e515cd4c1d811837b8707c19e954b,Fix more typos,2017-09-12 11:03:01+02:00,FALSE
+f68136b21e59fb361203080836dec4401908418c,Fixed broken README formatting + some broken English,2017-09-12 17:08:57+02:00,FALSE
+0fe82cd655c16e5d66595206d93aa5643ef53fb2,"Fixing markdownlint warnings in README, fixing some formulations",2017-09-13 12:18:33+02:00,TRUE
+353b9161c2bfb5eae3221855040b6ff0a91f390c,Version update for 1.13.2 release,2017-10-02 13:50:06-07:00,TRUE
+ba959588de78c40b83d207f9fc89b0ad1ab67e65,Add link to wiki documenting AS3/J8 limitation,2017-12-07 10:58:44-05:00,TRUE
+a09f2fe818811301aa890118b99f6489374dc8bb,"Update the version number and the changelog for Release 1.14.0 (#1093)
+
+* Update the version number and the changelog for release 1.14.0.
+* GDPR should be disabled by default.",2018-01-17 17:32:40-08:00,TRUE
+cd79ac7b85d7b36940314baae23731cc131238b4,"Closes #1095, #1096 (#1097)
+
+Updated documentation to remove warnings around AS3/J8 and to include a Known Issue for #1076",2018-01-19 13:13:25-08:00,TRUE
+e5fc65cce138b29ebacd71bbbfaa69a6c64153d0,Add ProGuard guidance to README,2018-01-22 15:19:27-05:00,FALSE
+cb0dc26328336a7aecd12f737e1b9d4aad06e511,README updates,2018-02-09 18:23:26-08:00,FALSE
+21afcaf50b495fe1b63553963af6a5f93e50a4a7,"update Readme.md. (#1132)
+
+* update Readme.md.
+fix https://github.com/AzureAD/azure-activedirectory-library-for-android/issues/898",2018-03-06 13:21:41-08:00,FALSE
+7b407e1e4db872e77b5d64a9247a76ad662dfce0,README updates,2018-05-14 13:37:45-07:00,FALSE
+ac7ba2892f2bccd08a8919934929269adb57ffe9,"update Readme.md. (#1132)
+
+* update Readme.md.
+fix https://github.com/AzureAD/azure-activedirectory-library-for-android/issues/898",2018-05-14 13:47:09-07:00,FALSE
+000697e5b948a4b7d475f0a7c3d2981590546bdb,Fix some broken links & some missing ``,2018-05-29 11:04:20-07:00,TRUE
+f814bca9d7269b27ea01849331b7eb4f9ae00dd1,"Remove option for download-as-zip (too complicated, too easy to mess up
+with differing submodule commits).
+
+Add --recurse-submodules to git clone",2018-05-31 17:06:47-04:00,TRUE
+32c6fa1b77b8357af4b03015e712e7c85727ce41,Remove mentions of old testapp,2018-05-31 18:03:58-04:00,TRUE
+831a256ed22530a555228ee898f70923b8ab7f0c,Update README.md,2018-05-31 18:17:45-04:00,TRUE
+f73195c9363bd914c69bc8a903921be8bc2090bc,Version update changes to 1.14.1 (#1245),2018-07-11 17:04:32-07:00,TRUE
+0baccd9a8de914abb2265a0f58a79c8154da9b70,Closes #1139,2018-07-13 11:01:06-07:00,TRUE
+512499966d409aad08076de107652fd5e886212c,"Updated version to 1.15.0-RC (#1252)
+
+* Updated version to 1.15.0-RC
+
+* Updated change log
+
+* Modified change log
+
+* Added transitive=false for dist implementation flavor",2018-07-16 14:01:54-07:00,TRUE
+85b7ae0721c1187f471d38db03e479e61f5a863b,"Setting Authority in ADAL Common 0.0.4 for Sovereign and PPE flows. (#1311)
+
+* Setting AuthorityUrl in ADAL Common 0.0.4-RC for Sovereign and PPE flows.
+* Updating version to 1.15.1-RC",2018-09-06 19:52:31-04:00,FALSE
+1c65fae51261857ca1f7ff89cedc4d4068ad3e7a,"Updated version to 1.15.2 (#1321)
+
+* Updated version to 1.15.2
+
+* Updated changelog",2018-09-19 15:25:33-07:00,TRUE
+804036f25b553b11dad3e1446faabfbf721f2bff,Updated Read me and changelog,2018-10-19 20:10:52-07:00,TRUE
+7173b6131dfbca69140cb1d17a17b304ee2aa113,Updates Proguard obfuscation docs in README,2018-11-02 11:47:26-07:00,FALSE
+5d926ed92e2f2370f61f948a1c52685e2ae097a6,"Fixed a bug where the token is refreshed if Client capabilities are set. (#1382)
+
+* Changes to fix LLT issue where token is refreshed if client capabilities are present
+
+* Update submodule to release/0.0.8
+
+* Version update changes
+
+* Update common dependancy to 0.0.8-RC",2019-01-29 11:41:12-08:00,TRUE
+2eedcc52fffe541a359366c7b9299eb605cc1b14,Version update to 1.16.3,2019-02-22 16:56:27-08:00,TRUE
+fed93d71971404ddfbd401b2e510116923b4d981,updating minimum recommended version,2019-02-27 11:40:42-08:00,FALSE
+7f0022deb00ba6c674a20e7a53702f1b0e374765,adding + in patch,2019-03-06 09:46:06-08:00,FALSE
+b11d49daf227c42f548713ff93ce27496995616c,updating version,2019-03-06 09:55:07-08:00,FALSE
+1ee9270487d9dd6df45578ea34ef875c25c7d0c2,Updates README,2019-05-20 16:24:13-07:00,TRUE
+84e60156883350163079e422345593acaa53c44e,fix readme pointer,2019-06-07 10:30:06-04:00,FALSE
+608eeac08bd40302c7bb979e5c71f97fd21a7c0f,Add MSAL migration note to top,2020-02-11 15:24:53-08:00,TRUE
+6e7854ba93e0b8674483e692561905fe063b6700,"Merge release/2.0.0 to master for release (#1508)
+
+* Add MSAL migration note to top
+
+* Update submodule to latest (#1496)
+
+* Display authority in result page (#1497)
+
+* Resolves crash reported by Kaizala, logs warning (#1476)
+
+* Added debug broker redirect uri; set default client id; authority always from UI (#1500)
+
+* Fix for sovereign caching authority mismatch (#1498)
+
+* Initial fix for sovereign caching authority mismatch
+
+* Adding test
+
+* Update submodule (#1502)
+
+* Update submodule to latest (#1503)
+
+* Point submodule to common@release/2.0.2
+
+* Update version number to 1.16.5-RC1
+
+* Configure deps for 2.0.2
+
+* Bumping to 2.0.0-RC1 (#1505)
+
+* Update changelog for 2.0.0 release (#1506)
+
+* Update changelog
+
+* Updating README for 2.0.0
+
+* Tidying up formatting
+
+* More formatting
+
+* Replace * with -
+
+* Update contants in README
+
+* Updating changelog based on CR
+
+* Update version for 2.0.0 (#1507)
+
+Co-authored-by: Aisha Wang <aiwang@microsoft.com>
+Co-authored-by: Dome Pongmongkol <rapong@microsoft.com>
+Co-authored-by: Shane Oatman <shoatman@microsoft.com>",2020-03-04 16:21:29-08:00,TRUE
+4d9528bf0fb702c0694ce3eed753ab1a9316f5b6,"Merge master to dev post 2.0.0 (#1509)
+
+* Merge release/2.0.0 to master for release (#1508)
+
+* Add MSAL migration note to top
+
+* Update submodule to latest (#1496)
+
+* Display authority in result page (#1497)
+
+* Resolves crash reported by Kaizala, logs warning (#1476)
+
+* Added debug broker redirect uri; set default client id; authority always from UI (#1500)
+
+* Fix for sovereign caching authority mismatch (#1498)
+
+* Initial fix for sovereign caching authority mismatch
+
+* Adding test
+
+* Update submodule (#1502)
+
+* Update submodule to latest (#1503)
+
+* Point submodule to common@release/2.0.2
+
+* Update version number to 1.16.5-RC1
+
+* Configure deps for 2.0.2
+
+* Bumping to 2.0.0-RC1 (#1505)
+
+* Update changelog for 2.0.0 release (#1506)
+
+* Update changelog
+
+* Updating README for 2.0.0
+
+* Tidying up formatting
+
+* More formatting
+
+* Replace * with -
+
+* Update contants in README
+
+* Updating changelog based on CR
+
+* Update version for 2.0.0 (#1507)
+
+Co-authored-by: Aisha Wang <aiwang@microsoft.com>
+Co-authored-by: Dome Pongmongkol <rapong@microsoft.com>
+Co-authored-by: Shane Oatman <shoatman@microsoft.com>
+
+* Update submodule pointer to dev to resolve merge conflict
+
+Co-authored-by: Dome Pongmongkol <rapong@microsoft.com>
+Co-authored-by: Aisha Wang <aiwang@microsoft.com>
+Co-authored-by: Shane Oatman <shoatman@microsoft.com>",2020-03-05 11:49:52-08:00,TRUE
+875d1612d10b5c9f830c1109220d8678d3442d10,"Release Prep: 2.0.1 (#1514)
+
+* Update submodule pointer to use common@release/2.0.3
+
+* Update version code to 2.0.1-RC1
+
+* Update README
+
+* Update changelog
+
+* Update dependency version to common@2.0.3-RC1",2020-03-13 15:59:51-07:00,TRUE
+908e083eab51c11364ab22c4aae7f6e6b444cffd,Updated Readme versions,2020-03-18 11:56:16-07:00,TRUE
+b0c671aa7962fc91e8a3957dde2e74dce3f4daea,Update changelog / proguard,2020-04-07 14:21:40-07:00,FALSE
+0e095e65bb03f1aa4b33a67f8628b2ac1bc4a711,Update readme,2020-04-07 14:41:59-07:00,TRUE
+2d2c6d6af580c03438a8b361f7fae3a987cd3e99,Update readme,2020-04-09 10:59:54-07:00,TRUE
+9a000bc333c601cd70a467a4b0494fa27997c4af,"Release/3.1.1  (#1556)
+
+* Closes #1073 - Explicitly Disables Content Provider Access to WebViews (#1541)
+
+* AuthenticationActivity: disallow content access
+
+* Minor cleanup to remove repeated getter calls
+
+* Disable content access
+
+* Removing repeated getter calls
+
+* Run formatter
+
+* Cleaning up formatting
+
+* Removing impossible if condition. More cleanup
+
+* Update adal/src/main/java/com/microsoft/aad/adal/AuthenticationDialog.java
+
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+
+* Disabling unreliable test -- unrelated to these changes
+
+* Removing the entire broken test
+
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+
+* Closes #1354 (#1544)
+
+* Post merge feedback update (#1545)
+
+* Update submodule
+
+* Set WebSettings#setAllowFileAccess(false) (#1542)
+
+* AuthenticationActivity: disallow content access
+
+* Minor cleanup to remove repeated getter calls
+
+* Disable content access
+
+* Removing repeated getter calls
+
+* Run formatter
+
+* Cleaning up formatting
+
+* Removing impossible if condition. More cleanup
+
+* Update adal/src/main/java/com/microsoft/aad/adal/AuthenticationDialog.java
+
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+
+* Disallow universal file access from file URLs
+
+* Disallow file access
+
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+
+* Upgrade ADAL dependency to 3.1.0.
+
+* Remove unused variable, fixing my local PMD build.
+
+* Clear the MSAL cache replica is the ADAL cache is cleared (#1552)
+
+* Update submodule to latest
+
+* Organize imports
+
+* Cleaning up javadoc
+
+* Fix javadoc
+
+* Add nullability annots
+
+* Add line spacing for conditionals
+
+* Wiring up wrapped cache
+
+* Fixing nullability annots
+
+* New unit test for cache clearing
+
+* Removing test that no longer applies
+
+* Removing test that was invalidated by improvements to doze mode when
+active network connection is available
+
+* Disabling unreliable tests
+
+* Make primitives final
+
+* Synchronize the wrapped cache
+
+* Don't recompile patterns unneccesarily.
+
+* Bump to 3.1.1-RC1
+
+* Update changelog for 3.1.1
+
+* Point common to 2.1.1-RC1
+
+* Update submodule
+
+* Point common to 2.1.1-RC2
+
+* Update version to 3.1.1-RC2
+
+* Update submodule pointer to master
+
+* Update deps to common@2.1.1
+
+* Update readme for latest version
+
+* Update version to 3.1.1 (remove RC)
+
+Co-authored-by: Brian Melton-Grace <brianmel@microsoft.com>
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+Co-authored-by: Adam Johnson <adjoh@microsoft.com>",2020-08-31 14:06:02-07:00,FALSE
+3f9231bc27c8d40f5c7879a5e414eb42a26e129f,"Merge master-to-dev post 3.1.1 deployment (#1559)
+
+* Release/3.1.1  (#1556)
+
+* Closes #1073 - Explicitly Disables Content Provider Access to WebViews (#1541)
+
+* AuthenticationActivity: disallow content access
+
+* Minor cleanup to remove repeated getter calls
+
+* Disable content access
+
+* Removing repeated getter calls
+
+* Run formatter
+
+* Cleaning up formatting
+
+* Removing impossible if condition. More cleanup
+
+* Update adal/src/main/java/com/microsoft/aad/adal/AuthenticationDialog.java
+
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+
+* Disabling unreliable test -- unrelated to these changes
+
+* Removing the entire broken test
+
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+
+* Closes #1354 (#1544)
+
+* Post merge feedback update (#1545)
+
+* Update submodule
+
+* Set WebSettings#setAllowFileAccess(false) (#1542)
+
+* AuthenticationActivity: disallow content access
+
+* Minor cleanup to remove repeated getter calls
+
+* Disable content access
+
+* Removing repeated getter calls
+
+* Run formatter
+
+* Cleaning up formatting
+
+* Removing impossible if condition. More cleanup
+
+* Update adal/src/main/java/com/microsoft/aad/adal/AuthenticationDialog.java
+
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+
+* Disallow universal file access from file URLs
+
+* Disallow file access
+
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+
+* Upgrade ADAL dependency to 3.1.0.
+
+* Remove unused variable, fixing my local PMD build.
+
+* Clear the MSAL cache replica is the ADAL cache is cleared (#1552)
+
+* Update submodule to latest
+
+* Organize imports
+
+* Cleaning up javadoc
+
+* Fix javadoc
+
+* Add nullability annots
+
+* Add line spacing for conditionals
+
+* Wiring up wrapped cache
+
+* Fixing nullability annots
+
+* New unit test for cache clearing
+
+* Removing test that no longer applies
+
+* Removing test that was invalidated by improvements to doze mode when
+active network connection is available
+
+* Disabling unreliable tests
+
+* Make primitives final
+
+* Synchronize the wrapped cache
+
+* Don't recompile patterns unneccesarily.
+
+* Bump to 3.1.1-RC1
+
+* Update changelog for 3.1.1
+
+* Point common to 2.1.1-RC1
+
+* Update submodule
+
+* Point common to 2.1.1-RC2
+
+* Update version to 3.1.1-RC2
+
+* Update submodule pointer to master
+
+* Update deps to common@2.1.1
+
+* Update readme for latest version
+
+* Update version to 3.1.1 (remove RC)
+
+Co-authored-by: Brian Melton-Grace <brianmel@microsoft.com>
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+Co-authored-by: Adam Johnson <adjoh@microsoft.com>
+
+* Update submodule to common@dev(HEAD)
+
+Co-authored-by: Shahzaib <37125644+shahzaibj@users.noreply.github.com>
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+Co-authored-by: Adam Johnson <adjoh@microsoft.com>",2020-08-31 16:08:23-07:00,FALSE
+9b4f2564cbabc0750d96c2c4169fccbe8ba69cfe,"ADAL Release 3.1.2 (#1569)
+
+* Add release signing config for adal test app
+
+* Closes #1073 - Explicitly Disables Content Provider Access to WebViews (#1541)
+
+* AuthenticationActivity: disallow content access
+
+* Minor cleanup to remove repeated getter calls
+
+* Disable content access
+
+* Removing repeated getter calls
+
+* Run formatter
+
+* Cleaning up formatting
+
+* Removing impossible if condition. More cleanup
+
+* Update adal/src/main/java/com/microsoft/aad/adal/AuthenticationDialog.java
+
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+
+* Disabling unreliable test -- unrelated to these changes
+
+* Removing the entire broken test
+
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+
+* Closes #1354 (#1544)
+
+* Post merge feedback update (#1545)
+
+* Update submodule
+
+* Set WebSettings#setAllowFileAccess(false) (#1542)
+
+* AuthenticationActivity: disallow content access
+
+* Minor cleanup to remove repeated getter calls
+
+* Disable content access
+
+* Removing repeated getter calls
+
+* Run formatter
+
+* Cleaning up formatting
+
+* Removing impossible if condition. More cleanup
+
+* Update adal/src/main/java/com/microsoft/aad/adal/AuthenticationDialog.java
+
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+
+* Disallow universal file access from file URLs
+
+* Disallow file access
+
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+
+* Upgrade ADAL dependency to 3.1.0.
+
+* Remove unused variable, fixing my local PMD build.
+
+* Clear the MSAL cache replica is the ADAL cache is cleared (#1552)
+
+* Update submodule to latest
+
+* Organize imports
+
+* Cleaning up javadoc
+
+* Fix javadoc
+
+* Add nullability annots
+
+* Add line spacing for conditionals
+
+* Wiring up wrapped cache
+
+* Fixing nullability annots
+
+* New unit test for cache clearing
+
+* Removing test that no longer applies
+
+* Removing test that was invalidated by improvements to doze mode when
+active network connection is available
+
+* Disabling unreliable tests
+
+* Make primitives final
+
+* Synchronize the wrapped cache
+
+* Don't recompile patterns unneccesarily.
+
+* Update submodule to latest (#1558)
+
+* Merge master-to-dev post 3.1.1 deployment (#1559)
+
+* Release/3.1.1  (#1556)
+
+* Closes #1073 - Explicitly Disables Content Provider Access to WebViews (#1541)
+
+* AuthenticationActivity: disallow content access
+
+* Minor cleanup to remove repeated getter calls
+
+* Disable content access
+
+* Removing repeated getter calls
+
+* Run formatter
+
+* Cleaning up formatting
+
+* Removing impossible if condition. More cleanup
+
+* Update adal/src/main/java/com/microsoft/aad/adal/AuthenticationDialog.java
+
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+
+* Disabling unreliable test -- unrelated to these changes
+
+* Removing the entire broken test
+
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+
+* Closes #1354 (#1544)
+
+* Post merge feedback update (#1545)
+
+* Update submodule
+
+* Set WebSettings#setAllowFileAccess(false) (#1542)
+
+* AuthenticationActivity: disallow content access
+
+* Minor cleanup to remove repeated getter calls
+
+* Disable content access
+
+* Removing repeated getter calls
+
+* Run formatter
+
+* Cleaning up formatting
+
+* Removing impossible if condition. More cleanup
+
+* Update adal/src/main/java/com/microsoft/aad/adal/AuthenticationDialog.java
+
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+
+* Disallow universal file access from file URLs
+
+* Disallow file access
+
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+
+* Upgrade ADAL dependency to 3.1.0.
+
+* Remove unused variable, fixing my local PMD build.
+
+* Clear the MSAL cache replica is the ADAL cache is cleared (#1552)
+
+* Update submodule to latest
+
+* Organize imports
+
+* Cleaning up javadoc
+
+* Fix javadoc
+
+* Add nullability annots
+
+* Add line spacing for conditionals
+
+* Wiring up wrapped cache
+
+* Fixing nullability annots
+
+* New unit test for cache clearing
+
+* Removing test that no longer applies
+
+* Removing test that was invalidated by improvements to doze mode when
+active network connection is available
+
+* Disabling unreliable tests
+
+* Make primitives final
+
+* Synchronize the wrapped cache
+
+* Don't recompile patterns unneccesarily.
+
+* Bump to 3.1.1-RC1
+
+* Update changelog for 3.1.1
+
+* Point common to 2.1.1-RC1
+
+* Update submodule
+
+* Point common to 2.1.1-RC2
+
+* Update version to 3.1.1-RC2
+
+* Update submodule pointer to master
+
+* Update deps to common@2.1.1
+
+* Update readme for latest version
+
+* Update version to 3.1.1 (remove RC)
+
+Co-authored-by: Brian Melton-Grace <brianmel@microsoft.com>
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+Co-authored-by: Adam Johnson <adjoh@microsoft.com>
+
+* Update submodule to common@dev(HEAD)
+
+Co-authored-by: Shahzaib <37125644+shahzaibj@users.noreply.github.com>
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+Co-authored-by: Adam Johnson <adjoh@microsoft.com>
+
+* Updated gradle to latest plugin and gradle versions
+
+* Removed all references to findbugs
+
+* Add changelog enforcement.
+
+* Test changelog.
+
+* Remove test changelog entry
+
+* Update submodule dependency to release/3.0.6
+
+* Update submodule to common@master (3.0.6 release)
+
+* Update changelog
+
+* Update readme version string
+
+* Update version number for 3.1.2-RC1
+
+* Update dependency to common@3.0.6
+
+* Update changelog.txt
+
+* Increase gradle version for manifest merger error
+
+* Update to RC2 after tooling change
+
+* Update to final version 3.1.2 for deployment
+
+Co-authored-by: shahzaibj <shahzaib.jameel@microsoft.com>
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+Co-authored-by: Shahzaib <37125644+shahzaibj@users.noreply.github.com>
+Co-authored-by: Adam Johnson <adjoh@microsoft.com>
+Co-authored-by: Shane Oatman <shoatman@microsoft.com>",2020-11-16 11:47:47-08:00,FALSE
+2cb55230abd829c079a685ed4461a1f2b3e9938a,"Merge 3.1.2 Deployment to Dev (#1570)
+
+* Release/3.1.1  (#1556)
+
+* Closes #1073 - Explicitly Disables Content Provider Access to WebViews (#1541)
+
+* AuthenticationActivity: disallow content access
+
+* Minor cleanup to remove repeated getter calls
+
+* Disable content access
+
+* Removing repeated getter calls
+
+* Run formatter
+
+* Cleaning up formatting
+
+* Removing impossible if condition. More cleanup
+
+* Update adal/src/main/java/com/microsoft/aad/adal/AuthenticationDialog.java
+
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+
+* Disabling unreliable test -- unrelated to these changes
+
+* Removing the entire broken test
+
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+
+* Closes #1354 (#1544)
+
+* Post merge feedback update (#1545)
+
+* Update submodule
+
+* Set WebSettings#setAllowFileAccess(false) (#1542)
+
+* AuthenticationActivity: disallow content access
+
+* Minor cleanup to remove repeated getter calls
+
+* Disable content access
+
+* Removing repeated getter calls
+
+* Run formatter
+
+* Cleaning up formatting
+
+* Removing impossible if condition. More cleanup
+
+* Update adal/src/main/java/com/microsoft/aad/adal/AuthenticationDialog.java
+
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+
+* Disallow universal file access from file URLs
+
+* Disallow file access
+
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+
+* Upgrade ADAL dependency to 3.1.0.
+
+* Remove unused variable, fixing my local PMD build.
+
+* Clear the MSAL cache replica is the ADAL cache is cleared (#1552)
+
+* Update submodule to latest
+
+* Organize imports
+
+* Cleaning up javadoc
+
+* Fix javadoc
+
+* Add nullability annots
+
+* Add line spacing for conditionals
+
+* Wiring up wrapped cache
+
+* Fixing nullability annots
+
+* New unit test for cache clearing
+
+* Removing test that no longer applies
+
+* Removing test that was invalidated by improvements to doze mode when
+active network connection is available
+
+* Disabling unreliable tests
+
+* Make primitives final
+
+* Synchronize the wrapped cache
+
+* Don't recompile patterns unneccesarily.
+
+* Bump to 3.1.1-RC1
+
+* Update changelog for 3.1.1
+
+* Point common to 2.1.1-RC1
+
+* Update submodule
+
+* Point common to 2.1.1-RC2
+
+* Update version to 3.1.1-RC2
+
+* Update submodule pointer to master
+
+* Update deps to common@2.1.1
+
+* Update readme for latest version
+
+* Update version to 3.1.1 (remove RC)
+
+Co-authored-by: Brian Melton-Grace <brianmel@microsoft.com>
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+Co-authored-by: Adam Johnson <adjoh@microsoft.com>
+
+* Update submodule dependency to release/3.0.6
+
+* Update submodule to common@master (3.0.6 release)
+
+* Update changelog
+
+* Update readme version string
+
+* Update version number for 3.1.2-RC1
+
+* Update dependency to common@3.0.6
+
+* Update changelog.txt
+
+* Increase gradle version for manifest merger error
+
+* Update to RC2 after tooling change
+
+* Update to final version 3.1.2 for deployment
+
+Co-authored-by: Shahzaib <37125644+shahzaibj@users.noreply.github.com>
+Co-authored-by: AdamBJohnsonx <63813613+AdamBJohnsonx@users.noreply.github.com>
+Co-authored-by: Adam Johnson <adjoh@microsoft.com>",2020-11-16 14:01:36-08:00,FALSE
+9467a1930f6b6711ce2f6fa6dd620261e71e99ef,"Deprecate AuthenticationSettings#setSecretKey() (#1586)
+
+* Update submodule to latest
+
+* Deprecate ADAL methods
+
+* Update changelog for deprecation
+
+* Update readme
+
+* Update changelog.txt",2021-02-25 14:45:46-08:00,FALSE
+46a32cca82f485c810b0b837303745aa86f18c0b,"survey link added to README.md (#1590)
+
+Loyalty survey link added to README.md.
+ Added library-specific quicklinks to top of README.md for unified look/access across all of ADAL libraries and sample.",2021-04-13 12:48:26-07:00,FALSE
+ca4f1e22df3e5e6de9208476056175a107a81b7d,Update README.md,2021-11-01 17:48:06+00:00,FALSE
+5201bab7d60fb466a72364db00e13a92cb55f314,Update README.md,2021-11-16 09:51:59-08:00,FALSE
+4dbcd4bf2e7e8aa9401230ead444f644a418206f,"Update README.md
+
+Co-authored-by: Shahzaib <37125644+shahzaibj@users.noreply.github.com>",2022-01-05 13:54:01-08:00,FALSE

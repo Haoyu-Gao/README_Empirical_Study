@@ -1,0 +1,89 @@
+sha,message,date,result
+98581dadc992b712d6b3f2843794195b537e0bdc,Initial commit,2014-12-13 21:58:17+05:18,False
+912bcd40b602b657b75666dc70036e652d2f3141,Update README.md,2014-12-13 21:58:51+05:18,False
+03cf32d0eb6c1e2e668f6e23be05a75b2661a51d,Update README.md,2014-12-19 20:20:56+05:18,True
+4d1142d6871615cdd0b207e9f448e44b8b1cb152,Update README.md,2014-12-22 20:34:44+05:18,True
+0dfe4f625b1ba94586951a5352b17e9b52e7927c,Update README.md,2014-12-23 22:21:28+05:18,True
+f22ba796cbf2816c899cdc01a60118f8a7252c7c,"chore(docs): remove 'syncdb' instruction from README.md
+
+syncdb command is not longer required in django >= 1.7",2014-12-31 12:05:21+05:18,True
+67aa7eba1f7f213a4f45443d22eb71eefe250e6e,"style(PEP8): add travis with PEP8 integration
+
+- add .editorconfig for consistent editor settings
+- add flake8 settings
+- add travis.yml for running flake8
+- fix PEP8 voilations
+- removte `tests.py` from individual apps, planning to have a central
+`tests` folder instead of distributed ones.",2014-12-31 14:05:06+05:18,True
+b195fbf47c7e74353330d6ad01d735da7ef00b03,chore(docs): add build status badge,2014-12-31 14:40:49+05:18,False
+0988168f0b42a7fa2f3d685167ef309372bd913f,"chore(setup): add sample data generator
+
+- add database regenerator `regenrate.sh`
+- add `manage.py sample_data` management command
+- update readme.md",2015-01-09 13:22:51+05:18,True
+fcf5acd9a92f19f854b20f42d3822affa8f6a00c,Added Gitter badge,2015-01-10 18:55:24+00:00,False
+c1a08824498e702a95c33907ddd9c1f3b8d53203,Update README.md,2015-01-22 00:04:59+05:18,True
+dae152a7a2a26fa167d86b127932d0ebb21fdc59,Update README.md,2015-01-22 00:06:19+05:18,True
+574e3b259db49ec138460ff87f9fea3b3124176f,Update README.md,2015-01-22 00:11:26+05:18,True
+cad6273bc9b6fa816b621a61c302ce1449523ba9,Update readme to include frontend documentation,2015-01-24 03:53:55+05:18,True
+749c923aac03fb2fbf78afb93449f21c9e9f095d,Update README.md,2015-01-26 23:18:45+05:18,True
+96fe3e93f10ad7a187ef4c483df1a8ed007c2c17,chore(readme): fix local setup admin url,2015-01-29 20:41:10+05:18,True
+6c232cd17616a699cfde4b307fbed9dd0d69477e,docker + fig based development environment setup to run celery.,2015-02-06 18:44:04+05:18,True
+f46972ea01e1eeb9ac017542c3f7082aadf90189,Update README.md,2015-02-08 11:30:57+05:18,True
+6da6e9fd5c695eccb7c173fb0a6d049f6b4b772d,"add initial documentation setup with index and release_notes
+
+Available at https://pythonindia.github.io/junction/",2015-02-08 12:37:14+05:18,False
+5d91e6fdbb76004915f0e91560ffc2495ea538e4,prevent what's instead <style> to be rendered,2015-02-08 12:56:57+05:18,False
+583fc50e2cbfbb8c90a920e1e6db1c7c57ffafad,remove style tag from Readme,2015-02-08 12:59:00+05:18,False
+de31df672e75db934cc92bc4a6d9a78e9608c3b7,prepare for release 0.2.0-dev,2015-02-08 21:44:04+05:18,False
+07a6b7cb0af15b8685493bd053738e7f321467b3,added license to readme,2015-04-19 22:10:10+05:18,True
+2168401bc63d80933ad8de8f44614b9297951e53,Add coverage status badge from coveralls to README,2015-05-16 14:48:30+05:18,False
+3e93ba7ce10fe741facbb29a18ac25d05982861d,Show coverage status only from the master branch,2015-05-16 15:21:21+05:18,False
+1eb4f59b604cb3787e4de3d72e2701feca6ddac7,Update README.md,2015-06-01 11:20:16+05:18,True
+fb02e7eeda8d48ede12a0a1e2a95cd4ff7657697,added deploy to heroku button and app.json for heroku,2015-06-14 14:36:13+05:18,False
+de2f3fac191d39ba1184a731d1a6eabd5693c8cf,cleanup readme,2015-06-14 14:38:02+05:18,True
+5ed38ce0e66632d7b96d40e2d9939ae340ec3388,added deploy to heroku button and app.json for heroku,2015-06-15 00:29:11+05:18,False
+6593f811fb65fbe37c9ac940251027ae8963db36,cleanup readme,2015-06-15 00:29:11+05:18,False
+367d126d3a0b4f8b8db2911648d6d7edcebf1d11,Add pandoc to travis & readme,2015-06-15 19:31:49+05:18,True
+bf1a6d538a8fac9036331ac157aac2f0e9a9fe4b,Add Pandoc installing guide to readme,2015-06-15 21:13:29+05:18,True
+4cae8a4e2bbd49b95d9a02ca1e5fa1ad160491a4,"Use markdown2 instead of pandoc
+
+PyPandoc has system dependency pandoc.",2015-06-15 21:29:47+05:18,True
+543bd00fb0d490c40be043cba72f021fc37204ae,added requires.io badge,2015-12-19 12:00:29+05:18,False
+55ce1699a57fc0490ce00028e8d0cf9630ce4578,Update docker installation url,2016-03-10 23:38:57+05:18,True
+de96eeda71a478bbfbb28a7e340cf6a9c37dacc6,"Fig has been replaced by Docker Compose, and is now deprecated
+
+Closes #399.",2016-03-10 23:38:57+05:18,True
+e9bcedfd720afbbce674548822c767dfb83d7564,"Add system requirements to readme
+
+Refactor imports",2016-03-10 23:52:01+05:18,True
+439f284d798353a821a3665264b7b2eaac86ee68,"Release 0.3.0
+
+closes #196",2016-03-31 16:23:59+05:18,True
+84a285c25a5c57b031b6fbcdff61c2556f6c552b,Add/move contributors list to README,2016-06-21 17:53:32+05:18,True
+8b545a0cd6943dba923cfabe046fbf2d4b285386,Add Sumit Chahal (@smtchahal) to list of contributors,2016-06-25 17:54:27+05:18,True
+834b70eeb0f0ab09a7cf36848e0db89b46770635,Add bumpversion,2016-07-02 12:31:09+05:18,False
+27103fc15e83dbbeee00d855a3ee8ed5e4c0f687,Bump version: 0.3.1 → 0.3.2,2016-07-02 12:31:24+05:18,False
+ff05db604e718d3ac0e8222ed07a462cfeb64844,Remove deploy to heroku,2016-07-02 12:40:31+05:18,False
+0dd4baf58729acfbf3b3f3a5d256f03f6de984f4,Update README.md,2016-07-02 12:57:28+05:18,False
+43838b6f929940fdb576c89ed03de6769033f647,Update README.md,2016-07-02 13:09:34+05:18,True
+839a80fa6a2988444f10c3d25ae9b884ade9505c,Update README.md,2016-07-02 13:12:05+05:18,True
+150276bcc96c6afe809113c3ac5471a43c35db48,Update README.md,2016-07-02 13:13:42+05:18,True
+0ad29c3e2eab79108f699c62abf87dee129ba022,Update README.md,2016-07-02 14:48:22+05:18,True
+a6c7031d8f1009fd656fff12332fa7b9e91a43d3,Update contributors to include images :),2016-07-07 14:40:46+05:18,True
+55a01077a916844180e24fb29ea06bce56e1ee0c,Add python api and client links,2016-07-10 17:17:57+05:18,True
+faf9607e24b109d53be7e6b28787f52100fffad3,Update contributors list,2016-09-06 15:51:24+05:18,False
+3271c0c466a561ca2e063e73fa1fd9d58914bbd0,Modified travis.yml to install redis,2017-05-14 21:56:02+05:18,True
+5d88e07ab4e502bad8d38ff850501f9047f661b9,"meta: Remove the Docker instructions from the README (#669)
+
+Signed-off-by: Sayan Chowdhury <sayan.chowdhury2012@gmail.com>",2020-05-02 14:56:36+05:18,True
+a71dd6239573fe455c215d7821dad5af80c8bf59,Mark root README.md as deprecated and add reference to getting started doc,2020-06-05 18:59:54+05:18,True
+ac713edcf56c41eb3f066da776a0a5d24e55b46a,"Remove the contributor list from README
+
+Ref: https://github.com/pythonindia/pyconindia-handbook/pull/25
+
+Signed-off-by: Nabarun Pal <pal.nabarun95@gmail.com>",2020-06-05 18:59:54+05:18,True
+f866be33d403d6e6b788e2834151439b8663d185,"Refactor README to remove deprecated content
+
+Signed-off-by: Nabarun Pal <pal.nabarun95@gmail.com>",2020-06-06 19:01:45+05:18,True
+ac526e12bf17a6943cc0aeebf5618c236eca1221,Update documentation for frontend setup (#695),2020-06-13 11:33:24+05:18,False

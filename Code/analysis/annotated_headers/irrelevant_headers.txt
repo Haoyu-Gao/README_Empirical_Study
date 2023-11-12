@@ -1,0 +1,177 @@
+diagnostic highlighting groups
+neuronal soma reconstruction
+license
+documentation
+features
+introduction
+<h1 align="center">
+overview
+or
+credits
+contributors
+licensing
+description
+citation
+status
+faq
+todo
+#
+notes
+changes
+support
+roadmap
+authors
+author
+news
+contact
+ligan
+the apiman project (open source api management)
+further information
+```
+table of contents
+hasgeek tv
+who created viur2
+who creates viur2
+acknowledgements
+misc
+<strong>y</strong>ou <strong>o</strong>nly <strong>l</strong>ook <strong>a</strong>t <strong>c</strong>oefficien<strong>t</strong>s
+evaluation
+training
+about
+changelog
+references
+acknowledgements
+tests
+disclaimer
+motivation
+getting help
+architecture
+summary
+community
+limitations
+citing
+history
+creditsdata
+issues
+additional documentation
+license
+reporting issues
+contributors ‚ú®
+more information
+special thanks
+project goals
+project structure
+links
+unit tests
+key features
+logging
+integration tests
+bibtex
+future
+scripts
+rest: .net/c#
+goals
+general
+automated testing
+note
+why use
+cross-lingual and multi-lingual regressions
+applications
+datasets
+semantic segmentation
+binary sensors
+1.2. sox and shorten
+1.3. festival
+gui
+for a real-time demo, check out our iccv video:
+sensors
+switches
+telemetry
+select
+constructor tensor<data_type, rank>(size0, size1, ...)
+constructor tensor<data<em>type, rank>(size</em>array)
+constructor tensormap<tensor<data_type, rank>&gt;(data, size0, size1, ...)
+class tensorref
+<data_type> tensor(index0, index1...)
+assigning to a tensor, tensorfixedsize, or tensormap.
+calling eval().
+assigning to a tensorref.
+evaluating with the defaultdevice
+evaluating with a thread pool
+evaluating on gpu
+<tensor-type>::dimensions
+<tensor-type>::index
+<tensor-type>::scalar
+<operation>
+reduction along all dimensions
+parameters
+samples
+dynamic loading
+preloading
+rdbs
+problems
+architecture uml diagram
+sequence diagram
+accessing oracle database
+accessing web apis with authentication
+derived tests
+counting how many files are there for each extension
+other features
+searching and listing files without extension
+searching and listing all files
+counting the total number of files in the directory
+bare-bones
+bare-bones + broker for <a href="https://skyportal.io/"><code>skyportal</code></a> / <a href="https://github.com/fritz-marshal/fritz"><code>fritz</code></a>
+behind <code>traefik</code>
+endpoint 1 - cost effectiveness award amount
+endpoint 2 - cost effectiveness tender amount
+contributing
+testing
+examples
+nessai: nested sampling with artificial intelligence
+mlaut (machine learning automation toolbox)
+opentosca container - tosca runtime
+change detector
+pyodide javascript package
+capirca
+create a table
+rev.ng orchestra config
+api
+contents
+domino
+mmdetection
+contribute
+screenshots
+build status
+releases
+tutorials
+demo
+resources
+how to contribute
+api documentation
+contribution
+```yaml
+components
+how it works
+python
+java
+other examples
+debug
+manual
+intellij
+training a model
+running the tests
+step 3. run ligan unit tests (optional)
+controller
+git
+intellij idea
+run the tests
+backend
+frontend
+spacy, nltk
+numpy ufunc methods
+cart√£o de cr√©dito
+play around
+using <code>snapshot</code> versions
+usage
+example usage

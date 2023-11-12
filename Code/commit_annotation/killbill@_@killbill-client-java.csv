@@ -1,0 +1,26 @@
+sha,message,date,result
+3c89fd4ac142853a8e280c1fcef83fe46ed07dab,Initial commit,2012-06-17 15:33:53-07:00,False
+6b777526744af9556e57e1431e233f1a406e91c4,"Initial import
+
+Extracted from the main Kill Bill repo (killbill-server tests)
+by Praveen Agrawal <pkalwar@gmail.com>.
+
+Thank you Praveen!
+
+Signed-off-by: Pierre-Alexandre Meyer <pierre@mouraf.org>",2013-07-31 21:45:16-04:00,True
+09a9a62a18d5fe7125f0e53b893c09079d229258,Update README.md,2014-11-29 15:30:54-05:00,False
+cac17d3eb76e8150afffb11bdae819bd6c94f24d,Update README.md,2016-11-12 13:18:53-08:00,True
+5b72b9c0017bb555300dbcf9fda8dc6868e18c4c,Update README.md,2018-01-19 14:27:14+00:00,True
+682e5692b898897fa7013d23475e3187ab4f486c,Update README.md,2018-07-26 14:50:47-07:00,True
+725d51229c607bac5dcd46e5f459d0f88956302c,Update README.md,2018-07-27 03:55:49+01:00,True
+a899abf8718c781185b626b2ded07a9183a19b88,Update README.md,2018-08-23 20:30:13-07:00,False
+74aa69ec74c5cd1674d0973e631b463cf5ba953a,Update README.md,2019-05-09 10:02:43-07:00,True
+05fa12ab5000b5853f3fdb2643ebe9c6800b797f,Update README.md,2019-12-18 08:07:34+00:00,False
+1eba4e66cd35bf07e5764371ec5a5f4e652bafbd,"pom.xml: update to killbill-oss-parent 0.144.16
+
+Signed-off-by: Pierre-Alexandre Meyer <pierre@mouraf.org>",2020-07-30 11:52:02+01:00,True
+967499e6ca82355610207e8885de706e00fde0dd,Updated ReadMe instructions,2021-04-19 11:08:35+05:18,False
+8bb19e7cb3c9608cc999dde8d91f01d37d621975,"pom.xml: update version to 1.3.0-SNAPSHOT
+
+Signed-off-by: Pierre-Alexandre Meyer <pierre@mouraf.org>",2022-01-18 15:54:20+01:00,True
+e50d7554029444c464fb7c871ff28ea95fa0cc81,Update README.md,2022-12-11 03:07:58+00:00,True

@@ -1,0 +1,97 @@
+sha,message,date,result
+9b7e6356b6362a721463c9d9bfeba5239089e0ee,Initial commit,2019-06-19 12:50:05+02:00,False
+eb85f5ce37f8ba514492ad6dca934566e22cb333,Update README.md,2019-06-19 18:24:37+02:00,False
+f9322b6ba939137b292a4e926ba2fb2b716c026f,Update README.md,2019-06-25 17:45:28+02:00,False
+806bb2b059ef645463114b3e695ec25d52c4f2bd,Update README.md,2019-06-25 17:56:15+02:00,False
+01bd78d17a42bd7c83577e9b27d9c30f6375b37b,Update README.md,2019-06-26 14:17:45+02:00,False
+74477f4749879587af92c68f1c9cf5baaf7a1c96,Update README.md,2019-06-26 14:22:17+02:00,False
+f73f0ca7f2592b5ee28eb40e2f4faebcc74082d2,Update README.md,2019-06-26 15:37:49+02:00,False
+acd2766176c9bccff0b16ce2bfdcbd08c18fe65d,Update README.md,2019-06-26 15:42:55+02:00,False
+6e5ee6192bde69364c0bba89593376043e2a8abe,Update README.md,2019-06-28 14:01:13+02:00,False
+311b2b8825b4601bd8330c36591e768df000d1ee,Update README.md,2019-06-28 19:23:52+02:00,False
+099ff65788ead3061e38466b8ba3de7b7c5185bc,"refactoring, readability",2019-07-09 14:47:22+02:00,False
+42c88d6ccca69d77d1465b84d7bab30d0da66f1e,Update README.md,2019-08-26 23:52:19+02:00,False
+51788fc05e18af56fb3bd82850efb73585df2aba,update README.md,2019-09-09 14:18:29+02:00,True
+0dcf598df9a21029478cd9198597d3ee186e9e05,Update README.md,2019-09-11 23:44:27+02:00,False
+14b0dabb12e7f25243098fd2f1b64d92da3a8882,Update README.md,2019-09-11 23:53:09+02:00,False
+c97208ac49dfc8cf4efc996887736999e31c364a,restructuring,2019-09-27 17:23:45+02:00,False
+af3d4cbbbd965ee4a4ac702ab608a35f36d9e257,update README.md,2019-10-01 18:06:23+02:00,False
+fc5f34e0c5583ad26d75ef1291f2e37282796961,added SLAV,2019-11-27 21:15:17+01:00,False
+2fc4c10939ff4854dd2875171137c57d2c309bb6,"add file example, some fixes in file_reader.py",2020-01-10 10:46:05+01:00,False
+f6998ae3c1caee6bb3acdeffef96d2d5af30c926,start implementing python 3 compatibility,2020-01-15 10:18:06+01:00,True
+c0531637df0a6db7f41dd4a8e8347e5e47403f1f,add requirements.txt,2020-01-21 09:41:19+01:00,False
+8abbd1a5b864d057ed26177cf419df3080714b71,add rules and examples to README.md,2020-01-27 11:54:53+01:00,False
+9682eac77b6d4f3719614a33cae230bdd8f73105,update readme,2020-01-27 14:00:12+01:00,False
+3649b365789c4de72cdea80777d172025266f6b5,add rule phragmen_enestroem,2020-01-28 14:54:05+01:00,False
+518504ffb0b6dbaec1712c154d3997a121239c5c,Update README.md,2020-01-29 13:38:10+01:00,False
+56265ec747f313fc48723d3eda540f8187db96cf,update README.md,2020-03-05 13:46:18+01:00,False
+24dd2f8457f3db50ba7d81873bec5961ad8da410,readme,2020-03-06 15:58:15+01:00,False
+34c27b3873266f40c144d448d3e56556689f60e5,"Restructure dir hierarchy
+
+(auto pycharm)",2020-03-09 14:51:51+01:00,False
+99205c7c90c3d695064f4fbd260341f63e66c8c5,update README.md,2020-03-09 22:53:18+01:00,False
+b9492bc148251b1d79b2ae27fd19bd8494c8de1d,update README.md,2020-03-10 11:28:02+01:00,False
+22842222135f5a8a616aae229782ac67b40871a6,Add badge for Unittests build job to README.md,2020-03-10 13:32:24+01:00,False
+0021c0d815dd9c6a61a724b5a7550d29fd18f2d9,Add LICENSE badge to README and fix unittest badge,2020-03-10 13:35:31+01:00,False
+62c7ef2ffe3c898996cb1c0c30386b0ee59ed1fd,minor fixes,2020-06-19 16:54:12+02:00,False
+b004b6d38bd1e7a289ad1bd84509bf0209c60a78,Update README.md,2020-06-23 14:56:44+02:00,False
+f9686549f12d2de44529431ff0f9a93162496b77,mention new survey,2020-09-11 16:27:40+02:00,False
+8365a7bd4293f53bf2a0475c83e75ee13933f0cb,add additional ack's,2020-09-11 17:56:58+02:00,False
+0fd9f5a22f5a2cb999132e1bba801175da9f12af,"add additional ack's, literature pointers",2020-09-11 18:01:07+02:00,False
+fc122454f5f7416bfc53cc99ca8fd060139c1996,Update README.md,2020-09-17 11:33:19+02:00,False
+1e7f79fac27b77059a6b3751e9caffea3b430fc9,update README.md,2020-10-16 14:27:32+02:00,False
+0c7f6d2b48cef58d846bebe08967a183a4c8a98a,"add codecov badge and change license badge
+
+shields.io is quite slow from time to time, badgen.net should be better.",2020-10-22 18:37:39+02:00,False
+79d6144550cefa08601758e7037b04afbe8a3e67,Fix syntax error in README.md,2020-10-23 09:04:16+02:00,False
+eacce967eead0b469d421acc11478d8c3fd2d772,"drop support for Python 2.7
+
+The following commits will use f-strings, which requires Python >= 3.6.
+Python 2 is unsupported for almost a year, so we can drop support
+without doubt.",2020-12-18 15:58:13+01:00,True
+0b8131ebc62164da38794dfcad2f5f1e792a2704,continue refactoring of classes in preferences.py,2020-12-23 09:44:27+01:00,False
+2555daea9223d2fc4d708b24d0b04446c343d044,add config for pre-commit and some documentation,2021-01-07 18:46:31+01:00,False
+193acbcdfd2ff6e4aa814efecc83cfd3e246a474,"refactoring use of names. major revision.
+most important: Voter instead of ApprovalSet",2021-01-08 17:47:26+01:00,False
+b1bebb071f120169e8ecd8ea8907492d908b8871,update README.md,2021-01-10 18:46:19+01:00,False
+fe905d964af6a61d261acfc80d7d7f94841e3be5,"strengthen test_output unit test, move survey examples to examples/abcsurvey
+many further changes that followed from that",2021-02-20 10:59:11+01:00,False
+c3e8f768367c40001b750768c08570e8ab4dfa66,update README.md,2021-02-27 22:02:38+01:00,False
+2fd29bc774c2677702b125bf02eda6e35a3ad228,"Remove requirements.txt and adapt README.md
+
+Everything included in setup.py.",2021-04-12 17:33:49+02:00,True
+636a3a172cbf846b1b2bc059647f1806dfe1a043,Add minor comment to README.md,2021-04-12 17:38:39+02:00,False
+64a936d0888168a9ece0ea61c0dc1e052e20a27b,Fix whitespace errors,2021-04-12 19:59:31+02:00,False
+d0296e97247c2a51691b8124ae3a553e3a1a7635,update readme,2021-06-10 15:51:19+02:00,False
+9d98c9751870c58f4982b6b37cdbfb497aa854f3,Update README.md,2021-06-10 17:59:58+02:00,False
+750677dfb854d878b982ea172020a41434a6a480,add hint about test packages to README,2021-10-15 12:36:39+02:00,False
+55645743bd0295aacb488f52efc242b9abda2733,fix white-spaces in README,2021-10-15 12:36:39+02:00,False
+31a1570e381b5fa06098b25b4c65629e49e23d3c,update README.md,2021-12-07 17:22:14+01:00,True
+f68cb0c8f40e25b9d5e453aea2699849112431b7,update README.md,2022-01-31 13:02:44+01:00,False
+860838d3cb1fbfac82391fddb06bd83933633cb0,add documentation on algorithms,2022-02-02 15:14:15+01:00,False
+552a536045a64aceb77fa55292cc5ad7d3d3c322,update README,2022-02-07 14:53:32+01:00,True
+ed3132aaa33b47e040855bddac3ba7bbead0f09c,acks for Elvi,2022-03-07 10:29:37+01:00,False
+bfbe6fc1815204772a5e953d635075a9ab8530d2,update README,2022-03-08 10:14:53+01:00,False
+29a3e4a7148c2c34875afb4d70e69e47f05d6969,improve documentation,2022-03-09 12:54:39+01:00,False
+f059bd7b79a9ee8af0d971edc1207300d24e6cf6,improve documentation,2022-03-09 16:16:19+01:00,False
+4944599266c866add15efd8ba361fc183155b08e,upgrade to black 22.1.0 and remove support for Python 3.6,2022-03-09 16:19:46+01:00,True
+90e31bedd5076a29365eacea95ff7f7f1d9d1249,README and docs,2022-03-10 11:59:21+01:00,False
+53a5b6bde1f4ee3e432a5164376caf38f698389f,update docs,2022-03-18 09:55:40+01:00,True
+33da3b20da2bf8fe38a488250573bdcccda0faac,docs,2022-03-24 21:37:25+01:00,True
+71c150f24d1a99bbf7c9fe6f0d0e54069b186a6a,update readme,2022-03-24 22:18:09+01:00,False
+397ea219f85fc3011f2be3ea6238b1b5ced8dfc0,update docs,2022-03-25 10:01:43+01:00,False
+66efbed46cb5415be920e298f2a92ae64e2d986e,update README,2022-03-27 20:07:24+02:00,False
+ece9a1f8979b39c0c7da3a7981e06088d24b5dda,update readme,2022-05-25 15:57:52+02:00,False
+094576db2428cdd124a118b0b3899a1709a7573d,rename Rule X (rule-x) to Method of Equal Shares (equal-shares),2022-07-20 10:07:31+02:00,False
+73db653e38c84e710814d5663d674f8af020e90f,update README.md,2022-08-31 12:18:02+02:00,False
+43730b06486aaeca62a8d6e0a9d3fb9c15eb1b53,"add priceability and core property (#58)
+
+* add (stable) priceability and core property
+
+Co-authored-by: Jonas Kompauer <jonas.kompauer@gmx.at>",2022-09-06 22:44:07+02:00,False
+31357e431ca245bd5d5125893eaee177b36882a6,update abcvoting authors,2022-09-12 13:57:30+02:00,False
+3acaba9e0d67b22a03d8eee134e484259312b8c5,"update reference to book ""Multi-Winner Voting with Approval Preferences"" (now published)",2023-01-16 15:30:36+01:00,False
+618933d84622304083b04940a7c80f86b71e5f01,add JOSS badge to README.md (#60),2023-02-08 21:03:42+01:00,False
+de6688e9e9446bd952840742c0be1844047038ee,link to abcvoting webapp,2023-03-24 14:00:54+01:00,False
+c4c5400e40337ab5c5a69e4780746b7a123d8439,update README,2023-03-29 12:27:21+02:00,False
+cbd70e7d7f5d5868db6e23b903aeb088634cc82c,Update README.md,2023-05-04 17:00:24+02:00,False

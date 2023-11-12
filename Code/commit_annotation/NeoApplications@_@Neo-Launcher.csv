@@ -1,0 +1,139 @@
+sha,message,date,result
+60e3f8fafb69c37cec9a102d4f1eabd5ef345002,Create README.md,2020-06-29 19:42:44-06:00,False
+20b0bbc8028f6cd7e6321790fc477e9a63ff8b5e,"add funding
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2020-06-29 20:02:19-06:00,False
+46775c91484dee5a416a3d8fcb04e1c02482ade6,"add funding
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2020-06-29 20:04:07-06:00,False
+a80913f32ad9ba836fc5b4bdfd175b7391e972c6,update README.md,2020-06-30 10:37:33-06:00,False
+f60a89086bb194e971ae4c040a3cf43c50751330,update README.md,2020-07-06 18:53:30-06:00,False
+8e65c6f2fd9f5295b541e1efe2df345cd9109da5,add dash,2020-07-09 22:09:09-06:00,False
+2ff227a44d53ff81488dc9d3ce1d3f07fd622f97,update README.md,2020-07-12 16:13:32-06:00,False
+5d61e734c5d22bdec9598db7156c64e9679d23b9,fix README typo,2020-07-12 17:21:17-06:00,False
+377a67d8bfd45ab95af5161c38f851eaf25a3798,update README.md,2020-07-13 12:04:35-06:00,False
+990003857a1147aad60cb95d7a7727165f48f52f,update README.md,2020-07-13 12:08:02-06:00,False
+1e575cce3bafb4cf7def6aa49af6ad11ed6c66b0,prepere sources for android Q,2020-07-13 15:20:00-06:00,False
+8557d3b7770710e8a98ec9d15e08b537e4b2c204,"restore readme
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2020-11-14 10:21:44-06:00,True
+06cade747ece3871dacb4bebdc602db4d9d4c0f4,"update README
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2020-11-14 13:57:04-06:00,True
+d232700e4910448a5aafb3c3620e9afa32f3d07b,"update readme
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2020-11-24 19:58:39-06:00,False
+42e2b2f9fadf7bcc733bbff2dda18d208dc1b056,Fix status badge in README too,2020-12-23 22:22:09+05:18,False
+09f80f861f15bdd8fb131f3882ca223ebb0201cd,"update README.md
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2020-12-23 11:40:05-06:00,False
+6fc438c5c00686f4f94e8940a7e2c0e00f00fb7e,"update README.md
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2021-01-04 19:07:32-06:00,True
+70e6089e6883e264b00366bc97edca7911325867,"Add telegram group
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2021-01-09 09:42:55-06:00,False
+a36bdd80c5e86b98838f78df806b70d842edb77e,"Update readme
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2021-01-18 16:19:07-06:00,True
+44763ef64b905f1441bdc78a0ad36be979f80202,"Update readme
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2021-01-18 16:22:29-06:00,True
+30225ebceb0aba1f5bfb8c8a7c29f1221e8c5526,"update about information
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2021-01-25 23:02:55-06:00,False
+584812ddea2921eb4eb3540fd52ff0a3b037fd4b,"update license shield
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2021-01-26 20:03:46-06:00,False
+3db3dde2fad12e42b98955a4ebf8a0ebb342a8ea,"update f-droid repo
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2021-01-27 06:36:15-06:00,True
+02a919f37f79b82df9301819b692664c5df2fa18,"update Readme
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2021-02-01 23:17:33-06:00,True
+ca34ec3d8c8fa220b38a8d9e9bfde3e44a9e6e41,"update readme
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2021-02-01 23:40:36-06:00,False
+b04e065d892da16bde946fa019170f973f33e1ac,"update sponsors
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2021-03-22 20:53:57-06:00,False
+9d5fa0fb46299e45c1723638981d0dc8c9aa32b1,"Add patreon logo
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2021-04-08 20:15:26-06:00,False
+525a4c11975e56c1d935ce3c5ed60ba7a2a6e752,"update readme
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2021-05-04 20:50:24-06:00,False
+12ccc143611616e557fc6379c12e5f51588caedf,"update readme and snapshots
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2021-05-08 09:58:34-06:00,False
+e5b285830c92b0cf09b8d65eef2a487103c5a7a1,"update screenshots for readme
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2021-05-17 10:46:55-06:00,False
+dc2353fd4255c43a4ace32d01ad117ab201db8bb,"update readme
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2021-06-07 11:12:40-06:00,False
+08e2568e42cc46b37d0698521dbdacfbe7730126,add support development section,2021-07-11 21:52:30-06:00,False
+40818fdecb7be7014b364c83a67e8cd17e57a382,Update contribution notes,2021-07-13 16:21:11-06:00,False
+e7c4fc3983aab9d57a3cca12377fc3b8adbd7fba,Update README.md,2021-07-15 23:54:25-06:00,False
+eecfdbc34de1a539400a1807dbd95d0561ae468b,update readme,2021-07-19 22:06:38-06:00,False
+76630d4fab6ec7f5d9f46173e42e5472e43152db,"Update readme
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2021-09-10 19:24:21-06:00,False
+e2d370c4f822de885c9d243b30e04bea90d63a65,"Fix support shield
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2021-09-12 23:41:53-06:00,False
+6799ebf0850c302d0e5d6bfaff2bd8ff615cefa6,"Add FAQ to readme
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2021-10-02 18:22:14-06:00,False
+11aef19ecee75530eb18c63e244e8adf185d1552,"Migrate base code to AOSP 12 r2
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2021-10-12 22:21:57-06:00,False
+c9ec01873bf22f8dc6c02dd5f142882d1ae70af6,Create README.md,2021-10-20 18:20:26-06:00,False
+998fe1ac844e8a06059c0fb74487dafc1e28048c,"Restore readme
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2021-10-20 18:31:54-06:00,True
+6d1441e020df245be918d4ccd2d20c315c8c63dd,"fix build badge
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2021-10-21 22:47:15-06:00,False
+272dedc59633776b3ecdb1f1cce291dfb52e3bc8,Updated README,2021-12-28 18:43:10-03:00,True
+fefa90c2d80d402577ad01dcdd96b9cebd3cac81,Remove readme extra spaces between each section,2022-01-01 12:44:50-06:00,False
+40b30bbd1e3c8bfe5826abf12aa48cfb8abc63b2,Update: Refactor README to simpler MD,2022-01-04 22:53:05+01:00,True
+44a997689ed66ddbeb0c6427e02ddcdf61a5079c,Add: Developer's document,2022-01-04 22:54:43+01:00,False
+a3244fc6c10213233b666aeab291c85c9d2828a0,Update: Refine README further,2022-01-04 23:16:49+01:00,True
+341aea9dd3cee48806498de18bce3c29eac4bfd0,Update: Replace icons with Phosphor icons and clean up unused ones,2022-01-10 01:01:50+01:00,False
+b8108bce9ed5f8387f108d63ef06d46817389308,"Update readme
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2022-01-20 17:27:50-06:00,False
+74966caa1968e7e9ab75de22ae53c7893ebd6d1b,"Update readme
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2022-03-17 17:30:57-05:00,False
+c31e3eb4a2e7ae73e8b1016a8da36ca7565b9fc1,"Update readme
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2022-03-17 17:44:19-05:00,False
+4ebf7e3f777ef53cd243ef2dbfb773ce567affae,Welcome Neo Launcher of Neo Applications,2022-03-18 22:24:29+01:00,True
+6bd811aefe9ad037108cebfa990932235a9478ab,Update: TG group link,2022-03-19 13:12:44+01:00,False
+0eb9c5971b6dbf9cfb48bf325ad895a7eabda2cd,"add badges to README.md
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2022-07-12 18:22:27-05:00,False
+0f49acb72d73c8be5a0999c4c4ad9473b1aa965a,"add extra line before badges to README.md
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2022-07-12 18:23:38-05:00,False
+207d191fd016b3adaedd785c7cbe444595f5205f,Update: Fastlane descriptions and README,2022-07-20 19:51:04+02:00,True
+50c2517fae3fd5b9c6cab3d77e11436444f11790,"Fix typo
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2022-07-26 10:59:47-05:00,False
+a03013f0d8e9c7d3fbdc5295698bd6c612d3ec67,"Update readme
+
+Signed-off-by: Saul <saul_henriquez@hotmail.com>",2022-07-29 14:14:35-06:00,False
+90cb749d6d68646ea28b83f1d233f41cb9330b40,Update: README,2022-07-30 00:19:06+02:00,True
+9cd2f78d565ce92f2aa5455c0b3050f335b43a8a,"add FAQ about quickswitch
+
+Signed-off-by: Saul <saul_henriquez@hotmail.com>",2022-08-12 09:46:27-06:00,False
+040c394c59093c7cb12c451d886e96b7938cdfdd,Add link to the Neo Applications banner,2022-10-20 08:24:44-03:00,False
+5e6aaae65bde4288171d7d1127c8c81d102c3ef7,"Add theme snapshot
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2022-11-17 22:06:55-06:00,False
+43be6a477d00fcfe3cb025d00a16831cc929f9f0,"replace svg with png
+
+Signed-off-by: Saul Henriquez <saul_henriquez@hotmail.com>",2022-11-17 22:18:47-06:00,False
+c62c8c31e23db7593333b75de5070e0a7e1c04c5,chore: update installation links,2023-05-29 17:23:19-03:00,True

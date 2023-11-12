@@ -1,0 +1,947 @@
+sha,message,date,result
+71cf18b012857b2cbbc52ff66f63db83689b6bfc,Initial commit,2022-08-22 17:05:27+03:00,FALSE
+3324f31e8463434796028c7bee6e695ef95c0681,first,2022-08-22 17:15:46+03:00,TRUE
+60e95f1d8c4e7296803389a46f542bd6e0a02770,"silence the warning from transformers
+add feature demonstrations to readme",2022-08-23 11:58:50+03:00,TRUE
+61bfa6c16b651b9c72fbe01f2a0899ff4ba1f027,"additional picture for prompt matrix
+proper seeds for img2img
+a bit of refactoring",2022-08-23 14:07:37+03:00,FALSE
+cb118c4036176c3d534fc408fed1a95332a85f26,Prompt matrix now draws text like in demo.,2022-08-23 18:04:13+03:00,FALSE
+e996f3c1189c774481458cba100dc308a98dd805,readme extra,2022-08-23 22:49:58+03:00,FALSE
+1463d44faf070d68f5b33527666b67bf0a94fd09,"added resizing modes
+added more info into readme",2022-08-24 10:52:41+03:00,FALSE
+ca0d7981a058158175166afe20e3a60bb081a964,typos,2022-08-24 10:59:47+03:00,FALSE
+852baf422ad86e406e0fa999c2f340bfd6a272d2,"gfpgan dir for the guide's directory names
+fix a bug in image resizing",2022-08-24 13:42:21+03:00,FALSE
+34e9795505519dc9b39010311e7f4da9bb0fa954,readme for loopback,2022-08-24 16:43:05+03:00,FALSE
+47d79b2ac90c4548c880090653ef4548c7703229,"Revert ""Merge branch 'master' into master""
+
+This reverts commit 15a700bbe580c05079e742bbaa2612da82de15e6, reversing
+changes made to abb83239e5d708adf72fa457c3de81603e7281d3.",2022-08-24 15:11:12+01:00,FALSE
+3401e1944d263aeee104c653f77bb56cc143eb61,Better crash display,2022-08-25 01:54:41+10:00,FALSE
+121dea60e9021479ddf947229040f1cddc13ff55,Update README.md,2022-08-25 19:59:49+01:00,FALSE
+6f0d73baf1a644894158308abc7a40e3c99e6801,Update README.md,2022-08-25 20:02:04+01:00,FALSE
+09282f6a3199f8308af72e12688c48e08cc4ec96,Update README.md,2022-08-26 02:55:06+01:00,FALSE
+ab2770ef123ca3c4cd2f9dddff0885bf0006b2f8,Update README.md,2022-08-26 05:20:00+01:00,TRUE
+585d81e1ab399f048ce0307bef21b9ee115fa0cb,Update README to reflect RealESRGAN support,2022-08-26 03:00:37-07:00,FALSE
+164b318fb4b6012e5a36676ed9a07fd7c8aa63cb,"Update copy-paste generation parameters to reflect RealESRGAN usage
+Fix minor error in README",2022-08-26 03:02:04-07:00,FALSE
+dcc5431e5e559bea2acf497440ac2544b1497f97,Update README.md,2022-08-26 14:50:40+01:00,FALSE
+3ed1c6be34d78e976a62ddf7ffc1e1750decb15c,Update README.md,2022-08-26 21:58:43+01:00,FALSE
+9e42c836cd57dc09f5a26cca54536ff95c2bce49,Update README.md,2022-08-26 23:31:04+01:00,TRUE
+c47d62857f7a1c42e0b2883d8bd53a093b454c0b,Update README.md,2022-08-26 23:31:45+01:00,FALSE
+31335f8ec3a5f157737f4f9a2f33c51f4549b22e,Update README.md,2022-08-26 23:32:56+01:00,FALSE
+9ef82a0ac7874731a2ae7b6acd2200a6caee55cf,Update README.md,2022-08-27 00:54:28+01:00,FALSE
+474f1465274ef71822e8a543460707929f63224a,Update README.md,2022-08-27 02:10:04+01:00,FALSE
+8c1ea1311aaa1a7db60e418610dd1eb43e99fba6,Update README.md,2022-08-27 02:22:07+01:00,FALSE
+3e9998a699e31ffad1e4d56c7a80936291c3ad21,Update README.md,2022-08-27 03:40:26+01:00,FALSE
+ddf8fb16931a65739d53fb9c4f3ad8fd89643bc2,Update README.md,2022-08-27 18:28:24+01:00,FALSE
+8491abbce384a8cb521aebf0a096fdcfebd62cef,Update README.md,2022-08-28 00:05:31+01:00,FALSE
+fe4aa57d44d8f773ed623d4ad7a86bfefe4ffabe,Update README.md,2022-08-28 05:56:15+01:00,FALSE
+33890563d237889aca7cbc4f04ae42b885aee07e,Update README.md,2022-08-28 06:00:14+01:00,FALSE
+5765d729af485b08d0945a0222ddc59f9517c9ea,"Grid image generation fixes (#180)
+
+* Add simple templating
+
+* Little grid generation image fix
+
+* Add new grid help to readme
+
+* Grid image generation fixes
+
+* Trim @ symbol if no matrix inputs
+
+* Resolve conflicts",2022-08-28 15:23:21+01:00,FALSE
+db175c931ad90e4a1ab0614fe2c3a0e2f8c8c374,Update README.md,2022-08-28 17:05:34+01:00,TRUE
+7c6e04b9a8baf63a0de68befbfda0af88a3e4392,Update README.md,2022-08-28 17:06:02+01:00,TRUE
+1afcbe9fa051c5e4e4849f3eb041354ae70eefa0,Update README.md,2022-08-28 17:24:01+01:00,FALSE
+fbd48785516dff12402d02e8577d578b966a4199,Update README.md,2022-08-28 20:29:31+01:00,FALSE
+90d49a0c4a96ba48271265bb4a9a9c476219b080,Update README.md,2022-08-29 00:57:44+01:00,FALSE
+083ffd9ad83d196100fd4b8edfa82c9378546327,Update README.md,2022-08-29 00:59:36+01:00,FALSE
+2974abae30394aeba6746f9ac11ef7e967fec476,Update README.md,2022-08-29 12:28:31+01:00,FALSE
+253b0e5a5ce3a6e83453a3bbbd82518913c445fe,Update README.md,2022-08-30 11:43:24+01:00,FALSE
+72f1c2960172622ca73b3a87fc0e7a9d967ddf85,Update README.md,2022-09-01 12:13:26+01:00,FALSE
+03998f0dfb02528444feaa91b44dad4e801489ea,"Fix readme doc typo (#502)
+
+Co-authored-by: hlky <106811348+hlky@users.noreply.github.com>",2022-09-03 08:35:55+01:00,FALSE
+b0c1ac9f7b3d28a1b9363cec644a3616debe1359,"Add helper script for local development to replicate the github sync action. Also updated README for basic usage instructions / local development tips. (#549)
+
+Co-authored-by: hlky <106811348+hlky@users.noreply.github.com>",2022-09-03 08:41:08+01:00,FALSE
+de95a09593c64f108cb153b2bb9e6028fae051fc,"[Various Changes] GoBig fixes, model loading unloading and more (#553)
+
+* added image lab
+
+* first release
+
+model loading/unloading and save procedure added, commented out unused code from frontend
+
+* bug fixes
+
+Changed the image output to a gallery to display multiple items
+
+Fixed results not showing up in output
+
+Fixed RealESRGAN 2x mode not working and hard coded the default value for the reload.
+
+* added GoBig model check
+
+* added LDSR load check
+
+* removed global statements, added model loader/unloader function
+
+* fixed optimized mode
+
+* update
+
+* update
+
+Added send to lab button
+Added a print out if latent-diffusion folder isn't found
+
+* brought back the fix faces and upscale in generation tab
+
+* uncommenting img lab flag
+
+* added LDSR instructions
+
+* default imgProcessorTask set to false
+
+* exposed LDSR settings to lab
+
+users need to reclone the LDSR repo to use them.
+
+* Update frontend.py
+
+moving some stuff around to make them more coherent
+
+* restored upscale and fix faces to img2img
+
+* added notice section
+
+* fixed gfpgan/upscaled pictures not showing in 2img interfaces
+
+* send to lab button now sends info as well
+
+* uncommented dimension info update
+
+* added increment buttons to sampler for that k_euler_a action
+
+* image lab settings toggle on and off with selection
+
+* removed wip settings panel
+
+* better model loading handling and removed increment buttons
+
+* explaining
+
+* disabled SD unloading in image lab upscaling with realesgan and face fix
+
+* fixed a conflict with image lab
+
+Co-authored-by: dr3amer <91037083+dr3am37@users.noreply.github.com>
+Co-authored-by: hlky <106811348+hlky@users.noreply.github.com>",2022-09-03 09:07:17+01:00,FALSE
+010b27ce9af3ee22758a0cf2650383525cb44a7b,"Repo merge (#712)
+
+* repo-merge
+
+* cutdown size
+
+* Create setup.py
+
+* webui.cmd
+
+* ldm
+
+* Update environment.yaml
+
+* Update environment.yaml",2022-09-06 23:50:14+01:00,TRUE
+58c92228cdd3c52dd7b5379c72714525ce1ca0f1,Update README.md,2022-09-07 00:11:56+01:00,TRUE
+f28255466b9ac758ed8f39a4bd47b0d1d8f9eba7,"#715 #699 #698 #663 #625 #617 #611 #604 (#716)
+
+* Update README.md
+
+* Add sampler name to metadata (#695)
+
+Co-authored-by: EliEron <example@example.com>
+
+* old-dev-merge
+
+Co-authored-by: EliEron <subanimehd@gmail.com>
+Co-authored-by: EliEron <example@example.com>",2022-09-07 00:43:51+01:00,TRUE
+9853da3682393ff7ab4999a56ea6775221f6f7dc,"Update Readme links to sd-webui when appropriate (#781)
+
+* Update link to sd-webui when appropriate
+
+* added LDSR instruction per devilismyfriend guide",2022-09-07 21:33:07+03:00,TRUE
+688cb0d038673a56ab40847d3c06c3f60cfdb0e0,"update README with correct URLs (#786)
+
+Co-Authored-By: Hafiidz <3688500+Hafiidz@users.noreply.github.com>",2022-09-07 23:28:17+03:00,TRUE
+d957d6ca1d9abe1d40458f6ccc5de6e097e0d1b9,update readme as per installation step & format,2022-09-08 18:32:35+03:00,TRUE
+606aea2866beb0f506942eb0d6380c4cab1728f3,"chore: update maintenance scripts and docs  (#891)
+
+* automate conda_env_name as per name in yaml
+
+* Embed installation links directly in README.md
+
+Include links to Windows, Linux, and Google Colab installations.
+
+* Fix conda update in webui.sh for pip bug
+
+* Add info about new PRs
+
+Co-authored-by: Hafiidz <3688500+Hafiidz@users.noreply.github.com>
+Co-authored-by: Tom Pham <54967380+TomPham97@users.noreply.github.com>
+Co-authored-by: GRMrGecko <grmrgecko@gmail.com>",2022-09-09 13:09:13+03:00,TRUE
+a05a4a9b0a38431b403faca7f154fdbd6841a068,"chore: update maintenance scripts and docs  (#891)
+
+* automate conda_env_name as per name in yaml
+
+* Embed installation links directly in README.md
+
+Include links to Windows, Linux, and Google Colab installations.
+
+* Fix conda update in webui.sh for pip bug
+
+* Add info about new PRs
+
+Co-authored-by: Hafiidz <3688500+Hafiidz@users.noreply.github.com>
+Co-authored-by: Tom Pham <54967380+TomPham97@users.noreply.github.com>
+Co-authored-by: GRMrGecko <grmrgecko@gmail.com>",2022-09-09 13:13:31+03:00,TRUE
+e4a0047c774aa61730c62535ef305355c9233f72,add gradio contribution,2022-09-09 14:06:31+01:00,TRUE
+b9d97c9816251933d094f1dae43d2c631a07db7a,chore: fix branch names,2022-09-09 17:24:27+03:00,TRUE
+c7d6855baec33d6825c3f81329f478b337429590,"For issue :884, ensure webui.cmd before init src",2022-09-09 21:54:30+01:00,TRUE
+28338ceb03b6288b011c48c2d030c0c44319ba7d,add gradio discord link,2022-09-10 14:05:04+01:00,TRUE
+84bb985134a666a8104743d37c5e9816d78c2809,"Update README.md (#1075)
+
+fix typo",2022-09-13 13:39:18+03:00,FALSE
+5851d8a4d0a71ea5bf083bc2a94a3af6cbea614e,Added discord server link to the Readme.md,2022-09-15 17:01:25-07:00,FALSE
+4a8cc9ba6dd7a205c8c82ee7f4939af253a30389,Update README.md,2022-09-16 08:18:29+01:00,TRUE
+a797312183188867d7b4bdc7f1a1263017540a48,"The Merge (#1201)
+
+* resolve conflict with master
+
+* - Added option to select custom models instead of just using the default one, if you want to use a custom model just place your .ckpt file in ""models/custom"" and the UI will detect it and let you switch between stable diffusion and your custom model, make sure to give the filename a proper name that is easy to distinguish from other models because that name will be used on the UI.
+- Implemented basic Text To Video tab, will continue to improve it as it is really basic right now.
+- Improved the model loading, you now should see less frequently errors about it not been loaded correctly.
+
+* fix: advanced editor (#827), close #811
+
+refactor js_Call hook to take all gradio arguments
+
+* Added num_inference_steps to config file and fixed incorrectly calls to the config file from the txt2vid tab calling txt2img instead.
+
+* update readme as per installation step & format
+
+* proposed streamlit code organization changes
+
+I want people of all skill levels to be able to contribute
+This is one way the code could be split up with the aim of making it easy to understand and contribute especially for people on the lower end of the skill spectrum
+All i've done is split things, I think renaming and reorganising is still needed
+
+* Fixed missing diffusers dependency  for Streamlit
+
+* Streamlit: Allow user defaults to be specified in a userconfig_streamlit.yaml file.
+
+* Changed Streamit yaml default configs
+
+Changed `update_preview_frequency` from every 1 step to every 5 steps. This results in a massive gain in performance (roughly going from 2-3 times slower to only 10-15% slower) while still showing good image generation output.
+
+Changed default GFPGAN and realESRGAN settings to be off by default. That way, users can decide if they want to use them on, and what images they wish to do so.
+
+* Made sure img2txt and img2img checkboxes respect YAML defaults
+
+* Move location of user file to configs/webui folder
+
+* Fixed the path in webui_streamlit.py
+
+* Display Info and Stats when render is complete, similar to what Gradio shows.
+
+* Add info and stats to img2img
+
+* chore: update maintenance scripts and docs  (#891)
+
+* automate conda_env_name as per name in yaml
+
+* Embed installation links directly in README.md
+
+Include links to Windows, Linux, and Google Colab installations.
+
+* Fix conda update in webui.sh for pip bug
+
+* Add info about new PRs
+
+Co-authored-by: Hafiidz <3688500+Hafiidz@users.noreply.github.com>
+Co-authored-by: Tom Pham <54967380+TomPham97@users.noreply.github.com>
+Co-authored-by: GRMrGecko <grmrgecko@gmail.com>
+
+* Improvements to the txt2vid tab.
+
+* Urgent Fix to PR:860
+
+* Update attention.py
+
+* Update FUNDING.yml
+
+* when in outcrop mode, mask added regions and fill in with voroni noise for better outpainting
+
+* frontend: display current device info (#889)
+
+Displays the current device info at the bottom of the page.
+
+For users who run multiple instances of `sd-webui` on the same system (for multiple GPUs), it helps to know which of the active `CUDA_VISIBLE_DEVICES` is being used.
+
+* Fixed aspect ratio box not being updated on txt2img tab, for issue 219 from old repo (#812)
+
+* Metadata cleanup - Maintain metadata within UI (#845)
+
+* Metadata cleanup - Maintain metadata within UI
+
+This commit, when combined with Gradio 3.2.1b1+, maintains image
+metadata as an image is passed throughout the UI. For example,
+if you generate an image, send it to Image Lab, upscale it, fix faces,
+and then drag the resulting image back in to Image Lab, it will still
+remember the image generation parameters.
+
+When the image is saved, the metadata will be stripped from it if
+save-metadata is not enabled. If the image is saved by *dragging*
+out of the UI on to the filesystem it may maintain its metadata.
+
+Note: I have ran into UI responsiveness issues with upgrading Gradio.
+Seems there may be some Gradio queue management issues. *Without* the
+gradio update this commit will maintain current functionality, but
+will not keep meetadata when dragging an image between UI components.
+
+* Move ImageMetadata into its own file
+
+Cleans up webui, enables webui_streamlit et al to use it as well.
+
+* Fix typo
+
+* Add filename formatting argument (#908)
+
+* Update webui.py
+
+Filename formatting argument
+
+* Update scripts/webui.py
+
+Co-authored-by: Thomas Mello <work.mello@gmail.com>
+
+* Tiling parameter (#911)
+
+* tiling
+
+* default to False
+
+* fix: filename format parameter (#923)
+
+* For issue :884, ensure webui.cmd before init src
+
+* Remove embeddings file path
+
+* Add mask_restore to restore images based on mask, fixing #665 (#898)
+
+* Add mask_restore option to give users the option to restore images based on mask, fixing #665.
+
+Before commit c73fdd78  (Implement masking during sampling to improve blending, #308)
+image mask was applied after sampling, resulting in masked parts that are not regenerated
+to actually stay the same.
+Since c73fdd78 the masked img2img will change the whole image, even in masked areas.
+It gives better looking results at first glance, but will result in image degredation when
+applied a few times. See issue #665.
+
+In the workflow of using repeated masked img2img, users may want to use this options to keep the parts
+of image they actually want to keep without image degradation. A final masked img2img or whole image img2img with mask_restore disabled
+will give the better blending of ""Implement masking during sampling"".
+
+* revert changes of a7be43ba in change_image_editor_mode
+
+* fix ui_functions.change_image_editor_mode by adding gr.update to the end of the list it returns
+
+* revert inserted newlines and whitespaces to match format of previous code
+
+* improve caption of new option mask_restore
+
+""Only modify regenerated parts of image""
+
+* fix ui_functions.change_image_editor_mode by adding gr.update to the end of the list it returns
+
+an old copy of the function exists in webui.py, this superflous function mistakenly was changed by the earlier commit b6a9e16b
+
+* remove unused functions that are near duplicates of functions in ui_functions.py
+
+* Added CSS to center the image in the txt2img interface
+
+* add img2img option for color correction. (#936)
+
+color correction is already used for loopback to prevent color drift with the first image as correction target.
+the option allows to use the color correction even without loopback mode.
+it helps keeping the colors similar to the input image.
+
+* Image transparency is used as mask for inpainting
+
+* fix: lost imports from #921
+
+* Changed StreamIt to `k_euler` 30 steps  as default
+
+* Fixed an issue with the txt2vid model.
+
+* Removed old files from a split test we deed that are not needed anymore, we plan to do the split differently.
+
+* Changed the scheduler for the txt2vid tab back to LMS, for now we can only use that.
+
+* Better support for large batches in optimized mode
+
+* Removed some unused lines from the css file for the streamlit version.
+
+* Changed the diffusers version to be 0.2.4 or lower as a new version breaks the txt2vid generation.
+
+* Added the models/custom folder to gitignore to ignore custom models.
+
+* Added two new scripts that will be used for the new implementation of the txt2vid tab which uses the latest version of the diffusers library.
+
+* - Improved the progress bar for the txt2vid tab, it now shows more information during generation.
+- Changed the guidance_scale variable to be cfg_scale.
+
+* Perform masked image restoration for GFPGAN, RealESRGAN, fixing #947
+
+* Perform masked image restoration when using GFPGAN or RealESRGAN, fixing #947.
+Also fixes bug in image display when using masked image restoration with RealESRGAN.
+
+When the image is upscaled using RealESRGAN the image restoration can not use the
+original image because it has wrong resolution. In this case the image restoration
+will restore the non-regenerated parts of the image with an RealESRGAN upscaled
+version of the original input image.
+
+Modifications from GFPGAN or color correction in (un)masked parts are also restored
+to the original image by mask blending.
+
+* Update scripts/webui.py
+
+Co-authored-by: Thomas Mello <work.mello@gmail.com>
+
+* fix: sampler name in GoBig #988
+
+* add sampler_name defaults to img2img
+
+* add metadata to other file output file types
+
+* remove deprecated kwargs/parameter
+
+* refactor: sort out dependencies
+
+Co-Authored-By: oc013 <101832295+oc013@users.noreply.github.com>
+Co-Authored-By: Aarni Koskela <akx@iki.fi>
+Co-Authored-By: oc013 <101832295+oc013@users.noreply.github.com>
+Co-Authored-By: Aarni Koskela <akx@iki.fi>
+
+* webui: detect scoped-down GPU environment (#993)
+
+* webui: detect scoped-down GPU environment
+
+check if we're using a scoped-down GPU environment (pynvml does not listen to CUDA_VISIBLE_DEVICES) so that we can measure memory on the correct GPU
+
+* remove unnecessary import
+
+* Added piexif dependency.
+
+* Changed the minimum value for the Sampling Steps and Inference Steps to 10 and added step with a value of 10 to make it easier to move the slider as it will require a higher maximum value than in other tabs for good results on the text2vid tab.
+
+* Commented an import that is not used for now but will be used soon.
+
+* write same metadata to file and yaml
+
+* include piexif in environment needed for exif labelling of non-png files
+
+* fix individual image file format saves
+
+* introduces a general config setting save_format similar to grid_format for individual file saves
+
+* Add NSFW filter to avoid unexpected (#955)
+
+* Add NSFW filter to avoid unexpected
+
+* Fix img2img configuration numbering
+
+* Added some basic layout for the Model Manager tab and added there the models that most people use to make it easy to download instead of having to go do the wiki or searching through discord for links, it also shows the path where you are supposed to put those models for them to work.
+
+* webui: display the GPU in use during startup (#994)
+
+* webui: display the GPU in use during startup
+
+tell the user which GPU the code is actually going to use before spending lots of time loading everything onto the GPU
+
+* typo
+
+* add some info messages
+
+* evaluate current GPU properly
+
+* add debug flag gating
+
+not everyone wants or needs to see debug messages :)
+
+* add in stray debug msg
+
+* Docker updates - Add LDSR, streamlit, other updates for new repository
+
+* Update util.py
+
+* Docker - Set PYTHONPATH to parent directory to avoid `No module named frontend` error
+
+* Add missing comma for nsfw toggle in img2img (#1028)
+
+* Multiple improvements to the txt2vid tab.
+- Improved txt2vid speed by 2 times.
+- Added DDIM scheduler.
+- Added sliders for beta_start and beta_end to have more control over these parameters on the scheduler.
+- Added option to select the scheduler type from scaled_linear or linear.
+- Added option to save info files for the txt2vid tab and improved the information saved to include most of the parameters used to run the generation.
+- You can now download any model from the huggingface website to use on the txt2vid tab, just add the name to the custom_models_list on the config file.
+
+* webui: add prompt output to console (#1031)
+
+* webui: add prompt output to console
+
+show the user what prompt is currently being rendered
+
+* fix prompt print location
+
+* support negative prompts separated by ###
+
+e.g. ""shopping mall ### people"" will try to generate an image of a mall
+without people in it.
+
+* Docker validate model files if not a symlink in case user has VALIDATE_MODELS=false set (#1038)
+
+* - Added changes made by @Hafiidz on the ui-improvements branch to the css for the streamli-on-hover-tabs component.
+
+* Added streamlit-on-Hover-tabs and streamlit-option-menu dependencies to the environment.yaml file.
+
+* Changed some values to be dynamic instead of a fixed value so they are more responsive.
+
+* Changed the cmd script to use the dark theme by default when launching the streamlit UI.
+
+* Removed the padding at the top of the sidebar so we can have more free space.
+
+* - Added code for @Hafiidz's changes made on the css.
+
+* Fixed an error with the metadata not able to be saved because of the seed was not converted to a string before so it had no attribute encode on it.
+
+* add masking to streamlit img2img, find_noise_for_image, matched_noise
+
+* Use the webui script directories as PWD (#946)
+
+* add Gradio API endpoint settings (#1055)
+
+* add Gradio API endpoint settings
+
+* Add comments crediting code authors. (probably not enough, but better than none)
+
+* Renamed the save_grid option for txt2vid on the config file to be save_video, this will be used to determine if the user wants to save a video at the end of the generation or not, similar to the save_grid that is used on txt2img and img2img but for video.
+
+* -Added the Update Image Preview option to be part of the current tab options under Preview Settings.
+- Added Dynamic Preview Frequency option for the txt2vid tab which tries to find the lowest value for update_preview_frequency at which we can update the preview image during generation while at the same time minimizing the impact it has in performance.
+- Added option to save a video file on the outputs/txt2vid-samples folder after the generation is complete similar to how the save_grid option works on other tabs.
+- Added a video preview which shows a video on the txt2vid tab when the generation is completed.
+- Formated some lines of code to make it use less space and fit on the a single screen.
+- Added a script called Settings.py to the script folder in which Settings for the Setting page will be placed. Empty for now.
+
+* Commented some print statements that were used for debugging and forgot to remove previously.
+
+* fix: disable live prompt parsing
+
+* Fix issue where loopback was using batch mode
+
+* Fix indentation error that prevents mask_restore from working unless ESRGAN is turned on
+
+* Fixed Sidebar CSS for 4K displays
+
+* img2img mask fixes and fix image2noise normalization
+
+* Made it so the sampling_steps is added to num_inference_steps, otherwise it would not match the value you set for it on the slider.
+
+* Changed the loading of the model on the txt2vid tab so the half models are only loaded if the no_half option on the config file is set to False.
+
+* fix: launcher batch file fix #920, fix #605
+
+- Allow reading environment.yaml file in either LF or CRLF
+- Only update environment if environment.yaml changes
+- Remove custom_conda_path to discourage changing source file
+- Fix unable to launch webui due to frontend module missing (#605)
+
+* Update README.md (#1075)
+
+fix typo
+
+* half precision streamlit txt2vid
+
+`RuntimeError: expected scalar type Half but found Float` with both `torch_dtype=torch.float16` and `revision=""fp16""`
+
+* Add mask restore feature to streamlit, prevent color correction from modifying initial image when mask_restore is turned on
+
+* Add mask_restore to streamlit config
+
+* JobManager: Fix typo breaking jobs close #858 close #1041
+
+* JobManager: Buttons skip queue (#1092)
+
+Have JobManager buttons skip Gradio's queue, since otherwise
+they aren't sending JobManager button presses.
+
+* The webui_streamlit.py file has been split into multiple modules containing their own code making it easier to work with than a single big file.
+The list of modules is as follow:
+- webuit_streamlit.py: contains the main layout as well as the functions that load the css which is needed by the layout.
+- webui_streamlit_old.py: contains the code for the previous version of the WebUI. Will be removed once the new UI code starts to get used and if everything works as it should.
+- txt2img.py: contains the code for the txt2img tab.
+- img2img.py: contains the code for the img2img tab.
+- txt2vid.py: contains the code for the txt2vid tab.
+- sd_utils.py: contains utility functions used by more than one module, any function that meets such condition should be placed here.
+- ModelManager.py: contains the code for the Model Manager page on the sidebar menu.
+- Settings.py: contains the code for the Settings page on the sidebar menu.
+- home.py: contains the code for the Home tab, history and gallery implemented by @devilismyfriend.
+- imglab.py: contains the code for the Image Lab tab implemented by @devilismyfriend
+
+* fix: patch docker conda install pip requirements (#1094)
+
+(cherry picked from commit fab5765fe453117590d43d5999b97cbcd782cd08)
+
+Co-authored-by: Sérgio <smaisidoro@gmail.com>
+
+* Using the Optimization from Dogettx  (#974)
+
+* Update attention.py
+
+* change to dogettx
+
+Co-authored-by: hlky <106811348+hlky@users.noreply.github.com>
+
+* Update Dockerfile (#1101)
+
+add expose for streamlit port
+
+* Publish Streamlit ports (#1102)
+
+(cherry picked from commit 833a91047df999302f699637768741cecee9c37b)
+
+Co-authored-by: Charlie <outlookhazy@users.noreply.github.com>
+
+* Forgot to call the layout() for the Model Manager tab after the import so it was not been used and the tab was shown as empty.
+
+* Removed the ""find_noise_for_image.py"" and ""matched_noise.py"" scripts as their content is now part of ""sd_utils.py""
+
+* - Added the functions to load the optimized models, this ""should"" make it so optimized and turbo mode work now but needs to be tested more.
+- Added function to load LDSR.
+
+* Fixed some imports.
+
+* Fixed the info message on the txt2img tab not showing the info but just showing the text ""Done""
+
+* Made the defaults settings from the config file be stored inside st.session_state to avoid loading it multiple times when calling the ""sd_utils.py"" file from other modules.
+
+* Moved defaults to the webui_streamlit.py file and fixed some imports.
+
+* Removed condition to check if the defaults are in the st.session_state dictionary, this is not needed and would cause issues with it not being reloaded when the user changes something on it.
+
+* Modified the way the defaults settings are loaded from the config file so we only load them on the webui_strealit.py file and use st.session_state to access them from anywhere else, this makes it so the config can be modified externally like before the code split and the changes will be updated on next rerun of the UI.
+
+* fix: [streamlit] optimization mode
+
+* temp disable nvml support for multiple gpus
+
+* Fixed defaults not being loaded correctly or missing in some places.
+
+* Add a separate update script instead of git pull on startup (#1106)
+
+* - Fixed max_frame not being properly used and instead sampling_steps was the variable being use.
+- Fixed several issues with wrong variable being used on multiple places.
+- Addd option to toggle some extra option from the config file for when the model is loading on the txt2vid tab.
+
+* Re-merge #611 - View/Cancel in-progress diffusions (#796)
+
+* JobManager: Re-merge #611
+
+PR #611 seems to have got lost in the shuffle after
+the transition to 'dev'.
+
+This commit re-merges the feature branch. This adds
+support for viewing preview images as the image
+generates, as well as cancelling in-progress images
+and a couple fixes and clean-ups.
+
+* JobManager: Clear jobs that fail to start
+
+Sometimes if a job fails to start it will get stuck in the active job
+list. This commit ensures that jobs that raise exceptions are cleared,
+and also adds a start timer to clear out jobs that fail to start
+within a reasonable amount of time.
+
+* chore: add breaks to cmds for readability (#1134)
+
+* Added custom models list to the txt2img tab.
+
+* Small fix to the custom model list.
+
+* Corrected breaking issues introduced in #1136 to txt2img and
+made state variables consistent with img2img.
+
+Fixed a bug where switching models after running would not reload
+the used model.
+
+* Formatted tabs as spaces
+
+* Fixed update_preview_frequency and update_preview using defaults from
+webui_streamlit.yaml instead of state variables from UI.
+
+* Prompt user if they want to restore changes (#1137)
+
+- After stashing any changes and pulling updates, ask user if they wish to pop changes
+- If user declines the restore, drop the stash to prevent the case of an ever growing stash pile
+
+* Added streamlit_nested_layout component as dependency and imported on the webui_streamli.py file to allow us to use nested columns and expanders.
+
+* - Added the Home tab made by @devilismyfriend
+- Added gallery tab on txt2img.
+
+* Added case insensitivity to restore prompt (#1152)
+
+* Calculate aspect ratio and pixel count on start (#1157)
+
+* Fix errors rendering galleries when there are not enough images to render
+
+* Fix the gallery back/next buttons and add a refresh button
+
+* Fix invalid invocation of find_noise_for_image
+
+* Removed the Home tab until the gallery is fixed.
+
+* Fixed a missing import on the ModelManager script.
+
+* Added discord server link to the Readme.md
+
+* - Increased the max value for the width and height sliders on the txt2img tab.
+- Fixed a leftover line from removing the home tab.
+
+* Update conda environment on startup always (#1171)
+
+* Update environment on startup always
+
+* Message to explicitly state no environment.yaml update required
+
+Co-authored-by: hlky <106811348+hlky@users.noreply.github.com>
+
+* environment update from .cmd
+
+* Update .gitignore
+
+* Enable negative prompts on streamlit
+
+* - Bumped the version of diffusers used on the txt2vid tab to be now v0.3.0.
+- Added initial file for the textual inversion tab.
+
+* add missing argument to GoBig sample function, fixes #1183 (#1184)
+
+* cherry-pick @Any-Winter-4079's https://github.com/lstein/stable-diffusion/pull/540. this is a collaboration incorporating a lot of people's contributions -- including for example @Doggettx and the original code from @neonsecret on which the Doggetx optimizations were based (see https://github.com/lstein/stable-diffusion/issues/431, https://github.com/sd-webui/stable-diffusion-webui/pull/771\#issuecomment-1239716055). Takes exactly the same amount of time to run 8 steps as original CompVis code does (10.4 secs, ~1.25s/it). (#1177)
+
+Co-authored-by: Alex Birch <birch-san@users.noreply.github.com>
+
+* allow webp uploads to img2img tab #991
+
+* Don't attempt mask restoration when there is no mask given (#1186)
+
+* When running a batch with preview turned on, produce a grid of preview images
+
+* When early terminating, generation_callback gets invoked but st.session_state is empty. When this happens, just bail.
+
+* Collect images for final display
+
+This is a collection of several changes to enhance image display:
+
+* When using GFPGAN or RealESRGAN, only the final output will be
+  displayed.
+* In batch>1 mode, each final image will be collected into an image grid
+  for display
+* The image is constrained to a reasonable size to ensure that batch
+  grids of RealESRGAN'd images don't end up spitting out a massive image
+  that the browser then has to handle.
+* Additionally, the progress bar indicator is updated as each image is
+  post-processed.
+
+* Display the final image before running postprocessing, and don't preview when i=0
+
+* Added a config option to use embeddings from the huggingface stable diffusion concept library.
+
+* Added option to enable enable_attention_slicing and enable_minimal_memory_usage, this for now only works on txt2vid which uses diffusers.
+
+* Basic implementation for the Concept Library tab made by cloning the Home tab.
+
+* Temporarily hide sd_concept_library due to missing layout()
+
+* st.session_state[""defaults""] fix
+
+* Used loaded_model state variable in .yaml generation (#1196)
+
+Used loaded_model state variable in .yaml generation
+
+* Streamlit txt2img page settings now follow defaults (#1195)
+
+* Some options on the Streamlit txt2img page now follow the defaults from the relevant config files.
+
+* Fixed a copy-paste gone wrong in my previous commit.
+
+* st.session_state[""defaults""] fix
+
+Co-authored-by: hlky <106811348+hlky@users.noreply.github.com>
+
+* default img2img denoising strength increased
+
+* slider_steps and slider_bounds in defaults config
+
+slider_steps and slider_bounds in defaults config
+
+* fix: copy to clipboard button
+
+Co-authored-by: ZeroCool940711 <alejandrogilelias940711@gmail.com>
+Co-authored-by: ZeroCool <ZeroCool940711@users.noreply.github.com>
+Co-authored-by: Hafiidz <3688500+Hafiidz@users.noreply.github.com>
+Co-authored-by: hlky <106811348+hlky@users.noreply.github.com>
+Co-authored-by: Joshua Kimsey <jkimsey95@gmail.com>
+Co-authored-by: Tony Beeman <beeman@gmail.com>
+Co-authored-by: Tom Pham <54967380+TomPham97@users.noreply.github.com>
+Co-authored-by: GRMrGecko <grmrgecko@gmail.com>
+Co-authored-by: TingTingin <36141041+TingTingin@users.noreply.github.com>
+Co-authored-by: Logan zoellner <nagolinc@gmail.com>
+Co-authored-by: M <mchaker@users.noreply.github.com>
+Co-authored-by: James Pound <jamespoundiv@gmail.com>
+Co-authored-by: cobryan05 <13701027+cobryan05@users.noreply.github.com>
+Co-authored-by: Michoko <michoko@hotmail.com>
+Co-authored-by: VulumeCode <2590984+VulumeCode@users.noreply.github.com>
+Co-authored-by: xaedes <xaedes@googlemail.com>
+Co-authored-by: Michael Hearn <git@mikehearn.net>
+Co-authored-by: Soul-Burn <sugoibaka@gmail.com>
+Co-authored-by: JJ <jjisnow@gmail.com>
+Co-authored-by: oc013 <101832295+oc013@users.noreply.github.com>
+Co-authored-by: Aarni Koskela <akx@iki.fi>
+Co-authored-by: osi1880vr <87379616+osi1880vr@users.noreply.github.com>
+Co-authored-by: Rae Fu <rraefu@gmail.com>
+Co-authored-by: Brian Semrau <brian.semrau@gmail.com>
+Co-authored-by: Matt Soucy <git@msoucy.me>
+Co-authored-by: endomorphosis <endomorphosis@users.noreply.github.com>
+Co-authored-by: unnamedplugins <79282950+unnamedplugins@users.noreply.github.com>
+Co-authored-by: Syahmi Azhar <prsyahmi@gmail.com>
+Co-authored-by: Ahmad Abdullah <83442967+ahmad1284@users.noreply.github.com>
+Co-authored-by: Sérgio <smaisidoro@gmail.com>
+Co-authored-by: Charlie <outlookhazy@users.noreply.github.com>
+Co-authored-by: protoplm <protoplmz@gmail.com>
+Co-authored-by: Ascended <dspradau@gmail.com>
+Co-authored-by: JuanLagu <32816584+JuanLagu@users.noreply.github.com>
+Co-authored-by: Chris Heald <cheald@gmail.com>
+Co-authored-by: Charles Galant <cgalant@gmail.com>
+Co-authored-by: Alex Birch <birch-san@users.noreply.github.com>
+Co-authored-by: protoplm <57930981+protoplm@users.noreply.github.com>
+Co-authored-by: Dekker3D <dekker3d@gmail.com>",2022-09-18 14:00:47+01:00,TRUE
+165893bc3610a52cb47498cf007a1864bf188b8a,"Revert ""The Merge (#1201)"" (#1208)
+
+This reverts commit a797312183188867d7b4bdc7f1a1263017540a48.",2022-09-18 14:08:43+01:00,TRUE
+85290c229e6c59f3b8409d47393efcfd2239b39d,update major links,2022-09-19 01:05:46+03:00,TRUE
+490437d9e5cf5744353d2f071a534fdf8c6ad5c6,add new --help output,2022-09-19 01:05:46+03:00,FALSE
+87ad700861c442805f984f334e2a3b57e042fc9c,add info about docs and contributing,2022-09-19 01:05:46+03:00,TRUE
+17748cbc9c34df44d0381c42e4f0fe1903089438,"Merge pull request #1216 from codedealer/docs
+
+chore: move documentation back to the repo",2022-09-19 17:00:29+01:00,TRUE
+5e712736eec6852e799065de00314a3b51c36b69,Update README.md,2022-09-20 23:15:15+01:00,TRUE
+0a89a43bea37b75d18e18619ad6ab0a127796e68,Update README.md,2022-09-22 10:39:06+01:00,TRUE
+894599f98c0b1c5d1e9562a77d7f9313ee550ee1,Update README.md,2022-09-22 10:44:10+01:00,TRUE
+3464d7a3796d9e535804f921c0ac68cfad862d5f,Update README.md,2022-09-22 10:44:11+01:00,TRUE
+95bbf83b88b28fcc36c2768b78248915e3c361b1,Update README.md,2022-09-23 10:09:21+01:00,TRUE
+0cc41b903b1b80d7dae2b98da57b0f40658e2ccd,"Initial overhaul of documentation (#1262)
+
+Added documents for Streamlit and Gradio.
+Added new screenshots for each respective version of the UI. Changed
+`upscalers` to `image enhancers`.
+
+Documents currently finished:
+- linux-installation.md
+- image-enhancers.md
+- ReadMe
+
+Documents currently still WIP:
+- streamlit-interface.md
+- gradio-interface.md
+
+Documents still awaiting changes:
+- windows-installation.md (I'll need help for this one)
+- custom-models.md
+- cli.md
+
+Feedback is welcomed and needed on any changes that should happen for
+the documents already finished.
+
+(Also fixed small bug with the `webui_streamlit.yaml` file)
+
+# Checklist:
+
+- [x] I have changed the base branch to `dev`
+- [x] I have performed a self-review of my own code
+- [x] I have commented my code in hard-to-understand areas
+- [x] I have made corresponding changes to the documentation
+
+Co-authored-by: ZeroCool <ZeroCool940711@users.noreply.github.com>
+Co-authored-by: Thomas Mello <work.mello@gmail.com>",2022-09-28 13:13:51+03:00,TRUE
+3dd798dc1a3c102157127bbced17f6f53b88dc8e,"chore: update docs (#1351)
+
+* added front matter
+* fixed links
+* logo is removed until further consideration",2022-09-28 14:18:56+03:00,TRUE
+621b04b15837b09afbde420fd851faaec8164dfe,"chore: update docs (#1351)
+
+* added front matter
+* fixed links
+* logo is removed until further consideration",2022-09-29 01:32:57+01:00,TRUE
+5853f3e1a1942d39dfb9164a61e5bcf9b8153cef,"Stable Horde bridge (#1204)
+
+# Adds the bridge code which when enabled turns the webui into a
+headless [Stable Horde](https://stablehorde.net) instance
+
+It adds a few new command-line args to be able to pass variables to the
+bridge, as well as the possibility to set it via a variables files
+`bridgeData.py`.
+
+To start the bridge, one needs to add the `--bridge` argument to their
+relauncher.py as well as any horde vars they want to specify.
+
+On top of that this adds the loguru module as well as my tuned loguru
+config. This provides a much nicer logging output and provides the
+capability to save output to files for issue reports etc. For now only
+the bridge is utilizing the nice format, but once it's merged, you can
+start replacing `print()` with `logger.xxx()` where appropriate
+
+To make the bridge work, I've had to add defaults to txt2img but this
+should not affect anything.
+
+
+# Checklist:
+
+- [ x ] I have changed the base branch to `dev`
+- [ x ] I have performed a self-review of my own code
+- [ x ] I have commented my code in hard-to-understand areas
+- [ x ] I have made corresponding changes to the documentation
+
+Co-authored-by: hlky <106811348+hlky@users.noreply.github.com>
+Co-authored-by: Thomas Mello <work.mello@gmail.com>
+Co-authored-by: Joshua Kimsey <jkimsey95@gmail.com>
+Co-authored-by: ZeroCool <ZeroCool940711@users.noreply.github.com>",2022-10-02 18:22:27+01:00,FALSE
+b650c162e68fe6fa5df9ffc9964ecd8ccecfabb6,src->models,2022-10-05 01:03:06+01:00,FALSE
+d4823e89f8d65293fb3fa1cd6b6f95766c2f462a,Fixed wrong links to gfpgan v1.3 on the Readme.md instea of using the v1.4 links.,2022-10-06 12:21:54-07:00,FALSE
+f2b691da41e420b151c142e37542b6a3eab5d8ae,Update README.md,2022-10-06 12:27:22-07:00,FALSE
+7acc2456f8ff6ccc9c7b8432de4f10ab926814c7,"Fix Image Enhancers Documentation link on Readme.md (#1535)
+
+# Description
+- Fix Image Enhancers Documentation link on Readme.md",2022-10-17 00:17:24+03:00,FALSE
+41e84a763a08325cee2a2d3111fed94537e6c898,Update README.md,2022-10-23 02:18:59-04:00,TRUE
+64addefba77c6bb90c93471d005de8d6187aa025,Update README.md,2022-10-23 11:20:46-07:00,TRUE
+c1a36a3a037956c11480335aa7b6b93d3c4adaa3,"Updated the readme.md with the new links for the organization, repo and documentation.",2022-10-23 16:10:05-07:00,TRUE
+1ed10bedf0df2b30777cedd10459164e27a97cdf,Fixed broken links on the readme.md file as well as some typos.,2022-11-13 22:24:57-08:00,TRUE
+d757ef9086a703c386826362692ec563449bb082,Update README.md,2023-01-09 06:40:27-08:00,FALSE
+d3b8f08168eb7b769d82a2e7e7b0039369370db8,Update README.md,2023-01-09 15:43:01-08:00,FALSE
+805fe1e2a9136f4c6f812925ef90c8a238a02fd5,Updated the funding and readme files.,2023-05-01 18:10:26-07:00,FALSE

@@ -1,0 +1,19 @@
+sha,message,date,result
+d9d9c471248dfab10ad1f8947860519f45943b17,Add README.md for GitHub,2014-02-16 18:18:45+00:00,FALSE
+d5864f6258a0815d5a58d599f884537d19cf0e14,Added README with build instructions,2014-06-19 00:15:38+00:00,TRUE
+4bb52983be3c569fa44ab48ccd1477326a94f7d0,Describe how to pull dependencies via Tor,2014-06-24 05:52:00+00:00,TRUE
+df7a35934ac285f35a3282cf8fc7eec56205a3f0,README fixes,2014-06-28 02:16:11+00:00,TRUE
+27c086a2dc71061ae2846b774486e966bc9ddd30,Signing instructions,2014-06-28 04:21:35+00:00,TRUE
+1ce9c6072e979352cdffebc76961f4762dd8ad26,Updated README,2014-06-29 02:58:46+00:00,TRUE
+9c552e0a8a08c74540abaa74bbe316a526556ad5,Fixed README,2014-07-03 12:44:15+00:00,TRUE
+cf4dfad94681bb24a4f3692ffe0d90082c4ac200,Make it easier to use a local copy/build of the client library,2014-08-15 01:49:45+00:00,TRUE
+a9ac5b6a0ad15a9e8592fb1ecf88b51627d84083,Use mavenLocal() repository instead of a local file repo,2014-11-02 01:42:21+00:00,TRUE
+6b246fb0d7fe0284ca06e34e720a218003e3e6b7,Updated README,2015-02-24 21:23:19+00:00,TRUE
+287ff4591522e56be34b8ff904c82948db294943,"Merge Android README into main README, add plugin build instructions",2017-05-07 13:03:26+12:00,FALSE
+d7157423ae04a0b70708a52d1cf5d3b287d0a7d7,"Add build tasks and instructions for standalone WAR
+
+Closes #92.",2017-05-07 16:02:51+12:00,TRUE
+f2c152baf8e192978f24ab39f23c7d73671fdba6,Tidy up README,2017-05-07 16:06:16+12:00,TRUE
+44b0fdf75aa054f557e90b6047da3327ad7894ce,"Add Travis CI build script
+
+Copied from https://github.com/i2p/i2p.i2p/blob/b8eeb720448ec8fbeb77495f42573bfa56d4b36a/.travis.yml",2017-12-04 11:44:48+13:00,FALSE

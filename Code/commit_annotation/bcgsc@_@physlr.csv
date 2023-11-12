@@ -1,0 +1,224 @@
+sha,message,date,result
+7f4dc4f3fb4336c0d249c21c1cfc06f15881b72a,Add README.md,2018-10-16 14:55:15-07:00,False
+b8b1295df7e0851105490437e1c795157bb6f5cb,README.md: Update the title,2019-04-10 15:03:19-07:00,False
+ebda05aa26524d0d5768c838cd27b437743c7b92,"Populate README (#109)
+
+* README: populate README
+
+* README: fix typos
+
+* README: use # and backticks
+
+* README: add links to python packages
+
+* README: remove ~ in exmaples
+
+* README: update output file text
+
+* README: improve usage example
+
+* README: add verbose usage explanation
+
+* README: improve usage explanation
+
+* README: fix typos
+
+* README: preemptively use bin/physlr-make
+
+* README: conservative description of output files
+
+* README: append genomixs to 10X
+
+* README: remove Makefile in sample ls output
+
+* README: reword Quast metric in usage
+
+* README: correct readfq hyperlink
+
+* README: remove bridge
+
+* README: remove duplicate acknowledgement
+
+* README: add pip install instructions
+
+* README: remove executable test section
+
+* REAMDE: properly capitalize OpenMP
+
+* REAMDE: add make install instructions
+
+* README: add install to specified directory instructions
+
+* README: use single backticks for single line blocks
+
+* README: remove ls from usage examples
+
+* README: lower case R in linkedreads",2019-11-25 10:44:38-08:00,True
+15340ff332e48c7dd1a1522126b83f56637dba03,"Physlr molecules C++ port (#129)
+
+* physlr-molecules: add first iteration to repo
+
+* physlr-molecules: implement bi-connected components
+
+* physlr-molecules: draft version of biconnected components with boost
+
+* physlr-molecules: polished biconnected component code
+
+* Makefile: add physlr-molecules
+
+* Makefile: add physlr-molecules to install
+
+* physlr-molecules: remove unecessary code
+
+* azure: install boost
+
+* azure: fix format
+
+* physlr-molecules: remove boost using namespace directive
+
+* physlr-molecules: fix clang-tidy errors
+
+* physlr-molecules: add no lint for delete
+
+* .clang-tidy: ignore StackAddressEscape
+
+* physlr-molecules: rename variable
+
+* physlr-molecules: improve help
+
+* physlr-molecules: rename rest of edgeComponent
+
+* physlr-molecules: clang-format
+
+* physlr-molecules: modularlize readTSV
+
+* physlr-molecules: modularlize componentToNewGraph
+
+* physlr-molecules: modularlize biconnectedComponents
+
+* physlr-molecules: rename art_points_vec
+
+* physlr-molecules: remove benchmark variable
+
+* physlr-molecules: move status message into readTSV
+
+* physlr-molecules: add unit test
+
+* unittest: convert spaces to tab
+
+* physlr-molecules: improve incorrect parameter logic
+
+* physlr-molecules: update status message
+
+* physlr-molecules: improve help
+
+* physlr-molecules: remove thread option
+
+* physlr-molecules: add comment to componentsToNewGraph
+
+* README: add boost to dependencies
+
+* physlr-molecules: improve help
+
+* physlr-molecules: improve help
+
+* physlr-molecules: improve componentsToNewGraph comment
+
+* physlr-molecules: complete biconnected components in one function call
+
+* physlr-molecules: rename art_points to artPoints
+
+* physlr-molecules: rename oldG and newG to inG and outG
+
+* physlr-molecules: rename remaning newG to molSeparatedG
+
+* physlr-molecules: rename outG to molSeparatedG
+
+* physlr-molecules: rename molSeparatedG to molSepG
+
+* physlr-molecules: declare and define variables on the same line
+
+* physlr-molecules: use auto and auto&
+
+* physlr-molecules: use for loop instead of while loop
+
+* physlr-molecules: use pre-increment instead of post-increment
+
+* physlr-molecules: remove flag variable
+
+* physlr-molecules: use uint64_t for memory return type
+
+* physlr-molecules: use INT_MAX instead of 555
+
+* physlr-molecules: fix clang-tidy
+
+* physlr-molecules: ensure stringstream extraction is sucessful
+
+* physlr-molecules: use vertexSet_t",2019-12-20 13:14:55-08:00,True
+058bb481edf02b7e5ac01b7f5d5576466b01a9cc,fix typo (#163),2021-04-01 09:58:39-07:00,True
+28e397541748f123fcf9fbc11e6761d0a7e347eb,"Corrections to README (#166)
+
+* Update README.md
+
+* Update README.md
+
+Co-authored-by: Amirhossein Afshinfard <31241012+afshinfard@users.noreply.github.com>",2021-04-01 17:57:46-07:00,True
+7e7cc3ec5f5280ebc3c74366940cc78250d52f26,"Update README.md (#170)
+
+Making Readme more clear
+Adding `map-quality` command",2021-05-20 03:07:13-07:00,True
+6660b79a2e217e7345c30da7b23fbbf07e7dba58,"Physlr now published (#174)
+
+* DNA Published Physlr
+
+* ubuntu 18.04
+
+* azure fixes
+
+* clang
+
+* tests - sort different behavior",2022-06-20 10:04:54-07:00,False
+a40391d9c00d2377f46079223184386a956281a2,"Logo (#175)
+
+* Physlr logo
+
+two logos:
+- one is transparent
+- one has a wider frame
+
+* v1.0.1",2022-06-20 16:24:54-07:00,False
+6d4955cebfd104479aafd19a98fbaa50c4918c21,"Improve readme (#180)
+
+* Update README.md
+
+* v1.0.4
+
+Co-authored-by: Lauren Coombe <lauren.e.coombe@gmail.com>",2022-07-19 12:40:32-07:00,True
+e7a995f32ac3684bcc1f403020c1628415e1ead0,"fix readme info (#181)
+
+* Update README.md
+
+Co-authored-by: Lauren Coombe <lauren.e.coombe@gmail.com>",2022-07-20 15:32:55-07:00,True
+678ed0dc8a861e4e61920d0e502314356fb788be,"missing r packages (#187)
+
+* missing r packages
+
+* Update setup.py
+
+* Update setup.py",2023-01-17 10:06:04-08:00,True
+2dbdbde2f8a9a2a5c73904b69ceba18bdbbfa051,"update dependencies (#188)
+
+* update dependencies
+
+* Update README.md
+
+Co-authored-by: Lauren Coombe <lauren.e.coombe@gmail.com>
+
+* Update README.md
+
+Co-authored-by: Lauren Coombe <lauren.e.coombe@gmail.com>
+
+Co-authored-by: Lauren Coombe <lauren.e.coombe@gmail.com>",2023-01-18 08:57:29-08:00,True
+4d32a9924df024b6e69937fb2d4cec781168e243,"btllib (#186)
+
+btllib/indexlr instead of physlr-indexlr",2023-01-23 09:09:18-08:00,True

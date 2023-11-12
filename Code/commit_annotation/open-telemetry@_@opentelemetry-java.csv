@@ -1,0 +1,689 @@
+sha,message,date,result
+11eb9d0c3f71c7838f83c152657dd9edaf8e563b,Initial commit,2019-02-26 08:43:37-08:00,FALSE
+7a64e42c917e0ea7c07a5eb51476b8c02afaad2c,Minor readme fixes and add badges.,2019-02-26 10:33:57-08:00,FALSE
+4515c2965c721d4e5ca12ecf6d9b0865bc802a48,"readme and contributing (#49)
+
+* readme and contributing
+
+* Update CONTRIBUTING.md",2019-04-09 11:32:29-07:00,FALSE
+d28df8e87637f4d3d9060e6b0f240417be11112c,Update README.md (#79),2019-04-09 12:16:02-07:00,FALSE
+f4d146216b5cd869887350dabf83f7c4f8cf4d84,"Add CLA and roadmap notes to README (#175)
+
+* Add CLA and roadmap notes to README
+
+* derp
+
+* period",2019-04-22 09:16:27-07:00,FALSE
+8267b1cae9534c977b85c1ba91ba5633ac705044,"Rename & test CLA (#237)
+
+Signed-off-by: Yuri Shkuro <ys@uber.com>",2019-05-01 17:26:10-07:00,FALSE
+ca0ec9dfa83fd8c4b1a9e4a5af3db75cf64c6cbc,"Replace everywhere OpenConsensus with OpenTelemetry (#244)
+
+* Replace everywhere OpenConsensus with OpenTelemetry
+
+* Fix javadoc references.
+
+* Update javadoc exclude in the api.",2019-05-02 13:46:04-07:00,FALSE
+23bd5891a0a477085fc9d41c85576dc7a6b9dfd9,"Readme add modules desc (#255)
+
+* Add a small description of the components to the README.",2019-05-09 17:13:32+02:00,FALSE
+d7b0bc92337c11411b7b924d4ee9a350c2cbf6c1,Update readme to reflect the new status of the project (#265),2019-05-10 16:55:16-04:00,FALSE
+33a53abca8ed06f32dad7e7fc8265fdfd3b83711,Add codecov and maven badges. (#453),2019-06-28 13:27:51-07:00,FALSE
+7ba128bbc1a191c70fbe5b5c3df4b65072d07482,Fix links in project structure section (#474),2019-08-06 21:27:23+02:00,FALSE
+d55a07aa90d7254a91a4a4398aaa538a73ec6f02,"Add CircleCI support (#478)
+
+* Enable circle CI
+
+Signed-off-by: Pavol Loffay <ploffay@redhat.com>
+
+* Use only jobs
+
+Signed-off-by: Pavol Loffay <ploffay@redhat.com>
+
+* Split runs
+
+Signed-off-by: Pavol Loffay <ploffay@redhat.com>
+
+* Move build task to template
+
+Signed-off-by: Pavol Loffay <ploffay@redhat.com>
+
+* Move build task to template 2
+
+Signed-off-by: Pavol Loffay <ploffay@redhat.com>",2019-08-08 07:06:02-07:00,FALSE
+792a6926500cc7ea3a884ad42a84d43302f984b1,organize build directions in docs (#537),2019-09-17 16:26:07-07:00,TRUE
+79333431a820c0802d37809280771a87272f9a94,"Update the README. (#550)
+
+* Update the README.
+
+Include Release Schedule and Snapshots info.",2019-10-06 22:09:17+02:00,TRUE
+5133f0482daefbd8dfe83f1dffb590f675e032eb,Update README.md (#615),2019-10-14 17:41:17-07:00,FALSE
+0ac9478197fbc6a3c66f248fd37da0f95089fac4,"Increase version to 0.2.0-SNAPSHOT (#644)
+
+Signed-off-by: Bogdan Drutu <bogdandrutu@gmail.com>",2019-10-28 14:11:57-07:00,TRUE
+d75c017cf8cd9081ede4601f2ae2dbf96fecc159,point at the right place for the contributing link (#652),2019-10-29 15:26:34-07:00,TRUE
+d1d27834c4d8534350a3ca88f7a912511d86c9ca,"Move the list of approvers/maintainers in the repo. (#759)
+
+Signed-off-by: Bogdan Drutu <bogdandrutu@gmail.com>",2020-01-15 12:49:55-08:00,FALSE
+a4e4e6f9c60a386521eb1dca2e2cef388b38a9f9,Move owners at the bottom of the readme (#760),2020-01-15 14:40:21-08:00,FALSE
+84fee45281f089c66e95e1b276433d40b11055eb,"Quick Start guide (#869)
+
+* Add initial description and configuration details
+
+* QuickStart - First draft
+
+* Wording
+
+* Update QUICKSTART.md
+
+Co-Authored-By: Armin Ruech <armin.ruech@dynatrace.com>
+
+* Update QUICKSTART.md
+
+Co-Authored-By: Armin Ruech <armin.ruech@dynatrace.com>
+
+* Add quick start to readme.
+
+* Apply suggestions of @jkwatson
+
+* Address feedback of @arminru
+
+* Fix example
+
+* Address review comments
+
+* Use opentelemetry website
+
+Co-authored-by: Armin Ruech <armin.ruech@gmail.com>",2020-02-25 16:49:17-08:00,TRUE
+f6638bfd635691d957391a97ad42620d39606a38,Update distributedcontext to correlationcontext (#955),2020-03-03 16:19:29-05:00,FALSE
+3b65e7fd8ea9ed1c522309492c7cdf60a2a3b877,"Promote @jkwatson to maintainer (#1065)
+
+* Promote John to maintainer
+
+Signed-off-by: Bogdan Drutu <bogdandrutu@gmail.com>
+
+* Update README.md
+
+Co-Authored-By: John Watson <jkwatson@gmail.com>
+
+Co-authored-by: John Watson <jkwatson@gmail.com>",2020-04-02 08:07:00-07:00,FALSE
+010f6d5e01d18157fbee8713e4b023b4eff04729,update README with the latest info,2020-04-03 10:34:22-07:00,TRUE
+c85de6ebf6cf629a6174b9ff0d5d36aa50696378,Update Readme with release information (#1095),2020-04-09 20:22:42+02:00,FALSE
+0ce1a3882445b990e06bab8b02de4f2b9b5dfc4c,"First cut at a Zipkin Span Exporter (#1106)
+
+* basic zipkin span exporter with some unit tests
+
+* add tests for the configuration class, hook up a create method and clean up other unit tests
+
+* add a README
+
+* Update exporters/zipkin/README.md
+
+Co-Authored-By: Adrian Cole <adriancole@users.noreply.github.com>
+
+* Update exporters/zipkin/src/main/java/io/opentelemetry/exporters/zipkin/ZipkinSpanExporter.java
+
+Co-Authored-By: Adrian Cole <adriancole@users.noreply.github.com>
+
+* Update exporters/zipkin/README.md
+
+Co-Authored-By: Adrian Cole <adriancole@users.noreply.github.com>
+
+* apply PR review comments
+
+* Update build.gradle
+
+Co-Authored-By: Adrian Cole <adriancole@users.noreply.github.com>
+
+* a little bit of cleanup from PR review
+
+* implement shutdown and provide javadoc about the closing of the Sender
+
+* don't set attributes if they're already set.
+
+* formatting
+
+* grpc tweaks, and an exception thrown
+
+* Update the comment to be a little more accurate.
+
+* formatting
+
+* Update exporters/zipkin/src/main/java/io/opentelemetry/exporters/zipkin/ZipkinExporterConfiguration.java
+
+Co-Authored-By: Adrian Cole <adriancole@users.noreply.github.com>
+
+* Update exporters/zipkin/src/main/java/io/opentelemetry/exporters/zipkin/ZipkinExporterConfiguration.java
+
+Co-Authored-By: Adrian Cole <adriancole@users.noreply.github.com>
+
+* doc/naming cleanup
+
+* simplify the builder, provide two simple factory methods
+
+* strip out the endpoint logic and instead get it from the Resource
+
+* formatting
+
+* restore the serviceName option, but keep the Resource-based override.
+
+* update for changes from master.
+
+* remove factory methods on the configuration, and update the README
+
+* update the docs to match the requirements
+
+* fix a typo
+
+* tiny re-arrange of javadoc
+
+* Add zipkin to the top-level docs
+
+Co-authored-by: Adrian Cole <adriancole@users.noreply.github.com>",2020-05-01 08:42:40-07:00,FALSE
+9091bc429617f4b7840f01608d71e5e5df228bb0,"Update owners in readme (#1226)
+
+as per #1222 and #1223",2020-05-15 09:22:16-07:00,FALSE
+c558a9651b86b6b69a61a4cc7e9148991d59c03b,Rename contrib to extensions (#1335),2020-06-17 16:51:14+02:00,FALSE
+b7af378abc7f753df08dd60e8398151241970624,Update the docs for the 0.6.0 release. (#1394),2020-07-02 19:18:13-07:00,TRUE
+78ed6490ba47568f5241604ea34f18d3ae6f3c4a,"Propose @anuraaga as approver (#1451)
+
+* Propose @anuraaga as approver
+
+Signed-off-by: Bogdan Drutu <bogdandrutu@gmail.com>
+
+* Update README.md
+
+Co-authored-by: Anuraag Agrawal <anuraaga@gmail.com>
+
+Co-authored-by: Anuraag Agrawal <anuraaga@gmail.com>",2020-07-29 19:15:47-07:00,FALSE
+b002d752120ae2e42dd9b7efeab2f8800d0957f5,Start 0.8.0 development cycle (#1497),2020-08-03 17:07:13-07:00,TRUE
+933e90db9b2b5473e2d43cd20a6b35339ace0887,Belatedly update the README for the 0.7.0 release (#1537),2020-08-14 13:23:13+02:00,TRUE
+8b81baff9c9d25c54289dd7a446909389205b70d,Update readme to be consistent with other repos (#1615),2020-09-01 13:20:26-07:00,FALSE
+225acce822908ee62b59041e5b463fc9d8faca6f,"Update the README and CHANGELOG for 0.8.0 (#1614)
+
+* draft of the changelog for 0.8.0
+
+* add the proto/otlp exporter update
+
+* update the README for 0.8.0
+
+* a couple more updates",2020-09-01 13:25:33-07:00,TRUE
+cb73ccc4e7cd216bb7047773bd672f40c49a3ae3,Promote Anuraag to maintainer (#1629),2020-09-11 09:40:12-07:00,FALSE
+8470d6aaad3d777ba94dbcfcb98e7ba612d6963d,"remote instructions on generating javadoc (#1654)
+
+add a link in the README to the examples",2020-09-17 13:07:58+09:00,FALSE
+27090b8336960d7181ec7373028198483b8eb2e7,"Switch to java 8 (#1665)
+
+* switch to java 8
+
+* update the READMEs and use Object.equals in a couple of cases to test that we're really compiling for java 8/android 24.
+
+* formatting
+
+* use the newer release options for the build, and change the int test to not be java 7 any more.
+
+* switch back to source/target compatibility
+
+* sure wish I could run docker locally to test this out.",2020-09-19 11:28:13+09:00,FALSE
+d2b927f420cddbaaf8aaa903c7f5f532d9bb7801,a little README update (#1669),2020-09-21 10:38:44-07:00,FALSE
+5f5da23add8a1ec1a0dd92673a065b26895c4f2b,"Fix reference to correlation context (#1746)
+
+* Fix reference to correlation context
+
+Also fix the README components list to use English sentences.
+
+Signed-off-by: Bogdan Drutu <bogdandrutu@gmail.com>
+
+* Fix sdk extensions
+
+Signed-off-by: Bogdan Drutu <bogdandrutu@gmail.com>
+
+* Fix opentracing shim sentence
+
+Signed-off-by: Bogdan Drutu <bogdandrutu@gmail.com>",2020-10-04 09:05:42-07:00,FALSE
+8228d34f3ed20e76c0fb2f674cf7cb16c4bcf8e9,Mark up README (#1750),2020-10-09 12:42:33+09:00,TRUE
+0b6ae189b75e08484bca0b132d177e8dea1a8e9e,"Update the docs for the 0.9.1 release (#1777)
+
+* Update the docs for the 0.9.1 release
+
+* correct a bad method name
+
+* Update CHANGELOG.md
+
+Co-authored-by: Christian Neumüller <christian+github@neumueller.me>
+
+Co-authored-by: Christian Neumüller <christian+github@neumueller.me>",2020-10-11 20:49:58-07:00,TRUE
+492a8171e1e414e205fe589beb7cede54a5b725c,"Add GitHub workflows to automate releases (#1781)
+
+* Add GitHub workflows to automate releases
+
+* Cleanup
+
+* Tab
+
+* Rename prepareRelease and manual patch release instructions.",2020-10-13 15:21:42+09:00,TRUE
+6ee9a19e09c465b25bc185964b941bb1766e5aee,Replace CircleCI badge with GitHub Actions (#1861),2020-10-22 08:40:21-07:00,FALSE
+f70c7655735de28619857977fca913e89e133276,"Modify Approvers list as Pavol now works for Traceable AI (#1862)
+
+* Modify Approvers list as Pavol now works for Traceable AI
+
+* Update README.md
+
+Use brand name as per @pavolloffay's preference
+
+Co-authored-by: Armin Ruech <armin.ruech@dynatrace.com>",2020-10-23 16:04:46+02:00,FALSE
+42952755e88fdad3956cc263edef8059f06f2a9f,Fix api link in README.md (#1956),2020-10-31 21:48:32-07:00,FALSE
+390d92e49a738ce6eb34f70360490aeb7ed6efd4,Rename folder names from underscore to hyphen (#1968),2020-11-03 14:46:40+09:00,FALSE
+4aba70877c63bd00de1d60070f8abbac9bb82aa1,Push README updates. (#2024),2020-11-05 16:03:42+01:00,TRUE
+ec7884fbf00ddc06eb0a9a184ab186089fe61f2a,"Update the docs for the 0.11.0 release (#2097)
+
+* update the docs for the 0.11.0 release
+
+* also update the examples dependency, since no changes are necessary",2020-11-19 12:20:08-08:00,TRUE
+f5820b3c07b7bcfe6bf7ca4626d0a2ec711f7942,"Add Oberon00 as approver (#2111)
+
+* Add Christian NeuMueller as a codeowner.
+
+* also add Christian to the README
+
+* Update README.md",2020-11-20 20:30:28-08:00,FALSE
+96c7f404b4b5fa32058914e7657a72e5b53c9953,"Don't repeat Java 8 support among all the subproject READMEs and at top level, clarify that published artifacts are Java 8, but building requires additional instructions. (#2124)",2020-11-24 09:04:40-08:00,TRUE
+27260a2d2cf14b5f0ffc3ca1a7d2e1b713f33369,"Move Carlos from maintainer to approver, at his request (#2183)",2020-12-02 11:16:47-08:00,FALSE
+658d23ee1de6a457509578e1c41d818f8924d01c,Update README + Changelog for 0.12.0 release. (#2196),2020-12-04 10:36:36-08:00,TRUE
+fd0b522deeb2b0b4470c9590b882d390ca5cd6ae,Update some out-of-date/broken docs (#2251),2020-12-09 14:24:10-08:00,FALSE
+b01afaac46facf1739e59793887cb342f553de86,"CHANGELOG and documentation updates for the 0.13.0 release (#2338)
+
+* CHANGELOG updates for Dec 17, 2020
+
+* update docs for 0.13.0 release
+
+* point to github discussions",2020-12-17 12:28:17-08:00,TRUE
+d2a012ac33216852ee83098631a169b012ab7ccb,update the docs for the 0.13.1 patch release. (#2351),2020-12-18 08:51:36+09:00,TRUE
+051c5609e5899853fb4f72ef87f210af5ef27c27,Fix README tracing and baggage api links (#2409),2020-12-28 14:23:06+09:00,FALSE
+13b9ed3928d2735d3f3c60fc27d15bc7df63719d,"Remove gitter link from README (#2415)
+
+* Remove gitter link from README
+
+* Update README.md
+
+Co-authored-by: John Watson <jkwatson@gmail.com>",2021-01-04 08:35:01-08:00,FALSE
+015708b7a782b015da3633b2819d1e5d38a71adc,"Move the semantic conventions generated code into its own module (#2423)
+
+* Move the semantic conventions generated code into its own module
+
+* remove un-needed dependencies
+
+* move the semconv module to the top level, out of the API namespace
+
+* Update README.md
+
+Co-authored-by: Anuraag Agrawal <anuraaga@gmail.com>
+
+* move SemanticAttributes to a more appropriate package and deprecate the old ones in the api package.
+
+* Apply suggestions from code review
+
+Co-authored-by: Anuraag Agrawal <anuraaga@gmail.com>",2021-01-06 08:25:17-08:00,FALSE
+fc28ee56969dd27e310e4ceab7fed11e684a5b10,"Update the README (#2479)
+
+* Update the README to use the bom for dependencies
+
+* allow auto-alpha updating of docs
+
+* update the metrics to show the most recent alpha
+
+* make the zpages docs update with the alpha tag
+
+* Update README.md
+
+Co-authored-by: Anuraag Agrawal <anuraaga@gmail.com>
+
+* update the gradle snapshot example
+
+Co-authored-by: Anuraag Agrawal <anuraaga@gmail.com>",2021-01-12 14:06:54+09:00,TRUE
+b9ae80d0f433cc47d566edbf97d5850ca4a4422f,Update README for 0.14.0 release (#2502),2021-01-13 08:41:55-08:00,TRUE
+bd5a770afae240379799543bc344ca595697d7f0,"Update the READMEs for 0.14.1 (#2516)
+
+and remove the readme updating step from the patch release action",2021-01-13 13:11:43-08:00,TRUE
+2ba472d0e5f56c635d30fa945aeba06c6dd25bed,rename master -> main (#2579),2021-01-25 16:26:18-08:00,FALSE
+9ac3629416fea6cad0d498b1965b1d482c779d05,Publish artifacts directly to sonatype. (#2596),2021-01-28 08:05:54-08:00,TRUE
+87cd33d8f1b7db5da869475dbdd33d4f6fba49f7,Remove word reference from implementation (#2607),2021-01-29 08:24:46-08:00,FALSE
+3e341f9af5e1bdf5abe7387311a44022a61e8630,Update changelog / docs for 0.15.0 (#2603),2021-01-29 08:55:45-08:00,TRUE
+27dacb09fa08eebe86f1b54a35d5d13923384531,"update the READMEs for 0.16.0 (#2783)
+
+* update the READMEs for 0.16.0
+
+* update context, add baggage
+
+* trim down to trace",2021-02-09 13:31:00-08:00,TRUE
+ded7256c4870c2fc925f7a71101c9a4a334d455a,Update the documention for 0.17.0 (#2885),2021-02-18 10:32:41-08:00,TRUE
+b907616ad84180b40cdc846caa25f95ca5828a36,"update a version that got missed in the README (#2889)
+
+and fix the script that should have caught it.",2021-02-18 14:37:54-08:00,TRUE
+3a0e7f60a016664a01809660fe390b1a8bf8471a,"Update README.md #2922 (#2926)
+
+A small URL typo in the README.md",2021-02-24 07:54:55-08:00,FALSE
+e59d98328372ba82445a69fe4aa3f01753e73392,"Update readme and examples for 1.0.0 (#2949)
+
+* update versions in the README
+
+* update the examples for 1.0.0",2021-02-26 14:18:16-08:00,TRUE
+d74b030b1222125fd0d6d8250da2e36003e86689,"README cleanup (#2992)
+
+* A bit of cleanup of the README
+
+* a few more README updates",2021-03-06 09:49:10-08:00,TRUE
+d92844a5b63587693a1164db8643d8b2f164d06e,"Update READMEs to be more helpful (#3007)
+
+* Update READMEs to be more helpful
+
+* update the main title
+
+* upper case for Jason
+
+* lower case link titles
+
+* typo fix",2021-03-10 19:51:28-08:00,TRUE
+63216ccf6433fe61c80f3365239bc4709fa1067d,Changelog and README update for 1.0.1 (#3015),2021-03-11 07:58:43-08:00,TRUE
+575579f286ce47f69dd547f1bc596e281f40e0b9,Doc update for 1.1.0 (#3125),2021-04-07 06:35:50-07:00,TRUE
+e60857d369a1f10664833483cbb841abd5ee53c3,"Update docs for the 1.2.0 release (#3213)
+
+* Update the changelog for version 1.2.0
+
+* Update the README for version 1.2.0
+
+* Update docs to include instructions related to API diffs.
+
+* Add the diffs from 1.1.0
+
+* tweak the japicmp task a bit and update the current diffs
+
+* update the website docs to point at 1.2.0
+
+* Add instructions about updating the website docs.",2021-05-08 11:59:52+09:00,TRUE
+57566485d9e15ea4d4283802c956c18aabe3db25,Update link for CI status badge (#3246),2021-05-21 19:50:09-07:00,FALSE
+f563f4494dfd3366d37b205ec166d1ef09f285c4,"v1.3.0 doc updates (#3305)
+
+* Add CHANGELOG item for metrics autoconfiguration enhancement
+
+* update for 1.3.0 release
+
+* Documentation updates for the 1.3.0 release
+
+* update the website docs for 1.3.0",2021-06-09 16:33:24-07:00,TRUE
+0e0d9b5dd3d9015dabf0cc14c11a151eafb7826e,Add @kubawach as an Approver (#3358),2021-07-01 07:54:40-07:00,FALSE
+a7f38027ad694857053fb0d5f9c090a9364502c7,Update docs for 1.4.0 (#3389),2021-07-09 08:34:10-07:00,TRUE
+4cb2a5f0a3c96dc9af34c7a744f8ccd44da98344,Doc updates for 1.4.1 (#3403),2021-07-15 13:03:56+09:00,TRUE
+c5730e77b542ca70fc19a56dc93df080e3810066,"Update docs for 1.5.0 (#3482)
+
+* Update docs for 1.5.0
+
+* CHANGELOG too",2021-08-13 08:10:46-07:00,TRUE
+4806e640185fdd90f3e47bd5cb69c68369346fce,"Tweaks to README (#3414)
+
+* Tweaks to README
+
+* Fix context line
+
+* Fix context line redux
+
+* Fix typo
+
+* Fix indent",2021-08-19 08:04:46-07:00,TRUE
+6ef3091cfb83946372da0d47d70acdf468c9e6c3,"Copy in spotless-conventions from instrumentation repo (#3554)
+
+* Copy in spotless-conventions from instrumentation repo.
+
+* Reformat
+
+* A few more dotfiles",2021-08-27 08:28:31-07:00,TRUE
+1263db71156944870e94ca393cadcd8a19f4b3e6,Update README with a hint for the Alpha BOM (#3577),2021-09-03 06:29:35-07:00,TRUE
+9419ef025f3a6b78ae0cd01ddd0b71b73f64b3ac,"Doc updates for 1.6.0 (#3606)
+
+* Doc updates for 1.6.0
+
+* Bump changelog",2021-09-13 08:12:41-07:00,TRUE
+a10672bbadf5b472745cdbfdf8dc813638bcbf3a,"Add generateBuildSubstitutions task to bom projects. (#3653)
+
+* Add generateBuildSubstitutions task to bom projects.
+
+This is a convenience task that can be used to
+generate a code snippet that can be copy-pasted
+for use in composite builds.
+
+* Fix typo in filter.
+
+* Add convenience task to root project.
+
+* Add documentation for how to use composite builds.
+
+* Add one more link to gradle docs.
+
+* Wrong variable name.
+
+* Update CONTRIBUTING.md
+
+Co-authored-by: Trask Stalnaker <trask.stalnaker@gmail.com>
+
+Co-authored-by: Trask Stalnaker <trask.stalnaker@gmail.com>",2021-09-26 13:38:09-07:00,TRUE
+0f93c3bd8ed3025785939fc3cb0118171affd07f,Add @jack-berg and @jsuereth as official approvers for the project (#3708),2021-10-07 16:14:39-07:00,FALSE
+cd90da0e89b7581e9c2e9a8b671482da48af65cf,"Add links in the README to the bom artifact for seeing all the publications (#3710)
+
+* Add links in the README to the bom artifact for seeing all the publications
+
+* formatting",2021-10-08 11:54:19+09:00,TRUE
+a8a27f4d01fd18539d920db56b8c1478f8e0afdb,"Update the docs for the 1.7.0 release. (#3715)
+
+* Update the docs for the 1.7.0 release.
+
+* formatting",2021-10-08 14:28:43-07:00,TRUE
+99e84ebb2528512c49a5165924fe96313fb2a2c9,README: link directly to M.I. page rather than to QUICKSTART (#3795),2021-10-27 08:08:38-07:00,TRUE
+4a84547af51570473a226929b57676eaff7078ef,"update the docs for 1.7.1 (#3824)
+
+* update the docs for 1.7.1
+
+* tweak the message",2021-11-04 08:58:37+09:00,TRUE
+98dec9e290062ff363e40ec4264ebdf153d22de4,Update docs for 1.9.0 release (#3866),2021-11-12 09:14:16-08:00,TRUE
+3a176de8142f886ce5dd8bceaa59a3bbc8ca6d72,"Update the docs and the examples for v1.9.1 (#3934)
+
+* Update the docs for the 1.9.1 patch release
+
+* update the website docs & example versions",2021-11-25 10:20:14+09:00,TRUE
+32f7138131d18b5f1d13667ae31d35dc015d21ed,docs: fix README.md metrics api not found (#3996),2021-12-15 18:20:53+09:00,FALSE
+b318c94cdbe2b8a3200161bd344518633d8db844,Port examples to opentelemetry-java-docs (#4058),2022-01-07 16:00:35+09:00,TRUE
+89a6ff24cbefa9d5e8a94dadb8a8f4b320b79dc3,"Update docs for 1.10.0 (#4068)
+
+* Update docs for 1.10.0
+
+* Revert hack
+
+* Update CHANGELOG.md
+
+* Update README.md
+
+Co-authored-by: John Watson <jkwatson@gmail.com>",2022-01-10 18:34:08-08:00,TRUE
+56e58e2df09cd59831eafa6220e56f385c58b351,"Promote Jack Berg to maintainer (#4088)
+
+and move Bogdan to ""emeritus"" status.",2022-01-14 09:12:35+09:00,FALSE
+df18b2e7ef6911f6f85a86a171adfeaeb6001199,Remove approvers who have not approved in a long while. (#4089),2022-01-13 16:52:35-08:00,FALSE
+292a84ec2cd6fb6e5facf391e78c5ef4fdf48cc9,Use newer contributors image link. (#4098),2022-01-20 11:53:50-06:00,FALSE
+bd0b474d83ed79bd2113ee5e00071634242199cd,"Docs for 1.10.1 relesae (#4108)
+
+* Update release documentation
+
+* Update version in docs
+
+* Update changelog",2022-01-21 17:54:51-08:00,TRUE
+562153dc7ffc1e3da9f4dbded2a7d9de1048dc63,"Update docs for 1.11.0 release (#4152)
+
+* Update changelog
+
+* Update version in docs
+
+* Add OTLP log exporter component to readme table
+
+* Update japicmp
+
+* Add note to create discussion to release docs",2022-02-04 16:25:56-08:00,TRUE
+34d75aa260c8f92c01e7a2bfdbee087a2a988261,"[FEATURE] Android desugaring warning (#4142)
+
+* desugaring advice
+
+* adjusted typo
+
+* Update README.md
+
+Co-authored-by: jason plumb <75337021+breedx-splk@users.noreply.github.com>
+
+* removing issue reference
+
+Co-authored-by: jason plumb <75337021+breedx-splk@users.noreply.github.com>",2022-02-11 09:46:17-06:00,TRUE
+4fcbee4bb8ca603fc4611581f39606400cf93022,Move Carlos to Maintainer Emeritus status. (#4212),2022-02-23 11:31:23-08:00,FALSE
+389e64f2cf812bfdb49a5cebb78861dd3f6e2559,Fixed minor typo in README regarding the alpha bom reference (#4213),2022-02-24 08:06:49-08:00,FALSE
+d2fbcbadb2d5320fda6a74a9ba5f426371e603f3,API diffs for 1.12.0 (#4237),2022-03-07 11:44:05+09:00,TRUE
+2014f1a1f38a7d3c4db814218857251cbbd0ef5a,API diffs for 1.13.0 (#4364),2022-04-08 16:43:33-07:00,TRUE
+6606020c3af16927c4460c8799471787bd91a454,"Post release 1.14.0 (#4453)
+
+* Add the release date for 1.14.0 to the change log
+
+* Update docs for 1.14.0 release",2022-05-10 11:12:09+09:00,TRUE
+540c2f54b43fb65a05a47c4bc1cd099a646a26c3,"List all published artifacts in readme (#4481)
+
+* List all published artifacts in readme
+
+* Pluralize artifact section titles, add description",2022-05-24 09:52:58-05:00,FALSE
+88c7233c7e946b76c14cd9aa51a06dfa42ba8d1e,Deprecate opentelemetry-exporter-jaeger-proto (#4496),2022-05-26 19:59:02-05:00,FALSE
+60cc5f452a3609ce748441c6ad75cac471b35bfd,Merge otlp grpc trace and metric exporter into :exporters:otlp:all (#4494),2022-05-27 10:12:45-05:00,FALSE
+92bd65970eb22a860151f66a96b66e02dc416fcf,"Merge otlp exporters (#4499)
+
+* Merge otlp http trace and metric exporters into :exporters:otlp:all
+
+* Merge otlp http exporter into :exporters:otlp:logs
+
+* Artifact descriptions",2022-05-27 19:23:41-07:00,FALSE
+f10959cd85ae84b9d8b4b3e101e4692acee470e0,"README: Change the example of Otel artifacts that require the `-alpha` Maven BOM now that metrics are stable (#4509)
+
+* Change the example of Otel artifacts that require the `-alpha` BOM now that metrics are stable
+
+Use the examples of the Semantic Conventions constants, the SDK Autoconfigure Extension, and the Logs SDK & exporter
+
+* Fix markdown typo
+
+* remove references to logs artifacts as they are pretty unstable for the moment",2022-06-02 10:38:06-05:00,TRUE
+5f326364055865eaf9ac026c8e22d227e8f40c5b,Update docs to 1.15.0 (#4526),2022-06-10 15:16:01-05:00,TRUE
+1566a1b45e08386e785f9b3760f06c308e96971d,"Remove anuraaga from maintainers list (#4596)
+
+* Remove anuraaga from maintainers list
+
+Not at AWS anymore
+
+* Update README.md
+
+Co-authored-by: John Watson <jkwatson@gmail.com>
+
+Co-authored-by: John Watson <jkwatson@gmail.com>",2022-07-12 13:51:03-07:00,FALSE
+6f4a24cd61a20c8ac7e037a0c4ef127d6559f4a8,Post 1.16.0 release (#4607),2022-07-15 01:43:30-05:00,TRUE
+6de5c50b7ec934f2913e381d7d0e10d83376b1e6,Add Project Status in README (#4613),2022-07-16 07:57:27-07:00,FALSE
+1d63b2accd0d5172eb129a2ff463f76b12afc651,Mark :extensions:annotations as deprecated (#4659),2022-08-07 15:56:45-05:00,FALSE
+77be2e0136a82907c24d55e16fa46dfd7a7921ac,"Break out :exporters:common module (#4575)
+
+* Break out :exporters:common module
+
+* Comment out readme links
+
+* spot",2022-08-08 08:28:24-05:00,FALSE
+df65356cdabb0bee8f94c8e0f243b60f149bce89,"Post release 1.17.0 (#4690)
+
+* Update version in docs
+
+* japicmp
+
+* Exclude opentelemetry-java-bot from contributors",2022-08-15 07:44:43-05:00,TRUE
+6eea0389affb8908bc2138d74bbe9b02022deea6,Move :sdk-extensions:zpages to :sdk-extensions:tracing-incubator (#4694),2022-08-17 15:41:07-05:00,FALSE
+926b57143aba3de92a0abdf47d400db343b30b77,Merge trace and metric incubator (#4705),2022-08-24 09:59:42-05:00,FALSE
+def1c85b6063f3633af9ad5c30ce3f3c1d58368e,"Drop opentelemetry-sdk-extension-jfr-events, which moved to opentelemetry-java-contrib (#4703)",2022-08-25 08:46:45-05:00,FALSE
+bb3cc2e3deb5191c13bef5df4aa355b6156afac6,Move noop-api to contrib (#4727),2022-08-29 10:44:55-05:00,FALSE
+c3a9f68ec8bb76f7ed75d691ffb4ff0f3c15875c,"Stop publishing opentelemetry-exporter-jaeger-proto artifact (#4724)
+
+* Stop publishing opentelemetry-exporter-jaeger-proto artifact
+
+* Load class by string",2022-09-08 11:26:29-05:00,FALSE
+1046253f3f7fd40b2203e3d5ccb8c403f9e5d907,"Drop micrometer shim (#4735)
+
+* Drop micrometer shim
+
+* Remove remnants of micrometer-shim",2022-09-08 11:39:06-05:00,FALSE
+05b045e58647636eb525140878d11665034bf146,Post 1.17.0 release (#4744),2022-09-10 10:36:56-05:00,TRUE
+cdab465a7fd1afbcfb0b9d308042bd6b9f8741eb,Stop publishing opentelemetry-extension-annotations artifact (#4750),2022-09-12 15:51:07-05:00,FALSE
+d1087144eda5740b339bd76a05c5b0290940aec0,Add Trask and Mateusz as approvers (#4754),2022-09-15 12:46:45-05:00,FALSE
+064f246c9972fe00d8cb084fa5bb9d3403722d77,Remove legacy approvers (#4762),2022-09-19 12:20:55-05:00,FALSE
+f7317c6e8d7aba3b8370438dad844dfa954e2785,Split out logs API (#4764),2022-09-22 13:23:52-05:00,FALSE
+e1519bdd3d5676e6b5f7a6d6ab18d2c2c609d51b,Deprecate opentelemetry-sdk-extension-resources (#4748),2022-10-01 09:54:45-05:00,FALSE
+7b56506a7302e7835230ccc654ca1b7c19454418,Deprecate opentelemetry-sdk-extension-aws (#4749),2022-10-01 10:08:10-05:00,FALSE
+d1a17d7e6687b7a9cc4be3e758cf62c07c1b4046,Post 1.19.0 release (#4827),2022-10-07 10:50:52-05:00,TRUE
+cc22880bb8b77a91f9050108f14be47526275fe0,Stop publishing opentelemetry-sdk-extension-aws artifact (#4830),2022-10-14 07:51:17-05:00,FALSE
+540ebfa03d5631ab2bc7c6a36b32ce975bb07cd9,Update README.md (#4871),2022-10-20 10:16:40-05:00,TRUE
+52c37d56da8ef5fff522010dc07f5ed743622a64,Stop publishing opentelemetry-sdk-extension-resources artifact (#4828),2022-10-31 12:25:36-05:00,FALSE
+34beb4d71c2b30fa439a73f8cb0ec42e322c3d2f,"Deprecate :extensions:aws (#4862)
+
+* Deprecate :extensions:aws
+
+* Add deprecation notice to README.md
+
+* Include link to new location opentelemetry-java-contrib",2022-11-02 12:16:46-05:00,FALSE
+1cb71c1445234216f0edfaab938fccfa124be9ab,"Post release 1.20.0 (#4944)
+
+* Update version in docs
+
+* Reset japicmp",2022-11-11 16:04:58-06:00,TRUE
+59702a79a5b04df0822377b93cd62d741aa9bc5a,"Post release 1.20.1 (#4960)
+
+* Update version in docs
+
+* Reset japicmp",2022-11-15 17:11:21-06:00,TRUE
+08e19e38c68725e20d8ea83a1611963c56c8ff42,Stop publishing opentelemetry-extension-aws artifact (#4945),2022-11-17 09:40:29-06:00,FALSE
+84170709c4d9ee0bb4c923e2fda41fd107645c4a,"Post release 1.21.0 (#5038)
+
+* Update version in docs
+
+* Update japicmp
+
+* Update RELEASING.md to reflect current workflow
+
+* Revert formatting changes
+
+* remove unused link",2022-12-10 08:40:47-06:00,TRUE
+e524f1aebf99d84d92b361eae4b471fa43e4ad92,Added slack link in readme (#5054),2022-12-20 09:16:43-06:00,FALSE
+d341f3bcce463cb5853e855d5db9f915c1aed7c1,"Update version in docs, update japicmp (#5097)",2023-01-07 21:32:28-08:00,TRUE
+f3b1f4a52045976a24ff88b5ee274b54e41be01d,Fix broken link (#5112),2023-01-11 06:34:09-08:00,FALSE
+9b10152cf8fa080060b484c7b5f3dd9997ec0994,"Prepare for 1.23.0 release (#5189)
+
+* Prepare changelog for 1.23.0 release
+
+* Add missing since annotations
+
+* Adjust releasing docs
+
+* Add new changelog entries, add event API artifact to readme
+
+* PR feedback
+
+* PR feedback",2023-02-10 14:07:48-06:00,FALSE
+8f5ddf26e549a6b6b95f42f485959c3e4613aa08,"Post release 1.23.0 (#5202)
+
+* Update version in docs
+
+* Update japicmp",2023-02-10 19:15:59-06:00,TRUE
+98bfb48d63774abb5c77e91397b394ac2c9955c7,Update version in docs (#5229),2023-02-15 18:23:01-06:00,TRUE
+06158ffc2d4fdcf7981deb8feebf9417f5564288,Cleanup readmes (#5263),2023-03-06 09:39:34-06:00,FALSE
+351108ee31653cf3d2a2da2887f4e2606d5248ad,"Post release 1.24.0 (#5286)
+
+* Update version in docs
+
+* Update japicmp",2023-03-13 10:02:34-05:00,TRUE
+e1fcd15ed34da34e9d779362982db5e9ed7bb1b1,Post 1.25.0 release (#5360),2023-04-07 17:08:12-05:00,TRUE
+37b6fc909ea4fedf93868d9c61bd70bdbe1a8246,Prepare 1.26.0 (#5424),2023-05-05 14:12:01-05:00,FALSE
+7812ad82e25c81d755bca8a38406faad5a9a0b9c,Post release 1.26.0 (#5430),2023-05-05 16:48:41-05:00,TRUE
+8a917e036c823b17d13b8a535d104218318df931,Promote log API / SDK to stable (#5341),2023-05-10 06:45:20-05:00,FALSE
+d67faf2aef6a0b6e488b7f6c7306f1e769187304,Merge sdk logs testing (#5431),2023-05-12 15:59:12-05:00,FALSE
+06cc7c1d67c4a02f69df3390eebdbf4ac0632462,Merge otlp logs (#5432),2023-05-15 07:14:35-05:00,FALSE

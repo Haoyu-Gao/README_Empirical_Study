@@ -1,0 +1,112 @@
+sha,message,date,result
+b99aab9285c4a7e45c2daccea8239a3ed1482982,Added draft README.md,2011-10-30 11:01:11+00:00,TRUE
+13c5bf6e692caa99fca6560f09e715eb71910867,Updated draft README.md,2011-10-30 11:02:40+00:00,TRUE
+d4463137623264d70e16a62649ac3c01079b114b,Updated draft README.md,2011-10-30 11:04:38+00:00,TRUE
+c7ad42814538559e5e1ea44b138ec8a0aff7d04c,Updated README,2011-10-30 14:43:16+00:00,TRUE
+02225559633ca0da03ff101e82224629d4ce8d59,Updated README and JSON sample,2011-10-30 15:15:12+00:00,TRUE
+d19cb4c3c3ae10458aaf80db0e594b9a5e3311a7,Updated README,2011-10-30 15:19:19+00:00,FALSE
+a20a495b91978dba9eeb719e076b6e9995ec73bd,Updated README,2011-10-30 15:22:29+00:00,FALSE
+010e51b0238a006f3f6b95d4909197162e4861d1,Updated README. Build can now generate Maven release.,2011-10-30 18:11:18+00:00,FALSE
+3f7f6c499cc4ae5627b0765b32183b4f32599e23,"Added release task to build, which deploys both JAR and standalone JAR",2011-10-30 21:07:28+00:00,FALSE
+13fb90f1833ca529b337a9360971d35f978e6008,Updated README,2011-11-01 21:48:09+00:00,TRUE
+42af03e681f2de712c27510251f7c2c91751cb61,Updated README,2011-11-01 21:51:29+00:00,TRUE
+f72df6d6b78c2911ec96799e1fe06c4cf7e6da28,Updated documentation,2011-11-30 23:20:02+00:00,TRUE
+15ce42b95b9cda204f40770a37a9b83172ffbc18,Updated documentation,2011-11-30 23:21:44+00:00,FALSE
+a6726534824739ecf9e8b2545825566fa5081766,Updated version to 1.2,2011-11-30 23:23:36+00:00,FALSE
+e7524a82ebf3cdff43ae2b91ef4b3f6200ea9e63,Added ability to configure proxying from the commandline,2011-12-01 08:22:30+00:00,FALSE
+7de2ed2679c83ec53c0a1b6c7802f26147c98ecf,Bumped version to 1.3,2011-12-01 08:24:31+00:00,FALSE
+746e42235c0b5dc7c079d64728ae1d11f6880d2a,Made priority a number and changed mapping collection accordingly,2011-12-10 21:07:15+00:00,TRUE
+6562e86b6d317528a37c9d317b1d227a71a56904,Updated docs and tests for fault injection feature,2011-12-11 13:17:03+00:00,TRUE
+93535a6a96ab21618552025ad3532e6336c168dd,Upped version to 1.6 in README,2011-12-12 19:14:01+00:00,FALSE
+6818a6f0fd083fa214f3d23df553712bba07ce1f,Updated version to 1.7,2011-12-12 21:41:05+00:00,FALSE
+3b9fa6e50c9ee21ede9bb60c6af39e60c78e7c6f,Updated docs to add withBodyContaining,2011-12-13 20:55:38+00:00,TRUE
+cec34c127110f46a872c77a73e022b0c3ad8712b,Minor fix to doc for withBodyContaining,2011-12-13 20:56:32+00:00,FALSE
+e2910f3d37e543ba3bb31cb7a2b1590085c4dc07,Moved packages and maven group from com.tomakehurst... to com.github.tomakehurst...,2012-01-06 16:02:06+00:00,TRUE
+30a081438931c5145cf22e0b99d57994cf0d0da3,Updated version in README Maven example,2012-01-06 16:06:39+00:00,FALSE
+8eea92f7df959e8e42ffcb2c1ce54d95a4d992c1,Updated version in README standalone examples,2012-01-06 16:08:50+00:00,FALSE
+f0cd89c4bef7e7787579283f8e625a350c072eee,Updated version and README,2012-01-16 23:12:19+00:00,TRUE
+fe58d9ebe5ab5fb9845c962626b286e755707f04,Updated version in README and repo location,2012-01-16 23:14:30+00:00,FALSE
+9482db309a73fcd22995c9ccb7aae77d50c7ae2f,Updated readme for new version,2012-01-20 13:27:55+00:00,FALSE
+a856aefd9219cdd5044c6f18c87ce6f7175ca98c,Updated docs for 1.12. Updated sample WAR depedency version to 1.12,2012-01-24 17:16:04+00:00,TRUE
+85f154b7f684eedb51d29709182dc7fbadad2748,Updated missing header example to README,2012-01-24 17:17:34+00:00,FALSE
+6fe65bba39642184a85f08fd8c536ae5614176b3,Upped version to 1.13,2012-01-31 14:19:00+00:00,FALSE
+fc73bd2795b1acd8f081dfc1f8f6d08ebfe409df,Updated README.md,2012-02-09 12:55:19+00:00,FALSE
+77015a698ca99f3248a480079df726afbaa74aba,Updated docs for JUnit rule,2012-02-12 13:26:10+00:00,TRUE
+32debbb0f7d8d8b0952cb398933fc19e9249eb4c,Upped version. Tweaked README.,2012-02-12 19:01:02+00:00,FALSE
+f3eab6cdd6d51372d408dbb9137b155fe66b30c3,Upped version,2012-02-18 17:56:19+00:00,FALSE
+4bbae64e50a4e0221a3c80a6892f0aedb74f6e53,Updated README and added reset() method to Scenario,2012-02-18 19:45:36+00:00,FALSE
+af91dbccb1a313b6e2446d5e36027e964185a4ba,Updated docs to include discussion of scenarios,2012-02-19 00:00:35+00:00,TRUE
+26a07321130073a2c5c6b67dc1860ec7d055d7e9,Upped version,2012-02-19 00:01:51+00:00,FALSE
+a0fd6b258ea9aad2053fbd2623fd6bb47aef6234,Small README update,2012-02-19 00:04:38+00:00,FALSE
+6ca3fe955d169a98ad2d1b88c9c060103b9ccc2b,Updated README,2012-03-25 22:40:01+01:00,FALSE
+83908a30d429807602e36c6cdcf807fe3962ce18,Updated README to reflect the move to maven central.,2012-04-09 19:57:31+01:00,FALSE
+2012b542a8d725f4aa2ebda999464a019a176fcb,Updated README,2012-05-22 16:46:23+01:00,FALSE
+21582582feb95e4c3ccd30c193f37cb6e15e7602,Updated README and sample war for 1.20,2012-05-26 20:11:07+01:00,FALSE
+cc621c18fca92f9dec658332e7bc2c90072d90ef,Updated README,2012-06-08 10:25:24+01:00,FALSE
+0c55cb388d38e45b85b2445f449248ea95dc1818,Upped version,2012-07-20 11:53:49+01:00,FALSE
+0fbaafe5aacff2ae5bc8903a42c0d2b4ede08afa,Updated README with multiple valued header info,2012-07-20 12:23:42+01:00,FALSE
+f66b3359f7b2790a3b6d502d7ccfbce19ba35628,documentation for the binary handling,2012-07-21 07:17:25+01:00,FALSE
+8acc93fe99300d4c988e124fa71fd04186827bc2,"missed a comma, update to text",2012-07-21 07:29:08+01:00,FALSE
+4a76701a9d52cb380ea2d409b163e16ab90706f9,Updated version in README,2012-08-09 09:34:41+01:00,FALSE
+edf7a67cde148affcf78ed279cd5de3055e93a61,Updated version in README and sample-war,2012-10-12 23:36:03+01:00,FALSE
+25d4d16d625ffa4141e4b9cce657bb71adeb29ef,Modified README to point to new doc site,2012-12-04 23:01:34+00:00,TRUE
+d0625e8f39c5454d37be09dfb67b0ca1a473fe48,added travis-ci configuration file; updated README to include CI badge; updated gradle build configuration to disallow signing unless archiving,2015-02-13 00:24:04-05:00,FALSE
+2dba55c875b9645dc7a799c1c67892d75ee089e4,Updated the README with some notes on questions and contributions,2015-03-29 15:59:21+01:00,FALSE
+de6853f9b993fe528a5fb89fc0767e5e03f3e955,Fixed Travis config to remove jdk 6,2015-08-24 21:43:38+01:00,FALSE
+5056fe718209ef326b86d3b0f5df8af2972531b1,Added notes on 2.0-beta to the README and HTML docs,2015-08-28 14:00:56+01:00,FALSE
+a68a93e30ff599710065711e40c614c65898ed40,Tweaked README,2015-08-28 14:06:58+01:00,FALSE
+64852e28650a692844512050708bd077a948830a,Updated README and HTML docs for 2.0-beta.,2015-08-28 14:07:55+01:00,FALSE
+585f7628d7eaa853198e237317e9b2c089c72dd4,Fixed Travis SVG back to master branch,2015-08-28 14:09:05+01:00,FALSE
+f8f453d479ca931aa9507d5fedfe8e9df7fbf37d,Added ability to veryify requests using relational operators,2015-10-26 19:17:40+00:00,FALSE
+b4d99453841940b2620c6ad330deff0148b6ba72,Updated README,2016-06-29 19:39:16+01:00,TRUE
+4a0f6cb507690180ae0af5f1bb10104940a880a8,add maven central batch to show latest version,2016-12-19 14:04:17+01:00,FALSE
+087f69c55f7bb262f46d889004ef5c5b3c540749,"docs(README): Fix maven-central badge
+
+The current badge link `https://maven-badges.herokuapp.com/maven-central/com.github.tomakehurst/wiremock` is redirecting to `https://search.maven.org`.",2018-09-07 10:09:26-04:00,FALSE
+88c9edb2ebc5a2cf7a13c35ba18f97a095802697,"Update README.md
+
+Small typo corrected in Questions and Issues",2018-10-10 01:52:15+01:00,FALSE
+f236dec94fb1425b8704cec26cdbfea3686104bd,Update README with gradlew invocation required to build standalone jar (#1135),2019-06-11 20:10:42+01:00,TRUE
+37fb1abff86aba3d58e5bf4722677cacb5d72aa9,"Allow stubbing & recording of forward proxy https traffic
+
+This allows WireMock to act as a forward (browser) proxy for HTTPS as well as
+HTTP origins whilst stubbing & recording.
+
+Step towards implementing #401.",2020-05-25 10:44:40+01:00,TRUE
+172609d537f4edd4e0331b5c4d0bea303c725cc1,Updated README to correct local build instructions now that JRE7/8 has gone,2021-04-22 18:04:29+01:00,TRUE
+bd443e582c210760e7a607a8e887e8e478f0ab6d,Removed Travis CI config and switched build badge in README to GitHub Actions,2021-04-26 16:09:43+01:00,FALSE
+482bf4490147454b4942bba936ceb24bc0fc152e,"Fixed #444 - added (better) support for publishing to the local Maven repo, plus a README note about it",2021-04-27 19:09:34+01:00,TRUE
+41a7e9f54e7817b920b20e220967cef2d4de9fb9,doc: updating link to artifact i Central (refs #1561) (#1562),2021-07-13 11:32:51+01:00,FALSE
+ae3d4269e1858acc1fd97b1ba17e340f40b7a315,"Detect & limit JUnit4 usage with ArchUnit (#1635)
+
+* Add ArchUnit dependency and configuration
+
+* Detect & limit JUnit4 usage with ArchUnit
+
+* Update after JMock was dropped
+
+* Manually rename stored rules
+
+* Exclude WireMockJUnitRuleTest
+
+* Document what to do in the case of violations
+
+* Document Architecture Rules enforced by ArchUnit",2021-10-15 12:22:49+01:00,FALSE
+ba3abca523442cb40e45c587f31036ed24b710e7,Added log4j vuln note to the README,2021-12-14 13:59:17+00:00,FALSE
+732d18d05125722c350ae67e498c3fb96691ff81,"Fix typo (#1840)
+
+Fix typo",2022-04-06 15:12:04+01:00,FALSE
+c4338759fa23ea3beaf66c1c2ff4ed4a581dce5e,Fixes #1860 - added missing files to bump version build tasks and fixed incorrect version numbers.,2022-04-26 12:16:17+01:00,FALSE
+4a454de23da8bf3826d82e7ba84de6bf93bdeeed,Add community badges to the README (#2124),2023-04-10 10:04:15+01:00,FALSE
+066833843046b24bbeda30a7f16eed472db9f072,"Fix the Slack link in the contributing guide (#2129)
+
+* Fix the Slack link in the contributing guide
+
+* Use the domain refdirect
+
+* Also modify the badge to use Slack redirect",2023-04-11 16:05:15+01:00,FALSE
+f6750ee3564c557d10b3927b8eb5fc8653663cc7,"Use HTTPs Slack redirect link
+
+subj.",2023-04-30 21:47:56+02:00,FALSE
+f46597a2f9e96ed96e9ee8d1f150b0854da2e2eb,Move Contributing information from the landing,2023-05-23 14:28:00+02:00,TRUE
+1798c80e198e8dd70bb6142cd06b8065a0b8ce2d,Add Overview information to the README,2023-05-23 14:36:09+02:00,FALSE

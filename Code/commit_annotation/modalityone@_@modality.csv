@@ -1,0 +1,58 @@
+sha,message,date,result
+d2b23c07d88821f61f964a9c8a76ef16320e779f,Extracted files from WebFx main repository,2020-12-02 23:01:14+00:00,False
+4c1a4e3466dfbd42f2194910d6500d38df9ee9eb,Refactored backend to back-office,2022-02-08 15:39:09+00:00,False
+391f70bf541ec50fb2977c2cfe7c81fec25b2ede,Refactored frontend to front-office,2022-02-08 15:45:54+00:00,False
+b77ba719c0189dc43d2185f3d57f333d3fe36948,"Docker and dbase integration (#11)
+
+* initial commit for migrating docker and database deployment scripts to main codebase
+
+* incorporated docker services into repository
+
+* moved datadump into folder consistent with Flyway migration
+
+* fixed postres ownership error
+
+* added baselineOnMigrate and second migration script
+
+* refactored database script locations and docker script operations
+
+* updates to support importing the test database
+
+* updated README to advise on database migrations and switching to development database
+
+* removed kbs owner which prevents database import
+
+* moved mongoose-sql content into the base-server-databasource folder
+
+* refactored docker-based test harness to use the a single source of truth for dbase scripts
+
+* updated README to reflect the refactored changes
+
+* fixed .gitignore file
+
+* added dbase lookup table population scripts
+
+* refactored database migration scripts and the documentation for using them
+
+* renumbered SQL files correctly
+
+* updated instructions for incorporating dev db
+
+* improved documentation regarding development database import
+
+Co-authored-by: Ben <ben@Eden.local>",2022-06-24 16:40:45+01:00,True
+1feb92b85d18395c4266c258a6e4dc15edd4a793,got docker working with new credentials and paths; replaced 'mongoose' with 'modality' in README,2022-07-11 15:36:12+01:00,True
+3842920e56363625dded9c16d287d25f688aab27,redirected readers of README to docs.modality-project.org,2022-07-11 17:11:33+01:00,False
+ef0aeb4696ade1896ccb03677e994331a1b7102d,"updated README to provide more information about the project (#1)
+
+Updated README",2022-07-26 11:35:46+01:00,False
+adb56297e8857fc6d33be9ada7ec942d37a2ed73,"first draft of contributing guide (#3)
+
+Added contributing guide and roadmap",2022-07-26 16:55:25+01:00,False
+f743dcdae6efbe1ebae7d25fccff857cf4294c1d,update readme to include link to the wireframes,2022-08-17 14:56:07+01:00,False
+530f1782b3739bc3b13ba181001f91ede14b6c6c,updated documentation to point to new Modality url,2022-10-03 12:21:02+01:00,False
+978294ecdcdf00ee41e8379031f8fd645e92a2c0,reduced project scope in the documentation (#10),2022-11-07 12:27:11+00:00,False
+c0af6dde8306e153c91f3ae758c09ee882f73011,Added Wireframes in README (#11),2022-11-08 11:38:35+00:00,False
+a0b64a94f0fcfc7303136a894244e5126eb6990b,"Update README.md
+
+Added Front-Office wireframes link to README.",2023-05-16 16:32:19+01:00,False

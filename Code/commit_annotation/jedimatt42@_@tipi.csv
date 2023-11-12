@@ -1,0 +1,25 @@
+sha,message,date,result
+fc57e18103b3c277f5f907136175790292e97230,Add readme.md,2017-01-02 12:28:49+05:18,False
+0ede2c8c9591dff5d79bc68a5edb0c81b17b6c0e,Update README.md,2017-01-02 12:29:41+05:18,False
+41383a7b6f0f1e11e4eb92956c406c61c7e94c92,Update README.md,2017-01-03 08:19:49+05:18,False
+a853a7b6f41020b98aaad2a675b1f8fb525ca080,removed crap about private gitlab server,2017-01-06 13:57:25-08:00,False
+52ea61d2528cf7d9fffb0bc30f7357fefe56057a,Add creative commons license declaration.,2017-01-15 21:56:13-08:00,False
+ca735c032c64aec5a1c2bd369781c17c05e7c744,The team decided on the GPL license.,2017-01-16 22:27:30-08:00,False
+ca57e076a6324d98cef014004bb04c5b9676dc9f,Forcing permissions to match limits of ubuntu on windows,2017-01-21 22:47:52-08:00,False
+f8005b35d512f0de8ec6fceb6bfc805037b49dd2,Add a description of what functionality exists today.,2017-04-22 10:40:35-07:00,False
+f42a0b0a99e8fc9a312cf54ec7a38e81cc833cd1,Update after repo rename.,2017-05-16 02:28:39-07:00,False
+851ded315f3b6a7fed34ac7bcd22ab9715fb06a7,Update list of things we support.,2017-10-10 08:59:02-07:00,False
+0cae6d430058fb04fb9ab36168a08e47f833ad1e,cause github doesn't do tables,2017-10-10 09:01:04-07:00,False
+208c045844a0f9bd30bc06262ec4d7e02785515a,Just keeping README accurate.,2017-11-29 20:40:08-08:00,False
+c4533cc93b84c7d7bdeb5e48d50cd8ed6d203207,update to remove big disclaimer about level 2 io,2018-01-02 22:14:19-08:00,False
+7b51c60481c95bb6022839964ce0ecf1e93c545e,"Minor change to project Readme
+
+Correct reference to DSK0, which has been replaced by DSK4.",2018-03-10 12:19:46-08:00,False
+2c464559fc9c33211a198e9d2a0f1bf080ec5ad4,link to wiki,2018-04-05 23:19:13-07:00,False
+c0c877f292d431650044be1e188fcd32b5fdaabc,Remove duplicate inaccuracies,2018-10-17 16:40:36-07:00,False
+d5ee92680faa3dd65ee62ad0e208f773f47f8e93,split license.,2019-09-28 17:32:04-07:00,False
+1146b46cbddfd0cf273e48464683ba54833d9f30,Update README.md,2020-06-19 17:46:59-07:00,False
+fd8d5ce77c10cbebb885976f92dca086ce27d96b,Update README.md,2020-06-19 17:47:22-07:00,False
+7910b3cad3299abab0d23ebbfd631510e119ae61,Update README.md,2020-06-28 20:47:25-07:00,False
+5f3d0e64933861c728b8928f651f7b8a0bb4ebe4,update source code branch structure,2023-01-21 09:34:07-08:00,False
+800dfdc8d2a5130d75fde85416f3190dc2641bb5,more install updates,2023-01-21 12:29:26-08:00,False

@@ -1,0 +1,25 @@
+sha,message,date,result
+a40566d9e2d7964ffb71fe0b4de6a5f85c670dc9,Ready for Release,2019-12-17 23:24:32+01:00,True
+f04725703b48725784fa20b9c71c2ab10e5a7c9f,Updated readme,2019-12-17 23:30:47+01:00,False
+c0ed65f905e2971dd8dda772cae0339b23ab7c49,Fixed typos on README.md,2019-12-17 23:46:41+01:00,False
+c6effd61fcdbccb11e5c25c997b839e6ef678e89,Unset Command,2020-04-10 17:08:13+02:00,True
+595eb8463929c0bcfeaf1fb742df208f089725ee,Resource optimization,2020-05-13 14:39:52+02:00,True
+c918a96c1f77740dc8e8a1cd99bf419a263998dd,New Genre Related commands,2020-05-29 22:02:06+02:00,True
+2993dc20d84c3e64beca36a8a0657f4067cdecad,Small improvements,2020-09-15 04:05:11+02:00,False
+ef273ad7015ad828bd09798d3b1418b7d8d08fcc,readme: fixes,2020-12-20 00:28:53+00:00,True
+4e6c4a340ac1634a8e9f58400c5b6a3de4729f0e,Readme Version bump,2021-01-02 06:14:24+01:00,True
+b07be5cc4cb3caa8e05b67c0679f1f0008d35b18,Documentation changes,2021-01-25 23:12:28+01:00,True
+5818d3892541030340009ca145db95f2e336fa86,new property,2021-02-28 05:48:48+01:00,True
+f6cb3dd3a091ecb9ef122bcaf42b40370d38992d,Posting to botlists,2021-06-13 16:44:41+02:00,True
+cf6717464b7911cf8ef557e51794bbe8eb6cb53e,Use java 17,2021-09-18 02:49:34+02:00,True
+a772c9baf6dac8cef456ddb2ae6294068834622f,COMRPOMISED ACCOUNT,2021-10-03 19:19:27+02:00,True
+df9f046b83fbfd22f0aa5afad1c2db34a9afe128,Improve readme for selfhosters,2021-10-06 17:07:45+02:00,True
+dcb70d1d4d604dcf0b6412f33377738db9423c9b,Update README.md,2021-10-06 17:11:58+02:00,True
+91fe0e7cf5b8eac33bbd8cba506867e506af0101,Update README.md,2021-10-06 17:20:42+02:00,False
+d783ce57aab16c2040594dfe4e9f78832d054455,"Update README.md
+
+Update readme",2021-10-21 01:02:40+02:00,False
+e64272cfec0cd81030ac74c4c694723a9d42c3a3,"Button refactor
+Code cleanup",2021-10-23 22:00:45+02:00,True
+26d3de01675e881e7c3a8f895c9d83076fda2659,Scheduled fix,2022-07-17 22:29:19+02:00,False
+20218685999ebd58d4d23089ffc1e698b1c7f175,Refactor + Test work,2022-07-22 02:05:52+02:00,False

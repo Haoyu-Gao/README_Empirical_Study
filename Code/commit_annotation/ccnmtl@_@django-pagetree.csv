@@ -1,0 +1,29 @@
+sha,message,date,result
+8f936f72777b8fac5570c6687c11176f1c7b753a,initial import,2009-08-03 09:45:13-04:00,True
+2e4d84becdfcfafa5f6ab33ffcd302a1020f3c7f,adding some flexibility to views,2010-07-02 11:49:21-04:00,True
+e928c024cce7575198cc265c50c94c291ecd4101,1.0.0 release,2014-09-09 14:47:59+02:00,True
+115092dfd282d306ebd079c871244e2db0addf03,Run tests with Django 1.6/1.7 on travis and update test_reqs,2014-11-21 11:54:07-05:00,False
+dd7add2a7a62f90e56b86829efb45c31297514b5,"Add pypi link to readme
+
+from: https://pypip.in/version.html",2015-03-11 14:52:21-04:00,False
+cff9abc0d998c4aec77fc01afdc2ae0736c87cc0,Put readme badges on one line,2015-03-11 16:16:04-04:00,False
+4aafae97d1b6dc65bdacadad3fccdb1e740e5c12,Add link to docs in readme,2015-03-19 07:53:11-04:00,False
+a7ddb9bdaf8f0ee8753648cec917e9a60944c317,Change doc theme and add link in readme,2015-05-20 15:00:35-04:00,False
+c9348cd67c4710c256c10336355cfac6213b298e,"add docs badge to readme
+
+so we have a better idea of when the docs are having problems",2015-08-13 21:20:35-04:00,False
+c5ce22e4b756aebeeae6d4173975e4382246e3f1,"Remove pypi badge - pypin.in is down
+
+https://github.com/badges/pypipins/issues/39",2015-08-13 21:22:34-04:00,False
+ef52806364ff483d3ff293d875f02cbd2312dc53,"fix docs link
+
+now it links to the documentation",2015-10-08 15:19:59-04:00,False
+985993a27ca01dfab242138142abcb68d5f64b3c,"Remove notes on django 1.7 / south
+
+This is no longer relevant since django 1.7 and south aren't supported anymore",2015-12-22 11:03:37-05:00,False
+18251d83069c3e4641808c85f877be4c7572b25a,add coveralls badge,2016-02-26 15:50:34+00:00,False
+9c624814053fea32bca8db58a685baf9b5e05034,"Switch to Github Actions
+
+* Refactor Travis commands into a standard Makefile
+* Fix broken tests by manually adding the TestBlock ContentType
+* Add the Github Actions workflow",2021-02-19 16:28:29-05:00,False

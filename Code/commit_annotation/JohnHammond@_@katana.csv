@@ -1,0 +1,87 @@
+sha,message,date,result
+49a69780f09fb8aa03219b1833fcbe111c68e0b4,Added README and corrected some fails,2019-03-24 15:26:39-04:00,False
+eafd81b09646c8777bea4891d54a995e4455a156,Added functionality to detect Base64 encoded flags,2019-04-01 18:52:09-04:00,True
+40c445eedcfd99fc1f459609456826efc9ddafb5,Corrected README for setup info...,2019-04-02 10:47:21-07:00,True
+f590ffbaded591783620110a9dcc3eadc8940a43,Corrected setup instructions for dependencies.,2019-04-02 10:52:02-07:00,True
+cba2eb0c788dcf721b9b762ea6a783d3655c4e81,Corrected README to include all units,2019-04-02 15:25:44-04:00,False
+f28047afbde88a5948412c01b0c4144cb7865b75,Updated raw.strings to work with the new framework,2019-04-05 21:28:08-04:00,False
+807f1b025e50ba761a049c8b6a1a2d5777ca472f,Corrected some README typos and added quick cookbooks for testing,2019-04-10 21:58:36-04:00,False
+b5299e3f87583e6c710432cbbc7a31ce4436128f,Updated README to describe the use of a virtual environment,2019-04-11 23:51:52-04:00,True
+044615e5fa42aa1b2dbdb408c583e46837d4d26b,Added single quotes around regex's in readme. The question marks make my shell choke...,2019-04-12 00:23:55-04:00,False
+bc12a6b3b821e16caf787c3b365f7400ce119eb7,Brought esoteric.brainfuck to the new framework and increased threshold for hex detection,2019-04-12 01:04:06-04:00,False
+8a52b5c8b5ec1f29e831e5c2540c825fee540db7,Brought pdf.pdfinfo to the new framework,2019-04-12 01:52:04-04:00,False
+fd86b33c89cf43a028aecb1e7e022629de28029e,Added brainfuck back in,2019-04-13 17:11:14-04:00,False
+ca4979d0f4c9e1fbc3a1eb3bb018892b82456b54,"Corrected zsteg and squashed a lot of other bugs, fixes #13",2019-04-13 19:17:02-04:00,False
+ad1e0f69cbebbff8375ba37deaedf35a915b6751,Fixed readme to reference ./tests,2019-04-13 19:17:47-04:00,False
+6a1241999751aadb78b8b347925bd4b98a07f36f,Fixed readme issues,2019-04-13 19:32:17-04:00,False
+9b79d5fe6789db2ebe0263725ee673eae121ba26,Corrected zsteg to be more precise,2019-04-13 19:32:27-04:00,False
+dd26fdaf74f4c5b1e597a6941539efc26665d49e,Added railfence and support for strict flag hunting,2019-04-14 00:26:01-04:00,False
+db0b6c102d044620389c04759e5dcb82d435c5c2,Corrected README to better explain a fresh install of Python 3.7 and a venv,2019-04-23 09:53:13-07:00,True
+da70d6f4af75e66b7e87ac277e555ee2b79e3da2,Corrected README for setup AGAIN and put crypto in the requirements,2019-04-23 09:59:27-07:00,True
+72ed39dc71a820edd90050febad29061166c0fe2,Added primefac and factordb to requirements and removed unnecessary line in README,2019-04-23 10:26:10-07:00,True
+cc0f812c365338f57ee341b43f5610e687656417,"Added tcpflow as a pcap unit, and created ""tests.sh"" to run through our tests",2019-04-23 19:50:37-04:00,False
+d117533de5bbadcc3f950aacdcfe9274eaae727d,Brought web.robots to the new framework and fixed some oddities in Brainfuck and Pikalang/updated README to include primitive flag finding tests (because my test is still broken),2019-04-30 18:43:56-04:00,False
+dcfe670e27e2988cd633ec1d2643593f5b9ff2e1,Brought web.git to the new framework and kept track of a target.response property for URLs (so we can optimize web.cookies),2019-04-30 19:05:39-04:00,False
+bfeef5521ff405232058b3fdeeeff1c42d058a2b,Brought web.basic_sqli to the new framework. Cleaned up git. Corrected tests in README. Moved variables used by multiple web units in the higher WebUnit class,2019-04-30 19:18:46-04:00,False
+0a2c93380b483374588d702dd5b19466caf8b417,Fixing more issues found by test after the target_class merge reorg,2019-04-30 21:03:49-04:00,False
+1d22bfa15539c88f1bcbb91cab7b2f5c87a3cbcc,Fixed a mistake in the manual tests in README. Still having an issue with pdftotext in Basic SQL and steghide for some reason....,2019-04-30 21:05:37-04:00,False
+984c0d8f7f656f4ed9d5a72c37982e2806601d1a,Corrected some dependencies for installation in the README,2019-05-02 04:42:22-07:00,True
+9a60ac596047e7552a51ae829e69eb4060f2f31c,"Fixed a ground-breaking thing in katana.create_artifact (infinite while 1) that saved zip.crack, actually test if the OCR returned anything in stegsolve, and assured that tesseract would check for dependencies",2019-05-02 08:02:49-07:00,True
+8e862014b2c71eacd0e1d3f13f04d3f46a3c3393,"Added base85 and ascii85 units, added dependency for pyperclib in README install, and corrected Target to not try and add empty images",2019-05-02 08:24:58-07:00,True
+97b19af19e02b46cb32e237b426578691158a2cf,Included link to build Python 3.7 in README,2019-05-07 17:46:09-04:00,True
+4447a07294ebaa8e0949883b7d89856c06319713,Patched ImageGUI a bit so it will show the error cleanly if it cannot read a file,2019-05-07 20:26:15-04:00,False
+4f9dd9afe9d13cad98a9b15a42e74d4cb1fe363a,Corrected some no download things and added pretty colors to output,2019-05-07 21:49:57-04:00,False
+11f0a6bee0b036de4f44ccbb7ffd306ace47874f,DON'T FORGET --exclude crypto WHEN TESTING THINGS ARRRRGHHH FUCK MEEE,2019-05-07 22:44:16-04:00,False
+9297674da7166c924c90d37efc353a511d7c78b8,"Removed the stray strings, corrected the crypto section in README to say ROT57 and fixed some string/byte issues in web units",2019-05-14 19:57:54-04:00,False
+7dd5768abf243dda5caeef7260e2fb8a01441f8b,Added a basic crypto.rsa unit! FINALLY!,2019-05-14 22:27:40-04:00,False
+8524ace7df428fa9cd82d59b86d1814acbd35e10,Added Contributions to README,2019-05-15 07:33:33-07:00,False
+44709e7ab49bafdd3ab691e34de6d830369f05c8,Props to Drnkn for COW and Liikt for Ook!,2019-05-18 13:32:46-04:00,False
+e38a0d1be2b826584da9568f33e95d2b96127933,Corrected crypto.dna and it seems to work greate,2019-05-25 11:43:11-04:00,False
+78736364fcdbb96a801bb434d53ac5bf8429f65f,Added crypto.T9 unit,2019-05-25 12:24:28-04:00,False
+2323280a88b76bd86936a04ec8f96da634ff7e39,Seriously cleaned up the pdftotext unit and I am very pleased with it. New dependencies though!,2019-05-26 00:41:35-04:00,True
+381bdc99f5d090c441f1f2aa1e8be0fc5a6896db,Set caesar255 priority equal to caesar so we don't lose sight of those challenges,2019-05-26 01:03:10-04:00,False
+0e9bcc3dada1cff4de16b06dea5b165e7d5b3dfc,Added Zwedgy's contributions in the README and started to work on the stego.whitespace unit,2019-05-26 17:58:12-04:00,False
+ef3420aa3c2097c3d057fca130a94b0befdd2b20,"Corrected the missing DependancyError message (nullified the exception, though...) and added Piet",2019-05-27 00:21:53-04:00,False
+6e844a73c2566394bf3757321d2280a918d7e600,Updated list of units for the README.... SO MANY UNITS,2019-05-27 00:58:33-04:00,False
+c152ffe81c1d7e2fc66f77f14a2bad9c085b5bf5,updated,2019-05-27 00:59:29-04:00,False
+f39a05ab822615d5ccad6b57698e70225d31755a,Corrected README for units listing,2019-05-27 01:00:31-04:00,False
+b56139758d382e321f29fab338edbf3b85f5c3e1,I am the worst human being,2019-05-27 01:02:20-04:00,False
+88dc9db408ad05b3b0d3dccb7e98f6d520d7946c,"I wanna be, the very worst, like no one ever was...",2019-05-27 01:05:02-04:00,False
+1e237859d3900056a935725533da7c8e46c74e83,Added the quipqiup test in the README and noted l14ck3r0x01 as a contributor,2019-05-27 13:51:58-04:00,False
+64a22713e7c09f34f6c1b1ac906133cbd543808b,Added Zwedgy's dtmf_decoder in the contributions section of README,2019-05-27 14:51:53-04:00,False
+512600098912cdcbca7098c14688e6de0bad2f1b,Added John Kazantzis to contributors segment,2019-06-04 22:38:07-04:00,False
+b0e23da2f872d25d7fd8cde0b80aa70001aae9de,Added JSfuck unit,2019-06-06 20:37:05-04:00,False
+31c46a207ecd7d1d257051c8e0450b5abce35756,"Added NATO phonetic, courtesy of VoidUpdate!",2019-06-15 16:34:30-04:00,False
+517f4676cb5367ccb2da2ee222632d95e49783e5,Cleaned some of Caleb's Katana module docs and linked CONTRIBUTING into the README,2019-08-27 19:23:46-04:00,False
+ba19de4b91d3daf630fc41a46c2e9bb7cba6b7e4,Added some notes for the documentation and put a disclaimer on the Katana README.,2019-08-31 16:48:17-04:00,True
+b0a6173486fcda5de3b53e7e267317ea5886cc02,"Corrected some typos in the README, fixes #46",2019-08-31 17:55:52-04:00,True
+afc81b3a457dbb359953c256c202f7e91ce142d8,Updated README with note for the tests directory and trying to fix apparent problem with dependency links,2019-08-31 18:14:53-04:00,False
+ce2dbe7a69a56796559a8e67eb5af1e7f3388c96,fiiiiiiiiiiiixed typo in README,2019-08-31 18:16:21-04:00,False
+9db08cd49ae687cd7ce78667c27bfa56ffa6700c,Cleaned README for better install instructions and better Usage explanation,2019-08-31 18:52:28-04:00,True
+5cc9923c49f3d11414568390465d3fa71fa4f82f,Continuing to clean README...,2019-08-31 18:58:04-04:00,True
+30393e8657c7fb22a157b72bb4f6bed9e7d4d773,iUpdated README for quick Arch setup and fixed which command stderr,2019-10-04 16:24:00-04:00,True
+c395565d11f3913df755eadd7b5ae6b423b87cb9,Fixed a quick error in the logon_cookies unit,2019-10-04 16:38:10-04:00,False
+dc28c96879c6cb91db39604b438a4548adf77aa4,"Removed some stupid horrible line that was preventing zsteg from even
+running",2019-10-04 17:38:02-04:00,False
+eaa624eba37e414ec520c821631b06c39e1bac19,Added extra Ubuntu dependency for gmpy,2019-10-12 14:08:11-04:00,True
+a149e590d2f47fa7519e788a9b2327fcc3f7fcba,Added beginnings of documentation for new framework. Also added the ability to view the CTFd scoreboard,2019-10-28 21:13:08-04:00,True
+739dbc2c79b36c8fc305fe6ea17f155edc6fdd6f,Fixed things and added a README,2020-02-24 18:47:24-05:00,True
+568410f97b23bd0762cbe037c23803ad6d57ac29,Fixed web challenge issues,2020-02-24 20:05:50-05:00,False
+a0b87e1b43b9d9bf776465441e912920a74ebe69,Added desktop notification on new flag,2020-02-24 21:58:31-05:00,True
+2ca9dd09290396fb1803e3d9dde896a7f10e232d,Updated the README to clean a bit,2020-03-01 16:44:56-05:00,True
+73639ab4e91bcc6c845ced234a5a7b31e7fcc2ef,Fixed some quick-command installation issues,2020-03-01 16:56:48-05:00,True
+172eab6e065e3ab045c670696bfe605f9127ba3d,Tried to fix dbus within the venv,2020-03-01 17:17:18-05:00,True
+b619ef71851813c1eccd2d110a2561f1c84fa637,Added note for Docker install,2020-03-01 17:35:14-05:00,True
+81809d1669ec3f3aee17b5f0acfcd07e05b25350,Added links to ReadTheDocs documentation,2020-03-02 16:15:15-05:00,True
+cc778862ad89f4f9665f5bcdaecf82d4c81741f8,"Update README.md
+
+Removed `system-site-packages` from virtual environment creation, and added a note about old versions of Ubuntu.",2020-03-08 19:07:15-04:00,True
+aa06430d3bef2a7f5468a9108ffde6c5155f5f88,Update README.md,2020-05-16 17:42:59+02:00,False
+5f3a1301fa07392e8d38b3efb76681655ab5dd07,"Add run on repl.it badge to README
+
+This pull request adds a  badge to the . This will allow users to easily run this repository in their browser, without having to set up an environment. You can learn more about Repl.it [here](https://repl.it).",2020-09-01 15:30:22+00:00,True
+452cfc47116093834e8a8886a4dff25e72a26ab8,"Update README.md
+
+Fixed some typos",2020-09-14 20:04:52+03:00,True
+6e10f71a565feaf8e10a8239cd42bf0dc21364e1,Update other appearances of the package,2021-11-21 18:55:26-05:00,True
+a124233388cb3923a7a0721232c6dc91068aafc4,Update README.md,2022-01-29 11:54:22+00:00,True

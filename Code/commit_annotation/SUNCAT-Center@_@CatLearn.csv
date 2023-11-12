@@ -1,0 +1,58 @@
+sha,message,date,result
+3a5c1fb3a5b53c5ecd219d77f04ee6a1278cf155,add README,2016-12-13 15:31:24-08:00,FALSE
+99afc924a720799c12175a501d70e6b7f1249b8a,Initialize the repository with some of the ase-mlga code.,2016-12-13 16:41:44-08:00,TRUE
+569b98ce73628c01edc298b9b3c45f544181b31d,Added some more descriptive text to the repository.,2016-12-18 11:07:14-08:00,TRUE
+740c0de6ba6a102ed0a7bff8a7043d71acaf20c6,Better markdown formatting.,2016-12-18 18:23:00-08:00,TRUE
+0ac9935cb94b9eb8dd5177adef5f1ef8b860367d,Add build status.,2017-01-09 02:25:07+00:00,TRUE
+b0bbd6fce2dcc4343e7680203486f7753f023fc1,Some changes to the way things are handled.,2017-02-03 13:53:34-08:00,TRUE
+d839bbbe4e41872b2dc13be93409290c37700ae1,Update README.md,2017-04-18 16:51:12+00:00,TRUE
+28caebbd6e4946d184dc26ae27b50a699fd1f715,Clean up the README language a little.,2017-05-09 22:46:41-07:00,FALSE
+01bf3e9d634fdb19372756a1e7f7403aa178d667,Update the readme to give breakdown of the code and functions.,2017-05-16 16:01:36-07:00,TRUE
+b28ab6b632f9db410c04f169d5b394d5125cb255,Clean up the readme to reflect recent changes.,2017-05-16 17:52:58-07:00,FALSE
+f64afb021f0f7605bbbfa7825e790e200b6a3955,Update readme again.,2017-05-16 18:38:48-07:00,FALSE
+3d76992e9ebc62ef0cae0c075354d33f841850dd,Better ordering of README.,2017-05-16 21:14:32-07:00,TRUE
+3f2377d57e0aa9ff05d07e6779d77f794b940af0,Rename feature_select to feature_elimination.,2017-05-19 14:16:40-07:00,FALSE
+f821120f37eac4fb745242ceeb0b610a09cc2a7b,Update readme slightly.,2017-06-06 22:25:17-07:00,FALSE
+edade57a235dcb94e345a7e244e95525b6dedbfd,Simplify readme a little.,2017-07-25 22:03:08-07:00,TRUE
+6ebfec6cca3b04549ed1a393767e78f6b02be951,Update readme.,2017-08-30 11:35:33-07:00,TRUE
+24c654866119dfe50daec3e522533699b519dd3f,Add some more documentation.,2017-11-03 11:30:48-07:00,FALSE
+0ca99a271c1abab57eabe3f855c8e2b7973162b5,Make readme a bit more useful.,2017-11-06 12:16:22-08:00,TRUE
+b059f292db358674bdc4c067fdd081f24c9bb38e,Add badge to shame us into better coverage. Will be unknown until merge into master though.,2017-11-06 15:15:18-08:00,FALSE
+f95f211c6f2f14bceac1c87f974fbf583ef68de5,Add another note on contributions.,2017-11-06 22:09:29-08:00,FALSE
+a571eab1a32c102250d6087c4540a7c996325fa0,Add code formatting.,2017-11-10 14:21:25-08:00,TRUE
+4731ccc59ff6a54d0605659766c84b81a1a3e0b6,Update README a little.,2017-12-08 16:47:23-08:00,FALSE
+233643af88587f77e905828390538ce8f4ca3792,Add some docker stuff.,2017-12-20 15:56:35-08:00,TRUE
+8088a98681f7c1703b18c341f1d35fb7f84a86b4,Add more to the documentation.,2017-12-20 20:12:53-08:00,TRUE
+094512e1f4a8510fa3ed0a2b6ab1b44f4bbfb7d3,Better formatting of README files.,2018-02-16 12:38:07-08:00,TRUE
+d0ad66a55c1c91686f0354fe82adb3f7f9723fda,Update some more docs.,2018-03-19 10:49:34-07:00,TRUE
+f2234952df61e0efedeaa96f3b29327f4481c51a,Update some docs.,2018-03-21 21:02:08-07:00,TRUE
+34c2aef71e1d91d419f2eae253ea436b1fccb67c,Some final tidying.,2018-03-27 11:30:13-07:00,FALSE
+1d5f4dbcafc9323ac9a647f07e7851714f92f70e,Add a note on general functionality to README.,2018-03-28 13:38:58-07:00,FALSE
+8990008c80740963ed7e240ff8f32679a1a75fd9,Point to tutorials in README more.,2018-03-28 13:55:52-07:00,FALSE
+4eeb59795f338ff8bec9ee2f83232903b1374cbe,Remove stuff about authors.,2018-03-30 20:29:33+00:00,FALSE
+ae1d1695658c6c6af87da36aae2a7e8b0e1cf41d,Update README.md,2018-04-11 06:07:44+00:00,FALSE
+45e8e6cd1e5475db85174b5fc10299e16dcf69d0,Update the name in docs.,2018-04-20 11:05:27-07:00,TRUE
+4accf494a3804743116e1514a2ffc82393d051cc,Add badges.,2018-04-23 15:19:09-07:00,TRUE
+0c3e3798729ba54752099600e60d780d94b01da3,Remove old gitlab yml.,2018-04-23 15:33:44-07:00,FALSE
+cb1cbb18ed54fd1a842c27e4640dac7d1d5e9188,Make some changes to spacing.,2018-04-23 15:55:15-07:00,TRUE
+bb0ca42c168c5fbc71098469c595041c358678e5,Add some docs.,2018-04-23 21:46:33-07:00,FALSE
+cf841cc1542086b6c97a651a5a89797739c8f9fe,Remove stuff that is build by rtd.,2018-04-24 12:46:13-07:00,FALSE
+e0ec05614f506c4d9a67317fc1cdb6536882b219,Remove pandas as it is in requirements.,2018-04-24 14:17:14-07:00,TRUE
+dbc7b6063ef2eb7b48740856afd4a4ec09bdb722,Update CV tutorials.,2018-04-24 19:47:44-07:00,FALSE
+cc8df4f012fd69298c58409f5ae8894c75af5da9,Update some readmes.,2018-05-01 10:52:01-07:00,FALSE
+2f1cdf40da40f98883f60ac2af1cc2b3be03a5e8,"Update README.md
+
+Update README.md with ML-NEB algorithm.",2018-11-19 18:56:58-08:00,FALSE
+ee4bc2a80a65c283e19c2264760326959b773cf5,"Revert ""Update README.md""
+
+This reverts commit 2f1cdf40da40f98883f60ac2af1cc2b3be03a5e8.",2018-11-20 11:38:26-08:00,FALSE
+1720f8b363d751aca24ebe863559581f115905d8,"ML-NEB CatLearn (#55)
+
+* Added ML-NEB algorithm.",2018-11-21 19:15:50-08:00,FALSE
+d773729f037c8585a024a0adb2669e6437ea985a,version bump,2018-11-21 22:07:49-08:00,FALSE
+8c009d8cca5ca38b2c0faf480cf54ccb60128a40,doi badge,2019-03-21 15:32:28+00:00,FALSE
+82486e3814bfda53201f91a2d867908cb2c218d3,version bump,2019-04-27 12:45:07+02:00,FALSE
+170b178cd7b30817387698689da640488e101dcd,improve intro,2019-04-27 12:53:03+02:00,FALSE
+1e68b55808c37e2698bc082556dd7e6160bf2435,no deps,2019-05-04 12:34:13+01:00,TRUE
+611209a3b0168e3e98c09cee707f0224d6867c94,mlneb docs,2019-05-06 12:14:49+01:00,TRUE
+bf2f263521c174f85dfe1bdea0f86127c7ed70ac,mlneb docs,2019-05-06 12:21:55+01:00,TRUE

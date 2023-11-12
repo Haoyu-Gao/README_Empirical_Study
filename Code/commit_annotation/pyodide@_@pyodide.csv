@@ -1,0 +1,161 @@
+sha,message,date,result
+191ca2c7bd4ba6a05ba87f5427e89ea3ef5bdddc,Bulk of initial work.,2018-02-23 14:34:33-05:00,TRUE
+67566d9530872db887ea532308850f11681a3c49,Update README,2018-02-24 12:52:47-05:00,FALSE
+617dbcf4ea9d5caaf7424e3bdc7d3b1f035d335c,Fix #5: Python 3.6 support,2018-02-26 17:21:26-05:00,TRUE
+f2c08119afdc52f069c6dc941d32701f66051a09,Add internal cpython build,2018-02-27 17:57:22-05:00,TRUE
+a913895bbeacf8efdbbf3f5e4392f6fe7517f3ba,Update build instructions,2018-02-28 09:12:26-05:00,TRUE
+2ad135ef062a55cc02aee156459ee157776964e0,Add testing,2018-03-30 10:51:13-04:00,FALSE
+b8c3e600c2f473abc37bf39191db515694811688,Add end-to-end build.  Travis tests.,2018-03-30 13:08:06-04:00,TRUE
+e64e35f2e75929e908f9e264355b630204e04128,Add Travis badge,2018-03-30 14:10:03-04:00,FALSE
+1cc1ba4829a379d36250ff4b485e446b9d7d348b,Add benchmarking instructions,2018-04-11 10:17:02-04:00,TRUE
+0e8963a480850debf7c458148fa17ad74cff311b,Add Jupyter's stylesheet for inline html content,2018-04-26 11:04:28-04:00,TRUE
+c5fb1e497d07bfa5c777ec80b98228db1a8b92e4,Update CI badges,2018-06-04 21:30:06-04:00,FALSE
+6c9a3067c366fbdb19286c07e6bfbe920c42aa78,Add some community and contributing guidelines,2018-06-07 15:43:04-04:00,TRUE
+500903b79b70c1caf54b5c39790cde5c3292bc24,Better tagline,2018-06-07 15:50:53-04:00,FALSE
+7c0457cead6ba74721b7c5745b30eb5b22b1ff1e,Add linting,2018-06-14 14:19:08-04:00,FALSE
+5e9393a8e3c722ded0c3b88583fd9d660d15f19d,Fix #37: Minify Javascript,2018-06-19 10:56:17-04:00,TRUE
+3473768dba56d7905f065b5d7d560246103716be,Add first round of user docs,2018-06-21 11:19:34-04:00,TRUE
+8f51f7795c7e4f7fa84d5fd20bbfa61211858cff,More refinement of docs,2018-06-22 14:54:59-04:00,FALSE
+2261af6dae612e1b262a7f2cd8b95532fe71b0c0,Mention ccache in the README,2018-07-24 12:59:07-04:00,TRUE
+5ea44b2d1870aa7a6a034de4bd5c07e67f22de7f,Trivial change to trigger rebuild,2018-07-24 12:59:07-04:00,FALSE
+73934a3f442dde27d9d10184a2c31a765470ff1e,Use instafail so we can see what's going on,2018-07-25 07:27:15-04:00,FALSE
+4d7ce3f36c900e7a4daeee70efeca280d8898e97,Mention chromedriver in the README,2018-07-26 11:45:00+02:00,FALSE
+153c6324b9fef8c42d5e6cc9a8777af27ed1ef4f,Copy test data in a pytest fixture,2018-08-28 14:42:14+03:00,FALSE
+56562257ef48193d1380794445d5a18fd35a17d1,Fix #71: Upgrade to Python 3.7,2018-09-06 10:56:33-04:00,TRUE
+4562841b61f1cba67be945387ff81645bb3b9d4a,Provide a Docker image for building,2018-10-08 15:33:33-04:00,TRUE
+29315ccf42c1e38307f4edb4d2056236cede5447,DOC Add link to the demo in the readme,2018-10-29 10:22:58+01:00,FALSE
+ff5b9e61daf11eb9b656f727efa46e14fb0b5fe1,Trivial change to ping CI,2018-11-07 16:15:43-05:00,FALSE
+4abae985ea8fe9b503ee8b3d00cc893cb9785991,Add Documentation + Minor Changes,2018-12-11 13:14:51+05:18,FALSE
+ffa2f7df902312248085e453b698d915d239720e,Wrap to 80 characters per line,2018-12-11 19:51:48+05:18,FALSE
+28445d5a16c73b4ce4eb2ed09055b7ca6170178a,Update the demo link in the README,2019-01-31 18:05:39-05:00,FALSE
+7441d5250e8fc1df9019c7dc5dd840db0a732126,"Partially address #338: Provide simple method for interactive testing
+
+This adds a basic repl-like console webpage that can be used for
+testing of the local pyodide install.
+
+It removes the broken examples based on standalone iodide.",2019-03-15 12:54:08-04:00,FALSE
+6e561d2b19ccfc7450260182a79399f88eab153d,README.md: Remove cd /src instruction for Docker (#396),2019-04-24 11:09:17-04:00,TRUE
+6ca7c116c27deafdc028a90e462a33119309069e,"Update Instructions for Building Pyodide (#425)
+
+Add a tip: increase the maximum allowable RAM usage to the docker container if `make` stops without any valid reason.",2019-05-16 10:03:18-04:00,TRUE
+0ca65052613cbee3ba5a43b78cb69288d6774087,Update docs about Netlify.,2019-05-31 16:02:51-04:00,TRUE
+2cf8639973f0fc46636ee5299de11d503070d0f6,"MAINT Move package tests under packages/ dir (#471)
+
+* Move package tests under the packages/ folder
+
+* Fix tests",2019-06-19 14:26:08-04:00,FALSE
+4c818996618c1106cc8d57971faff5fcb5930ad3,"Update the main readme file to be more user-focused (#475)
+
+* Edit README headings and navigation
+
+* Add minor edits and bottom nav
+
+* correct link and typo
+
+* Address review comments and fix another typo
+
+* remove unneeded link from nav",2019-06-21 20:25:44-04:00,TRUE
+9f4dceb81211d230e7c16499d41c67e4ee91d0e2,"Adds Sphinx documentation build (#474)
+
+* create proof of concept
+
+* add rtd config file
+
+* edit config
+
+* minor edits in rst files
+
+* update config from proof of concept to prod
+
+* add a bit more explanation to contents page
+
+* Label markdown block as js to prevent Sphinx warning
+
+* correct links warning in Sphinx
+
+* fix typo",2019-06-22 18:22:38-04:00,TRUE
+62fdb183e92a47aded2564aac8efb196af8975f0,Update docs link to readthedocs (#477),2019-06-22 18:28:48-04:00,TRUE
+c0627967c53a597b10024800dd5eff798a134343,DOC Fix broken footer link to 'Try Pyodide' (#484),2019-07-07 10:45:57+02:00,FALSE
+3946cf80032240601585bf6ebcc5fc6d8ee6d36f,"Add a docs badge to top of README (#543)
+
+This makes it slightly easier to find the docs from repository's README",2019-10-21 10:39:17-04:00,FALSE
+cf6b8e11e5b532ebf0174576476c040507b9925a,Update README for building on Mac,2019-10-21 12:27:18-04:00,TRUE
+f14c3fe5c8c612ac398a00341209dc18bd3a39e8,Update the documentation around dev dependencies. (#565),2019-11-19 11:11:46-05:00,TRUE
+c3ac3d3357bd9a4ecd14b7c59a215de341b4c9eb,"Document and check for a few more things when building pyodide (#593)
+
+* cmake
+* pkg-config
+* fix check for pyyaml",2020-01-02 17:42:43-05:00,TRUE
+34fe891033ab667fcf11f173d0a453ba1d124bd4,DOC README.md direct link to Pyodide console.html (#654),2020-05-12 08:39:13+02:00,TRUE
+f2c4d63c896cc44a314b366d42c4d7e191e6b77e,DOC Improve README and documentation (#665),2020-05-19 18:14:56+02:00,TRUE
+dd4d788694e2157369f34df4e725dbbe57e18778,"Update changelog, minor doc fixes and CDN URL updates (#668)",2020-05-20 18:58:43+02:00,TRUE
+12a42508fc841130796a3e73f3bd5042351ebf08,DOC corrected contribution link (#706),2020-06-30 11:25:24+02:00,FALSE
+fc5495ffdb54a11fd588dc60ba6b8777f90c3724,"Update to Python 3.8.2 (#712)
+
+* Updating to CPython 3.8
+
+* More fixes
+
+* Skip python headers check in tools/dependency-check.sh
+
+* Fix checksum
+
+* Fix packages
+
+* Fix syntax error
+
+* Fix benchmark path
+
+* Update CPython tests
+
+* More test fixes
+
+* Fix PyStone
+
+* More Cpython test fixes
+
+* Update docs
+
+* Fix issue in conftest
+
+* Add documentation
+
+* Upload updated Docker image",2020-07-07 16:21:33+02:00,FALSE
+950a5746258409e7d909e6b5f98210a9848a8fcd,DOC Add pyodide logo (#777),2020-10-29 23:38:32+01:00,TRUE
+0d10cfaded5586ffc21ed38c7b2d392490871c6e,Release 0.16.1 (#950),2020-12-25 22:05:54+01:00,TRUE
+7d68edc44723b428f645a9ca7667583c5cb8b37a,DOC Fix broken link in readme (#1174),2021-01-25 13:19:17+01:00,TRUE
+5d392a6699595ae0f993152ac4c955a7ab1adb99,DOC Fix broken links in README.md (#1199),2021-02-06 11:48:13+01:00,TRUE
+2771ded0023e1de176173a09df868094b62de2b8,DOC Fix pyodide logo in readme (#1254),2021-02-15 09:28:58+01:00,FALSE
+a79e2893f2c5dc54f3cd5ef23cbc87e6e6e17288,DOC Update project subtitle to be more general (#1246),2021-02-15 21:27:28+01:00,TRUE
+16c3514b7e4c91e9a150ca74152bdec6fc24ed22,DOC Update the documentation domain to pyodide.org (#1301),2021-03-03 14:57:48+01:00,TRUE
+afb522ed59a08dc7edd0ae7935ec2999d55ed544,Release 0.17.0a2 (#1356),2021-03-21 19:03:09+01:00,TRUE
+8ac788c424da3e466d67d742633b4beaf5c78642,DOC Rename repo links under the Pyodide org (#1383),2021-03-29 10:37:03+02:00,TRUE
+35e637f65ff7dba721f8bf176a70abe767993850,DOC Update readme to use documentation from 0.17.0a2 (#1417),2021-04-02 09:41:44+02:00,TRUE
+7716755d0e921712df27861319fefb8db7c308c4,"DOCS Update readme, index and about page, edits to usage docs (#1420)",2021-04-07 00:11:00+02:00,TRUE
+6fd605e43641be57f950f239a716f49b40f0d766,FAQ pickle to send objects from server to client (#1451),2021-04-12 09:34:02-07:00,FALSE
+cae11abf784de29dcd12f5461c499e2f0fb74baa,"DOC Make dev documentation consistent + version warnings (#1479)
+
+Co-authored-by: Hood Chatham <roberthoodchatham@gmail.com>",2021-04-17 19:18:52+02:00,FALSE
+c49dd7ad5f83b560dcad9c290716c63b1ac73942,Version 0.17.0 (#1515),2021-04-21 21:51:28+02:00,TRUE
+1d623f46901467a73879a070fa7f2b0f4a251de7,DOC Minor documentation improvements (#1522),2021-04-21 22:57:45+02:00,TRUE
+299e4d90476af6aa1cfb9b365ce770dd5274a3a8,DOC Add communication channels links (#1544),2021-04-28 15:48:54+02:00,FALSE
+b4f4bcffdcc556348e9bc9491aca1d28da9ad580,"Update to Python 3.9.5 (#1637)
+
+Co-authored-by: Roman Yurchak <rth.yurchak@gmail.com>",2021-06-19 15:49:25-07:00,FALSE
+66b33226ed654218f374cd9b6f91576080f3ff05,Release src/js as a npm package (#1762),2021-07-31 20:46:22+02:00,FALSE
+89682dabfe32cb9f6508a18a5e838e349801675a,"DOC Replace ""Javascript"" with ""JavaScript"" in documents and comments [skip ci] (#1860)",2021-09-29 10:01:53+02:00,FALSE
+d00fa5d9a46cd04a4575b2001ed5f84af0f8f36e,DOC Mention Emscripten more (#1947),2021-11-12 00:19:03+01:00,TRUE
+20d760ea7c8de6c8f9ef8a4ca431c5eed1f125da,Typo and grammar fixes (#1959),2021-11-14 21:47:49+01:00,TRUE
+ea92661365688d335a7f8d7e891978b2562aadd3,"Replace ""PyPi"" to ""PyPI"" in docs and yaml (#1962)",2021-11-15 10:26:55+01:00,TRUE
+35620ef34d6fbec7318e2a34ede054c6b3437a03,"DOC Improve the documentation home page (#1958)
+
+* DOC Improve the documentation home page [skip CI]
+
+* Link to the blog [skip ci]
+
+* Apply suggestions from code review [skip ci]
+
+Co-authored-by: Jan Max Meyer <jmm@phorward.de>",2021-11-15 10:30:59+01:00,FALSE
+feeab0cf032a32e93cd154c360835236a5dbe261,Rewrite intro text (#2031),2021-12-13 09:36:35-08:00,TRUE
+729d54716b3246075237ce388be0922e6505570c,DOCS Fix capitalization of package names in readme [skip ci] (#2068),2021-12-26 12:46:03-08:00,TRUE
+cdc59accf33d4b5b5d8e1dada0fe202e344a9327,DOCS Edits and updates (#2756),2022-06-21 20:15:37-07:00,FALSE

@@ -1,0 +1,127 @@
+sha,message,date,result
+09efe47ce184646ac01ca0c1fa41146c96846a8c,Adicionando licença e descrição,2015-03-03 17:24:01-03:00,FALSE
+5b686784bd8ce79d2d38451e5fc58456124e0cad,Added more info to README.md,2015-04-22 14:01:59-03:00,FALSE
+b5e09c38b0bbebbbd2c8e7fbd37148f21a4c6ee4,"Update README.md
+
+Added ""criando um pagamento""",2015-04-22 14:08:55-03:00,FALSE
+961c43e312adaac5e1d6ce31588e1e43b5338214,"Update README.md
+
+Added ""Configurando sua autenticação""",2015-04-22 14:11:23-03:00,FALSE
+06f313e05ec63b163ece0e923983a29f3e7d41a5,"Update README.md
+
+fix identation",2015-04-22 14:17:25-03:00,FALSE
+e8f6294dd3b7ed3aac715bf593ea93f581026091,"Update README.md
+
+Added boleto",2015-04-22 14:20:15-03:00,FALSE
+5116ba2d1526c59f9a3111480dd1f2e13f5caa46,Update README.md,2015-06-08 21:21:51-03:00,FALSE
+6dfdd0a2f69966f40a281ebbe1200708d7ad4fa0,Update README.md,2015-06-10 18:04:20-03:00,FALSE
+95f2d9801e2b49ca3a7b51bf6c62931fd9de8e79,Update README.md,2015-06-10 18:04:27-03:00,FALSE
+6f5c801eb0fda7eb7e0641eba595787d158b8df9,publishing new version,2015-06-26 18:58:25-03:00,FALSE
+4242912d5c609e90787845876637ed2eda4ac9c7,Added Gitter badge,2015-08-03 22:45:45+00:00,FALSE
+ca19ae79e65350039fc51d29f25c026e51222042,Adicionando links para boleto,2015-09-02 16:13:54-03:00,FALSE
+ed9264ae9be3db6707baac5cbf75c321d27028de,Adicionando tratameto de erros inesperados e erros de validação,2015-09-17 08:54:37-03:00,FALSE
+38abf66a5b2429329b46b8f8471391017e49a74c,Alterando versao,2015-09-17 10:02:03-03:00,FALSE
+1bad68031770001a69725d26a58a526167e8e46a,bumping version,2015-09-21 15:31:52-03:00,FALSE
+8460422dd3b8847c2fc0eec67cd954017696a1cc,adding log to requested endpoint,2015-09-29 14:03:44-03:00,FALSE
+47b0ad0b206c1c70fa5af10b2dd8164a5ce3f4f2,bumping version,2015-09-29 15:40:59-03:00,FALSE
+e05d9655e02dda0707f2b14dba84fbaec89f0282,bumping version,2015-10-02 11:33:46-03:00,FALSE
+86b24fc63634e774e71e6521263bab8d68313b5d,bumping version,2015-10-02 17:31:41-03:00,FALSE
+f04ddf0bf5c8376f39f75dec39c32ebad3df05e5,Update README.md,2015-11-03 10:50:43-02:00,FALSE
+9522a4884bf9b4d7af8b68f6182b75ca16018bbb,Update README.md,2015-11-03 10:51:55-02:00,FALSE
+1cd3be0d34eeeedce43b4ff98e7d1dd89d7724b2,Changed README.md,2015-11-03 12:45:06-02:00,FALSE
+bd349a44fb4392c945315d17a8f2f224a5f54705,Update README.md,2015-11-03 15:48:38-02:00,FALSE
+afe5fc7bb350b5e407d8baa2aea0cf6d6eb0579b,Merge,2015-11-03 16:30:12-02:00,FALSE
+d2134cb6275ab618b6988d410c172388126ac23d,Update README.md,2015-11-12 14:33:39-02:00,FALSE
+c2cfc134a257349c5aaaefa8c6eacd3e3622d8b1,"Update README.md
+
+Updating doc after refactorings.",2016-04-25 13:36:56-03:00,FALSE
+0b07f860252da208af1f0f58358c6237ec3985ba,Correcting reference to point to existing SDK version,2017-01-24 11:12:51-02:00,FALSE
+fbf6349d72cf2cab6b06827c592c2482dc50a7ac,Inclusão de atributos do order,2017-02-22 16:18:57-03:00,FALSE
+2437ed0f500b8b2c71b0a83f37fffa0b8f610887,maven dependency atualizado,2017-03-30 11:23:10-03:00,FALSE
+eb90b2ea2d8b8fc220480e5cc311c1a0c0ff88cb,Correcting and improving README.md,2017-07-20 23:59:13-03:00,FALSE
+8f75e2302fba2393f9205d4399e76abc9e891a90,Improving README.md,2017-07-22 12:42:31-03:00,FALSE
+ea7ab1275aa7173ce6ec59475550e870a81d99d4,Updating Readme,2017-08-02 09:52:57-03:00,FALSE
+7d35bcc235b0dd7579d08935ccb49915f387d347,Updating and fixing Readme,2017-08-02 10:44:54-03:00,FALSE
+0991825a8d02c2b3891a8312b8ae2e11ff6c6c08,Fixing code spacing,2017-08-02 11:30:30-03:00,FALSE
+4d55353375a1e928c578e50f5da99d70b94d2337,Fixing code spacing,2017-08-02 11:34:30-03:00,FALSE
+c225f12a6c049441b5f6b9d8bbf00faab61cc914,Updating Readme,2017-08-14 15:55:17-03:00,FALSE
+13357c359e76c1c70c70a5aa361ef172a5d6077e,Updating and fixing Readme,2017-08-14 15:55:17-03:00,FALSE
+f938d3e5f169b79dcc0f8c6b652cbe9470ab606c,Fixing code spacing,2017-08-14 15:55:17-03:00,FALSE
+1f4feb710d4ba80e05832082bbd2627a92abc59e,Fixing code spacing,2017-08-14 15:55:17-03:00,FALSE
+bdf6a4681c5658ee5321c2ced67a25e25726c286,"refactor: Add notification preference to README and fix API class
+
+Add notification preference to README and fix API class",2017-08-30 15:06:18-03:00,FALSE
+5d1ae87f7ef3a796a6b0e4744791426eb91bb5df,"feat: Add refund method to API and update docs
+
+Add refund method to API and update docs",2017-08-30 16:14:32-03:00,FALSE
+f903263f033894ceb565c227a21a0609908bff7d,"docs(README): Fix menu
+
+Fix menu",2017-08-30 16:23:48-03:00,FALSE
+c33feeec9708d5fe06258827fbe3fe5d638827f8,"docs(README): Update readme
+
+Update readme",2017-08-30 16:30:47-03:00,FALSE
+95d0550eac7e7885164797a0cad0b7d6a179d2f1,"docs(README): Fix readme
+
+Fix readme",2017-08-30 16:34:17-03:00,FALSE
+77bc97fadb99062bf3a53c075923896a1f7da968,"docs(README): Fix README
+
+Fix README",2017-08-30 16:36:54-03:00,FALSE
+5830c1c91b243151c358d5de77b83c18ef760774,docs(README): Add examples of new SDK features,2017-08-31 14:54:06-03:00,FALSE
+497e29ccb3bc072a0c1a30231f0794cceaeb4666,docs: Update readme,2017-09-11 08:48:22-03:00,FALSE
+391bc4deea6cb33629908c0654f13e4f72c034ee,ci: Fix Readme and setting to travis-ci,2017-09-12 15:32:15-03:00,FALSE
+1bd743b8d6d2c39c8cf30d71e407ce86312e105d,ci: Fix Readme and setting to travis-ci,2017-09-14 12:39:52-03:00,FALSE
+791621dc9a07f31cb12441f63abcbe7ae297cb79,"docs(README): Update README with examples to get payment links
+
+Update README with examples to get payment links",2017-09-15 10:10:13-03:00,FALSE
+bc5c5a27ef731add038479812b0e76ddf87b0580,"docs: Update readme
+
+Update readme",2017-09-18 10:14:18-03:00,FALSE
+679dcc597e7412c75dcbda1ab56955e5d4ff2efb,chore: release v3.2.0,2017-09-28 15:34:37-03:00,FALSE
+a7c3e961f5ba3e9d34dc80e5e2c86bff5d94bf15,"docs: Update readme
+
+Update readme",2017-10-16 07:49:57-02:00,FALSE
+99dc90cbb59a381b1d9a5b79c59ab7e3a270f439,"feat(Multipayment): Added method 'cancelPreAuthorized' to cancel pre authorized payments
+
+Added method 'cancelPreAuthorized' to cancel pre authorized payments",2017-10-16 07:49:57-02:00,FALSE
+b2674c5abd6e50beb02d47afa087d5fb07b20663,"docs: Update readme
+
+Update readme",2017-10-16 07:49:57-02:00,FALSE
+eb22d607cb533575cc0b0ae2677eb3e02b60e439,Update Readme for bank accounts.,2017-10-27 15:09:21-02:00,FALSE
+5ef3efad4e850c03fa08a35c8eef577eb565458c,Fixes README bankaccounts links.,2017-10-27 15:09:21-02:00,FALSE
+f6076ab8f4122ea44a9bfb1724c8eb5369cbae3a,Fixes README bankaccounts examples.,2017-10-27 15:09:21-02:00,FALSE
+1350ebf94c659b2a4cb0fcd2ae7ac5c8b2febd19,"style: Fixing Indentation
+
+Fixing Indentation",2017-10-27 15:09:21-02:00,FALSE
+58792378e9dfcd1a6ed15116a99eaafc85e2e898,bump version to 3.4.0,2017-11-08 09:37:37-02:00,FALSE
+c7802d374e5dd14dccb380eb7218f559463dd525,docs: fixed README,2017-11-08 11:39:08-02:00,FALSE
+ff461273af7c09d47be0a06391eb71e152c4feb6,bump version to 3.4.0,2017-11-08 15:07:18-02:00,FALSE
+42a4050007b97d3e026d4e0d9bc9181783efc255,docs: fixed README,2017-11-08 15:07:18-02:00,FALSE
+fd81d66616b8bf666ebdc02dbe06b789e96121bf,docs: Fix README,2017-11-13 14:30:23-02:00,FALSE
+87374a557f1c8fe1b619a34d4d36ac68bc67c0df,docs(README): fix create and get Bank Account examples,2017-11-27 09:11:29-02:00,FALSE
+1ff3a376c1801fb155e70ea1044f1791bd61ec1a,docs(README): fix the others bank account examples,2017-11-27 10:07:38-02:00,FALSE
+1f9357ade4eb11987a9552ad3a7d59205242763b,feat(transfers): adds create and revert a transfer,2017-11-28 09:02:28-02:00,FALSE
+1ad98e15e34ef874e86ba7e2083d1f5fec32d7c8,feat(transfer): adds reverse a transfer,2017-11-28 15:05:49-02:00,FALSE
+5f274c522eae268f435d620e5ccb6022b06e3c7c,"feat(transfer): adds MoipAccountRequest, fix some parameters and fix Transfer examples",2017-11-29 10:09:34-02:00,FALSE
+eb808b035d4c068596429c45f1807a43284f46c9,docs(README): fix index,2017-11-29 11:24:21-02:00,FALSE
+802044805740c06035198382c0d46bf495953dfd,docs: add examples to README,2017-11-30 16:57:42-02:00,FALSE
+95147788f9c211ec9de552ced469fe3655ec705d,chore: Bump version to v3.5.0,2017-12-05 10:45:59-02:00,FALSE
+61a54298a819f7633b75d99b3607d4b14ff044c1,docs: fix release version,2017-12-05 15:19:23-02:00,FALSE
+fc055c920c62f4a5371f91f13c92c9539dfeffaf,chore: Bump version to v3.5.0,2017-12-07 18:54:56-02:00,FALSE
+b27127dc7e8ab66c5713e01191931ef77415622e,docs: fix release version,2017-12-07 18:54:56-02:00,FALSE
+8cdb0988e6922f03ad9e941b48732321216ebcce,feat(entry): adds entry feature and your own resources,2018-01-09 10:34:15-02:00,FALSE
+a5eea3c4953c98ae7ef521332bc93cfe824eaa52,style(README): fix parameters spacing,2018-01-11 14:47:20-02:00,FALSE
+e345745f11a0dc3081745068cd7eefb61a574f8d,docs: adds balances section,2018-01-17 17:57:53-02:00,FALSE
+6c4d197062f13c2f7d50b89f62fc61a2b851cf09,docs: documents the refunds listing feature,2018-01-24 15:46:15-02:00,FALSE
+fe90f5e062d7056b4cb0d342988d53536dddc598,chore: Bump version to v4.1.0,2018-02-06 11:44:32-02:00,FALSE
+eda2ec828ddf6b4e523aa0b000b5a090507a0ed2,docs(README): fix indentation,2018-02-15 09:52:22-02:00,FALSE
+6d1338a49e01dde6770111aa1d21a732630ee71a,docs(transfer): adds example,2018-02-28 11:08:10-03:00,FALSE
+f57c32d8a449663b588bca650a2cbfe01e5ce8fc,add docs,2018-03-02 09:59:30-03:00,FALSE
+34bede50b92278d32f1f15fe5d897669d17881ee,add docs,2018-03-02 17:27:28-03:00,FALSE
+2ff4443274d1b0aa01165528ffcf25dacf0d7455,Adding slack link,2018-03-13 14:06:31-03:00,FALSE
+81f6966161337d0c4d00f465fa49ae1a74a10d4f,Adding slack link,2018-03-13 14:07:57-03:00,FALSE
+afa7a246e7bb42e52168e1caeec8ce936895b5c7,test,2018-03-21 18:10:41-03:00,FALSE
+d3b63b543ded2a04be2f04d1c85e013b800c58a6,docs(README): complete and translate the documentation,2018-04-02 09:00:27-03:00,TRUE
+a5a6bd28afce5f2afaf8d62565126a483318e2d8,docs(README): adds index,2018-04-02 10:03:20-03:00,FALSE
+55dae030c3c1150582b11f14a849b2aeb57edfec,docs(README): grammar adjust,2018-04-04 09:50:40-03:00,TRUE
+0450153e08073755df2078e1998ab5a3d63b8742,Adicionado Debit Mpos e alterado metodos para criacao de mpos,2021-03-08 16:47:38-03:00,TRUE
+40b26dbce80e92f089bc4b5ffa6b3f652e486454,Acrescentar endpoint para obter token plugpag v2 na java-sdk,2021-05-06 11:55:33-03:00,TRUE

@@ -1,0 +1,124 @@
+sha,message,date,result
+cefcd4ff4f192427ad028d56e8a1e647567fcfa7,Initial commit,2017-12-13 15:25:24+00:00,True
+d21e5485732f7f7d236af1e32ce589e2b1b96138,docker IT changes (#4),2017-12-16 20:19:11+00:00,False
+4fd7a47b5c79ed12a7384e45cbd78f513357861d,README Update,2018-01-12 09:56:48+00:00,True
+bb0dcc8f0d1fde568edaa7fdba30c60bccfe2cb8,"Readme.md update
+
+
+
+Former-commit-id: a4dab0d19c4829b2e66cdc9f1a63a377f42f55e1",2018-03-02 21:11:43+00:00,False
+023c81aec402b8e0a7d5b4e9667c18b402304c62,"Replace Maven for Gradle
+
+Former-commit-id: f60c28c44d9a038c68224c56e1762bb0f6078282",2018-04-04 14:58:45+01:00,False
+374a4edd50ca2d89d2744cca570cdc062a1f3948,"Hide Azure Blob Store connection string
+
+
+Former-commit-id: 3708952e3d93e8b51caedcfd43034c655089ca3d",2018-09-12 16:10:40+01:00,True
+88bfa9f819246362778c860cca2dd2d3d5d1c643,"Cleanup: bash section formating
+
+Former-commit-id: fb5c2b26c343fe68832819b74c47a5e1de173f04",2019-04-01 18:19:38+01:00,True
+4e3555eebccc79f9e93be30b0f2471e795d01373,"Set max allowed request content length for web server
+
+
+Former-commit-id: 7602a48e06d948575a109670e3daf5ea1677417f",2019-04-25 09:57:55+01:00,False
+849a8f1532c0c86c06b4d6238ff5797d0e3f1e99,"Update default MAX_FILE_SIZE to 100MB
+
+
+Former-commit-id: 1570c2e248f9174e8801d61a8ca49e788f226f3c",2019-04-25 11:53:02+01:00,True
+2f93d66a6b0b8424bb0b8b3993f5827f75bb4589,"em-2000
+
+
+Former-commit-id: 5a877f3398394ce824d1a47614ba43378d79a811",2019-09-30 16:45:45+02:00,True
+6e298c5786a28d6da87cdd87c7fce39a1dda2f87,"fixes
+
+
+Former-commit-id: 0b7b4ec7150fbf96fcd53669c13938709b708d03",2019-10-15 15:22:41+02:00,True
+e64bc4a6a5f5fe771783b2ac5fd7253f27b7b0e1,"Shedlock (#483)
+
+* fixed TTL
+
+* fixes
+
+* fixes
+
+* fixes
+
+* fixes
+
+* fixes
+
+* removed snyk - refresh
+
+* adding batch records cleanup
+
+* batch execution rows deleted every 1 min
+
+* f-tests fixes
+
+* quality fixes
+
+* fixes
+
+Co-authored-by: Linus Norton <linusnorton@gmail.com>
+
+Former-commit-id: 054a2acca6a3ae54091e2540557f10e3707c4698",2020-01-10 13:13:56+00:00,False
+35b7db621948d4acfdd6c74495c234646ca25307,"Revert ""Shedlock (#483)"" (#495)
+
+This reverts commit e64bc4a6a5f5fe771783b2ac5fd7253f27b7b0e1 [formerly 054a2acca6a3ae54091e2540557f10e3707c4698].
+
+Former-commit-id: 7fd7f0aefb27cf923885982951a5cadf934506af",2020-01-13 16:49:59+00:00,False
+95676bbf99eaa906a0c559fa924b09cdf95f189a,"Revert ""Revert ""Shedlock (#483)"" (#495)"" (#496)
+
+* Revert ""Revert ""Shedlock (#483)"" (#495)""
+
+This reverts commit 35b7db621948d4acfdd6c74495c234646ca25307 [formerly 7fd7f0aefb27cf923885982951a5cadf934506af].
+
+* ignore blob 404s and ensure batch uses the same transaction manager
+
+
+Former-commit-id: 193d8c1163aab71e09f77105911e77af74b2d52f",2020-01-24 13:57:44+00:00,False
+150a85654cdaa3f0b9d2117b0cfab218c34667ab,"Revert ""Revert ""Revert ""Shedlock (#483)"" (#495)"" (#496)""
+
+This reverts commit 95676bbf99eaa906a0c559fa924b09cdf95f189a [formerly 193d8c1163aab71e09f77105911e77af74b2d52f].
+
+
+Former-commit-id: 2581cc2693f427df955a4029be83c7a677c473a6",2020-01-27 11:51:59+00:00,False
+a7245c7a33ed60316d7cacb2fb2c438bca7e2593,"Another ttl branch (#506)
+
+TTL again
+
+Former-commit-id: 6a0a0ef33cff7e380c9895bb026fe7396cb0af3a",2020-01-27 14:13:11+00:00,False
+cf7662b7429a9cf32ed3580f0f5410b02450ae99,"EM-3029 : Updated ReadME
+
+
+Former-commit-id: 18df43dce372e76d8692d8d6fb7a2215d52a8463",2020-07-30 15:34:07+01:00,True
+278e00db4b23efb69adcb2513b0f5332c6e311b6,"Updating Readme and adding supression for tomcat
+
+
+Former-commit-id: c460778e06fff7775b7eae6b005a33bd94781c91",2020-11-05 11:47:40+00:00,True
+72f6284f3e7a622896b1a258d7565d208c6165ac,"EM-3290 - Dm-store API - Update local environment setup instructions in README
+
+
+Former-commit-id: ece710ca43d87b725f6e644bc88129e1f3d3940d",2020-12-15 15:55:29+00:00,True
+93fca16b746ff60e5963442a289ba6637a054cd6,"Update README.md
+
+Former-commit-id: 161341925de2cdc11c27aa98d5afe74b2c84aab3",2021-02-15 18:37:31+00:00,False
+0c146aa81f5902fcb236e2c3ccc5172c499d376f,"update readMe
+
+
+Former-commit-id: 556978526f217d28489f7cb136f7cea8028f2cee",2021-02-16 13:05:07+00:00,True
+e89e8b28e17ece7a7024476228b0aab5b61074ee,"Enable Swagger documentation endpoint
+
+
+Former-commit-id: b87da0921c5ba75f68352dadcc37d5ac7ba753ba",2021-06-16 10:11:28+01:00,True
+e1a94d87cbbffac95993659a40f0954433e7279e,"Update port after code review comment
+
+
+Former-commit-id: 5eacb25a0160e99401cc9b6d75897f963741e927",2021-06-16 11:09:34+01:00,True
+64a7fd44180f2335dcc7806f4c25d4638df40d9a,Checking PR build,2021-11-11 16:37:45+00:00,True
+96a6e0b0953dcbee99633c1db73b8c27d721b4a6,Disabled metadatamigration as default,2021-11-11 18:35:16+00:00,True
+88337f8ad3ee1a300b374f3f7b54b2b19aef9c35,Updated Swagger doc,2022-04-26 20:39:24+01:00,True
+6aa11b091935b22ae9dc8d3f8639dbd2382e0723,Updated Swagger doc,2022-04-27 07:50:36+01:00,True
+e2b58b82c1faae854cc695a3e2a4f27ffc23c08e,Updated README,2022-05-03 15:12:30+01:00,True
+f1e4d10a44cb7e8d77408bce720a0ee8ab300d3d,Updated README,2022-05-03 15:29:20+01:00,True
+af5a520c68fdf43b5db9f6f14fca67319ecead37,Resolved batch related tables local setup issue,2022-06-27 11:51:32+01:00,True
