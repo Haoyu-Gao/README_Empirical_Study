@@ -1,6 +1,6 @@
 # README_Empirical_Study
 
-This is the GitHub repository replication package for paper **"Add more config detail": A Taxonomy of Installation Instruction Changes** under submission of Transaction on Software Engineering.  
+This is the GitHub repository replication package for paper **"Add more config detail": A Taxonomy of Installation Instruction Changes** under submission to Transaction on Software Engineering.  
 
 
 ## Folders walkthrough
