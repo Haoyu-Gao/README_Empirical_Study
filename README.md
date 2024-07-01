@@ -15,7 +15,7 @@ In our results analysis, we provide 35 examples explaining our codes and categor
 If you are interested in our coding process, or would like to reuse our data, `Qualiatative Result Example/Qualitative Analysis Raw Data and Codes.xlsx` provides two spreadsheets. Sheet `RQ-instance-coding` gives information on how we assign codes to each piece of data. Sheet `RQ-code-concept-category` provides the detail of each code, concept and category.``
 
 ### Survey Validation
-In the paper, we provided a README template, aiming to help practitioners perform documentation maintenance. To validate this template, we applied this template on raw documents to form "augmented documents". These documents were provided to online participants with IT backgrounds to evaluate on 10 dimensions. The documents as well as a screenshot of one survey is attached in this folder. Please refer to our paper for more details.
+In the paper, we provided a README template, aiming to help practitioners perform documentation maintenance. To validate this template, we applied this template on raw documents to form "augmented documents". These documents were provided to online participants with IT backgrounds to evaluate on 10 dimensions. The documents as well as a screenshot of one survey is attached in this folder. The participants' response is recorded and organised in `sample.xlsx`.Please refer to our paper for more details.
 
 ### Citation
 If you use our provided data or results, please cite our paper
