@@ -4,6 +4,10 @@ This is the GitHub repository replication package for paper **"Add more config d
 
 
 ## Folders walkthrough
+
+### Repository dataset
+`installationrelevant_README_repositories.xlsx` contains all the repositories after our data collection process. These repositories contains README document updates relevant to installation-related process. Following our process of identifying installation-related updates should recover the exact README updates. 
+
 ### Code folder
 Folder `Code` contains several components, including mining software repositories (`Code/data_collection`), and README commit filter and statistical analysis (`Code/analysis`). Folder `Code/qualitative_analysis_samples` contains our cluster sample repositories splitted into four buckets. Folder `Code/commit_annotation` gives the annotation of all commits for our samples as "relevant" or "irrelevant" 
 
