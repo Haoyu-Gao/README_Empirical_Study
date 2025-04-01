@@ -1,6 +1,6 @@
 # README_Empirical_Study
 
-This is the GitHub repository replication package for paper **"Add more config detail": A Taxonomy of Installation Instruction Changes** under submission to IEEE Transactions on Software Engineering.  
+This is the GitHub repository replication package for paper **Adapting Installation Instructions in Rapidly Evolving Software Ecosystems* accepted to be published in IEEE Transactions on Software Engineering.  
 
 
 ## Folders walkthrough
@@ -22,12 +22,13 @@ If you are interested in our coding process, or would like to reuse our data, `Q
 In the paper, we provided a README template, aiming to help practitioners perform documentation maintenance. To validate this template, we applied this template on raw documents to form "augmented documents". These documents were provided to online participants with IT backgrounds to evaluate on 10 dimensions. The documents as well as a screenshot of one survey is attached in this folder. The participants' response is recorded and organised in `sample.xlsx`.Please refer to our paper for more details.
 
 ### Citation
-If you use our provided data or results, please cite our paper
+If you find our research interesting, and would like to reuse some part of the results / data, please cite our paper
 ```
-@article{gao2023add,
-  title={" Add more config detail": A Taxonomy of Installation Instruction Changes},
+@article{gao2025adapting,
+  title={Adapting Installation Instructions in Rapidly Evolving Software Ecosystems},
   author={Gao, Haoyu and Treude, Christoph and Zahedi, Mansooreh},
-  journal={arXiv preprint arXiv:2312.03250},
-  year={2023}
+  journal={IEEE Transactions on Software Engineering},
+  year={2025},
+  publisher={IEEE}
 }
 ```
