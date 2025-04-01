@@ -1,6 +1,6 @@
 # README_Empirical_Study
 
-This is the GitHub repository replication package for paper **Adapting Installation Instructions in Rapidly Evolving Software Ecosystems* accepted to be published in IEEE Transactions on Software Engineering.  
+This is the GitHub repository replication package for paper **Adapting Installation Instructions in Rapidly Evolving Software Ecosystems** accepted to be published in IEEE Transactions on Software Engineering.  
 
 
 ## Folders walkthrough
